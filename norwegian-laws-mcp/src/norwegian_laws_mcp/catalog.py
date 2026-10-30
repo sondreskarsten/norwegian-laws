@@ -8,6 +8,9 @@ from dataclasses import dataclass, field
 
 from .errors import ResolveError
 
+if False:  # typing only
+    from .repo import Commit
+
 AMENDMENT_TITLE_RE = re.compile(
     r"^(endr\.|endringslov|endringsforskrift|forskrift om endring|lov om endring|"
     r"lov om endringer|forskrift om endringer|ikrafts|ikraftt|delvis ikraft|opphev)",
@@ -44,6 +47,17 @@ class Entry:
     eli: str = ""
     names: list[str] = field(default_factory=list)
     alt_names: list[str] = field(default_factory=list)
+    removed_at: str = ""
+    removed_commit: str = ""
+    removed_subject: str = ""
+
+    @property
+    def removed(self) -> bool:
+        return bool(self.removed_commit)
+
+    @property
+    def last_version_rev(self) -> str:
+        return f"{self.removed_commit}^" if self.removed_commit else "HEAD"
 
     @property
     def is_amendment_act(self) -> bool:
@@ -64,6 +78,12 @@ class Entry:
         return None
 
     def summary(self) -> dict:
+        if self.removed:
+            return {**self._summary_base(), "removed_from_corpus": self.removed_at[:10],
+                    "removed_in_commit": self.removed_commit[:10]}
+        return self._summary_base()
+
+    def _summary_base(self) -> dict:
         return {
             "refid": self.refid,
             "kind": self.kind,
@@ -84,6 +104,39 @@ def _short_names(korttittel: str) -> list[str]:
         return []
     parts = re.split(r"\s+[–—-]\s+", korttittel)
     return [norm(p) for p in parts if p.strip()]
+
+
+def entry_from_front_matter(path: str, meta: dict, removed: "Commit | None" = None) -> Entry:
+    """Build an entry for a document that is no longer in laws.json from its last front matter."""
+    refid = str(meta.get("refid") or "")
+    kind = "lov" if path.startswith("lover/") else "forskrift"
+    dept = meta.get("departement") or []
+    if isinstance(dept, str):
+        dept = [dept]
+    raw = {
+        "refid": refid, "kind": kind, "path": path, "file": path.rsplit("/", 1)[-1],
+        "tittel": str(meta.get("tittel") or ""), "korttittel": str(meta.get("korttittel") or ""),
+        "aliases": [], "departement": list(dept), "ikrafttredelse": str(meta.get("ikrafttredelse") or ""),
+        "sist_endret": str(meta.get("sist-endret") or ""), "github": "",
+        "lovdata": f"https://lovdata.no/dokument/{'NL' if kind == 'lov' else 'SF'}/{refid}" if refid else "",
+        "amendments": 0, "historie": None, "eli": str(meta.get("eli") or ""),
+    }
+    entry = entry_from_json(raw)
+    if removed is not None:
+        entry.removed_at = removed.date
+        entry.removed_commit = removed.sha
+        entry.removed_subject = removed.subject
+    return entry
+
+
+def refid_to_path(ref: str) -> str | None:
+    """'lov/1985-06-21-78' -> 'lover/lov-1985-06-21-78.md' when ref is a refid in any spelling."""
+    key = normalize_refid(ref)
+    m = re.match(r"^(lov|forskrift)/(\d{4}-\d{2}-\d{2}(?:-\d+)?)$", key)
+    if not m:
+        return None
+    folder = "lover" if m.group(1) == "lov" else "forskrifter"
+    return f"{folder}/{m.group(1)}-{m.group(2)}.md"
 
 
 def entry_from_json(raw: dict) -> Entry:

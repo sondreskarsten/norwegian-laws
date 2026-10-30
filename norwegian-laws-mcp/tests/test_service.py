@@ -46,18 +46,18 @@ def test_find_definition_ranks_definition_phrase_first(service):
 
 
 def test_recent_changes_window_and_filters(service):
-    res = service.recent_changes("2026-02-15", None, None, None, None, True, 50)
+    res = service.recent_changes("2026-02-15", "2026-03-10", None, None, None, True, 50)
     assert [c["sha"][:4] for c in res["commits"]] and len(res["commits"]) == 1
     statuses = {d["path"]: d["status"] for d in res["text_documents"]}
     assert statuses["lover/lov-2025-06-20-105.md"] == "modified"
     assert statuses["forskrifter/forskrift-2026-01-01-1.md"] == "added"
     everything = service.recent_changes("2025-12-01", None, None, None, None, True, 50)
-    assert len(everything["commits"]) == 3
+    assert len(everything["commits"]) == 5
     assert any(d["path"] == "historie/aksjeloven.md" for d in everything["amendment_record_files"])
     filtered = service.recent_changes("2025-12-01", None, None, None, "enhetsregister", True, 50)
     assert {d["refid"] for d in filtered["text_documents"]} >= {"lov/2025-06-20-105", "forskrift/2025-08-06-1610"}
     assert all(d["refid"] != "lov/1997-06-13-44" for d in filtered["text_documents"])
-    none = service.recent_changes("2026-03-02", None, None, None, None, True, 50)
+    none = service.recent_changes("2026-04-02", None, None, None, None, True, 50)
     assert none["commits"] == [] and "No commits" in render.recent_changes(none)
     assert "modified" in render.recent_changes(res)
 
@@ -68,11 +68,11 @@ def test_document_history_and_diff(service):
     assert hist["commits"][0]["added"] == 1 and hist["commits"][0]["deleted"] == 1
     diff = service.diff_document("enhetsregisterloven", "2026-02-15", "HEAD", None, 1, 20000)
     assert diff["changed"] and "+(2) Hver underenhet" in diff["diff"]
-    sec = service.diff_document("enhetsregisterloven", "HEAD~1", "HEAD", "§ 4-7", 1, 20000)
+    sec = service.diff_document("enhetsregisterloven", "HEAD~3", "HEAD", "§ 4-7", 1, 20000)
     assert sec["changed"] and "registerføreren" in sec["diff"]
-    unchanged = service.diff_document("enhetsregisterloven", "HEAD~1", "HEAD", "§ 1-1", 1, 20000)
+    unchanged = service.diff_document("enhetsregisterloven", "HEAD~3", "HEAD", "§ 1-1", 1, 20000)
     assert not unchanged["changed"]
-    before = service.diff_document("enhetsregisterforskriften", "HEAD~2", "HEAD", None, 1, 20000)
+    before = service.diff_document("enhetsregisterforskriften", "HEAD~4", "HEAD", None, 1, 20000)
     assert not before["from"]["existed"] and before["to"]["existed"] and before["changed"]
     assert "```diff" in render.diff(diff)
 
@@ -109,7 +109,7 @@ def test_repo_status(service):
     res = service.repo_status()
     assert res["documents"] == {"total": 4, "lover": 2, "forskrifter": 2}
     assert res["last_lovdata_update_commit"]["subject"].startswith("Oppdater")
-    assert res["commits_in_history"] == 3
+    assert res["commits_in_history"] == 5
     assert "Repository status" in render.status(res)
 
 
@@ -128,7 +128,7 @@ def test_dates_before_history_are_clamped_and_labelled(service):
     assert "requested '2020-01-01'" in text and "Data coverage and limits" in text
     future = service.diff_document("enhetsregisterloven", "HEAD~1", "2030-01-01", None, 1, 20000)
     assert future["to"]["clamped_to_head"]
-    same = service.diff_document("enhetsregisterloven", "2026-03-01", "HEAD", None, 1, 20000)
+    same = service.diff_document("enhetsregisterloven", "2026-04-01", "HEAD", None, 1, 20000)
     assert not same["changed"] and any("same commit" in n for n in same["limitations"])
 
 
@@ -139,7 +139,7 @@ def test_window_limitations_and_commit_kinds(service):
     assert res["coverage"]["first_commit"]["date"].startswith("2026-01-01")
     statuses = {d["path"]: d["status"] for d in res["text_documents"]}
     assert statuses["lover/lov-2025-06-20-105.md"] == "added → modified"
-    empty = service.recent_changes("2026-03-02", None, None, None, None, True, 50)
+    empty = service.recent_changes("2026-04-02", None, None, None, None, True, 50)
     assert any("'No change'" in n for n in empty["limitations"])
     assert "[pipeline]" in render.recent_changes(res)
     hist = service.document_history("enhetsregisterloven", None, None, 10)
@@ -164,3 +164,32 @@ def test_inline_amendment_notes_are_extracted():
     from norwegian_laws_mcp.history import inline_amendment_notes
     lines = ["#### § 3-1. Plikt", "", "Tekst.", "", "*Endret ved lover 10 des 2004 nr. 81 (ikr. 1 jan 2005), 30 juni 2006 nr. 38.*", "*Ikke en note*"]
     assert inline_amendment_notes(lines) == ["Endret ved lover 10 des 2004 nr. 81 (ikr. 1 jan 2005), 30 juni 2006 nr. 38."]
+
+
+def test_removed_document_resolves_with_last_text_and_removal_label(service):
+    res = service.get_document("lov/1985-06-21-78", "§ 8-3", "text", 0, 5000)
+    assert res["document"]["removed_from_corpus"] == "2026-04-01"
+    assert "navnevern" in res["text"]
+    assert any("no longer in Lovdata's current corpus" in n for n in res["provenance"]["limitations"])
+    text = render.document(res)
+    assert "REMOVED from the current corpus 2026-04-01" in text and "last observed version" in text
+    assert service.resolve("Foretaksregisterloven – fregl").refid == "lov/1985-06-21-78"
+    items = service.search_documents("registrering av foretak", None, 5, True, include_removed=True)
+    assert any(i["refid"] == "lov/1985-06-21-78" and i.get("removed_from_corpus") for i in items)
+    assert not any(i["refid"] == "lov/1985-06-21-78" for i in service.search_documents("registrering av foretak", None, 5, True))
+
+
+def test_dated_read_returns_text_as_committed(service):
+    res = service.get_document("enhetsregisterloven", "§ 4-7", "text", 0, 5000, at="2026-02-15")
+    assert "registerføreren" not in res["text"]
+    assert res["provenance"]["source"].startswith("observed consolidated text")
+    assert any("not the text legally in force" in n for n in res["provenance"]["limitations"])
+    with pytest.raises(ResolveError, match="was not in the corpus"):
+        service.get_document("enhetsregisterforskriften", None, "text", 0, 5000, at="2026-01-15")
+
+
+def test_repo_status_counts_removed_and_states_scope(service):
+    res = service.repo_status()
+    assert res["removed_documents"] == 1
+    assert "Stortingsvedtak" in res["corpus_scope"]
+    assert "removed from the corpus" in render.status(res)

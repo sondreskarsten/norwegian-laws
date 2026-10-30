@@ -38,6 +38,8 @@ def _doc_line(d: dict) -> str:
         extra.append(f"last amended by {d['last_amended_by']}")
     if d.get("amendment_records"):
         extra.append(f"{d['amendment_records']} amendment records")
+    if d.get("removed_from_corpus"):
+        extra.append(f"REMOVED from the current corpus {d['removed_from_corpus']}")
     tail = f" — {'; '.join(extra)}" if extra else ""
     return f"**{title}** `{d['refid']}` ({d['kind']}, `{d['path']}`){tail}"
 
@@ -53,7 +55,13 @@ def search_documents(query: str, items: list[dict]) -> str:
 
 def document(res: dict) -> str:
     d = res["document"]
-    head = [f"# {d.get('title') or d['refid']}", f"{_doc_line(d)}", f"Lovdata: {d['lovdata']}", ""]
+    head = [f"# {d.get('title') or d['refid']}", f"{_doc_line(d)}", f"Lovdata: {d['lovdata']}"]
+    prov = res.get("provenance") or {}
+    if prov.get("rev"):
+        head.append(f"Text source: {prov['source']} (`{prov['rev'][:10]}`, {str(prov.get('date') or '')[:10]})")
+    for note in prov.get("limitations") or []:
+        head.append(f"Limit: {note}")
+    head.append("")
     if res["mode"] == "metadata":
         head.append("## Front matter")
         for k, v in res["front_matter"].items():
@@ -251,5 +259,7 @@ def status(res: dict) -> str:
         u = res["last_update_check"]
         lines.append(f"- Last update check: {u['checked_at']} ({'new commits' if u['changed'] else 'no change'})")
     lines.append(f"- Parsed amendment records: Norsk Lovtidend avd. I from {res['lovtidend_from_year']}")
+    lines.append(f"- Documents removed from the corpus over the branch history: {res['removed_documents']} (readable with laws_get_document; list with laws_search_documents include_removed=true)")
+    lines.append(f"- Corpus scope: {res['corpus_scope']}")
     lines += _limits({"coverage": res["coverage"]})
     return "\n".join(lines)

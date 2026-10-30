@@ -6,7 +6,7 @@ import re
 import threading
 
 from . import history, search
-from .catalog import Catalog, Entry
+from .catalog import Catalog, Entry, entry_from_front_matter, norm, refid_to_path
 from .errors import LawsError, ResolveError
 from .markdown import get_section, normalize_section_key, outline, parse_document, parse_front_matter
 from .repo import CATALOG_FILE, DOC_DIRS, HISTORIE_DIR, Repo, RevInfo
@@ -21,6 +21,11 @@ DATA_NOTE = (
 )
 
 LOVTIDEND_DEFAULT_FROM = 2001
+CORPUS_SCOPE = (
+    "The corpus is Lovdata's 'gjeldende lover' (acts in force) and 'sentrale forskrifter' (central regulations). "
+    "Not included: Stortingsvedtak such as the yearly avgiftsvedtak, local regulations, circulars, court decisions, "
+    "preparatory works, and repealed acts (which leave the corpus; their last observed text stays readable via Git history)."
+)
 MANIFEST_FILE = ".github/state/lovdata-manifest.json"
 
 
@@ -62,7 +67,47 @@ class LawsService:
             return self._catalog
 
     def resolve(self, ref: str) -> Entry:
-        return self.catalog().resolve(ref)
+        try:
+            return self.catalog().resolve(ref)
+        except ResolveError as exc:
+            removed = self.resolve_removed(ref)
+            if removed is None:
+                raise exc
+            return removed
+
+    def resolve_removed(self, ref: str) -> Entry | None:
+        """A document that left the current corpus: found by refid in Git history."""
+        path = refid_to_path(ref)
+        if path is None:
+            key = norm(ref)
+            for entry in self.removed_documents():
+                if key in set(entry.names) | set(entry.alt_names):
+                    return entry
+            return None
+        cached = self._removed_cache.get(path) if hasattr(self, "_removed_cache") else None
+        if cached is not None:
+            return cached
+        commit = self.repo.removal_commit(path)
+        if commit is None:
+            return None
+        meta, _ = parse_front_matter(self.repo.show(f"{commit.sha}^", path) or "")
+        entry = entry_from_front_matter(path, meta, commit)
+        self._removed_cache = getattr(self, "_removed_cache", {})
+        self._removed_cache[path] = entry
+        return entry
+
+    def removed_documents(self) -> list[Entry]:
+        """All documents deleted from lover/ and forskrifter/ in the branch history (cached per HEAD)."""
+        head = self.repo.head().sha
+        cache = getattr(self, "_removed_all", None)
+        if cache and cache[0] == head:
+            return cache[1]
+        entries = []
+        for path, commit in self.repo.removed_files(tuple(DOC_DIRS)):
+            meta, _ = parse_front_matter(self.repo.show(f"{commit.sha}^", path) or "")
+            entries.append(entry_from_front_matter(path, meta, commit))
+        self._removed_all = (head, entries)
+        return entries
 
     def resolve_many(self, refs: list[str] | None) -> list[Entry]:
         if not refs:
@@ -140,14 +185,70 @@ class LawsService:
 
     # -- tools -------------------------------------------------------------
 
-    def search_documents(self, query: str, kind: str | None, limit: int, include_amendment_acts: bool) -> list[dict]:
+    def search_documents(self, query: str, kind: str | None, limit: int, include_amendment_acts: bool,
+                         include_removed: bool = False) -> list[dict]:
         results = self.catalog().search(query, kind=kind, limit=limit, include_amendment_acts=include_amendment_acts)
+        if include_removed:
+            removed = Catalog(self.removed_documents()).search(query, kind=kind, limit=limit,
+                                                              include_amendment_acts=include_amendment_acts)
+            results = sorted(results + removed, key=lambda t: -t[0])[:limit]
         return [dict(score=round(s, 1), **e.summary()) for s, e in results]
 
-    def get_document(self, ref: str, section: str | None, mode: str, offset: int, max_chars: int) -> dict:
+    def document_text_at(self, entry: Entry, at: str | None, version: str | None) -> tuple[str, dict]:
+        """The Markdown of ``entry`` in the working tree, at a date/revision, at a yearly version,
+        or (for a removed document) its last observed version, with provenance labels."""
+        notes: list[str] = []
+        prov: dict = {"source": "current working tree", "rev": None, "date": None, "limitations": notes}
+        if version:
+            tags = self.repo.ensure_version_tags()
+            if version not in tags:
+                raise ResolveError(
+                    f"Version '{version}' is not a law-history tag. Available: "
+                    + (", ".join(tags[:40]) + (" ..." if len(tags) > 40 else "") if tags else "none fetched (is the law-history branch published?)"))
+            text = self.repo.show(version, entry.path)
+            info = self.repo.resolve_rev_info(version)
+            prov.update(source=f"law-history reconstruction {version}", rev=info.sha, date=info.date)
+            notes.append(
+                f"'{version}' is an unverified reconstruction on the law-history branch: built from the current "
+                f"consolidated text by applying parsed Lovtidend amendments, with inferred dates. It is not verified "
+                f"legal text for that year. The tag moves at every nightly rebuild; cite a 'history-YYYY-MM-DD' build tag.")
+            if text is None:
+                raise ResolveError(f"{entry.refid} has no file at {version}.")
+            return text, prov
+        if at:
+            info = self.repo.resolve_rev_info(at)
+            first, _ = self.repo.history_bounds()
+            text = self.repo.show(info.sha, entry.path)
+            prov.update(source="observed consolidated text committed on main", rev=info.sha, date=info.date)
+            if info.clamped_to_first:
+                notes.append(f"'{at}' is before the first commit ({first.day}); the earliest committed version is shown. "
+                             f"Older text is not in this data source; see laws_get_document version='vYYYY' for the reconstruction.")
+            notes.append(f"This is the text as this project observed it on {info.day}, not the text legally in force on '{at}'.")
+            if text is None:
+                raise ResolveError(f"{entry.refid} was not in the corpus at {info.day} ({info.sha[:10]}).")
+            return text, prov
+        if entry.removed:
+            text = self.repo.show(entry.last_version_rev, entry.path) or ""
+            prov.update(source="last observed version before removal from the current corpus",
+                        rev=entry.removed_commit, date=entry.removed_at)
+            notes.append(
+                f"{entry.refid} is no longer in Lovdata's current corpus as published here; it was removed on "
+                f"{entry.removed_at[:10]} in commit {entry.removed_commit[:10]} ({entry.removed_subject}). The text shown "
+                f"is the last version observed before that. Removal is consistent with repeal or replacement but does not "
+                f"establish it or its date; check lovdata.no and the replacing act's commencement.")
+            return text, prov
+        return self.repo.read(entry.path), prov
+
+    def get_document(self, ref: str, section: str | None, mode: str, offset: int, max_chars: int,
+                     at: str | None = None, version: str | None = None) -> dict:
         entry = self.resolve(ref)
-        doc = self.cache.get(entry.path)
-        result: dict = {"document": entry.summary(), "mode": mode}
+        if at or version or entry.removed:
+            raw, provenance = self.document_text_at(entry, at, version)
+            doc = parse_document(raw)
+        else:
+            doc = self.cache.get(entry.path)
+            provenance = {"source": "current working tree", "rev": None, "date": None, "limitations": []}
+        result: dict = {"document": entry.summary(), "mode": mode, "provenance": provenance}
         if mode == "metadata":
             result["front_matter"] = doc.meta
             result["headings"] = len(doc.headings)
@@ -333,6 +434,8 @@ class LawsService:
 
     def diff_document(self, ref: str, from_rev: str, to_rev: str, section: str | None, context: int, max_chars: int) -> dict:
         entry = self.resolve(ref)
+        if any(re.match(r"^(v20\d\d|history-\d{4}-\d{2}-\d{2})$", r or "") for r in (from_rev, to_rev)):
+            self.repo.ensure_version_tags()
         res = history.diff_document(self.repo, entry.path, from_rev=from_rev, to_rev=to_rev, section=section, context=context)
         diff = res.diff
         truncated = len(diff) > max_chars
@@ -359,6 +462,9 @@ class LawsService:
             )
         if diff.strip():
             limitations.append("Diff hunks can include parser or formatting changes; compare with laws_document_history commit kinds.")
+        if any(re.match(r"^(v20\d\d|history-)", r or "") for r in (from_rev, to_rev)):
+            limitations.append("A 'vYYYY' or 'history-YYYY-MM-DD' revision is the unverified law-history reconstruction "
+                               "(current text with parsed amendments applied, inferred dates), not verified legal text for that year.")
         return {
             "document": entry.summary(),
             "section": section,
@@ -531,6 +637,8 @@ class LawsService:
             "last_update_check": self.repo.last_update,
             "coverage": self.git_coverage(),
             "lovtidend_from_year": self.lovtidend_from_year(),
+            "removed_documents": len(self.removed_documents()),
+            "corpus_scope": CORPUS_SCOPE,
         }
 
     def update_repo(self) -> dict:

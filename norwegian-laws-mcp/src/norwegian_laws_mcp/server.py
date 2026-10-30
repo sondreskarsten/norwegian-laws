@@ -37,7 +37,15 @@ Data coverage, which every history tool also states in its output:
   blame can reflect the latter.
 - laws_amendment_records covers Norsk Lovtidend from 2001 and returns only new wording, never the replaced
   text; it also returns Lovdata's own 'Endret ved lover ...' note per provision, which reaches back to adoption.
-- No tool can reconstruct what a provision said on a past date before the first import.
+- laws_get_document version='vYYYY' and laws_diff_document between 'vYYYY' tags read the law-history
+  branch: a reconstruction built from the current text by applying parsed amendments, labelled unverified.
+- Repealed or replaced acts leave Lovdata's current corpus. Their refid still resolves; the last observed
+  text is returned with the removal date, which is not a repeal date.
+- Corpus scope: gjeldende lover and sentrale forskrifter only. Stortingsvedtak (e.g. avgiftsvedtak),
+  local regulations, circulars and court decisions are not here; say so instead of guessing.
+- Era and regime matter: when an act was replaced (e.g. foretaksregisterloven 1985 -> 2025,
+  enhetsregisterloven 1994 -> 2025), section numbers differ between the acts; read the old act's last
+  text for pre-replacement questions.
 Git commit dates say when this project observed a change, not when a provision entered into force.
 Amendment records are parsed views of Norsk Lovtidend, not a verified reconstruction of legal effect.
 """
@@ -81,14 +89,17 @@ def build_server(service: LawsService) -> MCPServer:
         limit: Annotated[int, Field(ge=1, le=100)] = 10,
         include_amendment_acts: Annotated[bool, Field(description="Include amendment acts/regulations "
                                                                   "('Endringslov ...', 'Forskrift om endring ...').")] = True,
+        include_removed: Annotated[bool, Field(description="Also search documents that have left the current corpus "
+                                                           "(repealed or replaced acts); slower on first use.")] = False,
         format: Format = "markdown",
     ) -> str:
-        """Search the catalog of all Norwegian acts (lover) and central regulations (forskrifter).
+        """Search the catalog of all current Norwegian acts (lover) and central regulations (forskrifter).
 
         Returns refid, kind, titles, aliases, department, commencement, last amending act and the
-        repository path for each match. Use the refid in the other tools.
+        repository path for each match. Use the refid in the other tools. A refid of a repealed act
+        (e.g. 'lov/1985-06-21-78') resolves in the other tools even without this search.
         """
-        items = service.search_documents(query, kind, limit, include_amendment_acts)
+        items = service.search_documents(query, kind, limit, include_amendment_acts, include_removed)
         return _out(format, items, render.search_documents, query)
 
     @mcp.tool(name="laws_get_document", title="Read a law or a section of it", annotations=READ_ONLY)
@@ -103,13 +114,20 @@ def build_server(service: LawsService) -> MCPServer:
                                           "numbers and section keys; 'metadata' returns the YAML front matter.")] = "text",
         offset: Annotated[int, Field(ge=0, description="Character offset for paging long texts.")] = 0,
         max_chars: Annotated[int, Field(ge=500, le=200000)] = 20000,
+        at: Annotated[str | None, Field(description="Read the text as committed on main at a date or revision "
+                                                    "('2026-03-01', 'HEAD~20', a sha). Observed text, not legal state.")] = None,
+        version: Annotated[str | None, Field(description="Read a yearly reconstruction from the law-history branch: "
+                                                         "'v2010' ... 'v2026', or a build tag 'history-YYYY-MM-DD'. "
+                                                         "Unverified reconstruction, labelled as such.")] = None,
     ) -> str:
-        """Read the current consolidated text of a document, one § or chapter, its outline, or its metadata.
+        """Read a document's consolidated text, one § or chapter, its outline, or its metadata.
 
-        Long documents are paged: the response says when it is truncated and which offset to pass next.
-        Prefer mode='outline' first for long documents, then request the section you need.
+        Current text by default. Repealed or replaced acts that have left the corpus (e.g. the 1985
+        foretaksregisterlov 'lov/1985-06-21-78') return their last observed text with the removal date.
+        'at' reads the text as this repository held it on a date; 'version' reads the law-history
+        yearly reconstruction. Long documents are paged; use mode='outline' first for long texts.
         """
-        res = service.get_document(ref, section, mode, offset, max_chars)
+        res = service.get_document(ref, section, mode, offset, max_chars, at, version)
         return render.document(res)
 
     @mcp.tool(name="laws_search_text", title="Full-text search across all documents", annotations=READ_ONLY)
@@ -193,7 +211,8 @@ def build_server(service: LawsService) -> MCPServer:
     def laws_diff_document(
         ref: Annotated[str, Field(description="refid, alias, short title, or path.")],
         from_rev: Annotated[str, Field(description="Older point: commit sha, 'HEAD~5', ISO date '2026-06-01', "
-                                                   "or phrase '1 month ago' (resolved to the last commit before it).")],
+                                                   "phrase '1 month ago' (resolved to the last commit before it), or a "
+                                                   "law-history version 'v2010' / build tag 'history-YYYY-MM-DD'.")],
         to_rev: Annotated[str, Field(description="Newer point (same formats). Default HEAD.")] = "HEAD",
         section: Annotated[str | None, Field(description="Limit the diff to one § or chapter, e.g. '§ 4-7'.")] = None,
         context: Annotated[int, Field(ge=0, le=20)] = 3,

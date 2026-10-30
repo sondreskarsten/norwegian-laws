@@ -289,6 +289,49 @@ class Repo:
             return None
         return proc.stdout.decode("utf-8", errors="replace")
 
+    def removal_commit(self, relpath: str) -> Commit | None:
+        """The commit that deleted ``relpath`` from the branch, if it is gone from HEAD."""
+        if self.exists(relpath):
+            return None
+        out = self.git("log", "-1", "--diff-filter=D", "--date=iso-strict", "--format=%H%x1f%ad%x1f%s",
+                       "HEAD", "--", relpath, check=False).strip()
+        if not out:
+            return None
+        sha, date, subject = out.split("\x1f", 2)
+        return Commit(sha, date, subject)
+
+    def removed_files(self, prefixes: tuple[str, ...]) -> list[tuple[str, Commit]]:
+        """Every file under the prefixes deleted somewhere in the branch history and absent from HEAD."""
+        out = self.git("log", "--diff-filter=D", "--date=iso-strict", "--format=%x1e%H%x1f%ad%x1f%s",
+                       "--name-only", "HEAD", "--", *prefixes, check=False)
+        result: list[tuple[str, Commit]] = []
+        seen: set[str] = set()
+        for block in out.split("\x1e"):
+            block = block.strip("\n")
+            if not block:
+                continue
+            header, _, body = block.partition("\n")
+            parts = header.split("\x1f")
+            if len(parts) < 3:
+                continue
+            commit = Commit(parts[0], parts[1], parts[2])
+            for line in body.split("\n"):
+                path = line.strip()
+                if path and path not in seen and not self.exists(path):
+                    seen.add(path)
+                    result.append((path, commit))
+        return result
+
+    def ensure_version_tags(self) -> list[str]:
+        """Fetch the law-history yearly and build tags (commits only; trees and blobs on demand)."""
+        if getattr(self, "_version_tags", None) is None:
+            self.git("fetch", "--quiet", "--filter=tree:0", "origin",
+                     "+refs/tags/v20*:refs/tags/v20*", "+refs/tags/history-*:refs/tags/history-*",
+                     check=False, timeout=600)
+            tags = self.git("tag", "-l", "v20*", "history-*", check=False).split()
+            self._version_tags = sorted(tags)
+        return self._version_tags
+
     def read(self, relpath: str) -> str:
         target = self.path / relpath
         if not target.is_file():
