@@ -77,15 +77,18 @@ def _build_paragraph_anchor_map(md_path: Path) -> dict[str, str]:
     except ImportError:
         return {}
 
-    header_re = re.compile(r'^#{3,5}\s+(§\s*\d+[-–]\d+[a-z]?)\.?\s+(.+?)\s*$', re.MULTILINE)
+    # [ \t] rather than \s: with re.MULTILINE, \s+ also matched the newline
+    # after a bare '#### § 24-2' heading and captured the next paragraph as
+    # the title, producing an anchor the rendered page does not have.
+    header_re = re.compile(r'^#{3,5}[ \t]+(§[ \t]*\d+[-–]\d+[a-z]?)\.?(?:[ \t]+(.+?))?[ \t]*$', re.MULTILINE)
     text = md_path.read_text(encoding="utf-8")
     out: dict[str, str] = {}
     for m in header_re.finditer(text):
         para_raw = re.sub(r"\s+", "-", m.group(1).replace("§", "§ ")).replace("--", "-")
         para_canonical = re.sub(r"§\s*(\d+)-(\d+)([a-z]?)", r"§ \1-\2\3", m.group(1))
         para_canonical = para_canonical.replace("  ", " ").strip()
-        # Slugify "§ 1-2a. Title" → "1-2a-title-slug"
-        slug = slugify(f"{m.group(1)}. {m.group(2)}", "-")
+        # Slugify "§ 1-2a. Title" → "1-2a-title-slug"; a bare "§ 24-2" → "24-2"
+        slug = slugify(f"{m.group(1)}. {m.group(2)}" if m.group(2) else m.group(1), "-")
         # Only keep the first occurrence (some laws revoke + reintroduce paragraphs)
         if para_canonical not in out:
             out[para_canonical] = slug
@@ -460,6 +463,7 @@ body {{ max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-s
 h1 {{ font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }}
 h2 {{ font-size: 1.3rem; margin-top: 2rem; color: #495057; }}
 table {{ border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }}
+@media (max-width: 991px) {{ table {{ display: block; max-width: 100%; overflow-x: auto; }} }}
 th, td {{ padding: 0.4rem 0.6rem; border-bottom: 1px solid #dee2e6; text-align: left; }}
 th {{ background: #f8f9fa; }}
 code {{ font-size: 0.85em; color: #6c757d; }}

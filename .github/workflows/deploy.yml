@@ -46,6 +46,57 @@ jobs:
         run: |
           python -m pytest lovdata-loader/tests lovdata-publisher/tests .github/tests -q
 
+      # Every commit on main must be either a pure source update or a pure
+      # parser regeneration. The plan compares the live Lovdata manifest and
+      # the parser code (lovdata-loader/, lovdata-publisher/ trees) with the
+      # last acknowledged publication.
+      - name: Classify this publication against the last acknowledged one
+        id: plan
+        run: python .github/scripts/provenance.py plan --output "$RUNNER_TEMP/publication-plan.json"
+
+      - name: Restore the previously published source archives
+        if: steps.plan.outputs.regenerate_previous == 'true'
+        id: previous
+        run: |
+          python .github/scripts/provenance.py fetch-previous \
+            --plan "$RUNNER_TEMP/publication-plan.json" --output "$RUNNER_TEMP/previous-sources"
+
+      - name: Regenerate the previous sources with the changed parser
+        if: steps.plan.outputs.regenerate_previous == 'true'
+        run: |
+          set -e
+          # The receipt must be in the output directory before the loader
+          # runs: write_snapshot carries it into the artifact inventory, and
+          # the publisher rejects any file that is not inventoried.
+          mkdir -p snapshot-previous
+          cp "$RUNNER_TEMP/previous-sources/source-manifest.json" snapshot-previous/source-manifest.json
+          lovdata-load --gjeldende "${{ steps.previous.outputs.gjeldende }}" \
+            --forskrifter "${{ steps.previous.outputs.forskrifter }}" \
+            --lovtidend ${{ steps.previous.outputs.lovtidend }} \
+            --capture-source-bodies --output snapshot-previous
+          PARENT=$(git rev-parse HEAD)
+          lovdata-publish --snapshot snapshot-previous --output . --quarto --source-evidence-links \
+            --capture-reader-exits . --capture-expected-head "$PARENT"
+          python -m lovdata_publisher.readme_updater README.md snapshot-previous/amendments.db
+          python .github/scripts/provenance.py verify-reproducible --snapshot snapshot-previous --output .
+          python .github/scripts/provenance.py message --plan "$RUNNER_TEMP/publication-plan.json" \
+            --kind parser --manifest snapshot-previous/source-manifest.json --output "$RUNNER_TEMP/parser-commit-msg.txt"
+          git config user.name "Lovtidend"
+          git config user.email "lovtidend@lovdata.no"
+          git add lover/ forskrifter/ book/ _quarto.yml index.qmd laws.json README.md .github/state/
+          git rm -r --cached historie/ 2>/dev/null || true
+          git add historie/
+          if [ -d reader-exits ]; then git add reader-exits/; fi
+          python -m lovdata_publisher.reader_exits verify-staged --repository . \
+            --expected-head "$PARENT" --snapshot snapshot-previous
+          if git diff --staged --quiet; then
+            echo "Changed parser produced identical output for the previous sources"
+          else
+            git commit -F "$RUNNER_TEMP/parser-commit-msg.txt"
+            python .github/scripts/push_main.py
+          fi
+          rm -rf snapshot-previous
+
       - name: Download and parse laws
         run: lovdata-load --download --capture-source-bodies --output snapshot
 
@@ -69,8 +120,12 @@ jobs:
       - name: Update 'Recent amendments' section in README
         run: python -m lovdata_publisher.readme_updater README.md snapshot/amendments.db
 
+      - name: Verify the parser output is reproducible before committing it
+        run: python .github/scripts/provenance.py verify-reproducible --snapshot snapshot --output .
+
       - name: Compute delta of changed law files
         id: delta
+        if: steps.plan.outputs.source_changed == 'true'
         run: |
           python3 .github/scripts/extract_delta.py > /tmp/delta.md
           if [ -s /tmp/delta.md ]; then
@@ -82,7 +137,7 @@ jobs:
           fi
 
       - name: Generate AI summary via GitHub Models
-        if: steps.delta.outputs.has_delta == 'true'
+        if: steps.plan.outputs.source_changed == 'true' && steps.delta.outputs.has_delta == 'true'
         id: ai
         continue-on-error: true
         uses: actions/ai-inference@v1
@@ -147,11 +202,11 @@ jobs:
             echo "No changes to laws"
             echo "changed=false" >> $GITHUB_OUTPUT
           else
-            if [ -f /tmp/commit-msg.txt ]; then
-              git commit -F /tmp/commit-msg.txt
-            else
-              git commit -m "Oppdater lover og forskrifter fra Lovdata API $(date +%Y-%m-%d) [skip ci]"
-            fi
+            if [ "${{ steps.plan.outputs.source_changed }}" = "true" ]; then KIND=source; else KIND=parser; fi
+            python .github/scripts/provenance.py message --plan "$RUNNER_TEMP/publication-plan.json" \
+              --kind "$KIND" --manifest snapshot/source-manifest.json \
+              --summary-file /tmp/commit-msg.txt --output "$RUNNER_TEMP/commit-msg.txt"
+            git commit -F "$RUNNER_TEMP/commit-msg.txt"
             python .github/scripts/push_main.py
             echo "changed=true" >> $GITHUB_OUTPUT
           fi

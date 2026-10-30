@@ -78,7 +78,8 @@ def test_generate_subscribe_page_creates_qmd(tmp_path):
     # Search input present
     assert 'id="abonner-search"' in text
     # Fuse.js for fuzzy matching against the same keys as sok.qmd
-    assert 'fuse.js' in text.lower()
+    assert '../assets/vendor/fuse-7.0.0.min.js' in text
+    assert 'cdn.jsdelivr' not in text
     assert '"aliases"' in text
     # Pre-curated topic/ministry feeds linked
     assert "topic-skatte--og-avgiftsrett.xml" in text

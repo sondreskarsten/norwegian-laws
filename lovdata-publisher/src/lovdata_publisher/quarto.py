@@ -333,7 +333,7 @@ search: false
 <div id="no-results" style="display:none;color:#888;padding:20px 0;">Ingen treff.</div>
 
 ```{=html}
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="../assets/vendor/fuse-7.0.0.min.js"></script>
 <script>
 __CATALOG_LOADER__
 document.addEventListener("DOMContentLoaded", function() {
@@ -363,6 +363,9 @@ document.addEventListener("DOMContentLoaded", function() {
     countDiv.textContent = message;
     moreButton.style.display = "none";
   }
+
+  var initialQuery = new URLSearchParams(window.location.search).get("q");
+  if (initialQuery) { input.value = initialQuery; }
 
   status("Laster titler og referanser...");
   loadSearchCatalog().then(function(catalog) {
@@ -548,8 +551,8 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '',
         LEGACY_NOTICE,
         '',
-        'Velg en lov og to lagrede utgaver for å sammenligne tekst. Sammenligningen bruker',
-        'faste, registrerte kopier av den eldre historikken.',
+        'Velg en lov og to årstallsutgaver for å sammenligne tekst. Sammenligningen bruker',
+        f'årstallstaggene på grenen `{HISTORY_BRANCH}`, som bygges på nytt hver natt.',
         '',
         '<div style="display:flex;flex-direction:column;gap:12px;width:100%;max-width:600px;min-width:0;margin:16px 0;">',
         '<label for="diff-law" style="font-weight:600;">Velg lov:</label>',
@@ -579,10 +582,10 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '<div id="diff-output" style="width:100%;max-width:100%;min-width:0;overflow-x:auto;margin-top:20px;"></div>',
         '',
         '```{=html}',
-        '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/css/diff2html.min.css">',
-        '<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>',
-        '<script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>',
-        '<script src="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/js/diff2html-ui.min.js"></script>',
+        '<link rel="stylesheet" href="../assets/vendor/diff2html-3.4.48.min.css">',
+        '<script src="../assets/vendor/fuse-7.0.0.min.js"></script>',
+        '<script src="../assets/vendor/diff-5.2.0.min.js"></script>',
+        '<script src="../assets/vendor/diff2html-ui-3.4.48.min.js"></script>',
         '<script>',
         *_catalog_loader_lines(),
         'document.addEventListener("DOMContentLoaded", function() {',
@@ -779,7 +782,7 @@ Atom-feeder finnes for dokumenter med registrerte endringskunngjøringer i datag
 Denne siden oppretter ikke abonnementer eller sender varsler. Det styres av verktøyet du velger.
 
 ```{=html}
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="../assets/vendor/fuse-7.0.0.min.js"></script>
 <script>
 __CATALOG_LOADER__
 document.addEventListener("DOMContentLoaded", function() {
@@ -1053,9 +1056,10 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
     ver_lines = [
         "# Eksperimentelle versjoner {.unnumbered}\n",
         LEGACY_NOTICE + "\n",
-        "Årstallene nedenfor er navn på eldre rekonstruksjoner, ikke bekreftede juridiske skjæringsdatoer.",
-        "Utvalget er registrert 25. september 2026. Lenker og sammenligninger er låst til disse kopiene.",
-        "Den frakoblede v2000 og utgaver merket med framtidige år er utelatt.\n",
+        "Årstallene nedenfor er navn på rekonstruksjoner, ikke bekreftede juridiske skjæringsdatoer.",
+        f"Grenen `{HISTORY_BRANCH}` bygges på nytt hver natt fra gjeldende tekst. Årstallstaggene flyttes ved hvert bygg;",
+        "hvert bygg får i tillegg en varig tagg `history-ÅÅÅÅ-MM-DD` som kan siteres.",
+        "Vedtak med ikrafttredelse fram i tid er ikke tatt med.\n",
         "## Lagrede rekonstruksjoner\n",
     ]
     if year_stats:
@@ -1143,6 +1147,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
                 "lang": "nb",
                 "include-in-header":
                     "assets/head-meta.html",
+                "css": "assets/site.css",
             }
         },
     }
@@ -1173,7 +1178,14 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         f"Samlingen inneholder **{total_unique} lover** og",
         f"**{fmt_no(total_forskrifter)} sentrale forskrifter**,",
         f"fordelt på **{len(groups)} departementer**.\n",
-        "## 🔔 Spor endringer\n",
+        "```{=html}",
+        '<form action="book/sok.html" method="get" role="search" style="display:flex;gap:0;max-width:640px;margin:1rem 0 1.5rem;">',
+        '<input type="search" name="q" placeholder="Søk etter lov eller forskrift, f.eks. aksjeloven, aml, lov/1998-07-17-56" aria-label="Søk i lover og forskrifter"',
+        ' style="flex:1;min-width:0;padding:0.55rem 0.75rem;font-size:1rem;border:1px solid #adb5bd;border-radius:4px 0 0 4px;">',
+        '<button type="submit" style="padding:0.55rem 1rem;font-size:1rem;border:1px solid #17365d;background:#17365d;color:#fff;border-radius:0 4px 4px 0;cursor:pointer;">Søk</button>',
+        "</form>",
+        "```\n",
+        "## Spor endringer\n",
         "Atom-feeder finnes for dokumenter med registrerte endringskunngjøringer i datagrunnlaget.",
         "Hver dokumentfeed viser inntil 50 oppføringer; dekningen er ikke en fullstendig endringshistorikk.",
         "Søk etter dokumentet for å se om en feed er tilgjengelig, og legg den til i din egen feed-leser.\n",
@@ -1181,7 +1193,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         "- [Aktivitet](aktivitet.html) — topp-liste over de mest endrede lovene, forskriftene, departementene og årgangene",
         "- [Feed-katalog](feeds/) — bla gjennom alle Atom-feeder direkte",
         "- Eksempel: [Atom-feed for regnskapsloven](feeds/lov-1998-07-17-56.xml) · [endringer i § 7-25 spesifikt](historikk/lov-1998-07-17-56/para-7-25.html)\n",
-        "## 📥 Bulk-data\n",
+        "## Bulk-data\n",
         "For nedstrøms automatisering (datavarehus, compliance-dashboards, interne CDC-pipelines):\n",
         amendments_line,
         acts_line,
@@ -1192,9 +1204,9 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         ] if source_evidence_links else []),
         "- [`schemas/`](schemas/amendment-acts.schema.json) — JSON Schema 2020-12 for begge JSONL-strømmene\n",
         "## Les lover\n",
-        "- [Søk etter lov](book/sok.qmd) \u2014 finn lover etter tittel, korttittel eller lovnummer",
-        "- Bla gjennom lover etter departement i sidemenyen",
-        "- Klikk en lov for å lese lovteksten på GitHub",
+        "- [Søk etter lov](book/sok.qmd) \u2014 finn lover etter tittel, korttittel, forkortelse eller lovnummer",
+        "- Bla gjennom lover etter departement eller rettsområde i sidemenyen",
+        "- Hver lov og forskrift har sin egen side med innholdsfortegnelse, nøkkelinformasjon og endringshistorikk per paragraf",
         "- For autoritativ lovtekst, se [lovdata.no](https://lovdata.no)\n",
         "## Utforsk historikk\n",
         LEGACY_NOTICE + "\n",

@@ -1,5 +1,7 @@
 # Delivery status
 
+**Update 30 October 2026.** Work resumed; see the [stress-test log](STRESS-TEST-2026-10-29.md) for what changed since this document was written: parser repairs, the restored nightly `law-history` rebuild, provenance-bound publication commits, and the MCP server. The `fix/*` branches named below were merged and deleted. The remainder of this document describes the state on 26 September 2026.
+
 Updated 26 September 2026. This document supersedes earlier status summaries; dated evidence files retain the results of their own runs. Work stays in `github.com/sondreskarsten` on `fix/reliable-laws-delivery` and `fix/reliable-history-delivery`. Preserve generated branches, historical references and immutable publications. No cloud handoff or DNB migration is part of delivery.
 
 Implementation stopped at the user's request. See [WIND-DOWN.md](WIND-DOWN.md) for the complete unfinished-work record and recoverable code archive. Active runtime remains the merged v10 code.

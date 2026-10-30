@@ -1,5 +1,7 @@
 # Wind-down record — 26 September 2026
 
+**Superseded in part on 30 October 2026:** the current-law pipeline and the legacy reconstruction were resumed and changed; see the [stress-test log](STRESS-TEST-2026-10-29.md). The observed-history product in `norwegian-laws-history` remains as described here.
+
 Implementation stopped at the user's request. No new feature release or follow-up automation is scheduled by this closeout.
 
 ## Working delivery retained

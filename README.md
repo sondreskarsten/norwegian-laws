@@ -52,6 +52,16 @@ git log -p -- lover/lov-1998-07-17-56.md
 
 These diffs may reflect updated sources, parser repairs, or formatting changes. A repository commit date is not a commencement date.
 
+## Ask an AI assistant
+
+[`norwegian-laws-mcp/`](norwegian-laws-mcp/) is an MCP server that answers questions such as "where is underenheter defined", "what changed last week" or "how has § 13-14 of aksjeloven changed" directly from this repository: the catalog, `git grep`, `git log`, `git diff`, `git blame`, the parsed amendment records, the last text of repealed acts and the yearly reconstructions. Every history answer states its data coverage and limits.
+
+```bash
+claude mcp add norwegian-laws -- uvx --from "git+https://github.com/sondreskarsten/norwegian-laws.git#subdirectory=norwegian-laws-mcp" norwegian-laws-mcp
+```
+
+See the [server README](norwegian-laws-mcp/README.md) for other clients and the tool list.
+
 ## Source evidence and publication status
 
 [`publication.json`](https://sondreskarsten.github.io/norwegian-laws/publication.json) identifies the source commit and selected Lovdata manifest actually served by the site. Publication is acknowledged only after this receipt is read back from the public site.
@@ -71,9 +81,9 @@ See the [loader contract](lovdata-loader/README.md) for the snapshot fields. Che
 
 The separate [norwegian-laws-history](https://github.com/sondreskarsten/norwegian-laws-history) product verifies published evidence bundles, records observed document membership without replacing earlier observations, and retrieves exact archived XML. Its first [public intake](https://github.com/sondreskarsten/norwegian-laws-history/actions/runs/36169832648) committed 45,114 source archive members on 25 September 2026. Observation time means when this collector inspected the source, not when the law took effect. Commencement, repeal, and canonical historical text remain unresolved unless separately established.
 
-The old [`law-history` branch](https://github.com/sondreskarsten/norwegian-laws/tree/law-history) and yearly tags are preserved as **unverified legacy reconstructions**. They began from a synthetic baseline using then-current consolidated text, and some dates were inferred. They cannot answer “what was the law on this date?” reliably. The [comparison tool](https://sondreskarsten.github.io/norwegian-laws/book/diff.html) labels these outputs and uses a catalog of pinned legacy commits; a textual difference is not proof of a legal change.
+The [`law-history` branch](https://github.com/sondreskarsten/norwegian-laws/tree/law-history) is an **unverified reconstruction**: one commit per amendment act since 2001, built from the current consolidated text by applying parsed Lovtidend instructions, with some dates inferred. It cannot answer “what was the law on this date?” reliably, and the [comparison tool](https://sondreskarsten.github.io/norwegian-laws/book/diff.html) labels it as such; a textual difference is not proof of a legal change.
 
-Automatic legacy regeneration requires `ENABLE_LEGACY_HISTORY=true`; the separate manual workflow remains available. It is not part of the new observed-source history product.
+The [nightly workflow](.github/workflows/law-history.yml) rebuilds the branch at 05:30 UTC, moves the yearly tags `v2001`…`v<current year>`, and pushes a permanent build tag `history-YYYY-MM-DD` so a build can be cited after later rebuilds have replaced the branch. Acts with a commencement after the build date are not applied. Build tags older than 35 days are pruned except the first build of each month. The reconstruction is separate from the observed-source history product above.
 
 ## Build the current reader
 
@@ -96,6 +106,8 @@ lovdata-publish --snapshot snapshot --post-render --output . --site-dir _site
 ```
 
 The loader selects archives from the live Lovdata list and verifies cached bytes against their receipt. The publisher validates the snapshot, writes Markdown and Quarto chapters, and generates reader pages, feeds, display JSONL, and the search indexes. Pagefind's binary is installed with the publisher; full-text search requires no search server. See the [publisher guide](lovdata-publisher/README.md) for deployment-specific evidence links.
+
+Every commit the pipeline makes on `main` is a pure function of two inputs and says which one moved. `Oppdater lover og forskrifter fra Lovdata API …` commits carry new source archives through unchanged parser code; `Regenerer lover og forskrifter med endret parser …` commits carry changed parser code over the archives of the previous publication, restored from its public observation bundle, so a formatting change never appears as a legal change. When both moved, the regeneration is committed first. Each message ends with trailers naming the source manifest digest, every archive with its upstream timestamp, and the Git tree hashes of `lovdata-loader/` and `lovdata-publisher/`; `.github/scripts/provenance.py` produces them and refuses to commit output that a second formatting pass of the same snapshot does not reproduce byte for byte.
 
 The [daily poll](.github/workflows/poll-lovdata.yml) compares the source list with the last acknowledged publication and requests a new build when they differ. Failed publication is not recorded as delivered. Software package releases, `observation-*` evidence releases, and legacy yearly tags serve different purposes; a yearly tag is not a verified legal snapshot.
 

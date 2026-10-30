@@ -1,21 +1,135 @@
-name: Explain retired legacy reconstruction
+name: Build law history branch
+
+# Rebuilds the legacy per-act reconstruction on the law-history branch every
+# night after the current-law publication, and tags each build so it stays
+# citable. Law texts are pushed as ordinary Git blobs: git fast-import does
+# not run clean filters, so Git LFS never applied to this branch. The reconstruction starts from the current consolidated text and is
+# an unverified projection; see README "Observed history and legacy
+# reconstructions".
 
 on:
+  schedule:
+    - cron: '30 5 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: law-history
+  cancel-in-progress: false
 
 jobs:
-  explain-only:
+  build-history:
     runs-on: ubuntu-latest
     steps:
-      - name: Keep existing historical references unchanged
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install pipeline
+        run: pip install -e lovdata-loader/ -e lovdata-publisher/
+
+      - name: Compute week key for cache
+        id: weekkey
+        run: echo "key=$(date -u +%Y-W%U)" >> $GITHUB_OUTPUT
+
+      - name: Cache Lovdata archives (weekly)
+        uses: actions/cache@v4
+        with:
+          path: |
+            snapshot/gjeldende-lover.tar.bz2
+            snapshot/gjeldende-sentrale-forskrifter.tar.bz2
+            snapshot/lovtidend-avd1-2001-2025.tar.bz2
+          key: lovdata-archives-${{ steps.weekkey.outputs.key }}
+
+      - name: Download and parse laws
+        run: lovdata-load --download --output snapshot
+
+      - name: Build law history
+        id: build
         run: |
-          cat <<'EOF' >> "$GITHUB_STEP_SUMMARY"
-          The legacy reconstruction workflow is retired. This run does not rebuild or push historical branches or yearly tags.
+          set -e
+          BUILD_DATE=$(date -u +%Y-%m-%d)
+          echo "date=$BUILD_DATE" >> "$GITHUB_OUTPUT"
+          lovdata-publish --snapshot snapshot --build-history \
+              --history-mode act \
+              --history-cutoff "$BUILD_DATE" \
+              --repo-path /tmp/law-repo
+          cd /tmp/law-repo
+          git tag -f "history-$BUILD_DATE" HEAD
+          echo "Yearly tags: $(git tag -l 'v*' | tr '\n' ' ')"
 
-          Existing references remain available as unverified reconstructions. New source observations and qualified body products are published append-only in [norwegian-laws-history](https://github.com/sondreskarsten/norwegian-laws-history).
+      - name: Preserve the previous build tip before replacing it
+        env:
+          REMOTE: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: |
+          set -e
+          cd /tmp/law-repo
+          git remote add origin "$REMOTE"
+          if git ls-remote --exit-code --heads origin law-history > /dev/null; then
+            git fetch --quiet --depth=1 origin law-history
+            PREV=$(git rev-parse FETCH_HEAD)
+            PREV_DATE=$(git log -1 --format=%cs FETCH_HEAD)
+            if ! git ls-remote --tags origin "history-*" | grep -q "^$PREV"; then
+              echo "Tagging previous tip $PREV as history-$PREV_DATE"
+              git push origin "$PREV:refs/tags/history-$PREV_DATE" || true
+            fi
+          fi
 
-          The replacement records project commit dates separately from source observation and legal-time evidence. See [issue #7](https://github.com/sondreskarsten/norwegian-laws/issues/7) for remaining delivery work.
-          EOF
+      - name: Push branch and tags
+        env:
+          BUILD_DATE: ${{ steps.build.outputs.date }}
+        run: |
+          set -e
+          cd /tmp/law-repo
+          git push --force origin main:refs/heads/law-history
+          git push --force origin "+refs/tags/v*:refs/tags/v*"
+          git push origin "refs/tags/history-$BUILD_DATE"
+
+      - name: Remove yearly tags this build did not produce
+        run: |
+          set -e
+          cd /tmp/law-repo
+          LOCAL=$(git tag -l 'v2*' | sort)
+          REMOTE_TAGS=$(git ls-remote --tags origin 'v2*' | sed 's#.*refs/tags/##' | grep -v '\^{}' | sort)
+          for tag in $(comm -13 <(echo "$LOCAL") <(echo "$REMOTE_TAGS")); do
+            echo "Deleting stale remote tag $tag"
+            git push origin ":refs/tags/$tag"
+          done
+
+      - name: Prune old build tags (keep 35 days and the first build of each month)
+        env:
+          BUILD_DATE: ${{ steps.build.outputs.date }}
+        run: |
+          cd /tmp/law-repo
+          python3 - <<'PY'
+          import datetime, os, subprocess
+          today = datetime.date.fromisoformat(os.environ["BUILD_DATE"])
+          out = subprocess.check_output(["git", "ls-remote", "--tags", "origin", "history-*"], text=True)
+          tags = sorted(line.split("refs/tags/")[1] for line in out.splitlines() if "^{}" not in line)
+          keep_first_of_month = {}
+          for tag in tags:
+              day = datetime.date.fromisoformat(tag[len("history-"):])
+              keep_first_of_month.setdefault((day.year, day.month), tag)
+          for tag in tags:
+              day = datetime.date.fromisoformat(tag[len("history-"):])
+              if (today - day).days <= 35 or keep_first_of_month[(day.year, day.month)] == tag:
+                  continue
+              print("Pruning build tag", tag)
+              subprocess.run(["git", "push", "origin", f":refs/tags/{tag}"], check=False)
+          PY
+
+      - name: Summary
+        env:
+          BUILD_DATE: ${{ steps.build.outputs.date }}
+        run: |
+          cd /tmp/law-repo
+          {
+            echo "law-history rebuilt on $BUILD_DATE: $(git rev-list --count HEAD) commits, tip $(git rev-parse --short HEAD)."
+            echo "Citable build tag: history-$BUILD_DATE. Yearly tags: $(git tag -l 'v2*' | tr '\n' ' ')"
+          } >> "$GITHUB_STEP_SUMMARY"

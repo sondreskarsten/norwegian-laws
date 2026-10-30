@@ -411,3 +411,156 @@ class TestRealArchiveLists:
         for art in self._articles().values():
             law = {"refid": "lov/1998-07-17-56", "top_level_articles": [asdict(art)]}
             assert audit_law_lists(law)["anomalies"] == []
+
+
+def _act(body: str, changes_to: str = "<li>lov/1998-07-17-56</li>") -> bytes:
+    return f"""<!DOCTYPE html><html><body>
+<header class="documentHeader">
+<dl class="data-document-key-info">
+<dt class="refid">RefID</dt><dd class="refid">lov/2025-04-10-11</dd>
+<dt class="title">Tittel</dt><dd class="title">Lov om endringer i regnskapsloven</dd>
+<dt class="changesToDocuments">Endrer</dt><dd class="changesToDocuments"><ul>{changes_to}</ul></dd>
+</dl></header>
+<main class="documentBody"><h1>Lov om endringer i regnskapsloven</h1>
+{body}
+</main></body></html>""".encode("utf-8")
+
+
+def test_new_format_numbered_ledd_is_replacement_text():
+    """Real case: lov/2025-04-10-11 § 3-1 tredje ledd. Newer acts put the
+    new wording in article.numberedLegalP directly under article.change;
+    only legalP was collected, so 1,745 'skal lyde:' records had no text."""
+    xml = _act("""<section><h2>I</h2>
+<article class="document-change" data-document="lov/1998-07-17-56">
+<article class="defaultP">I lov 17. juli 1998 nr. 56 om årsregnskap m.v. gjøres følgende endringer:</article>
+<article class="change" data-change-part="lov/1998-07-17-56/§3-1/ledd/3">
+<article class="defaultP">§ 3-1 tredje ledd skal lyde:</article>
+<article class="numberedLegalP" data-numerator="3">(3) For konsernregnskap gjelder ikke § 1-4.</article>
+</article>
+<article class="change" data-change-part="lov/1998-07-17-56/§3-2/ledd/2 lov/1998-07-17-56/§3-2/ledd/3">
+<article class="defaultP">Nåværende tredje og fjerde ledd blir annet og tredje ledd og skal lyde:</article>
+<article class="numberedLegalP" data-numerator="2">(2) Første nye ledd.</article>
+<article class="numberedLegalP" data-numerator="3">(3) Andre nye ledd.</article>
+</article>
+</article></section>""")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert [a.new_text for a in result.amendments] == [
+        "(3) For konsernregnskap gjelder ikke § 1-4.",
+        "(2) Første nye ledd.\n(3) Andre nye ledd.",
+    ]
+    assert result.amendments[0].target_law == "lov/1998-07-17-56"
+
+
+def test_new_format_future_article_text_not_duplicated():
+    """Real case: lov/2024-06-21-42 '§ 3-1 paragrafoverskriften skal lyde:'.
+    The futureLegalArticleHeader span sits inside the futureLegalArticle;
+    collecting both repeated the heading. A full future article now yields
+    one line per heading/ledd."""
+    xml = _act("""<section><h2>I</h2>
+<article class="change" data-change-part="lov/1998-07-17-56/§3-1">
+<article class="defaultP">§ 3-1 paragrafoverskriften skal lyde:</article>
+<article class="futureLegalArticle" data-name="§3-1"><span class="futureLegalArticleHeader"><span class="legalArticleValue">§ 3-1</span>. <span class="legalArticleTitle">Plikt til å utarbeide årsregnskap</span></span></article>
+</article>
+<article class="change" data-add-new-part="lov/1998-07-17-56/§2-1" data-change-part="lov/1998-07-17-56/kap2">
+<article class="defaultP">Kapittel 2 skal lyde:</article>
+<span class="futuretitle">Kapittel 2 Årsberetning</span>
+<article class="futureLegalArticle" data-name="§2-1"><span class="futureLegalArticleHeader"><span class="legalArticleValue">§ 2-1</span>. <span class="legalArticleTitle">Plikt</span></span><article class="numberedLegalP" data-numerator="1">(1) Første ledd.</article><article class="numberedLegalP" data-numerator="2">(2) Andre ledd.</article></article>
+</article></section>""")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert result.amendments[0].new_text == "§ 3-1. Plikt til å utarbeide årsregnskap"
+    assert result.amendments[1].new_text == "Kapittel 2 Årsberetning\n§ 2-1. Plikt\n(1) Første ledd.\n(2) Andre ledd."
+
+
+def test_old_format_heading_after_instruction_is_text():
+    """Real case: lov/2001-06-15-41 'Avsnittets tittel skal lyde:' followed by
+    the new title as a heading element, which was skipped."""
+    xml = _act("""<section><h2>I</h2>
+<article class="defaultP">I lov 17. juli 1998 nr. 56 om årsregnskap m.v. gjøres følgende endringer:</article>
+<article class="defaultP">Kapittel 2 avsnitt I skal omfatte §§ 2-1 til 2-9. Avsnittets tittel skal lyde:</article>
+<h3>I. Alminnelige bestemmelser</h3>
+<article class="defaultP">§ 2-1 skal lyde:</article>
+<article class="legalP">Ny tekst.</article>
+</section>
+<section><h2>II</h2>
+<article class="defaultP">§ 2-2 oppheves.</article>
+</section>""")
+    result = parse_lovtidend_file(xml, "test.xml")
+    texts = [(a.instruction, a.new_text) for a in result.amendments]
+    assert texts[0] == ("Kapittel 2 avsnitt I skal omfatte §§ 2-1 til 2-9. Avsnittets tittel skal lyde:", "I. Alminnelige bestemmelser")
+    assert texts[1] == ("§ 2-1 skal lyde:", "Ny tekst.")
+    assert texts[2][0] == "§ 2-2 oppheves."
+
+
+def test_unrecognised_single_target_act_keeps_body_as_unknown_record():
+    """Real case: forskrift/2025-10-29-2134 changes KOSTRA code lists with
+    'Følgende art går ut:' / 'Funksjon 211 endrer navn til ...'. No pattern
+    matched, so the act vanished from the regulation's history."""
+    xml = _act("""<section><h2>I</h2>
+<article class="defaultP">I forskrift 18. oktober 2019 nr. 1412 (KOSTRA-forskriften) vedlegg 1 gjøres følgende endringer:</article>
+<article class="defaultP">Følgende art går ut:<ul class="defaultList"><li><article class="listArticle"><article class="legalP">Art 270 Andre tjenester</article></article></li></ul></article>
+</section>
+<section><h2>II</h2>
+<article class="defaultP">Funksjon 211 endrer navn til Styrket tilbud til barn i barnehage.</article>
+</section>""", changes_to="<li>forskrift/2019-10-18-1412</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert len(result.amendments) == 1
+    a = result.amendments[0]
+    assert a.change_type == "unknown"
+    assert a.target_law == "forskrift/2019-10-18-1412"
+    assert a.instruction.startswith("I forskrift 18. oktober 2019 nr. 1412")
+    assert "Art 270 Andre tjenester" in a.new_text
+    assert "Funksjon 211 endrer navn til" in a.new_text
+    assert "\nI\n" not in a.new_text and "\nII\n" not in a.new_text
+
+
+def test_unrecognised_multi_target_act_stays_empty():
+    xml = _act("""<section><h2>I</h2>
+<article class="defaultP">Funksjon 211 endrer navn til noe.</article>
+</section>""", changes_to="<li>forskrift/2019-10-18-1412</li><li>forskrift/2019-10-18-1413</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert result.amendments == []
+
+
+def test_old_format_chapter_title_paragraph_is_replacement_text():
+    """Real cases: lov/2001-06-15-62 'Nytt kapittel 1 A skal lyde:' and
+    lov/2002-03-15-5 'Overskriften til kapittel 7 skal lyde:' are followed by
+    the new title in an italic defaultP that names the chapter; it was taken
+    for a new instruction, leaving the replacement empty."""
+    xml = _act("""<section><h2>I</h2>
+<article class="defaultP">I lov 17. juli 1998 nr. 56 om årsregnskap m.v. gjøres følgende endringer:</article>
+<article class="defaultP">Nytt kapittel 1 A skal lyde:</article>
+<article class="defaultP"><i>Kapittel 1 A Den sentrale domstoladministrasjonen</i></article>
+<article class="defaultP"><strong>§ 33.</strong> Domstoladministrasjonen ledes av et styre.</article>
+<article class="legalP">Kongen i statsråd kan treffe vedtak.</article>
+<article class="defaultP">Overskriften til kapittel 7 skal lyde:</article>
+<article class="defaultP"><i>Kapittel 7. Tilsyn med forurensninger og avfall</i></article>
+<article class="defaultP">Kapittel 7A (herunder kapitteloverskriften) oppheves og § 52 c går inn i kapittel 7.</article>
+</section>""")
+    result = parse_lovtidend_file(xml, "test.xml")
+    recs = [(a.instruction, a.new_text) for a in result.amendments]
+    assert recs[0] == ("Nytt kapittel 1 A skal lyde:",
+                       "Kapittel 1 A Den sentrale domstoladministrasjonen\n§ 33.Domstoladministrasjonen ledes av et styre.\nKongen i statsråd kan treffe vedtak.")
+    assert recs[1] == ("Overskriften til kapittel 7 skal lyde:", "Kapittel 7. Tilsyn med forurensninger og avfall")
+    assert recs[2][0].startswith("Kapittel 7A (herunder kapitteloverskriften) oppheves")
+
+
+def test_instruction_with_embedded_preamble_reanchors_target_law():
+    """Real case: lov/2001-05-11-19 changes three laws; each section is one
+    legalP 'I lov 29. april 1977 nr. 34 om ... skal § 3 lyde:' followed by the
+    wording. Neither the defaultP-only instruction rule nor the preamble
+    phrases matched, so 2,148 multi-target acts produced no records."""
+    xml = _act("""<section><h2>I</h2>
+<article class="legalP">I lov 29. april 1977 nr. 34 om kommunal forkjøpsrett til leiegårder skal § 3 lyde:</article>
+<article class="legalP">Kommunen kan nytte forkjøpsretten på vegne av leierne.</article>
+</section>
+<section><h2>II</h2>
+<article class="legalP">I lov 26. mars 1999 nr. 17 om husleieavtaler (husleieloven) skal § 12-5 første punktum lyde:</article>
+<article class="legalP">Departementet kan som forsøk opprette et utvalg.</article>
+</section>""", changes_to="<li>lov/1977-04-29-34</li><li>lov/1999-03-26-17</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert [(a.target_law, a.new_text) for a in result.amendments] == [
+        ("lov/1977-04-29-34", "Kommunen kan nytte forkjøpsretten på vegne av leierne."),
+        ("lov/1999-03-26-17", "Departementet kan som forsøk opprette et utvalg."),
+    ]
+    assert result.amendments[0].instruction.endswith("skal § 3 lyde:")
+    assert result.amendments[0].target == "§ 3"

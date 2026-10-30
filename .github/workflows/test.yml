@@ -6,6 +6,7 @@ on:
     paths:
       - 'lovdata-loader/**'
       - 'lovdata-publisher/**'
+      - 'norwegian-laws-mcp/**'
       - '.github/scripts/**'
       - '.github/tests/**'
       - '.github/workflows/**'
@@ -24,7 +25,7 @@ jobs:
 
       - name: Install packages and test dependencies
         run: |
-          pip install -e "lovdata-loader/[test]" -e "lovdata-publisher/[test]"
+          pip install -e "lovdata-loader/[test]" -e "lovdata-publisher/[test]" -e "norwegian-laws-mcp/[test]"
 
       - name: Run loader tests
         run: cd lovdata-loader && pytest tests/ -v
@@ -34,3 +35,6 @@ jobs:
 
       - name: Verify publication and push failure handling
         run: python -m pytest .github/tests -q
+
+      - name: Run MCP server tests
+        run: cd norwegian-laws-mcp && pytest tests/ -q

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "norwegian-laws-mcp"
+version = "0.1.0"
+description = "MCP server that answers questions about Norwegian laws and regulations from the norwegian-laws Git repository"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+    "mcp>=2.0,<3",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0", "anyio>=4.0"]
+
+[project.scripts]
+norwegian-laws-mcp = "norwegian_laws_mcp.cli:main"
+
+[project.urls]
+Repository = "https://github.com/sondreskarsten/norwegian-laws"
+Reader = "https://sondreskarsten.github.io/norwegian-laws/"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/norwegian_laws_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]

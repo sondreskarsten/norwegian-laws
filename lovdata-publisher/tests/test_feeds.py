@@ -344,3 +344,18 @@ def test_feed_link_includes_paragraph_anchor_when_single_paragraph(tmp_path):
     feed_text = (out / "lov-1998-07-17-56.xml").read_text(encoding="utf-8")
     # Link should include the paragraph anchor
     assert "lov-1998-07-17-56.html#1-2a" in feed_text
+
+
+def test_paragraph_anchor_map_uses_only_the_heading_line(tmp_path):
+    """A bare '#### § 24-2' heading followed by a paragraph used to get an
+    anchor made of the next line's text, which the rendered page never has."""
+    from lovdata_publisher.feeds import _build_paragraph_anchor_map
+    md = tmp_path / "lov-1989-06-16-69.md"
+    md.write_text(
+        "#### § 24-1. Ikrafttredelse\n\nTekst.\n\n#### § 24-2\n\n"
+        "Loven gjelder fullt ut for forsikringsavtaler som blir inngått etter lovens ikrafttredelse.\n\n"
+        "##### § 24-3a. Overgang\n\nMer.\n", encoding="utf-8")
+    anchors = _build_paragraph_anchor_map(md)
+    assert anchors["§ 24-1"] == "24-1-ikrafttredelse"
+    assert anchors["§ 24-2"] == "24-2"
+    assert anchors["§ 24-3a"] == "24-3a-overgang"
