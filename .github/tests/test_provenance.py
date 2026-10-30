@@ -276,3 +276,24 @@ def test_observation_evidence_resolves_the_release_tag_pointing_at_the_commit(re
     assert result == {'observation_id': 'abc', 'bundle_sha256': 'd' * 64,
                       'receipt_url': 'https://github.com/o/r/releases/download/observation-abc/evidence.json'}
     assert calls[0][:3] == ['git', 'ls-remote', '--tags']
+
+
+def test_message_carries_the_index_digest_trailer(tmp_path):
+    manifest = tmp_path / 'manifest.json'
+    manifest.write_text(json.dumps(MANIFEST))
+    import sqlite3
+    index = tmp_path / 'laws-index.sqlite'
+    with sqlite3.connect(index) as conn:
+        conn.execute("CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT)")
+        conn.execute("INSERT INTO meta VALUES ('logical_digest', ?)", ('ab' * 32,))
+    text = provenance.message('source', '2026-10-30', manifest, {'lovdata-loader': 'a', 'lovdata-publisher': 'b'}, {}, index=index)
+    assert f"Indeks: sha256:{'ab' * 32}" in text
+    without = provenance.message('source', '2026-10-30', manifest, {'lovdata-loader': 'a', 'lovdata-publisher': 'b'}, {})
+    assert 'Indeks:' not in without
+
+
+def test_manifest_digest_command_prints_the_canonical_digest(tmp_path, capsys):
+    manifest = tmp_path / 'manifest.json'
+    manifest.write_text(json.dumps(MANIFEST + [{"filename": "unrelated.txt", "lastModified": "x", "sizeBytes": 1}]))
+    assert provenance.main(['manifest-digest', '--manifest', str(manifest)]) == 0
+    assert capsys.readouterr().out.strip() == 'sha256:' + provenance.canonical_sha256(MANIFEST)

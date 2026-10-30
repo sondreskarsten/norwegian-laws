@@ -263,3 +263,104 @@ def status(res: dict) -> str:
     lines.append(f"- Corpus scope: {res['corpus_scope']}")
     lines += _limits({"coverage": res["coverage"]})
     return "\n".join(lines)
+
+
+def outline(res: dict) -> str:
+    d = res["document"]
+    lines = [f"# Outline of {d.get('short_title') or d.get('title')} `{d['refid']}`", ""]
+    for n in res["nodes"]:
+        indent = "" if n["kind"] == "chapter" else "  "
+        lines.append(f"{indent}- {n['heading'] or n['address']} (lines {n['line_start']}–{n['line_end']})")
+    if not res["nodes"]:
+        lines.append("No chapters or §§ were recognised in this document.")
+    lines += _limits(res)
+    return "\n".join(lines)
+
+
+def provision(res: dict) -> str:
+    d, sec = res["document"], res["section"]
+    lines = [f"# {d.get('short_title') or d.get('title')} — {sec.get('heading') or sec['address']}", f"`{d['refid']}` {sec['address']}", ""]
+    for ledd in res["ledd"]:
+        lines.append(f"**{ledd['address']}**")
+        lines.append(ledd.get("text") or "")
+        lines.append("")
+    if sec.get("note"):
+        lines.append(f"*{sec['note']}*")
+        lines.append("")
+    if res.get("wording_at"):
+        w = res["wording_at"]
+        lines += [f"## Last recorded wording on or before {res['at']}", f"Set by {w['act']} in force {w['date_in_force']} ({w['instruction']}):", "",
+                  "> " + (w["text"] or "").replace("\n", "\n> "), "", f"- {w['note']}", ""]
+    lines.append(f"## Amendment records for this § ({len(res['history'])})")
+    for h in res["history"]:
+        wording = " — wording recorded" if h.get("new_text") else ""
+        lines.append(f"- {h['date_in_force'] or '?'} {h['act_refid']} [{h['change_type']}; {h.get('operations') or 'uncatalogued'}]: {h['instruction']}{wording}")
+    if not res["history"]:
+        lines.append("- none in Norsk Lovtidend records from 2001")
+    lines += _limits(res)
+    return "\n".join(lines)
+
+
+def index_search(res: dict) -> str:
+    hits = res["hits"]
+    if not hits:
+        return f"No provisions match '{res['query']}'." + "\n".join(_limits(res))
+    lines = [f"# Provisions matching '{res['query']}' ({len(hits)})", ""]
+    for h in hits:
+        lines.append(f"- **{h.get('short_title') or h.get('title')}** `{h['refid']}` {h['address']} ({h['kind']}): …{h['snippet']}…")
+    lines += _limits(res)
+    return "\n".join(lines)
+
+
+def references(res: dict) -> str:
+    d = res["document"]
+    target = f"{d['refid']}" + (f" § {res['section']}" if res.get("section") else "")
+    refs = res["references"]
+    lines = [f"# Provisions citing {d.get('short_title') or d.get('title')} ({target}): {len(refs)}", ""]
+    for r in refs:
+        sec = f" § {r['to_section']}" if r.get("to_section") else ""
+        lines.append(f"- {r.get('short_title') or r.get('title')} `{r['from_refid']}` {r['from_address']} → {target.split(' ')[0]}{sec} ({r['ref_kind']}: “{r['text']}”)")
+    lines += _limits(res)
+    return "\n".join(lines)
+
+
+def index_definitions(res: dict) -> str:
+    defs = res["definitions"]
+    lines = [f"# Definitions of '{res['term']}' ({len(defs)})", ""]
+    for d in defs:
+        lines.append(f"- **{d['term']}** — {d.get('short_title') or d.get('title')} `{d['refid']}` {d['address']}: {d['definition']}")
+    if not defs:
+        lines.append("- none in the definitions table; try laws_find_definition for free-text phrasing")
+    lines += _limits(res)
+    return "\n".join(lines)
+
+
+def sql(res: dict) -> str:
+    cols = res["columns"]
+    lines = [f"# {len(res['rows'])} row(s){' (truncated)' if res.get('truncated') else ''} in {res['seconds']} s", ""]
+    if cols:
+        lines.append("| " + " | ".join(cols) + " |")
+        lines.append("|" + "---|" * len(cols))
+        for row in res["rows"]:
+            lines.append("| " + " | ".join(str(v).replace("|", "\\|").replace("\n", " ")[:200] if v is not None else "" for v in row) + " |")
+    lines += _limits(res)
+    return "\n".join(lines)
+
+
+def index_status(res: dict) -> str:
+    lines = ["# Index status"]
+    if not res.get("path"):
+        lines.append(f"- Not available: {res.get('note')}")
+        return "\n".join(lines + _limits(res))
+    m = res["meta"]
+    lines.append(f"- File: `{res['path']}` ({res['source']})")
+    lines.append(f"- Built from publication `{(m.get('source_sha') or '?')[:10]}`, manifest {m.get('kildemanifest', '?')}, "
+                 f"parser loader `{(m.get('parser_loader') or '?')[:10]}` publisher `{(m.get('parser_publisher') or '?')[:10]}`")
+    match = res.get("matches_publication")
+    lines.append("- Matches the checkout's acknowledged publication: " + ("yes" if match else "no" if match is False else "unknown (no publication state or unstamped index)"))
+    c = res["counts"]
+    lines.append(f"- Rows: {c['documents']} documents, {c['nodes']} nodes, {c['node_text']} ledd texts, {c['amendments']} amendment records, {c['refs']} references, {c['definitions']} definitions; full-text table {'built' if c['fts'] else 'missing'}")
+    if res.get("note"):
+        lines.append(f"- {res['note']}")
+    lines += _limits(res)
+    return "\n".join(lines)

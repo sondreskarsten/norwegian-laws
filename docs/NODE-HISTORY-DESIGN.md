@@ -1,9 +1,16 @@
 # Node-level history: design rules
 
-Status 30 October 2026. This note fixes two rules before any queryable index
-(SQLite/parquet data releases, node ids, cross-reference graph) is built on top
-of the parser output. Both rules close weaknesses named in the data-release
-brainstorm of the same day.
+Status 30 October 2026 (second pass): the index is built. `lovdata-publisher/src/lovdata_publisher/index_build.py`
+derives `laws-index.sqlite` in the deploy run, the reproducibility gate rebuilds it and compares the logical digest,
+the publication commit carries it as the `Indeks` trailer, `deploy-book` attaches it gzipped to the observation
+release, and the MCP server (`norwegian_laws_mcp/index.py`) fetches it through `publication.json`, builds the
+full-text table locally and exposes it as `laws_outline`, `laws_provision`, `laws_index_search`,
+`laws_references_to`, `laws_definitions`, `laws_query_sql`, `laws_index_status` and connector-style `search`/`fetch`.
+Node ids are deterministic per (document, address); carrying an id across a renumbering (rule 2, second bullet)
+is not implemented: `renumber` records are indexed with their wording and catalogue operation, not applied.
+
+This note fixes two rules that the index follows. Both close weaknesses named in the data-release brainstorm of
+the same day.
 
 ## 1. One source of truth: every derived artifact is a function of the same run
 

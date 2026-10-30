@@ -62,6 +62,8 @@ claude mcp add norwegian-laws -- uvx --from "git+https://github.com/sondreskarst
 
 See the [server README](norwegian-laws-mcp/README.md) for other clients and the tool list.
 
+Each publication also produces a queryable **corpus index** (`laws-index.sqlite.gz` on the publication's observation release): every chapter, §, ledd and item of every current document, the parsed amendment records classified by the instruction catalogue, cross-references and defined terms, stamped with the source manifest digest and parser identity and verified by the reproducibility gate (the `Indeks` trailer on each publication commit). The MCP server uses it for outlines, provision-level history, ranked search, incoming references, definitions and read-only SQL; see [docs/NODE-HISTORY-DESIGN.md](docs/NODE-HISTORY-DESIGN.md).
+
 ## Source evidence and publication status
 
 [`publication.json`](https://sondreskarsten.github.io/norwegian-laws/publication.json) identifies the source commit and selected Lovdata manifest actually served by the site. Publication is acknowledged only after this receipt is read back from the public site.
@@ -84,6 +86,8 @@ The separate [norwegian-laws-history](https://github.com/sondreskarsten/norwegia
 The [`law-history` branch](https://github.com/sondreskarsten/norwegian-laws/tree/law-history) is an **unverified reconstruction**: one commit per amendment act since 2001, built from the current consolidated text by applying parsed Lovtidend instructions, with some dates inferred. It cannot answer “what was the law on this date?” reliably, and the [comparison tool](https://sondreskarsten.github.io/norwegian-laws/book/diff.html) labels it as such; a textual difference is not proof of a legal change.
 
 The [nightly workflow](.github/workflows/law-history.yml) rebuilds the branch at 05:30 UTC, moves the yearly tags `v2001`…`v<current year>`, and pushes a permanent build tag `history-YYYY-MM-DD` so a build can be cited after later rebuilds have replaced the branch. Acts with a commencement after the build date are not applied. Build tags older than 35 days are pruned except the first build of each month. The reconstruction is separate from the observed-source history product above.
+
+The baseline commit ("Utgangspunkt: gjeldende tekst …", dated 2001-01-01) is today's text, not the law as it stood in 2001; the final commit ("Tilbakestilling til gjeldende tekst …") snaps every document whose replay did not round-trip back to the current text. `reconstruction-manifest.json` on the branch lists, per document, how many acts were replayed and whether it diverged, and the comparison tool shows that note. Documents that left the Lovdata corpus since publication began (2026-02-18) stay in the branch with their last published text until a dated deletion commit: on the legal repeal date when Lovtidend carries a whole-document repeal, otherwise on the day the publication detected the exit; both dates are in the commit. Documents repealed before publication began are not reconstructed.
 
 ## Build the current reader
 

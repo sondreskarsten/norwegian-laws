@@ -56,7 +56,7 @@ norwegian-laws-mcp --repo /path/to/norwegian-laws
 
 Reading a yearly version (`version="v2010"`) fetches the `v20*` and `history-*` tags from the remote into the checkout, including a user-provided one; nothing else is written there.
 
-Other settings: `NORWEGIAN_LAWS_REMOTE` (clone URL), `NORWEGIAN_LAWS_CACHE` (cache directory), `NORWEGIAN_LAWS_NO_UPDATE=1` or `--no-update` (never fetch on start), `--prepare-only` (clone/update and exit, useful in CI or Docker builds).
+Other settings: `NORWEGIAN_LAWS_REMOTE` (clone URL), `NORWEGIAN_LAWS_CACHE` (cache directory), `NORWEGIAN_LAWS_NO_UPDATE=1` or `--no-update` (never fetch on start), `--prepare-only` (clone/update and exit, useful in CI or Docker builds), `NORWEGIAN_LAWS_INDEX` (a locally built corpus index instead of the published one).
 
 ## Tools
 
@@ -74,6 +74,18 @@ Other settings: `NORWEGIAN_LAWS_REMOTE` (clone URL), `NORWEGIAN_LAWS_CACHE` (cac
 | `laws_related_documents` | Regulations and acts that cite a document by short title or `20. juni 2025 nr. 105` citation. |
 | `laws_repo_status` | HEAD, last Lovdata update commit, history depth, document counts. |
 | `laws_update_repo` | Fetch the latest commits. |
+| `laws_outline` | Chapters and §§ of a document with headings and line ranges, from the corpus index. |
+| `laws_provision` | One § by ledd and item with every parsed amendment record that targets it (classified by the instruction catalogue); `at="2010-01-01"` reports the last recorded wording set before that date, or says that none exists. |
+| `laws_index_search` | BM25-ranked full-text search over every ledd of every current document, with § address and snippet. |
+| `laws_references_to` | Provisions in other documents that cite a document or one of its §§ (short-title and `lov DATE nr. N` citations). |
+| `laws_definitions` | Defined terms from the extracted definitions table (`Med X menes …`, `term: text` items in definition sections). |
+| `laws_query_sql` | One read-only SELECT over the index (documents, nodes, node_text, node_fts, acts, amendments, refs, definitions; 20 s, row cap). |
+| `laws_index_status` | Which index is loaded, which publication built it, whether it matches the checkout. |
+| `search`, `fetch` | Connector-style search and fetch (ids are a refid or `refid#§ address`) for clients that expect that pair, such as OpenAI connectors. |
+
+### The corpus index
+
+The index-backed tools read `laws-index.sqlite`, which the publication workflow builds from the same parser output as the committed Markdown (see [docs/NODE-HISTORY-DESIGN.md](../docs/NODE-HISTORY-DESIGN.md)). It is stamped with the source manifest digest, the parser identity and the publication commit, and attached gzipped to that publication's observation release. The server finds the asset through `.github/state/publication.json` on `main`, downloads it on first use (about 75 MB), stores it next to the clone, and builds the full-text table locally once (about 20 seconds). `NORWEGIAN_LAWS_INDEX=/path/laws-index.sqlite` uses an index built locally with `python -m lovdata_publisher.index_build build --laws <checkout> --db snapshot/amendments.db --output laws-index.sqlite`. Node text is the current wording; earlier wording exists only where an amendment record carries it, and `laws_provision` says so.
 
 Revisions and dates accepted by the history tools: commit shas, `HEAD~3`, ISO dates (`2026-10-01`), and Git phrases (`1 week ago`, `yesterday`, `3 months ago`). A date is resolved to the last commit before it.
 

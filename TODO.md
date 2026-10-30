@@ -11,9 +11,10 @@ observation pilot does not complete the whole historical product.
 
 The 29–30 October stress test ([log](docs/STRESS-TEST-2026-10-29.md)) changed the delivery model; the backlog below predates it and is kept as history of the earlier plan.
 
-- Delivered: the MCP server (`norwegian-laws-mcp/`), five Lovtidend parser repairs, the nightly `law-history` rebuild with citable `history-YYYY-MM-DD` tags, and provenance-bound publications (`.github/scripts/provenance.py`): every commit on `main` is a pure source update or a pure parser regeneration with the source manifest digest and parser identity as trailers, gated on byte-identical reformatting.
+- Delivered: the MCP server (`norwegian-laws-mcp/`), six Lovtidend parser repairs, the nightly `law-history` rebuild with citable `history-YYYY-MM-DD` tags, and provenance-bound publications (`.github/scripts/provenance.py`): every commit on `main` is a pure source update or a pure parser regeneration with the source manifest digest and parser identity as trailers, gated on byte-identical reformatting.
 - Decided: `norwegian-laws-history` stays as the evidence ledger; user-facing history is the in-repo `law-history` branch and the MCP. Reliable legal-date reconstruction remains undelivered and is not planned here.
-- Open: multi-target amendment acts without recognised instructions (log D5), 1,271 `skal lyde:` records without wording in old-format acts, repealed documents absent from the reconstruction (#6).
+- Second pass (30 October): multi-target acts (D5) down from 2,078 to 626 zero-record acts with whole-document repeals (3,946) and commencement decisions (3,826) now recorded; empty-wording records 1,411 → 858 (D4d); repealed documents kept in the `law-history` reconstruction until a dated deletion commit (#6); honest reconstruction commit titles and `reconstruction-manifest.json` (#5); the corpus index built, published with each publication and served by the MCP (`docs/NODE-HISTORY-DESIGN.md`).
+- Open: 626 multi-target acts (mostly new forskrifter) and 858 records still without wording; node ids do not yet follow a renumbering; documents repealed before 2026-02-18 are not reconstructed.
 
 ## Current delivery position
 
