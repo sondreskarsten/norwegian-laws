@@ -163,6 +163,18 @@ class TestRemovedDocuments:
         dates = [line.split("|")[0] for line in log]
         assert dates == sorted(dates, reverse=True)
 
+    def test_new_format_repeal_record_with_refid_target_dates_the_deletion(self, tmp_path):
+        from lovdata_publisher.git_export import legal_repeal
+        snap = _snapshot(tmp_path, [("lov/2024-06-01-10", "2024-07-01", "2024-06-01", "§ 1. Formål\nTekst.")])
+        with sqlite3.connect(snap / "amendments.db") as conn:
+            conn.execute("INSERT INTO amendment_acts VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                         ("lov/2025-06-20-105", "y.xml", "Lov om Enhetsregisteret", "", "2026-01-01", "2026-01-01", 0,
+                          "2025-06-20", "NFD", "lov/1994-06-03-15", "", "", 1))
+            conn.execute("INSERT INTO amendments (act_refid, change_type, target, target_law, instruction, new_text) VALUES (?,?,?,?,?,?)",
+                         ("lov/2025-06-20-105", "repeal", "lov/1994-06-03-15", "lov/1994-06-03-15", "", ""))
+            assert legal_repeal(conn, "lov/1994-06-03-15", "2026-10-30") == ("lov/2025-06-20-105", "2026-01-01")
+            assert legal_repeal(conn, "lov/1994-06-03-15", "2025-12-31") == ("", "")
+
     def test_without_legal_repeal_the_deletion_is_dated_on_the_detected_exit(self, tmp_path):
         snap = _snapshot(tmp_path, [("lov/2024-06-01-10", "2024-07-01", "2024-06-01", "§ 1. Formål\nTekst.")])
         src = _source_repo(tmp_path)

@@ -1072,7 +1072,7 @@ def _decision_records(body: Tag, title: str, changes_to: list[str]) -> list[Amen
         kind, targets = "unknown", changes_to
     else:
         return []
-    first_line = body_text.split("\n", 1)[0]
+    first_line = next((line for line in body_text.split("\n") if re.search(r"\w", line)), body_text.split("\n", 1)[0])
     return [Amendment(change_type=kind, target="", instruction=first_line[:300],
                       new_text=body_text, target_law=refid) for refid in targets]
 

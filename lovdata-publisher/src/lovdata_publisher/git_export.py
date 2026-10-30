@@ -377,12 +377,16 @@ def _title_from_markdown(text: str) -> str:
 
 
 def legal_repeal(conn: sqlite3.Connection, refid: str, cutoff_date: str) -> tuple[str, str]:
-    """(act refid, in-force date) of the earliest whole-document repeal of ``refid`` in Lovtidend, or ('', '')."""
+    """(act refid, in-force date) of the earliest whole-document repeal of ``refid`` in Lovtidend, or ('', '').
+
+    Old-format records carry an empty target for a whole-document repeal; new-format
+    records (``data-repeal-part``) carry the document's own refid as the target.
+    """
     row = conn.execute(
         """
         SELECT ac.refid, ac.date_in_force_resolved FROM amendments a
         JOIN amendment_acts ac ON ac.refid = a.act_refid
-        WHERE a.change_type = 'repeal' AND (a.target = '' OR a.target IS NULL) AND a.target_law = ?
+        WHERE a.change_type = 'repeal' AND (a.target = '' OR a.target IS NULL OR a.target = a.target_law) AND a.target_law = ?
           AND ac.date_in_force_resolved IS NOT NULL AND ac.date_in_force_resolved != ''
           AND ac.date_in_force_resolved <= ?
         ORDER BY ac.date_in_force_resolved ASC LIMIT 1
