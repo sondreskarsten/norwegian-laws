@@ -542,3 +542,25 @@ def test_old_format_chapter_title_paragraph_is_replacement_text():
                        "Kapittel 1 A Den sentrale domstoladministrasjonen\n§ 33.Domstoladministrasjonen ledes av et styre.\nKongen i statsråd kan treffe vedtak.")
     assert recs[1] == ("Overskriften til kapittel 7 skal lyde:", "Kapittel 7. Tilsyn med forurensninger og avfall")
     assert recs[2][0].startswith("Kapittel 7A (herunder kapitteloverskriften) oppheves")
+
+
+def test_instruction_with_embedded_preamble_reanchors_target_law():
+    """Real case: lov/2001-05-11-19 changes three laws; each section is one
+    legalP 'I lov 29. april 1977 nr. 34 om ... skal § 3 lyde:' followed by the
+    wording. Neither the defaultP-only instruction rule nor the preamble
+    phrases matched, so 2,148 multi-target acts produced no records."""
+    xml = _act("""<section><h2>I</h2>
+<article class="legalP">I lov 29. april 1977 nr. 34 om kommunal forkjøpsrett til leiegårder skal § 3 lyde:</article>
+<article class="legalP">Kommunen kan nytte forkjøpsretten på vegne av leierne.</article>
+</section>
+<section><h2>II</h2>
+<article class="legalP">I lov 26. mars 1999 nr. 17 om husleieavtaler (husleieloven) skal § 12-5 første punktum lyde:</article>
+<article class="legalP">Departementet kan som forsøk opprette et utvalg.</article>
+</section>""", changes_to="<li>lov/1977-04-29-34</li><li>lov/1999-03-26-17</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert [(a.target_law, a.new_text) for a in result.amendments] == [
+        ("lov/1977-04-29-34", "Kommunen kan nytte forkjøpsretten på vegne av leierne."),
+        ("lov/1999-03-26-17", "Departementet kan som forsøk opprette et utvalg."),
+    ]
+    assert result.amendments[0].instruction.endswith("skal § 3 lyde:")
+    assert result.amendments[0].target == "§ 3"

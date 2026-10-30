@@ -22,10 +22,17 @@ def test_real_amendment_bytes_bom_and_text_have_identical_correct_norwegian_text
                for value in (raw, b"\xef\xbb\xbf" + raw, raw.decode("utf-8"))]
     assert outputs[0] == outputs[1] == outputs[2]
     # Correct paragraph targets are included in this parsed-model fingerprint.
-    assert outputs[0]["amendments"][0]["target"] == "§ 12"
-    assert value_sha256(outputs[0]) == "c0a135c7cff551349ad1ef92c6242f77b0c97c3550c6f9ac57c43ad50f559860"
-    assert outputs[0]["amendments"][0]["instruction"] == "§ 12 annet ledd første punktum skal lyde:"
-    assert "foregående ledd" in outputs[0]["amendments"][0]["new_text"]
+    # The act's first change is a single sentence that is both preamble and
+    # instruction ('I lov 7. desember 1956 nr. 1 ... skal § 7 første ledd
+    # tredje og fjerde punktum lyde:'); it was skipped before the embedded
+    # preamble rule, which moved the fingerprint from c0a135c7… to 6694187e….
+    assert outputs[0]["amendments"][0]["target_law"] == "lov/1956-12-07-1"
+    assert outputs[0]["amendments"][0]["target"] == "§ 7"
+    assert outputs[0]["amendments"][0]["new_text"].startswith("Taushetsplikten etter denne bestemmelse")
+    assert outputs[0]["amendments"][1]["target"] == "§ 12"
+    assert value_sha256(outputs[0]) == "6694187e69b71f2a7ea3de60342811b64a58e40ee674b6fb06d765e921b1508d"
+    assert outputs[0]["amendments"][1]["instruction"] == "§ 12 annet ledd første punktum skal lyde:"
+    assert "foregående ledd" in outputs[0]["amendments"][1]["new_text"]
 
 
 def test_law_bytes_bom_and_text_match_and_capture_keeps_original_raw_identity():
@@ -59,6 +66,6 @@ def test_current_default_v4_and_capture_v5_export_identical_real_amendments(tmp_
         root = tmp_path / str(version)
         write_snapshot(str(root), [], acts, evidence=bundle)
         assert json.loads((root / "manifest.json").read_text())["version"] == version
-        assert bundle.members[0]["parsed_model_sha256"] == "c0a135c7cff551349ad1ef92c6242f77b0c97c3550c6f9ac57c43ad50f559860"
+        assert bundle.members[0]["parsed_model_sha256"] == "6694187e69b71f2a7ea3de60342811b64a58e40ee674b6fb06d765e921b1508d"
         outputs.append([(root / name).read_bytes() for name in (PARSED_ACTS, "amendments.db")])
     assert outputs[0] == outputs[1]

@@ -500,6 +500,9 @@ _INSTRUCTION_RE = re.compile(
 )
 
 _NEW_SECTION_RE = re.compile(r"Ny(?:tt?)?\s+§\s*[\d]", re.I)
+# 'skal § 3 lyde', 'skal § 12-5 første punktum lyde' (verb before the target)
+_EMBEDDED_INSTRUCTION_RE = re.compile(r"\bskal\s+(§\s*\d+[\w-]*(?:\s+[a-z](?!\w))?)[^.:]*?\blyde\b")
+_EMBEDDED_PREAMBLE_RE = re.compile(r"^\s*I\s+(?:lov|forskrift)\b")
 _RENUMBER_RE = re.compile(r"Nåværende\s+", re.I)
 _KAPITTEL_RE = re.compile(r"(?:Kapittel|kapittel|Kap\.)\s+\d+", re.I)
 _HEADING_RE = re.compile(r"[Oo]verskriften?\s+(?:til\s+)?§", re.I)
@@ -522,7 +525,7 @@ def _classify_old_instruction(text: str) -> str:
         return "add"
     if _RENUMBER_RE.match(text):
         return "renumber"
-    if "skal lyde" in text or "endres til" in text:
+    if "skal lyde" in text or "endres til" in text or _EMBEDDED_INSTRUCTION_RE.search(text):
         return "change"
     if _HEADING_RE.search(text):
         return "change"
@@ -726,6 +729,21 @@ def _parse_old_format_section(section: Tag, target_law: str = "") -> list[Amendm
                 continue
 
         is_instr = "defaultP" in classes and _is_old_instruction(text)
+
+        # Multi-law acts from the early 2000s fold the preamble into the
+        # instruction, often in a legalP: 'I lov 29. april 1977 nr. 34 om ...
+        # skal § 3 lyde:'. Such a sentence is an instruction and re-anchors
+        # the target law at the same time.
+        if (any(c in classes for c in ("legalP", "defaultP"))
+                and _EMBEDDED_PREAMBLE_RE.match(text)
+                and (_INSTRUCTION_RE.search(text) or _EMBEDDED_INSTRUCTION_RE.search(text))):
+            embedded_law = _extract_law_refid_from_preamble(text)
+            if embedded_law:
+                flush()
+                current_instruction = None
+                text_parts = []
+                target_law = embedded_law
+                is_instr = True
 
         # 'Nytt kapittel 1 A skal lyde:' / 'Overskriften til kapittel 7 skal
         # lyde:' are followed by the new title in its own paragraph, e.g.
