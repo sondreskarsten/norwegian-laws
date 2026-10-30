@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-10-29 | Forskrift om endring i forskrift om takstberegning og maksimalprise… | [`forskrift/2010-09-30-1307`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-09-30-1307.html) |
+| 2026-10-29 | Forskrift om endring i forskrift om omregningsfaktorer for råvarer … | [`forskrift/2009-06-30-954`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-06-30-954.html) |
+| 2026-10-29 | Endr. i legemiddelforskriften | [`forskrift/2009-12-18-1839`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-12-18-1839.html) |
+| 2026-10-29 | Endr. i valgforskriften | [`forskrift/2024-11-05-2662`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-11-05-2662.html) |
 | 2026-10-28 | Fagskoleforskriften | [`forskrift/2019-07-11-1005`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-07-11-1005.html) [`forskrift/2020-04-23-853`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-04-23-853.html) |
-| 2026-10-28 | Endr. i veglister normaltransport | [`forskrift/2023-10-24-1694`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1694.html) |
-| 2026-10-28 | Endr. i veglister tømmertransport | [`forskrift/2023-10-24-1695`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1695.html) |
-| 2026-10-28 | Endr. i veglister modulvogntog | [`forskrift/2023-10-24-1696`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1696.html) |
-| 2026-10-28 | Endr. i veglister spesialtransport | [`forskrift/2023-10-24-1697`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1697.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
