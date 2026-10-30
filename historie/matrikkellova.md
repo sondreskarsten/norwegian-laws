@@ -15,9 +15,8 @@ refid: "lov/2005-06-17-101"
 
 *Overskrifta til kapittel 3 skal lyde:*
 
-### 2007-06-29 — lov/2007-06-29-94
-
-*Overskrifta til kapittel 4, som ført opp før § 8, blir oppheva.*
+> Overskrifta til kapittel 4, som ført opp før § 8, blir oppheva.
+>
 
 ### 2007-06-29 — lov/2007-06-29-94
 
@@ -39,6 +38,20 @@ refid: "lov/2005-06-17-101"
 *Overskrift til § 39 skal lyde:*
 
 > § 39.Geodetisk grunnlag
+>
+
+### 2015-09-18 — forskrift/2015-09-18-1059
+
+*Delt ikraftsetting av lov 20. januar 2012 nr. 7 om endringer i matrikkellova og tinglysingsloven mv. Romertall I for så vidt gjelder endringen i § 35 første ledd tredje punktum, trer i kraft straks.*
+
+> Delt ikraftsetting av lov 20. januar 2012 nr. 7 om endringer i matrikkellova og tinglysingsloven mv. Romertall I for så vidt gjelder endringen i § 35 første ledd tredje punktum, trer i kraft straks.
+>
+
+### 2017-06-21 — lov/2017-06-21-97
+
+*I lov 17. juni 2005 nr. 101 om eigedomsregistrering skal § 23 tredje ledd lyde:*
+
+> Departementet kan gi forskrift og fatte enkeltvedtak eller avgjerd om tildeling av matrikkelnummer.
 >
 
 ### 2018-04-20 — lov/2018-04-20-12
@@ -179,9 +192,13 @@ refid: "lov/2005-06-17-101"
 
 *Ny § 15 a skal lyde:*
 
-> § 15 a.MatrikkelomformingVed matrikkelomforming kan det opprettast nye grunneigedommar og nye anleggseigedommar, og grensene mellom eksisterande grunneigedommar og anleggseigedommar kan endrast. Før ei slik matrikkelomforming kan matrikkelførast, skal det vere gitt løyve som for oppretting av ei ny matrikkeleining, og liggje føre nødvendige fråsegner om overdraging av eigedomsrett, pantefråfall og konsesjonar for alt areal som blir overført mellom matrikkeleiningar.Ei matrikkelomforming kan krevjast av dei som er nemnde i § 9 første ledd bokstav a til f. Matrikkelomformingar som omfattar umatrikulerte einingar, kan berre skje i saker som er kravde etter § 9 første ledd bokstav f, og berre samtidig med at einingane blir matrikulerte. Kravet skal innehalde samtykke frå dei som har grunnboksheimel som eigar eller festar av dei matrikkeleiningane som omforminga får verknad for, og dei som har andre tinglyste rettar som omforminga får verknad for.Departementet kan gi forskrift om matrikkelomforming.
+> § 15 a. Matrikkelomforming
 >
-> § 15 a.Matrikkelomforming
+> Ved matrikkelomforming kan det opprettast nye grunneigedommar og nye anleggseigedommar, og grensene mellom eksisterande grunneigedommar og anleggseigedommar kan endrast. Før ei slik matrikkelomforming kan matrikkelførast, skal det vere gitt løyve som for oppretting av ei ny matrikkeleining, og liggje føre nødvendige fråsegner om overdraging av eigedomsrett, pantefråfall og konsesjonar for alt areal som blir overført mellom matrikkeleiningar.
+>
+> Ei matrikkelomforming kan krevjast av dei som er nemnde i § 9 første ledd bokstav a til f. Matrikkelomformingar som omfattar umatrikulerte einingar, kan berre skje i saker som er kravde etter § 9 første ledd bokstav f, og berre samtidig med at einingane blir matrikulerte. Kravet skal innehalde samtykke frå dei som har grunnboksheimel som eigar eller festar av dei matrikkeleiningane som omforminga får verknad for, og dei som har andre tinglyste rettar som omforminga får verknad for.
+>
+> Departementet kan gi forskrift om matrikkelomforming.
 >
 
 ## § 16

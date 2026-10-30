@@ -7,6 +7,13 @@ refid: "lov/2003-03-14-15"
 
 ## (annet)
 
+### 2010-06-17 — forskrift/2010-04-09-497
+
+*Lov 14. mars 2003 nr. 15 om beskyttelse av design kapittel 10 Internasjonal designregistrering trer i kraft 17. juni 2010.*
+
+> Lov 14. mars 2003 nr. 15 om beskyttelse av design kapittel 10 Internasjonal designregistrering trer i kraft 17. juni 2010.
+>
+
 ### 2013-05-31 — lov/2013-05-31-25
 
 *I kapittel 7 skal ny § 39 a lyde:*
@@ -14,6 +21,20 @@ refid: "lov/2003-03-14-15"
 > § 39 a.Forbud mot inngrep
 >
 > Den som har gjort inngrep i en annens rett etter denne loven, eller medvirket til det, kan ved dom forbys å gjenta handlingen. Den som har gjort vesentlige forberedelsestiltak med sikte på å utføre en handling som vil utgjøre inngrep, eller på annen måte har opptrådt slik at det er særlig grunn til å frykte at vedkommende vil gjøre inngrep, kan ved dom forbys å gjennomføre handlingen.
+>
+
+### 2015-01-23 — lov/2015-01-23-4
+
+*I lov 14. mars 2003 nr. 15 om beskyttelse av design skal § 54 fjerde ledd lyde:*
+
+> Frivillig overdragelse av en designregistrering eller utstedelse av lisens som er blitt innmeldt til registrering, går i kollisjonstilfelle foran overdragelse eller utstedelse av lisens som ikke er eller først senere blir innmeldt til registrering, dersom vedkommende rettighetshaver ved innmeldelsen var i god tro.
+>
+
+### 2020-06-12 — lov/2020-06-12-67
+
+*I lov 14. mars 2003 nr. 15 om beskyttelse av design skal § 7 tredje ledd lyde:*
+
+> Designrett kan heller ikke oppnås hvis designen krenker en annens rett her i landet til:et varemerke, foretaksnavn eller annet forretningskjennetegn,et åndsverk eller fotografisk bilde,en betegnelse som er beskyttet ved forskrift etter matloven, elleret navn, kunstnernavn eller lignende eller portrett, med mindre det åpenbart siktes til en forlengst avdød person.
 >
 
 ## § 13

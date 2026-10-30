@@ -11,11 +11,56 @@ refid: "lov/1975-06-13-35"
 
 *Nåværende § 6 nr. 5 blir ny § 6 nr. 4.*
 
+### 2009-10-08 — forskrift/2009-10-08-1232
+
+*Del I i lov 19. juni 2009 nr. 52 om endringar i lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. tek til å gjelde straks.*
+
+> Del I i lov 19. juni 2009 nr. 52 om endringar i lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. tek til å gjelde straks.
+>
+
 ### 2010-06-25 — lov/2010-06-25-34
 
 *Overskrifta i § 6 skal lyde:*
 
 > § 6.Ligning og bindende forhåndsuttalelse. Klage. Søksmål. Opplysningsplikt.
+>
+
+### 2012-07-01 — forskrift/2012-06-29-644
+
+*Lov 25. juni 2010 nr. 34 om endringar i lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. trer i kraft 1. juli 2012.*
+
+> Lov 25. juni 2010 nr. 34 om endringar i lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. trer i kraft 1. juli 2012.
+>
+
+### 2013-06-21 — lov/2013-06-21-66
+
+*I lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. skal § 5 fjerde ledd første punktum lyde:*
+
+> Friinntekten settes til 5,5 pst. av kostpris for driftsmiddel som nevnt i § 3 b.
+>
+
+### 2013-06-21 — lov/2013-06-21-66
+
+*I lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. skal § 5 femte ledd fjerde punktum lyde:*
+
+> Friinntekten settes til 5,5 pst. av beregningsgrunnlaget, og medregnes i 4 år fra og med realisasjonsåret.
+>
+
+### 2016-06-17 — lov/2016-06-17-36
+
+*Endring i følgjande lov:*
+
+> Endring i følgjande lov:
+>
+> Lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v.
+>
+> I lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. blir det gjort følgjande endring:
+>
+> Tittelen til lova skal lyde:
+>
+> Lov om skattlegging av undersjøiske petroleumsforekomster mv. (petroleumsskatteloven)
+>
+> Lova tek til å gjelde straks.
 >
 
 ## § 11
@@ -577,7 +622,17 @@ refid: "lov/1975-06-13-35"
 
 *§ 7 skal lyde:*
 
-> § 7.Terminskatt.1. Det skal betales terminskatt på formue i og inntekt vunnet ved virksomhet i utvinning og rørledningstransport av petroleum etter reglene i nr. 2–6 nedenfor.2. Terminskatt etter nr. 1 skal skrives ut til det beløp som fastsatt skatt ventes å utgjøre for vedkommende inntektsår. Ved utskrivningen fordeles terminskatten i ti deler, jf. skattebetalingsloven § 10-22 første ledd. Den skattepliktige skal ha adgang til å uttale seg før utskrivningen finner sted.3. Terminskatt kan forhøyes eller nedsettes fram til forfallstid for sjette termin med virkning for de fem siste terminene. Den skattepliktige skal ha adgang til å uttale seg før forhøyelse eller nedsettelse finner sted.4. Skattyteren kan ved forfall for andre termin, med virkning for de fem første terminene, innbetale tillegg til utskrevet terminskatt når denne antas utilstrekkelig til å dekke den skatt som ventes fastsatt. Tillegget betales med tre like store beløp sammen med andre, tredje og fjerde termin. Tilsvarende kan skattyteren ved forfall for sjuende termin, med virkning for de fem siste terminene, innbetale tillegg til utskrevet terminskatt. Tillegget betales med tre like store beløp sammen med sjuende, åttende og niende termin.5. Departementet kan gjøre vedtak om ansvar for og gjennomføring av betaling av skatt etter denne lov, samt gi utfyllende forskrifter om utskrivning av terminskatt, jf. nr. 2 og 3.6. Når skatten er fastsatt, blir utskrevet terminskatt å avregne i den fastsatte skatt. I tilfeller som nevnt i nr. 4, avregnes innbetalt terminskatt i fastsatt skatt. Skattebetalingsloven § 7-1 annet og tredje ledd og § 7-2 første ledd gjelder tilsvarende. Departementet kan i forskrift gi regler om gjennomføring og utfylling av denne bestemmelsen.
+> § 7. Terminskatt.
 >
-> § 7.Terminskatt.
+> 1. Det skal betales terminskatt på formue i og inntekt vunnet ved virksomhet i utvinning og rørledningstransport av petroleum etter reglene i nr. 2–6 nedenfor.
+>
+> 2. Terminskatt etter nr. 1 skal skrives ut til det beløp som fastsatt skatt ventes å utgjøre for vedkommende inntektsår. Ved utskrivningen fordeles terminskatten i ti deler, jf. skattebetalingsloven § 10-22 første ledd. Den skattepliktige skal ha adgang til å uttale seg før utskrivningen finner sted.
+>
+> 3. Terminskatt kan forhøyes eller nedsettes fram til forfallstid for sjette termin med virkning for de fem siste terminene. Den skattepliktige skal ha adgang til å uttale seg før forhøyelse eller nedsettelse finner sted.
+>
+> 4. Skattyteren kan ved forfall for andre termin, med virkning for de fem første terminene, innbetale tillegg til utskrevet terminskatt når denne antas utilstrekkelig til å dekke den skatt som ventes fastsatt. Tillegget betales med tre like store beløp sammen med andre, tredje og fjerde termin. Tilsvarende kan skattyteren ved forfall for sjuende termin, med virkning for de fem siste terminene, innbetale tillegg til utskrevet terminskatt. Tillegget betales med tre like store beløp sammen med sjuende, åttende og niende termin.
+>
+> 5. Departementet kan gjøre vedtak om ansvar for og gjennomføring av betaling av skatt etter denne lov, samt gi utfyllende forskrifter om utskrivning av terminskatt, jf. nr. 2 og 3.
+>
+> 6. Når skatten er fastsatt, blir utskrevet terminskatt å avregne i den fastsatte skatt. I tilfeller som nevnt i nr. 4, avregnes innbetalt terminskatt i fastsatt skatt. Skattebetalingsloven § 7-1 annet og tredje ledd og § 7-2 første ledd gjelder tilsvarende. Departementet kan i forskrift gi regler om gjennomføring og utfylling av denne bestemmelsen.
 >

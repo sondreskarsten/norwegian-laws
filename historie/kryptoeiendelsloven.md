@@ -16,3 +16,6 @@ refid: "lov/2025-05-27-20"
 ### 2026-06-19 — lov/2026-06-19-40
 
 *§ 10 annet ledd skal lyde:*
+
+> (2) Et vedtak etter første ledd kan gis for et tidsrom av inntil fem år.
+>

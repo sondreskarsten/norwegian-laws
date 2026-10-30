@@ -7,9 +7,41 @@ refid: "lov/1959-06-19-2"
 
 ## (annet)
 
+### 2003-01-01 — lov/2002-12-20-93
+
+*I lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter skal ny § 5a lyde:*
+
+> I lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter skal ny § 5a lyde:
+>
+> § 5a.
+>
+> Når Statens Innkrevingssentral er pålagt å innkreve årsavgift for motorvogn og tilhørende tilleggsavgift fastsatt av Stortinget, kan den inndrive kravet ved trekk i lønn og lignende ytelser etter reglene i dekningsloven § 2-7. Innkrevingssentralen kan også inndrive kravene ved å stifte utleggspant for kravet dersom panterett kan gis rettsvern ved registrering i et register eller ved underretning til en tredjeperson, jf. panteloven kapittel 5, og utleggsforretning kan holdes på innkrevingssentralens kontor etter tvangsfullbyrdelsesloven § 7-9 første ledd.
+>
+> Krav som nevnt i første ledd kan innkrevingssentralen også motregne i tilgodebeløp på skatt etter reglene i skattebetalingsloven.
+>
+> Denne lov trer i kraft 1. januar 2003.
+>
+
 ### 2008-05-09 — lov/2008-05-09-16
 
 *Nåværende § 10 blir § 11.*
+
+### 2016-06-17 — lov/2016-06-17-34
+
+*Endring i følgjande lov:*
+
+> Endring i følgjande lov:
+>
+> Lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter.
+>
+> I lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter blir det gjort følgjande endring:
+>
+> Tittelen til lova skal lyde:
+>
+> Lov om avgifter vedrørende motorkjøretøyer og båter (motorkjøretøy- og båtavgiftsloven)
+>
+> Lova tek til å gjelde straks.
+>
 
 ## § 10
 

@@ -7,6 +7,20 @@ refid: "lov/2004-12-10-82"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-107
+
+*I lov 10. desember 2004 nr. 82 om Overenskomst om internasjonal jernbanetrafikk skal § 2 a nytt annet punktum lyde:*
+
+> For befordring som er omfattet av Europaparlaments- og rådsforordning (EF) 2007/1371 av 23. oktober 2007 om jernbanepassasjerers rettigheter og forpliktelser, jf. jernbaneloven § 7 c, gjelder reglene i første punktum med tillegg av reglene i nevnte forordning.
+>
+
+### 2023-06-20 — forskrift/2023-06-20-957
+
+*Loven trer i kraft samtidig som endringene av 30. september 2015 og 26. september 2018 i Overenskomst om internasjonal jernbanetrafikk.*
+
+> Loven trer i kraft samtidig som endringene av 30. september 2015 og 26. september 2018 i Overenskomst om internasjonal jernbanetrafikk.
+>
+
 ### 2026-05-07 — lov/2026-05-07-17
 
 *I lov 10. desember 2004 nr. 82 om Overenskomst om internasjonal jernbanetrafikk skal § 4 første ledd annet punktum lyde:*

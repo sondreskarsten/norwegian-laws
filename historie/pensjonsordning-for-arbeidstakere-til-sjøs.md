@@ -21,6 +21,15 @@ refid: "lov/1948-12-03-7"
 
 ### 2022-11-25 — lov/2022-11-25-86
 
+*I lov 3. desember 1948 nr. 7 om pensjonsordning for arbeidstakere til sjøs skal § 26 første og andre ledd lyde:*
+
+> Kongen kan i forskrift gjennomføre bilaterale avtaler med andre land om trygdekoordinering.
+>
+> Bestemmelsene som er gitt i eller i medhold av denne loven, skal fravikes i den utstrekning det er nødvendig for å overholde forpliktelser som følger av EØS-avtalens hoveddel, bilaterale avtaler som nevnt i første ledd og forordninger og avtaler som nevnt i folketrygdloven §§ 1-3 a og 1-3 b.
+>
+
+### 2022-11-25 — lov/2022-11-25-86
+
 *Nåværende andre ledd blir nytt tredje ledd.*
 
 ### 2023-12-20 — lov/2023-12-20-95
@@ -236,6 +245,9 @@ refid: "lov/1948-12-03-7"
 
 *§ 4 nr. 3 skal lyde:*
 
+> 3. Alderspensjon ytes til og med den kalendermåned pensjonisten fyller 67 år, eller til den kalendermåned pensjonisten får uføretrygd eller arbeidsavklaringspenger etter lov om folketrygd for hel uførhet eller full avtalefestet pensjon som omfattes av samordningsloven § 1 første ledd bokstav d.
+>
+
 ## § 5
 
 ### 2004-01-01 — lov/2003-06-20-55
@@ -289,6 +301,9 @@ refid: "lov/1948-12-03-7"
 ### 2024-04-12 — lov/2024-04-12-14
 
 *§ 5 nr. 2 skal lyde:*
+
+> 2. For pensjonist som har uføretrygd eller arbeidsavklaringspenger etter lov om folketrygd for mindre enn hel uførhet eller gradert avtalefestet pensjon som omfattes av samordningsloven § 1 første ledd bokstav d, bortfaller en forholdsmessig del av alderspensjonen som svarer til uføregraden eller pensjonsgraden.
+>
 
 ## § 8
 

@@ -93,9 +93,13 @@ refid: "lov/2017-06-16-65"
 
 *Ny § 23 a skal lyde:*
 
-> § 23 a.Unntak fra § 23 for juridiske personer som tilbyr avtale om leie til eie eller deleieMed leie til eie menes i denne loven avtale mellom en juridisk person og en eller flere fysiske personer om leie av bolig, der den eller de fysiske personene innenfor en tidsbestemt periode har rett til å kjøpe boligen.Med deleie menes i denne loven avtale om delt eierskap av en bolig mellom en juridisk person og en eller flere fysiske personer, der den eller de fysiske personene har rett til å kjøpe hele boligen. Den eller de fysiske personene må eie minst 50 prosent av boligen og ha en eksklusiv bruksrett til hele boligen.Departementet kan gi forskrift om unntak fra begrensningen i adgangen til å kjøpe eller på annen måte erverve boligseksjoner etter § 23, slik at inntil 50 prosent av boligseksjonene i sameiet kan erverves av juridiske personer som tilbyr en bolig med avtale om leie til eie eller deleie. Forskriften skal stille nærmere vilkår til avtalene om leie til eie og deleie.
+> § 23 a. Unntak fra § 23 for juridiske personer som tilbyr avtale om leie til eie eller deleie
 >
-> § 23 a.Unntak fra § 23 for juridiske personer som tilbyr avtale om leie til eie eller deleie
+> Med leie til eie menes i denne loven avtale mellom en juridisk person og en eller flere fysiske personer om leie av bolig, der den eller de fysiske personene innenfor en tidsbestemt periode har rett til å kjøpe boligen.
+>
+> Med deleie menes i denne loven avtale om delt eierskap av en bolig mellom en juridisk person og en eller flere fysiske personer, der den eller de fysiske personene har rett til å kjøpe hele boligen. Den eller de fysiske personene må eie minst 50 prosent av boligen og ha en eksklusiv bruksrett til hele boligen.
+>
+> Departementet kan gi forskrift om unntak fra begrensningen i adgangen til å kjøpe eller på annen måte erverve boligseksjoner etter § 23, slik at inntil 50 prosent av boligseksjonene i sameiet kan erverves av juridiske personer som tilbyr en bolig med avtale om leie til eie eller deleie. Forskriften skal stille nærmere vilkår til avtalene om leie til eie og deleie.
 >
 
 ## § 23 b
@@ -104,9 +108,9 @@ refid: "lov/2017-06-16-65"
 
 *Ny § 23 b skal lyde:*
 
-> § 23 b.Foreldelse av kjøpsrett ved avtale om leie til eie og deleieNår en person har fått tilbud om kjøp av bolig som nevnt i § 23 a første eller andre ledd, foreldes ikke retten til å tre inn i kjøpsavtalen før akseptfristen som er angitt i kjøpsretten, er gått ut. For krav med grunnlag i en inngått kjøpsavtale gjelder reglene i foreldelsesloven.
+> § 23 b. Foreldelse av kjøpsrett ved avtale om leie til eie og deleie
 >
-> § 23 b.Foreldelse av kjøpsrett ved avtale om leie til eie og deleie
+> Når en person har fått tilbud om kjøp av bolig som nevnt i § 23 a første eller andre ledd, foreldes ikke retten til å tre inn i kjøpsavtalen før akseptfristen som er angitt i kjøpsretten, er gått ut. For krav med grunnlag i en inngått kjøpsavtale gjelder reglene i foreldelsesloven.
 >
 
 ## § 24

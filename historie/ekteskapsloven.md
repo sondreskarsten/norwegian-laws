@@ -92,7 +92,34 @@ refid: "lov/1991-07-04-47"
 
 ### 2016-05-27 — lov/2016-05-27-12
 
+*I lov 4. juli 1991 nr. 47 om ekteskap skal § 83 nytt fjerde punktum lyde:*
+
+> Arbeidsgivers opplysningsplikt etter barnelova § 70 sjuende ledd andre punktum gjelder tilsvarende.
+>
+
+### 2016-05-27 — lov/2016-05-27-12
+
 *Nåværende fjerde og femte punktum blir femte og nytt sjette punktum.*
+
+### 2018-04-20 — lov/2018-04-20-5
+
+*I lov 4. juli 1991 nr. 47 om ekteskap skal § 26 a lyde:*
+
+> § 26 a.Opplysningsplikt til barnevernet
+>
+> Meklere som arbeider innenfor rammen av denne loven skal i sitt arbeid være oppmerksomme på forhold som kan føre til tiltak fra barneverntjenesten.
+>
+> Meklere som arbeider innenfor rammen av denne loven, skal uten hinder av taushetsplikt melde fra til barneverntjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling, eller at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når et barn viser alvorlige atferdsvansker i form av alvorlig eller gjentatt kriminalitet, misbruk av rusmidler eller en annen form for utpreget normløs atferd,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Meklere som arbeider innenfor rammen av denne loven, plikter også å gi opplysninger etter pålegg i samsvar med barnevernloven § 6-4.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-883
+
+*Loven trer i kraft 1. juli 2018.*
+
+> Loven trer i kraft 1. juli 2018.
+>
 
 ### 2020-12-18 — lov/2020-12-18-149
 
@@ -153,6 +180,17 @@ refid: "lov/1991-07-04-47"
 > Statsforvalteren kan likevel anerkjenne ekteskapet dersom partene er over 18 år, var over 16 år på vigselstidspunktet og den som var mindreårig på vigselstidspunktet, ønsker ekteskapet anerkjent. Statsforvalteren kan også anerkjenne ekteskapet dersom sterke grunner taler for det. § 18 b andre ledd andre til fjerde punktum gjelder tilsvarende.
 >
 
+### 2021-06-11 — forskrift/2021-06-11-1867
+
+*Delt ikraftsetting av lov om endringer i ekteskapsloven (ekteskap inngått med mindreårig, etter utenlandsk rett mv.). Endringene i ekteskapsloven § 7 første ledd bokstav b, § 16 fjerde ledd første punktum og § 18b andre ledd fjerde punktum trer i kraft straks.*
+
+> Delt ikraftsetting av lov om endringer i ekteskapsloven (ekteskap inngått med mindreårig, etter utenlandsk rett mv.). Endringene i ekteskapsloven § 7 første ledd bokstav b, § 16 fjerde ledd første punktum og § 18b andre ledd fjerde punktum trer i kraft straks.
+>
+
+### 2021-07-01 — lov/2021-06-11-68
+
+*I lov 4. juli 1991 nr. 47 om ekteskap skal § 12 første ledd bokstav d lyde:sysselmesteren på Svalbard. Sysselmesteren kan delegere vigselsmyndigheten til ansatte hos Sysselmesteren.*
+
 ### 2023-06-16 — lov/2023-06-16-42
 
 *Nåværende andre til femte ledd blir tredje til nytt sjette ledd.*
@@ -161,9 +199,26 @@ refid: "lov/1991-07-04-47"
 
 *I lov 11. juni 2021 nr. 63 om endringer i ekteskapsloven (ekteskap inngått med mindreårig, etter utenlandsk rett mv.) del I skal ekteskapsloven § 18 b lyde:*
 
-> § 18 b.Anerkjennelse av visse ekteskap for parter med tilknytning til Norge på vigselstidspunktetEt ekteskap som er gyldig inngått etter utenlandsk rett, anerkjennes ikke her i riket dersom minst en av partene var norsk statsborger eller fast bosatt her i riket på vigselstidspunktet, og et eller flere av følgende forhold foreligger:ekteskapet ble inngått uten at begge parter var til stede under vigselen,en av partene var under 18 år,en av partene allerede var gift,partene er søskenbarn eller nærmere slektninger enn søskenbarn.Ekteskap etter første ledd bokstav d skal likevel anerkjennes der dette er påkrevd etter EØS-avtalen. Departementet kan gi forskrift om anerkjennelse etter første punktum.Statsforvalteren kan likevel anerkjenne ekteskapet dersom sterke grunner taler for det. En part som ønsker ekteskapet anerkjent, må fremsette en begjæring til statsforvalteren om dette. Departementet fastsetter hvilke statsforvaltere som skal behandle slike begjæringer. Departementet kan i forskrift gi nærmere regler om statsforvalterens oppgaver, saksbehandling, samhandling med andre organer og taushetsplikt. Departementet kan i forskrift også gi nærmere regler om behandlingen av klager over statsforvalterens vedtak, herunder fastsette hvilket organ som skal være klageinstans.
+> § 18 b. Anerkjennelse av visse ekteskap for parter med tilknytning til Norge på vigselstidspunktet
 >
-> § 18 b.Anerkjennelse av visse ekteskap for parter med tilknytning til Norge på vigselstidspunktet
+> Et ekteskap som er gyldig inngått etter utenlandsk rett, anerkjennes ikke her i riket dersom minst en av partene var norsk statsborger eller fast bosatt her i riket på vigselstidspunktet, og et eller flere av følgende forhold foreligger:ekteskapet ble inngått uten at begge parter var til stede under vigselen,en av partene var under 18 år,en av partene allerede var gift,partene er søskenbarn eller nærmere slektninger enn søskenbarn.
+>
+> Ekteskap etter første ledd bokstav d skal likevel anerkjennes der dette er påkrevd etter EØS-avtalen. Departementet kan gi forskrift om anerkjennelse etter første punktum.
+>
+> Statsforvalteren kan likevel anerkjenne ekteskapet dersom sterke grunner taler for det. En part som ønsker ekteskapet anerkjent, må fremsette en begjæring til statsforvalteren om dette. Departementet fastsetter hvilke statsforvaltere som skal behandle slike begjæringer. Departementet kan i forskrift gi nærmere regler om statsforvalterens oppgaver, saksbehandling, samhandling med andre organer og taushetsplikt. Departementet kan i forskrift også gi nærmere regler om behandlingen av klager over statsforvalterens vedtak, herunder fastsette hvilket organ som skal være klageinstans.
+>
+
+### 2025-01-01 — forskrift/2024-12-20-3302
+
+*Delt ikraftsetting av lov 11. juni 2021 nr. 63 om endringer i ekteskapsloven (ekteskap inngått med mindreårig, etter utenlandsk rett mv.). Følgende trer i kraft 1. januar 2025:*
+
+> Delt ikraftsetting av lov 11. juni 2021 nr. 63 om endringer i ekteskapsloven (ekteskap inngått med mindreårig, etter utenlandsk rett mv.). Følgende trer i kraft 1. januar 2025:
+>
+> Endringsloven del I (ekteskapsloven) § 4 nytt andre ledd, endringer i § 18a, ny § 18b og ny § 18c.
+>
+> Delt ikraftsetting av lov 25. juni 2024 nr. 57 om endringer i ekteskapsloven (forbud mot ekteskap mellom nære slektninger). Følgende trer i kraft 1. januar 2025:
+>
+> Endringsloven del I (ekteskapsloven) § 3 første ledd nytt andre og tredje punktum og § 7 bokstav d andre punktum.
 >
 
 ### 2025-06-20 — lov/2025-06-20-39
@@ -550,9 +605,11 @@ refid: "lov/1991-07-04-47"
 
 *§ 26 skal lyde:*
 
-> § 26.Mekling mv.Ektefeller med felles barn under 16 år, skal i saker om separasjon og skilsmisse etter §§ 20 og 22 delta i mekling før saken bringes inn for retten eller statsforvalteren, jf. § 27. Barneloven kapittel 10 gjelder tilsvarende.Mekling etter første ledd kreves ikke når saken allerede er brakt inn for retten med påstand om skilsmisse etter § 23 eller oppløsning etter § 24. Mekling og orientering er heller ikke nødvendig når sak reises av vergen etter § 28 andre ledd.
+> § 26. Mekling mv.
 >
-> § 26.Mekling mv.
+> Ektefeller med felles barn under 16 år, skal i saker om separasjon og skilsmisse etter §§ 20 og 22 delta i mekling før saken bringes inn for retten eller statsforvalteren, jf. § 27. Barneloven kapittel 10 gjelder tilsvarende.
+>
+> Mekling etter første ledd kreves ikke når saken allerede er brakt inn for retten med påstand om skilsmisse etter § 23 eller oppløsning etter § 24. Mekling og orientering er heller ikke nødvendig når sak reises av vergen etter § 28 andre ledd.
 >
 
 ## § 27
@@ -973,9 +1030,9 @@ refid: "lov/1991-07-04-47"
 
 *§ 83 skal lyde:*
 
-> § 83.Fastsettelse av bidrag.Partene kan inngå avtale om bidrag. Dersom partene ikke er enige om bidragsspørsmålet, kan hver av dem kreve at det avgjøres av domstolene. Dersom begge parter ønsker det, kan spørsmålet isteden avgjøres av Arbeids- og velferdsetaten. Arbeidsgivers opplysningsplikt etter barnelova § 9-5 syvende ledd andre punktum gjelder tilsvarende. Arbeids- og velferdsetatens vedtak kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer. Partene kan kreve avgjørelse av bidragsspørsmålet selv om de tidligere har inngått avtale om det.
+> § 83. Fastsettelse av bidrag.
 >
-> § 83.Fastsettelse av bidrag.
+> Partene kan inngå avtale om bidrag. Dersom partene ikke er enige om bidragsspørsmålet, kan hver av dem kreve at det avgjøres av domstolene. Dersom begge parter ønsker det, kan spørsmålet isteden avgjøres av Arbeids- og velferdsetaten. Arbeidsgivers opplysningsplikt etter barnelova § 9-5 syvende ledd andre punktum gjelder tilsvarende. Arbeids- og velferdsetatens vedtak kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer. Partene kan kreve avgjørelse av bidragsspørsmålet selv om de tidligere har inngått avtale om det.
 >
 
 ## § 84
@@ -991,9 +1048,9 @@ refid: "lov/1991-07-04-47"
 
 *§ 84 skal lyde:*
 
-> § 84.Endring av fastsatt bidrag.Hver av partene kan kreve at bidrag som er fastsatt av Arbeids- og velferdsetaten eller domstol, blir endret eller opphevet dersom særlige grunner foreligger. Når sterke grunner taler for det, kan avgjørelsen også gjelde bidrag som er forfalt før krav om endring ble satt fram. Bestemmelsene i barnelova § 9-9 tredje ledd gjelder tilsvarende. Hver av partene kan kreve endringskravet avgjort av Arbeids- og velferdsetaten hvis bidraget er fastsatt av Arbeids- og velferdsetaten. Hvis begge partene ønsker det, skal endringskravet avgjøres av domstolen. Er bidraget fastsatt av domstol, gjelder § 83 andre og tredje punktum.
+> § 84. Endring av fastsatt bidrag.
 >
-> § 84.Endring av fastsatt bidrag.
+> Hver av partene kan kreve at bidrag som er fastsatt av Arbeids- og velferdsetaten eller domstol, blir endret eller opphevet dersom særlige grunner foreligger. Når sterke grunner taler for det, kan avgjørelsen også gjelde bidrag som er forfalt før krav om endring ble satt fram. Bestemmelsene i barnelova § 9-9 tredje ledd gjelder tilsvarende. Hver av partene kan kreve endringskravet avgjort av Arbeids- og velferdsetaten hvis bidraget er fastsatt av Arbeids- og velferdsetaten. Hvis begge partene ønsker det, skal endringskravet avgjøres av domstolen. Er bidraget fastsatt av domstol, gjelder § 83 andre og tredje punktum.
 >
 
 ## § 85

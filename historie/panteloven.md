@@ -52,9 +52,9 @@ refid: "lov/1980-02-08-2"
 
 *§ 1-13 skal lyde:*
 
-> § 1-13.Forholdet mellom flere panteretter.Når to eller flere har panterett i samme formuesgode, går den retten foran som først ble påheftet, om ikke annet er avtalt eller følger av reglene om rettsvern eller av lov.
+> § 1-13. Forholdet mellom flere panteretter.
 >
-> § 1-13.Forholdet mellom flere panteretter.
+> Når to eller flere har panterett i samme formuesgode, går den retten foran som først ble påheftet, om ikke annet er avtalt eller følger av reglene om rettsvern eller av lov.
 >
 
 ## § 1-17
@@ -439,6 +439,9 @@ refid: "lov/1980-02-08-2"
 
 *§ 5-13 andre ledd skal lyde:*
 
+> (2) Regelen i første ledd gjelder ikke namsutlegg for krav på skatt og offentlig avgift. Det samme gjelder namsutlegg for underholdsbidrag etter innkrevingsloven § 23.
+>
+
 ## § 6-3
 
 ### 2003-01-10 — lov/2003-01-10-1
@@ -526,6 +529,20 @@ refid: "lov/1980-02-08-2"
 
 *Nåværende tredje punktum blir nytt fjerde punktum.*
 
+### 2003-04-25 — lov/2003-04-25-25
+
+*I lov 8. februar 1980 nr. 2 om pant skal § 1-6 annet ledd første punktum lyde:*
+
+> Den som har pant i verdipapirer, finansielle instrumenter registrert i et verdipapirregister, innløsningspapirer, aksjer eller enkle pengekrav, kan kreve og motta renter, utbytte og avdrag som forfaller mens panteretten består.
+>
+
+### 2007-03-16 — lov/2007-03-16-11
+
+*I lov 8. februar 1980 nr. 2 om pant skal § 6-4 første ledd tredje punktum lyde:*
+
+> Panteretten utgjør fem prosent av formuesgodets beregnede verdi eller av det et salg av formuesgodet innbringer, men maksimalt 700 ganger rettsgebyret i hvert realregistrerte panteobjekt.
+>
+
 ### 2010-12-10 — lov/2010-12-10-75
 
 *Nåværende annet ledd blir nytt tredje ledd.*
@@ -538,9 +555,8 @@ refid: "lov/1980-02-08-2"
 
 *Kapittel 4 overskriften skal lyde:*
 
-### 2015-01-23 — lov/2015-01-23-4
-
-*I kapittel 4 skal ny underoverskrift etter § 4-10 og foran nye §§ 4-11 til 4-17 lyde:*
+> I kapittel 4 skal ny underoverskrift etter § 4-10 og foran nye §§ 4-11 til 4-17 lyde:
+>
 
 ### 2015-01-23 — lov/2015-01-23-4
 
@@ -595,6 +611,17 @@ refid: "lov/1980-02-08-2"
 > (2) Panthaveren kan først utøve sin rett til å kreve realisasjon i medhold av avtale når to uker er gått etter at varsel er sendt innehaveren av den pantsatte søknaden eller rettigheten og andre kjente rettighetshavere. Den som forestår realisasjonen skal gi panthaveren og pantsetteren revidert regnskap. Skjer realisasjonen i form av overdragelse skal regnskapet gis senest tre måneder etter at oppgjør for overdragelsen fant sted. Skjer realisasjonen i form av at det utstedes lisenser eller at inntekter fra allerede etablerte lisenser innfordres, skal regnskap gis minst en gang i året. Andre rettighetshavere kan kreve kopi av regnskapet.
 >
 
+### 2016-12-16 — lov/2016-12-16-101
+
+*I lov 8. februar 1980 nr. 2 om pant skal § 1-11 fjerde ledd fyrste punktum lyde:*
+
+> Panterett i fast eiendom som erverves av stat, statsforetak, fylkeskommune eller kommune til veg- eller jernbaneformål, faller bort ved ervervet.
+>
+
+### 2018-12-20 — lov/2018-12-20-120
+
+*I lov 8. februar 1980 nr. 2 om pant skal § 3-4 andre ledd bokstav b lyde:rett til varemerke, patent, design og planteforedlerrett, herunder rett til søknad om slike rettigheter, rett til supplerende beskyttelsessertifikat, sekundært forretningskjennetegn, kretsmønster for integrerte kretser, rettigheter til produsenter av lydopptak og film etter åndsverkloven § 20, databaser som er vernet etter åndsverkloven § 24, ervervet opphavsrett, herunder rett til utøvende kunstneres fremføring av et verk, og ervervet rett til fotografiske bilder, og*
+
 ### 2020-06-12 — lov/2020-06-12-67
 
 *Kapittel 4 overskriften skal lyde:*
@@ -607,9 +634,7 @@ refid: "lov/1980-02-08-2"
 
 *5.I lov 8. februar 1980 nr. 2 om pant skal § 2-4 første ledd lyde:*
 
-> den bruksenhet i bygning som pantsetteren har eiendomsrett eller eksklusiv bruksrett til, og
->
-> den tilhørende sameieandel i eiendomen.
+> (1) Pantsettelse av eierseksjon skal omfatte:den bruksenhet i bygning som pantsetteren har eiendomsrett eller eksklusiv bruksrett til, ogden tilhørende sameieandel i eiendomen.
 >
 
 ### 2025-06-06 — lov/2025-06-06-26

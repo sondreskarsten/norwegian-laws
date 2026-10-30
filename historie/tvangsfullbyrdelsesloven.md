@@ -387,9 +387,19 @@ refid: "lov/1992-06-26-86"
 
 *§ 5-2 skal lyde:*
 
-> § 5-2.Begjæring om tvangsfullbyrdelseBegjæring om tvangsfullbyrdelse skal inneholdeopplysning om hva slags tvangsfullbyrdelse som begjæres,saksøkerens navn, adresse og fødselsnummer, d-nummer eller organisasjonsnummer,saksøktes navn, adresse og fødselsnummer, d-nummer eller organisasjonsnummer,dersom saksøkeren bruker prosessfullmektig, prosessfullmektigens navn, adresse og fødselsnummer, d-nummer eller organisasjonsnummer,bestemt betegnelse av kravet, og for pengekrav særskilt angivelse av hovedkrav og grunngitte tilleggskrav,bestemt betegnelse av tvangsgrunnlaget, og dessuten de opplysninger namsmannen ellers trenger for å avgjøre om det er adgang til å ta begjæringen til følge.Privatpersoner kan i begjæringen unnlate å opplyse om saksøktes fødselsnummer eller d-nummer og kun opplyse om saksøktes fødselsdato.Dersom saksøktes fødselsdato ikke kan fremskaffes eller saksøkte, saksøkeren eller saksøkerens prosessfullmektig ikke har fått tildelt fødselsnummer, d-nummer eller organisasjonsnummer, kan opplysningen utelates.Skriftlige tvangsgrunnlag skal legges ved i gjenpart eller original hvis ikke annet er bestemt. Saksøkeren trenger ikke legge fram bevis for at grunnlaget ikke er angrepet. Dersom tvangsgrunnlaget er en utenlandsk avgjørelse som nevnt i § 4-1 annet ledd bokstav f, skal det legges ved dokumentasjon for at avgjørelsen kan fullbyrdes i vedkommende fremmede stat, og de øvrige dokumenter som overenskomsten med den fremmede stat bestemmer. Er grunnlaget en avgjørelse som nevnt i § 4-1 annet ledd bokstav g, skal det legges ved dokumentasjon for at avgjørelsen er tvangskraftig. Dersom tvangsgrunnlaget er et utenlandsk tvangsgrunnlag som nevnt i § 4-1 annet ledd bokstav h, vedlegges de dokumenter som overenskomsten bestemmer. Om oversettelse av dokumenter gjelder domstolloven § 136 tilsvarende.Begjæring kan fremsettes så vel muntlig som skriftlig. En skriftlig begjæring skal være undertegnet. En muntlig begjæring nedtegnes av namsmannen og undertegnes av saksøkeren. Kongen kan i forskrift bestemme at begjæringer skal settes fram på en nærmere angitt måte. Andre enn privatpersoner kan pålegges å sende begjæringer elektronisk. Det kan fastsettes hvilket format opplysningene i elektroniske begjæringer skal ha.Kongen fastsetter i forskrift i hvilken utstrekning krav til innhold og vedlegg i begjæringer kan oppfylles ved at det i begjæringen vises til dokumenter som allerede er elektronisk tilgjengelige for namsmannen. Andre enn privatpersoner kan i forskrift pålegges i slike tilfeller å vise til dokumentet i stedet for å legge det ved. Som tilgjengelige for namsmannen regnes også dokumenter som er tilgjengelige for namsmannen som sekretariat for forliksrådet og dokumenter som er tilgjengelige for andre namsmenn.
+> § 5-2. Begjæring om tvangsfullbyrdelse
 >
-> § 5-2.Begjæring om tvangsfullbyrdelse
+> Begjæring om tvangsfullbyrdelse skal inneholdeopplysning om hva slags tvangsfullbyrdelse som begjæres,saksøkerens navn, adresse og fødselsnummer, d-nummer eller organisasjonsnummer,saksøktes navn, adresse og fødselsnummer, d-nummer eller organisasjonsnummer,dersom saksøkeren bruker prosessfullmektig, prosessfullmektigens navn, adresse og fødselsnummer, d-nummer eller organisasjonsnummer,bestemt betegnelse av kravet, og for pengekrav særskilt angivelse av hovedkrav og grunngitte tilleggskrav,bestemt betegnelse av tvangsgrunnlaget, og dessuten de opplysninger namsmannen ellers trenger for å avgjøre om det er adgang til å ta begjæringen til følge.
+>
+> Privatpersoner kan i begjæringen unnlate å opplyse om saksøktes fødselsnummer eller d-nummer og kun opplyse om saksøktes fødselsdato.
+>
+> Dersom saksøktes fødselsdato ikke kan fremskaffes eller saksøkte, saksøkeren eller saksøkerens prosessfullmektig ikke har fått tildelt fødselsnummer, d-nummer eller organisasjonsnummer, kan opplysningen utelates.
+>
+> Skriftlige tvangsgrunnlag skal legges ved i gjenpart eller original hvis ikke annet er bestemt. Saksøkeren trenger ikke legge fram bevis for at grunnlaget ikke er angrepet. Dersom tvangsgrunnlaget er en utenlandsk avgjørelse som nevnt i § 4-1 annet ledd bokstav f, skal det legges ved dokumentasjon for at avgjørelsen kan fullbyrdes i vedkommende fremmede stat, og de øvrige dokumenter som overenskomsten med den fremmede stat bestemmer. Er grunnlaget en avgjørelse som nevnt i § 4-1 annet ledd bokstav g, skal det legges ved dokumentasjon for at avgjørelsen er tvangskraftig. Dersom tvangsgrunnlaget er et utenlandsk tvangsgrunnlag som nevnt i § 4-1 annet ledd bokstav h, vedlegges de dokumenter som overenskomsten bestemmer. Om oversettelse av dokumenter gjelder domstolloven § 136 tilsvarende.
+>
+> Begjæring kan fremsettes så vel muntlig som skriftlig. En skriftlig begjæring skal være undertegnet. En muntlig begjæring nedtegnes av namsmannen og undertegnes av saksøkeren. Kongen kan i forskrift bestemme at begjæringer skal settes fram på en nærmere angitt måte. Andre enn privatpersoner kan pålegges å sende begjæringer elektronisk. Det kan fastsettes hvilket format opplysningene i elektroniske begjæringer skal ha.
+>
+> Kongen fastsetter i forskrift i hvilken utstrekning krav til innhold og vedlegg i begjæringer kan oppfylles ved at det i begjæringen vises til dokumenter som allerede er elektronisk tilgjengelige for namsmannen. Andre enn privatpersoner kan i forskrift pålegges i slike tilfeller å vise til dokumentet i stedet for å legge det ved. Som tilgjengelige for namsmannen regnes også dokumenter som er tilgjengelige for namsmannen som sekretariat for forliksrådet og dokumenter som er tilgjengelige for andre namsmenn.
 >
 
 ## § 5-3
@@ -398,9 +408,15 @@ refid: "lov/1992-06-26-86"
 
 *§ 5-3 skal lyde:*
 
-> § 5-3.Namsmannens og partenes ansvar for opplysning av sakenNamsmannen skal av eget tiltak påse at denne er kompetent til å behandle saken, at partene har partsevne og er prosessdyktige, og dessuten at det foreligger tvangskraftig tvangsgrunnlag for kravet. Det påhviler ellers partene å gjøre rede for de faktiske forhold og bevis som kan være av betydning for namsmannens avgjørelser under fullbyrdelsen.Namsmannen skal gi partene og andre interesserte den veiledning som er nødvendig for å forebygge eller rette feil og forsømmelser.Namsmannen kan av eget tiltak innhente uttalelser fra partene og andre, og kan oppfordre dem til å skaffe bevis. Namsmannen avgjør om slike opplysninger skal forelegges for partene og interesserte før avgjørelse blir truffet.I saker om utlegg skal namsmannen av eget tiltak i rimelig utstrekning undersøke om saksøkte har formuesgoder eller lønnsinntekter mv. som det kan tas utlegg i.
+> § 5-3. Namsmannens og partenes ansvar for opplysning av saken
 >
-> § 5-3.Namsmannens og partenes ansvar for opplysning av saken
+> Namsmannen skal av eget tiltak påse at denne er kompetent til å behandle saken, at partene har partsevne og er prosessdyktige, og dessuten at det foreligger tvangskraftig tvangsgrunnlag for kravet. Det påhviler ellers partene å gjøre rede for de faktiske forhold og bevis som kan være av betydning for namsmannens avgjørelser under fullbyrdelsen.
+>
+> Namsmannen skal gi partene og andre interesserte den veiledning som er nødvendig for å forebygge eller rette feil og forsømmelser.
+>
+> Namsmannen kan av eget tiltak innhente uttalelser fra partene og andre, og kan oppfordre dem til å skaffe bevis. Namsmannen avgjør om slike opplysninger skal forelegges for partene og interesserte før avgjørelse blir truffet.
+>
+> I saker om utlegg skal namsmannen av eget tiltak i rimelig utstrekning undersøke om saksøkte har formuesgoder eller lønnsinntekter mv. som det kan tas utlegg i.
 >
 
 ## § 5-5
@@ -418,9 +434,23 @@ refid: "lov/1992-06-26-86"
 
 *§ 5-7 skal lyde:*
 
-> § 5-7.Namsmannens adgang til å pålegge partene og andre opplysningspliktNamsmannen kan pålegge partene å gi opplysninger eller legge fram bevis som kan ha betydning for tvangsfullbyrdelsen. Når et formuesgode er besluttet tvangssolgt, har saksøkte plikt til å gi slike opplysninger også etter forespørsel fra en medhjelper.Namsmannen kan pålegge enhver tredjeperson å gi opplysninger som kan ha betydning for tvangsfullbyrdelsen. I den utstrekning opplysningene ikke knytter seg til deres næringsvirksomhet, plikter fysiske personer bare å gi opplysninger omkrav som saksøkte har eller har hatt mot dem, og om hvordan kravet har falt bortformuesgoder som saksøkte eier, og som de har eller har hatt i sin besittelse, og hvordan besittelsen opphørte.Opplysningsplikten om forhold som nevnt i annet ledd bokstav a og b gjelder uten hinder av taushetsplikt. Tvisteloven kapittel 22 gjelder tilsvarende.Departementet kan gi forskrift om at offentlige myndigheter, offentlige innretninger mv. og deres ansatte skal gi opplysninger som kan ha betydning for tvangsfullbyrdelsen, uten hinder av taushetsplikt.Namsmannen kan kreve at folkeregistermyndigheten uten hinder av taushetsplikt skal gi opplysninger som kan ha betydning for namsmannens arbeid etter denne loven.Klage til tingretten over pålegg etter annet ledd har oppsettende virkning. Namsmannen eller tingretten kan bestemme at klagen likevel ikke skal ha oppsettende virkning dersom den er åpenbart grunnløs.Opplysninger og bevis som er mottatt av en namsmann, kan deles med andre namsmenn, dersom de kan ha betydning for saken.Kongen kan i forskrift gi nærmere regler om hvordan opplysninger skal gis, signatur, leveringsfrist og leveringssted.
+> § 5-7. Namsmannens adgang til å pålegge partene og andre opplysningsplikt
 >
-> § 5-7.Namsmannens adgang til å pålegge partene og andre opplysningsplikt
+> Namsmannen kan pålegge partene å gi opplysninger eller legge fram bevis som kan ha betydning for tvangsfullbyrdelsen. Når et formuesgode er besluttet tvangssolgt, har saksøkte plikt til å gi slike opplysninger også etter forespørsel fra en medhjelper.
+>
+> Namsmannen kan pålegge enhver tredjeperson å gi opplysninger som kan ha betydning for tvangsfullbyrdelsen. I den utstrekning opplysningene ikke knytter seg til deres næringsvirksomhet, plikter fysiske personer bare å gi opplysninger omkrav som saksøkte har eller har hatt mot dem, og om hvordan kravet har falt bortformuesgoder som saksøkte eier, og som de har eller har hatt i sin besittelse, og hvordan besittelsen opphørte.
+>
+> Opplysningsplikten om forhold som nevnt i annet ledd bokstav a og b gjelder uten hinder av taushetsplikt. Tvisteloven kapittel 22 gjelder tilsvarende.
+>
+> Departementet kan gi forskrift om at offentlige myndigheter, offentlige innretninger mv. og deres ansatte skal gi opplysninger som kan ha betydning for tvangsfullbyrdelsen, uten hinder av taushetsplikt.
+>
+> Namsmannen kan kreve at folkeregistermyndigheten uten hinder av taushetsplikt skal gi opplysninger som kan ha betydning for namsmannens arbeid etter denne loven.
+>
+> Klage til tingretten over pålegg etter annet ledd har oppsettende virkning. Namsmannen eller tingretten kan bestemme at klagen likevel ikke skal ha oppsettende virkning dersom den er åpenbart grunnløs.
+>
+> Opplysninger og bevis som er mottatt av en namsmann, kan deles med andre namsmenn, dersom de kan ha betydning for saken.
+>
+> Kongen kan i forskrift gi nærmere regler om hvordan opplysninger skal gis, signatur, leveringsfrist og leveringssted.
 >
 
 ## § 5-8
@@ -438,9 +468,11 @@ refid: "lov/1992-06-26-86"
 
 *§ 5-9 skal lyde:*
 
-> § 5-9.Namsmannens adgang til bolig, forretningslokaler m.m.I den utstrekning det er nødvendig for fullbyrdelsen, kan namsmannen kreve å få adkomst til bolig, forretningslokaler eller annen eiendom som saksøkte helt eller delvis eier eller besitter.Når et formuesgode er besluttet tvangssolgt, har saksøkte og besitteren plikt til å gi medhjelper og andre etter namsmannens eller medhjelperens bestemmelse adkomst til salgsgjenstanden. Namsmannen kan bestemme at saksøkte ikke skal ha anledning til å være til stede når de som er interessert i å kjøpe, gis adgang til å besiktige salgsgjenstanden.
+> § 5-9. Namsmannens adgang til bolig, forretningslokaler m.m.
 >
-> § 5-9.Namsmannens adgang til bolig, forretningslokaler m.m.
+> I den utstrekning det er nødvendig for fullbyrdelsen, kan namsmannen kreve å få adkomst til bolig, forretningslokaler eller annen eiendom som saksøkte helt eller delvis eier eller besitter.
+>
+> Når et formuesgode er besluttet tvangssolgt, har saksøkte og besitteren plikt til å gi medhjelper og andre etter namsmannens eller medhjelperens bestemmelse adkomst til salgsgjenstanden. Namsmannen kan bestemme at saksøkte ikke skal ha anledning til å være til stede når de som er interessert i å kjøpe, gis adgang til å besiktige salgsgjenstanden.
 >
 
 ## § 5-14
@@ -483,9 +515,11 @@ refid: "lov/1992-06-26-86"
 
 *§ 5-19 skal lyde:*
 
-> § 5-19.Namsbok m.m.For forretninger og møter under en sak skal det føres en protokoll kalt namsbok med opplysning om sted, tid, partene, hvem som var til stede og hva som i det vesentlige skjedde. Det skal gå fram om det ble ytet eller tilbudt oppfyllelse av eller for saksøkte.Kongen kan gi bestemmelser om føring, arkivering, oppbevaring og tilintetgjøring av namsbøker og andre dokumenter.
+> § 5-19. Namsbok m.m.
 >
-> § 5-19.Namsbok m.m.
+> For forretninger og møter under en sak skal det føres en protokoll kalt namsbok med opplysning om sted, tid, partene, hvem som var til stede og hva som i det vesentlige skjedde. Det skal gå fram om det ble ytet eller tilbudt oppfyllelse av eller for saksøkte.
+>
+> Kongen kan gi bestemmelser om føring, arkivering, oppbevaring og tilintetgjøring av namsbøker og andre dokumenter.
 >
 
 ## § 5-20
@@ -494,9 +528,9 @@ refid: "lov/1992-06-26-86"
 
 *Ny § 5-20 skal lyde:*
 
-> § 5-20.InnsynAlle som har en rett som blir berørt, kan, uten hinder av taushetsplikt, kreve gjenpart av namsboken og dokumenter som angår saken. Det samme gjelder andre når begge parter samtykker. Begrensningene nevnt i forvaltningsloven §§ 18 til 19 gjelder tilsvarende. Kongen kan i forskrift gi bestemmelser om saksøkers innsyn i opplysninger om løpende utleggstrekk.
+> § 5-20. Innsyn
 >
-> § 5-20.Innsyn
+> Alle som har en rett som blir berørt, kan, uten hinder av taushetsplikt, kreve gjenpart av namsboken og dokumenter som angår saken. Det samme gjelder andre når begge parter samtykker. Begrensningene nevnt i forvaltningsloven §§ 18 til 19 gjelder tilsvarende. Kongen kan i forskrift gi bestemmelser om saksøkers innsyn i opplysninger om løpende utleggstrekk.
 >
 
 ## § 5-21
@@ -505,9 +539,13 @@ refid: "lov/1992-06-26-86"
 
 *Ny § 5-21 skal lyde:*
 
-> § 5-21.Sammenstilling og automatiserte avgjørelserNamsmannen kan sammenstille innhentede personopplysninger når det er nødvendig for namsmannens arbeid, herunder til kontroll-, veilednings-, analyse- og statistikkformål.Namsmannen kan treffe avgjørelser som utelukkende er basert på automatisert behandling. Behandlingen må sikre partenes krav til forsvarlig saksbehandling og være forenlig med retten til vern av personopplysninger. Avgjørelsen kan ikke bygge på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjørelsen er utvilsom. Partene har rett til manuell overprøving av avgjørelsen.Kongen kan i forskrift gi nærmere regler om sammenstilling og automatiserte avgjørelser, blant annet om formålet med behandlingen, hvilke personopplysninger som kan behandles, og hvem det kan behandles opplysninger om.
+> § 5-21. Sammenstilling og automatiserte avgjørelser
 >
-> § 5-21.Sammenstilling og automatiserte avgjørelser
+> Namsmannen kan sammenstille innhentede personopplysninger når det er nødvendig for namsmannens arbeid, herunder til kontroll-, veilednings-, analyse- og statistikkformål.
+>
+> Namsmannen kan treffe avgjørelser som utelukkende er basert på automatisert behandling. Behandlingen må sikre partenes krav til forsvarlig saksbehandling og være forenlig med retten til vern av personopplysninger. Avgjørelsen kan ikke bygge på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjørelsen er utvilsom. Partene har rett til manuell overprøving av avgjørelsen.
+>
+> Kongen kan i forskrift gi nærmere regler om sammenstilling og automatiserte avgjørelser, blant annet om formålet med behandlingen, hvilke personopplysninger som kan behandles, og hvem det kan behandles opplysninger om.
 >
 
 ## § 5-22
@@ -516,9 +554,11 @@ refid: "lov/1992-06-26-86"
 
 *Ny § 5-22 skal lyde:*
 
-> § 5-22.Bruk av personopplysninger ved utvikling og testing av IT-systemerDet kan behandles innhentede personopplysninger for å utvikle og teste IT-systemer dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.Kongen kan i forskrift gi nærmere regler om behandling etter første ledd.
+> § 5-22. Bruk av personopplysninger ved utvikling og testing av IT-systemer
 >
-> § 5-22.Bruk av personopplysninger ved utvikling og testing av IT-systemer
+> Det kan behandles innhentede personopplysninger for å utvikle og teste IT-systemer dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.
+>
+> Kongen kan i forskrift gi nærmere regler om behandling etter første ledd.
 >
 
 ## § 6-1
@@ -1338,9 +1378,11 @@ refid: "lov/1992-06-26-86"
 
 *§ 11-43 skal lyde:*
 
-> § 11-43.Gjennomføring av auksjonssalgDersom salget skal skje ved auksjon holdt av namsmyndigheten, bestemmer retten om denne eller namsfogden skal holde auksjonen.Skal namsfogden holde auksjonen, sendes sakens dokumenter til namsfogden, som forbereder og holder auksjonsmøtet.
+> § 11-43. Gjennomføring av auksjonssalg
 >
-> § 11-43.Gjennomføring av auksjonssalg
+> Dersom salget skal skje ved auksjon holdt av namsmyndigheten, bestemmer retten om denne eller namsfogden skal holde auksjonen.
+>
+> Skal namsfogden holde auksjonen, sendes sakens dokumenter til namsfogden, som forbereder og holder auksjonsmøtet.
 >
 
 ## § 11-55
@@ -1545,15 +1587,82 @@ refid: "lov/1992-06-26-86"
 
 *Tredje del, kapittel 14 og 15 oppheves. Nåværende fjerde del blir tredje del. Nåværende kapittel 16 blir kapittel 14. §§ 16-1 til 16-3 blir §§ 14-1 til 14-3.*
 
+### 2007-09-01 — lov/2007-06-29-57
+
+*I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring (tvangsfullbyrdelsesloven) gjer ein følgjande endring:*
+
+> I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring (tvangsfullbyrdelsesloven) gjer ein følgjande endring:
+>
+> § 15-13 første ledd første punktum lyde:
+>
+> Til sikring av immaterialrettigheter kan retten som midlertidig forføyning mot vareeieren, jf. tolloven § 1 nr. 3, beslutte at tollvesenet skal holde varer tilbake fra frigjøring, når innførsel eller utførsel av varene vil utgjøre et inngrep i en immaterialrettighet.
+>
+> Endringa under I gjeld frå 1. september 2007.
+>
+
+### 2007-12-21 — lov/2007-12-21-127
+
+*I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse skal § 6-4 første ledd andre punktum lyde:*
+
+> Første punktum gjelder ikke avgjørelser truffet under behandling ved allmennprosess.
+>
+
+### 2008-12-19 — lov/2008-12-19-112
+
+*I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring skal § 7-13 tredje ledd første punktum lyde:*
+
+> Dersom saksøkte er gift eller lever i et ekteskapslignende forhold som har vart i minst to år, eller hvor samboeren har, har hatt eller venter barn med saksøkte, kan utlegg tas i en ideell halvdel av felles bolig ervervet under samlivet, hvis ikke et annet eierforhold blir sannsynliggjort.
+>
+
+### 2009-06-12 — lov/2009-06-12-37
+
+*I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse skal § 1-8 femte ledd lyde:*
+
+> Med en persons alminnelige verneting menes i denne loven den rettskrets eller det namsmannsdistrikt hvor vedkommende har bopel eller slik tilknytning som nevnt i tvisteloven § 4-4 tredje til femte ledd. Den som har bopel i flere rettskretser eller namsmannsdistrikter, har alminnelig verneting i alle disse. Den som ikke har kjent bopel, har verneting i den rettskrets eller i det namsmannsdistrikt hvor vedkommende oppholder seg når en begjæring etter loven her meddeles. Har personen heller ikke kjent oppholdssted i riket, har vedkommende verneting i den rettskrets eller i det namsmannsdistrikt han eller hun sist hadde kjent bopel eller oppholdssted, dersom saken gjelder en forpliktelse pådratt i Norge eller en forpliktelse som skal oppfylles i Norge.
+>
+
 ### 2010-05-07 — lov/2010-05-07-15
 
 *Nåværende første, annet og tredje ledd blir nye annet, tredje og fjerde ledd.*
+
+### 2011-12-15 — forskrift/2011-12-09-1194
+
+*Følgende bestemmelser i lov 17. juni 2005 nr. 89 om endringar i lov 26. juni nr. 86 om tvangsfullbyrdelse og midlertidig sikring og andre lover, avsnitt III, trer i kraft 15. desember 2011 for så vidt gjelder utleggsforretninger som holdes av skattekontorene og skatteoppkreverne:*
+
+> Følgende bestemmelser i lov 17. juni 2005 nr. 89 om endringar i lov 26. juni nr. 86 om tvangsfullbyrdelse og midlertidig sikring og andre lover, avsnitt III, trer i kraft 15. desember 2011 for så vidt gjelder utleggsforretninger som holdes av skattekontorene og skatteoppkreverne:
+>
+> endringene i § 7-19, § 7-20 første ledd og tredje til ellevte ledd, § 7-21, § 7-25 og ny § 7-29.
+>
+> Nr. 1 gjelder for utleggsforretninger som holdes etter ikrafttredelsen.
+>
 
 ### 2012-05-25 — lov/2012-05-25-28
 
 *Overskrifta til § 1-2 andre ledd skal lyde:*
 
 > § 1-2.Krav mot staten, fylkeskommuner, kommuner, samkommuner, interkommunale selskaper, regionale helseforetak og helseforetak
+>
+
+### 2012-06-11 — forskrift/2012-06-08-496
+
+*Følgende bestemmelser i lov 17. juni 2005 nr. 89 om endringar i lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring og andre lover, avsnitt III, trer i kraft 11. juni 2012 for så vidt gjelder utleggsforretninger som holdes av Arbeids- og velferdsetatens innkrevingssentral med hjemmel i folketrygdloven § 8-22 annet ledd, § 22-15 syvende ledd og § 22-15a femte ledd, kontantstøtteloven § 11 tredje ledd, barnetrygdloven § 13 tredje ledd og lov om pensjonstrygd for fiskere § 16 nr. 3, jf. § 17, jf. bidragsinnkrevingsloven:*
+
+> Følgende bestemmelser i lov 17. juni 2005 nr. 89 om endringar i lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring og andre lover, avsnitt III, trer i kraft 11. juni 2012 for så vidt gjelder utleggsforretninger som holdes av Arbeids- og velferdsetatens innkrevingssentral med hjemmel i folketrygdloven § 8-22 annet ledd, § 22-15 syvende ledd og § 22-15a femte ledd, kontantstøtteloven § 11 tredje ledd, barnetrygdloven § 13 tredje ledd og lov om pensjonstrygd for fiskere § 16 nr. 3, jf. § 17, jf. bidragsinnkrevingsloven:
+>
+> endringene i § 7-19, § 7-20 første ledd og tredje til ellevte ledd, § 7-21, § 7-25 og ny § 7-29.
+>
+> Nr. 1 gjelder for utleggsforretninger som holdes etter ikrafttredelsen.
+>
+
+### 2013-03-16 — forskrift/2013-03-15-273
+
+*1. Følgende bestemmelser i lov 17. juni 2005 nr. 89 om endringar i lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring og andre lover, avsnitt III, trer i kraft 16. mars 2013 for så vidt gjelder utleggsforretninger som holdes av Arbeids- og velferdsetatens innkrevingssentral og som bestemmelsene ikke allerede er satt i kraft for:*
+
+> 1. Følgende bestemmelser i lov 17. juni 2005 nr. 89 om endringar i lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring og andre lover, avsnitt III, trer i kraft 16. mars 2013 for så vidt gjelder utleggsforretninger som holdes av Arbeids- og velferdsetatens innkrevingssentral og som bestemmelsene ikke allerede er satt i kraft for:
+>
+> endringene i § 7-19, § 7-20 første ledd og tredje til ellevte ledd, § 7-21, § 7-25 og ny § 7-29
+>
+> 2. Nr. 1 gjelder for forretninger for utleggspant som holdes etter 16. mars 2013, og for forretninger for utleggstrekk også der trekk løper på dette tidspunktet.
 >
 
 ### 2015-01-23 — lov/2015-01-23-4
@@ -1581,6 +1690,20 @@ refid: "lov/1992-06-26-86"
 
 *Nåværende tredje punktum blir fjerde punktum.*
 
+### 2021-05-28 — lov/2021-05-28-47
+
+*I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse skal § 1-2 andre ledd lyde:*
+
+> Pengekrav mot en kommune, fylkeskommune, et interkommunalt selskap, regionalt helseforetak eller helseforetak kan ikke tvangsfullbyrdes etter kapittel 7, jf. kommuneloven § 29-1, lov om interkommunale selskaper § 23 og helseforetaksloven § 5.
+>
+
+### 2021-06-04 — lov/2021-06-04-55
+
+*I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse skal § 5-19 første ledd tredje og nytt fjerde punktum lyde:*
+
+> Boken signeres av namsmannen. Domstolloven § 197 a annet ledd gjelder tilsvarende.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *9.I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse skal § 11-44 andre ledd andre punktum lyde:*
@@ -1594,21 +1717,39 @@ refid: "lov/1992-06-26-86"
 
 > II. Kommunenes namskompetanse
 >
-> § 2-14.Kommunens namskompetanseEn kommune har namsmyndighet etter bestemmelsene i avsnittet her for krav den har påeiendomsskatt etter eigedomsskattelovavann- og avløpsgebyr etter vass- og avløpsanleggslovagebyrer og avgifter etter brann- og eksplosjonsvernlovenavfallsgebyr etter forurensningslovengebyrer etter vegtrafikkloven.
+> § 2-14. Kommunens namskompetanse
 >
-> § 2-14.Kommunens namskompetanse
+> En kommune har namsmyndighet etter bestemmelsene i avsnittet her for krav den har påeiendomsskatt etter eigedomsskattelovavann- og avløpsgebyr etter vass- og avløpsanleggslovagebyrer og avgifter etter brann- og eksplosjonsvernlovenavfallsgebyr etter forurensningslovengebyrer etter vegtrafikkloven.
 >
-> § 2-15.Kommunens beslutninger om utleggDersom kommunen har tvangsgrunnlag for et krav som nevnt i § 2-14, kan kommunen inndrive kravet med renter, gebyrer og sakskostnader ved å beslutte utlegg for kravet. Utlegg tas ved at det stiftes panterett for kravet (utleggspant). I lønnskrav og andre pengekrav som nevnt i dekningsloven § 2-7 tas utlegg i form av utleggstrekk.Før kommunen treffer beslutning som nevnt i første ledd, skal skyldneren varsles i samsvar med bestemmelsene i § 7-6. Dersom beslutning om utlegg ikke er tatt innen fristen i § 7-10 første ledd, må skyldneren varsles på nytt før utlegg besluttes. Dersom kommunen avslutter inndrivingen uten å beslutte utlegg, underrettes skyldneren.For kommunens utøvelse av namsmyndighet gjelder kapittel 1, § 2-7, kapittel 3, kapittel 4 med unntak av §§ 4-18 og 4-19, kapittel 5 med unntak av §§ 5-1 til 5-5, 5-13 og 5-18, og kapittel 7 med unntak av § 7-2 bokstav f, §§ 7-3 til 7-8, § 7-9 første og tredje ledd, § 7-20, § 7-21 tredje ledd og §§ 7-23, 7-24 og 7-27.Kongen kan i forskrift fastsette gebyrer som kommunen kan kreve av skyldneren når den sender varsel om utlegg eller treffer beslutning om utlegg. Gebyrer etter forskriften er tvangsgrunnlag for utlegg.
+> § 2-15. Kommunens beslutninger om utlegg
 >
-> § 2-15.Kommunens beslutninger om utlegg
+> Dersom kommunen har tvangsgrunnlag for et krav som nevnt i § 2-14, kan kommunen inndrive kravet med renter, gebyrer og sakskostnader ved å beslutte utlegg for kravet. Utlegg tas ved at det stiftes panterett for kravet (utleggspant). I lønnskrav og andre pengekrav som nevnt i dekningsloven § 2-7 tas utlegg i form av utleggstrekk.
 >
-> § 2-16.Gjennomføring av beslutninger om å stifte utleggspantDersom kommunen beslutter utleggspant for kravet, gjennomføres utlegget som fastsatt i §§ 7-17 til 7-19.
+> Før kommunen treffer beslutning som nevnt i første ledd, skal skyldneren varsles i samsvar med bestemmelsene i § 7-6. Dersom beslutning om utlegg ikke er tatt innen fristen i § 7-10 første ledd, må skyldneren varsles på nytt før utlegg besluttes. Dersom kommunen avslutter inndrivingen uten å beslutte utlegg, underrettes skyldneren.
 >
-> § 2-16.Gjennomføring av beslutninger om å stifte utleggspant
+> For kommunens utøvelse av namsmyndighet gjelder kapittel 1, § 2-7, kapittel 3, kapittel 4 med unntak av §§ 4-18 og 4-19, kapittel 5 med unntak av §§ 5-1 til 5-5, 5-13 og 5-18, og kapittel 7 med unntak av § 7-2 bokstav f, §§ 7-3 til 7-8, § 7-9 første og tredje ledd, § 7-20, § 7-21 tredje ledd og §§ 7-23, 7-24 og 7-27.
 >
-> § 2-17.Gjennomføring av beslutning om utleggstrekkDersom kommunen beslutter utleggstrekk, fremsettes beslutningen for den alminnelige namsmannen som er kompetent til å etablere utleggstrekk mot skyldneren. Kongen kan fastsette hvordan beslutningen skal fremsettes.Beslutningen skal inneholde skyldnerens navn, adresse og fødselsnummer eller d-nummer, en nøyaktig beregning av kravet med sakskostnader og renter fram til beslutningsdatoen, nøyaktige opplysninger om beregningen av renter fra beslutningsdatoen, og en angivelse av kravets prioritet etter dekningsloven § 2-8.Dersom det allerede løper utleggstrekk mot skyldneren, meldes kravet umiddelbart inn i trekket.Dersom det ikke allerede løper utleggstrekk mot skyldneren, skal namsmannen forsøke å etablere utleggstrekk mot vedkommende. Namsmannen skal av eget tiltak påse at denne er kompetent til å etablere utleggstrekk, og at skyldneren har partsevne og er prosessdyktig.Namsmannen forelegger kommunens beslutning for skyldneren med oppfordring om å uttale seg om forhold av betydning for om utleggstrekk kan etableres og om trekkets størrelse. Skyldnerens frist for å uttale seg fastsettes til en bestemt dato som ligger minst tre uker fra foreleggelsen ble sendt. Kongen kan i forskrift gi regler om det nærmere innholdet i foreleggelsen.Når skyldnerens frist for å uttale seg har løpt ut, avgjør namsmannen om det skal etableres utleggstrekk. Et utleggstrekk etableres og gjennomføres som fastsatt i § 7-20. Dersom det ikke er rom for trekk, underretter namsmannen kommunen og skyldneren om det.Både kommunen og skyldneren kan påklage namsmannens avgjørelser i samsvar med §§ 5-16 og 7-24.
+> Kongen kan i forskrift fastsette gebyrer som kommunen kan kreve av skyldneren når den sender varsel om utlegg eller treffer beslutning om utlegg. Gebyrer etter forskriften er tvangsgrunnlag for utlegg.
 >
-> § 2-17.Gjennomføring av beslutning om utleggstrekk
+> § 2-16. Gjennomføring av beslutninger om å stifte utleggspant
+>
+> Dersom kommunen beslutter utleggspant for kravet, gjennomføres utlegget som fastsatt i §§ 7-17 til 7-19.
+>
+> § 2-17. Gjennomføring av beslutning om utleggstrekk
+>
+> Dersom kommunen beslutter utleggstrekk, fremsettes beslutningen for den alminnelige namsmannen som er kompetent til å etablere utleggstrekk mot skyldneren. Kongen kan fastsette hvordan beslutningen skal fremsettes.
+>
+> Beslutningen skal inneholde skyldnerens navn, adresse og fødselsnummer eller d-nummer, en nøyaktig beregning av kravet med sakskostnader og renter fram til beslutningsdatoen, nøyaktige opplysninger om beregningen av renter fra beslutningsdatoen, og en angivelse av kravets prioritet etter dekningsloven § 2-8.
+>
+> Dersom det allerede løper utleggstrekk mot skyldneren, meldes kravet umiddelbart inn i trekket.
+>
+> Dersom det ikke allerede løper utleggstrekk mot skyldneren, skal namsmannen forsøke å etablere utleggstrekk mot vedkommende. Namsmannen skal av eget tiltak påse at denne er kompetent til å etablere utleggstrekk, og at skyldneren har partsevne og er prosessdyktig.
+>
+> Namsmannen forelegger kommunens beslutning for skyldneren med oppfordring om å uttale seg om forhold av betydning for om utleggstrekk kan etableres og om trekkets størrelse. Skyldnerens frist for å uttale seg fastsettes til en bestemt dato som ligger minst tre uker fra foreleggelsen ble sendt. Kongen kan i forskrift gi regler om det nærmere innholdet i foreleggelsen.
+>
+> Når skyldnerens frist for å uttale seg har løpt ut, avgjør namsmannen om det skal etableres utleggstrekk. Et utleggstrekk etableres og gjennomføres som fastsatt i § 7-20. Dersom det ikke er rom for trekk, underretter namsmannen kommunen og skyldneren om det.
+>
+> Både kommunen og skyldneren kan påklage namsmannens avgjørelser i samsvar med §§ 5-16 og 7-24.
 >
 
 ### 2025-04-25 — lov/2025-04-25-12
@@ -1619,121 +1760,217 @@ refid: "lov/1992-06-26-86"
 >
 > I. Begjæring om utlegg
 >
-> § 7-1.InnledningDen som har et pengekrav mot en annen kan begjære utlegg for kravet når det foreligger tvangskraftig tvangsgrunnlag.Utlegg kan tas i ethvert formuesgode som tilhører saksøkte og som det etter dekningsloven kapittel 2 kan tas beslag i. Utlegg tas ved at det stiftes panterett for kravet (utleggspant). I lønnskrav og andre pengekrav som nevnt i dekningsloven § 2-7 tas utlegg i form av utleggstrekk.
+> § 7-1. Innledning
 >
-> § 7-1.Innledning
+> Den som har et pengekrav mot en annen kan begjære utlegg for kravet når det foreligger tvangskraftig tvangsgrunnlag.
 >
-> § 7-2.TvangsgrunnlagTvangsgrunnlag for utlegg er foruten de alminnelige tvangsgrunnlagene:Gjeldsbrev som lyder på en bestemt pengesum og som inneholder vedtakelse av at gjelden kan inndrives uten søksmål. Gjeldsbrevet er tvangsgrunnlag overfor utstederen når vedkommendes underskrift er bekreftet av to myndige vitner eller i samsvar med forskrift gitt av Kongen. Gjeldsbrevet er også tvangsgrunnlag overfor enhver som ved påskrift på gjeldsbrevet har påtatt seg selvskyldneransvar ved en overdragelse eller stilt seg som selvskyldnerkausjonist eller som kausjonist på forfallsvilkår som nevnt i finansavtaleloven § 6-10, forutsatt at påskriften inneholder vedtakelse av inndriving uten søksmål, og at vedkommendes underskrift er bekreftet som nevnt ovenfor.Veksler for krav som nevnt i vekselloven §§ 47 til 49 jf. § 77.Sjekker for krav som nevnt i sjekkloven §§ 44 til 46.Beslutning om tvangsmulkt, administrativ sanksjon eller disiplinærstraff truffet av offentlig myndighet med hjemmel i lov.Krav som etter særlig lovbestemmelse er tvangsgrunnlag for utlegg.Skriftlig meddelelse som fordringshaveren selv har sendt skyldneren og som viser kravets grunnlag og omfang.Elektronisk gjeldserklæring som lyder på en bestemt pengesum, når erklæringen er avgitt til foretak med rett til å drive finansieringsvirksomhet etter finansforetaksloven § 2-1 eller til institusjon som nevnt i finansforetaksloven § 1-6 første ledd, og erklæringen inneholder vedtakelse av at gjelden kan inndrives uten søksmål, samt elektronisk erklæring om kausjonsansvar som selvskyldner eller på forfallsvilkår som nevnt i finansavtaleloven § 6-10 for en slik forpliktelse når kausjonserklæringen er avgitt til foretak eller institusjon som nevnt og inneholder vedtakelse av inndrivelse uten søksmål.Tvangsgrunnlag som nevnt i første ledd bokstav a til g er også tvangsgrunnlag for utenrettslige inndrivingskostnader og renter med mindre annet følger av lov eller tvangsgrunnlaget.
+> Utlegg kan tas i ethvert formuesgode som tilhører saksøkte og som det etter dekningsloven kapittel 2 kan tas beslag i. Utlegg tas ved at det stiftes panterett for kravet (utleggspant). I lønnskrav og andre pengekrav som nevnt i dekningsloven § 2-7 tas utlegg i form av utleggstrekk.
 >
-> § 7-2.Tvangsgrunnlag
+> § 7-2. Tvangsgrunnlag
 >
-> § 7-3.Kompetent namsmyndighetBegjæring om utlegg skal settes fram for namsmannen i det distriktet der saksøkte har alminnelig verneting.Med unntak for begjæring om utlegg etter § 7-2 bokstav f kan en begjæring om utlegg også settes fram for namsmannen i et annet distrikt hvor saksøkte har formuesgoder når:det er sannsynlig at det ikke vil være tilstrekkelige eller hensiktsmessige formuesgoder til utlegg i det distrikt der saksøkte har alminnelig verneting,utlegg søkes i et formuesgode som saksøkeren har panterett eller tilbakeholdsrett i for sitt krav, og dette befinner seg i distriktet,saksøkte er næringsdrivende og har forretnings- eller driftssted i distriktet,saksøkte ikke har kjent alminnelig verneting i riket,saksøkte har samtykket etter at kravet ble misligholdt, ellertvangsfullbyrdelsen ellers vil bli vesentlig vanskeliggjort.For saksøkte som ikke har kjent bopel i riket, og for saksøkte med adressesperre i Folkeregisteret, kan begjæring om utlegg settes fram for en namsmann som Kongen har utpekt.For saksøkte som har kjent bopel i riket, kan beslutning om etablering av utleggstrekk bare treffes av namsmannen i det distrikt der saksøkte har bopel. For saksøkte med kjent bopel i utlandet og for saksøkte med adressesperre i Folkeregisteret kan beslutning om etablering av utleggstrekk bare treffes av namsmannen utpekt etter tredje ledd.Dersom det begjæres utlegg på grunnlag av et utenlandsk tvangsgrunnlag som nevnt i § 4-1 annet ledd bokstav f til h, skal begjæringen settes fram for tingretten istedenfor namsmannen. Retten forelegger begjæringen for saksøkte etter § 7-6. Etter utløpet av fristen avgjør retten om begjæringen skal tas til følge og sender i tilfelle saken til namsmannen for gjennomføring.Kongen kan i forskrift fastsette at saksøker kan inngi begjæringer elektronisk uten å angi hvilken namsmann som er adressat for begjæringen, og gi bestemmelser om hvilken namsmann som i slike tilfeller skal motta begjæringen.
+> Tvangsgrunnlag for utlegg er foruten de alminnelige tvangsgrunnlagene:Gjeldsbrev som lyder på en bestemt pengesum og som inneholder vedtakelse av at gjelden kan inndrives uten søksmål. Gjeldsbrevet er tvangsgrunnlag overfor utstederen når vedkommendes underskrift er bekreftet av to myndige vitner eller i samsvar med forskrift gitt av Kongen. Gjeldsbrevet er også tvangsgrunnlag overfor enhver som ved påskrift på gjeldsbrevet har påtatt seg selvskyldneransvar ved en overdragelse eller stilt seg som selvskyldnerkausjonist eller som kausjonist på forfallsvilkår som nevnt i finansavtaleloven § 6-10, forutsatt at påskriften inneholder vedtakelse av inndriving uten søksmål, og at vedkommendes underskrift er bekreftet som nevnt ovenfor.Veksler for krav som nevnt i vekselloven §§ 47 til 49 jf. § 77.Sjekker for krav som nevnt i sjekkloven §§ 44 til 46.Beslutning om tvangsmulkt, administrativ sanksjon eller disiplinærstraff truffet av offentlig myndighet med hjemmel i lov.Krav som etter særlig lovbestemmelse er tvangsgrunnlag for utlegg.Skriftlig meddelelse som fordringshaveren selv har sendt skyldneren og som viser kravets grunnlag og omfang.Elektronisk gjeldserklæring som lyder på en bestemt pengesum, når erklæringen er avgitt til foretak med rett til å drive finansieringsvirksomhet etter finansforetaksloven § 2-1 eller til institusjon som nevnt i finansforetaksloven § 1-6 første ledd, og erklæringen inneholder vedtakelse av at gjelden kan inndrives uten søksmål, samt elektronisk erklæring om kausjonsansvar som selvskyldner eller på forfallsvilkår som nevnt i finansavtaleloven § 6-10 for en slik forpliktelse når kausjonserklæringen er avgitt til foretak eller institusjon som nevnt og inneholder vedtakelse av inndrivelse uten søksmål.
 >
-> § 7-3.Kompetent namsmyndighet
+> Tvangsgrunnlag som nevnt i første ledd bokstav a til g er også tvangsgrunnlag for utenrettslige inndrivingskostnader og renter med mindre annet følger av lov eller tvangsgrunnlaget.
 >
-> § 7-4.KumulasjonSaksøkeren kan i samme begjæring kreve utlegg for flere pengekrav mot samme saksøkte. Det kan i samme begjæring kreves utlegg mot flere saksøkte når de er forpliktet i fellesskap og det kan begjæres utlegg mot alle i samme distrikt.I samme begjæring kan det ikke kreves utlegg etter tvangsgrunnlag som nevnt i § 7-2 bokstav f og etter et alminnelig tvangsgrunnlag.
+> § 7-3. Kompetent namsmyndighet
 >
-> § 7-4.Kumulasjon
+> Begjæring om utlegg skal settes fram for namsmannen i det distriktet der saksøkte har alminnelig verneting.
 >
-> § 7-5.Begjæringens innholdSaksøkeren eller saksøkerens prosessfullmektig kan i begjæringen uttale seg om valg av gjenstand for utlegget.Foruten å oppfylle kravene i § 5-2 skal en begjæring om utlegg etter § 7-2 bokstav f i tillegg oppfylle kravene til forliksklager i tvisteloven § 6-3. Begjæringen skal opplyse om saksøker ønsker behandling i forliksrådet dersom saksøkte reiser innvendinger mot kravet.
+> Med unntak for begjæring om utlegg etter § 7-2 bokstav f kan en begjæring om utlegg også settes fram for namsmannen i et annet distrikt hvor saksøkte har formuesgoder når:det er sannsynlig at det ikke vil være tilstrekkelige eller hensiktsmessige formuesgoder til utlegg i det distrikt der saksøkte har alminnelig verneting,utlegg søkes i et formuesgode som saksøkeren har panterett eller tilbakeholdsrett i for sitt krav, og dette befinner seg i distriktet,saksøkte er næringsdrivende og har forretnings- eller driftssted i distriktet,saksøkte ikke har kjent alminnelig verneting i riket,saksøkte har samtykket etter at kravet ble misligholdt, ellertvangsfullbyrdelsen ellers vil bli vesentlig vanskeliggjort.
 >
-> § 7-5.Begjæringens innhold
+> For saksøkte som ikke har kjent bopel i riket, og for saksøkte med adressesperre i Folkeregisteret, kan begjæring om utlegg settes fram for en namsmann som Kongen har utpekt.
 >
-> § 7-6.Foreleggelse av begjæringenFinner namsmannen at begjæringen kan tas til følge, skal begjæringen meddeles saksøkte med oppfordring om å uttale seg om forhold av betydning for om utlegg skal tas, og om valg av gjenstand for utlegget. Saksøktes frist for å uttale seg fastsettes til en bestemt dato som ligger minst tre uker fra foreleggelsen ble sendt. Saksøkte skal i oppfordringen gjøres oppmerksom på hvilke kostnader som er påløpt, på at ytterligere kostnader vil påløpe om utlegg blir tatt, på at utlegg kan unngås ved at kravet med renter og kostnader betales innen fristen etter annet punktum, og på bestemmelsene i dekningsloven kapittel 2 om hva som kan unntas fra utlegg. Foreleggelsen skal inneholde det som er nødvendig for at saksøkte skal kunne ivareta sine interesser. Kongen kan i forskrift gi regler om det nærmere innholdet i foreleggelsen.Ved begjæring om utlegg etter § 7-2 bokstav f skal saksøkte dessuten oppfordres til å opplyse om sitt standpunkt til saksøkerens krav. Saksøkte skal opplyses om at saken vil bli behandlet i forliksrådet eller hevet dersom det reises innvendinger mot kravet.Vil tvangsfullbyrdelsen ellers bli vesentlig vanskeliggjort, kan meddelelse til saksøkte unnlates. Dette gjelder likevel ikke ved begjæring om utlegg etter § 7-2 bokstav f.
+> For saksøkte som har kjent bopel i riket, kan beslutning om etablering av utleggstrekk bare treffes av namsmannen i det distrikt der saksøkte har bopel. For saksøkte med kjent bopel i utlandet og for saksøkte med adressesperre i Folkeregisteret kan beslutning om etablering av utleggstrekk bare treffes av namsmannen utpekt etter tredje ledd.
 >
-> § 7-6.Foreleggelse av begjæringen
+> Dersom det begjæres utlegg på grunnlag av et utenlandsk tvangsgrunnlag som nevnt i § 4-1 annet ledd bokstav f til h, skal begjæringen settes fram for tingretten istedenfor namsmannen. Retten forelegger begjæringen for saksøkte etter § 7-6. Etter utløpet av fristen avgjør retten om begjæringen skal tas til følge og sender i tilfelle saken til namsmannen for gjennomføring.
 >
-> § 7-7.Behandling i forliksrådetVed begjæring om utlegg etter § 7-2 bokstav f skal saken behandles i forliksrådet dersom saksøkte har reist innvendinger mot saksøkerens krav innen fristen etter § 7-6 og saksøkeren i begjæringen har opplyst at behandling i forliksrådet i så fall ønskes. Dersom saksøkte har reist innvendinger mot kravet, og saksøkeren ikke har ønsket behandling i forliksrådet, skal namsmannen heve saken. Saksøktes innvendinger legges ved underretningen til saksøkeren. Saksøkeren kan ombestemme seg med hensyn til behandling i forliksrådet dersom melding om det kommer fram til namsmannen før innkalling til forliksrådet eller meddelelse om heving er sendt.Første ledd gjelder tilsvarende dersom saksøkte etter fristens utløp, men før utlegg er tatt, reiser innvendinger mot kravet. Namsmannen kan beslutte at utlegg likevel skal tas dersom innvendingen er åpenbart grunnløs.Avsluttes en sak som er behandlet i forliksrådet etter første eller annet ledd, med en kjennelse eller dom i forliksrådet som pålegger klagemotparten en betalingsplikt overfor klageren, kan klageren innen en måned etter utløpet av dennes frist for å angripe avgjørelsen uten oppfriskning kreve at utleggssaken skal fortsette. Avsluttes saken med rettsforlik i forliksrådet, kan slikt krav fremmes innen en måned etter at forliket er inngått.
+> Kongen kan i forskrift fastsette at saksøker kan inngi begjæringer elektronisk uten å angi hvilken namsmann som er adressat for begjæringen, og gi bestemmelser om hvilken namsmann som i slike tilfeller skal motta begjæringen.
 >
-> § 7-7.Behandling i forliksrådet
+> § 7-4. Kumulasjon
 >
-> § 7-8.Flere begjæringer mot samme saksøktDersom namsmannen har mottatt flere begjæringer om utlegg mot samme saksøkte, behandles begjæringene i den rekkefølgen de er kommet inn. Rekkefølgen kan fravikes dersom behandlingen av en begjæring ellers ville bli forsinket av grunner som bare vedrører en annen begjæring.II. Gjennomføring av saker om utlegg
+> Saksøkeren kan i samme begjæring kreve utlegg for flere pengekrav mot samme saksøkte. Det kan i samme begjæring kreves utlegg mot flere saksøkte når de er forpliktet i fellesskap og det kan begjæres utlegg mot alle i samme distrikt.
 >
-> § 7-8.Flere begjæringer mot samme saksøkt
+> I samme begjæring kan det ikke kreves utlegg etter tvangsgrunnlag som nevnt i § 7-2 bokstav f og etter et alminnelig tvangsgrunnlag.
+>
+> § 7-5. Begjæringens innhold
+>
+> Saksøkeren eller saksøkerens prosessfullmektig kan i begjæringen uttale seg om valg av gjenstand for utlegget.
+>
+> Foruten å oppfylle kravene i § 5-2 skal en begjæring om utlegg etter § 7-2 bokstav f i tillegg oppfylle kravene til forliksklager i tvisteloven § 6-3. Begjæringen skal opplyse om saksøker ønsker behandling i forliksrådet dersom saksøkte reiser innvendinger mot kravet.
+>
+> § 7-6. Foreleggelse av begjæringen
+>
+> Finner namsmannen at begjæringen kan tas til følge, skal begjæringen meddeles saksøkte med oppfordring om å uttale seg om forhold av betydning for om utlegg skal tas, og om valg av gjenstand for utlegget. Saksøktes frist for å uttale seg fastsettes til en bestemt dato som ligger minst tre uker fra foreleggelsen ble sendt. Saksøkte skal i oppfordringen gjøres oppmerksom på hvilke kostnader som er påløpt, på at ytterligere kostnader vil påløpe om utlegg blir tatt, på at utlegg kan unngås ved at kravet med renter og kostnader betales innen fristen etter annet punktum, og på bestemmelsene i dekningsloven kapittel 2 om hva som kan unntas fra utlegg. Foreleggelsen skal inneholde det som er nødvendig for at saksøkte skal kunne ivareta sine interesser. Kongen kan i forskrift gi regler om det nærmere innholdet i foreleggelsen.
+>
+> Ved begjæring om utlegg etter § 7-2 bokstav f skal saksøkte dessuten oppfordres til å opplyse om sitt standpunkt til saksøkerens krav. Saksøkte skal opplyses om at saken vil bli behandlet i forliksrådet eller hevet dersom det reises innvendinger mot kravet.
+>
+> Vil tvangsfullbyrdelsen ellers bli vesentlig vanskeliggjort, kan meddelelse til saksøkte unnlates. Dette gjelder likevel ikke ved begjæring om utlegg etter § 7-2 bokstav f.
+>
+> § 7-7. Behandling i forliksrådet
+>
+> Ved begjæring om utlegg etter § 7-2 bokstav f skal saken behandles i forliksrådet dersom saksøkte har reist innvendinger mot saksøkerens krav innen fristen etter § 7-6 og saksøkeren i begjæringen har opplyst at behandling i forliksrådet i så fall ønskes. Dersom saksøkte har reist innvendinger mot kravet, og saksøkeren ikke har ønsket behandling i forliksrådet, skal namsmannen heve saken. Saksøktes innvendinger legges ved underretningen til saksøkeren. Saksøkeren kan ombestemme seg med hensyn til behandling i forliksrådet dersom melding om det kommer fram til namsmannen før innkalling til forliksrådet eller meddelelse om heving er sendt.
+>
+> Første ledd gjelder tilsvarende dersom saksøkte etter fristens utløp, men før utlegg er tatt, reiser innvendinger mot kravet. Namsmannen kan beslutte at utlegg likevel skal tas dersom innvendingen er åpenbart grunnløs.
+>
+> Avsluttes en sak som er behandlet i forliksrådet etter første eller annet ledd, med en kjennelse eller dom i forliksrådet som pålegger klagemotparten en betalingsplikt overfor klageren, kan klageren innen en måned etter utløpet av dennes frist for å angripe avgjørelsen uten oppfriskning kreve at utleggssaken skal fortsette. Avsluttes saken med rettsforlik i forliksrådet, kan slikt krav fremmes innen en måned etter at forliket er inngått.
+>
+> § 7-8. Flere begjæringer mot samme saksøkt
+>
+> Dersom namsmannen har mottatt flere begjæringer om utlegg mot samme saksøkte, behandles begjæringene i den rekkefølgen de er kommet inn. Rekkefølgen kan fravikes dersom behandlingen av en begjæring ellers ville bli forsinket av grunner som bare vedrører en annen begjæring.
 >
 > II. Gjennomføring av saker om utlegg
 >
-> § 7-9.InnledningNår saksøktes frist etter § 7-6 for å uttale seg har løpt ut, tar namsmannen saken opp til videre behandling. Namsmannen kan ta saken opp til videre behandling tidligere dersom saksøkte ber om det. I tilfeller som nevnt i § 7-6 tredje ledd kan saken umiddelbart tas opp til videre behandling.Dersom en av partene har bedt om det, eller finner namsmannen grunn til det, kan namsmannen innkalle saksøkte og eventuelt også saksøkeren til et møte. Møtet kan holdes på namsmannens kontor, på saksøktes bopel, forretningssted eller driftssted, på sted der det antas å kunne være formuesgoder til utlegg, eller som fjernmøte.Namsmannen skal ta imot betaling eller avdrag på saksøkerens vegne når det tilbys. Er tvangsgrunnlaget et verdipapir som ikke er innsendt tidligere, varsler namsmannen saksøkeren om betalingen og pålegger denne å fremlegge dokumentet. Betalingen påføres dokumentet før beløpet betales til saksøkeren.Før utlegg blir tatt i et formuesgode, skal namsmannen i rimelig utstrekning undersøke om andre har rettigheter i formuesgodet.Dekning ved utleggstrekk kan ikke besluttes etter et alminnelig tvangsgrunnlag før grunnlaget er rettskraftig.Kongen kan i forskrift gi bestemmelser om valg av utleggsgjenstand.Det føres namsbok når det besluttes utleggspant eller dekning ved utleggstrekk, eller saken avsluttes med intet til utlegg, eller det fastsettes endringer i slike beslutninger.
+> § 7-9. Innledning
 >
-> § 7-9.Innledning
+> Når saksøktes frist etter § 7-6 for å uttale seg har løpt ut, tar namsmannen saken opp til videre behandling. Namsmannen kan ta saken opp til videre behandling tidligere dersom saksøkte ber om det. I tilfeller som nevnt i § 7-6 tredje ledd kan saken umiddelbart tas opp til videre behandling.
 >
-> § 7-10.Gjentatt foreleggelseDersom saken ikke er avsluttet innen to måneder etter at saksøkte sist har uttalt seg, og det dessuten er gått mer enn to måneder siden sist gitte frist for saksøkte til å uttale seg har løpt ut, må begjæringen forelegges saksøkte på nytt etter § 7-6 før det tas utlegg eller saken avsluttes med intet til utlegg.Gjentatt foreleggelse kan unnlates i tilfeller som nevnt i § 7-6 tredje ledd.
+> Dersom en av partene har bedt om det, eller finner namsmannen grunn til det, kan namsmannen innkalle saksøkte og eventuelt også saksøkeren til et møte. Møtet kan holdes på namsmannens kontor, på saksøktes bopel, forretningssted eller driftssted, på sted der det antas å kunne være formuesgoder til utlegg, eller som fjernmøte.
 >
-> § 7-10.Gjentatt foreleggelse
+> Namsmannen skal ta imot betaling eller avdrag på saksøkerens vegne når det tilbys. Er tvangsgrunnlaget et verdipapir som ikke er innsendt tidligere, varsler namsmannen saksøkeren om betalingen og pålegger denne å fremlegge dokumentet. Betalingen påføres dokumentet før beløpet betales til saksøkeren.
 >
-> § 7-11.Formuesgoder hos saksøkteUtlegg kan tas i ikke-realregistrert løsøre og verdipapirer som er i saksøktes besittelse, dersom det ikke sannsynliggjøres at en annen er eier. Det samme gjelder realregistrerte formuesgoder, finansielle instrumenter registrert i en verdipapirsentral, aksjer og adkomstdokumenter til leierett eller borett til husrom som saksøkte er registrert eller meldt som eier av.Er ikke-realregistrert løsøre eller verdipapirer i sambesittelse mellom saksøkte og en eller flere andre, kan utlegg tas i hele formuesgodet dersom det ikke sannsynliggjøres at en annen helt eller delvis er eier.
+> Før utlegg blir tatt i et formuesgode, skal namsmannen i rimelig utstrekning undersøke om andre har rettigheter i formuesgodet.
 >
-> § 7-11.Formuesgoder hos saksøkte
+> Dekning ved utleggstrekk kan ikke besluttes etter et alminnelig tvangsgrunnlag før grunnlaget er rettskraftig.
 >
-> § 7-12.Formuesgoder hos tredjepersonUtlegg kan tas i ikke-realregistrert løsøre og verdipapirer som er i en tredjepersons besittelse, dersom det er sannsynlig at saksøkte er eier. Det samme gjelder realregistrerte formuesgoder, finansielle instrumenter registrert i en verdipapirsentral, aksjer og adkomstdokumenter til leierett eller borett til husrom som en tredjeperson er registrert eller meldt som eier av.
+> Kongen kan i forskrift gi bestemmelser om valg av utleggsgjenstand.
 >
-> § 7-12.Formuesgoder hos tredjeperson
+> Det føres namsbok når det besluttes utleggspant eller dekning ved utleggstrekk, eller saken avsluttes med intet til utlegg, eller det fastsettes endringer i slike beslutninger.
 >
-> § 7-13.Utlegg i felles boligDersom saksøkte er gift eller lever i et ekteskapslignende forhold som har vart i minst to år, eller hvor samboeren har, har hatt eller venter barn med saksøkte, kan utlegg tas i en ideell halvdel av felles bolig ervervet under samlivet, hvis ikke et annet eierforhold blir sannsynliggjort. At bare den ene part er registrert eller meldt som eier, er ikke i seg selv tilstrekkelig til å sannsynliggjøre partens enerett.
+> § 7-10. Gjentatt foreleggelse
 >
-> § 7-13.Utlegg i felles bolig
+> Dersom saken ikke er avsluttet innen to måneder etter at saksøkte sist har uttalt seg, og det dessuten er gått mer enn to måneder siden sist gitte frist for saksøkte til å uttale seg har løpt ut, må begjæringen forelegges saksøkte på nytt etter § 7-6 før det tas utlegg eller saken avsluttes med intet til utlegg.
 >
-> § 7-14.Utlegg i usikre krav og i deler av formuesgoder m.m.Dersom det finnes andre formuesgoder det kan tas tilfredsstillende utlegg i, skal det ikke tas utlegg i omtvistede eller usikre krav eller rettigheter, i fysiske eller ideelle deler av et formuesgode eller i formuesgoder som det vil være vanskelig å søke tvangsdekning i.Det skal ikke tas utleggspant i enkelte gjenstander i et pantsatt tingsinnbegrep, jf. panteloven §§ 3-4 til 3-13. Det skal heller ikke tas utleggspant i en enkeltfordring som inngår i pant etter panteloven § 4-10.
+> Gjentatt foreleggelse kan unnlates i tilfeller som nevnt i § 7-6 tredje ledd.
 >
-> § 7-14.Utlegg i usikre krav og i deler av formuesgoder m.m.
+> § 7-11. Formuesgoder hos saksøkte
 >
-> § 7-15.Utlegg i formuesgoder saksøkeren har panterett eller tilbakeholdsrett iEr saksøkerens krav sikret ved panterett eller tilbakeholdsrett i et formuesgode, kan saksøkeren kreve utlegg i dette formuesgodet dersom ikke annet er bestemt i eller i medhold av lov.
+> Utlegg kan tas i ikke-realregistrert løsøre og verdipapirer som er i saksøktes besittelse, dersom det ikke sannsynliggjøres at en annen er eier. Det samme gjelder realregistrerte formuesgoder, finansielle instrumenter registrert i en verdipapirsentral, aksjer og adkomstdokumenter til leierett eller borett til husrom som saksøkte er registrert eller meldt som eier av.
 >
-> § 7-15.Utlegg i formuesgoder saksøkeren har panterett eller tilbakeholdsrett i
+> Er ikke-realregistrert løsøre eller verdipapirer i sambesittelse mellom saksøkte og en eller flere andre, kan utlegg tas i hele formuesgodet dersom det ikke sannsynliggjøres at en annen helt eller delvis er eier.
 >
-> § 7-16.Utleggspant umiddelbart i forbindelse med utbetaling av lønn mv.Utleggspant skal ikke tas i saksøktes lønn eller andre ytelser som nevnt i dekningsloven § 2-7 umiddelbart i forbindelse med utbetalingen.
+> § 7-12. Formuesgoder hos tredjeperson
 >
-> § 7-16.Utleggspant umiddelbart i forbindelse med utbetaling av lønn mv.
+> Utlegg kan tas i ikke-realregistrert løsøre og verdipapirer som er i en tredjepersons besittelse, dersom det er sannsynlig at saksøkte er eier. Det samme gjelder realregistrerte formuesgoder, finansielle instrumenter registrert i en verdipapirsentral, aksjer og adkomstdokumenter til leierett eller borett til husrom som en tredjeperson er registrert eller meldt som eier av.
 >
-> § 7-17.Beslutning om utleggspantUtleggspant stiftes ved at namsmannen fører inn i namsboken at det for saksøkerens krav etter tvangsgrunnlaget med sakskostnader er tatt utlegg i et eller flere bestemte formuesgoder.Namsmannen anslår hvilket beløp de formuesgodene det tas utlegg i, antas å ville innbringe ved tvangsdekning. Beløpet inntas i namsboken. Der det er tatt utlegg i ett formuesgode og det er åpenbart at tvangsdekning vil gi saksøkeren full dekning, er det tilstrekkelig at dette angis.Begrensede rettigheter i formuesgodet som namsmannen kjenner til, skal anmerkes i namsboken. For rettigheter som er registrert i et offentlig register, er det tilstrekkelig at namsboken nevner i hvilket register rettighetene er registrert.Når det blir tatt utlegg i en hovedgjenstand med tilbehør, behøver ikke tilbehøret oppregnes enkeltvis. Verdianslaget skjer samlet for hovedgjenstand og tilbehør. Tilsvarende gjelder ved utlegg i tingsinnbegrep eller i enkle krav etter panteloven § 4-10.
+> § 7-13. Utlegg i felles bolig
 >
-> § 7-17.Beslutning om utleggspant
+> Dersom saksøkte er gift eller lever i et ekteskapslignende forhold som har vart i minst to år, eller hvor samboeren har, har hatt eller venter barn med saksøkte, kan utlegg tas i en ideell halvdel av felles bolig ervervet under samlivet, hvis ikke et annet eierforhold blir sannsynliggjort. At bare den ene part er registrert eller meldt som eier, er ikke i seg selv tilstrekkelig til å sannsynliggjøre partens enerett.
 >
-> § 7-18.Underretning om utleggspantNår det er tatt utleggspant, skal namsmannen gjøre saksøkte kjent med utlegget og med at det er forbudt å forføye over det utlagte formuesgodet i strid med saksøkerens panterett, og med at saksøkeren har rett til å begjære tvangsdekning to uker etter at utlegget ble tatt. Dersom utlegget skal registreres i Løsøreregisteret, skal det opplyses om det i namsboken. Partene skal gis gjenpart av namsboken. I tilfeller som nevnt i § 7-12 skal namsmannen også gi underretning som nevnt i første punktum til vedkommende tredjeperson.Dersom saksøkte er gift eller lever i et ekteskapslignende forhold, og det blir tatt utlegg i felles bolig, skal ektefellen eller samboeren gis underretning om utleggspantet. Det samme gjelder ved utlegg i tidligere felles bolig der saksøktes ektefelle, tidligere ektefelle eller tidligere samboer fortsatt bor.
+> § 7-14. Utlegg i usikre krav og i deler av formuesgoder m.m.
 >
-> § 7-18.Underretning om utleggspant
+> Dersom det finnes andre formuesgoder det kan tas tilfredsstillende utlegg i, skal det ikke tas utlegg i omtvistede eller usikre krav eller rettigheter, i fysiske eller ideelle deler av et formuesgode eller i formuesgoder som det vil være vanskelig å søke tvangsdekning i.
 >
-> § 7-19.Sikring av rettsvern for utleggspantVed utlegg i et formuesgode som er registrert i et realregister, i en registrert særlig rett i et slikt formuesgode eller i en ideell del i et slikt formuesgode eller en slik rett, sender namsmannen omgående underretning om utleggspantet til registrering i realregisteret. Tilsvarende gjelder ved utlegg i utinglyst rettighet i fast eiendom. For tilbehør til fast eiendom, gjelder annet ledd tilsvarende.Ved utlegg i løsøre som ikke er realregistrert, kan namsmannen ta løsøret i forvaring eller på annen måte frata saksøkte rådigheten over det som angitt i panteloven § 3-2 annet og tredje ledd, dersom det er grunn til å frykte at saksøkte vil forføye over det i strid med saksøkerens panterett. Tiltak etter første punktum skal føres inn i namsboken. Dersom saksøkeren ikke har begjært tvangsdekning innen en måned etter å ha fått underretning om utlegget, kan namsmannen av eget tiltak oppheve tiltak etter første punktum. Dersom saksøkeren ikke har begjært tvangsdekning innen fristen etter tredje punktum, skal tiltaket oppheves dersom saksøkte begjærer det og det ikke lenger er grunn til å tro at saksøkte vil forføye over løsøret i strid med saksøkerens panterett.Ved utlegg i verdipapirer tar namsmannen papirene i forvaring eller fratar på annen måte saksøkte rådigheten over dem som angitt i panteloven § 3-2 annet og tredje ledd dersom det lar seg gjøre. Ved utlegg i penger tar namsmannen pengene i forvaring. Norske penger som er tatt i forvaring, plasseres til best mulig rente i norsk bank. Utenlandske penger veksles bare om til norske penger dersom saksøkte samtykker.Ved utlegg i finansielle instrumenter som er registrert i en verdipapirsentral, registrerer namsmannen omgående at bare namsmannen kan disponere kontoen.Ved utlegg i aksjer som ikke er registrert i en verdipapirsentral, underretter namsmannen, dersom det lar seg gjøre, snarest selskapet og forbyr selskapet å betale eller yte til saksøkte.Ved utlegg i et innløsningspapir som ikke er verdipapir, underretter namsmannen snarest den forpliktede og forbyr denne å betale eller yte til saksøkte. Namsmannen tar dessuten innløsningspapiret i forvaring eller fratar på annen måte saksøkte rådigheten over papiret som angitt i panteloven § 3-2 annet og tredje ledd dersom det lar seg gjøre.Ved utlegg i adkomstdokumenter til leierett eller borett til husrom underretter namsmannen vedkommende utleier eller selskap, jf. panteloven § 5-8. Namsmannen tar dessuten dokumentet i forvaring eller fratar på annen måte saksøkte rådigheten som angitt i panteloven § 3-2 annet og tredje ledd dersom det lar seg gjøre.Ved utlegg i enkle krav underretter namsmannen dersom det lar seg gjøre snarest den forpliktede og forbyr denne å betale eller yte til saksøkte.Ved utlegg i immaterialrettigheter som det finnes særskilt register for, sender namsmannen omgående underretning om utleggspantet til registrering i registeret.Ved utlegg i elsertifikater registrerer namsmannen omgående i elsertifikatregisteret at bare namsmannen kan disponere over elsertifikater det er tatt utlegg i.Ved utlegg i andre formuesgoder enn nevnt i første ledd sørger namsmannen omgående for at utlegget blir registrert i Løsøreregisteret.Dersom et formuesgode befinner seg hos en tredjeperson, kan namsmannen pålegge vedkommende å utlevere formuesgodet dersom ikke tredjepersonen har en rett til å sitte med formuesgodet som har bedre prioritet enn saksøkerens panterett.
+> Det skal ikke tas utleggspant i enkelte gjenstander i et pantsatt tingsinnbegrep, jf. panteloven §§ 3-4 til 3-13. Det skal heller ikke tas utleggspant i en enkeltfordring som inngår i pant etter panteloven § 4-10.
 >
-> § 7-19.Sikring av rettsvern for utleggspant
+> § 7-15. Utlegg i formuesgoder saksøkeren har panterett eller tilbakeholdsrett i
 >
-> § 7-20.Beslutning og underretning om utleggstrekkEn beslutning om at et krav skal dekkes ved utleggstrekk, skjer ved at det etableres utleggstrekk for kravet, eller, dersom det allerede foreligger utleggstrekk mot saksøkte, ved at kravet meldes inn i trekket, jf. dekningsloven § 2-8.En beslutning om utleggstrekk føres inn i namsboken. Namsmannen skal i namsboken gi en nøyaktig beregning av saksøkerens krav med sakskostnader og renter fram til utleggsdagen og nøyaktige opplysninger om beregningen av renter fra utleggsdagen. Kravets prioritet etter dekningsloven § 2-8 skal fastsettes og angis i namsboken. Størrelsen av krav som i prioritetsrekken ligger foran eller likt med saksøkers krav, skal også angis. Saksøkeren skal gjøres oppmerksom på plikten til å holde Innkrevingsmyndigheten orientert om endringer i kravsforholdet.Dersom det ikke allerede løper utleggstrekk mot saksøkte, skal namsmannen dessuten i namsboken fastsette trekkets størrelse og angi hvem som er trekkpliktig. Saksøkte skal gjøres oppmerksom på at det vil bli registrert i Løsøreregisteret at utleggstrekk er etablert.Partene skal gis gjenpart av namsboken. Innkrevingsmyndigheten skal underrettes om trekkbeslutningen.
+> Er saksøkerens krav sikret ved panterett eller tilbakeholdsrett i et formuesgode, kan saksøkeren kreve utlegg i dette formuesgodet dersom ikke annet er bestemt i eller i medhold av lov.
 >
-> § 7-20.Beslutning og underretning om utleggstrekk
+> § 7-16. Utleggspant umiddelbart i forbindelse med utbetaling av lønn mv.
 >
-> § 7-21.Endring av utleggstrekkDersom det inntrer endringer i saksøktes økonomiske forhold eller det foreligger endrede opplysninger m.m., kan namsmyndigheten regulere trekket. Namsmyndigheten kan også regulere trekket dersom det klart foreligger feil ved fastsettelsen av trekkets størrelse. Saksøkte kan begjære regulering. Fordringshavere som har krav i trekket, kan begjære regulering når endringen i saksøktes økonomiske forhold er vesentlig eller de nye opplysningene er av vesentlig betydning. Saksøkte skal forelegges en ny trekkberegning med oppfordring til å uttale seg innen en frist på minst tre uker fra avsendelsen før det kan treffes beslutning om å øke trekket.Har Innkrevingsmyndigheten krav i trekket, treffes avgjørelser som nevnt i første ledd av Innkrevingsmyndigheten. Hvis Innkrevingsmyndigheten ikke har krav i trekket, treffes avgjørelsen av den alminnelige namsmannen som har kompetanse etter § 7-3 fjerde ledd til å etablere utleggstrekk. Kongen kan gi forskrift om hvilken namsmyndighet som skal treffe slike avgjørelser i tilfeller som ikke dekkes av første og annet punktum.Dersom en namsmyndighet som melder nye krav inn i trekket, mener at trekket bør reguleres, men ikke selv er kompetent etter annet ledd til å gjøre det, kan den oppfordre den kompetente namsmyndigheten til å vurdere regulering av trekket. En alminnelig namsmann inntar oppfordring som nevnt i namsboken.
+> Utleggspant skal ikke tas i saksøktes lønn eller andre ytelser som nevnt i dekningsloven § 2-7 umiddelbart i forbindelse med utbetalingen.
 >
-> § 7-21.Endring av utleggstrekk
+> § 7-17. Beslutning om utleggspant
 >
-> § 7-22.Skifte av trekkpliktigDersom en saksøkt som er pålagt utleggstrekk i lønn, skifter arbeidsgiver, skal den nye arbeidsgiveren pålegges trekkplikt. Tilsvarende gjelder ved andre ytelser som nevnt i dekningsloven § 2-7. Namsmyndigheten skal vurdere om trekket bør reguleres.§ 7-21 første ledd femte punktum og annet ledd gjelder tilsvarende.
+> Utleggspant stiftes ved at namsmannen fører inn i namsboken at det for saksøkerens krav etter tvangsgrunnlaget med sakskostnader er tatt utlegg i et eller flere bestemte formuesgoder.
 >
-> § 7-22.Skifte av trekkpliktig
+> Namsmannen anslår hvilket beløp de formuesgodene det tas utlegg i, antas å ville innbringe ved tvangsdekning. Beløpet inntas i namsboken. Der det er tatt utlegg i ett formuesgode og det er åpenbart at tvangsdekning vil gi saksøkeren full dekning, er det tilstrekkelig at dette angis.
 >
-> § 7-23.Avslutning av sak med intet til utleggNår det ikke blir tatt utlegg fordi saksøkte ikke har formuesgoder eller lønn eller andre pengekrav som nevnt i dekningsloven § 2-7 som det kan tas utlegg i, avsluttes saken ved at namsmannen gir begge parter gjenpart av namsboken som viser utfallet og hva som er foretatt. I namsboken skal det opplyses at utfallet vil bli registrert i Løsøreregisteret. Namsmannen sørger omgående for registreringen.Der saksøkte er en fysisk person som ikke allerede er ilagt utleggstrekk, skal utfallet bare registreres i Løsøreregisteret dersom namsmannen er kompetent til å etablere utleggstrekk.III. Klage, bortfall og opphevelse av utlegg mv.
+> Begrensede rettigheter i formuesgodet som namsmannen kjenner til, skal anmerkes i namsboken. For rettigheter som er registrert i et offentlig register, er det tilstrekkelig at namsboken nevner i hvilket register rettighetene er registrert.
 >
-> § 7-23.Avslutning av sak med intet til utlegg
+> Når det blir tatt utlegg i en hovedgjenstand med tilbehør, behøver ikke tilbehøret oppregnes enkeltvis. Verdianslaget skjer samlet for hovedgjenstand og tilbehør. Tilsvarende gjelder ved utlegg i tingsinnbegrep eller i enkle krav etter panteloven § 4-10.
+>
+> § 7-18. Underretning om utleggspant
+>
+> Når det er tatt utleggspant, skal namsmannen gjøre saksøkte kjent med utlegget og med at det er forbudt å forføye over det utlagte formuesgodet i strid med saksøkerens panterett, og med at saksøkeren har rett til å begjære tvangsdekning to uker etter at utlegget ble tatt. Dersom utlegget skal registreres i Løsøreregisteret, skal det opplyses om det i namsboken. Partene skal gis gjenpart av namsboken. I tilfeller som nevnt i § 7-12 skal namsmannen også gi underretning som nevnt i første punktum til vedkommende tredjeperson.
+>
+> Dersom saksøkte er gift eller lever i et ekteskapslignende forhold, og det blir tatt utlegg i felles bolig, skal ektefellen eller samboeren gis underretning om utleggspantet. Det samme gjelder ved utlegg i tidligere felles bolig der saksøktes ektefelle, tidligere ektefelle eller tidligere samboer fortsatt bor.
+>
+> § 7-19. Sikring av rettsvern for utleggspant
+>
+> Ved utlegg i et formuesgode som er registrert i et realregister, i en registrert særlig rett i et slikt formuesgode eller i en ideell del i et slikt formuesgode eller en slik rett, sender namsmannen omgående underretning om utleggspantet til registrering i realregisteret. Tilsvarende gjelder ved utlegg i utinglyst rettighet i fast eiendom. For tilbehør til fast eiendom, gjelder annet ledd tilsvarende.
+>
+> Ved utlegg i løsøre som ikke er realregistrert, kan namsmannen ta løsøret i forvaring eller på annen måte frata saksøkte rådigheten over det som angitt i panteloven § 3-2 annet og tredje ledd, dersom det er grunn til å frykte at saksøkte vil forføye over det i strid med saksøkerens panterett. Tiltak etter første punktum skal føres inn i namsboken. Dersom saksøkeren ikke har begjært tvangsdekning innen en måned etter å ha fått underretning om utlegget, kan namsmannen av eget tiltak oppheve tiltak etter første punktum. Dersom saksøkeren ikke har begjært tvangsdekning innen fristen etter tredje punktum, skal tiltaket oppheves dersom saksøkte begjærer det og det ikke lenger er grunn til å tro at saksøkte vil forføye over løsøret i strid med saksøkerens panterett.
+>
+> Ved utlegg i verdipapirer tar namsmannen papirene i forvaring eller fratar på annen måte saksøkte rådigheten over dem som angitt i panteloven § 3-2 annet og tredje ledd dersom det lar seg gjøre. Ved utlegg i penger tar namsmannen pengene i forvaring. Norske penger som er tatt i forvaring, plasseres til best mulig rente i norsk bank. Utenlandske penger veksles bare om til norske penger dersom saksøkte samtykker.
+>
+> Ved utlegg i finansielle instrumenter som er registrert i en verdipapirsentral, registrerer namsmannen omgående at bare namsmannen kan disponere kontoen.
+>
+> Ved utlegg i aksjer som ikke er registrert i en verdipapirsentral, underretter namsmannen, dersom det lar seg gjøre, snarest selskapet og forbyr selskapet å betale eller yte til saksøkte.
+>
+> Ved utlegg i et innløsningspapir som ikke er verdipapir, underretter namsmannen snarest den forpliktede og forbyr denne å betale eller yte til saksøkte. Namsmannen tar dessuten innløsningspapiret i forvaring eller fratar på annen måte saksøkte rådigheten over papiret som angitt i panteloven § 3-2 annet og tredje ledd dersom det lar seg gjøre.
+>
+> Ved utlegg i adkomstdokumenter til leierett eller borett til husrom underretter namsmannen vedkommende utleier eller selskap, jf. panteloven § 5-8. Namsmannen tar dessuten dokumentet i forvaring eller fratar på annen måte saksøkte rådigheten som angitt i panteloven § 3-2 annet og tredje ledd dersom det lar seg gjøre.
+>
+> Ved utlegg i enkle krav underretter namsmannen dersom det lar seg gjøre snarest den forpliktede og forbyr denne å betale eller yte til saksøkte.
+>
+> Ved utlegg i immaterialrettigheter som det finnes særskilt register for, sender namsmannen omgående underretning om utleggspantet til registrering i registeret.
+>
+> Ved utlegg i elsertifikater registrerer namsmannen omgående i elsertifikatregisteret at bare namsmannen kan disponere over elsertifikater det er tatt utlegg i.
+>
+> Ved utlegg i andre formuesgoder enn nevnt i første ledd sørger namsmannen omgående for at utlegget blir registrert i Løsøreregisteret.
+>
+> Dersom et formuesgode befinner seg hos en tredjeperson, kan namsmannen pålegge vedkommende å utlevere formuesgodet dersom ikke tredjepersonen har en rett til å sitte med formuesgodet som har bedre prioritet enn saksøkerens panterett.
+>
+> § 7-20. Beslutning og underretning om utleggstrekk
+>
+> En beslutning om at et krav skal dekkes ved utleggstrekk, skjer ved at det etableres utleggstrekk for kravet, eller, dersom det allerede foreligger utleggstrekk mot saksøkte, ved at kravet meldes inn i trekket, jf. dekningsloven § 2-8.
+>
+> En beslutning om utleggstrekk føres inn i namsboken. Namsmannen skal i namsboken gi en nøyaktig beregning av saksøkerens krav med sakskostnader og renter fram til utleggsdagen og nøyaktige opplysninger om beregningen av renter fra utleggsdagen. Kravets prioritet etter dekningsloven § 2-8 skal fastsettes og angis i namsboken. Størrelsen av krav som i prioritetsrekken ligger foran eller likt med saksøkers krav, skal også angis. Saksøkeren skal gjøres oppmerksom på plikten til å holde Innkrevingsmyndigheten orientert om endringer i kravsforholdet.
+>
+> Dersom det ikke allerede løper utleggstrekk mot saksøkte, skal namsmannen dessuten i namsboken fastsette trekkets størrelse og angi hvem som er trekkpliktig. Saksøkte skal gjøres oppmerksom på at det vil bli registrert i Løsøreregisteret at utleggstrekk er etablert.
+>
+> Partene skal gis gjenpart av namsboken. Innkrevingsmyndigheten skal underrettes om trekkbeslutningen.
+>
+> § 7-21. Endring av utleggstrekk
+>
+> Dersom det inntrer endringer i saksøktes økonomiske forhold eller det foreligger endrede opplysninger m.m., kan namsmyndigheten regulere trekket. Namsmyndigheten kan også regulere trekket dersom det klart foreligger feil ved fastsettelsen av trekkets størrelse. Saksøkte kan begjære regulering. Fordringshavere som har krav i trekket, kan begjære regulering når endringen i saksøktes økonomiske forhold er vesentlig eller de nye opplysningene er av vesentlig betydning. Saksøkte skal forelegges en ny trekkberegning med oppfordring til å uttale seg innen en frist på minst tre uker fra avsendelsen før det kan treffes beslutning om å øke trekket.
+>
+> Har Innkrevingsmyndigheten krav i trekket, treffes avgjørelser som nevnt i første ledd av Innkrevingsmyndigheten. Hvis Innkrevingsmyndigheten ikke har krav i trekket, treffes avgjørelsen av den alminnelige namsmannen som har kompetanse etter § 7-3 fjerde ledd til å etablere utleggstrekk. Kongen kan gi forskrift om hvilken namsmyndighet som skal treffe slike avgjørelser i tilfeller som ikke dekkes av første og annet punktum.
+>
+> Dersom en namsmyndighet som melder nye krav inn i trekket, mener at trekket bør reguleres, men ikke selv er kompetent etter annet ledd til å gjøre det, kan den oppfordre den kompetente namsmyndigheten til å vurdere regulering av trekket. En alminnelig namsmann inntar oppfordring som nevnt i namsboken.
+>
+> § 7-22. Skifte av trekkpliktig
+>
+> Dersom en saksøkt som er pålagt utleggstrekk i lønn, skifter arbeidsgiver, skal den nye arbeidsgiveren pålegges trekkplikt. Tilsvarende gjelder ved andre ytelser som nevnt i dekningsloven § 2-7. Namsmyndigheten skal vurdere om trekket bør reguleres.
+>
+> § 7-21 første ledd femte punktum og annet ledd gjelder tilsvarende.
+>
+> § 7-23. Avslutning av sak med intet til utlegg
+>
+> Når det ikke blir tatt utlegg fordi saksøkte ikke har formuesgoder eller lønn eller andre pengekrav som nevnt i dekningsloven § 2-7 som det kan tas utlegg i, avsluttes saken ved at namsmannen gir begge parter gjenpart av namsboken som viser utfallet og hva som er foretatt. I namsboken skal det opplyses at utfallet vil bli registrert i Løsøreregisteret. Namsmannen sørger omgående for registreringen.
+>
+> Der saksøkte er en fysisk person som ikke allerede er ilagt utleggstrekk, skal utfallet bare registreres i Løsøreregisteret dersom namsmannen er kompetent til å etablere utleggstrekk.
 >
 > III. Klage, bortfall og opphevelse av utlegg mv.
 >
-> § 7-24.KlageNår det er tatt utleggspant, kan klage til tingretten etter § 5-16 settes fram så lenge tvangsdekning ikke er begjært. Når det er besluttet dekning ved utleggstrekk, kan klage settes fram så lenge trekket løper. Partene kan likevel ikke klage over valg av utleggsgjenstand senere enn en måned etter at de ble underrettet om utlegget.Klage over størrelsen av et utleggstrekk behandles av den namsmyndigheten som er angitt i § 7-21 annet ledd. Klage over fordelingen av innbetalte trekk behandles av Innkrevingsmyndigheten. Avgjørelsen av klagen er bindende for alle fordringshavere med krav i trekket.
+> § 7-24. Klage
 >
-> § 7-24.Klage
+> Når det er tatt utleggspant, kan klage til tingretten etter § 5-16 settes fram så lenge tvangsdekning ikke er begjært. Når det er besluttet dekning ved utleggstrekk, kan klage settes fram så lenge trekket løper. Partene kan likevel ikke klage over valg av utleggsgjenstand senere enn en måned etter at de ble underrettet om utlegget.
 >
-> § 7-25.Erklæring om bortfall av utleggspantDersom et krav som er sikret ved utleggspant, er dekket eller opphørt på annen måte, tvangsgrunnlaget er opphevet, falt bort eller kjent ugyldig, eller utlegget er bortfalt på annen måte, plikter saksøkeren skriftlig å gi avkall på sin rett etter utlegget.
+> Klage over størrelsen av et utleggstrekk behandles av den namsmyndigheten som er angitt i § 7-21 annet ledd. Klage over fordelingen av innbetalte trekk behandles av Innkrevingsmyndigheten. Avgjørelsen av klagen er bindende for alle fordringshavere med krav i trekket.
 >
-> § 7-25.Erklæring om bortfall av utleggspant
+> § 7-25. Erklæring om bortfall av utleggspant
 >
-> § 7-26.Beslutning om opphevelse av utleggI tilfeller som nevnt i § 7-25 skal namsmannen på begjæring treffe beslutning om opphevelse av utlegget.Viser det seg at utlegg er tatt i større omfang enn nødvendig fordi saksøkte har betalt avdrag eller tvangsgrunnlaget er blitt begrenset, skal namsmannen på begjæring treffe beslutning om delvis opphevelse.Før namsmannen treffer beslutning etter første ledd, skal saksøkeren gis anledning til å uttale seg. Partene gis meddelelse om beslutningen. Beslutningen kan påklages innen en måned etter at meddelelsen er sendt. Den kan ikke gjennomføres før klagefristen er løpt ut. Klage har oppsettende virkning.
+> Dersom et krav som er sikret ved utleggspant, er dekket eller opphørt på annen måte, tvangsgrunnlaget er opphevet, falt bort eller kjent ugyldig, eller utlegget er bortfalt på annen måte, plikter saksøkeren skriftlig å gi avkall på sin rett etter utlegget.
 >
-> § 7-26.Beslutning om opphevelse av utlegg
+> § 7-26. Beslutning om opphevelse av utlegg
 >
-> § 7-27.Beslutning om opphør av registrering av «intet til utlegg»Er det krav som ble søkt inndrevet i en sak som ble avsluttet ved intet til utlegg, dekket eller bortfalt på annen måte, eller er tvangsgrunnlaget opphevet, falt bort eller kjent ugyldig, skal namsmannen på begjæring treffe beslutning om at registreringen i Løsøreregisteret av beslutningen om intet til utlegg skal slettes. § 7-26 tredje ledd gjelder tilsvarende.
+> I tilfeller som nevnt i § 7-25 skal namsmannen på begjæring treffe beslutning om opphevelse av utlegget.
 >
-> § 7-27.Beslutning om opphør av registrering av «intet til utlegg»
+> Viser det seg at utlegg er tatt i større omfang enn nødvendig fordi saksøkte har betalt avdrag eller tvangsgrunnlaget er blitt begrenset, skal namsmannen på begjæring treffe beslutning om delvis opphevelse.
 >
-> § 7-28.Opphør av utleggstrekkEt utleggstrekk opphører når alle kravene i trekket er dekket eller bortfalt på annen måte, eller tvangsgrunnlaget for kravet er opphevet, falt bort eller kjent ugyldig.Et utleggstrekk opphører dessuten når det er gått to år siden Innkrevingsmyndigheten sist mottok innbetaling under trekket.
+> Før namsmannen treffer beslutning etter første ledd, skal saksøkeren gis anledning til å uttale seg. Partene gis meddelelse om beslutningen. Beslutningen kan påklages innen en måned etter at meddelelsen er sendt. Den kan ikke gjennomføres før klagefristen er løpt ut. Klage har oppsettende virkning.
 >
-> § 7-28.Opphør av utleggstrekk
+> § 7-27. Beslutning om opphør av registrering av «intet til utlegg»
+>
+> Er det krav som ble søkt inndrevet i en sak som ble avsluttet ved intet til utlegg, dekket eller bortfalt på annen måte, eller er tvangsgrunnlaget opphevet, falt bort eller kjent ugyldig, skal namsmannen på begjæring treffe beslutning om at registreringen i Løsøreregisteret av beslutningen om intet til utlegg skal slettes. § 7-26 tredje ledd gjelder tilsvarende.
+>
+> § 7-28. Opphør av utleggstrekk
+>
+> Et utleggstrekk opphører når alle kravene i trekket er dekket eller bortfalt på annen måte, eller tvangsgrunnlaget for kravet er opphevet, falt bort eller kjent ugyldig.
+>
+> Et utleggstrekk opphører dessuten når det er gått to år siden Innkrevingsmyndigheten sist mottok innbetaling under trekket.
 >
 
 ### 2025-06-20 — lov/2025-06-20-104
@@ -1757,6 +1994,20 @@ refid: "lov/1992-06-26-86"
 *Følgende steder endres ordet «namsmenn» til ordet «namsfogder»:*
 
 > §§ 5-2 og 5-7.
+>
+
+### 2026-07-01 — forskrift/2026-03-20-445
+
+*Ikraftsetting av lov 20. juni 2025 nr. 104 om besøksbidrag (besøksbidragsloven) med endring i tvangsfullbyrdelsesloven. Loven trer i kraft 1. juli 2026.*
+
+> Ikraftsetting av lov 20. juni 2025 nr. 104 om besøksbidrag (besøksbidragsloven) med endring i tvangsfullbyrdelsesloven. Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-09-18 — forskrift/2026-09-18-1813
+
+*Endringen i lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven) § 41 av lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse (tvangsfullbyrdelsesloven) § 7-9 sjette ledd trer i kraft straks.*
+
+> Endringen i lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven) § 41 av lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse (tvangsfullbyrdelsesloven) § 7-9 sjette ledd trer i kraft straks.
 >
 
 ## § 1

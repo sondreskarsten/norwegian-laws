@@ -7,9 +7,57 @@ refid: "lov/2004-11-19-73"
 
 ## (annet)
 
+### 2011-06-24 — lov/2011-06-24-27
+
+*I lov 19. november 2004 nr. 73 om bokføring skal § 2 annet ledd nytt annet punktum lyde:*
+
+> Dette gjelder likevel ikke tilbydere av elektroniske tjenester som leverer omsetningsoppgave som nevnt i merverdiavgiftsloven § 15-6 tredje ledd, og som er bokføringspliktig utelukkende på grunnlag av plikten til å levere omsetningsoppgave etter bestemmelsen her.
+>
+
 ### 2013-12-13 — lov/2013-12-13-121
 
 *Nåværende § 13 femte ledd første punktum blir nytt annet punktum.*
+
+### 2014-02-01 — forskrift/2014-01-24-53
+
+*Ikraftsetting av lov 13. desember 2013 nr. 121 om endringer i bokføringsloven.*
+
+> Ikraftsetting av lov 13. desember 2013 nr. 121 om endringer i bokføringsloven.
+>
+> Loven trer i kraft 1. februar 2014.
+>
+
+### 2014-02-01 — forskrift/2014-01-24-54
+
+*Delegering av Kongens myndighet til å fastsette overgangsregler etter lov 13. desember 2013 nr. 121 om endringer i bokføringsloven del II til Finansdepartementet.*
+
+> Delegering av Kongens myndighet til å fastsette overgangsregler etter lov 13. desember 2013 nr. 121 om endringer i bokføringsloven del II til Finansdepartementet.
+>
+
+## § 1
+
+### 2014-02-01 — forskrift/2014-01-28-56
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> For dokumentasjon etter bokføringsloven § 13 første ledd nr. 2 og 3 som var oppbevaringspliktig før lovens ikrafttredelse gjelder oppbevaringsplikt etter bokføringsloven § 13 annet ledd slik bestemmelsen lød før endringene etter lov 13. desember 2013 nr. 121 om endringer i bokføringsloven.
+>
+> § 2
+>
+> .
+>
+> Dokumentasjon etter bokføringsloven § 13 første ledd nr. 1 og 4 som før lovens ikrafttredelse er minst 5 år gammel, skal oppbevares minst frem til 31. juli 2014.
+>
+> § 3
+>
+> .
+>
+> Denne forskrift trer i kraft 1. februar 2014.
+>
 
 ## § 10
 
@@ -182,9 +230,9 @@ refid: "lov/2004-11-19-73"
 
 *§ 3 skal lyde:*
 
-> § 3.DefinisjonerI denne lov menes medpliktig regnskapsrapportering: årsregnskap og annen rapportering av historiske regnskapsopplysninger til eksterne parter, gitt i skriftlig form til fastsatt tidspunkt og med et forhåndsdefinert innhold, og som er fastsatt i eller med hjemmel i lov. Departementet fastsetter i forskrift hva som er pliktig regnskapsrapportering etter denne loven.elektronisk regnskapssystem: programvare eller digitale tjenester som muliggjør produksjon av pliktig regnskapsrapportering, spesifikasjoner og automatisert behandling av elektronisk faktura, og som er innrettet slik at opplysningsplikten kan ivaretas.elektronisk faktura: et salgsdokument som kan utstedes, sendes og mottas i et strukturert, elektronisk format, som er egnet for automatisert behandling i regnskapssystemet.
+> § 3. Definisjoner
 >
-> § 3.Definisjoner
+> I denne lov menes medpliktig regnskapsrapportering: årsregnskap og annen rapportering av historiske regnskapsopplysninger til eksterne parter, gitt i skriftlig form til fastsatt tidspunkt og med et forhåndsdefinert innhold, og som er fastsatt i eller med hjemmel i lov. Departementet fastsetter i forskrift hva som er pliktig regnskapsrapportering etter denne loven.elektronisk regnskapssystem: programvare eller digitale tjenester som muliggjør produksjon av pliktig regnskapsrapportering, spesifikasjoner og automatisert behandling av elektronisk faktura, og som er innrettet slik at opplysningsplikten kan ivaretas.elektronisk faktura: et salgsdokument som kan utstedes, sendes og mottas i et strukturert, elektronisk format, som er egnet for automatisert behandling i regnskapssystemet.
 >
 
 ## § 3 a

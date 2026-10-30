@@ -14,6 +14,13 @@ refid: "lov/2004-12-17-99"
 > § 8.(tildeling av kvoter vederlagsfritt til virksomheter som omfattes av forurensningsloven)
 >
 
+### 2011-04-29 — forskrift/2011-04-15-426
+
+*Delegering av Kongens myndighet etter lov om endringer i klimakvoteloven § 3, § 4, § 5, § 8b og § 21a til Miljøverndepartementet.*
+
+> Delegering av Kongens myndighet etter lov om endringer i klimakvoteloven § 3, § 4, § 5, § 8b og § 21a til Miljøverndepartementet.
+>
+
 ### 2012-05-25 — lov/2012-05-25-29
 
 *§§ 8a og 8b oppheves.*
@@ -33,17 +40,17 @@ refid: "lov/2004-12-17-99"
 
 *§§ 6 til 8 skal lyde:*
 
-> § 6.(ansvar for kostnader fra kvoteplikt for maritim transportaktivitet)Dersom en annen enn skipsoperatøren etter kontrakt er gitt bestemmende innflytelse over beslutninger som påvirker skipets kvotepliktige utslipp, har skipsoperatøren rett til å kreve tilbakebetalt kostnadene med oppfyllelsen av kvoteplikten fra denne.
+> § 6. (ansvar for kostnader fra kvoteplikt for maritim transportaktivitet)
 >
-> § 6.(ansvar for kostnader fra kvoteplikt for maritim transportaktivitet)
+> Dersom en annen enn skipsoperatøren etter kontrakt er gitt bestemmende innflytelse over beslutninger som påvirker skipets kvotepliktige utslipp, har skipsoperatøren rett til å kreve tilbakebetalt kostnadene med oppfyllelsen av kvoteplikten fra denne.
 >
-> § 7.(gebyr og omkostninger)Kongen kan gi forskrift om betaling av gebyr for opprettelse og drift av konto, vedtak om tildeling av kvoter, utstedelse av kvoter, kontrolltiltak som gjennomføres for å sikre at loven eller vedtak i medhold av loven blir fulgt, og for godkjenning av overvåkingsplaner. Slikt gebyr er tvangsgrunnlag for utlegg. Kongen kan gi forskrift om at omkostninger i forbindelse med klimakvotemyndighetens kontroll med utslippsrapport og rapport med tildelingsdata skal dekkes av operatøren.
+> § 7. (gebyr og omkostninger)
 >
-> § 7.(gebyr og omkostninger)
+> Kongen kan gi forskrift om betaling av gebyr for opprettelse og drift av konto, vedtak om tildeling av kvoter, utstedelse av kvoter, kontrolltiltak som gjennomføres for å sikre at loven eller vedtak i medhold av loven blir fulgt, og for godkjenning av overvåkingsplaner. Slikt gebyr er tvangsgrunnlag for utlegg. Kongen kan gi forskrift om at omkostninger i forbindelse med klimakvotemyndighetens kontroll med utslippsrapport og rapport med tildelingsdata skal dekkes av operatøren.
 >
-> § 8.(meldeplikt)Kongen kan gi forskrift om at operatører har plikt til å gi melding til klimakvotemyndigheten om planlagte endringer i drift, eierskap og aktivitet og informasjon om gjennomføring av slike endringer.
+> § 8. (meldeplikt)
 >
-> § 8.(meldeplikt)
+> Kongen kan gi forskrift om at operatører har plikt til å gi melding til klimakvotemyndigheten om planlagte endringer i drift, eierskap og aktivitet og informasjon om gjennomføring av slike endringer.
 >
 
 ### 2024-01-01 — lov/2023-12-15-91
@@ -59,25 +66,37 @@ refid: "lov/2004-12-17-99"
 
 > Kapittel 4 A. Tilsyn
 >
-> § 16.(klimakvotemyndighetens tilsynsoppgaver)Klimakvotemyndigheten skal føre tilsyn med at loven og vedtak gjort i medhold av loven blir fulgt, og gjennom kontroll og veiledning arbeide for å fremme formålet med loven.
+> § 16. (klimakvotemyndighetens tilsynsoppgaver)
 >
-> § 16.(klimakvotemyndighetens tilsynsoppgaver)
+> Klimakvotemyndigheten skal føre tilsyn med at loven og vedtak gjort i medhold av loven blir fulgt, og gjennom kontroll og veiledning arbeide for å fremme formålet med loven.
 >
-> § 16 a.(opplysninger og undersøkelser)Klimakvotemyndigheten kan gi forskrift eller pålegg om at operatører eller offentlige myndigheter uten hinder av taushetsplikt skal gi klimakvotemyndigheten eller andre offentlige organer nødvendige opplysninger for gjennomføring av gjøremål etter loven her. Klimakvotemyndigheten kan bestemme i hvilken form opplysningene skal gis.Når særlige grunner tilsier det, kan klimakvotemyndigheten gi forskrift eller pålegg om at opplysninger som nevnt i første ledd også skal gis av andre som utfører tjeneste eller arbeid innenfor de aktivitetene som omfattes av loven. Klimakvotemyndigheten kan pålegge operatører å sørge for eller bekoste undersøkelser eller lignende tiltak som med rimelighet kan kreves for å slå fast om krav til beregning eller måling, overvåking eller rapportering av utslipp eller tildelingsdata er overholdt.
+> § 16 a. (opplysninger og undersøkelser)
 >
-> § 16 a.(opplysninger og undersøkelser)
+> Klimakvotemyndigheten kan gi forskrift eller pålegg om at operatører eller offentlige myndigheter uten hinder av taushetsplikt skal gi klimakvotemyndigheten eller andre offentlige organer nødvendige opplysninger for gjennomføring av gjøremål etter loven her. Klimakvotemyndigheten kan bestemme i hvilken form opplysningene skal gis.
 >
-> § 16 b.(rett til gransking)Klimakvotemyndigheten skal ha uhindret adgang til eiendom der det foregår eller kan foregå aktiviteter som omfattes av loven her. Myndigheten skal også ha tilgang til operatørens forretningslokaler når det er nødvendig for gjøremål etter loven her.Klimakvotemyndigheten kan foreta nødvendig prøvetaking av kilder til rapporteringspliktige utslipp og kontroll med blant annet måleinstrumenter og utstyr som er regulert i medhold av loven her.Klimakvotemyndigheten kan kreve å få lagt fram og granske dokumenter og annet materiale som kan ha betydning for myndighetens gjøremål etter loven her.Ved stedlig tilsyn skal klimakvotemyndigheten først ta kontakt med representanter for ledelsen i virksomheten som drifter aktiviteten. Dersom noen andre har ansvaret for å svare kvoter for denne aktiviteten, skal denne samtidig få varsel om tilsynet.Med mindre tungtveiende hensyn tilsier noe annet, skal klimakvotemyndigheten gi skriftlig rapport til virksomheten om resultatet av kontrollen.
+> Når særlige grunner tilsier det, kan klimakvotemyndigheten gi forskrift eller pålegg om at opplysninger som nevnt i første ledd også skal gis av andre som utfører tjeneste eller arbeid innenfor de aktivitetene som omfattes av loven. Klimakvotemyndigheten kan pålegge operatører å sørge for eller bekoste undersøkelser eller lignende tiltak som med rimelighet kan kreves for å slå fast om krav til beregning eller måling, overvåking eller rapportering av utslipp eller tildelingsdata er overholdt.
 >
-> § 16 b.(rett til gransking)
+> § 16 b. (rett til gransking)
 >
-> § 16 c.(bistands- og opplysningsplikt)Under klimakvotemyndighetens utøvelse av tilsynet skal den det føres tilsyn med, gi nødvendig bistand og opplysninger. Kongen kan gi forskrift om nærmere krav til bistands- og opplysningsplikten.Kongen kan gi forskrift om at bistands- og opplysningsplikt som nevnt i første ledd også skal gjelde overfor utenlandske og internasjonale tilsynsmyndigheter, og om nærmere krav til slik bistands- og opplysningsplikt.
+> Klimakvotemyndigheten skal ha uhindret adgang til eiendom der det foregår eller kan foregå aktiviteter som omfattes av loven her. Myndigheten skal også ha tilgang til operatørens forretningslokaler når det er nødvendig for gjøremål etter loven her.
 >
-> § 16 c.(bistands- og opplysningsplikt)
+> Klimakvotemyndigheten kan foreta nødvendig prøvetaking av kilder til rapporteringspliktige utslipp og kontroll med blant annet måleinstrumenter og utstyr som er regulert i medhold av loven her.
 >
-> § 16 d.(internkontroll)Klimakvotemyndigheten kan gi forskrift om internkontroll og internkontrollsystemer for å sikre at krav fastsatt i eller i medhold av loven her overholdes.
+> Klimakvotemyndigheten kan kreve å få lagt fram og granske dokumenter og annet materiale som kan ha betydning for myndighetens gjøremål etter loven her.
 >
-> § 16 d.(internkontroll)
+> Ved stedlig tilsyn skal klimakvotemyndigheten først ta kontakt med representanter for ledelsen i virksomheten som drifter aktiviteten. Dersom noen andre har ansvaret for å svare kvoter for denne aktiviteten, skal denne samtidig få varsel om tilsynet.
+>
+> Med mindre tungtveiende hensyn tilsier noe annet, skal klimakvotemyndigheten gi skriftlig rapport til virksomheten om resultatet av kontrollen.
+>
+> § 16 c. (bistands- og opplysningsplikt)
+>
+> Under klimakvotemyndighetens utøvelse av tilsynet skal den det føres tilsyn med, gi nødvendig bistand og opplysninger. Kongen kan gi forskrift om nærmere krav til bistands- og opplysningsplikten.
+>
+> Kongen kan gi forskrift om at bistands- og opplysningsplikt som nevnt i første ledd også skal gjelde overfor utenlandske og internasjonale tilsynsmyndigheter, og om nærmere krav til slik bistands- og opplysningsplikt.
+>
+> § 16 d. (internkontroll)
+>
+> Klimakvotemyndigheten kan gi forskrift om internkontroll og internkontrollsystemer for å sikre at krav fastsatt i eller i medhold av loven her overholdes.
 >
 
 ### 2024-01-01 — lov/2023-12-15-91
@@ -171,9 +190,9 @@ refid: "lov/2004-12-17-99"
 
 *§ 10 skal lyde:*
 
-> § 10.(tildeling av kvoter vederlagsfritt)Kongen kan gi forskrift om tildeling av vederlagsfrie kvoter, herunder bestemmelser om omgjøring av vedtak om tildeling på bakgrunn av våre folkerettslige forpliktelser eller på bakgrunn av endringer i aktivitetsnivå eller drift som har innvirkning på grunnlaget for tildelingen.
+> § 10. (tildeling av kvoter vederlagsfritt)
 >
-> § 10.(tildeling av kvoter vederlagsfritt)
+> Kongen kan gi forskrift om tildeling av vederlagsfrie kvoter, herunder bestemmelser om omgjøring av vedtak om tildeling på bakgrunn av våre folkerettslige forpliktelser eller på bakgrunn av endringer i aktivitetsnivå eller drift som har innvirkning på grunnlaget for tildelingen.
 >
 
 ## § 11
@@ -318,18 +337,22 @@ refid: "lov/2004-12-17-99"
 
 *§ 14 skal lyde:*
 
-> § 14.(overvåking og utslippsrapportering)Operatøren skal hvert år innen en frist fastsatt av klimakvotemyndigheten rapportere foregående års utslipp av klimagasser til klimakvotemyndigheten.Kongen kan gi forskrift om eller treffe enkeltvedtak om overvåking og rapportering, blant annet om hva som skal rapporteres, og hvordan utslippene skal beregnes eller måles.
+> § 14. (overvåking og utslippsrapportering)
 >
-> § 14.(overvåking og utslippsrapportering)
+> Operatøren skal hvert år innen en frist fastsatt av klimakvotemyndigheten rapportere foregående års utslipp av klimagasser til klimakvotemyndigheten.
+>
+> Kongen kan gi forskrift om eller treffe enkeltvedtak om overvåking og rapportering, blant annet om hva som skal rapporteres, og hvordan utslippene skal beregnes eller måles.
 >
 
 ### 2025-06-20 — lov/2025-06-20-91
 
 *§ 14 skal lyde:*
 
-> § 14.(overvåking og rapportering)Operatøren skal hvert år innen en frist fastsatt av klimakvotemyndigheten rapportere foregående års utslipp til klimakvotemyndigheten.Kongen kan gi forskrift eller treffe enkeltvedtak om overvåking og rapportering, blant annet om hva som skal rapporteres, hvordan utslippene skal beregnes eller måles og om overvåking og rapportering av effektene på klimaet fra utslipp av gasser og andre partikler som kan påvirke klimaet.
+> § 14. (overvåking og rapportering)
 >
-> § 14.(overvåking og rapportering)
+> Operatøren skal hvert år innen en frist fastsatt av klimakvotemyndigheten rapportere foregående års utslipp til klimakvotemyndigheten.
+>
+> Kongen kan gi forskrift eller treffe enkeltvedtak om overvåking og rapportering, blant annet om hva som skal rapporteres, hvordan utslippene skal beregnes eller måles og om overvåking og rapportering av effektene på klimaet fra utslipp av gasser og andre partikler som kan påvirke klimaet.
 >
 
 ## § 15
@@ -349,9 +372,11 @@ refid: "lov/2004-12-17-99"
 
 *§ 15 skal lyde:*
 
-> § 15.(klimakvotemyndighetens kontroll av utslippsrapporter)Klimakvotemyndigheten skal kontrollere rapportering av klimagassutslipp etter § 14. Kongen kan gi forskrift om klimakvotemyndighetens kontroll og saksbehandling av utslippsrapportene.Kongen kan gi forskrift eller treffe enkeltvedtak om at operatørens utslippsrapportering skal verifiseres av en uavhengig tredjepart før innlevering. Kongen kan gi forskrift om krav til og akkreditering av verifikasjonsinstans, herunder om utarbeidelsen og innholdet av verifikasjonserklæringer.
+> § 15. (klimakvotemyndighetens kontroll av utslippsrapporter)
 >
-> § 15.(klimakvotemyndighetens kontroll av utslippsrapporter)
+> Klimakvotemyndigheten skal kontrollere rapportering av klimagassutslipp etter § 14. Kongen kan gi forskrift om klimakvotemyndighetens kontroll og saksbehandling av utslippsrapportene.
+>
+> Kongen kan gi forskrift eller treffe enkeltvedtak om at operatørens utslippsrapportering skal verifiseres av en uavhengig tredjepart før innlevering. Kongen kan gi forskrift om krav til og akkreditering av verifikasjonsinstans, herunder om utarbeidelsen og innholdet av verifikasjonserklæringer.
 >
 
 ### 2025-06-20 — lov/2025-06-20-91
@@ -422,18 +447,18 @@ refid: "lov/2004-12-17-99"
 
 *§ 17 skal lyde:*
 
-> § 17.(suspensjon av retten til å overføre kvoter)Dersom en operatør ikke innen 1. april det enkelte år har rapportert sine utslipp i henhold til bestemmelsene gitt i eller i medhold av § 14, skal klimakvotemyndigheten suspendere vedkommende fra retten til å overføre kvoter i kvoteregisteret fram til tilfredsstillende rapportering foreligger.
+> § 17. (suspensjon av retten til å overføre kvoter)
 >
-> § 17.(suspensjon av retten til å overføre kvoter)
+> Dersom en operatør ikke innen 1. april det enkelte år har rapportert sine utslipp i henhold til bestemmelsene gitt i eller i medhold av § 14, skal klimakvotemyndigheten suspendere vedkommende fra retten til å overføre kvoter i kvoteregisteret fram til tilfredsstillende rapportering foreligger.
 >
 
 ### 2025-06-20 — lov/2025-06-20-91
 
 *§ 17 skal lyde:*
 
-> § 17.(suspensjon av retten til å overføre kvoter)Dersom en anleggs-, luftfartøys- eller skipsoperatør ikke innen 31. mars, eller en brenselsoperatør ikke innen 30. april, det enkelte år har rapportert sine utslipp i henhold til bestemmelsene gitt i eller i medhold av § 14, skal klimakvotemyndigheten suspendere vedkommende fra retten til å overføre kvoter i klimakvoteregisteret fram til tilfredsstillende rapportering foreligger.
+> § 17. (suspensjon av retten til å overføre kvoter)
 >
-> § 17.(suspensjon av retten til å overføre kvoter)
+> Dersom en anleggs-, luftfartøys- eller skipsoperatør ikke innen 31. mars, eller en brenselsoperatør ikke innen 30. april, det enkelte år har rapportert sine utslipp i henhold til bestemmelsene gitt i eller i medhold av § 14, skal klimakvotemyndigheten suspendere vedkommende fra retten til å overføre kvoter i klimakvoteregisteret fram til tilfredsstillende rapportering foreligger.
 >
 
 ## § 17 a
@@ -451,9 +476,9 @@ refid: "lov/2004-12-17-99"
 
 *Ny § 17 a skal lyde:*
 
-> § 17 a.(pålegg om retting)Dersom en operatør handler i strid med bestemmelser gitt i eller i medhold av loven her eller vedtak fattet med hjemmel i loven, kan klimakvotemyndigheten pålegge operatøren å rette forholdet innen en bestemt frist.
+> § 17 a. (pålegg om retting)
 >
-> § 17 a.(pålegg om retting)
+> Dersom en operatør handler i strid med bestemmelser gitt i eller i medhold av loven her eller vedtak fattet med hjemmel i loven, kan klimakvotemyndigheten pålegge operatøren å rette forholdet innen en bestemt frist.
 >
 
 ## § 17a
@@ -490,9 +515,11 @@ refid: "lov/2004-12-17-99"
 
 *§ 18 skal lyde:*
 
-> § 18.(tvangsmulkt)For å sikre at bestemmelsene i loven her eller vedtak i medhold av loven blir gjennomført, kan klimakvotemyndigheten fatte vedtak om tvangsmulkt til staten. Tvangsmulkten begynner å løpe dersom fristen som klimakvotemyndigheten har fastsatt for å rette forholdet, oversittes. Det kan fastsettes at tvangsmulkten løper så lenge det ulovlige forholdet varer, eller at den forfaller ved hver overtredelse.Tvangsmulkten skal ilegges operatøren.
+> § 18. (tvangsmulkt)
 >
-> § 18.(tvangsmulkt)
+> For å sikre at bestemmelsene i loven her eller vedtak i medhold av loven blir gjennomført, kan klimakvotemyndigheten fatte vedtak om tvangsmulkt til staten. Tvangsmulkten begynner å løpe dersom fristen som klimakvotemyndigheten har fastsatt for å rette forholdet, oversittes. Det kan fastsettes at tvangsmulkten løper så lenge det ulovlige forholdet varer, eller at den forfaller ved hver overtredelse.
+>
+> Tvangsmulkten skal ilegges operatøren.
 >
 
 ## § 19
@@ -574,30 +601,12 @@ refid: "lov/2004-12-17-99"
 >
 > Loven gjelder også for følgende aktiviteter:luftfartsaktiviteter innen EØS-områdetluftfartsaktiviteter til og fra EØS-områdetøvrige internasjonale luftfartsaktivitetermaritim transportaktivitet innen EØS-områdetmaritim transportaktivitet til og fra EØS-området.
 >
-> luftfartsaktiviteter innen EØS-området
->
-> luftfartsaktiviteter til og fra EØS-området
->
-> øvrige internasjonale luftfartsaktiviteter
->
-> maritim transportaktivitet innen EØS-området
->
-> maritim transportaktivitet til og fra EØS-området.
->
 
 ### 2026-06-19 — lov/2026-06-19-54
 
 *§ 2 annet ledd skal lyde:*
 
 > Loven gjelder også for følgende aktiviteter:luftfartsaktiviteter innenfor og til og fra EØS-områdetøvrige internasjonale luftfartsaktivitetermaritim transportaktivitet innenfor og til og fra EØS-områdettransport av klimagasser innenfor og til og fra EØS-området
->
-> luftfartsaktiviteter innenfor og til og fra EØS-området
->
-> øvrige internasjonale luftfartsaktiviteter
->
-> maritim transportaktivitet innenfor og til og fra EØS-området
->
-> transport av klimagasser innenfor og til og fra EØS-området
 >
 
 ## § 2 a
@@ -606,18 +615,32 @@ refid: "lov/2004-12-17-99"
 
 *Ny § 2 a skal lyde:*
 
-> § 2 a.(definisjoner)Med anleggsoperatør menes den som drifter eller kontrollerer et anlegg med aktiviteter som nevnt i forskrift gitt i medhold av § 3, eller den som etter norsk rett har avgjørende økonomisk innflytelse på den tekniske driften av anlegget.Med luftfartøyoperatør menes den som drifter et luftfartøy hvor det utføres luftfartsaktiviteter som nevnt i forskrift gitt i medhold av §§ 3 eller 3 a, eller eieren av luftfartøyet hvis den som drifter fartøyet, er ukjent eller ikke identifisert av eieren.Med skipsoperatør menes eier av skip med aktivitet som nevnt i forskrift gitt i medhold av §§ 3 eller 3 a, eller enhver annen organisasjon eller person som har overtatt ansvaret for den tekniske driften av skipet fra eieren, og som er opplyst å være driftsansvarlig i skipets sikkerhetsstyringssertifikat, jf. skipssikkerhetsloven § 7 tredje ledd bokstav b.Med operatør menes anleggsoperatør, luftfartøyoperatør og skipsoperatør.
+> § 2 a. (definisjoner)
 >
-> § 2 a.(definisjoner)
+> Med anleggsoperatør menes den som drifter eller kontrollerer et anlegg med aktiviteter som nevnt i forskrift gitt i medhold av § 3, eller den som etter norsk rett har avgjørende økonomisk innflytelse på den tekniske driften av anlegget.
+>
+> Med luftfartøyoperatør menes den som drifter et luftfartøy hvor det utføres luftfartsaktiviteter som nevnt i forskrift gitt i medhold av §§ 3 eller 3 a, eller eieren av luftfartøyet hvis den som drifter fartøyet, er ukjent eller ikke identifisert av eieren.
+>
+> Med skipsoperatør menes eier av skip med aktivitet som nevnt i forskrift gitt i medhold av §§ 3 eller 3 a, eller enhver annen organisasjon eller person som har overtatt ansvaret for den tekniske driften av skipet fra eieren, og som er opplyst å være driftsansvarlig i skipets sikkerhetsstyringssertifikat, jf. skipssikkerhetsloven § 7 tredje ledd bokstav b.
+>
+> Med operatør menes anleggsoperatør, luftfartøyoperatør og skipsoperatør.
 >
 
 ### 2025-06-20 — lov/2025-06-20-91
 
 *§ 2 a skal lyde:*
 
-> § 2 a.(definisjoner)Med anleggsoperatør menes den som drifter eller kontrollerer et anlegg med aktiviteter som omfattes av § 3, eller den som etter norsk rett har avgjørende økonomisk innflytelse på den tekniske driften av anlegget.Med luftfartøysoperatør menes den som drifter et luftfartøy hvor det utføres luftfartsaktiviteter som omfattes av §§ 3 eller 3 a, eller eieren av luftfartøyet hvis den som drifter fartøyet, er ukjent eller ikke identifisert av eieren.Med skipsoperatør menes eier av skip med aktivitet som omfattes av §§ 3 eller 3 a, eller enhver annen organisasjon eller person som har overtatt ansvaret for den tekniske driften av skipet fra eieren, og som er opplyst å være driftsansvarlig i skipets sikkerhetsstyringssertifikat, jf. skipssikkerhetsloven § 7 tredje ledd bokstav b.Med brenselsoperatør menes enhver fysisk eller juridisk person som utfører aktiviteten tilgjengeliggjøring av brensel for forbruk som omfattes av § 3.Med operatør menes anleggsoperatør, luftfartøysoperatør, skipsoperatør og brenselsoperatør.
+> § 2 a. (definisjoner)
 >
-> § 2 a.(definisjoner)
+> Med anleggsoperatør menes den som drifter eller kontrollerer et anlegg med aktiviteter som omfattes av § 3, eller den som etter norsk rett har avgjørende økonomisk innflytelse på den tekniske driften av anlegget.
+>
+> Med luftfartøysoperatør menes den som drifter et luftfartøy hvor det utføres luftfartsaktiviteter som omfattes av §§ 3 eller 3 a, eller eieren av luftfartøyet hvis den som drifter fartøyet, er ukjent eller ikke identifisert av eieren.
+>
+> Med skipsoperatør menes eier av skip med aktivitet som omfattes av §§ 3 eller 3 a, eller enhver annen organisasjon eller person som har overtatt ansvaret for den tekniske driften av skipet fra eieren, og som er opplyst å være driftsansvarlig i skipets sikkerhetsstyringssertifikat, jf. skipssikkerhetsloven § 7 tredje ledd bokstav b.
+>
+> Med brenselsoperatør menes enhver fysisk eller juridisk person som utfører aktiviteten tilgjengeliggjøring av brensel for forbruk som omfattes av § 3.
+>
+> Med operatør menes anleggsoperatør, luftfartøysoperatør, skipsoperatør og brenselsoperatør.
 >
 
 ## § 20
@@ -626,9 +649,13 @@ refid: "lov/2004-12-17-99"
 
 *§ 20 skal lyde:*
 
-> § 20.(tvangstiltak overfor maritim transportaktivitet)Når en skipsoperatør i de foregående to rapporteringsårene ikke har overholdt plikten til å overføre kvoter til oppgjør etter § 12 eller til å rapportere etter § 14, kan klimakvotemyndigheten ved enkeltvedtakbortvise utenlandske skip under skipsoperatørens ansvar fra norsk havntilbakeholde norske skip under skiperoperatørens ansvar i norsk havnnekte utenlandske skip under skipsoperatørens ansvar adgang til norsk havn.Vedtak etter første ledd gjelder fram til skipsoperatøren har overholdt sine forpliktelser etter §§ 12 og 14.Kongen kan gi forskrift om tvangstiltak overfor maritim transportaktivitet.
+> § 20. (tvangstiltak overfor maritim transportaktivitet)
 >
-> § 20.(tvangstiltak overfor maritim transportaktivitet)
+> Når en skipsoperatør i de foregående to rapporteringsårene ikke har overholdt plikten til å overføre kvoter til oppgjør etter § 12 eller til å rapportere etter § 14, kan klimakvotemyndigheten ved enkeltvedtakbortvise utenlandske skip under skipsoperatørens ansvar fra norsk havntilbakeholde norske skip under skiperoperatørens ansvar i norsk havnnekte utenlandske skip under skipsoperatørens ansvar adgang til norsk havn.
+>
+> Vedtak etter første ledd gjelder fram til skipsoperatøren har overholdt sine forpliktelser etter §§ 12 og 14.
+>
+> Kongen kan gi forskrift om tvangstiltak overfor maritim transportaktivitet.
 >
 
 ## § 21
@@ -677,9 +704,9 @@ refid: "lov/2004-12-17-99"
 
 *Ny § 21 a i kapittel 6 skal lyde:*
 
-> § 21 a.(klimakvotemyndigheten)Kongen bestemmer hvem som er myndighet etter loven her. Departementet kan bestemme i enkelttilfeller og gi forskrift om at private rettssubjekter, utenlandske og internasjonale myndigheter kan utøve tilsynsmyndighet etter loven.
+> § 21 a. (klimakvotemyndigheten)
 >
-> § 21 a.(klimakvotemyndigheten)
+> Kongen bestemmer hvem som er myndighet etter loven her. Departementet kan bestemme i enkelttilfeller og gi forskrift om at private rettssubjekter, utenlandske og internasjonale myndigheter kan utøve tilsynsmyndighet etter loven.
 >
 
 ## § 22
@@ -762,9 +789,13 @@ refid: "lov/2004-12-17-99"
 
 *§ 3 skal lyde:*
 
-> § 3.(aktiviteter og utslipp som omfattes av EUs klimakvotesystem)Loven gjelder aktiviteter i anlegg, luftfart og maritim transport som er omfattet av EUs klimakvotesystem. Kongen kan gi forskrift om hvilke aktiviteter, utslipp av klimagasser og aktører som helt eller delvis er omfattet av loven.Kongen kan gi forskrift omat utslipp av klimagasser fra produksjonsenheter med kapasitet under en fastsatt grense skal være unntatt fra lovenat flere produksjonsenheter som ligger på samme sted og står i nær driftsmessig sammenheng, eller som ikke ligger på samme sted, men som står i nær driftsmessig og fysisk sammenheng, skal vurderes under ett ved beregningen av kapasitetenat visse transportaktiviteter, som transportaktiviteter som ikke overstiger visse aktivitets- eller utslippsgrenser, skal være unntatt fra loven.Kongen kan gi forskrift om hvilke luftfartøyoperatører og skipsoperatører som skal forholde seg til norske administrerende myndigheter.
+> § 3. (aktiviteter og utslipp som omfattes av EUs klimakvotesystem)
 >
-> § 3.(aktiviteter og utslipp som omfattes av EUs klimakvotesystem)
+> Loven gjelder aktiviteter i anlegg, luftfart og maritim transport som er omfattet av EUs klimakvotesystem. Kongen kan gi forskrift om hvilke aktiviteter, utslipp av klimagasser og aktører som helt eller delvis er omfattet av loven.
+>
+> Kongen kan gi forskrift omat utslipp av klimagasser fra produksjonsenheter med kapasitet under en fastsatt grense skal være unntatt fra lovenat flere produksjonsenheter som ligger på samme sted og står i nær driftsmessig sammenheng, eller som ikke ligger på samme sted, men som står i nær driftsmessig og fysisk sammenheng, skal vurderes under ett ved beregningen av kapasitetenat visse transportaktiviteter, som transportaktiviteter som ikke overstiger visse aktivitets- eller utslippsgrenser, skal være unntatt fra loven.
+>
+> Kongen kan gi forskrift om hvilke luftfartøyoperatører og skipsoperatører som skal forholde seg til norske administrerende myndigheter.
 >
 
 ### 2025-06-20 — lov/2025-06-20-91
@@ -772,10 +803,6 @@ refid: "lov/2004-12-17-99"
 *§ 3 første og andre ledd skal lyde:*
 
 > Loven gjelder følgende aktiviteter som er omfattet av EUs klimakvotesystem:aktiviteter i anlegg, luftfart og maritim transporttilgjengeliggjøring av brensel for forbruk.
->
-> aktiviteter i anlegg, luftfart og maritim transport
->
-> tilgjengeliggjøring av brensel for forbruk.
 >
 > Kongen kan gi forskrift om hvilke aktiviteter, aktører og utslipp av gasser og partikler som kan påvirke klimaet, som helt eller delvis er omfattet av loven.
 >
@@ -817,9 +844,17 @@ refid: "lov/2004-12-17-99"
 
 *§ 3 a skal lyde:*
 
-> § 3 a.(utslipp fra luftfartsaktiviteter og maritim transportaktivitet som ikke er omfattet av EUs klimakvotesystem)Kongen kan gi forskrift om overvåking og rapportering av utslipp av klimagasser fra internasjonale luftfartsaktiviteter som ikke er omfattet av kvoteplikt etter § 4, blant annet om klimakvotemyndighetens saksbehandling og kontroll, samt krav til tredjepartsverifikasjon.Kongen kan gi forskrift om kompensasjon for økte utslipp av klimagasser fra internasjonale luftfartsaktiviteter som ikke er omfattet av kvoteplikt etter § 4.Kongen kan gi forskrift om overvåking og rapportering av utslipp av klimagasser fra maritime transportaktiviteter som ikke er omfattet av kvoteplikt etter § 4, blant annet om godkjenning av overvåkingsplan, saksbehandling og kontroll med utslippsrapport, krav til tredjepartsverifikasjon og om hvilke skipsoperatører som skal forholde seg til norske administrerende myndigheter.For aktiviteter som omfattes av denne paragrafen, gjelder i tillegg bestemmelsene i kapittel 4 A og § 18.Kongen kan gi forskrift om gebyrer for saksbehandling og kontroll utført av klimakvotemyndigheten etter forskrifter gitt i medhold av denne paragrafen.
+> § 3 a. (utslipp fra luftfartsaktiviteter og maritim transportaktivitet som ikke er omfattet av EUs klimakvotesystem)
 >
-> § 3 a.(utslipp fra luftfartsaktiviteter og maritim transportaktivitet som ikke er omfattet av EUs klimakvotesystem)
+> Kongen kan gi forskrift om overvåking og rapportering av utslipp av klimagasser fra internasjonale luftfartsaktiviteter som ikke er omfattet av kvoteplikt etter § 4, blant annet om klimakvotemyndighetens saksbehandling og kontroll, samt krav til tredjepartsverifikasjon.
+>
+> Kongen kan gi forskrift om kompensasjon for økte utslipp av klimagasser fra internasjonale luftfartsaktiviteter som ikke er omfattet av kvoteplikt etter § 4.
+>
+> Kongen kan gi forskrift om overvåking og rapportering av utslipp av klimagasser fra maritime transportaktiviteter som ikke er omfattet av kvoteplikt etter § 4, blant annet om godkjenning av overvåkingsplan, saksbehandling og kontroll med utslippsrapport, krav til tredjepartsverifikasjon og om hvilke skipsoperatører som skal forholde seg til norske administrerende myndigheter.
+>
+> For aktiviteter som omfattes av denne paragrafen, gjelder i tillegg bestemmelsene i kapittel 4 A og § 18.
+>
+> Kongen kan gi forskrift om gebyrer for saksbehandling og kontroll utført av klimakvotemyndigheten etter forskrifter gitt i medhold av denne paragrafen.
 >
 
 ## § 4
@@ -866,9 +901,9 @@ refid: "lov/2004-12-17-99"
 
 *§ 4 skal lyde:*
 
-> § 4.(kvoteplikt)Operatører med ansvar for kvotepliktige utslipp fra aktiviteter som nevnt i forskrift gitt i medhold av § 3, må innlevere kvoter tilsvarende sine kvotepliktige utslipp i samsvar med bestemmelsene i § 12. Antallet kvoter som skal innleveres, skal tilsvare utslippstallet for det foregående rapporteringsåret. Kongen kan gi forskrift om omfanget av kvoteplikten.
+> § 4. (kvoteplikt)
 >
-> § 4.(kvoteplikt)
+> Operatører med ansvar for kvotepliktige utslipp fra aktiviteter som nevnt i forskrift gitt i medhold av § 3, må innlevere kvoter tilsvarende sine kvotepliktige utslipp i samsvar med bestemmelsene i § 12. Antallet kvoter som skal innleveres, skal tilsvare utslippstallet for det foregående rapporteringsåret. Kongen kan gi forskrift om omfanget av kvoteplikten.
 >
 
 ## § 4 a
@@ -877,18 +912,18 @@ refid: "lov/2004-12-17-99"
 
 *Ny § 4 a skal lyde:*
 
-> § 4 a.(tillatelse og krav til godkjent overvåkingsplan)For anlegg som omfattes av forurensningsloven, kreves tillatelse etter forurensningsloven § 11. For luftfartøyoperatører og skipsoperatører som har kvotepliktige utslipp, kreves en plan for overvåking av utslipps- og aktivitetsdata som er godkjent av klimakvotemyndigheten.
+> § 4 a. (tillatelse og krav til godkjent overvåkingsplan)
 >
-> § 4 a.(tillatelse og krav til godkjent overvåkingsplan)
+> For anlegg som omfattes av forurensningsloven, kreves tillatelse etter forurensningsloven § 11. For luftfartøyoperatører og skipsoperatører som har kvotepliktige utslipp, kreves en plan for overvåking av utslipps- og aktivitetsdata som er godkjent av klimakvotemyndigheten.
 >
 
 ### 2025-06-20 — lov/2025-06-20-91
 
 *§ 4 a skal lyde:*
 
-> § 4 a.(tillatelse og krav til godkjent overvåkingsplan)For anlegg som omfattes av forurensningsloven, og for brenselsoperatører, kreves tillatelse etter forurensningsloven § 11. For luftfartøysoperatører og skipsoperatører som har kvotepliktige utslipp, kreves en plan for overvåking av utslipps- og aktivitetsdata som er godkjent av klimakvotemyndigheten.
+> § 4 a. (tillatelse og krav til godkjent overvåkingsplan)
 >
-> § 4 a.(tillatelse og krav til godkjent overvåkingsplan)
+> For anlegg som omfattes av forurensningsloven, og for brenselsoperatører, kreves tillatelse etter forurensningsloven § 11. For luftfartøysoperatører og skipsoperatører som har kvotepliktige utslipp, kreves en plan for overvåking av utslipps- og aktivitetsdata som er godkjent av klimakvotemyndigheten.
 >
 
 ### 2026-06-19 — lov/2026-06-19-54

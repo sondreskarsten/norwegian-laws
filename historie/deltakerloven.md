@@ -15,6 +15,20 @@ refid: "lov/1999-03-26-15"
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
 
+### 2015-07-01 — forskrift/2015-06-19-692
+
+*Loven trer i kraft fra 1. juli 2015.*
+
+> Loven trer i kraft fra 1. juli 2015.
+>
+
+### 2019-12-13 — lov/2019-12-13-79
+
+*I lov 26. mars 1999 nr. 15 om retten til å delta i fiske og fangst skal § 7 tredje ledd annet punktum lyde:*
+
+> Selskaper og sammenslutninger som er omfattet av finansforetaksloven § 1-3, og som har rett til å drive finansieringsvirksomhet i Norge, kan i medhold av slike forskrifter bli tildelt midlertidig ervervstillatelse ved tvangssalg og konkurs uten hensyn til § 5.
+>
+
 ### 2023-04-21 — lov/2023-04-21-6
 
 *I lov 26. mars 1999 nr. 15 om retten til å delta i fiske og fangst (deltakerloven) skal ny § 30 a lyde:*

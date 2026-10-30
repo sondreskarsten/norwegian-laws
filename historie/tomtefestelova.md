@@ -63,6 +63,35 @@ refid: "lov/1996-12-20-106"
 
 *Nåværende § 42 fjerde ledd blir nytt femte ledd.*
 
+### 2005-06-17 — lov/2005-06-17-84
+
+*I lov 20. desember 1996 nr. 106 om tomtefeste skal § 43 lyde:*
+
+> Skjønn
+>
+> Skjønn etter kapittel VII vert haldne som rettslege skjønn. Skjønnet kan styrast av lensmannen, namsfuten eller politistasjonssjef med sivile rettspleieoppgåver dersom partane er samde om det.
+>
+> Skjønn etter §§ 15 og 37 skal styrast av lensmannen, namsfuten eller politistasjonssjef med sivile rettspleieoppgåver. Det skal vere to skjønnsmenn både ved skjønn og overskjønn. Om dekking av sakskostnader gjeld lov 1. juni 1917 nr. 1 om skjønn og ekspropriasjonssaker § 43.I nr. 41 skal endringen i lov 6. juni 2003 nr. 39 om burettslag § 4-18 annet ledd annet punktum lyde:
+>
+> Skjønet skal styrast av lensmannen, namsfuten eller politistasjonssjef med sivile rettspleieoppgåver.I nr. 42 skal endringen i lov 4. juli 2003 nr. 83 om elektronisk kommunikasjon § 12-3 tredje ledd fjerde punktum lyde:
+>
+> Skjønnet styres av lensmannen, namsfogden eller politistasjonssjef med sivile rettspleieoppgaver.
+>
+
+### 2006-07-01 — forskrift/2006-06-30-727
+
+*Lov 30. juni 2006 nr. 52 om endringar i lov 20. desember 1996 nr. 106 om tomtefeste mv. gjeld frå 1. juli 2006.*
+
+> Lov 30. juni 2006 nr. 52 om endringar i lov 20. desember 1996 nr. 106 om tomtefeste mv. gjeld frå 1. juli 2006.
+>
+
+### 2009-06-19 — lov/2009-06-19-76
+
+*I lov 20. desember 1996 nr. 106 om tomtefeste skal § 37 første ledd lyde:*
+
+> Ved innløysing av tomt som er festa bort til bustadhus eller fritidshus, skal innløysingssummen vere 25 gonger årleg festeavgift etter regulering på innløysingstida, om ikkje ein mindre innløysingssum er avtalt. Om ikkje anna er avtalt, kan bortfestaren likevel krevje at innløysingssummen for andre tomter enn dei som er festa bort på uavgrensa tid utan oppseiingsrett for bortfestaren, skal vere 40 prosent av tomteverdet på innløysingstida med frådrag for verdauke som festaren har tilført tomta med eigne tiltak eller tilskott til tiltak som er gjort av andre. Tomteverdet må ikkje setjast høgare enn det tomta kan seljast for om det berre er tillate å setje opp det eller dei husa som er på tomta.
+>
+
 ### 2017-05-11 — lov/2017-05-11-26
 
 *Nåværende § 53 annet og tredje ledd blir første og annet ledd.*

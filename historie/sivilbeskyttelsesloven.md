@@ -7,6 +7,13 @@ refid: "lov/2010-06-25-45"
 
 ## (annet)
 
+### 2013-01-01 — forskrift/2012-12-14-1271
+
+*Loven gjelder fra 1. januar 2013.*
+
+> Loven gjelder fra 1. januar 2013.
+>
+
 ### 2021-04-16 — lov/2021-04-16-20
 
 *Overskriften i § 18 skal lyde:*
@@ -19,6 +26,13 @@ refid: "lov/2010-06-25-45"
 *Overskriften i § 19 skal lyde:*
 
 > § 19.Forskrifter om evakuering i krig eller når krig truer
+>
+
+### 2021-05-01 — forskrift/2021-04-16-1174
+
+*Endringsloven trer i kraft 1. mai 2021.*
+
+> Endringsloven trer i kraft 1. mai 2021.
 >
 
 ### 2025-06-20 — lov/2025-06-20-77
@@ -48,45 +62,71 @@ refid: "lov/2010-06-25-45"
 
 > Kapittel VII A. Sivil arbeidskraftberedskap
 >
-> § 28 a.Når fullmaktsbestemmelsene i dette kapittelet gjelderNår riket er i krig, krig truer eller rikets selvstendighet er i fare, kan Kongen i statsråd beslutte at §§ 28 c til 28 f får anvendelse for å understøtte forsvaret av landet, beskytte sivilbefolkningen eller ivareta samfunnets grunnleggende funksjonalitet.
+> § 28 a. Når fullmaktsbestemmelsene i dette kapittelet gjelder
 >
-> § 28 a.Når fullmaktsbestemmelsene i dette kapittelet gjelder
+> Når riket er i krig, krig truer eller rikets selvstendighet er i fare, kan Kongen i statsråd beslutte at §§ 28 c til 28 f får anvendelse for å understøtte forsvaret av landet, beskytte sivilbefolkningen eller ivareta samfunnets grunnleggende funksjonalitet.
 >
-> § 28 b.Grunnleggende krav til vedtak om sivil arbeidskraftberedskapForskrifter etter §§ 28 c til 28 f skal være nødvendige for å oppnå formål angitt i § 28 a, og de skal være forholdsmessige. De skal blant annet begrenses til de virksomhetene, bransjene, etatene og områdene der det trengs. Forskriftene skal meddeles Stortinget snarest mulig etter at de er vedtatt og kan tidligst tre i kraft 48 timer etter meddelelse, med mindre det er fare ved opphold. Forskriftene kan bare gjelde for inntil tre måneder om gangen.Nødvendighets- og forholdsmessighetskravet gjelder tilsvarende for enkeltvedtak fattet med hjemmel i forskrifter som nevnt i første ledd. Plikter som pålegges i enkeltvedtakene, faller bort når forskriften slutter å gjelde, med mindre noe annet er fastsatt i forskriften.Forskrifter etter §§ 28 c til 28 f skal forelegges partene i arbeidslivet for uttalelse før de vedtas, med mindre det er åpenbart unødvendig eller vil medføre en uforsvarlig forsinkelse.
+> § 28 b. Grunnleggende krav til vedtak om sivil arbeidskraftberedskap
 >
-> § 28 b.Grunnleggende krav til vedtak om sivil arbeidskraftberedskap
+> Forskrifter etter §§ 28 c til 28 f skal være nødvendige for å oppnå formål angitt i § 28 a, og de skal være forholdsmessige. De skal blant annet begrenses til de virksomhetene, bransjene, etatene og områdene der det trengs. Forskriftene skal meddeles Stortinget snarest mulig etter at de er vedtatt og kan tidligst tre i kraft 48 timer etter meddelelse, med mindre det er fare ved opphold. Forskriftene kan bare gjelde for inntil tre måneder om gangen.
 >
-> § 28 c.Regulering av adgangen til å etablere og avslutte arbeids- og tjenesteforholdKongen kan gi forskrift om adgangen til å etablere og avslutte arbeids- og tjenesteforhold, blant annet krav om tillatelse fra offentlige myndigheter. Gjeldende lover eller privat regulering av betydning for etablering og avslutning av arbeids- og tjenesteforhold, kan fravikes i den utstrekning det er påkrevd for gjennomføring av tiltak etter første punktum.
+> Nødvendighets- og forholdsmessighetskravet gjelder tilsvarende for enkeltvedtak fattet med hjemmel i forskrifter som nevnt i første ledd. Plikter som pålegges i enkeltvedtakene, faller bort når forskriften slutter å gjelde, med mindre noe annet er fastsatt i forskriften.
 >
-> § 28 c.Regulering av adgangen til å etablere og avslutte arbeids- og tjenesteforhold
+> Forskrifter etter §§ 28 c til 28 f skal forelegges partene i arbeidslivet for uttalelse før de vedtas, med mindre det er åpenbart unødvendig eller vil medføre en uforsvarlig forsinkelse.
 >
-> § 28 d.Regulering av arbeids- og tjenesteforholdKongen kan gi forskrift som utfyller, supplerer eller fraviker offentlig og privat regulering av arbeids- og tjenesteforhold. Forskriften kan blant annet fravike offentlig, kollektiv eller individuell regulering av arbeidstid, helse, miljø og sikkerhet og retten til ferie og permisjon og gi regler om stans av forestående eller pågående arbeidskamp. Forskriften kan også fastsette unntak fra kvalifikasjons- og sikkerhetskrav.Forskriften skal så langt som mulig ivareta arbeidsmiljøet og sikkerheten i virksomheten og sikre arbeidstakernes fysiske og psykiske helse og velferd.
+> § 28 c. Regulering av adgangen til å etablere og avslutte arbeids- og tjenesteforhold
 >
-> § 28 d.Regulering av arbeids- og tjenesteforhold
+> Kongen kan gi forskrift om adgangen til å etablere og avslutte arbeids- og tjenesteforhold, blant annet krav om tillatelse fra offentlige myndigheter. Gjeldende lover eller privat regulering av betydning for etablering og avslutning av arbeids- og tjenesteforhold, kan fravikes i den utstrekning det er påkrevd for gjennomføring av tiltak etter første punktum.
 >
-> § 28 e.Pålegg om arbeidspliktKongen kan gi forskrift om at myndige personer mellom 18 og 72 år pålegges å fortsette i eller etablere et arbeidsforhold (arbeidsplikt). Arbeidsplikt kan bare pålegges norske statsborgere og andre som har tilknytning til Norge. Stortingsrepresentanter og embetsdommere kan ikke pålegges arbeidsplikt. Det samme gjelder personer som er eller har vært statsborgere av et land Norge er i krig med.Forskriften skal inneholde nødvendige fritak fra og begrensninger i arbeidsplikten, herunder for gravide, personer med særlige omsorgsoppgaver og personer med nedsatt arbeidsevne som følge av egen helsesituasjon. Det samme gjelder nødvendige fritak og begrensninger som følge av annen lovpålagt tjenesteplikt. Forskriften kan inneholde bestemmelser om arbeidspliktens nærmere innhold og virkninger, blant annet om forholdet til ordinær arbeidsgiver og stilling. Gjeldende lover og privat regulering som er til hinder for den konkrete reguleringen av arbeidsplikten, kan fravikes i den utstrekning det er påkrevd.Personer som pålegges arbeidsplikt, skal så langt som mulig ha minst like gode vilkår som personer i ordinære arbeidsforhold i sammenlignbar stilling. Arbeidsplikten kan ikke omfatte oppgaver som etter folkeretten anses som direkte deltakelse i fiendtligheter.Kongen i statsråd kan bestemme at arbeidsplikt etter denne paragrafen går foran annen lovpålagt tjenesteplikt, med unntak av tjenesteplikt etter forsvarsloven.
+> § 28 d. Regulering av arbeids- og tjenesteforhold
 >
-> § 28 e.Pålegg om arbeidsplikt
+> Kongen kan gi forskrift som utfyller, supplerer eller fraviker offentlig og privat regulering av arbeids- og tjenesteforhold. Forskriften kan blant annet fravike offentlig, kollektiv eller individuell regulering av arbeidstid, helse, miljø og sikkerhet og retten til ferie og permisjon og gi regler om stans av forestående eller pågående arbeidskamp. Forskriften kan også fastsette unntak fra kvalifikasjons- og sikkerhetskrav.
 >
-> § 28 f.Saksbehandlingsregler og unntak fra forvaltningsloven og personopplysningslovenKongen kan gi forskrift om saksbehandlingsregler for vedtak som treffes med hjemmel i dette kapittelet, og om at forvaltningsloven og personopplysningsloven helt eller delvis ikke skal gjelde.
+> Forskriften skal så langt som mulig ivareta arbeidsmiljøet og sikkerheten i virksomheten og sikre arbeidstakernes fysiske og psykiske helse og velferd.
 >
-> § 28 f.Saksbehandlingsregler og unntak fra forvaltningsloven og personopplysningsloven
+> § 28 e. Pålegg om arbeidsplikt
 >
-> § 28 g.Forhåndsutpeking, øvelser og registreringFor å forberede pålegg om arbeidsplikt etter § 28 e kan Kongen gi forskrift om at personer på forhånd kan pekes ut til arbeidsplikt i stillinger som vil inngå i det sivile kriseledelsesapparatet, eller i andre stillinger som vil være av betydning for ivaretakelse av formålene nevnt i § 28 a.Forhåndsutpekte personer kan pålegges å delta på kortvarige kurs og øvelser. Forhåndsutpekte personer som vil inngå i det sivile kriseledelsesapparatet, kan pålegges å delta på kurs og øvelser av lengre varighet.For å gjennomføre forhåndsutpekingen, tilrettelegge for arbeidsplikt eller gjennomføre øvelser kan personer pålegges å melde seg til registrering ved personlig fremmøte, og ved behov å gjennomføre nødvendige prøver og undersøkelser, herunder helseundersøkelser.Kongen kan gi forskrift om gjennomføringen av forberedelser etter denne paragrafen, blant annet om hvem som kan forhåndsutpeke, om saksbehandlingen, om føring av oversikter over tilgjengelig arbeidskraft og forhåndsutpekt personell og om gjennomføring av øvelser og godtgjøring. I forskriften kan forhåndsutpekte personer pålegges begrensede plikter for å ivareta rollen som forhåndsutpekt, blant annet å møte opp på et bestemt sted ved krigsutbrudd.Forskrifter etter denne paragrafen skal forelegges partene i arbeidslivet etter reglene i forvaltningsloven § 37 annet til fjerde ledd.
+> Kongen kan gi forskrift om at myndige personer mellom 18 og 72 år pålegges å fortsette i eller etablere et arbeidsforhold (arbeidsplikt). Arbeidsplikt kan bare pålegges norske statsborgere og andre som har tilknytning til Norge. Stortingsrepresentanter og embetsdommere kan ikke pålegges arbeidsplikt. Det samme gjelder personer som er eller har vært statsborgere av et land Norge er i krig med.
 >
-> § 28 g.Forhåndsutpeking, øvelser og registrering
+> Forskriften skal inneholde nødvendige fritak fra og begrensninger i arbeidsplikten, herunder for gravide, personer med særlige omsorgsoppgaver og personer med nedsatt arbeidsevne som følge av egen helsesituasjon. Det samme gjelder nødvendige fritak og begrensninger som følge av annen lovpålagt tjenesteplikt. Forskriften kan inneholde bestemmelser om arbeidspliktens nærmere innhold og virkninger, blant annet om forholdet til ordinær arbeidsgiver og stilling. Gjeldende lover og privat regulering som er til hinder for den konkrete reguleringen av arbeidsplikten, kan fravikes i den utstrekning det er påkrevd.
 >
-> § 28 h.OpplysningspliktEnkeltpersoner, virksomheter og offentlige organer plikter uten hinder av taushetsplikt å gi opplysninger som er nødvendige for gjennomføringen av vedtak etter dette kapittelet. Dette gjelder ikke opplysninger som nevnt i straffeprosessloven § 119 første ledd og tvisteloven § 22-5 første ledd.
+> Personer som pålegges arbeidsplikt, skal så langt som mulig ha minst like gode vilkår som personer i ordinære arbeidsforhold i sammenlignbar stilling. Arbeidsplikten kan ikke omfatte oppgaver som etter folkeretten anses som direkte deltakelse i fiendtligheter.
 >
-> § 28 h.Opplysningsplikt
+> Kongen i statsråd kan bestemme at arbeidsplikt etter denne paragrafen går foran annen lovpålagt tjenesteplikt, med unntak av tjenesteplikt etter forsvarsloven.
 >
-> § 28 i.Behandling av personopplysningerFor å utføre oppgaver fastsatt i eller i medhold av dette kapittelet kan offentlige organer og private behandle personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10.Kongen kan gi forskrift om behandlingen, blant annet om formålet med behandlingen, behandlingsansvar, hvilke typer personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, automatiserte avgjørelser, adgangen til viderebehandling og utlevering, registerføring og tilgang til registre.
+> § 28 f. Saksbehandlingsregler og unntak fra forvaltningsloven og personopplysningsloven
 >
-> § 28 i.Behandling av personopplysninger
+> Kongen kan gi forskrift om saksbehandlingsregler for vedtak som treffes med hjemmel i dette kapittelet, og om at forvaltningsloven og personopplysningsloven helt eller delvis ikke skal gjelde.
 >
-> § 28 j.Erstatning og kompensasjonEnhver som lider vesentlig tap eller ulempe som følge av vedtak gitt i medhold av dette kapittelet, har så langt som mulig krav på rimelig erstatning og kompensasjon.Kongen kan gi forskrift om erstatning og kompensasjon etter første ledd, herunder at privat arbeidsgiver skal yte erstatning og kompensasjon.Den som på grunn av vedtak gitt i medhold av §§ 28 c til 28 e blir ute av stand til å oppfylle andre offentlige eller private forpliktelser, fritas for betalingsplikt som manglende oppfyllelse ellers ville ha medført. Kongen kan gi forskrift om slikt fritak.
+> § 28 g. Forhåndsutpeking, øvelser og registrering
 >
-> § 28 j.Erstatning og kompensasjon
+> For å forberede pålegg om arbeidsplikt etter § 28 e kan Kongen gi forskrift om at personer på forhånd kan pekes ut til arbeidsplikt i stillinger som vil inngå i det sivile kriseledelsesapparatet, eller i andre stillinger som vil være av betydning for ivaretakelse av formålene nevnt i § 28 a.
+>
+> Forhåndsutpekte personer kan pålegges å delta på kortvarige kurs og øvelser. Forhåndsutpekte personer som vil inngå i det sivile kriseledelsesapparatet, kan pålegges å delta på kurs og øvelser av lengre varighet.
+>
+> For å gjennomføre forhåndsutpekingen, tilrettelegge for arbeidsplikt eller gjennomføre øvelser kan personer pålegges å melde seg til registrering ved personlig fremmøte, og ved behov å gjennomføre nødvendige prøver og undersøkelser, herunder helseundersøkelser.
+>
+> Kongen kan gi forskrift om gjennomføringen av forberedelser etter denne paragrafen, blant annet om hvem som kan forhåndsutpeke, om saksbehandlingen, om føring av oversikter over tilgjengelig arbeidskraft og forhåndsutpekt personell og om gjennomføring av øvelser og godtgjøring. I forskriften kan forhåndsutpekte personer pålegges begrensede plikter for å ivareta rollen som forhåndsutpekt, blant annet å møte opp på et bestemt sted ved krigsutbrudd.
+>
+> Forskrifter etter denne paragrafen skal forelegges partene i arbeidslivet etter reglene i forvaltningsloven § 37 annet til fjerde ledd.
+>
+> § 28 h. Opplysningsplikt
+>
+> Enkeltpersoner, virksomheter og offentlige organer plikter uten hinder av taushetsplikt å gi opplysninger som er nødvendige for gjennomføringen av vedtak etter dette kapittelet. Dette gjelder ikke opplysninger som nevnt i straffeprosessloven § 119 første ledd og tvisteloven § 22-5 første ledd.
+>
+> § 28 i. Behandling av personopplysninger
+>
+> For å utføre oppgaver fastsatt i eller i medhold av dette kapittelet kan offentlige organer og private behandle personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10.
+>
+> Kongen kan gi forskrift om behandlingen, blant annet om formålet med behandlingen, behandlingsansvar, hvilke typer personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, automatiserte avgjørelser, adgangen til viderebehandling og utlevering, registerføring og tilgang til registre.
+>
+> § 28 j. Erstatning og kompensasjon
+>
+> Enhver som lider vesentlig tap eller ulempe som følge av vedtak gitt i medhold av dette kapittelet, har så langt som mulig krav på rimelig erstatning og kompensasjon.
+>
+> Kongen kan gi forskrift om erstatning og kompensasjon etter første ledd, herunder at privat arbeidsgiver skal yte erstatning og kompensasjon.
+>
+> Den som på grunn av vedtak gitt i medhold av §§ 28 c til 28 e blir ute av stand til å oppfylle andre offentlige eller private forpliktelser, fritas for betalingsplikt som manglende oppfyllelse ellers ville ha medført. Kongen kan gi forskrift om slikt fritak.
 >
 
 ### 2025-06-20 — lov/2025-06-20-77
@@ -94,6 +134,13 @@ refid: "lov/2010-06-25-45"
 *I § 37 skal nytt syvende ledd lyde:*
 
 > Med bot eller fengsel inntil 3 år straffes den som forsettlig eller uaktsomt overtrer bestemmelser som er gitt i eller i medhold av §§ 28 e, 28 g og 28 h. Overtredelser av bestemmelser gitt i medhold av §§ 28 c og 28 d kan straffes med foretaksstraff, jf. straffeloven § 27. Det kan i forskrift fastsettes lavere strafferammer eller at overtredelse bare er straffbar på nærmere vilkår.
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1140
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ## § 1
@@ -109,9 +156,9 @@ refid: "lov/2010-06-25-45"
 
 *§ 1 skal lyde:*
 
-> § 1.FormålLovens formål er å beskytte liv, helse, miljø, materielle verdier og kritisk infrastruktur og å tilrettelegge for bruk av det sivile samfunnets samlede ressurser ved bruk av ikke-militær makt når riket er i krig, når krig truer, når rikets selvstendighet eller sikkerhet er i fare, og ved uønskede hendelser i fredstid.
+> § 1. Formål
 >
-> § 1.Formål
+> Lovens formål er å beskytte liv, helse, miljø, materielle verdier og kritisk infrastruktur og å tilrettelegge for bruk av det sivile samfunnets samlede ressurser ved bruk av ikke-militær makt når riket er i krig, når krig truer, når rikets selvstendighet eller sikkerhet er i fare, og ved uønskede hendelser i fredstid.
 >
 
 ## § 12

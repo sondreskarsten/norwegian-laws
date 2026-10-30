@@ -23,6 +23,17 @@ refid: "lov/1953-06-26-11"
 
 *Nåværende § 8 a sjette og sjuende ledd blir femte og sjette ledd.*
 
+### 2015-12-18 — lov/2015-12-18-107
+
+*I lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv. skal § 1 første ledd bokstav b lyde:arbeidstakere tilsatt ved apotek med en arbeidstid som utgjør 20 prosent eller mer av full stilling.*
+
+### 2016-12-20 — lov/2016-12-20-105
+
+*I lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv. skal § 14 femte ledd første punktum lyde:*
+
+> Dersom medlemmet beholder retten til opprinnelig uføregrad etter folketrygdloven § 12-10 tredje ledd (hvilende rett), beholder medlemmet også retten til opprinnelig uføregrad etter loven her i samme tidsrom.
+>
+
 ### 2017-12-15 — lov/2017-12-15-104
 
 *Nåværende § 7 nr. 2 første ledd andre, tredje og fjerde punktum blir flyttet til § 7 nr. 2 andre ledd første og nytt annet til tredje punktum.*
@@ -38,6 +49,13 @@ refid: "lov/1953-06-26-11"
 > Kapittel IX overskriften skal lyde:
 >
 
+### 2018-01-01 — lov/2017-06-16-43
+
+*I lov av 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv. skal § 14 tredje ledd lyde:*
+
+> Dersom arbeidsavklaringspenger etter folketrygdloven kapittel 11 er redusert eller stanset av andre grunner enn ved samtidig arbeid etter folketrygdloven § 11-23, kan midlertidig uførepensjon reduseres eller stanses tilsvarende.
+>
+
 ### 2019-06-21 — lov/2019-06-21-26
 
 *I kapittel I til XI endres kapitteloverskriften innledningen fra «Kapitel I.» til «Kapittel 1.», «Kapitel II.» til «Kapittel 2.» osv.*
@@ -45,6 +63,23 @@ refid: "lov/1953-06-26-11"
 ### 2019-06-21 — lov/2019-06-21-26
 
 *Nåværende sjette ledd blir nytt sjuende ledd.*
+
+### 2020-03-20 — lov/2020-03-20-4
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv.
+>
+> I lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv. skal § 7 nr. 1 første ledd nytt femte og sjette punktum lyde:
+>
+> Løpende alderspensjon faller likevel ikke bort eller reduseres ved beordret tjeneste i forbindelse med covid-19, jf. lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap § 1-3 første ledd bokstav a til c. Frivillig tjeneste i offentlig helsetjeneste som er nødvendig for å møte et ekstraordinært personellbehov i forbindelse med covid-19, likestilles med beordret tjeneste.
+>
+> Loven trer i kraft fra den tid Kongen bestemmer.
+>
+> Lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv. § 7 nr. 1 første ledd nytt femte og sjette punktum opphører å gjelde 1. november 2020.
+>
 
 ### 2024-04-12 — lov/2024-04-12-15
 

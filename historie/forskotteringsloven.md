@@ -180,9 +180,9 @@ refid: "lov/1989-02-17-2"
 
 *§ 8 skal lyde:*
 
-> § 8.Tilbakekreving m.v.For meget utbetalt forskott tilbakekreves etter bestemmelsene i bidragsinnkrevingsloven §§ 26 til 29.
+> § 8. Tilbakekreving m.v.
 >
-> § 8.Tilbakekreving m.v.
+> For meget utbetalt forskott tilbakekreves etter bestemmelsene i bidragsinnkrevingsloven §§ 26 til 29.
 >
 
 ## § 9

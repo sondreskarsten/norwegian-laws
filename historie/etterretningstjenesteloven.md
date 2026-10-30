@@ -161,9 +161,49 @@ refid: "lov/2020-06-19-77"
 
 ## (annet)
 
+### 2022-01-01 — forskrift/2021-08-26-2581
+
+*Delt ikraftsetting av lov 19. juni 2020 nr. 77 om Etterretningstjenesten (etterretningstjenesteloven). Loven kapittel 7 og 8 trer i kraft 1. januar 2022, med unntak av § 7-3.*
+
+> Delt ikraftsetting av lov 19. juni 2020 nr. 77 om Etterretningstjenesten (etterretningstjenesteloven). Loven kapittel 7 og 8 trer i kraft 1. januar 2022, med unntak av § 7-3.
+>
+
+### 2022-09-02 — forskrift/2022-09-02-1524
+
+*Delt ikraftsetting av lov 19. juni 2020 nr. 77 om Etterretningstjenesten (etterretningstjenesteloven). Loven § 7-3 trer i kraft straks.*
+
+> Delt ikraftsetting av lov 19. juni 2020 nr. 77 om Etterretningstjenesten (etterretningstjenesteloven). Loven § 7-3 trer i kraft straks.
+>
+
 ### 2023-06-16 — lov/2023-06-16-54
 
 *Kapittel 8 overskriften skal lyde:*
+
+### 2023-06-16 — forskrift/2023-06-16-900
+
+*Delt ikraftsetting av vedtak til lov om endringer i etterretningstjenesteloven (domstolskontroll i saker om kildevern og ved speiling av kommunikasjonsstrømmer mv.)*
+
+> Delt ikraftsetting av vedtak til lov om endringer i etterretningstjenesteloven (domstolskontroll i saker om kildevern og ved speiling av kommunikasjonsstrømmer mv.)
+>
+> Følgende trer i kraft straks:
+>
+> Endringsloven § 4-2 andre ledd første punktum
+>
+> Følgende trer i kraft fra 1. oktober 2023:
+>
+> Endringsloven § 5-2 nytt andre og tredje ledd, § 7-2 første ledd, § 7-3, § 8-1, § 8-2, § § 8-4 bokstav a og b, § 8-6, § 8-7 tredje ledd, § 8-10 andre ledd første og andre punktum, § 9-6 første ledd første punktum, § 9-6 tredje ledd og § 9-8 første ledd
+>
+
+### 2023-10-01 — forskrift/2023-09-29-1522
+
+*Delt ikraftsetting av vedtak til lov om endringer i etterretningstjenesteloven (domstolskontroll i saker om kildevern og ved speiling av kommunikasjonsstrømmer mv.).*
+
+> Delt ikraftsetting av vedtak til lov om endringer i etterretningstjenesteloven (domstolskontroll i saker om kildevern og ved speiling av kommunikasjonsstrømmer mv.).
+>
+> Følgende trer i kraft fra 1. oktober 2023:
+>
+> Kapitteloverskriften i kapittel 8.
+>
 
 ### 2024-12-13 — lov/2024-12-13-76
 

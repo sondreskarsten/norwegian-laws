@@ -7,6 +7,26 @@ refid: "lov/1975-06-06-29"
 
 ## (annet)
 
+### 2002-08-30 — lov/2002-08-30-67
+
+*I lov 6. juni 1975 nr. 29 om eigedomsskatt til kommunane skal § 23 lyde:*
+
+> Føresegnene i lov nr. 2 frå 21. november 1952 § 48, nr. 5, 6 og 7, gjeld på tilsvarande vis for søksmål og tvistar for tingretten i sak om tvangsfullføring og mellombels sikring om eigedomsskatt. Kommunen er part i saker om eigedomsskatt.
+>
+
+### 2008-12-12 — lov/2008-12-12-103
+
+*For skatteåret 2009 skal eigedomsskatten på anlegg som nemnd i skatteloven § 18-5 første leden reknast ut etter verdet (taksten) som vert sett ved likninga året før skatteåret, med følgjande korrigering:*
+
+> For skatteåret 2009 skal eigedomsskatten på anlegg som nemnd i skatteloven § 18-5 første leden reknast ut etter verdet (taksten) som vert sett ved likninga året før skatteåret, med følgjande korrigering:
+>
+> Ved utskrivinga skal verdet endrast såleis at rentesatsen etter skatteloven § 18-5 niande leden andre punktum skal vere gjennomsnittet av renta på statskassevekslar med 12 månaders gjenståande løpetid, rekna på grunnlag av inntektsåret og dei to førre inntektsåra pluss 3 prosentpoeng, korrigert for gjennomsnittet av årleg inflasjon for dei same tre inntektsåra, målt etter endringa i den gjennomsnittlege konsumprisindeksen frå året før.
+>
+> Renta etter den føregåande leden skal avrundast til næraste tidels prosentpoeng. Gjennomsnittet av renta over tre år på statskassevekslar med 12 månaders gjenståande løpetid og gjennomsnittet over tre år av årleg inflasjon skal avrundast til næraste hundredels prosentpoeng.
+>
+> Reglane under I tek til å gjelde straks, og får verknad for skatteåret 2009. Lova fell bort 1. januar 2010 med verknad frå og med skatteåret 2010.
+>
+
 ### 2013-01-01 — lov/2012-06-22-44
 
 *Noverande § 8 A-1 blir ny § B-2.*
@@ -22,6 +42,13 @@ refid: "lov/1975-06-06-29"
 ### 2013-01-01 — lov/2012-06-22-44
 
 *Noverande § 8 A-4 blir ny § B-5.*
+
+### 2013-09-27 — forskrift/2013-09-27-1142
+
+*Delvis ikraftsetting av lov 6. juni 1975 nr. 29 om eigedomsskatt til kommunane. § 18 trer i kraft straks med virkning for boliger som verdsettes etter § 8C.*
+
+> Delvis ikraftsetting av lov 6. juni 1975 nr. 29 om eigedomsskatt til kommunane. § 18 trer i kraft straks med virkning for boliger som verdsettes etter § 8C.
+>
 
 ### 2018-12-20 — lov/2018-12-20-99
 
@@ -798,9 +825,21 @@ refid: "lov/1975-06-06-29"
 
 *§ 8 A-2 skal lyde:*
 
+> (1) Verdet av eigedomen skal setjast til det beløp ein må gå ut frå at eigedomen etter si innretning, brukseigenskap og lokalisering kan bli avhenda for under vanlege salstilhøve ved fritt sal. Skattegrunnlaget for bustader og fritidsbustader vert sett til verdet multiplisert med 0,7.
+>
+> (2) Verdet av næringseigedom skal setjast til teknisk verd når det ikkje er mogleg å fastsetje verdet etter regelen i første ledd første punktum.
+>
+> (3) Verdet av vindkraftverk, kraftnettet og anlegg omfatta av særskattereglane for petroleum skal setjast til teknisk verd, eller avkastningsverd når det gjev best uttrykk for verdet.
+>
+> (4) Kommunestyret kan vedta at det skal gjerast frådrag i takstane for ein lokal reduksjonsfaktor, med likt prosentvis frådrag for alle typar eigedom. Frådraget vert vedtatt i samband med allmenn taksering og ligg fast i heile takstperioden. For bustader og fritidsbustader skal ein berre nytte lokal reduksjonsfaktor når denne er høgare enn frådraget i første ledd, og ikkje i tillegg til dette.
+>
+
 ### 2025-06-20 — lov/2025-06-20-60
 
 *§ 8 C-1 tredje ledd skal lyde:*
+
+> (3) Nyttar kommunen lokal reduksjonsfaktor, gjeld same regelen som i § 8 A-2 fjerde ledd.
+>
 
 ## § 8 A
 

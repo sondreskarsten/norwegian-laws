@@ -11,6 +11,13 @@ refid: "lov/2019-06-21-63"
 
 *Nåværende § 5 blir ny § 7.*
 
+### 2022-03-25 — forskrift/2022-03-25-466
+
+*Ikraftsetting av lov 18. juni 2021 nr. 135 om endringer i lov om forbud mot hold av pelsdyr (kompensasjonsordning). Loven trer i kraft straks.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 135 om endringer i lov om forbud mot hold av pelsdyr (kompensasjonsordning). Loven trer i kraft straks.
+>
+
 ## § 3
 
 ### 2021-06-18 — lov/2021-06-18-135

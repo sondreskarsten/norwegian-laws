@@ -7,6 +7,29 @@ refid: "lov/2014-06-20-42"
 
 ## (annet)
 
+### 2017-06-16 — lov/2017-06-16-53
+
+*I lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp skal § 30 første og andre ledd lyde:*
+
+> Overtredelse av § 15 om taushetsplikt straffes etter straffeloven § 209, likevel slik at medvirkning straffes.
+>
+> Med bøter eller fengsel inntil ett år eller begge deler straffes den som forsettlig eller grovt uaktsomtbehandler helseopplysninger i strid med § 22unnlater å informere den registrerte etter § 18, jf. personopplysningsloven §§ 19 eller 20unnlater å gi opplysninger til tilsynsmyndighetene etter § 26unnlater å etterkomme pålegg eller overtrer vilkår fra tilsynsmyndighetene etter § 27overtrer forbudet mot urettmessig tilegnelse av helseopplysninger i § 16.
+>
+
+### 2021-12-22 — forskrift/2021-12-22-3832
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2023-06-16 — lov/2023-06-16-56
+
+*I lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp skal § 13 femte ledd lyde:*
+
+> Kongen i statsråd kan i forskrift gi nærmere bestemmelser om innholdet i kjernejournalen, drift av kjernejournalen og behandling av helseopplysningene. Dette omfatter blant annet hvilke opplysninger som skal behandles, hvem som er dataansvarlig, regler om sletting, tilgang og tilgangskontroll, samt pasientens rettigheter.
+>
+
 ### 2025-04-25 — lov/2025-04-25-13
 
 *I lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp skal § 17 andre ledd lyde:*
@@ -133,9 +156,15 @@ refid: "lov/2014-06-20-42"
 
 *§ 22 skal lyde:*
 
-> § 22.Tekniske og organisatoriske sikkerhetstiltakDen dataansvarlige og databehandleren skal gjennomføre nødvendige tekniske og organisatoriske tiltak for å ivareta sikkerheten ved behandling av personopplysninger. Tiltakene skal være egnet med hensyn til risikoen ved behandlingen av personopplysningene, jf. personvernforordningen artikkel 32. Den dataansvarlige og databehandleren skal også gjennomføre risikovurderinger av nettverks- og informasjonssystemene som benyttes for å levere tjenester i henhold til denne loven.Sikkerhetstiltakene skal være proporsjonale og tilpasset risikoen. Ved vurderingen av hva som er et forsvarlig sikkerhetsnivå, skal det tas hensyn til den enkeltes personvern, kritiske samfunnsfunksjoner, helse- og omsorgstjenestens evne til å ivareta sine oppgaver og den teknologiske utviklingen.Den dataansvarlige og databehandleren skal iverksette tiltak for å forebygge, avdekke og redusere konsekvensene av skadelige hendelser. Dette omfatter tiltak som blant annet tilgangsstyring, logging og etterfølgende kontroll. Den dataansvarlige og databehandleren kan kreve uttømmende og utvidet politiattest, jf. politiregisterloven § 41 nr. 2, fra personer som skal ha privilegerte tilganger til nettverks- og informasjonssystemer.Departementet kan i forskrift fastsette nærmere krav til tekniske og organisatoriske sikkerhetstiltak.
+> § 22. Tekniske og organisatoriske sikkerhetstiltak
 >
-> § 22.Tekniske og organisatoriske sikkerhetstiltak
+> Den dataansvarlige og databehandleren skal gjennomføre nødvendige tekniske og organisatoriske tiltak for å ivareta sikkerheten ved behandling av personopplysninger. Tiltakene skal være egnet med hensyn til risikoen ved behandlingen av personopplysningene, jf. personvernforordningen artikkel 32. Den dataansvarlige og databehandleren skal også gjennomføre risikovurderinger av nettverks- og informasjonssystemene som benyttes for å levere tjenester i henhold til denne loven.
+>
+> Sikkerhetstiltakene skal være proporsjonale og tilpasset risikoen. Ved vurderingen av hva som er et forsvarlig sikkerhetsnivå, skal det tas hensyn til den enkeltes personvern, kritiske samfunnsfunksjoner, helse- og omsorgstjenestens evne til å ivareta sine oppgaver og den teknologiske utviklingen.
+>
+> Den dataansvarlige og databehandleren skal iverksette tiltak for å forebygge, avdekke og redusere konsekvensene av skadelige hendelser. Dette omfatter tiltak som blant annet tilgangsstyring, logging og etterfølgende kontroll. Den dataansvarlige og databehandleren kan kreve uttømmende og utvidet politiattest, jf. politiregisterloven § 41 nr. 2, fra personer som skal ha privilegerte tilganger til nettverks- og informasjonssystemer.
+>
+> Departementet kan i forskrift fastsette nærmere krav til tekniske og organisatoriske sikkerhetstiltak.
 >
 
 ## § 22 a
@@ -144,9 +173,15 @@ refid: "lov/2014-06-20-42"
 
 *Ny § 22 a skal lyde:*
 
-> § 22 a.Dokumentasjon av tilgjengeliggjøringTilgjengeliggjøring av helseopplysninger etter denne loven og helsepersonelloven skal dokumenteres i en logg eller i pasientens journal. I logg skal det minst dokumenteres informasjon om:identiteten og den organisatoriske tilhørigheten til den som får helseopplysningenegrunnlaget for tilgjengeliggjøringentidsperioden for tilgjengeliggjøringenhvilke opplysninger eller dokumenter som blir tilgjengeliggjort.Den registrerte har rett til innsyn i dokumentasjonen.Dersom oversikten viser at noen urettmessig har hentet frem journalopplysninger, skal virksomheten opplysningene er hentet fra og den registrerte varsles, jf. personvernforordningen artikkel 33 og 34.Departementet kan gi forskrift om dokumentasjon av tilgjengeliggjøring av helseopplysninger.
+> § 22 a. Dokumentasjon av tilgjengeliggjøring
 >
-> § 22 a.Dokumentasjon av tilgjengeliggjøring
+> Tilgjengeliggjøring av helseopplysninger etter denne loven og helsepersonelloven skal dokumenteres i en logg eller i pasientens journal. I logg skal det minst dokumenteres informasjon om:identiteten og den organisatoriske tilhørigheten til den som får helseopplysningenegrunnlaget for tilgjengeliggjøringentidsperioden for tilgjengeliggjøringenhvilke opplysninger eller dokumenter som blir tilgjengeliggjort.
+>
+> Den registrerte har rett til innsyn i dokumentasjonen.
+>
+> Dersom oversikten viser at noen urettmessig har hentet frem journalopplysninger, skal virksomheten opplysningene er hentet fra og den registrerte varsles, jf. personvernforordningen artikkel 33 og 34.
+>
+> Departementet kan gi forskrift om dokumentasjon av tilgjengeliggjøring av helseopplysninger.
 >
 
 ## § 26
@@ -173,9 +208,9 @@ refid: "lov/2014-06-20-42"
 
 *§ 30 skal lyde:*
 
-> § 30.Straff for brudd på taushetspliktOvertredelse av § 15 om taushetsplikt straffes etter straffeloven § 209, likevel slik at også medvirkning straffes.
+> § 30. Straff for brudd på taushetsplikt
 >
-> § 30.Straff for brudd på taushetsplikt
+> Overtredelse av § 15 om taushetsplikt straffes etter straffeloven § 209, likevel slik at også medvirkning straffes.
 >
 
 ## § 30 a
@@ -197,9 +232,11 @@ refid: "lov/2014-06-20-42"
 
 *§ 30 a skal lyde:*
 
-> § 30 a.Straff for urettmessig tilegnelse av helseopplysningerDen som forsettlig eller grovt uaktsomt overtrer forbudet i § 16 mot urettmessig tilegnelse av helseopplysninger, straffes med bøter eller fengsel i inntil ett år.Grov urettmessig tilegnelse av helseopplysninger straffes med fengsel i inntil tre år. Ved avgjørelsen av om den urettmessige tilegnelsen av helseopplysninger er grov, skal det særlig legges vekt påfaren for stor skade eller ulempe for pasienten eller brukerenom det foreligger en tilsiktet vinning med overtredelsenovertredelsens varighet og omfangden utviste skyldom handlingen er begått av noen som tidligere er ilagt en strafferettslig reaksjon for liknende handlinger.
+> § 30 a. Straff for urettmessig tilegnelse av helseopplysninger
 >
-> § 30 a.Straff for urettmessig tilegnelse av helseopplysninger
+> Den som forsettlig eller grovt uaktsomt overtrer forbudet i § 16 mot urettmessig tilegnelse av helseopplysninger, straffes med bøter eller fengsel i inntil ett år.
+>
+> Grov urettmessig tilegnelse av helseopplysninger straffes med fengsel i inntil tre år. Ved avgjørelsen av om den urettmessige tilegnelsen av helseopplysninger er grov, skal det særlig legges vekt påfaren for stor skade eller ulempe for pasienten eller brukerenom det foreligger en tilsiktet vinning med overtredelsenovertredelsens varighet og omfangden utviste skyldom handlingen er begått av noen som tidligere er ilagt en strafferettslig reaksjon for liknende handlinger.
 >
 
 ## § 7

@@ -13,6 +13,27 @@ refid: "lov/1998-06-26-47"
 
 ## (annet)
 
+### 2001-01-01 — lov/2001-01-12-2
+
+*I lov 26. juni 1998 nr. 47 om fritids- og småbåter skal ny § 42 lyde:*
+
+> I lov 26. juni 1998 nr. 47 om fritids- og småbåter skal ny § 42 lyde:
+>
+> Kongen kan gi forskrift om at bøteleggelse på stedet eller i ettertid for båttrafikkforseelser av nærmere angitt art kan skje ved forenklet forelegg etter faste bøtesatser. I slike forelegg kan straffebudet og det straffbare forhold betegnes ved stikkord eller på lignende måte.
+>
+> Forelegg utskrevet på stedet faller bort dersom det ikke straks vedtas. For forelegg utskrevet i ettertid gjelder straffeprosessloven § 256 nr. 5 tilsvarende. Slikt forelegg faller bort dersom det ikke vedtas innen fristen. Departementet kan gi nærmere regler om fremgangsmåten når forelegget utskrives i ettertid.
+>
+> Påtalemyndigheten kan til gunst for siktede oppheve vedtatte forelegg.
+>
+> Polititjenestemann eller tolltjenestemann som ellers ikke har foreleggsmyndighet, kan gis myndighet til å utferdige forenklet forelegg.
+>
+> Departementet gir nærmere regler om bruk av forenklet forelegg og fastsetter bøtesatser og subsidiær fengselsstraff for de forskjellige forseelser som ordningen skal omfatte.
+>
+> §§ 42 og 43 slik de lyder etter lovendringen 7. juli 2000 nr. 72 blir nye §§ 43 og 44.
+>
+> Loven trer i kraft 1. januar 2001.
+>
+
 ### 2003-01-01 — lov/2002-12-20-98
 
 *§§ 6 og 7 oppheves.*
@@ -30,6 +51,15 @@ refid: "lov/1998-06-26-47"
 *Nåværende femte og sjette ledd blir nytt sjette og syvende ledd.*
 
 > 194. I lov 17. juli 1998 nr. 54 om gjennomføring av Konvensjonen om forbud mot bruk, lagring, produksjon og overføring av antipersonellminer og om ødeleggelse av slike miner gjøres følgende endring:
+>
+
+### 2010-03-26 — lov/2010-03-26-10
+
+*I lov 26. juni 1998 nr. 47 om fritids- og småbåter skal § 41a femte ledd lyde:*
+
+> Når Statens innkrevingssentral er pålagt å inndrive tvangsmulkt som nevnt i annet ledd, kan den inndrive det ved trekk i lønn og andre lignende ytelser etter reglene i dekningsloven § 2-7. Innkrevingssentralen kan også inndrive tvangsmulkt ved å stifte utleggspant for kravet dersom panteretten får rettsvern ved registrering i et register eller ved underretning til en tredjeperson, jf. panteloven kapittel 5, og utleggsforretningen kan holdes på Innkrevingssentralens kontor etter tvangsfullbyrdelsesloven § 7-9 første ledd.
+>
+> Noverande femte og sjette ledd blir sjette og nytt sjuande ledd.
 >
 
 ### 2010-06-25 — lov/2010-06-25-50
@@ -63,6 +93,41 @@ refid: "lov/1998-06-26-47"
 > Blir en som ikke har førerett, med skjellig grunn mistenkt for et straffbart forhold som kan ha betydning for adgangen til å få båtførerbevis, kan politimesteren eller den han gir myndighet, bestemme at førerett ikke kan erverves før saken er endelig avgjort, likevel ikke ut over tre måneder uten kjennelse av tingretten.
 >
 > Kongen gir forskrift med nærmere regler om fastsetting av sperrefrist.
+>
+
+### 2010-07-01 — forskrift/2010-06-25-946
+
+*Loven trer i kraft fra 1. juli 2010.*
+
+> Loven trer i kraft fra 1. juli 2010.
+>
+
+### 2013-07-01 — forskrift/2013-06-21-699
+
+*Loven trer i kraft fra 1. juli 2013.*
+
+> Loven trer i kraft fra 1. juli 2013.
+>
+
+### 2015-05-01 — lov/2015-04-24-24
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 26. juni 1998 nr. 47 om fritids- og småbåter (småbåtloven).
+>
+> I lov 26. juni 1998 nr. 47 om fritids- og småbåter skal ny § 23 a lyde:
+>
+> § 23 a.
+>
+> Bruk av egnet flyteutstyr om bord
+>
+> I fritidsbåt med lengde mindre enn åtte meter skal alle ha på seg egnet flyteutstyr ved utendørs opphold i båten når båten er i fart. Ansvar etter første punktum, jf. § 27 og § 28, påhviler den enkelte som har plikt til å ha på seg flyteutstyr. For barn under 15 år påhviler ansvaret båtfører.
+>
+> Kongen kan i forskrift fastsette unntak fra kravet i første ledd, herunder i situasjoner der sikkerheten generelt er ivaretatt på annet vis.
+>
+> Loven trer i kraft 1. mai 2015.
 >
 
 ## § 11

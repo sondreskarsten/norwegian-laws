@@ -1652,12 +1652,6 @@ refid: "lov/1989-06-02-27"
 
 > Helsedirektoratet kan ilegge overtredelsesgebyr overfor virksomheter som forsettlig eller uaktsomt overtrerkravet om registrering i § 2-4 eller kravene i §§ 1-5, 2-5 og 8-11 ved utlevering av alkoholholdig drikk ved privat innførsel,kravene til bevillingshaver i §§ 6-6, 6-7 og 6-8 ellerreklameforbudet i §§ 9-1 og 9-2.
 >
-> kravet om registrering i § 2-4 eller kravene i §§ 1-5, 2-5 og 8-11 ved utlevering av alkoholholdig drikk ved privat innførsel,
->
-> kravene til bevillingshaver i §§ 6-6, 6-7 og 6-8 eller
->
-> reklameforbudet i §§ 9-1 og 9-2.
->
 
 ## (annet)
 
@@ -1698,13 +1692,41 @@ refid: "lov/1989-06-02-27"
 
 *Nåværende § 7-3 blir § 7-2.*
 
+### 2015-01-01 — forskrift/2014-12-12-1595
+
+*Loven trer i kraft fra 1. januar 2015.*
+
+> Loven trer i kraft fra 1. januar 2015.
+>
+
 ### 2015-12-18 — lov/2015-12-18-122
 
 *Nåværende § 1-6 tredje til femte ledd blir femte til syvende ledd.*
 
+### 2016-01-01 — forskrift/2015-09-18-1066
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1591
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
 ### 2018-06-22 — lov/2018-06-22-76
 
 *Kapittel 10 skal lyde:*
+
+### 2020-09-01 — forskrift/2020-06-23-1297
+
+*Loven trer i kraft 1. september 2020.*
+
+> Loven trer i kraft 1. september 2020.
+>
 
 ### 2024-06-21 — lov/2024-06-21-43
 
@@ -1714,13 +1736,20 @@ refid: "lov/1989-06-02-27"
 
 *Nåverande fjerde til syvende ledd blir tredje til sjette ledd.*
 
+### 2024-09-17 — forskrift/2024-09-13-2148
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Loven del I trer i kraft 17. september 2024.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Loven del I trer i kraft 17. september 2024.
+>
+
 ### 2025-02-28 — lov/2025-02-28-2
 
 *I lov 2. juni 1989 nr. 27 om omsetning av alkoholholdig drikk m.v. skal ny § 9-6 lyde:*
 
-> § 9-6.Begrensninger i omgjørings- og instruksjonsmyndighetKongen kan ikke instruere Helsedirektoratet om behandlingen av enkeltsaker etter § 9-2 som retter seg mot tilbydere av fjernsyn, audiovisuelle bestillingstjenester eller videodelingsplattformer, eller omgjøre Helsedirektoratets vedtak i slike saker.
+> § 9-6. Begrensninger i omgjørings- og instruksjonsmyndighet
 >
-> § 9-6.Begrensninger i omgjørings- og instruksjonsmyndighet
+> Kongen kan ikke instruere Helsedirektoratet om behandlingen av enkeltsaker etter § 9-2 som retter seg mot tilbydere av fjernsyn, audiovisuelle bestillingstjenester eller videodelingsplattformer, eller omgjøre Helsedirektoratets vedtak i slike saker.
 >
 
 ### 2026-05-29 — lov/2026-05-29-21

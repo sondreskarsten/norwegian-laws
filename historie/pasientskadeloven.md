@@ -5,6 +5,50 @@ refid: "lov/2001-06-15-53"
 
 # Endringshistorikk: Pasientskadeloven – passkl
 
+## (annet)
+
+### 2009-06-19 — lov/2009-06-19-72
+
+*I lov 15. juni 2001 nr. 53 om erstatning ved pasientskader mv. (pasientskadeloven) skal § 19 annet punktum lyde:*
+
+> Loven gjelder også skade ved helsetjenester som mottas i utlandet i medhold av pasientrettighetsloven § 2-1 fjerde eller femte ledd eller etter annet oppdrag fra norske myndigheter, og som det offentlige helt eller delvis bekoster, herunder behandlingsreiser.
+>
+
+### 2014-04-01 — forskrift/2014-03-21-306
+
+*Loven trer i kraft 1. april 2014.*
+
+> Loven trer i kraft 1. april 2014.
+>
+
+### 2015-12-18 — lov/2015-12-18-124
+
+*I lov 15. juni 2001 nr. 53 om erstatning ved pasientskader mv. skal § 13 annet ledd lyde:*
+
+> Om renteplikt gjelder reglene i lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m., jf. likevel skadeserstatningsloven § 3-2 a ellevte ledd om renter ved inntektstaperstatning til barn.
+>
+
+### 2017-06-16 — lov/2017-06-16-53
+
+*I lov 15. juni 2001 nr. 53 om erstatning ved pasientskader mv. skal § 1 første ledd bokstav c nytt andre punktum lyde:*
+
+> Loven gjelder også skader voldt av helsepersonell i forbindelse med helserelatert behandling etter lov 27. juni 2003 nr. 64 om alternativ behandling av sykdom mv. § 2 tredje ledd, som ytes i tilknytning til ordinær helsehjelp, som en integrert og sammenhengende del av behandlingen.
+>
+
+### 2020-05-29 — forskrift/2020-05-29-1100
+
+*Endringslova trer i kraft straks.*
+
+> Endringslova trer i kraft straks.
+>
+
+### 2020-12-04 — lov/2020-12-04-134
+
+*I lov 15. juni 2001 nr. 53 om erstatning ved pasientskader mv. skal § 19 annet punktum lyde:*
+
+> Loven gjelder også skade ved helsetjenester som mottas i utlandet i medhold av pasient- og brukerrettighetsloven § 2-1 b fjerde ledd eller § 2-4 a annet ledd bokstav a eller etter annet oppdrag fra norske myndigheter, og som det offentlige helt eller delvis bekoster, herunder behandlingsreiser.
+>
+
 ## § 1
 
 ### 2014-03-21 — lov/2014-03-21-7

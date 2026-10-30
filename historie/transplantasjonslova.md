@@ -109,14 +109,6 @@ refid: "lov/2015-05-07-25"
 
 > Uttak frå barn under 12 år og vaksne som ikkje har avgjerdskompetanse etter pasient- og brukerrettighetsloven § 4-3 andre ledd, kan berre finne stad dersom:uttaket gjeld fornybart vev, jf. § 3 bokstav c,donasjonen er nødvendig for å redde livet til mottakaren,det ikkje finst ein donor med avgjerdskompetanse som deler mange nok av dei viktigaste vevstypane (er vevsforlikeleg), ogmottakaren er søsken, barn eller forelder, eller i særlege tilfelle på annan måte i nær familie med donoren.
 >
-> uttaket gjeld fornybart vev, jf. § 3 bokstav c,
->
-> donasjonen er nødvendig for å redde livet til mottakaren,
->
-> det ikkje finst ein donor med avgjerdskompetanse som deler mange nok av dei viktigaste vevstypane (er vevsforlikeleg), og
->
-> mottakaren er søsken, barn eller forelder, eller i særlege tilfelle på annan måte i nær familie med donoren.
->
 > Uttak kan aldri gjennomførast i strid med viljen til ein donor som ikkje har avgjerdskompetanse.
 >
 
@@ -125,14 +117,6 @@ refid: "lov/2015-05-07-25"
 *§ 5 tredje og fjerde ledd skal lyde:*
 
 > Uttak frå barn under 12 år og vaksne som ikkje har avgjerdskompetanse etter pasient- og brukerrettighetsloven § 4-3 andre ledd, kan berre finne stad dersom:uttaket gjeld fornybart vev, jf. § 3 bokstav c,donasjonen er nødvendig for å redde livet til mottakaren,det ikkje finst ein donor med avgjerdskompetanse som deler mange nok av dei viktigaste vevstypane (er vevsforlikeleg), ogmottakaren er søsken, barn eller forelder, eller i særlege tilfelle på annan måte i nær familie med donoren.
->
-> uttaket gjeld fornybart vev, jf. § 3 bokstav c,
->
-> donasjonen er nødvendig for å redde livet til mottakaren,
->
-> det ikkje finst ein donor med avgjerdskompetanse som deler mange nok av dei viktigaste vevstypane (er vevsforlikeleg), og
->
-> mottakaren er søsken, barn eller forelder, eller i særlege tilfelle på annan måte i nær familie med donoren.
 >
 > Uttak kan aldri gjennomførast i strid med viljen til ein donor som ikkje har avgjerdskompetanse.
 >
@@ -143,9 +127,7 @@ refid: "lov/2015-05-07-25"
 
 *§ 7 overskriften skal lyde:*
 
-> § 7.Kven som har rett til å samtykke til donasjon frå ein levande donor
->
-> § 7.Kven som har rett til å samtykke til donasjon frå ein levande donor
+> § 7. Kven som har rett til å samtykke til donasjon frå ein levande donor
 >
 
 ### 2025-04-25 — lov/2025-04-25-13
@@ -173,9 +155,7 @@ refid: "lov/2015-05-07-25"
 
 *§ 7 overskriften skal lyde:*
 
-> § 7.Kven som har rett til å samtykke til donasjon frå ein levande donor
->
-> § 7.Kven som har rett til å samtykke til donasjon frå ein levande donor
+> § 7. Kven som har rett til å samtykke til donasjon frå ein levande donor
 >
 
 ### 2025-06-20 — lov/2025-06-20-67

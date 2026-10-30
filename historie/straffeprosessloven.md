@@ -110,6 +110,20 @@ refid: "lov/1981-05-22-25"
 
 *Kapittel 9 a skal lyde:*
 
+### 2005-06-17 — lov/2005-06-17-89
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 456 nytt sjette ledd lyde:*
+
+> Innkrevingssentralen kan uten hinder av taushetsplikt innhente og utlevere opplysninger om skyldneres inntekts- og formuesforhold og om avholdte utleggsforretninger til bruk for andre namsmyndigheters tvangsfullbyrdelse. Enhver kan kreve innsyn hos Innkrevingssentralen i de opplysninger som Innkrevingssentralen har lagret elektronisk om vedkommende som holdes tilgjengelig for andre namsmyndigheter.
+>
+
+### 2006-06-30 — lov/2006-06-30-48
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker (straffeprosessloven) skal § 107 a første ledd første punktum lyde:*
+
+> I saker om overtredelse av straffeloven §§ 192-197, 199, 200 tredje ledd, § 222 annet ledd, § 342 første ledd bokstav b, jf. § 33 og § 342 første ledd bokstav c, jf. straffeprosessloven § 222 a, har fornærmede rett til hjelp fra advokat dersom fornærmede ønsker det.
+>
+
 ### 2007-02-27 — lov/2007-01-26-3
 
 *Overskriften til kapittel 23 skal lyde:*
@@ -219,13 +233,49 @@ refid: "lov/1981-05-22-25"
 
 *Nåværende fjerde til sjette punktum blir nytt femte til syvende punktum.*
 
+### 2009-06-19 — lov/2009-06-19-79
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 158 annet ledd nytt tredje punktum lyde:*
+
+> Analyseinstitusjonen kan likevel oppbevare profilene utelukkende for det formål å dokumentere sin virksomhet.
+>
+
+### 2010-04-01 — forskrift/2010-03-19-407
+
+*Delvis ikraftsetting av lov 20. juni 2008 nr. 47 om endringer i straffeprosessloven mv. (overføring av kompetanse til å innkalle til soning og behandle søknader om soningsutsettelse).*
+
+> Delvis ikraftsetting av lov 20. juni 2008 nr. 47 om endringer i straffeprosessloven mv. (overføring av kompetanse til å innkalle til soning og behandle søknader om soningsutsettelse).
+>
+> Endringene i straffeprosessloven § 76 femte ledd nytt annet punktum, § 455 første ledd fjerde punktum, § 455 annet ledd, § 459 nytt fjerde ledd, § 461, og ny § 462a trer i kraft 1. april 2010.
+>
+
 ### 2010-12-10 — lov/2010-12-10-76
 
 *Nåværende § 148 fjerde og femte punktum blir femte og sjette punktum.*
 
+### 2011-01-28 — forskrift/2011-01-28-99
+
+*Delvis ikraftsetting av lov 20. juni 2008 nr. 47 om endringer i straffeprosessloven mv. (overføring av kompetanse til å innkalle til soning og behandle søknader om soningsutsettelse).*
+
+> Delvis ikraftsetting av lov 20. juni 2008 nr. 47 om endringer i straffeprosessloven mv. (overføring av kompetanse til å innkalle til soning og behandle søknader om soningsutsettelse).
+>
+> Endringene i straffeprosessloven 22. mai 1981 nr. 25 § 59a første ledd nr. 5 og § 462 første punktum trer i kraft straks.
+>
+
 ### 2011-04-15 — lov/2011-04-15-11
 
 *Gjeldende § 210 b og § 210 c blir ny § 210 e og § 210 f.*
+
+### 2011-07-01 — forskrift/2011-06-24-652
+
+*Loven del II trer i kraft 1. juli 2011.*
+
+> Loven del II trer i kraft 1. juli 2011.
+>
+
+### 2012-01-20 — lov/2012-01-20-5
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 annet ledd bokstav d lyde:forbrytelse mot militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, merverdiavgiftsloven § 21-4, ligningsloven § 12-1, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum og bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum.*
 
 ### 2012-01-20 — lov/2012-01-20-6
 
@@ -261,7 +311,21 @@ refid: "lov/1981-05-22-25"
 
 ### 2013-05-24 — lov/2013-05-24-19
 
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 188 nytt tredje ledd lyde:*
+
+> I stedet for fengsling kan retten treffe beslutning om at siktede, dersom han samtykker, skal oppholde seg på ett eller flere bestemte steder, og være undergitt elektronisk kontroll. Kongen kan gi nærmere forskrifter om elektronisk kontroll i stedet for fengsling.
+>
+
+### 2013-05-24 — lov/2013-05-24-19
+
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2013-06-14 — lov/2013-06-14-43
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 4 nytt annet ledd lyde:*
+
+> Kongen kan ved forskrift gi bestemmelser om hvordan loven kommer til anvendelse ved behandlingen av saker om straff utenfor norsk territorialfarvann og kan fastsette at deler av loven ikke skal gjelde, og særlige regler under hensyn til de aktuelle forhold.
+>
 
 ### 2013-06-21 — lov/2013-06-21-82
 
@@ -306,6 +370,60 @@ refid: "lov/1981-05-22-25"
 > Den særskilte dommerens beslutning om ikke å omgjøre en kjennelse, kan ikke ankes.
 >
 
+### 2013-12-30 — forskrift/2013-12-13-1477
+
+*Lov 21. juni 2013 nr. 84 om endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.) trer i kraft 30. desember 2013.*
+
+> Lov 21. juni 2013 nr. 84 om endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.) trer i kraft 30. desember 2013.
+>
+
+### 2015-01-01 — lov/2014-08-29-62
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 andre ledd bokstav d lyde:forbrytelse mot militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, merverdiavgiftsloven § 21-4, ligningsloven § 12-1, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum og forurensningsloven § 79 tredje ledd.*
+
+### 2015-03-27 — lov/2015-03-27-15
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker (Straffeprosessloven).
+>
+> Lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker (straffeprosessloven) § 222 a første ledd skal lyde:
+>
+> Påtalemyndigheten kan nedlegge besøksforbud dersom det er grunn til å tro at en person ellers vil
+>
+> begå en straffbar handling overfor en annen person,
+>
+> forfølge en annen person,
+>
+> på annet vis krenke en annens fred, eller
+>
+> begå ordensforstyrrelser som er særlig belastende for en annen person.
+>
+> Slikt forbud kan også nedlegges til beskyttelse for en nærmere avgrenset krets av personer. Forbudet kan nedlegges dersom den som forbudet skal beskytte, har begjært det, eller allmenne hensyn krever det. § 170 a gjelder tilsvarende.
+>
+> Loven gjelder fra den tid Kongen bestemmer.
+>
+
+### 2015-03-27 — forskrift/2015-03-27-311
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2015-10-02 — forskrift/2015-09-18-1065
+
+*Lov om endringer i straffeprosessloven (avhør av barn og andre særlig sårbare fornærmede og vitner) av 15. juni 2015 nr. 87*
+
+> Lov om endringer i straffeprosessloven (avhør av barn og andre særlig sårbare fornærmede og vitner) av 15. juni 2015 nr. 87
+>
+> trer i kraft fra 2. oktober 2015.
+>
+> Skal være lov 4. september 2015 nr. 87, Lovdatas anm.
+>
+
 ### 2016-06-17 — lov/2016-06-17-54
 
 *Kapittel 15 a overskriften skal lyde:*
@@ -333,6 +451,13 @@ refid: "lov/1981-05-22-25"
 > Dataavlesingen skal innrettes slik at det ikke unødig fanges opp opplysninger om andre enn mistenktes bruk av datasystemet. Avlesingen skal utføres slik at det ikke unødig voldes fare for driftshindring eller for skade på utrustning eller data. Politiet skal så vidt mulig avverge fare for at noen som følge av gjennomføringen settes i stand til å skaffe seg uberettiget tilgang til datasystemet eller vernet informasjon eller til å begå andre straffbare handlinger.
 >
 
+### 2017-06-16 — lov/2017-06-16-54
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 andre ledd bokstav c etter «lakse- og innlandsfiskeloven § 49 første ledd andre punktum» lyde:*
+
+> , forurensningsloven § 79 tredje ledd og transplantasjonslova § 23 a.
+>
+
 ### 2017-06-16 — lov/2017-06-16-58
 
 *Kapittel 24 oppheves.*
@@ -341,12 +466,36 @@ refid: "lov/1981-05-22-25"
 
 *Nåværende fjerde punktum blir nytt femte punktum.*
 
+### 2017-06-21 — lov/2017-06-21-92
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 199 a lyde:*
+
+> Ved ransaking av et datasystem kan politiet pålegge enhver som har befatning med datasystemet å gi nødvendige opplysninger for å gi tilgang til datasystemet eller å åpne det ved bruk av biometrisk autentisering.
+>
+> Dersom noen nekter å etterkomme et pålegg om biometrisk autentisering som nevnt i første ledd, kan politiet gjennomføre autentiseringen med tvang.
+>
+> Beslutning om bruk av tvang etter annet ledd treffes av påtalemyndigheten. Er det fare ved opphold, kan beslutning treffes av politiet på stedet. Beslutningen skal straks meldes til påtalemyndigheten.
+>
+> Bestemmelsen gjelder tilsvarende så langt den passer for gransking av datasystem som er tatt i beslag etter kapittel 16.
+>
+
+### 2017-07-01 — forskrift/2017-06-21-823
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
+
 ### 2019-06-21 — lov/2019-06-21-50
 
 *Kapittel 15 b oppheves.*
 
 > I § 216 o første ledd bokstav b erstattes «136 a, 232» med «136 a, 136 b, 232».
 >
+
+### 2019-06-21 — lov/2019-06-21-54
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 andre ledd bokstav c lyde:overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, kystvaktloven § 36 annet ledd, viltloven § 56 første ledd annet punktum, lakse- og innlandsfiskloven § 49 første ledd annet punktum, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23a.*
 
 ### 2019-11-01 — lov/2019-11-01-71
 
@@ -355,6 +504,24 @@ refid: "lov/1981-05-22-25"
 ### 2019-11-01 — lov/2019-11-01-71
 
 *Nåværende nr. 4 og 5 blir nr. 5 og 6.*
+
+### 2019-11-01 — forskrift/2019-11-01-1449
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2020-06-19 — lov/2020-06-19-84
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 annet ledd bokstav c lyde:overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, kystvaktloven § 36 annet ledd, viltloven § 56 første ledd annet punktum, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23 a.*
+
+### 2020-07-01 — forskrift/2020-06-12-1183
+
+*Delt ikraftsetting av endringsloven. Endringsloven del I trer i kraft 1. juli 2020.*
+
+> Delt ikraftsetting av endringsloven. Endringsloven del I trer i kraft 1. juli 2020.
+>
 
 ### 2021-06-18 — lov/2021-06-18-122
 
@@ -369,6 +536,13 @@ refid: "lov/1981-05-22-25"
 *I kapittel 32 skal ny § 462 b lyde:*
 
 > Kongen kan gi nærmere regler om innkalling og utsettelse med fullbyrding av straff.
+>
+
+### 2021-06-18 — lov/2021-06-18-126
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 119 første ledd lyde:*
+
+> Uten samtykke av den som har krav på hemmelighold, må retten ikke ta imot forklaring av prester i Den norske kirke, prester eller forstandere i registrerte trossamfunn, advokater, forsvarere i straffesaker, patentrådgivere oppført på listen nevnt i artikkel 134 nr. 1 i konvensjonen om meddelelse av europeiske patenter 5. oktober 1973, meklere i ekteskapssaker, leger, psykologer, apotekere, jordmødre eller sykepleiere om noe som er betrodd dem i deres stilling.
 >
 
 ### 2021-06-18 — lov/2021-06-18-128
@@ -412,25 +586,33 @@ refid: "lov/1981-05-22-25"
 
 > Kap 33. Straffesaker med tilknytning til Forsvaret
 >
-> § 463.Straffesaker med tilknytning til Forsvaret følger lovens alminnelige regler med de unntak som følger av denne del. Sakene behandles i fred og i krig ved de alminnelige domstoler.Kongen kan bestemme at krigstidsbestemmelsene i militær straffelov og i forsvarsloven kapittel 8 helt eller delvis skal kunne anvendes ved handlinger foretatt av norsk militært personell i internasjonale operasjoner eller i annen internasjonal innsats.
->
 > § 463.
 >
-> § 464.Militærpolitiet, offiserer og befal kan etterforske de straffesaker som fremgår av lov om politimyndighet i forsvaret § 5.Personer som nevnt i første ledd likestilles med polititjenestemenn ved etterforskning og bruk av tvangsmidler.Påtalemyndigheten kan i etterforskningen gi pålegg til personer som nevnt i første ledd.
+> Straffesaker med tilknytning til Forsvaret følger lovens alminnelige regler med de unntak som følger av denne del. Sakene behandles i fred og i krig ved de alminnelige domstoler.
+>
+> Kongen kan bestemme at krigstidsbestemmelsene i militær straffelov og i forsvarsloven kapittel 8 helt eller delvis skal kunne anvendes ved handlinger foretatt av norsk militært personell i internasjonale operasjoner eller i annen internasjonal innsats.
 >
 > § 464.
 >
-> § 465.I saker som gjelder overtredelse av militær straffelov § 34, jf. § 95 eller § 35, jf. § 96 og hvor tiltalte ikke er til stede, kan hovedforhandling i krig fremmes etter reglene i § 281 uten hensyn til den straff som vil bli påstått idømt, eller etter § 336 andre ledd uten hensyn til den straff som er idømt.
+> Militærpolitiet, offiserer og befal kan etterforske de straffesaker som fremgår av lov om politimyndighet i forsvaret § 5.
+>
+> Personer som nevnt i første ledd likestilles med polititjenestemenn ved etterforskning og bruk av tvangsmidler.
+>
+> Påtalemyndigheten kan i etterforskningen gi pålegg til personer som nevnt i første ledd.
 >
 > § 465.
 >
-> § 466.Riksadvokaten utpeker et antall tjenestepersoner i påtalemyndigheten som skal ha ansvar for å behandle straffesaker med tilknytning til Forsvaret når riket er i krig eller krig truer eller rikets selvstendighet eller sikkerhet er i fare.Slikt utpekt personell har etter søknad fra riksadvokaten fritak fra tjeneste i Forsvaret ved krig, når krig truer og ved styrkeoppbygging.
+> I saker som gjelder overtredelse av militær straffelov § 34, jf. § 95 eller § 35, jf. § 96 og hvor tiltalte ikke er til stede, kan hovedforhandling i krig fremmes etter reglene i § 281 uten hensyn til den straff som vil bli påstått idømt, eller etter § 336 andre ledd uten hensyn til den straff som er idømt.
 >
 > § 466.
 >
-> § 467.Kongen kan for straffesaker med tilknytning til Forsvaret gi forskrift ompåtalemyndighetens behandling av slike sakersærskilt vernetingfagkyndige meddommereadgangen til å sette rett i utlandet.
+> Riksadvokaten utpeker et antall tjenestepersoner i påtalemyndigheten som skal ha ansvar for å behandle straffesaker med tilknytning til Forsvaret når riket er i krig eller krig truer eller rikets selvstendighet eller sikkerhet er i fare.
+>
+> Slikt utpekt personell har etter søknad fra riksadvokaten fritak fra tjeneste i Forsvaret ved krig, når krig truer og ved styrkeoppbygging.
 >
 > § 467.
+>
+> Kongen kan for straffesaker med tilknytning til Forsvaret gi forskrift ompåtalemyndighetens behandling av slike sakersærskilt vernetingfagkyndige meddommereadgangen til å sette rett i utlandet.
 >
 
 ### 2023-11-24 — lov/2023-11-24-84
@@ -458,21 +640,27 @@ refid: "lov/1981-05-22-25"
 
 > Kap. 17 d. Elektronisk kontroll av besøksforbud og kontaktforbud
 >
-> § 222 g.Påtalemyndigheten kan ilegge elektronisk kontroll av et besøksforbud eller kontaktforbud dersom den forbudet retter seg mot, med skjellig grunn mistenkes for brudd på forbudet, og elektronisk kontroll anses nødvendig for at forbudet skal bli overholdt. Gjelder mistanken en krenkelse begått de siste 12 månedene, kan elektronisk kontroll ilegges sammen med et nytt besøksforbud. Selv om det ikke er skjellig grunn til mistanke om brudd på et besøksforbud, kan det i særlige tilfeller ilegges elektronisk kontroll av besøksforbud når det antas påkrevd for å hindre at noen begår en straffbar handling mot en annen person. § 170 a gjelder tilsvarende.Elektronisk kontroll kan ilegges for hele eller deler av perioden besøksforbudet eller kontaktforbudet gjelder for, men likevel ikke utover tidsrammene i § 222 a fjerde ledd.Påtalemyndighetens beslutning om å ilegge elektronisk kontroll skal være skriftlig. Den forbudet er rettet mot, og den forbudet skal beskytte, skal underrettes om beslutningen og sine rettigheter etter fjerde ledd. Beslutningen skal også forkynnes for den forbudet er rettet mot. Den forbudet er rettet mot, skal også gjøres kjent med følgene av ikke å medvirke til kontrollen, jf. straffeloven § 168 bokstav c.Påtalemyndigheten skal snarest råd og så vidt mulig innen 5 dager etter at en beslutning om å ilegge en person elektronisk kontroll er forkynt, bringe beslutningen inn for retten. Den som blir ilagt elektronisk kontroll, kan gi avkall på retten til prøving. § 222 a sjette ledd fjerde og femte punktum gjelder tilsvarende. Påbud om elektronisk kontroll kan etter 6 måneder prøves på nytt av tingretten. § 222 a åttende ledd annet til sjette punktum gjelder tilsvarende.
->
 > § 222 g.
 >
-> § 222 h.Den som ilegges elektronisk kontroll, plikter å yte den bistand og å følge de instruksjoner som gis av politiet, som er nødvendig for å gjennomføre kontrollen, herunder å vedlikeholde og sørge for signaler fra kontrollutstyret. Utenfor områder omfattet av forbudet kan handlinger som ellers ville utløst alarmen, bare foretas med bistand fra politiet. Opphold innenfor forbudssonen kan bare skje etter tillatelse fra politiet.
+> Påtalemyndigheten kan ilegge elektronisk kontroll av et besøksforbud eller kontaktforbud dersom den forbudet retter seg mot, med skjellig grunn mistenkes for brudd på forbudet, og elektronisk kontroll anses nødvendig for at forbudet skal bli overholdt. Gjelder mistanken en krenkelse begått de siste 12 månedene, kan elektronisk kontroll ilegges sammen med et nytt besøksforbud. Selv om det ikke er skjellig grunn til mistanke om brudd på et besøksforbud, kan det i særlige tilfeller ilegges elektronisk kontroll av besøksforbud når det antas påkrevd for å hindre at noen begår en straffbar handling mot en annen person. § 170 a gjelder tilsvarende.
+>
+> Elektronisk kontroll kan ilegges for hele eller deler av perioden besøksforbudet eller kontaktforbudet gjelder for, men likevel ikke utover tidsrammene i § 222 a fjerde ledd.
+>
+> Påtalemyndighetens beslutning om å ilegge elektronisk kontroll skal være skriftlig. Den forbudet er rettet mot, og den forbudet skal beskytte, skal underrettes om beslutningen og sine rettigheter etter fjerde ledd. Beslutningen skal også forkynnes for den forbudet er rettet mot. Den forbudet er rettet mot, skal også gjøres kjent med følgene av ikke å medvirke til kontrollen, jf. straffeloven § 168 bokstav c.
+>
+> Påtalemyndigheten skal snarest råd og så vidt mulig innen 5 dager etter at en beslutning om å ilegge en person elektronisk kontroll er forkynt, bringe beslutningen inn for retten. Den som blir ilagt elektronisk kontroll, kan gi avkall på retten til prøving. § 222 a sjette ledd fjerde og femte punktum gjelder tilsvarende. Påbud om elektronisk kontroll kan etter 6 måneder prøves på nytt av tingretten. § 222 a åttende ledd annet til sjette punktum gjelder tilsvarende.
 >
 > § 222 h.
 >
-> § 222 i.Elektronisk kontroll kan bare omfatte registrering av opplysninger om at den som kontrolleres, beveger seg innenfor områder omfattet av forbudet eller i nærheten av den kontrollen skal beskytte, og opplysninger om uteblitte signaler fra kontrollutstyret.
+> Den som ilegges elektronisk kontroll, plikter å yte den bistand og å følge de instruksjoner som gis av politiet, som er nødvendig for å gjennomføre kontrollen, herunder å vedlikeholde og sørge for signaler fra kontrollutstyret. Utenfor områder omfattet av forbudet kan handlinger som ellers ville utløst alarmen, bare foretas med bistand fra politiet. Opphold innenfor forbudssonen kan bare skje etter tillatelse fra politiet.
 >
 > § 222 i.
 >
-> § 222 j.Kongen kan i forskrift gi nærmere regler om gjennomføringen av elektronisk kontroll, herunder om saksbehandlingen og behandling av personopplysninger i forbindelse med slik kontroll.
+> Elektronisk kontroll kan bare omfatte registrering av opplysninger om at den som kontrolleres, beveger seg innenfor områder omfattet av forbudet eller i nærheten av den kontrollen skal beskytte, og opplysninger om uteblitte signaler fra kontrollutstyret.
 >
 > § 222 j.
+>
+> Kongen kan i forskrift gi nærmere regler om gjennomføringen av elektronisk kontroll, herunder om saksbehandlingen og behandling av personopplysninger i forbindelse med slik kontroll.
 >
 
 ### 2024-06-21 — lov/2024-06-21-46
@@ -480,6 +668,13 @@ refid: "lov/1981-05-22-25"
 *2.I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 121 første punktum lyde:*
 
 > Selv om forholdet ikke går inn under § 119, kan retten frita et vitne for å svare på spørsmål om noe som er blitt betrodd det under sjelesorg, sosialt hjelpearbeid, medisinsk behandling, rettslig bistand eller liknende virksomhet.
+>
+
+### 2024-07-01 — forskrift/2024-06-14-1007
+
+*Delt ikraftsetting av lov 24. november 2023 nr. 84 om endringer i forsvarsloven mv. (militær disiplinærmyndighet). Loven del VI (endringer i straffeprosessloven), med unntak av § 464, trer i kraft 1. juli 2024.*
+
+> Delt ikraftsetting av lov 24. november 2023 nr. 84 om endringer i forsvarsloven mv. (militær disiplinærmyndighet). Loven del VI (endringer i straffeprosessloven), med unntak av § 464, trer i kraft 1. juli 2024.
 >
 
 ### 2025-06-10 — lov/2025-06-10-32
@@ -508,6 +703,13 @@ refid: "lov/1981-05-22-25"
 *2.I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 andre ledd bokstav c lyde:*
 
 > overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, vareførselsloven § 12-9, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, allmenngjøringsloven § 15, kystvaktloven § 36 annet ledd, viltressursloven § 60, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23a.
+>
+
+### 2025-08-15 — forskrift/2025-05-15-801
+
+*Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll). Endringsloven del III (straffeprosessloven) ny § 184b trer i kraft 15. august 2025.*
+
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll). Endringsloven del III (straffeprosessloven) ny § 184b trer i kraft 15. august 2025.
 >
 
 ### 2026-06-12 — lov/2026-06-12-32
@@ -553,21 +755,47 @@ refid: "lov/1981-05-22-25"
 
 > Kap 15 b. Skjult kameraovervåking
 >
-> § 202 d.Politiet kan iverksette skjult kameraovervåking rettet mot personer på offentlig og privat sted når det foreligger skjellig grunn til mistanke om en straffbar handling som etter loven kan medføre frihetsstraff.Beslutning treffes av påtalemyndigheten. Beslutningen skal så vidt mulig være skriftlig og opplyse om hva saken gjelder, og hva tiltaket går ut på. En muntlig beslutning skal snarest mulig nedtegnes.Uten beslutning fra påtalemyndigheten kan polititjenestepersoner iverksette skjult kameraovervåking nårmistenkte observeres på fersk gjerning eller ferske spor, ellerdet ved opphold er fare for at etterforskningen vil lide.Kameraovervåkingen skal meldes til påtalemyndigheten for godkjennelse så snart som mulig.
->
 > § 202 d.
 >
-> § 202 e.Vedvarende eller regelmessig gjentatt skjult kameraovervåking kan rettes mot personer på offentlig sted eller privat sted som er synlig for allmennheten, når det foreligger skjellig grunn til mistanke om en eller flere straffbare handlinger som etter loven kan medføre høyere straff enn fengsel i 6 måneder, og slik overvåking vil være av vesentlig betydning for etterforskningen. Tillatelse gis av retten ved beslutning.Dersom det ved opphold er stor fare for at etterforskningen vil lide, kan ordre fra påtalemyndigheten tre istedenfor rettens avgjørelse etter første ledd. Reglene i § 216 d gjelder tilsvarende.
+> Politiet kan iverksette skjult kameraovervåking rettet mot personer på offentlig og privat sted når det foreligger skjellig grunn til mistanke om en straffbar handling som etter loven kan medføre frihetsstraff.
+>
+> Beslutning treffes av påtalemyndigheten. Beslutningen skal så vidt mulig være skriftlig og opplyse om hva saken gjelder, og hva tiltaket går ut på. En muntlig beslutning skal snarest mulig nedtegnes.
+>
+> Uten beslutning fra påtalemyndigheten kan polititjenestepersoner iverksette skjult kameraovervåking nårmistenkte observeres på fersk gjerning eller ferske spor, ellerdet ved opphold er fare for at etterforskningen vil lide.Kameraovervåkingen skal meldes til påtalemyndigheten for godkjennelse så snart som mulig.
 >
 > § 202 e.
 >
-> § 202 f.Vedvarende eller regelmessig gjentatt skjult kameraovervåking kan rettes mot personer på privat sted som ikke er synlig for allmennheten, når noen med skjellig grunn mistenkes for en handling eller forsøk på en handlingsom etter loven kan medføre straff av fengsel i 10 år eller mer, ellersom rammes av straffeloven §§ 121, 123, 125, 126, 127 jf. 123, § 128 første punktum, §§ 129, 130, 136, 136 a, 231, 254, 257, 311, 332 jf. 231, 335 jf. 231, 337 jf. 231 eller 340 jf. 231, av lov om kontroll med eksport av strategiske varer, tjenester og teknologi m.v. § 5 eller av lov om utlendingers adgang til riket og deres opphold her § 108 femte ledd.Tillatelse gis av retten ved kjennelse.Tillatelse kan bare gis for sted hvor det må antas at den mistenkte vil oppholde seg.Tillatelse kan bare gis dersom det må antas at slik overvåking vil være av vesentlig betydning for å oppklare saken, og oppklaring ellers i vesentlig grad vil bli vanskeliggjort.Reglene i § 202 e annet ledd gjelder tilsvarende.
+> Vedvarende eller regelmessig gjentatt skjult kameraovervåking kan rettes mot personer på offentlig sted eller privat sted som er synlig for allmennheten, når det foreligger skjellig grunn til mistanke om en eller flere straffbare handlinger som etter loven kan medføre høyere straff enn fengsel i 6 måneder, og slik overvåking vil være av vesentlig betydning for etterforskningen. Tillatelse gis av retten ved beslutning.
+>
+> Dersom det ved opphold er stor fare for at etterforskningen vil lide, kan ordre fra påtalemyndigheten tre istedenfor rettens avgjørelse etter første ledd. Reglene i § 216 d gjelder tilsvarende.
 >
 > § 202 f.
 >
-> § 202 g.Det kan ikke gis tillatelse til å overvåke noens private hjem etter reglene i dette kapittelet.Tillatelse til skjult kameraovervåking av sted hvor advokat, lege, prest eller andre erfaringsmessig fører samtaler av svært fortrolig art eller av redaksjonslokale eller tilsvarende sted hvor redaktør eller journalist fører samtaler av yrkesmessig art, kan bare gis når det foreligger særlige grunner, såfremt vedkommende ikke selv er mistenkt i saken. Slik tillatelse kan kun gis etter reglene i §§ 202 e eller 202 f.Tillatelse til skjult kameraovervåking etter §§ 202 e og 202 f gis for et bestemt tidsrom som ikke kan være lengre enn strengt nødvendig, og som uansett ikke kan overstige 4 uker om gangen.Når ikke annet er bestemt i avgjørelsen om skjult kameraovervåking etter §§ 202 e og 202 f, kan politiet i medhold av disse bestemmelsene foreta innbrudd for å plassere eller fjerne utstyr som er nødvendig for å gjennomføre kameraovervåkingen.Avgjørelse om skjult kameraovervåking treffes uten at den mistenkte eller den som avgjørelsen ellers rammer, gis adgang til å uttale seg, og avgjørelsen blir ikke meddelt dem. Ved tillatelse etter § 202 f skal likevel mistenkte og den som har rådighet over stedet, underrettes om overvåkingen når den er avsluttet. Reglene i § 216 j gjelder tilsvarende.Regelen i § 196 gjelder tilsvarende.Reglene i § 216 g gjelder tilsvarende så langt de passer.
+> Vedvarende eller regelmessig gjentatt skjult kameraovervåking kan rettes mot personer på privat sted som ikke er synlig for allmennheten, når noen med skjellig grunn mistenkes for en handling eller forsøk på en handlingsom etter loven kan medføre straff av fengsel i 10 år eller mer, ellersom rammes av straffeloven §§ 121, 123, 125, 126, 127 jf. 123, § 128 første punktum, §§ 129, 130, 136, 136 a, 231, 254, 257, 311, 332 jf. 231, 335 jf. 231, 337 jf. 231 eller 340 jf. 231, av lov om kontroll med eksport av strategiske varer, tjenester og teknologi m.v. § 5 eller av lov om utlendingers adgang til riket og deres opphold her § 108 femte ledd.
+>
+> Tillatelse gis av retten ved kjennelse.
+>
+> Tillatelse kan bare gis for sted hvor det må antas at den mistenkte vil oppholde seg.
+>
+> Tillatelse kan bare gis dersom det må antas at slik overvåking vil være av vesentlig betydning for å oppklare saken, og oppklaring ellers i vesentlig grad vil bli vanskeliggjort.
+>
+> Reglene i § 202 e annet ledd gjelder tilsvarende.
 >
 > § 202 g.
+>
+> Det kan ikke gis tillatelse til å overvåke noens private hjem etter reglene i dette kapittelet.
+>
+> Tillatelse til skjult kameraovervåking av sted hvor advokat, lege, prest eller andre erfaringsmessig fører samtaler av svært fortrolig art eller av redaksjonslokale eller tilsvarende sted hvor redaktør eller journalist fører samtaler av yrkesmessig art, kan bare gis når det foreligger særlige grunner, såfremt vedkommende ikke selv er mistenkt i saken. Slik tillatelse kan kun gis etter reglene i §§ 202 e eller 202 f.
+>
+> Tillatelse til skjult kameraovervåking etter §§ 202 e og 202 f gis for et bestemt tidsrom som ikke kan være lengre enn strengt nødvendig, og som uansett ikke kan overstige 4 uker om gangen.
+>
+> Når ikke annet er bestemt i avgjørelsen om skjult kameraovervåking etter §§ 202 e og 202 f, kan politiet i medhold av disse bestemmelsene foreta innbrudd for å plassere eller fjerne utstyr som er nødvendig for å gjennomføre kameraovervåkingen.
+>
+> Avgjørelse om skjult kameraovervåking treffes uten at den mistenkte eller den som avgjørelsen ellers rammer, gis adgang til å uttale seg, og avgjørelsen blir ikke meddelt dem. Ved tillatelse etter § 202 f skal likevel mistenkte og den som har rådighet over stedet, underrettes om overvåkingen når den er avsluttet. Reglene i § 216 j gjelder tilsvarende.
+>
+> Regelen i § 196 gjelder tilsvarende.
+>
+> Reglene i § 216 g gjelder tilsvarende så langt de passer.
 >
 
 ## § 1
@@ -627,12 +855,6 @@ refid: "lov/1981-05-22-25"
 *§ 100 tredje ledd skal lyde:*
 
 > I saker hvor den fornærmede har bistandsadvokat, omfatter oppnevning som forsvarer ogsåfortsatt behandling av sivile krav etter tvistelovens regler, jf. § 434 syvende ledd,særskilt anke over sivile krav etter tvistelovens regler, jf. § 434 åttende ledd,ny prøving av sivile krav i gjenåpningssak etter tvistelovens regler, jf. § 435 annet ledd.
->
-> fortsatt behandling av sivile krav etter tvistelovens regler, jf. § 434 syvende ledd,
->
-> særskilt anke over sivile krav etter tvistelovens regler, jf. § 434 åttende ledd,
->
-> ny prøving av sivile krav i gjenåpningssak etter tvistelovens regler, jf. § 435 annet ledd.
 >
 
 ## § 100 a
@@ -885,10 +1107,6 @@ refid: "lov/1981-05-22-25"
 
 > Fornærmede har rett til å få oppnevnt bistandsadvokat i saker:om overtredelse av straffeloven §§ 168, 253, 257, 282, 284, 291, 294, 295, 296, 299, 302, 304, 312 og 314,hvor det er grunn til å tro at fornærmede som følge av handlingen får betydelig skade på kropp eller helse.
 >
-> om overtredelse av straffeloven §§ 168, 253, 257, 282, 284, 291, 294, 295, 296, 299, 302, 304, 312 og 314,
->
-> hvor det er grunn til å tro at fornærmede som følge av handlingen får betydelig skade på kropp eller helse.
->
 
 ### 2023-12-20 — lov/2023-12-20-111
 
@@ -981,9 +1199,9 @@ refid: "lov/1981-05-22-25"
 
 *§ 107 e skal lyde:*
 
-> § 107 e.Oppnevning som bistandsadvokat omfatter ogsåfortsatt behandling av sivile krav etter tvistelovens regler, jf. § 434 syvende ledd,særskilt anke over sivile krav etter tvistelovens regler, jf. § 434 åttende ledd,ny prøving av sivile krav i gjenåpningssak etter tvistelovens regler, jf. § 435 annet ledd.
->
 > § 107 e.
+>
+> Oppnevning som bistandsadvokat omfatter ogsåfortsatt behandling av sivile krav etter tvistelovens regler, jf. § 434 syvende ledd,særskilt anke over sivile krav etter tvistelovens regler, jf. § 434 åttende ledd,ny prøving av sivile krav i gjenåpningssak etter tvistelovens regler, jf. § 435 annet ledd.
 >
 
 ## § 107 f
@@ -1697,9 +1915,13 @@ refid: "lov/1981-05-22-25"
 
 *Ny § 184 b skal lyde:*
 
-> § 184 b.Retten kan beslutte at fengsling etter § 184 skal gjennomføres som opphold på bestemte steder med elektronisk kontroll, dersom slik gjennomføring utenfor fengsel anses egnet. Oppholdspåbudet kan kombineres med forføyninger nevnt i § 181 første ledd annet punktum.Oppholdspåbud etter første ledd kan bare ilegges dersom siktede og myndige husstandsmedlemmer samtykker. Er siktede under 18 år, må også siktedes verger samtykke. Mindreårige husstandsmedlemmer skal få anledning til å uttale seg etter alder og modenhet, og den mindreåriges verger må samtykke. Dersom oppholdsstedet er en institusjon eller en kommunal boenhet, må institusjonen eller kommunen samtykke.Kongen kan gi nærmere forskrifter om oppholdspåbud etter bestemmelsen her, herunder om saksbehandling og om behandling av personopplysninger i forbindelse med den elektroniske kontrollen.
->
 > § 184 b.
+>
+> Retten kan beslutte at fengsling etter § 184 skal gjennomføres som opphold på bestemte steder med elektronisk kontroll, dersom slik gjennomføring utenfor fengsel anses egnet. Oppholdspåbudet kan kombineres med forføyninger nevnt i § 181 første ledd annet punktum.
+>
+> Oppholdspåbud etter første ledd kan bare ilegges dersom siktede og myndige husstandsmedlemmer samtykker. Er siktede under 18 år, må også siktedes verger samtykke. Mindreårige husstandsmedlemmer skal få anledning til å uttale seg etter alder og modenhet, og den mindreåriges verger må samtykke. Dersom oppholdsstedet er en institusjon eller en kommunal boenhet, må institusjonen eller kommunen samtykke.
+>
+> Kongen kan gi nærmere forskrifter om oppholdspåbud etter bestemmelsen her, herunder om saksbehandling og om behandling av personopplysninger i forbindelse med den elektroniske kontrollen.
 >
 
 ## § 185
@@ -2684,19 +2906,7 @@ refid: "lov/1981-05-22-25"
 
 > Påtalemyndigheten kan nedlegge besøksforbud dersom det er grunn til å tro at en person ellers vilbegå en straffbar handling overfor en annen person,forfølge en annen person,på annet vis krenke en annens fred, ellerbegå ordensforstyrrelser som er særlig belastende for en annen person.Slikt forbud kan også nedlegges til beskyttelse for en nærmere avgrenset krets av personer. Forbudet kan nedlegges dersom den som forbudet skal beskytte, har begjært det, eller allmenne hensyn krever det. § 170 a gjelder tilsvarende.
 >
-> begå en straffbar handling overfor en annen person,
->
-> forfølge en annen person,
->
-> på annet vis krenke en annens fred, eller
->
-> begå ordensforstyrrelser som er særlig belastende for en annen person.
->
 > Besøksforbudet kan gå ut på at den forbudet retter seg mot, forbyså oppholde seg på et bestemt sted,å forfølge, besøke eller på annet vis kontakte en annen person.Er det nærliggende fare for en handling som nevnt i første ledd bokstav a, kan personen forbys å oppholde seg i sitt eget hjem.
->
-> å oppholde seg på et bestemt sted,
->
-> å forfølge, besøke eller på annet vis kontakte en annen person.
 >
 > Besøksforbudet kan begrenses på nærmere angitte vilkår.
 >
@@ -2730,9 +2940,21 @@ refid: "lov/1981-05-22-25"
 
 *§ 222 c skal lyde:*
 
-> § 222 c.Påtalemyndigheten kan forby et barn under 15 år å oppholde seg på et bestemt sted dersom det er grunn til å tro at opphold på stedet øker faren for at barnet begår en ellers straffbar handling. § 170 a gjelder tilsvarende.Oppholdsforbud som nevnt i første ledd kan ilegges et barn mellom 15 og 18 år dersom det er grunn til å tro at opphold på stedet øker faren for at barnet begår en straffbar handling.Oppholdsforbudet skal gjelde for en bestemt tid, høyst 6 måneder av gangen. Oppholdsforbud kan bare opprettholdes så lenge vilkårene er oppfylt.Før beslutning om oppholdsforbud tas, skal påtalemyndigheten gi barnet mulighet til å uttale seg.Påtalemyndighetens beslutning om å ilegge et oppholdsforbud skal være skriftlig og angi den forbudet er rettet mot og grunnlaget for forbudet. § 222 a femte ledd tredje og syvende punktum gjelder tilsvarende så langt de passer.Påtalemyndigheten skal spørre vergen om vedkommende samtykker i oppholdsforbudet. Er barnet over 15 år, skal også barnet spørres om vedkommende samtykker i oppholdsforbudet. Samtykkene skal gis skriftlig.Dersom vergen, eller barnet dersom det er over 15 år, ikke samtykker i oppholdsforbudet, må påtalemyndigheten snarest råd og så vidt mulig innen fem dager etter at samtykke ble nektet, bringe beslutning om oppholdsforbud inn for retten. § 222 a sjette ledd fjerde punktum og åttende ledd annet, tredje, femte og sjette punktum gjelder tilsvarende så langt de passer.
->
 > § 222 c.
+>
+> Påtalemyndigheten kan forby et barn under 15 år å oppholde seg på et bestemt sted dersom det er grunn til å tro at opphold på stedet øker faren for at barnet begår en ellers straffbar handling. § 170 a gjelder tilsvarende.
+>
+> Oppholdsforbud som nevnt i første ledd kan ilegges et barn mellom 15 og 18 år dersom det er grunn til å tro at opphold på stedet øker faren for at barnet begår en straffbar handling.
+>
+> Oppholdsforbudet skal gjelde for en bestemt tid, høyst 6 måneder av gangen. Oppholdsforbud kan bare opprettholdes så lenge vilkårene er oppfylt.
+>
+> Før beslutning om oppholdsforbud tas, skal påtalemyndigheten gi barnet mulighet til å uttale seg.
+>
+> Påtalemyndighetens beslutning om å ilegge et oppholdsforbud skal være skriftlig og angi den forbudet er rettet mot og grunnlaget for forbudet. § 222 a femte ledd tredje og syvende punktum gjelder tilsvarende så langt de passer.
+>
+> Påtalemyndigheten skal spørre vergen om vedkommende samtykker i oppholdsforbudet. Er barnet over 15 år, skal også barnet spørres om vedkommende samtykker i oppholdsforbudet. Samtykkene skal gis skriftlig.
+>
+> Dersom vergen, eller barnet dersom det er over 15 år, ikke samtykker i oppholdsforbudet, må påtalemyndigheten snarest råd og så vidt mulig innen fem dager etter at samtykke ble nektet, bringe beslutning om oppholdsforbud inn for retten. § 222 a sjette ledd fjerde punktum og åttende ledd annet, tredje, femte og sjette punktum gjelder tilsvarende så langt de passer.
 >
 
 ## § 222 d
@@ -6098,9 +6320,15 @@ refid: "lov/1981-05-22-25"
 
 *§ 435 skal lyde:*
 
-> § 435.Ved gjenåpning av straffesaken kan en part på samme vilkår som nevnt i § 434 første ledd kreve at avgjørelsen av sivile krav gjenåpnes til ny prøving.Gjenåpning av avgjørelsen av sivile krav i andre tilfeller følger tvistelovens regler. Fristen i tvisteloven § 31-6 annet ledd gjelder likevel ikke.Reglene i § 308 gjelder tilsvarende.Ender gjenåpningssaken med frifinnelse for et sivilt krav, skal et tilbakebetalingskrav for utbetalt erstatning dekkes av staten dersom gjenåpning ble begjært mer enn ti år etter at kravet ble pådømt.
->
 > § 435.
+>
+> Ved gjenåpning av straffesaken kan en part på samme vilkår som nevnt i § 434 første ledd kreve at avgjørelsen av sivile krav gjenåpnes til ny prøving.
+>
+> Gjenåpning av avgjørelsen av sivile krav i andre tilfeller følger tvistelovens regler. Fristen i tvisteloven § 31-6 annet ledd gjelder likevel ikke.
+>
+> Reglene i § 308 gjelder tilsvarende.
+>
+> Ender gjenåpningssaken med frifinnelse for et sivilt krav, skal et tilbakebetalingskrav for utbetalt erstatning dekkes av staten dersom gjenåpning ble begjært mer enn ti år etter at kravet ble pådømt.
 >
 
 ## § 436
@@ -6470,9 +6698,15 @@ refid: "lov/1981-05-22-25"
 
 *§ 459 skal lyde:*
 
-> § 459.Fullbyrding av frihetsstraff, samfunnsstraff, ungdomsstraff, ungdomsoppfølging eller oppfølging i konfliktrådet skal utsettes dersom domfelte eller siktede er blitt utilregnelig på grunn av sterkt avvikende sinnstilstand eller vedkommendes helsetilstand ellers gjør fullbyrding utilrådelig.Ellers kan fullbyrding av reaksjoner som nevnt i første ledd utsettes når vektige grunner tilsier det.Utsettelse etter annet ledd kan gjøres betinget av sikkerhetsstillelse. Det kan også settes andre vilkår. Ved utsettelse av ungdomsstraff, ungdomsoppfølging eller oppfølging i konfliktrådet kan det kun stilles vilkår etter konfliktrådsloven § 31 annet ledd eller § 33 annet ledd.Kriminalomsorgen treffer vedtak etter bestemmelsene her i saker som gjelder frihetsstraff eller samfunnsstraff. Forvaltningsloven gjelder i slike tilfeller med de unntak som er nevnt i straffegjennomføringsloven § 7. Konfliktrådet treffer vedtak i saker som gjelder ungdomsstraff, ungdomsoppfølging eller oppfølging i konfliktrådet. Forvaltningsloven gjelder i slike tilfeller med de unntak som følger av eller i medhold av konfliktrådsloven. Oppstår det uenighet om fullbyrdingen skal utsettes fordi domfelte eller siktede er blitt alvorlig sinnslidende eller hans helsetilstand ellers gjør fullbyrding utilrådelig, kan domfelte eller siktede kreve spørsmålet avgjort ved kjennelse etter § 462.
->
 > § 459.
+>
+> Fullbyrding av frihetsstraff, samfunnsstraff, ungdomsstraff, ungdomsoppfølging eller oppfølging i konfliktrådet skal utsettes dersom domfelte eller siktede er blitt utilregnelig på grunn av sterkt avvikende sinnstilstand eller vedkommendes helsetilstand ellers gjør fullbyrding utilrådelig.
+>
+> Ellers kan fullbyrding av reaksjoner som nevnt i første ledd utsettes når vektige grunner tilsier det.
+>
+> Utsettelse etter annet ledd kan gjøres betinget av sikkerhetsstillelse. Det kan også settes andre vilkår. Ved utsettelse av ungdomsstraff, ungdomsoppfølging eller oppfølging i konfliktrådet kan det kun stilles vilkår etter konfliktrådsloven § 31 annet ledd eller § 33 annet ledd.
+>
+> Kriminalomsorgen treffer vedtak etter bestemmelsene her i saker som gjelder frihetsstraff eller samfunnsstraff. Forvaltningsloven gjelder i slike tilfeller med de unntak som er nevnt i straffegjennomføringsloven § 7. Konfliktrådet treffer vedtak i saker som gjelder ungdomsstraff, ungdomsoppfølging eller oppfølging i konfliktrådet. Forvaltningsloven gjelder i slike tilfeller med de unntak som følger av eller i medhold av konfliktrådsloven. Oppstår det uenighet om fullbyrdingen skal utsettes fordi domfelte eller siktede er blitt alvorlig sinnslidende eller hans helsetilstand ellers gjør fullbyrding utilrådelig, kan domfelte eller siktede kreve spørsmålet avgjort ved kjennelse etter § 462.
 >
 
 ## § 461
@@ -7481,18 +7715,6 @@ refid: "lov/1981-05-22-25"
 *§ 76 femte ledd skal lyde:*
 
 > Ved rettsmøter i tingretten og lagmannsretten kan tilsatte i kriminalomsorgen møte i sakerom fullbyrding av subsidiær fengselsstraff etter straffeloven § 52 første ledd bokstav a,om fullbyrding av subsidiær fengselsstraff, omgjøring til samfunnsstraff eller betinget fengsel etter straffeloven § 52 c første ledd bokstav a,om fastsetting av vilkår for fortsatt gjennomføring av ungdomsstraff etter straffeloven § 52 c fjerde og femte ledd,om ileggelse av reststraff etter prøveløslatelse etter straffegjennomføringsloven § 44 annet ledd,om fullbyrding skal utsettes etter § 459 første ledd, ogsom kriminalomsorgen har brakt inn for retten etter straffeloven § 39 første og annet ledd.Bestemmelser om påtalemyndighetens rettigheter og plikter gjelder tilsvarende.
->
-> om fullbyrding av subsidiær fengselsstraff etter straffeloven § 52 første ledd bokstav a,
->
-> om fullbyrding av subsidiær fengselsstraff, omgjøring til samfunnsstraff eller betinget fengsel etter straffeloven § 52 c første ledd bokstav a,
->
-> om fastsetting av vilkår for fortsatt gjennomføring av ungdomsstraff etter straffeloven § 52 c fjerde og femte ledd,
->
-> om ileggelse av reststraff etter prøveløslatelse etter straffegjennomføringsloven § 44 annet ledd,
->
-> om fullbyrding skal utsettes etter § 459 første ledd, og
->
-> som kriminalomsorgen har brakt inn for retten etter straffeloven § 39 første og annet ledd.
 >
 
 ## § 78

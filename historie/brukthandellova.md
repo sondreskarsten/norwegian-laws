@@ -5,6 +5,15 @@ refid: "lov/1999-12-22-105"
 
 # Endringshistorikk: Brukthandellova – brhll
 
+## (annet)
+
+### 2024-07-01 — forskrift/2024-06-14-957
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ## § 1
 
 ### 2024-06-14 — lov/2024-06-14-38
@@ -12,16 +21,6 @@ refid: "lov/1999-12-22-105"
 *§ 1 første ledd skal lyde:*
 
 > Denne lova gjeld handelsverksemd med brukte og kassertevarer av edelt metall,edelsteinar og perler,kulturgjenstandar,kunstverk, samleobjekt og antikvitetar,motorvogner og tilhengjarar til motorvogner.Departementet fastset nærare forskrifter om kva for varer og gjenstandar som skal reknast for omfatta av verkeområdet etter punkt 1 til 5.
->
-> varer av edelt metall,
->
-> edelsteinar og perler,
->
-> kulturgjenstandar,
->
-> kunstverk, samleobjekt og antikvitetar,
->
-> motorvogner og tilhengjarar til motorvogner.
 >
 
 ### 2024-06-14 — lov/2024-06-14-38

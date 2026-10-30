@@ -11,6 +11,15 @@ refid: "lov/1999-01-15-1"
 
 *Nåværende andre punktum blir nytt tredje punktum.*
 
+### 2019-06-21 — lov/2019-06-21-25
+
+*I lov 15. januar 1999 nr. 1 om pensjonsordning for ledsagere i utenrikstjenesten skal § 1 lyde:*
+
+> § 1.Virkekrets
+>
+> Denne lov gjelder ektefeller som ledsager utsendte utenrikstjenestemenn. Loven gjelder også samboere som ledsager utsendte utenrikstjenestemenn, når paret lever sammen og har, eller har hatt, felles barn eller tidligere har vært gift med hverandre.
+>
+
 ### 2020-12-04 — lov/2020-12-04-132
 
 *I lov 15. januar 1999 nr. 1 om pensjonsordning for ledsagere i utenrikstjenesten skal ny § 3 a lyde:*
@@ -18,6 +27,13 @@ refid: "lov/1999-01-15-1"
 > § 3 a.Behandling av personopplysninger
 >
 > Bestemmelsene i lov om Statens pensjonskasse § 45 b om behandling av personopplysninger gjelder tilsvarende.
+>
+
+### 2022-04-01 — lov/2022-04-01-17
+
+*I lov 15. januar 1999 nr. 1 om pensjonsordning for ledsagere i utenrikstjenesten skal § 3 syvende ledd første punktum lyde:*
+
+> Pensjon under utbetaling reguleres årlig fra 1. mai i samsvar med et gjennomsnitt av lønns- og prisvekst.
 >
 
 ## § 1

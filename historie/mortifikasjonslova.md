@@ -7,13 +7,20 @@ refid: "lov/1959-12-18-1"
 
 ## (annet)
 
+### 2013-06-14 — lov/2013-06-14-41
+
+*I lov 18. desember 1959 nr. 1 om mortifikasjon av skuldbrev m.v. skal § 7 annet ledd fjerde punktum lyde:*
+
+> Oppmaninga skal utlysast ein gong i Norsk Lysingsblad.
+>
+
 ### 2026-05-07 — lov/2026-05-07-17
 
 *I lov 18. desember 1959 nr. 1 om mortifikasjon av skuldbrev m.v. skal § 4 lyde:*
 
-> § 4.Krav om mortifikasjon som høyrer under norsk domstol, lyt søkjaren bera fram for Helgeland tingrett.
->
 > § 4.
+>
+> Krav om mortifikasjon som høyrer under norsk domstol, lyt søkjaren bera fram for Helgeland tingrett.
 >
 
 ## § 14

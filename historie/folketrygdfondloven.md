@@ -11,6 +11,13 @@ refid: "lov/2007-06-29-44"
 
 *Nåværende § 6 annet ledd blir nytt tredje ledd.*
 
+### 2021-01-01 — forskrift/2020-11-20-2419
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
 ### 2025-06-20 — lov/2025-06-20-96
 
 *6.I lov 29. juni 2007 nr. 44 om Folketrygdfondet skal § 6 tredje ledd lyde:*
@@ -24,9 +31,9 @@ refid: "lov/2007-06-29-44"
 
 *§ 14 skal lyde:*
 
-> § 14.Riksrevisjonens kontrollRiksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser i Folketrygdfondet etter riksrevisjonsloven.
+> § 14. Riksrevisjonens kontroll
 >
-> § 14.Riksrevisjonens kontroll
+> Riksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser i Folketrygdfondet etter riksrevisjonsloven.
 >
 
 ## § 6

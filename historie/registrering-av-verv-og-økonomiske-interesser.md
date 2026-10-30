@@ -5,6 +5,15 @@ refid: "lov/2012-11-30-70"
 
 # Endringshistorikk: Lov om registrering av verv og økonomiske interesser
 
+## (annet)
+
+### 2023-12-20 — forskrift/2023-12-20-2134
+
+*Lova trer i kraft straks.*
+
+> Lova trer i kraft straks.
+>
+
 ## § 1
 
 ### 2023-12-20 — lov/2023-12-20-112

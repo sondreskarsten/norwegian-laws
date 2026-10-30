@@ -5,6 +5,15 @@ refid: "lov/1975-03-21-9"
 
 # Endringshistorikk: Lov om nordisk vitneplikt
 
+## (annet)
+
+### 2002-08-30 — lov/2002-08-30-67
+
+*I lov 21. mars 1975 nr. 9 om nordisk vitneplikt skal § 1 første ledd lyde:*
+
+> Etter reglane i denne lova kan personar som ved innkallinga har fylt 18 år og er busette og oppheld seg i Danmark, Finland, Island eller Sverige, påleggast å møte som vitne her i landet for dei vanlege domstolane og jordskifterettane.
+>
+
 ## § 1
 
 ### 2007-02-27 — lov/2007-01-26-3

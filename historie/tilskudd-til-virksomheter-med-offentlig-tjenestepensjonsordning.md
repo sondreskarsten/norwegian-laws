@@ -7,6 +7,13 @@ refid: "lov/2019-03-01-3"
 
 ## (annet)
 
+### 2019-03-01 — forskrift/2019-03-01-162
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2026-01-23 — lov/2026-01-23-1
 
 *I lov 1. mars 2019 nr. 3 om tilskudd til visse private virksomheter med offentlig tjenestepensjonsordning skal § 3 andre ledd bokstav a lyde:*

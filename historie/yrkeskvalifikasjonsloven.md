@@ -7,6 +7,20 @@ refid: "lov/2017-06-16-69"
 
 ## (annet)
 
+### 2018-01-01 — forskrift/2017-06-16-756
+
+*Delt ikraftsetting. Loven trer i kraft 1. januar 2018, med unntak av § 10, § 11, § 14 og § 20.*
+
+> Delt ikraftsetting. Loven trer i kraft 1. januar 2018, med unntak av § 10, § 11, § 14 og § 20.
+>
+
+### 2019-03-01 — forskrift/2019-02-01-64
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 69 om godkjenning av yrkeskvalifikasjoner (yrkeskvalifikasjonsloven). Loven § 14 og § 20 trer i kraft 1. mars 2019.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 69 om godkjenning av yrkeskvalifikasjoner (yrkeskvalifikasjonsloven). Loven § 14 og § 20 trer i kraft 1. mars 2019.
+>
+
 ### 2021-06-11 — lov/2021-06-11-81
 
 *Nåværende § 2 tredje ledd blir fjerde ledd.*

@@ -104,9 +104,32 @@ refid: "lov/2004-03-05-12"
 
 *Nåværende §§ 35-37 blir nye §§ 41-43 i nytt kapittel 9.*
 
+### 2016-07-01 — forskrift/2016-06-17-671
+
+*Delt ikraftsetting av lov 15. april 2016 nr. 2 om endringer i konkurranseloven (Konkurranseklagenemnda, kartellforlik mm.). Loven trer i kraft fra 1. juli 2016 med unntak av § 8, § 12, § 13, § 20a, § 21, § 21a, § 22, § 26 annet ledd, § 27a annet ledd, § 29 og nytt kapittel 8.*
+
+> Delt ikraftsetting av lov 15. april 2016 nr. 2 om endringer i konkurranseloven (Konkurranseklagenemnda, kartellforlik mm.). Loven trer i kraft fra 1. juli 2016 med unntak av § 8, § 12, § 13, § 20a, § 21, § 21a, § 22, § 26 annet ledd, § 27a annet ledd, § 29 og nytt kapittel 8.
+>
+
+### 2017-04-01 — forskrift/2017-03-24-376
+
+*Delt ikraftsetting av lov 15. april 2016 nr. 2 om endringer i lov 5. mars 2004 nr. 12 om konkurranse mellom foretak og kontroll med foretakssammenslutninger (Konkurranseklagenemnda, kartellforlik mm.) § 8, § 12, § 13, § 20a, § 21, § 21a, § 22, § 26 annet ledd, § 27a annet ledd, § 29 og nytt kapittel 8 trer i kraft 1. april 2017.*
+
+> Delt ikraftsetting av lov 15. april 2016 nr. 2 om endringer i lov 5. mars 2004 nr. 12 om konkurranse mellom foretak og kontroll med foretakssammenslutninger (Konkurranseklagenemnda, kartellforlik mm.) § 8, § 12, § 13, § 20a, § 21, § 21a, § 22, § 26 annet ledd, § 27a annet ledd, § 29 og nytt kapittel 8 trer i kraft 1. april 2017.
+>
+> Lovendringene får bare anvendelse for vedtak truffet etter 1. april 2017.
+>
+
 ### 2019-06-14 — lov/2019-06-14-23
 
 *Nåværende annet til sjuende ledd blir tredje til nytt åttende ledd.*
+
+### 2019-07-01 — forskrift/2019-06-14-737
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
 
 ### 2022-12-16 — lov/2022-12-16-94
 
@@ -115,6 +138,13 @@ refid: "lov/2004-03-05-12"
 ### 2022-12-16 — lov/2022-12-16-94
 
 *Gjeldende § 37 første ledd blir nytt tredje ledd.*
+
+### 2023-07-01 — forskrift/2023-06-20-959
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
 
 ### 2024-12-20 — lov/2024-12-20-100
 
@@ -126,33 +156,51 @@ refid: "lov/2004-03-05-12"
 
 > Kapittel 9 Markedsetterforskning
 >
-> § 41.Igangsetting av markedsetterforskningKonkurransetilsynet kan gjennomføre en markedsetterforskning i ett eller flere markeder eller deler av markeder hvis det foreligger forhold som tilsier at konkurransen er eller står i fare for å bli vesentlig begrenset i strid med lovens formål.Før det treffes beslutning om å åpne en markedsetterforskning, skal Konkurransetilsynet gjennomføre en høring av et utkast til beslutning om markedsetterforskning. Høringsfristen skal være minst seks uker.Etter at høringen er avsluttet, skal Konkurransetilsynet beslutte om det skal gjennomføres en markedsetterforskning. Beslutningen skal tas uten ugrunnet opphold, og senest innen fire måneder etter høringsfristens utløp. En beslutning om å gjennomføre en markedsetterforskning skal offentliggjøres uten ugrunnet opphold etter at beslutningen ble truffet. Beslutningen kan ikke påklages.Utkast til beslutning etter annet ledd og beslutning etter tredje ledd om å gjennomføre en markedsetterforskning skal inneholde informasjon om hvilke varer, tjenester, aktører og markeder som vil være omfattet av markedsetterforskningen.
+> § 41. Igangsetting av markedsetterforskning
 >
-> § 41.Igangsetting av markedsetterforskning
+> Konkurransetilsynet kan gjennomføre en markedsetterforskning i ett eller flere markeder eller deler av markeder hvis det foreligger forhold som tilsier at konkurransen er eller står i fare for å bli vesentlig begrenset i strid med lovens formål.
 >
-> § 42.Avhjelpende tiltak i saker om markedsetterforskningKonkurransetilsynet kan pålegge avhjelpende tiltak hvis det foreligger forhold som vesentlig begrenser eller er egnet til å vesentlig begrense konkurransen i strid med lovens formål. Vedtaket kan omfatte ethvert tiltak som er nødvendig for å fjerne eller redusere konkurransebegrensningen. Strukturelle tiltak kan likevel bare pålegges hvis det ikke finnes like effektive adferdsregulerende tiltak, eller hvis et adferdsregulerende tiltak vil være mer byrdefullt for foretaket.I saker som omfattes av første ledd, kan et foretak selv foreslå avhjelpende tiltak. Konkurransetilsynet kan da avslutte saken med et vedtak som gjør tiltakene bindende for foretaket. Vedtaket skal fastslå at Konkurransetilsynet ikke går videre med saken etter første ledd hvis tiltakene gjennomføres.Pålegg om avhjelpende tiltak etter første og annet ledd kan treffes senest 18 måneder etter at beslutningen om å gjennomføre en markedsetterforskning er offentliggjort etter § 41 tredje ledd. I særlige tilfeller kan Konkurransetilsynet forlenge fristen med inntil seks måneder.Konkurransetilsynet kan oppnevne en forvalter til å bistå ved gjennomføringen av vedtak etter første eller annet ledd. Forvalteren skal få sin godtgjørelse dekket av Konkurransetilsynet. Kongen kan gi forskrift om forvalterens stilling og oppgaver.Konkurransetilsynet kan etter anmodning eller av eget tiltak omgjøre et vedtak etter første eller annet ledd hvissentrale faktiske forhold som var vesentlige for vedtaket, endrer segdet viser seg at vedtaket bygger på ufullstendige, uriktige eller villedende opplysninger fra foretakene.Ved klage på vedtak etter denne bestemmelsen kan Konkurranseklagenemnda oppheve eller stadfeste Konkurransetilsynets vedtak. Konkurranseklagenemnda kan ikke fatte nytt vedtak om avhjelpende tiltak. Hvis klageinstansen kommer til at vilkårene i første ledd første punktum er oppfylt, men at Konkurransetilsynets tiltak ikke er nødvendige, forholdsmessige eller egnet til å avhjelpe konkurransebegrensningen, kan vedtaket oppheves og saken sendes tilbake til tilsynet for en ny vurdering. Et nytt vedtak i saken må da fattes innen tre måneder. Fristen i tredje ledd gjelder ikke når Konkurransetilsynet fatter nytt vedtak etter en klagebehandling.
+> Før det treffes beslutning om å åpne en markedsetterforskning, skal Konkurransetilsynet gjennomføre en høring av et utkast til beslutning om markedsetterforskning. Høringsfristen skal være minst seks uker.
 >
-> § 42.Avhjelpende tiltak i saker om markedsetterforskning
+> Etter at høringen er avsluttet, skal Konkurransetilsynet beslutte om det skal gjennomføres en markedsetterforskning. Beslutningen skal tas uten ugrunnet opphold, og senest innen fire måneder etter høringsfristens utløp. En beslutning om å gjennomføre en markedsetterforskning skal offentliggjøres uten ugrunnet opphold etter at beslutningen ble truffet. Beslutningen kan ikke påklages.
 >
-> § 43.Forholdet til reglene om kontroll med foretakssammenslutningerAvhjelpende tiltak etter § 42 kan ikke omfatte salg av eiendeler som er ervervet som ledd i en foretakssammenslutning der Konkurransetilsynet, Konkurranseklagenemnda, domstolene, Europakommisjonen eller Den europeiske unions domstol har avsluttet behandlingen av saken. Dette gjelder likevel ikke når det har gått mer enn ti år etter at behandlingen av foretakssammenslutningen ble avsluttet.
+> Utkast til beslutning etter annet ledd og beslutning etter tredje ledd om å gjennomføre en markedsetterforskning skal inneholde informasjon om hvilke varer, tjenester, aktører og markeder som vil være omfattet av markedsetterforskningen.
 >
-> § 43.Forholdet til reglene om kontroll med foretakssammenslutninger
+> § 42. Avhjelpende tiltak i saker om markedsetterforskning
 >
-> § 44.Adgangen til gjenerverv av eiendeler som selges som følge av pålegg om avhjelpende tiltakEt foretak kan ikke gjenerverve eiendeler som har blitt solgt som følge av et pålegg om avhjelpende tiltak etter § 42, før fem år etter salget, med mindre markedsforholdene har endret seg i en slik grad at det ikke lenger er grunnlag for vedtaket.
+> Konkurransetilsynet kan pålegge avhjelpende tiltak hvis det foreligger forhold som vesentlig begrenser eller er egnet til å vesentlig begrense konkurransen i strid med lovens formål. Vedtaket kan omfatte ethvert tiltak som er nødvendig for å fjerne eller redusere konkurransebegrensningen. Strukturelle tiltak kan likevel bare pålegges hvis det ikke finnes like effektive adferdsregulerende tiltak, eller hvis et adferdsregulerende tiltak vil være mer byrdefullt for foretaket.
 >
-> § 44.Adgangen til gjenerverv av eiendeler som selges som følge av pålegg om avhjelpende tiltak
+> I saker som omfattes av første ledd, kan et foretak selv foreslå avhjelpende tiltak. Konkurransetilsynet kan da avslutte saken med et vedtak som gjør tiltakene bindende for foretaket. Vedtaket skal fastslå at Konkurransetilsynet ikke går videre med saken etter første ledd hvis tiltakene gjennomføres.
 >
-> § 45.Adgang til å iverksette ny markedsetterforskningKonkurransetilsynet kan ikke åpne markedsetterforskning i et marked som i det vesentlige tilsvarer et marked hvor det i løpet av de siste tre årene er gjennomført markedsetterforskning.Første ledd gjelder ikke hvis en ny markedsetterforskning har et annet formål eller omfatter andre aktører enn den gjennomførte markedsetterforskningen.
+> Pålegg om avhjelpende tiltak etter første og annet ledd kan treffes senest 18 måneder etter at beslutningen om å gjennomføre en markedsetterforskning er offentliggjort etter § 41 tredje ledd. I særlige tilfeller kan Konkurransetilsynet forlenge fristen med inntil seks måneder.
 >
-> § 45.Adgang til å iverksette ny markedsetterforskning
+> Konkurransetilsynet kan oppnevne en forvalter til å bistå ved gjennomføringen av vedtak etter første eller annet ledd. Forvalteren skal få sin godtgjørelse dekket av Konkurransetilsynet. Kongen kan gi forskrift om forvalterens stilling og oppgaver.
 >
-> § 46.Avslutning av saker om markedsetterforskningDet skal offentliggjøres at en markedsetterforskning avsluttes. Når saken avsluttes uten at det fattes et vedtak om pålegg om avhjelpende tiltak, skal Konkurransetilsynet angi hvorfor tilsynet ikke finner grunnlag for å gå videre med saken.
+> Konkurransetilsynet kan etter anmodning eller av eget tiltak omgjøre et vedtak etter første eller annet ledd hvissentrale faktiske forhold som var vesentlige for vedtaket, endrer segdet viser seg at vedtaket bygger på ufullstendige, uriktige eller villedende opplysninger fra foretakene.
 >
-> § 46.Avslutning av saker om markedsetterforskning
+> Ved klage på vedtak etter denne bestemmelsen kan Konkurranseklagenemnda oppheve eller stadfeste Konkurransetilsynets vedtak. Konkurranseklagenemnda kan ikke fatte nytt vedtak om avhjelpende tiltak. Hvis klageinstansen kommer til at vilkårene i første ledd første punktum er oppfylt, men at Konkurransetilsynets tiltak ikke er nødvendige, forholdsmessige eller egnet til å avhjelpe konkurransebegrensningen, kan vedtaket oppheves og saken sendes tilbake til tilsynet for en ny vurdering. Et nytt vedtak i saken må da fattes innen tre måneder. Fristen i tredje ledd gjelder ikke når Konkurransetilsynet fatter nytt vedtak etter en klagebehandling.
 >
-> § 47.ForskrifterKongen kan gi forskrift om Konkurransetilsynets gjennomføring av markedsetterforskning etter dette kapittelet.
+> § 43. Forholdet til reglene om kontroll med foretakssammenslutninger
 >
-> § 47.Forskrifter
+> Avhjelpende tiltak etter § 42 kan ikke omfatte salg av eiendeler som er ervervet som ledd i en foretakssammenslutning der Konkurransetilsynet, Konkurranseklagenemnda, domstolene, Europakommisjonen eller Den europeiske unions domstol har avsluttet behandlingen av saken. Dette gjelder likevel ikke når det har gått mer enn ti år etter at behandlingen av foretakssammenslutningen ble avsluttet.
+>
+> § 44. Adgangen til gjenerverv av eiendeler som selges som følge av pålegg om avhjelpende tiltak
+>
+> Et foretak kan ikke gjenerverve eiendeler som har blitt solgt som følge av et pålegg om avhjelpende tiltak etter § 42, før fem år etter salget, med mindre markedsforholdene har endret seg i en slik grad at det ikke lenger er grunnlag for vedtaket.
+>
+> § 45. Adgang til å iverksette ny markedsetterforskning
+>
+> Konkurransetilsynet kan ikke åpne markedsetterforskning i et marked som i det vesentlige tilsvarer et marked hvor det i løpet av de siste tre årene er gjennomført markedsetterforskning.
+>
+> Første ledd gjelder ikke hvis en ny markedsetterforskning har et annet formål eller omfatter andre aktører enn den gjennomførte markedsetterforskningen.
+>
+> § 46. Avslutning av saker om markedsetterforskning
+>
+> Det skal offentliggjøres at en markedsetterforskning avsluttes. Når saken avsluttes uten at det fattes et vedtak om pålegg om avhjelpende tiltak, skal Konkurransetilsynet angi hvorfor tilsynet ikke finner grunnlag for å gå videre med saken.
+>
+> § 47. Forskrifter
+>
+> Kongen kan gi forskrift om Konkurransetilsynets gjennomføring av markedsetterforskning etter dette kapittelet.
 >
 
 ### 2024-12-20 — lov/2024-12-20-100
@@ -165,6 +213,82 @@ refid: "lov/2004-03-05-12"
 ### 2024-12-20 — lov/2024-12-20-100
 
 *Nåværende §§ 41 til 43 blir nye §§ 48 til 50.*
+
+### 2025-07-01 — forskrift/2024-12-20-3307
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
+## § 1
+
+### 2020-04-17 — lov/2020-04-17-30
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Formål
+>
+> Formålet med loven er å gi unntak fra enkelte prosessuelle bestemmelser i konkurranseloven i forbindelse med utbruddet av covid-19, for å sikre at konkurransemyndighetene er i stand til å utføre sine lovbestemte oppgaver.
+>
+> § 2
+>
+> .
+>
+> Stedlig virkeområde
+>
+> Loven og forskrifter som gis i medhold av den, har samme stedlige virkeområde som konkurranseloven.
+>
+> § 3
+>
+> .
+>
+> Forlengelse av frister ved kontroll med foretakssammenslutninger
+>
+> Følgende unntak gjelder fra fristene i konkurranseloven § 20:
+>
+> Fristen i § 20 annet ledd for å varsle om at vedtak kan bli aktuelt, forlenges til 40 virkedager.
+>
+> Fristen i § 20 fjerde ledd første punktum for å treffe vedtak som stadfester fremsatt forslag om avhjelpende tiltak fra melderne eller legge frem begrunnet forslag til forbudsvedtak, forlenges til 85 virkedager.
+>
+> Fristen i § 20 fjerde ledd annet punktum for å treffe vedtak der partene fremlegger nytt eller revidert forslag til avhjelpende tiltak, forlenges til 100 virkedager.
+>
+> Følgende unntak gjelder fra fristene i konkurranseloven § 20 a:
+>
+> Fristen i § 20 a første ledd første punktum for å klage på vedtak etter § 20 forlenges til 30 virkedager.
+>
+> Fristen i § 20 a første ledd annet punktum for å bringe en klage inn for Konkurranseklagenemnda forlenges til 30 virkedager.
+>
+> Fristen i § 20 a første ledd tredje punktum for å treffe vedtak i klagesak forlenges til 75 virkedager.
+>
+> Fristen i § 20 a annet ledd fjerde punktum for å fatte vedtak om inngrep eller legge frem begrunnet forslag til forbudsvedtak forlenges til 60 virkedager.
+>
+> Fristforlengelsen gjelder både saker tilsynet har til behandling ved ikrafttredelsen av denne loven og saker som meldes i perioden loven er i kraft.
+>
+> Kongen kan gi forskrift om ytterligere unntak fra fristreglene i konkurranseloven og i denne loven når det er nødvendig.
+>
+> § 4
+>
+> .
+>
+> Unntak fra reglene om Konkurranseklagenemndas sammensetning i den enkelte sak
+>
+> Dersom det er nødvendig for å gjennomføre Konkurranseklagenemndas oppgaver og det ikke er til hinder for forsvarlig saksbehandling, kan nemndas leder beslutte at avgjørelser og vedtak som nevnt i konkurranseloven § 36 tredje ledd, skal treffes av ett enkeltmedlem. Sakens parter og Konkurransetilsynet skal få anledning til å uttale seg før nemndas leder treffer beslutningen.
+>
+> Første ledd gjelder ikke klage over vedtak om overtredelsesgebyr etter konkurranseloven § 29 første ledd bokstav a for overtredelse av konkurranseloven §§ 10 og 11, klage på forbud mot foretakssammenslutning etter konkurranseloven § 16 eller inngrep mot minoritetserverv etter konkurranseloven § 16 a.
+>
+> § 5
+>
+> .
+>
+> Ikrafttredelse og varighet
+>
+> Loven trer i kraft straks og gjelder frem til 31. oktober 2020.
+>
 
 ## § 12
 
@@ -1051,18 +1175,6 @@ refid: "lov/2004-03-05-12"
 *§ 9 første ledd skal lyde:*
 
 > Konkurransetilsynet skal føre tilsyn med konkurransen i de forskjellige markeder, blant annet ved åkontrollere at lovens forbud og påbud overholdesforeta nødvendige inngrep mot foretakssammenslutningeriverksette tiltak for å øke markedenes gjennomsiktighethåndheve EØS-avtalen artikkel 53 og 54påpeke konkurranseregulerende virkninger av offentlige tiltak, eventuelt ved å fremme forslag med sikte på å styrke konkurransen og lette adgangen for nye konkurrentergjennomføre markedsetterforskning i samsvar med kapittel 9.
->
-> kontrollere at lovens forbud og påbud overholdes
->
-> foreta nødvendige inngrep mot foretakssammenslutninger
->
-> iverksette tiltak for å øke markedenes gjennomsiktighet
->
-> håndheve EØS-avtalen artikkel 53 og 54
->
-> påpeke konkurranseregulerende virkninger av offentlige tiltak, eventuelt ved å fremme forslag med sikte på å styrke konkurransen og lette adgangen for nye konkurrenter
->
-> gjennomføre markedsetterforskning i samsvar med kapittel 9.
 >
 > Hvis Konkurransetilsynet krever det, skal organet som forestår tiltaket som nevnt i første punktum bokstav e, svare tilsynet innen en nærmere angitt frist. I svaret skal det blant annet redegjøres for hvordan konkurransemessige hensyn vil bli ivaretatt.
 >

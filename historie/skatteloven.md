@@ -102,6 +102,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 2-1 syvende ledd skal lyde:*
 
+> (7) Plikten til å svare formuesskatt er betinget av at skattyteren bor i riket 31. desember året før skattefastsettingsåret.
+>
+
 ## § 2-2
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -670,9 +673,15 @@ refid: "lov/1999-03-26-14"
 
 *§ 2-34 annet ledd skal lyde:*
 
+> (2) Første ledd gjelder ikke for tilfeller hvor Norge i skatteavtale er tillagt eksklusiv rett til å skattlegge formue og inntekt som nevnt i første ledd, eller virksomhet som er skattepliktig etter § 2-3 første ledd bokstav k, l eller m eller petroleumsskatteloven.
+>
+
 ### 2024-12-20 — lov/2024-12-20-86
 
 *§ 2-34 annet ledd skal lyde:*
+
+> (2) Første ledd gjelder ikke for tilfeller hvor Norge i skatteavtale er tillagt eksklusiv rett til å skattlegge formue og inntekt som nevnt i første ledd, eller virksomhet som er skattepliktig etter § 2-3 første ledd bokstav k, l, m eller n eller petroleumsskatteloven.
+>
 
 ## § 2-35
 
@@ -756,6 +765,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 2-36 femte ledd skal lyde:*
 
+> (5) Fritatt for skatt til kommune og fylkeskommune er eierinntekt til personlig skattyter. Som eierinntekt anses utbytte og annen inntekt som skal oppreguleres etter § 5-22 annet ledd tredje punktum, § 10-11 første ledd annet punktum, § 10-21 fjerde ledd tredje punktum, § 10-21 åttende ledd tredje punktum, § 10-31 første ledd fjerde punktum, § 10-31 annet ledd annet punktum, § 10-42 tredje ledd bokstav b og § 10-44 første ledd tredje punktum.
+>
+
 ### 2024-12-20 — lov/2024-12-20-86
 
 *§ 2-36 nåværende femte og sjette ledd blir sjette og syvende ledd.*
@@ -763,6 +775,9 @@ refid: "lov/1999-03-26-14"
 ### 2024-12-20 — lov/2024-12-20-86
 
 *§ 2-36 nåværende syvende ledd blir nytt åttende ledd og skal lyde:*
+
+> (8) Departementet kan gi forskrift til utfylling og gjennomføring av reglene i tredje, sjette og syvende ledd.
+>
 
 ### 2025-04-10 — lov/2025-04-10-9
 
@@ -776,6 +791,9 @@ refid: "lov/1999-03-26-14"
 ### 2026-06-23 — lov/2026-06-23-66
 
 *§ 2-37 fyrste ledd skal lyde:*
+
+> (1) Skatteplikt etter denne lov kan begrenses ved bestemmelse i avtale inngått i medhold av lov om adgang for Kongen til å inngå overenskomst med fremmede stater til forebyggelse av dobbeltbeskatning mv.
+>
 
 ## § 2-38
 
@@ -987,6 +1005,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 2-38 syvende ledd skal lyde:*
 
+> (7) Departementet kan i forskrift bestemme hva som anses som verdipapirfond etter første ledd, og gi forskrift til utfylling og gjennomføring av reglene i tredje og fjerde ledd.
+>
+
 ## § 2-39
 
 ### 2012-12-07 — lov/2012-12-07-76
@@ -1121,9 +1142,19 @@ refid: "lov/1999-03-26-14"
 
 *Ny § 3-5 skal lyde:*
 
-> § 3-5.Særregler for medlemmer av Stortinget og regjeringen mv.(1) Medlemmer av Stortinget og regjeringen som må oppholde seg utenfor hjemmet som følge av det politiske vervet, kan beholde denne boligen som bosted. Det samme gjelder for statssekretærer og politiske rådgivere i departementene og ved Statsministerens kontor. Denne boligen må ligge minst 40 kilometer fra arbeidsstedet, være fullverdig og disponeres gjennom et reelt eie- eller leieforhold på alminnelige vilkår.(2) Ektefelle og barn i personens husstand skal anses bosatt samme sted, med mindre de har særlig svak tilknytning til boligen.(3) Ved flytting til en annen bolig som også oppfyller avstandskravet, kan personen med husstand anses bosatt der på samme vilkår. Personer nevnt i første ledd som i løpet av funksjonsperioden etablerer seg i en slik bolig som oppfyller avstandskravet, kan på nærmere vilkår anses bosatt der.(4) Opphold i statsministerboligen endrer ikke bostedet så lenge statsministeren også disponerer en egen privat bolig gjennom et reelt eie- eller leieforhold. Ektefelle og barn i statsministerens husstand skal anses bosatt samme sted, med mindre de har særlig svak tilknytning til den private boligen.(5) Departementet kan gi forskrift om kravene til å disponere bolig, herunder besøkshyppighet, kravene til fullverdig bolig og vilkårene for adgangen etter tredje ledd andre punktum til å etablere bosted under funksjonsperioden.(6) Departementet kan gi forskrift om at personer som nevnt i første og tredje ledd kan frasi seg skattefordeler som gjelder for bosatte i Finnmark eller Nord-Troms.
+> § 3-5. Særregler for medlemmer av Stortinget og regjeringen mv.
 >
-> § 3-5.Særregler for medlemmer av Stortinget og regjeringen mv.
+> (1) Medlemmer av Stortinget og regjeringen som må oppholde seg utenfor hjemmet som følge av det politiske vervet, kan beholde denne boligen som bosted. Det samme gjelder for statssekretærer og politiske rådgivere i departementene og ved Statsministerens kontor. Denne boligen må ligge minst 40 kilometer fra arbeidsstedet, være fullverdig og disponeres gjennom et reelt eie- eller leieforhold på alminnelige vilkår.
+>
+> (2) Ektefelle og barn i personens husstand skal anses bosatt samme sted, med mindre de har særlig svak tilknytning til boligen.
+>
+> (3) Ved flytting til en annen bolig som også oppfyller avstandskravet, kan personen med husstand anses bosatt der på samme vilkår. Personer nevnt i første ledd som i løpet av funksjonsperioden etablerer seg i en slik bolig som oppfyller avstandskravet, kan på nærmere vilkår anses bosatt der.
+>
+> (4) Opphold i statsministerboligen endrer ikke bostedet så lenge statsministeren også disponerer en egen privat bolig gjennom et reelt eie- eller leieforhold. Ektefelle og barn i statsministerens husstand skal anses bosatt samme sted, med mindre de har særlig svak tilknytning til den private boligen.
+>
+> (5) Departementet kan gi forskrift om kravene til å disponere bolig, herunder besøkshyppighet, kravene til fullverdig bolig og vilkårene for adgangen etter tredje ledd andre punktum til å etablere bosted under funksjonsperioden.
+>
+> (6) Departementet kan gi forskrift om at personer som nevnt i første og tredje ledd kan frasi seg skattefordeler som gjelder for bosatte i Finnmark eller Nord-Troms.
 >
 
 ## § 4-1
@@ -1131,6 +1162,9 @@ refid: "lov/1999-03-26-14"
 ### 2024-01-01 — lov/2024-01-12-4
 
 *§ 4-1 andre ledd skal lyde:*
+
+> (2) For skattyter med avvikende regnskapsår etter forskriftsbestemmelse vedtatt med hjemmel i skatteforvaltningsloven § 8-16 skal formuesfastsettelsen omfatte formuen ved utløpet av siste regnskapsår før 1. januar i skattefastsettingsåret.
+>
 
 ## § 4-2
 
@@ -1892,6 +1926,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 4-19 fjerde ledd skal lyde:*
 
+> (4) Ved beregning av verdien av ikke-børsnotert aksje etter § 4-12 annet og tredje ledd og andel i selskap med deltakerfastsetting etter § 4-40, hvor selskapet eier akvakulturtillatelser som verdsettes etter § 4-17 tredje ledd, skal den delen av selskapets gjeld som svarer til forholdet mellom omsetningsverdien av akvakulturtillatelsen og verdien av selskapets øvrige eiendeler, verdsettes med 25 prosent.
+>
+
 ## § 4-20
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -2632,9 +2669,11 @@ refid: "lov/1999-03-26-14"
 
 *Ny § 5-16 skal lyde:*
 
-> § 5-16.Fri bolig for medlemmer av Stortinget og regjeringen mv.(1) Som inntekt regnes ikke fordel ved fri bolig til medlemmer av Stortinget og regjeringen, statssekretærer og politiske rådgivere i departementene og ved Statsministerens kontor. Fritaket gjelder bare så lenge personen har en annen bolig som utgjør bosted etter § 3-5. Ved utleie av denne boligen gjelder fritaket bare så lenge inntekten er skattefri etter § 7-2 første ledd bokstav a.(2) Som inntekt regnes ikke fordel ved statsministerens private bruk av statsministerboligen.
+> § 5-16. Fri bolig for medlemmer av Stortinget og regjeringen mv.
 >
-> § 5-16.Fri bolig for medlemmer av Stortinget og regjeringen mv.
+> (1) Som inntekt regnes ikke fordel ved fri bolig til medlemmer av Stortinget og regjeringen, statssekretærer og politiske rådgivere i departementene og ved Statsministerens kontor. Fritaket gjelder bare så lenge personen har en annen bolig som utgjør bosted etter § 3-5. Ved utleie av denne boligen gjelder fritaket bare så lenge inntekten er skattefri etter § 7-2 første ledd bokstav a.
+>
+> (2) Som inntekt regnes ikke fordel ved statsministerens private bruk av statsministerboligen.
 >
 
 ## § 5-20
@@ -3248,9 +3287,11 @@ refid: "lov/1999-03-26-14"
 
 *§ 6-15 skal lyde:*
 
-> § 6-15.Skatt og avgift på fast eiendom, virksomhet eller yrke m.v.(1) Det gis fradrag for skatt og avgift på fast eiendom eller særskilt virksomhet eller yrke.(2) Det gis ikke fradragved skattefri bruk av egen bolig eller fritidsbolig, jf. kapittel 7,for avgift til statskassen etter Stortingets vedtak om avgift på kraftproduksjon, ogfor suppleringsskatt ilagt av utenlandsk skattemyndighet etter en kvalifisert skatteinkluderingsregel eller en kvalifisert skattefordelingsregel basert på Inclusive Framework sitt modellregelverk, jf. suppleringsskatteloven.
+> § 6-15. Skatt og avgift på fast eiendom, virksomhet eller yrke m.v.
 >
-> § 6-15.Skatt og avgift på fast eiendom, virksomhet eller yrke m.v.
+> (1) Det gis fradrag for skatt og avgift på fast eiendom eller særskilt virksomhet eller yrke.
+>
+> (2) Det gis ikke fradragved skattefri bruk av egen bolig eller fritidsbolig, jf. kapittel 7,for avgift til statskassen etter Stortingets vedtak om avgift på kraftproduksjon, ogfor suppleringsskatt ilagt av utenlandsk skattemyndighet etter en kvalifisert skatteinkluderingsregel eller en kvalifisert skattefordelingsregel basert på Inclusive Framework sitt modellregelverk, jf. suppleringsskatteloven.
 >
 
 ## § 6-19
@@ -3560,6 +3601,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 6-31 nytt tredje ledd skal lyde:*
 
+> (3) Det gis ikke minstefradrag i barnepensjon fra folketrygden eller i barnepensjon fra andre ordninger, som gir rett til særskilt fradrag etter § 6-49.
+>
+
 ## § 6-32
 
 ### 2001-06-15 — lov/2001-06-15-37
@@ -3782,6 +3826,9 @@ refid: "lov/1999-03-26-14"
 ### 2023-12-20 — lov/2023-12-20-102
 
 *§ 6-32 annet ledd skal lyde:*
+
+> (2) Minstefradrag beregnes særskilt for foreldre og barn som skattlegges under ett etter § 2-14 første ledd. Det gis særskilt fradrag i ektefelletillegg etter folketrygdloven, unntatt i ektefelletillegg som er skattefritt etter § 5-43 første ledd bokstav j.
+>
 
 ### 2024-06-25 — lov/2024-06-25-61
 
@@ -4072,9 +4119,15 @@ refid: "lov/1999-03-26-14"
 
 *§ 6-41 tredje ledd skal lyde:*
 
+> (3) Netto rentekostnader kan ikke fradras for den delen som overstiger 25 prosent av alminnelig inntekt eller årets udekkede underskudd før begrensning av fradrag etter denne paragraf, tillagt rentekostnader og skattemessige avskrivninger, og redusert med renteinntekter. For selskap mv. i konsern avskjæres rentefradrag etter første punktum i netto rentekostnader på gjeld til nærstående og ikke-nærstående part. For selskap mv. som ikke er i konsern, avskjæres rentefradrag etter første punktum bare for et beløp inntil størrelsen på netto rentekostnader på gjeld til nærstående part. Det gis ikke fradrag for ytterligere fremført underskudd, jf. § 14-6, eller konsernbidrag, jf. § 10-4, etter at det er foretatt avskjæring av rentefradrag etter dette ledd.
+>
+
 ### 2023-12-20 — lov/2023-12-20-98
 
 *§ 6-41 niende ledd skal lyde:*
+
+> (9) Uten hensyn til unntaksregelen i åttende ledd og terskelbeløpet i fjerde ledd annet punktum, gjelder bestemmelsen i tredje ledd tredje punktum tilsvarende for selskap mv. i konsern som har netto rentekostnader på gjeld til nærstående part utenfor samme konsern. Ved anvendelsen av forrige punktum skal netto rentekostnader som har en overstigende del som ikke kan fradras, tillegges selskapets netto konserninterne renteinntekter. Avskjæring av rentefradraget etter første punktum foretas bare for et beløp inntil størrelsen på netto rentekostnader til slik nærstående part, og bare dersom netto rentekostnader tillagt netto konserninterne renteinntekter overstiger 5 millioner kroner.
+>
 
 ### 2023-12-20 — lov/2023-12-20-98
 
@@ -4364,6 +4417,13 @@ refid: "lov/1999-03-26-14"
 
 *§ 6-48 første til nytt tredje ledd skal lyde:*
 
+> (1) Det gis foreldrefradrag for legitimerte kostnader til pass og stell av hjemmeboende barn som er under 12 år i inntektsåret.
+>
+> (2) For hjemmeboende barn som på grunn av handikap e.l. har særskilt behov for omsorg og pleie, kan det gis foreldrefradrag for legitimerte kostnader, også om barnet er 12 år eller eldre.
+>
+> (3) Foreldrefradraget etter første og annet ledd begrenses oppad til beløp som fastsettes av Stortinget for det enkelte inntektsår. Begrensningen er felles for ektefeller, og for samboere med felles barn. Fradrag gis med en halvpart hos hver av ektefellene eller samboerne, dersom de ikke er enige om en annen fordeling.
+>
+
 ## § 6-49
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -4386,9 +4446,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 6-49 skal lyde:*
 
-> § 6-49.Særskilt fradrag i barnepensjonDet gis særskilt fradrag i barnepensjon fra folketrygden og i barnepensjon fra andre ordninger med inntil 30 000 kroner i året. Fradraget skal ikke overstige mottatt barnepensjon.
+> § 6-49. Særskilt fradrag i barnepensjon
 >
-> § 6-49.Særskilt fradrag i barnepensjon
+> Det gis særskilt fradrag i barnepensjon fra folketrygden og i barnepensjon fra andre ordninger med inntil 30 000 kroner i året. Fradraget skal ikke overstige mottatt barnepensjon.
 >
 
 ### 2024-12-20 — lov/2024-12-20-86
@@ -4685,6 +4745,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 6-60 første ledd skal lyde:*
 
+> (1) Skattyter som i minst 130 dager av inntektsåret personlig har drevet eller deltatt i fiske eller fangst på havet eller langs kysten, gis fradrag med inntil 30 prosent av netto arbeidsinntekt av fisket eller fangsten, begrenset til 160 000 kroner.
+>
+
 ## § 6-61
 
 ### 2002-12-20 — lov/2002-12-20-99
@@ -4711,6 +4774,9 @@ refid: "lov/1999-03-26-14"
 ### 2025-12-22 — lov/2025-12-22-119
 
 *§ 6-61 første ledd skal lyde:*
+
+> (1) Sjøfolk gis fradrag med inntil 30 prosent av inntekten om bord, begrenset til 86 300 kroner.
+>
 
 ## § 6-70
 
@@ -4843,6 +4909,9 @@ refid: "lov/1999-03-26-14"
 ### 2024-12-20 — lov/2024-12-20-86
 
 *§ 6-72 tredje ledd skal lyde:*
+
+> (3) For personlig skattyter med begrenset skatteplikt etter § 2-3 gis det bare fradrag etter denne paragraf hvis hele eller tilnærmet hele skattyters inntekt fra arbeid eller virksomhet i inntektsåret skattlegges i Norge.
+>
 
 ### 2024-12-20 — lov/2024-12-20-86
 
@@ -5058,9 +5127,25 @@ refid: "lov/1999-03-26-14"
 
 *Ny § 6-86 skal lyde:*
 
-> § 6-86.Forsøksordning med arbeidsfradrag for unge(1) Som en forsøksordning gis et eget arbeidsfradrag i alminnelig inntekt til et utvalg av unge skattytere.(2) Arbeidsfradrag gis til et tilfeldig utvalg på 8 prosent av personlige skattytere som er registrert som skattepliktige til Norge i skattemanntallet per 31. oktober 2025, som er født i årene 1991–2006, og som trekkes av skattemyndighetene etter en randomisert metode.(3) Arbeidsfradrag gis med et beløp fastsatt av Stortinget. Fradraget gis i summen avarbeidsinntekt etter § 5-10 unntatt dagpenger, jf. § 5-10 c nr. 1beregnet personinntekt etter § 12-2 ggodtgjørelse etter § 12-2 f.(4) Arbeidsfradraget kan ikke overstige inntekten det beregnes av. Arbeidsfradrag kan ikke gi grunnlag for underskudd som overføres til ektefelle, eller øke eller gi grunnlag for fremførbart underskudd.(5) Arbeidsfradraget gis for en periode av fem inntektsår.(6) Har skattyter vært bosatt i riket bare en del av året, reduseres arbeidsfradraget forholdsmessig etter antall hele eller påbegynte måneder skattyter har vært bosatt i riket. Tilsvarende gjelder for skattyter som har hatt midlertidig opphold i riket bare en del av året uten å være bosatt her. Har skattyter vært bosatt i riket bare en del av året, reduseres beløpsgrensen for nedtrapping forholdsmessig etter antall hele eller påbegynte måneder skattyter har vært bosatt i riket.(7) Arbeidsfradrag gis ikke til skattyter som får standardfradrag for utenlandsk arbeidstaker etter § 6-70, eller som skattlegges etter særreglene for utenlandske arbeidstakere i skatteloven kapittel 20. Det samme gjelder skattyter som er skattepliktig til Svalbard for inntekt etter Svalbardskatteloven.(8) Utvelgelsen til å motta arbeidsfradrag er ikke et enkeltvedtak og kan ikke påklages.(9) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.
+> § 6-86. Forsøksordning med arbeidsfradrag for unge
 >
-> § 6-86.Forsøksordning med arbeidsfradrag for unge
+> (1) Som en forsøksordning gis et eget arbeidsfradrag i alminnelig inntekt til et utvalg av unge skattytere.
+>
+> (2) Arbeidsfradrag gis til et tilfeldig utvalg på 8 prosent av personlige skattytere som er registrert som skattepliktige til Norge i skattemanntallet per 31. oktober 2025, som er født i årene 1991–2006, og som trekkes av skattemyndighetene etter en randomisert metode.
+>
+> (3) Arbeidsfradrag gis med et beløp fastsatt av Stortinget. Fradraget gis i summen avarbeidsinntekt etter § 5-10 unntatt dagpenger, jf. § 5-10 c nr. 1beregnet personinntekt etter § 12-2 ggodtgjørelse etter § 12-2 f.
+>
+> (4) Arbeidsfradraget kan ikke overstige inntekten det beregnes av. Arbeidsfradrag kan ikke gi grunnlag for underskudd som overføres til ektefelle, eller øke eller gi grunnlag for fremførbart underskudd.
+>
+> (5) Arbeidsfradraget gis for en periode av fem inntektsår.
+>
+> (6) Har skattyter vært bosatt i riket bare en del av året, reduseres arbeidsfradraget forholdsmessig etter antall hele eller påbegynte måneder skattyter har vært bosatt i riket. Tilsvarende gjelder for skattyter som har hatt midlertidig opphold i riket bare en del av året uten å være bosatt her. Har skattyter vært bosatt i riket bare en del av året, reduseres beløpsgrensen for nedtrapping forholdsmessig etter antall hele eller påbegynte måneder skattyter har vært bosatt i riket.
+>
+> (7) Arbeidsfradrag gis ikke til skattyter som får standardfradrag for utenlandsk arbeidstaker etter § 6-70, eller som skattlegges etter særreglene for utenlandske arbeidstakere i skatteloven kapittel 20. Det samme gjelder skattyter som er skattepliktig til Svalbard for inntekt etter Svalbardskatteloven.
+>
+> (8) Utvelgelsen til å motta arbeidsfradrag er ikke et enkeltvedtak og kan ikke påklages.
+>
+> (9) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.
 >
 
 ## § 6-90
@@ -5286,9 +5371,13 @@ refid: "lov/1999-03-26-14"
 
 *§ 7-11 skal lyde:*
 
-> § 7-11.Inntekter fra energiproduksjon mv.(1) Ved salg og overføring av strøm fra anlegg for produksjon av fornybar energi tilknyttet egen bolig og fritidsbolig etter § 7-1, regnes 85 prosent av inntekten som overstiger 15 000 kroner, som inntekt. Dette gjelder kun når energiproduksjonen har til hovedformål å forsyne egen bolig og fritidsbolig med energi.(2) Anlegg for produksjon av fornybar energi omfattes ikke av denne paragraf når produksjonen krever konsesjon eller er omfattet av skatteloven kapittel 18.(3) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf, herunder regler for tidfesting av inntekt.
+> § 7-11. Inntekter fra energiproduksjon mv.
 >
-> § 7-11.Inntekter fra energiproduksjon mv.
+> (1) Ved salg og overføring av strøm fra anlegg for produksjon av fornybar energi tilknyttet egen bolig og fritidsbolig etter § 7-1, regnes 85 prosent av inntekten som overstiger 15 000 kroner, som inntekt. Dette gjelder kun når energiproduksjonen har til hovedformål å forsyne egen bolig og fritidsbolig med energi.
+>
+> (2) Anlegg for produksjon av fornybar energi omfattes ikke av denne paragraf når produksjonen krever konsesjon eller er omfattet av skatteloven kapittel 18.
+>
+> (3) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf, herunder regler for tidfesting av inntekt.
 >
 
 ## § 8-1
@@ -5569,6 +5658,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 8-1 åttende ledd skal lyde:*
 
+> (8) Fradrag etter § 8-1 femte, sjette eller syvende ledd kan til sammen ikke overskride 200 850 kroner.
+>
+
 ### 2025-06-20 — lov/2025-06-20-58
 
 *§ 8-1 tredje ledd siste punktum skal lyde:*
@@ -5579,6 +5671,13 @@ refid: "lov/1999-03-26-14"
 ### 2025-12-22 — lov/2025-12-22-119
 
 *§ 8-1 femte, sjette og åttende ledd skal lyde:*
+
+> (5) Ved fastsettelsen av årets positive alminnelige inntekt fra jord- og hagebruk, herunder biinntekt fra slik virksomhet, gis produsenten et jordbruksfradrag på inntil 99 600 kroner per driftsenhet per år. I tillegg til jordbruksinntekten kan det i fradragsgrunnlaget velges å ta med nettoinntekt fra produksjon av biomasse til energiformål, herunder vedproduksjon. For inntekt over 99 600 kroner gis i tillegg et fradrag på 38 prosent av inntekten opp til samlet fradrag på 208 900 kroner. Fradraget kan bare kreves av bruker som har bodd på og drevet jordbruksvirksomhet på driftsenheten over halvparten av inntektsåret. Personer som deler inntekten fra samme næringsoppgave mellom seg, skal dele fradraget forholdsmessig. Minst en av de personer som får fradrag må være registrert som bosatt på en av de landbrukseiendommene som driftsenheten består av. Hver skattyter kan til sammen ikke gjøre krav på mer enn ett helt fradrag. Ektefeller med bopel på samme driftsenhet kan ikke kreve fradrag for annen driftsenhet. Departementet kan gi forskrift til utfylling og gjennomføring av dette ledd.
+>
+> (6) Ved fastsettelsen av årets positive næringsinntekt fra reindrift gis produsenten et inntektsfradrag på inntil 99 600 kroner per år. For inntekt over 99 600 kroner gis i tillegg et fradrag på 38 prosent av den overskytende inntekten opp til et samlet fradrag på 208 900 kroner. Fradraget kan bare kreves av reineier som har drevet reindriftsvirksomhet over halvparten av inntektsåret. Personer som deler inntekten fra samme næringsoppgave mellom seg, skal dele fradraget forholdsmessig. Ektefeller kan til sammen ikke kreve mer enn ett fradrag. Departementet kan gi forskrift til utfylling og gjennomføring av dette ledd.
+>
+> (8) Fradrag etter § 8-1 femte, sjette eller syvende ledd kan til sammen ikke overskride 208 900 kroner.
+>
 
 ## § 8-2
 
@@ -6343,6 +6442,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 9-3 syvende ledd skal lyde:*
 
+> (7) Gevinst ved samlet realisasjon av særskilte driftsmidler i kraftanlegg som nevnt i § 18-6 første ledd og fallrettigheter eller andel i slike, er unntatt fra skatteplikt dersom overtaker viderefører de skattemessige verdiene og ervervstidspunktene for eiendeler, rettigheter og forpliktelser som overføres. Det samme gjelder ved samlet realisasjon av driftsmidler som nevnt i § 19-6 første ledd bokstav c og akvakulturtillatelse som nevnt i § 19-1 for grunnrenteskattepliktig havbruksvirksomhet, og ved samlet realisasjon av driftsmidler i grunnrenteskattepliktig vindkraftvirksomhet.
+>
+
 ## § 9-5
 
 ### 2005-12-09 — lov/2005-12-09-113
@@ -7087,9 +7189,27 @@ refid: "lov/1999-03-26-14"
 
 *§ 10-20 skal lyde:*
 
-> § 10-20.Skattlegging av verdipapirfond og andelseiere(1) For verdipapirfond som oppfyller vilkårene i syvende ledd første punktum, regnes 1 prosent av mottatt utbytte som skattepliktig brutto inntekt. I inntekten etter forrige punktum gis fradrag for fondets forvaltningskostnader. Bestemmelsene i §§ 14-6 og 14-7 gjelder tilsvarende, men slik at underskudd kan fremføres i maksimalt 5 år. Øvrig beskatning skjer hos andelseierne etter annet til sjette ledd.(2) Ved utdeling fra fondet skattlegges andelseierne på følgende måte:Utdeling fra verdipapirfond med mer enn 80 prosent aksjeandel skattlegges som aksjeutbytte.Utdeling fra verdipapirfond med mindre enn 20 prosent aksjeandel skattlegges som renteinntekt.Utdeling fra verdipapirfond med mellom 20 og 80 prosent aksjeandel splittes i en del som skattlegges som aksjeutbytte og en del som skattlegges som rente, beregnet forholdsmessig etter tredje ledd.(3) Aksjeandelen beregnes ut fra forholdet mellom verdien av aksjer og andre verdipapirer ved inntektsårets begynnelse. For fond som er etablert i inntektsåret, beregnes andelen ut fra forholdet ved inntektsårets slutt. Aksjer i underliggende fond inngår i beregningen, med en tilsvarende forholdsmessig del. Likt med aksjer regnes annen andel i selskap som omfattes av § 10-10 tredje ledd, og andel i selskap hvor deltakerne skattlegges etter § 10-40 til § 10-49.(4) Bare den delen av andelens inngangsverdi som tilsvarer aksjeandelen i ervervsåret, er skjermingsgrunnlag etter § 10-12. Annet og tredje ledd gjelder tilsvarende ved beregning av aksjeandelen i ervervsåret.(5) Utdeling som skattlegges som renteinntekt etter annet ledd, gir ikke rett til fradrag for skjerming eller skattefritak etter § 2-38.(6) Gevinst ved realisasjon av andel i verdipapirfond skattlegges etter § 10-30 flg. For andelseiere i fond med andre verdipapirer enn aksjer, begrenses skattefritak for gevinst etter § 2-38 forholdsmessig til den beregnede aksjeandelen i fondet. Tilsvarende gjelder for tap. Gjennomsnittet av aksjeandelen i ervervsåret og i salgsåret legges til grunn. Annet og tredje ledd gjelder tilsvarende ved beregning av aksjeandelen i ervervsåret og i salgsåret. Bare den beregnede aksjeandelen oppjusteres etter § 10-11 første ledd annet punktum.(7) Første til sjette ledd får anvendelse for verdipapirfond med tillatelse etter verdipapirfondloven § 4-1 og tilsvarende fond etablert i EØS. Annet til sjette ledd får også anvendelse for tilsvarende fond etablert utenfor EØS. Departementet kan i forskrift bestemme hva som anses som tilsvarende fond etablert i eller utenfor EØS, og fastsette dokumentasjonskrav.(8) Sjette ledd får ikke anvendelse på andeler i verdipapirfond når disse er eid i forbindelse med individuell pensjonsavtale etter § 6-47 første ledd c eller avtale om individuell sparing til pensjon etter § 6-47 første ledd d og avtalen er inngått mellom andelseier og forvaltningsselskap. Tilsvarende gjelder for andel i verdipapirfond som er eid i forbindelse med innskuddspensjon etter innskuddspensjonsloven.(9) Dersom fondet ikke har innrapportert opplysninger som er nødvendige for å fastsette aksjeandel etter tredje ledd, må andelseier dokumentere dette. Dersom tilfredsstillende dokumentasjon ikke foreligger, skattlegges utdelingen som rente. Ved beregning av aksjeandel i slike fond inngår andeler i andre fond dersom de til sammen utgjør mer enn 25 prosent av samlet verdi ved inntektsårets begynnelse. Ved slik beregning medtas bare aksjer som underliggende fond eier direkte, med en tilsvarende forholdsmessig del. Dersom dokumentasjon kun mangler for andel i underliggende fond, anses andelen i fondet som andre verdipapirer enn aksjer.(10) Investering i verdipapir gjennom kapitalforsikring skattlegges på tilsvarende måte, når det ved den forsikredes død eller uførhet vil bli utbetalt mindre enn 50 prosent tillegg til gjenstående sparebeholdning på forsikringskontoen. Det samme gjelder når det ved den forsikredes død eller uførhet blir utbetalt et fast beløp som utgjør mindre enn 100 prosent tillegg til innbetalte sparebeløp. Fradrag for skjerming gis hos forsikringstaker, og beregnes ut fra aksjeandelen ved det enkelte års begynnelse. Helt eller delvis gjenkjøp av slik kapitalforsikring er å anse som realisasjon og følger reglene i sjette ledd, men slik at gjennomsnittlig aksjeandel for hvert år i eierperioden legges til grunn. Investering i annet enn verdipapir skal ved beregning av aksjeandelen regnes som andre verdipapirer. For kapitalforsikring eiet av skattyter i § 2-38 første ledd skal det samme gjelde investeringer på forsikringskontoen som ikke er fritatt etter § 2-38.
+> § 10-20. Skattlegging av verdipapirfond og andelseiere
 >
-> § 10-20.Skattlegging av verdipapirfond og andelseiere
+> (1) For verdipapirfond som oppfyller vilkårene i syvende ledd første punktum, regnes 1 prosent av mottatt utbytte som skattepliktig brutto inntekt. I inntekten etter forrige punktum gis fradrag for fondets forvaltningskostnader. Bestemmelsene i §§ 14-6 og 14-7 gjelder tilsvarende, men slik at underskudd kan fremføres i maksimalt 5 år. Øvrig beskatning skjer hos andelseierne etter annet til sjette ledd.
+>
+> (2) Ved utdeling fra fondet skattlegges andelseierne på følgende måte:Utdeling fra verdipapirfond med mer enn 80 prosent aksjeandel skattlegges som aksjeutbytte.Utdeling fra verdipapirfond med mindre enn 20 prosent aksjeandel skattlegges som renteinntekt.Utdeling fra verdipapirfond med mellom 20 og 80 prosent aksjeandel splittes i en del som skattlegges som aksjeutbytte og en del som skattlegges som rente, beregnet forholdsmessig etter tredje ledd.
+>
+> (3) Aksjeandelen beregnes ut fra forholdet mellom verdien av aksjer og andre verdipapirer ved inntektsårets begynnelse. For fond som er etablert i inntektsåret, beregnes andelen ut fra forholdet ved inntektsårets slutt. Aksjer i underliggende fond inngår i beregningen, med en tilsvarende forholdsmessig del. Likt med aksjer regnes annen andel i selskap som omfattes av § 10-10 tredje ledd, og andel i selskap hvor deltakerne skattlegges etter § 10-40 til § 10-49.
+>
+> (4) Bare den delen av andelens inngangsverdi som tilsvarer aksjeandelen i ervervsåret, er skjermingsgrunnlag etter § 10-12. Annet og tredje ledd gjelder tilsvarende ved beregning av aksjeandelen i ervervsåret.
+>
+> (5) Utdeling som skattlegges som renteinntekt etter annet ledd, gir ikke rett til fradrag for skjerming eller skattefritak etter § 2-38.
+>
+> (6) Gevinst ved realisasjon av andel i verdipapirfond skattlegges etter § 10-30 flg. For andelseiere i fond med andre verdipapirer enn aksjer, begrenses skattefritak for gevinst etter § 2-38 forholdsmessig til den beregnede aksjeandelen i fondet. Tilsvarende gjelder for tap. Gjennomsnittet av aksjeandelen i ervervsåret og i salgsåret legges til grunn. Annet og tredje ledd gjelder tilsvarende ved beregning av aksjeandelen i ervervsåret og i salgsåret. Bare den beregnede aksjeandelen oppjusteres etter § 10-11 første ledd annet punktum.
+>
+> (7) Første til sjette ledd får anvendelse for verdipapirfond med tillatelse etter verdipapirfondloven § 4-1 og tilsvarende fond etablert i EØS. Annet til sjette ledd får også anvendelse for tilsvarende fond etablert utenfor EØS. Departementet kan i forskrift bestemme hva som anses som tilsvarende fond etablert i eller utenfor EØS, og fastsette dokumentasjonskrav.
+>
+> (8) Sjette ledd får ikke anvendelse på andeler i verdipapirfond når disse er eid i forbindelse med individuell pensjonsavtale etter § 6-47 første ledd c eller avtale om individuell sparing til pensjon etter § 6-47 første ledd d og avtalen er inngått mellom andelseier og forvaltningsselskap. Tilsvarende gjelder for andel i verdipapirfond som er eid i forbindelse med innskuddspensjon etter innskuddspensjonsloven.
+>
+> (9) Dersom fondet ikke har innrapportert opplysninger som er nødvendige for å fastsette aksjeandel etter tredje ledd, må andelseier dokumentere dette. Dersom tilfredsstillende dokumentasjon ikke foreligger, skattlegges utdelingen som rente. Ved beregning av aksjeandel i slike fond inngår andeler i andre fond dersom de til sammen utgjør mer enn 25 prosent av samlet verdi ved inntektsårets begynnelse. Ved slik beregning medtas bare aksjer som underliggende fond eier direkte, med en tilsvarende forholdsmessig del. Dersom dokumentasjon kun mangler for andel i underliggende fond, anses andelen i fondet som andre verdipapirer enn aksjer.
+>
+> (10) Investering i verdipapir gjennom kapitalforsikring skattlegges på tilsvarende måte, når det ved den forsikredes død eller uførhet vil bli utbetalt mindre enn 50 prosent tillegg til gjenstående sparebeholdning på forsikringskontoen. Det samme gjelder når det ved den forsikredes død eller uførhet blir utbetalt et fast beløp som utgjør mindre enn 100 prosent tillegg til innbetalte sparebeløp. Fradrag for skjerming gis hos forsikringstaker, og beregnes ut fra aksjeandelen ved det enkelte års begynnelse. Helt eller delvis gjenkjøp av slik kapitalforsikring er å anse som realisasjon og følger reglene i sjette ledd, men slik at gjennomsnittlig aksjeandel for hvert år i eierperioden legges til grunn. Investering i annet enn verdipapir skal ved beregning av aksjeandelen regnes som andre verdipapirer. For kapitalforsikring eiet av skattyter i § 2-38 første ledd skal det samme gjelde investeringer på forsikringskontoen som ikke er fritatt etter § 2-38.
 >
 
 ## § 10-21
@@ -7345,6 +7465,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 10-31 nytt tredje ledd skal lyde:*
 
+> (3) Første ledd siste punktum og annet ledd siste punktum gjelder tilsvarende for dødsbo, administrasjonsbo dersom boet tilhører en fysisk person, samt for konkursbo der konkursdebitor er en fysisk person.
+>
+
 ## § 10-32
 
 ### 2001-06-15 — lov/2001-06-15-46
@@ -7582,6 +7705,9 @@ refid: "lov/1999-03-26-14"
 ### 2024-06-25 — lov/2024-06-25-61
 
 *§ 10-40 andre ledd skal lyde:*
+
+> (2) Bestemmelsene gjelder ikke for samarbeidsavtaler i petroleumsvirksomheten som nevnt i selskapsloven § 1-1 fjerde ledd. Bestemmelsene gjelder heller ikke for selskaper og sameier som driver produksjon av vannkraft eller vindkraft, når deltakerne selger det vesentlige av kraftproduksjonen på selvstendig basis.
+>
 
 ## § 10-41
 
@@ -8129,18 +8255,40 @@ refid: "lov/1999-03-26-14"
 
 *§ 10-70 paragrafoverskriften og første til niende ledd skal lyde:*
 
-> § 10-70.Skatteplikt for gevinst på aksjer og andeler mv. ved utflytting og ved overføring(1) Gevinst på eiendel som nevnt i annet ledd, og som personlig skattyter eier på det tidspunkt skatteplikten til riket opphører etter § 2-1 tredje ledd eller da skattyter skal anses bosatt i en annen stat etter skatteavtale, er skattepliktig som om eiendelen var realisert siste dag før dette tidspunktet, jf. § 14-25. Tilsvarende gjelder ved overføring av eiendel som nevnt i annet ledd til person, selskap eller innretning som ikke har skatteplikt etter §§ 2-1 eller 2-2 eller som skal anses bosatt eller hjemmehørende i en annen stat etter skatteavtale.(2) Skatteplikt etter denne paragraf omfatter gevinst på:aksje, andel og egenkapitalbevis i norsk selskap mv. som nevnt i § 2-2 første ledd a-e,aksjesparekonto som nevnt i § 10-21,andel i norsk selskap som nevnt i § 2-2 annet ledd,aksje og andel i tilsvarende utenlandsk selskap mv. som nevnt i bokstav a til c og f,tegningsrett til aksje, opsjon og annet finansielt instrument hvor det underliggende objektet er eiendel som nevnt i bokstav a til d eller f, ogkapitalforsikring som omfattes av § 10-20 tiende ledd.(3) Tap er fradragsberettiget ved utflytting og overføring til annen EØS-stat, i samme utstrekning og på samme vilkår som gevinst er skattepliktig etter denne paragraf. Retten til fradrag etter første punktum faller bort hvis skattyter eller mottaker innen utløpet av fristen i syvende ledd flytter til en stat utenfor EØS. Tilsvarende gjelder hvis eiendelen som det knytter seg utflyttingsskatt til, overføres til mottaker bosatt eller hjemmehørende utenfor EØS. Departementet kan gi forskrift om vilkår for rett til tapsfradrag.(4) Skatteplikt ved utflytting etter første ledd første punktum er begrenset til den delen av skattyters samlede gevinst som, fratrukket fradragsberettigede tap, overstiger 3 millioner kroner. Skatteplikt ved overføring som nevnt i første ledd annet punktum, gjelder for samlet gevinst, fratrukket fradragsberettiget tap, når netto gevinst eller tap overstiger 100 000 kroner i inntektsåret. Skjer utflytting og overføring i samme inntektsår, skal samlet gevinst, fratrukket fradragsberettiget tap, på overførte eiendeler som ikke er skattlagt etter denne paragraf, medregnes ved utflyttingen.(5) Ved gevinstberegningen fastsettes utgangsverdien til markedsverdien på det tidspunkt realisasjon anses å ha funnet sted. Bestemmelsene i §§ 10-30 til 10-36 og § 10-44 gjelder så langt de passer. Når det ikke foreligger en kjent markedsverdi, fastsettes denne ved skjønn. Departementet kan gi forskrift om verdsettelsen. Gevinst på aksjesparekonto settes til differansen mellom innskudd på kontoen og markedsverdien av kontoen på det tidspunkt realisasjon anses å ha funnet sted. § 10-21 fjerde ledd tredje punktum og femte ledd om skjermingsfradrag og oppjustering gjelder tilsvarende.(6) Ved beregning av skatt etter denne paragraf skal inngangsverdien for eiendeler som skattyter eide ved innflyttingen, fastsettes til markedsverdien på det tidspunkt skattyteren ble bosatt i riket etter § 2-1 første ledd eller da skattyter skal anses bosatt i riket etter skatteavtale med annen stat. Dersom skattyter tidligere har vært bosatt i riket, skal inngangsverdien etter første punktum reduseres med et beløp tilsvarende gevinst opparbeidet i en tidligere periode som bosatt her, og som ikke er skattlagt her. Tilsvarende gjelder ved tap, slik at beløpet tillegges inngangsverdien etter første punktum. Departementet kan gi forskrift til utfylling av dette ledd.(7) Skattyter kan gis 12 års utsettelse med innbetaling av fastsatt skatt, regnet fra utløpet av det året utflyttingsskatten skal tidfestes til, jf. første ledd og § 14-25. Det er et vilkår for utsettelse at det blir stilt betryggende sikkerhet for skatteforpliktelsen og eventuelt renter. Ved flytting og overføring til annen EØS-stat kreves sikkerhetsstillelse likevel bare dersom det er en reell risiko for at skatte- og eventuelt rentekravet ikke kan inndrives. Ved utsettelse kan skattyter velge mellom følgende betalingsmåter:Fastsatt skatt betales med en tolvtedel hvert år. Ved delvis oppgjør av skatteforpliktelsen som følge av opphør av retten til fortsatt utsettelse, jf. åttende ledd, reduseres fremtidige årlige avdrag med en forholdsmessig andel.Fastsatt skatt betales ved utløpet av utsettelsesperioden. Det skal svares renter fra det tidspunktet utflyttingsskatten skulle vært betalt hvis utsatt forfall ikke hadde vært gitt, til betaling skjer.Departementet kan gi forskrift til gjennomføring av dette ledd, og om vilkår for utsettelse, herunder om sikkerhetsstillelse og renter.(8) Retten til utsettelse med betaling av skatten etter forrige ledd bortfaller ved realisasjon, skattyters død, gaveoverføring til person som ikke er skattemessig bosatt i Norge, og ved opphør av virksomhet i selskap som nevnt i annet ledd bokstav c. Retten til utsettelse bortfaller likevel ikke ved skattyters død dersom personlige arvinger påtar seg pliktene avdøde hadde etter denne paragraf. Ved uttak ut over tilbakebetaling av innskudd på aksjesparekonto som det knytter seg utflyttingsskatt til, bortfaller retten til utsettelse for et forholdsmessig beløp. Departementet kan gi forskrift til utfylling av dette ledd.(9) Hvis skattyteren igjen blir bosatt i riket etter § 2-1 eller skal anses bosatt i Norge etter skatteavtale innen 12 år etter utgangen av det året utflyttingsskatten skal tidfestes til, bortfaller skattleggingen etter denne paragraf for de eiendelene skattyter eier på tilbakeflyttingstidspunktet. Det samme gjelder påløpte renter. Hvis skattyter igjen blir bosatt i riket senere enn 12 år etter utgangen av det året utflyttingsskatten skal tidfestes til, og da har gjort opp utflyttingsskatten i sin helhet, skal opprinnelig inngangsverdi på eiendeler som er i behold, justeres med den verdiendringen som er utflyttingsbeskattet etter første til åttende ledd. Innskudd på aksjesparekonto skal justeres på tilsvarende måte. Departementet kan gi forskrift til utfylling av dette ledd.
+> § 10-70. Skatteplikt for gevinst på aksjer og andeler mv. ved utflytting og ved overføring
 >
-> § 10-70.Skatteplikt for gevinst på aksjer og andeler mv. ved utflytting og ved overføring
+> (1) Gevinst på eiendel som nevnt i annet ledd, og som personlig skattyter eier på det tidspunkt skatteplikten til riket opphører etter § 2-1 tredje ledd eller da skattyter skal anses bosatt i en annen stat etter skatteavtale, er skattepliktig som om eiendelen var realisert siste dag før dette tidspunktet, jf. § 14-25. Tilsvarende gjelder ved overføring av eiendel som nevnt i annet ledd til person, selskap eller innretning som ikke har skatteplikt etter §§ 2-1 eller 2-2 eller som skal anses bosatt eller hjemmehørende i en annen stat etter skatteavtale.
+>
+> (2) Skatteplikt etter denne paragraf omfatter gevinst på:aksje, andel og egenkapitalbevis i norsk selskap mv. som nevnt i § 2-2 første ledd a-e,aksjesparekonto som nevnt i § 10-21,andel i norsk selskap som nevnt i § 2-2 annet ledd,aksje og andel i tilsvarende utenlandsk selskap mv. som nevnt i bokstav a til c og f,tegningsrett til aksje, opsjon og annet finansielt instrument hvor det underliggende objektet er eiendel som nevnt i bokstav a til d eller f, ogkapitalforsikring som omfattes av § 10-20 tiende ledd.
+>
+> (3) Tap er fradragsberettiget ved utflytting og overføring til annen EØS-stat, i samme utstrekning og på samme vilkår som gevinst er skattepliktig etter denne paragraf. Retten til fradrag etter første punktum faller bort hvis skattyter eller mottaker innen utløpet av fristen i syvende ledd flytter til en stat utenfor EØS. Tilsvarende gjelder hvis eiendelen som det knytter seg utflyttingsskatt til, overføres til mottaker bosatt eller hjemmehørende utenfor EØS. Departementet kan gi forskrift om vilkår for rett til tapsfradrag.
+>
+> (4) Skatteplikt ved utflytting etter første ledd første punktum er begrenset til den delen av skattyters samlede gevinst som, fratrukket fradragsberettigede tap, overstiger 3 millioner kroner. Skatteplikt ved overføring som nevnt i første ledd annet punktum, gjelder for samlet gevinst, fratrukket fradragsberettiget tap, når netto gevinst eller tap overstiger 100 000 kroner i inntektsåret. Skjer utflytting og overføring i samme inntektsår, skal samlet gevinst, fratrukket fradragsberettiget tap, på overførte eiendeler som ikke er skattlagt etter denne paragraf, medregnes ved utflyttingen.
+>
+> (5) Ved gevinstberegningen fastsettes utgangsverdien til markedsverdien på det tidspunkt realisasjon anses å ha funnet sted. Bestemmelsene i §§ 10-30 til 10-36 og § 10-44 gjelder så langt de passer. Når det ikke foreligger en kjent markedsverdi, fastsettes denne ved skjønn. Departementet kan gi forskrift om verdsettelsen. Gevinst på aksjesparekonto settes til differansen mellom innskudd på kontoen og markedsverdien av kontoen på det tidspunkt realisasjon anses å ha funnet sted. § 10-21 fjerde ledd tredje punktum og femte ledd om skjermingsfradrag og oppjustering gjelder tilsvarende.
+>
+> (6) Ved beregning av skatt etter denne paragraf skal inngangsverdien for eiendeler som skattyter eide ved innflyttingen, fastsettes til markedsverdien på det tidspunkt skattyteren ble bosatt i riket etter § 2-1 første ledd eller da skattyter skal anses bosatt i riket etter skatteavtale med annen stat. Dersom skattyter tidligere har vært bosatt i riket, skal inngangsverdien etter første punktum reduseres med et beløp tilsvarende gevinst opparbeidet i en tidligere periode som bosatt her, og som ikke er skattlagt her. Tilsvarende gjelder ved tap, slik at beløpet tillegges inngangsverdien etter første punktum. Departementet kan gi forskrift til utfylling av dette ledd.
+>
+> (7) Skattyter kan gis 12 års utsettelse med innbetaling av fastsatt skatt, regnet fra utløpet av det året utflyttingsskatten skal tidfestes til, jf. første ledd og § 14-25. Det er et vilkår for utsettelse at det blir stilt betryggende sikkerhet for skatteforpliktelsen og eventuelt renter. Ved flytting og overføring til annen EØS-stat kreves sikkerhetsstillelse likevel bare dersom det er en reell risiko for at skatte- og eventuelt rentekravet ikke kan inndrives. Ved utsettelse kan skattyter velge mellom følgende betalingsmåter:Fastsatt skatt betales med en tolvtedel hvert år. Ved delvis oppgjør av skatteforpliktelsen som følge av opphør av retten til fortsatt utsettelse, jf. åttende ledd, reduseres fremtidige årlige avdrag med en forholdsmessig andel.Fastsatt skatt betales ved utløpet av utsettelsesperioden. Det skal svares renter fra det tidspunktet utflyttingsskatten skulle vært betalt hvis utsatt forfall ikke hadde vært gitt, til betaling skjer.Departementet kan gi forskrift til gjennomføring av dette ledd, og om vilkår for utsettelse, herunder om sikkerhetsstillelse og renter.
+>
+> (8) Retten til utsettelse med betaling av skatten etter forrige ledd bortfaller ved realisasjon, skattyters død, gaveoverføring til person som ikke er skattemessig bosatt i Norge, og ved opphør av virksomhet i selskap som nevnt i annet ledd bokstav c. Retten til utsettelse bortfaller likevel ikke ved skattyters død dersom personlige arvinger påtar seg pliktene avdøde hadde etter denne paragraf. Ved uttak ut over tilbakebetaling av innskudd på aksjesparekonto som det knytter seg utflyttingsskatt til, bortfaller retten til utsettelse for et forholdsmessig beløp. Departementet kan gi forskrift til utfylling av dette ledd.
+>
+> (9) Hvis skattyteren igjen blir bosatt i riket etter § 2-1 eller skal anses bosatt i Norge etter skatteavtale innen 12 år etter utgangen av det året utflyttingsskatten skal tidfestes til, bortfaller skattleggingen etter denne paragraf for de eiendelene skattyter eier på tilbakeflyttingstidspunktet. Det samme gjelder påløpte renter. Hvis skattyter igjen blir bosatt i riket senere enn 12 år etter utgangen av det året utflyttingsskatten skal tidfestes til, og da har gjort opp utflyttingsskatten i sin helhet, skal opprinnelig inngangsverdi på eiendeler som er i behold, justeres med den verdiendringen som er utflyttingsbeskattet etter første til åttende ledd. Innskudd på aksjesparekonto skal justeres på tilsvarende måte. Departementet kan gi forskrift til utfylling av dette ledd.
 >
 
 ### 2024-12-20 — lov/2024-12-20-86
 
 *§ 10-70 nytt tiende ledd skal lyde:*
 
+> (10) For overføringer ved arv som nevnt i åttende ledd annet punktum, gjelder skatteloven § 9-7 tilsvarende.
+>
+
 ### 2024-12-20 — lov/2024-12-20-86
 
 *§ 10-70 åttende ledd skal lyde:*
+
+> (8) Retten til utsettelse med betaling av skatten etter forrige ledd bortfaller ved realisasjon, skattyters død, overføring til person mv. som nevnt i første ledd annet punktum, og ved opphør av virksomhet i selskap som nevnt i annet ledd bokstav c. Retten til utsettelse bortfaller likevel ikke ved skattyters død dersom personlige arvinger påtar seg pliktene avdøde hadde etter denne paragraf. Ved uttak ut over tilbakebetaling av innskudd på aksjesparekonto som det knytter seg utflyttingsskatt til, bortfaller retten til utsettelse for et forholdsmessig beløp. Ved utdeling av utbytte mv. på andre eiendeler som det knytter seg utflyttingsskatt til, bortfaller retten til utsettelse for et beløp tilsvarende utdelingen multiplisert med 0,7. Departementet kan gi forskrift til utfylling av dette ledd, herunder gi regler om at bortfall av rett til utsettelse ved utdelinger på nærmere vilkår kan begrenses, slik at summen av skatt på utdelingen og det beløpet som det ikke lenger gis utsettelse for, ikke overstiger 100 prosent av utdelingen.
+>
 
 ### 2024-12-20 — lov/2024-12-20-86
 
@@ -8156,6 +8304,9 @@ refid: "lov/1999-03-26-14"
 ### 2024-12-20 — lov/2024-12-20-86
 
 *§ 10-70 nytt ellevte ledd skal lyde:*
+
+> (11) Skattyter skal uoppfordret og uten unødig opphold gi skattemyndighetene alle opplysninger som har betydning for rettigheter og plikter etter denne paragraf. Dette gjelder tilsvarende for arving som har overtatt eiendeler som har vært skattlagt etter denne paragraf. Retten til utsettelse med betaling av utflyttingsskattekravet opphører ved brudd på opplysningsplikten. Departementet kan gi forskrift til utfylling og gjennomføring av dette ledd, herunder frister for å gi opplysninger.
+>
 
 ### 2024-12-20 — lov/2024-12-20-86
 
@@ -8308,6 +8459,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 11-2 nytt fjerde ledd skal lyde:*
 
+> (4) Departementet kan gi forskrift om at det ikke skal være adgang til å innfusjonere aksjeselskap i borettslag uten skattlegging.
+>
+
 ## § 11-3
 
 ### 2005-12-09 — lov/2005-12-09-116
@@ -8383,6 +8537,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 11-7 annet ledd skal lyde:*
 
+> (2) Ved fusjon i konsern etter aksjeloven og allmennaksjeloven § 13-2 annet ledd og fisjon i konsern etter aksjeloven og allmennaksjeloven § 14-2 tredje ledd, der vederlaget er aksjer i overtakende selskaps morselskap, og der kapitalforhøyelsen i morselskapet gjennomføres ved at en fordring utstedt av overtakende selskap nyttes som aksjeinnskudd, skal skattemessig verdi på fordringen settes lik fordringens pålydende.
+>
+
 ### 2023-12-20 — lov/2023-12-20-98
 
 *§ 11-7 fjerde ledd nytt annet punktum skal lyde:*
@@ -8436,6 +8593,9 @@ refid: "lov/1999-03-26-14"
 ### 2023-12-20 — lov/2023-12-20-98
 
 *§ 11-11 nytt åttende ledd skal lyde:*
+
+> (8) Første, tredje, femte, sjette og syvende ledd gjelder tilsvarende ved fusjon av verdipapirfond. Skattefrihet etter dette ledd gjelder bare for fusjon som gjennomføres i samsvar med verdipapirfondloven kapittel fem eller annen lovgivning i en EØS-stat basert på direktiv 2009/65/EF. Bestemmelsene i §§ 11-6 og 11-7 gjelder tilsvarende.
+>
 
 ## § 11-20
 
@@ -8800,6 +8960,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 12-11 fjerde ledd skal lyde:*
 
+> (4) For enkeltpersonforetak beregnes ikke personinntekt av gevinst ved realisasjon av alminnelig gårdsbruk, melkekvote eller skogbruk.
+>
+
 ## § 12-12
 
 ### 2003-06-27 — lov/2003-06-27-63
@@ -9090,6 +9253,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 14-6 annet ledd skal lyde:*
 
+> (2) Hvis skattyter åpner rekonstruksjonsforhandling eller forhandling om tvangsakkord under konkurs eller oppnår underhåndsakkord med en eller flere av sine kreditorer, kan underskudd for inntektsåret og tidligere år bare kreves fratrukket for den del som overstiger det ettergitte gjeldsbeløpet.
+>
+
 ## § 14-7
 
 ### 2004-12-10 — lov/2004-12-10-77
@@ -9242,9 +9408,13 @@ refid: "lov/1999-03-26-14"
 
 *§ 14-40 skal lyde:*
 
-> § 14-40.Hvilke driftsmidler som kan saldoavskrives(1) Følgende driftsmidler avskrives etter §§ 14-41 til 14-48:Varige og betydelige driftsmidler. Et driftsmiddel regnes som varig når det ved ervervet antas å ha en brukstid på minst tre år. Det regnes som betydelig når kostpris er 30 000 kroner eller høyere, inkludert merverdiavgift dersom det ikke foreligger fradragsrett.Ervervet forretningsverdi med kostpris på 30 000 kroner eller høyere.(2) Driftsmiddel med kortere brukstid enn tre år eller lavere kostpris enn 30 000 kroner kan fradragsføres i anskaffelsesåret eller avskrives.(3) Påkostning på driftsmiddel som avskrives, skal føres inn på saldo selv om påkostningen er mindre enn 30 000 kroner.
+> § 14-40. Hvilke driftsmidler som kan saldoavskrives
 >
-> § 14-40.Hvilke driftsmidler som kan saldoavskrives
+> (1) Følgende driftsmidler avskrives etter §§ 14-41 til 14-48:Varige og betydelige driftsmidler. Et driftsmiddel regnes som varig når det ved ervervet antas å ha en brukstid på minst tre år. Det regnes som betydelig når kostpris er 30 000 kroner eller høyere, inkludert merverdiavgift dersom det ikke foreligger fradragsrett.Ervervet forretningsverdi med kostpris på 30 000 kroner eller høyere.
+>
+> (2) Driftsmiddel med kortere brukstid enn tre år eller lavere kostpris enn 30 000 kroner kan fradragsføres i anskaffelsesåret eller avskrives.
+>
+> (3) Påkostning på driftsmiddel som avskrives, skal føres inn på saldo selv om påkostningen er mindre enn 30 000 kroner.
 >
 
 ## § 14-41
@@ -9592,9 +9762,11 @@ refid: "lov/1999-03-26-14"
 
 *§ 14-47 skal lyde:*
 
-> § 14-47.Rest på saldo(1) Avskrivningsgrunnlag og tapssaldo på gevinst- og tapskonto som ved utløpet av inntektsåret, før reduksjon med årets fradragsføring, er mindre enn 30 000 kroner, kan i sin helhet fradragsføres i dette året.(2) Negativ saldo i gruppe a, c, d og j og gevinstsaldo på gevinst- og tapskonto som ved utløpet av inntektsåret, før årets inntektsføring, er mindre enn 30 000 kroner, skal i sin helhet inntektsføres dette året.
+> § 14-47. Rest på saldo
 >
-> § 14-47.Rest på saldo
+> (1) Avskrivningsgrunnlag og tapssaldo på gevinst- og tapskonto som ved utløpet av inntektsåret, før reduksjon med årets fradragsføring, er mindre enn 30 000 kroner, kan i sin helhet fradragsføres i dette året.
+>
+> (2) Negativ saldo i gruppe a, c, d og j og gevinstsaldo på gevinst- og tapskonto som ved utløpet av inntektsåret, før årets inntektsføring, er mindre enn 30 000 kroner, skal i sin helhet inntektsføres dette året.
 >
 
 ## § 14-48
@@ -9936,9 +10108,15 @@ refid: "lov/1999-03-26-14"
 
 *§ 14-82 skal lyde:*
 
-> § 14-82.Utjevning av jordbruksinntekt i enkeltpersonforetak(1) Årets overskudd fra jord- og hagebruksvirksomhet som ikke er inntektsført direkte i inntektsåret, føres på jordbrukskonto. Inntekt fra jord- og hagebruksvirksomhet etter denne paragraf skal forstås tilsvarende som inntekt som kan danne grunnlag for jordbruksfradrag, jf. § 8-1 femte ledd. Årets underskudd fra jord- og hagebruksvirksomhet føres på jordbrukskonto. Positiv saldo inntektsføres med minst 85 prosent. Negativ saldo fradragsføres med inntil 85 prosent. Negativ saldo på jordbrukskonto kan føres mot årets overskudd fra jordbruksvirksomhet. Bestemmelsene om gevinst- og tapskonto, jf. § 14-45, gjelder tilsvarende så langt de passer for jordbrukskonto.(2) Inntekter fra utnyttelse av jakt- og fiskerettigheter, uttak av jord, sand, stein, utleie av bygninger og driftsmidler, utføring av tjenester for andre med slike mv., jf. Finansdepartementets forskrift til skatteloven § 8-1-11 bokstav a nr. 3, 4 og 6, og bokstav b, omfattes ikke av jordbrukskonto.(3) Føring på jordbrukskonto foretas før fradrag for gjeldsrenter.(4) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.
+> § 14-82. Utjevning av jordbruksinntekt i enkeltpersonforetak
 >
-> § 14-82.Utjevning av jordbruksinntekt i enkeltpersonforetak
+> (1) Årets overskudd fra jord- og hagebruksvirksomhet som ikke er inntektsført direkte i inntektsåret, føres på jordbrukskonto. Inntekt fra jord- og hagebruksvirksomhet etter denne paragraf skal forstås tilsvarende som inntekt som kan danne grunnlag for jordbruksfradrag, jf. § 8-1 femte ledd. Årets underskudd fra jord- og hagebruksvirksomhet føres på jordbrukskonto. Positiv saldo inntektsføres med minst 85 prosent. Negativ saldo fradragsføres med inntil 85 prosent. Negativ saldo på jordbrukskonto kan føres mot årets overskudd fra jordbruksvirksomhet. Bestemmelsene om gevinst- og tapskonto, jf. § 14-45, gjelder tilsvarende så langt de passer for jordbrukskonto.
+>
+> (2) Inntekter fra utnyttelse av jakt- og fiskerettigheter, uttak av jord, sand, stein, utleie av bygninger og driftsmidler, utføring av tjenester for andre med slike mv., jf. Finansdepartementets forskrift til skatteloven § 8-1-11 bokstav a nr. 3, 4 og 6, og bokstav b, omfattes ikke av jordbrukskonto.
+>
+> (3) Føring på jordbrukskonto foretas før fradrag for gjeldsrenter.
+>
+> (4) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.
 >
 
 ### 2025-12-22 — lov/2025-12-22-119
@@ -10092,11 +10270,7 @@ refid: "lov/1999-03-26-14"
 
 *§ 15-4 fjerde ledd skal lyde:*
 
-> er bosatt i riket,
->
-> har begrenset skatteplikt for arbeid utført i riket etter § 2-3 første ledd bokstav d og annet ledd, eller
->
-> er skattepliktig for arbeidsinntekt etter § 2-3 første ledd bokstav h, k, l, m eller n.
+> (4) Personfradrag gis bare når skattyteren entener bosatt i riket,har begrenset skatteplikt for arbeid utført i riket etter § 2-3 første ledd bokstav d og annet ledd, ellerer skattepliktig for arbeidsinntekt etter § 2-3 første ledd bokstav h, k, l, m eller n.
 >
 
 ### 2024-12-20 — lov/2024-12-20-86
@@ -10186,9 +10360,17 @@ refid: "lov/1999-03-26-14"
 
 *§ 15-5 første og annet ledd skal lyde:*
 
+> (1) Personlig skattyter som etter § 3-1 er skattemessig bosatt i en kommune i Finnmark fylke eller kommunene Karlsøy, Kvænangen, Kåfjord, Lyngen, Nordreisa, Skjervøy og Storfjord i Troms fylke, og som får fastsatt personfradrag etter § 15-4, skal ha et særskilt fradrag i alminnelig inntekt. Fradrag gis likevel ikke til barn som ikke er fylt 17 år ved utløpet av inntektsåret.
+>
+> (2) Fradraget gis ved skatteberegningen med 30 000 kroner, men får ikke virkning ved beregning av trygdeavgift og trinnskatt.
+>
+
 ### 2025-12-22 — lov/2025-12-22-119
 
 *§ 15-5 annet ledd skal lyde:*
+
+> (2) Fradraget gis ved skatteberegningen med 45 000 kroner, men får ikke virkning ved beregning av trygdeavgift og trinnskatt.
+>
 
 ## § 16-1
 
@@ -10388,6 +10570,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 16-20 nytt fjerde ledd skal lyde:*
 
+> (4) Første ledd gjelder ikke suppleringsskatt ilagt av utenlandsk skattemyndighet etter en kvalifisert skatteinkluderingsregel eller en kvalifisert skattefordelingsregel basert på Inclusive Framework sitt modellregelverk, jf. suppleringsskatteloven.
+>
+
 ## § 16-21
 
 ### 2007-06-15 — lov/2007-06-15-23
@@ -10573,6 +10758,9 @@ refid: "lov/1999-03-26-14"
 ### 2023-12-20 — lov/2023-12-20-102
 
 *§ 16-30 syvende ledd skal lyde:*
+
+> (7) Godtgjørelse som det norske morselskapet mottar fra den andre staten for selskapsskatt betalt av datterselskapet, reduserer skattefradraget uten å redusere det beløpet som skal inntektsføres etter femte ledd.
+>
 
 ### 2024-12-20 — lov/2024-12-20-86
 
@@ -10760,6 +10948,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 16-61 annet ledd skal lyde:*
 
+> (2) Hvis skattyter åpner rekonstruksjonsforhandling eller forhandling om tvangsakkord under konkurs eller oppnår underhåndsakkord med én eller flere av sine kreditorer, skal skattefradrag som nevnt i første ledd bare gis for den del av underskuddet som overstiger det ettergitte gjeldsbeløpet.
+>
+
 ## § 16-70
 
 ### 2021-06-18 — lov/2021-06-18-105
@@ -10916,6 +11107,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 17-1 første ledd skal lyde:*
 
+> (1) Hvis alminnelig inntekt med tillegg etter tredje ledd, fradratt tillegg i alminnelig inntekt etter § 10-42, ikke overstiger et beløp fastsatt av Stortinget, skal det for skattyter som mottar pensjon eller overgangsstønad etter folketrygdloven kapittel 17 A, ikke fastsettes skatt eller trygdeavgift.
+>
+
 ## § 17-2
 
 ### 2010-12-10 — lov/2010-12-10-67
@@ -11027,6 +11221,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 18-1 første ledd skal lyde:*
 
+> (1) Bestemmelsene i dette kapittel gjelder for skattlegging av inntekt knyttet til produksjon, omsetning, overføring eller distribusjon av vannkraft og vindkraft på land i Norge.
+>
+
 ### 2024-01-12 — lov/2024-01-12-2
 
 *§ 18-1 annet ledd ny bokstav e skal lyde:*
@@ -11060,6 +11257,9 @@ refid: "lov/1999-03-26-14"
 ### 2024-12-20 — lov/2024-12-20-86
 
 *§ 18-2 tredje ledd skal lyde:*
+
+> (3) Naturressursskatt til kommunen beregnes etter en sats på 1,13 øre pr. kilowattime. Naturressursskatt til fylkeskommunen beregnes etter en sats på 0,21 øre pr. kilowattime.
+>
 
 ## § 18-3
 
@@ -11467,9 +11667,25 @@ refid: "lov/1999-03-26-14"
 
 *Ny § 18-10 skal lyde:*
 
-> § 18-10.Grunnrenteskatt til staten for vindkraftanlegg(1) Eier av vindkraftanlegg skal svare skatt til staten på grunnlag av grunnrenteinntekt beregnet ved det enkelte vindkraftanlegget. Grunnrenteinntekten fastsettes etter bestemmelsene i annet til åttende ledd. Skatt på grunnrenteinntekt beregnes etter en sats som for det enkelte år vedtas av Stortinget.(2) Grunnrenteskatt ilegges kraft som er produsert i landbaserte vindkraftanlegg. Skatteplikten omfatter også kraft produsert utenfor vindkraftanleggets ordinære drift, for eksempel ved prøvedrift, testkjøring og liknende. Kraft som er forbrukt i eventuelt hjelpeutstyr i forbindelse med produksjon av elektrisk energi, kraft tapt i hovedtransformatoren ved produksjon i vindkraftanlegget og energi fra eventuell hjelpegenerator omfattes ikke av skatteplikten. Beregningsgrunnlaget for grunnrenteskatt av løpende inntekt fra vindkraftvirksomhet er brutto salgsinntekter som fastsettes på følgende måte:Årlige brutto salgsinntekter settes til summen av årets spotmarkedspriser per time multiplisert med faktisk produksjon ved vindkraftanlegget i de tilhørende tidsavsnitt, med følgende unntak:Kraft som leveres i henhold til kjøpekontrakt mellom uavhengige parter inngått før 28. september 2022, verdsettes til kontraktsprisen. Kraft som leveres til spotmarkedspris, der det før 28. september 2022 er inngått avtale med uavhengig part om finansiell sikring mot spotmarkedsprisen i prisområdet der kraften er levert, eller mot nordisk systempris, verdsettes til sikret pris. Forrige punktum omfatter avtaler om sikring som er inngått av konsernforbundet selskap, jf. § 10-4. Ved avtale om sikring som omfattes av annet punktum skal gevinst eller tap knyttet til markedsutviklingen for elektrisk kraft for inntektsåret inngå i grunnrenteinntekten. Dette nummer gjelder avtaler som er inngått med formål om å prissikre leveranser av kraft fra vindkraftanlegg. Avtaler som har vært omfattet av § 18-3 annet ledd bokstav a nr. 2 omfattes ikke av dette nummer. Med uavhengig part menes kontraktspart som ikke har direkte eller indirekte interessefellesskap med selger, jf. § 13-1. Ved oppgjør før tiden av kjøpekontrakt som nevnt i første punktum, skal gevinsten eller tapet ved oppgjøret inngå i grunnlaget for grunnrenteskatt. Forrige punktum gjelder også ved oppgjør før tiden av avtale om sikring som nevnt i annet punktum, for så vidt gjelder gevinst eller tap for inntektsåret og gjenstående sikringsperiode. Den nærmere avgrensningen og retningslinjene for unntaket fastsettes av departementet i forskrift.Kraft som leveres til en strømleverandør i henhold til langsiktig fastpriskontrakt, og som leveres videre i henhold til standard fastprisavtaler i sluttbrukermarkedet, verdsettes til kontraktsprisen. Den nærmere avgrensningen og retningslinjene for unntaket fastsettes av departementet i forskrift.Kraft som leveres i henhold til kjøpekontrakt mellom uavhengige parter inngått i perioden 2024 til 2030, verdsettes til kontraktsprisen. Dette nummer gjelder avtaler som er inngått i perioden 2024 til 2030 med formål om å prissikre leveranser av kraft fra vindkraftanlegg for prosjekter som etableres i perioden 2024 til 2030. Avtaler som har vært omfattet av § 18-3 annet ledd bokstav a nr. 2 omfattes ikke av dette nummer. Med uavhengig part menes i dette nummer kontraktspart som ikke har direkte eller indirekte interessefellesskap med selger, jf. § 13-1. Ved oppgjør før tiden av avtaler som nevnt i første og annet punktum, skal gevinsten eller tapet ved oppgjøret inngå i grunnlaget for grunnrenteskatt. Den nærmere avgrensningen og retningslinjene for unntaket fastsettes av departementet i forskrift.Gevinst ved realisasjon av driftsmiddel som benyttes i vindkraftproduksjon, tillegges brutto salgsinntekter. For driftsmidler som nevnt i tredje ledd bokstav a nr. 6 første punktum, inntektsføres gevinsten i realisasjonsåret. For øvrige driftsmidler gjelder reglene i §§ 14-44 til 14-46.Driftsstøtte til produksjon av ny vindkraft tillegges brutto salgsinntekter.Inntekt fra utstedte elsertifikater tillegges brutto salgsinntekter.Inntekt fra utstedte opprinnelsesgarantier tillegges brutto salgsinntekter.(3) Grunnrenteinntekten for løpende inntekt fra vindkraftvirksomhet fremkommer ved at det i beregningsgrunnlaget gis følgende fradrag:I brutto salgsinntekter etter annet ledd fradras følgende påløpte kostnader som har eller vil få sammenheng med produksjonen ved vindkraftanlegget:Driftskostnader som regulært følger av vindkraftproduksjonen, herunder arbeidslønn og andre personalkostnader, kostnader til vedlikehold, forsikring, administrasjon, erstatninger til grunneiere og rettighetshavere for tap av inntekt fra virksomhet som må opphøre helt eller delvis ved etablering av vindkraftanlegget og tap ved realisasjon av driftsmidler som ikke omfattes av nr. 6 første punktum. Tap ved realisasjon av driftsmidler som nevnt i forrige punktum fradragsføres etter reglene i §§ 14-44 til 14-46. Det gis ikke fradrag for ervervskostnader til grunn eller andre ytelser til grunneier, kommuner mv. Det gis heller ikke fradrag for salgs-, overførings- eller finanskostnader. Det gis likevel fradrag for kostnader som påløper ved innmating av kraft til nettet. Kostnader som etter sin art faller inn under første punktum, og som er til nytte ved produksjonen i flere vindkraftanlegg som den skattepliktige driver, skal fordeles på en måte som er egnet til å gi samsvar mellom kostnadsandel og nytte for hvert vindkraftanlegg. Tilsvarende fordeling skal foretas for kostnader som er til nytte for både vindkraftproduksjon og annen virksomhet som den skattepliktige driver. Pådratte kostnader til fjerning av vindkraftanlegg og tilbakeføring av område etter vilkår i konsesjon, kan føres til fradrag.Eiendomsskatt for vindkraftanlegget.Inntektsårets skattemessige avskrivninger for driftsmidler som er knyttet til vindkraftproduksjonen beregnes på følgende måte:For skattepliktig som for inntektsåret 2023 eller tidligere inntektsår ikke har avskrevet driftsmidlene etter §§ 14-40 til 14-43 med maksimale satser, reduseres grunnlaget for avskrivninger som om maksimale satser var benyttet.For driftsmidler ervervet fra og med 19. juni 2015 til og med inntektsåret 2021, som har vært avskrevet etter de særskilte bestemmelsene i § 14-51, skal grunnlaget for avskrivninger etter første punktum fastsettes som om driftsmidlene ikke har vært avskrevet etter § 14-51, men med maksimale satser etter §§ 14-40 til 14-43.Beregnet grunnlag for avskrivninger etter a. og b. multipliseres med 1,4. Samlet grunnlag for avskrivninger kan likevel ikke overstige 85 pst. av anskaffelsesverdien for anleggets fysiske avskrivbare driftsmidler. Departementet kan gi utfyllende bestemmelser i forskrift.Beregnet grunnlag for avskrivninger etter c. avskrives med like store årlige beløp over fem år.Det ses bort fra avskrivninger for driftsmidler som omfattes av bokstav a nr. 6 første punktum.I tillegg gis et fradrag tilsvarende gjennomsnittet av de skattemessige verdiene av driftsmidlene pr. 1. januar og 31. desember i inntektsåret, herunder ervervet forretningsverdi og immaterielle rettigheter knyttet til kraftproduksjonen i anlegget, multiplisert med en normrente fastsatt av departementet i forskrift. Kostnader til driftsmidler som omfattes av tredje ledd bokstav a nr. 6 første punktum, inngår ikke ved beregningen av fradrag etter første punktum. Ved beregning av fradrag etter første punktum blir kostnader som skal behandles som en del av kostprisen for driftsmidler som nevnt, å hensynta fra og med inntektsåret det oppstår en ubetinget forpliktelse til å dekke eller innfri kostnaden.Kostnader etter denne bokstav som er pådratt i byggetiden kan føres til fradrag fra tidspunktet den skattepliktige begynner å aktivere investeringskostnader for anlegget for fastsetting av alminnelig inntekt.Inntektsårets kostnader som ellers er aktiveringspliktige, fradras umiddelbart i beregningsgrunnlaget for grunnrenteinntekt. Kostnader til erverv av vindkraftanlegg kan ikke fradras umiddelbart.I beregningsgrunnlaget for grunnrenteinntekt skal en særlig beregnet selskapsskatt for det grunnrenteskattepliktige vindkraftanlegget, føres til fradrag. Ved beregningen medtas de samme inntekts- og kostnadsstørrelsene som brukes ved fastsettelse av grunnrenteskatten. Kostnader til driftsmidler skal likevel avskrives etter skattelovens alminnelige regler, og fradras i grunnlaget for beregnet selskapsskatt. Grunnlaget for avskrivninger for driftsmidler ervervet før 1. januar 2024 fastsettes på samme måte som i bokstav a nr. 3 a. til c. Driftsmidler som avskrives etter § 14-51 i alminnelig inntektsskatt skal likevel avskrives med samme beløp som i alminnelig inntektsskatt, mens den oppjusterte delen etter bokstav a nr. 3 b. og c. avskrives etter skattelovens alminnelige regler. Beregnet negativ selskapsskatt fremføres til fradrag i beregnet selskapsskatt for senere inntektsår uten rente.(4) Dersom fradragene i brutto salgsinntekter fører til at grunnrenteinntekten for vindkraftanlegget blir negativ, skal differansen fremføres til fradrag i neste års grunnrenteinntekt beregnet ved vindkraftanlegget. Differansen fremføres med rente fastsatt av departementet i forskrift.(5) Ved opphør av driften, med fjerning av vindkraftanlegg og tilbakeføring av området i samsvar med konsesjon, skal det foretas et inntektsoppgjør for driftsmidler som er knyttet til kraftproduksjonen. Dersom årets grunnrenteinntekt, inkludert fremført, negativ grunnrenteinntekt fra tidligere inntektsår, blir negativ, utbetales skatteverdien av den negative grunnrenteinntekten fra staten ved avregningsoppgjøret for inntektsåret etter skattebetalingsloven.(6) Underskudd eller tap i andre inntektskilder kan ikke trekkes fra i positiv grunnrenteinntekt ved et vindkraftanlegg.(7) Beregningsgrunnlaget for grunnrenteinntekt ved realisasjon av vindkraftanlegg fastsettes på følgende måte:For overdrager skal det i realisasjonsåret beregnes grunnrenteinntekt tilsvarende vederlaget, fratrukket summen av skattemessig verdi av driftsmidler som benyttes i kraftproduksjonen ved vindkraftanlegget og eventuell negativ grunnrenteinntekt til fremføring, jf. fjerde ledd. Skattemessig verdi for driftsmidler som omfattes av tredje ledd bokstav a nr. 6 første punktum, inngår ikke ved beregningen av fradrag etter første punktum. Negativ differanse kan tilbakeføres og fradras i grunnrenteinntekt beregnet for det realiserte vindkraftanlegget for samme eller tidligere inntektsår, med tillegg av rente fastsatt av departementet i forskrift.Vindkraftanlegg kan realiseres uten beskatning som nevnt i bokstav a. Slik overdragelse kan bare skje dersom vindkraftanlegget overføres samlet og overtaker viderefører de skattemessige verdiene og ervervstidspunktene for eiendeler, rettigheter og forpliktelser som overføres. Kostnader til driftsmidler som omfattes av tredje ledd bokstav a nr. 6 første punktum, inngår ikke i skattemessige verdier etter første punktum. Ved slik realisasjon kan negativ grunnrenteinntekt etter fjerde ledd og fremført produksjonsavgift etter § 18-10 femte ledd, på overdragelsestidspunktet, overdras til overtaker.Når vindkraftanlegg overdras til ny eier i løpet av inntektsåret, skal grunnrenteinntekt fastsettes særskilt for overdrager og erverver på grunnlag av den enkeltes forhold.(8) Av produksjon i vindkraftanlegg med generatorer som har en samlet maksimal installert effekt i henhold til konsesjon under 1 MW, fastsettes ikke grunnrenteinntekt. For vindkraftanlegg med mer enn fem vindturbiner fastsettes likevel grunnrenteinntekt.(9) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.
+> § 18-10. Grunnrenteskatt til staten for vindkraftanlegg
 >
-> § 18-10.Grunnrenteskatt til staten for vindkraftanlegg
+> (1) Eier av vindkraftanlegg skal svare skatt til staten på grunnlag av grunnrenteinntekt beregnet ved det enkelte vindkraftanlegget. Grunnrenteinntekten fastsettes etter bestemmelsene i annet til åttende ledd. Skatt på grunnrenteinntekt beregnes etter en sats som for det enkelte år vedtas av Stortinget.
+>
+> (2) Grunnrenteskatt ilegges kraft som er produsert i landbaserte vindkraftanlegg. Skatteplikten omfatter også kraft produsert utenfor vindkraftanleggets ordinære drift, for eksempel ved prøvedrift, testkjøring og liknende. Kraft som er forbrukt i eventuelt hjelpeutstyr i forbindelse med produksjon av elektrisk energi, kraft tapt i hovedtransformatoren ved produksjon i vindkraftanlegget og energi fra eventuell hjelpegenerator omfattes ikke av skatteplikten. Beregningsgrunnlaget for grunnrenteskatt av løpende inntekt fra vindkraftvirksomhet er brutto salgsinntekter som fastsettes på følgende måte:Årlige brutto salgsinntekter settes til summen av årets spotmarkedspriser per time multiplisert med faktisk produksjon ved vindkraftanlegget i de tilhørende tidsavsnitt, med følgende unntak:Kraft som leveres i henhold til kjøpekontrakt mellom uavhengige parter inngått før 28. september 2022, verdsettes til kontraktsprisen. Kraft som leveres til spotmarkedspris, der det før 28. september 2022 er inngått avtale med uavhengig part om finansiell sikring mot spotmarkedsprisen i prisområdet der kraften er levert, eller mot nordisk systempris, verdsettes til sikret pris. Forrige punktum omfatter avtaler om sikring som er inngått av konsernforbundet selskap, jf. § 10-4. Ved avtale om sikring som omfattes av annet punktum skal gevinst eller tap knyttet til markedsutviklingen for elektrisk kraft for inntektsåret inngå i grunnrenteinntekten. Dette nummer gjelder avtaler som er inngått med formål om å prissikre leveranser av kraft fra vindkraftanlegg. Avtaler som har vært omfattet av § 18-3 annet ledd bokstav a nr. 2 omfattes ikke av dette nummer. Med uavhengig part menes kontraktspart som ikke har direkte eller indirekte interessefellesskap med selger, jf. § 13-1. Ved oppgjør før tiden av kjøpekontrakt som nevnt i første punktum, skal gevinsten eller tapet ved oppgjøret inngå i grunnlaget for grunnrenteskatt. Forrige punktum gjelder også ved oppgjør før tiden av avtale om sikring som nevnt i annet punktum, for så vidt gjelder gevinst eller tap for inntektsåret og gjenstående sikringsperiode. Den nærmere avgrensningen og retningslinjene for unntaket fastsettes av departementet i forskrift.Kraft som leveres til en strømleverandør i henhold til langsiktig fastpriskontrakt, og som leveres videre i henhold til standard fastprisavtaler i sluttbrukermarkedet, verdsettes til kontraktsprisen. Den nærmere avgrensningen og retningslinjene for unntaket fastsettes av departementet i forskrift.Kraft som leveres i henhold til kjøpekontrakt mellom uavhengige parter inngått i perioden 2024 til 2030, verdsettes til kontraktsprisen. Dette nummer gjelder avtaler som er inngått i perioden 2024 til 2030 med formål om å prissikre leveranser av kraft fra vindkraftanlegg for prosjekter som etableres i perioden 2024 til 2030. Avtaler som har vært omfattet av § 18-3 annet ledd bokstav a nr. 2 omfattes ikke av dette nummer. Med uavhengig part menes i dette nummer kontraktspart som ikke har direkte eller indirekte interessefellesskap med selger, jf. § 13-1. Ved oppgjør før tiden av avtaler som nevnt i første og annet punktum, skal gevinsten eller tapet ved oppgjøret inngå i grunnlaget for grunnrenteskatt. Den nærmere avgrensningen og retningslinjene for unntaket fastsettes av departementet i forskrift.Gevinst ved realisasjon av driftsmiddel som benyttes i vindkraftproduksjon, tillegges brutto salgsinntekter. For driftsmidler som nevnt i tredje ledd bokstav a nr. 6 første punktum, inntektsføres gevinsten i realisasjonsåret. For øvrige driftsmidler gjelder reglene i §§ 14-44 til 14-46.Driftsstøtte til produksjon av ny vindkraft tillegges brutto salgsinntekter.Inntekt fra utstedte elsertifikater tillegges brutto salgsinntekter.Inntekt fra utstedte opprinnelsesgarantier tillegges brutto salgsinntekter.
+>
+> (3) Grunnrenteinntekten for løpende inntekt fra vindkraftvirksomhet fremkommer ved at det i beregningsgrunnlaget gis følgende fradrag:I brutto salgsinntekter etter annet ledd fradras følgende påløpte kostnader som har eller vil få sammenheng med produksjonen ved vindkraftanlegget:Driftskostnader som regulært følger av vindkraftproduksjonen, herunder arbeidslønn og andre personalkostnader, kostnader til vedlikehold, forsikring, administrasjon, erstatninger til grunneiere og rettighetshavere for tap av inntekt fra virksomhet som må opphøre helt eller delvis ved etablering av vindkraftanlegget og tap ved realisasjon av driftsmidler som ikke omfattes av nr. 6 første punktum. Tap ved realisasjon av driftsmidler som nevnt i forrige punktum fradragsføres etter reglene i §§ 14-44 til 14-46. Det gis ikke fradrag for ervervskostnader til grunn eller andre ytelser til grunneier, kommuner mv. Det gis heller ikke fradrag for salgs-, overførings- eller finanskostnader. Det gis likevel fradrag for kostnader som påløper ved innmating av kraft til nettet. Kostnader som etter sin art faller inn under første punktum, og som er til nytte ved produksjonen i flere vindkraftanlegg som den skattepliktige driver, skal fordeles på en måte som er egnet til å gi samsvar mellom kostnadsandel og nytte for hvert vindkraftanlegg. Tilsvarende fordeling skal foretas for kostnader som er til nytte for både vindkraftproduksjon og annen virksomhet som den skattepliktige driver. Pådratte kostnader til fjerning av vindkraftanlegg og tilbakeføring av område etter vilkår i konsesjon, kan føres til fradrag.Eiendomsskatt for vindkraftanlegget.Inntektsårets skattemessige avskrivninger for driftsmidler som er knyttet til vindkraftproduksjonen beregnes på følgende måte:For skattepliktig som for inntektsåret 2023 eller tidligere inntektsår ikke har avskrevet driftsmidlene etter §§ 14-40 til 14-43 med maksimale satser, reduseres grunnlaget for avskrivninger som om maksimale satser var benyttet.For driftsmidler ervervet fra og med 19. juni 2015 til og med inntektsåret 2021, som har vært avskrevet etter de særskilte bestemmelsene i § 14-51, skal grunnlaget for avskrivninger etter første punktum fastsettes som om driftsmidlene ikke har vært avskrevet etter § 14-51, men med maksimale satser etter §§ 14-40 til 14-43.Beregnet grunnlag for avskrivninger etter a. og b. multipliseres med 1,4. Samlet grunnlag for avskrivninger kan likevel ikke overstige 85 pst. av anskaffelsesverdien for anleggets fysiske avskrivbare driftsmidler. Departementet kan gi utfyllende bestemmelser i forskrift.Beregnet grunnlag for avskrivninger etter c. avskrives med like store årlige beløp over fem år.Det ses bort fra avskrivninger for driftsmidler som omfattes av bokstav a nr. 6 første punktum.I tillegg gis et fradrag tilsvarende gjennomsnittet av de skattemessige verdiene av driftsmidlene pr. 1. januar og 31. desember i inntektsåret, herunder ervervet forretningsverdi og immaterielle rettigheter knyttet til kraftproduksjonen i anlegget, multiplisert med en normrente fastsatt av departementet i forskrift. Kostnader til driftsmidler som omfattes av tredje ledd bokstav a nr. 6 første punktum, inngår ikke ved beregningen av fradrag etter første punktum. Ved beregning av fradrag etter første punktum blir kostnader som skal behandles som en del av kostprisen for driftsmidler som nevnt, å hensynta fra og med inntektsåret det oppstår en ubetinget forpliktelse til å dekke eller innfri kostnaden.Kostnader etter denne bokstav som er pådratt i byggetiden kan føres til fradrag fra tidspunktet den skattepliktige begynner å aktivere investeringskostnader for anlegget for fastsetting av alminnelig inntekt.Inntektsårets kostnader som ellers er aktiveringspliktige, fradras umiddelbart i beregningsgrunnlaget for grunnrenteinntekt. Kostnader til erverv av vindkraftanlegg kan ikke fradras umiddelbart.I beregningsgrunnlaget for grunnrenteinntekt skal en særlig beregnet selskapsskatt for det grunnrenteskattepliktige vindkraftanlegget, føres til fradrag. Ved beregningen medtas de samme inntekts- og kostnadsstørrelsene som brukes ved fastsettelse av grunnrenteskatten. Kostnader til driftsmidler skal likevel avskrives etter skattelovens alminnelige regler, og fradras i grunnlaget for beregnet selskapsskatt. Grunnlaget for avskrivninger for driftsmidler ervervet før 1. januar 2024 fastsettes på samme måte som i bokstav a nr. 3 a. til c. Driftsmidler som avskrives etter § 14-51 i alminnelig inntektsskatt skal likevel avskrives med samme beløp som i alminnelig inntektsskatt, mens den oppjusterte delen etter bokstav a nr. 3 b. og c. avskrives etter skattelovens alminnelige regler. Beregnet negativ selskapsskatt fremføres til fradrag i beregnet selskapsskatt for senere inntektsår uten rente.
+>
+> (4) Dersom fradragene i brutto salgsinntekter fører til at grunnrenteinntekten for vindkraftanlegget blir negativ, skal differansen fremføres til fradrag i neste års grunnrenteinntekt beregnet ved vindkraftanlegget. Differansen fremføres med rente fastsatt av departementet i forskrift.
+>
+> (5) Ved opphør av driften, med fjerning av vindkraftanlegg og tilbakeføring av området i samsvar med konsesjon, skal det foretas et inntektsoppgjør for driftsmidler som er knyttet til kraftproduksjonen. Dersom årets grunnrenteinntekt, inkludert fremført, negativ grunnrenteinntekt fra tidligere inntektsår, blir negativ, utbetales skatteverdien av den negative grunnrenteinntekten fra staten ved avregningsoppgjøret for inntektsåret etter skattebetalingsloven.
+>
+> (6) Underskudd eller tap i andre inntektskilder kan ikke trekkes fra i positiv grunnrenteinntekt ved et vindkraftanlegg.
+>
+> (7) Beregningsgrunnlaget for grunnrenteinntekt ved realisasjon av vindkraftanlegg fastsettes på følgende måte:For overdrager skal det i realisasjonsåret beregnes grunnrenteinntekt tilsvarende vederlaget, fratrukket summen av skattemessig verdi av driftsmidler som benyttes i kraftproduksjonen ved vindkraftanlegget og eventuell negativ grunnrenteinntekt til fremføring, jf. fjerde ledd. Skattemessig verdi for driftsmidler som omfattes av tredje ledd bokstav a nr. 6 første punktum, inngår ikke ved beregningen av fradrag etter første punktum. Negativ differanse kan tilbakeføres og fradras i grunnrenteinntekt beregnet for det realiserte vindkraftanlegget for samme eller tidligere inntektsår, med tillegg av rente fastsatt av departementet i forskrift.Vindkraftanlegg kan realiseres uten beskatning som nevnt i bokstav a. Slik overdragelse kan bare skje dersom vindkraftanlegget overføres samlet og overtaker viderefører de skattemessige verdiene og ervervstidspunktene for eiendeler, rettigheter og forpliktelser som overføres. Kostnader til driftsmidler som omfattes av tredje ledd bokstav a nr. 6 første punktum, inngår ikke i skattemessige verdier etter første punktum. Ved slik realisasjon kan negativ grunnrenteinntekt etter fjerde ledd og fremført produksjonsavgift etter § 18-10 femte ledd, på overdragelsestidspunktet, overdras til overtaker.Når vindkraftanlegg overdras til ny eier i løpet av inntektsåret, skal grunnrenteinntekt fastsettes særskilt for overdrager og erverver på grunnlag av den enkeltes forhold.
+>
+> (8) Av produksjon i vindkraftanlegg med generatorer som har en samlet maksimal installert effekt i henhold til konsesjon under 1 MW, fastsettes ikke grunnrenteinntekt. For vindkraftanlegg med mer enn fem vindturbiner fastsettes likevel grunnrenteinntekt.
+>
+> (9) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.
 >
 
 ### 2024-01-12 — lov/2024-01-12-2
@@ -11492,18 +11708,6 @@ refid: "lov/1999-03-26-14"
 
 > Inntektsårets skattemessige avskrivninger, jf. kapittel 14, for driftsmidler som er knyttet til vindkraftproduksjonen:For skattepliktig som for inntektsåret 2023 eller tidligere inntektsår ikke har avskrevet driftsmidlene etter §§ 14-40 til 14-43 med maksimale satser, reduseres grunnlaget for avskrivninger som om maksimale satser var benyttet.For driftsmidler ervervet fra og med 19. juni 2015 til og med inntektsåret 2021, som har vært avskrevet etter de særskilte bestemmelsene i § 14-51, skal grunnlaget for avskrivninger etter første punktum fastsettes som om driftsmidlene ikke har vært avskrevet etter § 14-51, men som om driftsmidlene var avskrevet med maksimale satser etter §§ 14-40 til 14-43.Beregnet grunnlag for avskrivninger etter denne paragraf multipliseres med 1,4. Ved oppjustering etter første punktum kan samlet grunnlag for avskrivninger likevel ikke overstige 85 prosent av anskaffelsesverdien for anleggets fysiske avskrivbare driftsmidler. Departementet kan gi utfyllende bestemmelser i forskrift.Beregnet grunnlag for avskrivninger etter c. avskrives med like store årlige beløp over fem år.Det ses bort fra avskrivninger for driftsmidler som omfattes av bokstav a nr. 6 første punktum.Det gis ikke fradrag for avskrivninger av ervervskostnader til grunn eller andre ytelser til grunneier, kommuner mv.
 >
-> For skattepliktig som for inntektsåret 2023 eller tidligere inntektsår ikke har avskrevet driftsmidlene etter §§ 14-40 til 14-43 med maksimale satser, reduseres grunnlaget for avskrivninger som om maksimale satser var benyttet.
->
-> For driftsmidler ervervet fra og med 19. juni 2015 til og med inntektsåret 2021, som har vært avskrevet etter de særskilte bestemmelsene i § 14-51, skal grunnlaget for avskrivninger etter første punktum fastsettes som om driftsmidlene ikke har vært avskrevet etter § 14-51, men som om driftsmidlene var avskrevet med maksimale satser etter §§ 14-40 til 14-43.
->
-> Beregnet grunnlag for avskrivninger etter denne paragraf multipliseres med 1,4. Ved oppjustering etter første punktum kan samlet grunnlag for avskrivninger likevel ikke overstige 85 prosent av anskaffelsesverdien for anleggets fysiske avskrivbare driftsmidler. Departementet kan gi utfyllende bestemmelser i forskrift.
->
-> Beregnet grunnlag for avskrivninger etter c. avskrives med like store årlige beløp over fem år.
->
-> Det ses bort fra avskrivninger for driftsmidler som omfattes av bokstav a nr. 6 første punktum.
->
-> Det gis ikke fradrag for avskrivninger av ervervskostnader til grunn eller andre ytelser til grunneier, kommuner mv.
->
 
 ### 2024-06-25 — lov/2024-06-25-61
 
@@ -11522,6 +11726,9 @@ refid: "lov/1999-03-26-14"
 ### 2024-06-25 — lov/2024-06-25-61
 
 *§ 18-10 niande ledd skal lyde:*
+
+> (9) I kraftverk som skattlegges etter en bruttometode, jf. § 10-40 annet ledd, fastsettes grunnrenteinntekt for hver deltaker.
+>
 
 ### 2024-06-25 — lov/2024-06-25-61
 
@@ -11554,9 +11761,11 @@ refid: "lov/1999-03-26-14"
 
 *Ny § 18-11 skal lyde:*
 
-> § 18-11.Avgift på landbasert vindkraft(1) Avgift etter Stortingets vedtak om avgift på landbasert vindkraft, kan kreves fratrukket i fastsatt grunnrenteskatt som kan henføres til vindkraftanlegget. Dersom eier av vindkraftanlegget ikke er innehaver av konsesjonen, må eieren av vindkraftanlegget kunne dokumentere at avgiften ikke inngår i fradragsberettiget vederlag til driftsoperatøren. Dersom avgiften overstiger grunnrenteskatt for inntektsåret, kan det overskytende fremføres til fradrag i senere inntektsår med rente som departementet fastsetter i forskrift.(2) Avgift etter Stortingets vedtak om avgift på landbasert vindkraft, kan ikke fradras i alminnelig inntekt. Forrige punktum gjelder ikke avgift for vindkraftanlegg som den avgiftspliktige ikke eier.
+> § 18-11. Avgift på landbasert vindkraft
 >
-> § 18-11.Avgift på landbasert vindkraft
+> (1) Avgift etter Stortingets vedtak om avgift på landbasert vindkraft, kan kreves fratrukket i fastsatt grunnrenteskatt som kan henføres til vindkraftanlegget. Dersom eier av vindkraftanlegget ikke er innehaver av konsesjonen, må eieren av vindkraftanlegget kunne dokumentere at avgiften ikke inngår i fradragsberettiget vederlag til driftsoperatøren. Dersom avgiften overstiger grunnrenteskatt for inntektsåret, kan det overskytende fremføres til fradrag i senere inntektsår med rente som departementet fastsetter i forskrift.
+>
+> (2) Avgift etter Stortingets vedtak om avgift på landbasert vindkraft, kan ikke fradras i alminnelig inntekt. Forrige punktum gjelder ikke avgift for vindkraftanlegg som den avgiftspliktige ikke eier.
 >
 
 ## § 19-2
@@ -11615,6 +11824,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 19-5 fjerde ledd skal lyde:*
 
+> (4) Departementet kan gi forskrift til utfylling og gjennomføring av reglene i denne paragraf. Det kan gis forskrift om oppnevning og organisering av et prisråd for havbruk. Videre kan det gis forskrift om at grunnrenteskattepliktig etter § 19-2 har opplysnings- og dokumentasjonsplikt overfor prisrådet om salgs- og avtalevilkår ved kjøp og salg av laks, ørret og regnbueørret, taushetsplikt og unntak fra taushetsplikt og deling av slike opplysninger mellom prisrådet og andre offentlige myndigheter uten hinder av taushetsplikt. Departementet kan gi forskrift om at prisrådet kan ilegge tvangsmulkt for å sikre etterlevelse av opplysnings- og dokumentasjonsplikt. Forskriften kan inneholde bestemmelser om klage- og søksmålsrett for grunnrenteskattepliktig som nevnt, og om at klageorganet ikke kan instrueres, verken generelt eller i enkeltsaker.
+>
+
 ### 2026-06-23 — lov/2026-06-23-66
 
 *§ 19-5 fyrste ledd bokstav c andre punktum skal lyde:*
@@ -11664,9 +11876,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 20-3 skal lyde:*
 
-> § 20-3.InntektstakHar skattyter årlig brutto arbeidsinntekt, jf. § 20-1, over et fastsatt inntektstak, skal skattlegging skje etter skattelovens alminnelige regler for hele inntekten.
+> § 20-3. Inntektstak
 >
-> § 20-3.Inntektstak
+> Har skattyter årlig brutto arbeidsinntekt, jf. § 20-1, over et fastsatt inntektstak, skal skattlegging skje etter skattelovens alminnelige regler for hele inntekten.
 >
 
 ## § 20-4
@@ -11684,9 +11896,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 20-7 skal lyde:*
 
-> § 20-7.ForskriftDepartementet kan gi forskrift om skattesubjektene i ordningen, jf. § 20-1, inntektstak for arbeidsinntekt, jf. § 20-3, inntektstak for kapitalinntekt, jf. § 20-5 annet punktum og vilkår for valgadgang, jf. § 20-6.
+> § 20-7. Forskrift
 >
-> § 20-7.Forskrift
+> Departementet kan gi forskrift om skattesubjektene i ordningen, jf. § 20-1, inntektstak for arbeidsinntekt, jf. § 20-3, inntektstak for kapitalinntekt, jf. § 20-5 annet punktum og vilkår for valgadgang, jf. § 20-6.
 >
 
 ## (annet)
@@ -11861,6 +12073,10 @@ refid: "lov/1999-03-26-14"
 ### 2004-12-10 — lov/2004-12-10-77
 
 *Nåværende § 14-82 og § 14-83 blir § 14-81 og § 14-82.*
+
+### 2005-06-10 — lov/2005-06-10-45
+
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) skal § 6-47 første ledd bokstav b lyde:den trygdedes tilskudd til pensjonsordning i arbeidsforhold, som omhandlet i § 6-46 første ledd a og e, § 6-46 andre ledd bokstav a og § 6-46 tredje ledd.*
 
 ### 2005-06-17 — lov/2005-06-17-74
 
@@ -12129,6 +12345,13 @@ refid: "lov/1999-03-26-14"
 
 *Nåværende § 10-50 femte ledd blir nytt sjette ledd.*
 
+### 2007-03-16 — lov/2007-03-16-11
+
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) skal § 6-46 tredje ledd lyde:*
+
+> (3) Det gis fradrag etter annet ledd for selvstendig næringsdrivende, frilansere og deltakere som nevnt i § 10-40 for tilskudd til pensjonsordning etter innskuddspensjonsloven § 2-3 annet ledd.
+>
+
 ### 2007-06-15 — lov/2007-06-15-23
 
 *Nåværende §§ 16-23 til 16-28 blir ny §§ 16-24 til 16-29*
@@ -12261,6 +12484,13 @@ refid: "lov/1999-03-26-14"
 
 *Nåværende § 7-3 femte ledd bokstav e blir bokstav d.*
 
+### 2010-08-06 — forskrift/2010-08-06-1167
+
+*Lov 11. desember 2009 nr. 123 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) del VII i trer i kraft straks med virkning fra og med inntektsåret 2010.*
+
+> Lov 11. desember 2009 nr. 123 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) del VII i trer i kraft straks med virkning fra og med inntektsåret 2010.
+>
+
 ### 2010-09-03 — lov/2010-09-03-54
 
 *Nåværende § 2-30 første ledd bokstav m til n blir bokstav l til m.*
@@ -12288,6 +12518,20 @@ refid: "lov/1999-03-26-14"
 > Skattefri overføring av eiendeler mv. mellom selskaper
 >
 
+### 2011-06-24 — lov/2011-06-24-23
+
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 10-36 første ledd lyde:*
+
+> (1) Dersom skattyter eier flere aksjer fra samme aksjeklasse i et aksjeselskap eller allmennaksjeselskap, anses den aksjen som var først anskaffet, for å være realisert først. Dette gjelder tilsvarende når aksjer overføres som gave.
+>
+
+### 2011-06-24 — lov/2011-06-24-23
+
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 16-40 sjuande ledd nytt siste punktum lyde:*
+
+> Departementet kan gi forskrift om utveksling av opplysninger tilknyttet et forsknings- og utviklingsprosjekt mellom Norges forskningsråd og ligningsmyndighetene uavhengig av taushetsplikt, og gi forskrift om sanksjoner ved brudd på vilkårene for godkjenning av prosjekt.
+>
+
 ### 2011-12-09 — lov/2011-12-09-52
 
 *Nåværende § 2-30 første ledd bokstav o blir bokstav m.*
@@ -12307,6 +12551,50 @@ refid: "lov/1999-03-26-14"
 ### 2011-12-09 — lov/2011-12-09-52
 
 *Nåværende § 12-14 blir § 12-13.*
+
+### 2012-06-22 — lov/2012-06-22-36
+
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 2-30 første ledd bokstav j ny nummer 6 lyde:Stiftelsen Borettslagenes Sikringsfond*
+
+### 2012-06-22 — lov/2012-06-22-40
+
+*I lov 26. mars 1999 nr. 14 om skatt av inntekt og formue skal § 9-14 lyde:*
+
+> § 9-14.Skatteplikt for gevinst på eiendeler mv. som tas ut av norsk beskatningsområde
+>
+> (1) Gevinst på eiendel eller forpliktelse som nevnt i tredje ledd, og som tas ut av norsk beskatningsområde, er skattepliktig som om eiendelen eller forpliktelsen var realisert siste dag før dette tidspunktet. Skatteplikt etter dette ledd omfatter ikke gevinst ved overføringer som innebærer realisasjon eller uttak til egen bruk eller gaveoverføring som medfører skatteplikt etter § 5-2. Skatteplikt etter dette ledd omfatter heller ikke gevinst knyttet til forpliktelser som blir realisert ved oppfyllelse, ettergivelse, overføring mv.
+>
+> (2) Med eiendel eller forpliktelse som tas ut av norsk beskatningsområde menes blant annet:eiendel som tilhører eller forpliktelse som påhviler skattepliktig etter § 2-1 eller § 2-2, når skatteplikten opphører etter disse bestemmelser eller etter skatteavtale med fremmed stat,eiendel som tilhører eller forpliktelse som påhviler skattepliktig etter § 2-3, når skattyterens skatteplikt opphører etter denne bestemmelsen eller etter skatteavtale med fremmed stat, eller når eiendelens eller forpliktelsens tilknytning til riket eller til virksomhet i riket som nevnt i § 2-3 opphører, ogeiendel som tilhører eller forpliktelse som påhviler utenlandsk selskap eller innretning hvor deltakerne skattlegges etter § 10-61, når norsk kontroll av selskapet eller innretningen opphører.Med skatteplikt som nevnt under a og b likestilles skatteplikt etter petroleumsskatteloven § 2. Selv om vilkårene under a, b eller c er oppfylt, anses en eiendel eller forpliktelse ikke for tatt ut av norsk beskatningsområde dersom den samtidig får slik tilknytning til Norge at norsk skattelovgivning får virkning for inntekter og kostnader knyttet til eiendelen eller forpliktelsen.En forholdsmessig del av eiendel som tilhører eller forpliktelse som påhviler selskap som nevnt i § 10-40 anses tatt ut av norsk beskatningsområde når eiendelen eller forpliktelsen ved overføring av andel i selskapet fra deltaker som har skatteplikt etter §§ 2-1 eller 2-2, til deltaker som ikke har slik skatteplikt, eller på annen måte mister tilknytning til Norge slik at norsk skattelovgivning ikke får virkning for inntekter og kostnader knyttet til eiendelen eller forpliktelsen.
+>
+> (3) Skatteplikt etter denne paragraf omfatter gevinst påfysiske driftsmidler som nevnt i § 14-41 første ledd a samt c til j,finansielle eiendeler,forpliktelser,omsetningsgjenstander, ogimmaterielle eiendeler.
+>
+> (4) Skatteplikt etter denne paragraf omfatter ikkegevinst på eiendeler som er nevnt i tredje ledd b, og som ved uttaket tilhører person som er bosatt i riket etter § 2-1 første ledd,gevinst som på tidspunktet som nevnt i første ledd første punktum ville vært fritatt for skatteplikt etter § 2-38, ellergevinst på eiendeler som nevnt i § 9-3 første ledd c.
+>
+> (5) Skatteplikt etter denne paragraf omfatter bare gevinst på eiendeler og forpliktelser som nevnt i tredje ledd a samt c til e, dersom gevinsten ved en realisasjon på tidspunktet som nevnt i første ledd første punktum ville ha vært skattepliktig etter bestemmelsen i § 5-30 første ledd.
+>
+> (6) Tap på eiendel eller forpliktelse som nevnt i tredje ledd, og som tas ut av norsk beskatningsområde, er fradragsberettiget for skattyter som er skattepliktig til riket etter §§ 2-1 eller 2-2 eller som anses skattemessig hjemmehørende i annen EØS-stat på tidspunktet som nevnt i første ledd første punktum. Det gis ikke fradrag for tap som har kommet til fradrag i annen stat. Tapet fastsettes ved ligningen for det året realisasjon anses å ha funnet sted, jf. § 14-27.
+>
+> (7) Det kan kreves fradrag i norsk skatt etter denne paragraf for skatt på gevinst på eiendeler og forpliktelser som nevnt i tredje ledd, som det godtgjøres ville blitt utløst til en annen EØS-stat ved en realisasjon på tidspunktet som nevnt i første ledd første punktum. Skatteverdien av tapsfradrag reduseres tilsvarende. Departementet kan gi nærmere regler om beregning av fradraget.
+>
+> (8) Ved gevinstberegningen fastsettes utgangsverdien til markedsverdien på det tidspunkt realisasjon anses å ha funnet sted. Bestemmelsene i §§ 10-30 til 10-36 og § 10-44 gjelder så langt de passer. Når det ikke foreligger en kjent markedsverdi, fastsettes denne ved skjønn. Utgangsverdien skal reduseres med eventuell inntektsføring etter § 14-64 ved uttaket fra norsk beskatningsområde.
+>
+> (9) Ved uttak av eiendeler og forpliktelser som nevnt i tredje ledd a til c, kan skattyter kreve utsettelse med innbetaling av utlignet og forfalt skatt dersom skattyter er hjemmehørende i riket etter §§ 2-1 eller 2-2 eller anses skattemessig hjemmehørende i annen EØS-stat. Retten til utsettelse gjelder i den utstrekning skatt etter denne paragraf overstiger årets netto utlignede skatt på inntekt. Det skal beregnes renter som nevnt i skattebetalingsloven § 11-6 annet ledd, fra det tidspunkt restskatt knyttet til utlignet skatt etter denne paragraf skulle vært betalt etter bestemmelsene i skattebetalingsloven § 10-21. Det må stilles betryggende sikkerhet for skatteforpliktelsen og påløpte renter. Foreldelsesfristen for skattekravet og påløpte renter, jf. skattebetalingsloven § 12-1, løper fra tidspunktet for opphør av retten til utsettelse med betaling av skatten.
+>
+> (10) Retten til utsettelse med betaling av skatten med renter etter bestemmelsen i forrige ledd opphører ved realisasjon, ved uttak til egen bruk, ved gaveoverføring og ved opphør av virksomhet i selskap med andel som nevnt i § 10-70 første ledd, jf. § 10-70 annet ledd b. Retten til utsettelse opphører også når skattyteren ikke lenger er hjemmehørende i riket etter §§ 2-1 eller 2-2 og ikke anses skattemessig hjemmehørende i annen EØS-stat, samt når det ikke lenger foreligger betryggende sikkerhet etter niende ledd fjerde punktum.
+>
+> (11) Hvis eiendel eller forpliktelse som nevnt i tredje ledd a til c igjen får slik tilknytning til Norge at norsk skattelovgivning får virkning for inntekter og kostnader knyttet til eiendelen eller forpliktelsen, settes inngangsverdien til markedsverdien på tilknytningstidspunktet.
+>
+> (12) Dersom gevinst ved inntak i norsk beskatningsområde av eiendel eller forpliktelse som nevnt i tredje ledd er skattepliktig til annen stat, gis fradrag i skatt etter denne paragraf etter reglene i skatteloven § 16-20 til § 16-29 så langt de passer. Det gis ikke fradrag i skatt etter dette ledd for skatt til utlandet på del av gevinst på eiendel ved inntak som svarer til differansen mellom utgangsverdien som er lagt til grunn ved gevinstberegningen i utlandet og den skattemessige verdi som er fastsatt ved inntaket til norsk beskatningsområde. Fradrag i norsk skatt etter dette ledd gis ikke der eiendelen eller forpliktelsen ikke samtidig med uttaket fra norsk beskatningsområde får tilknytning til en etablering i en EØS-stat som nevnt i § 10-64 b. Fradrag i norsk skatt etter dette ledd gis bare dersom skattyter er skattepliktig til riket etter §§ 2-1 eller 2-2 eller anses skattemessig hjemmehørende i annen EØS-stat på tidspunktet som nevnt i første ledd første punktum.
+>
+> (13) Departementet kan gi regler til utfylling og gjennomføring av denne paragraf.
+>
+
+### 2012-06-22 — lov/2012-06-22-40
+
+*I lov 26. mars 1999 nr. 14 om skatt av inntekt og formue skal § 14-60 tredje ledd lyde:*
+
+> (3) Med driftsmiddel som tas ut av norsk beskatningsområde, menes blant annet:driftsmiddel som tilhører skattepliktig etter § 2-1 eller § 2-2, når skatteplikten opphører etter disse bestemmelser eller etter skatteavtale med fremmed stat,driftsmiddel som tilhører skattepliktig etter § 2-3, når skattyterens skatteplikt opphører etter denne bestemmelsen eller etter skatteavtale med fremmed stat, eller når driftsmidlets tilknytning til riket eller til virksomhet i riket som nevnt i § 2-3 opphører, ogdriftsmiddel som tilhører utenlandsk selskap eller innretning hvor deltakerne skattlegges etter § 10-61, når norsk kontroll av selskapet eller innretningen opphører.Med skatteplikt som nevnt under a og b likestilles skatteplikt etter petroleumsskatteloven § 2. Selv om vilkårene under a, b eller c er oppfylt, anses et driftsmiddel ikke for tatt ut av norsk beskatningsområde dersom det samtidig gis slik tilknytning som nevnt i annet ledd.En forholdsmessig del av eiendel som tilhører eller forpliktelse som påhviler selskap som nevnt i § 10-40 anses tatt ut av norsk beskatningsområde når eiendelen eller forpliktelsen ved overføring av andel i selskapet fra deltaker som har skatteplikt etter §§ 2-1 eller 2-2, til deltaker som ikke har slik skatteplikt, eller på annen måte mister tilknytning til Norge slik at norsk skattelovgivning ikke får virkning for inntekter og kostnader knyttet til eiendelen eller forpliktelsen.
+>
 
 ### 2012-12-07 — lov/2012-12-07-76
 
@@ -12332,6 +12620,10 @@ refid: "lov/1999-03-26-14"
 
 *Nåværende annet ledd blir nytt tredje ledd.*
 
+### 2014-06-20 — lov/2014-06-20-23
+
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 5-15 første ledd bokstav i lyde:arbeidsvederlag som ikke er virksomhetsinntekt, når beløpet er under grensen for opplysningsplikt etter forskrift gitt med hjemmel i ligningsloven § 5-12, jf. § 5-2,*
+
 ### 2014-12-19 — lov/2014-12-19-80
 
 *Nåværende § 10-48 blir ny § 10-49.*
@@ -12355,6 +12647,20 @@ refid: "lov/1999-03-26-14"
 
 *Gjeldande § 14-51 og § 14-52 blir til § 14-52 og ny § 14-53.*
 
+### 2015-09-18 — forskrift/2015-09-18-1056
+
+*Ikraftsetting av lov 19. desember 2014 nr. 80 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) del VI. Loven trer i kraft straks med virkning fra og med inntektsåret 2015.*
+
+> Ikraftsetting av lov 19. desember 2014 nr. 80 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) del VI. Loven trer i kraft straks med virkning fra og med inntektsåret 2015.
+>
+
+### 2015-12-04 — forskrift/2015-12-04-1400
+
+*Ikraftsetting av lov 13. desember 2013 nr. 117 om endringer i skatteloven del VII. Loven trer i kraft straks med virkning fra og med inntektsåret 2015.*
+
+> Ikraftsetting av lov 13. desember 2013 nr. 117 om endringer i skatteloven del VII. Loven trer i kraft straks med virkning fra og med inntektsåret 2015.
+>
+
 ### 2015-12-18 — lov/2015-12-18-115
 
 *Nåværende fjerde til åttende ledd blir syvende til nytt ellevte ledd.*
@@ -12367,9 +12673,29 @@ refid: "lov/1999-03-26-14"
 
 *Nåværende tredje punktum blir nytt femte punktum.*
 
+### 2015-12-18 — lov/2015-12-18-124
+
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 5-15 første ledd ny bokstav p lyde:standardisert inntektstaperstatning til barn etter skadeserstatningsloven § 3-2 a annet ledd.*
+
 ### 2016-06-17 — lov/2016-06-17-40
 
 *Noverande § 10-42 ellevte ledd blir nytt tolvte ledd.*
+
+### 2016-09-09 — forskrift/2016-09-09-1049
+
+*Delt ikrafttredelse av lov 19. juni 2015 nr. 52 om endringar i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Del IV § 14-45 tredje ledd og endring av gjeldende paragrafnummer fra § 14-51 og § 14-52 til § 14-52 og ny § 14-53 trer i kraft straks med virkning fra og med inntektsåret 2015.*
+
+> Delt ikrafttredelse av lov 19. juni 2015 nr. 52 om endringar i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Del IV § 14-45 tredje ledd og endring av gjeldende paragrafnummer fra § 14-51 og § 14-52 til § 14-52 og ny § 14-53 trer i kraft straks med virkning fra og med inntektsåret 2015.
+>
+> Delt ikrafttredelse av lov 17. juni 2016 nr. 40 om endringar i skatteloven. Del III trer i kraft straks med virkning fra og med inntektsåret 2015.
+>
+
+### 2016-10-21 — forskrift/2016-10-21-1220
+
+*Delt ikrafttredelse av lov 19. juni 2015 nr. 52 om endringar i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Del IV § 14-71 første ledd trer i kraft straks med virkning fra og med inntektsåret 2015.*
+
+> Delt ikrafttredelse av lov 19. juni 2015 nr. 52 om endringar i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Del IV § 14-71 første ledd trer i kraft straks med virkning fra og med inntektsåret 2015.
+>
 
 ### 2016-12-20 — lov/2016-12-20-111
 
@@ -12408,6 +12734,13 @@ refid: "lov/1999-03-26-14"
 ### 2017-12-19 — lov/2017-12-19-121
 
 *Nåværende annet og tredje ledd blir tredje og nytt fjerde ledd.*
+
+### 2017-12-19 — forskrift/2017-12-19-2152
+
+*Del V i Stortingets vedtak til lov om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) trer i kraft straks med virkning fra og med inntektsåret 2018.*
+
+> Del V i Stortingets vedtak til lov om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) trer i kraft straks med virkning fra og med inntektsåret 2018.
+>
 
 ### 2018-06-22 — lov/2018-06-22-57
 
@@ -12473,6 +12806,17 @@ refid: "lov/1999-03-26-14"
 > § 15-5.Særskilt fradrag i alminnelig inntekt i Troms og Finnmark fylke
 >
 
+### 2019-12-20 — forskrift/2019-12-20-2141
+
+*Romertall I i Stortingets vedtak 17. desember 2019*
+
+> Romertall I i Stortingets vedtak 17. desember 2019
+>
+> om lov om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) trer i kraft straks med virkning fra og med inntektsåret 2020.
+>
+> Skal være lov 20. desember 2019 nr. 94 om endringer i skatteloven. Lovtidend-redaksjonens anmerkning.
+>
+
 ### 2020-03-27 — lov/2020-03-27-9
 
 *§§ 16-60 til 16-63 med deloverskrift skal lyde:*
@@ -12522,6 +12866,13 @@ refid: "lov/1999-03-26-14"
 > (4) Det kan ikke tas opp spørsmål om endring av fastsetting, jf. skatteforvaltningsloven kapittel 13, som gjelder skattefradrag for underskudd i 2020, i tilfeller der skattyter som følge av endring av fastsettingen for et år forut for inntektsåret får redusert eller økt grunnlag for skattefradrag, jf. § 16-62 første ledd.
 >
 
+### 2020-07-20 — forskrift/2020-09-29-1900
+
+*Lov 23. juni 2020 nr. 103 om endring i skatteloven del IV settes i kraft fra 20. juli 2020.*
+
+> Lov 23. juni 2020 nr. 103 om endring i skatteloven del IV settes i kraft fra 20. juli 2020.
+>
+
 ### 2020-12-21 — lov/2020-12-21-164
 
 *Nåværende § 10-80 med deloverskrift blir ny § 10-90.*
@@ -12533,6 +12884,13 @@ refid: "lov/1999-03-26-14"
 ### 2021-06-18 — lov/2021-06-18-105
 
 *Ny deloverskrift til ny §§ 16-70 og 16-71 skal lyde:*
+
+### 2023-06-16 — lov/2023-06-16-34
+
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 2-1 åttende ledd lyde:*
+
+> (8) Utsendt utenrikstjenesteansatt som oppholder seg utenlands i norsk statstjeneste, og utsendt administrativt personell ved utenriksstasjon, anses som bosatt i utlandet. Det samme gjelder for arbeidstaker som tjenestegjør i Atlanterhavspaktens organisasjon med fast tjenestested i utlandet.
+>
 
 ### 2023-06-16 — lov/2023-06-16-44
 
@@ -12605,13 +12963,20 @@ refid: "lov/1999-03-26-14"
 
 *Nåværende kapittel 19 og 20 blir nytt kapittel 20 og kapittel 21. Tilhørende paragrafer omnummereres tilsvarende.*
 
+### 2023-11-24 — forskrift/2023-11-24-1904
+
+*Delt ikraftsetting av lov 16. juni 2023 nr. 44 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 16. juni 2023 nr. 44 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Følgende trer i kraft straks:
+>
+> Endringsloven del II.
+>
+
 ### 2023-12-20 — lov/2023-12-20-98
 
 *Overskriften i § 15-5 skal lyde:*
 
-> § 15-5.Særskilt fradrag i alminnelig inntekt i Finnmark og Nord-Troms
->
-> § 15-5.Særskilt fradrag i alminnelig inntekt i Finnmark og Nord-Troms
+> § 15-5. Særskilt fradrag i alminnelig inntekt i Finnmark og Nord-Troms
 >
 
 ### 2024-01-12 — lov/2024-01-12-2
@@ -12645,4 +13010,98 @@ refid: "lov/1999-03-26-14"
 *Deloverskriften til skatteloven §§ 6-80 til 6-86 skal lyde:*
 
 > Særfradrag og arbeidsfradrag i alminnelig inntekt
+>
+
+## § 1
+
+### 2011-02-23 — forskrift/2011-02-23-189
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Anvendelsesområde for overgangsregel om reduksjon av skatt
+>
+> Følgende skattytere har rett til skattereduksjon etter denne forskriften:
+>
+> Skattytere som har krav på skattefradrag for pensjonsinntekt, har høyere kapitalutgifter enn kapitalinntekter og som for inntektsåret 2010 fikk skatten utlignet etter skattebegrensningsregelen i skatteloven § 17-1.
+>
+> Ektepar hvor bare den ene ektefellen har krav på skattebegrensning eller skattefradrag for pensjonsinntekt og som for inntektsåret 2010 fikk skatten utlignet etter skatteloven § 17-2.
+>
+> § 2
+>
+> .
+>
+> Beregning av merskatt
+>
+> Merskatten beregnes slik:
+>
+> For skattytere som ikke er gift, beregnes merskatten ved å sammenligne skatt beregnet etter gjeldende regler og skatt beregnet etter reglene som gjelder for enslige uføre som mottar uførepensjon fordi ervervsevnen er satt ned med minst 2/3.
+>
+> For ektepar beregnes merskatten ved å sammenligne skatt beregnet etter gjeldende regler og skatt beregnet etter reglene som gjelder for uføre ektepar som blir skattlagt etter skatteloven § 17-2 annet ledd.
+>
+> § 3
+>
+> .
+>
+> Reduksjon av skatt for inntektsåret 2011
+>
+> 1) Fastsatt skatt reduseres slik:
+>
+> Skattytere som ikke er gift, med brutto inntekt under 220 000 kroner får en skattereduksjon lik all merskatt som overstiger 600 kroner. Det gis ikke skattereduksjon til skattytere med brutto inntekt over 440 000 kroner. For skattytere med brutto inntekt over inntektsgrensen for full skattereduksjon, avtrappes skattereduksjonen proporsjonalt med stigende inntekt inntil inntektsgrensen for bortfall av skattereduksjon.
+>
+> Ektepar med samlet brutto inntekt under 330 000 kroner får en skattereduksjon lik all merskatt som overstiger 1 200 kroner. Det gis ikke skattereduksjon til ektepar som har brutto inntekt over 770 000 kroner. For ektepar med samlet brutto inntekt over inntektsgrensen for full skattereduksjon avtrappes skattereduksjonen proporsjonalt med stigende inntekt inntil inntektsgrensen for bortfall av skattereduksjon.
+>
+> 2) Med brutto inntekt menes summen av alle inntektspostene som inngår i alminnelig inntekt, fratrukket tillegg i alminnelig inntekt etter skatteloven § 10-42.
+>
+> § 4
+>
+> .
+>
+> Reduksjon av skatt for inntektsårene 2012 og 2013
+>
+> For inntektsåret 2012 reduseres skattyterens skatt med 67 prosent av en skattereduksjon fastsatt etter reglene i § 3. For inntektsåret 2013 reduseres skattyterens skatt med 33 prosent av en skattereduksjon fastsatt etter reglene i § 3.
+>
+> Denne forskrift trer i kraft straks og gjelder for inntektsårene 2011, 2012 og 2013.
+>
+
+### 2012-03-30 — forskrift/2012-03-30-270
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Anvendelsesområde for overgangsregler om utfasing av særfradraget for store sykdomsutgifter
+>
+> Skattyter som har fått særfradrag for store sykdomsutgifter etter skatteloven § 6-83 for inntektsårene 2010 og 2011, gis fradrag for store sykdomsutgifter for inntektsårene 2012 til 2014. Fradraget gis på samme vilkår som for inntektsåret 2011, med de begrensninger som følger av denne forskriften.
+>
+> § 2
+>
+> .
+>
+> Begrensning av fradragsformål fra og med inntektsåret 2012
+>
+> Særfradrag for store sykdomsutgifter gis ikke for utgifter til følgende formål:
+>
+> Tannlege- og tannpleierhjelp.
+>
+> Påbygging, ombygging og tilpasning av bolig og uteområde, herunder fritidsbolig, garasje mv., og anskaffelse og montering av spesialtilpasset innredning i bolig mv.
+>
+> Transport, herunder anskaffelse av kjøretøy og spesialutstyr i kjøretøy, drift og merbruk av kjøretøy.
+>
+> Utgifter til anskaffelser som ikke kan påregnes å ha en markedsverdi ved omsetning, og som skattyter før inntektsåret 2012 har valgt å føre til fradrag over flere år, kan likevel fradragsføres til og med inntektsåret 2014. Eventuell fradragsføring av slike utgifter for inntektsårene 2013 og 2014 skal ikke trappes ned etter § 3.
+>
+> § 3
+>
+> .
+>
+> Nedtrapping av særfradraget for inntektsårene 2013 og 2014
+>
+> For inntektsårene 2013 og 2014 gis særfradrag med henholdsvis 67 prosent og 33 prosent av fradragsberettigede utgifter.
+>
+> Denne forskriften trer i kraft straks og gjelder for inntektsårene 2012, 2013 og 2014.
 >

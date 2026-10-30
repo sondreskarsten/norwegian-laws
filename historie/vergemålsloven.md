@@ -7,6 +7,20 @@ refid: "lov/2010-03-26-9"
 
 ## (annet)
 
+### 2021-05-07 — lov/2021-05-07-34
+
+*I lov 26. mars 2010 nr. 9 om vergemål skal § 5 første ledd første punktum lyde:*
+
+> Området for hver statsforvalter utgjør et vergemålsdistrikt.
+>
+
+### 2021-07-01 — lov/2021-06-11-68
+
+*I lov 26. mars 2010 nr. 9 om vergemål skal § 4 andre punktum lyde:*
+
+> På Svalbard er Sysselmesteren lokal vergemålsmyndighet.
+>
+
 ### 2022-05-12 — lov/2022-05-12-28
 
 *9.I lov 26. mars 2010 nr. 9 om vergemål skal § 65 nytt andre ledd lyde:*
@@ -26,6 +40,13 @@ refid: "lov/2010-03-26-9"
 *I lov 26. mars 2010 nr. 9 om vergemål skal § 76 andre ledd lyde:*
 
 > Retten skal gjøre partene i saken oppmerksom på retten til å få oppnevnt advokat på det offentliges bekostning, jf. rettshjelpsloven § 16.
+>
+
+### 2026-03-20 — forskrift/2026-03-20-440
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ## § 101
@@ -157,9 +178,11 @@ refid: "lov/2010-03-26-9"
 
 *§ 30 skal lyde:*
 
-> § 30.Godtgjøring for vergeoppdraget og dekning av utgifterVergen har krav på godtgjøring for arbeidet som verge og har rett til å få dekket nødvendige utgifter i forbindelse med vergeoppdraget. Er vergen forelder til, barn av eller ektefelle eller samboer til personen han eller hun er verge for, kan det bare gis godtgjøring for arbeidet hvis særlige grunner taler for det. Godtgjøring og utgifter etter første og annet punktum dekkes av den som har verge. Har han eller hun en inntekt og formue som er lavere enn de grenser som fastsettes av Kongen i forskrift, skal godtgjøringen og utgiftene likevel dekkes av statsforvalteren.Kongen kan i forskrift gi nærmere regler om satser for godtgjøring og utgiftsdekning etter første ledd og kan også fastsette hva som skal anses som særlige grunner etter første ledd annet punktum. Kongen kan også gi nærmere regler om at statsforvalteren skal dekke godtgjøring og utgifter i andre tilfeller enn nevnt i første ledd fjerde punktum i tilfeller der det vil virke åpenbart urimelig at personen selv må dekke kostnadene.
+> § 30. Godtgjøring for vergeoppdraget og dekning av utgifter
 >
-> § 30.Godtgjøring for vergeoppdraget og dekning av utgifter
+> Vergen har krav på godtgjøring for arbeidet som verge og har rett til å få dekket nødvendige utgifter i forbindelse med vergeoppdraget. Er vergen forelder til, barn av eller ektefelle eller samboer til personen han eller hun er verge for, kan det bare gis godtgjøring for arbeidet hvis særlige grunner taler for det. Godtgjøring og utgifter etter første og annet punktum dekkes av den som har verge. Har han eller hun en inntekt og formue som er lavere enn de grenser som fastsettes av Kongen i forskrift, skal godtgjøringen og utgiftene likevel dekkes av statsforvalteren.
+>
+> Kongen kan i forskrift gi nærmere regler om satser for godtgjøring og utgiftsdekning etter første ledd og kan også fastsette hva som skal anses som særlige grunner etter første ledd annet punktum. Kongen kan også gi nærmere regler om at statsforvalteren skal dekke godtgjøring og utgifter i andre tilfeller enn nevnt i første ledd fjerde punktum i tilfeller der det vil virke åpenbart urimelig at personen selv må dekke kostnadene.
 >
 
 ## § 33

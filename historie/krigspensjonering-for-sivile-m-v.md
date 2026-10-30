@@ -5,6 +5,15 @@ refid: "lov/1946-12-13-22"
 
 # Endringshistorikk: Lov om krigspensjonering for sivile m.v.
 
+## (annet)
+
+### 2002-06-14 — lov/2002-06-14-22
+
+*I lov 13. desember 1946 nr. 22 om krigspensjonering for hjemmestyrkepersonell og sivilpersoner skal § 4 nytt andre ledd lyde:*
+
+> Kongen kan i forskrift gi nærmere regler om refusjon av utgifter ved sykebehandling etter denne lov.
+>
+
 ## § 17
 
 ### 2014-06-20 — lov/2014-06-20-24

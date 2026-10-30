@@ -14,6 +14,28 @@ refid: "lov/2012-08-24-64"
 > § 8.Innhenting og handsaming av personopplysningar
 >
 
+### 2015-07-01 — forskrift/2015-06-19-665
+
+*Loven trer i kraft fra 1. juli 2015.*
+
+> Loven trer i kraft fra 1. juli 2015.
+>
+
+### 2016-10-21 — lov/2016-10-21-82
+
+*I lov 24. august 2012 nr. 64 om bustøtte skal § 5 lyde:*
+
+> § 5.Krav til bustaden
+>
+> Vilkår for å få rett til bustøtte er at bustadener godkjend som bustader ein sjølvstendig bustad med eigen innganghar eige bad og toalett og gjev høve til matlaging, oggjev høve til kvile.
+>
+> Personar som av helse- eller sosialfaglege årsaker bur i eit bufellesskap utan å høyre til same husstand, kan få bustøtte på individuelt grunnlag dersom kommunen godkjenner at bustaden er eigna. Kommunen kan i vurderinga av om bustaden er eigna gjere unntak frå kvalitetskravet i første ledd bokstav b. Kommunen kan også gjere unntak frå krava i bokstav c dersom funksjonane som er nemnde der, er del av bufellesskapet elles.
+>
+
+### 2017-04-28 — lov/2017-04-28-21
+
+*I lov 24. august 2012 nr. 64 om bustøtte skal § 10 første ledd bokstav d lyde:husstanden i perioden det er motteke bustøtte for, har hatt inntekt eller formue som i ettertid syner seg å overskride den inntekta eller formuen som var lagd til grunn då støtta blei fastsett. Det gjeld utan omsyn til kven som er skuld i at det er betalt ut for mykje. For mykje utbetalt støtte kan også motreknast i seinare utbetalingar av bustøtte.*
+
 ### 2017-06-16 — lov/2017-06-16-66
 
 *Nåværende § 1 til og med § 13 skal inngå i kapittel I.*
@@ -25,15 +47,22 @@ refid: "lov/2012-08-24-64"
 
 *Nåværende §§ 14 og 15 blir nye §§ 16 og 17 og skal inngå i kapittel III.*
 
+### 2026-07-01 — forskrift/2026-06-19-1134
+
+*Lova trer i kraft 1. juli 2026.*
+
+> Lova trer i kraft 1. juli 2026.
+>
+
 ## § 11
 
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 11 skal lyde:*
 
-> § 11.Tvangsgrunnlag og særleg namsstyresmaktVedtak om krav på tilbakebetaling av bustøtte er tvangsgrunnlag for utlegg. Kravet kan drivast inn av Husbanken eller overførast til Innkrevjingsmyndigheita.
+> § 11. Tvangsgrunnlag og særleg namsstyresmakt
 >
-> § 11.Tvangsgrunnlag og særleg namsstyresmakt
+> Vedtak om krav på tilbakebetaling av bustøtte er tvangsgrunnlag for utlegg. Kravet kan drivast inn av Husbanken eller overførast til Innkrevjingsmyndigheita.
 >
 
 ## § 12
@@ -96,9 +125,15 @@ refid: "lov/2012-08-24-64"
 
 *§ 8 skal lyde:*
 
-> § 8.Innhenting og handsaming av personopplysningarHusbanken og kommunane kan handsame personopplysningar, medrekna personopplysningar som nemnt i personvernforordninga artikkel 9 og 10, når dette er nødvendig for å utføre oppgåver etter lova her. Tilgangen til å handsame opplysningar etter denne føresegna gjeld også nødvendige opplysningar om andre husstandsmedlemmer.Husbanken og kommunane kan utan hinder av teieplikt påleggje offentlege styresmakter, långjevarar, utleigarar, burettslag, eigarseksjonssameige og tilbydarar av posttenester å gje opplysningar som er nødvendige for å kontrollere om vilkåra for å få bustøtte er oppfylte eller har vore oppfylte i tilbakelagde periodar. Husbanken og kommunane kan hente inn slike opplysningar direkte frå instansane som er nemnde i første punktum, og nytte dei i sakshandsaminga utan samtykke frå den det gjeld. Den som blir pålagd å gje opplysningar i medhald av paragrafen her, kan ikkje krevje godtgjering. Informasjonsplikta i personvernforordninga artikkel 14 gjeld. Reglane om bevisfritak i tvisteloven §§ 22-8 og 22-9 gjeld tilsvarande.Husbanken kan ta avgjerder som berre er baserte på automatisert handsaming av personopplysningar, medrekna personopplysningar som nemnt i personvernforordninga artikkel 9 og 10. Handsaminga må oppfylle krava som elles blir stilte til sakshandsaminga, og vere i samsvar med retten til vern av personopplysningar. Den registrerte har rett til manuell overprøving av avgjerda.Departementet kan gje forskrift om handsaming av personopplysningar, medrekna kva for opplysningstypar Husbanken kan handsame, kva for personar Husbanken kan handsame opplysningar om, bruk av automatiserte avgjerder og innhenting, utlevering og anna handsaming av personopplysningar frå andre kjelder enn den statlege bustøtta.
+> § 8. Innhenting og handsaming av personopplysningar
 >
-> § 8.Innhenting og handsaming av personopplysningar
+> Husbanken og kommunane kan handsame personopplysningar, medrekna personopplysningar som nemnt i personvernforordninga artikkel 9 og 10, når dette er nødvendig for å utføre oppgåver etter lova her. Tilgangen til å handsame opplysningar etter denne føresegna gjeld også nødvendige opplysningar om andre husstandsmedlemmer.
+>
+> Husbanken og kommunane kan utan hinder av teieplikt påleggje offentlege styresmakter, långjevarar, utleigarar, burettslag, eigarseksjonssameige og tilbydarar av posttenester å gje opplysningar som er nødvendige for å kontrollere om vilkåra for å få bustøtte er oppfylte eller har vore oppfylte i tilbakelagde periodar. Husbanken og kommunane kan hente inn slike opplysningar direkte frå instansane som er nemnde i første punktum, og nytte dei i sakshandsaminga utan samtykke frå den det gjeld. Den som blir pålagd å gje opplysningar i medhald av paragrafen her, kan ikkje krevje godtgjering. Informasjonsplikta i personvernforordninga artikkel 14 gjeld. Reglane om bevisfritak i tvisteloven §§ 22-8 og 22-9 gjeld tilsvarande.
+>
+> Husbanken kan ta avgjerder som berre er baserte på automatisert handsaming av personopplysningar, medrekna personopplysningar som nemnt i personvernforordninga artikkel 9 og 10. Handsaminga må oppfylle krava som elles blir stilte til sakshandsaminga, og vere i samsvar med retten til vern av personopplysningar. Den registrerte har rett til manuell overprøving av avgjerda.
+>
+> Departementet kan gje forskrift om handsaming av personopplysningar, medrekna kva for opplysningstypar Husbanken kan handsame, kva for personar Husbanken kan handsame opplysningar om, bruk av automatiserte avgjerder og innhenting, utlevering og anna handsaming av personopplysningar frå andre kjelder enn den statlege bustøtta.
 >
 
 ## § 8 a
@@ -174,9 +209,11 @@ refid: "lov/2012-08-24-64"
 
 *Ny § 8 d skal lyde:*
 
-> § 8 d.Handsaming av personopplysningar for forsking, statistikk og analysarHusbanken kan utan hinder av teieplikt handsame opplysningar som er henta inn i medhald av denne lova, medrekna personopplysningar som nemnt i personvernforordninga artikkel 9, når det er nødvendig for forsking, statistikk og analysar for føremåla i husbanklova § 1. Husbanken kan lagre desse opplysningane for seinare bruk i forsking. Handsaminga skal vere underlagd garantiar som nemnt i personvernforordninga artikkel 89 nr. 1.Departementet kan gje forskrift om utlevering, innhenting, samanstilling og anna handsaming av personopplysningar frå den statlege bustøtta og andre kjelder til forsking, statistikk og analysar.
+> § 8 d. Handsaming av personopplysningar for forsking, statistikk og analysar
 >
-> § 8 d.Handsaming av personopplysningar for forsking, statistikk og analysar
+> Husbanken kan utan hinder av teieplikt handsame opplysningar som er henta inn i medhald av denne lova, medrekna personopplysningar som nemnt i personvernforordninga artikkel 9, når det er nødvendig for forsking, statistikk og analysar for føremåla i husbanklova § 1. Husbanken kan lagre desse opplysningane for seinare bruk i forsking. Handsaminga skal vere underlagd garantiar som nemnt i personvernforordninga artikkel 89 nr. 1.
+>
+> Departementet kan gje forskrift om utlevering, innhenting, samanstilling og anna handsaming av personopplysningar frå den statlege bustøtta og andre kjelder til forsking, statistikk og analysar.
 >
 
 ## § 8 e
@@ -185,7 +222,9 @@ refid: "lov/2012-08-24-64"
 
 *Ny § 8 e skal lyde:*
 
-> § 8 e.Handsaming av personopplysningar for test, drift og utviklingHusbanken kan handsame dei personopplysningane som er nemnde i § 8 d, når det er nødvendig for å teste, drifte og utvikle IT-systema til Husbanken, men berre dersom det er umogleg eller uforholdsmessig vanskeleg å oppnå føremålet ved å bruke anonyme eller fiktive opplysningar.Departementet kan gje forskrift om handsaming av personopplysningar i samband med testing, drift og utvikling.
+> § 8 e. Handsaming av personopplysningar for test, drift og utvikling
 >
-> § 8 e.Handsaming av personopplysningar for test, drift og utvikling
+> Husbanken kan handsame dei personopplysningane som er nemnde i § 8 d, når det er nødvendig for å teste, drifte og utvikle IT-systema til Husbanken, men berre dersom det er umogleg eller uforholdsmessig vanskeleg å oppnå føremålet ved å bruke anonyme eller fiktive opplysningar.
+>
+> Departementet kan gje forskrift om handsaming av personopplysningar i samband med testing, drift og utvikling.
 >

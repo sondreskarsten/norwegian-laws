@@ -7,6 +7,51 @@ refid: "lov/2003-02-21-12"
 
 ## (annet)
 
+### 2018-05-15 — lov/2018-05-15-17
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 21. februar 2003 nr. 12 om behandlingsbiobanker (behandlingsbiobankloven).
+>
+> I lov 21. februar 2003 nr. 12 om behandlingsbiobanker skal ny § 9 a lyde:
+>
+> § 9 a.
+>
+> Oppbevaring og bruk av biologisk materiale i nyfødtscreeningen
+>
+> Biologisk materiale som er innhentet i den genetiske masseundersøkelsen av nyfødte for alvorlige arvelige sykdommer, kan oppbevares i en nasjonal diagnostisk biobank etter reglene i loven her.
+>
+> Formålet med biobanken er å legge til rette for en faglig forsvarlig gjennomføring av masseundersøkelsen og for overvåking og kvalitetssikring av helsehjelpen som gis for sykdommene i undersøkelsen.
+>
+> Det biologiske materialet i biobanken kan brukes til medisinsk og helsefaglig forskning etter reglene i helseforskningsloven.
+>
+> Foreldre kan trekke samtykket tilbake og kreve at det biologiske materialet destrueres etter § 14. Fra barnet fyller 16 år, er det barnet selv som kan trekke samtykket tilbake og kreve destruksjon.
+>
+> Foreldrene skal informeres om retten til å trekke samtykket tilbake og kreve destruksjon etter § 14 mellom ett og to år etter fødselen. Barnet og foreldrene skal informeres om retten til å trekke samtykket tilbake og kreve destruksjon etter § 14 det kalenderåret barnet fyller 16 år.
+>
+> Departementet kan gi nærmere forskrifter om oppbevaring og bruk av biologisk materiale innhentet i masseundersøkelsen av nyfødte.
+>
+> Loven gjelder fra den tid Kongen bestemmer.
+>
+> Bestemmelsen i § 9 a gjelder også biologisk materiale som er innhentet fra og med 1. januar 2012 og til loven settes i kraft. Foreldre som har samtykket til lagring av blodprøve før loven trer i kraft, skal informeres om at lagringstiden er endret til ubegrenset og om retten til å trekke samtykket tilbake og kreve destruksjon etter § 14. Informasjonen skal gis senest ett år etter at loven er trådt i kraft.
+>
+
+### 2018-06-22 — lov/2018-06-22-76
+
+*I lov 21. februar 2003 nr. 12 om behandlingsbiobanker skal § 11 andre ledd lyde:*
+
+> For personer uten samtykkekompetanse etter pasient- og brukerrettighetsloven § 4-3, gjelder pasient- og brukerrettighetsloven §§ 4-4 til 4-7 om samtykke på vegne av andre tilsvarende.
+>
+
+### 2018-07-01 — forskrift/2018-05-15-726
+
+*Loven trer i kraft 1. juli 2018.*
+
+> Loven trer i kraft 1. juli 2018.
+>
+
 ### 2025-04-25 — lov/2025-04-25-13
 
 *I lov 21. februar 2003 nr. 12 om behandlingsbiobanker skal § 11 andre ledd lyde:*

@@ -16,6 +16,20 @@ refid: "lov/2004-12-17-101"
 > Departementet kan ved forskrift gi nærmere regler om europeisk standardisering.
 >
 
+### 2014-08-18 — forskrift/2014-08-15-1078
+
+*Loven gjelder fra 18. august 2014.*
+
+> Loven gjelder fra 18. august 2014.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1621
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
 ## § 1
 
 ### 2014-08-15 — lov/2014-08-15-60

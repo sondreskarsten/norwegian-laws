@@ -7,9 +7,29 @@ refid: "lov/2014-06-20-43"
 
 ## (annet)
 
+### 2016-06-17 — lov/2016-06-17-47
+
+*I lov 20. juni 2014 nr. 43 om helseregistre og behandling av helseopplysninger skal § 11 andre ledd bokstav i og ny bokstav j lyde:System for bivirkningsrapporteringKommunalt pasient- og brukerregister (KPR).*
+
+### 2017-06-16 — lov/2017-06-16-53
+
+*I lov 20. juni 2014 nr. 43 om helseregistre og behandling av helseopplysninger skal § 30 første og andre ledd lyde:*
+
+> Overtredelse av § 17 om taushetsplikt straffes etter straffeloven § 209, likevel slik at medvirkning straffes.
+>
+> Med bøter eller fengsel inntil ett år eller begge deler straffes den som forsettlig eller grovt uaktsomtbehandler helseopplysninger uten nødvendig konsesjon eller i strid med konsesjonsvilkår etter § 7behandler helseopplysninger i strid med § 21unnlater å informere den registrerte etter § 24, jf. personopplysningsloven §§ 19 eller 20unnlater å gi opplysninger til tilsynsmyndighetene etter § 26unnlater å etterkomme pålegg eller overtrer vilkår fra tilsynsmyndighetene etter § 27overtrer forbudet mot urettmessig tilegnelse av helseopplysninger i § 18.
+>
+
 ### 2019-04-10 — lov/2019-04-10-11
 
 *Overskrifta til kapittel 2 skal lyde:*
+
+### 2021-01-01 — forskrift/2020-12-04-2713
+
+*Delt ikraftsetting av loven. Loven del III endringene i lov 20. juni 2014 nr. 43 om helseregistre og behandling av helseopplysninger § 11 og § 14, trer i kraft 1. januar 2021.*
+
+> Delt ikraftsetting av loven. Loven del III endringene i lov 20. juni 2014 nr. 43 om helseregistre og behandling av helseopplysninger § 11 og § 14, trer i kraft 1. januar 2021.
+>
 
 ### 2022-06-10 — lov/2022-06-10-37
 
@@ -400,9 +420,15 @@ refid: "lov/2014-06-20-43"
 
 *§ 21 skal lyde:*
 
-> § 21.Tekniske og organisatoriske sikkerhetstiltakDen dataansvarlige og databehandleren skal gjennomføre nødvendige tekniske og organisatoriske tiltak for å ivareta sikkerheten ved behandlingen av personopplysninger. Tiltakene skal være egnet med hensyn til risikoen ved behandlingen av personopplysningene, jf. personvernforordningen artikkel 32. I registre som er etablert med hjemmel i §§ 10 eller 11, skal navn, fødselsnummer og andre personidentifiserende kjennetegn lagres kryptert. Den dataansvarlige og databehandleren skal også gjennomføre risikovurderinger av nettverks- og informasjonssystemene som benyttes for å levere tjenester i henhold til denne loven.Sikkerhetstiltakene skal være proporsjonale og tilpasset risikoen. Ved vurderingen av hva som er et forsvarlig sikkerhetsnivå, skal det tas hensyn til den enkeltes personvern, kritiske samfunnsfunksjoner, helse- og omsorgstjenestens evne til å ivareta sine oppgaver og den teknologiske utviklingen.Den dataansvarlige og databehandleren skal iverksette tiltak for å forebygge, avdekke og redusere konsekvensene av skadelige hendelser. Dette omfatter tiltak som blant annet tilgangsstyring, logging og etterfølgende kontroll. Den dataansvarlige og databehandleren kan kreve uttømmende og utvidet politiattest, jf. politiregisterloven § 41 nr. 2, fra personer som skal ha privilegerte tilganger til nettverks- og informasjonssystemer.Departementet kan i forskrift fastsette nærmere krav til tekniske og organisatoriske sikkerhetstiltak.
+> § 21. Tekniske og organisatoriske sikkerhetstiltak
 >
-> § 21.Tekniske og organisatoriske sikkerhetstiltak
+> Den dataansvarlige og databehandleren skal gjennomføre nødvendige tekniske og organisatoriske tiltak for å ivareta sikkerheten ved behandlingen av personopplysninger. Tiltakene skal være egnet med hensyn til risikoen ved behandlingen av personopplysningene, jf. personvernforordningen artikkel 32. I registre som er etablert med hjemmel i §§ 10 eller 11, skal navn, fødselsnummer og andre personidentifiserende kjennetegn lagres kryptert. Den dataansvarlige og databehandleren skal også gjennomføre risikovurderinger av nettverks- og informasjonssystemene som benyttes for å levere tjenester i henhold til denne loven.
+>
+> Sikkerhetstiltakene skal være proporsjonale og tilpasset risikoen. Ved vurderingen av hva som er et forsvarlig sikkerhetsnivå, skal det tas hensyn til den enkeltes personvern, kritiske samfunnsfunksjoner, helse- og omsorgstjenestens evne til å ivareta sine oppgaver og den teknologiske utviklingen.
+>
+> Den dataansvarlige og databehandleren skal iverksette tiltak for å forebygge, avdekke og redusere konsekvensene av skadelige hendelser. Dette omfatter tiltak som blant annet tilgangsstyring, logging og etterfølgende kontroll. Den dataansvarlige og databehandleren kan kreve uttømmende og utvidet politiattest, jf. politiregisterloven § 41 nr. 2, fra personer som skal ha privilegerte tilganger til nettverks- og informasjonssystemer.
+>
+> Departementet kan i forskrift fastsette nærmere krav til tekniske og organisatoriske sikkerhetstiltak.
 >
 
 ## § 24

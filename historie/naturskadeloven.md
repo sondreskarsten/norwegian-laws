@@ -20,11 +20,12 @@ refid: "lov/1994-03-25-7"
 
 > Taksten fastsettes ved skjønn som styres av lensmannen, namsfogden eller politistasjonssjef med sivile rettspleieoppgaver. Skaden skal takseres så snart som mulig.Nr. 36 om endringer i lov 9. desember 1994 nr. 64 om løysingsrettar skal lyde:
 >
-> I lov 9. desember 1994 nr. 64 om løysingsrettar skal § 22 lyde:
->
-> Skjønn
->
-> Avgjerd i samsvar med §§ 19 til 21 høyrer under skjønn.
+
+### 2008-12-19 — lov/2008-12-19-121
+
+*I lov 25. mars 1994 nr. 7 om sikring mot og erstatning for naturskader (naturskadeloven) skal § 1 første ledd lyde:*
+
+> Statens naturskadefond har til oppgave å yte erstatning for naturskader i de tilfeller hvor det ikke er adgang til å forsikre seg mot skaden ved en alminnelig forsikring.
 >
 
 ## § 10

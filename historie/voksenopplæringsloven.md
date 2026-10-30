@@ -7,6 +7,15 @@ refid: "lov/2009-06-19-95"
 
 ## (annet)
 
+### 2018-06-22 — lov/2018-06-22-85
+
+*I lov 19. juni 2009 nr. 95 om voksenopplæring skal § 24 lyde:*
+
+> § 24.Andre bestemmelser
+>
+> Følgende bestemmelser i friskolelova gjelder så langt de passer for skoler etter kapittel 4:§ 2-2 om krav til virksomheten til skolen, med unntak av tredje ledd. Dersom en skole etter kapittel 4 har færre enn 10 elever tre skoleår i sammenheng, faller godkjenningen bort§ 2-4 om krav til skoleanlegg og skolemiljø§ 3-3 tredje ledd om skolegangen§ 3-4 om tilpasset opplæring og organisering av elevene i grupper, med unntak av tredje ledd§ 3-9 om ordensreglement og lignende§ 3-15 om forbud mot bruk av klesplagg som helt eller delvis dekker ansiktet§ 4-1 om ledelse§ 5-1 om styret, med unntak av bokstavene a og c§ 5-2 om styrets oppgaver, med unntak av bokstavene a og e§ 5-3 om elevråd, med unntak av første ledd første og annet punktum§ 7-1 om budsjett, regnskap og rapportering§ 7-3 om taushetsplikt.
+>
+
 ### 2020-06-19 — lov/2020-06-19-91
 
 *§§ 15–29 oppheves.*

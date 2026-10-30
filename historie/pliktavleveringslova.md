@@ -5,6 +5,15 @@ refid: "lov/1989-06-09-32"
 
 # Endringshistorikk: Pliktavleveringslova – avlvl
 
+## (annet)
+
+### 2016-01-01 — forskrift/2015-06-19-723
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
 ## § 3
 
 ### 2015-06-19 — lov/2015-06-19-72

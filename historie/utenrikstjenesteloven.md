@@ -7,6 +7,13 @@ refid: "lov/2015-02-13-9"
 
 ## (annet)
 
+### 2015-03-01 — forskrift/2015-02-13-131
+
+*Loven trer i kraft fra 1. mars 2015.*
+
+> Loven trer i kraft fra 1. mars 2015.
+>
+
 ### 2023-06-16 — lov/2023-06-16-34
 
 *Nåværende § 3 annet og tredje ledd blir tredje og fjerde ledd.*

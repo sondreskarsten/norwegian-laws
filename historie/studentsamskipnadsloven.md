@@ -7,13 +7,52 @@ refid: "lov/2007-12-14-116"
 
 ## (annet)
 
+### 2010-12-17 — forskrift/2010-12-17-1662
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2013-01-01 — forskrift/2012-09-07-874
+
+*Loven trer i kraft 1. januar 2013.*
+
+> Loven trer i kraft 1. januar 2013.
+>
+
+### 2014-06-20 — lov/2014-06-20-29
+
+*I lov 14. desember 2007 nr. 116 om studentsamskipnader skal § 8 første ledd fjerde punktum lyde:*
+
+> Revisor skal være registrert eller statsautorisert.
+>
+
+### 2015-03-20 — lov/2015-03-20-14
+
+*I lov 14. desember 2007 nr. 116 om studentsamskipnader oppheves § 6 syvende ledd. Nåværende § 6 åttende og niende ledd blir nytt syvende og åttende ledd.*
+
+### 2015-03-20 — forskrift/2015-03-20-247
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2021-06-11 — lov/2021-06-11-81
+
+*I lov 14. desember 2007 nr. 116 om studentsamskipnader skal § 4 nytt tredje ledd lyde:*
+
+> For institusjoner som var omfattet av universitets- og høyskoleloven før 1. august 2008, kan departementet gi fritak fra kravet om tilknytning til en studentsamskipnad når institusjonen har andre tilfredsstillende velferdsordninger og hensynet til studentsamskipnadsstrukturen tilsier det.
+>
+
 ### 2025-06-20 — lov/2025-06-20-96
 
 *7.I lov 14. desember 2007 nr. 116 om studentsamskipnader skal § 11 lyde:*
 
-> § 11.Forholdet til annen lovgivningForvaltningsloven, arkivlova og språklova gjelder ikke for studentsamskipnadene.
+> § 11. Forholdet til annen lovgivning
 >
-> § 11.Forholdet til annen lovgivning
+> Forvaltningsloven, arkivlova og språklova gjelder ikke for studentsamskipnadene.
 >
 
 ### 2025-06-20 — lov/2025-06-20-101

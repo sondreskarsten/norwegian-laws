@@ -20,6 +20,9 @@ refid: "lov/2007-06-29-75"
 
 *§ 2-2 annet ledd skal lyde:*
 
+> (2) Som finansielle instrumenter etter første ledd regnes også slike instrumenter som er utstedt ved hjelp av desentralisert registerteknologi som nevnt i forordning (EU) 2022/858 artikkel 2 punkt 1.
+>
+
 ## § 2-3
 
 ### 2019-06-21 — lov/2019-06-21-41
@@ -94,6 +97,11 @@ refid: "lov/2007-06-29-75"
 ### 2024-12-20 — lov/2024-12-20-93
 
 *§ 2-8 fjerde og nytt femte ledd skal lyde:*
+
+> (4) Med hjemstat menes der verdipapirforetaket har sitt forretningskontor.
+>
+> (5) Med vertsstat menes en annen EØS-stat enn hjemstaten, der et verdipapirforetak har en filial, yter investeringstjenester eller driver investeringsvirksomhet eller der et regulert marked gir fjernmedlemmer eller -deltakere tilgang til handel.
+>
 
 ## § 3-1
 
@@ -474,9 +482,25 @@ refid: "lov/2007-06-29-75"
 
 *§ 5-5 skal lyde:*
 
-> § 5-5.Årsrapport(1) Utstederen skal utarbeide årsrapport i henhold til bestemmelser fastsatt i og i medhold av denne lov. Årsrapporten skal offentliggjøres senest fire måneder etter regnskapsårets utgang. Utstederen skal sørge for at årsrapporten forblir offentlig i minst ti år.(2) Årsrapporten skal omfatte revidert årsregnskap og årsberetning. Årsrapporten skal i tillegg inneholde erklæringer fra de personene som er ansvarlige hos utstederen, med tydelig angivelse av deres navn og rolle, om følgende forhold:at årsregnskapet, etter deres beste overbevisning, er utarbeidet i samsvar med gjeldende regnskapsstandarder og at opplysningene i regnskapet gir et rettvisende bilde av foretakets og konsernets eiendeler, gjeld, finansielle stilling og resultat,at årsberetningen gir en rettvisende oversikt over utviklingen, resultatet og stillingen til foretaket og konsernet, sammen med en beskrivelse av de mest sentrale risiko- og usikkerhetsfaktorer foretakene står overfor, ogat årsberetningen, der dette kreves, er utarbeidet i samsvar med standarder for bærekraftsrapportering som er fastsatt i medhold av regnskapsloven § 2-6, og i samsvar med regler fastsatt i medhold av taksonomiforordningen artikkel 8 nr. 4.(3) Dersom utstederen skal utarbeide konsernregnskap etter regnskapsloven § 3-2 tredje ledd eller lovgivningen i en EØS-stat, skal det reviderte årsregnskapet bestå av konsernregnskap utarbeidet i samsvar med forordning (EF) nr. 1606/2002, jf. regnskapsloven § 3-9 første og annet ledd. Selskapsregnskapet til morselskapet skal være utarbeidet i samsvar med lovgivningen i den EØS-staten der morselskapet har sitt forretningskontor. Dersom det ikke kreves at utstederen skal utarbeide konsernregnskap, skal det reviderte årsregnskapet bestå av regnskap utarbeidet i samsvar med lovgivningen i den EØS-staten der utstederen har sitt forretningskontor.(4) Årsberetningen skal utarbeides i samsvar med regnskapsloven §§ 2-2 til 2-7 eller lovgivningen i en EØS-stat, og skal omfatte opplysninger som skal gis etter regler fastsatt i medhold av taksonomiforordningen artikkel 8 nr. 4. Hvis utstederen skal utarbeide konsernregnskap, gjelder dette også for årsberetningen for konsernet.(5) Årsregnskapet skal revideres og revisor skal uttale seg om årsberetningen i samsvar med revisorloven eller nasjonal lovgivning i en EØS-stat. Signert revisjonsberetning skal offentliggjøres sammen med årsrapporten.(6) Pliktig bærekraftsrapportering i årsberetningen skal attesteres i samsvar med revisorloven eller lovgivningen i en EØS-stat. Attestasjonsuttalelsen skal offentliggjøres sammen med årsrapporten.(7) Hvis revisor i revisjonsberetningen har konkludert negativt eller med forbehold, eller revisor har påpekt et forhold ved bruk av presisering eller opplyst om andre forhold som brukerne bør gjøres kjent med, skal melding om dette sendes Finanstilsynet og vedkommende regulerte marked så snart revisjonsberetningen er mottatt av utsteder. Slik melding skal også sendes hvis det er tilsvarende konklusjon eller omtale i attestasjonsuttalelsen som nevnt i sjette ledd.(8) Dersom bedriftsforsamlingen eller representantskapet har vesentlige innsigelser mot styrets forslag til årsregnskap og årsberetning, eller generalforsamlingen ikke vedtar årsregnskapet og årsberetningen, skal melding om dette offentliggjøres etter § 5-12 umiddelbart etter at behandlingen er avsluttet.(9) Departementet kan i forskrift fastsette regler om innhold, utarbeidelse, offentliggjøring og rapporteringsformat for årsrapport og om ansvarlige personer som nevnt i annet ledd. Departementet kan også fastsette forskrift om krav til revisjon, valg av revisor og revisjonsutvalg.
+> § 5-5. Årsrapport
 >
-> § 5-5.Årsrapport
+> (1) Utstederen skal utarbeide årsrapport i henhold til bestemmelser fastsatt i og i medhold av denne lov. Årsrapporten skal offentliggjøres senest fire måneder etter regnskapsårets utgang. Utstederen skal sørge for at årsrapporten forblir offentlig i minst ti år.
+>
+> (2) Årsrapporten skal omfatte revidert årsregnskap og årsberetning. Årsrapporten skal i tillegg inneholde erklæringer fra de personene som er ansvarlige hos utstederen, med tydelig angivelse av deres navn og rolle, om følgende forhold:at årsregnskapet, etter deres beste overbevisning, er utarbeidet i samsvar med gjeldende regnskapsstandarder og at opplysningene i regnskapet gir et rettvisende bilde av foretakets og konsernets eiendeler, gjeld, finansielle stilling og resultat,at årsberetningen gir en rettvisende oversikt over utviklingen, resultatet og stillingen til foretaket og konsernet, sammen med en beskrivelse av de mest sentrale risiko- og usikkerhetsfaktorer foretakene står overfor, ogat årsberetningen, der dette kreves, er utarbeidet i samsvar med standarder for bærekraftsrapportering som er fastsatt i medhold av regnskapsloven § 2-6, og i samsvar med regler fastsatt i medhold av taksonomiforordningen artikkel 8 nr. 4.
+>
+> (3) Dersom utstederen skal utarbeide konsernregnskap etter regnskapsloven § 3-2 tredje ledd eller lovgivningen i en EØS-stat, skal det reviderte årsregnskapet bestå av konsernregnskap utarbeidet i samsvar med forordning (EF) nr. 1606/2002, jf. regnskapsloven § 3-9 første og annet ledd. Selskapsregnskapet til morselskapet skal være utarbeidet i samsvar med lovgivningen i den EØS-staten der morselskapet har sitt forretningskontor. Dersom det ikke kreves at utstederen skal utarbeide konsernregnskap, skal det reviderte årsregnskapet bestå av regnskap utarbeidet i samsvar med lovgivningen i den EØS-staten der utstederen har sitt forretningskontor.
+>
+> (4) Årsberetningen skal utarbeides i samsvar med regnskapsloven §§ 2-2 til 2-7 eller lovgivningen i en EØS-stat, og skal omfatte opplysninger som skal gis etter regler fastsatt i medhold av taksonomiforordningen artikkel 8 nr. 4. Hvis utstederen skal utarbeide konsernregnskap, gjelder dette også for årsberetningen for konsernet.
+>
+> (5) Årsregnskapet skal revideres og revisor skal uttale seg om årsberetningen i samsvar med revisorloven eller nasjonal lovgivning i en EØS-stat. Signert revisjonsberetning skal offentliggjøres sammen med årsrapporten.
+>
+> (6) Pliktig bærekraftsrapportering i årsberetningen skal attesteres i samsvar med revisorloven eller lovgivningen i en EØS-stat. Attestasjonsuttalelsen skal offentliggjøres sammen med årsrapporten.
+>
+> (7) Hvis revisor i revisjonsberetningen har konkludert negativt eller med forbehold, eller revisor har påpekt et forhold ved bruk av presisering eller opplyst om andre forhold som brukerne bør gjøres kjent med, skal melding om dette sendes Finanstilsynet og vedkommende regulerte marked så snart revisjonsberetningen er mottatt av utsteder. Slik melding skal også sendes hvis det er tilsvarende konklusjon eller omtale i attestasjonsuttalelsen som nevnt i sjette ledd.
+>
+> (8) Dersom bedriftsforsamlingen eller representantskapet har vesentlige innsigelser mot styrets forslag til årsregnskap og årsberetning, eller generalforsamlingen ikke vedtar årsregnskapet og årsberetningen, skal melding om dette offentliggjøres etter § 5-12 umiddelbart etter at behandlingen er avsluttet.
+>
+> (9) Departementet kan i forskrift fastsette regler om innhold, utarbeidelse, offentliggjøring og rapporteringsformat for årsrapport og om ansvarlige personer som nevnt i annet ledd. Departementet kan også fastsette forskrift om krav til revisjon, valg av revisor og revisjonsutvalg.
 >
 
 ## § 5-5a
@@ -623,9 +647,9 @@ refid: "lov/2007-06-29-75"
 
 *§ 6-4 skal lyde:*
 
-> § 6-4.TilbudsmyndighetenFinanstilsynet er tilbudsmyndighet for selskaper etablert i Norge og selskaper notert på regulert marked i Norge.
+> § 6-4. Tilbudsmyndigheten
 >
-> § 6-4.Tilbudsmyndigheten
+> Finanstilsynet er tilbudsmyndighet for selskaper etablert i Norge og selskaper notert på regulert marked i Norge.
 >
 
 ## § 6-10
@@ -665,6 +689,9 @@ refid: "lov/2007-06-29-75"
 ### 2026-02-06 — lov/2026-02-06-2
 
 *§ 7-1 første ledd skal lyde:*
+
+> (1) EØS-avtalen vedlegg IX nr. 29bd forordning (EU) 2017/1129 (om prospekter ved offentlige tilbud og notering på regulert marked (prospektforordningen)), som endret ved forordning (EU) 2019/2115 om å fremme bruken av SMB-vekstmarkeder, forordning (EU) 2020/1503 (folkefinansieringsforordningen) og forordning (EU) 2021/337 om EU-gjenopprettingsprospekt, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
 
 ## § 7-2
 
@@ -854,13 +881,22 @@ refid: "lov/2007-06-29-75"
 
 *§ 8-1 første ledd skal lyde:*
 
+> (1) EØS-avtalen vedlegg IX forordning (EU) nr. 600/2014 (om markeder for finansielle instrumenter (verdipapirmarkedsforordningen)) som endret ved forordning (EU) nr. 1033/2016 og forordning (EU) 2022/858 gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+
 ### 2025-05-27 — lov/2025-05-27-18
 
 *§ 8-1 første ledd skal lyde:*
 
+> (1) EØS-avtalen vedlegg IX (forordning (EU) nr. 600/2014) om markeder for finansielle instrumenter (verdipapirmarkedsforordningen) som endret ved forordning (EU) nr. 1033/2016 og forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1 gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+
 ### 2026-02-06 — lov/2026-02-06-3
 
 *§ 8-1 første ledd skal lyde:*
+
+> (1) EØS-avtalen vedlegg IX forordning (EU) nr. 600/2014 (om markeder for finansielle instrumenter (verdipapirmarkedsforordningen)) som endret ved forordning (EU) nr. 1033/2016, forordning (EU) 2019/2033 og forordning (EU) 2022/858 gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
 
 ## § 8-2
 
@@ -882,9 +918,11 @@ refid: "lov/2007-06-29-75"
 
 *Ny § 8-2 skal lyde:*
 
-> § 8-2.Gjennomføring av DLT-forordningen(1) EØS-avtalen vedlegg IX nr. 31cc forordning (EU) 2022/858 (om en pilotordning for markedsinfrastrukturer basert på desentralisert registerteknologi) gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.(2) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen.
+> § 8-2. Gjennomføring av DLT-forordningen
 >
-> § 8-2.Gjennomføring av DLT-forordningen
+> (1) EØS-avtalen vedlegg IX nr. 31cc forordning (EU) 2022/858 (om en pilotordning for markedsinfrastrukturer basert på desentralisert registerteknologi) gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+> (2) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen.
 >
 
 ## § 8-3
@@ -917,6 +955,9 @@ refid: "lov/2007-06-29-75"
 ### 2024-06-21 — lov/2024-06-21-41
 
 *§ 9-1 annet ledd skal lyde:*
+
+> (2) Tillatelse etter første ledd skal bare gis der konsesjonsmyndigheten anser at vilkårene for å yte investeringstjenester eller drive investeringsvirksomhet i §§ 9-9 til 9-25 og §§ 9-38 til 9-48 er oppfylt, og der organiseringen av foretaket og forholdet til nære forbindelser er av en slik art at det kan gjennomføres et effektivt og betryggende tilsyn med verdipapirforetaket. Med nære forbindelser menes et forhold som definert i finanstilsynsloven § 3-3 tredje ledd med tilhørende forskriftsbestemmelser.
+>
 
 ## § 9-2
 
@@ -974,11 +1015,7 @@ refid: "lov/2007-06-29-75"
 
 *§ 9-6 tredje ledd skal lyde:*
 
-> datterforetak av et verdipapirforetak, en markedsoperatør eller en kredittinstitusjon med tillatelse i en annen EØS-stat,
->
-> datterforetak av et hovedforetak for et annet verdipapirforetak eller en kredittinstitusjon med tillatelse i en annen EØS-stat, eller
->
-> kontrollert av de samme fysiske eller juridiske personer som kontrollerer et verdipapirforetak eller en kredittinstitusjon med tillatelse i en annen EØS-stat.
+> (3) Tillatelse kan bare gis etter samråd med myndighetene i annen EØS-stat dersom søkeren er:datterforetak av et verdipapirforetak, en markedsoperatør eller en kredittinstitusjon med tillatelse i en annen EØS-stat,datterforetak av et hovedforetak for et annet verdipapirforetak eller en kredittinstitusjon med tillatelse i en annen EØS-stat, ellerkontrollert av de samme fysiske eller juridiske personer som kontrollerer et verdipapirforetak eller en kredittinstitusjon med tillatelse i en annen EØS-stat.
 >
 
 ## § 9-7
@@ -987,15 +1024,28 @@ refid: "lov/2007-06-29-75"
 
 *§ 9-7 tredje ledd skal lyde:*
 
+> (3) Når tillatelsen bortfaller eller blir kalt tilbake, skal den konsesjonspliktige virksomheten avvikles. Finanstilsynet fører tilsyn under avviklingsperioden og kan gi pålegg om gjennomføringen av avviklingen.
+>
+
 ## § 9-7 a
 
 ### 2024-12-20 — lov/2024-12-20-93
 
 *Ny § 9-7 a skal lyde:*
 
-> § 9-7 a.Oppnevning av administrator(1) Dersom verdipapirforetaket ikke overholder pålegg gitt etter § 9-7 tredje ledd annet punktum, og det anses nødvendig for å ivareta investorenes interesser, kan Finanstilsynet oppnevne en eller flere administratorer til å sikre en forsvarlig avvikling av den konsesjonspliktige virksomheten. Det samme gjelder dersom Finanstilsynet har grunn til å anta at foretaket ikke vil overholde et pålegg gitt etter § 9-7 tredje ledd annet punktum, og risikoen for at kundene vil lide vesentlige tap er betydelig større om oppnevningen må vente. Oppdraget skal gjelde til den konsesjonspliktige virksomheten er avviklet, eller til Finanstilsynet bringer det til opphør. Administratoren skal ha de nødvendige kvalifikasjonene for å utføre oppdraget og skal ikke ha interessekonflikter.(2) Administratorens oppgaver og myndighet fastsettes av Finanstilsynet i det enkelte tilfellet og kan omfatte daglig leders og styrets oppgaver. Det kan fastsettes at vedtak i bestemte saker ikke kan treffes uten samtykke fra administratoren eller godkjennelse fra Finanstilsynet.(3) Hvis administratoren helt eller delvis skal overta styrets oppgaver og myndighet, skal Finanstilsynet gi melding til Foretaksregisteret om at det er oppnevnt en administrator, og hvem dette er. Meldingen skal også angi hvilke av styrets oppgaver og hvilken myndighet administratoren har overtatt. Meldingen skal kunngjøres av Foretaksregisteret.(4) Administratoren skal regelmessig gi Finanstilsynet rapport om utførelsen av sitt oppdrag. Administratoren er ikke ansvarlig for skade voldt under utførelsen av oppdraget, med mindre skaden skyldes eget forsett eller grov uaktsomhet.(5) Kostnadene til administratoren skal dekkes av verdipapirforetaket.(6) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> § 9-7 a. Oppnevning av administrator
 >
-> § 9-7 a.Oppnevning av administrator
+> (1) Dersom verdipapirforetaket ikke overholder pålegg gitt etter § 9-7 tredje ledd annet punktum, og det anses nødvendig for å ivareta investorenes interesser, kan Finanstilsynet oppnevne en eller flere administratorer til å sikre en forsvarlig avvikling av den konsesjonspliktige virksomheten. Det samme gjelder dersom Finanstilsynet har grunn til å anta at foretaket ikke vil overholde et pålegg gitt etter § 9-7 tredje ledd annet punktum, og risikoen for at kundene vil lide vesentlige tap er betydelig større om oppnevningen må vente. Oppdraget skal gjelde til den konsesjonspliktige virksomheten er avviklet, eller til Finanstilsynet bringer det til opphør. Administratoren skal ha de nødvendige kvalifikasjonene for å utføre oppdraget og skal ikke ha interessekonflikter.
+>
+> (2) Administratorens oppgaver og myndighet fastsettes av Finanstilsynet i det enkelte tilfellet og kan omfatte daglig leders og styrets oppgaver. Det kan fastsettes at vedtak i bestemte saker ikke kan treffes uten samtykke fra administratoren eller godkjennelse fra Finanstilsynet.
+>
+> (3) Hvis administratoren helt eller delvis skal overta styrets oppgaver og myndighet, skal Finanstilsynet gi melding til Foretaksregisteret om at det er oppnevnt en administrator, og hvem dette er. Meldingen skal også angi hvilke av styrets oppgaver og hvilken myndighet administratoren har overtatt. Meldingen skal kunngjøres av Foretaksregisteret.
+>
+> (4) Administratoren skal regelmessig gi Finanstilsynet rapport om utførelsen av sitt oppdrag. Administratoren er ikke ansvarlig for skade voldt under utførelsen av oppdraget, med mindre skaden skyldes eget forsett eller grov uaktsomhet.
+>
+> (5) Kostnadene til administratoren skal dekkes av verdipapirforetaket.
+>
+> (6) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
 >
 
 ## § 9-8
@@ -1182,25 +1232,7 @@ refid: "lov/2007-06-29-75"
 
 *§ 9-16 første ledd skal lyde:*
 
-> Foretaket skal ha tilstrekkelige og betryggende retningslinjer, rutiner og kontrollmetoder som skal sikre at foretaket, dets ledere, ansatte og tilknyttede agenter etterlever sine forpliktelser etter lov og forskrifter.
->
-> Foretaket skal være oppbygd og organisert på en slik måte at risikoen for interessekonflikter mellom foretaket og dets kunder, eller foretakets kunder seg imellom, begrenses til et minimum, jf. § 10-2.
->
-> Foretaket skal treffe rimelige tiltak som skal sikre kontinuitet og regelmessighet i investeringstjenestevirksomheten, herunder ha nødvendige systemer, ressurser og prosedyrer, inkludert IKT-systemer satt opp og håndtert i henhold til forordning (EU) 2022/2554 artikkel 7, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1.
->
-> Foretaket skal treffe betryggende tiltak slik at operasjonell risiko begrenses til et minimum når det benytter seg av en tredjepart til å utføre operasjonelle funksjoner, jf. annet ledd.
->
-> Foretaket skal ha gode administrasjons- og regnskapsrutiner, tilfredsstillende interne kontrollordninger og effektive prosedyrer for risikovurdering, samt stillingsinstrukser som særskilt regulerer ansvarsfordelingen mellom daglig leder og andre ledere av virksomheten.
->
-> Foretaket skal ha tilfredsstillende interne retningslinjer, rutiner og kontrollmetoder for personlige transaksjoner som foretas av foretakets ledere, ansatte og tilknyttede agenter.
->
-> Foretaket skal ha systemer som sikrer pålitelig og korrekt informasjonsoverføring, og som sikrer at opplysningene til enhver tid behandles fortrolig, samt reduserer risikoen for dataforfalskning, informasjonslekkasje og annen ulovlig tilgang til informasjonen i henhold til kravene i forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1.
->
-> Foretaket skal sørge for dokumentasjon av alle investeringstjenester og all investeringsvirksomhet, herunder alle utførte transaksjoner, som skal være minst så fyllestgjørende at Finanstilsynet kan kontrollere om de regler Finanstilsynet har ansvar for, er overholdt. Slik dokumentasjon skal oppbevares i minst fem år, eller lengre tid dersom Finanstilsynet bestemmer det.
->
-> Foretaket skal ha interne instrukser for de ansattes adgang til å være medlem av styre, bedriftsforsamling eller foretaksforsamling eller ha slik innflytelse som nevnt i aksjeloven § 1-3 annet ledd i selskaper. Slike instrukser skal også omfatte styremedlemmer som har slik innflytelse i verdipapirforetaket som nevnt i aksjeloven § 1-3 annet ledd. Tilsvarende instrukser skal utarbeides for tilfeller der det er gitt unntak etter § 10-4 annet ledd.
->
-> Foretaket skal ha retningslinjer og rutiner for beregning og utbetaling av resultatavhengig godtgjørelse.
+> (1) Verdipapirforetak skal innrette sin virksomhet på følgende måte:Foretaket skal ha tilstrekkelige og betryggende retningslinjer, rutiner og kontrollmetoder som skal sikre at foretaket, dets ledere, ansatte og tilknyttede agenter etterlever sine forpliktelser etter lov og forskrifter.Foretaket skal være oppbygd og organisert på en slik måte at risikoen for interessekonflikter mellom foretaket og dets kunder, eller foretakets kunder seg imellom, begrenses til et minimum, jf. § 10-2.Foretaket skal treffe rimelige tiltak som skal sikre kontinuitet og regelmessighet i investeringstjenestevirksomheten, herunder ha nødvendige systemer, ressurser og prosedyrer, inkludert IKT-systemer satt opp og håndtert i henhold til forordning (EU) 2022/2554 artikkel 7, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1.Foretaket skal treffe betryggende tiltak slik at operasjonell risiko begrenses til et minimum når det benytter seg av en tredjepart til å utføre operasjonelle funksjoner, jf. annet ledd.Foretaket skal ha gode administrasjons- og regnskapsrutiner, tilfredsstillende interne kontrollordninger og effektive prosedyrer for risikovurdering, samt stillingsinstrukser som særskilt regulerer ansvarsfordelingen mellom daglig leder og andre ledere av virksomheten.Foretaket skal ha tilfredsstillende interne retningslinjer, rutiner og kontrollmetoder for personlige transaksjoner som foretas av foretakets ledere, ansatte og tilknyttede agenter.Foretaket skal ha systemer som sikrer pålitelig og korrekt informasjonsoverføring, og som sikrer at opplysningene til enhver tid behandles fortrolig, samt reduserer risikoen for dataforfalskning, informasjonslekkasje og annen ulovlig tilgang til informasjonen i henhold til kravene i forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1.Foretaket skal sørge for dokumentasjon av alle investeringstjenester og all investeringsvirksomhet, herunder alle utførte transaksjoner, som skal være minst så fyllestgjørende at Finanstilsynet kan kontrollere om de regler Finanstilsynet har ansvar for, er overholdt. Slik dokumentasjon skal oppbevares i minst fem år, eller lengre tid dersom Finanstilsynet bestemmer det.Foretaket skal ha interne instrukser for de ansattes adgang til å være medlem av styre, bedriftsforsamling eller foretaksforsamling eller ha slik innflytelse som nevnt i aksjeloven § 1-3 annet ledd i selskaper. Slike instrukser skal også omfatte styremedlemmer som har slik innflytelse i verdipapirforetaket som nevnt i aksjeloven § 1-3 annet ledd. Tilsvarende instrukser skal utarbeides for tilfeller der det er gitt unntak etter § 10-4 annet ledd.Foretaket skal ha retningslinjer og rutiner for beregning og utbetaling av resultatavhengig godtgjørelse.
 >
 
 ### 2026-02-06 — lov/2026-02-06-3
@@ -1355,11 +1387,19 @@ refid: "lov/2007-06-29-75"
 
 *§ 9-23 første og andre ledd skal lyde:*
 
+> (1) Verdipapirforetak som utfører algoritmehandel, skal ha effektive systemer og risikokontroller som er egnet for virksomheten, for å sikre at foretakets handelssystemer er robuste og har tilstrekkelig kapasitet i henhold til kravene i forordning (EU) 2022/2554 kapittel II, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, og er underlagt hensiktsmessige terskler og grenser for handler. Slike systemer og kontroller skal også hindre at det sendes uriktige ordrer eller at systemene skaper eller bidrar til uro i markedet. Verdipapirforetaket skal også ha effektive systemer og risikokontroller som sikrer at handelssystemene ikke kan brukes til formål som er i strid med reglene i kapittel 3 eller med reglene til en handelsplass som foretaket er tilknyttet.
+>
+> (2) Verdipapirforetak som utfører algoritmehandel, skal ha effektive beredskapsplaner og -systemer i henhold til kravene i forordning (EU) 2022/2554 artikkel 11, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, for å håndtere en eventuell svikt i dets handelssystemer og skal påse at systemet er fullt testet og tilfredsstillende overvåket slik at det oppfyller kravene i bestemmelsen her og i forordning (EU) 2022/2554 kapittel II og IV, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1.
+>
+
 ## § 9-27
 
 ### 2024-12-20 — lov/2024-12-20-93
 
 *§ 9-27 fjerde ledd skal lyde:*
+
+> (4) Kravene i §§ 10-9 til 10-18, § 10-19, § 10-20 første ledd og § 10-21 gjelder ikke for transaksjoner som inngås mellom deltakerne av den multilaterale handelsfasiliteten, eller mellom fasiliteten og dens deltakere, etter fasilitetens regler og under anvendelse av fasilitetens systemer. Kravene i §§ 10-9 til 10-21 gjelder likevel overfor deltakernes kunder når de på vegne av kundene utfører ordre via den multilaterale handelsfasiliteten.
+>
 
 ## § 9-30
 
@@ -1385,9 +1425,9 @@ refid: "lov/2007-06-29-75"
 
 *§ 9-30 a skal lyde:*
 
-> § 9-30 a.Saksbehandling mv.Departementet kan fastsette bestemmelser i forskrift om at § 11-13, § 12-2 syvende ledd og § 12-4 åttende ledd helt eller delvis skal gjelde i tilpasset form for operatør av multilaterale handelsfasiliteter og organiserte handelsfasiliteter. Departementet kan fastsette bestemmelser i forskrift om saksbehandlingen for beslutninger fattet av operatør av multilaterale handelsfasiliteter og organiserte handelsfasiliteter og bestemmelser om klage og omgjøring for slike beslutninger.
+> § 9-30 a. Saksbehandling mv.
 >
-> § 9-30 a.Saksbehandling mv.
+> Departementet kan fastsette bestemmelser i forskrift om at § 11-13, § 12-2 syvende ledd og § 12-4 åttende ledd helt eller delvis skal gjelde i tilpasset form for operatør av multilaterale handelsfasiliteter og organiserte handelsfasiliteter. Departementet kan fastsette bestemmelser i forskrift om saksbehandlingen for beslutninger fattet av operatør av multilaterale handelsfasiliteter og organiserte handelsfasiliteter og bestemmelser om klage og omgjøring for slike beslutninger.
 >
 
 ## § 9-33
@@ -1395,6 +1435,9 @@ refid: "lov/2007-06-29-75"
 ### 2024-12-20 — lov/2024-12-20-93
 
 *§ 9-33 fjerde ledd skal lyde:*
+
+> (4) Kredittinstitusjoner som ønsker å yte tjenester som nevnt i første ledd gjennom tilknyttet agent etablert i annen EØS-stat, skal gi Finanstilsynet melding om dette. Meldingen skal inneholde opplysninger som nevnt i annet ledd. Tredje ledd gjelder tilsvarende.
+>
 
 ## § 9-34
 
@@ -1411,25 +1454,14 @@ refid: "lov/2007-06-29-75"
 
 *§ 9-36 fjerde ledd skal lyde:*
 
+> (4) Krav om tillatelse etter første ledd gjelder ikke dersom Finanstilsynet har truffet vedtak om likeverdighet i medhold av åttende ledd og foretaket har tillatelse etter artikkel 46 til 49 i verdipapirmarkedsforordningen. Krav om tillatelse etter første ledd gjelder heller ikke dersom det ytes tjenester direkte fra forretningssted utenfor EØS utelukkende på kundens eget initiativ. Et slikt initiativ fra en kunde gir ikke rett til å markedsføre nye kategorier av investeringsprodukter eller investeringstjenester overfor den berørte kunden uten tillatelse. Dersom tredjestatsforetaket retter henvendelser til kunder eller potensielle kunder i Norge, herunder gjennom en enhet som opptrer på dets vegne, gjennom en enhet som har nære forbindelser til foretaket, eller en person som opptrer på en slik enhets vegne, skal tjenesten ikke anses ytt utelukkende på kundens eget initiativ, med forbehold for gruppeinterne forbindelser.
+>
+
 ### 2026-02-06 — lov/2026-02-06-3
 
 *§ 9-36 nytt sjette ledd skal lyde:*
 
-> størrelsen og omfanget av de tjenester som ytes, og den virksomhet som drives, av filialen her i riket,
->
-> for tredjestatsforetak som driver virksomhet som nevnt i § 2-1 første ledd nr. 3, deres månedlige minimums-, gjennomsnitts- og maksimumseksponering overfor motparter i EØS-området,
->
-> for tredjestatsforetak som yter tjenester som nevnt i § 2-1 første ledd nr. 6, den samlede verdien av finansielle instrumenter med opprinnelse hos motparter i EØS som det er gitt fulltegningsgaranti for, eller som er plassert med fulltegningsgaranti de siste tolv månedene,
->
-> omsetningen og den samlede verdien av midler som knytter seg til tjenester som ytes, og virksomhet som drives, her i riket,
->
-> en detaljert beskrivelse av investorbeskyttelsesordningene som er tilgjengelige for filialens kunder, herunder kundenes rettigheter etter erstatningsordningen som nevnt i annet ledd nr. 7,
->
-> risikostyringspolitikken og -ordningene som filialen anvender ved tjenesteyting og virksomhet her i riket,
->
-> styringsordningene, herunder personer med nøkkelfunksjoner i filialens virksomhet,
->
-> annen informasjon som Finanstilsynet finner nødvendig for å muliggjøre en allsidig overvåkning av filialens virksomhet.
+> (6) Filial av tredjestatsforetak skal årlig rapportere om følgende til Finanstilsynet:størrelsen og omfanget av de tjenester som ytes, og den virksomhet som drives, av filialen her i riket,for tredjestatsforetak som driver virksomhet som nevnt i § 2-1 første ledd nr. 3, deres månedlige minimums-, gjennomsnitts- og maksimumseksponering overfor motparter i EØS-området,for tredjestatsforetak som yter tjenester som nevnt i § 2-1 første ledd nr. 6, den samlede verdien av finansielle instrumenter med opprinnelse hos motparter i EØS som det er gitt fulltegningsgaranti for, eller som er plassert med fulltegningsgaranti de siste tolv månedene,omsetningen og den samlede verdien av midler som knytter seg til tjenester som ytes, og virksomhet som drives, her i riket,en detaljert beskrivelse av investorbeskyttelsesordningene som er tilgjengelige for filialens kunder, herunder kundenes rettigheter etter erstatningsordningen som nevnt i annet ledd nr. 7,risikostyringspolitikken og -ordningene som filialen anvender ved tjenesteyting og virksomhet her i riket,styringsordningene, herunder personer med nøkkelfunksjoner i filialens virksomhet,annen informasjon som Finanstilsynet finner nødvendig for å muliggjøre en allsidig overvåkning av filialens virksomhet.
 >
 
 ## § 9-42
@@ -1467,6 +1499,9 @@ refid: "lov/2007-06-29-75"
 ### 2024-06-21 — lov/2024-06-21-41
 
 *§ 9-47 sjette ledd skal lyde:*
+
+> (6) Finanstilsynet kan pålegge foretakene å ha en høyere ansvarlig kapital enn de lovbestemte minstekravene.
+>
 
 ## § 10-1a
 
@@ -1663,6 +1698,9 @@ refid: "lov/2007-06-29-75"
 
 *§ 10-19 sjette ledd skal lyde:*
 
+> (6) Før utførelse av en kundeordre skal verdipapirforetaket opplyse om foretakets retningslinjer for ordreutførelse og innhente kundens samtykke til disse. Verdipapirforetaket skal på en lettfattelig, tilstrekkelig detaljert og tydelig måte gi kunden informasjon om hvordan ordre blir utført av foretaket.
+>
+
 ## § 10-20
 
 ### 2022-06-22 — lov/2022-06-22-79
@@ -1709,9 +1747,13 @@ refid: "lov/2007-06-29-75"
 
 *§ 11-13 skal lyde:*
 
-> § 11-13.Taushetsplikt for en markedsoperatør og dennes ansatte mv.(1) Ansatte, tillitsmenn og personer med bestemmende innflytelse i en markedsoperatør har taushetsplikt om det de under sin virksomhet får kjennskap til om andres forhold, med mindre annet er bestemt i lov eller forskrift gitt med hjemmel i lov.(2) Første ledd gjelder tilsvarende for enhver som utfører arbeid i en markedsoperatør, selv om vedkommende ikke er ansatt i foretaket.(3) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> § 11-13. Taushetsplikt for en markedsoperatør og dennes ansatte mv.
 >
-> § 11-13.Taushetsplikt for en markedsoperatør og dennes ansatte mv.
+> (1) Ansatte, tillitsmenn og personer med bestemmende innflytelse i en markedsoperatør har taushetsplikt om det de under sin virksomhet får kjennskap til om andres forhold, med mindre annet er bestemt i lov eller forskrift gitt med hjemmel i lov.
+>
+> (2) Første ledd gjelder tilsvarende for enhver som utfører arbeid i en markedsoperatør, selv om vedkommende ikke er ansatt i foretaket.
+>
+> (3) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
 >
 
 ## § 11-18
@@ -1736,11 +1778,9 @@ refid: "lov/2007-06-29-75"
 
 *§ 11-19 første og andre ledd skal lyde:*
 
-> er robust og har tilstrekkelig kapasitet for å kunne håndtere høye ordre- og meldingsvolum,
+> (1) Et regulert marked skal ha effektive systemer, prosedyrer og ordninger for operasjonell motstandsdyktighet i henhold til forordning (EU) 2022/2554 kapittel II, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, som til enhver tid sikrer at handelssystemet:er robust og har tilstrekkelig kapasitet for å kunne håndtere høye ordre- og meldingsvolum,sikrer velordnet handel ved alvorlig markedsuro,er fullt gjennomtestet.
 >
-> sikrer velordnet handel ved alvorlig markedsuro,
->
-> er fullt gjennomtestet.
+> (2) Et regulert marked skal ha beredskapsplaner og systemer i henhold til forordning (EU) 2022/2554 artikkel 11, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, som sikrer kontinuerlig drift ved svikt i handelssystemet.
 >
 
 ## § 11-21
@@ -1749,9 +1789,15 @@ refid: "lov/2007-06-29-75"
 
 *§ 11-21 annet ledd skal lyde:*
 
+> (2) Et regulert marked skal ha systemer som gjør det mulig å bremse ordrestrømmen dersom det er risiko for at kapasiteten i systemet overstiges, herunder systemer som begrenser andelen ikke-utførte ordrer i forhold til transaksjonene som kan gjennomføres i systemet av et medlem.
+>
+
 ### 2025-05-27 — lov/2025-05-27-18
 
 *§ 11-21 fjerde ledd skal lyde:*
+
+> (4) Et regulert marked skal kreve at medlemmene gjør hensiktsmessige tester av sine algoritmer, og skal stille testmiljøer tilgjengelig for slik testing i henhold til kravene i forordning (EU) 2022/2554 kapittel II og IV, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1.
+>
 
 ## § 11-24
 
@@ -1788,9 +1834,9 @@ refid: "lov/2007-06-29-75"
 
 *§ 12-8 skal lyde:*
 
-> § 12-8.Forskrifter om saksbehandlingDepartementet kan i forskrift fastsette bestemmelser om saksbehandlingen og sakskostnader for beslutninger fattet av en markedsoperatør, og bestemmelser om klage og omgjøring for slike beslutninger.
+> § 12-8. Forskrifter om saksbehandling
 >
-> § 12-8.Forskrifter om saksbehandling
+> Departementet kan i forskrift fastsette bestemmelser om saksbehandlingen og sakskostnader for beslutninger fattet av en markedsoperatør, og bestemmelser om klage og omgjøring for slike beslutninger.
 >
 
 ## § 12-9
@@ -2095,36 +2141,15 @@ refid: "lov/2007-06-29-75"
 
 *§ 17-1 første ledd skal lyde:*
 
-> forordning (EU) nr. 1002/2013
->
-> direktiv 2014/59/EU
->
-> forordning (EU) 2015/1515
->
-> direktiv (EU) 2015/849
->
-> forordning (EU) nr. 600/2014
->
-> forordning (EU) nr. 575/2013
->
-> forordning (EU) 2017/610
->
-> forordning (EU) 2017/979
->
-> forordning (EU) 2019/460
->
-> forordning (EU) 2019/834
->
-> forordning (EU) 2019/876
->
-> forordning (EU) 2015/2365
->
-> forordning (EU) 2017/2402
+> (1) EØS-avtalen vedlegg IX nr. 31bc (forordning (EU) nr. 648/2012) om OTC-derivater, sentrale motparter og transaksjonsregistre (EMIR), som endret vedforordning (EU) nr. 1002/2013direktiv 2014/59/EUforordning (EU) 2015/1515direktiv (EU) 2015/849forordning (EU) nr. 600/2014forordning (EU) nr. 575/2013forordning (EU) 2017/610forordning (EU) 2017/979forordning (EU) 2019/460forordning (EU) 2019/834forordning (EU) 2019/876forordning (EU) 2015/2365forordning (EU) 2017/2402gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
 >
 
 ### 2025-05-27 — lov/2025-05-27-18
 
 *§ 17-1 første ledd skal lyde:*
+
+> (1) EØS-avtalen vedlegg IX nr. 31bc (forordning (EU) nr. 648/2012) om OTC-derivater, sentrale motparter og transaksjonsregistre (EMIR), som endret ved direktiv (EU) 2015/849 og forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
 
 ### 2026-02-06 — lov/2026-02-06-3
 
@@ -2375,9 +2400,9 @@ refid: "lov/2007-06-29-75"
 
 *Ny § 17-8 skal lyde:*
 
-> § 17-8.Forholdet til dekningsloven § 7-3En sentral motpart kan treffe tiltak som nevnt i EMIR artikkel 48 nr. 5 til 7 uten hinder av dekningsloven § 7-3 første ledd.
+> § 17-8. Forholdet til dekningsloven § 7-3
 >
-> § 17-8.Forholdet til dekningsloven § 7-3
+> En sentral motpart kan treffe tiltak som nevnt i EMIR artikkel 48 nr. 5 til 7 uten hinder av dekningsloven § 7-3 første ledd.
 >
 
 ## § 17-9
@@ -2386,9 +2411,9 @@ refid: "lov/2007-06-29-75"
 
 *Ny § 17-9 skal lyde:*
 
-> § 17-9.Tilbakekall av tillatelse til sentral motpartFinanstilsynet kan helt eller delvis tilbakekalle tillatelse gitt etter artikkel 17 i EMIR, jf. § 17-1, dersom foretaket foretar alvorlige eller systematiske overtredelser av artikkel 4 eller 15 i SFTR, jf. § 17A-1, eller forskrift gitt til utfylling av denne forordningen, slik at det er grunn til å frykte at fortsettelse av virksomheten kan skade tilliten til verdipapirmarkedet eller institusjonene som virker i markedet.
+> § 17-9. Tilbakekall av tillatelse til sentral motpart
 >
-> § 17-9.Tilbakekall av tillatelse til sentral motpart
+> Finanstilsynet kan helt eller delvis tilbakekalle tillatelse gitt etter artikkel 17 i EMIR, jf. § 17-1, dersom foretaket foretar alvorlige eller systematiske overtredelser av artikkel 4 eller 15 i SFTR, jf. § 17A-1, eller forskrift gitt til utfylling av denne forordningen, slik at det er grunn til å frykte at fortsettelse av virksomheten kan skade tilliten til verdipapirmarkedet eller institusjonene som virker i markedet.
 >
 
 ## § 18-1
@@ -2433,6 +2458,9 @@ refid: "lov/2007-06-29-75"
 
 *§ 19-1 tredje og fjerde ledd oppheves. Nåværende femte ledd blir tredje ledd og skal lyde:*
 
+> (3) Departementet kan i forskrift fastsette nærmere bestemmelser om tilsynet med handelen i finansielle instrumenter. Departementet kan herunder fastsette forskrifter om kontroll og tiltak som nevnt i annet ledd, blant annet for å sikre at det blir gitt korrekt informasjon i tilfeller der den finansielle rapporteringen og rapporteringen om betalinger til myndigheter etter annet ledd ikke er i samsvar med lov eller forskrift.
+>
+
 ## § 19-2
 
 ### 2018-06-15 — lov/2018-06-15-35
@@ -2460,9 +2488,15 @@ refid: "lov/2007-06-29-75"
 
 *§ 19-2 tiende ledd skal lyde:*
 
+> (10) Finanstilsynet kan kreve opplysninger som antas å ha betydning for spørsmål som omfattes av kapittel 6, fra verdipapirforetak, andre foretak og personer.
+>
+
 ### 2025-05-27 — lov/2025-05-27-18
 
 *§ 19-2 første ledd skal lyde:*
+
+> (1) Verdipapirforetak, sentrale motparter, datarapporteringsforetak og markedsoperatører, samt IKT tredjeparts tjenesteleverandører som referert til i kapittel V i forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, plikter å gi Finanstilsynet de opplysninger som kreves om forhold som angår foretakets forretning og virksomhet. Tilsvarende gjelder foretak i samme konsern. Tilsvarende gjelder også for verdipapirforetaks tilknyttede agenter. Foretaket plikter å fremvise, og i tilfelle utlevere til kontroll, dokumentasjon etter § 9-16 første ledd nr. 8, herunder lydopptak og elektronisk kommunikasjon etter § 9-17, og øvrig fysisk og elektronisk dokumentasjon som angår virksomheten.
+>
 
 ## § 19-3
 
@@ -2507,6 +2541,11 @@ refid: "lov/2007-06-29-75"
 ### 2024-06-21 — lov/2024-06-21-41
 
 *§ 19-6 tredje og fjerde ledd skal lyde:*
+
+> (3) Gir Finanstilsynets undersøkelser grunn til å anta at noen er eller vil bli påført tap som følge av at bestemmelser i lov eller i medhold av lov ikke er overholdt, kan Finanstilsynet uten hinder av taushetsplikten etter finanstilsynsloven § 2-7 første ledd underrette vedkommende og utlevere opplysninger så langt det er nødvendig for å undersøke forholdet.
+>
+> (4) Departementet kan i forskrift fastsette nærmere bestemmelser om taushetsplikt etter bestemmelsen her og etter finanstilsynsloven § 2-7 i tilknytning til utøvelse av tilsynsmyndighet etter loven her.
+>
 
 ## § 19-7
 
@@ -2559,9 +2598,15 @@ refid: "lov/2007-06-29-75"
 
 *§ 19-8 nytt annet ledd skal lyde:*
 
+> (2) Dersom et foretak har overtrådt SFTR, jf. § 17A-1, artikkel 4 eller 15 eller forskrift gitt til utfylling av disse bestemmelsene, kan Finanstilsynet fatte vedtak om at person med ledelsesfunksjon i foretaket ikke kan ha en slik funksjon, hvis overtredelsen medfører at personen må anses uskikket til å inneha ledelsesfunksjon. Det samme gjelder for andre ansatte i foretaket som kan holdes ansvarlig for overtredelsen.
+>
+
 ### 2026-06-19 — lov/2026-06-19-40
 
 *§ 19-8 tredje ledd skal lyde:*
+
+> (3) Et vedtak etter første eller annet ledd kan gis for et tidsrom av inntil fem år.
+>
 
 ## § 19-10
 
@@ -2597,6 +2642,9 @@ refid: "lov/2007-06-29-75"
 
 *§ 20-1 annet ledd skal lyde:*
 
+> (2) Finanstilsynet kan kreve de opplysninger fra verdipapirforetakene som nevnt i første ledd som anses nødvendige av hensyn til finansiell stabilitet eller for å kontrollere at de regler som gjelder for virksomheten her i landet, overholdes.
+>
+
 ## § 20-2
 
 ### 2018-06-15 — lov/2018-06-15-35
@@ -2613,6 +2661,9 @@ refid: "lov/2007-06-29-75"
 ### 2026-02-06 — lov/2026-02-06-3
 
 *§ 20-2 annet ledd skal lyde:*
+
+> (2) Første ledd er ikke til hinder for at Finanstilsynet kan foreta den stedlige kontroll som anses nødvendig av hensyn til finansiell stabilitet eller for å kontrollere at de regler som gjelder for filialens eller den tilknyttede agentens virksomhet her i landet, overholdes.
+>
 
 ## § 20-3
 
@@ -2709,15 +2760,26 @@ refid: "lov/2007-06-29-75"
 
 *§ 21-5 første ledd skal lyde:*
 
+> (1) Finanstilsynet kan ilegge overtredelsesgebyr ved overtredelse av bestemmelser i kapittel 8, kapittel 9 avsnitt I til VII og kapittel 10 til 15, plikter som følger av enkeltvedtak gitt med hjemmel i noen av disse bestemmelsene, og forskrifter gitt til utfylling av disse bestemmelsene.
+>
+
 ## § 21-5 a
 
 ### 2026-02-06 — lov/2026-02-06-3
 
 *Ny § 21-5 a skal lyde:*
 
-> § 21-5 a.Overtredelse av regler om verdipapirforetaks kapitalforhold og virksomhetsstyring(1) Finanstilsynet kan ilegge overtredelsesgebyr ved overtredelse av § 9-44, verdipapirforetaksforordningen artikkel 9 nr. 1 for så vidt gjelder forordning (EU) nr. 575/2013 artikkel 28, 52 eller 63 om utbetalinger til innehavere av instrumenter som inngår i verdipapirforetakets ansvarlige kapital, verdipapirforetaksforordningen artikkel 37 om konsentrasjonsrisiko, verdipapirforetaksforordningen artikkel 43 om likviditetskrav ved gjentatte eller vedvarende brudd, verdipapirforetaksforordningen sjette del om offentliggjøring av opplysninger, verdipapirforetaksforordningen artikkel 54 nr. 1 bokstav b og e om rapportering av kapitalkrav og konsentrasjonsrisiko og forskrifter gitt til utfylling av disse bestemmelsene.(2) For foretak kan det fastsettes overtredelsesgebyr på inntil 50 millioner kroner eller opptil 10 prosent av den samlede årsomsetningen etter siste godkjente årsregnskap.(3) Overtredelsesgebyret for foretak kan fastsettes til inntil to ganger oppnådd fortjeneste eller unngått tap som følge av overtredelsen, dersom dette gir høyere gebyr enn utmålingen etter annet ledd.(4) For fysiske personer kan det fastsettes overtredelsesgebyr på inntil 50 millioner kroner.(5) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> § 21-5 a. Overtredelse av regler om verdipapirforetaks kapitalforhold og virksomhetsstyring
 >
-> § 21-5 a.Overtredelse av regler om verdipapirforetaks kapitalforhold og virksomhetsstyring
+> (1) Finanstilsynet kan ilegge overtredelsesgebyr ved overtredelse av § 9-44, verdipapirforetaksforordningen artikkel 9 nr. 1 for så vidt gjelder forordning (EU) nr. 575/2013 artikkel 28, 52 eller 63 om utbetalinger til innehavere av instrumenter som inngår i verdipapirforetakets ansvarlige kapital, verdipapirforetaksforordningen artikkel 37 om konsentrasjonsrisiko, verdipapirforetaksforordningen artikkel 43 om likviditetskrav ved gjentatte eller vedvarende brudd, verdipapirforetaksforordningen sjette del om offentliggjøring av opplysninger, verdipapirforetaksforordningen artikkel 54 nr. 1 bokstav b og e om rapportering av kapitalkrav og konsentrasjonsrisiko og forskrifter gitt til utfylling av disse bestemmelsene.
+>
+> (2) For foretak kan det fastsettes overtredelsesgebyr på inntil 50 millioner kroner eller opptil 10 prosent av den samlede årsomsetningen etter siste godkjente årsregnskap.
+>
+> (3) Overtredelsesgebyret for foretak kan fastsettes til inntil to ganger oppnådd fortjeneste eller unngått tap som følge av overtredelsen, dersom dette gir høyere gebyr enn utmålingen etter annet ledd.
+>
+> (4) For fysiske personer kan det fastsettes overtredelsesgebyr på inntil 50 millioner kroner.
+>
+> (5) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
 >
 
 ## § 21-6 a
@@ -2726,9 +2788,17 @@ refid: "lov/2007-06-29-75"
 
 *Ny § 21-6 a skal lyde:*
 
-> § 21-6 a.Overtredelse av SFTR(1) Finanstilsynet kan ilegge overtredelsesgebyr ved overtredelser av SFTR, jf. § 17A-1, artikkel 4 eller 15 eller forskrift gitt til utfylling av disse bestemmelsene.(2) For juridiske personer kan det ved overtredelse av artikkel 4 eller utfyllende forskrifter til denne bestemmelsen fastsettes et overtredelsesgebyr på inntil 50 millioner kroner eller inntil 10 prosent av den samlede årsomsetningen etter siste godkjente årsregnskap.(3) For juridiske personer kan det ved overtredelse av artikkel 15 eller utfyllende forskrifter til denne bestemmelsen fastsettes et overtredelsesgebyr på inntil 150 millioner kroner eller inntil 10 prosent av den samlede årsomsetningen etter siste godkjente årsregnskap.(4) For fysiske personer kan det fastsettes et overtredelsesgebyr på inntil 50 millioner kroner.(5) Overtredelsesgebyret kan fastsettes til inntil tre ganger oppnådd fortjeneste eller unngått tap som følge av overtredelsen dersom dette gir høyere gebyr enn utmålingen etter annet til fjerde ledd.
+> § 21-6 a. Overtredelse av SFTR
 >
-> § 21-6 a.Overtredelse av SFTR
+> (1) Finanstilsynet kan ilegge overtredelsesgebyr ved overtredelser av SFTR, jf. § 17A-1, artikkel 4 eller 15 eller forskrift gitt til utfylling av disse bestemmelsene.
+>
+> (2) For juridiske personer kan det ved overtredelse av artikkel 4 eller utfyllende forskrifter til denne bestemmelsen fastsettes et overtredelsesgebyr på inntil 50 millioner kroner eller inntil 10 prosent av den samlede årsomsetningen etter siste godkjente årsregnskap.
+>
+> (3) For juridiske personer kan det ved overtredelse av artikkel 15 eller utfyllende forskrifter til denne bestemmelsen fastsettes et overtredelsesgebyr på inntil 150 millioner kroner eller inntil 10 prosent av den samlede årsomsetningen etter siste godkjente årsregnskap.
+>
+> (4) For fysiske personer kan det fastsettes et overtredelsesgebyr på inntil 50 millioner kroner.
+>
+> (5) Overtredelsesgebyret kan fastsettes til inntil tre ganger oppnådd fortjeneste eller unngått tap som følge av overtredelsen dersom dette gir høyere gebyr enn utmålingen etter annet til fjerde ledd.
 >
 
 ## § 21-8
@@ -2742,6 +2812,9 @@ refid: "lov/2007-06-29-75"
 ### 2026-06-19 — lov/2026-06-19-40
 
 *§ 21-9 annet ledd skal lyde:*
+
+> (2) Foretak kan ilegges overtredelsesgebyr etter kapittelet her ved forsettlige eller uaktsomme overtredelser begått av foretaket eller noen som har handlet på foretakets vegne.
+>
 
 ## § 21-11
 
@@ -2778,6 +2851,153 @@ refid: "lov/2007-06-29-75"
 
 ## (annet)
 
+### 2009-03-06 — lov/2009-03-06-12
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven).
+>
+> § 1
+>
+> .
+>
+> Formål
+>
+> Statens finansfond (Finansfondet) har til formål å bidra midlertidig med kjernekapital til norske banker for å styrke bankene og sette bankene bedre i stand til å opprettholde normal utlånsvirksomhet.
+>
+> § 2
+>
+> .
+>
+> Finansfondets kapital og statens ansvar
+>
+> Finansfondets kapital bevilges av Stortinget. Fondet tilhører staten. Departementet fastsetter den årlige avkastningen av kapitalen som betales til staten.
+>
+> Statens ansvar for Finansfondet er begrenset til den kapital fondet har til enhver tid.
+>
+> § 3
+>
+> .
+>
+> Organisasjon og ledelse
+>
+> Finansfondet er et eget rettssubjekt. Finansfondet skal registreres i Foretaksregisteret.
+>
+> Finansfondet ledes av et styre med tre medlemmer. Kongen oppnevner medlemmene og utpeker styrets leder og nestleder for en periode av tre år. Kongen oppnevner også to varamedlemmer.
+>
+> Styremedlemmer og varamedlemmer skal ha godtgjøring som fastsettes av departementet.
+>
+> Styret skal sørge for forsvarlig organisering av virksomheten og påse at kontrollen med formuesforvaltning, regnskap og øvrig virksomhet er betryggende.
+>
+> Aksjeloven § 6-17 gjelder tilsvarende for styret i Finansfondet.
+>
+> Departementet fastsetter vedtekter for Finansfondet.
+>
+> § 4
+>
+> .
+>
+> Forvaltning av Finansfondets midler, departementets instruksjonsmyndighet mv.
+>
+> Styret forestår forvaltningen av Finansfondets midler. Styret representerer Finansfondet utad og tegner dets firma. Styret kan gi fullmakt til å tegne fondets firma. Slik fullmakt kan også fastsettes i vedtektene.
+>
+> Før styret treffer vedtak av særlig viktighet, skal saken skriftlig forelegges departementet.
+>
+> Departementet kan i særlige tilfelle instruere styret skriftlig i enkeltsaker. Styret skal ha adgang til å uttale seg før departementet treffer slikt vedtak.
+>
+> § 5
+>
+> .
+>
+> Finansfondets plasseringer
+>
+> Finansfondets midler kan plasseres på følgende måte:
+>
+> Erverv av kjernekapitalinstrumenter utstedt av norske banker, og rettigheter til slike. Departementet kan i forskrift fastsette at Finansfondet kan erverve kjernekapitalinstrumenter utstedt av morselskap i finanskonsern.
+>
+> Kontolån til staten.
+>
+> Betaling av avkastning til staten.
+>
+> Finansfondet kan ikke ta opp lån eller stille garanti for andres forpliktelser.
+>
+> Finansfondet kan påta seg slike forpliktelser som er nødvendig i forbindelse med ledelse og administrasjon av fondets virksomhet.
+>
+> Departementet kan i forskrift fastsette nærmere regler om hvilke kjernekapitalinstrumenter fondet kan investere i og om utforming av vilkår for statens kapitalinnskudd.
+>
+> § 6
+>
+> .
+>
+> Årsregnskap, årsberetning og meddelelse til Stortinget
+>
+> Finansfondet skal hvert år utarbeide årsregnskap og årsberetning som skal sendes departementet innen utgangen av mars måned.
+>
+> Bestemmelsene i regnskapsloven og bokføringsloven skal følges. Departementet kan i forskrift utfylle eller fravike bestemmelsene om regnskapsloven og bokføringsloven for Statens finansfond.
+>
+> Meddelelse fra departementet til Stortinget om virksomheten i Finansfondet skal finne sted minst én gang hver stortingsperiode, og oftere dersom særlige grunner tilsier det.
+>
+> § 7
+>
+> .
+>
+> Revisjon
+>
+> Finansfondet skal ha en revisor som utpekes av departementet. Departementet kan i forskrift gi nærmere bestemmelser om revisjon.
+>
+> Revisors godtgjøring fastsettes av departementet.
+>
+> § 8
+>
+> .
+>
+> Forholdet til annen lovgivning
+>
+> Forvaltningsloven gjelder ikke for Finansfondet. Forvaltningslovens regler om inhabilitet og taushetsplikt gjelder likevel for enhver som utfører tjenester eller arbeid for fondet. Taushetsplikt gjelder ikke overfor departementet, Kredittilsynet og Norges Bank. Departementet kan gi nærmere regler om avgrensning av taushetsplikten.
+>
+> Statens finansfond regnes som offentlig organ etter lov 4. desember 1992 nr. 126 om arkiv § 2 bokstav g.
+>
+> § 9
+>
+> .
+>
+> Avvikling og omdanning
+>
+> Kongen kan beslutte at Finansfondet skal avvikles eller omdannes. Kongen kan i slike tilfeller beslutte at hele eller deler av Finansfondets kapital skal tilbakeføres til statskassen.
+>
+> § 10
+>
+> .
+>
+> Utfyllende regler
+>
+> Departementet kan gi forskrift med nærmere regler for Finansfondet og dets virksomhet, og utfyllende bestemmelser til gjennomføring av loven.
+>
+> § 11
+>
+> .
+>
+> Andre lovendringer
+>
+> I lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) skal § 6-3 nytt annet ledd lyde:
+>
+> Tilbudsplikten etter § 6-1 og § 6-6 gjelder ikke for Statens finansfond.
+>
+> § 12
+>
+> .
+>
+> Ikrafttredelse og overgangsbestemmelser
+>
+> Loven trer i kraft fra den tid Kongen bestemmer.
+>
+> Det er adgang til å sette i kraft forskjellige deler av loven til forskjellig tid.
+>
+> Kongen kan gi overgangsregler.
+>
+
 ### 2010-06-04 — lov/2010-06-04-20
 
 *Nåværende § 10-4 annet ledd blir første ledd, og skal lyde:*
@@ -2795,6 +3015,13 @@ refid: "lov/2007-06-29-75"
 ### 2010-06-04 — lov/2010-06-04-20
 
 *Nåværende femte og sjette ledd blir nytt sjette og syvende ledd.*
+
+### 2011-04-15 — lov/2011-04-15-11
+
+*I lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) skal § 15-3 annet ledd lyde:*
+
+> (2) Opplysningsplikten i første ledd gjelder ikke opplysninger som vedkommende ville vært forhindret fra å gi i straffesak. Opplysningsplikten gjelder likevel uten hinder av:lovbestemt taushetsplikt som ellers påhviler ligningsmyndigheter, andre skatte- og avgiftsmyndigheter og myndigheter som har til oppgave å overvåke offentlig regulering av ervervsvirksomhet,taushetsplikt som nevnt i lov om elektronisk kommunikasjon § 2-9 for så vidt gjelder opplysninger om avtalebasert hemmelig telefonnummer eller andre abonnementsopplysninger og elektronisk kommunikasjonsadresse, ogtaushetsplikt som nevnt i lov om elektronisk kommunikasjon § 2-9 for så vidt gjelder opplysninger om trafikkdata, dersom det er gitt fritak fra slik taushetsplikt. Begjæring om slikt fritak fra taushetsplikten fremsettes av Finanstilsynet for tingretten på det sted hvor det mest praktisk kan skje. Retten kan ved kjennelse gi tilbyder slikt fritak. Ved vurderingen av om fritak skal gis skal det blant annet legges vekt på hensynet til taushetsplikten og sakens opplysning. Straffeprosessloven § 170 a gjelder tilsvarende.Retten sørger for at kjennelsen snarest mulig blir meddelt den mistenkte eller andre som rammes av at taushetsplikten oppheves. Straffeprosessloven § 210 a jf. § 100 a gjelder tilsvarende. Departementet kan i forskrift gi nærmere regler om domstolskontroll og Finanstilsynets behandling av saker etter denne bestemmelsen, herunder regler om behandlingen av overskuddsinformasjon.
+>
 
 ### 2011-11-18 — lov/2011-11-18-42
 
@@ -2893,6 +3120,17 @@ refid: "lov/2007-06-29-75"
 > § 13-6.Utfyllende regler
 >
 > Departementet kan i forskrift stille ytterligere krav til motpartsvirksomhet og fastsette regler om tilbakekall av tillatelse til å drive virksomhet som sentral motpart når det finnes nødvendig av hensyn til at motpartsvirksomhet skal skje på en sikker, ordnet og effektiv måte.
+>
+
+### 2015-12-04 — lov/2015-12-04-96
+
+*I lov 29. juni 2007 nr. 75 om verdipapirhandel skal § 7-15 lyde:*
+
+> § 7-15.Tillegg til prospekt
+>
+> (1) Enhver ny omstendighet, vesentlig feil eller unøyaktighet som kan få betydning for vurderingen av verdipapirene, og som fremkommer mellom tidspunktet for godkjenningen av prospektet og tidspunktet for akseptperiodens utløp eller opptaket til notering, det alternativet som inntrer sist, skal fremgå av et tillegg til prospektet. Tillegget skal godkjennes i samsvar med § 7-7 og offentliggjøres uten ugrunnet opphold i samsvar med § 7-19.
+>
+> (2) Departementet kan i forskrift fastsette nærmere regler om tillegg til prospekt.
 >
 
 ### 2016-12-16 — lov/2016-12-16-91
@@ -5018,6 +5256,27 @@ refid: "lov/2007-06-29-75"
 
 *Nåværende annet punktum blir nytt tredje punktum. Nytt tredje punktum oppheves.*
 
+### 2021-03-01 — forskrift/2020-11-27-2488
+
+*Delt ikraftsetting av lov 21. juni 2019 nr. 41 om endringer i verdipapirhandelloven mv. (prospekt, markedsmisbruk, tilsyn og sanksjoner). Endringsloven del I, endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) kapittel 3, 4, 5, 12, 19 og 21, trer i kraft 1. mars 2021.*
+
+> Delt ikraftsetting av lov 21. juni 2019 nr. 41 om endringer i verdipapirhandelloven mv. (prospekt, markedsmisbruk, tilsyn og sanksjoner). Endringsloven del I, endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) kapittel 3, 4, 5, 12, 19 og 21, trer i kraft 1. mars 2021.
+>
+
+### 2021-03-01 — forskrift/2021-01-29-266
+
+*Delt ikraftsetting av lov 6. desember 2019 nr. 76 om endringer i referanserenteloven mv. (gjennomføring av referanseverdiforordningen). Loven del I, endringen i lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) § 3-1, trer i kraft 1. mars 2021.*
+
+> Delt ikraftsetting av lov 6. desember 2019 nr. 76 om endringer i referanserenteloven mv. (gjennomføring av referanseverdiforordningen). Loven del I, endringen i lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) § 3-1, trer i kraft 1. mars 2021.
+>
+
+### 2021-04-23 — lov/2021-04-23-22
+
+*I lov 29. juni 2007 nr. 75 om verdipapirhandel skal § 17-1 første ledd lyde:*
+
+> (1) EØS-avtalen vedlegg IX nr. 31bc (forordning (EU) nr. 648/2012) om OTC-derivater, sentrale motparter og transaksjonsregistre (EMIR), som endret ved direktiv (EU) 2015/849 og forordning (EU) 2017/2402, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+
 ### 2021-04-30 — lov/2021-04-30-26
 
 *I § 5-8 oppheves fjerde og sjette ledd.*
@@ -5036,6 +5295,20 @@ refid: "lov/2007-06-29-75"
 ### 2021-04-30 — lov/2021-04-30-26
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2021-05-01 — forskrift/2021-04-09-1104
+
+*Delt ikraftsetting av lov 20. november 2020 nr. 128 om revisjon og revisorer (revisorloven). Loven § 16-3 nr. 10, endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven), trer i kraft 1. mai 2021.*
+
+> Delt ikraftsetting av lov 20. november 2020 nr. 128 om revisjon og revisorer (revisorloven). Loven § 16-3 nr. 10, endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven), trer i kraft 1. mai 2021.
+>
+
+### 2022-05-01 — forskrift/2022-04-08-551
+
+*Ikraftsetting av lov 22. desember 2021 nr. 162 om endringer i verdipapirhandelloven (EU-gjenopprettingsprospekt mv.). Loven trer i kraft 1. mai 2022.*
+
+> Ikraftsetting av lov 22. desember 2021 nr. 162 om endringer i verdipapirhandelloven (EU-gjenopprettingsprospekt mv.). Loven trer i kraft 1. mai 2022.
+>
 
 ### 2022-06-22 — lov/2022-06-22-79
 
@@ -5075,6 +5348,24 @@ refid: "lov/2007-06-29-75"
 ### 2022-06-22 — lov/2022-06-22-80
 
 *Nåværende § 19-7 ellevte ledd blir nytt tolvte ledd.*
+
+### 2022-09-01 — forskrift/2022-06-22-1106
+
+*Loven trer i kraft 1. september 2022.*
+
+> Loven trer i kraft 1. september 2022.
+>
+
+### 2023-02-01 — forskrift/2023-01-13-42
+
+*Delt ikraftsetting av lov 22. juni 2022 nr. 79 om endringer i verdipapirhandelloven mv. (samleproposisjon). Følgende trer i kraft 1. februar 2023:*
+
+> Delt ikraftsetting av lov 22. juni 2022 nr. 79 om endringer i verdipapirhandelloven mv. (samleproposisjon). Følgende trer i kraft 1. februar 2023:
+>
+> Endringsloven del I (verdipapirhandelloven)
+>
+> Endringsloven del VI nr. 2.
+>
 
 ### 2023-03-31 — lov/2023-03-31-4
 
@@ -5117,17 +5408,27 @@ refid: "lov/2007-06-29-75"
 
 > Kapittel 17A Verdipapirfinansieringstransaksjoner og gjenbruk av sikkerheter
 >
-> § 17A-1.Verdipapirfinansieringstransaksjoner og gjenbruk av sikkerheter(1) EØS-avtalen vedlegg IX nr. 31bh (forordning (EU) 2015/2365) om gjennomsiktighet for verdipapirfinansieringstransaksjoner og for gjenbruk (SFTR), som endret ved forordning (EU) 2019/463, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.(2) Departementet kan i forskrift gi nærmere regler om verdipapirfinansieringstransaksjoner og gjenbruk.(3) Finanstilsynet kan i forskrift gi bestemmelser om at rettslige og tilsynsmessige rammer i tredjestater er likeverdige med det som følger av SFTR som gjennomført i første ledd.(4) Departementet kan i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen.
+> § 17A-1. Verdipapirfinansieringstransaksjoner og gjenbruk av sikkerheter
 >
-> § 17A-1.Verdipapirfinansieringstransaksjoner og gjenbruk av sikkerheter
+> (1) EØS-avtalen vedlegg IX nr. 31bh (forordning (EU) 2015/2365) om gjennomsiktighet for verdipapirfinansieringstransaksjoner og for gjenbruk (SFTR), som endret ved forordning (EU) 2019/463, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
 >
-> § 17A-2.Tillatelse fra tingretten og bistand fra politiet(1) Stedlig tilsyn etter SFTR artikkel 9, som gjennomført i § 17A-1 første ledd, jf. EMIR artikkel 63, som gjennomført i § 17-1 første ledd, krever tillatelse fra tingretten.(2) Finanstilsynet kan kreve bistand fra politiet for å gjennomføre rettens beslutning om stedlig tilsyn.(3) Begjæring om tillatelse etter første ledd fremsettes av Finanstilsynet eller EFTAs overvåkingsorgan for tingretten på det stedet hvor det mest praktisk kan skje. Retten treffer sin avgjørelse ved beslutning. En anke over beslutningen har ikke oppsettende virkning. Straffeprosessloven § 201 første ledd, §§ 117 til 120 jf. § 204, § 207, § 208, § 209, § 213 og kapittel 26 samt forvaltningsloven § 15 annet ledd gjelder så langt de passer. Dersom varsel om stedlig tilsyn kan unnlates, og Finanstilsynet eller EFTAs overvåkingsorgan anmoder retten om det, skal den begjæringen retter seg mot, ikke varsles om begjæringen eller beslutningen.
+> (2) Departementet kan i forskrift gi nærmere regler om verdipapirfinansieringstransaksjoner og gjenbruk.
 >
-> § 17A-2.Tillatelse fra tingretten og bistand fra politiet
+> (3) Finanstilsynet kan i forskrift gi bestemmelser om at rettslige og tilsynsmessige rammer i tredjestater er likeverdige med det som følger av SFTR som gjennomført i første ledd.
 >
-> § 17A-3.TvangsfullbyrdelseFinanstilsynet fører kontroll med tvangsgrunnlagets ekthet etter bestemmelsene om tvangsfullbyrdelse i SFTR artikkel 9, som gjennomført i § 17A-1 første ledd, jf. EMIR artikkel 68 nr. 4, som gjennomført i § 17-1 første ledd.
+> (4) Departementet kan i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen.
 >
-> § 17A-3.Tvangsfullbyrdelse
+> § 17A-2. Tillatelse fra tingretten og bistand fra politiet
+>
+> (1) Stedlig tilsyn etter SFTR artikkel 9, som gjennomført i § 17A-1 første ledd, jf. EMIR artikkel 63, som gjennomført i § 17-1 første ledd, krever tillatelse fra tingretten.
+>
+> (2) Finanstilsynet kan kreve bistand fra politiet for å gjennomføre rettens beslutning om stedlig tilsyn.
+>
+> (3) Begjæring om tillatelse etter første ledd fremsettes av Finanstilsynet eller EFTAs overvåkingsorgan for tingretten på det stedet hvor det mest praktisk kan skje. Retten treffer sin avgjørelse ved beslutning. En anke over beslutningen har ikke oppsettende virkning. Straffeprosessloven § 201 første ledd, §§ 117 til 120 jf. § 204, § 207, § 208, § 209, § 213 og kapittel 26 samt forvaltningsloven § 15 annet ledd gjelder så langt de passer. Dersom varsel om stedlig tilsyn kan unnlates, og Finanstilsynet eller EFTAs overvåkingsorgan anmoder retten om det, skal den begjæringen retter seg mot, ikke varsles om begjæringen eller beslutningen.
+>
+> § 17A-3. Tvangsfullbyrdelse
+>
+> Finanstilsynet fører kontroll med tvangsgrunnlagets ekthet etter bestemmelsene om tvangsfullbyrdelse i SFTR artikkel 9, som gjennomført i § 17A-1 første ledd, jf. EMIR artikkel 68 nr. 4, som gjennomført i § 17-1 første ledd.
 >
 
 ### 2024-06-25 — lov/2024-06-25-60
@@ -5142,11 +5443,16 @@ refid: "lov/2007-06-29-75"
 
 *Nåværende sjette ledd blir femte ledd og skal lyde:*
 
+> (5) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her, herunder bestemmelser om gebyrets størrelse, foreldelse, hvem gebyret skal tilfalle, om det skal være tvangsgrunnlag for utlegg og andre regler om inndriving.
+>
+
 ### 2024-12-13 — lov/2024-12-13-76
 
 *3. I lov 29. juni 2007 nr. 75 om verdipapirhandel skal § 19-3 tredje ledd nr. 4 og fjerde ledd første punktum lyde:*
 
 > taushetsplikt som nevnt i ekomloven § 3-10 for så vidt gjelder opplysninger om avtalebasert hemmelig telefonnummer eller andre abonnementsopplysninger og elektronisk kommunikasjonsadresse.
+>
+> (4) Ved mistanke om overtredelse av artikkel 14 og 15 i markedsmisbruksforordningen, jf. § 3-1, gjelder ikke taushetsplikten som nevnt i ekomloven § 3-10 for så vidt gjelder opplysninger om trafikkdata, dersom det er gitt fritak fra slik taushetsplikt etter bestemmelsen her.
 >
 
 ### 2024-12-20 — lov/2024-12-20-93
@@ -5156,6 +5462,15 @@ refid: "lov/2007-06-29-75"
 ### 2024-12-20 — lov/2024-12-20-93
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2025-08-01 — forskrift/2025-06-24-1202
+
+*Delt ikraftsetting av lov 25. juni 2024 nr. 60 om endringer i finansmarkedslovgivningen (samleproposisjon). Følgende trer i kraft 1. august 2025:*
+
+> Delt ikraftsetting av lov 25. juni 2024 nr. 60 om endringer i finansmarkedslovgivningen (samleproposisjon). Følgende trer i kraft 1. august 2025:
+>
+> Endringsloven del I (verdipapirhandelloven) endringen i § 17-1 første ledd bokstav m.
+>
 
 ### 2026-02-06 — lov/2026-02-06-3
 
@@ -5175,81 +5490,179 @@ refid: "lov/2007-06-29-75"
 
 > VIII Kapitalforhold mv.
 >
-> § 9-39.Verdipapirforetaksforordningen(1) EØS-avtalen vedlegg IX nr. 19c forordning (EU) 2019/2033 (om tilsynskrav for verdipapirforetak (verdipapirforetaksforordningen)) gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.(2) Når det i lov eller forskrift vises til verdipapirforetaksforordningen, menes forordningen slik den er gjennomført i første ledd.(3) Verdipapirforetak som nevnt i verdipapirforetaksforordningen artikkel 1 nr. 2 og 5 skal følge reglene i finansforetaksloven kapittel 13 til 15, 17, 18 og 22 med forskrifter, slik disse gjelder for kredittforetak. Reglene i §§ 9-42 til 9-57 gjelder ikke for slike verdipapirforetak.(4) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen.
+> § 9-39. Verdipapirforetaksforordningen
 >
-> § 9-39.Verdipapirforetaksforordningen
+> (1) EØS-avtalen vedlegg IX nr. 19c forordning (EU) 2019/2033 (om tilsynskrav for verdipapirforetak (verdipapirforetaksforordningen)) gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
 >
-> § 9-40.Tilsynsregime for store verdipapirforetak(1) Finanstilsynet kan bestemme at verdipapirforetak som har tillatelse til å yte investeringstjenester eller drive investeringsvirksomhet som nevnt i § 2-1 første ledd nr. 3 og 6, og som har samlede verdier på et beløp i norske kroner som minst svarer til 5 milliarder euro, beregnet som et gjennomsnitt over de siste tolv månedene, skal være underlagt forordning (EU) nr. 575/2013, som gjennomført i forskrift fastsatt med hjemmel i finansforetaksloven § 1-8, forutsatt at ett av følgende vilkår er oppfylt:verdipapirforetaket driver virksomheten i et slikt omfang at dets sammenbrudd eller betalingsvanskeligheter kan føre til systemrisiko,verdipapirforetaket er et clearingmedlem som definert i verdipapirforetaksforordningen artikkel 4 nr. 1 punkt 3,Finanstilsynet anser det rettferdiggjort og forholdsmessig i lys av størrelsen, arten, omfanget og kompleksiteten til verdipapirforetakets virksomhet, tatt i betraktning:verdipapirforetakets betydning for økonomien i EØS eller i Norge,omfanget av verdipapirforetakets grensekryssende virksomhet, elleri hvilken grad verdipapirforetaket er sammenvevd med det finansielle systemet.(2) Tilbakekall av en beslutning etter første ledd skal meddeles verdipapirforetaket uten opphold.(3) Beslutning etter første ledd bortfaller når verdipapirforetaket ikke lenger oppfyller beløpsterskelen, beregnet over en sammenhengende periode på tolv måneder.(4) Denne bestemmelsen gjelder ikke for vare- og utslippskvoteforhandlere, innretninger for kollektive investeringer eller forsikringsforetak.(5) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> (2) Når det i lov eller forskrift vises til verdipapirforetaksforordningen, menes forordningen slik den er gjennomført i første ledd.
 >
-> § 9-40.Tilsynsregime for store verdipapirforetak
+> (3) Verdipapirforetak som nevnt i verdipapirforetaksforordningen artikkel 1 nr. 2 og 5 skal følge reglene i finansforetaksloven kapittel 13 til 15, 17, 18 og 22 med forskrifter, slik disse gjelder for kredittforetak. Reglene i §§ 9-42 til 9-57 gjelder ikke for slike verdipapirforetak.
 >
-> § 9-41.Startkapital(1) Verdipapirforetak med tillatelse til å yte investeringstjenester eller drive investeringsvirksomhet som nevnt i § 2-1 første ledd nr. 3 og 6 skal ha en startkapital på et beløp i norske kroner som minst svarer til 750 000 euro.(2) Verdipapirforetak med tillatelse til å yte investeringstjenester eller drive investeringsvirksomhet som nevnt i § 2-1 ledd nr. 1, 2, 4, 5 og 7 og som ikke har tillatelse til å håndtere kunders finansielle instrumenter eller finansielle midler, skal ha en startkapital på et beløp i norske kroner som minst svarer til 75 000 euro.(3) Verdipapirforetak med tillatelse til å yte investeringstjenester eller drive investeringsvirksomhet som nevnt i § 2-1 første ledd nr. 9 og som handler for egen regning eller har tillatelse til det, skal ha en startkapital på et beløp i norske kroner som minst svarer til 750 000 euro.(4) Verdipapirforetak som ikke er omfattet av første, annet eller tredje ledd, skal ha en startkapital på et beløp i norske kroner som minst svarer til 150 000 euro.(5) Startkapitalen skal være sammensatt i samsvar med verdipapirforetaksforordningen artikkel 9.
+> (4) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen.
 >
-> § 9-41.Startkapital
+> § 9-40. Tilsynsregime for store verdipapirforetak
 >
-> § 9-42.Vurdering av samlet kapital- og likviditetsbehov(1) Et verdipapirforetak som ikke oppfyller vilkårene i verdipapirforetaksforordningen artikkel 12 nr. 1, skal ha betryggende, effektive og omfattende rutiner, strategier og prosedyrer for løpende å vurdere og opprettholde omfanget, typen og fordelingen av intern kapital og likvide midler som det anser tilstrekkelig til å dekke arten og omfanget av risikoene som verdipapirforetaket kan utgjøre for andre, og som det selv er eller kan bli utsatt for.(2) Rutinene, prosedyrene og strategiene etter første ledd skal være hensiktsmessige og stå i forhold til arten, omfanget og kompleksiteten til verdipapirforetakets virksomhet og skal være underlagt regelmessig intern gjennomgang.(3) Finanstilsynet kan, i den utstrekning det anses hensiktsmessig, be om at kravene i første og annet ledd anvendes av et verdipapirforetak som oppfyller vilkårene i verdipapirforetaksforordningen artikkel 12 nr. 1.
+> (1) Finanstilsynet kan bestemme at verdipapirforetak som har tillatelse til å yte investeringstjenester eller drive investeringsvirksomhet som nevnt i § 2-1 første ledd nr. 3 og 6, og som har samlede verdier på et beløp i norske kroner som minst svarer til 5 milliarder euro, beregnet som et gjennomsnitt over de siste tolv månedene, skal være underlagt forordning (EU) nr. 575/2013, som gjennomført i forskrift fastsatt med hjemmel i finansforetaksloven § 1-8, forutsatt at ett av følgende vilkår er oppfylt:verdipapirforetaket driver virksomheten i et slikt omfang at dets sammenbrudd eller betalingsvanskeligheter kan føre til systemrisiko,verdipapirforetaket er et clearingmedlem som definert i verdipapirforetaksforordningen artikkel 4 nr. 1 punkt 3,Finanstilsynet anser det rettferdiggjort og forholdsmessig i lys av størrelsen, arten, omfanget og kompleksiteten til verdipapirforetakets virksomhet, tatt i betraktning:verdipapirforetakets betydning for økonomien i EØS eller i Norge,omfanget av verdipapirforetakets grensekryssende virksomhet, elleri hvilken grad verdipapirforetaket er sammenvevd med det finansielle systemet.
 >
-> § 9-42.Vurdering av samlet kapital- og likviditetsbehov
+> (2) Tilbakekall av en beslutning etter første ledd skal meddeles verdipapirforetaket uten opphold.
 >
-> § 9-43.Anvendelsesområdet for §§ 9-44 til 9-51(1) §§ 9-44 til 9-51, unntatt § 9-47 første ledd nr. 1, 3 og 4, gjelder ikke for verdipapirforetak som oppfyller vilkårene i verdipapirforetaksforordningen artikkel 12 nr. 1.(2) Oppfyller et verdipapirforetak vilkårene i verdipapirforetaksforordningen artikkel 12 nr. 1 etter først ikke å ha gjort det, gjelder første ledd når verdipapirforetaket har oppfylt vilkårene i seks sammenhengende måneder og verdipapirforetaket har gitt Finanstilsynet melding om dette.(3) Finner et verdipapirforetak at det ikke lenger oppfyller vilkårene i verdipapirforetaksforordningen artikkel 12 nr. 1, skal det gi melding om dette til Finanstilsynet og anvende §§ 9-44 til 9-51 innen 12 måneder fra dette tidspunktet. Kravene i § 9-49 skal uansett anvendes for godtgjørelse tildelt i regnskapsåret som etterfølger regnskapsåret hvor verdipapirforetaket fant at det ikke lenger oppfyller de nevnte vilkårene.(4) Ved konsolidert tilsyn etter verdipapirforetaksforordningen artikkel 7 gjelder kravene i §§ 9-44 til 9-51 for verdipapirforetaket på individuelt og konsolidert grunnlag. Dette gjelder likevel ikke for datterforetak etablert i en tredjestat dersom morforetaket i EØS godtgjør at anvendelsen av kravene i §§ 9-44 til 9-51 ikke er tillatt etter denne tredjestatens lovgivning.(5) Ved anvendelse av gruppekapitalkravet i verdipapirforetaksforordningen artikkel 8 gjelder kravene i §§ 9-44 til 9-51 for verdipapirforetaket på individuelt grunnlag.
+> (3) Beslutning etter første ledd bortfaller når verdipapirforetaket ikke lenger oppfyller beløpsterskelen, beregnet over en sammenhengende periode på tolv måneder.
 >
-> § 9-43.Anvendelsesområdet for §§ 9-44 til 9-51
+> (4) Denne bestemmelsen gjelder ikke for vare- og utslippskvoteforhandlere, innretninger for kollektive investeringer eller forsikringsforetak.
 >
-> § 9-44.Virksomhetsstyring(1) Et verdipapirforetak skal ha robuste styringsordninger, herunder:en klar organisasjonsstruktur med klart definerte, gjennomsiktige og konsistente ansvarslinjer,effektive fremgangsmåter for å identifisere, styre, overvåke og rapportere risikoene som verdipapirforetaket er eller kan bli utsatt for, eller risikoene som det utgjør eller kan utgjøre for andre,tilstrekkelige interne kontrollordninger, herunder betryggende administrasjons- og regnskapsrutiner,en kjønnsnøytral godtgjørelsesordning og -praksis som er i samsvar med og fremmer betryggende og effektiv risikostyring.(2) Ved fastleggelsen av ordningene i første ledd skal det tas hensyn til bestemmelsene i §§ 9-46 til 9-50.(3) Ordningene i første ledd skal være hensiktsmessige og stå i forhold til arten, omfanget og kompleksiteten i de iboende risikoene ved verdipapirforetakets forretningsmodell og virksomhet.
+> (5) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
 >
-> § 9-44.Virksomhetsstyring
+> § 9-41. Startkapital
 >
-> § 9-45.Land for land-rapportering(1) Et verdipapirforetak som er etablert i et annet land gjennom filial eller gjennom datterselskap som er en finansinstitusjon som definert i forordning (EU) nr. 575/2013 artikkel 4 nr. 1 punkt 26, skal for hvert land årlig offentliggjøre følgende:datterselskapers og filialers navn, virksomhetsområder og geografiske beliggenhet,omsetning,antall årsverk,resultat før skatt,skatt,mottatte offentlige tilskudd/subsidier.(2) Opplysningene skal revideres i henhold til lov 20. november 2020 nr. 128 om revisjon og revisorer. Opplysningene skal, om mulig, publiseres som et vedlegg til verdipapirforetakets årsregnskap, eller eventuelt verdipapirforetakets konsoliderte årsregnskap.
+> (1) Verdipapirforetak med tillatelse til å yte investeringstjenester eller drive investeringsvirksomhet som nevnt i § 2-1 første ledd nr. 3 og 6 skal ha en startkapital på et beløp i norske kroner som minst svarer til 750 000 euro.
 >
-> § 9-45.Land for land-rapportering
+> (2) Verdipapirforetak med tillatelse til å yte investeringstjenester eller drive investeringsvirksomhet som nevnt i § 2-1 ledd nr. 1, 2, 4, 5 og 7 og som ikke har tillatelse til å håndtere kunders finansielle instrumenter eller finansielle midler, skal ha en startkapital på et beløp i norske kroner som minst svarer til 75 000 euro.
 >
-> § 9-46.Styrets rolle i risikostyringen(1) Et verdipapirforetaks styre skal godkjenne og regelmessig vurdere strategier og retningslinjer for verdipapirforetakets risikovilje og for å styre, overvåke og kontrollere risikoer som verdipapirforetaket er eller kan bli utsatt for, i lys av makroøkonomiske forhold og verdipapirforetakets virksomhet.(2) Styret skal sette av tilstrekkelig tid til å sikre en grundig vurdering av forholdene som omfattes av første ledd, og skal tildele tilstrekkelige ressurser til styringen av alle materielle risikoer som verdipapirforetaket er utsatt for.(3) Verdipapirforetaket skal etablere rapporteringslinjer til styret for enhver vesentlig risiko og for enhver risikostyringsordning som fastsettes eller endres.(4) Et verdipapirforetak som har balanseførte og ikke-balanseførte eiendeler på et beløp i norske kroner som minst svarer til 100 millioner euro, beregnet som et gjennomsnitt over en fireårsperiode umiddelbart forut for inneværende regnskapsår, skal ha et risikoutvalg.(5) Risikoutvalget etter fjerde ledd skal være sammensatt av styremedlemmer som ikke inngår i den faktiske ledelsen av verdipapirforetaket. Medlemmene av risikoutvalget skal ha tilstrekkelig kunnskap, kvalifikasjoner og erfaring til fullt ut å forstå, styre og overvåke verdipapirforetakets risikostrategi og risikovilje. Risikoutvalget skal gi råd til styret om verdipapirforetakets samlede aktuelle og fremtidige risikovilje og risikostrategi og bistå styret i overvåkningen av den øverste ledelsens gjennomføring av strategien. Styret skal beholde det øverste ansvaret for verdipapirforetakets risikostrategier og -ordninger.(6) Styret, og risikoutvalget dersom det er opprettet, skal sikre seg tilgang til informasjon om risiko som verdipapirforetaket er eller kan bli utsatt for.
+> (3) Verdipapirforetak med tillatelse til å yte investeringstjenester eller drive investeringsvirksomhet som nevnt i § 2-1 første ledd nr. 9 og som handler for egen regning eller har tillatelse til det, skal ha en startkapital på et beløp i norske kroner som minst svarer til 750 000 euro.
 >
-> § 9-46.Styrets rolle i risikostyringen
+> (4) Verdipapirforetak som ikke er omfattet av første, annet eller tredje ledd, skal ha en startkapital på et beløp i norske kroner som minst svarer til 150 000 euro.
 >
-> § 9-47.Risikostyring(1) Et verdipapirforetak skal ha robuste strategier, retningslinjer, fremgangsmåter og systemer for å identifisere, måle, styre og overvåke følgende:vesentlige kilder til og virkninger av risiko for kunder og enhver vesentlig innvirkning på ansvarlig kapital,vesentlige kilder til og virkninger av risiko for markeder og enhver vesentlig innvirkning på ansvarlig kapital,vesentlige kilder til og virkninger av risiko for verdipapirforetaket, særlig slike som kan bruke opp verdipapirforetakets tilgjengelige ansvarlige kapital,likviditetsrisiko innenfor relevante tidshorisonter, herunder innenfor samme dag, for å sikre at verdipapirforetaket opprettholder et tilstrekkelig nivå av likvide ressurser, herunder for å håndtere vesentlige risikokilder som nevnt i nr. 1 til 3.(2) Strategiene, retningslinjene, fremgangsmåtene og systemene i første ledd skal stå i forhold til verdipapirforetakets kompleksitet, risikoprofil og virksomhetsomfang og risikotoleransen som er fastsatt av styret, og skal gjenspeile verdipapirforetakets betydning i hver EØS-stat hvor verdipapirforetaket driver virksomhet.(3) Verdipapirforetaket skal vurdere behovet for ansvarsforsikring.(4) Som vesentlige kilder til risiko for verdipapirforetaket regnes blant annet vesentlige endringer i den bokførte verdien av eiendeler, herunder krav mot tilknyttede agenter, betalingsudyktighet hos kunder eller motparter, posisjoner i finansielle instrumenter, utenlandsk valuta, utenlandske varer og forpliktelser etter ytelsesbaserte pensjonsordninger.(5) Et verdipapirforetak som må avvikle eller innstille sin virksomhet, skal, ved å ta hensyn til levedyktigheten og bærekraftigheten til dets forretningsmodell og -strategi, legge tilbørlig vekt på krav og nødvendige ressurser som er realistiske med hensyn til tidsramme og opprettholdelse av ansvarlig kapital og likvide midler, gjennom hele forløpet med uttreden fra markedet.(6) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> (5) Startkapitalen skal være sammensatt i samsvar med verdipapirforetaksforordningen artikkel 9.
 >
-> § 9-47.Risikostyring
+> § 9-42. Vurdering av samlet kapital- og likviditetsbehov
 >
-> § 9-48.Godtgjørelsesordninger(1) Et verdipapirforetaks godtgjørelsesordning skal, for ansatte med arbeidsoppgaver av vesentlig betydning for verdipapirforetakets risikoprofil eller midlene det forvalter, herunder ledende ansatte, ansatte med kontrollfunksjoner og ansatte med tilsvarende godtgjørelse som ledende ansatte, oppfylle følgende krav:godtgjørelsesordningen skal være klart dokumentert, være hensiktsmessig og stå i forhold til verdipapirforetakets størrelse og interne organisasjon og virksomhetens art, omfang og kompleksitet,godtgjørelsesordningen skal være i samsvar med verdipapirforetakets forretningsstrategi og mål og ta hensyn til langsiktige virkninger av foretatte investeringsbeslutninger,godtgjørelsesordningen skal inneholde tiltak for å unngå interessekonflikter, oppfordre til ansvarlig forretningsførsel og fremme risikobevissthet og forsiktig risikotaking,verdipapirforetakets styre skal vedta og regelmessig gjennomgå godtgjørelsesordningen og skal ha det øverste ansvaret for å overvåke gjennomføringen av den,gjennomføringen av godtgjørelsesordningen skal minst årlig undergis en sentral og uavhengig internkontroll av en kontrollfunksjon,ansatte med kontrollansvar skal være uavhengige av forretningsområdene de kontrollerer og ha nødvendig autoritet og skal godtgjøres i samsvar med måloppnåelse knyttet til deres funksjoner, uavhengig av resultatet i forretningsområdene de kontrollerer,godtgjørelsen av den øverste ledelsen i risikostyrings- og kontrollfunksjonene skal være underlagt direkte tilsyn av godtgjørelsesutvalget, eller av styret dersom et godtgjørelsesutvalg ikke er opprettet,godtgjørelsesordningen skal skille klart mellom kriteriene for å fastsette henholdsvis fast og variabel godtgjørelse,det skal være et passende forholdstall mellom fast og variabel godtgjørelse, og den faste delen av godtgjørelsen skal være tilstrekkelig høy til at verdipapirforetaket kan unnlate å utbetale den variable delen av godtgjørelsen.(2) Departementet kan i forskrift gi utfyllende bestemmelser om hvilke ansatte som skal anses å ha arbeidsoppgaver av vesentlig betydning for verdipapirforetakets risikoprofil eller midlene det forvalter, og kan for øvrig fastsette utfyllende forskrifter til bestemmelsen her.
+> (1) Et verdipapirforetak som ikke oppfyller vilkårene i verdipapirforetaksforordningen artikkel 12 nr. 1, skal ha betryggende, effektive og omfattende rutiner, strategier og prosedyrer for løpende å vurdere og opprettholde omfanget, typen og fordelingen av intern kapital og likvide midler som det anser tilstrekkelig til å dekke arten og omfanget av risikoene som verdipapirforetaket kan utgjøre for andre, og som det selv er eller kan bli utsatt for.
 >
-> § 9-48.Godtgjørelsesordninger
+> (2) Rutinene, prosedyrene og strategiene etter første ledd skal være hensiktsmessige og stå i forhold til arten, omfanget og kompleksiteten til verdipapirforetakets virksomhet og skal være underlagt regelmessig intern gjennomgang.
 >
-> § 9-49.Variabel godtgjørelse(1) Variabel godtgjørelse som tildeles og utbetales av et verdipapirforetak til ansatte med arbeidsoppgaver av vesentlig betydning for verdipapirforetakets risikoprofil eller midlene det forvalter, skal oppfylle kravene i denne bestemmelsen på en måte som er hensiktsmessig for verdipapirforetakets størrelse og interne organisering og virksomhetens art, omfang og kompleksitet.(2) Variabel godtgjørelse som tildeles og utbetales, skal oppfylle følgende krav:resultatavhengig variabel godtgjørelse skal baseres på en kombinasjon av vurdering av vedkommende person, vedkommende forretningsenhet og verdipapirforetaket som helhet,ved vurderingen av den ansattes prestasjoner skal det tas hensyn til både finansielle og ikke-finansielle kriterier,vurderingen av resultatene etter nr. 1 skal være basert på en flerårsperiode, som tar hensyn til verdipapirforetakets forretningssyklus og -risikoer,den variable godtgjørelsen skal ikke svekke verdipapirforetakets evne til å sikre et betryggende kapitalgrunnlag,garantert variabel godtgjørelse kan bare benyttes ved nyansettelser, begrenset til det første året, og bare der verdipapirforetaket har et solid kapitalgrunnlag,sluttvederlag ved opphør av arbeidsforhold skal tilpasses de resultater som er oppnådd over tid, og utformes slik at manglende resultater ikke blir belønnet,godtgjørelsesavtaler som gjelder kompensasjon eller utløsning fra arbeidskontrakt i tidligere arbeidsforhold, skal være tilpasset verdipapirforetakets langsiktige interesser,ved måling av resultater skal det tas hensyn til alle typer aktuelle og fremtidige risikoer og kostnader som gjelder behov for kapital og likviditet etter verdipapirforetaksforordningen,tildelingen av variable godtgjørelseskomponenter i verdipapirforetaket skal ta hensyn til alle typer aktuelle og fremtidige risikoer.(3) Minst halvparten av årlig variabel godtgjørelse skal gis i form av aksjer eller andre egenkapitalinstrumenter utstedt av verdipapirforetaket eller et annet foretak i gruppen det tilhører, eller i form av betinget kapital som avspeiler verdipapirforetakets verdiutvikling.(4) Minst 40 prosent av den variable godtgjørelsen skal utsettes utbetalt over en periode på minst tre år. Dersom den variable godtgjørelsen utgjør et meget stort beløp sett i lys av blant annet verdipapirforetakets virksomhet og lønnsnivået i verdipapirforetaket, skal minst 60 prosent av den variable godtgjørelsen utsettes utbetalt over en periode på minst tre år. Perioden skal ta hensyn til verdipapirforetakets underliggende forretningssyklus, virksomhetens art og risiko og den aktuelle ansattes arbeidsoppgaver.(5) Opptil 100 prosent av variabel godtgjørelse skal reduseres dersom resultatutviklingen i verdipapirforetaket eller etterfølgende resultater tilsier dette. Verdipapirforetaket skal fastsette spesifikke kriterier for fradrag og tilbakebetaling som særlig skal hensynta situasjoner hvor den ansatte har deltatt i eller vært ansvarlig for atferd som har resultert i betydelig tap for verdipapirforetaket, og situasjoner hvor den ansatte ikke lenger anses egnet og skikket.(6) Dersom en ansatt forlater verdipapirforetaket før pensjonsalder, skal verdipapirforetaket tilbakeholde skjønnsmessig fastsatte pensjonsytelser i form av instrumenter som er nevnt i tredje ledd, i en periode på fem år. Når en ansatt når pensjonsalder og går ut i pensjon, skal de skjønnsmessig fastsatte pensjonsytelsene utbetales i form av instrumenter som er nevnt i tredje ledd, etter en periode på fem år.(7) Personer som nevnt i første ledd skal ikke ha avtaler eller forsikringer som sikrer mot bortfall av variabel godtgjørelse. Verdipapirforetaket må også påse at variabel godtgjørelse ikke utbetales gjennom finansielle ordninger eller metoder som innebærer en omgåelse av godtgjørelsesreglene eller verdipapirforetaksforordningen.(8) Et verdipapirforetak som mottar statlige støttetiltak etter finansforetaksloven § 20-28, skal ikke utbetale variabel godtgjørelse til medlemmer av verdipapirforetakets ledelse. Variabel godtgjørelse til andre ansatte skal være begrenset til en andel av nettoinntektene dersom variabel godtgjørelse ville være uforenlig med ivaretakelsen av et forsvarlig kapitalgrunnlag og verdipapirforetakets rettidige uttreden fra slike statlige støttetiltak.(9) Tredje, fjerde og sjette ledd gjelder ikke for et verdipapirforetak dersom verdien av balanseførte og ikke-balanseførte eiendeler i gjennomsnitt er under et beløp i norske kroner som minst svarer til 100 millioner euro, beregnet som et gjennomsnitt over de siste fire regnskapsårene forut for inneværende regnskapsår. Tredje, fjerde og sjette ledd gjelder heller ikke for en ansatt med en årlig variabel godtgjørelse på under et beløp i norske kroner som minst svarer til 50 000 euro, og som ikke utgjør mer enn en fjerdedel av den ansattes samlede årlige godtgjørelse.(10) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> (3) Finanstilsynet kan, i den utstrekning det anses hensiktsmessig, be om at kravene i første og annet ledd anvendes av et verdipapirforetak som oppfyller vilkårene i verdipapirforetaksforordningen artikkel 12 nr. 1.
 >
-> § 9-49.Variabel godtgjørelse
+> § 9-43. Anvendelsesområdet for §§ 9-44 til 9-51
 >
-> § 9-50.Godtgjørelsesutvalg(1) Et verdipapirforetak som har balanseførte og ikke-balanseførte eiendeler på et beløp i norske kroner som minst svarer til 100 millioner euro, beregnet som et gjennomsnitt over en fireårsperiode umiddelbart forut for inneværende regnskapsår, skal ha et godtgjørelsesutvalg. Inngår verdipapirforetaket i en gruppe, kan godtgjørelsesutvalget etableres på gruppenivå.(2) Godtgjørelsesutvalget skal ha en balansert kjønnssammensetning og skal bestå av hele eller deler av styret og minst en representant for de ansatte.(3) Godtgjørelsesutvalget skal utøve en kvalifisert og uavhengig bedømmelse av godtgjørelsesordninger og -praksiser og insentivene for styring av risiko, kapital og likviditet. Godtgjørelsesutvalget skal forberede alle saker om godtgjørelsesordningen som skal avgjøres av styret.
+> (1) §§ 9-44 til 9-51, unntatt § 9-47 første ledd nr. 1, 3 og 4, gjelder ikke for verdipapirforetak som oppfyller vilkårene i verdipapirforetaksforordningen artikkel 12 nr. 1.
 >
-> § 9-50.Godtgjørelsesutvalg
+> (2) Oppfyller et verdipapirforetak vilkårene i verdipapirforetaksforordningen artikkel 12 nr. 1 etter først ikke å ha gjort det, gjelder første ledd når verdipapirforetaket har oppfylt vilkårene i seks sammenhengende måneder og verdipapirforetaket har gitt Finanstilsynet melding om dette.
 >
-> § 9-51.Rapportering av særlig høy godtgjørelseVerdipapirforetak skal gi melding til Finanstilsynet om antall ansatte som mottar årlig godtgjørelse på et beløp i norske kroner som minst svarer til 1 million euro, inndelt i lønnsgrupper med intervaller på 1 million euro og med opplysning for hver enkelt ansatt om ansvarsområde, forretningsområde og hovedelementene i lønn, bonus, langsiktige utdelinger og pensjonsbidrag.
+> (3) Finner et verdipapirforetak at det ikke lenger oppfyller vilkårene i verdipapirforetaksforordningen artikkel 12 nr. 1, skal det gi melding om dette til Finanstilsynet og anvende §§ 9-44 til 9-51 innen 12 måneder fra dette tidspunktet. Kravene i § 9-49 skal uansett anvendes for godtgjørelse tildelt i regnskapsåret som etterfølger regnskapsåret hvor verdipapirforetaket fant at det ikke lenger oppfyller de nevnte vilkårene.
 >
-> § 9-51.Rapportering av særlig høy godtgjørelse
+> (4) Ved konsolidert tilsyn etter verdipapirforetaksforordningen artikkel 7 gjelder kravene i §§ 9-44 til 9-51 for verdipapirforetaket på individuelt og konsolidert grunnlag. Dette gjelder likevel ikke for datterforetak etablert i en tredjestat dersom morforetaket i EØS godtgjør at anvendelsen av kravene i §§ 9-44 til 9-51 ikke er tillatt etter denne tredjestatens lovgivning.
 >
-> § 9-52.Tilsynsmessig oppfølgning(1) Finanstilsynet skal se til at verdipapirforetak har hensiktsmessige og klare retningslinjer og rutiner, i samsvar med lov og bestemmelser gitt i medhold av lov, for vurdering, styring og kontroll av risiko og kapitalbehov.(2) Ved fastsettelsen av hyppigheten og intensiteten i den tilsynsmessige oppfølgningen skal Finanstilsynet ta hensyn til størrelsen, arten, omfanget og kompleksiteten til verdipapirforetakets virksomhet og verdipapirforetakets betydning for det finansielle systemet.(3) Finanstilsynet skal minst hvert tredje år ettergå verdipapirforetakenes bruk av interne modeller for kapitalkravsberegning. Dersom de interne modellene ikke er presise eller kravene til bruk av interne modeller ikke er oppfylt, kan Finanstilsynet pålegge tiltak eller trekke tilbake tillatelsen til å bruke interne modeller.(4) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> (5) Ved anvendelse av gruppekapitalkravet i verdipapirforetaksforordningen artikkel 8 gjelder kravene i §§ 9-44 til 9-51 for verdipapirforetaket på individuelt grunnlag.
 >
-> § 9-52.Tilsynsmessig oppfølgning
+> § 9-44. Virksomhetsstyring
 >
-> § 9-53.Retting og påleggVerdipapirforetak som ikke oppfyller kravene etter §§ 9-39 til 9-51 eller forskrifter fastsatt i medhold av disse bestemmelsene, skal straks iverksette nødvendige tiltak for å rette opp dette. Ved manglende etterlevelse av kravene, eller i forbindelse med tilsynsmessig oppfølgning etter § 9-52, kan Finanstilsynet pålegge foretaket:et høyere kapitalkrav enn det som følger av verdipapirforetaksforordningen artikkel 11 i samsvar med § 9-54, eller justeringer i krav til ansvarlig kapital og likvide midler ved vesentlige endringer i verdipapirforetakets virksomhet,å endre ordninger, prosesser, mekanismer og strategier for å etterleve kravene i §§ 9-42 og 9-44,å fremlegge en plan for å gjenopprette etterlevelse, som skal legges frem senest innen tolv måneder. Finanstilsynet kan sette en tidsfrist for gjennomføringen av planen og gi pålegg om forbedringer knyttet til omfang og frist,å anvende en særskilt avsetningspolitikk eller behandle eiendeler på en bestemt måte i forbindelse med kravene til ansvarlig kapital,å endre eller begrense virksomheten,å redusere risikoen ved foretakets virksomhet, produkter og systemer, herunder utkontraktert virksomhet,å begrense variabel godtgjørelse til en prosentandel av foretakets nettoresultat for å sikre kapitalgrunnlaget i foretaket,å benytte nettoresultatet til å styrke ansvarlig kapital,ikke å betale utbytte og rente på kjernekapital,ytterligere og hyppigere rapporteringskrav, herunder om kapital- og likviditetsposisjoner,særskilte likviditetskrav i samsvar med § 9-55,ytterligere offentliggjøringskrav.
+> (1) Et verdipapirforetak skal ha robuste styringsordninger, herunder:en klar organisasjonsstruktur med klart definerte, gjennomsiktige og konsistente ansvarslinjer,effektive fremgangsmåter for å identifisere, styre, overvåke og rapportere risikoene som verdipapirforetaket er eller kan bli utsatt for, eller risikoene som det utgjør eller kan utgjøre for andre,tilstrekkelige interne kontrollordninger, herunder betryggende administrasjons- og regnskapsrutiner,en kjønnsnøytral godtgjørelsesordning og -praksis som er i samsvar med og fremmer betryggende og effektiv risikostyring.
 >
-> § 9-53.Retting og pålegg
+> (2) Ved fastleggelsen av ordningene i første ledd skal det tas hensyn til bestemmelsene i §§ 9-46 til 9-50.
 >
-> § 9-54.Ytterligere kapitalkrav(1) Ytterligere kapitalkrav etter § 9-53 nr. 1 skal pålegges dersom minst ett av følgende vilkår er oppfylt:verdipapirforetaket er utsatt for vesentlige risikoer eller risikoelementer eller utgjør en vesentlig risiko for andre, og disse risikoene er ikke tilstrekkelig dekket av kravene til ansvarlig kapital,verdipapirforetaket oppfyller ikke kravene i §§ 9-42 og 9-44, og det er ikke sannsynlig at andre tilsynstiltak vil være tilstrekkelige til å forbedre ordningene, prosessene, mekanismene og strategiene innenfor en hensiktsmessig tidsramme,justeringer av en forsvarlig verdivurdering av handelsporteføljen er ikke tilstrekkelig til at verdipapirforetaket kan selge eller sikre sine posisjoner innenfor en kort periode uten å lide vesentlige tap under normale markedsforhold,tilsynet med bruk av interne modeller viser at manglende etterlevelse av kravene til bruk av interne modeller sannsynligvis vil føre til et utilstrekkelig kapitalnivå,verdipapirforetaket har gjentatte ganger unnlatt å øke ansvarlig kapital på bakgrunn av anbefalinger fra Finanstilsynet.(2) Av ytterligere kapitalkrav pålagt etter § 9-53 nr. 1 skal minst tre fjerdedeler oppfylles med kjernekapital, og minst tre fjerdedeler av kjernekapitalen skal oppfylles med ren kjernekapital.(3) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> (3) Ordningene i første ledd skal være hensiktsmessige og stå i forhold til arten, omfanget og kompleksiteten i de iboende risikoene ved verdipapirforetakets forretningsmodell og virksomhet.
 >
-> § 9-54.Ytterligere kapitalkrav
+> § 9-45. Land for land-rapportering
 >
-> § 9-55.Særskilte likviditetskrav(1) Særskilte likviditetskrav etter § 9-53 nr. 11 skal pålegges verdipapirforetak som er underlagt likviditetskrav etter verdipapirforetaksforordningen artikkel 43 nr. 1, dersom minst ett av følgende vilkår er oppfylt:verdipapirforetaket er utsatt for likviditetsrisiko eller elementer av likviditetsrisiko som er vesentlig og ikke tilstrekkelig dekket av likviditetskravene i verdipapirforetaksforordningen femte del,verdipapirforetaket oppfyller ikke kravene i §§ 9-42 og 9-44, og det er ikke sannsynlig at andre tilsynstiltak vil være tilstrekkelige til å forbedre ordningene, prosessene, mekanismene og strategiene innenfor en hensiktsmessig tidsramme.(2) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> (1) Et verdipapirforetak som er etablert i et annet land gjennom filial eller gjennom datterselskap som er en finansinstitusjon som definert i forordning (EU) nr. 575/2013 artikkel 4 nr. 1 punkt 26, skal for hvert land årlig offentliggjøre følgende:datterselskapers og filialers navn, virksomhetsområder og geografiske beliggenhet,omsetning,antall årsverk,resultat før skatt,skatt,mottatte offentlige tilskudd/subsidier.
 >
-> § 9-55.Særskilte likviditetskrav
+> (2) Opplysningene skal revideres i henhold til lov 20. november 2020 nr. 128 om revisjon og revisorer. Opplysningene skal, om mulig, publiseres som et vedlegg til verdipapirforetakets årsregnskap, eller eventuelt verdipapirforetakets konsoliderte årsregnskap.
 >
-> § 9-56.Offentliggjøringskrav(1) Finanstilsynet kan pålegge verdipapirforetak som nevnt i verdipapirforetaksforordningen artikkel 46 nr. 1 og 2 å offentliggjøre informasjonen som nevnt i disse bestemmelsene mer enn en gang årlig og kan fastsette frister for slik offentliggjøring. Finanstilsynet kan også gi pålegg om å benytte bestemte medier og steder, herunder verdipapirforetakets nettsider, for andre offentliggjøringer enn årsregnskapet.(2) Finanstilsynet kan pålegge morforetaket i en verdipapirforetaksgruppe å offentliggjøre på årlig basis en beskrivelse av gruppens juridiske, styringsmessige og organisatoriske struktur.
+> § 9-46. Styrets rolle i risikostyringen
 >
-> § 9-56.Offentliggjøringskrav
+> (1) Et verdipapirforetaks styre skal godkjenne og regelmessig vurdere strategier og retningslinjer for verdipapirforetakets risikovilje og for å styre, overvåke og kontrollere risikoer som verdipapirforetaket er eller kan bli utsatt for, i lys av makroøkonomiske forhold og verdipapirforetakets virksomhet.
 >
-> § 9-57.Verdipapirforetak med morforetak i en tredjestatNår to eller flere verdipapirforetak har et morforetak i en tredjestat og Finanstilsynet ville ha vært gruppetilsynsmyndighet dersom morforetaket hadde vært etablert i EØS, kan Finanstilsynet kreve at det opprettes et mellomliggende holdingselskap i en EØS-stat.
+> (2) Styret skal sette av tilstrekkelig tid til å sikre en grundig vurdering av forholdene som omfattes av første ledd, og skal tildele tilstrekkelige ressurser til styringen av alle materielle risikoer som verdipapirforetaket er utsatt for.
 >
-> § 9-57.Verdipapirforetak med morforetak i en tredjestat
+> (3) Verdipapirforetaket skal etablere rapporteringslinjer til styret for enhver vesentlig risiko og for enhver risikostyringsordning som fastsettes eller endres.
+>
+> (4) Et verdipapirforetak som har balanseførte og ikke-balanseførte eiendeler på et beløp i norske kroner som minst svarer til 100 millioner euro, beregnet som et gjennomsnitt over en fireårsperiode umiddelbart forut for inneværende regnskapsår, skal ha et risikoutvalg.
+>
+> (5) Risikoutvalget etter fjerde ledd skal være sammensatt av styremedlemmer som ikke inngår i den faktiske ledelsen av verdipapirforetaket. Medlemmene av risikoutvalget skal ha tilstrekkelig kunnskap, kvalifikasjoner og erfaring til fullt ut å forstå, styre og overvåke verdipapirforetakets risikostrategi og risikovilje. Risikoutvalget skal gi råd til styret om verdipapirforetakets samlede aktuelle og fremtidige risikovilje og risikostrategi og bistå styret i overvåkningen av den øverste ledelsens gjennomføring av strategien. Styret skal beholde det øverste ansvaret for verdipapirforetakets risikostrategier og -ordninger.
+>
+> (6) Styret, og risikoutvalget dersom det er opprettet, skal sikre seg tilgang til informasjon om risiko som verdipapirforetaket er eller kan bli utsatt for.
+>
+> § 9-47. Risikostyring
+>
+> (1) Et verdipapirforetak skal ha robuste strategier, retningslinjer, fremgangsmåter og systemer for å identifisere, måle, styre og overvåke følgende:vesentlige kilder til og virkninger av risiko for kunder og enhver vesentlig innvirkning på ansvarlig kapital,vesentlige kilder til og virkninger av risiko for markeder og enhver vesentlig innvirkning på ansvarlig kapital,vesentlige kilder til og virkninger av risiko for verdipapirforetaket, særlig slike som kan bruke opp verdipapirforetakets tilgjengelige ansvarlige kapital,likviditetsrisiko innenfor relevante tidshorisonter, herunder innenfor samme dag, for å sikre at verdipapirforetaket opprettholder et tilstrekkelig nivå av likvide ressurser, herunder for å håndtere vesentlige risikokilder som nevnt i nr. 1 til 3.
+>
+> (2) Strategiene, retningslinjene, fremgangsmåtene og systemene i første ledd skal stå i forhold til verdipapirforetakets kompleksitet, risikoprofil og virksomhetsomfang og risikotoleransen som er fastsatt av styret, og skal gjenspeile verdipapirforetakets betydning i hver EØS-stat hvor verdipapirforetaket driver virksomhet.
+>
+> (3) Verdipapirforetaket skal vurdere behovet for ansvarsforsikring.
+>
+> (4) Som vesentlige kilder til risiko for verdipapirforetaket regnes blant annet vesentlige endringer i den bokførte verdien av eiendeler, herunder krav mot tilknyttede agenter, betalingsudyktighet hos kunder eller motparter, posisjoner i finansielle instrumenter, utenlandsk valuta, utenlandske varer og forpliktelser etter ytelsesbaserte pensjonsordninger.
+>
+> (5) Et verdipapirforetak som må avvikle eller innstille sin virksomhet, skal, ved å ta hensyn til levedyktigheten og bærekraftigheten til dets forretningsmodell og -strategi, legge tilbørlig vekt på krav og nødvendige ressurser som er realistiske med hensyn til tidsramme og opprettholdelse av ansvarlig kapital og likvide midler, gjennom hele forløpet med uttreden fra markedet.
+>
+> (6) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+>
+> § 9-48. Godtgjørelsesordninger
+>
+> (1) Et verdipapirforetaks godtgjørelsesordning skal, for ansatte med arbeidsoppgaver av vesentlig betydning for verdipapirforetakets risikoprofil eller midlene det forvalter, herunder ledende ansatte, ansatte med kontrollfunksjoner og ansatte med tilsvarende godtgjørelse som ledende ansatte, oppfylle følgende krav:godtgjørelsesordningen skal være klart dokumentert, være hensiktsmessig og stå i forhold til verdipapirforetakets størrelse og interne organisasjon og virksomhetens art, omfang og kompleksitet,godtgjørelsesordningen skal være i samsvar med verdipapirforetakets forretningsstrategi og mål og ta hensyn til langsiktige virkninger av foretatte investeringsbeslutninger,godtgjørelsesordningen skal inneholde tiltak for å unngå interessekonflikter, oppfordre til ansvarlig forretningsførsel og fremme risikobevissthet og forsiktig risikotaking,verdipapirforetakets styre skal vedta og regelmessig gjennomgå godtgjørelsesordningen og skal ha det øverste ansvaret for å overvåke gjennomføringen av den,gjennomføringen av godtgjørelsesordningen skal minst årlig undergis en sentral og uavhengig internkontroll av en kontrollfunksjon,ansatte med kontrollansvar skal være uavhengige av forretningsområdene de kontrollerer og ha nødvendig autoritet og skal godtgjøres i samsvar med måloppnåelse knyttet til deres funksjoner, uavhengig av resultatet i forretningsområdene de kontrollerer,godtgjørelsen av den øverste ledelsen i risikostyrings- og kontrollfunksjonene skal være underlagt direkte tilsyn av godtgjørelsesutvalget, eller av styret dersom et godtgjørelsesutvalg ikke er opprettet,godtgjørelsesordningen skal skille klart mellom kriteriene for å fastsette henholdsvis fast og variabel godtgjørelse,det skal være et passende forholdstall mellom fast og variabel godtgjørelse, og den faste delen av godtgjørelsen skal være tilstrekkelig høy til at verdipapirforetaket kan unnlate å utbetale den variable delen av godtgjørelsen.
+>
+> (2) Departementet kan i forskrift gi utfyllende bestemmelser om hvilke ansatte som skal anses å ha arbeidsoppgaver av vesentlig betydning for verdipapirforetakets risikoprofil eller midlene det forvalter, og kan for øvrig fastsette utfyllende forskrifter til bestemmelsen her.
+>
+> § 9-49. Variabel godtgjørelse
+>
+> (1) Variabel godtgjørelse som tildeles og utbetales av et verdipapirforetak til ansatte med arbeidsoppgaver av vesentlig betydning for verdipapirforetakets risikoprofil eller midlene det forvalter, skal oppfylle kravene i denne bestemmelsen på en måte som er hensiktsmessig for verdipapirforetakets størrelse og interne organisering og virksomhetens art, omfang og kompleksitet.
+>
+> (2) Variabel godtgjørelse som tildeles og utbetales, skal oppfylle følgende krav:resultatavhengig variabel godtgjørelse skal baseres på en kombinasjon av vurdering av vedkommende person, vedkommende forretningsenhet og verdipapirforetaket som helhet,ved vurderingen av den ansattes prestasjoner skal det tas hensyn til både finansielle og ikke-finansielle kriterier,vurderingen av resultatene etter nr. 1 skal være basert på en flerårsperiode, som tar hensyn til verdipapirforetakets forretningssyklus og -risikoer,den variable godtgjørelsen skal ikke svekke verdipapirforetakets evne til å sikre et betryggende kapitalgrunnlag,garantert variabel godtgjørelse kan bare benyttes ved nyansettelser, begrenset til det første året, og bare der verdipapirforetaket har et solid kapitalgrunnlag,sluttvederlag ved opphør av arbeidsforhold skal tilpasses de resultater som er oppnådd over tid, og utformes slik at manglende resultater ikke blir belønnet,godtgjørelsesavtaler som gjelder kompensasjon eller utløsning fra arbeidskontrakt i tidligere arbeidsforhold, skal være tilpasset verdipapirforetakets langsiktige interesser,ved måling av resultater skal det tas hensyn til alle typer aktuelle og fremtidige risikoer og kostnader som gjelder behov for kapital og likviditet etter verdipapirforetaksforordningen,tildelingen av variable godtgjørelseskomponenter i verdipapirforetaket skal ta hensyn til alle typer aktuelle og fremtidige risikoer.
+>
+> (3) Minst halvparten av årlig variabel godtgjørelse skal gis i form av aksjer eller andre egenkapitalinstrumenter utstedt av verdipapirforetaket eller et annet foretak i gruppen det tilhører, eller i form av betinget kapital som avspeiler verdipapirforetakets verdiutvikling.
+>
+> (4) Minst 40 prosent av den variable godtgjørelsen skal utsettes utbetalt over en periode på minst tre år. Dersom den variable godtgjørelsen utgjør et meget stort beløp sett i lys av blant annet verdipapirforetakets virksomhet og lønnsnivået i verdipapirforetaket, skal minst 60 prosent av den variable godtgjørelsen utsettes utbetalt over en periode på minst tre år. Perioden skal ta hensyn til verdipapirforetakets underliggende forretningssyklus, virksomhetens art og risiko og den aktuelle ansattes arbeidsoppgaver.
+>
+> (5) Opptil 100 prosent av variabel godtgjørelse skal reduseres dersom resultatutviklingen i verdipapirforetaket eller etterfølgende resultater tilsier dette. Verdipapirforetaket skal fastsette spesifikke kriterier for fradrag og tilbakebetaling som særlig skal hensynta situasjoner hvor den ansatte har deltatt i eller vært ansvarlig for atferd som har resultert i betydelig tap for verdipapirforetaket, og situasjoner hvor den ansatte ikke lenger anses egnet og skikket.
+>
+> (6) Dersom en ansatt forlater verdipapirforetaket før pensjonsalder, skal verdipapirforetaket tilbakeholde skjønnsmessig fastsatte pensjonsytelser i form av instrumenter som er nevnt i tredje ledd, i en periode på fem år. Når en ansatt når pensjonsalder og går ut i pensjon, skal de skjønnsmessig fastsatte pensjonsytelsene utbetales i form av instrumenter som er nevnt i tredje ledd, etter en periode på fem år.
+>
+> (7) Personer som nevnt i første ledd skal ikke ha avtaler eller forsikringer som sikrer mot bortfall av variabel godtgjørelse. Verdipapirforetaket må også påse at variabel godtgjørelse ikke utbetales gjennom finansielle ordninger eller metoder som innebærer en omgåelse av godtgjørelsesreglene eller verdipapirforetaksforordningen.
+>
+> (8) Et verdipapirforetak som mottar statlige støttetiltak etter finansforetaksloven § 20-28, skal ikke utbetale variabel godtgjørelse til medlemmer av verdipapirforetakets ledelse. Variabel godtgjørelse til andre ansatte skal være begrenset til en andel av nettoinntektene dersom variabel godtgjørelse ville være uforenlig med ivaretakelsen av et forsvarlig kapitalgrunnlag og verdipapirforetakets rettidige uttreden fra slike statlige støttetiltak.
+>
+> (9) Tredje, fjerde og sjette ledd gjelder ikke for et verdipapirforetak dersom verdien av balanseførte og ikke-balanseførte eiendeler i gjennomsnitt er under et beløp i norske kroner som minst svarer til 100 millioner euro, beregnet som et gjennomsnitt over de siste fire regnskapsårene forut for inneværende regnskapsår. Tredje, fjerde og sjette ledd gjelder heller ikke for en ansatt med en årlig variabel godtgjørelse på under et beløp i norske kroner som minst svarer til 50 000 euro, og som ikke utgjør mer enn en fjerdedel av den ansattes samlede årlige godtgjørelse.
+>
+> (10) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+>
+> § 9-50. Godtgjørelsesutvalg
+>
+> (1) Et verdipapirforetak som har balanseførte og ikke-balanseførte eiendeler på et beløp i norske kroner som minst svarer til 100 millioner euro, beregnet som et gjennomsnitt over en fireårsperiode umiddelbart forut for inneværende regnskapsår, skal ha et godtgjørelsesutvalg. Inngår verdipapirforetaket i en gruppe, kan godtgjørelsesutvalget etableres på gruppenivå.
+>
+> (2) Godtgjørelsesutvalget skal ha en balansert kjønnssammensetning og skal bestå av hele eller deler av styret og minst en representant for de ansatte.
+>
+> (3) Godtgjørelsesutvalget skal utøve en kvalifisert og uavhengig bedømmelse av godtgjørelsesordninger og -praksiser og insentivene for styring av risiko, kapital og likviditet. Godtgjørelsesutvalget skal forberede alle saker om godtgjørelsesordningen som skal avgjøres av styret.
+>
+> § 9-51. Rapportering av særlig høy godtgjørelse
+>
+> Verdipapirforetak skal gi melding til Finanstilsynet om antall ansatte som mottar årlig godtgjørelse på et beløp i norske kroner som minst svarer til 1 million euro, inndelt i lønnsgrupper med intervaller på 1 million euro og med opplysning for hver enkelt ansatt om ansvarsområde, forretningsområde og hovedelementene i lønn, bonus, langsiktige utdelinger og pensjonsbidrag.
+>
+> § 9-52. Tilsynsmessig oppfølgning
+>
+> (1) Finanstilsynet skal se til at verdipapirforetak har hensiktsmessige og klare retningslinjer og rutiner, i samsvar med lov og bestemmelser gitt i medhold av lov, for vurdering, styring og kontroll av risiko og kapitalbehov.
+>
+> (2) Ved fastsettelsen av hyppigheten og intensiteten i den tilsynsmessige oppfølgningen skal Finanstilsynet ta hensyn til størrelsen, arten, omfanget og kompleksiteten til verdipapirforetakets virksomhet og verdipapirforetakets betydning for det finansielle systemet.
+>
+> (3) Finanstilsynet skal minst hvert tredje år ettergå verdipapirforetakenes bruk av interne modeller for kapitalkravsberegning. Dersom de interne modellene ikke er presise eller kravene til bruk av interne modeller ikke er oppfylt, kan Finanstilsynet pålegge tiltak eller trekke tilbake tillatelsen til å bruke interne modeller.
+>
+> (4) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+>
+> § 9-53. Retting og pålegg
+>
+> Verdipapirforetak som ikke oppfyller kravene etter §§ 9-39 til 9-51 eller forskrifter fastsatt i medhold av disse bestemmelsene, skal straks iverksette nødvendige tiltak for å rette opp dette. Ved manglende etterlevelse av kravene, eller i forbindelse med tilsynsmessig oppfølgning etter § 9-52, kan Finanstilsynet pålegge foretaket:et høyere kapitalkrav enn det som følger av verdipapirforetaksforordningen artikkel 11 i samsvar med § 9-54, eller justeringer i krav til ansvarlig kapital og likvide midler ved vesentlige endringer i verdipapirforetakets virksomhet,å endre ordninger, prosesser, mekanismer og strategier for å etterleve kravene i §§ 9-42 og 9-44,å fremlegge en plan for å gjenopprette etterlevelse, som skal legges frem senest innen tolv måneder. Finanstilsynet kan sette en tidsfrist for gjennomføringen av planen og gi pålegg om forbedringer knyttet til omfang og frist,å anvende en særskilt avsetningspolitikk eller behandle eiendeler på en bestemt måte i forbindelse med kravene til ansvarlig kapital,å endre eller begrense virksomheten,å redusere risikoen ved foretakets virksomhet, produkter og systemer, herunder utkontraktert virksomhet,å begrense variabel godtgjørelse til en prosentandel av foretakets nettoresultat for å sikre kapitalgrunnlaget i foretaket,å benytte nettoresultatet til å styrke ansvarlig kapital,ikke å betale utbytte og rente på kjernekapital,ytterligere og hyppigere rapporteringskrav, herunder om kapital- og likviditetsposisjoner,særskilte likviditetskrav i samsvar med § 9-55,ytterligere offentliggjøringskrav.
+>
+> § 9-54. Ytterligere kapitalkrav
+>
+> (1) Ytterligere kapitalkrav etter § 9-53 nr. 1 skal pålegges dersom minst ett av følgende vilkår er oppfylt:verdipapirforetaket er utsatt for vesentlige risikoer eller risikoelementer eller utgjør en vesentlig risiko for andre, og disse risikoene er ikke tilstrekkelig dekket av kravene til ansvarlig kapital,verdipapirforetaket oppfyller ikke kravene i §§ 9-42 og 9-44, og det er ikke sannsynlig at andre tilsynstiltak vil være tilstrekkelige til å forbedre ordningene, prosessene, mekanismene og strategiene innenfor en hensiktsmessig tidsramme,justeringer av en forsvarlig verdivurdering av handelsporteføljen er ikke tilstrekkelig til at verdipapirforetaket kan selge eller sikre sine posisjoner innenfor en kort periode uten å lide vesentlige tap under normale markedsforhold,tilsynet med bruk av interne modeller viser at manglende etterlevelse av kravene til bruk av interne modeller sannsynligvis vil føre til et utilstrekkelig kapitalnivå,verdipapirforetaket har gjentatte ganger unnlatt å øke ansvarlig kapital på bakgrunn av anbefalinger fra Finanstilsynet.
+>
+> (2) Av ytterligere kapitalkrav pålagt etter § 9-53 nr. 1 skal minst tre fjerdedeler oppfylles med kjernekapital, og minst tre fjerdedeler av kjernekapitalen skal oppfylles med ren kjernekapital.
+>
+> (3) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+>
+> § 9-55. Særskilte likviditetskrav
+>
+> (1) Særskilte likviditetskrav etter § 9-53 nr. 11 skal pålegges verdipapirforetak som er underlagt likviditetskrav etter verdipapirforetaksforordningen artikkel 43 nr. 1, dersom minst ett av følgende vilkår er oppfylt:verdipapirforetaket er utsatt for likviditetsrisiko eller elementer av likviditetsrisiko som er vesentlig og ikke tilstrekkelig dekket av likviditetskravene i verdipapirforetaksforordningen femte del,verdipapirforetaket oppfyller ikke kravene i §§ 9-42 og 9-44, og det er ikke sannsynlig at andre tilsynstiltak vil være tilstrekkelige til å forbedre ordningene, prosessene, mekanismene og strategiene innenfor en hensiktsmessig tidsramme.
+>
+> (2) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+>
+> § 9-56. Offentliggjøringskrav
+>
+> (1) Finanstilsynet kan pålegge verdipapirforetak som nevnt i verdipapirforetaksforordningen artikkel 46 nr. 1 og 2 å offentliggjøre informasjonen som nevnt i disse bestemmelsene mer enn en gang årlig og kan fastsette frister for slik offentliggjøring. Finanstilsynet kan også gi pålegg om å benytte bestemte medier og steder, herunder verdipapirforetakets nettsider, for andre offentliggjøringer enn årsregnskapet.
+>
+> (2) Finanstilsynet kan pålegge morforetaket i en verdipapirforetaksgruppe å offentliggjøre på årlig basis en beskrivelse av gruppens juridiske, styringsmessige og organisatoriske struktur.
+>
+> § 9-57. Verdipapirforetak med morforetak i en tredjestat
+>
+> Når to eller flere verdipapirforetak har et morforetak i en tredjestat og Finanstilsynet ville ha vært gruppetilsynsmyndighet dersom morforetaket hadde vært etablert i EØS, kan Finanstilsynet kreve at det opprettes et mellomliggende holdingselskap i en EØS-stat.
 >
 
 ### 2026-02-06 — lov/2026-02-06-3
@@ -5259,6 +5672,9 @@ refid: "lov/2007-06-29-75"
 ### 2026-06-19 — lov/2026-06-19-39
 
 *I lov 29. juni 2007 nr. 75 om verdipapirhandel skal § 5-9 sjette ledd lyde:*
+
+> (6) Dersom det er truffet beslutning om det på en generalforsamling, kan aksjeutsteder bruke elektronisk kommunikasjon når meldinger, varsler, informasjon, dokumenter, underretninger og lignende skal gis til en aksjeeier, med mindre aksjeeieren har reservert seg mot dette. Aksjeutsteder skal klart informere om retten til å reservere seg mot elektronisk kommunikasjon og angi en enkel fremgangsmåte for å reservere seg.
+>
 
 ### 2026-06-19 — lov/2026-06-19-40
 

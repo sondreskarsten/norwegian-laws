@@ -7,9 +7,40 @@ refid: "lov/2003-12-12-108"
 
 ## (annet)
 
+### 2006-01-01 — lov/2005-12-21-122
+
+*I lov 12. desember 2003 nr. 108 om kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv. skal § 2 litra d lyde:*
+
+> Barnehager som nevnt i lov 17. juni 2005 nr. 64 om barnehager § 6,
+>
+
 ### 2008-05-09 — lov/2008-05-09-24
 
 *Nåværende annet ledd blir tredje ledd.*
+
+### 2011-06-24 — lov/2011-06-24-24
+
+*I lov 12. desember 2003 nr. 108 om kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv. skal § 15 andre ledd lyde:*
+
+> Kompensasjon tillegges renter fra den dag fristen for behandling av kravet etter § 9 er utløpt og til og med den dag kompensasjonsbeløpet utbetales.
+>
+
+### 2016-06-17 — lov/2016-06-17-41
+
+*Endring i følgjande lov:*
+
+> Endring i følgjande lov:
+>
+> Lov 12. desember 2003 nr. 108 om kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv.
+>
+> I lov 12. desember 2003 nr. 108 om kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv. blir det gjort følgjande endring:
+>
+> Tittelen til lova skal lyde:
+>
+> Lov om kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv. (merverdiavgiftskompensasjonsloven)
+>
+> Lova tek til å gjelde straks.
+>
 
 ## § 10
 

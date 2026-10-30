@@ -5,6 +5,17 @@ refid: "lov/1997-06-13-55"
 
 # Endringshistorikk: Serveringsloven
 
+## (annet)
+
+### 2023-10-01 — forskrift/2023-05-11-690
+
+*Delt ikraftsetting av lov 19. juni 2009 nr. 85 om endringer i lov om vaktvirksomhet. Følgende trer i kraft 1. oktober 2023:*
+
+> Delt ikraftsetting av lov 19. juni 2009 nr. 85 om endringer i lov om vaktvirksomhet. Følgende trer i kraft 1. oktober 2023:
+>
+> Endringsloven del III (serveringsloven) § 16.
+>
+
 ## § 11
 
 ### 2007-12-21 — lov/2007-12-21-133

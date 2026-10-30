@@ -5,6 +5,22 @@ refid: "lov/1931-06-19-18"
 
 # Endringshistorikk: Vinmonopolloven
 
+## (annet)
+
+### 2003-12-19 — lov/2003-12-19-120
+
+*I lov 19. juni 1931 nr. 18 om Aktieselskapet Vinmonopolet skal § 5 første ledd nytt fjerde punktum lyde:*
+
+> Reglene i aksjeloven § 20-6 om representasjon av begge kjønn i styret gjelder tilsvarende.
+>
+
+### 2011-05-06 — lov/2011-05-06-13
+
+*I lov 19. juni 1931 nr. 18 om Aktieselskapet Vinmonopolet skal § 12 lyde:*
+
+> Styret skal etter utløpet av regnskapsåret sende inn til vedkommende departement et utdrag av selskapets regnskaper og en beretning om dets virksomhet.
+>
+
 ## § 13
 
 ### 2006-05-12 — lov/2006-05-12-14

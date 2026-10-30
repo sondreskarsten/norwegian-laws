@@ -7,6 +7,20 @@ refid: "lov/2003-12-19-124"
 
 ## (annet)
 
+### 2015-01-01 — forskrift/2014-12-12-1597
+
+*Loven trer i kraft 1. januar 2015.*
+
+> Loven trer i kraft 1. januar 2015.
+>
+
+### 2018-06-22 — lov/2018-06-22-76
+
+*I lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. skal § 30 annet ledd lyde:*
+
+> Kongen kan i denne forbindelse i forskrifter også innskrenke registreringsadgangen i medhold av varemerkeloven, lov 21. juni 1985 nr. 79 om enerett til foretaksnavn og andre forretningskjennetegn, lov 12. mars 1993 nr. 32 om planteforedlerrett, lov 7. juni 2002 nr. 19 om personnavn og lov 14. mars 2003 nr. 15 om beskyttelse av design, og avgrense rettigheter gitt i eller i medhold av de samme lovene, dersom det ikke har kommet inn innvendinger mot at en betegnelse blir vernet i samsvar med forskrifter gitt i medhold av denne loven.
+>
+
 ### 2024-12-20 — lov/2024-12-20-95
 
 *I lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. skal § 10 nytt tredje ledd lyde:*
@@ -18,9 +32,24 @@ refid: "lov/2003-12-19-124"
 
 *I lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. skal ny § 26 a lyde:*
 
-> § 26 a.OvertredelsesgebyrTilsynsmyndigheten kan ilegge overtredelsesgebyr overfor virksomheter som forsettlig eller uaktsomt overtrer forskrifter gitt i medhold av matloven § 10 tredje ledd, dersom det er fastsatt i forskriften at overtredelse kan medføre slik sanksjon.Dersom den ansvarlige for overtredelsesgebyret er et foretak som inngår i et konsern, hefter foretakets morselskap og morselskapet i det konsernet selskapet er en del av, subsidiært for beløpet. Morselskapers betalingsforpliktelse er tvangsgrunnlag for utlegg.Kongen kan i forskrift fastsette hvilke hensyn det kan eller skal legges vekt på ved vurderingen av om overtredelsesgebyr skal ilegges.Kongen kan i forskrift gi bestemmelser om utmåling. Kongen kan gi forskrifter om betaling av overtredelsesgebyret, herunder betalingsfrister, om renter og om tilleggsgebyr dersom overtredelsesgebyret ikke blir betalt ved forfall.Tilsynsmyndighetens adgang til å ilegge overtredelsesgebyr foreldes etter 2 år. Fristen regnes fra tidspunktet overtredelsen fant sted. Fristen avbrytes ved at tilsynsmyndigheten gir forhåndsvarsel eller fatter vedtak om overtredelsesgebyr. Kongen kan gi nærmere bestemmelser i forskrift om foreldelse, herunder fravike bestemmelsene om foreldelsesfrist og fristavbrudd for særlige typer overtredelser.
+> § 26 a. Overtredelsesgebyr
 >
-> § 26 a.Overtredelsesgebyr
+> Tilsynsmyndigheten kan ilegge overtredelsesgebyr overfor virksomheter som forsettlig eller uaktsomt overtrer forskrifter gitt i medhold av matloven § 10 tredje ledd, dersom det er fastsatt i forskriften at overtredelse kan medføre slik sanksjon.
+>
+> Dersom den ansvarlige for overtredelsesgebyret er et foretak som inngår i et konsern, hefter foretakets morselskap og morselskapet i det konsernet selskapet er en del av, subsidiært for beløpet. Morselskapers betalingsforpliktelse er tvangsgrunnlag for utlegg.
+>
+> Kongen kan i forskrift fastsette hvilke hensyn det kan eller skal legges vekt på ved vurderingen av om overtredelsesgebyr skal ilegges.
+>
+> Kongen kan i forskrift gi bestemmelser om utmåling. Kongen kan gi forskrifter om betaling av overtredelsesgebyret, herunder betalingsfrister, om renter og om tilleggsgebyr dersom overtredelsesgebyret ikke blir betalt ved forfall.
+>
+> Tilsynsmyndighetens adgang til å ilegge overtredelsesgebyr foreldes etter 2 år. Fristen regnes fra tidspunktet overtredelsen fant sted. Fristen avbrytes ved at tilsynsmyndigheten gir forhåndsvarsel eller fatter vedtak om overtredelsesgebyr. Kongen kan gi nærmere bestemmelser i forskrift om foreldelse, herunder fravike bestemmelsene om foreldelsesfrist og fristavbrudd for særlige typer overtredelser.
+>
+
+### 2027-01-01 — forskrift/2025-06-20-1143
+
+*Loven trer i kraft 1. januar 2027.*
+
+> Loven trer i kraft 1. januar 2027.
 >
 
 ## § 19
@@ -85,9 +114,13 @@ refid: "lov/2003-12-19-124"
 
 *Ny § 27 a skal lyde:*
 
-> § 27 a.Mattilsynets oppgaver knyttet til forhold som kan gi sykdom hos menneskerMattilsynet skal ha sin oppmerksomhet rettet mot forhold innenfor lovens virkeområde som kan gi sykdom hos mennesker.Mattilsynets arbeid med oppklaring og håndtering av årsaken til sykdomstilfeller hos mennesker skal skje i samarbeid med helsemyndighetene.Når Mattilsynet bistår helsemyndighetene med å oppklare sykdomstilfeller hos mennesker der det er mistanke om at de er forårsaket av forhold innenfor matlovens virkeområde, kan Mattilsynet etter samtykke fra enhver få tilgang til relevant prøvemateriale og til resultater av analyser eller andre opplysninger som kan bidra i oppklaringen.
+> § 27 a. Mattilsynets oppgaver knyttet til forhold som kan gi sykdom hos mennesker
 >
-> § 27 a.Mattilsynets oppgaver knyttet til forhold som kan gi sykdom hos mennesker
+> Mattilsynet skal ha sin oppmerksomhet rettet mot forhold innenfor lovens virkeområde som kan gi sykdom hos mennesker.
+>
+> Mattilsynets arbeid med oppklaring og håndtering av årsaken til sykdomstilfeller hos mennesker skal skje i samarbeid med helsemyndighetene.
+>
+> Når Mattilsynet bistår helsemyndighetene med å oppklare sykdomstilfeller hos mennesker der det er mistanke om at de er forårsaket av forhold innenfor matlovens virkeområde, kan Mattilsynet etter samtykke fra enhver få tilgang til relevant prøvemateriale og til resultater av analyser eller andre opplysninger som kan bidra i oppklaringen.
 >
 
 ## § 28
@@ -105,9 +138,7 @@ refid: "lov/2003-12-19-124"
 
 *§ 29 overskriften skal lyde:*
 
-> § 29.Etablering av registre
->
-> § 29.Etablering av registre
+> § 29. Etablering av registre
 >
 
 ### 2024-02-02 — lov/2024-02-02-8
@@ -123,9 +154,11 @@ refid: "lov/2003-12-19-124"
 
 *Ny § 29 a skal lyde:*
 
-> § 29 a.Behandling av personopplysningerTilsynsmyndigheten kan behandle personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10, når dette er nødvendig for å utføre oppgaver etter loven her.Kongen kan gi forskrift om behandlingen, blant annet om formålet med behandlingen, behandlingsansvar, hvilke personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, bruk av automatiserte avgjørelser, adgangen til viderebehandling, utlevering, registrering og tilgang til registre.
+> § 29 a. Behandling av personopplysninger
 >
-> § 29 a.Behandling av personopplysninger
+> Tilsynsmyndigheten kan behandle personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10, når dette er nødvendig for å utføre oppgaver etter loven her.
+>
+> Kongen kan gi forskrift om behandlingen, blant annet om formålet med behandlingen, behandlingsansvar, hvilke personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, bruk av automatiserte avgjørelser, adgangen til viderebehandling, utlevering, registrering og tilgang til registre.
 >
 
 ## § 6
@@ -152,9 +185,7 @@ refid: "lov/2003-12-19-124"
 
 *§ 8 overskriften skal lyde:*
 
-> § 8.Opplæring, kompetanse, autorisasjon og vandelskontroll
->
-> § 8.Opplæring, kompetanse, autorisasjon og vandelskontroll
+> § 8. Opplæring, kompetanse, autorisasjon og vandelskontroll
 >
 
 ### 2024-02-02 — lov/2024-02-02-8

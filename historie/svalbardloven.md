@@ -92,6 +92,20 @@ refid: "lov/1925-07-17-11"
 
 *Nåværende §§ 29 og 30 blir nye §§ 45 og 46.*
 
+### 2006-12-15 — lov/2006-12-15-90
+
+*I lov 17. juli 1925 nr. 11 om Svalbard skal § 43 lyde:*
+
+> Kommuneloven §§ 59 om lovlighetskontroll, 60 om statlig kontroll og godkjenning av økonomiske forpliktelser, samt kapittel 10 A Statlig tilsyn med kommunen eller fylkeskommunen får tilsvarende anvendelse for Longyearbyen lokalstyre.
+>
+
+### 2009-06-19 — lov/2009-06-19-88
+
+*I lov 17. juli 1925 nr. 11 om Svalbard skal § 29 første ledd nytt annet punktum lyde:*
+
+> Bestemmelsene i dette kapitlet skal også legge til rette for en tillitskapende forvaltning som bygger på en høy etisk standard.
+>
+
 ### 2017-06-16 — lov/2017-06-16-62
 
 *Nogjeldande § 36 b blir ny § 36 c.*
@@ -99,6 +113,37 @@ refid: "lov/1925-07-17-11"
 ### 2019-05-24 — lov/2019-05-24-17
 
 *§§ 42 til 44 a oppheves.*
+
+### 2019-10-23 — forskrift/2019-10-21-1402
+
+*De bestemmelsene som endrer Svalbardloven § 29 andre ledd, § 30 til § 32, § 34 andre og tredje ledd og § 35 til § 39a, settes i kraft fra og med det konstituerende møtet*
+
+> De bestemmelsene som endrer Svalbardloven § 29 andre ledd, § 30 til § 32, § 34 andre og tredje ledd og § 35 til § 39a, settes i kraft fra og med det konstituerende møtet
+>
+> i lokalstyret ved oppstart av valgperioden 2019–2023. Videre settes endringene i § 41 bokstav a, c, d, e, f, h, i og l i kraft fra samme tidspunkt, og det samme gjelder bestemmelsen som opphever § 42 til § 44a. Bestemmelsen som opphever § 43, settes likevel i kraft fra dette tidspunktet bare for de delene i § 43 som viser til kommuneloven § 59 og kapittel 10A.
+>
+> De bestemmelsene som endrer § 40 og § 41 bokstav b, j og k, settes i kraft 1. januar 2020. Det samme gjelder bestemmelsen som opphever § 43 for den delen som viser til kommuneloven § 60. Fra dette tidspunktet vil altså hele opphevelsesbestemmelsen i § 43 være satt i kraft.
+>
+> Endringen i § 41 g settes i kraft senere.
+>
+> Det konstituerende møtet for lokalstyret skal holdes innen seks uker etter at valgoppgjøret er avsluttet, jf. Svalbardloven § 36a andre ledd. Dato for møtet er fastsatt til 28. oktober 2019.
+>
+
+### 2020-01-01 — forskrift/2019-05-24-674
+
+*Delt ikraftsetting. Loven del I, endringene i Svalbardloven § 40, § 41 bokstav b, j og k og opphevingen av § 43, for så vidt denne viser til kommuneloven § 60, trer i kraft 1. januar 2020. Øvrige deler av loven del I, med unntak av endringen i Svalbardloven § 41 bokstav g, trer i kraft fra og med det konstituerende møtet i lokalstyret ved oppstart av valgperioden 2019–2023. Det samme gjør loven del IV nr. 2.*
+
+> Delt ikraftsetting. Loven del I, endringene i Svalbardloven § 40, § 41 bokstav b, j og k og opphevingen av § 43, for så vidt denne viser til kommuneloven § 60, trer i kraft 1. januar 2020. Øvrige deler av loven del I, med unntak av endringen i Svalbardloven § 41 bokstav g, trer i kraft fra og med det konstituerende møtet i lokalstyret ved oppstart av valgperioden 2019–2023. Det samme gjør loven del IV nr. 2.
+>
+
+### 2023-08-25 — forskrift/2023-08-25-1356
+
+*Delt ikraftsetting av lov 24. mai 2019 nr. 17 om endringer i Svalbardloven m.m. (tilpasning til ny kommunelov). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 24. mai 2019 nr. 17 om endringer i Svalbardloven m.m. (tilpasning til ny kommunelov). Følgende trer i kraft straks:
+>
+> Endringene i Svalbardloven § 41 bokstav g under endringsloven del I.
+>
 
 ## § 10
 

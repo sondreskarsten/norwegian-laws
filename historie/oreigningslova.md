@@ -7,6 +7,23 @@ refid: "lov/1959-10-23-3"
 
 ## (annet)
 
+### 2002-08-30 — lov/2002-08-30-67
+
+*I lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom skal § 15 lyde:*
+
+> Kostnad som føresegnene i dette kapitel fører med seg, skal søkjaren bera.
+>
+> Søkjaren skal dessutan svara motparten dei utgiftene som var naudsynlege til å taka vare på baten hans i saka. Dette gjeld òg utgift i klagesak, med unntak for tilfelle der motparten til søkjaren har klaga utan god grunn. Avgjerd om sakskostnader etter leden her skal takast av skjønsstyremakta eller, dersom det ikkje vert halde skjøn, av Kongen.
+>
+> Tar det lang tid før saka vert avgjort, kan motparten krevja at naudsynlege utgifter som han har hatt over ei viss tid i saka, heilt eller delvis skal verta betalt av søkjaren. Vert partane ikkje samde om slik betaling, kan kvar ein av dei krevja at Kongen – eller styringsorgan med fullmakt etter § 5 – tek avgjerd om dette. Etter at det er kravd skjøn, er det skjønsstyremakta som tek slik avgjerd.
+>
+> Utgifter som søkjaren har betalt etter tredje leden kjem til frådrag når det vert fastsett kva søkjaren skal betala etter paragrafen her.
+>
+> Kvar annen søkjar enn staten lyt gjeva trygd for ansvaret han kan få etter paragrafen her.
+>
+> Kostnad som søkjaren er pålagt å svara etter fyrste og andre leden, kan søkjast inn etter reglane om fullføring av orskurdar.
+>
+
 ### 2005-06-17 — lov/2005-06-17-84
 
 *Endringen av § 16 første ledd skal lyde:*
@@ -31,40 +48,6 @@ refid: "lov/1959-10-23-3"
 > Skjønnet styres av lensmannen, namsfogden eller politistasjonssjef med sivile rettspleieoppgaver.I nr. 29 skal endringen i lov 13. juni 1980 nr. 35 om fri rettshjelp § 12 annet punktum lyde:
 >
 > Som saker utenfor rettergang anses i denne forbindelse også behandling for forliksrådet, offentlig skiftebehandling med unntak av skiftetvist i søksmåls former, skjønn som styres av en lensmann, namsfogd eller politistasjonssjef og voldgiftsaker som ikke går inn under § 16.Nr. 30 om endringer i lov 8. april 1981 nr. 7 om barn og foreldre skal lyde:
->
-> I lov 8. april 1981 nr. 7 om foreldre og barn skal § 38 tredje ledd første punktum lyde:
->
-> Fører dødsfall til at ingen lenger har foreldreansvaret for eit barn, skal lensmannen, namsfuten eller politistasjon med sivile rettspleieoppgåver eller tingretten få opplysning om det i dødsfallsmeldinga.I nr. 31 gjøres det følgende endringer i endringene i lov 17. desember 1982 nr. 86 om rettsgebyr:
->
-
-### 2005-06-17 — lov/2005-06-17-84
-
-*Endringen av § 5 a nr. 2 skal lyde:*
-
-> Avgjørelser som gjelder forretninger som nevnt i kapittel 3 hos en lensmann, namsfogd eller politistasjon kan påklages til tingretten etter reglene i skjønnsloven § 31.
->
-
-### 2005-06-17 — lov/2005-06-17-84
-
-*Endringen av § 5 a nr. 3 første punktum skal lyde:*
-
-> Avgjørelser som gjelder forretninger som nevnt i kapittel 4 og § 25 hos en lensmann, namsfogd eller politistasjon eller hos en særskilt namsmann kan påklages til tingretten etter reglene i tvangsfullbyrdelsesloven § 5-16.
->
-
-### 2005-06-17 — lov/2005-06-17-84
-
-*Endringen av § 11 første ledd første punktum skal lyde:*
-
-> For behandling av skjønn og takster som styres av en dommer ved de alminnelige domstoler eller av en lensmann, namsfogd eller politistasjonssjef, betales 5 ganger rettsgebyret for hver dag eller del av dag som skjønnet varer.
->
-
-### 2005-06-17 — lov/2005-06-17-84
-
-*Endringen av § 11 tredje ledd skal lyde:*
-
-> For klage over avgjørelser under skjønn som styres av en lensmann, namsfogd eller politistasjonssjef, jf. skjønnsloven § 31, betales rettsgebyret.I nr. 32 skal endringen i lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs § 80 fjerde ledd lyde:
->
-> Registrerings- og forseglingsforretningene kan overlates til lensmannen, namsfogden eller politistasjon med sivile rettspleieoppgaver eller en annen skikket person oppnevnt av retten.I nr. 33 skal endringen i plan- og bygningslov 14. juni 1985 nr. 77 § 59 annet ledd lyde:
 >
 
 ### 2024-11-29 — lov/2024-11-29-73
@@ -244,62 +227,6 @@ refid: "lov/1959-10-23-3"
 *§ 30 skal lyde:*
 
 > Så framt føresegnene i lova her ikkje med reine ord er avgrensa til å gjelda inngrep etter § 2, gjeld dei òg, så langt dei høver og ikkje strir mot særføresegner om tilhøvet, i saker om oreigningsinngrep med heimel i eller i medhald av ei eller fleire av desse lovene:Lov 14. desember 1917 nr. 17 om regulering og kraftutbygging i vassdrag (vassdragsreguleringsloven)Lov 17. juli 1925 nr. 11 om SvalbardLov 14. juli 1950 nr. 2 om forskjellige tiltak til gjennomføring av oppmerking og overvåking av riksgrensenLov 15. desember 1950 nr. 7 om særlige rådgjerder under krig, krigsfare og liknende forholdLov 29. juni 1951 nr. 19 om militære rekvisisjonerLov 28. juni 1957 nr. 16 om friluftslivet (friluftsloven)Lov 16. juni 1961 nr. 12 om ymse beitespørsmålLov 21. juni 1963 nr. 23 om vegar (veglova)Lov 9. juni 1972 nr. 31 om svensk reinbeiting i Norge og norsk reinbeiting i Sverige (grensereinbeiteloven)Lov 6. juni 1975 nr. 31 om utnytting av rettar og lunnende m.m. i statsallmenningane (fjellova)Lov 9. juni 1978 nr. 50 om kulturminnerLov 29. mai 1981 nr. 38 om jakt og fangst av vilt (viltloven)Lov 21. desember 1984 nr. 101 om reindrift i kommunene Meldal, Midtre Gauldal, Oppdal, Rennebu, Rindal, Sunndal og SurnadalLov 29. juni 1990 nr. 50 om produksjon, omforming, overføring, omsetning, fordeling og bruk av energi m.m. (energiloven)Lov 11. juni 1993 nr. 101 om luftfart (luftfartsloven)Lov 25. mars 1994 nr. 7 om sikring mot naturskaderLov 12. mai 1995 nr. 23 om jord (jordlova)Lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap (helseberedskapsloven)Lov 24. november 2000 nr. 82 om vassdrag og grunnvann (vannressursloven)Lov 4. juli 2003 nr. 83 om elektronisk kommunikasjon (ekomloven)Lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. (matloven)Lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova)Lov 15. juni 2007 nr. 40 om reindrift (reindriftsloven)Lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling (plan- og bygningsloven)Lov 19. juni 2009 nr. 101 om erverv og utvinning av mineralressurser (mineralloven)Lov 25. juni 2010 nr. 45 om kommunal beredskapsplikt, sivile beskyttelsestiltak og Sivilforsvaret (sivilbeskyttelsesloven)Lov 16. desember 2011 nr. 65 om næringsberedskap (næringsberedskapsloven)Lov 21. juni 2013 nr. 100 om fastsetjing og endring av eigedoms- og rettshøve på fast eigedom m.m. (jordskiftelova)
->
-> Lov 14. desember 1917 nr. 17 om regulering og kraftutbygging i vassdrag (vassdragsreguleringsloven)
->
-> Lov 17. juli 1925 nr. 11 om Svalbard
->
-> Lov 14. juli 1950 nr. 2 om forskjellige tiltak til gjennomføring av oppmerking og overvåking av riksgrensen
->
-> Lov 15. desember 1950 nr. 7 om særlige rådgjerder under krig, krigsfare og liknende forhold
->
-> Lov 29. juni 1951 nr. 19 om militære rekvisisjoner
->
-> Lov 28. juni 1957 nr. 16 om friluftslivet (friluftsloven)
->
-> Lov 16. juni 1961 nr. 12 om ymse beitespørsmål
->
-> Lov 21. juni 1963 nr. 23 om vegar (veglova)
->
-> Lov 9. juni 1972 nr. 31 om svensk reinbeiting i Norge og norsk reinbeiting i Sverige (grensereinbeiteloven)
->
-> Lov 6. juni 1975 nr. 31 om utnytting av rettar og lunnende m.m. i statsallmenningane (fjellova)
->
-> Lov 9. juni 1978 nr. 50 om kulturminner
->
-> Lov 29. mai 1981 nr. 38 om jakt og fangst av vilt (viltloven)
->
-> Lov 21. desember 1984 nr. 101 om reindrift i kommunene Meldal, Midtre Gauldal, Oppdal, Rennebu, Rindal, Sunndal og Surnadal
->
-> Lov 29. juni 1990 nr. 50 om produksjon, omforming, overføring, omsetning, fordeling og bruk av energi m.m. (energiloven)
->
-> Lov 11. juni 1993 nr. 101 om luftfart (luftfartsloven)
->
-> Lov 25. mars 1994 nr. 7 om sikring mot naturskader
->
-> Lov 12. mai 1995 nr. 23 om jord (jordlova)
->
-> Lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap (helseberedskapsloven)
->
-> Lov 24. november 2000 nr. 82 om vassdrag og grunnvann (vannressursloven)
->
-> Lov 4. juli 2003 nr. 83 om elektronisk kommunikasjon (ekomloven)
->
-> Lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. (matloven)
->
-> Lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova)
->
-> Lov 15. juni 2007 nr. 40 om reindrift (reindriftsloven)
->
-> Lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling (plan- og bygningsloven)
->
-> Lov 19. juni 2009 nr. 101 om erverv og utvinning av mineralressurser (mineralloven)
->
-> Lov 25. juni 2010 nr. 45 om kommunal beredskapsplikt, sivile beskyttelsestiltak og Sivilforsvaret (sivilbeskyttelsesloven)
->
-> Lov 16. desember 2011 nr. 65 om næringsberedskap (næringsberedskapsloven)
->
-> Lov 21. juni 2013 nr. 100 om fastsetjing og endring av eigedoms- og rettshøve på fast eigedom m.m. (jordskiftelova)
 >
 
 ## § 4

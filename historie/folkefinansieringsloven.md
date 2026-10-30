@@ -11,11 +11,17 @@ refid: "lov/2026-02-06-2"
 
 *§ 2-8 annet ledd skal lyde:*
 
+> (2) Et vedtak etter første ledd kan gis for et tidsrom av inntil fem år.
+>
+
 ## § 3-2
 
 ### 2026-06-19 — lov/2026-06-19-40
 
 *§ 3-2 annet ledd skal lyde:*
+
+> (2) Foretak kan ilegges overtredelsesgebyr når foretaket eller noen som har handlet på vegne av foretaket, forsettlig eller uaktsomt har begått en overtredelse som nevnt i § 3-1.
+>
 
 ## (annet)
 

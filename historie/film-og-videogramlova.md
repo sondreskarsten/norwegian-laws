@@ -5,6 +5,51 @@ refid: "lov/1987-05-15-21"
 
 # Endringshistorikk: Film- og videogramlova – filml
 
+## (annet)
+
+### 2011-01-01 — forskrift/2010-09-03-1240
+
+*Lova skal gjelde frå 1. januar 2011.*
+
+> Lova skal gjelde frå 1. januar 2011.
+>
+
+### 2012-12-14 — lov/2012-12-14-91
+
+*I lov 15. mai 1987 nr. 21 om film og videogram skal § 1 første ledd lyde:*
+
+> Denne lova gjeld framsyning og omsetning av film og videogram i næring. Lova gjeld ikkje kringkasting slik dette er definert i kringkastingsloven.
+>
+
+### 2012-12-14 — lov/2012-12-14-92
+
+*I lov 15. mai 1987 nr. 21 om film og videogram skal § 4 fjerde og femte ledd lyde:*
+
+> Den som vil ha ein film eller eit videogram vurdert av Medietilsynet, skal betale ei avgift som blir fastsett av departementet.
+>
+> Departementet kan i forskrift gi nærmare reglar om førehandskontroll, registreringsplikt og betaling av avgift.
+>
+
+### 2013-01-01 — forskrift/2012-12-14-1248
+
+*Loven trer i kraft 1. januar 2013.*
+
+> Loven trer i kraft 1. januar 2013.
+>
+
+### 2016-01-01 — lov/2015-12-18-129
+
+*I lov 15. mai 1987 nr. 21 om film og videogram skal § 3 lyde:*
+
+> § 3.Avgift til staten
+>
+> Den som driv framsyning av film og videogram i næring, skal betale ei avgift til staten på 2,5 % av bruttoomsetninga. Dei avgiftspliktige skal føre særskild rekneskap for slik framsyning.
+>
+> Den som vil ha eit videogram registrert for omsetning i næring, skal betale ei avgift til staten per videogram. Stortinget fastset satsane.
+>
+> Departementet fastset i forskrift nærmare retningsliner om avgiftsgrunnlag, utrekning og innkrevjing av avgifter, bruken av midlane og kan gjere unntak frå kravet om avgift.
+>
+
 ## § 13
 
 ### 2009-06-19 — lov/2009-06-19-74

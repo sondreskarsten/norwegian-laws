@@ -5,6 +5,17 @@ refid: "lov/2018-06-15-32"
 
 # Endringshistorikk: Pakkereiseloven
 
+## (annet)
+
+### 2020-05-20 — lov/2020-05-20-42
+
+*I lov 15. juni 2018 nr. 32 om pakkereiser og reisegaranti mv. skal § 51 lyde:*
+
+> § 51.Håndheving
+>
+> Med unntak av kapittel 8 skal Forbrukertilsynet og Markedsrådet føre kontroll med at bestemmelser gitt i eller i medhold av denne loven, overholdes. Kontrollen utøves etter reglene i markedsføringsloven §§ 32 til 41, § 42 første ledd annet punktum og § 43.
+>
+
 ## § 24
 
 ### 2020-04-24 — lov/2020-04-24-32

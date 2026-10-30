@@ -7,9 +7,67 @@ refid: "lov/1998-06-26-41"
 
 ## (annet)
 
+### 2002-06-14 — lov/2002-06-14-22
+
+*I lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre (kontantstøtteloven) skal § 11 tredje ledd lyde:*
+
+> Et beløp som blir krevd tilbake etter første ledd, kan enten dekkes ved trekk i fremtidig kontantstøtte eller innkreves etter bestemmelsene i bidragsinnkrevingsloven. Vedtak om tilbakekreving er tvangsgrunnlag for utlegg.
+>
+
+### 2003-06-20 — lov/2003-06-20-40
+
+*I lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre skal § 9 andre ledd første punktum lyde:*
+
+> Hvis foreldrene ikke bor sammen og skriftlig har avtalt delt bosted i samsvar med barneloven § 36 første ledd, kan foreldrene få utbetalt kontantstøtte med en halvpart på hver dersom de er enige om en slik deling.
+>
+
+### 2005-07-01 — lov/2005-06-17-66
+
+*I lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre skal § 10 nytt tredje ledd lyde:*
+
+> Uavhengig av aldersgrensen i § 2 første ledd, kan kontantstøtte for adopterte barn utbetales i to år, forutsatt at barnet er under opplæringspliktig alder og heller ikke har startet grunnskoleopplæring, jf. opplæringslova § 2-1.
+>
+
+### 2006-04-07 — lov/2006-04-07-7
+
+*I lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre skal § 11 nytt fjerde ledd lyde:*
+
+> Trekk etter tredje ledd avbryter foreldelse. Dersom slikt trekk opphører, varer virkningen av avbrutt foreldelse i ett år etter at trekket opphørte.
+>
+
+### 2006-04-21 — lov/2006-04-21-10
+
+*I lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre (kontantstøtteloven) skal § 10 første og annet ledd lyde:*
+
+> Kontantstøtte for adopterte barn utbetales fra og med kalendermåneden etter at stønadsperioden for fulle foreldrepenger etter folketrygdloven § 14-9 annet ledd er utløpt.
+>
+> Dersom det er gitt engangsstønad etter folketrygdloven § 14-17, utbetales kontantstøtte fra samme tidspunkt som om det var gitt fulle foreldrepenger etter samme lov § 14-9 annet ledd.
+>
+
+### 2017-06-16 — lov/2017-06-16-44
+
+*I lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre skal § 3 andre og nytt tredje punktum lyde:*
+
+> Støttemottakeren må være bosatt i riket, og ha vært medlem i folketrygden i minst fem år. Dersom barnet bor sammen med begge foreldrene, må begge foreldrene ha vært medlem i folketrygden i fem år.
+>
+
+### 2020-06-19 — lov/2020-06-19-73
+
+*I lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre skal § 2 andre ledd nytt tredje punktum lyde:*
+
+> Hvis et utenlandsopphold varer mer enn tre måneder på grunn av utbrudd av covid-19, regnes barnet fortsatt som bosatt i riket dersomdet dokumenteres at oppholdet var planlagt å skulle vare under tre måneder, ogbarnet har reist fra Norge før 15. mars 2020.
+>
+
 ### 2022-11-25 — lov/2022-11-25-86
 
 *Kapittel 1 overskriften skal lyde:*
+
+### 2025-01-01 — forskrift/2024-12-20-3327
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
+>
 
 ## § 1 a
 

@@ -5,6 +5,12 @@ refid: "lov/2004-03-26-17"
 
 # Endringshistorikk: Lov om finansiell sikkerhetsstillelse
 
+## (annet)
+
+### 2016-12-16 — lov/2016-12-16-91
+
+*I lov 26. mars 2004 nr. 17 om finansiell sikkerhetsstillelse skal § 1 tredje ledd bokstav d) lyde:avregningssentraler, sentrale motparter og lignende lovregulerte institusjoner som handler med finansielle instrumenter som nevnt i verdipapirhandelloven § 2-2 første ledd nr. 4, eller juridiske personer som handler i egenskap av formuesforvalter eller etter fullmakt fra en eller flere personer, for eksempel tillitsmenn for obligasjonseiere i obligasjonsmarkedet eller spesialforetak opprettet i forbindelse med verdipapirisering.*
+
 ## § 2
 
 ### 2011-11-18 — lov/2011-11-18-42

@@ -7,6 +7,20 @@ refid: "lov/2018-04-20-7"
 
 ## (annet)
 
+### 2024-01-26 — forskrift/2024-01-26-121
+
+*Ikraftsetting av lov 20. juni 2023 nr. 79 om endringer i våpenlova (unntak fra taushetsplikten). Loven trer i kraft straks.*
+
+> Ikraftsetting av lov 20. juni 2023 nr. 79 om endringer i våpenlova (unntak fra taushetsplikten). Loven trer i kraft straks.
+>
+
+### 2025-01-01 — forskrift/2024-12-13-3096
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
 ### 2025-06-20 — lov/2025-06-20-102
 
 *9.I lov 20. april 2018 nr. 7 om våpen, skytevåpen, våpendelar og ammunisjon skal § 11 andre ledd tredje punktum lyde:*
@@ -95,9 +109,9 @@ refid: "lov/2018-04-20-7"
 
 *§ 37 skal lyde:*
 
-> § 37.Gebyr og utgifterFor å dekke utgiftene til våpenforvaltinga kan politiet krevje gebyr ved søknad om løyve eller godkjenningar gjevne i eller i medhald av denne lova. Gebyret kan også omfatte naudsynte utgifter til sakkunnig bistand når sakshandsaminga krev særskild fagdugleik.
+> § 37. Gebyr og utgifter
 >
-> § 37.Gebyr og utgifter
+> For å dekke utgiftene til våpenforvaltinga kan politiet krevje gebyr ved søknad om løyve eller godkjenningar gjevne i eller i medhald av denne lova. Gebyret kan også omfatte naudsynte utgifter til sakkunnig bistand når sakshandsaminga krev særskild fagdugleik.
 >
 
 ## § 38
@@ -122,9 +136,11 @@ refid: "lov/2018-04-20-7"
 
 *§ 38 skal lyde:*
 
-> § 38.Forholdet til forvaltningsloven og bruk av automatiserte avgjerderForvaltningsloven gjeld for saker etter denne lova med dei særreglane som er fastsette i paragrafen her eller i forskrift i medhald av § 41 nr. 32. Politiet kan krevje at personar stiller til intervju for å vurdere om vilkåra etter § 16 er oppfylte. Retten til klage, grunngjeving og partsinnsyn etter forvaltningsloven gjeld ikkje for saker om løyve til mellombels innførsel til jaktføremål.Politiet kan ta avgjerder i saker etter denne lova som åleine er gjorde på grunnlag av automatisert handsaming av personopplysingar, medrekna særlege kategoriar av personopplysingar som nemnt i personvernforordninga artikkel 9 og 10. Handsaminga må trygge forsvarleg sakshandsaming og samsvare med retten til vern av personopplysingar. Avgjerda kan ikkje byggje på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjerda er tvillaus. Den registrerte har rett til manuell overprøving av avgjerda.
+> § 38. Forholdet til forvaltningsloven og bruk av automatiserte avgjerder
 >
-> § 38.Forholdet til forvaltningsloven og bruk av automatiserte avgjerder
+> Forvaltningsloven gjeld for saker etter denne lova med dei særreglane som er fastsette i paragrafen her eller i forskrift i medhald av § 41 nr. 32. Politiet kan krevje at personar stiller til intervju for å vurdere om vilkåra etter § 16 er oppfylte. Retten til klage, grunngjeving og partsinnsyn etter forvaltningsloven gjeld ikkje for saker om løyve til mellombels innførsel til jaktføremål.
+>
+> Politiet kan ta avgjerder i saker etter denne lova som åleine er gjorde på grunnlag av automatisert handsaming av personopplysingar, medrekna særlege kategoriar av personopplysingar som nemnt i personvernforordninga artikkel 9 og 10. Handsaminga må trygge forsvarleg sakshandsaming og samsvare med retten til vern av personopplysingar. Avgjerda kan ikkje byggje på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjerda er tvillaus. Den registrerte har rett til manuell overprøving av avgjerda.
 >
 
 ## § 41

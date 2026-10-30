@@ -172,6 +172,13 @@ refid: "lov/1967-12-15-9"
 > Dersom vilkårene i første ledd er oppfylt, skal Patentstyret ta søknaden under behandling når søkeren innen en frist fastsatt av Kongen betaler fastsatt avgift og sender inn en oversettelse av søknaden til norsk. Oppfyller søknaden de formelle krav i den europeiske patentkonvensjonen, skal de tilsvarende krav i loven her anses oppfylt.
 >
 
+### 2009-12-18 — forskrift/2009-12-18-1604
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2013-05-31 — lov/2013-05-31-25
 
 *I kapittel 9 skal ny § 56 a lyde:*
@@ -186,6 +193,27 @@ refid: "lov/1967-12-15-9"
 ### 2014-08-15 — lov/2014-08-15-58
 
 *Nåværende annet ledd blir tredje ledd.*
+
+### 2015-01-01 — forskrift/2014-11-14-1408
+
+*Lov 15. august 2014 nr. 58 om endringer i patentloven (gjennomføring av London-overenskomsten 17. oktober 2000 om anvendelsen av artikkel 65 i konvensjonen om meddelelse av europeiske patenter og nasjonale patenter på engelsk) trer i kraft 1. januar 2015.*
+
+> Lov 15. august 2014 nr. 58 om endringer i patentloven (gjennomføring av London-overenskomsten 17. oktober 2000 om anvendelsen av artikkel 65 i konvensjonen om meddelelse av europeiske patenter og nasjonale patenter på engelsk) trer i kraft 1. januar 2015.
+>
+
+### 2022-12-16 — lov/2022-12-16-94
+
+*I lov 15. desember 1967 nr. 9 om patenter skal § 50 a første ledd nytt sjette punktum lyde:*
+
+> Konkurranseklagenemnda behandler klager over Konkurransetilsynets vedtak etter denne paragrafen.
+>
+
+### 2023-02-01 — forskrift/2022-12-20-2302
+
+*Loven trer i kraft 1. februar 2023.*
+
+> Loven trer i kraft 1. februar 2023.
+>
 
 ### 2023-12-20 — lov/2023-12-20-110
 

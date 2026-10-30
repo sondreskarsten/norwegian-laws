@@ -159,9 +159,13 @@ refid: "lov/1992-12-04-127"
 
 *§ 2-11 skal lyde:*
 
-> § 2-11.OpplysningspliktEnhver plikter å gi de opplysningene som et tilsyn krever for å kunne utføre sine gjøremål etter loven, eller for å kunne oppfylle Norges avtaleforpliktelser overfor en fremmed stat eller internasjonal organisasjon. Opplysningene kan kreves gitt skriftlig eller muntlig innen en fastsatt frist.Opplysningsplikten etter første ledd gjelder uavhengig av taushetsplikt. Dette gjelder likevel ikke taushetsplikt som nevnt i politiregisterloven § 23 første ledd nummer 1 og andre ledd og straffeprosessloven §§ 117 til 120 og § 125, med unntak av § 118 første ledd første punktum.Departementet kan gi forskrift om opplysningsplikten, for eksempel om hvem som er omfattet av plikten, og hvilke opplysninger som kan kreves.
+> § 2-11. Opplysningsplikt
 >
-> § 2-11.Opplysningsplikt
+> Enhver plikter å gi de opplysningene som et tilsyn krever for å kunne utføre sine gjøremål etter loven, eller for å kunne oppfylle Norges avtaleforpliktelser overfor en fremmed stat eller internasjonal organisasjon. Opplysningene kan kreves gitt skriftlig eller muntlig innen en fastsatt frist.
+>
+> Opplysningsplikten etter første ledd gjelder uavhengig av taushetsplikt. Dette gjelder likevel ikke taushetsplikt som nevnt i politiregisterloven § 23 første ledd nummer 1 og andre ledd og straffeprosessloven §§ 117 til 120 og § 125, med unntak av § 118 første ledd første punktum.
+>
+> Departementet kan gi forskrift om opplysningsplikten, for eksempel om hvem som er omfattet av plikten, og hvilke opplysninger som kan kreves.
 >
 
 ## § 2-11 a
@@ -170,9 +174,13 @@ refid: "lov/1992-12-04-127"
 
 *Ny § 2-11 a skal lyde:*
 
-> § 2-11 a.Informasjonsutveksling mellom tilsynsorganerEt tilsynsorgan som fører tilsyn med bestemmelser som gjennomfører direktiv 2010/13/EU, skal gi tilsynsorganer i andre EØS-stater og EFTAs overvåkingsorgan opplysninger som er nødvendige for anvendelsen av direktiv 2010/13/EU.Dersom Medietilsynet mottar opplysninger fra en tilbyder av fjernsyn eller audiovisuell bestillingstjeneste som hører under norsk jurisdiksjon om at tilbyderen vil levere en tjeneste som helt eller hovedsakelig er rettet mot publikum i en annen EØS-stat, skal Medietilsynet underrette tilsynsorganet i den andre EØS-staten om dette.Dersom et tilsynsorgan i en annen EØS-stat sender en anmodning til et tilsynsorgan om aktivitetene til en tjenestetilbyder under norsk jurisdiksjon som retter tjenester mot vedkommende stat, skal tilsynsorganet som utgangspunkt ta stilling til anmodningen innen to måneder.
+> § 2-11 a. Informasjonsutveksling mellom tilsynsorganer
 >
-> § 2-11 a.Informasjonsutveksling mellom tilsynsorganer
+> Et tilsynsorgan som fører tilsyn med bestemmelser som gjennomfører direktiv 2010/13/EU, skal gi tilsynsorganer i andre EØS-stater og EFTAs overvåkingsorgan opplysninger som er nødvendige for anvendelsen av direktiv 2010/13/EU.
+>
+> Dersom Medietilsynet mottar opplysninger fra en tilbyder av fjernsyn eller audiovisuell bestillingstjeneste som hører under norsk jurisdiksjon om at tilbyderen vil levere en tjeneste som helt eller hovedsakelig er rettet mot publikum i en annen EØS-stat, skal Medietilsynet underrette tilsynsorganet i den andre EØS-staten om dette.
+>
+> Dersom et tilsynsorgan i en annen EØS-stat sender en anmodning til et tilsynsorgan om aktivitetene til en tjenestetilbyder under norsk jurisdiksjon som retter tjenester mot vedkommende stat, skal tilsynsorganet som utgangspunkt ta stilling til anmodningen innen to måneder.
 >
 
 ## § 2-12
@@ -258,9 +266,15 @@ refid: "lov/1992-12-04-127"
 
 *§ 2-15 skal lyde:*
 
-> § 2-15.Begrensninger i omgjørings- og instruksjonsmyndighetMedietilsynet og Medieklagenemnda kan ikke instrueres i enkeltsaker etter loven her. Medietilsynet kan heller ikke pålegges å ta opp til behandling en sak som gjelder bestemmelser fastsatt ved lov eller forskrift som gjennomfører direktiv 2010/13/EU.Kongen og departementet kan ikke treffe vedtak i saker som hører under Medietilsynets eller Medieklagenemndas myndighet etter loven her.Medietilsynets og Medieklagenemndas vedtak etter loven her kan ikke omgjøres. Medietilsynets vedtak i saker som nevnt i § 2-14 fjerde ledd kan likevel omgjøres.I saker av prinsipiell eller stor samfunnsmessig betydning kan Kongen i statsråd omgjøre Medietilsynets eller Medieklagenemndas vedtak etter reglene i forvaltningsloven § 35 annet, tredje og femte ledd. Dette gjelder likevel ikke vedtak fattet med hjemmel i en lovbestemmelse eller forskrift som gjennomfører direktiv 2010/13/EU.
+> § 2-15. Begrensninger i omgjørings- og instruksjonsmyndighet
 >
-> § 2-15.Begrensninger i omgjørings- og instruksjonsmyndighet
+> Medietilsynet og Medieklagenemnda kan ikke instrueres i enkeltsaker etter loven her. Medietilsynet kan heller ikke pålegges å ta opp til behandling en sak som gjelder bestemmelser fastsatt ved lov eller forskrift som gjennomfører direktiv 2010/13/EU.
+>
+> Kongen og departementet kan ikke treffe vedtak i saker som hører under Medietilsynets eller Medieklagenemndas myndighet etter loven her.
+>
+> Medietilsynets og Medieklagenemndas vedtak etter loven her kan ikke omgjøres. Medietilsynets vedtak i saker som nevnt i § 2-14 fjerde ledd kan likevel omgjøres.
+>
+> I saker av prinsipiell eller stor samfunnsmessig betydning kan Kongen i statsråd omgjøre Medietilsynets eller Medieklagenemndas vedtak etter reglene i forvaltningsloven § 35 annet, tredje og femte ledd. Dette gjelder likevel ikke vedtak fattet med hjemmel i en lovbestemmelse eller forskrift som gjennomfører direktiv 2010/13/EU.
 >
 
 ## § 2-16
@@ -281,10 +295,6 @@ refid: "lov/1992-12-04-127"
 *§ 2-16 første ledd skal lyde:*
 
 > Tilbydere av fjernsyn og audiovisuelle bestillingstjenester skal til enhver tid sørge for at seerne på en enkel og direkte måte har tilgang til opplysninger om:navn, gateadresse, postadresse, elektronisk postadresse og øvrige opplysninger som gjør det mulig å komme i direkte forbindelse med tjenesteyterenat tjenestetilbyderen er underlagt norsk jurisdiksjon og relevante reguleringsmyndigheter eller tilsynsorganer på det audiovisuelle området.
->
-> navn, gateadresse, postadresse, elektronisk postadresse og øvrige opplysninger som gjør det mulig å komme i direkte forbindelse med tjenesteyteren
->
-> at tjenestetilbyderen er underlagt norsk jurisdiksjon og relevante reguleringsmyndigheter eller tilsynsorganer på det audiovisuelle området.
 >
 
 ## § 2-17
@@ -351,9 +361,13 @@ refid: "lov/1992-12-04-127"
 
 *§ 2-19 skal lyde:*
 
-> § 2-19.Universell utforming av bildeprogrammerTilbydere av fjernsyn og audiovisuelle bestillingstjenester skal ved forholdsmessige tiltak utforme bildeprogrammer i sine tjenester universelt gjennom teksting, tegnspråktolking, synstolking, lydtekst eller andre teknikker.Tilbydere av fjernsyn og audiovisuelle bestillingstjenester skal utarbeide en handlingsplan for økt universell utforming av bildeprogrammer i tjenestene.Kongen kan gi forskrift om universell utforming av bildeprogrammer i fjernsyn og audiovisuelle bestillingstjenester, blant annet om hvordan og i hvilket omfang tjenestetilbyderne skal utforme bildeprogrammene universelt ved forholdsmessige tiltak.
+> § 2-19. Universell utforming av bildeprogrammer
 >
-> § 2-19.Universell utforming av bildeprogrammer
+> Tilbydere av fjernsyn og audiovisuelle bestillingstjenester skal ved forholdsmessige tiltak utforme bildeprogrammer i sine tjenester universelt gjennom teksting, tegnspråktolking, synstolking, lydtekst eller andre teknikker.
+>
+> Tilbydere av fjernsyn og audiovisuelle bestillingstjenester skal utarbeide en handlingsplan for økt universell utforming av bildeprogrammer i tjenestene.
+>
+> Kongen kan gi forskrift om universell utforming av bildeprogrammer i fjernsyn og audiovisuelle bestillingstjenester, blant annet om hvordan og i hvilket omfang tjenestetilbyderne skal utforme bildeprogrammene universelt ved forholdsmessige tiltak.
 >
 
 ## § 2-20
@@ -362,9 +376,11 @@ refid: "lov/1992-12-04-127"
 
 *Ny § 2-20 skal lyde:*
 
-> § 2-20.Universell utforming av viktig informasjon til allmennhetenDen som pålegger tilbydere av fjernsyn å sende meldinger som nevnt i § 2-4, skal umiddelbart utforme meldingene universelt gjennom teksting, tegnspråktolking, synstolking, lydtekst eller andre teknikker. I tilfeller hvor det ikke er mulig å utforme meldingene universelt samtidig som de formidles til allmennheten, skal dette gjøres så snart som mulig.Første ledd gjelder tilsvarende for den som pålegger tilbydere av fjernsyn eller audiovisuelle bestillingstjenester å sende meldinger i medhold av smittevernloven § 4-8.
+> § 2-20. Universell utforming av viktig informasjon til allmennheten
 >
-> § 2-20.Universell utforming av viktig informasjon til allmennheten
+> Den som pålegger tilbydere av fjernsyn å sende meldinger som nevnt i § 2-4, skal umiddelbart utforme meldingene universelt gjennom teksting, tegnspråktolking, synstolking, lydtekst eller andre teknikker. I tilfeller hvor det ikke er mulig å utforme meldingene universelt samtidig som de formidles til allmennheten, skal dette gjøres så snart som mulig.
+>
+> Første ledd gjelder tilsvarende for den som pålegger tilbydere av fjernsyn eller audiovisuelle bestillingstjenester å sende meldinger i medhold av smittevernloven § 4-8.
 >
 
 ## § 2-21
@@ -373,9 +389,11 @@ refid: "lov/1992-12-04-127"
 
 *Ny § 2-21 skal lyde:*
 
-> § 2-21.Kritisk medieforståelseMedietilsynet skal fremme og treffe tiltak for å utvikle den kritiske medieforståelsen i befolkningen.Medietilsynet skal senest innen en bestemt frist og deretter hvert tredje år rapportere til EFTAs overvåkingsorgan om tiltak som er iverksatt for å fremme kritisk medieforståelse. Departementet gir forskrift om fristen etter første punktum.
+> § 2-21. Kritisk medieforståelse
 >
-> § 2-21.Kritisk medieforståelse
+> Medietilsynet skal fremme og treffe tiltak for å utvikle den kritiske medieforståelsen i befolkningen.
+>
+> Medietilsynet skal senest innen en bestemt frist og deretter hvert tredje år rapportere til EFTAs overvåkingsorgan om tiltak som er iverksatt for å fremme kritisk medieforståelse. Departementet gir forskrift om fristen etter første punktum.
 >
 
 ## § 2-22
@@ -384,9 +402,17 @@ refid: "lov/1992-12-04-127"
 
 *Ny § 2-22 skal lyde:*
 
-> § 2-22.Plikt til å investere i norskspråklige audiovisuelle verk (investeringsplikt)Tilbydere av audiovisuelle bestillingstjenester plikter å investere direkte i norske audiovisuelle verk et beløp som tilsvarer minst 4 pst. av årlig omsetning. Plikten gjelder også for tilbydere av audiovisuelle bestillingstjenester etablert i andre EØS-land som tilbyr audiovisuelle bestillingstjenester rettet mot et norsk publikum. Med omsetning menes tjenestetilbyderens brutto omsetning i Norge fra den audiovisuelle bestillingstjenesten eksklusiv merverdiavgift, blant annet omsetning fra abonnement, reklame, sponsing og produktplassering.Første ledd gjelder ikke forNorsk rikskringkasting AStjenestetilbydere som har en årsomsetning på under to millioner euro eller dersom tjenesten har en seerandel på under en prosent av det norske markedet,tjenestetilbydere som ikke tilbyr spillefilm, dokumentarfilm, dramaserier og dokumentarserier.Medietilsynet kan etter søknad fra tjenestetilbyder gi dispensasjon fra investeringsplikten når tjenestens art eller innhold tilsier at en slik forpliktelse vil være uforholdsmessig. Ved vurderingen skal det særlig tas hensyn til om forpliktelsen ikke vil være praktisk gjennomførbar eller rimelig.Dersom en tilbyder av audiovisuelle bestillingstjenester investerer mer i et regnskapsår enn forpliktelsen som følger av første ledd, vil den overskytende investeringen kunne regnes inn i ett eller begge av de to påfølgende regnskapsårene.Departementet kan gi forskrift om unntak fra investeringsplikten, om beregning av investeringsforpliktelsen og om rapporteringsplikt til Medietilsynet.
+> § 2-22. Plikt til å investere i norskspråklige audiovisuelle verk (investeringsplikt)
 >
-> § 2-22.Plikt til å investere i norskspråklige audiovisuelle verk (investeringsplikt)
+> Tilbydere av audiovisuelle bestillingstjenester plikter å investere direkte i norske audiovisuelle verk et beløp som tilsvarer minst 4 pst. av årlig omsetning. Plikten gjelder også for tilbydere av audiovisuelle bestillingstjenester etablert i andre EØS-land som tilbyr audiovisuelle bestillingstjenester rettet mot et norsk publikum. Med omsetning menes tjenestetilbyderens brutto omsetning i Norge fra den audiovisuelle bestillingstjenesten eksklusiv merverdiavgift, blant annet omsetning fra abonnement, reklame, sponsing og produktplassering.
+>
+> Første ledd gjelder ikke forNorsk rikskringkasting AStjenestetilbydere som har en årsomsetning på under to millioner euro eller dersom tjenesten har en seerandel på under en prosent av det norske markedet,tjenestetilbydere som ikke tilbyr spillefilm, dokumentarfilm, dramaserier og dokumentarserier.
+>
+> Medietilsynet kan etter søknad fra tjenestetilbyder gi dispensasjon fra investeringsplikten når tjenestens art eller innhold tilsier at en slik forpliktelse vil være uforholdsmessig. Ved vurderingen skal det særlig tas hensyn til om forpliktelsen ikke vil være praktisk gjennomførbar eller rimelig.
+>
+> Dersom en tilbyder av audiovisuelle bestillingstjenester investerer mer i et regnskapsår enn forpliktelsen som følger av første ledd, vil den overskytende investeringen kunne regnes inn i ett eller begge av de to påfølgende regnskapsårene.
+>
+> Departementet kan gi forskrift om unntak fra investeringsplikten, om beregning av investeringsforpliktelsen og om rapporteringsplikt til Medietilsynet.
 >
 
 ## § 2-23
@@ -395,9 +421,15 @@ refid: "lov/1992-12-04-127"
 
 *Ny § 2-23 skal lyde:*
 
-> § 2-23.Krav til direkte investeringer og norske audiovisuelle verkDirekte investeringer er investeringer i produksjon, kjøp av visningsrettigheter og tilsvarende i norske audiovisuelle verk. Kjøp av visningsrettigheter omfattes bare dersom verket ikke er eldre enn tre år.Norske audiovisuelle verk skal oppfylle minst tre av følgende vilkår:Manuskriptet eller et annet litterært grunnlag for verket er originalskrevet på norsk, samiske språk, eller de nasjonale minoritetsspråkene kvensk, romani og romanes.Hovedtemaet er knyttet til norsk historie, kultur eller samfunnsforhold.Handlingen utspiller seg i Norge eller i en annen EØS-stat.Verket har et vesentlig bidrag fra opphavere eller utøvende kunstnere bosatt i Norge eller i en annen EØS-stat.Et norsk audiovisuelt verk skal også være produsert av en produsent som oppfyller følgende vilkår:Produsenten er et audiovisuelt produksjonsforetak som er etablert i Norge eller i en annen EØS-stat, har audiovisuell produksjon som sitt hovedformål, ikke har offentlige organer som hovedeier, og ikke har vesentlige forretningsmessige bindinger til den primære visningsplattformen for prosjektet.Foretaket skal være organisert som aksjeselskap og være registrert i det norske enhets- eller foretaksregisteret.Nøkkelmedarbeidere i prosjektet skal ha betydelig profesjonell erfaring innenfor sitt fagfelt.I vurderingen av hva som utgjør direkte investeringer og norske audiovisuelle verk, kan Medietilsynet innhente en rådgivende uttalelse fra Norsk filminstitutt.
+> § 2-23. Krav til direkte investeringer og norske audiovisuelle verk
 >
-> § 2-23.Krav til direkte investeringer og norske audiovisuelle verk
+> Direkte investeringer er investeringer i produksjon, kjøp av visningsrettigheter og tilsvarende i norske audiovisuelle verk. Kjøp av visningsrettigheter omfattes bare dersom verket ikke er eldre enn tre år.
+>
+> Norske audiovisuelle verk skal oppfylle minst tre av følgende vilkår:Manuskriptet eller et annet litterært grunnlag for verket er originalskrevet på norsk, samiske språk, eller de nasjonale minoritetsspråkene kvensk, romani og romanes.Hovedtemaet er knyttet til norsk historie, kultur eller samfunnsforhold.Handlingen utspiller seg i Norge eller i en annen EØS-stat.Verket har et vesentlig bidrag fra opphavere eller utøvende kunstnere bosatt i Norge eller i en annen EØS-stat.
+>
+> Et norsk audiovisuelt verk skal også være produsert av en produsent som oppfyller følgende vilkår:Produsenten er et audiovisuelt produksjonsforetak som er etablert i Norge eller i en annen EØS-stat, har audiovisuell produksjon som sitt hovedformål, ikke har offentlige organer som hovedeier, og ikke har vesentlige forretningsmessige bindinger til den primære visningsplattformen for prosjektet.Foretaket skal være organisert som aksjeselskap og være registrert i det norske enhets- eller foretaksregisteret.Nøkkelmedarbeidere i prosjektet skal ha betydelig profesjonell erfaring innenfor sitt fagfelt.
+>
+> I vurderingen av hva som utgjør direkte investeringer og norske audiovisuelle verk, kan Medietilsynet innhente en rådgivende uttalelse fra Norsk filminstitutt.
 >
 
 ## § 3-1
@@ -530,9 +562,19 @@ refid: "lov/1992-12-04-127"
 
 *§ 3-4 skal lyde:*
 
-> § 3-4.Sponsing i kringkasting og audiovisuelle bestillingstjenester mv.Dersom radio, fjernsyn, audiovisuelle bestillingstjenester eller et program er sponset, skal det opplyses om dette på en tydelig måte. Opplysninger om sponsorer av et program skal gis ved inn- eller utannonseringen av programmet. I tillegg kan opplysninger om sponsorer av et program gis i løpet av programmet, herunder i sponsede enkeltinnslag. Opplysninger om sponsorer av et program kan gis i form av sponsorenes navn, varemerke, logo, produkt eller tjeneste.Innhold og presentasjonsform i radio, fjernsyn, audiovisuelle bestillingstjenester eller program som er sponset, skal være slik at tjenestetilbyderens redaksjonelle integritet opprettholdes fullt ut.Radio, fjernsyn, audiovisuelle bestillingstjenester eller program som er sponset, skal ikke oppmuntre til kjøp eller leie av en sponsors eller tredjeparts produkter eller tjenester, for eksempel ved å inneholde spesielle salgsfremmende henvisninger til slike produkter eller tjenester.Det er ikke adgang til å sponse nyhets- og aktualitetsprogrammer.Radio, fjernsyn, audiovisuelle bestillingstjenester eller programmer kan ikke sponses av fysiske eller juridiske personer hvis hovedaktivitet er å produsere, selge eller leie ut produkter eller tjenester det er forbudt å reklamere for etter norsk lov eller regler gitt i medhold av norsk lov. Politiske partiorganisasjoner kan ikke sponse programmer.Kongen kan gi forskrift om sponsing av radio, fjernsyn, audiovisuelle bestillingstjenester og programmer, også om sponsing i Norsk rikskringkasting AS.
+> § 3-4. Sponsing i kringkasting og audiovisuelle bestillingstjenester mv.
 >
-> § 3-4.Sponsing i kringkasting og audiovisuelle bestillingstjenester mv.
+> Dersom radio, fjernsyn, audiovisuelle bestillingstjenester eller et program er sponset, skal det opplyses om dette på en tydelig måte. Opplysninger om sponsorer av et program skal gis ved inn- eller utannonseringen av programmet. I tillegg kan opplysninger om sponsorer av et program gis i løpet av programmet, herunder i sponsede enkeltinnslag. Opplysninger om sponsorer av et program kan gis i form av sponsorenes navn, varemerke, logo, produkt eller tjeneste.
+>
+> Innhold og presentasjonsform i radio, fjernsyn, audiovisuelle bestillingstjenester eller program som er sponset, skal være slik at tjenestetilbyderens redaksjonelle integritet opprettholdes fullt ut.
+>
+> Radio, fjernsyn, audiovisuelle bestillingstjenester eller program som er sponset, skal ikke oppmuntre til kjøp eller leie av en sponsors eller tredjeparts produkter eller tjenester, for eksempel ved å inneholde spesielle salgsfremmende henvisninger til slike produkter eller tjenester.
+>
+> Det er ikke adgang til å sponse nyhets- og aktualitetsprogrammer.
+>
+> Radio, fjernsyn, audiovisuelle bestillingstjenester eller programmer kan ikke sponses av fysiske eller juridiske personer hvis hovedaktivitet er å produsere, selge eller leie ut produkter eller tjenester det er forbudt å reklamere for etter norsk lov eller regler gitt i medhold av norsk lov. Politiske partiorganisasjoner kan ikke sponse programmer.
+>
+> Kongen kan gi forskrift om sponsing av radio, fjernsyn, audiovisuelle bestillingstjenester og programmer, også om sponsing i Norsk rikskringkasting AS.
 >
 
 ## § 3-5
@@ -582,9 +624,13 @@ refid: "lov/1992-12-04-127"
 
 *§ 3-6 skal lyde:*
 
-> § 3-6.Produktplassering i kringkasting og audiovisuelle bestillingstjenesterProduktplassering i kringkasting og audiovisuelle bestillingstjenester er forbudt i nyhets- og aktualitetsprogrammer, forbrukerprogrammer, religiøse programmer og barneprogrammer.Produktplassering er forbudt i programmer som er produsert eller bestilt av NRK eller tilknyttede foretak.Kongen kan gi forskrift om produktplassering.
+> § 3-6. Produktplassering i kringkasting og audiovisuelle bestillingstjenester
 >
-> § 3-6.Produktplassering i kringkasting og audiovisuelle bestillingstjenester
+> Produktplassering i kringkasting og audiovisuelle bestillingstjenester er forbudt i nyhets- og aktualitetsprogrammer, forbrukerprogrammer, religiøse programmer og barneprogrammer.
+>
+> Produktplassering er forbudt i programmer som er produsert eller bestilt av NRK eller tilknyttede foretak.
+>
+> Kongen kan gi forskrift om produktplassering.
 >
 
 ## § 3-7
@@ -620,9 +666,9 @@ refid: "lov/1992-12-04-127"
 
 *Ny § 4-1 a skal lyde:*
 
-> § 4-1 a.Formidling av fjernsyn og audiovisuelle bestillingstjenester fra andre EØS-staterEn tjenestetilbyder som er etablert i en annen EØS-stat, har rett til å formidle fjernsyn eller audiovisuelle bestillingstjenester til Norge innenfor det samordnede regelområdet til direktiv 2010/13/EU, med mindre noe annet følger av loven her eller annen lov.
+> § 4-1 a. Formidling av fjernsyn og audiovisuelle bestillingstjenester fra andre EØS-stater
 >
-> § 4-1 a.Formidling av fjernsyn og audiovisuelle bestillingstjenester fra andre EØS-stater
+> En tjenestetilbyder som er etablert i en annen EØS-stat, har rett til å formidle fjernsyn eller audiovisuelle bestillingstjenester til Norge innenfor det samordnede regelområdet til direktiv 2010/13/EU, med mindre noe annet følger av loven her eller annen lov.
 >
 
 ## § 4-2
@@ -690,9 +736,17 @@ refid: "lov/1992-12-04-127"
 
 *§ 4-5 skal lyde:*
 
-> § 4-5.Pålegg om å midlertidig hindre eller vanskeliggjøre tilgang til skadelig eller ulovlig innhold mv.Medietilsynet kan gi pålegg om å midlertidig hindre eller vanskeliggjøre tilgangen til utenlandske fjernsynskanaler som:sender reklame i strid med norsk lovsender innhold som kan være skadelig eller alvorlig skadelig for mindreårige, med mindre det ved valg av sendetid eller ved egnede tekniske tiltak har blitt sørget for at mindreårige beskyttes mot slikt innholdsender program som norsk rett har funnet stridende mot straffeloven § 185er etablert i en annen EØS-stat for å omgå bestemmelser som ellers ville fått anvendelse dersom fjernsynsselskapet hadde vært etablert i Norge.Første ledd bokstav a gjelder ikke for fjernsynskanaler som tilbys av tjenestetilbydere som er etablert i andre EØS-stater eller stater som har ratifisert Europarådets konvensjon om fjernsyn over landegrensene. Bestemmelsen gjelder likevel for fjernsynskanaler som tilbys av tjenestetilbydere som er etablert utenfor EØS-området og som har ratifisert Europarådets konvensjon om fjernsyn over landegrensene dersom kanalen sender reklame som er særskilt og jevnlig rettet mot norske seere.Pålegg etter første ledd kan gis overfor den som eier eller disponerer nett som formidler fjernsynskanaler som nevnt i første ledd. Det skal følge av vedtaket hvilke fjernsynskanaler pålegget gjelder, og ved behov hvilket innhold som nærmere omfattes av pålegget.Medietilsynet kan gi forskrift eller treffe enkeltvedtak om forbud mot salg, utleie eller markedsføring av innretninger eller tjenester som i det vesentlige har som formål å gi tilgang til fjernsynskanaler eller innhold som nevnt i første ledd bokstav c eller d.Kongen gir forskrift om prosedyrer mv. i forbindelse med pålegg etter første ledd og forbud etter fjerde ledd.
+> § 4-5. Pålegg om å midlertidig hindre eller vanskeliggjøre tilgang til skadelig eller ulovlig innhold mv.
 >
-> § 4-5.Pålegg om å midlertidig hindre eller vanskeliggjøre tilgang til skadelig eller ulovlig innhold mv.
+> Medietilsynet kan gi pålegg om å midlertidig hindre eller vanskeliggjøre tilgangen til utenlandske fjernsynskanaler som:sender reklame i strid med norsk lovsender innhold som kan være skadelig eller alvorlig skadelig for mindreårige, med mindre det ved valg av sendetid eller ved egnede tekniske tiltak har blitt sørget for at mindreårige beskyttes mot slikt innholdsender program som norsk rett har funnet stridende mot straffeloven § 185er etablert i en annen EØS-stat for å omgå bestemmelser som ellers ville fått anvendelse dersom fjernsynsselskapet hadde vært etablert i Norge.
+>
+> Første ledd bokstav a gjelder ikke for fjernsynskanaler som tilbys av tjenestetilbydere som er etablert i andre EØS-stater eller stater som har ratifisert Europarådets konvensjon om fjernsyn over landegrensene. Bestemmelsen gjelder likevel for fjernsynskanaler som tilbys av tjenestetilbydere som er etablert utenfor EØS-området og som har ratifisert Europarådets konvensjon om fjernsyn over landegrensene dersom kanalen sender reklame som er særskilt og jevnlig rettet mot norske seere.
+>
+> Pålegg etter første ledd kan gis overfor den som eier eller disponerer nett som formidler fjernsynskanaler som nevnt i første ledd. Det skal følge av vedtaket hvilke fjernsynskanaler pålegget gjelder, og ved behov hvilket innhold som nærmere omfattes av pålegget.
+>
+> Medietilsynet kan gi forskrift eller treffe enkeltvedtak om forbud mot salg, utleie eller markedsføring av innretninger eller tjenester som i det vesentlige har som formål å gi tilgang til fjernsynskanaler eller innhold som nevnt i første ledd bokstav c eller d.
+>
+> Kongen gir forskrift om prosedyrer mv. i forbindelse med pålegg etter første ledd og forbud etter fjerde ledd.
 >
 
 ## § 4-8
@@ -701,9 +755,11 @@ refid: "lov/1992-12-04-127"
 
 *Ny § 4-8 skal lyde:*
 
-> § 4-8.Krav til samtykke ved overliggende innslag for kommersielle formål mv.Fjernsyn og audiovisuelle bestillingstjenester kan ikke forsynes med overliggende innslag for kommersielle formål eller endres uten samtykke fra tjenestetilbyderen.Kongen kan gi forskrift om overliggende innslag for kommersielle formål og endringer av fjernsynssendinger og audiovisuelle bestillingstjenester, for eksempel unntak fra kravet om samtykke etter første ledd.
+> § 4-8. Krav til samtykke ved overliggende innslag for kommersielle formål mv.
 >
-> § 4-8.Krav til samtykke ved overliggende innslag for kommersielle formål mv.
+> Fjernsyn og audiovisuelle bestillingstjenester kan ikke forsynes med overliggende innslag for kommersielle formål eller endres uten samtykke fra tjenestetilbyderen.
+>
+> Kongen kan gi forskrift om overliggende innslag for kommersielle formål og endringer av fjernsynssendinger og audiovisuelle bestillingstjenester, for eksempel unntak fra kravet om samtykke etter første ledd.
 >
 
 ## § 6-1 a
@@ -916,9 +972,9 @@ refid: "lov/1992-12-04-127"
 
 *§ 10-2 skal lyde:*
 
-> § 10-2.AdvarselNår bestemmelser eller vilkår fastsatt i eller i medhold av loven her er overtrådt, kan tilsynsmyndigheten gi den ansvarlige for overtredelsen advarsel.
+> § 10-2. Advarsel
 >
-> § 10-2.Advarsel
+> Når bestemmelser eller vilkår fastsatt i eller i medhold av loven her er overtrådt, kan tilsynsmyndigheten gi den ansvarlige for overtredelsen advarsel.
 >
 
 ## § 10-3
@@ -978,9 +1034,17 @@ refid: "lov/1992-12-04-127"
 
 *§ 10-4 skal lyde:*
 
-> § 10-4.TvangsmulktFor å sikre at plikter etter bestemmelsene i kapittel 2, med unntak av § 2-20, kapittel 3, 4 og 5 A og §§ 6-4, 8-1, 8-2 og 8-5 eller forskrift eller enkeltvedtak fastsatt i medhold av disse bestemmelsene blir oppfylt, kan tilsynsmyndigheten ilegge den ansvarlige for oppfyllelsen tvangsmulkt.Tvangsmulkten kan fastsettes som en løpende mulkt eller som et engangsbeløp. Ved løpende mulkt kan tilsynsmyndigheten bestemme at mulkten enten skal begynne å løpe en uke etter vedtaket om tvangsmulkt, eller fra en særskilt fastsatt frist for oppfyllelse av plikten dersom denne fristen er utløpt uten at plikten er oppfylt. Ved tvangsmulkt i form av et engangsbeløp kan tilsynsmyndigheten bestemme at mulkten skal betales ved en særskilt fastsatt frist for oppfyllelse av plikten dersom denne fristen er utløpt uten at plikten er oppfylt.Tvangsmulkt tilfaller statskassen og er tvangsgrunnlag for utlegg.Tilsynsmyndigheten kan i særlige tilfeller redusere eller frafalle påløpt tvangsmulkt.Kongen kan gi forskrift om ileggelse av tvangsmulkt, herunder om vilkår for tvangsmulkt og om tvangsmulktens størrelse og renter ved forsinket betaling.
+> § 10-4. Tvangsmulkt
 >
-> § 10-4.Tvangsmulkt
+> For å sikre at plikter etter bestemmelsene i kapittel 2, med unntak av § 2-20, kapittel 3, 4 og 5 A og §§ 6-4, 8-1, 8-2 og 8-5 eller forskrift eller enkeltvedtak fastsatt i medhold av disse bestemmelsene blir oppfylt, kan tilsynsmyndigheten ilegge den ansvarlige for oppfyllelsen tvangsmulkt.
+>
+> Tvangsmulkten kan fastsettes som en løpende mulkt eller som et engangsbeløp. Ved løpende mulkt kan tilsynsmyndigheten bestemme at mulkten enten skal begynne å løpe en uke etter vedtaket om tvangsmulkt, eller fra en særskilt fastsatt frist for oppfyllelse av plikten dersom denne fristen er utløpt uten at plikten er oppfylt. Ved tvangsmulkt i form av et engangsbeløp kan tilsynsmyndigheten bestemme at mulkten skal betales ved en særskilt fastsatt frist for oppfyllelse av plikten dersom denne fristen er utløpt uten at plikten er oppfylt.
+>
+> Tvangsmulkt tilfaller statskassen og er tvangsgrunnlag for utlegg.
+>
+> Tilsynsmyndigheten kan i særlige tilfeller redusere eller frafalle påløpt tvangsmulkt.
+>
+> Kongen kan gi forskrift om ileggelse av tvangsmulkt, herunder om vilkår for tvangsmulkt og om tvangsmulktens størrelse og renter ved forsinket betaling.
 >
 
 ### 2025-04-25 — lov/2025-04-25-12
@@ -1072,6 +1136,13 @@ refid: "lov/1992-12-04-127"
 > § 3-5.Premier i lyd- eller bildeprogrammer i kringkasting og audiovisuelle bestillingstjenester
 >
 
+### 2017-07-01 — forskrift/2017-06-16-765
+
+*Loven gjelder fra 1. juli 2017.*
+
+> Loven gjelder fra 1. juli 2017.
+>
+
 ### 2020-05-20 — lov/2020-05-20-43
 
 *I lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester skal ny § 4-7 lyde:*
@@ -1087,6 +1158,13 @@ refid: "lov/1992-12-04-127"
 > Kongen kan gi forskrift om pålegg etter første ledd, blant annet om saksbehandlingen i saker om pålegg.
 >
 
+### 2021-01-01 — forskrift/2020-05-20-1040
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
 ### 2024-12-13 — lov/2024-12-13-76
 
 *2. I lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester skal § 2-2 første ledd lyde:*
@@ -1100,39 +1178,51 @@ refid: "lov/1992-12-04-127"
 
 > Kap. 5 A. Videodelingsplattformtjenester
 >
-> § 5 A-1.JurisdiksjonKongen kan gi forskrift om når en tilbyder av en videodelingsplattform er underlagt norsk jurisdiksjon.
+> § 5 A-1. Jurisdiksjon
 >
-> § 5 A-1.Jurisdiksjon
+> Kongen kan gi forskrift om når en tilbyder av en videodelingsplattform er underlagt norsk jurisdiksjon.
 >
-> § 5 A-2.RegistreringspliktTilbydere av videodelingsplattformer under norsk jurisdiksjon plikter å registrere seg hos Medietilsynet. Kongen kan gi forskrift om registreringsplikten.
+> § 5 A-2. Registreringsplikt
 >
-> § 5 A-2.Registreringsplikt
+> Tilbydere av videodelingsplattformer under norsk jurisdiksjon plikter å registrere seg hos Medietilsynet. Kongen kan gi forskrift om registreringsplikten.
 >
-> § 5 A-3.Beskyttelse av mindreårige mot skadelig og alvorlig skadelig innholdTilbydere av videodelingsplattformer skal treffe hensiktsmessige tiltak for å beskytte mindreårige mot skadelig og alvorlig skadelig innhold i bildeprogrammer, brukergenererte videoer, reklame, sponsing og produktplassering i videodelingsplattformtjenesten.Kongen kan gi forskrift om beskyttelse av mindreårige mot skadelig og alvorlig skadelig innhold i videodelingsplattformtjenester, for eksempel om bruk av personopplysninger om mindreårige.
+> § 5 A-3. Beskyttelse av mindreårige mot skadelig og alvorlig skadelig innhold
 >
-> § 5 A-3.Beskyttelse av mindreårige mot skadelig og alvorlig skadelig innhold
+> Tilbydere av videodelingsplattformer skal treffe hensiktsmessige tiltak for å beskytte mindreårige mot skadelig og alvorlig skadelig innhold i bildeprogrammer, brukergenererte videoer, reklame, sponsing og produktplassering i videodelingsplattformtjenesten.
 >
-> § 5 A-4.Beskyttelse av allmennheten mot ulovlig innholdTilbydere av videodelingsplattformer skal treffe hensiktsmessige tiltak for å beskytte allmennheten mot bildeprogrammer, brukergenererte videoer og reklame, produktplassering og sponsing i tjenesten som har et innhold som strider mot straffeloven §§ 136 bokstav a, 183, 185, 263 og 311.
+> Kongen kan gi forskrift om beskyttelse av mindreårige mot skadelig og alvorlig skadelig innhold i videodelingsplattformtjenester, for eksempel om bruk av personopplysninger om mindreårige.
 >
-> § 5 A-4.Beskyttelse av allmennheten mot ulovlig innhold
+> § 5 A-4. Beskyttelse av allmennheten mot ulovlig innhold
 >
-> § 5 A-5.Reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av tilbydere av videodelingsplattformer§ 3-1 første ledd og §§ 3-3, 3-4, 3-6 og 3-7 gjelder tilsvarende for reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av tilbydere av videodelingsplattformer og som inngår i eller følger med bildeprogrammer eller brukergenererte videoer.Kongen kan gi forskrift om reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av tilbydere av videodelingsplattformer.
+> Tilbydere av videodelingsplattformer skal treffe hensiktsmessige tiltak for å beskytte allmennheten mot bildeprogrammer, brukergenererte videoer og reklame, produktplassering og sponsing i tjenesten som har et innhold som strider mot straffeloven §§ 136 bokstav a, 183, 185, 263 og 311.
 >
-> § 5 A-5.Reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av tilbydere av videodelingsplattformer
+> § 5 A-5. Reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av tilbydere av videodelingsplattformer
 >
-> § 5 A-6.Reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av andre enn tilbydere av videodelingsplattformerTilbydere av videodelingsplattformer skal treffe hensiktsmessige tiltak for å sikre at reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av andre enn tilbyderne, og som inngår i eller følger med bildeprogrammer eller brukergenererte videoer, oppfyller kravene i:§ 3-1 første ledd og §§ 3-3, 3-4, 3-6 og 3-7 i loven hermarkedsføringsloven § 2alkoholloven §§ 9-1 og 9-2 og forskrifter fastsatt i medhold av disse paragrafenetobakksskadeloven §§ 22 og 23 og forskrifter fastsatt i medhold av disse paragrafenepengespilloven § 6forskrifter fastsatt i medhold av legemiddelloven § 19 andre ledd.Kongen kan gi forskrift om reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av andre enn tilbydere av videodelingsplattformer.
+> § 3-1 første ledd og §§ 3-3, 3-4, 3-6 og 3-7 gjelder tilsvarende for reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av tilbydere av videodelingsplattformer og som inngår i eller følger med bildeprogrammer eller brukergenererte videoer.
 >
-> § 5 A-6.Reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av andre enn tilbydere av videodelingsplattformer
+> Kongen kan gi forskrift om reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av tilbydere av videodelingsplattformer.
 >
-> § 5 A-7.Hensiktsmessige tiltakHensiktsmessige tiltak etter §§ 5 A-3, 5 A-4 og 5 A-6 skal være gjennomførbare og forholdsmessige og ta hensyn til videodelingsplattformtjenestens størrelse og art. Tiltakene skal ikke føre til forhåndskontroll eller opplastingsfiltrering av innhold i strid med ehandelsloven § 19.Kongen kan gi forskrift om hvilke hensiktsmessige tiltak tilbydere av videodelingsplattformer skal treffe etter §§ 5 A-3, 5 A-4 og 5 A-6.
+> § 5 A-6. Reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av andre enn tilbydere av videodelingsplattformer
 >
-> § 5 A-7.Hensiktsmessige tiltak
+> Tilbydere av videodelingsplattformer skal treffe hensiktsmessige tiltak for å sikre at reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av andre enn tilbyderne, og som inngår i eller følger med bildeprogrammer eller brukergenererte videoer, oppfyller kravene i:§ 3-1 første ledd og §§ 3-3, 3-4, 3-6 og 3-7 i loven hermarkedsføringsloven § 2alkoholloven §§ 9-1 og 9-2 og forskrifter fastsatt i medhold av disse paragrafenetobakksskadeloven §§ 22 og 23 og forskrifter fastsatt i medhold av disse paragrafenepengespilloven § 6forskrifter fastsatt i medhold av legemiddelloven § 19 andre ledd.
 >
-> § 5 A-8.Utenrettslig klagenemndMedietilsynet kan gi forskrift om opprettelse av en klagenemnd for løsning av tvister mellom brukere og tilbydere av videodelingsplattformer om hensiktsmessige tiltak som tilbyderne er forpliktet til å treffe i eller i medhold av denne loven.Klagenemnda skal opptre uavhengig ved behandling av klager og kan ikke instrueres.Medietilsynet kan gi forskrift om klagenemnda, blant annet om nemndas sammensetning, kompetanse og organisering.
+> Kongen kan gi forskrift om reklame, sponsing og produktplassering som markedsføres, selges eller tilrettelegges av andre enn tilbydere av videodelingsplattformer.
 >
-> § 5 A-8.Utenrettslig klagenemnd
+> § 5 A-7. Hensiktsmessige tiltak
 >
-> § 5 A-9.TilsynKongen kan gi forskrift om tilsyn med etterlevelsen av bestemmelsene i kapittelet her.
+> Hensiktsmessige tiltak etter §§ 5 A-3, 5 A-4 og 5 A-6 skal være gjennomførbare og forholdsmessige og ta hensyn til videodelingsplattformtjenestens størrelse og art. Tiltakene skal ikke føre til forhåndskontroll eller opplastingsfiltrering av innhold i strid med ehandelsloven § 19.
 >
-> § 5 A-9.Tilsyn
+> Kongen kan gi forskrift om hvilke hensiktsmessige tiltak tilbydere av videodelingsplattformer skal treffe etter §§ 5 A-3, 5 A-4 og 5 A-6.
+>
+> § 5 A-8. Utenrettslig klagenemnd
+>
+> Medietilsynet kan gi forskrift om opprettelse av en klagenemnd for løsning av tvister mellom brukere og tilbydere av videodelingsplattformer om hensiktsmessige tiltak som tilbyderne er forpliktet til å treffe i eller i medhold av denne loven.
+>
+> Klagenemnda skal opptre uavhengig ved behandling av klager og kan ikke instrueres.
+>
+> Medietilsynet kan gi forskrift om klagenemnda, blant annet om nemndas sammensetning, kompetanse og organisering.
+>
+> § 5 A-9. Tilsyn
+>
+> Kongen kan gi forskrift om tilsyn med etterlevelsen av bestemmelsene i kapittelet her.
 >

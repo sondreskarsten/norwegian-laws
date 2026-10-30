@@ -5,6 +5,32 @@ refid: "lov/1995-02-03-7"
 
 # Endringshistorikk: EOS-kontrolloven
 
+## (annet)
+
+### 2013-07-01 — lov/2013-06-21-81
+
+*I lov 3. februar 1995 nr. 7 om kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste skal § 4 første ledd nytt tredje punktum lyde:*
+
+> Utvalgets rett til innsyn og adgang etter første punktum gjelder tilsvarende overfor virksomheter som bistår ved utførelse av etterretnings-, overvåkings- og sikkerhetstjeneste.
+>
+
+### 2016-05-11 — lov/2016-05-11-9
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 3. februar 1995 nr. 7 om kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste.
+>
+> I lov 3. februar 1995 nr. 7 om kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste gjøres følgende endring:
+>
+> Lovens tittel skal lyde:
+>
+> Lov 3. februar 1995 nr. 7 om kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste (EOS-kontrolloven)
+>
+> Loven trer i kraft straks.
+>
+
 ## § 1
 
 ### 2009-07-01 — lov/2009-06-19-87

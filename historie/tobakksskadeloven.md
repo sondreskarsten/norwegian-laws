@@ -86,6 +86,41 @@ refid: "lov/1973-03-09-14"
 
 *Nåværende § 20 blir ny § 43.*
 
+### 2013-05-24 — forskrift/2013-05-24-516
+
+*Sigarettpakker med færre enn 20 sigaretter kan omsettes i Norge til detaljist til og med 31. desember 2013 og til forbruker til og med 30. juni 2014.*
+
+> Sigarettpakker med færre enn 20 sigaretter kan omsettes i Norge til detaljist til og med 31. desember 2013 og til forbruker til og med 30. juni 2014.
+>
+> Frem til endringen i tobakksskadeloven § 25 trer i kraft 1. juli 2014 gjelder tidligere § 12 om røykeforbud i lokaler og transportmidler.
+>
+> Frem til endringen i tobakksskadeloven § 10 trer i kraft 1. januar 2015 fører Helsedirektoratet tilsyn med oppstillingsforbudet i § 24.
+>
+
+### 2013-05-28 — forskrift/2013-05-24-515
+
+*– – –*
+
+> – – –
+>
+> Loven trer i kraft 1. juli 2013, med unntak av kapittel 2 og § 18, § 23, § 25, § 26, § 27, § 29, § 31 og § 34.
+>
+> Paragrafene 23, 31 og 34 trer i kraft 1. januar 2014.
+>
+> Paragrafene 18, 25, 26, 27 og 29 trer i kraft 1. juli 2014.
+>
+> Kapittel 2, med unntak av § 6 annet ledd, trer i kraft 1. januar 2015.
+>
+> – – –
+>
+
+### 2016-01-01 — forskrift/2013-10-04-1180
+
+*Delt ikraftsetting av lov 24. mai 2013 nr. 17 om endringer i tobakksskadeloven. § 6 annet ledd trer i kraft 1. januar 2016.*
+
+> Delt ikraftsetting av lov 24. mai 2013 nr. 17 om endringer i tobakksskadeloven. § 6 annet ledd trer i kraft 1. januar 2016.
+>
+
 ### 2017-02-10 — lov/2017-02-10-5
 
 *Nåværende annet ledd blir nytt tredje ledd.*
@@ -154,6 +189,15 @@ refid: "lov/1973-03-09-14"
 ### 2017-02-10 — lov/2017-02-10-5
 
 *Nåværende §§ 42 og 43 blir nye §§ 44 og 45.*
+
+### 2017-04-01 — forskrift/2017-03-31-415
+
+*Delt ikraftsetting av lov 10. februar 2017 nr. 5 om endring i lov 9. mars 1973 nr. 14 om vern mot tobakksskader. Loven trer i kraft fra 1. april 2017 med unntak av § 21a, kapittel 5, § 30, § 30a, § 32 første ledd, § 34a til § 34d, § 35 annet ledd, § 37a, § 38 tredje ledd, § 40a og § 43.*
+
+> Delt ikraftsetting av lov 10. februar 2017 nr. 5 om endring i lov 9. mars 1973 nr. 14 om vern mot tobakksskader. Loven trer i kraft fra 1. april 2017 med unntak av § 21a, kapittel 5, § 30, § 30a, § 32 første ledd, § 34a til § 34d, § 35 annet ledd, § 37a, § 38 tredje ledd, § 40a og § 43.
+>
+> Kapittel 5 og § 30, § 30a første og fjerde ledd og § 43 trer i kraft 1. juli 2017.
+>
 
 ### 2017-06-21 — lov/2017-06-21-89
 
@@ -398,13 +442,41 @@ refid: "lov/1973-03-09-14"
 
 *Nåværende fjerde og femte ledd blir femte og nytt sjette ledd.*
 
+### 2020-11-01 — forskrift/2020-10-23-2122
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 77 om endringer i tobakksskadeloven (ulovlig handel med tobakksvarer mv.). Endringsloven trer i kraft fra 1. november 2020 med unntak av tobakksskadeloven nytt kapittel 3A og ny § 36a.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 77 om endringer i tobakksskadeloven (ulovlig handel med tobakksvarer mv.). Endringsloven trer i kraft fra 1. november 2020 med unntak av tobakksskadeloven nytt kapittel 3A og ny § 36a.
+>
+
 ### 2021-05-07 — lov/2021-05-07-31
 
 *Nåværende § 13 tredje ledd blir nytt fjerde ledd.*
 
+### 2021-07-01 — forskrift/2021-06-23-2065
+
+*Delt ikraftsetting av lov 10. februar 2017 nr. 5 om endring i lov 9. mars 1973 nr. 14 om vern mot tobakksskader. Loven § 34d og § 40a trer i kraft 1. juli 2021.*
+
+> Delt ikraftsetting av lov 10. februar 2017 nr. 5 om endring i lov 9. mars 1973 nr. 14 om vern mot tobakksskader. Loven § 34d og § 40a trer i kraft 1. juli 2021.
+>
+
+### 2022-07-01 — forskrift/2022-06-17-1065
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
 ### 2023-12-20 — lov/2023-12-20-107
 
 *Nåværende § 2 tolvte ledd blir nytt trettende ledd.*
+
+### 2024-01-01 — forskrift/2023-12-20-2137
+
+*Loven trer i kraft 1. januar 2024, med unntak av § 30 første ledd og § 32a. Paragraf 32a trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. januar 2024, med unntak av § 30 første ledd og § 32a. Paragraf 32a trer i kraft 1. juli 2024.
+>
 
 ### 2024-03-22 — lov/2024-03-22-11
 
@@ -417,9 +489,9 @@ refid: "lov/1973-03-09-14"
 
 *I lov 9. mars 1973 nr. 14 om vern mot tobakksskader skal ny § 40 b lyde:*
 
-> § 40 b.Begrensninger i omgjørings- og instruksjonsmyndighetKongen kan ikke instruere Helsedirektoratet om behandlingen av enkeltsaker etter §§ 22 eller 23 som gjelder tobakksvarer, elektroniske sigaretter eller gjenoppfyllingsbeholdere, og som retter seg mot tilbydere av fjernsyn, audiovisuelle bestillingstjenester eller videodelingsplattformer. Kongen kan heller ikke omgjøre Helsedirektoratets vedtak i slike saker.
+> § 40 b. Begrensninger i omgjørings- og instruksjonsmyndighet
 >
-> § 40 b.Begrensninger i omgjørings- og instruksjonsmyndighet
+> Kongen kan ikke instruere Helsedirektoratet om behandlingen av enkeltsaker etter §§ 22 eller 23 som gjelder tobakksvarer, elektroniske sigaretter eller gjenoppfyllingsbeholdere, og som retter seg mot tilbydere av fjernsyn, audiovisuelle bestillingstjenester eller videodelingsplattformer. Kongen kan heller ikke omgjøre Helsedirektoratets vedtak i slike saker.
 >
 
 ### 2025-06-20 — lov/2025-06-20-69
@@ -456,6 +528,31 @@ refid: "lov/1973-03-09-14"
 ### 2025-06-20 — lov/2025-06-20-70
 
 *Tredje og femte ledd oppheves. Fjerde ledd blir tredje ledd.*
+
+### 2025-07-01 — forskrift/2025-06-20-1142
+
+*Delt ikraftsetting av loven. Loven del I trer i kraft 1. juli 2025, med unntak av endringene i §§ 21b, 28, 29, 44 og 44a som trer i kraft 1. januar 2026.*
+
+> Delt ikraftsetting av loven. Loven del I trer i kraft 1. juli 2025, med unntak av endringene i §§ 21b, 28, 29, 44 og 44a som trer i kraft 1. januar 2026.
+>
+
+### 2026-03-30 — forskrift/2026-03-27-498
+
+*Følgende trer i kraft 30. mars 2026:*
+
+> Følgende trer i kraft 30. mars 2026:
+>
+> Endringsloven del I (tobakksskadeloven) § 30a annet og tredje ledd, § 32 første ledd og § 38 tredje ledd.
+>
+
+### 2026-03-30 — forskrift/2026-03-27-500
+
+*Følgende trer i kraft 30. mars 2026:*
+
+> Følgende trer i kraft 30. mars 2026:
+>
+> Endringsloven del I (tobakksskadeloven) §§ 16d til 16h
+>
 
 ## § 1
 
@@ -993,9 +1090,9 @@ refid: "lov/1973-03-09-14"
 
 *§ 20 skal lyde:*
 
-> § 20.Forbud mot gratis utdelingEnhver form for gratis utdeling av tobakksvarer til forbruker fra en fysisk eller juridisk person som driver næringsvirksomhet, er forbudt. Tilsvarende gjelder for tobakksimitasjoner, tobakkssurrogater og gjenoppfyllingsbeholdere.
+> § 20. Forbud mot gratis utdeling
 >
-> § 20.Forbud mot gratis utdeling
+> Enhver form for gratis utdeling av tobakksvarer til forbruker fra en fysisk eller juridisk person som driver næringsvirksomhet, er forbudt. Tilsvarende gjelder for tobakksimitasjoner, tobakkssurrogater og gjenoppfyllingsbeholdere.
 >
 
 ## § 21
@@ -1024,9 +1121,9 @@ refid: "lov/1973-03-09-14"
 
 *§ 21 skal lyde:*
 
-> § 21.Forbud mot omsetning med rabattDet er forbudt å gi spesiell rabatt ved salg av tobakksvarer, tobakkssurrogater og gjenoppfyllingsbeholdere til forbruker.
+> § 21. Forbud mot omsetning med rabatt
 >
-> § 21.Forbud mot omsetning med rabatt
+> Det er forbudt å gi spesiell rabatt ved salg av tobakksvarer, tobakkssurrogater og gjenoppfyllingsbeholdere til forbruker.
 >
 
 ## § 21 a
@@ -1052,9 +1149,7 @@ refid: "lov/1973-03-09-14"
 
 *§ 21 a overskriften skal lyde:*
 
-> § 21 a.Registreringsordning for innenlands fjernsalg
->
-> § 21 a.Registreringsordning for innenlands fjernsalg
+> § 21 a. Registreringsordning for innenlands fjernsalg
 >
 
 ### 2025-06-20 — lov/2025-06-20-70
@@ -1070,9 +1165,13 @@ refid: "lov/1973-03-09-14"
 
 *Ny § 21 b skal lyde:*
 
-> § 21 b.Forbud mot grensekryssende fjernsalgDet er forbudt å drive grensekryssende fjernsalg av tobakksvarer, elektroniske sigaretter og gjenoppfyllingsbeholdere til eller fra Norge.Departementet kan i forskrift utvide forbudet i første ledd til å gjelde andre tobakkssurrogater og nikotinprodukter samt tobakksimitasjoner og tobakksutstyr. Departementet kan i forskrift også gi nærmere bestemmelser om grensekryssende fjernsalg av slike produkter, herunder mengdebegrensninger.Departementet kan gi forskrift om det nærmere innholdet i forbudet i første ledd og gjøre unntak fra det.
+> § 21 b. Forbud mot grensekryssende fjernsalg
 >
-> § 21 b.Forbud mot grensekryssende fjernsalg
+> Det er forbudt å drive grensekryssende fjernsalg av tobakksvarer, elektroniske sigaretter og gjenoppfyllingsbeholdere til eller fra Norge.
+>
+> Departementet kan i forskrift utvide forbudet i første ledd til å gjelde andre tobakkssurrogater og nikotinprodukter samt tobakksimitasjoner og tobakksutstyr. Departementet kan i forskrift også gi nærmere bestemmelser om grensekryssende fjernsalg av slike produkter, herunder mengdebegrensninger.
+>
+> Departementet kan gi forskrift om det nærmere innholdet i forbudet i første ledd og gjøre unntak fra det.
 >
 
 ## § 22
@@ -1251,12 +1350,6 @@ refid: "lov/1973-03-09-14"
 
 > Det er forbudt å røykepå arealer utendørs som er opparbeidet for eller tilpasset til bruk til idrett. Områdene skal være røykfrie også når disse brukes til andre formål enn idrettsutøving.på areal, opparbeidet eller naturlig, hvor allmennheten har adgang, og som er tilrettelagt for barns lek (lekeplass).i private kjøretøy med barn under 18 år til stede.
 >
-> på arealer utendørs som er opparbeidet for eller tilpasset til bruk til idrett. Områdene skal være røykfrie også når disse brukes til andre formål enn idrettsutøving.
->
-> på areal, opparbeidet eller naturlig, hvor allmennheten har adgang, og som er tilrettelagt for barns lek (lekeplass).
->
-> i private kjøretøy med barn under 18 år til stede.
->
 > Forbudet i annet ledd bokstav c gjelder ikke for kjøretøyets boenhet når den anvendes som bosted, eller for kjøretøy uten tak.
 >
 > Bestemmelsene i § 25 tredje og fjerde ledd gjelder tilsvarende for områder omfattet av § 28 annet ledd bokstav a eller b.
@@ -1279,9 +1372,15 @@ refid: "lov/1973-03-09-14"
 
 *§ 28 a skal lyde:*
 
-> § 28 a.Produkter som omfattes av røykeforbudeneBestemmelsene om røykeforbud i dette kapittelet gjelder for bruk av tobakksvarer, elektroniske sigaretter og urteprodukter beregnet på røyking eller inhalering etter fordampning, forstøving eller oppvarming.Tilsvarende gjelder ved bruk av andre produkter som i bruksmåte tilsvarer røyking eller fordampning, men som ikke inneholder tobakk.Bestemmelsene om tobakksforbud i §§ 26 og 27 omfatter bruk av produkter som nevnt i denne bestemmelsens første og annet ledd.Departementet kan i forskrift presisere hvilke produkter og hvilken bruk som skal omfattes av forbudene i dette kapittelet, samt gjøre unntak.
+> § 28 a. Produkter som omfattes av røykeforbudene
 >
-> § 28 a.Produkter som omfattes av røykeforbudene
+> Bestemmelsene om røykeforbud i dette kapittelet gjelder for bruk av tobakksvarer, elektroniske sigaretter og urteprodukter beregnet på røyking eller inhalering etter fordampning, forstøving eller oppvarming.
+>
+> Tilsvarende gjelder ved bruk av andre produkter som i bruksmåte tilsvarer røyking eller fordampning, men som ikke inneholder tobakk.
+>
+> Bestemmelsene om tobakksforbud i §§ 26 og 27 omfatter bruk av produkter som nevnt i denne bestemmelsens første og annet ledd.
+>
+> Departementet kan i forskrift presisere hvilke produkter og hvilken bruk som skal omfattes av forbudene i dette kapittelet, samt gjøre unntak.
 >
 
 ## § 29
@@ -1514,9 +1613,13 @@ refid: "lov/1973-03-09-14"
 
 *Ny § 32 a skal lyde:*
 
-> § 32 a.Forbud mot karakteristisk aroma i elektroniske sigaretter mv.Det er forbudt å innføre eller selge elektroniske sigaretter og gjenoppfyllingsbeholdere med karakteristisk aroma. Det samme gjelder separate beholdere av aromatilsetninger til bruk i elektroniske sigaretter.Forbudet i første ledd gjelder tilsvarende for utstyr som benyttes i forbindelse med elektroniske sigaretter eller gjenoppfyllingsbeholdere, som gjør det mulig å endre deres lukt eller smak.Departementet kan i forskrift fastsette utfyllende bestemmelser om forbudene i første og annet ledd, gjøre unntak fra dem, fastsette grenseverdier for innholdet av tilsetningsstoffer eller kombinasjoner av tilsetningsstoffer som gir karakteristisk aroma samt gebyrer for myndighetenes arbeid med og kontroll av forbudene. Departementet kan i forskrift også fastsette en liste over hvilke tilsetningsstoffer for aroma som er tillatt.
+> § 32 a. Forbud mot karakteristisk aroma i elektroniske sigaretter mv.
 >
-> § 32 a.Forbud mot karakteristisk aroma i elektroniske sigaretter mv.
+> Det er forbudt å innføre eller selge elektroniske sigaretter og gjenoppfyllingsbeholdere med karakteristisk aroma. Det samme gjelder separate beholdere av aromatilsetninger til bruk i elektroniske sigaretter.
+>
+> Forbudet i første ledd gjelder tilsvarende for utstyr som benyttes i forbindelse med elektroniske sigaretter eller gjenoppfyllingsbeholdere, som gjør det mulig å endre deres lukt eller smak.
+>
+> Departementet kan i forskrift fastsette utfyllende bestemmelser om forbudene i første og annet ledd, gjøre unntak fra dem, fastsette grenseverdier for innholdet av tilsetningsstoffer eller kombinasjoner av tilsetningsstoffer som gir karakteristisk aroma samt gebyrer for myndighetenes arbeid med og kontroll av forbudene. Departementet kan i forskrift også fastsette en liste over hvilke tilsetningsstoffer for aroma som er tillatt.
 >
 
 ## § 33
@@ -1565,9 +1668,9 @@ refid: "lov/1973-03-09-14"
 
 *§ 34 skal lyde:*
 
-> § 34.ForbrukertestingEnhver form for testing av tobakksvarer, tobakkssurrogater og gjenoppfyllingsbeholdere samt pakninger ved hjelp av forbrukere, er forbudt.
+> § 34. Forbrukertesting
 >
-> § 34.Forbrukertesting
+> Enhver form for testing av tobakksvarer, tobakkssurrogater og gjenoppfyllingsbeholdere samt pakninger ved hjelp av forbrukere, er forbudt.
 >
 
 ## § 34 d
@@ -2044,9 +2147,7 @@ refid: "lov/1973-03-09-14"
 
 *§ 4 overskriften skal lyde:*
 
-> § 4.Registreringsplikt for salg av tobakksvarer mv. til forbruker.
->
-> § 4.Registreringsplikt for salg av tobakksvarer mv. til forbruker.
+> § 4. Registreringsplikt for salg av tobakksvarer mv. til forbruker.
 >
 
 ### 2023-12-20 — lov/2023-12-20-107
@@ -2082,9 +2183,9 @@ refid: "lov/1973-03-09-14"
 
 *§ 40 skal lyde:*
 
-> § 40.Opplysningsplikt om importører av tobakksvarer mv.Tolletaten og Skatteetaten skal uten hinder av lovbestemt taushetsplikt på forespørsel fra Helsedirektoratet gi de opplysninger som er nødvendige for at direktoratet skal kunne holde oversikt over hvem som driver import av tobakksvarer, tobakksimitasjoner, tobakkssurrogater og gjenoppfyllingsbeholdere, herunder opplysninger om kvantum og type produkter.
+> § 40. Opplysningsplikt om importører av tobakksvarer mv.
 >
-> § 40.Opplysningsplikt om importører av tobakksvarer mv.
+> Tolletaten og Skatteetaten skal uten hinder av lovbestemt taushetsplikt på forespørsel fra Helsedirektoratet gi de opplysninger som er nødvendige for at direktoratet skal kunne holde oversikt over hvem som driver import av tobakksvarer, tobakksimitasjoner, tobakkssurrogater og gjenoppfyllingsbeholdere, herunder opplysninger om kvantum og type produkter.
 >
 
 ## § 40 a
@@ -2208,9 +2309,15 @@ refid: "lov/1973-03-09-14"
 
 *Ny § 44 a skal lyde:*
 
-> § 44 a.Gebyr for røyking i private kjøretøy med barn til stedeGebyr for brudd på røykeforbudet i § 28 annet ledd bokstav c kan ilegges av politiet. Gebyr kan ilegges både fører av kjøretøyet og den som røyker, dersom vedkommende har fylt 18 år.Blir ilagt gebyr ikke betalt innen tre uker etter ileggelsen, forhøyes gebyret med 50 prosent. Dette gjelder selv om gebyret er påklaget. Gebyr ilagt i medhold av denne bestemmelsen er tvangsgrunnlag for utlegg.Ileggelse av gebyr kan innklages for tingretten innen tre uker. Blir klage fremsatt etter utløpet av fristen, skal den avvises med mindre retten finner at oversittelsen ikke kan legges den som er ilagt gebyret, til last og klagen er fremsatt så snart det var mulig. Retten kan oppheve ilagt gebyr hvis den finner at vilkårene for ileggelse ikke forelå. Avgjørelsen treffes ved kjennelse og kan ankes. Ileggelse av gebyr kan ikke prøves under tvangsinndrivelse av gebyret.Kongen kan i forskrift fastsette størrelsen på gebyret og nærmere regler om ileggelse og inndriving, betalingsfrist og klagebehandlingen.
+> § 44 a. Gebyr for røyking i private kjøretøy med barn til stede
 >
-> § 44 a.Gebyr for røyking i private kjøretøy med barn til stede
+> Gebyr for brudd på røykeforbudet i § 28 annet ledd bokstav c kan ilegges av politiet. Gebyr kan ilegges både fører av kjøretøyet og den som røyker, dersom vedkommende har fylt 18 år.
+>
+> Blir ilagt gebyr ikke betalt innen tre uker etter ileggelsen, forhøyes gebyret med 50 prosent. Dette gjelder selv om gebyret er påklaget. Gebyr ilagt i medhold av denne bestemmelsen er tvangsgrunnlag for utlegg.
+>
+> Ileggelse av gebyr kan innklages for tingretten innen tre uker. Blir klage fremsatt etter utløpet av fristen, skal den avvises med mindre retten finner at oversittelsen ikke kan legges den som er ilagt gebyret, til last og klagen er fremsatt så snart det var mulig. Retten kan oppheve ilagt gebyr hvis den finner at vilkårene for ileggelse ikke forelå. Avgjørelsen treffes ved kjennelse og kan ankes. Ileggelse av gebyr kan ikke prøves under tvangsinndrivelse av gebyret.
+>
+> Kongen kan i forskrift fastsette størrelsen på gebyret og nærmere regler om ileggelse og inndriving, betalingsfrist og klagebehandlingen.
 >
 
 ## § 46
@@ -2308,9 +2415,7 @@ refid: "lov/1973-03-09-14"
 
 *§ 6 overskriften skal lyde:*
 
-> § 6.Registreringsplikt for engrossalg av tobakksvarer mv.
->
-> § 6.Registreringsplikt for engrossalg av tobakksvarer mv.
+> § 6. Registreringsplikt for engrossalg av tobakksvarer mv.
 >
 
 ### 2023-12-20 — lov/2023-12-20-107

@@ -5,15 +5,30 @@ refid: "lov/1917-12-14-17"
 
 # Endringshistorikk: Vassdragsreguleringsloven – vregl
 
+## (annet)
+
+### 2023-04-21 — lov/2023-04-21-7
+
+*I lov 14. desember 1917 nr. 17 om regulering og kraftutbygging i vassdrag skal § 31 lyde:*
+
+> § 31.Tilsyn og kontroll
+>
+> Konsesjonæren må tåle den kontroll med overholdelsen av de fastsatte betingelser i konsesjonen eller i medhold av denne som departementet finner nødvendig. Til dekning av kostnader til tilsyns- og kontrollarbeid innkreves gebyr eller sektoravgift.
+>
+> Departementet kan gi forskrift om gebyr eller sektoravgift og om innrapportering av opplysninger som er nødvendige for beregning av gebyret eller sektoravgiften.
+>
+> Gebyret eller sektoravgiften er tvangsgrunnlag for utlegg. Betales ikke sektoravgiften eller gebyret til forfallstid, svares deretter rente som fastsatt i medhold av lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. § 3 første ledd.
+>
+
 ## § 1 a
 
 ### 2024-03-22 — lov/2024-03-22-12
 
 *Ny § 1 a skal lyde:*
 
-> § 1 a.FormålLandets vannkraftressurser skal forvaltes og utnyttes til det beste for allmennheten. Loven skal legge til rette for at vassdragsreguleringer og overføringer samlet bidrar til god forsyningssikkerhet for elektrisk energi i Norge.
+> § 1 a. Formål
 >
-> § 1 a.Formål
+> Landets vannkraftressurser skal forvaltes og utnyttes til det beste for allmennheten. Loven skal legge til rette for at vassdragsreguleringer og overføringer samlet bidrar til god forsyningssikkerhet for elektrisk energi i Norge.
 >
 
 ## § 10
@@ -176,9 +191,13 @@ refid: "lov/1917-12-14-17"
 
 *Ny § 29 a skal lyde:*
 
-> § 29 a.Krav om strategi for å bidra til forsyningssikkerhetDen som har konsesjon til vassdragsregulering eller overføring etter denne loven, skal sørge for å utarbeide en strategi for å bidra til forsyningssikkerhet. Strategien skal inneholde opplysninger om hvordan konsesjonæren ved utnyttelse av reguleringer og overføringer bidrar til god forsyningssikkerhet.Departementet kan treffe enkeltvedtak om at strategien skal fremlegges dersom dette vurderes nødvendig av hensyn til vurderinger om forsyningssikkerhet. Dette gjelder uten hinder av taushetsplikt.Departementet kan gi forskrift om krav til innholdet i strategien og om oppfølging og fremleggelse av strategien.
+> § 29 a. Krav om strategi for å bidra til forsyningssikkerhet
 >
-> § 29 a.Krav om strategi for å bidra til forsyningssikkerhet
+> Den som har konsesjon til vassdragsregulering eller overføring etter denne loven, skal sørge for å utarbeide en strategi for å bidra til forsyningssikkerhet. Strategien skal inneholde opplysninger om hvordan konsesjonæren ved utnyttelse av reguleringer og overføringer bidrar til god forsyningssikkerhet.
+>
+> Departementet kan treffe enkeltvedtak om at strategien skal fremlegges dersom dette vurderes nødvendig av hensyn til vurderinger om forsyningssikkerhet. Dette gjelder uten hinder av taushetsplikt.
+>
+> Departementet kan gi forskrift om krav til innholdet i strategien og om oppfølging og fremleggelse av strategien.
 >
 
 ## § 33

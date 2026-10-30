@@ -11,6 +11,20 @@ refid: "lov/2005-06-03-37"
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
 
+### 2015-05-22 — forskrift/2015-05-22-524
+
+*Lov om endringer i lov om utdanningsstøtte (behovsprøving, innhenting av opplysninger) trer i kraft 22. mai 2015.*
+
+> Lov om endringer i lov om utdanningsstøtte (behovsprøving, innhenting av opplysninger) trer i kraft 22. mai 2015.
+>
+
+### 2020-05-26 — lov/2020-05-26-51
+
+*I lov 3. juni 2005 nr. 37 om utdanningsstøtte skal § 8 fjerde ledd lyde:*
+
+> Det kan gis utsettelse med betaling av hele terminbeløp i inntil 3 år eller inntil 6 år ved utsettelse av halve terminbeløp. I særlige tilfeller kan det gis utsettelse ut over disse grensene. Det kan gis rentefritak i forbindelse med videre utdanning, militærtjeneste, sykdom, arbeidsledighet eller omsorgsforpliktelser når låntakers inntekt er under fastsatte grenser, eller hvor andre forhold gjør at innkreving av renter vil virke urimelig.
+>
+
 ### 2021-06-11 — lov/2021-06-11-81
 
 *Nåværende kapittel V blir kapittel VI.*
@@ -22,6 +36,13 @@ refid: "lov/2005-06-03-37"
 ### 2021-06-11 — lov/2021-06-11-81
 
 *Nåværende §§ 24 til 26 blir ny §§ 26 til 28.*
+
+### 2024-08-01 — forskrift/2024-05-31-872
+
+*Lova tek til å gjelde 1. august 2024.*
+
+> Lova tek til å gjelde 1. august 2024.
+>
 
 ## § 10
 
@@ -38,9 +59,9 @@ refid: "lov/2005-06-03-37"
 
 *§ 12 skal lyde:*
 
-> § 12.NamsmyndighetKrav som nevnt i § 11 innkreves av Innkrevingsmyndigheten med mindre departementet bestemmer annet.
+> § 12. Namsmyndighet
 >
-> § 12.Namsmyndighet
+> Krav som nevnt i § 11 innkreves av Innkrevingsmyndigheten med mindre departementet bestemmer annet.
 >
 
 ## § 13
@@ -49,9 +70,9 @@ refid: "lov/2005-06-03-37"
 
 *§ 13 skal lyde:*
 
-> § 13.Overføring av fordringer til InnkrevingsmyndighetenVed vedvarende og grovt mislighold kan låntakers gjeld bli overført til Innkrevingsmyndigheten. En overføring av kravet til Innkrevingsmyndigheten medfører tap av rettigheter gitt i eller i medhold av denne lov. Dette gjelder likevel ikke ettergivelse av gjeld ved låntakers død.
+> § 13. Overføring av fordringer til Innkrevingsmyndigheten
 >
-> § 13.Overføring av fordringer til Innkrevingsmyndigheten
+> Ved vedvarende og grovt mislighold kan låntakers gjeld bli overført til Innkrevingsmyndigheten. En overføring av kravet til Innkrevingsmyndigheten medfører tap av rettigheter gitt i eller i medhold av denne lov. Dette gjelder likevel ikke ettergivelse av gjeld ved låntakers død.
 >
 
 ## § 14
@@ -66,9 +87,9 @@ refid: "lov/2005-06-03-37"
 
 *§ 17 skal lyde:*
 
-> § 17.InnkrevingInnkrevingsmyndigheten kan forvalte deler av regelverket om tilbakebetaling etter denne lov med forskrifter. For saker Innkrevingsmyndigheten behandler etter denne lov, har departementet instruksjonsmyndighet.
+> § 17. Innkreving
 >
-> § 17.Innkreving
+> Innkrevingsmyndigheten kan forvalte deler av regelverket om tilbakebetaling etter denne lov med forskrifter. For saker Innkrevingsmyndigheten behandler etter denne lov, har departementet instruksjonsmyndighet.
 >
 
 ## § 18

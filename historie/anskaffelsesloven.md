@@ -22,69 +22,132 @@ refid: "lov/2016-06-17-73"
 
 *Nye §§ 5a til 5p skal lyde:*
 
-> § 5a.Plikt til å ha anskaffelsesstrategi og -rutinerOppdragsgiver skal ha en anskaffelsesstrategi for å ivareta de samfunnshensynene i §§ 5b til 5p som er relevante for oppdragsgivers virksomhet. Strategien skal være offentlig tilgjengelig.Oppdragsgiver skal ha egnede rutiner for å ivareta de samfunnshensynene i §§ 5b til 5p som er relevante for oppdragsgivers virksomhet.
+> § 5a. Plikt til å ha anskaffelsesstrategi og -rutiner
 >
-> § 5a.Plikt til å ha anskaffelsesstrategi og -rutiner
+> Oppdragsgiver skal ha en anskaffelsesstrategi for å ivareta de samfunnshensynene i §§ 5b til 5p som er relevante for oppdragsgivers virksomhet. Strategien skal være offentlig tilgjengelig.
 >
-> § 5b.Klima- og miljøhensynOppdragsgiver skal ta hensyn til klima og miljø i alle anskaffelser for å redusere anskaffelsens samlede klimaavtrykk og miljøbelastning.I anskaffelser som er kunngjøringspliktige etter forskrifter fastsatt med hjemmel i denne loven, skal oppdragsgiver som vekter tildelingskriteriene, vekte klima- og miljøhensyn med minimum tretti prosent. Hvis oppdragsgiver angir tildelingskriteriene i prioritert rekkefølge, skal klima- og miljøhensyn være blant de tre høyest prioriterte. Tildelingskriterier etter første og andre punktum kan erstattes eller kombineres med klima- og miljøkrav i kravspesifikasjonen dersom dette gir en bedre klima- eller miljøeffekt. Dette skal begrunnes i anskaffelsesdokumentene.Forpliktelsene etter første og andre ledd gjelder ikke dersom anskaffelsen etter sin art har et uvesentlig klimaavtrykk og miljøbelastning, eller dersom forpliktelsene går på bekostning av vesentlige interesser innenfor helse, sikkerhet eller beredskap. Dette skal begrunnes i anskaffelsesdokumentene.
+> Oppdragsgiver skal ha egnede rutiner for å ivareta de samfunnshensynene i §§ 5b til 5p som er relevante for oppdragsgivers virksomhet.
 >
-> § 5b.Klima- og miljøhensyn
+> § 5b. Klima- og miljøhensyn
 >
-> § 5c.Standardiserte minimumskrav og -kriterier om klima og miljøForpliktelsene etter § 5b gjelder ikke dersom oppdragsgiver i lov eller forskrift fastsatt med hjemmel i denne loven er pålagt å stille standardiserte minimumskrav eller -kriterier til klimaavtrykk eller miljøbelastning. Kravene eller kriteriene må gjelde hovedytelsen som anskaffes.Departementet kan gi forskrift om standardiserte minimumskrav og -kriterier om klimaavtrykk og miljøbelastning.
+> Oppdragsgiver skal ta hensyn til klima og miljø i alle anskaffelser for å redusere anskaffelsens samlede klimaavtrykk og miljøbelastning.
 >
-> § 5c.Standardiserte minimumskrav og -kriterier om klima og miljø
+> I anskaffelser som er kunngjøringspliktige etter forskrifter fastsatt med hjemmel i denne loven, skal oppdragsgiver som vekter tildelingskriteriene, vekte klima- og miljøhensyn med minimum tretti prosent. Hvis oppdragsgiver angir tildelingskriteriene i prioritert rekkefølge, skal klima- og miljøhensyn være blant de tre høyest prioriterte. Tildelingskriterier etter første og andre punktum kan erstattes eller kombineres med klima- og miljøkrav i kravspesifikasjonen dersom dette gir en bedre klima- eller miljøeffekt. Dette skal begrunnes i anskaffelsesdokumentene.
 >
-> § 5d.Sikkerhet og beredskapOppdragsgiver kan stille krav eller kriterier i alle ledd av en anskaffelsesprosess for å ivareta sikkerhets- og beredskapshensyn. Oppdragsgiver bør vurdere å stille slike krav i anskaffelser der det er relevant.
+> Forpliktelsene etter første og andre ledd gjelder ikke dersom anskaffelsen etter sin art har et uvesentlig klimaavtrykk og miljøbelastning, eller dersom forpliktelsene går på bekostning av vesentlige interesser innenfor helse, sikkerhet eller beredskap. Dette skal begrunnes i anskaffelsesdokumentene.
 >
-> § 5d.Sikkerhet og beredskap
+> § 5c. Standardiserte minimumskrav og -kriterier om klima og miljø
 >
-> § 5e.Kontraktsvilkår om lønns- og arbeidsvilkårI tjeneste- og bygge- og anleggskontrakter skal oppdragsgiver stille kontraktsvilkår om at ansatte og innleide hos leverandør og underleverandører som direkte medvirker til å oppfylle kontrakten, minst har:lønns- og arbeidsvilkår som er i samsvar med gjeldende forskrifter om allmenngjort tariffavtale gitt med hjemmel i lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler § 5, ellerlønns- og arbeidsvilkår som er i samsvar med bestemmelser om arbeidstid, lønn, herunder overtidstillegg, skift- og turnustillegg og ulempetillegg, og dekning av utgifter til reise, kost og losji i en gjeldende landsomfattende tariffavtale for den aktuelle bransje.Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.Oppdragsgiver skal i kontrakten kreve at leverandør og underleverandører på forespørsel dokumenterer overholdelse av kontraktsvilkåret.
+> Forpliktelsene etter § 5b gjelder ikke dersom oppdragsgiver i lov eller forskrift fastsatt med hjemmel i denne loven er pålagt å stille standardiserte minimumskrav eller -kriterier til klimaavtrykk eller miljøbelastning. Kravene eller kriteriene må gjelde hovedytelsen som anskaffes.
 >
-> § 5e.Kontraktsvilkår om lønns- og arbeidsvilkår
+> Departementet kan gi forskrift om standardiserte minimumskrav og -kriterier om klimaavtrykk og miljøbelastning.
 >
-> § 5f.Kontraktsvilkår om lønns- og arbeidsvilkår i bygge-, anleggs- og renholdskontrakterI bygge- og anleggskontrakter og kontrakter om renholdstjenester skal oppdragsgiver stille kontraktsvilkår om at ansatte og innleide hos leverandør og underleverandører som direkte medvirker til å oppfylle kontrakten, har følgende:obligatorisk tjenestepensjon i samsvar med lov om obligatorisk tjenestepensjonHMS-kort i samsvar med krav til HMS-kort fastsatt i forskrifter gitt med hjemmel i arbeidsmiljøloven §§ 1-4 og 4-1 om HMS-kort på bygge- og anleggsplasser og godkjenning av renholdsvirksomheter og om kjøp av renholdstjenester.I bygge- og anleggskontrakter skal oppdragsgiver i tillegg stille kontraktsvilkår om informasjonsplikt og språkferdigheter i samsvar med krav om sikkerhet, helse og arbeidsmiljø på bygge- eller anleggsplasser fastsatt i forskrift gitt med hjemmel i arbeidsmiljøloven §§ 1-4 og 4-1 om sikkerhet, helse og arbeidsmiljø på bygge- eller anleggsplasser.Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.Oppdragsgiver skal i kontrakten kreve at leverandør og underleverandører på forespørsel dokumenterer overholdelse av kontraktsvilkårene.
+> § 5d. Sikkerhet og beredskap
 >
-> § 5f.Kontraktsvilkår om lønns- og arbeidsvilkår i bygge-, anleggs- og renholdskontrakter
+> Oppdragsgiver kan stille krav eller kriterier i alle ledd av en anskaffelsesprosess for å ivareta sikkerhets- og beredskapshensyn. Oppdragsgiver bør vurdere å stille slike krav i anskaffelser der det er relevant.
 >
-> § 5g.Kontraktsvilkår om betaling av lønn og annen godtgjørelse via bank eller annet foretak med rett til å drive betalingsformidlingI kontrakter om utførelse av bygge- og anleggsarbeider eller renholdstjenester skal oppdragsgiver stille kontraktsvilkår om at lønn og annen godtgjørelse skal utbetales via bank eller annet foretak med rett til å drive betalingsformidling. Kravet gjelder utbetalinger til ansatte og innleide som direkte medvirker i utførelsen av arbeidet eller tjenesten.Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.Oppdragsgiver skal stille kontraktsvilkår om at leverandør og underleverandører på forespørsel dokumenterer overholdelse av kontraktsvilkåret.Alle avtaler leverandøren inngår om utføring av arbeid under kontrakten, skal inneholde tilsvarende bestemmelser.Unntaket for andre betalingsmåter i medhold av skatteloven § 6-51 tredje ledd gjelder så langt det passer.Unntaket i arbeidsmiljøloven § 14-15 annet ledd gjelder så langt det passer.
+> § 5e. Kontraktsvilkår om lønns- og arbeidsvilkår
 >
-> § 5g.Kontraktsvilkår om betaling av lønn og annen godtgjørelse via bank eller annet foretak med rett til å drive betalingsformidling
+> I tjeneste- og bygge- og anleggskontrakter skal oppdragsgiver stille kontraktsvilkår om at ansatte og innleide hos leverandør og underleverandører som direkte medvirker til å oppfylle kontrakten, minst har:lønns- og arbeidsvilkår som er i samsvar med gjeldende forskrifter om allmenngjort tariffavtale gitt med hjemmel i lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler § 5, ellerlønns- og arbeidsvilkår som er i samsvar med bestemmelser om arbeidstid, lønn, herunder overtidstillegg, skift- og turnustillegg og ulempetillegg, og dekning av utgifter til reise, kost og losji i en gjeldende landsomfattende tariffavtale for den aktuelle bransje.
 >
-> § 5h.Kontraktsvilkår om bruk av lærlingerI tjenestekontrakter og kontrakter om bygge- og anleggsarbeider skal oppdragsgiver stille kontraktsvilkår om at leverandør er tilknyttet en lærlingordning. Oppdragsgiver skal også stille kontraktsvilkår om at minst ti prosent av arbeidet utføres av lærlinger, og at minst én av dem som deltar i arbeidet med å oppfylle kontrakten, skal være lærling.Kravene etter første ledd gjelder når følgende vilkår er oppfylt:Kontraktens verdi er lik eller overstiger kunngjøringsplikt.Kontrakten har en varighet på over tre måneder.Kontraktens hovedelement omfatter arbeider der det er relevant å benytte arbeidskraft med fag- eller svennebrev.Det er et særlig behov for læreplasser. Med dette menes at underdekningen på læreplasser er mer enn ti prosent av søkertallet til læreplasser innenfor et utdanningsprogram.Utenlandske leverandører kan oppfylle kontraktsvilkåret ved å benytte lærling fra en lærlingordning i opprinnelseslandet. Dersom opprinnelseslandet ikke har en lærlingordning, kan kontraktsvilkåret oppfylles ved å benytte praksiselev fra en opplæringsordning i opprinnelseslandet.Kravene etter første ledd gjelder ikke når et slikt kontraktsvilkår er uforholdsmessig sett hen til kontraktens innhold, omfanget av arbeidet der det er relevant å benytte arbeidskraft med fag- eller svennebrev, eller av andre grunner.Kontraktsvilkåret er oppfylt dersom en leverandør som er tilknyttet en lærlingordning, kan dokumentere ett av følgende forhold:at det er gjort reelle forsøk på å inngå kontrakt med lærling uten å lykkesat lærlingen ikke kan benyttes i kontraktsarbeidet på grunn av forhold med lærlingen, og reelle forsøk på å inngå kontrakt med ny lærling ikke har lykkes.
+> Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.
 >
-> § 5h.Kontraktsvilkår om bruk av lærlinger
+> Oppdragsgiver skal i kontrakten kreve at leverandør og underleverandører på forespørsel dokumenterer overholdelse av kontraktsvilkåret.
 >
-> § 5i.Krav til kontrollOppdragsgiver skal føre nødvendig kontroll av at kontraktsvilkårene som nevnt i §§ 5e første ledd, 5f første ledd, 5g og 5h overholdes. Risikovurderingen og etterfølgende dokumentasjonskontroll skal dokumenteres.Leverandører og underleverandører skal på forespørsel utlevere nødvendig dokumentasjon til oppdragsgiver for å dokumentere overholdelse av kontraktsvilkår som nevnt i §§ 5e, 5f og 5g.
+> § 5f. Kontraktsvilkår om lønns- og arbeidsvilkår i bygge-, anleggs- og renholdskontrakter
 >
-> § 5i.Krav til kontroll
+> I bygge- og anleggskontrakter og kontrakter om renholdstjenester skal oppdragsgiver stille kontraktsvilkår om at ansatte og innleide hos leverandør og underleverandører som direkte medvirker til å oppfylle kontrakten, har følgende:obligatorisk tjenestepensjon i samsvar med lov om obligatorisk tjenestepensjonHMS-kort i samsvar med krav til HMS-kort fastsatt i forskrifter gitt med hjemmel i arbeidsmiljøloven §§ 1-4 og 4-1 om HMS-kort på bygge- og anleggsplasser og godkjenning av renholdsvirksomheter og om kjøp av renholdstjenester.
 >
-> § 5j.Tilsyn med krav til lønns- og arbeidsvilkårArbeidstilsynet fører innenfor sitt myndighetsområde tilsyn med at pliktene etter §§ 5e, 5f og 5i overholdes. Tilsynet gir pålegg og treffer enkeltvedtak som er nødvendige for gjennomføring av bestemmelsen. Arbeidsmiljøloven §§ 18-4, 18-5, 18-6 første, andre, sjette, sjuende og åttende ledd samt §§ 18-7, 18-8, 18-10, 18-10 a, 18-12 og 18-13 får tilsvarende anvendelse.Havindustritilsynet har innenfor sitt myndighetsområde tilsvarende tilsynsansvar og myndighet.
+> I bygge- og anleggskontrakter skal oppdragsgiver i tillegg stille kontraktsvilkår om informasjonsplikt og språkferdigheter i samsvar med krav om sikkerhet, helse og arbeidsmiljø på bygge- eller anleggsplasser fastsatt i forskrift gitt med hjemmel i arbeidsmiljøloven §§ 1-4 og 4-1 om sikkerhet, helse og arbeidsmiljø på bygge- eller anleggsplasser.
 >
-> § 5j.Tilsyn med krav til lønns- og arbeidsvilkår
+> Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.
 >
-> § 5k.Kontraktsvilkår om begrensning i antall ledd i leverandørkjedenOppdragsgiver skal stille kontraktsvilkår om at leverandør ikke har mer enn to ledd i leverandørkjeden under seg når leverandøren skal utføre bygge- og anleggsarbeider eller renholdstjenester.Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.Oppdragsgiver kan åpne for flere ledd i leverandørkjeden dersom det er nødvendig for å sikre tilstrekkelig konkurranse. Det maksimale antallet ledd skal angis i kontrakten.Etter at kontrakt er inngått, kan oppdragsgiver godta flere ledd dersom det på grunn av uforutsette omstendigheter er nødvendig for å få gjennomført kontrakten.
+> Oppdragsgiver skal i kontrakten kreve at leverandør og underleverandører på forespørsel dokumenterer overholdelse av kontraktsvilkårene.
 >
-> § 5k.Kontraktsvilkår om begrensning i antall ledd i leverandørkjeden
+> § 5g. Kontraktsvilkår om betaling av lønn og annen godtgjørelse via bank eller annet foretak med rett til å drive betalingsformidling
 >
-> § 5l.Dokumentasjon av skatte- og avgiftsmessige forholdOppdragsgiver skal kreve at den valgte leverandøren gjør tilgjengelig opplysninger eller fremviser attest for skatt og merverdiavgift som dokumenterer etterlevelse av skatte- og avgiftsmessige forhold. Dette gjelder kun for norske leverandører.Opplysningene eller attesten skal ikke være eldre enn seks måneder regnet fra den dato oppdragsgiver meddeler hvem som har vunnet kontrakten.Ved bygge- og anleggskontrakter skal leverandøren kreve at norske underleverandører gjør tilgjengelig opplysninger eller fremviser attest for skatt og merverdiavgift som dokumenterer etterlevelse av skatte- og avgiftsmessige forhold ved inngåelse av kontrakter i tilknytning til oppdraget som overstiger en verdi på 500 000 kroner eksklusive merverdiavgift.Brudd på leverandørens plikt etter tredje ledd til å kreve dokumentasjon gir oppdragsgiver rett til å kreve at leverandøren erstatter vedkommende underleverandør med en underleverandør som kan levere dokumentasjon av skatte- og avgiftsmessige forhold. Oppdragsgiver kan også kreve at leverandøren erstatter en underleverandør som ikke har oppfylt sine forpliktelser til å betale skatter og avgifter. Eventuelle økonomiske krav fra underleverandører eller omkostninger for øvrig som følge av heving av avtaler med underleverandører i denne forbindelse skal bæres av leverandøren.
+> I kontrakter om utførelse av bygge- og anleggsarbeider eller renholdstjenester skal oppdragsgiver stille kontraktsvilkår om at lønn og annen godtgjørelse skal utbetales via bank eller annet foretak med rett til å drive betalingsformidling. Kravet gjelder utbetalinger til ansatte og innleide som direkte medvirker i utførelsen av arbeidet eller tjenesten.
 >
-> § 5l.Dokumentasjon av skatte- og avgiftsmessige forhold
+> Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.
 >
-> § 5m.Menneskerettigheter og anstendige arbeidsforholdVed anskaffelser hvor det er risiko for brudd på grunnleggende menneskerettigheter og anstendige arbeidsforhold, bør oppdragsgiver stille krav eller kriterier for å motvirke at slike brudd oppstår.
+> Oppdragsgiver skal stille kontraktsvilkår om at leverandør og underleverandører på forespørsel dokumenterer overholdelse av kontraktsvilkåret.
 >
-> § 5m.Menneskerettigheter og anstendige arbeidsforhold
+> Alle avtaler leverandøren inngår om utføring av arbeid under kontrakten, skal inneholde tilsvarende bestemmelser.
 >
-> § 5n.Universell utformingOppdragsgiver skal stille krav til universell utforming i offentlige kontrakter i samsvar med regler fastsatt i forskrift i medhold av denne loven.
+> Unntaket for andre betalingsmåter i medhold av skatteloven § 6-51 tredje ledd gjelder så langt det passer.
 >
-> § 5n.Universell utforming
+> Unntaket i arbeidsmiljøloven § 14-15 annet ledd gjelder så langt det passer.
 >
-> § 5o.InnovasjonFor å åpne for nye eller vesentlig endrede varer, tjenester, produksjonsmåter mv. kan oppdragsgiver stille egnede krav eller kriterier som fremmer innovasjon. Oppdragsgiver kan også åpne for alternative tilbud.En innovativ anskaffelse kan eksempelvis skje gjennom bruk av konkurranse med forhandling, innovasjonspartnerskap eller konkurransepreget dialog.
+> § 5h. Kontraktsvilkår om bruk av lærlinger
 >
-> § 5o.Innovasjon
+> I tjenestekontrakter og kontrakter om bygge- og anleggsarbeider skal oppdragsgiver stille kontraktsvilkår om at leverandør er tilknyttet en lærlingordning. Oppdragsgiver skal også stille kontraktsvilkår om at minst ti prosent av arbeidet utføres av lærlinger, og at minst én av dem som deltar i arbeidet med å oppfylle kontrakten, skal være lærling.
 >
-> § 5p.Krav om sanksjoner for brudd på kontraktsvilkår om samfunnshensynDer oppdragsgiver skal, eller har valgt å, innta kontraktsvilkår for å ivareta samfunnshensyn etter §§ 5b til 5m, skal oppdragsgiver i kontrakten innta egnede sanksjoner for leverandørens eller underleverandørens brudd på kontraktsvilkårene.
+> Kravene etter første ledd gjelder når følgende vilkår er oppfylt:Kontraktens verdi er lik eller overstiger kunngjøringsplikt.Kontrakten har en varighet på over tre måneder.Kontraktens hovedelement omfatter arbeider der det er relevant å benytte arbeidskraft med fag- eller svennebrev.Det er et særlig behov for læreplasser. Med dette menes at underdekningen på læreplasser er mer enn ti prosent av søkertallet til læreplasser innenfor et utdanningsprogram.
 >
-> § 5p.Krav om sanksjoner for brudd på kontraktsvilkår om samfunnshensyn
+> Utenlandske leverandører kan oppfylle kontraktsvilkåret ved å benytte lærling fra en lærlingordning i opprinnelseslandet. Dersom opprinnelseslandet ikke har en lærlingordning, kan kontraktsvilkåret oppfylles ved å benytte praksiselev fra en opplæringsordning i opprinnelseslandet.
+>
+> Kravene etter første ledd gjelder ikke når et slikt kontraktsvilkår er uforholdsmessig sett hen til kontraktens innhold, omfanget av arbeidet der det er relevant å benytte arbeidskraft med fag- eller svennebrev, eller av andre grunner.
+>
+> Kontraktsvilkåret er oppfylt dersom en leverandør som er tilknyttet en lærlingordning, kan dokumentere ett av følgende forhold:at det er gjort reelle forsøk på å inngå kontrakt med lærling uten å lykkesat lærlingen ikke kan benyttes i kontraktsarbeidet på grunn av forhold med lærlingen, og reelle forsøk på å inngå kontrakt med ny lærling ikke har lykkes.
+>
+> § 5i. Krav til kontroll
+>
+> Oppdragsgiver skal føre nødvendig kontroll av at kontraktsvilkårene som nevnt i §§ 5e første ledd, 5f første ledd, 5g og 5h overholdes. Risikovurderingen og etterfølgende dokumentasjonskontroll skal dokumenteres.
+>
+> Leverandører og underleverandører skal på forespørsel utlevere nødvendig dokumentasjon til oppdragsgiver for å dokumentere overholdelse av kontraktsvilkår som nevnt i §§ 5e, 5f og 5g.
+>
+> § 5j. Tilsyn med krav til lønns- og arbeidsvilkår
+>
+> Arbeidstilsynet fører innenfor sitt myndighetsområde tilsyn med at pliktene etter §§ 5e, 5f og 5i overholdes. Tilsynet gir pålegg og treffer enkeltvedtak som er nødvendige for gjennomføring av bestemmelsen. Arbeidsmiljøloven §§ 18-4, 18-5, 18-6 første, andre, sjette, sjuende og åttende ledd samt §§ 18-7, 18-8, 18-10, 18-10 a, 18-12 og 18-13 får tilsvarende anvendelse.
+>
+> Havindustritilsynet har innenfor sitt myndighetsområde tilsvarende tilsynsansvar og myndighet.
+>
+> § 5k. Kontraktsvilkår om begrensning i antall ledd i leverandørkjeden
+>
+> Oppdragsgiver skal stille kontraktsvilkår om at leverandør ikke har mer enn to ledd i leverandørkjeden under seg når leverandøren skal utføre bygge- og anleggsarbeider eller renholdstjenester.
+>
+> Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.
+>
+> Oppdragsgiver kan åpne for flere ledd i leverandørkjeden dersom det er nødvendig for å sikre tilstrekkelig konkurranse. Det maksimale antallet ledd skal angis i kontrakten.
+>
+> Etter at kontrakt er inngått, kan oppdragsgiver godta flere ledd dersom det på grunn av uforutsette omstendigheter er nødvendig for å få gjennomført kontrakten.
+>
+> § 5l. Dokumentasjon av skatte- og avgiftsmessige forhold
+>
+> Oppdragsgiver skal kreve at den valgte leverandøren gjør tilgjengelig opplysninger eller fremviser attest for skatt og merverdiavgift som dokumenterer etterlevelse av skatte- og avgiftsmessige forhold. Dette gjelder kun for norske leverandører.
+>
+> Opplysningene eller attesten skal ikke være eldre enn seks måneder regnet fra den dato oppdragsgiver meddeler hvem som har vunnet kontrakten.
+>
+> Ved bygge- og anleggskontrakter skal leverandøren kreve at norske underleverandører gjør tilgjengelig opplysninger eller fremviser attest for skatt og merverdiavgift som dokumenterer etterlevelse av skatte- og avgiftsmessige forhold ved inngåelse av kontrakter i tilknytning til oppdraget som overstiger en verdi på 500 000 kroner eksklusive merverdiavgift.
+>
+> Brudd på leverandørens plikt etter tredje ledd til å kreve dokumentasjon gir oppdragsgiver rett til å kreve at leverandøren erstatter vedkommende underleverandør med en underleverandør som kan levere dokumentasjon av skatte- og avgiftsmessige forhold. Oppdragsgiver kan også kreve at leverandøren erstatter en underleverandør som ikke har oppfylt sine forpliktelser til å betale skatter og avgifter. Eventuelle økonomiske krav fra underleverandører eller omkostninger for øvrig som følge av heving av avtaler med underleverandører i denne forbindelse skal bæres av leverandøren.
+>
+> § 5m. Menneskerettigheter og anstendige arbeidsforhold
+>
+> Ved anskaffelser hvor det er risiko for brudd på grunnleggende menneskerettigheter og anstendige arbeidsforhold, bør oppdragsgiver stille krav eller kriterier for å motvirke at slike brudd oppstår.
+>
+> § 5n. Universell utforming
+>
+> Oppdragsgiver skal stille krav til universell utforming i offentlige kontrakter i samsvar med regler fastsatt i forskrift i medhold av denne loven.
+>
+> § 5o. Innovasjon
+>
+> For å åpne for nye eller vesentlig endrede varer, tjenester, produksjonsmåter mv. kan oppdragsgiver stille egnede krav eller kriterier som fremmer innovasjon. Oppdragsgiver kan også åpne for alternative tilbud.
+>
+> En innovativ anskaffelse kan eksempelvis skje gjennom bruk av konkurranse med forhandling, innovasjonspartnerskap eller konkurransepreget dialog.
+>
+> § 5p. Krav om sanksjoner for brudd på kontraktsvilkår om samfunnshensyn
+>
+> Der oppdragsgiver skal, eller har valgt å, innta kontraktsvilkår for å ivareta samfunnshensyn etter §§ 5b til 5m, skal oppdragsgiver i kontrakten innta egnede sanksjoner for leverandørens eller underleverandørens brudd på kontraktsvilkårene.
+>
+
+### 2026-07-01 — forskrift/2026-03-06-358
+
+*Delt ikraftsetting av Stortingets vedtak 5. februar av lov om endringer i anskaffelsesloven (samfunnshensyn mv.). Følgende trer i kraft 1. juli 2026:*
+
+> Delt ikraftsetting av Stortingets vedtak 5. februar av lov om endringer i anskaffelsesloven (samfunnshensyn mv.). Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del I med unntak av opphevelsen av § 4.
 >
 
 ## § 1
@@ -93,9 +156,9 @@ refid: "lov/2016-06-17-73"
 
 *§ 1 skal lyde:*
 
-> § 1.FormålFormålet med loven er å fremme effektiv og bærekraftig bruk av samfunnets ressurser. Med bærekraftig menes økonomisk, sosial og miljømessig bærekraft. Loven skal også bidra til at det offentlige ivaretar sikkerhets- og beredskapshensyn og opptrer på en tillitvekkende måte.
+> § 1. Formål
 >
-> § 1.Formål
+> Formålet med loven er å fremme effektiv og bærekraftig bruk av samfunnets ressurser. Med bærekraftig menes økonomisk, sosial og miljømessig bærekraft. Loven skal også bidra til at det offentlige ivaretar sikkerhets- og beredskapshensyn og opptrer på en tillitvekkende måte.
 >
 
 ## § 16
@@ -140,9 +203,11 @@ refid: "lov/2016-06-17-73"
 
 *§ 3 skal lyde:*
 
-> § 3.RettighetshavereRettighetshavere etter loven er virksomheter etablerti Norgei andre EØS-stater, i det omfang de har rettigheter etter EØS-avtaleni en stat som er part til WTO-avtalen om offentlige innkjøp, i det omfang de har rettigheter etter denne avtaleni en stat som er part til en annen internasjonal avtale som Norge er forpliktet av, i det omfang de har rettigheter etter den aktuelle avtalen.Virksomheter som ikke omfattes av første ledd, kan delta i konkurranser om offentlige kontrakter. Disse virksomhetene har likevel ikke rettighetene som følger av denne loven eller forskrifter fastsatt med hjemmel i loven.
+> § 3. Rettighetshavere
 >
-> § 3.Rettighetshavere
+> Rettighetshavere etter loven er virksomheter etablerti Norgei andre EØS-stater, i det omfang de har rettigheter etter EØS-avtaleni en stat som er part til WTO-avtalen om offentlige innkjøp, i det omfang de har rettigheter etter denne avtaleni en stat som er part til en annen internasjonal avtale som Norge er forpliktet av, i det omfang de har rettigheter etter den aktuelle avtalen.
+>
+> Virksomheter som ikke omfattes av første ledd, kan delta i konkurranser om offentlige kontrakter. Disse virksomhetene har likevel ikke rettighetene som følger av denne loven eller forskrifter fastsatt med hjemmel i loven.
 >
 
 ## § 4

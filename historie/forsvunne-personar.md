@@ -5,6 +5,15 @@ refid: "lov/2015-05-12-27"
 
 # Endringshistorikk: Lov om forsvunne personar – fsvl
 
+## (annet)
+
+### 2018-06-15 — lov/2018-06-15-37
+
+*I lov 12. mai 2015 nr. 27 om forsvunne personar skal § 8 nytt fjerde ledd lyde:*
+
+> Reglane i første til tredje ledd gjeld òg når ein person har døydd i utlandet, og det ikkje kan skaffast dokumentasjon på dødsfallet som norske styresmakter godtek for å registrere dødsfallet i Folkeregisteret. Reglane elles i denne lova gjeld tilsvarande for slike saker så langt dei høver.
+>
+
 ## § 15
 
 ### 2020-12-18 — lov/2020-12-18-149

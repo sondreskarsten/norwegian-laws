@@ -13,7 +13,3 @@ refid: "lov/2017-04-28-23"
 
 > Forskningsinstitusjoner skal sikre at forskningen ved institusjonen skjer i henhold til anerkjente forskningsetiske normer. Institusjonen har ansvaret for:nødvendig opplæring av studenter, doktorgradskandidater og ansatte i anerkjente forskningsetiske normer ogat alle som utfører eller deltar i forskningen, er kjent med anerkjente forskningsetiske normer.
 >
-> nødvendig opplæring av studenter, doktorgradskandidater og ansatte i anerkjente forskningsetiske normer og
->
-> at alle som utfører eller deltar i forskningen, er kjent med anerkjente forskningsetiske normer.
->

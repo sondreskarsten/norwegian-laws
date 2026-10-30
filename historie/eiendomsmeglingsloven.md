@@ -41,6 +41,9 @@ refid: "lov/2007-06-29-73"
 
 *§ 2-1 tredje ledd skal lyde:*
 
+> (3) Departementet kan gi forskrift om at eiendomsmegling mot godtgjørelse også kan drives av foretak som yter rettslig bistand etter reglene i advokatloven kapittel 14.
+>
+
 ### 2024-06-21 — lov/2024-06-21-46
 
 *§ 2-1 første ledd nr. 2 skal lyde:*
@@ -51,6 +54,9 @@ refid: "lov/2007-06-29-73"
 ### 2024-06-21 — lov/2024-06-21-46
 
 *§ 2-1 tredje ledd skal lyde:*
+
+> (3) Departementet kan gi forskrift om at eiendomsmegling mot godtgjørelse også kan drives av foretak som yter rettslig bistand etter reglene i advokatloven kapittel 14.
+>
 
 ## § 2-2
 
@@ -78,9 +84,11 @@ refid: "lov/2007-06-29-73"
 
 *§ 2-7 skal lyde:*
 
-> § 2-7.Sikkerhetsstillelse(1) Foretak og advokat som driver eiendomsmegling, jf. § 2-1, må stille sikkerhet som dekker det ansvar de kan pådra seg under utøvelse av eiendomsmeglingsvirksomheten.(2) Departementet kan i forskrift fastsette nærmere regler om sikkerhet som nevnt i første ledd. Departementet kan i forskrift eller enkeltvedtak gjøre unntak fra kravet i første ledd.
+> § 2-7. Sikkerhetsstillelse
 >
-> § 2-7.Sikkerhetsstillelse
+> (1) Foretak og advokat som driver eiendomsmegling, jf. § 2-1, må stille sikkerhet som dekker det ansvar de kan pådra seg under utøvelse av eiendomsmeglingsvirksomheten.
+>
+> (2) Departementet kan i forskrift fastsette nærmere regler om sikkerhet som nevnt i første ledd. Departementet kan i forskrift eller enkeltvedtak gjøre unntak fra kravet i første ledd.
 >
 
 ## § 2-8
@@ -123,9 +131,19 @@ refid: "lov/2007-06-29-73"
 
 *§ 2-9 skal lyde:*
 
-> § 2-9.Krav til ledelsen og ansatte(1) Styremedlemmer og daglig leder i eiendomsmeglingsforetak, jf. § 2-1, skal ha relevante kvalifikasjoner og yrkeserfaring, ha ført en hederlig vandel, jf. tredje ledd, og for øvrig ikke ha utvist utilbørlig atferd som gir grunn til å anta at stillingen eller vervet ikke vil kunne ivaretas på forsvarlig måte.(2) Foretaket skal ha en fagansvarlig person (fagansvarlig), som enten har eiendomsmeglerbrev, jf. § 4-2, advokatbevilling eller tillatelse etter § 4-3. Vedkommende skal være egnet til å sikre at foretaket drives i samsvar med lover, forskrifter og god meglerskikk. Dersom foretakets styre finner det forsvarlig, kan samme person være fagansvarlig for flere filialer. Finanstilsynet kan gi tillatelse til at samme person er fagansvarlig for mer enn ett foretak.(3) Personer som nevnt i første og annet ledd skal legge frem avgrenset uttømmende politiattest etter politiregisterloven § 41 nr. 1, jf. forskrift departementet gir etter sjette ledd.(4) Første og tredje ledd gjelder tilsvarende for eiendomsmeglerfullmektiger, jf. § 4-5 annet ledd, og medhjelpere som har bestått eksamen i oppgjør, jf. § 4-4 annet ledd, i eiendomsmeglingsforetak eller hos advokat som driver eiendomsmegling, jf. § 2-1. Første punktum gjelder likevel ikke for autorisert fullmektig, jf. lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand § 11.(5) Eiendomsmeglingsforetak skal innen 14 dager sende melding til Finanstilsynet ved skifte av styremedlem, daglig leder og fagansvarlig. Det samme gjelder ved ansettelse av oppgjørsmedhjelpere og eiendomsmeglerfullmektiger som nevnt i fjerde ledd.(6) Departementet kan i forskrift gi nærmere regler til utfylling og gjennomføring av denne paragrafen, herunder om foretakets plikt til å gi melding etter femte ledd, om rettigheter og plikter for fagansvarlig, samt om hvilke straffbare forhold som skal avmerkes på politiattesten og om behandling av denne.
+> § 2-9. Krav til ledelsen og ansatte
 >
-> § 2-9.Krav til ledelsen og ansatte
+> (1) Styremedlemmer og daglig leder i eiendomsmeglingsforetak, jf. § 2-1, skal ha relevante kvalifikasjoner og yrkeserfaring, ha ført en hederlig vandel, jf. tredje ledd, og for øvrig ikke ha utvist utilbørlig atferd som gir grunn til å anta at stillingen eller vervet ikke vil kunne ivaretas på forsvarlig måte.
+>
+> (2) Foretaket skal ha en fagansvarlig person (fagansvarlig), som enten har eiendomsmeglerbrev, jf. § 4-2, advokatbevilling eller tillatelse etter § 4-3. Vedkommende skal være egnet til å sikre at foretaket drives i samsvar med lover, forskrifter og god meglerskikk. Dersom foretakets styre finner det forsvarlig, kan samme person være fagansvarlig for flere filialer. Finanstilsynet kan gi tillatelse til at samme person er fagansvarlig for mer enn ett foretak.
+>
+> (3) Personer som nevnt i første og annet ledd skal legge frem avgrenset uttømmende politiattest etter politiregisterloven § 41 nr. 1, jf. forskrift departementet gir etter sjette ledd.
+>
+> (4) Første og tredje ledd gjelder tilsvarende for eiendomsmeglerfullmektiger, jf. § 4-5 annet ledd, og medhjelpere som har bestått eksamen i oppgjør, jf. § 4-4 annet ledd, i eiendomsmeglingsforetak eller hos advokat som driver eiendomsmegling, jf. § 2-1. Første punktum gjelder likevel ikke for autorisert fullmektig, jf. lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand § 11.
+>
+> (5) Eiendomsmeglingsforetak skal innen 14 dager sende melding til Finanstilsynet ved skifte av styremedlem, daglig leder og fagansvarlig. Det samme gjelder ved ansettelse av oppgjørsmedhjelpere og eiendomsmeglerfullmektiger som nevnt i fjerde ledd.
+>
+> (6) Departementet kan i forskrift gi nærmere regler til utfylling og gjennomføring av denne paragrafen, herunder om foretakets plikt til å gi melding etter femte ledd, om rettigheter og plikter for fagansvarlig, samt om hvilke straffbare forhold som skal avmerkes på politiattesten og om behandling av denne.
 >
 
 ## § 3-2
@@ -155,6 +173,9 @@ refid: "lov/2007-06-29-73"
 ### 2025-04-10 — lov/2025-04-10-10
 
 *§ 3-2 fjerde ledd skal lyde:*
+
+> (4) Departementet kan i forskrift fastsette nærmere regler om behandling og sikring av klientmidler.
+>
 
 ## § 3-7
 
@@ -304,46 +325,15 @@ refid: "lov/2007-06-29-73"
 
 *§ 6-7 annet ledd skal lyde:*
 
-> eiendommens registerbetegnelse og adresse,
->
-> eierforhold,
->
-> tinglyste forpliktelser,
->
-> tilliggende rettigheter,
->
-> grunnarealer,
->
-> bebyggelsens arealer og angivelse av alder og byggemåte,
->
-> ferdigattest eller midlertidig brukstillatelse,
->
-> eventuell adgang til utleie av eiendommen eller deler av denne til boligformål,
->
-> verdien ved skattefastsettingen og offentlige avgifter,
->
-> forholdet til endelige offentlige planer, konsesjonsplikt og odelsrett, der det er relevant,
->
-> spesifikasjon over faste løpende kostnader,
->
-> hvis kjøpesum er fastsatt, totalkostnad som omfatter andel av fellesgjeld, alle gebyrer, avgifter og øvrige kostnader,
->
-> hvis kjøpesum ikke er fastsatt, en samlet oppstilling som omfatter prisantydning, andel av fellesgjeld, alle gebyrer, avgifter og øvrige kostnader, samt summen av disse beløpene,
->
-> hva som er avtalt om oppdragstakerens vederlag og rett til å kreve dekning av utlegg, jf. § 6-4 første ledd nr. 4 til 6,
->
-> oppdragstakerens registrerte navn, forretningsadresse og organisasjonsnummer,
->
-> oppdragstakerens samarbeid med eller tilknytning til andre foretak med produkter eller tjenester som tilbys partene i forbindelse med oppdraget,
->
-> hvem som er ansvarlig megler for oppdraget og
->
-> fremgangsmåten ved budgivning og budgivers rettigheter og plikter.
+> (2) Oppdragstakeren plikter før handel sluttes å gi kjøperen en skriftlig oppgave som minst inneholder følgende opplysninger:eiendommens registerbetegnelse og adresse,eierforhold,tinglyste forpliktelser,tilliggende rettigheter,grunnarealer,bebyggelsens arealer og angivelse av alder og byggemåte,ferdigattest eller midlertidig brukstillatelse,eventuell adgang til utleie av eiendommen eller deler av denne til boligformål,verdien ved skattefastsettingen og offentlige avgifter,forholdet til endelige offentlige planer, konsesjonsplikt og odelsrett, der det er relevant,spesifikasjon over faste løpende kostnader,hvis kjøpesum er fastsatt, totalkostnad som omfatter andel av fellesgjeld, alle gebyrer, avgifter og øvrige kostnader,hvis kjøpesum ikke er fastsatt, en samlet oppstilling som omfatter prisantydning, andel av fellesgjeld, alle gebyrer, avgifter og øvrige kostnader, samt summen av disse beløpene,hva som er avtalt om oppdragstakerens vederlag og rett til å kreve dekning av utlegg, jf. § 6-4 første ledd nr. 4 til 6,oppdragstakerens registrerte navn, forretningsadresse og organisasjonsnummer,oppdragstakerens samarbeid med eller tilknytning til andre foretak med produkter eller tjenester som tilbys partene i forbindelse med oppdraget,hvem som er ansvarlig megler for oppdraget ogfremgangsmåten ved budgivning og budgivers rettigheter og plikter.
 >
 
 ### 2025-04-10 — lov/2025-04-10-10
 
 *§ 6-7 sjette ledd skal lyde:*
+
+> (6) Med unntak av salg av bolig som ennå ikke er fullført, kan oppdragstakeren ikke markedsføre eiendommen for salg før oppgave som nevnt i annet ledd er ferdigstilt og tilgjengelig.
+>
 
 ## § 6-8
 
@@ -351,9 +341,23 @@ refid: "lov/2007-06-29-73"
 
 *§ 6-8 skal lyde:*
 
-> § 6-8.Oppdragstakerens plikter ved budgivningen(1) Oppdragstakeren skal legge til rette for en forsvarlig avvikling av budrunden.(2) Oppdragstakeren skal oppfordre oppdragsgiveren til ikke å inngå avtale direkte med budgiveren, men henvise til oppdragstakeren. Oppdragstakeren skal videre oppfordre oppdragsgiveren til å konferere med oppdragstakeren, dersom oppdragsgiveren mottar bud direkte.(3) Oppdragstakeren skal ikke formidle bud med kortere akseptfrist enn det som er fastsatt av departementet i forskrift. Oppdragstakeren skal ikke formidle bud med forbehold om at bud eller forbehold i bud skal holdes skjult for andre budgivere og interessenter.(4) Oppdragstakeren skal kun formidle bud, aksepter og avslag som er gitt skriftlig. Oppdragstakeren skal innhente gyldig legitimasjon og signatur fra budgiveren før bud formidles.(5) Oppdragstakeren skal så langt det er nødvendig og mulig orientere oppdragsgiveren, budgivere og øvrige interessenter skriftlig om mottatte bud, herunder budets størrelse, forbehold og akseptfrist. Oppdragstakeren skal så snart som mulig bekrefte skriftlig overfor budgivere at budene deres er mottatt. Oppdragstakeren skal også bistå ved vurdering av bud.(6) Oppdragstakeren skal kontrollere budgiverens finansiering før handel sluttes. Har oppdragstakeren ikke foretatt slik kontroll, skal selgeren før handel sluttes gis skriftlig orientering om grunnen til dette, og om mulige konsekvenser av at kontrollen ikke er foretatt.(7) Oppdragstakeren skal gi partene i handelen og budgivere innsyn i budjournalen i samsvar med nærmere regler fastsatt i forskrift av departementet.(8) Departementet kan i forskrift fastsette nærmere regler om oppdragstakerens plikter ved budgivningen.
+> § 6-8. Oppdragstakerens plikter ved budgivningen
 >
-> § 6-8.Oppdragstakerens plikter ved budgivningen
+> (1) Oppdragstakeren skal legge til rette for en forsvarlig avvikling av budrunden.
+>
+> (2) Oppdragstakeren skal oppfordre oppdragsgiveren til ikke å inngå avtale direkte med budgiveren, men henvise til oppdragstakeren. Oppdragstakeren skal videre oppfordre oppdragsgiveren til å konferere med oppdragstakeren, dersom oppdragsgiveren mottar bud direkte.
+>
+> (3) Oppdragstakeren skal ikke formidle bud med kortere akseptfrist enn det som er fastsatt av departementet i forskrift. Oppdragstakeren skal ikke formidle bud med forbehold om at bud eller forbehold i bud skal holdes skjult for andre budgivere og interessenter.
+>
+> (4) Oppdragstakeren skal kun formidle bud, aksepter og avslag som er gitt skriftlig. Oppdragstakeren skal innhente gyldig legitimasjon og signatur fra budgiveren før bud formidles.
+>
+> (5) Oppdragstakeren skal så langt det er nødvendig og mulig orientere oppdragsgiveren, budgivere og øvrige interessenter skriftlig om mottatte bud, herunder budets størrelse, forbehold og akseptfrist. Oppdragstakeren skal så snart som mulig bekrefte skriftlig overfor budgivere at budene deres er mottatt. Oppdragstakeren skal også bistå ved vurdering av bud.
+>
+> (6) Oppdragstakeren skal kontrollere budgiverens finansiering før handel sluttes. Har oppdragstakeren ikke foretatt slik kontroll, skal selgeren før handel sluttes gis skriftlig orientering om grunnen til dette, og om mulige konsekvenser av at kontrollen ikke er foretatt.
+>
+> (7) Oppdragstakeren skal gi partene i handelen og budgivere innsyn i budjournalen i samsvar med nærmere regler fastsatt i forskrift av departementet.
+>
+> (8) Departementet kan i forskrift fastsette nærmere regler om oppdragstakerens plikter ved budgivningen.
 >
 
 ## § 6-9
@@ -378,15 +382,24 @@ refid: "lov/2007-06-29-73"
 
 *§ 6-10 andre ledd skal lyde:*
 
+> (2) Oppdragstakere som bistår med oppgaver som nevnt i første ledd nr. 1, 2 eller 4 er etter særavgiftsloven kapittel 21, lov 6. juni 2003 nr. 39 om burettslag og lov 7. juni 1935 nr. 2 om tinglysing, ansvarlig for at avgifter, gebyrer og renter knyttet til tinglysing av skjøte og andre dokumenter som har sammenheng med salget, blir betalt.
+>
+
 ## § 7-2
 
 ### 2025-04-10 — lov/2025-04-10-10
 
 *§ 7-2 tredje ledd skal lyde:*
 
+> (3) Uavhengig av avtalt vederlagsform skal oppdragstakeren skrive regning. Regningen skal gjøre det mulig for oppdragsgiveren å bedømme arten og omfanget av arbeidet som er utført.
+>
+
 ### 2025-04-10 — lov/2025-04-10-10
 
 *§ 7-2 femte ledd skal lyde:*
+
+> (5) Departementet kan i forskrift fastsette nærmere regler om oppdragstakerens vederlag, plikten til å gi tilbud basert på timepris som nevnt i annet ledd og plikten til å skrive regning som nevnt i tredje ledd.
+>
 
 ## § 8-2
 
@@ -439,9 +452,9 @@ refid: "lov/2007-06-29-73"
 
 *Ny § 8-6 a skal lyde:*
 
-> § 8-6 a.Adgang til å forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelperFinanstilsynet kan forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelper dersom personen anses uegnet fordi vedkommendehar gjort seg skyldig i straffbar handling og dette må antas å svekke den tillit som er nødvendig for yrkesutøvelsen, ellergrovt eller gjentatte ganger har overtrådt sine plikter etter lov eller forskrifter.
+> § 8-6 a. Adgang til å forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelper
 >
-> § 8-6 a.Adgang til å forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelper
+> Finanstilsynet kan forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelper dersom personen anses uegnet fordi vedkommendehar gjort seg skyldig i straffbar handling og dette må antas å svekke den tillit som er nødvendig for yrkesutøvelsen, ellergrovt eller gjentatte ganger har overtrådt sine plikter etter lov eller forskrifter.
 >
 
 ## § 8-9
@@ -457,9 +470,21 @@ refid: "lov/2007-06-29-73"
 
 *§ 8-9 skal lyde:*
 
-> § 8-9.Overtredelsesgebyr(1) Finanstilsynet kan ilegge fysiske personer eller foretak overtredelsesgebyr ved overtredelse av § 2-2, § 2-9 fjerde og femte ledd, §§ 3-1 til 3-3, § 3-5, § 3-6, §§ 5-1 til 5-5, § 6-2, § 6-3, § 6-7, § 6-8, § 6-10 tredje ledd, § 7-1, § 7-2, § 7-4 tredje ledd, § 7-6 og § 8-1 annet og tredje ledd. Overtredelse av påbud, forbud eller vilkår fastsatt med hjemmel i bestemmelsene nevnt i første punktum, kan sanksjoneres på samme måte. I forskrift som gis i medhold av loven, kan det fastsettes at den som forsettlig eller uaktsomt overtrer forskriften, kan ilegges overtredelsesgebyr.(2) Medvirkning til overtredelse av bestemmelsene nevnt i første ledd kan sanksjoneres på samme måte.(3) Fysiske personer kan ilegges overtredelsesgebyr for forsettlige eller grovt uaktsomme overtredelser. Foretak kan ilegges overtredelsesgebyr for forsettlige eller uaktsomme overtredelser begått av foretaket eller noen som har handlet på foretakets vegne.(4) Fysiske personer kan ilegges overtredelsesgebyr på inntil 2 millioner kroner. Foretak kan ilegges overtredelsesgebyr på inntil 5 millioner kroner eller 5 prosent av foretakets årsomsetning etter siste godkjente årsregnskap dersom dette utgjør et høyere beløp. For et morselskap eller et datterselskap av et morselskap som skal utarbeide konsernregnskap etter direktiv 2013/34/EU, skal den relevante omsetningen være den totale årsomsetningen, eller tilsvarende inntekt etter relevante regnskapsdirektiver, etter siste tilgjengelige konsoliderte årsregnskap godkjent av ledelsen i det overordnede morforetaket.(5) Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen er opphørt. Fristen avbrytes ved at Finanstilsynet sender forhåndsvarsel eller fatter vedtak om overtredelsesgebyr.(6) Ved avgjørelsen av om overtredelsesgebyr skal ilegges, og ved utmåling, kan det blant annet tas hensyn til eventuelle tap påført tredjeperson som følge av overtredelsen og i hvilken grad overtrederen har samarbeidet med Finanstilsynet, i tillegg til momentene i forvaltningsloven § 44 tredje ledd første punktum for fysiske personer og § 46 annet ledd for foretak.(7) Departementet kan fastsette forskrift om renter ved forsinket betaling av overtredelsesgebyr.
+> § 8-9. Overtredelsesgebyr
 >
-> § 8-9.Overtredelsesgebyr
+> (1) Finanstilsynet kan ilegge fysiske personer eller foretak overtredelsesgebyr ved overtredelse av § 2-2, § 2-9 fjerde og femte ledd, §§ 3-1 til 3-3, § 3-5, § 3-6, §§ 5-1 til 5-5, § 6-2, § 6-3, § 6-7, § 6-8, § 6-10 tredje ledd, § 7-1, § 7-2, § 7-4 tredje ledd, § 7-6 og § 8-1 annet og tredje ledd. Overtredelse av påbud, forbud eller vilkår fastsatt med hjemmel i bestemmelsene nevnt i første punktum, kan sanksjoneres på samme måte. I forskrift som gis i medhold av loven, kan det fastsettes at den som forsettlig eller uaktsomt overtrer forskriften, kan ilegges overtredelsesgebyr.
+>
+> (2) Medvirkning til overtredelse av bestemmelsene nevnt i første ledd kan sanksjoneres på samme måte.
+>
+> (3) Fysiske personer kan ilegges overtredelsesgebyr for forsettlige eller grovt uaktsomme overtredelser. Foretak kan ilegges overtredelsesgebyr for forsettlige eller uaktsomme overtredelser begått av foretaket eller noen som har handlet på foretakets vegne.
+>
+> (4) Fysiske personer kan ilegges overtredelsesgebyr på inntil 2 millioner kroner. Foretak kan ilegges overtredelsesgebyr på inntil 5 millioner kroner eller 5 prosent av foretakets årsomsetning etter siste godkjente årsregnskap dersom dette utgjør et høyere beløp. For et morselskap eller et datterselskap av et morselskap som skal utarbeide konsernregnskap etter direktiv 2013/34/EU, skal den relevante omsetningen være den totale årsomsetningen, eller tilsvarende inntekt etter relevante regnskapsdirektiver, etter siste tilgjengelige konsoliderte årsregnskap godkjent av ledelsen i det overordnede morforetaket.
+>
+> (5) Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen er opphørt. Fristen avbrytes ved at Finanstilsynet sender forhåndsvarsel eller fatter vedtak om overtredelsesgebyr.
+>
+> (6) Ved avgjørelsen av om overtredelsesgebyr skal ilegges, og ved utmåling, kan det blant annet tas hensyn til eventuelle tap påført tredjeperson som følge av overtredelsen og i hvilken grad overtrederen har samarbeidet med Finanstilsynet, i tillegg til momentene i forvaltningsloven § 44 tredje ledd første punktum for fysiske personer og § 46 annet ledd for foretak.
+>
+> (7) Departementet kan fastsette forskrift om renter ved forsinket betaling av overtredelsesgebyr.
 >
 
 ## (annet)
@@ -487,6 +512,9 @@ refid: "lov/2007-06-29-73"
 
 *5.I lov 29. juni 2007 nr. 73 om eiendomsmegling skal § 8-1 første ledd innledningen lyde:*
 
+> (1) Finanstilsynet fører kontroll og tilsyn etter finanstilsynsloven med
+>
+
 ### 2025-04-10 — lov/2025-04-10-10
 
 *Nåværende sjette ledd blir syvende ledd.*
@@ -499,7 +527,14 @@ refid: "lov/2007-06-29-73"
 
 *Nåværende § 8-9 blir § 8-10 og skal lyde:*
 
-> § 8-10.StraffForsettlig eller uaktsom overtredelse av bestemmelser gitt i eller i medhold av §§ 2-1, 3-2, 3-6 og 4-5 straffes med bøter eller fengsel inntil 3 år, eller inntil 6 år ved særlig skjerpende omstendigheter. Det samme gjelder overtredelse av påbud, forbud eller vilkår gitt i medhold av de nevnte bestemmelser.
+> § 8-10. Straff
 >
-> § 8-10.Straff
+> Forsettlig eller uaktsom overtredelse av bestemmelser gitt i eller i medhold av §§ 2-1, 3-2, 3-6 og 4-5 straffes med bøter eller fengsel inntil 3 år, eller inntil 6 år ved særlig skjerpende omstendigheter. Det samme gjelder overtredelse av påbud, forbud eller vilkår gitt i medhold av de nevnte bestemmelser.
+>
+
+### 2025-07-01 — forskrift/2025-06-10-987
+
+*Ikraftsetting av lov 10. april 2025 nr. 10 om endringer i eiendomsmeglingsloven (budgivning, egnethetskrav og sanksjoner mv.). Loven trer i kraft 1. juli 2025.*
+
+> Ikraftsetting av lov 10. april 2025 nr. 10 om endringer i eiendomsmeglingsloven (budgivning, egnethetskrav og sanksjoner mv.). Loven trer i kraft 1. juli 2025.
 >

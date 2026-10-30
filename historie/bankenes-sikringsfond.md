@@ -7,6 +7,13 @@ refid: "lov/2018-03-23-3"
 
 ## (annet)
 
+### 2019-01-01 — forskrift/2018-03-23-452
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
 ### 2026-06-19 — lov/2026-06-19-40
 
 *I lov 23. mars 2018 nr. 3 om Bankenes sikringsfond skal § 2 tredje ledd nytt annet punktum lyde:*
@@ -17,6 +24,9 @@ refid: "lov/2018-03-23-3"
 ### 2026-06-19 — lov/2026-06-19-48
 
 *I lov 23. mars 2018 nr. 3 om Bankenes sikringsfond skal § 1 sjette ledd lyde:*
+
+> (6) Konkurs eller rekonstruksjonsforhandling kan ikke åpnes i Bankenes sikringsfond.
+>
 
 ## § 3
 

@@ -5,6 +5,15 @@ refid: "lov/2017-06-16-51"
 
 # Endringshistorikk: Likestillings- og diskrimineringsloven – ldl
 
+## (annet)
+
+### 2022-04-08 — forskrift/2022-04-08-559
+
+*Kongens myndighet etter lov 16. juni 2017 nr. 51 om likestilling og forbud mot diskriminering (likestillings- og diskrimineringsloven) § 3, § 17, § 26, § 26a og § 28 delegeres til Kultur- og likestillingsdepartementet.*
+
+> Kongens myndighet etter lov 16. juni 2017 nr. 51 om likestilling og forbud mot diskriminering (likestillings- og diskrimineringsloven) § 3, § 17, § 26, § 26a og § 28 delegeres til Kultur- og likestillingsdepartementet.
+>
+
 ## § 10
 
 ### 2024-06-14 — lov/2024-06-14-33
@@ -177,9 +186,13 @@ refid: "lov/2017-06-16-51"
 
 *§ 33 skal lyde:*
 
-> § 33.Arbeidstakeres rettigheter ved foreldrepermisjonArbeidstakere som er eller har vært i foreldrepermisjon etter arbeidsmiljøloven § 12-5 eller skipsarbeidsloven § 7-5, har rett til åvende tilbake til samme, eventuelt tilsvarende, stilling,nyte godt av forbedringer av arbeidsvilkårene som arbeidstakeren ellers ville vært berettiget til under fraværet ogfremme lønnskrav og bli vurdert i lønnsforhandlinger på samme måte som de øvrige arbeidstakerne i virksomheten.Første ledd gjelder ikke fastsettelse eller endringer av lønns- og arbeidsvilkår som er en følge av andre forhold enn foreldrepermisjon.Paragrafen her gjelder tilsvarende ved andre permisjoner knyttet til graviditet og fødsel etter arbeidsmiljøloven §§ 12-2 til 12-8 eller skipsarbeidsloven §§ 7-2 til 7-7.
+> § 33. Arbeidstakeres rettigheter ved foreldrepermisjon
 >
-> § 33.Arbeidstakeres rettigheter ved foreldrepermisjon
+> Arbeidstakere som er eller har vært i foreldrepermisjon etter arbeidsmiljøloven § 12-5 eller skipsarbeidsloven § 7-5, har rett til åvende tilbake til samme, eventuelt tilsvarende, stilling,nyte godt av forbedringer av arbeidsvilkårene som arbeidstakeren ellers ville vært berettiget til under fraværet ogfremme lønnskrav og bli vurdert i lønnsforhandlinger på samme måte som de øvrige arbeidstakerne i virksomheten.
+>
+> Første ledd gjelder ikke fastsettelse eller endringer av lønns- og arbeidsvilkår som er en følge av andre forhold enn foreldrepermisjon.
+>
+> Paragrafen her gjelder tilsvarende ved andre permisjoner knyttet til graviditet og fødsel etter arbeidsmiljøloven §§ 12-2 til 12-8 eller skipsarbeidsloven §§ 7-2 til 7-7.
 >
 
 ## § 36

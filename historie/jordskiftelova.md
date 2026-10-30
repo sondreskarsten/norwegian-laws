@@ -29,9 +29,11 @@ refid: "lov/2013-06-21-100"
 
 *§ 3-4 skal lyde:*
 
-> § 3-4.Ny utforming av eigedom og alltidvarande bruksrettJordskifteretten kan forme ut eigedom og alltidvarande bruksrett på nytt. Bruksretten må liggje til fast eigedom, eller ha grunnlag i samisk reindrift.Jordskifteretten kan påby at vassleidningar, damanlegg, kraftleidningar, gjerde, anlegg og liknande som står på grunn som går i byte etter første ledd, blir overførte til ny eigar. Det same gjeld bygningar.
+> § 3-4. Ny utforming av eigedom og alltidvarande bruksrett
 >
-> § 3-4.Ny utforming av eigedom og alltidvarande bruksrett
+> Jordskifteretten kan forme ut eigedom og alltidvarande bruksrett på nytt. Bruksretten må liggje til fast eigedom, eller ha grunnlag i samisk reindrift.
+>
+> Jordskifteretten kan påby at vassleidningar, damanlegg, kraftleidningar, gjerde, anlegg og liknande som står på grunn som går i byte etter første ledd, blir overførte til ny eigar. Det same gjeld bygningar.
 >
 
 ## § 3-8
@@ -199,3 +201,19 @@ refid: "lov/2013-06-21-100"
 ### 2013-12-13 — lov/2013-12-13-131
 
 *§ 9-7 nr. 11 oppheves.*
+
+## (annet)
+
+### 2016-01-01 — forskrift/2015-12-11-1445
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2017-06-16 — lov/2017-06-16-58
+
+*I lov 21. juni 2013 nr. 100 om fastsetjing og endring av eigedoms- og rettshøve på fast eigedom m.m. skal § 2-5 annet ledd fjerde punktum lyde:*
+
+> Meddommarar og skjønnsmedlemmer er ikkje fritekne for val til utvalet av jordskiftemeddommarar.
+>

@@ -953,6 +953,13 @@ refid: "lov/1989-06-16-69"
 
 ## (annet)
 
+### 2004-04-23 — lov/2004-04-23-18
+
+*I lov 16. juni 1989 nr. 69 om forsikringsavtaler skal § 16-1 fjerde ledd lyde:*
+
+> Ved livrenteforsikring kan rentenyterens fordringshavere søke dekning i den løpende livrente i samsvar med lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett §§ 2-6, 2-7 og 2-11.
+>
+
 ### 2005-04-29 — lov/2005-04-29-22
 
 *Nåværende § 2-4 blir ny § 2-3.*
@@ -1000,6 +1007,20 @@ refid: "lov/1989-06-16-69"
 ### 2008-06-27 — lov/2008-06-27-65
 
 *Nåværende annet og tredje ledd blir nye fjerde og femte ledd.*
+
+### 2008-12-19 — lov/2008-12-19-112
+
+*I lov 16. juni 1989 nr. 69 om forsikringsavtaler skal § 15-1 tredje ledd annet punktum lyde:*
+
+> Satt forsikringstakeren i uskiftet bo på grunnlag av ekteskap i samsvar med arveloven kapittel III, inngår forsikringssummen i de midler som skal deles likt mellom førsteavdødes og lengstlevendes arvinger, jf arveloven § 26 første ledd første punktum.
+>
+
+### 2020-04-17 — lov/2020-04-17-25
+
+*I lov 16. juni 1989 nr. 69 om forsikringsavtaler skal § 19-7 nytt tredje ledd lyde:*
+
+> Retten til å fortsette forsikringsforholdet etter første ledd gjelder tilsvarende for arbeidstaker som er medlem av foretakets pensjonsordning under permittering iht. innskuddspensjonsloven § 4-3 fjerde ledd, foretakspensjonsloven § 3-7 fjerde ledd eller tjenestepensjonsloven § 3-6 fjerde ledd. Forsikringsselskapet skal sende melding som nevnt i første ledd tredje punktum til medlemmene. Fristen i første ledd siste punktum gjelder tilsvarende. Ved gjeninntreden i arbeidsforholdet etter permittering har medlemmet rett til å avslutte forsikringsforholdet og få tilbakebetalt uavløpt premie. Det skal ikke stilles krav om ny egenerklæring, arbeidsdyktighetserklæring eller karensperiode ved gjeninntreden i arbeidsforholdet.
+>
 
 ### 2022-02-18 — lov/2022-02-18-5
 
@@ -1218,6 +1239,13 @@ refid: "lov/1989-06-16-69"
 *I ny § 24-2 skal annet punktum lyde:*
 
 > For eldre forsikringsavtaler gjelder loven med de unntak og særregler som følger av §§ 24-3 og 24-4.
+>
+
+### 2023-06-16 — lov/2023-06-16-38
+
+*I lov 16. juni 1989 nr. 69 om forsikringsavtaler skal § 22-3 annet ledd lyde:*
+
+> Tilsynet utføres i samsvar med reglene i markedsføringsloven §§ 32 til 41, § 42 første ledd annet punktum og §§ 43 til 43 c når ikke annet følger av tredje ledd eller forskrift etter fjerde ledd.
 >
 
 ### 2024-06-21 — lov/2024-06-21-41

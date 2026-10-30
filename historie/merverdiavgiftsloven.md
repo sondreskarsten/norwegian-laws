@@ -282,9 +282,15 @@ refid: "lov/2009-06-19-58"
 
 *§ 3-30 annet ledd skal lyde:*
 
+> (2) Dersom mottakeren av tjenesten er hjemmehørende utenfor merverdiavgiftsområdet, skal det beregnes merverdiavgift når tjenesten er til bruk i merverdiavgiftsområdet av det samme rettssubjektet som mottar tjenesten. Plikten til å beregne merverdiavgift forutsetter at tjenesten er til bruk av næringsdrivende eller offentlig virksomhet hjemmehørende i merverdiavgiftsområdet.
+>
+
 ### 2026-01-01 — lov/2025-12-22-121
 
 *§ 3-30 tredje ledd skal lyde:*
+
+> (3) Plikten til å beregne merverdiavgift etter annet ledd gjelder ikke dersom tjenesten fullt ut er til bruk som ville gitt fradragsrett for inngående merverdiavgift. Det samme gjelder dersom virksomheten kan dokumentere at det er beregnet merverdiavgift av tjenesten utenfor merverdiavgiftsområdet, og sannsynliggjøre at denne merverdiavgiften ikke kan fradragsføres.
+>
 
 ## § 4-1
 
@@ -308,6 +314,9 @@ refid: "lov/2009-06-19-58"
 
 *§ 4-7 tredje ledd skal lyde:*
 
+> (3) Departementet kan gi forskrift om hva som menes med endelig konstatert tapt og nærstående, samt om beregning og forlengelse av perioden på 24 måneder.
+>
+
 ## § 4-8
 
 ### 2012-12-07 — lov/2012-12-07-78
@@ -327,6 +336,9 @@ refid: "lov/2009-06-19-58"
 
 *§ 4-12 nytt tredje ledd skal lyde:*
 
+> (3) Departementet kan gi forskrift om beregningsgrunnlaget for merverdiavgift for fjernleverbare tjenester som er avgiftspliktige etter § 3-30 annet ledd.
+>
+
 ## § 5-1
 
 ### 2010-07-01 — lov/2010-06-25-32
@@ -340,9 +352,15 @@ refid: "lov/2009-06-19-58"
 
 *§ 5-1 nytt tredje ledd skal lyde:*
 
+> (3) Departementet kan gi forskrift om forenklet beregning av merverdiavgift for varer som reisende innfører til personlig bruk ut over avgiftsfri kvote.
+>
+
 ### 2024-12-20 — lov/2024-12-20-88
 
 *§ 5-1 annet ledd skal lyde:*
+
+> (2) Lovens §§ 5-2 til 5-12 gjelder i den utstrekning det følger av Stortingets vedtak om merverdiavgift at det skal beregnes merverdiavgift med redusert sats.
+>
 
 ## § 5-7
 
@@ -372,9 +390,11 @@ refid: "lov/2009-06-19-58"
 
 *Ny § 5-12 skal lyde:*
 
-> § 5-12.Vann fra vannverk og avløpstjenester(1) Det skal beregnes merverdiavgift med redusert sats ved omsetning og uttak av vann fra vannverk og avløpstjenester.(2) Departementet kan gi forskrift til utfylling og gjennomføring av første ledd, herunder om hva som anses som vann fra vannverk og avløpstjenester.
+> § 5-12. Vann fra vannverk og avløpstjenester
 >
-> § 5-12.Vann fra vannverk og avløpstjenester
+> (1) Det skal beregnes merverdiavgift med redusert sats ved omsetning og uttak av vann fra vannverk og avløpstjenester.
+>
+> (2) Departementet kan gi forskrift til utfylling og gjennomføring av første ledd, herunder om hva som anses som vann fra vannverk og avløpstjenester.
 >
 
 ## § 6-1
@@ -393,6 +413,9 @@ refid: "lov/2009-06-19-58"
 ### 2024-01-01 — lov/2023-12-20-100
 
 *§ 6-1 første ledd skal lyde:*
+
+> (1) Omsetning av aviser, herunder elektroniske aviser, som inneholder en overveiende andel tekst og stillbilder, er fritatt for merverdiavgift.
+>
 
 ## § 6-2
 
@@ -493,6 +516,9 @@ refid: "lov/2009-06-19-58"
 
 *§ 6-6 fyrste ledd skal lyde:*
 
+> (1) Omsetning av elektrisk kraft og energi levert fra alternative energikilder til husholdningsbruk i fylkene Finnmark, Troms og Nordland, er fritatt for merverdiavgift.
+>
+
 ## § 6-7
 
 ### 2012-12-07 — lov/2012-12-07-78
@@ -565,9 +591,17 @@ refid: "lov/2009-06-19-58"
 
 *§ 6-8 tredje ledd skal lyde:*
 
+> (3) Departementet kan gi forskrift om hvilke kjøretøy som omfattes av første og andre ledd.
+>
+
 ### 2026-01-01 — lov/2025-12-22-121
 
 *§ 6-8 første og annet ledd skal lyde:*
+
+> (1) Omsetning av personkjøretøy som bare bruker elektrisitet til framdrift, og hvor elektrisiteten leveres fra batteripakke som kan lades fra ekstern strømkilde, er fritatt for merverdiavgift for vederlag til og med 300 000 kroner.
+>
+> (2) Leasing av personkjøretøy som bare bruker elektrisitet til framdrift, og hvor elektrisiteten leveres fra batteripakke som kan lades fra ekstern strømkilde, er fritatt for merverdiavgift dersom leasingvirksomhetens kostpris for det leasede personkjøretøyet er 300 000 kroner eller lavere. Dersom kostprisen er høyere, skal det beregnes merverdiavgift av leien multiplisert med kostpris som overstiger 300 000 kroner dividert med kostpris. Med leasing menes utleie av personkjøretøy hvor leieperioden etter skriftlig avtale er minst 30 dager.
+>
 
 ## § 6-9
 
@@ -691,6 +725,9 @@ refid: "lov/2009-06-19-58"
 
 *§ 7-1 første ledd skal lyde:*
 
+> (1) Det skal ikke beregnes merverdiavgift ved innførsel av varer som nevnt i § 3-6 bokstav d, § 3-7 fjerde ledd, § 3-18, § 6-1, §§ 6-3 og 6-4, § 6-8 første ledd, § 6-10 fjerde ledd, § 6-11 fjerde ledd og § 6-15.
+>
+
 ## § 7-2
 
 ### 2015-12-18 — lov/2015-12-18-118
@@ -777,9 +814,11 @@ refid: "lov/2009-06-19-58"
 
 *Ny § 8-9 skal lyde:*
 
-> § 8-9.Fjernleverbare tjenester som er til bruk utenfor merverdiavgiftsområdet(1) Et registrert avgiftssubjekt har rett til fradrag for inngående merverdiavgift på anskaffelser av fjernleverbare tjenester som er til bruk av avgiftssubjektet utenfor merverdiavgiftsområdet.(2) Departementet kan gi forskrift om utfylling og gjennomføring av denne paragrafen, herunder fastsette vilkår for fradrag.
+> § 8-9. Fjernleverbare tjenester som er til bruk utenfor merverdiavgiftsområdet
 >
-> § 8-9.Fjernleverbare tjenester som er til bruk utenfor merverdiavgiftsområdet
+> (1) Et registrert avgiftssubjekt har rett til fradrag for inngående merverdiavgift på anskaffelser av fjernleverbare tjenester som er til bruk av avgiftssubjektet utenfor merverdiavgiftsområdet.
+>
+> (2) Departementet kan gi forskrift om utfylling og gjennomføring av denne paragrafen, herunder fastsette vilkår for fradrag.
 >
 
 ## § 9-1
@@ -827,6 +866,13 @@ refid: "lov/2009-06-19-58"
 
 *§ 9-6 fyrste til tredje ledd skal lyde:*
 
+> (1) Denne paragrafen gjelder for personkjøretøy som brukes som utleiekjøretøy i yrkesmessig utleievirksomhet eller som middel til å transportere personer mot vederlag i persontransportvirksomhet. Fradragsført inngående merverdiavgift for slike personkjøretøy skal tilbakeføres dersom kjøretøyet i løpet av de åtte første årene etter registreringen selges eller omdisponeres til bruk som ikke ville gitt fradragsrett. Det samme gjelder dersom virksomheten senere blir unntatt fra loven. Utførsel av personkjøretøy utløser ikke plikt til å tilbakeføre fradragsført inngående merverdiavgift.
+>
+> (2) Tilbakeføringsbeløpet fastsettes ved å multiplisere fradragsført inngående merverdiavgift med kjøretøyets verdi ved omdisponeringen og dividere med verdien ved fradragsføringen.
+>
+> (3) For personkjøretøy som ble registrert på virksomheten i regnskapsår som utløp for mer enn fem år siden, kan tilbakeføringsbeløpet fastsettes ved å multiplisere anslått inngående merverdiavgift med personkjøretøyets verdi ved omdisponeringen og dividere med kjøretøyets anslåtte verdi inklusive avgifter da kjøretøyet ble registrert på virksomheten.
+>
+
 ### 2024-06-25 — lov/2024-06-25-64
 
 *§ 9-6 noverande tredje og fjerde ledd vert fjerde og nytt femte ledd.*
@@ -857,9 +903,11 @@ refid: "lov/2009-06-19-58"
 
 *Ny § 10-5 skal lyde:*
 
-> § 10-5.Fjernleverbare tjenester som er til bruk utenfor merverdiavgiftsområdet(1) Næringsdrivende eller offentlig virksomhet som er hjemmehørende i merverdiavgiftsområdet, har rett til refusjon av inngående merverdiavgift på anskaffelser av fjernleverbare tjenester som er til bruk av virksomheten utenfor merverdiavgiftsområdet.(2) Departementet kan gi forskrift om utfylling og gjennomføring av denne paragrafen, herunder fastsette vilkår for refusjon.
+> § 10-5. Fjernleverbare tjenester som er til bruk utenfor merverdiavgiftsområdet
 >
-> § 10-5.Fjernleverbare tjenester som er til bruk utenfor merverdiavgiftsområdet
+> (1) Næringsdrivende eller offentlig virksomhet som er hjemmehørende i merverdiavgiftsområdet, har rett til refusjon av inngående merverdiavgift på anskaffelser av fjernleverbare tjenester som er til bruk av virksomheten utenfor merverdiavgiftsområdet.
+>
+> (2) Departementet kan gi forskrift om utfylling og gjennomføring av denne paragrafen, herunder fastsette vilkår for refusjon.
 >
 
 ## § 10-6
@@ -1028,6 +1076,9 @@ refid: "lov/2009-06-19-58"
 ### 2024-01-01 — lov/2024-01-12-6
 
 *§ 11-6 første ledd skal lyde:*
+
+> (1) Fiskere som skal levere skattemelding en gang i året etter bestemmelser gitt i medhold av skatteforvaltningsloven § 8-16, jf. § 8-3, kan etter forlis av fartøy, større redskapstap eller større skade på fartøy, fiskeredskap eller fartøyets varige driftsutstyr få utbetalt overskytende inngående merverdiavgift etter særskilt avregning før utløpet av vedkommende kalenderår.
+>
 
 ## § 12-1
 
@@ -1932,9 +1983,8 @@ refid: "lov/2009-06-19-58"
 
 *Kapittel 14 overskriften skal lyde:*
 
-### 2011-06-24 — lov/2011-06-24-27
-
-*I kapittel 14 skal ny deloverskrift foran § 14-1 lyde:*
+> I kapittel 14 skal ny deloverskrift foran § 14-1 lyde:
+>
 
 ### 2011-06-24 — lov/2011-06-24-27
 
@@ -2054,6 +2104,13 @@ refid: "lov/2009-06-19-58"
 > Dersom arbeidsgiver skal utstyre en arbeidstaker med id-kort etter regler gitt i medhold av arbeidsmiljøloven § 4-1 syvende ledd, kan avgiftsmyndighetene kreve at arbeidstakeren framviser id-kortet.
 >
 
+### 2013-07-01 — lov/2013-06-21-71
+
+*I lov 19. juni 2009 nr. 58 om merverdiavgift skal § 11-1 tredje ledd nytt andre punktum lyde:*
+
+> Representanten er likevel ikke ansvarlig for betaling av merverdiavgift dersom den næringsdrivende er hjemmehørende i et land som Norge har inngått avtale med om utveksling av opplysninger og gjensidig bistand til innfordring mv. av merverdiavgiftskrav.
+>
+
 ### 2013-12-13 — lov/2013-12-13-128
 
 *Nåværende annet ledd blir nytt tredje ledd.*
@@ -2069,6 +2126,13 @@ refid: "lov/2009-06-19-58"
 ### 2015-12-18 — lov/2015-12-18-118
 
 *§§ 11-2 og 13-3 oppheves.*
+
+### 2016-03-01 — forskrift/2016-02-19-164
+
+*Delt ikraftsetting av lov 18. desember 2015 nr. 118 om endringer i lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven). Del III trer i kraft 1. mars 2016.*
+
+> Delt ikraftsetting av lov 18. desember 2015 nr. 118 om endringer i lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven). Del III trer i kraft 1. mars 2016.
+>
 
 ### 2017-01-01 — lov/2016-12-20-116
 
@@ -2096,6 +2160,13 @@ refid: "lov/2009-06-19-58"
 > Departementet kan treffe enkeltvedtak om fritak fra merverdiavgift ved omsetning av varer og tjenester til vedlikehold av våpensystemet F-35. Departementet kan gi forskrift om utfylling og gjennomføring av denne paragrafen, herunder fastsette vilkår for fritak.
 >
 
+### 2017-04-01 — forskrift/2017-03-24-375
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 31 om endring i lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven). Del I trer i kraft 1. april 2017.*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 31 om endring i lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven). Del I trer i kraft 1. april 2017.
+>
+
 ### 2017-06-16 — lov/2017-06-16-55
 
 *Nåværende bokstav c, d og e blir bokstav b, c og d.*
@@ -2116,9 +2187,30 @@ refid: "lov/2009-06-19-58"
 > Skatteloven § 13-2 får tilsvarende anvendelse for merverdiavgift.
 >
 
+### 2020-04-01 — forskrift/2020-02-07-112
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 98 om endringer i merverdiavgiftsloven. Loven romertall I trer i kraft 1. april 2020.*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 98 om endringer i merverdiavgiftsloven. Loven romertall I trer i kraft 1. april 2020.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2025
+
+*Lov om endringar i merverdiavgiftsloven trer i kraft 1. juli 2021.*
+
+> Lov om endringar i merverdiavgiftsloven trer i kraft 1. juli 2021.
+>
+
 ### 2022-10-27 — forskrift/2022-10-27-1802
 
 *Finansdepartementets myndighet etter lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven) kapittel 7 Varer som det ikke skal beregnes merverdiavgift av ved innførsel, delegeres til Skattedirektoratet.*
+
+### 2025-07-01 — forskrift/2025-06-17-1036
+
+*Lov 20. desember 2024 nr. 88 om endringer i merverdiavgiftsloven trer i kraft 1. juli 2025.*
+
+> Lov 20. desember 2024 nr. 88 om endringer i merverdiavgiftsloven trer i kraft 1. juli 2025.
+>
 
 ### 2026-01-01 — lov/2025-12-22-121
 

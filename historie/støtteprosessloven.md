@@ -7,13 +7,31 @@ refid: "lov/2022-03-04-7"
 
 ## (annet)
 
+### 2022-12-16 — lov/2022-12-16-94
+
+*I lov 4. mars 2022 nr. 7 om nasjonale saksbehandlingsregler i saker om offentlig støtte skal § 2 første ledd nytt annet punktum lyde:*
+
+> Departementet kan gi forskrift om gjennomføring i norsk rett av EØS-prosedyreregler.
+>
+
 ### 2025-06-20 — lov/2025-06-20-108
 
 *I lov 4. mars 2022 nr. 7 om nasjonale saksbehandlingsregler i saker om offentlig støtte skal § 2 lyde:*
 
-> § 2.VirkeområdeReglene i §§ 3 til 14 gjelder:Offentlig støtte som oppfyller vilkårene i EØS-avtalen artikkel 61 nr. 1Bagatellmessig støtte etter reglene i forordning (EU) nr. 2023/2831, som inntatt i EØS-avtalens vedlegg XV nr. 1eaBagatellmessig støtte til foretak som utfører tjenester av allmenn økonomisk betydning etter reglene i forordning (EU) nr. 2023/2832, som inntatt i EØS-avtalens vedlegg XV nr. 1ha.Departementet kan gi forskrift om gjennomføring i norsk rett av prosedyreregler for støtte regulert av EØS-avtalen.Reglene i §§ 15 til 17 gjelder tiltak som omfattes av OECD-avtalen om normale konkurranseforhold i skipsbyggingsindustrien og WTO-avtalen om subsidier og utjevningsavgifter.
+> § 2. Virkeområde
 >
-> § 2.Virkeområde
+> Reglene i §§ 3 til 14 gjelder:Offentlig støtte som oppfyller vilkårene i EØS-avtalen artikkel 61 nr. 1Bagatellmessig støtte etter reglene i forordning (EU) nr. 2023/2831, som inntatt i EØS-avtalens vedlegg XV nr. 1eaBagatellmessig støtte til foretak som utfører tjenester av allmenn økonomisk betydning etter reglene i forordning (EU) nr. 2023/2832, som inntatt i EØS-avtalens vedlegg XV nr. 1ha.
+>
+> Departementet kan gi forskrift om gjennomføring i norsk rett av prosedyreregler for støtte regulert av EØS-avtalen.
+>
+> Reglene i §§ 15 til 17 gjelder tiltak som omfattes av OECD-avtalen om normale konkurranseforhold i skipsbyggingsindustrien og WTO-avtalen om subsidier og utjevningsavgifter.
+>
+
+### 2025-08-01 — forskrift/2025-06-20-1090
+
+*Loven trer i kraft 1. august 2025.*
+
+> Loven trer i kraft 1. august 2025.
 >
 
 ### 2026-06-19 — lov/2026-06-19-62
@@ -24,9 +42,18 @@ refid: "lov/2022-03-04-7"
 
 *I lov 4. mars 2022 nr. 7 om nasjonale saksbehandlingsregler i saker om offentlig støtte skal § 7 lyde:*
 
-> § 7.RegistreringspliktStøttegiveren skal registrere opplysninger om offentlig støtte i Støtteregisteret. Støtteregisteret skal være et offentlig tilgjengelig register.Departementet kan gi forskrift om at støttegiveren skal registrere opplysninger i Støtteregisteret om tildelt og utbetalt offentlig støtte, om støtteordninger som ligger til grunn for støtten, og om omfanget av, innholdet i og tidspunktet for registreringsplikten.
+> § 7. Registreringsplikt
 >
-> § 7.Registreringsplikt
+> Støttegiveren skal registrere opplysninger om offentlig støtte i Støtteregisteret. Støtteregisteret skal være et offentlig tilgjengelig register.
+>
+> Departementet kan gi forskrift om at støttegiveren skal registrere opplysninger i Støtteregisteret om tildelt og utbetalt offentlig støtte, om støtteordninger som ligger til grunn for støtten, og om omfanget av, innholdet i og tidspunktet for registreringsplikten.
+>
+
+### 2026-07-01 — forskrift/2026-06-23-1323
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 3
@@ -53,7 +80,7 @@ refid: "lov/2022-03-04-7"
 
 *Ny § 6 a skal lyde:*
 
-> § 6 a.Prosedyreregler for offentlig støtteDel II i Avtale mellom EFTA-statene om opprettelse av et overvåkningsorgan og en domstol (ODA) protokoll 3 om oppgaver og myndighet for EFTAs overvåkningsorgan i forbindelse med statsstøtte gjelder som lov.
+> § 6 a. Prosedyreregler for offentlig støtte
 >
-> § 6 a.Prosedyreregler for offentlig støtte
+> Del II i Avtale mellom EFTA-statene om opprettelse av et overvåkningsorgan og en domstol (ODA) protokoll 3 om oppgaver og myndighet for EFTAs overvåkningsorgan i forbindelse med statsstøtte gjelder som lov.
 >

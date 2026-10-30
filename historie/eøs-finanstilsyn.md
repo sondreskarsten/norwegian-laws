@@ -22,9 +22,25 @@ refid: "lov/2016-06-17-30"
 
 *Nåværende § 6 blir ny § 8.*
 
+### 2017-01-01 — forskrift/2016-12-16-1608
+
+*Finansdepartementet viser til kongelig resolusjon 17. juni 2016 nr. 714 der myndigheten til å sette i kraft lov 17. juni 2016 nr. 30 om EØS-finanstilsyn etter § 6 ble delegert til departementet.*
+
+> Finansdepartementet viser til kongelig resolusjon 17. juni 2016 nr. 714 der myndigheten til å sette i kraft lov 17. juni 2016 nr. 30 om EØS-finanstilsyn etter § 6 ble delegert til departementet.
+>
+> Departementet setter i kraft lov 17. juni 2016 nr. 30 § 7 nr. 1 første ledd (verdipapirhandelloven § 3-14a) med virkning 1. januar 2017.
+>
+
 ### 2021-04-30 — lov/2021-04-30-26
 
 *I § 7 oppheves ny § 13-6 a i nr. 1 om endringer i lov 29. juni 2007 nr. 75 om verdipapirhandel.*
+
+### 2025-07-01 — forskrift/2025-05-27-867
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
 
 ## § 1
 
@@ -32,18 +48,18 @@ refid: "lov/2016-06-17-30"
 
 *§ 1 skal lyde:*
 
-> § 1.EØS-regler om Den europeiske banktilsynsmyndighetEØS-avtalen vedlegg IX nr. 31g (forordning (EU) nr. 1093/2010) om opprettelse av en europeisk tilsynsmyndighet (Den europeiske banktilsynsmyndighet) som endret ved forordning (EU) nr. 1022/2013 og forordning (EU) nr. 2023/1114, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+> § 1. EØS-regler om Den europeiske banktilsynsmyndighet
 >
-> § 1.EØS-regler om Den europeiske banktilsynsmyndighet
+> EØS-avtalen vedlegg IX nr. 31g (forordning (EU) nr. 1093/2010) om opprettelse av en europeisk tilsynsmyndighet (Den europeiske banktilsynsmyndighet) som endret ved forordning (EU) nr. 1022/2013 og forordning (EU) nr. 2023/1114, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
 >
 
 ### 2026-02-06 — lov/2026-02-06-3
 
 *§ 1 skal lyde:*
 
-> § 1.EØS-regler om Den europeiske banktilsynsmyndighetEØS-avtalen vedlegg IX nr. 31g (forordning (EU) nr. 1093/2010) om opprettelse av en europeisk tilsynsmyndighet (Den europeiske banktilsynsmyndighet) som endret ved forordning (EU) nr. 1022/2013 og forordning (EU) 2019/2033, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+> § 1. EØS-regler om Den europeiske banktilsynsmyndighet
 >
-> § 1.EØS-regler om Den europeiske banktilsynsmyndighet
+> EØS-avtalen vedlegg IX nr. 31g (forordning (EU) nr. 1093/2010) om opprettelse av en europeisk tilsynsmyndighet (Den europeiske banktilsynsmyndighet) som endret ved forordning (EU) nr. 1022/2013 og forordning (EU) 2019/2033, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
 >
 
 ## § 3
@@ -52,9 +68,9 @@ refid: "lov/2016-06-17-30"
 
 *§ 3 skal lyde:*
 
-> § 3.EØS-regler om Den europeiske verdipapir- og markedstilsynsmyndighetEØS-avtalen vedlegg IX nr. 31i (forordning (EU) nr. 1095/2010) om opprettelse av en europeisk tilsynsmyndighet (Den europeiske verdipapir- og markedstilsynsmyndighet), som endret ved direktiv 2011/61/EU og forordning (EU) nr. 2023/1114, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+> § 3. EØS-regler om Den europeiske verdipapir- og markedstilsynsmyndighet
 >
-> § 3.EØS-regler om Den europeiske verdipapir- og markedstilsynsmyndighet
+> EØS-avtalen vedlegg IX nr. 31i (forordning (EU) nr. 1095/2010) om opprettelse av en europeisk tilsynsmyndighet (Den europeiske verdipapir- og markedstilsynsmyndighet), som endret ved direktiv 2011/61/EU og forordning (EU) nr. 2023/1114, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
 >
 
 ## § 5

@@ -7,6 +7,36 @@ refid: "lov/2007-06-29-81"
 
 ## (annet)
 
+### 2007-12-14 — lov/2007-12-14-114
+
+*I lov 29. juni 2007 nr. 81 om samvirkeforetak § 164 om endringer i andre lover gjøres følgende endringer:*
+
+> I lov 29. juni 2007 nr. 81 om samvirkeforetak § 164 om endringer i andre lover gjøres følgende endringer:
+>
+> Endring i lov 19. juni 1969 nr. 66 om merverdiavgift § 52 annet ledd oppheves.
+>
+> Endring i lov 13. juni 1980 nr. 24 om ligningsforvaltning (ligningsloven) § 10-6 nr. 2 oppheves.
+>
+> Endring i lov 17. juni 2005 nr. 67 om betaling og innkreving av skatte- og avgiftskrav (skattebetalingsloven) § 5-16 annet ledd oppheves.
+>
+> Endringene under I trer i kraft straks.
+>
+
+### 2014-06-20 — lov/2014-06-20-25
+
+*I lov 29. juni 2007 nr. 81 om samvirkeforetak skal § 68 lyde:*
+
+> § 68.Rett for tilsette til å velje styremedlemmar i konsern og føderative samvirke
+>
+> (1) Når eit foretak høyrer til eit konsern, kan konsernet og eit fleirtal av dei tilsette, eller konsernet og ein eller fleire lokale fagforeiningar som omfattar eit fleirtal av dei tilsette i konsernet, inngå skriftleg avtale om at dei tilsette i konsernet ved bruk av § 67 skal reknast som tilsette i foretaket.
+>
+> (2) Når eit foretak tilhøyrer eit konsern, og det ikkje føreligg ei avtale etter første ledd, kan Kongen etter søknad frå konsernet, eit fleirtal av dei tilsette eller ein eller fleire lokale fagforeiningar som omfattar eit fleirtal av dei tilsette i konsernet, fastsetje at dei tilsette i konsernet ved bruk av § 67 skal reknast som tilsette i foretaket.
+>
+> (3) Første og andre ledd gjeld tilsvarande når eit foretak tilhøyrer ei gruppe av foretak som er knytt saman gjennom eigarinteresser eller sams leiing, medrekna føderativt samvirke.
+>
+> (4) Kongen kan fastsetje at paragrafen her berre skal gjelde for delar av eit konsern, eit føderativt samvirke eller ei anna gruppe som nemnd i tredje ledd.
+>
+
 ### 2021-05-28 — lov/2021-05-28-51
 
 *Paragrafoverskriften til § 36 skal lyde:*
@@ -75,9 +105,13 @@ refid: "lov/2007-06-29-81"
 
 *Ny § 101 b skal lyde:*
 
-> § 101 b.Berekraftsrapportering(1) I foretak som har plikt til å utarbeide berekraftsrapportering etter regnskapsloven § 2-3, skal revisor attestere berekraftsrapporteringa. Årsmøtet kan i staden velje ein annan revisor til å attestere berekraftsrapporteringa eller ein uavhengig tilbydar av attestasjonstenester dersom det er høve til dette etter revisorloven § 1-3. Årsmøtet skal godkjenne godtgjersla.(2) Den som attesterer berekraftsrapporteringa, skal for kvart rekneskapsår gi ei attestasjonsmelding om berekraftsrapportering etter revisorloven § 9-7 a til årsmøtet. Meldinga skal vere styret i hende seinast to veker før det ordinære årsmøtet.(3) §§ 98, 99 og 101 gjeld tilsvarande for den som er vald til å attestere berekraftsrapporteringa etter første ledd.
+> § 101 b. Berekraftsrapportering
 >
-> § 101 b.Berekraftsrapportering
+> (1) I foretak som har plikt til å utarbeide berekraftsrapportering etter regnskapsloven § 2-3, skal revisor attestere berekraftsrapporteringa. Årsmøtet kan i staden velje ein annan revisor til å attestere berekraftsrapporteringa eller ein uavhengig tilbydar av attestasjonstenester dersom det er høve til dette etter revisorloven § 1-3. Årsmøtet skal godkjenne godtgjersla.
+>
+> (2) Den som attesterer berekraftsrapporteringa, skal for kvart rekneskapsår gi ei attestasjonsmelding om berekraftsrapportering etter revisorloven § 9-7 a til årsmøtet. Meldinga skal vere styret i hende seinast to veker før det ordinære årsmøtet.
+>
+> (3) §§ 98, 99 og 101 gjeld tilsvarande for den som er vald til å attestere berekraftsrapporteringa etter første ledd.
 >
 
 ## § 11
@@ -330,9 +364,19 @@ refid: "lov/2007-06-29-81"
 
 *§ 69 skal lyde:*
 
-> § 69.Krav til kjønnssamansetjinga i styret(1) Føresegnene i denne paragrafen gjeld for samvirkeforetak som på balansedagen for årsrekneskapen anten har:samla driftsinntekter og finansinntekter på meir enn 50 millionar kroner,fleire enn 30 tilsette, som skal reknast likt som etter § 67, ellermeir enn 500 medlemmar.(2) Har styret tre eller fleire medlemmar, skal kjønnssamansetjinga i styret oppfylle følgjande krav:Har styret tre eller fire medlemmar, kan maksimalt to styremedlemmar ha same kjønn.Har styret fem eller seks medlemmar, kan maksimalt tre styremedlemmar ha same kjønn.Har styret sju medlemmar, kan maksimalt fire styremedlemmar ha same kjønn.Har styret åtte medlemmar, kan maksimalt fem styremedlemmar ha same kjønn.Har styret ni eller fleire medlemmar, kan maksimalt 60 prosent av styremedlemmane ha same kjønn.(3) Andre ledd gjeld tilsvarande for varamedlemmar.(4) Får eit foretak plikt til å oppfylle krava til kjønnssamansetjing, skal styret seinast ein månad etter første etterfølgjande ordinære årsmøte oppfylle krava til kjønnssamansetjing etter andre og tredje ledd.(5) For styremedlemmar som dei tilsette skal velje etter § 67, gjeld krava til kjønnssamansetjing i § 69 a.(6) Departementet kan gi forskrift med nærmare reglar om kva som skal reknast som driftsinntekter og finansinntekter etter første ledd nr. 1.
+> § 69. Krav til kjønnssamansetjinga i styret
 >
-> § 69.Krav til kjønnssamansetjinga i styret
+> (1) Føresegnene i denne paragrafen gjeld for samvirkeforetak som på balansedagen for årsrekneskapen anten har:samla driftsinntekter og finansinntekter på meir enn 50 millionar kroner,fleire enn 30 tilsette, som skal reknast likt som etter § 67, ellermeir enn 500 medlemmar.
+>
+> (2) Har styret tre eller fleire medlemmar, skal kjønnssamansetjinga i styret oppfylle følgjande krav:Har styret tre eller fire medlemmar, kan maksimalt to styremedlemmar ha same kjønn.Har styret fem eller seks medlemmar, kan maksimalt tre styremedlemmar ha same kjønn.Har styret sju medlemmar, kan maksimalt fire styremedlemmar ha same kjønn.Har styret åtte medlemmar, kan maksimalt fem styremedlemmar ha same kjønn.Har styret ni eller fleire medlemmar, kan maksimalt 60 prosent av styremedlemmane ha same kjønn.
+>
+> (3) Andre ledd gjeld tilsvarande for varamedlemmar.
+>
+> (4) Får eit foretak plikt til å oppfylle krava til kjønnssamansetjing, skal styret seinast ein månad etter første etterfølgjande ordinære årsmøte oppfylle krava til kjønnssamansetjing etter andre og tredje ledd.
+>
+> (5) For styremedlemmar som dei tilsette skal velje etter § 67, gjeld krava til kjønnssamansetjing i § 69 a.
+>
+> (6) Departementet kan gi forskrift med nærmare reglar om kva som skal reknast som driftsinntekter og finansinntekter etter første ledd nr. 1.
 >
 
 ## § 69 a
@@ -341,9 +385,11 @@ refid: "lov/2007-06-29-81"
 
 *Ny § 69 a skal lyde:*
 
-> § 69 a.Krav til kjønnssamansetjing for styremedlemmar valde av og mellom dei tilsette(1) Dersom det skal veljast to eller fleire styremedlemmar av og mellom dei tilsette etter § 67, kan ikkje alle desse styremedlemmane ha same kjønn. Det same gjeld for varamedlemmar. Første og andre punktum gjeld ikkje dersom meir enn 80 prosent av det samla talet på dei tilsette i laget, har same kjønn.(2) I foretak med fleire enn 200 tilsette, skal kjønnssamansetjinga blant styremedlemmar som veljast av og mellom dei tilsette etter § 67, oppfylle krava i § 69 andre og tredje ledd, likevel slik at om det blir valt to styremedlemmar etter § 67, kan ikkje desse ha same kjønn. Talet på tilsette skal reknast likt som etter § 67.
+> § 69 a. Krav til kjønnssamansetjing for styremedlemmar valde av og mellom dei tilsette
 >
-> § 69 a.Krav til kjønnssamansetjing for styremedlemmar valde av og mellom dei tilsette
+> (1) Dersom det skal veljast to eller fleire styremedlemmar av og mellom dei tilsette etter § 67, kan ikkje alle desse styremedlemmane ha same kjønn. Det same gjeld for varamedlemmar. Første og andre punktum gjeld ikkje dersom meir enn 80 prosent av det samla talet på dei tilsette i laget, har same kjønn.
+>
+> (2) I foretak med fleire enn 200 tilsette, skal kjønnssamansetjinga blant styremedlemmar som veljast av og mellom dei tilsette etter § 67, oppfylle krava i § 69 andre og tredje ledd, likevel slik at om det blir valt to styremedlemmar etter § 67, kan ikkje desse ha same kjønn. Talet på tilsette skal reknast likt som etter § 67.
 >
 
 ## § 6a

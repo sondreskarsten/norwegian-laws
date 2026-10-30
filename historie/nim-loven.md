@@ -7,6 +7,13 @@ refid: "lov/2015-05-22-33"
 
 ## (annet)
 
+### 2021-06-18 — lov/2021-06-18-127
+
+*I lov 22. mai 2015 nr. 33 om Norges nasjonale institusjon for menneskerettigheter skal § 13 tredje ledd lyde:*
+
+> For øvrig gjelder bestemmelsene i forvaltningsloven §§ 13 a til 13 g så langt de passer.
+>
+
 ### 2023-01-01 — lov/2022-12-20-117
 
 *Nåværende §§ 12 og 13 blir §§ 11 og 12 og skal lyde:*

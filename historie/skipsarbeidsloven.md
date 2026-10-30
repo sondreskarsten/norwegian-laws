@@ -20,15 +20,22 @@ refid: "lov/2013-06-21-102"
 
 *§ 3-1 første ledd skal lyde:*
 
+> (1) Det skal inngås skriftlig arbeidsavtale mellom arbeidsgiver og arbeidstaker. Avtalen skal inneholde opplysninger om forhold av vesentlig betydning i arbeidsforholdet. Dersom det ikke fremgår av arbeidsavtalen at arbeidsforholdet er midlertidig, jf. § 3-4 første ledd, skal det legges til grunn at arbeidstakeren har fast ansettelse, dersom ikke noe annet gjøres overveiende sannsynlig. Dersom stillingsomfanget ikke fremgår av arbeidsavtalen, skal arbeidstakerens påstand om stillingsomfang legges til grunn dersom ikke noe annet gjøres overveiende sannsynlig.
+>
+
 ## § 3-2
 
 ### 2026-04-10 — lov/2026-04-10-14
 
 *§ 3-2 skal lyde:*
 
-> § 3-2.Ansettelse med prøvetid(1) Prøvetid på inntil seks måneder kan avtales skriftlig. Ved midlertidig ansettelse kan prøvetiden ikke overstige halvparten av ansettelsesforholdets varighet.(2) Har arbeidstakeren vært fraværende fra arbeidet i prøvetiden og dette ikke skyldes arbeidsgiveren, kan prøvetiden etter første ledd forlenges med en periode som tilsvarer lengden av fraværet. Forlengelse kan bare skje dersom arbeidsgiver har orientert arbeidstaker skriftlig både om adgangen til forlengelse ved ansettelsen og om forlengelsen innen utløpet av prøveperioden.(3) Det kan ikke avtales ny prøvetid dersom arbeidstaker skal fortsette i samme stilling eller i en stilling som i det vesentlige er likeartet stillingen arbeidstakeren har hatt i samme virksomhet. Ved fast ansettelse kan ny prøvetid likevel avtales dersom arbeidstakerens tidligere ansettelsestid og ny prøvetid samlet ikke overstiger seks måneder.
+> § 3-2. Ansettelse med prøvetid
 >
-> § 3-2.Ansettelse med prøvetid
+> (1) Prøvetid på inntil seks måneder kan avtales skriftlig. Ved midlertidig ansettelse kan prøvetiden ikke overstige halvparten av ansettelsesforholdets varighet.
+>
+> (2) Har arbeidstakeren vært fraværende fra arbeidet i prøvetiden og dette ikke skyldes arbeidsgiveren, kan prøvetiden etter første ledd forlenges med en periode som tilsvarer lengden av fraværet. Forlengelse kan bare skje dersom arbeidsgiver har orientert arbeidstaker skriftlig både om adgangen til forlengelse ved ansettelsen og om forlengelsen innen utløpet av prøveperioden.
+>
+> (3) Det kan ikke avtales ny prøvetid dersom arbeidstaker skal fortsette i samme stilling eller i en stilling som i det vesentlige er likeartet stillingen arbeidstakeren har hatt i samme virksomhet. Ved fast ansettelse kan ny prøvetid likevel avtales dersom arbeidstakerens tidligere ansettelsestid og ny prøvetid samlet ikke overstiger seks måneder.
 >
 
 ## § 3-7
@@ -52,9 +59,9 @@ refid: "lov/2013-06-21-102"
 
 *Ny § 4-5 a skal lyde:*
 
-> § 4-5 a.Arbeidsavtalens gyldighet ved fangenskap som følge av piratvirksomhet eller væpnet ranArbeidsavtalen skal fortsatt gjelde hvis arbeidstakeren holdes i fangenskap på eller utenfor skipet som følge av piratvirksomhet eller væpnet ran mot skipet. Arbeidstakeren har krav på lønn og øvrige rettigheter i arbeidsforholdet så lenge arbeidsforholdet består, jf. § 5-9 a.
+> § 4-5 a. Arbeidsavtalens gyldighet ved fangenskap som følge av piratvirksomhet eller væpnet ran
 >
-> § 4-5 a.Arbeidsavtalens gyldighet ved fangenskap som følge av piratvirksomhet eller væpnet ran
+> Arbeidsavtalen skal fortsatt gjelde hvis arbeidstakeren holdes i fangenskap på eller utenfor skipet som følge av piratvirksomhet eller væpnet ran mot skipet. Arbeidstakeren har krav på lønn og øvrige rettigheter i arbeidsforholdet så lenge arbeidsforholdet består, jf. § 5-9 a.
 >
 
 ## § 4-7
@@ -97,9 +104,9 @@ refid: "lov/2013-06-21-102"
 
 *Ny § 5-9 a skal lyde:*
 
-> § 5-9 a.Vern mot opphør av arbeidsforhold ved fangenskap som følge av piratvirksomhet eller væpnet ranArbeidsforholdet skal fortsette dersom arbeidstakeren holdes i fangenskap på eller utenfor skipet som følge av piratvirksomhet eller væpnet ran mot skipet. Det kan ikke bringes til opphør før arbeidstakeren har blitt løslatt og fått fri hjemreise. Dette gjelder også hvis arbeidsavtalens gyldighetsperiode er utløpt eller det er meldt oppsigelse av arbeidsavtalen i forkant av eller under fangenskapet.
+> § 5-9 a. Vern mot opphør av arbeidsforhold ved fangenskap som følge av piratvirksomhet eller væpnet ran
 >
-> § 5-9 a.Vern mot opphør av arbeidsforhold ved fangenskap som følge av piratvirksomhet eller væpnet ran
+> Arbeidsforholdet skal fortsette dersom arbeidstakeren holdes i fangenskap på eller utenfor skipet som følge av piratvirksomhet eller væpnet ran mot skipet. Det kan ikke bringes til opphør før arbeidstakeren har blitt løslatt og fått fri hjemreise. Dette gjelder også hvis arbeidsavtalens gyldighetsperiode er utløpt eller det er meldt oppsigelse av arbeidsavtalen i forkant av eller under fangenskapet.
 >
 
 ## § 6-5
@@ -152,6 +159,13 @@ refid: "lov/2013-06-21-102"
 ### 2017-06-16 — lov/2017-06-16-72
 
 *Nåværende § 4-7 tredje ledd blir nytt sjette ledd.*
+
+### 2017-07-01 — forskrift/2017-06-16-787
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
 
 ### 2019-06-14 — lov/2019-06-14-22
 

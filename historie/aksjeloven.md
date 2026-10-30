@@ -2571,9 +2571,15 @@ refid: "lov/1997-06-13-44"
 
 *§ 20-6 skal lyde:*
 
-> § 20-6.Krav til kjønnssammensetning i styret i statsaksjeselskaper(1) Reglene i § 6-11 a annet og tredje ledd gjelder tilsvarende for styret i statsaksjeselskaper.(2) Dersom det skal velges to eller flere styremedlemmer av og blant de ansatte etter § 6-4, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i selskapet på det tidspunkt valget skjer har samme kjønn.(3) For selskaper med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som velges av og blant de ansatte etter § 6-4 eller blant de ansatte etter § 6-35, jf. allmennaksjeloven § 6-37 første ledd, oppfylle kravene i § 6-11 a annet og tredje ledd, likevel slik at dersom det skal velges to styremedlemmer av og blant de ansatte, kan ikke disse styremedlemmene ha samme kjønn. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 6-4.(4) Første, annet og tredje ledd gjelder tilsvarende for aksjeselskap som er heleid datterselskap til statsaksjeselskap eller statsallmennaksjeselskap, eller til statsforetak.
+> § 20-6. Krav til kjønnssammensetning i styret i statsaksjeselskaper
 >
-> § 20-6.Krav til kjønnssammensetning i styret i statsaksjeselskaper
+> (1) Reglene i § 6-11 a annet og tredje ledd gjelder tilsvarende for styret i statsaksjeselskaper.
+>
+> (2) Dersom det skal velges to eller flere styremedlemmer av og blant de ansatte etter § 6-4, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i selskapet på det tidspunkt valget skjer har samme kjønn.
+>
+> (3) For selskaper med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som velges av og blant de ansatte etter § 6-4 eller blant de ansatte etter § 6-35, jf. allmennaksjeloven § 6-37 første ledd, oppfylle kravene i § 6-11 a annet og tredje ledd, likevel slik at dersom det skal velges to styremedlemmer av og blant de ansatte, kan ikke disse styremedlemmene ha samme kjønn. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 6-4.
+>
+> (4) Første, annet og tredje ledd gjelder tilsvarende for aksjeselskap som er heleid datterselskap til statsaksjeselskap eller statsallmennaksjeselskap, eller til statsforetak.
 >
 
 ## § 20-7
@@ -2591,9 +2597,9 @@ refid: "lov/1997-06-13-44"
 
 *§ 20-7 skal lyde:*
 
-> § 20-7.Riksrevisjonens kontrollRiksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser mv. i selskaper der staten eier alle aksjene og heleide datterselskaper til slike selskaper etter riksrevisjonsloven.
+> § 20-7. Riksrevisjonens kontroll
 >
-> § 20-7.Riksrevisjonens kontroll
+> Riksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser mv. i selskaper der staten eier alle aksjene og heleide datterselskaper til slike selskaper etter riksrevisjonsloven.
 >
 
 ## (annet)
@@ -2665,6 +2671,15 @@ refid: "lov/1997-06-13-44"
 
 *Mellom ny § 11-13 og ny § 11-14 skal overskriften i nytt romertall IV lyde:*
 
+### 2007-03-16 — lov/2007-03-16-11
+
+*I lov 13. juni 1997 nr. 44 om aksjeselskaper (aksjeloven) skal § 4-4 lyde:*
+
+> § 4-4.Registrering av aksjer i et verdipapirregister
+>
+> Er selskapets aksjer registrert i et verdipapirregister, gjelder reglene i lov om allmennaksjeselskaper om slik registrering for aksjene, herunder § 4-10 om forvalterregistrering.
+>
+
 ### 2007-12-21 — lov/2007-12-21-129
 
 *I kapittel 13 skal nytt avsnitt VII og ny § 13-25 lyde:*
@@ -2681,6 +2696,13 @@ refid: "lov/1997-06-13-44"
 > § 14-12.Fisjon over landegrensene
 >
 > Ved fisjon hvor de deltakende selskapene er eller skal være underlagt lovgivningen i minst to forskjellige EØS-stater, gjelder bestemmelsene i lov om allmennaksjeselskaper § 14-12 tilsvarende.
+>
+
+### 2008-12-19 — lov/2008-12-19-113
+
+*I lov 13. juni 1997 nr. 44 om aksjeselskaper (aksjeloven) skal § 13-10 nytt fjerde ledd lyde:*
+
+> (4) Kravene i første og annet ledd gjelder ikke dersom samtlige aksjeeiere i selskapet samtykker til dette.
 >
 
 ### 2009-06-19 — lov/2009-06-19-77
@@ -2831,9 +2853,30 @@ refid: "lov/1997-06-13-44"
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
 
+### 2014-06-20 — lov/2014-06-20-29
+
+*I lov 13. juni 1997 nr. 44 om aksjeselskaper skal § 7-2 fjerde ledd annet og nytt tredje punktum lyde:*
+
+> Hvis oppdraget opphørte før utløpet av tjenestetiden, skal selskaper av allmenn interesse, jf. revisorloven § 5a-1, sende melding om dette til Finanstilsynet. Departementet kan i forskrift fastsette regler om at melding om begrunnelse for avslutning av revisjonsoppdrag etter andre punktum også skal gjelde andre revisjonspliktige aksjeselskaper.
+>
+
+### 2015-10-30 — forskrift/2015-10-30-1242
+
+*Delt ikraftsetting av lov 14. juni 2013 nr. 40 om endringer i lov 13. juni 1997 nr. 44 om aksjeselskaper (aksjeloven). Romertall I § 2-1 første ledd tredje og fjerde punktum trer i kraft straks.*
+
+> Delt ikraftsetting av lov 14. juni 2013 nr. 40 om endringer i lov 13. juni 1997 nr. 44 om aksjeselskaper (aksjeloven). Romertall I § 2-1 første ledd tredje og fjerde punktum trer i kraft straks.
+>
+
 ### 2017-06-16 — lov/2017-06-16-71
 
 *Kapittel 5 avsnitt II overskriften skal lyde:*
+
+### 2018-06-22 — lov/2018-06-22-45
+
+*I lov 13. juni 1997 nr. 44 om aksjeselskaper skal § 6-35 andre ledd lyde:*
+
+> (2) Det kan avtales mellom selskapet og et flertall av de ansatte eller lokale fagforeninger som representerer et flertall av de ansatte, at selskapet ikke skal ha bedriftsforsamling, jf. § 6-4 tredje ledd. Kongen kan gi nærmere regler om inngåelse av en slik avtale og avtalens innhold. Bestemmelsene om slik avtale i lov om allmennaksjeselskaper gjelder tilsvarende.
+>
 
 ### 2018-12-14 — lov/2018-12-14-95
 
@@ -2891,18 +2934,30 @@ refid: "lov/1997-06-13-44"
 
 *I avsnitt I i kapittel 6 skal ny § 6-11 a lyde:*
 
-> § 6-11 a.Krav til kjønnssammensetning i styret(1) Bestemmelsene i denne paragrafen gjelder for aksjeselskaper som på balansedagen for årsregnskapet enten har driftsinntekter og finansinntekter som samlet er større enn 50 millioner kroner, eller som har flere enn 30 ansatte. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 6-4.(2) Har styret tre eller flere medlemmer, skal kjønnssammensetningen i styret oppfylle følgende krav:Har styret tre eller fire medlemmer, kan maksimalt to styremedlemmer ha samme kjønn.Har styret fem eller seks medlemmer, kan maksimalt tre styremedlemmer ha samme kjønn.Har styret syv medlemmer, kan maksimalt fire styremedlemmer ha samme kjønn.Har styret åtte medlemmer, kan maksimalt fem styremedlemmer ha samme kjønn.Har styret ni eller flere medlemmer, kan maksimalt 60 prosent av styremedlemmene ha samme kjønn.(3) Annet ledd gjelder tilsvarende for varamedlemmer.(4) Når det for et selskap inntrer en plikt til å oppfylle kravene til kjønnssammensetning, skal styret senest én måned etter første etterfølgende ordinære generalforsamling oppfylle kravene til kjønnssammensetning i annet og tredje ledd.(5) For styremedlemmer som de ansatte skal velge etter § 6-4, gjelder kravene til kjønnssammensetning i § 6-11 b.(6) Departementet kan i forskrift gi nærmere regler om hva som regnes som driftsinntekter og finansinntekter etter første ledd første punktum.
+> § 6-11 a. Krav til kjønnssammensetning i styret
 >
-> § 6-11 a.Krav til kjønnssammensetning i styret
+> (1) Bestemmelsene i denne paragrafen gjelder for aksjeselskaper som på balansedagen for årsregnskapet enten har driftsinntekter og finansinntekter som samlet er større enn 50 millioner kroner, eller som har flere enn 30 ansatte. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 6-4.
+>
+> (2) Har styret tre eller flere medlemmer, skal kjønnssammensetningen i styret oppfylle følgende krav:Har styret tre eller fire medlemmer, kan maksimalt to styremedlemmer ha samme kjønn.Har styret fem eller seks medlemmer, kan maksimalt tre styremedlemmer ha samme kjønn.Har styret syv medlemmer, kan maksimalt fire styremedlemmer ha samme kjønn.Har styret åtte medlemmer, kan maksimalt fem styremedlemmer ha samme kjønn.Har styret ni eller flere medlemmer, kan maksimalt 60 prosent av styremedlemmene ha samme kjønn.
+>
+> (3) Annet ledd gjelder tilsvarende for varamedlemmer.
+>
+> (4) Når det for et selskap inntrer en plikt til å oppfylle kravene til kjønnssammensetning, skal styret senest én måned etter første etterfølgende ordinære generalforsamling oppfylle kravene til kjønnssammensetning i annet og tredje ledd.
+>
+> (5) For styremedlemmer som de ansatte skal velge etter § 6-4, gjelder kravene til kjønnssammensetning i § 6-11 b.
+>
+> (6) Departementet kan i forskrift gi nærmere regler om hva som regnes som driftsinntekter og finansinntekter etter første ledd første punktum.
 >
 
 ### 2024-01-01 — lov/2023-12-20-114
 
 *I avsnitt I i kapittel 6 skal ny § 6-11 b lyde:*
 
-> § 6-11 b.Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte(1) Dersom det skal velges tre eller flere styremedlemmer av og blant de ansatte etter § 6-4, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i selskapet på det tidspunkt valget skjer har samme kjønn.(2) For selskaper med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som velges av og blant de ansatte etter § 6-4 eller blant de ansatte etter § 6-35, jf. allmennaksjeloven § 6-37 første ledd, oppfylle kravene i § 6-11 a annet og tredje ledd. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 6-4.
+> § 6-11 b. Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte
 >
-> § 6-11 b.Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte
+> (1) Dersom det skal velges tre eller flere styremedlemmer av og blant de ansatte etter § 6-4, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i selskapet på det tidspunkt valget skjer har samme kjønn.
+>
+> (2) For selskaper med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som velges av og blant de ansatte etter § 6-4 eller blant de ansatte etter § 6-35, jf. allmennaksjeloven § 6-37 første ledd, oppfylle kravene i § 6-11 a annet og tredje ledd. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 6-4.
 >
 
 ### 2024-06-21 — lov/2024-06-21-42
@@ -2911,7 +2966,11 @@ refid: "lov/1997-06-13-44"
 
 > III. Bærekraftsrapportering
 >
-> § 7-9 a.Bærekraftsrapportering(1) I selskap som har plikt til å utarbeide bærekraftsrapportering etter regnskapsloven § 2-3, skal revisor attestere bærekraftsrapporteringen. Generalforsamlingen kan i stedet velge en annen revisor til å attestere bærekraftsrapporteringen eller en uavhengig tilbyder av attestasjonstjenester dersom det er adgang til dette etter revisorloven § 1-3. Godtgjørelsen skal godkjennes av generalforsamlingen.(2) Den som attesterer bærekraftsrapporteringen, skal hvert regnskapsår avgi en attestasjonsuttalelse om bærekraftsrapportering etter revisorloven § 9-7 a til generalforsamlingen. Uttalelsen skal være styret i hende senest to uker før den ordinære generalforsamlingen.(3) §§ 7-2, 7-3 og 7-5 gjelder tilsvarende for den som er valgt til å attestere bærekraftsrapporteringen etter første ledd.
+> § 7-9 a. Bærekraftsrapportering
 >
-> § 7-9 a.Bærekraftsrapportering
+> (1) I selskap som har plikt til å utarbeide bærekraftsrapportering etter regnskapsloven § 2-3, skal revisor attestere bærekraftsrapporteringen. Generalforsamlingen kan i stedet velge en annen revisor til å attestere bærekraftsrapporteringen eller en uavhengig tilbyder av attestasjonstjenester dersom det er adgang til dette etter revisorloven § 1-3. Godtgjørelsen skal godkjennes av generalforsamlingen.
+>
+> (2) Den som attesterer bærekraftsrapporteringen, skal hvert regnskapsår avgi en attestasjonsuttalelse om bærekraftsrapportering etter revisorloven § 9-7 a til generalforsamlingen. Uttalelsen skal være styret i hende senest to uker før den ordinære generalforsamlingen.
+>
+> (3) §§ 7-2, 7-3 og 7-5 gjelder tilsvarende for den som er valgt til å attestere bærekraftsrapporteringen etter første ledd.
 >

@@ -7,6 +7,13 @@ refid: "lov/2015-09-04-91"
 
 ## (annet)
 
+### 2016-01-01 — forskrift/2015-09-04-1027
+
+*Lov om posttjenester trer i kraft 1. januar 2016 med unntak av § 35, § 36, § 40 og § 41 første ledd nummer 1.*
+
+> Lov om posttjenester trer i kraft 1. januar 2016 med unntak av § 35, § 36, § 40 og § 41 første ledd nummer 1.
+>
+
 ### 2017-06-09 — lov/2017-06-09-41
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
@@ -15,6 +22,13 @@ refid: "lov/2015-09-04-91"
 
 *Nåværende annet og tredje ledd blir tredje og nytt fjerde ledd.*
 
+### 2019-07-01 — forskrift/2019-06-21-796
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. juli 2020, med unntak av I for så vidt gjelder endringen i postloven § 7 annet ledd som trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. juli 2020, med unntak av I for så vidt gjelder endringen i postloven § 7 annet ledd som trer i kraft 1. juli 2019.
+>
+
 ### 2023-06-16 — lov/2023-06-16-76
 
 *I kapittel 1 skal ny § 5 a lyde:*
@@ -22,6 +36,60 @@ refid: "lov/2015-09-04-91"
 > § 5 a.Forskriftsfullmakt – EØS-avtalen
 >
 > Departementet kan gi forskrift om regler etter EØS-avtalen som har til hensikt å forbedre pakkeleveringstjenester over landegrensene.
+>
+
+### 2023-06-16 — forskrift/2023-06-16-931
+
+*Ikraftsetting av lov om endringer i postloven. Loven trer i kraft straks.*
+
+> Ikraftsetting av lov om endringer i postloven. Loven trer i kraft straks.
+>
+
+### 2023-06-16 — forskrift/2023-06-16-987
+
+*Delt ikraftsetting av lov om endringer i postloven (pakkepostforordningen, brukerklagenemnd, offentlig postnummersystem og politiattest). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov om endringer i postloven (pakkepostforordningen, brukerklagenemnd, offentlig postnummersystem og politiattest). Følgende trer i kraft straks:
+>
+> Endringsloven del II
+>
+> (postloven) § 5a, § 49 første ledd nr. 2 og § 51 nr. 2.
+>
+> Delt ikraftsetting av lov om endringer i postloven (pakkepostforordningen, brukerklagenemnd, offentlig postnummersystem og politiattest). Følgende endringer trer i kraft 1. januar 2024:
+>
+> Endringsloven del II
+>
+> (postloven) § 35, § 35a og § 36
+>
+> Delt ikraftsetting av lov om endringer i postloven (pakkepostforordningen, brukerklagenemnd, offentlig postnummersystem og politiattest). Følgende endringer trer i kraft 1. juli 2023:
+>
+> Endringsloven del II
+>
+> (postloven) resterende endringer
+>
+> Skal være «Endringsloven del I». Lovtidend-redaksjonens anmerkning.
+>
+> Rettelser
+>
+> Det som er rettet er satt i kursiv.
+>
+> Nr. 1 første kulepunkt skal lyde:
+>
+> Endringsloven del
+>
+> (postloven) § 5a, § 49 første ledd nr. 2 og § 51 nr. 2
+>
+> Nr. 2 første kulepunkt skal lyde:
+>
+> Endringsloven del
+>
+> (postloven) § 35, § 35a og § 36
+>
+> Nr. 3 første kulepunkt skal lyde:
+>
+> Endringsloven del
+>
+> (postloven) resterende endringer
 >
 
 ## § 11

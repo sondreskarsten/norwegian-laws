@@ -7,6 +7,15 @@ refid: "lov/2005-06-17-79"
 
 ## (annet)
 
+### 2007-06-29 — lov/2007-06-29-77
+
+*I lov 17. juni 2005 nr. 79 om akvakultur (akvakulturloven) skal § 26 lyde:*
+
+> Departementet kan gi forskrift om gebyr og avgift, for behandling av søknader og for utførelse av tilsynsarbeid i henhold til bestemmelser i eller i medhold av denne lov.
+>
+> Skyldig gebyr og avgift er tvangsgrunnlag for utlegg.
+>
+
 ### 2009-01-09 — lov/2009-01-09-4
 
 *9. I lov 6. juni 2008 nr. 37 om forvaltning av viltlevande marine ressursar skal ny § 8 a lyde:*
@@ -14,6 +23,13 @@ refid: "lov/2005-06-17-79"
 > § 8 a.Saker der fylkeskommunane har kompetanse
 >
 > Fylkeskommunane kan fatte vedtak på særskilde områder innanfor lova sitt verkeområde når dette er fastsett i forskrift. Departementet kan i forskrift fastsetje nærare reglar om fylkeskommunane sin kompetanse etter denne føresegna. I dei sakene der fylkeskommunane er gitt kompetanse til å fatte vedtak, er Fiskeridirektoratet klageinstans.
+>
+
+### 2010-01-01 — lov/2009-12-18-136
+
+*I lov 17. juni 2005 nr. 79 om akvakultur skal § 7 annet ledd lyde:*
+
+> Departementet kan i forskrift gi nærmere bestemmelser om vederlag for utvidelse av gjeldende tillatelse.
 >
 
 ### 2010-01-01 — lov/2009-12-18-136
@@ -32,9 +48,23 @@ refid: "lov/2005-06-17-79"
 
 *Kapittel 7 overskriften skal lyde:*
 
+### 2013-07-01 — forskrift/2013-06-21-745
+
+*Loven trer i kraft fra 1. juli 2013, med unntak for § 13a som trer i kraft 1. juli 2014, og § 29a og § 30 som trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft fra 1. juli 2013, med unntak for § 13a som trer i kraft 1. juli 2014, og § 29a og § 30 som trer i kraft 1. januar 2014.
+>
+
 ### 2019-06-21 — lov/2019-06-21-64
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2019-07-01 — forskrift/2019-06-21-859
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
 
 ### 2025-06-10 — lov/2025-06-10-33
 
@@ -51,9 +81,9 @@ refid: "lov/2005-06-17-79"
 
 *I lov 17. juni 2005 nr. 79 om akvakultur skal ny § 22 a lyde:*
 
-> § 22 a.Lønnsvilkår på skipInnehavere av akvakulturtillatelser skal sørge for at ansatte på skip som leverer tjenester til akvakulturproduksjon, ikke har dårligere lønnsvilkår enn det som følger av gjeldende landsomfattende tariffavtaler. Kongen kan gi forskrift om hvordan forpliktelsene til innehavere av akvakulturtillatelser kan oppfylles.
+> § 22 a. Lønnsvilkår på skip
 >
-> § 22 a.Lønnsvilkår på skip
+> Innehavere av akvakulturtillatelser skal sørge for at ansatte på skip som leverer tjenester til akvakulturproduksjon, ikke har dårligere lønnsvilkår enn det som følger av gjeldende landsomfattende tariffavtaler. Kongen kan gi forskrift om hvordan forpliktelsene til innehavere av akvakulturtillatelser kan oppfylles.
 >
 
 ## § 10

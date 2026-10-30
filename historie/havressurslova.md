@@ -20,6 +20,20 @@ refid: "lov/2008-06-06-37"
 > Når det er nødvendig for å gjennomføre avtale med framand stat, kan Kongen i forskrift gje føresegner om at norsk fiskerioppsyn skal kunne kontrollere og handheve avtalte fiskerireglar, medrekna å føre til land fartøy og setje i verk rettsleg forfølging, og om at utanlandske fiskerioppsyn utanfor territorialfarvatnet skal ha høve til å kontrollere og handheve avtalte fiskerireglar overfor norske fartøy, medrekna å føre til land fartøy og setje i verk rettsleg forfølging.
 >
 
+### 2014-01-01 — forskrift/2013-12-13-1479
+
+*Lova trer i kraft frå 1. januar 2014.*
+
+> Lova trer i kraft frå 1. januar 2014.
+>
+
+### 2014-03-07 — forskrift/2014-03-07-254
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2017-06-16 — lov/2017-06-16-73
 
 *Nytt kapittel 4 a skal lyde:*
@@ -62,6 +76,13 @@ refid: "lov/2008-06-06-37"
 ### 2025-06-06 — lov/2025-06-06-29
 
 *Nåværende § 46 femte og sjette ledd blir sjette og nytt syvende ledd.*
+
+### 2026-01-01 — forskrift/2025-06-06-963
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
 
 ## § 11
 

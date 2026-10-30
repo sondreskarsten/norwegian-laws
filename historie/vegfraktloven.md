@@ -15,6 +15,13 @@ refid: "lov/1974-12-20-68"
 
 *Overskriften Ansvar for fraktbrevets innhold foran § 11 oppheves.*
 
+### 2020-09-09 — forskrift/2020-06-24-1358
+
+*Tilleggsprotokoll 20. februar 2008 om elektroniske fraktbrev (eCMR) til Genéve-konvensjonen 19. mai 1956 om fraktavtaler ved internasjonal godsbefordring på veg (CMR) trer i kraft for Norge 9. september 2020. Lov 7. mai 2020 nr. 39 om endringer i vegfraktloven mv. (elektroniske fraktbrev) del I vil derfor tre i kraft 9. september 2020, jf. kgl.res. 7. mai 2020 nr. 946.*
+
+> Tilleggsprotokoll 20. februar 2008 om elektroniske fraktbrev (eCMR) til Genéve-konvensjonen 19. mai 1956 om fraktavtaler ved internasjonal godsbefordring på veg (CMR) trer i kraft for Norge 9. september 2020. Lov 7. mai 2020 nr. 39 om endringer i vegfraktloven mv. (elektroniske fraktbrev) del I vil derfor tre i kraft 9. september 2020, jf. kgl.res. 7. mai 2020 nr. 946.
+>
+
 ## § 12
 
 ### 2020-05-07 — lov/2020-05-07-39

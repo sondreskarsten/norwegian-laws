@@ -190,18 +190,6 @@ refid: "lov/2012-06-22-43"
 
 > Plikten til å gi opplysninger etter denne lov omfatter opplysninger som skal gis med hjemmel i følgende bestemmelser med tilhørende forskrifter:skatteforvaltningsloven §§ 7-2 og 8-6,folketrygdloven §§ 25-1 annet ledd og 25-10, jf. 21-4,skattebetalingsloven § 5-11,statistikkloven § 10,svalbardskatteloven § 5-2 femte ledd oginnkrevingsloven § 30 tredje ledd.
 >
-> skatteforvaltningsloven §§ 7-2 og 8-6,
->
-> folketrygdloven §§ 25-1 annet ledd og 25-10, jf. 21-4,
->
-> skattebetalingsloven § 5-11,
->
-> statistikkloven § 10,
->
-> svalbardskatteloven § 5-2 femte ledd og
->
-> innkrevingsloven § 30 tredje ledd.
->
 
 ## § 4
 

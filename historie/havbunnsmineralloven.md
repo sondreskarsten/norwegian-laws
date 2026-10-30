@@ -27,9 +27,9 @@ refid: "lov/2019-03-22-7"
 
 *I lov 22. mars 2019 nr. 7 om mineralvirksomhet på kontinentalsokkelen skal ny § 9-16 lyde:*
 
-> § 9-16.Lønnsvilkår på skipRettighetshaveren skal sørge for at ansatte på skip som leverer tjenester til mineralvirksomhet, ikke har dårligere lønnsvilkår enn det som følger av gjeldende landsomfattende tariffavtaler. Kongen kan gi forskrift om hvordan rettighetshaverens forpliktelser kan oppfylles.
+> § 9-16. Lønnsvilkår på skip
 >
-> § 9-16.Lønnsvilkår på skip
+> Rettighetshaveren skal sørge for at ansatte på skip som leverer tjenester til mineralvirksomhet, ikke har dårligere lønnsvilkår enn det som følger av gjeldende landsomfattende tariffavtaler. Kongen kan gi forskrift om hvordan rettighetshaverens forpliktelser kan oppfylles.
 >
 
 ### 2026-06-19 — lov/2026-06-19-48

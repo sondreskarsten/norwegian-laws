@@ -7,6 +7,19 @@ refid: "lov/1993-03-12-32"
 
 ## (annet)
 
+### 2003-12-19 — lov/2003-12-19-127
+
+*I lov 12. mars 1993 nr. 32 om planteforedlerrett skal § 28 lyde:*
+
+> Unnlater sortseieren å sørge for at formeringsmateriale av den beskyttede sorten blir utbudt for salg, eller på annen måte tilbudt, på rimelige vilkår og i det omfang som er nødvendig av hensyn til den nasjonale matforsyningen eller andre viktige allmenne interesser, kan den som vil utnytte sorten ved søksmål få tvangslisens til det såfremt det ikke foreligger rimelig grunn for unnlatelsen.
+>
+> En patenthaver som ikke kan utnytte oppfinnelsen uten å krenke en eldre planteforedlerrett, kan mot passende vederlag få tvangslisens til å utnytte den beskyttede plantesorten. Tvangslisens meddeles bare hvis patenthaveren godtgjør at oppfinnelsen utgjør et viktig teknisk fremskritt av vesentlig økonomisk betydning i forhold til plantesorten.
+>
+> Hvis en sortseier har fått tvangslisens til å utnytte en patentert oppfinnelse etter patentloven § 46 a første ledd, har patenthaveren krav på tvangslisens til å utnytte den beskyttede plantesorten på rimelige vilkår.
+>
+> Patentloven §§ 49 til 50 a gjelder tilsvarende for tvangslisens etter paragrafen her. Retten eller Konkurransetilsynet kan pålegge sortseieren å utlevere nødvendig formeringsmateriale av sorten til tvangslisenshaveren.
+>
+
 ### 2013-05-31 — lov/2013-05-31-25
 
 *I kapittel 6 skal ny § 21 a lyde:*
@@ -14,6 +27,21 @@ refid: "lov/1993-03-12-32"
 > § 21 a.Forbud mot inngrep
 >
 > Den som har gjort inngrep i en annens rett etter denne loven, eller medvirket til det, kan ved dom forbys å gjenta handlingen. Den som har gjort vesentlige forberedelsestiltak, med sikte på å utføre en handling som vil utgjøre inngrep, eller på annen måte har opptrådt slik at det er særlig grunn til å frykte at vedkommende vil gjøre inngrep, kan ved dom forbys å gjennomføre handlingen.
+>
+
+### 2013-05-31 — lov/2013-05-31-25
+
+*I lov 12. mars 1993 nr. 32 om planteforedlerrett skal § 22 lyde:*
+
+> § 22.Straff
+>
+> Den som begår inngrep i en planteforedlerrett, straffes med bøter eller fengsel inntil ett år.
+>
+> Dersom det foreligger særlig skjerpende omstendigheter, er straffen bøter eller fengsel inntil tre år. Ved vurderingen av om særlig skjerpende omstendigheter foreligger skal det særlig legges vekt på den skade som er påført rettighetshaveren, herunder skade på rettighetshaverens kommersielle omdømme, den vinning som inngriperen har oppnådd, og omfanget av inngrepet for øvrig.
+>
+> Den som overtrer reglene om anvendelse av sortsnavn i § 20, straffes med bøter.
+>
+> Ved overtredelse av første og annet ledd kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale, jf. straffeprosessloven § 62 a. Overtredelse av tredje ledd påtales bare av det offentlige hvis fornærmede ber om det.
 >
 
 ## § 15
@@ -149,3 +177,9 @@ refid: "lov/1993-03-12-32"
 
 > For Oslo tingrett reises søksmål om retten til en plantesort som det er søkt om planteforedlerrett for, søksmål om overføring av en planteforedlerrett, sivilt søksmål om inngrep i en planteforedlerrett og søksmål som nevnt i § 12 annet ledd, § 17, § 18 annet ledd jf. § 12 annet ledd og § 28.
 >
+
+## § 412
+
+### 2013-05-31 — lov/2013-05-31-25
+
+*§ 412 nr. 230 skal lyde:*

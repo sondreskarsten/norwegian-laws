@@ -7,6 +7,13 @@ refid: "lov/1986-06-20-35"
 
 ## (annet)
 
+### 2001-12-21 — lov/2001-12-21-117
+
+*I lov 20. juni 1986 nr. 35 om mesterbrev i håndverk og annen næring skal § 5 annet ledd annet punktum lyde:*
+
+> Er fastsatt årsgebyr ikke betalt innen én måned etter påkrav i rekommandert brev eller ved bruk av elektronisk kommunikasjon dersom det er benyttet en betryggende metode for å sikre at meldingen er mottatt, bortfaller retten til å kalle seg mester.
+>
+
 ### 2008-12-19 — lov/2008-12-19-122
 
 *Nåværende § 1 fjerde ledd blir nytt sjette ledd og skal lyde:*

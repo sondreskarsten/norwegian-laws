@@ -7,6 +7,19 @@ refid: "lov/2009-06-19-44"
 
 ## (annet)
 
+### 2018-04-20 — lov/2018-04-20-5
+
+*I lov 19. juni 2009 nr. 44 om kommunale krisesentertilbod skal § 6 lyde:*
+
+> § 6.Opplysningsplikt til barnevernet
+>
+> Alle som utfører teneste eller arbeid etter denne lova, skal i arbeidet sitt vere merksame på forhold som kan føre til tiltak frå barneverntenesta.
+>
+> Alle som utfører teneste eller arbeid etter denne lova, skal utan hinder av teieplikta melde frå til barnevernte nesta utan ugrunna opphaldnår det er grunn til å tru at eit barn blir eller vil bli mishandla, utsett for alvorlege manglar ved den daglege omsorga eller anna alvorleg omsorgssvikt,når det er grunn til å tru at eit barn har ein livstruande eller annan alvorleg sjukdom eller skade og ikkje kjem til undersøking eller behandling, eller at eit barn med nedsett funksjonsevne eller spesielt hjelpetrengande barn ikkje får dekt sitt særlege behov for behandling eller opplæring,når eit barn viser alvorlege åtferdsvanskar i form av alvorleg eller gjentatt kriminalitet, misbruk av rusmiddel eller ei anna form for utprega normlaus åtferd,når det er grunn til å tru at eit barn blir eller vil bli utnytta til menneskehandel.
+>
+> Alle som utfører teneste eller arbeid etter denne lova, pliktar også å gi opplysningar etter pålegg i samsvar med barnevernloven § 6-4.
+>
+
 ### 2025-06-20 — lov/2025-06-20-42
 
 *Noverande § 2 tredje til sjette ledd blir fjerde til nytt sjuande ledd.*
@@ -19,13 +32,24 @@ refid: "lov/2009-06-19-44"
 
 *Nye §§ 5 a og 5 b skal lyde:*
 
-> § 5 a.Behandling av personopplysningarOrgan som utfører oppgåver etter denne lova, kan behandle personopplysningar, også personopplysningar som nemnde i personvernforordningen artikkel 9 og 10, når det er nødvendig for å utføre oppgåver etter lova. Det same gjeld private som utfører oppgåver etter denne lova.Brukarar av krisesentertilbodet kan reservere seg mot vidarebehandling av opplysningar til bruk i til dømes statistikk, analysar og forsking.Departementet kan gi nærmare reglar i forskrift om behandling av personopplysningar, mellom anna om formålet med behandlinga, behandlaransvar, kva for personopplysningar som kan behandlast, utlevering, registerføring, tilgang til register og høvet til vidarebehandling.
+> § 5 a. Behandling av personopplysningar
 >
-> § 5 a.Behandling av personopplysningar
+> Organ som utfører oppgåver etter denne lova, kan behandle personopplysningar, også personopplysningar som nemnde i personvernforordningen artikkel 9 og 10, når det er nødvendig for å utføre oppgåver etter lova. Det same gjeld private som utfører oppgåver etter denne lova.
 >
-> § 5 b.Tilgang til teiepliktige opplysningar frå FolkeregisteretOrgan som utfører oppgåver etter denne lova, kan utan hinder av teieplikt innhente opplysningar frå Folkeregisteret som er nødvendige for å utføre oppgåver etter denne lova.
+> Brukarar av krisesentertilbodet kan reservere seg mot vidarebehandling av opplysningar til bruk i til dømes statistikk, analysar og forsking.
 >
-> § 5 b.Tilgang til teiepliktige opplysningar frå Folkeregisteret
+> Departementet kan gi nærmare reglar i forskrift om behandling av personopplysningar, mellom anna om formålet med behandlinga, behandlaransvar, kva for personopplysningar som kan behandlast, utlevering, registerføring, tilgang til register og høvet til vidarebehandling.
+>
+> § 5 b. Tilgang til teiepliktige opplysningar frå Folkeregisteret
+>
+> Organ som utfører oppgåver etter denne lova, kan utan hinder av teieplikt innhente opplysningar frå Folkeregisteret som er nødvendige for å utføre oppgåver etter denne lova.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1087
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
 >
 
 ## § 2
@@ -35,14 +59,6 @@ refid: "lov/2009-06-19-44"
 *§ 2 andre og tredje ledd skal lyde:*
 
 > Tilbodet skal omfatte følgjande:eit krisesenter eller eit tilsvarande gratis, heilårs, heildøgns, trygt og mellombels butilbodeit gratis dagtilbodeit heilårs og heildøgns tilbod der personar nemnde i første ledd kan få råd og rettleiing per telefonoppfølging i reetableringsfasen i samarbeid med andre delar av tenesteapparatet, jf. § 4.
->
-> eit krisesenter eller eit tilsvarande gratis, heilårs, heildøgns, trygt og mellombels butilbod
->
-> eit gratis dagtilbod
->
-> eit heilårs og heildøgns tilbod der personar nemnde i første ledd kan få råd og rettleiing per telefon
->
-> oppfølging i reetableringsfasen i samarbeid med andre delar av tenesteapparatet, jf. § 4.
 >
 > Tilbodet skal gi brukarane støtte, rettleiing og hjelp til å ta kontakt med andre delar av tenesteapparatet.
 >

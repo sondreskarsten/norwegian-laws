@@ -7,6 +7,13 @@ refid: "lov/2010-05-28-16"
 
 ## (annet)
 
+### 2016-01-01 — forskrift/2015-12-04-1397
+
+*Lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten § 14 trer i kraft 1. januar 2016.*
+
+> Lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten § 14 trer i kraft 1. januar 2016.
+>
+
 ### 2017-06-21 — lov/2017-06-21-94
 
 *Kapittel 9 overskriften skal lyde:*
@@ -14,6 +21,29 @@ refid: "lov/2010-05-28-16"
 ### 2017-06-21 — lov/2017-06-21-94
 
 *Kapittel 10 overskriften skal lyde:*
+
+### 2020-04-24 — lov/2020-04-24-33
+
+*I lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten (politiregisterloven) skal § 50 nytt tredje ledd lyde:*
+
+> Opplysninger innhentet ved kommunikasjonskontroll som ikke er brukt i saken, skal sperres når saken er avgjort ved rettskraftig dom eller endelig henleggelsesbeslutning. Sperrede opplysninger kan benyttes ved begjæring om gjenåpning, ved gjenopptakelse av etterforskning, eller for å ivareta siktedes legitime interesser. Opplysninger som det etter straffeprosessloven § 216 g ikke er adgang til å beholde, skal slettes så snart som mulig. Bestemmelsen gjelder tilsvarende for opplysninger innhentet etter straffeprosessloven §§ 216 m og 216 o, og for opplysninger innhentet etter straffeprosessloven §§ 202 a og 202 c så langt den passer. Kongen gir i forskrift nærmere regler om sletting og bruk av sperrede opplysninger fra kommunikasjonskontroll.
+>
+
+### 2021-06-11 — forskrift/2021-06-11-1873
+
+*Delt ikraftsetting av endringsloven. Endringsloven del II, endringene i politiregisterloven § 12, § 13, § 36, § 40, § 60, § 66 og § 69 første ledd nr. 15 og nr. 25, trer i kraft straks.*
+
+> Delt ikraftsetting av endringsloven. Endringsloven del II, endringene i politiregisterloven § 12, § 13, § 36, § 40, § 60, § 66 og § 69 første ledd nr. 15 og nr. 25, trer i kraft straks.
+>
+
+### 2021-09-17 — forskrift/2021-09-17-2775
+
+*Delt ikraftsetting av lov 11. juni 2021 nr. 72 om endringer i politiregisterloven og utlendingsloven. Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 11. juni 2021 nr. 72 om endringer i politiregisterloven og utlendingsloven. Følgende trer i kraft straks:
+>
+> Endringsloven del II (politiregisterloven) § 3 og § 69 første ledd nr. 26.
+>
 
 ### 2022-04-29 — lov/2022-04-29-26
 
@@ -25,11 +55,14 @@ refid: "lov/2010-05-28-16"
 
 > I ordinær politiattest skal det ikke oppgis dom påbetinget fengsel eller bot, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten,ungdomsstraff eller samfunnsstraff der den subsidiære fengselsstraffen er inntil 6 måneder, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten, ellerungdomsstraff eller samfunnsstraff der den subsidiære fengselsstraffen er over 6 måneder, dersom lovbruddet er begått av person under 18 år mer enn 5 år før utstedelsen av attesten.
 >
-> betinget fengsel eller bot, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten,
+
+### 2025-07-01 — forskrift/2025-06-06-961
+
+*Delt ikraftsetting av lov 28. april 2023 nr. 11 om endringer i politiloven og politiregisterloven (PSTs etterretningsoppdrag og bruk av åpent tilgjengelig informasjon). Følgende trer i kraft 1. juli 2025:*
+
+> Delt ikraftsetting av lov 28. april 2023 nr. 11 om endringer i politiloven og politiregisterloven (PSTs etterretningsoppdrag og bruk av åpent tilgjengelig informasjon). Følgende trer i kraft 1. juli 2025:
 >
-> ungdomsstraff eller samfunnsstraff der den subsidiære fengselsstraffen er inntil 6 måneder, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten, eller
->
-> ungdomsstraff eller samfunnsstraff der den subsidiære fengselsstraffen er over 6 måneder, dersom lovbruddet er begått av person under 18 år mer enn 5 år før utstedelsen av attesten.
+> Endringsloven del II (politiregisterloven) § 65a.
 >
 
 ### 2026-06-19 — lov/2026-06-19-46

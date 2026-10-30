@@ -126,9 +126,11 @@ refid: "lov/2023-06-09-30"
 
 *§ 15-2 skal lyde:*
 
-> § 15-2.Hovudmål på kvar grunnskoleKommunen gir forskrift om kva skriftspråk som skal vere hovudmålet på kvar skole, anten bokmål eller nynorsk. Skolen skal bruke hovudmålet i den skriftlege opplæringa og i den skriftlege kommunikasjonen med elevane og foreldra.I samband med skifte av hovudmål på ein grunnskole eller når eit fleirtal i kommunestyret eller minst 1/4 av dei røysteføre i kommunen krev det, skal det haldast rådgivande røysting. Nytt vedtak om hovudmål kan ikkje gjerast før det har gått fem år. Departementet kan gi forskrift om røysterett, ansvar for røystinga og organisering av røystinga.
+> § 15-2. Hovudmål på kvar grunnskole
 >
-> § 15-2.Hovudmål på kvar grunnskole
+> Kommunen gir forskrift om kva skriftspråk som skal vere hovudmålet på kvar skole, anten bokmål eller nynorsk. Skolen skal bruke hovudmålet i den skriftlege opplæringa og i den skriftlege kommunikasjonen med elevane og foreldra.
+>
+> I samband med skifte av hovudmål på ein grunnskole eller når eit fleirtal i kommunestyret eller minst 1/4 av dei røysteføre i kommunen krev det, skal det haldast rådgivande røysting. Nytt vedtak om hovudmål kan ikkje gjerast før det har gått fem år. Departementet kan gi forskrift om røysterett, ansvar for røystinga og organisering av røystinga.
 >
 
 ## § 17-3
@@ -137,9 +139,15 @@ refid: "lov/2023-06-09-30"
 
 *§ 17-3 skal lyde:*
 
-> § 17-3.Krav for å bli tilsett i lærarstillingKommunen og fylkeskommunen skal sørgje for at dei som blir tilsett i lærarstilling, har relevant lærarutdanning seinast når dei tar til i stillinga.Dersom ingen søkjarar oppfyller krava for tilsetjing, kan andre tilsetjast mellombels på vilkår om at ei påbyrja lærarutdanning blir fullført. Kor lenge ei slik tilsetjing skal vare, avtaler arbeidsgivaren og arbeidstakaren ut frå kor stor stilling og kor lang utdanning det er tale om, og kor tilgjengeleg utdanningstilbodet er.Dersom ingen søkjarar oppfyller krava for tilsetjing, kan andre tilsetjast mellombels også utan vilkår om påbyrja lærarutdanning, men ei slik tilsetjing skal ikkje vare lenger enn til 31. juli.Departementet kan gi forskrift om kva utdanning og kompetanse ein må ha for å kunne bli tilsett i lærarstilling.
+> § 17-3. Krav for å bli tilsett i lærarstilling
 >
-> § 17-3.Krav for å bli tilsett i lærarstilling
+> Kommunen og fylkeskommunen skal sørgje for at dei som blir tilsett i lærarstilling, har relevant lærarutdanning seinast når dei tar til i stillinga.
+>
+> Dersom ingen søkjarar oppfyller krava for tilsetjing, kan andre tilsetjast mellombels på vilkår om at ei påbyrja lærarutdanning blir fullført. Kor lenge ei slik tilsetjing skal vare, avtaler arbeidsgivaren og arbeidstakaren ut frå kor stor stilling og kor lang utdanning det er tale om, og kor tilgjengeleg utdanningstilbodet er.
+>
+> Dersom ingen søkjarar oppfyller krava for tilsetjing, kan andre tilsetjast mellombels også utan vilkår om påbyrja lærarutdanning, men ei slik tilsetjing skal ikkje vare lenger enn til 31. juli.
+>
+> Departementet kan gi forskrift om kva utdanning og kompetanse ein må ha for å kunne bli tilsett i lærarstilling.
 >
 
 ## § 17-6
@@ -148,9 +156,11 @@ refid: "lov/2023-06-09-30"
 
 *§ 17-6 skal lyde:*
 
-> § 17-6.Fagleg ansvar for opplæringa og bruk av anna personale i opplæringa enn dei som er tilsett i lærarstillingBerre dei som er tilsett i lærarstilling, kan ha fagleg ansvar for opplæringa.Når anna personale hjelper til i opplæringa, skal kommunen og fylkeskommunen sørgje for at dei får nødvendig rettleiing av ein som er tilsett i lærarstilling.
+> § 17-6. Fagleg ansvar for opplæringa og bruk av anna personale i opplæringa enn dei som er tilsett i lærarstilling
 >
-> § 17-6.Fagleg ansvar for opplæringa og bruk av anna personale i opplæringa enn dei som er tilsett i lærarstilling
+> Berre dei som er tilsett i lærarstilling, kan ha fagleg ansvar for opplæringa.
+>
+> Når anna personale hjelper til i opplæringa, skal kommunen og fylkeskommunen sørgje for at dei får nødvendig rettleiing av ein som er tilsett i lærarstilling.
 >
 
 ## § 19-4
@@ -238,9 +248,17 @@ refid: "lov/2023-06-09-30"
 
 *Ny § 25-5 skal lyde:*
 
-> § 25-5.Register over barn i grunnskoleopplæringDepartementet kan etablere eit register med opplysningar om barn i grunnskoleopplæringa på individnivå for bruk i statistikk og forsking om grunnopplæringa. Registeret kan innehalde personopplysningar knytte til fødselsnummer eller andre personeintydige identifikasjonsnummer.Formålet med registeret er å behandle personopplysningar som grunnlag for statistikk og forsking for å få fram kunnskap om effektar av tiltak og om utviklinga i sektoren.Registeret kan berre behandle dei personopplysningane som er nødvendige å behandle for formålet med registeret. Personopplysningane i registeret kan ikkje brukast til formål som er uforeinlege med formål nemnde i andre ledd. Personopplysningane kan ikkje brukast som grunnlag for enkeltvedtak eller andre individuelle avgjerder eller tiltak retta mot dei registrerte.Personopplysningar frå registeret kan ikkje utleverast til andre enn Statistisk sentralbyrå.Departementet kan gi forskrift om registeret og om plikt for kommunar til, utan hinder av teieplikt, å innrapportere dei opplysningane som er nødvendige for å oppnå formålet med registeret. Departementet kan vidare gi forskrift om behandlinga av personopplysningar, mellom anna om behandlingsansvar, kva opplysningar som kan behandlast og om kven, og tilgang til, vidarebehandling og utlevering av personopplysningar.
+> § 25-5. Register over barn i grunnskoleopplæring
 >
-> § 25-5.Register over barn i grunnskoleopplæring
+> Departementet kan etablere eit register med opplysningar om barn i grunnskoleopplæringa på individnivå for bruk i statistikk og forsking om grunnopplæringa. Registeret kan innehalde personopplysningar knytte til fødselsnummer eller andre personeintydige identifikasjonsnummer.
+>
+> Formålet med registeret er å behandle personopplysningar som grunnlag for statistikk og forsking for å få fram kunnskap om effektar av tiltak og om utviklinga i sektoren.
+>
+> Registeret kan berre behandle dei personopplysningane som er nødvendige å behandle for formålet med registeret. Personopplysningane i registeret kan ikkje brukast til formål som er uforeinlege med formål nemnde i andre ledd. Personopplysningane kan ikkje brukast som grunnlag for enkeltvedtak eller andre individuelle avgjerder eller tiltak retta mot dei registrerte.
+>
+> Personopplysningar frå registeret kan ikkje utleverast til andre enn Statistisk sentralbyrå.
+>
+> Departementet kan gi forskrift om registeret og om plikt for kommunar til, utan hinder av teieplikt, å innrapportere dei opplysningane som er nødvendige for å oppnå formålet med registeret. Departementet kan vidare gi forskrift om behandlinga av personopplysningar, mellom anna om behandlingsansvar, kva opplysningar som kan behandlast og om kven, og tilgang til, vidarebehandling og utlevering av personopplysningar.
 >
 
 ## § 29-1
@@ -265,17 +283,23 @@ refid: "lov/2023-06-09-30"
 
 *Nye §§ 13-3 til 13-5 skal lyde:*
 
-> § 13-3.FørebyggingKommunen og fylkeskommunen skal sørgje for at skolen, leksehjelpa og skolefritidsordninga driv eit kontinuerleg og systematisk arbeid for at det ikkje skal oppstå situasjonar der tilsette må gripe inn fysisk mot elevar.
+> § 13-3. Førebygging
 >
-> § 13-3.Førebygging
+> Kommunen og fylkeskommunen skal sørgje for at skolen, leksehjelpa og skolefritidsordninga driv eit kontinuerleg og systematisk arbeid for at det ikkje skal oppstå situasjonar der tilsette må gripe inn fysisk mot elevar.
 >
-> § 13-4.Fysiske inngrep for å avverje skade m.m.Tilsette i skolen, leksehjelpa og skolefritidsordninga kan, når andre tiltak ikkje er tilstrekkelege, gripe inn fysisk mot elevar for å avverje at ein elevkrenkjer ein person fysisk eller utsett seg sjølv for fysisk fareskader eigedomviser ei åtferd som er sterkt fornedrande for eleven sjølvDet fysiske inngrepet kan ikkje gå lenger enn nødvendig, og det skal stå i eit rimeleg forhold til dei interessene som skal varetakast.Handlingar som er allment aksepterte i samhandling mellom vaksne og barn som dei har omsorg for, skal ikkje reknast som fysiske inngrep etter paragrafen her.
+> § 13-4. Fysiske inngrep for å avverje skade m.m.
 >
-> § 13-4.Fysiske inngrep for å avverje skade m.m.
+> Tilsette i skolen, leksehjelpa og skolefritidsordninga kan, når andre tiltak ikkje er tilstrekkelege, gripe inn fysisk mot elevar for å avverje at ein elevkrenkjer ein person fysisk eller utsett seg sjølv for fysisk fareskader eigedomviser ei åtferd som er sterkt fornedrande for eleven sjølv
 >
-> § 13-5.Meldeplikt og dokumentasjonEin tilsett som har nytta fysiske inngrep etter § 13-4, skal melde frå om det til rektor. Rektor skal melde frå til foreldra til eleven. Dersom det er nytta fysiske inngrep mot den same eleven fleire gonger, eller inngrepet er særleg alvorleg, skal rektor melde frå til kommunen eller fylkeskommunen.Skolen skal dokumentere alle fysiske inngrep med ei kort omtale av hendinga, inngrepet som vart gjort, og eleven sitt syn på saka.
+> Det fysiske inngrepet kan ikkje gå lenger enn nødvendig, og det skal stå i eit rimeleg forhold til dei interessene som skal varetakast.
 >
-> § 13-5.Meldeplikt og dokumentasjon
+> Handlingar som er allment aksepterte i samhandling mellom vaksne og barn som dei har omsorg for, skal ikkje reknast som fysiske inngrep etter paragrafen her.
+>
+> § 13-5. Meldeplikt og dokumentasjon
+>
+> Ein tilsett som har nytta fysiske inngrep etter § 13-4, skal melde frå om det til rektor. Rektor skal melde frå til foreldra til eleven. Dersom det er nytta fysiske inngrep mot den same eleven fleire gonger, eller inngrepet er særleg alvorleg, skal rektor melde frå til kommunen eller fylkeskommunen.
+>
+> Skolen skal dokumentere alle fysiske inngrep med ei kort omtale av hendinga, inngrepet som vart gjort, og eleven sitt syn på saka.
 >
 
 ### 2024-06-14 — lov/2024-06-14-36
@@ -300,3 +324,10 @@ refid: "lov/2023-06-09-30"
 ### 2026-06-19 — lov/2026-06-19-59
 
 *Nåværende § 22-2 første ledd bokstav t blir § 22-2 første ledd ny bokstav u.*
+
+### 2026-08-01 — forskrift/2026-02-13-197
+
+*Loven trer i kraft 1. august 2026.*
+
+> Loven trer i kraft 1. august 2026.
+>

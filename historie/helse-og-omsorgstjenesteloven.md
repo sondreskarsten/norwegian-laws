@@ -158,9 +158,9 @@ refid: "lov/2011-06-24-30"
 
 *§ 3-9 a skal lyde:*
 
-> § 3-9 a.Helse- og omsorgstjenester for internerte på utlendingsinternatI de kommunene hvor det ligger utlendingsinternat skal kommunen ha tilbud om helse- og omsorgstjenester for de internerte.
+> § 3-9 a. Helse- og omsorgstjenester for internerte på utlendingsinternat
 >
-> § 3-9 a.Helse- og omsorgstjenester for internerte på utlendingsinternat
+> I de kommunene hvor det ligger utlendingsinternat skal kommunen ha tilbud om helse- og omsorgstjenester for de internerte.
 >
 
 ## § 3-9 b
@@ -521,9 +521,11 @@ refid: "lov/2011-06-24-30"
 
 *§ 12-3 a skal lyde:*
 
-> § 12-3 a.Melding og rapport om alvorlige hendelserVirksomheter som er omfattet av loven her, skal snarest mulig og senest innen fem virkedager sende melding til statsforvalteren og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko. En kopi av meldingen skal sendes til Statens helsetilsyn.Virksomheten skal i tillegg oversende en rapport om hendelsen til statsforvalteren innen tre måneder etter at melding er sendt. Rapporten skal blant annet inneholde en gjennomgang av hendelsen og mulige årsaker, hvilke tiltak virksomheten vil sette i verk for at lignende hendelser ikke skal skje igjen, og hvordan pasienten, brukeren, nærmeste pårørende og berørt helsepersonell er fulgt opp og involvert i forbedringsarbeidet.
+> § 12-3 a. Melding og rapport om alvorlige hendelser
 >
-> § 12-3 a.Melding og rapport om alvorlige hendelser
+> Virksomheter som er omfattet av loven her, skal snarest mulig og senest innen fem virkedager sende melding til statsforvalteren og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko. En kopi av meldingen skal sendes til Statens helsetilsyn.
+>
+> Virksomheten skal i tillegg oversende en rapport om hendelsen til statsforvalteren innen tre måneder etter at melding er sendt. Rapporten skal blant annet inneholde en gjennomgang av hendelsen og mulige årsaker, hvilke tiltak virksomheten vil sette i verk for at lignende hendelser ikke skal skje igjen, og hvordan pasienten, brukeren, nærmeste pårørende og berørt helsepersonell er fulgt opp og involvert i forbedringsarbeidet.
 >
 
 ## § 12-4
@@ -541,9 +543,13 @@ refid: "lov/2011-06-24-30"
 
 *Ny § 12-7 skal lyde:*
 
-> § 12-7.Godkjenning av virksomheter og tjenesteytereDepartementet kan gi forskrift om krav til og vilkår for godkjenning av private virksomheter og tjenester som omfattes av denne loven, for å ivareta ett eller flere av følgende hensyn:tjenestetilbudets kvalitetpasientsikkerhetå sikre nødvendige helsepersonellressurser for et forsvarlig offentlig tilbud av spesialisthelsetjenester eller kommunale helse- og omsorgstjenestersamfunnssikkerhetberedskap.Departementet kan tilbakekalle godkjenning når virksomheten som er tildelt godkjenningen, ikke fyller kravene som er satt i forskrift.Den som er tildelt godkjenning, plikter å gi departementet de opplysningene som departementet krever for å kunne utføre sine oppgaver. Departementet kan utføre gransking i form av stedlig undersøkelse (inspeksjon).
+> § 12-7. Godkjenning av virksomheter og tjenesteytere
 >
-> § 12-7.Godkjenning av virksomheter og tjenesteytere
+> Departementet kan gi forskrift om krav til og vilkår for godkjenning av private virksomheter og tjenester som omfattes av denne loven, for å ivareta ett eller flere av følgende hensyn:tjenestetilbudets kvalitetpasientsikkerhetå sikre nødvendige helsepersonellressurser for et forsvarlig offentlig tilbud av spesialisthelsetjenester eller kommunale helse- og omsorgstjenestersamfunnssikkerhetberedskap.
+>
+> Departementet kan tilbakekalle godkjenning når virksomheten som er tildelt godkjenningen, ikke fyller kravene som er satt i forskrift.
+>
+> Den som er tildelt godkjenning, plikter å gi departementet de opplysningene som departementet krever for å kunne utføre sine oppgaver. Departementet kan utføre gransking i form av stedlig undersøkelse (inspeksjon).
 >
 
 ## § 12-8
@@ -552,16 +558,66 @@ refid: "lov/2011-06-24-30"
 
 *Ny § 12-8 skal lyde:*
 
-> § 12-8.Beskyttelse av betegnelsen legevaktDepartementet kan i forskrift stille vilkår for bruk av betegnelsen legevakt.Departementet kan fastsette regler om overtredelsesgebyr til den som forsettlig eller uaktsomt bruker en betegnelse i strid med vilkår fastsatt i forskrift etter første ledd.
+> § 12-8. Beskyttelse av betegnelsen legevakt
 >
-> § 12-8.Beskyttelse av betegnelsen legevakt
+> Departementet kan i forskrift stille vilkår for bruk av betegnelsen legevakt.
+>
+> Departementet kan fastsette regler om overtredelsesgebyr til den som forsettlig eller uaktsomt bruker en betegnelse i strid med vilkår fastsatt i forskrift etter første ledd.
 >
 
 ## (annet)
 
+### 2013-06-21 — lov/2013-06-21-79
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 11-2 andre ledd lyde:*
+
+> Departementet kan i forskrift gi nærmere bestemmelser om vederlag for helse- og omsorgstjenester og stille krav om at det utstedes spesifisert regning til pasienten.
+>
+
+### 2013-06-21 — lov/2013-06-21-82
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 5-4 lyde:*
+
+> § 5-4.Politiattest
+>
+> Kommunen eller annen arbeidsgiver som yter tjenester etter loven her, skal ved tilbud om stilling eller oppdrag kreve politiattest i samsvar med helsepersonelloven § 20 a fra personell som skal yte helse- og omsorgstjenester til barn eller personer med utviklingshemning. Plikten omfatter ikke personell som bare sporadisk yter slike tjenester og som i alminnelighet ikke vil være alene med barn eller personer med utviklingshemming.
+>
+> Den som har vedtatt forelegg eller er dømt for overtredelser som nevnt i straffeloven §§ 192, 193, 194, 195, 196, 197, 199, 200 andre ledd, 201 bokstav c, 203 eller 204 a, er utelukket fra å utføre arbeid eller oppgaver som omhandlet i første ledd.
+>
+
+### 2014-04-01 — forskrift/2014-03-21-305
+
+*Delt ikraftsetting av lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. Lovens § 13-3 andre ledd trer i kraft 1. april 2014.*
+
+> Delt ikraftsetting av lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. Lovens § 13-3 andre ledd trer i kraft 1. april 2014.
+>
+
+### 2016-01-01 — forskrift/2015-11-13-1286
+
+*Ikraftsetting av § 3-5 tredje ledd i lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m.*
+
+> Ikraftsetting av § 3-5 tredje ledd i lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m.
+>
+> Ved en inkurie ble bestemmelsens fastsettelsesdato ikke presisert i tilrådingsposten. Bestemmelsen skal tre i kraft 1. januar 2016. Departementet tar sikte på å rette opp dette ved å fremme en ny kgl.res. hvor dette presiseres formelt. Lovdatas anm.
+>
+
+### 2016-01-01 — forskrift/2015-11-20-1334
+
+*Ikraftsetting av § 3-5 tredje ledd i lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. Bestemmelsen trer i kraft 1. januar 2016.*
+
+> Ikraftsetting av § 3-5 tredje ledd i lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. Bestemmelsen trer i kraft 1. januar 2016.
+>
+
 ### 2017-06-16 — lov/2017-06-16-55
 
 *Nåværende første punktum blir andre punktum.*
+
+### 2017-06-16 — lov/2017-06-16-55
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester skal § 3-2 andre ledd første punktum lyde:*
+
+> For å oppfylle ansvaret etter § 3-1 skal kommunen ha knyttet til seg lege, sykepleier, fysioterapeut, jordmor, helsesøster, ergoterapeut og psykolog.
+>
 
 ### 2017-06-16 — lov/2017-06-16-55
 
@@ -570,6 +626,51 @@ refid: "lov/2011-06-24-30"
 ### 2017-06-16 — lov/2017-06-16-55
 
 *Nåværende fjerde til sjette ledd blir femte til syvende ledd.*
+
+### 2018-06-22 — lov/2018-06-22-76
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 5-4 femte ledd lyde:*
+
+> Plikten til å kreve politiattest omfatter ikke personer som bare sporadisk yter tjenester etter loven her og som i alminnelighet ikke vil være alene med pasienten eller brukeren.
+>
+
+### 2018-12-20 — lov/2018-12-20-113
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 3-2 andre ledd første punktum lyde:*
+
+> For å oppfylle ansvaret etter § 3-1 skal kommunen ha knyttet til seg lege, sykepleier, fysioterapeut, jordmor og helsesykepleier.
+>
+
+### 2019-06-21 — lov/2019-06-21-45
+
+*Endringar i følgjande lov:*
+
+> Endringar i følgjande lov:
+>
+> Lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. (helse- og omsorgstjenesteloven).
+>
+> I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 3-2 første ledd nytt nr. 7 lyde:
+>
+> Dagaktivitetstilbud til hjemmeboende personer med demens.
+>
+> Lova tek til å gjelda frå det tidspunkt Kongen fastset.
+>
+
+### 2020-01-01 — forskrift/2019-06-21-790
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
+### 2021-05-07 — lov/2021-05-07-31
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 12-3 a lyde:*
+
+> § 12-3 a.Varsel om alvorlige hendelser
+>
+> Virksomheter som er omfattet av loven her, skal straks varsle Statens helsetilsyn og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Varslingsplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko.
+>
 
 ### 2021-06-18 — lov/2021-06-18-118
 
@@ -588,6 +689,47 @@ refid: "lov/2011-06-24-30"
 > Tjenestemottakers klageadgang følger av pasient- og brukerrettighetsloven kapittel 7.
 >
 
+### 2021-06-18 — lov/2021-06-18-120
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. (helse- og omsorgstjenesteloven).
+>
+> I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 6-2 første ledd nr. 10, 11 og nytt nr. 12 lyde:
+>
+> samarbeid om forebygging,
+>
+> omforente beredskapsplaner og planer for den akuttmedisinske kjeden,
+>
+> konkret beskrivelse av hvordan partene sammen skal utvikle og planlegge tjenestene og
+>
+> Loven gjelder fra den tiden Kongen bestemmer.
+>
+
+### 2021-09-01 — forskrift/2021-06-18-1977
+
+*Loven trer i kraft 1. september 2021.*
+
+> Loven trer i kraft 1. september 2021.
+>
+
+### 2022-05-20 — lov/2022-05-20-29
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 4-2 a lyde:*
+
+> § 4-2 a.Om informasjon
+>
+> Kommunen skal sørge for at det gis slik informasjon som pasient og bruker har rett til å motta etter pasient- og brukerrettighetsloven § 3-2. Tilsvarende gjelder for informasjon til pasientens og brukerens nærmeste pårørende etter pasient- og brukerrettighetsloven § 3-3 tredje ledd.
+>
+> Kommunen eller andre som yter tjenester etter loven her, har plikt til å besvare henvendelser om kvalitet og pasientsikkerhet fra pasienter og brukere, eller den som opptrer på vegne av pasienten eller brukeren. Bestemmelsen gjelder også henvendelser om kvalitet og pasientsikkerhet fra nærmeste pårørende til avdød pasient eller bruker eller fra nærmeste pårørende til pasient eller bruker over 18 år uten samtykkekompetanse.
+>
+> Henvendelser om kvalitet og pasientsikkerhet skal besvares på egnet måte og oppfylle krav til informasjon etter pasient- og brukerrettighetsloven kapittel 3.
+>
+> Departementet kan gi forskrift om det nærmere innhold i informasjonsplikten etter første ledd.
+>
+
 ### 2022-06-10 — lov/2022-06-10-35
 
 *I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal ny § 7-2 b lyde:*
@@ -595,6 +737,13 @@ refid: "lov/2011-06-24-30"
 > § 7-2 b.Midlertidige unntak fra plikter
 >
 > Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at den kommunale helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 7-1 om individuell plan§ 7-2 om koordinator§ 7-2 a om barnekoordinator.
+>
+
+### 2022-08-01 — forskrift/2021-12-03-3377
+
+*Ikraftsetting av lov 18. juni 2021 nr. 120 om endringer i helse- og omsorgstjenesteloven. Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 120 om endringer i helse- og omsorgstjenesteloven. Loven trer i kraft 1. august 2022.
 >
 
 ### 2023-12-20 — lov/2023-12-20-106
@@ -612,9 +761,16 @@ refid: "lov/2011-06-24-30"
 
 *I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 7-2 b lyde:*
 
-> § 7-2 b.Midlertidige unntak fra plikterNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at den kommunale helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 7-1 om individuell plan§ 7-2 om koordinator§ 7-2 a om barnekoordinator.
+> § 7-2 b. Midlertidige unntak fra plikter
 >
-> § 7-2 b.Midlertidige unntak fra plikter
+> Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at den kommunale helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 7-1 om individuell plan§ 7-2 om koordinator§ 7-2 a om barnekoordinator.
+>
+
+### 2025-01-01 — forskrift/2024-12-13-3501
+
+*Ikraftsetjing av lov 3. mai 2024 nr. 20 om endringar i helse- og omsorgstjenesteloven (overføring av ansvaret for helsetilbodet ved utlendingsinternat). Lova trer i kraft 1. januar 2025.*
+
+> Ikraftsetjing av lov 3. mai 2024 nr. 20 om endringar i helse- og omsorgstjenesteloven (overføring av ansvaret for helsetilbodet ved utlendingsinternat). Lova trer i kraft 1. januar 2025.
 >
 
 ### 2025-06-20 — lov/2025-06-20-83
@@ -641,16 +797,16 @@ refid: "lov/2011-06-24-30"
 
 *I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 7-2 b lyde:*
 
-> § 7-2 b.Midlertidige unntak fra plikterNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at den kommunale helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 7-1 om individuell plan§ 7-2 om koordinator§ 7-2 a om barnekoordinator.
+> § 7-2 b. Midlertidige unntak fra plikter
 >
-> § 7-2 b.Midlertidige unntak fra plikter
+> Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at den kommunale helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 7-1 om individuell plan§ 7-2 om koordinator§ 7-2 a om barnekoordinator.
 >
 
 ### 2026-06-19 — lov/2026-06-19-42
 
 *I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal ny § 4-2 b lyde:*
 
-> § 4-2 b.Om medvirkningKommunen eller andre som yter tjenester etter loven her, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.
+> § 4-2 b. Om medvirkning
 >
-> § 4-2 b.Om medvirkning
+> Kommunen eller andre som yter tjenester etter loven her, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.
 >

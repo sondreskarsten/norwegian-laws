@@ -11,6 +11,10 @@ refid: "lov/2000-11-24-82"
 
 *Nåværende tredje ledd blir nytt femte ledd.*
 
+### 2014-03-28 — lov/2014-03-28-9
+
+*I lov 24. november 2000 nr. 82 om vassdrag og grunnvann skal § 20 første ledd bokstav c lyde:må ha dispensasjon fra vernevedtak etter naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, eller utføres som skjøtselstiltak etter naturmangfoldloven § 47;*
+
 ### 2017-06-16 — lov/2017-06-16-74
 
 *Kapittel 5 overskriften skal lyde:*
@@ -35,6 +39,15 @@ refid: "lov/2000-11-24-82"
 > Grunnvannstiltak skal planlegges og gjennomføres slik at de er til minst mulig skade og ulempe for allmenne og private interesser. Denne plikten gjelder så langt den kan oppfylles uten uforholdsmessig utgift eller ulempe. Vassdragsmyndigheten kan ved forskrift fastsette nærmere regler om planlegging, gjennomføring og drift av bestemte typer grunnvannstiltak.
 >
 > Grunnvannstiltak skal fylle alle krav som med rimelighet kan stilles til sikring mot fare for mennesker, miljø eller eiendom.
+>
+
+### 2023-04-21 — lov/2023-04-21-7
+
+*I lov 24. november 2000 nr. 82 om vassdrag og grunnvann skal § 58 lyde:*
+
+> § 58.(Gebyr og sektoravgift for tilsyn og kontroll med vassdragstiltak)
+>
+> Vassdragsmyndigheten kan gi forskrift om gebyr eller sektoravgift til dekning av tilsyns- og kontrollarbeid med vassdragstiltak og om innrapportering av opplysninger som er nødvendige for beregning av gebyret eller sektoravgiften. Satsene skal settes slik at gebyrene eller sektoravgiftene samlet ikke overskrider vassdragsmyndighetens kostnader med tilsyns- og kontrollarbeidet og til tiltak etter § 40 første ledd annet punktum. Gebyret eller sektoravgiften er tvangsgrunnlag for utlegg. Betales ikke gebyret eller sektoravgiften til forfallstid, svares deretter rente som fastsatt i medhold av lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. § 3 første ledd.
 >
 
 ## § 12
@@ -166,9 +179,9 @@ refid: "lov/2000-11-24-82"
 
 *§ 36 skal lyde:*
 
-> § 36.(forskrifter om krav til sikkerhet)Vassdragsmyndigheten kan gi forskrift for å fremme sikkerhet mot skade på mennesker, miljø og eiendom, herunder om informasjonssikkerhet og taushetsplikt.
+> § 36. (forskrifter om krav til sikkerhet)
 >
-> § 36.(forskrifter om krav til sikkerhet)
+> Vassdragsmyndigheten kan gi forskrift for å fremme sikkerhet mot skade på mennesker, miljø og eiendom, herunder om informasjonssikkerhet og taushetsplikt.
 >
 
 ## § 45

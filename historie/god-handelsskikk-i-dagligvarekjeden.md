@@ -7,6 +7,20 @@ refid: "lov/2020-04-17-29"
 
 ## (annet)
 
+### 2021-01-01 — forskrift/2020-12-21-2887
+
+*Ikraftsetting av lov 17. april 2020 nr. 29 om god handelsskikk i dagligvarekjeden. Loven trer i kraft 1. januar 2021.*
+
+> Ikraftsetting av lov 17. april 2020 nr. 29 om god handelsskikk i dagligvarekjeden. Loven trer i kraft 1. januar 2021.
+>
+
+### 2022-06-22 — forskrift/2022-06-22-1143
+
+*Delt ikraftsetting av lov 4. mars 2022 nr. 7 om nasjonale saksbehandlingsregler i saker om offentlig støtte (støtteprosessloven). Støtteprosessloven § 19 nr. 4 trer i kraft straks.*
+
+> Delt ikraftsetting av lov 4. mars 2022 nr. 7 om nasjonale saksbehandlingsregler i saker om offentlig støtte (støtteprosessloven). Støtteprosessloven § 19 nr. 4 trer i kraft straks.
+>
+
 ### 2025-12-22 — lov/2025-12-22-129
 
 *I følgende bestemmelser skal «Dagligvaretilsynet» endres til «Konkurransetilsynet»:*
@@ -37,6 +51,15 @@ refid: "lov/2020-04-17-29"
 > § 13 første ledd
 >
 > § 18 første ledd og andre ledd andre punktum
+>
+
+### 2026-04-30 — forskrift/2026-04-17-601
+
+*Ikraftsetting av lov 22. desember 2025 nr. 129 om endringer i lov om god handelsskikk i dagligvarekjeden. Loven trer i kraft 30. april 2026.*
+
+> Ikraftsetting av lov 22. desember 2025 nr. 129 om endringer i lov om god handelsskikk i dagligvarekjeden. Loven trer i kraft 30. april 2026.
+>
+> Dagligvaretilsynet avvikles 30. april 2026.
 >
 
 ## § 11

@@ -15,6 +15,20 @@ refid: "lov/1979-05-18-18"
 
 *Nåværende § 15 nr. 3 annet punktum blir tredje punktum.*
 
+### 2015-12-18 — lov/2015-12-18-124
+
+*I lov 18. mai 1979 nr. 18 om foreldelse av fordringer skal § 9 første ledd lyde:*
+
+> 1. Krav på skadeserstatning eller oppreising foreldes 3 år etter den dag da skadelidte fikk eller burde skaffet seg nødvendig kunnskap om skaden og den ansvarlige. Ved krav etter skadeserstatningsloven § 3-2 a tredje ledd løper fristen likevel tidligst fra den dagen da den skadelidte fikk rett til å kreve oppfyllelse. Ved brudd på varslingsplikten etter skadeserstatningsloven § 3-2 a fjerde ledd er fristen etter første punktum 6 år i stedet for 3 år.
+>
+
+### 2022-12-20 — lov/2022-12-20-115
+
+*I lov 18. mai 1979 nr. 18 om foreldelse av fordringer skal § 21 andre ledd tredje punktum lyde:*
+
+> Det samme gjelder tvist om krav mot den offentlige forvaltning som bringes inn for Sivilombudet, dersom ombudet gir uttrykk for et standpunkt som nevnt i sivilombudsloven § 12 første ledd og ber forvaltningsorganet behandle saken på nytt.
+>
+
 ## § 10
 
 ### 2004-06-25 — lov/2004-06-25-51
@@ -111,9 +125,15 @@ refid: "lov/1979-05-18-18"
 
 *§ 17 skal lyde:*
 
-> § 17.(Tvangsfullbyrdelse.)1. Har fordringshaveren tvangsgrunnlag for sin fordring, avbrytes foreldelsen ved begjæring om tvangsfullbyrdelse (utlegg eller dekning).2. For krav som skal inndrives i fremmed stat, avbrytes foreldelse ved at det settes fram begjæring om inndrivelse overfor vedkommende myndighet her i riket eller i den fremmede stat i samsvar med lov eller overenskomst mellom statene om inndrivelse i den fremmede staten.3. For krav som inndrives etter innkrevingsloven, avbrytes foreldelsen når skyldneren er gitt varsel etter innkrevingsloven § 25. I tilfeller der slikt varsel ikke er gitt, avbrytes foreldelsen når utleggspant, utleggstrekk eller tvangsdekning er besluttet, eller inndrivingsforsøket er avsluttet med beslutning om intet til utlegg. For krav som kan inndrives i fremmed stat etter lov eller overenskomst, avbrytes foreldelse også ved at det settes fram begjæring om inndrivelse overfor rette myndighet i den fremmede staten.4. For krav som kommunene inndriver som særnamsmyndighet, avbrytes foreldelsen når skyldneren er gitt varsel etter tvangsfullbyrdelsesloven § 2-15 annet ledd. For øvrig gjelder nr. 3 tilsvarende.
+> § 17. (Tvangsfullbyrdelse.)
 >
-> § 17.(Tvangsfullbyrdelse.)
+> 1. Har fordringshaveren tvangsgrunnlag for sin fordring, avbrytes foreldelsen ved begjæring om tvangsfullbyrdelse (utlegg eller dekning).
+>
+> 2. For krav som skal inndrives i fremmed stat, avbrytes foreldelse ved at det settes fram begjæring om inndrivelse overfor vedkommende myndighet her i riket eller i den fremmede stat i samsvar med lov eller overenskomst mellom statene om inndrivelse i den fremmede staten.
+>
+> 3. For krav som inndrives etter innkrevingsloven, avbrytes foreldelsen når skyldneren er gitt varsel etter innkrevingsloven § 25. I tilfeller der slikt varsel ikke er gitt, avbrytes foreldelsen når utleggspant, utleggstrekk eller tvangsdekning er besluttet, eller inndrivingsforsøket er avsluttet med beslutning om intet til utlegg. For krav som kan inndrives i fremmed stat etter lov eller overenskomst, avbrytes foreldelse også ved at det settes fram begjæring om inndrivelse overfor rette myndighet i den fremmede staten.
+>
+> 4. For krav som kommunene inndriver som særnamsmyndighet, avbrytes foreldelsen når skyldneren er gitt varsel etter tvangsfullbyrdelsesloven § 2-15 annet ledd. For øvrig gjelder nr. 3 tilsvarende.
 >
 
 ## § 18
@@ -136,14 +156,15 @@ refid: "lov/1979-05-18-18"
 
 *§ 18 overskriften skal lyde:*
 
-> § 18.(Konkurs, rekonstruksjonsforhandling, gjeldsforhandling og skifte).
->
-> § 18.(Konkurs, rekonstruksjonsforhandling, gjeldsforhandling og skifte).
+> § 18. (Konkurs, rekonstruksjonsforhandling, gjeldsforhandling og skifte).
 >
 
 ### 2026-06-19 — lov/2026-06-19-48
 
 *§ 18 annet ledd skal lyde:*
+
+> 2. Er skyldnerens bo under konkurs, rekonstruksjonsforhandling eller offentlig skifte, eller er det åpnet gjeldsforhandling etter gjeldsordningsloven, avbrytes ellers foreldelse når fordringshaveren anmelder fordringen i boet, eller til namsmannen. Foreldelse av alle fordringer som blir anmeldt innen utløpet av meldefristen i boet, anses avbrutt den dag da det ble åpnet konkurs, rekonstruksjonsforhandling, gjeldsforhandling etter gjeldsordningsloven eller offentlig skifte.
+>
 
 ## § 19
 
@@ -181,6 +202,9 @@ refid: "lov/1979-05-18-18"
 
 *§ 21 nr. 1 skal lyde:*
 
+> 1. Er foreldelse avbrutt ved påtale etter §§ 15 til 19, skjer ingen foreldelse så lenge forfølgningen pågår. Beslutter en namsmyndighet at fordringen skal dekkes ved utleggstrekk, skjer ingen foreldelse så lenge utleggstrekket består. Foreldelse inntrer likevel dersom fordringshaveren ikke meddeler Innkrevingsmyndigheten at kravet fortsatt består innen 10 år fra trekkbeslutningen ble truffet, siste utbetaling til fordringshaveren fant sted, eller fordringshaveren sist ga slik meddelelse. Tredje punktum gjelder ikke krav som Innkrevingsmyndigheten har i trekket.
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 21 nr. 3 første punktum skal lyde:*
@@ -192,9 +216,15 @@ refid: "lov/1979-05-18-18"
 
 *§ 21 ny nr. 4 skal lyde:*
 
+> 4. For krav der foreldelsen er avbrutt etter § 17 nr. 3 eller nr. 4, løper en ny foreldelsesfrist på 10 år fra den dag foreldelsen ble avbrutt. For senere forfalte renter er den nye fristen 3 år.
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 21 ny nr. 5 skal lyde:*
+
+> 5. Er foreldelse avbrutt etter §§ 15 til 19, løper ikke foreldelsesfristen for senere forfalte renter så lenge den rentebærende fordringen består.
+>
 
 ## § 22
 
@@ -216,9 +246,15 @@ refid: "lov/1979-05-18-18"
 
 *§ 22 ny nr. 4 skal lyde:*
 
+> 4. Opphører et utleggstrekk som fordringen tar del i, inntrer ikke foreldelse før tidligst 1 år etter opphøret. Nr. 1 annet og tredje punktum gjelder tilsvarende.
+>
+
 ### 2026-06-19 — lov/2026-06-19-48
 
 *§ 22 tredje ledd skal lyde:*
+
+> 3. Ved rekonstruksjonsforhandling gjelder bestemmelsen i nr. 2 annet punktum tilsvarende for rettidig anmeldt fordring.
+>
 
 ## § 9
 

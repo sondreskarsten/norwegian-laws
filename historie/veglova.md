@@ -7,6 +7,118 @@ refid: "lov/1963-06-21-23"
 
 ## (annet)
 
+### 2001-06-15 — lov/2001-06-15-78
+
+*I lov 21. juni 1963 nr. 23 skal § 60 andre ledd første punktum lyde:*
+
+> I områder som er lagt ut som landbruks-, natur- og friluftsområder i medhald av plan- og bygningslova § 20-4 nr. 2 eller er regulert til slik bruk eller vern og i uregulert område, held jordskifteretten skjønn etter kap. VII dersom rekvirenten set fram krav om skjønn for jordskifteretten i samband med sak etter jordskiftelova § 6 første til fjerde ledd første punktum eller som eiga sak.
+>
+
+### 2006-12-15 — lov/2006-12-15-92
+
+*I veglov 21. juni 1963 nr. 23 skal ny § 21 lyde:*
+
+> I veglov 21. juni 1963 nr. 23 skal ny § 21 lyde:
+>
+> § 21
+>
+> .
+>
+> Paragrafen her gjeld avtalar mellom vedkomande vegstyremakt og det selskapet som skal finansiere og stå for utbygging av ein offentleg veg, og stå for drift og vedlikehald av vegen i minst ti år etter at han er opna for trafikk.
+>
+> Paragrafen gjeld berre dersom det følgjer av avtalen at minst halvparten av selskapet sitt vederlag skal betalast etter at vegen er opna for trafikk, og at dette vederlaget skal betalast i samsvar med avtalen fram til selskapet si plikt til å drifte og vedlikehalde vegen tek slutt.
+>
+> Om det vert opna konkurs i selskapet sitt bu, har konkursbuet ikkje rett til å tre inn i ein avtale som nemnt i paragrafen her.
+>
+> Departementet kan gje føresegner om utfylling og gjennomføring av paragrafen her.
+>
+> Lova gjeld frå den tid Kongen fastset.
+>
+
+### 2008-04-04 — lov/2008-04-04-8
+
+*I veglov 21. juni 1963 nr. 23 skal § 27 fyrste ledd lyde:*
+
+> I veglov 21. juni 1963 nr. 23 skal § 27 fyrste ledd lyde:
+>
+> Med samtykke frå Stortinget kan departementet fastsette at det skal krevjast bompengar på offentleg veg, fastsette storleiken på avgiftene, og sette vilkår om bestemt bruk av avgiftsmidlane. Bompengane kan nyttast til alle tiltak som denne lova gir heimel for. Dessutan kan dei nyttast til investeringar i faste anlegg og installasjonar for kollektivtrafikk på jernbane, inkludert sporveg og tunnelbane. Som del av ein plan om eit heilskapleg og samordna transportsystem i eit byområde, kan bompengar nyttast til tiltak for drift av kollektivtrafikk.
+>
+> Lova gjeld frå den tid Kongen fastset.
+>
+
+### 2016-12-16 — lov/2016-12-16-99
+
+*Endringar i følgjande lov:*
+
+> Endringar i følgjande lov:
+>
+> Lov 21. juni 1963 nr. 23 om vegar (veglova).
+>
+> I lov 21. juni 1963 nr. 23 om vegar blir det gjort følgjande endringar:
+>
+> Nytt kapittel II A skal lyde:
+>
+> Kap. II A. Tilsyn med riksveg.
+>
+> § 11 a
+>
+> .
+>
+> Vegtilsynet
+>
+> Vegtilsynet skal føre tilsyn med at Statens vegvesen og det statlege utbyggingsselskapet for veg oppfyller dei pliktar som følgjer av § 11 b.
+>
+> Departementet fastset instruks for Vegtilsynet.
+>
+> § 11 b
+>
+> .
+>
+> Plikt til å ha og bruke styringssystem m.m.
+>
+> Statens vegvesen og det statlege utbyggingsselskapet for veg skal ha og bruke tilstrekkelege og effektive styringssystem for å sikre tryggleiken knytt til riksvegane.
+>
+> Departementet kan i forskrift gi utfyllande reglar om plikta etter fyrste ledd.
+>
+> § 11 c
+>
+> .
+>
+> Opplysingsplikt
+>
+> Statens vegvesen og det statlege utbyggingsselskapet for veg skal innanfor fastsett frist gi dei opplysingane og dokumenta som Vegtilsynet krev. Det same gjeld entreprenørar, konsulentar og andre som utfører oppgåver eller som elles samhandlar med Statens vegvesen eller det statlege utbyggingsselskapet for veg. Vegtilsynet kan bestemme i kva for form opplysingane skal bli gitt.
+>
+> Opplysingsplikten gjeld berre dei opplysningane som Vegtilsynet finn naudsynte for å kunne utføre oppgåvene sine etter lova.
+>
+> § 11 d
+>
+> .
+>
+> Pålegg om retting
+>
+> Vegtilsynet kan pålegge retting innan ein fastsett frist dersom tilsynet viser avvik frå plikta til å ha og bruke styringssystem i medhald av § 11 b.
+>
+> Kostnadene ved å gjennomføre pålegget skal dekkast av den ansvarlege verksemda.
+>
+> § 11 e
+>
+> .
+>
+> Tvangsmulkt
+>
+> Dersom pålegg etter § 11 d ikkje er følgt innan fristen, kan Vegtilsynet treffe vedtak om tvangsmulkt.
+>
+> Tvangsmulkta kan fastsettast som ei laupande mulkt eller som eit beløp som forfell ved kvart brot. Tvangsmulkt lauper ikkje dersom etterleving blir umogeleg og årsaka til dette ikkje ligg hos den ansvarlege.
+>
+> Tvangsmulkta si storleik fastsetjast med omsyn til kor viktig det er at pålegget blir gjennomført, og kva for kostnader det truleg fører med seg.
+>
+> Ilegging av tvangsmulkt kan påklagast særskilt.
+>
+> Departementet kan gi utfyllande reglar om fastsetting av tvangsmulkt.
+>
+> Lova gjeld frå den tid Kongen fastset.
+>
+
 ### 2016-12-16 — lov/2016-12-16-100
 
 *Nåværende tredje punktum blir nytt fjerde punktum.*
@@ -18,6 +130,30 @@ refid: "lov/1963-06-21-23"
 ### 2016-12-16 — lov/2016-12-16-100
 
 *Nåværende annet punktum blir nytt tredje punktum.*
+
+### 2017-01-01 — forskrift/2016-12-16-1586
+
+*Loven trer i kraft 1. januar 2017.*
+
+> Loven trer i kraft 1. januar 2017.
+>
+
+### 2017-06-16 — lov/2017-06-16-75
+
+*I lov 21. juni 1963 nr. 23 om vegar skal § 27 lyde:*
+
+> § 27.
+>
+> Med samtykke frå Stortinget kan departementet fastsetje at det skal krevjast bompengar på offentleg veg, fastsetje storleiken på avgiftene, og setje vilkår om bestemt bruk av avgiftsmidlane. Bompengane kan nyttast til alle tiltak som denne lova gir heimel for. Dessutan kan dei nyttast til investeringar i faste anlegg og installasjonar for kollektivtrafikk på jernbane, inkludert sporveg og tunnelbane.
+>
+> Med samtykke frå Stortinget kan departementet fastsetje særskilde ordningar for bompengar i byområde, med takstar som er tilpassa dei særskilde behova i området, ut frå omsyn til transportløysingane i området, bruken av arealet, lokalmiljøet eller liknande. Ut frå behova kan det fastsetjast takstar som er baserte på køyretøya si vekt, påverkar val av reisemiddel, varierer ut frå tida på døgnet, varierer ut frå dei ulike køyretøya sine miljøeigenskapar eller liknande. Føresegnene om vilkår og bruk av bompengar i første ledd gjeld tilsvarande. Som del av ein plan om eit heilskapleg og samordna transportsystem i eit byområde, kan bompengar nyttast til tiltak for drift av kollektivtrafikk.
+>
+> Departementet kan i forskrift fastsetje mellombelse endra bompengetakstar til bruk i avgrensa periodar innanfor eksisterande bompengeordningar i byområde når det er fare for og ved overskriding av grenseverdiane for konsentrasjon av forureining i luft utandørs fastsett i forskrift med heimel i forurensningsloven § 9. Bruken av takstane føreset vedtak av kommunen og fylkeskommunen. Inntekter frå dei endra takstane skal gå til å nedbetale dei prosjekta som er prioriterte i bompengeordninga det gjeld. Departementet kan i forskrifta likevel fastsetje føresegner om at inntekter frå dei endra takstane kan bli brukt til tiltak for å få ned trafikken i perioden det gjeld.
+>
+> Med samtykke frå departementet kan rett til å krevje inn bompengar pantsetjast. Ei slik pantsetjing omfattar den rett pantsetjaren har til den eller dei eigedomane der det ligg eller skal liggja bomstasjon eller til eigedom som har samanheng med drifta av bompengeinnkrevinga. Panterett i rett til å krevje inn bompengar får rettvern ved å tinglysast i grunnboka på den eller dei eigedomane som er nemnde i førre punktum. Andre fordringshavarar enn panthavaren har ikkje rett til dekking i retten til å krevje inn bompengar.
+>
+> Departementet kan i forskrift fastsetje generelle føresegner om takstar etter første og andre ledd og føresegner om plikta til å betale bompengar.
+>
 
 ## § 10
 

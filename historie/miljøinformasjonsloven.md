@@ -20,7 +20,7 @@ refid: "lov/2003-05-09-31"
 
 *§ 6 skal lyde:*
 
-> § 6.BetalingDet er ikke adgang til å ta betaling for miljøinformasjon som noen har rett til å få utlevert etter loven her, med mindre annet er bestemt i forskrift fastsatt i medhold av denne loven, offentleglova eller dataforvaltningsloven.
+> § 6. Betaling
 >
-> § 6.Betaling
+> Det er ikke adgang til å ta betaling for miljøinformasjon som noen har rett til å få utlevert etter loven her, med mindre annet er bestemt i forskrift fastsatt i medhold av denne loven, offentleglova eller dataforvaltningsloven.
 >

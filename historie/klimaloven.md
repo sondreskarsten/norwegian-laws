@@ -11,9 +11,9 @@ refid: "lov/2017-06-16-60"
 
 *I lov 16. juni 2017 nr. 60 om klimamål skal § 3 lyde:*
 
-> § 3.Klimamål for 2030Målet skal være at klimagassutslippene i 2030 reduseres med minst 55 prosent fra utslippsnivået i referanseåret 1990.
+> § 3. Klimamål for 2030
 >
-> § 3.Klimamål for 2030
+> Målet skal være at klimagassutslippene i 2030 reduseres med minst 55 prosent fra utslippsnivået i referanseåret 1990.
 >
 
 ### 2025-06-20 — lov/2025-06-20-90
@@ -60,9 +60,9 @@ refid: "lov/2017-06-16-60"
 
 *§ 4 skal lyde:*
 
-> § 4.Klimamål for 2035Målet skal være at klimagassutslippene i 2035 reduseres med minst 70–75 prosent fra utslippsnivået i referanseåret 1990.
+> § 4. Klimamål for 2035
 >
-> § 4.Klimamål for 2035
+> Målet skal være at klimagassutslippene i 2035 reduseres med minst 70–75 prosent fra utslippsnivået i referanseåret 1990.
 >
 
 ## § 6

@@ -70,9 +70,9 @@ refid: "lov/2016-12-09-88"
 
 *§ 9-3 skal lyde:*
 
-> § 9-3.Endring etter beslutning om fingerte personopplysningerNår det er gitt tillatelse etter politiloven til bruk av fingerte personopplysninger, skal registermyndigheten registrere de aktuelle opplysningene i samsvar med avgjørelsen.
+> § 9-3. Endring etter beslutning om fingerte personopplysninger
 >
-> § 9-3.Endring etter beslutning om fingerte personopplysninger
+> Når det er gitt tillatelse etter politiloven til bruk av fingerte personopplysninger, skal registermyndigheten registrere de aktuelle opplysningene i samsvar med avgjørelsen.
 >
 
 ## § 9-4
@@ -103,9 +103,51 @@ refid: "lov/2016-12-09-88"
 
 ## (annet)
 
+### 2019-07-01 — lov/2018-12-20-111
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 9. desember 2016 nr. 88 om folkeregistrering (folkeregisterloven).
+>
+> I lov 9. desember 2016 nr. 88 om folkeregistrering skal ny § 9-4 lyde:
+>
+> § 9-4.
+>
+> Bruk av personopplysninger ved utvikling og testing av IT-systemer
+>
+> Folkeregistermyndigheten kan behandle innhentede personopplysninger for å utvikle og teste IT-systemer dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.
+>
+> Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.
+>
+> Endringen under I trer i kraft 1. juli 2019.
+>
+
+### 2020-10-05 — forskrift/2020-10-05-1960
+
+*Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering (folkeregisterloven). Loven § 10-1 tredje ledd trer i kraft straks.*
+
+> Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering (folkeregisterloven). Loven § 10-1 tredje ledd trer i kraft straks.
+>
+
 ### 2021-12-22 — lov/2021-12-22-159
 
 *Nåværende § 9-4 blir ny § 9-5.*
+
+### 2022-01-01 — forskrift/2021-12-22-3803
+
+*Loven trer i kraft 1. januar 2022.*
+
+> Loven trer i kraft 1. januar 2022.
+>
+
+### 2023-03-31 — lov/2023-03-31-5
+
+*I lov 9. desember 2016 nr. 88 om folkeregistrering skal § 9-1 tredje ledd lyde:*
+
+> Departementet kan i forskrift fastsette unntak fra taushetsplikten for opplysninger om registreringsstatus, jf. § 3-1 første ledd bokstav w. Departementet kan i forskrift også gi regler om hvilke nærmere opplysninger om vergemål og stadfestet fremtidsfullmakt som skal omfattes av taushetsplikt.
+>
 
 ### 2025-01-01 — lov/2024-12-20-94
 
@@ -118,7 +160,15 @@ refid: "lov/2016-12-09-88"
 
 *I lov 9. desember 2016 nr. 88 om folkeregistrering skal § 5-4 lyde:*
 
-> § 5-4.Medlemmer av Stortinget og regjeringen mv.Medlemmer av Stortinget og regjeringen som må oppholde seg utenfor registrert bosted som følge av det politiske vervet, kan beholde denne boligen som registrert bosted. Det samme gjelder for statssekretærer og politiske rådgivere i departementene og ved Statsministerens kontor. Denne boligen må ligge minst 40 kilometer fra arbeidsstedet, være fullverdig og disponeres gjennom et reelt eie- eller leieforhold på alminnelige vilkår.Ektefelle og barn i personens husstand skal være registrert bosatt samme sted, med mindre de har særlig svak tilknytning til boligen.Ved flytting til annen bolig som også oppfyller avstandskravet, kan personen med husstand registreres der på samme vilkår. Personer nevnt i første ledd som i løpet av funksjonsperioden etablerer seg i en slik bolig som oppfyller avstandskravet, kan på nærmere vilkår registreres bosatt der.Opphold i statsministerboligen endrer ikke registrert bosted så lenge statsministeren disponerer en egen privat bolig gjennom et reelt eie- eller leieforhold. Ektefelle og barn i statsministerens husstand anses bosatt samme sted, med mindre de har særlig svak tilknytning til den private boligen.Departementet kan gi forskrift om kravene til å disponere bolig, herunder besøkshyppighet, kravene til fullverdig bolig og vilkårene for adgangen etter tredje ledd andre punktum til å etablere bosted under funksjonsperioden.
+> § 5-4. Medlemmer av Stortinget og regjeringen mv.
 >
-> § 5-4.Medlemmer av Stortinget og regjeringen mv.
+> Medlemmer av Stortinget og regjeringen som må oppholde seg utenfor registrert bosted som følge av det politiske vervet, kan beholde denne boligen som registrert bosted. Det samme gjelder for statssekretærer og politiske rådgivere i departementene og ved Statsministerens kontor. Denne boligen må ligge minst 40 kilometer fra arbeidsstedet, være fullverdig og disponeres gjennom et reelt eie- eller leieforhold på alminnelige vilkår.
+>
+> Ektefelle og barn i personens husstand skal være registrert bosatt samme sted, med mindre de har særlig svak tilknytning til boligen.
+>
+> Ved flytting til annen bolig som også oppfyller avstandskravet, kan personen med husstand registreres der på samme vilkår. Personer nevnt i første ledd som i løpet av funksjonsperioden etablerer seg i en slik bolig som oppfyller avstandskravet, kan på nærmere vilkår registreres bosatt der.
+>
+> Opphold i statsministerboligen endrer ikke registrert bosted så lenge statsministeren disponerer en egen privat bolig gjennom et reelt eie- eller leieforhold. Ektefelle og barn i statsministerens husstand anses bosatt samme sted, med mindre de har særlig svak tilknytning til den private boligen.
+>
+> Departementet kan gi forskrift om kravene til å disponere bolig, herunder besøkshyppighet, kravene til fullverdig bolig og vilkårene for adgangen etter tredje ledd andre punktum til å etablere bosted under funksjonsperioden.
 >

@@ -814,9 +814,9 @@ refid: "lov/2003-07-04-84"
 
 *§ 3-10 a skal lyde:*
 
-> § 3-10 a.Plikt til førebyggingStyret skal sørgje for at skolen driv eit kontinuerleg og systematisk arbeid for at det ikkje skal oppstå situasjonar der tilsette må gripe inn fysisk mot elevar.
+> § 3-10 a. Plikt til førebygging
 >
-> § 3-10 a.Plikt til førebygging
+> Styret skal sørgje for at skolen driv eit kontinuerleg og systematisk arbeid for at det ikkje skal oppstå situasjonar der tilsette må gripe inn fysisk mot elevar.
 >
 
 ## § 3-10 b
@@ -825,9 +825,13 @@ refid: "lov/2003-07-04-84"
 
 *§ 3-10 b skal lyde:*
 
-> § 3-10 b.Fysiske inngrep for å avverje skade m.m.Tilsette i skolen kan, når andre tiltak ikkje er tilstrekkelege, gripe inn fysisk mot elevar for å avverje at ein elevkrenkjer ein person fysisk eller utsett seg sjølv for fysisk fareskader eigedomviser ei åtferd som er sterkt fornedrande for eleven sjølvDet fysiske inngrepet kan ikkje gå lenger enn nødvendig, og det skal stå i eit rimeleg forhold til dei interessene som skal varetakast.Handlingar som er allment aksepterte i samhandling mellom vaksne og barn som dei har omsorg for, skal ikkje reknast som fysiske inngrep etter paragrafen her.
+> § 3-10 b. Fysiske inngrep for å avverje skade m.m.
 >
-> § 3-10 b.Fysiske inngrep for å avverje skade m.m.
+> Tilsette i skolen kan, når andre tiltak ikkje er tilstrekkelege, gripe inn fysisk mot elevar for å avverje at ein elevkrenkjer ein person fysisk eller utsett seg sjølv for fysisk fareskader eigedomviser ei åtferd som er sterkt fornedrande for eleven sjølv
+>
+> Det fysiske inngrepet kan ikkje gå lenger enn nødvendig, og det skal stå i eit rimeleg forhold til dei interessene som skal varetakast.
+>
+> Handlingar som er allment aksepterte i samhandling mellom vaksne og barn som dei har omsorg for, skal ikkje reknast som fysiske inngrep etter paragrafen her.
 >
 
 ### 2025-05-23 — lov/2025-05-23-16
@@ -850,9 +854,11 @@ refid: "lov/2003-07-04-84"
 
 *§ 3-10 c skal lyde:*
 
-> § 3-10 c.Meldeplikt og dokumentasjonEin tilsett som har nytta fysiske inngrep etter § 3-10 b, skal melde frå om det til dagleg leiar. Dagleg leiar skal melde frå til foreldra til eleven. Dersom det er nytta fysiske inngrep mot den same eleven fleire gonger, eller inngrepet er særleg alvorleg, skal dagleg leiar melde frå til styret for skolen.Skolen skal dokumentere alle fysiske inngrep med ei kort omtale av hendinga, inngrepet som vart gjort, og eleven sitt syn på saka.
+> § 3-10 c. Meldeplikt og dokumentasjon
 >
-> § 3-10 c.Meldeplikt og dokumentasjon
+> Ein tilsett som har nytta fysiske inngrep etter § 3-10 b, skal melde frå om det til dagleg leiar. Dagleg leiar skal melde frå til foreldra til eleven. Dersom det er nytta fysiske inngrep mot den same eleven fleire gonger, eller inngrepet er særleg alvorleg, skal dagleg leiar melde frå til styret for skolen.
+>
+> Skolen skal dokumentere alle fysiske inngrep med ei kort omtale av hendinga, inngrepet som vart gjort, og eleven sitt syn på saka.
 >
 
 ## § 3-11
@@ -1517,9 +1523,13 @@ refid: "lov/2003-07-04-84"
 
 *§ 7-2 c skal lyde:*
 
-> § 7-2 c.LovbrotsgebyrDepartementet kan ileggje skolar godkjende etter denne lova lovbrotsgebyr dersom skolen eller nokon som opptrer på vegner av skolen, forsettleg eller aktlaust bryt føresegner gitt i denne lova eller føresetnadene for godkjenninga.Ved vurderinga av ilegging og utmåling av lovbrotsgebyr kan det også leggjast vekt på om det er oppdaga forhold i strid med andre lover og forskrifter, dersom forholdet svekkjer tilliten til skolen.Departementet kan gi forskrift om lovbrotsgebyr, og departementet kan i forskrift fastsetje at skolar godkjende etter denne lova kan ileggjast lovbrotsgebyr dersom skolen eller nokon som opptrer på vegner av skolen, forsettleg eller aktlaust bryt føresegner i forskrifter som er fastsette med heimel i lova.
+> § 7-2 c. Lovbrotsgebyr
 >
-> § 7-2 c.Lovbrotsgebyr
+> Departementet kan ileggje skolar godkjende etter denne lova lovbrotsgebyr dersom skolen eller nokon som opptrer på vegner av skolen, forsettleg eller aktlaust bryt føresegner gitt i denne lova eller føresetnadene for godkjenninga.
+>
+> Ved vurderinga av ilegging og utmåling av lovbrotsgebyr kan det også leggjast vekt på om det er oppdaga forhold i strid med andre lover og forskrifter, dersom forholdet svekkjer tilliten til skolen.
+>
+> Departementet kan gi forskrift om lovbrotsgebyr, og departementet kan i forskrift fastsetje at skolar godkjende etter denne lova kan ileggjast lovbrotsgebyr dersom skolen eller nokon som opptrer på vegner av skolen, forsettleg eller aktlaust bryt føresegner i forskrifter som er fastsette med heimel i lova.
 >
 
 ## § 7-2 d
@@ -1757,10 +1767,6 @@ refid: "lov/2003-07-04-84"
 >
 > I § 8-2 Endringer i andre lover gjøres følgende endring:
 >
-> I lov 17. juli 1998 nr. 61 om grunnskolen og den vidaregåande opplæringa skal § 14-1 fjerde ledd lyde:
->
-> Departementet kan gi forskrifter som pålegg dei ansvarlege for opplæringsverksemd etter denne lova og dei som mottar slik opplæring å gi opplysningar og delta i evalueringar og rapportere om forhold som er av betydning for evaluering av opplæringsverksemda som er omfatta av denne lova.
->
 
 ### 2004-12-01 — lov/2004-11-26-74
 
@@ -1911,7 +1917,34 @@ refid: "lov/2003-07-04-84"
 
 ### 2014-06-20 — lov/2014-06-20-53
 
+*I lov 4. juli 2003 nr. 84 om private skolar med rett til statstilskot skal § 2-1 nytt tredje ledd lyde:*
+
+> Departementet kan i særskilde tilfelle gi godkjenning til private skolar som ikkje fyller kravet om grunnlag i andre ledd.
+>
+
+### 2014-06-20 — lov/2014-06-20-53
+
 *Nåværende tredje til sjette ledd blir fjerde til syvende ledd.*
+
+### 2015-04-24 — lov/2015-04-24-23
+
+*I lov 4. juli 2003 nr. 84 om private skolar med rett til statstilskot skal § 3-3 første ledd lyde:*
+
+> Ein elev som har fått plass ved ein grunnskole som er godkjend etter denne lova, har rett til å fullføre opplæringa si ved skolen, så langt skolen er godkjend. Ein grunnskoleelev kan i særlege tilfelle likevel flyttast til ein offentleg skole i heimkommunen dersom omsynet til dei andre elevane tilseier det. Grunnen til at ein elev kan flyttast, kan til dømes vere at eleven mobbar ein eller fleire medelevar. Før det blir gjort enkeltvedtak om å flytte ein elev, skal ein ha prøvd andre tiltak. Heimkommunen gjer vedtak. Departementet er klageinstans.
+>
+
+### 2018-04-20 — lov/2018-04-20-5
+
+*I lov 4. juli 2003 nr. 84 om frittståande skolar skal § 7-4 lyde:*
+
+> § 7-4.Opplysningsplikt til barnevernet
+>
+> Tilsette i skolen skal i arbeidet sitt vere merksame på forhold som kan føre til tiltak frå barneverntenesta.
+>
+> Tilsette i skolen skal utan hinder av teieplikta melde frå til barneverntenesta utan ugrunna opphaldnår det er grunn til å tru at eit barn blir eller vil bli mishandla, utsett for alvorlege manglar ved den daglege omsorga eller anna alvorleg omsorgssvikt,når det er grunn til å tru at eit barn har ein livstruande eller annan alvorleg sjukdom eller skade og ikkje kjem til undersøking eller behandling, eller at eit barn med nedsett funksjonsevne eller eit spesielt hjelpetrengande barn ikkje får dekt sitt særlege behov for behandling eller opplæring,når eit barn viser alvorlege åtferdsvanskar i form av alvorleg eller gjentatt kriminalitet, misbruk av rusmiddel eller ei anna form for utprega normlaus åtferd,når det er grunn til å tru at eit barn blir eller vil bli utnytta til menneskehandel.
+>
+> Alle som utfører teneste eller arbeid etter denne lova, pliktar også å gi opplysningar etter pålegg i samsvar med barnevernloven § 6-4.
+>
 
 ### 2020-06-19 — lov/2020-06-19-91
 
@@ -1990,6 +2023,13 @@ refid: "lov/2003-07-04-84"
 
 *I § 7-2 blir tredje ledd sletta. Noverande fjerde og femte ledd blir nye tredje og fjerde ledd.*
 
+### 2023-08-01 — forskrift/2023-06-09-825
+
+*Loven trer i kraft 1. august 2023.*
+
+> Loven trer i kraft 1. august 2023.
+>
+
 ### 2024-06-14 — lov/2024-06-14-34
 
 *Nåværende tredje og fjerde ledd blir fjerde og nytt femte ledd.*
@@ -2002,9 +2042,29 @@ refid: "lov/2003-07-04-84"
 
 **
 
-> § 4-5.Fagleg ansvar for opplæringa og bruk av anna personale i opplæringa enn dei som er tilsett i lærarstillingBerre dei som er tilsett i lærarstilling, kan ha fagleg ansvar for opplæringa.Når anna personale hjelper til i opplæringa, skal skolen sørgje for at dei får nødvendig rettleiing av ein som er tilsett i lærarstilling.
+> § 4-5. Fagleg ansvar for opplæringa og bruk av anna personale i opplæringa enn dei som er tilsett i lærarstilling
 >
-> § 4-5.Fagleg ansvar for opplæringa og bruk av anna personale i opplæringa enn dei som er tilsett i lærarstilling
+> Berre dei som er tilsett i lærarstilling, kan ha fagleg ansvar for opplæringa.
+>
+> Når anna personale hjelper til i opplæringa, skal skolen sørgje for at dei får nødvendig rettleiing av ein som er tilsett i lærarstilling.
+>
+
+### 2024-07-01 — forskrift/2024-06-14-954
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-08-01 — forskrift/2024-06-14-960
+
+*Delt ikraftsetting av lov 14. juni 2024 om endringer i opplæringslova og privatskolelova (kompetansekrav, faglig ansvar og bruk av fysisk inngripen for å avverge skade m.m.).*
+
+> Delt ikraftsetting av lov 14. juni 2024 om endringer i opplæringslova og privatskolelova (kompetansekrav, faglig ansvar og bruk av fysisk inngripen for å avverge skade m.m.).
+>
+> Følgende trer i kraft 1. august 2024:
+>
+> Endringsloven del II (privatskolelova).
 >
 
 ### 2025-06-20 — lov/2025-06-20-98
@@ -2025,6 +2085,13 @@ refid: "lov/2003-07-04-84"
 ### 2026-06-19 — lov/2026-06-19-58
 
 *Nåværende § 2-1 tredje til syvende ledd blir fjerde til nytt åttende ledd.*
+
+### 2026-06-19 — forskrift/2026-06-19-1133
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
 
 ## § 6A-1
 

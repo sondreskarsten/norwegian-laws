@@ -7,6 +7,13 @@ refid: "lov/2020-06-19-95"
 
 ## (annet)
 
+### 2023-07-01 — forskrift/2023-06-16-901
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
 ### 2026-06-19 — lov/2026-06-19-63
 
 **

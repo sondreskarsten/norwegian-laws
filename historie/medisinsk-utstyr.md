@@ -22,6 +22,13 @@ refid: "lov/1995-01-12-6"
 
 *Noverande §§ 12 til 14 blir nye §§ 13 til 15.*
 
+### 2014-06-20 — lov/2014-06-20-39
+
+*I lov 12. januar 1995 nr. 6 om medisinsk utstyr skal § 1 nytt annet ledd lyde:*
+
+> Kongen kan gi forskrift om at loven og forskrifter med hjemmel i loven helt eller delvis skal gjelde for Svalbard og kan fastsette særlige regler under hensyn til de stedlige forholdene.
+>
+
 ## § 12
 
 ### 2008-12-19 — lov/2008-12-19-110

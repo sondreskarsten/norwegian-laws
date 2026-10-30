@@ -11,6 +11,13 @@ refid: "lov/1981-04-08-7"
 
 *Nåværende femte ledd blir fjerde ledd.*
 
+### 2001-12-21 — lov/2001-12-21-117
+
+*I lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) skal § 12 tredje ledd lyde:*
+
+> Førelegget skal sendast til den utlagde faren i rekommandert brev eller ved bruk av elektronisk kommunikasjon dersom det er nytta ein betryggande metode for å sikre at førelegget er mottatt.
+>
+
 ### 2003-06-20 — lov/2003-06-20-40
 
 *Nåværende § 35 b blir § 37.*
@@ -220,6 +227,43 @@ refid: "lov/1981-04-08-7"
 
 *I ny § 88 endres «§ 44 andre stykket første punktum» til «§ 42 andre stykket første punktum».*
 
+### 2005-06-17 — lov/2005-06-17-84
+
+*I lov 8. april 1981 nr. 7 om foreldre og barn skal § 38 tredje ledd første punktum lyde:*
+
+> Fører dødsfall til at ingen lenger har foreldreansvaret for eit barn, skal lensmannen, namsfuten eller politistasjon med sivile rettspleieoppgåver eller tingretten få opplysning om det i dødsfallsmeldinga.I nr. 31 gjøres det følgende endringer i endringene i lov 17. desember 1982 nr. 86 om rettsgebyr:
+>
+
+### 2005-06-17 — lov/2005-06-17-84
+
+*Endringen av § 5 a nr. 2 skal lyde:*
+
+> Avgjørelser som gjelder forretninger som nevnt i kapittel 3 hos en lensmann, namsfogd eller politistasjon kan påklages til tingretten etter reglene i skjønnsloven § 31.
+>
+
+### 2005-06-17 — lov/2005-06-17-84
+
+*Endringen av § 5 a nr. 3 første punktum skal lyde:*
+
+> Avgjørelser som gjelder forretninger som nevnt i kapittel 4 og § 25 hos en lensmann, namsfogd eller politistasjon eller hos en særskilt namsmann kan påklages til tingretten etter reglene i tvangsfullbyrdelsesloven § 5-16.
+>
+
+### 2005-06-17 — lov/2005-06-17-84
+
+*Endringen av § 11 første ledd første punktum skal lyde:*
+
+> For behandling av skjønn og takster som styres av en dommer ved de alminnelige domstoler eller av en lensmann, namsfogd eller politistasjonssjef, betales 5 ganger rettsgebyret for hver dag eller del av dag som skjønnet varer.
+>
+
+### 2005-06-17 — lov/2005-06-17-84
+
+*Endringen av § 11 tredje ledd skal lyde:*
+
+> For klage over avgjørelser under skjønn som styres av en lensmann, namsfogd eller politistasjonssjef, jf. skjønnsloven § 31, betales rettsgebyret.I nr. 32 skal endringen i lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs § 80 fjerde ledd lyde:
+>
+> Registrerings- og forseglingsforretningene kan overlates til lensmannen, namsfogden eller politistasjon med sivile rettspleieoppgaver eller en annen skikket person oppnevnt av retten.I nr. 33 skal endringen i plan- og bygningslov 14. juni 1985 nr. 77 § 59 annet ledd lyde:
+>
+
 ### 2007-02-27 — lov/2007-01-26-3
 
 *Nytt kapittel 4 A skal lyde:*
@@ -293,6 +337,27 @@ refid: "lov/1981-04-08-7"
 
 *Overskriften til kapittel 2 skal lyde:*
 
+### 2014-01-01 — forskrift/2013-06-21-703
+
+*Loven trer i kraft 1. januar 2014, med unntak av § 1 a, § 5 andre og fjerde ledd, § 15 nytt andre ledd, § 78 fjerde ledd og § 81 første ledd som trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. januar 2014, med unntak av § 1 a, § 5 andre og fjerde ledd, § 15 nytt andre ledd, § 78 fjerde ledd og § 81 første ledd som trer i kraft 1. juli 2014.
+>
+
+### 2017-06-02 — forskrift/2017-06-02-690
+
+*Delt ikraftsetting. Endringsloven trer i kraft fra 1. september 2017, med unntak av barnelova § 83a som trer i kraft straks.*
+
+> Delt ikraftsetting. Endringsloven trer i kraft fra 1. september 2017, med unntak av barnelova § 83a som trer i kraft straks.
+>
+
+### 2017-12-19 — lov/2017-12-19-122
+
+*I lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) skal § 83 b første punktum lyde:*
+
+> Når ein part med heimel i ei avtale med framand stat ber om innkrevjing av ei avtale om tilskot etter § 70 første stykket, skal avtala sendast Innkrevingssentralen for bidrag og tilbakebetalingskrav for godkjenning.
+>
+
 ### 2018-04-20 — lov/2018-04-20-6
 
 *Kapittel 7 avsnitt IV blir nytt avsnitt V.*
@@ -305,6 +370,94 @@ refid: "lov/1981-04-08-7"
 >
 > Folkeregistermyndigheita skal, utan hinder av teieplikt, gje dei opplysingane som er naudsynte for utføring av oppgåver etter lova her.
 >
+
+### 2019-06-21 — lov/2019-06-21-25
+
+*I lov 8. april 1981 nr. 7 om barn og foreldre skal § 73 andre ledd lyde:*
+
+> Indeksreguleringa gjeld også for beløpet som er fastsett etter forskotteringsloven § 5 første stykket, med mindre Stortinget gjer vedtak om noko anna.
+>
+
+### 2020-01-01 — forskrift/2019-09-13-1121
+
+*Delt ikraftsetting av lov 31. mars 2017 nr. 13 om endringer i barnelova mv. (likestilt foreldreskap). Endringsloven del I, endringene i lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) § 35 trer i kraft 1. januar 2020.*
+
+> Delt ikraftsetting av lov 31. mars 2017 nr. 13 om endringer i barnelova mv. (likestilt foreldreskap). Endringsloven del I, endringene i lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) § 35 trer i kraft 1. januar 2020.
+>
+
+### 2021-01-01 — forskrift/2020-06-19-1232
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-06-11 — lov/2021-06-11-60
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 8. april 1981 nr. 7 om barn og foreldre (barnelova).
+>
+> I lov 8. april 1981 nr. 7 om barn og foreldre skal følgende bestemmelser lyde:
+>
+> § 61 b
+>
+> .
+>
+> Forskrift om krav til mandat og utgreiing til sakkunnige
+>
+> Departementet kan gje forskrift om utforminga av mandata til dei sakkunnige og utgreiingane deira.
+>
+> § 61 c
+>
+> .
+>
+> Barnesakkunnig kommisjon
+>
+> Barnesakkunnig kommisjon skal vurdere kvaliteten på utgreiingar frå sakkunnige som er oppnemnde av retten etter § 61 første stykket nr. 3 og utgreiingar frå sakkunnige som ein part har engasjert.
+>
+> Ein sakkunnig som er oppnemnd av retten etter § 61 første stykket nr. 3 skal sende utgreiinga til kommisjonen med kopi til retten. Er den sakkunnige engasjert av ein part, skal parten sende inn utgreiinga på same måten. Kommisjonen skal sende si vurdering til retten og den sakkunnige.
+>
+> Retten kan berre leggje til grunn ei sakkunnig utgreiing som har vore vurdert av kommisjonen etter denne paragrafen.
+>
+> Departementet nemner opp medlemmene i kommisjonen og kan gje forskrift om korleis kommisjonen skal vere organisert, kva oppgåver han skal ha, og korleis han skal handsame sakene.
+>
+> § 61 d
+>
+> .
+>
+> Barnesakkunnig kommisjon kan handsame personopplysningar
+>
+> Personopplysningsloven gjeld for Barnesakkunnig kommisjon. Kommisjonen kan handsame personopplysningar, medrekna personopplysningar som nemnde i personvernforordninga artikkel 9 og 10, når det er naudsynt for å utføre oppgåver etter § 61 c eller forskrift i medhald av § 61 c fjerde stykket.
+>
+> Departementet kan gje forskrift om handsaminga av personopplysningar, mellom anna om føremålet med handsaminga, handsamingsansvar, kva personopplysningar som kan handsamast, kven det kan handsamast personopplysningar om, tiltak som skal verne den opplysningane gjeld, høve til vidarehandsaming, utlevering, registerføring og tilgang til register.
+>
+> Loven gjelder fra den tid Kongen bestemmer. Kongen kan sette i kraft de enkelte bestemmelsene til forskjellig tid.
+>
+> Departementet kan i forskrift gi nærmere overgangsbestemmelser.
+>
+
+### 2021-06-11 — forskrift/2021-06-11-1866
+
+*Delt ikraftsetting av lov om endringer i barnelova (Barnesakkyndig kommisjon i foreldretvistsaker). Endringene i barnelova § 61b og § 61c fjerde ledd trer i kraft straks.*
+
+> Delt ikraftsetting av lov om endringer i barnelova (Barnesakkyndig kommisjon i foreldretvistsaker). Endringene i barnelova § 61b og § 61c fjerde ledd trer i kraft straks.
+>
+
+### 2022-08-15 — forskrift/2022-06-03-959
+
+*Delt iverksetjing av lov 11. juni 2021 nr. 60 om endringer i barnelova (Barnesakkyndig kommisjon i foreldretvistsaker). Følgjande blir sett i kraft frå 15. august 2022:*
+
+> Delt iverksetjing av lov 11. juni 2021 nr. 60 om endringer i barnelova (Barnesakkyndig kommisjon i foreldretvistsaker). Følgjande blir sett i kraft frå 15. august 2022:
+>
+> Endringslova del I § 61c fyrste til tredje ledd og § 61d.
+>
+
+### 2023-06-16 — lov/2023-06-16-34
+
+*I lov 8. april 1981 nr. 7 om barn og foreldre skal § 4 andre ledd bokstav d lyde:utsend utanrikstenestetilsett, dersom faren er i utlandet.*
 
 ## § 1
 
@@ -1757,9 +1910,15 @@ refid: "lov/1981-04-08-7"
 
 *§ 78 skal lyde:*
 
-> § 78.Gjennomføring av avgjerder om tilskot og gebyr. Tvangsgrunnlag.Fostringstilskot krevjast inn av Innkrevjingsmyndigheita.Avgjerd i tilskotssak er tvangsgrunnlag for utlegg. Avgjerda har rettsverknader og kan fullførast før ho er endeleg, om ikkje anna er fastsett. Oppfyllingsfristen er tre dagar, om ikkje annan frist er fastsett.Ei skriftleg avtale om tilskot er tvangsgrunnlag for utlegg når tilskot etter avtala vert kravd inn etter reglane i innkrevingsloven. Det same gjeld ei avgjerd om gebyr som nemnd i § 70 andre stykket.Vert tilskot som er gjort opp, sett ned etter § 70 andre stykket, § 74 eller § 76 eller etter klage, kan den tilskotspliktige krevje at Innkrevjingsmyndigheita gjer frådrag i fostringstilskotet på den måten og for dei terminane som Innkrevjingsmyndigheita finn rimeleg. Avgjerd om frådrag i fostringstilskot kan påklagast etter reglane i forvaltningslova kapittel VI.
+> § 78. Gjennomføring av avgjerder om tilskot og gebyr. Tvangsgrunnlag.
 >
-> § 78.Gjennomføring av avgjerder om tilskot og gebyr. Tvangsgrunnlag.
+> Fostringstilskot krevjast inn av Innkrevjingsmyndigheita.
+>
+> Avgjerd i tilskotssak er tvangsgrunnlag for utlegg. Avgjerda har rettsverknader og kan fullførast før ho er endeleg, om ikkje anna er fastsett. Oppfyllingsfristen er tre dagar, om ikkje annan frist er fastsett.
+>
+> Ei skriftleg avtale om tilskot er tvangsgrunnlag for utlegg når tilskot etter avtala vert kravd inn etter reglane i innkrevingsloven. Det same gjeld ei avgjerd om gebyr som nemnd i § 70 andre stykket.
+>
+> Vert tilskot som er gjort opp, sett ned etter § 70 andre stykket, § 74 eller § 76 eller etter klage, kan den tilskotspliktige krevje at Innkrevjingsmyndigheita gjer frådrag i fostringstilskotet på den måten og for dei terminane som Innkrevjingsmyndigheita finn rimeleg. Avgjerd om frådrag i fostringstilskot kan påklagast etter reglane i forvaltningslova kapittel VI.
 >
 
 ## § 8
@@ -1879,9 +2038,9 @@ refid: "lov/1981-04-08-7"
 
 *§ 83 b skal lyde:*
 
-> § 83 b.Godkjenning av private avtaler for innkrevjing i utlandetNår ein part med heimel i ei avtale med framand stat ber om innkrevjing av ei avtale om tilskot etter § 70 første stykket, skal avtala sendast Arbeids- og velferdsetaten for godkjenning. Arbeids- og velferdsetaten skal kontrollere at vilkåra for innkrevjing av avtala etter norske reglar er oppfylte. Om vilkåra er oppfylte, skal Innkrevjingsmyndigheita gi skriftleg fråsegn om at avtala er godkjent og tvangskraftig i Noreg.
+> § 83 b. Godkjenning av private avtaler for innkrevjing i utlandet
 >
-> § 83 b.Godkjenning av private avtaler for innkrevjing i utlandet
+> Når ein part med heimel i ei avtale med framand stat ber om innkrevjing av ei avtale om tilskot etter § 70 første stykket, skal avtala sendast Arbeids- og velferdsetaten for godkjenning. Arbeids- og velferdsetaten skal kontrollere at vilkåra for innkrevjing av avtala etter norske reglar er oppfylte. Om vilkåra er oppfylte, skal Innkrevjingsmyndigheita gi skriftleg fråsegn om at avtala er godkjent og tvangskraftig i Noreg.
 >
 
 ## § 84 a

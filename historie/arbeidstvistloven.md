@@ -11,6 +11,17 @@ refid: "lov/2012-01-27-9"
 
 *Nåværende § 46 tredje ledd blir nytt fjerde ledd.*
 
+### 2020-07-01 — forskrift/2020-06-19-1235
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2023-03-17 — lov/2023-03-17-3
+
+*I lov 27. januar 2012 nr. 9 om arbeidstvister skal § 1 bokstav a lyde:arbeidstaker: enhver som utfører arbeid for og underordnet en annen, og som ikke går inn under lov om offentlige tjenestetvister.*
+
 ## § 1
 
 ### 2020-06-19 — lov/2020-06-19-71

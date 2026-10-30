@@ -7,6 +7,38 @@ refid: "lov/2009-06-19-100"
 
 ## (annet)
 
+### 2012-06-22 — lov/2012-06-22-56
+
+*I lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold skal § 17 annet ledd lyde:*
+
+> Vilt kan avlives når det må anses påkrevd for å fjerne en aktuell og betydelig fare for skade på person. Eieren, eller en som opptrer på vegne av eieren, kan avlive vilt under direkte angrep på bufe, tamrein, gris, hund og fjørfe.
+>
+
+### 2012-07-01 — forskrift/2012-06-22-588
+
+*Delt ikraftsetting av kapittel IV i lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold.*
+
+> Delt ikraftsetting av kapittel IV i lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold.
+>
+> § 28, § 30, § 31 og § 32 trer i kraft fra 1. juli 2012.
+>
+
+### 2012-07-01 — forskrift/2012-06-22-605
+
+*Ikraftsetting av lov 17. september 2010 nr. 57 om endringer i naturmangfoldloven, viltloven mv. (nødverge, bruk av åte).*
+
+> Ikraftsetting av lov 17. september 2010 nr. 57 om endringer i naturmangfoldloven, viltloven mv. (nødverge, bruk av åte).
+>
+> Lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold § 17a trer i kraft fra 1. juli 2012.
+>
+
+### 2012-08-10 — lov/2012-08-10-62
+
+*I lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold skal § 75 første ledd annet punktum lyde:*
+
+> På samme måte straffes den som forsettlig eller uaktsomt overtrer bestemmelser i forskrifter eller i enkeltvedtak som nevnt i § 77 første punktum.
+>
+
 ### 2013-06-14 — lov/2013-06-14-51
 
 *Nåværende annet punktum blir nytt tredje punktum.*
@@ -15,9 +47,51 @@ refid: "lov/2009-06-19-100"
 
 *Nåværende tredje og fjerde punktum blir nye fjerde og femte punktum.*
 
+### 2013-07-01 — forskrift/2013-06-14-673
+
+*Loven trer i kraft fra 1. juli 2013.*
+
+> Loven trer i kraft fra 1. juli 2013.
+>
+
 ### 2014-03-28 — lov/2014-03-28-9
 
 *Nåværende femte ledd blir til nytt sjette ledd.*
+
+### 2014-06-20 — forskrift/2014-06-20-801
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2020-06-19 — forskrift/2020-06-19-1236
+
+*Lova trer i kraft straks.*
+
+> Lova trer i kraft straks.
+>
+
+### 2021-01-01 — forskrift/2020-12-11-2725
+
+*Delt ikraftsetting av lov 21. juni 2019 nr. 54 om endringer i forurensningsloven, produktkontrolloven, naturmangfoldloven og svalbardmiljøloven mv. (innføring av overtredelsesgebyr og heving av strafferammer). Loven del V, endringene i naturmangfoldloven § 74, trer i kraft 1. januar 2021.*
+
+> Delt ikraftsetting av lov 21. juni 2019 nr. 54 om endringer i forurensningsloven, produktkontrolloven, naturmangfoldloven og svalbardmiljøloven mv. (innføring av overtredelsesgebyr og heving av strafferammer). Loven del V, endringene i naturmangfoldloven § 74, trer i kraft 1. januar 2021.
+>
+
+### 2022-06-17 — forskrift/2022-06-17-1039
+
+*Loven trer i kraft 17. juni 2022.*
+
+> Loven trer i kraft 17. juni 2022.
+>
+
+### 2026-01-01 — forskrift/2025-12-22-2814
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
 
 ## § 14
 
@@ -255,9 +329,9 @@ refid: "lov/2009-06-19-100"
 
 *Ny § 56 a skal lyde:*
 
-> § 56 a.(forbud mot næringsmessig uttak av myr)Næringsmessig uttak av myr til torvprodukter eller andre tekniske formål er forbudt. Forbudet gjelder ikke uttak fra områder som er åpnet for næringsmessig uttak av myr før 1. januar 2026, eller uttak av mindre mengder torv for restaurering av bygninger eller antikvariske formål.
+> § 56 a. (forbud mot næringsmessig uttak av myr)
 >
-> § 56 a.(forbud mot næringsmessig uttak av myr)
+> Næringsmessig uttak av myr til torvprodukter eller andre tekniske formål er forbudt. Forbudet gjelder ikke uttak fra områder som er åpnet for næringsmessig uttak av myr før 1. januar 2026, eller uttak av mindre mengder torv for restaurering av bygninger eller antikvariske formål.
 >
 
 ## § 60

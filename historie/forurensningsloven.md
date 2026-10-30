@@ -11,13 +11,347 @@ refid: "lov/1981-03-13-6"
 
 *Overskriften til kapittel 7 skal lyde:*
 
-### 2002-03-15 — lov/2002-03-15-5
-
-*Kapittel 7. Tilsyn med forurensninger og avfall*
+> Kapittel 7. Tilsyn med forurensninger og avfall
+>
 
 ### 2002-03-15 — lov/2002-03-15-5
 
 *Kapittel 7A (herunder kapitteloverskriften) oppheves og § 52 c går inn i kapittel 7.*
+
+### 2005-01-01 — lov/2004-12-17-99
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 13. mars 1981 nr. 6 om vern mot forurensning og om avfall (Forurensningsloven).
+>
+> Kapittel 1 Innledende bestemmelser
+>
+> § 1
+>
+> .
+>
+> (lovens formål)
+>
+> Formålet med denne loven er å begrense utslippene av klimagasser på en kostnadseffektiv måte gjennom et system med kvoteplikt for utslipp av CO
+>
+> og fritt omsettelige utslippskvoter.
+>
+> § 2
+>
+> .
+>
+> (lovens stedlige virkeområde)
+>
+> Loven gjelder for utslipp i riket og for utslipp fra virksomhet på den norske delen av kontinentalsokkelen, med de begrensningene som følger av folkeretten.
+>
+> Kongen kan gi forskrift med nærmere bestemmelser om lovens stedlige virkeområde, herunder om lovens anvendelse på Svalbard.
+>
+> § 3
+>
+> .
+>
+> (utslipp som omfattes av denne loven)
+>
+> Loven gjelder utslipp av CO
+>
+> i forbindelse med:
+>
+> energiproduksjon
+>
+> raffinering av mineralolje
+>
+> produksjon av koks
+>
+> produksjon og bearbeiding av jern og stål, herunder røsting og sintring av jernmalm
+>
+> produksjon av sement, kalk, glass, glassfiber og keramiske produkter.
+>
+> Loven gjelder likevel ikke utslipp:
+>
+> fra forbrenning av biomasse
+>
+> fra forbrenning av farlig avfall og kommunalt avfall
+>
+> som er avgiftsbelagt etter Stortingets årlige vedtak om CO
+>
+> -avgift.
+>
+> Kongen kan i forskrift gi bestemmelser om at utslipp omfattet av første ledd fra produksjonsenheter med kapasitet under en fastsatt grense skal være unntatt fra denne lov, herunder bestemmelser om at flere produksjonsenheter som står i nær driftsmessig eller fysisk sammenheng skal vurderes under ett ved beregningen av kapasiteten.
+>
+> Kongen kan i forskrift gi bestemmelser om at utslipp av CO
+>
+> fra en produksjonsenhet i sin helhet skal være omfattet av denne lov selv om utslippet bare delvis skyldes virksomhet som nevnt i første ledd.
+>
+> § 4
+>
+> .
+>
+> (kvoteplikt)
+>
+> Den som driver virksomhet som nevnt i § 3 er kvotepliktig etter denne lov og må innlevere kvoter tilsvarende sine kvotepliktige utslipp i samsvar med bestemmelsene i § 13. I tillegg kreves tillatelse etter forurensningsloven § 11.
+>
+> § 5
+>
+> .
+>
+> (søknad om utslippstillatelse og kvoter)
+>
+> Søknad om utslippstillatelse etter forurensningsloven § 11 må foreligge innen 15. januar 2005 for at virksomheten skal komme i betraktning ved tildeling av kvoter etter § 8 for perioden 1. januar 2005 til 31. desember 2007. Søknader som er innlevert innen denne fristen anses samtidig for å være søknader om å få tildelt kvoter i medhold av § 8. Søknaden må inneholde de opplysningene som er nødvendige for å vurdere hvor mange kvoter som skal tildeles etter § 8. Forurensningsmyndighetene kan i det enkelte tilfellet fastsette hvilke opplysninger eller undersøkelser søkeren må sørge for.
+>
+> Kapittel 2 Fastsettelse av det samlede antallet kvoter og tildeling
+>
+> § 6
+>
+> .
+>
+> (fastsettelse av det samlede antallet kvoter)
+>
+> Kongen fastsetter det samlede antallet kvoter som tildeles for perioden 1. januar 2005 til 31. desember 2007.
+>
+> Ved fastsettelsen av det samlede antallet kvoter skal Kongen blant annet ta hensyn til Norges internasjonale forpliktelser til å begrense utslippene av klimagasser, den faktiske og forventede utslippsutviklingen i Norge, hvor stor andel av de faktiske og forventede utslippene som omfattes av § 3, å unngå forskjellsbehandling mellom sektorer og bedrifter, og de tekniske og økonomiske mulighetene for å begrense utslipp som omfattes av § 3.
+>
+> § 7
+>
+> .
+>
+> (tildelingsmetode)
+>
+> Kvotene skal for perioden 1. januar 2005 til 31. desember 2007 tildeles vederlagsfritt til de kvotepliktige.
+>
+> § 8
+>
+> .
+>
+> (tildeling av kvoter)
+>
+> Forurensningsmyndighetene treffer vedtak om hvor mange kvoter som skal tildeles den enkelte kvotepliktige for perioden 1. januar 2005 til 31. desember 2007.
+>
+> For tildelingen av kvoter for perioden 1. januar 2005 til 31. desember 2007 skal følgende retningslinjer legges til grunn:
+>
+> For virksomhet som er igangsatt senest 1. januar 2001, skal tildelingen ta utgangspunkt i virksomhetens gjennomsnittlige utslipp i basisårene fra og med 1998 til og med 2001.
+>
+> Dersom virksomhet som nevnt i bokstav a ikke har vært i drift i alle basisårene eller av andre grunner har atypiske utslipp i ett eller flere av basisårene, kan kvoter tildeles på grunnlag av utslippene i de øvrige årene.
+>
+> Dersom utslippene fra virksomhet som nevnt i bokstav a etter 1. januar 2001, men før 31. desember 2007, har blitt eller med rimelig sikkerhet forventes å bli vesentlig redusert eller økt som følge av vesentlige endringer av virksomhetens art eller omfang, skal dette tillegges betydning ved tildelingen. Ved endringer som medfører økte utslipp kan det ved tildelingen legges vekt på mulighetene, herunder de tekniske og økonomiske mulighetene, for å begrense utslipp av CO
+>
+> , særlig ved å ta i bruk de beste tilgjengelige teknikkene.
+>
+> For virksomhet som er igangsatt etter 1. januar 2001 eller med rimelig sikkerhet forventes å bli igangsatt før 31. desember 2007, kan det ved tildelingen legges vekt på mulighetene, herunder de tekniske og økonomiske mulighetene, for å begrense utslipp av CO
+>
+> , særlig ved å ta i bruk de beste tilgjengelige teknikkene.
+>
+> Tildelingsvedtaket gjøres betinget av at den kvotepliktige ved den årlige utdelingen av kvoter etter § 9, har utslippstillatelse for CO
+>
+> etter forurensningsloven § 11 annet ledd og at virksomhetens art og omfang ikke avviker vesentlig i forhold til de forutsetningene som tildelingsvedtaket bygger på. I forbindelse med den årlige utdelingen av kvoter etter § 9 prøver forurensningsmyndighetene om betingelsene for tildelingsvedtaket er oppfylt. Dersom forurensningsmyndighetene kommer til at dette ikke er tilfellet kan tildelingsvedtaket omgjøres. Omgjøringsvedtaket legges til grunn for kvoteutdelingen etter § 9.
+>
+> Kongen kan i forskrift gi nærmere bestemmelser om tildeling av kvoter etter denne bestemmelsen.
+>
+> § 9
+>
+> .
+>
+> (utdeling av kvoter)
+>
+> Forurensningsmyndighetene deler hvert år ut det antallet kvoter den enkelte kvotepliktige er berettiget til etter vedtak i medhold av § 8. Utdelingen av kvoter skjer ved at forurensningsmyndighetene innen 1. mars hvert år underretter Det norske registeret for klimakvoter om at et angitt antall kvoter skal overføres til den kvotepliktiges konto i registeret. Utdeling av kvoter for 2005 skal skje innen 15. mars 2005.
+>
+> Dersom den kvotepliktige har fått utdelt et større antall kvoter enn det vedkommende er berettiget til i henhold til vedtak om tildeling av kvoter etter § 8, skal forurensningsmyndighetene underrette Det norske registeret for klimakvoter om at overskytende kvoter skal slettes fra vedkommendes konto. Før forurensningsmyndighetene underretter Det norske registeret for klimakvoter om sletting, skal den kvotepliktige varsles og gis anledning til å uttale seg innen en nærmere angitt frist, med mindre vedkommende allerede på annen måte har hatt rimelig anledning til å uttale seg, varsel av andre grunner må anses åpenbart unødvendig, eller det er grunn til å frykte at det vil vanskeliggjøre slettingen.
+>
+> § 10
+>
+> .
+>
+> (meldeplikt)
+>
+> Den kvotepliktige skal på forhånd gi melding til forurensningsmyndighetene om enhver endring av virksomhetens art eller omfang som kan ha betydning for om betingelsene i vedtak etter § 8 er oppfylt.
+>
+> Kapittel 3 Det norske registeret for klimakvoter – Oppgjør av kvoteplikten
+>
+> § 11
+>
+> .
+>
+> (Det norske registeret for klimakvoter)
+>
+> Det norske registeret for klimakvoter skal inneholde opplysninger om utstedelse, utdeling, beholdning, overdragelse, overføring til oppgjør og sletting av kvoter.
+>
+> Kongen utpeker en ansvarlig myndighet for opprettelse og drift av registeret. Kongen kan i forskrift gi nærmere bestemmelser om utformingen og driften av dette registeret, herunder bestemmelser om hvilke typer kontoer og opplysninger registeret skal inneholde, hvilke opplysninger som skal være offentlig tilgjengelige og om samarbeid med andre registre.
+>
+> Offentlige myndigheter har rett til å få tilgang til opplysninger fra kvoteregisteret i den utstrekning dette er nødvendig for å fremme deres oppgaver i eller i medhold av lov.
+>
+> § 12
+>
+> .
+>
+> (opprettelse av konto, overføring og sletting av kvoter)
+>
+> Enhver fysisk eller juridisk person har rett til å opprette konto i Det norske registeret for klimakvoter.
+>
+> En kontohaver har rett til å overføre egne kvoter til andre kontohavere. Kongen kan i forskrift gi bestemmelser som innskrenker overføringsadgangen etter denne bestemmelsen der dette er nødvendig i henhold til regelverket under Kyotoprotokollen 1997 til FNs rammekonvensjon 1992 om klimaendring.
+>
+> En kontohaver kan kreve at kvoter registrert på egen konto slettes.
+>
+> Kongen kan i forskrift gi bestemmelser om betaling av gebyr for opprettelse av konto, mottak av kvoter utstedt av staten og overføring av kvoter i, til eller fra registeret.
+>
+> § 13
+>
+> .
+>
+> (plikt til å overføre kvoter til oppgjør)
+>
+> Den kvotepliktige skal innen 1. mai hvert år overføre et antall kvoter som svarer til virksomhetens rapporteringspliktige utslipp det foregående året, til en nærmere angitt oppgjørskonto i registeret.
+>
+> Dersom den kvotepliktige ikke innen fristen etter første ledd har satt inn et tilstrekkelig antall kvoter på oppgjørskontoen, skal den kvotepliktige innen 1. mai året etter at oppgjør i medhold av første ledd skulle ha funnet sted, plassere kvoter på den tildelte oppgjørskontoen svarende til underskuddet fra det tidligere året. I tillegg skal det ilegges overtredelsesgebyr etter § 21.
+>
+> Kvoter som er overført til oppgjør etter første og annet ledd for kvoteplikt i perioden 1. januar 2005 til 31. desember 2007 skal slettes.
+>
+> § 14
+>
+> .
+>
+> (godkjenning av kvoter som ikke er utstedt i Det norske registeret for klimakvoter)
+>
+> Kongen kan i forskrift gi nærmere bestemmelser om hvilke typer kvoter, andre enn de som er utstedt etter § 8, som kan godkjennes i oppgjør i forhold til kvoteplikten, og prosedyrene for dette.
+>
+> § 15
+>
+> .
+>
+> (utstedelse av kvoter på grunnlag av utslippsreduserende prosjekter i sektorer innenlands som ikke har kvoteplikt)
+>
+> Kongen kan i forskrift gi nærmere bestemmelser om utstedelse av kvoter på grunnlag av utslippsreduserende prosjekter i sektorer innenlands som ikke har kvoteplikt.
+>
+> Kapittel 4 Rapportering og kontroll
+>
+> § 16
+>
+> .
+>
+> (rapportering)
+>
+> Den kvotepliktige skal innen 1. mars hvert år rapportere foregående års kvotepliktige utslipp av CO
+>
+> til forurensningsmyndighetene.
+>
+> Kongen kan i forskrift gi nærmere bestemmelser om rapporteringen, herunder bestemmelser om hva som skal rapporteres og hvordan utslippene skal beregnes eller måles.
+>
+> § 17
+>
+> .
+>
+> (forurensningsmyndighetenes kontroll)
+>
+> Forurensningsmyndighetene kontrollerer og godkjenner den enkelte kvotepliktiges rapportering av CO
+>
+> -utslipp etter § 16.
+>
+> I særlige tilfeller kan forurensningsmyndighetene gi pålegg om at den kvotepliktiges utslippsrapport skal verifiseres av en uavhengig tredjepart før innlevering. Kongen kan i forskrift gi nærmere bestemmelser om krav til og akkreditering av verifikasjonsinstans, herunder om utarbeidelsen og innholdet av verifikasjonserklæringer.
+>
+> Kongen kan i forskrift fastsette at omkostninger i forbindelse med forurensningsmyndighetenes kontroll av utslippsrapporter etter denne bestemmelsen skal dekkes av den kvotepliktige.
+>
+> § 18
+>
+> .
+>
+> (pålegg om opplysninger eller undersøkelse)
+>
+> Forurensningsmyndighetene kan pålegge kvotepliktige å gi opplysninger eller å sørge for eller bekoste undersøkelser eller lignende tiltak som med rimelighet kan kreves for å fastslå om det er behov for å endre rapporteringsreglene gitt i medhold av § 16.
+>
+> Kapittel 5 Sanksjoner
+>
+> § 19
+>
+> .
+>
+> (suspensjon av retten til å overføre kvoter)
+>
+> Dersom den kvotepliktige ikke innen 1. april det enkelte år har rapportert sine utslipp i henhold til bestemmelsene gitt i eller i medhold av § 16, skal forurensningsmyndighetene suspendere vedkommende fra retten til å overføre kvoter i kvoteregisteret fram til tilfredsstillende rapportering foreligger.
+>
+> § 20
+>
+> .
+>
+> (tvangsmulkt)
+>
+> Ved overtredelse av rapporteringsplikten etter § 16 kan forurensningsmyndighetene fatte vedtak om tvangsmulkt til staten. Tvangsmulkten begynner å løpe dersom den kvotepliktige oversitter den fristen som forurensningsmyndighetene har fastsatt for å rette forholdet. Tvangsmulkten løper så lenge det ulovlige forholdet varer.
+>
+> Tvangsmulkten ilegges den kvotepliktige etter § 4. Vedtak om tvangsmulkt er tvangsgrunnlag for utlegg. Forurensningsmyndighetene kan frafalle påløpt tvangsmulkt.
+>
+> § 21
+>
+> .
+>
+> (overtredelsesgebyr)
+>
+> Dersom den kvotepliktige ikke har overholdt sine forpliktelser etter § 13 første ledd, ilegger forurensningsmyndighetene et overtredelsesgebyr til statskassen. Overtredelsesgebyret skal tilsvare 40 euro på forfallstidspunktet for hvert tonn rapporteringspliktig CO
+>
+> som det ikke er plassert kvoter for på virksomhetens konto i henhold til § 13 første ledd. Gebyret forfaller til betaling 14 dager etter påkrav. Ved forsinket betaling skal det betales renter etter lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. Vedtak om overtredelsesgebyr er tvangsgrunnlag for utlegg. Kongen kan i forskrift endre størrelsen på overtredelsesgebyret.
+>
+> Informasjon om hvem som er ilagt overtredelsesgebyr og omfanget av overtredelsen skal gjøres tilgjengelig for offentligheten.
+>
+> § 22
+>
+> .
+>
+> (straff)
+>
+> Med bøter eller fengsel inntil 3 måneder eller begge deler straffes den som forsettlig eller uaktsomt overtrer bestemmelsene om rapporteringsplikt gitt i eller i medhold av § 16 i denne lov.
+>
+> Kapittel 6 Avsluttende bestemmelser
+>
+> § 23
+>
+> .
+>
+> (endringer i andre lover)
+>
+> I lov 13. mars 1981 nr. 6 om vern mot forurensning og om avfall gjøres følgende endringer:
+>
+> § 11 nytt annet ledd skal lyde:
+>
+> Kvotepliktig etter klimakvoteloven § 4 skal etter søknad innvilges tillatelse til kvotepliktige utslipp av CO
+>
+> så fremt han godtgjør at han er i stand til å overvåke og rapportere utslippene på en tilfredstillende måte. Kongen kan i utslippstillatelsen sette vilkår i medhold av § 16. Det skal ikke settes noen utslippsgrenseverdi i tillatelsen. Tillatelsen gjelder så langt det innleveres kvoter i henhold til plikten i klimakvoteloven § 13.
+>
+> Nåværende § 11 annet ledd blir § 11 tredje ledd osv.
+>
+> § 18 nytt annet ledd skal lyde:
+>
+> Tillatelse gitt i medhold av § 11 annet ledd tilbakekalles eller endres dersom kvoteplikten etter klimakvoteloven § 4 opphører.
+>
+> Nåværende § 18 annet ledd blir § 18 tredje ledd.
+>
+> Nåværende § 18 tredje ledd blir § 18 nytt fjerde ledd og skal lyde:
+>
+> Ved avgjørelser etter første og tredje ledd skal det tas hensyn til kostnadene en endring eller omgjøring vil påføre forurenseren og de fordeler og ulemper endring eller omgjøring for øvrig vil medføre.
+>
+> § 24
+>
+> .
+>
+> (ikrafttredelse)
+>
+> Loven gjelder fra 1. januar 2005.
+>
+
+### 2007-06-29 — lov/2007-06-29-93
+
+*I lov 13. mars 1981 nr. 6 om vern mot forurensning og om avfall skal § 11 annet ledd første punktum lyde:*
+
+> Kvotepliktig etter klimakvoteloven § 4 skal etter søknad innvilges tillatelse til kvotepliktige utslipp av klimagasser så fremt han godtgjør at han er i stand til å overvåke og rapportere utslippene på en tilfredsstillende måte.
+>
+
+### 2013-07-01 — lov/2013-06-14-48
+
+*I lov 13. mars 1981 nr. 6 om vern mot forurensninger og om avfall skal i § 81 første ledd bokstav a og § 85 annet ledd første og annet punktum uttrykket «Statens forurensningstilsyn» endres til «Miljødirektoratet».*
+
+### 2021-01-01 — lov/2020-12-18-159
+
+*I lov 13. mars 1981 nr. 6 om vern mot forurensninger og om avfall skal § 5 andre ledd lyde:*
+
+> For forurensning fra det enkelte transportmiddel gjelder det som er fastsatt i eller i medhold av produktkontrolloven, vegtrafikkloven, skipssikkerhetsloven, havne- og farvannsloven, luftfartsloven og jernbaneloven i stedet for bestemmelsene i denne loven.
+>
 
 ### 2021-05-21 — lov/2021-05-21-41
 
@@ -28,9 +362,30 @@ refid: "lov/1981-03-13-6"
 > Om lemping av ansvar etter første, annet og tredje ledd gjelder skadeerstatningsloven § 5-2 tilsvarende.
 >
 
+### 2022-06-17 — lov/2022-06-17-65
+
+*I lov 13. mars 1981 nr. 6 om vern mot forurensninger og om avfall skal § 27 tredje ledd lyde:*
+
+> Løsøregjenstander og stoffer som har blitt avfall, skal regnes for å ha opphørt å være avfall når dehar gjennomgått gjenvinningskal brukes til bestemte formålkan omsettes i et marked eller er gjenstand for etterspørselinnfrir de tekniske kravene som følger av de aktuelle bruksområdene og eventuelle produktkrav og -standarder, ogikke medfører nevneverdig høyere risiko for helseskade eller miljøforstyrrelse enn tilsvarende gjenstander og stoffer som ellers kunne blitt brukt.Forurensningsmyndigheten kan bestemme ved enkeltvedtak om avfall har opphørt å være avfall etter første punktum.
+>
+
 ### 2023-06-16 — lov/2023-06-16-61
 
 *Nåværende § 18 fjerde ledd blir nytt femte ledd.*
+
+### 2023-07-01 — forskrift/2023-06-16-954
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
+### 2025-06-06 — forskrift/2025-06-06-944
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
 
 ## § 11
 
@@ -72,9 +427,13 @@ refid: "lov/1981-03-13-6"
 
 *§ 21 skal lyde:*
 
-> § 21.(definisjoner)Med avløpsanlegg forstås anlegg som er etablert for transport og behandling av avløpsvann.Med avløpsvann forstås både sanitært og industrielt avløpsvann og overvann.Med overvann forstås vann som renner av på overflaten som følge av regn og smeltevann.
+> § 21. (definisjoner)
 >
-> § 21.(definisjoner)
+> Med avløpsanlegg forstås anlegg som er etablert for transport og behandling av avløpsvann.
+>
+> Med avløpsvann forstås både sanitært og industrielt avløpsvann og overvann.
+>
+> Med overvann forstås vann som renner av på overflaten som følge av regn og smeltevann.
 >
 
 ## § 22 a
@@ -83,9 +442,13 @@ refid: "lov/1981-03-13-6"
 
 *Ny § 22 a skal lyde:*
 
-> § 22 a.(pålegg om frakobling av overvann og overvannstiltak)Når det er nødvendig for å avlaste et kommunalt avløpsanlegg, kan kommunen pålegge eieren av en eiendom som er tilknyttet et kommunalt avløpsanlegg, å koble overvann helt eller delvis fra avløpsanlegget eller fordrøye overvannet før påslipp til avløpsanlegget. Det kan bare gis slikt pålegg dersom overvannet kan håndteres på annen forsvarlig måte.Dersom det er nødvendig for å sikre forsvarlig håndtering av overvannet ved pålegg etter første ledd, kan kommunen pålegge eieren å sørge for tiltak som med rimelighet kan kreves for å håndtere overvannet på egen eiendom eller å lede overvannet til et annet avløpsanlegg eller en alternativ avrenningsvei.Dersom ikke annet er avtalt, skal et pålegg etter første og andre ledd rettes mot festeren av eiendommen istedenfor eieren nårfesteren har arvefestedet er igjen minst 30 år av festetiden når pålegget blir gittavtalen gir festeren rett til å kreve festetiden forlenget så mye at det er igjen en festetid på minst 30 år når pålegget blir gitt
+> § 22 a. (pålegg om frakobling av overvann og overvannstiltak)
 >
-> § 22 a.(pålegg om frakobling av overvann og overvannstiltak)
+> Når det er nødvendig for å avlaste et kommunalt avløpsanlegg, kan kommunen pålegge eieren av en eiendom som er tilknyttet et kommunalt avløpsanlegg, å koble overvann helt eller delvis fra avløpsanlegget eller fordrøye overvannet før påslipp til avløpsanlegget. Det kan bare gis slikt pålegg dersom overvannet kan håndteres på annen forsvarlig måte.
+>
+> Dersom det er nødvendig for å sikre forsvarlig håndtering av overvannet ved pålegg etter første ledd, kan kommunen pålegge eieren å sørge for tiltak som med rimelighet kan kreves for å håndtere overvannet på egen eiendom eller å lede overvannet til et annet avløpsanlegg eller en alternativ avrenningsvei.
+>
+> Dersom ikke annet er avtalt, skal et pålegg etter første og andre ledd rettes mot festeren av eiendommen istedenfor eieren nårfesteren har arvefestedet er igjen minst 30 år av festetiden når pålegget blir gittavtalen gir festeren rett til å kreve festetiden forlenget så mye at det er igjen en festetid på minst 30 år når pålegget blir gitt
 >
 
 ## § 23
@@ -191,14 +554,6 @@ refid: "lov/1981-03-13-6"
 
 > Med de begrensninger som følger av folkeretten gjelder lovenfor forurensningskilder og avfall og kilder for avfall som befinner seg her i riket,for forurensninger som truer med å inntreffe her i riket,for forurensningskilder som befinner seg i eller forurensning som truer med å inntreffe i Norges økonomiske sone dersom forurensningskilden er norsk fartøy eller innretning, eller forøvrig i den utstrekning Kongen bestemmer,for undersøkelse etter og utvinning og utnytting av undersjøiske naturforekomster på den norske del av kontinentalsokkelen, herunder avslutning av slik virksomhet, jf. § 4. For annen aktivitet på kontinentalsokkelen og utenfor norske jurisdiksjonsområder gjelder loven i den utstrekning Kongen bestemmer.
 >
-> for forurensningskilder og avfall og kilder for avfall som befinner seg her i riket,
->
-> for forurensninger som truer med å inntreffe her i riket,
->
-> for forurensningskilder som befinner seg i eller forurensning som truer med å inntreffe i Norges økonomiske sone dersom forurensningskilden er norsk fartøy eller innretning, eller forøvrig i den utstrekning Kongen bestemmer,
->
-> for undersøkelse etter og utvinning og utnytting av undersjøiske naturforekomster på den norske del av kontinentalsokkelen, herunder avslutning av slik virksomhet, jf. § 4. For annen aktivitet på kontinentalsokkelen og utenfor norske jurisdiksjonsområder gjelder loven i den utstrekning Kongen bestemmer.
->
 
 ## § 30
 
@@ -247,9 +602,11 @@ refid: "lov/1981-03-13-6"
 
 *Ny § 32 b skal lyde:*
 
-> § 32 b.(grensekryssende forsendelser av avfall)Forurensningsmyndigheten kan gi forskrift om grensekryssende forsendelser av avfall, blant annet om:forbud mot grensekryssende forsendelser av avfall, som forbud mot forsendelser av bestemte typer avfall eller til bestemte former for avfallshåndteringprosedyrer for grensekryssende forsendelser av avfall, som skriftlig forhåndsmelding og samtykke fra myndighetenekrav til grensekryssende forsendelser av avfall, som finansiell sikkerhet, følgedokumenter og behandlingsbekreftelseplikt til å ta en grensekryssende forsendelse av avfall tilbake.Forurensningsmyndigheten kan gi pålegg om at ulovlige grensekryssende forsendelser av avfall skal leveres til et lovlig avfallsanlegg.
+> § 32 b. (grensekryssende forsendelser av avfall)
 >
-> § 32 b.(grensekryssende forsendelser av avfall)
+> Forurensningsmyndigheten kan gi forskrift om grensekryssende forsendelser av avfall, blant annet om:forbud mot grensekryssende forsendelser av avfall, som forbud mot forsendelser av bestemte typer avfall eller til bestemte former for avfallshåndteringprosedyrer for grensekryssende forsendelser av avfall, som skriftlig forhåndsmelding og samtykke fra myndighetenekrav til grensekryssende forsendelser av avfall, som finansiell sikkerhet, følgedokumenter og behandlingsbekreftelseplikt til å ta en grensekryssende forsendelse av avfall tilbake.
+>
+> Forurensningsmyndigheten kan gi pålegg om at ulovlige grensekryssende forsendelser av avfall skal leveres til et lovlig avfallsanlegg.
 >
 
 ## § 33
@@ -476,9 +833,15 @@ refid: "lov/1981-03-13-6"
 
 *Ny § 82 skal lyde:*
 
-> § 82.(kommunens og fylkeskommunens myndighet og gjøremål etter forurensningsloven)Kongen kan gi forskrift om at kommunen skal ha myndighet etter loven på områdene avløp, avfall, akutt forurensning, lokal luftkvalitet, støy, forurenset grunn, landbruk og lokale klimagassutslipp, i tillegg til det som følger av kapittel 4 og 5 i loven her.Kongen kan gi forskrift om hvilke gjøremål kommunen skal utføre på områdene avløp, avfall, akutt forurensning, lokal luftkvalitet og støy, i tillegg til det som følger av kapittel 4, 5 og 6 i loven her.Kongen kan gi forskrift om fylkeskommunens myndighet og gjøremål etter loven.Etter forespørsel fra kommunen kan Miljødirektoratet i enkeltsaker bestemme at kommunens myndighet som er tildelt etter første ledd, i stedet skal utøves av Miljødirektoratet eller statsforvalteren.
+> § 82. (kommunens og fylkeskommunens myndighet og gjøremål etter forurensningsloven)
 >
-> § 82.(kommunens og fylkeskommunens myndighet og gjøremål etter forurensningsloven)
+> Kongen kan gi forskrift om at kommunen skal ha myndighet etter loven på områdene avløp, avfall, akutt forurensning, lokal luftkvalitet, støy, forurenset grunn, landbruk og lokale klimagassutslipp, i tillegg til det som følger av kapittel 4 og 5 i loven her.
+>
+> Kongen kan gi forskrift om hvilke gjøremål kommunen skal utføre på områdene avløp, avfall, akutt forurensning, lokal luftkvalitet og støy, i tillegg til det som følger av kapittel 4, 5 og 6 i loven her.
+>
+> Kongen kan gi forskrift om fylkeskommunens myndighet og gjøremål etter loven.
+>
+> Etter forespørsel fra kommunen kan Miljødirektoratet i enkeltsaker bestemme at kommunens myndighet som er tildelt etter første ledd, i stedet skal utøves av Miljødirektoratet eller statsforvalteren.
 >
 
 ## § 84

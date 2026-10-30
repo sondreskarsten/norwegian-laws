@@ -376,9 +376,11 @@ refid: "lov/2000-06-02-39"
 
 *Ny § 6-12 skal lyde:*
 
-> § 6-12.Restriksjoner på salg og utlevering av legemidlerDersom det er fare for tilgangen til legemidler i Norge, kan departementet pålegge apotek restriksjoner på salg og utlevering av legemidler.Departementet kan gi forskrift om gjennomføringen av første ledd.
+> § 6-12. Restriksjoner på salg og utlevering av legemidler
 >
-> § 6-12.Restriksjoner på salg og utlevering av legemidler
+> Dersom det er fare for tilgangen til legemidler i Norge, kan departementet pålegge apotek restriksjoner på salg og utlevering av legemidler.
+>
+> Departementet kan gi forskrift om gjennomføringen av første ledd.
 >
 
 ## § 7-1
@@ -551,6 +553,29 @@ refid: "lov/2000-06-02-39"
 ### 2008-12-19 — lov/2008-12-19-110
 
 *Noverande § 9-4 blir ny § 9-3.*
+
+### 2015-06-19 — lov/2015-06-19-59
+
+*I lov 2. juni 2000 nr. 39 om apotek skal § 3-2 første ledd bokstav a lyde:*
+
+> Søker har norsk eksamen cand.pharm., master i farmasi eller utenlandsk utdannelse som anerkjennes som jevngod med norsk eksamen, jf. helsepersonelloven § 48 a første ledd bokstav c.
+>
+
+### 2017-06-16 — lov/2017-06-16-53
+
+*I lov 2. juni 2000 nr. 39 om apotek skal § 3-2 første ledd lyde:*
+
+> Søker har rett til driftskonsesjon til et bestemt apotek hvis følgende krav er oppfylt:Søker har autorisasjon som provisorfarmasøyt.Søker har minst 2 års farmasøytisk praksis etter eksamen, hvorav minst 12 måneder ved apotek fra EØS-området eller Sveits. Apotekpraksis fra land utenfor EØS-området og Sveits kan legges til grunn dersom den vurderes som relevant for norske forhold.Søker har hederlig vandel i henhold til politiattest.Søker skal være daglig leder for apoteket.Søker ikke er uskikket til å drive apotek.
+>
+
+### 2021-05-21 — lov/2021-05-21-40
+
+*I lov 2. juni 2000 nr. 39 om apotek skal § 6-6 annet og tredje ledd lyde:*
+
+> Apoteket kan, uten hinder av første ledd, bytte rekvirert legemiddel med generisk likeverdig legemiddel, biotilsvarende likeverdig legemiddel eller parallellimportert legemiddel, hvis departementet har godkjent legemidlene som byttbare. Slikt bytte kan ikke skje i strid med rekvirentens eller kundens uttrykkelige ønske. Dersom rekvirenten ber om det, skal apoteket meddele rekvirenten om at slikt bytte er foretatt.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om at rekvirenten i det enkelte tilfelle skal journalføre en begrunnelse for at bytte etter annet ledd er uønsket.
+>
 
 ### 2024-06-25 — lov/2024-06-25-68
 

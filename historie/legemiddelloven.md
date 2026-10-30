@@ -39,6 +39,61 @@ refid: "lov/1992-12-04-132"
 > 155. I lov 2. april 1993 nr. 38 om framstilling og bruk av genmodifiserte organismer m.m. gjøres følgende endring:
 >
 
+### 2010-01-08 — forskrift/2010-01-08-2
+
+*Ikraftsetting av lov 18. desember 2009 nr. 138 om endringer i legemiddelloven. Loven trer i kraft 8. januar 2010.*
+
+> Ikraftsetting av lov 18. desember 2009 nr. 138 om endringer i legemiddelloven. Loven trer i kraft 8. januar 2010.
+>
+
+### 2010-06-18 — lov/2010-06-18-24
+
+*Endringar i følgjande lov:*
+
+> Endringar i følgjande lov:
+>
+> Lov 4. desember 1992 nr. 132 om legemidler m.v. (legemiddelloven).
+>
+> I lov 4. desember 1992 nr. 132 om legemidler mv. vert det gjort følgjande endringar:
+>
+> § 28 nytt femte ledd skal lyda:
+>
+> Dersom frist for oppfyllelse av pålegg oversittes, kan departementet ilegge adressaten for pålegget tvangsmulkt i form av engangsmulkt eller løpende dagsmulkt. Tvangsmulktens størrelse fastsettes under hensyn til hvor viktig det er at pålegget blir gjennomført og hvilke kostnader det anses å medføre.
+>
+> § 28 nytt sjette ledd skal lyda:
+>
+> Departementet kan treffe vedtak om overtredelsesgebyr og tvangsmulkt for overtredelse av forpliktelser som følger av markedsføringstillatelse utstedt i sentral prosedyre.
+>
+> § 28 noverande femte leddet tredje og fjerde punktum vert nytt sjuande ledd og skal lyda:
+>
+> Vedtak om overtredelsesgebyr og tvangsmulkt er tvangsgrunnlag for utlegg. Departementet kan gi nærmere bestemmelser om fastsettelse og beregning av overtredelsesgebyr og tvangsmulkt.
+>
+> § 28 noverande sjette til åttande ledd vert åttande til tiande ledd.
+>
+> Loven trer i kraft frå den tid Kongen bestemmer.
+>
+
+### 2010-07-01 — forskrift/2010-06-18-845
+
+*Loven trer i kraft 1. juli 2010.*
+
+> Loven trer i kraft 1. juli 2010.
+>
+
+### 2011-07-01 — forskrift/2011-06-24-638
+
+*Loven trer i kraft fra 1. juli 2011.*
+
+> Loven trer i kraft fra 1. juli 2011.
+>
+
+### 2013-07-01 — forskrift/2013-06-14-616
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
 ### 2014-05-23 — lov/2014-05-23-18
 
 *I kapittel V skal ny § 13a lyde:*
@@ -54,6 +109,48 @@ refid: "lov/1992-12-04-132"
 > Kongen kan i forskrift gjøre unntak fra klagerett over vedtak fattet i medhold av denne bestemmelsen.
 >
 > Kapittel VI overskriften skal lyde:
+>
+
+### 2014-07-01 — forskrift/2014-05-23-669
+
+*Loven trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. juli 2014.
+>
+
+### 2016-07-01 — forskrift/2016-06-17-707
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
+### 2018-07-01 — forskrift/2018-04-27-675
+
+*Loven trer i kraft 1. juli 2018.*
+
+> Loven trer i kraft 1. juli 2018.
+>
+
+### 2019-06-21 — lov/2019-06-21-42
+
+*I lov 4. desember 1992 nr. 132 om legemidler m.v. skal § 28 a annet ledd lyde:*
+
+> Departementet kan ilegge den som overtrer bestemmelsene i §§ 13 første og fjerde ledd, 14 annet ledd, 16 annet ledd, 19, 20, 21 og 23 femte ledd, overtredelsesgebyr. Det samme gjelder ved overtredelse av forskrifter gitt i medhold av disse bestemmelsene eller § 10 første ledd første punktum når det er fastsatt i forskrift at overtredelsen kan medføre slik sanksjon.
+>
+
+### 2021-05-21 — lov/2021-05-21-40
+
+*I lov 4. desember 1992 nr. 132 om legemidler m.v. skal § 6 tredje ledd annet punktum lyde:*
+
+> Departementet fastsetter trinnprisen ved å ta utgangspunkt i maksimal utsalgspris fra apotek for originallegemidlet og redusere denne prisen med faste prosentsatser etter at konkurranse fra generiske og biotilsvarende legemidler er oppstått.
+>
+
+### 2021-06-18 — lov/2021-06-18-127
+
+*I lov 4. desember 1992 nr. 132 om legemidler m.v. skal § 30 sjette punktum lyde:*
+
+> Forvaltningslovens §§ 13 til 13 e og 13 g gjelder ikke.
 >
 
 ### 2022-06-17 — lov/2022-06-17-54
@@ -75,6 +172,13 @@ refid: "lov/1992-12-04-132"
 > Departementet kan gi forskrifter omat pakningsvedlegg skal gis i papirformat, elektronisk format eller i begge disse formater, og om bruk av nasjonal identifikasjonskode på legemidlets pakningregistrering av legemiddelbruk for matproduserende dyr i henhold til forordning om legemidler til dyr artikkel 108 nr. 4 og bruk av legemidler til dyr i henhold til forordningen artikkel 110 til 114 og 116forbud mot tilvirkning, import, distribusjon, besittelse, salg og levering av immunologiske legemidler til dyr i henhold til forordning om legemidler til dyr artikkel 110 nr. 1krav til dyrehelsepersonells rapporteringer av mistenkte bivirkninger i henhold til forordning om legemidler til dyr artikkel 79 nr. 2merking av homøopatiske legemidler, innvilgelse og avslag på søknad om registrering av homøopatiske legemidler og om endring av registrering, suspensjon og tilbakekall av registreringen, samt om plikt til å foreslå endringer av legemidlet og dets dokumentasjongrossistvirksomhet med legemidler til dyr, blant annet om søknad om tillatelse, saksbehandling, godkjenning og avslag og suspensjon, tilbakekall og endring av tillatelsen, om krav til grossisters personell, lokaler, oppbevaring og håndtering av legemidler til dyr og hvilke personer og virksomheter som grossister kan levere legemidler tilparallellhandel med legemidler til dyr i henhold til forordning om legemidler til dyr artikkel 102 nr. 3reklame for legemidler til dyr i henhold til forordning om legemidler til dyr artikkel 122gjennomføring og utfylling av forordning om legemidler til dyrunntak fra krav ommarkedsføringstillatelse for legemidler til visse kjæledyr og i henhold til forordning om legemidler til dyr artikkel 110 nr. 2 og 3, artikkel 112 til 114 og artikkel 116bruk av norsk språk for preparatomtale, merking og pakningsvedlegg for legemidler til dyrtilvirkertillatelse ved tilberedning, oppdeling eller presentasjon av legemidler, eller ved endringer i pakningen, når disse handlingene utelukkende utføres i tilknytning til detaljsalg til offentlighetengrossisttillatelse for levering av begrensede mengder legemidler til dyr fra en detaljist i Norge til en annen
 >
 > Tilsynsmyndigheten kan i særlige tilfeller gjøre unntak fra kravet om markedsføringstillatelse, forutsatt at det ikke vil stride mot § 2 b.
+>
+
+### 2022-09-16 — forskrift/2022-09-16-1576
+
+*Ikraftsetting av lov 17. juni 2022 nr. 54 om endringer i legemiddelloven (legemidler til dyr). Loven trer i kraft straks.*
+
+> Ikraftsetting av lov 17. juni 2022 nr. 54 om endringer i legemiddelloven (legemidler til dyr). Loven trer i kraft straks.
 >
 
 ### 2024-06-21 — lov/2024-06-21-43
@@ -452,9 +556,13 @@ refid: "lov/1992-12-04-132"
 
 *Ny § 21 b i kapittel VII skal lyde:*
 
-> § 21 b.Begrensninger i Kongens myndighet. KlageadgangKongen kan ikke instruere Direktoratet for medisinske produkter i saker som gjelder reklame for legemidler der avgjørelser i saken er rettet mot tilbydere av fjernsyn, audiovisuelle bestillingstjenester eller videodelingsplattformer, eller omgjøre vedtak i slike saker.Enkeltvedtak i saker etter første ledd kan påklages til Markedsrådet.Kongen kan gi forskrift om at også andre enkeltvedtak som gjelder reklame for legemidler, og er truffet av Direktoratet for medisinske produkter, kan påklages til Markedsrådet.
+> § 21 b. Begrensninger i Kongens myndighet. Klageadgang
 >
-> § 21 b.Begrensninger i Kongens myndighet. Klageadgang
+> Kongen kan ikke instruere Direktoratet for medisinske produkter i saker som gjelder reklame for legemidler der avgjørelser i saken er rettet mot tilbydere av fjernsyn, audiovisuelle bestillingstjenester eller videodelingsplattformer, eller omgjøre vedtak i slike saker.
+>
+> Enkeltvedtak i saker etter første ledd kan påklages til Markedsrådet.
+>
+> Kongen kan gi forskrift om at også andre enkeltvedtak som gjelder reklame for legemidler, og er truffet av Direktoratet for medisinske produkter, kan påklages til Markedsrådet.
 >
 
 ## § 22
@@ -782,9 +890,19 @@ refid: "lov/1992-12-04-132"
 
 *Ny § 31 a skal lyde:*
 
-> § 31 a.Kongen kan bestemme at bøteleggelse på stedet eller i ettertid for lovbrudd av nærmere angitt art kan skje ved forenklet forelegg etter faste bøtesatser. I slikt forelegg kan straffebudet og det straffbare forhold betegnes ved stikkord eller på liknende måte.Forelegget kan omfatte inndragning i tillegg til bot.Forelegg utskrevet på stedet faller bort dersom det ikke straks vedtas. For forelegg utskrevet i ettertid gjelder straffeprosessloven § 256 nr. 5 tilsvarende. Slikt forelegg faller bort dersom det ikke vedtas innen fristen. Kongen kan gi nærmere regler om framgangsmåten når forelegget utskrives i ettertid.Påtalemyndigheten kan til gunst for siktede oppheve vedtatt forelegg.Polititjenesteperson som ellers ikke har foreleggsmyndighet, kan gis myndighet til å utferdige forenklet forelegg.Kongen gir nærmere regler om bruk av forenklet forelegg og fastsetter bøtesatser og subsidiær fengselsstraff for de forskjellige lovbrudd som ordningen skal omfatte.
->
 > § 31 a.
+>
+> Kongen kan bestemme at bøteleggelse på stedet eller i ettertid for lovbrudd av nærmere angitt art kan skje ved forenklet forelegg etter faste bøtesatser. I slikt forelegg kan straffebudet og det straffbare forhold betegnes ved stikkord eller på liknende måte.
+>
+> Forelegget kan omfatte inndragning i tillegg til bot.
+>
+> Forelegg utskrevet på stedet faller bort dersom det ikke straks vedtas. For forelegg utskrevet i ettertid gjelder straffeprosessloven § 256 nr. 5 tilsvarende. Slikt forelegg faller bort dersom det ikke vedtas innen fristen. Kongen kan gi nærmere regler om framgangsmåten når forelegget utskrives i ettertid.
+>
+> Påtalemyndigheten kan til gunst for siktede oppheve vedtatt forelegg.
+>
+> Polititjenesteperson som ellers ikke har foreleggsmyndighet, kan gis myndighet til å utferdige forenklet forelegg.
+>
+> Kongen gir nærmere regler om bruk av forenklet forelegg og fastsetter bøtesatser og subsidiær fengselsstraff for de forskjellige lovbrudd som ordningen skal omfatte.
 >
 
 ## § 32
@@ -823,9 +941,15 @@ refid: "lov/1992-12-04-132"
 
 *Ny § 33 skal lyde:*
 
-> § 33.Den som med skjellig grunn mistenkes for overtredelse av § 31 andre ledd, jf. § 24 første ledd, kan av polititjenesteperson undersøkes for tegn og symptomer på bruk av narkotika, dersom undersøkelsen antas å være av betydning for opplysningen av saken og ikke fremstår som et uforholdsmessig inngrep.Den som med skjellig grunn mistenkes for overtredelse av § 31 andre ledd, jf. § 24 første ledd, kan etter kjennelse fra retten testes for bruk av narkotika, blant annet ved innhenting av spyttprøve, urinprøve eller blodprøve, dersom undersøkelsen antas å være av vesentlig betydning for opplysningen av saken og ikke fremstår som et uforholdsmessig inngrep.Dersom formålet med undersøkelsen ellers kunne forspilles, kan ordre fra påtalemyndigheten tre i stedet for kjennelse av retten. Ordren skal være skriftlig og grunngitt. Er det fare ved opphold, kan beslutningen gis muntlig, men den skal da snarest mulig nedtegnes.Reglene i straffeprosessloven § 157 femte ledd gjelder tilsvarende for undersøkelser etter denne paragrafen.
->
 > § 33.
+>
+> Den som med skjellig grunn mistenkes for overtredelse av § 31 andre ledd, jf. § 24 første ledd, kan av polititjenesteperson undersøkes for tegn og symptomer på bruk av narkotika, dersom undersøkelsen antas å være av betydning for opplysningen av saken og ikke fremstår som et uforholdsmessig inngrep.
+>
+> Den som med skjellig grunn mistenkes for overtredelse av § 31 andre ledd, jf. § 24 første ledd, kan etter kjennelse fra retten testes for bruk av narkotika, blant annet ved innhenting av spyttprøve, urinprøve eller blodprøve, dersom undersøkelsen antas å være av vesentlig betydning for opplysningen av saken og ikke fremstår som et uforholdsmessig inngrep.
+>
+> Dersom formålet med undersøkelsen ellers kunne forspilles, kan ordre fra påtalemyndigheten tre i stedet for kjennelse av retten. Ordren skal være skriftlig og grunngitt. Er det fare ved opphold, kan beslutningen gis muntlig, men den skal da snarest mulig nedtegnes.
+>
+> Reglene i straffeprosessloven § 157 femte ledd gjelder tilsvarende for undersøkelser etter denne paragrafen.
 >
 
 ## § 4

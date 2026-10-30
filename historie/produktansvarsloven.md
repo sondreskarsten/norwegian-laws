@@ -33,6 +33,20 @@ refid: "lov/1988-12-23-104"
 
 ## (annet)
 
+### 2002-08-30 — lov/2002-08-30-67
+
+*I lov 23. desember 1988 nr. 104 om produktansvar skal § 3-7 (1) annet punktum lyde:*
+
+> Det samlete oppgjør må godkjennes ved kjennelse av Oslo skifterett og byskriverembete.
+>
+
+### 2022-02-18 — lov/2022-02-18-5
+
+*I lov 23. desember 1988 nr. 104 om produktansvar skal § 3-10 annet ledd lyde:*
+
+> Bestemmelsene i lov 16. juni 1989 nr. 69 om forsikringsavtaler gjelder for Legemiddelforsikringen, dersom ikke annet er bestemt i eller i medhold av reglene om legemiddelansvaret i loven her eller går fram av sammenhengen.
+>
+
 ### 2026-05-07 — lov/2026-05-07-17
 
 *I lov 23. desember 1988 nr. 104 om produktansvar skal § 3-7 første ledd annet punktum lyde:*

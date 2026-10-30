@@ -7,23 +7,32 @@ refid: "lov/2018-06-01-23"
 
 ## (annet)
 
+### 2021-06-18 — lov/2021-06-18-127
+
+*I lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering skal § 45 første ledd andre punktum lyde:*
+
+> Forvaltningsloven §§ 13, 13 b til 13 e og 13 g gjelder ikke for opplysninger som nevnt i første punktum.
+>
+
+### 2022-06-22 — lov/2022-06-22-79
+
+*I lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering skal § 49 syvende ledd første punktum lyde:*
+
+> Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen har opphørt.
+>
+
 ### 2024-06-25 — lov/2024-06-25-60
 
 *I § 43 annet ledd skal ny bokstav d lyde:*
 
 > tilsynsmyndighet for rapporteringspliktige etter § 4 annet ledd bokstav h og i, som fastsatt av departementet i forskrift. Forskriften kan inneholde nærmere regler om gjennomføring av tilsyn, blant annetopplysningsplikt og utlevering av dokumenter uavhengig av taushetsplikt, herunder om periodisk innlevering av opplysninger og krav til elektronisk rapportering i bestemte formatstedlige tilsyn hos rapporteringspliktige og tilhørende undersøkelse av dokumenter, lokaler, regnskap, protokoller og ethvert annet informasjonsbehandlingssystem til bruk for rapporteringspliktiges etterlevelse av hvitvaskingsloven med forskriftertilsynsmyndighetens behandling av opplysninger, herunder taushetsplikt, og samarbeid med andre myndigheter, herunder deling av informasjonbehandling av klager over vedtak fattet av tilsynsmyndighetenføring av et register over rapporteringspliktige under tilsyn og innsyn i registeret, herunder registreringspliktbetaling av gebyr til dekning av tilsynsmyndighetens utgifter.
 >
-> opplysningsplikt og utlevering av dokumenter uavhengig av taushetsplikt, herunder om periodisk innlevering av opplysninger og krav til elektronisk rapportering i bestemte format
->
-> stedlige tilsyn hos rapporteringspliktige og tilhørende undersøkelse av dokumenter, lokaler, regnskap, protokoller og ethvert annet informasjonsbehandlingssystem til bruk for rapporteringspliktiges etterlevelse av hvitvaskingsloven med forskrifter
->
-> tilsynsmyndighetens behandling av opplysninger, herunder taushetsplikt, og samarbeid med andre myndigheter, herunder deling av informasjon
->
-> behandling av klager over vedtak fattet av tilsynsmyndigheten
->
-> føring av et register over rapporteringspliktige under tilsyn og innsyn i registeret, herunder registreringsplikt
->
-> betaling av gebyr til dekning av tilsynsmyndighetens utgifter.
+
+### 2025-07-01 — forskrift/2025-05-27-869
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ## § 10
@@ -55,9 +64,9 @@ refid: "lov/2018-06-01-23"
 
 *Ny § 17 a skal lyde:*
 
-> § 17 a.Forsterkede kundetiltak for transaksjoner på frittstående adresseVed gjennomføring av transaksjoner til eller fra frittstående adresser skal kryptoeiendelstjenesteytere foreta en konkret risikovurdering av transaksjonen. Minst ett av følgende forsterkede kundetiltak skal gjennomføres:identifisering og verifisering av identiteten til avsenderen og mottakeren og deres reelle rettighetshaverekrav om ytterligere informasjon om midlenes opprinnelse og mottakeren av de overførte kryptoeiendeleneforsterket løpende oppfølging av transaksjoneneandre tiltak for å motvirke og håndtere risikoen for hvitvasking og terrorfinansieringtiltak for å motvirke og håndtere risiko knyttet til oppfølging av økonomiske sanksjoner og sanksjoner tilknyttet finansiering av masseødeleggelsesvåpen, som følger av regler om gjennomføring av internasjonale sanksjoner.
+> § 17 a. Forsterkede kundetiltak for transaksjoner på frittstående adresse
 >
-> § 17 a.Forsterkede kundetiltak for transaksjoner på frittstående adresse
+> Ved gjennomføring av transaksjoner til eller fra frittstående adresser skal kryptoeiendelstjenesteytere foreta en konkret risikovurdering av transaksjonen. Minst ett av følgende forsterkede kundetiltak skal gjennomføres:identifisering og verifisering av identiteten til avsenderen og mottakeren og deres reelle rettighetshaverekrav om ytterligere informasjon om midlenes opprinnelse og mottakeren av de overførte kryptoeiendeleneforsterket løpende oppfølging av transaksjoneneandre tiltak for å motvirke og håndtere risikoen for hvitvasking og terrorfinansieringtiltak for å motvirke og håndtere risiko knyttet til oppfølging av økonomiske sanksjoner og sanksjoner tilknyttet finansiering av masseødeleggelsesvåpen, som følger av regler om gjennomføring av internasjonale sanksjoner.
 >
 
 ## § 19
@@ -66,9 +75,13 @@ refid: "lov/2018-06-01-23"
 
 *§ 19 skal lyde:*
 
-> § 19.Forsterkede kundetiltak ved korrespondentforbindelse(1) Ved inngåelse av en avtale om korrespondentforbindelse med en institusjon fra stat utenfor EØS som respondentinstitusjon, skal rapporteringspliktige som nevnt i § 4 første ledd bokstav a til c, e, g til l og n til pinnhente tilstrekkelige opplysninger om respondentinstitusjonen for å forstå virksomhetens art og omdømme og tilsynets kvalitet. Rapporteringspliktige etter § 4 første ledd bokstav p skal også fastslå om respondentinstitusjonen er registrert eller har konsesjon.vurdere respondentinstitusjonens tiltak mot hvitvasking og terrorfinansieringpåse at det innhentes godkjenning fra overordnet før etablering av ny korrespondentforbindelsedokumentere institusjonenes ansvarved oppgjørskonti forsikre seg om at respondentinstitusjonenhar bekreftet identiteten til og fører løpende oppfølging av kunder som har direkte adgang til konti hos korrespondentinstitusjonen, ogpå anmodning kan fremlegge relevante opplysninger fra kundetiltakene og den løpende oppfølgingen til korrespondentinstitusjonen.(2) Med oppgjørskonto som nevnt i første ledd bokstav e, menes konto eller konto for kryptoeiendeler hos rapporteringspliktig som kan disponeres av en tredjepart som er kunde av respondentinstitusjon.(3) En kryptoeiendelstjenesteyter som avslutter en korrespondentforbindelse på grunn av egne rutiner etter denne loven, skal dokumentere begrunnelsen for beslutningen.
+> § 19. Forsterkede kundetiltak ved korrespondentforbindelse
 >
-> § 19.Forsterkede kundetiltak ved korrespondentforbindelse
+> (1) Ved inngåelse av en avtale om korrespondentforbindelse med en institusjon fra stat utenfor EØS som respondentinstitusjon, skal rapporteringspliktige som nevnt i § 4 første ledd bokstav a til c, e, g til l og n til pinnhente tilstrekkelige opplysninger om respondentinstitusjonen for å forstå virksomhetens art og omdømme og tilsynets kvalitet. Rapporteringspliktige etter § 4 første ledd bokstav p skal også fastslå om respondentinstitusjonen er registrert eller har konsesjon.vurdere respondentinstitusjonens tiltak mot hvitvasking og terrorfinansieringpåse at det innhentes godkjenning fra overordnet før etablering av ny korrespondentforbindelsedokumentere institusjonenes ansvarved oppgjørskonti forsikre seg om at respondentinstitusjonenhar bekreftet identiteten til og fører løpende oppfølging av kunder som har direkte adgang til konti hos korrespondentinstitusjonen, ogpå anmodning kan fremlegge relevante opplysninger fra kundetiltakene og den løpende oppfølgingen til korrespondentinstitusjonen.
+>
+> (2) Med oppgjørskonto som nevnt i første ledd bokstav e, menes konto eller konto for kryptoeiendeler hos rapporteringspliktig som kan disponeres av en tredjepart som er kunde av respondentinstitusjon.
+>
+> (3) En kryptoeiendelstjenesteyter som avslutter en korrespondentforbindelse på grunn av egne rutiner etter denne loven, skal dokumentere begrunnelsen for beslutningen.
 >
 
 ## § 2
@@ -78,22 +91,6 @@ refid: "lov/2018-06-01-23"
 *§ 2 bokstav f skal lyde:*
 
 > politisk eksponert person: person som har eller har hatt viktig offentlig verv. Verv eller stilling på mellomnivå eller lavere nivå omfattes ikke. Departementet fastsetter i forskrift en liste over de stillinger og verv som i Norge regnes for å være viktige offentlige verv, og kan også for øvrig fastsette hvilke stillinger og verv som skal regnes som viktige offentlige verv. Med mindre annet følger av forskrift etter tredje punktum regnes blant annet følgende stillinger og verv som viktige offentlige verv:statsoverhode, regjeringssjef, minister eller assisterende ministermedlem av nasjonalforsamlingmedlem av styrende organ i politisk partimedlem av høyere rettsinstans hvis avgjørelser ikke kan ankes annet enn under ekstraordinære omstendighetermedlem av styre i riksrevisjon, revisjonsdomstol eller sentralbankambassadør, chargé d’affaires eller militær offiser av høyere rangmedlem av administrativt, ledende eller kontrollerende organ i statlig foretakdirektør, styremedlem eller annen person i øverste ledelse i internasjonal organisasjon.
->
-> statsoverhode, regjeringssjef, minister eller assisterende minister
->
-> medlem av nasjonalforsamling
->
-> medlem av styrende organ i politisk parti
->
-> medlem av høyere rettsinstans hvis avgjørelser ikke kan ankes annet enn under ekstraordinære omstendigheter
->
-> medlem av styre i riksrevisjon, revisjonsdomstol eller sentralbank
->
-> ambassadør, chargé d’affaires eller militær offiser av høyere rang
->
-> medlem av administrativt, ledende eller kontrollerende organ i statlig foretak
->
-> direktør, styremedlem eller annen person i øverste ledelse i internasjonal organisasjon.
 >
 
 ### 2025-05-27 — lov/2025-05-27-19
@@ -119,6 +116,9 @@ refid: "lov/2018-06-01-23"
 ### 2025-06-20 — lov/2025-06-20-47
 
 *§ 21 annet ledd skal lyde:*
+
+> (2) Første ledd gjelder ikke når rapporteringspliktige som nevnt i § 4 annet ledd bokstav c fastslår en klients rettsstilling eller bistår en klient i forbindelse med rettergang.
+>
 
 ## § 22
 
@@ -149,11 +149,17 @@ refid: "lov/2018-06-01-23"
 
 *§ 24 femte ledd skal lyde:*
 
+> (5) Fjerde ledd gjelder ikke når rapporteringspliktige som nevnt i § 4 annet ledd bokstav c fastslår en klients rettsstilling eller bistår en klient i forbindelse med rettergang.
+>
+
 ## § 26
 
 ### 2025-06-20 — lov/2025-06-20-47
 
 *§ 26 tredje ledd skal lyde:*
+
+> (3) Rapporteringspliktige som nevnt i § 4 annet ledd bokstav c skal ikke oversende opplysninger som de mottar fra eller innhenter om klienten når de fastslår en klients rettsstilling eller bistår en klient i forbindelse med rettergang. Tilsvarende gjelder for andre rapporteringspliktige når de bistår rapporteringspliktige som nevnt i § 4 annet ledd bokstav c i arbeid som nevnt i første punktum. Departementet kan i forskrift gi regler om at rapporteringspliktige som nevnt i § 4 annet ledd bokstav c skal oversende opplysninger til Økokrim via et annet organ.
+>
 
 ## § 4
 
@@ -177,21 +183,14 @@ refid: "lov/2018-06-01-23"
 
 *§ 4 femte ledd skal lyde:*
 
+> (5) Departementet kan i forskrift gi regler som gir loven anvendelse for foretak som formidler finansiering ved donasjon.
+>
+
 ### 2025-06-20 — lov/2025-06-20-47
 
 *§ 4 annet ledd bokstav c skal lyde:*
 
 > advokater, advokatforetak og andre som ervervsmessig eller stadig yter selvstendig rettshjelp, når de på klientens vegne utfører finansiell transaksjon eller en transaksjon som gjelder fast eiendom, eller når de bistår ved planlegging eller utføring av transaksjon for klient i forbindelse medkjøp og salg av fast eiendom eller virksomhetforvaltning av en klients penger, verdipapir eller andre aktivaåpning eller forvaltning av bank- eller verdipapirkontofremskaffelse av nødvendig kapital til opprettelse, drift eller ledelse av selskapopprettelse, drift eller ledelse av selskap, fond eller en lignende juridisk person eller formuesmasse, herunder utenlandsk trust eller tilsvarende juridisk arrangement.
->
-> kjøp og salg av fast eiendom eller virksomhet
->
-> forvaltning av en klients penger, verdipapir eller andre aktiva
->
-> åpning eller forvaltning av bank- eller verdipapirkonto
->
-> fremskaffelse av nødvendig kapital til opprettelse, drift eller ledelse av selskap
->
-> opprettelse, drift eller ledelse av selskap, fond eller en lignende juridisk person eller formuesmasse, herunder utenlandsk trust eller tilsvarende juridisk arrangement.
 >
 
 ### 2025-06-20 — lov/2025-06-20-47
@@ -221,11 +220,17 @@ refid: "lov/2018-06-01-23"
 
 *§ 43 tredje ledd skal lyde:*
 
+> (3) Regler om Finanstilsynets og Advokattilsynets gjennomføring av tilsyn følger av finanstilsynsloven og advokatloven.
+>
+
 ## § 48
 
 ### 2026-06-19 — lov/2026-06-19-40
 
 *§ 48 nytt fjerde ledd skal lyde:*
+
+> (4) Et vedtak etter første eller annet ledd kan gis for et tidsrom av inntil fem år.
+>
 
 ## § 49
 
@@ -254,13 +259,18 @@ refid: "lov/2018-06-01-23"
 
 *§ 49 første ledd skal lyde:*
 
+> (1) Dersom rapporteringspliktige eller noen som har handlet på vegne av et rapporteringspliktig foretak, forsettlig eller uaktsomt har overtrådt §§ 6 til 8, kapittel 4, §§ 25, 26, 27, 28, 30, 35, 36, 39, 42, forskrift gitt i medhold av disse bestemmelsene eller forskrift gitt i medhold av § 52, kan tilsynsmyndigheten ilegge den rapporteringspliktige overtredelsesgebyr. Rapporteringspliktige som ikke er foretak, må ha utvist forsett eller grov uaktsomhet.
+>
+
 ## § 52
 
 ### 2025-05-27 — lov/2025-05-27-19
 
 *§ 52 skal lyde:*
 
-> § 52.Opplysninger som skal følge overføringer av penger og visse kryptoeiendeler(1) EØS-avtalen vedlegg IX nr. 23b (forordning (EU) 2023/1113) om opplysninger som skal følge overføringer av penger og visse kryptoeiendeler (TFR II) gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.(2) Departementet kan i forskrift gi regler i tråd med forordning (EU) 2023/1113 artikkel 26 om lagring av personopplysninger utover fem år, men ikke i mer enn til sammen ti år.
+> § 52. Opplysninger som skal følge overføringer av penger og visse kryptoeiendeler
 >
-> § 52.Opplysninger som skal følge overføringer av penger og visse kryptoeiendeler
+> (1) EØS-avtalen vedlegg IX nr. 23b (forordning (EU) 2023/1113) om opplysninger som skal følge overføringer av penger og visse kryptoeiendeler (TFR II) gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+> (2) Departementet kan i forskrift gi regler i tråd med forordning (EU) 2023/1113 artikkel 26 om lagring av personopplysninger utover fem år, men ikke i mer enn til sammen ti år.
 >

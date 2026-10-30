@@ -13,6 +13,13 @@ refid: "lov/2003-06-27-64"
 
 ## (annet)
 
+### 2018-06-22 — lov/2018-06-22-76
+
+*I lov 27. juni 2003 nr. 64 om alternativ behandling av sykdom mv. skal § 7 tredje ledd tredje punktum lyde:*
+
+> Samtykkebestemmelsene i pasient- og brukerrettighetsloven §§ 4-4, 4-5 og 4-7 gjelder tilsvarende så langt de passer.
+>
+
 ### 2025-04-25 — lov/2025-04-25-13
 
 *I lov 27. juni 2003 nr. 64 om alternativ behandling av sykdom mv. skal § 7 tredje ledd første punktum lyde:*

@@ -7,6 +7,94 @@ refid: "lov/2005-06-10-51"
 
 ## (annet)
 
+### 2013-01-01 — forskrift/2012-04-27-364
+
+*Loven trer i kraft 1. januar 2013.*
+
+> Loven trer i kraft 1. januar 2013.
+>
+
+### 2013-03-08 — lov/2013-03-08-9
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 10. juni 2005 nr. 51 om norsk statsborgerskap (statsborgerloven).
+>
+> § 1
+>
+> .
+>
+> Formål
+>
+> Formålet med loven er av hensyn til barnets beste å gi en midlertidig adgang til å overføre foreldreskap for barn i Norge født av surrogatmor i utlandet for de tilfeller som omfattes av § 2. Loven gjelder ikke overføring av foreldreskap der avtalen med surrogatmor er inngått under tvang.
+>
+> § 2
+>
+> .
+>
+> Vilkår for og rettsvirkninger av overføring av foreldreskap
+>
+> Juridisk fars nåværende eller tidligere ektefelle, registrerte partner eller samboer som sammen med barnets far inngikk avtale med surrogatmor, kan søke om foreldreskap for barnet. Søkeren må dokumentere at barnets far og søkeren hadde et felles ønske om å oppfostre barnet sammen. Utenlandsk dom, administrativ avgjørelse eller avtale som dokumenterer et slikt felles ønske, må fremlegges. Der det ikke foreligger et samtykke fra barnets far om overføring av foreldreskapet fra surrogatmor til søker, kan den fremlagte dokumentasjonen tre i stedet for et samtykke fra barnets far.
+>
+> Dersom surrogatmoren etter norsk rett har foreldreansvar for barnet, kreves surrogatmorens samtykke til overføring av foreldreskap. Er hun forsvunnet, sinnslidende eller utviklingshemmet, kreves samtykke fra verge. Dersom surrogatmoren ikke har del i foreldreansvaret, skal hun så vidt mulig få uttale seg før det blir truffet vedtak.
+>
+> Dersom barnet har fylt 12 år, kreves et samtykke fra barnet for å overføre foreldreskapet. Et barn som er fylt 7 år, og yngre barn som er i stand til å danne seg egne synspunkter, skal informeres og gis anledning til å uttale seg før det tas avgjørelse om overføring av foreldreskap. Barnets mening skal tillegges vekt i samsvar med dets alder og modenhet.
+>
+> Ved overføringen av foreldreskapet får barnet samme rettsstilling til faren og søkeren som om det hadde vært deres felles barn. Søkeren får ved overføringen foreldreansvar for barnet med mindre faren og søkeren avtaler noe annet. Samtidig faller rettsforholdet til surrogatmoren og hennes slekt bort. Rettsvirkningen inntrer fra vedtakstidspunktet.
+>
+> Adopsjonsloven gjelder om ikke annet følger av loven her.
+>
+> § 3
+>
+> .
+>
+> Jurisdiksjon og lovvalg
+>
+> Søknad om overføring av foreldreskap etter denne lov kan avgjøres i Norge dersom søker har bopel i Norge og barnet oppholder seg i Norge på tidspunktet bestemt i § 4.
+>
+> Søknaden avgjøres etter norsk rett.
+>
+> § 4
+>
+> .
+>
+> Frist for å fremme søknad
+>
+> Søknad om foreldreskap etter denne lov må fremmes innen 1. januar 2014.
+>
+> § 5
+>
+> .
+>
+> Ikrafttredelse og endring i annen lov
+>
+> Loven trer i kraft straks og oppheves 31. desember 2015.
+>
+> I lov 10. juni 2005 nr. 51 om norsk statsborgerskap skal ny § 5 a lyde:
+>
+> § 5 a.
+>
+> Erverv ved overføring av foreldreskap for barn født i Norge av surrogatmor i utlandet
+>
+> Der foreldreskap overføres til en norsk statsborger etter midlertidig lov om overføring av foreldreskap for barn i Norge født av surrogatmor i utlandet, blir barnet norsk statsborger ved overføringen dersom barnet er under 18 år på vedtakstidspunktet.
+>
+
+### 2014-04-25 — lov/2014-04-25-13
+
+*I lov 10. juni 2005 nr. 51 om norsk statsborgerskap (statsborgerloven) skal § 5 a overskriften lyde:*
+
+> Erverv ved overføring av foreldreskap for barn i Norge født av surrogatmor i utlandet
+>
+
+### 2017-01-01 — forskrift/2016-11-18-1345
+
+*Lov 29. april 2016 nr. 8 om endringer i statsborgerloven (krav om norskkunnskaper og bestått prøve i samfunnskunnskap) trer i kraft 1. januar 2017.*
+
+> Lov 29. april 2016 nr. 8 om endringer i statsborgerloven (krav om norskkunnskaper og bestått prøve i samfunnskunnskap) trer i kraft 1. januar 2017.
+>
+
 ### 2018-05-25 — lov/2018-05-25-19
 
 *I kapittel 5 skal ny § 26 a lyde:*
@@ -110,6 +198,13 @@ refid: "lov/2005-06-10-51"
 > Kongen kan gi forskrift om kravet til klarlagt identitet og til politiattest.
 >
 
+### 2020-01-01 — forskrift/2019-11-01-1458
+
+*Lov 20. desember 2018 nr. 121 om endringer i statsborgerloven (avvikling av prinsippet om ett statsborgerskap) trer i kraft 1. januar 2020.*
+
+> Lov 20. desember 2018 nr. 121 om endringer i statsborgerloven (avvikling av prinsippet om ett statsborgerskap) trer i kraft 1. januar 2020.
+>
+
 ### 2021-03-12 — lov/2021-03-12-10
 
 *I kapittel 5 skal ny § 26 b lyde:*
@@ -126,6 +221,20 @@ refid: "lov/2005-06-10-51"
 ### 2021-03-12 — lov/2021-03-12-10
 
 *Kapittel 6 avsnitt II overskriften skal lyde:*
+
+### 2021-03-12 — forskrift/2021-03-12-665
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2022-10-01 — forskrift/2022-08-26-1483
+
+*Ikraftsetting av lov 30. oktober 2020 nr. 123 om endringer i statsborgerloven (krav om ferdigheter i norsk muntlig). Loven trer i kraft 1. oktober 2022.*
+
+> Ikraftsetting av lov 30. oktober 2020 nr. 123 om endringer i statsborgerloven (krav om ferdigheter i norsk muntlig). Loven trer i kraft 1. oktober 2022.
+>
 
 ## § 10
 

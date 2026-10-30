@@ -7,6 +7,13 @@ refid: "lov/1956-12-21-1"
 
 ## (annet)
 
+### 2019-06-21 — lov/2019-06-21-25
+
+*I lov 21. desember 1956 nr. 1 om aldersgrenser for offentlige tjenestemenn m.fl. skal § 2 andre ledd lyde:*
+
+> De lavere aldersgrenser kan være 65, 63 og 60 år.
+>
+
 ### 2025-05-27 — lov/2025-05-27-17
 
 *Nåværende § 2 tredje og fjerde ledd blir fjerde og nytt femte ledd.*
@@ -25,10 +32,6 @@ refid: "lov/1956-12-21-1"
 *§ 2 første ledd skal lyde:*
 
 > Den alminnelige aldersgrensen er 72 år. Det kan fastsettes lavere aldersgrense i følgende tilfeller:Tjenesten medfører uvanlig fysisk eller psykisk belastning på de ansatte, slik at de normalt ikke makter å skjøtte arbeidet forsvarlig til fylte 72 år.Tjenesten stiller spesielle krav til fysiske eller psykiske egenskaper, som normalt blir sterkere svekket før fylte 72 år enn det en forsvarlig utføring av tjenesten tilsier.
->
-> Tjenesten medfører uvanlig fysisk eller psykisk belastning på de ansatte, slik at de normalt ikke makter å skjøtte arbeidet forsvarlig til fylte 72 år.
->
-> Tjenesten stiller spesielle krav til fysiske eller psykiske egenskaper, som normalt blir sterkere svekket før fylte 72 år enn det en forsvarlig utføring av tjenesten tilsier.
 >
 
 ### 2025-05-27 — lov/2025-05-27-17

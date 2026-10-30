@@ -632,10 +632,6 @@ refid: "lov/1999-07-02-63"
 
 > Dersom pasienten har beslutningskompetanse, har pasientens nærmeste pårørende rett til å medvirke når:pasienten har en alvorlig sinnslidelse og utgjør en nærliggende og alvorlig fare for andres liv eller helsehensynet til barn pasienten har omsorgsansvar for, taler for at pårørende skal få medvirke.
 >
-> pasienten har en alvorlig sinnslidelse og utgjør en nærliggende og alvorlig fare for andres liv eller helse
->
-> hensynet til barn pasienten har omsorgsansvar for, taler for at pårørende skal få medvirke.
->
 
 ### 2025-06-20 — lov/2025-06-20-67
 
@@ -649,10 +645,6 @@ refid: "lov/1999-07-02-63"
 *§ 3-1 fjerde ledd skal lyde:*
 
 > Dersom pasienten har beslutningskompetanse, har pasientens nærmeste pårørende rett til å medvirke når:pasienten har en alvorlig sinnslidelse og utgjør en nærliggende og alvorlig fare for andres liv eller helsehensynet til barn pasienten har omsorgsansvar for, taler for at pårørende skal få medvirke.
->
-> pasienten har en alvorlig sinnslidelse og utgjør en nærliggende og alvorlig fare for andres liv eller helse
->
-> hensynet til barn pasienten har omsorgsansvar for, taler for at pårørende skal få medvirke.
 >
 
 ## § 3-2
@@ -706,10 +698,6 @@ refid: "lov/1999-07-02-63"
 >
 > Dersom pasienten eller brukeren har beslutningskompetanse, har pasientens eller brukerens nærmeste pårørende rett til informasjon når:pasienten har en alvorlig sinnslidelse og utgjør en nærliggende og alvorlig fare for andres liv eller helsehensynet til barn pasienten eller brukeren har omsorgsansvar for, taler for at pårørende skal få informasjon.
 >
-> pasienten har en alvorlig sinnslidelse og utgjør en nærliggende og alvorlig fare for andres liv eller helse
->
-> hensynet til barn pasienten eller brukeren har omsorgsansvar for, taler for at pårørende skal få informasjon.
->
 
 ### 2025-06-20 — lov/2025-06-20-67
 
@@ -718,10 +706,6 @@ refid: "lov/1999-07-02-63"
 > Er pasienten eller brukeren over 16 år og ikke kan ivareta sine interesser på grunn av manglende beslutningskompetanse etter § 4-3 annet ledd, har både pasienten eller brukeren og dennes nærmeste pårørende rett til informasjon etter reglene i § 3-2.
 >
 > Dersom pasienten eller brukeren har beslutningskompetanse, har pasientens eller brukerens nærmeste pårørende rett til informasjon når:pasienten har en alvorlig sinnslidelse og utgjør en nærliggende og alvorlig fare for andres liv eller helsehensynet til barn pasienten eller brukeren har omsorgsansvar for, taler for at pårørende skal få informasjon.
->
-> pasienten har en alvorlig sinnslidelse og utgjør en nærliggende og alvorlig fare for andres liv eller helse
->
-> hensynet til barn pasienten eller brukeren har omsorgsansvar for, taler for at pårørende skal få informasjon.
 >
 
 ## § 3-4
@@ -813,9 +797,7 @@ refid: "lov/1999-07-02-63"
 
 *§ 4-3 overskriften skal lyde:*
 
-> § 4-3.Hvem som har beslutningskompetanse
->
-> § 4-3.Hvem som har beslutningskompetanse
+> § 4-3. Hvem som har beslutningskompetanse
 >
 
 ### 2025-04-25 — lov/2025-04-25-13
@@ -835,9 +817,7 @@ refid: "lov/1999-07-02-63"
 
 *§ 4-3 overskriften skal lyde:*
 
-> § 4-3.Hvem som har beslutningskompetanse
->
-> § 4-3.Hvem som har beslutningskompetanse
+> § 4-3. Hvem som har beslutningskompetanse
 >
 
 ### 2025-06-20 — lov/2025-06-20-67
@@ -908,9 +888,7 @@ refid: "lov/1999-07-02-63"
 
 *§ 4-5 overskriften skal lyde:*
 
-> § 4-5.Samtykke på vegne av ungdom som ikke har beslutningskompetanse
->
-> § 4-5.Samtykke på vegne av ungdom som ikke har beslutningskompetanse
+> § 4-5. Samtykke på vegne av ungdom som ikke har beslutningskompetanse
 >
 
 ### 2025-04-25 — lov/2025-04-25-13
@@ -924,9 +902,7 @@ refid: "lov/1999-07-02-63"
 
 *§ 4-5 overskriften skal lyde:*
 
-> § 4-5.Samtykke på vegne av ungdom som ikke har beslutningskompetanse
->
-> § 4-5.Samtykke på vegne av ungdom som ikke har beslutningskompetanse
+> § 4-5. Samtykke på vegne av ungdom som ikke har beslutningskompetanse
 >
 
 ### 2025-06-20 — lov/2025-06-20-67
@@ -970,9 +946,7 @@ refid: "lov/1999-07-02-63"
 
 *§ 4-6 overskriften skal lyde:*
 
-> § 4-6.Om pasienter over 18 år som ikke har beslutningskompetanse
->
-> § 4-6.Om pasienter over 18 år som ikke har beslutningskompetanse
+> § 4-6. Om pasienter over 18 år som ikke har beslutningskompetanse
 >
 
 ### 2025-04-25 — lov/2025-04-25-13
@@ -999,9 +973,7 @@ refid: "lov/1999-07-02-63"
 
 *§ 4-6 overskriften skal lyde:*
 
-> § 4-6.Om pasienter over 18 år som ikke har beslutningskompetanse
->
-> § 4-6.Om pasienter over 18 år som ikke har beslutningskompetanse
+> § 4-6. Om pasienter over 18 år som ikke har beslutningskompetanse
 >
 
 ### 2025-06-20 — lov/2025-06-20-67
@@ -1089,9 +1061,13 @@ refid: "lov/1999-07-02-63"
 
 *§ 5-3 skal lyde:*
 
-> § 5-3.Rett til å motsette seg tilgjengeliggjøring av opplysninger i journalPasienten og brukeren kan motsette seg tilgjengeliggjøring av opplysninger i journal i samsvar med helsepersonelloven § 29 og pasientjournalloven § 17.Opplysningene kan heller ikke tilgjengeliggjøres dersom det er grunn til å tro at pasienten eller brukeren ville motsette seg det ved forespørsel.Tilgjengeliggjøring kan likevel skje dersom tungtveiende grunner taler for det.
+> § 5-3. Rett til å motsette seg tilgjengeliggjøring av opplysninger i journal
 >
-> § 5-3.Rett til å motsette seg tilgjengeliggjøring av opplysninger i journal
+> Pasienten og brukeren kan motsette seg tilgjengeliggjøring av opplysninger i journal i samsvar med helsepersonelloven § 29 og pasientjournalloven § 17.
+>
+> Opplysningene kan heller ikke tilgjengeliggjøres dersom det er grunn til å tro at pasienten eller brukeren ville motsette seg det ved forespørsel.
+>
+> Tilgjengeliggjøring kan likevel skje dersom tungtveiende grunner taler for det.
 >
 
 ## § 6-1
@@ -1109,9 +1085,13 @@ refid: "lov/1999-07-02-63"
 
 *§ 6-4 skal lyde:*
 
-> § 6-4.Barns rett til opplæring og spesialpedagogisk hjelp i helseinstitusjonBarn i opplæringspliktig alder har rett til grunnskoleopplæring under opphold i helseinstitusjon, i den grad dette følger av opplæringslova.Ungdom har rett til videregående opplæring under opphold i helseinstitusjon, i den grad dette følger av opplæringslova.Barn under opplæringspliktig alder har rett til spesialpedagogisk hjelp under opphold i helseinstitusjon, i den grad dette følger av barnehageloven.
+> § 6-4. Barns rett til opplæring og spesialpedagogisk hjelp i helseinstitusjon
 >
-> § 6-4.Barns rett til opplæring og spesialpedagogisk hjelp i helseinstitusjon
+> Barn i opplæringspliktig alder har rett til grunnskoleopplæring under opphold i helseinstitusjon, i den grad dette følger av opplæringslova.
+>
+> Ungdom har rett til videregående opplæring under opphold i helseinstitusjon, i den grad dette følger av opplæringslova.
+>
+> Barn under opplæringspliktig alder har rett til spesialpedagogisk hjelp under opphold i helseinstitusjon, i den grad dette følger av barnehageloven.
 >
 
 ## § 7-2
@@ -1347,9 +1327,11 @@ refid: "lov/1999-07-02-63"
 
 *§ 7-6 skal lyde:*
 
-> § 7-6.Melding om alvorlige hendelserEn pasient, bruker eller nærmeste pårørende kan sende melding til statsforvalteren og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av ytelse av helse- og omsorgstjenester eller ved at en pasient eller bruker skader en annen. Adgangen til å sende melding gjelder dersom utfallet er uventet ut fra påregnelig risiko.Departementet kan gi forskrift om melding etter første ledd, også om innholdet i meldingene.
+> § 7-6. Melding om alvorlige hendelser
 >
-> § 7-6.Melding om alvorlige hendelser
+> En pasient, bruker eller nærmeste pårørende kan sende melding til statsforvalteren og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av ytelse av helse- og omsorgstjenester eller ved at en pasient eller bruker skader en annen. Adgangen til å sende melding gjelder dersom utfallet er uventet ut fra påregnelig risiko.
+>
+> Departementet kan gi forskrift om melding etter første ledd, også om innholdet i meldingene.
 >
 
 ## § 7-7
@@ -1505,9 +1487,8 @@ refid: "lov/1999-07-02-63"
 
 *Overskrift til kapittel 2 skal lyde:*
 
-### 2004-01-01 — lov/2003-11-28-96
-
-*Kapittel 2. Rett til helsehjelp og transport*
+> Kapittel 2. Rett til helsehjelp og transport
+>
 
 ### 2006-12-22 — lov/2006-12-22-99
 
@@ -1603,13 +1584,107 @@ refid: "lov/1999-07-02-63"
 
 *Nåværende femte og sjette ledd blir nye sjette og syvende ledd.*
 
+### 2014-01-01 — forskrift/2013-08-09-969
+
+*Delt ikraftsetting av lov 21. juni 2013 nr. 79 om endringer i lov 2. juli 1999 nr. 63 om pasient- og brukerrettighetsloven (pasient- og brukerrettighetsloven).*
+
+> Delt ikraftsetting av lov 21. juni 2013 nr. 79 om endringer i lov 2. juli 1999 nr. 63 om pasient- og brukerrettighetsloven (pasient- og brukerrettighetsloven).
+>
+> Romertall I § 2-4 første ledd trer i kraft 1. januar 2014.
+>
+
+### 2014-06-20 — lov/2014-06-20-41
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter (pasient- og brukerrettighetsloven).
+>
+> I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal ny § 2-1 d lyde:
+>
+> § 2-1 d.
+>
+> Rett til brukerstyrt personlig assistanse
+>
+> Personer under 67 år med langvarig og stort behov for personlig assistanse etter helse- og omsorgstjenesteloven § 3-2 første ledd nr. 6 bokstav b har rett til å få slike tjenester organisert som brukerstyrt personlig assistanse. Retten omfatter avlastningstiltak etter helse- og omsorgstjenesteloven § 3-2 første ledd nr. 6 bokstav d for personer med foreldreansvar for hjemmeboende barn under 18 år med nedsatt funksjonsevne. Helsetjenester i avlastningstiltak omfattes ikke.
+>
+> Rettigheten omfatter ikke tjenester som krever flere enn én tjenesteyter til stede eller nattjenester, med mindre brukeren kontinuerlig har behov for slike tjenester.
+>
+> Med langvarig behov i første ledd menes behov ut over 2 år.
+>
+> Med stort behov i første ledd menes et tjenestebehov på minst 32 timer per uke. Brukere med tjenestebehov på minst 25 timer per uke har likevel rett til å få tjenester organisert som brukerstyrt personlig assistanse, med mindre kommunen kan dokumentere at slik organisering vil medføre vesentlig økt kostnad for kommunen.
+>
+> Loven gjelder fra den tid Kongen bestemmer.
+>
+
+### 2015-01-01 — forskrift/2014-11-14-1406
+
+*Ikraftsetting av lov 20. juni 2014 nr. 41 om endringer i pasient- og brukerrettighetsloven (rett til brukerstyrt personlig assistanse). Loven trer i kraft 1. januar 2015.*
+
+> Ikraftsetting av lov 20. juni 2014 nr. 41 om endringer i pasient- og brukerrettighetsloven (rett til brukerstyrt personlig assistanse). Loven trer i kraft 1. januar 2015.
+>
+
+### 2015-11-01 — forskrift/2015-10-30-1240
+
+*Delt ikraftsetting av lov 21. juni 2013 nr. 79 om endringer i pasient- og brukerrettighetsloven mv. (rett til nødvendig helsehjelp og pasientrettighetsdirektivet m.m). Romertall I § 2-1b andre ledd og § 2-2 trer i kraft 1. november 2015.*
+
+> Delt ikraftsetting av lov 21. juni 2013 nr. 79 om endringer i pasient- og brukerrettighetsloven mv. (rett til nødvendig helsehjelp og pasientrettighetsdirektivet m.m). Romertall I § 2-1b andre ledd og § 2-2 trer i kraft 1. november 2015.
+>
+
 ### 2015-12-11 — lov/2015-12-11-97
 
 *Kapittel 7 overskrifta skal lyde:*
 
+### 2016-10-01 — forskrift/2016-09-16-1069
+
+*Lov 19. juni 2015 nr. 62 om endringer i pasient- og brukerrettighetsloven (dekning av utgifter til pasientreiser) trer i kraft 1. oktober 2016.*
+
+> Lov 19. juni 2015 nr. 62 om endringer i pasient- og brukerrettighetsloven (dekning av utgifter til pasientreiser) trer i kraft 1. oktober 2016.
+>
+
 ### 2017-06-16 — lov/2017-06-16-55
 
 *Nåværende tredje til femte ledd blir fjerde til sjette ledd.*
+
+### 2018-06-22 — lov/2018-06-22-76
+
+*I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 3-2 fjerde ledd andre punktum lyde:*
+
+> Det skal samtidig informeres om adgangen til å søke erstatning hos Norsk pasientskadeerstatning, til å henvende seg til pasient- og brukerombudet og adgangen til å anmode tilsynsmyndigheten om vurdering av eventuelt pliktbrudd etter § 7-4.
+>
+
+### 2020-06-19 — lov/2020-06-19-79
+
+*I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 2-1 d første ledd lyde:*
+
+> Personer under 67 år med langvarig og stort behov for personlig assistanse etter helse- og omsorgstjenesteloven § 3-2 første ledd nr. 6 bokstav b har rett til å få slike tjenester organisert som brukerstyrt personlig assistanse. Retten omfatter avlastningstiltak etter helse- og omsorgstjenesteloven § 3-6 første ledd nr. 2 for personer med foreldreansvar for hjemmeboende barn under 18 år med nedsatt funksjonsevne. Helsetjenester i avlastningstiltak omfattes ikke. Retten omfatter også personer over 67 år som før fylte 67 år har fått innvilget brukerstyrt personlig assistanse etter første punktum.
+>
+
+### 2020-07-01 — forskrift/2020-06-19-1237
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2020-12-04 — lov/2020-12-04-134
+
+*I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 7-2 annet ledd første punktum lyde:*
+
+> Pasient eller representant for pasienten som mener at bestemmelsen i § 2-4 a annet ledd bokstav a ikke er overholdt, kan klage til en klagenemnd som oppnevnes av departementet.
+>
+
+### 2021-05-07 — lov/2021-05-07-31
+
+*I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 7-6 lyde:*
+
+> § 7-6.Varsel om alvorlige hendelser
+>
+> En pasient, bruker eller nærmeste pårørende kan varsle Statens helsetilsyn og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av ytelse av helse- og omsorgstjenester eller ved at en pasient eller bruker skader en annen. Adgangen til å varsle gjelder dersom utfallet er uventet ut fra påregnelig risiko.
+>
+> Departementet kan gi forskrift om varsling etter første ledd, også om innholdet i varslene.
+>
 
 ### 2022-04-01 — lov/2022-04-01-18
 
@@ -1633,6 +1708,13 @@ refid: "lov/1999-07-02-63"
 
 *Nåværende § 2-1 a blir ny § 2-1. § 2-1 b oppheves.*
 
+### 2023-06-16 — lov/2023-06-16-56
+
+*I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 7-2 første ledd første punktum lyde:*
+
+> Pasient eller bruker eller dennes representant som mener at bestemmelsene i kapittel 2 med unntak av § 2-4 a, kapitlene 3 og 4, samt § 5-1, § 6-2 og § 6-3 er brutt, kan klage til statsforvalteren.
+>
+
 ### 2023-12-20 — lov/2023-12-20-106
 
 *Første ledd skal lyde:*
@@ -1655,9 +1737,9 @@ refid: "lov/1999-07-02-63"
 
 *I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 2-5 d lyde:*
 
-> § 2-5 d.Midlertidige unntak fra rettigheterNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-2 a andre ledd tredje punktum om fastsettelse av tidsfrist for når pasienten senest skal få nødvendig helsehjelp§ 2-2 b første ledd om rett til nødvendig helsehjelp uten opphold ved brudd på tidsfrist fastsatt etter § 2-2 a andre ledd tredje punktum§ 2-2 a andre ledd bokstav a om informasjon om rett til nødvendig helsehjelp§ 2-2 a andre ledd bokstav b om informasjon om tidspunkt for oppstart av helsehjelpen§ 2-2 b første ledd om plikt til å kontakte HELFO§ 2-3 om rett til fornyet vurdering§ 2-4 om rett til valg av behandlingssted§ 2-5 om rett til individuell plan§ 2-5 a om rett til kontaktlege§ 2-5 b om rett til koordinator§ 2-5 c om rett til barnekoordinator.
+> § 2-5 d. Midlertidige unntak fra rettigheter
 >
-> § 2-5 d.Midlertidige unntak fra rettigheter
+> Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-2 a andre ledd tredje punktum om fastsettelse av tidsfrist for når pasienten senest skal få nødvendig helsehjelp§ 2-2 b første ledd om rett til nødvendig helsehjelp uten opphold ved brudd på tidsfrist fastsatt etter § 2-2 a andre ledd tredje punktum§ 2-2 a andre ledd bokstav a om informasjon om rett til nødvendig helsehjelp§ 2-2 a andre ledd bokstav b om informasjon om tidspunkt for oppstart av helsehjelpen§ 2-2 b første ledd om plikt til å kontakte HELFO§ 2-3 om rett til fornyet vurdering§ 2-4 om rett til valg av behandlingssted§ 2-5 om rett til individuell plan§ 2-5 a om rett til kontaktlege§ 2-5 b om rett til koordinator§ 2-5 c om rett til barnekoordinator.
 >
 
 ### 2025-04-25 — lov/2025-04-25-13
@@ -1680,9 +1762,9 @@ refid: "lov/1999-07-02-63"
 
 *I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 2-5 d lyde:*
 
-> § 2-5 d.Midlertidige unntak fra rettigheterNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-2 a andre ledd tredje punktum om fastsettelse av tidsfrist for når pasienten senest skal få nødvendig helsehjelp§ 2-2 a tredje ledd bokstav a om informasjon om rett til nødvendig helsehjelp§ 2-2 a tredje ledd bokstav b om informasjon om tidspunkt for oppstart av helsehjelpen§ 2-2 b første ledd første punktum om rett til nødvendig helsehjelp uten opphold ved brudd på tidsfrist fastsatt etter § 2-2 a andre ledd tredje punktum§ 2-2 b første ledd andre punktum om plikt til å kontakte Helfo§ 2-3 om rett til fornyet vurdering§ 2-4 om rett til valg av behandlingssted§ 2-5 om rett til individuell plan§ 2-5 a om rett til kontaktlege§ 2-5 b om rett til koordinator§ 2-5 c om rett til barnekoordinator.
+> § 2-5 d. Midlertidige unntak fra rettigheter
 >
-> § 2-5 d.Midlertidige unntak fra rettigheter
+> Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-2 a andre ledd tredje punktum om fastsettelse av tidsfrist for når pasienten senest skal få nødvendig helsehjelp§ 2-2 a tredje ledd bokstav a om informasjon om rett til nødvendig helsehjelp§ 2-2 a tredje ledd bokstav b om informasjon om tidspunkt for oppstart av helsehjelpen§ 2-2 b første ledd første punktum om rett til nødvendig helsehjelp uten opphold ved brudd på tidsfrist fastsatt etter § 2-2 a andre ledd tredje punktum§ 2-2 b første ledd andre punktum om plikt til å kontakte Helfo§ 2-3 om rett til fornyet vurdering§ 2-4 om rett til valg av behandlingssted§ 2-5 om rett til individuell plan§ 2-5 a om rett til kontaktlege§ 2-5 b om rett til koordinator§ 2-5 c om rett til barnekoordinator.
 >
 
 ### 2026-06-19 — lov/2026-06-19-42
@@ -1698,18 +1780,22 @@ refid: "lov/1999-07-02-63"
 
 *§ 4A-2 skal lyde:*
 
-> § 4A-2.VirkeområdeKapitlet kommer til anvendelse når helsepersonell yter helsehjelp til pasienter over 16 år som mangler beslutningskompetanse, jf. kapittel 4, og som motsetter seg helsehjelpen.Undersøkelse og behandling av psykisk lidelse hos personer som mangler beslutningskompetanse, og som motsetter seg helsehjelpen, kan likevel bare skje med hjemmel i psykisk helsevernloven.
+> § 4A-2. Virkeområde
 >
-> § 4A-2.Virkeområde
+> Kapitlet kommer til anvendelse når helsepersonell yter helsehjelp til pasienter over 16 år som mangler beslutningskompetanse, jf. kapittel 4, og som motsetter seg helsehjelpen.
+>
+> Undersøkelse og behandling av psykisk lidelse hos personer som mangler beslutningskompetanse, og som motsetter seg helsehjelpen, kan likevel bare skje med hjemmel i psykisk helsevernloven.
 >
 
 ### 2025-06-20 — lov/2025-06-20-67
 
 *§ 4A-2 skal lyde:*
 
-> § 4A-2.VirkeområdeKapitlet kommer til anvendelse når helsepersonell yter helsehjelp til pasienter over 16 år som mangler beslutningskompetanse, jf. kapittel 4, og som motsetter seg helsehjelpen.Undersøkelse og behandling av psykisk lidelse hos personer som mangler beslutningskompetanse, og som motsetter seg helsehjelpen, kan likevel bare skje med hjemmel i psykisk helsevernloven.
+> § 4A-2. Virkeområde
 >
-> § 4A-2.Virkeområde
+> Kapitlet kommer til anvendelse når helsepersonell yter helsehjelp til pasienter over 16 år som mangler beslutningskompetanse, jf. kapittel 4, og som motsetter seg helsehjelpen.
+>
+> Undersøkelse og behandling av psykisk lidelse hos personer som mangler beslutningskompetanse, og som motsetter seg helsehjelpen, kan likevel bare skje med hjemmel i psykisk helsevernloven.
 >
 
 ## § 4A-3

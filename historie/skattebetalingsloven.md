@@ -138,9 +138,9 @@ refid: "lov/2005-06-17-67"
 
 *Ny § 1-4 skal lyde:*
 
-> § 1-4.Tvangsgrunnlag for utleggSkatte- og avgiftskrav er tvangsgrunnlag for utlegg.
+> § 1-4. Tvangsgrunnlag for utlegg
 >
-> § 1-4.Tvangsgrunnlag for utlegg
+> Skatte- og avgiftskrav er tvangsgrunnlag for utlegg.
 >
 
 ## § 2-1
@@ -303,9 +303,11 @@ refid: "lov/2005-06-17-67"
 
 *§ 3-1 skal lyde:*
 
-> § 3-1.Forholdet til forvaltningsloven(1) Forvaltningsloven gjelder med de særlige bestemmelser som er gitt i denne loven.(2) For forskuddsutskrivingen er det gitt særlige saksbehandlingsregler i § 4-3.
+> § 3-1. Forholdet til forvaltningsloven
 >
-> § 3-1.Forholdet til forvaltningsloven
+> (1) Forvaltningsloven gjelder med de særlige bestemmelser som er gitt i denne loven.
+>
+> (2) For forskuddsutskrivingen er det gitt særlige saksbehandlingsregler i § 4-3.
 >
 
 ## § 3-3
@@ -332,6 +334,9 @@ refid: "lov/2005-06-17-67"
 
 *§ 3-3 første ledd skal lyde:*
 
+> (1) Forvaltningsloven §§ 16, 24, 25 og 42 gjelder ikke for vedtak som treffes under avregningen.
+>
+
 ### 2026-06-19 — lov/2026-06-19-41
 
 *§ 3-3 tredje ledd oppheves.*
@@ -346,9 +351,9 @@ refid: "lov/2005-06-17-67"
 
 *§ 3-4 skal lyde:*
 
-> § 3-4.Innhenting av opplysninger fra folkeregistermyndighetenSkattekontoret kan kreve at folkeregistermyndigheten uten hinder av taushetsplikt som de ellers har, skal gi de opplysningene som er nødvendige for skattekontorets arbeid etter denne loven.
+> § 3-4. Innhenting av opplysninger fra folkeregistermyndigheten
 >
-> § 3-4.Innhenting av opplysninger fra folkeregistermyndigheten
+> Skattekontoret kan kreve at folkeregistermyndigheten uten hinder av taushetsplikt som de ellers har, skal gi de opplysningene som er nødvendige for skattekontorets arbeid etter denne loven.
 >
 
 ## § 3-5
@@ -383,9 +388,15 @@ refid: "lov/2005-06-17-67"
 
 *§ 3-5 skal lyde:*
 
-> § 3-5.Sammenstilling, profilering og automatiserte avgjørelser(1) Skattekontoret kan sammenstille innhentede personopplysninger når det er nødvendig for deres arbeid, herunder til kontroll-, veilednings-, analyse- og statistikkformål. Skattekontoret kan benytte innhentede personopplysninger til profilering til samme formål, når profileringen er nødvendig for å målrette tiltak som fremmer etterlevelse av loven. Graden av personidentifikasjon skal ikke være større enn det som er nødvendig for formålet.(2) Skattekontoret kan treffe avgjørelser som utelukkende er basert på automatisert behandling. Behandlingen må sikre partens krav til forsvarlig saksbehandling og være forenlig med retten til vern av personopplysninger. Avgjørelsen kan ikke bygge på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjørelsen er utvilsom. Den registrerte har rett til manuell overprøving av avgjørelsen.(3) Skattekontoret kan benytte særlige kategorier av personopplysninger som nevnt i personvernforordningen artikkel 9 og 10, ved sammenstilling, profilering og automatiserte avgjørelser.(4) Departementet kan gi forskrift om sammenstilling, profilering og automatiserte avgjørelser, blant annet om formålet med behandlingen, hvilke personopplysninger som kan behandles og hvem det kan behandles personopplysninger om.
+> § 3-5. Sammenstilling, profilering og automatiserte avgjørelser
 >
-> § 3-5.Sammenstilling, profilering og automatiserte avgjørelser
+> (1) Skattekontoret kan sammenstille innhentede personopplysninger når det er nødvendig for deres arbeid, herunder til kontroll-, veilednings-, analyse- og statistikkformål. Skattekontoret kan benytte innhentede personopplysninger til profilering til samme formål, når profileringen er nødvendig for å målrette tiltak som fremmer etterlevelse av loven. Graden av personidentifikasjon skal ikke være større enn det som er nødvendig for formålet.
+>
+> (2) Skattekontoret kan treffe avgjørelser som utelukkende er basert på automatisert behandling. Behandlingen må sikre partens krav til forsvarlig saksbehandling og være forenlig med retten til vern av personopplysninger. Avgjørelsen kan ikke bygge på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjørelsen er utvilsom. Den registrerte har rett til manuell overprøving av avgjørelsen.
+>
+> (3) Skattekontoret kan benytte særlige kategorier av personopplysninger som nevnt i personvernforordningen artikkel 9 og 10, ved sammenstilling, profilering og automatiserte avgjørelser.
+>
+> (4) Departementet kan gi forskrift om sammenstilling, profilering og automatiserte avgjørelser, blant annet om formålet med behandlingen, hvilke personopplysninger som kan behandles og hvem det kan behandles personopplysninger om.
 >
 
 ## § 3-6
@@ -393,6 +404,9 @@ refid: "lov/2005-06-17-67"
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 3-6 første ledd skal lyde:*
+
+> (1) Skattekontoret kan behandle innhentede personopplysninger for å utvikle og teste IT-systemer dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.
+>
 
 ## § 4-1
 
@@ -460,6 +474,9 @@ refid: "lov/2005-06-17-67"
 ### 2023-12-20 — lov/2023-12-20-99
 
 *§ 4-6 første ledd skal lyde:*
+
+> (1) Endres skattereglene etter at forskuddsutskrivingen er foretatt, og dette medfører at de beløp som trekkes eller betales i løpet av inntektsåret ikke kommer til å svare til den skatt som ventes fastsatt, kan departementet, for alle skattytere eller enkelte grupper, bestemme at forskuddstrekk eller forskuddsskatt skal skje etter andre satser eller med andre beløp enn som er fastsatt ved forskuddsutskrivingen.
+>
 
 ## § 4-7
 
@@ -610,6 +627,9 @@ refid: "lov/2005-06-17-67"
 ### 2023-12-20 — lov/2023-12-20-99
 
 *§ 5-2 annet ledd skal lyde:*
+
+> (2) Forskuddstrekket kan fastsettes slik at trekket alene skal svare til den forventede fastsatte skatt og trygdeavgift.
+>
 
 ## § 5-3
 
@@ -1073,18 +1093,14 @@ refid: "lov/2005-06-17-67"
 
 *§ 5-13b første ledd skal lyde:*
 
-> aksjeselskap der det er truffet beslutning i medhold av fullmakt etter aksjeloven § 7-6,
->
-> selskap som nevnt i regnskapsloven § 1-2 første ledd nr. 13 som er organisert etter en utenlandsk selskapsform som i det vesentligste tilsvarer definisjonen av aksjeselskap i aksjeloven § 1-1 annet ledd, og som ikke har revisjonsplikt etter revisorloven § 2-1.
+> (1) Når årsregnskapet til en arbeidsgiver som har plikt til å foreta forskuddstrekk, skattetrekk etter § 5-4 første ledd (kildeskatteordning) eller utleggstrekk etter innkrevingsloven eller tvangsfullbyrdelsesloven, er fastsatt i strid med bestemmelser i eller i medhold av regnskapsloven eller bokføringsloven eller god regnskapsskikk eller bokføringsskikk, kan skattekontoret pålegge at ett eller flere årsregnskap revideres av en registrert eller statsautorisert revisor i samsvar med revisorloven § 2-2 for følgende selskap:aksjeselskap der det er truffet beslutning i medhold av fullmakt etter aksjeloven § 7-6,selskap som nevnt i regnskapsloven § 1-2 første ledd nr. 13 som er organisert etter en utenlandsk selskapsform som i det vesentligste tilsvarer definisjonen av aksjeselskap i aksjeloven § 1-1 annet ledd, og som ikke har revisjonsplikt etter revisorloven § 2-1.
 >
 
 ### 2025-06-20 — lov/2025-06-20-63
 
 *§ 5-13b første ledd skal lyde:*
 
-> aksjeselskap der det er truffet beslutning i medhold av fullmakt etter aksjeloven § 7-6,
->
-> selskap som nevnt i regnskapsloven § 1-2 første ledd nr. 13 som er organisert etter en utenlandsk selskapsform som i det vesentligste tilsvarer definisjonen av aksjeselskap i aksjeloven § 1-1 annet ledd, og som ikke har revisjonsplikt etter revisorloven § 2-1.
+> (1) Når årsregnskapet til en arbeidsgiver som har plikt til å foreta forskuddstrekk, skattetrekk etter § 5-4 første ledd (kildeskatteordning) eller utleggstrekk, er fastsatt i strid med bestemmelser i eller i medhold av regnskapsloven eller bokføringsloven eller god regnskapsskikk eller bokføringsskikk, kan skattekontoret pålegge at ett eller flere årsregnskap revideres av en statsautorisert revisor i samsvar med bestemmelsene i revisorloven for følgende selskap:aksjeselskap der det er truffet beslutning i medhold av fullmakt etter aksjeloven § 7-6,selskap som nevnt i regnskapsloven § 1-2 første ledd nr. 13 som er organisert etter en utenlandsk selskapsform som i det vesentligste tilsvarer definisjonen av aksjeselskap i aksjeloven § 1-1 annet ledd, og som ikke har revisjonsplikt etter revisorloven § 2-1.
 >
 
 ## § 5-13c
@@ -1114,6 +1130,9 @@ refid: "lov/2005-06-17-67"
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 5-13c første ledd skal lyde:*
+
+> (1) Skattekontoret kan i forbindelse med kontroll pålegge arbeidsgivere eller andre som etter loven har plikt til å foreta forskuddstrekk eller skattetrekk etter § 5-4, eller utleggstrekk etter innkrevingsloven eller tvangsfullbyrdelsesloven, å oppbevare regnskapsmateriale etter bokføringsloven § 13 første ledd nr. 1 til 4 i mer enn fem år etter regnskapsårets slutt.
+>
 
 ## § 5-14
 
@@ -1164,11 +1183,7 @@ refid: "lov/2005-06-17-67"
 
 *§ 5-14 første ledd skal lyde:*
 
-> finansinstitusjoner (jf. finansforetaksloven § 1-3) og andre som driver utlånsvirksomhet eller låneformidling som næring,
->
-> verdipapirforetak (jf. verdipapirhandelloven § 2-7 første ledd) og andre som har penger til forvaltning, og
->
-> pensjonskasser
+> (1) Ved utførelsen av arbeidsgiverkontrollen etter § 5-13 plikterfinansinstitusjoner (jf. finansforetaksloven § 1-3) og andre som driver utlånsvirksomhet eller låneformidling som næring,verdipapirforetak (jf. verdipapirhandelloven § 2-7 første ledd) og andre som har penger til forvaltning, ogpensjonskasseretter krav fra skattekontoret å gi opplysninger om innskudds- og gjeldskonti som navngitt person, bo, selskap eller innretning har eller disponerer i vedkommende institusjon. Ved innhenting av opplysninger etter første punktum plikter de å gi opplysninger om underbilag og transaksjoner, herunder om hvem som er parter i transaksjonene.
 >
 
 ## § 5-15
@@ -1260,9 +1275,9 @@ refid: "lov/2005-06-17-67"
 
 *§ 5-17 skal lyde:*
 
-> § 5-17.Omgjøring av skattetrekk etter § 5-4 første ledd (kildeskatteordning)Trukket skatt etter § 5-4 første ledd og betalt skatt, jf. § 10-10 første ledd, omgjøres til forskudd på skatt når skattyter trer ut av kildeskatteordningen innenfor et inntektsår, jf. reglene i skatteloven kapittel 20.
+> § 5-17. Omgjøring av skattetrekk etter § 5-4 første ledd (kildeskatteordning)
 >
-> § 5-17.Omgjøring av skattetrekk etter § 5-4 første ledd (kildeskatteordning)
+> Trukket skatt etter § 5-4 første ledd og betalt skatt, jf. § 10-10 første ledd, omgjøres til forskudd på skatt når skattyter trer ut av kildeskatteordningen innenfor et inntektsår, jf. reglene i skatteloven kapittel 20.
 >
 
 ## § 6-2
@@ -1461,6 +1476,9 @@ refid: "lov/2005-06-17-67"
 
 *§ 8-1 sjette ledd skal lyde:*
 
+> (6) Departementet kan gi forskrift om fordeling mellom skattekreditorene av renter, innkrevingsutgifter og gebyr, herunder utgifter ved tvister som nevnt i kapittel 17, skatteforvaltningsloven kapittel 15 og innkrevingsloven § 36.
+>
+
 ## § 8-2
 
 ### 2008-12-12 — lov/2008-12-12-100
@@ -1507,6 +1525,9 @@ refid: "lov/2005-06-17-67"
 ### 2024-12-20 — lov/2024-12-20-87
 
 *§ 8-2 tredje ledd skal lyde:*
+
+> (3) Innbetalt skatt på netto eierinntekter fra personlige skattytere for et inntektsår fordeles i sin helhet til staten på grunnlag av fastsatt skatt. Med eierinntekt menes utbytte og annen inntekt som oppjusteres på tilsvarende måte etter skatteloven.
+>
 
 ### 2024-12-20 — lov/2024-12-20-87
 
@@ -1574,13 +1595,20 @@ refid: "lov/2005-06-17-67"
 
 *§ 9-1 andre ledd skal lyde:*
 
+> (2) Utbetaling av tilgodebeløp etter § 10-60 skal skje til skattepliktiges konto, med mindre annet følger av lov eller forskrift. Innkrevingsmyndighetene kan beslutte å utbetale tilgodebeløpet på annen måte dersom særlige forhold tilsier det.
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 9-1 skal lyde:*
 
-> § 9-1.Betalingsmåte(1) Skatte- og avgiftskrav skal betales ved overføring av beløpet til konto, med mindre skattekontoret har akseptert betaling med kontanter.(2) Utbetaling av tilgodebeløp etter § 10-60 skal skje til skattepliktiges konto, med mindre annet følger av lov eller forskrift. Skattekontoret kan beslutte å utbetale tilgodebeløpet på annen måte dersom særlige forhold tilsier det.(3) Departementet kan i forskrift gi nærmere regler om betalingsordningen for skatte- og avgiftskrav, herunder om finansinstitusjoners plikt til å avvise betalingsoppdrag med manglende opplysninger, om adgang til å betale kontant til skattekontoret og om at krav skal betales til andre enn skattekontoret.
+> § 9-1. Betalingsmåte
 >
-> § 9-1.Betalingsmåte
+> (1) Skatte- og avgiftskrav skal betales ved overføring av beløpet til konto, med mindre skattekontoret har akseptert betaling med kontanter.
+>
+> (2) Utbetaling av tilgodebeløp etter § 10-60 skal skje til skattepliktiges konto, med mindre annet følger av lov eller forskrift. Skattekontoret kan beslutte å utbetale tilgodebeløpet på annen måte dersom særlige forhold tilsier det.
+>
+> (3) Departementet kan i forskrift gi nærmere regler om betalingsordningen for skatte- og avgiftskrav, herunder om finansinstitusjoners plikt til å avvise betalingsoppdrag med manglende opplysninger, om adgang til å betale kontant til skattekontoret og om at krav skal betales til andre enn skattekontoret.
 >
 
 ## § 9-2
@@ -1602,11 +1630,9 @@ refid: "lov/2005-06-17-67"
 
 *§ 9-2 første og andre ledd skal lyde:*
 
-> når betalerens oppdrag er mottatt av en bank.
+> (1) Betaling av skatte- og avgiftskrav anses for å være skjedd når beløpet er kommet fram til skattekontoret. Ved betaling via bank anses betaling for å være skjedd når beløpet er godskrevet skattekontorets bank. Ved overføring innen samme bank anses betaling for å være skjedd når beløpet er godskrevet mottakerens konto.
 >
-> når skattekontoret mottar og aksepterer sjekk eller annet betalingsinstrument.
->
-> når petroleumsskatt er godskrevet skattekontorets konto.
+> (2) En fastsatt betalingsfrist anses dessuten for å være avbruttnår betalerens oppdrag er mottatt av en bank.når skattekontoret mottar og aksepterer sjekk eller annet betalingsinstrument.når petroleumsskatt er godskrevet skattekontorets konto.
 >
 
 ## § 9-3
@@ -1630,9 +1656,19 @@ refid: "lov/2005-06-17-67"
 
 *Ny § 9-3 skal lyde:*
 
-> § 9-3.Betalingsutsettelse for formuesskatt(1) Personlig eier av virksomhet kan kreve å utsette betalingen av formuesskatt på virksomhetsformue.(2) Som virksomhetsformue regnes formue i aksjer, aksjesparekonto, andeler i selskap med deltakerfastsetting, driftsmidler i enkeltpersonforetak som er omfattet av verdsettingsrabatten i skatteloven § 4-17 annet ledd, og næringseiendom.(3) Utsatt betaling kan kreves for inntil tre inntektsår når samlet utsatt formuesskatt overstiger 30 000 kroner i inntektsåret. Utsettelsen omfatter forskuddstrekk og forskuddsskatt tilsvarende forventet utsatt formuesskatt og endelig fastsatt formuesskatt. Krav om utsettelse etter dette ledd kan fremsettes på ethvert tidspunkt i inntektsåret.(4) Utsatt formuesskatt tillegges en egen rente. Ved oversittelse av forfall etter § 10-51 fjerde ledd beregnes forsinkelsesrenter etter § 11-1 av kravet tillagt rente etter første punktum.(5) Den som har krevd utsettelse, kan helt eller delvis kreve å tre ut av ordningen på ethvert tidspunkt.(6) Departementet kan i forskrift gi nærmere regler til utfylling og gjennomføring av denne paragraf, herunder regler om rentesats, renteperiode, renteberegning og uttreden av ordningen ved dødsfall.
+> § 9-3. Betalingsutsettelse for formuesskatt
 >
-> § 9-3.Betalingsutsettelse for formuesskatt
+> (1) Personlig eier av virksomhet kan kreve å utsette betalingen av formuesskatt på virksomhetsformue.
+>
+> (2) Som virksomhetsformue regnes formue i aksjer, aksjesparekonto, andeler i selskap med deltakerfastsetting, driftsmidler i enkeltpersonforetak som er omfattet av verdsettingsrabatten i skatteloven § 4-17 annet ledd, og næringseiendom.
+>
+> (3) Utsatt betaling kan kreves for inntil tre inntektsår når samlet utsatt formuesskatt overstiger 30 000 kroner i inntektsåret. Utsettelsen omfatter forskuddstrekk og forskuddsskatt tilsvarende forventet utsatt formuesskatt og endelig fastsatt formuesskatt. Krav om utsettelse etter dette ledd kan fremsettes på ethvert tidspunkt i inntektsåret.
+>
+> (4) Utsatt formuesskatt tillegges en egen rente. Ved oversittelse av forfall etter § 10-51 fjerde ledd beregnes forsinkelsesrenter etter § 11-1 av kravet tillagt rente etter første punktum.
+>
+> (5) Den som har krevd utsettelse, kan helt eller delvis kreve å tre ut av ordningen på ethvert tidspunkt.
+>
+> (6) Departementet kan i forskrift gi nærmere regler til utfylling og gjennomføring av denne paragraf, herunder regler om rentesats, renteperiode, renteberegning og uttreden av ordningen ved dødsfall.
 >
 
 ## § 10-1
@@ -1703,9 +1739,13 @@ refid: "lov/2005-06-17-67"
 
 *§ 10-10 skal lyde:*
 
-> § 10-10.Forskuddstrekk, skattetrekk etter § 5-4 første ledd (kildeskatteordning), arbeidsgiveravgift og finansskatt på lønn(1) Forskuddstrekk og skattetrekk etter § 5-4 første ledd (kildeskatteordning) forfaller til betaling senest første virkedag etter utbetaling av ytelsen det skal foretas trekk i.(2) Arbeidsgiveravgift og finansskatt på lønn for de to foregående kalendermånedene forfaller til betaling hver 15. januar, 15. mars, 15. mai, 15. juli, 15. september og 15. november.(3) Departementet kan i forskrift gi regler om avvikende forfallstidspunkt for enkelte arbeidsgivere, skattytere eller situasjoner.
+> § 10-10. Forskuddstrekk, skattetrekk etter § 5-4 første ledd (kildeskatteordning), arbeidsgiveravgift og finansskatt på lønn
 >
-> § 10-10.Forskuddstrekk, skattetrekk etter § 5-4 første ledd (kildeskatteordning), arbeidsgiveravgift og finansskatt på lønn
+> (1) Forskuddstrekk og skattetrekk etter § 5-4 første ledd (kildeskatteordning) forfaller til betaling senest første virkedag etter utbetaling av ytelsen det skal foretas trekk i.
+>
+> (2) Arbeidsgiveravgift og finansskatt på lønn for de to foregående kalendermånedene forfaller til betaling hver 15. januar, 15. mars, 15. mai, 15. juli, 15. september og 15. november.
+>
+> (3) Departementet kan i forskrift gi regler om avvikende forfallstidspunkt for enkelte arbeidsgivere, skattytere eller situasjoner.
 >
 
 ## § 10-11
@@ -1772,9 +1812,9 @@ refid: "lov/2005-06-17-67"
 
 *Ny § 10-15 skal lyde:*
 
-> § 10-15.SuppleringsskattSuppleringsskatt forfaller til betaling tre uker etter leveringsfrist for skattemelding for suppleringsskatt.
+> § 10-15. Suppleringsskatt
 >
-> § 10-15.Suppleringsskatt
+> Suppleringsskatt forfaller til betaling tre uker etter leveringsfrist for skattemelding for suppleringsskatt.
 >
 
 ## § 10-20
@@ -2088,6 +2128,9 @@ refid: "lov/2005-06-17-67"
 
 *§ 10-51 nytt fjerde ledd skal lyde:*
 
+> (4) Utsatt formuesskatt og renter etter § 9-3 forfaller til betaling 31. mai i det tredje året etter fastsettingsåret. Dersom skattyter trer ut av ordningen, forfaller utsatt skatt og renter til betaling tre uker etter at krav ble sendt skattyter, likevel tidligst 20. august i skattefastsettingsåret.
+>
+
 ## § 10-52
 
 ### 2006-12-15 — lov/2006-12-15-85
@@ -2118,6 +2161,9 @@ refid: "lov/2005-06-17-67"
 ### 2024-01-01 — lov/2024-01-12-5
 
 *§ 10-53 nytt fjerde ledd skal lyde:*
+
+> (4) Treffes det vedtak om å nekte bruk av Safe Harbour-regler gitt i medhold av suppleringsskatteloven § 5-7, skal suppleringsskatt og renter etter § 11-2 betales senest tre uker etter at endret skattemelding for suppleringsskatt er levert.
+>
 
 ## § 10-60
 
@@ -2175,6 +2221,9 @@ refid: "lov/2005-06-17-67"
 ### 2024-01-01 — lov/2024-01-12-5
 
 *§ 10-60 femte ledd skal lyde:*
+
+> (5) For krav på utbetaling av kompensasjon for merverdiavgift skal fristen regnes fra utløpet av fristen for å sende inn skattemelding etter bestemmelser gitt i medhold av skatteforvaltningsloven § 8-16, jf. § 8-7.
+>
 
 ## § 11-1
 
@@ -2251,6 +2300,9 @@ refid: "lov/2005-06-17-67"
 
 *§ 11-2 syvende ledd skal lyde:*
 
+> (7) Dersom arveavgift i medhold av § 10-40 fjerde ledd blir betalt senere enn den forfallstid som følger av § 10-40 første og annet ledd, skal det betales rente av avgiftsbeløpet for tiden fra ordinært forfall og fram til endelig avgiftsfastsettelse skjer.
+>
+
 ## § 11-3
 
 ### 2005-12-09 — lov/2005-12-09-115
@@ -2270,6 +2322,9 @@ refid: "lov/2005-06-17-67"
 ### 2023-12-20 — lov/2023-12-20-103
 
 *§ 11-3 første ledd skal lyde:*
+
+> (1) Ved utbetaling av skatt eller avgift senere enn forfallstidspunktet i § 10-60, skal det ytes rentegodtgjørelse for tiden fra forfallstidspunktet fram til utbetaling skjer. Det ytes ikke rentegodtgjørelse så lenge manglende utbetaling skyldes at Skatteetaten ikke har mottatt opplysninger om konto, og det heller ikke er besluttet å utbetale tilgodebeløpet på annen måte. Det samme gjelder hvis utbetaling av tilgodebeløp ikke lar seg gjennomføre på grunn av forhold ved kontoen utenfor Skatteetatens kontroll.
+>
 
 ## § 11-4
 
@@ -2488,6 +2543,9 @@ refid: "lov/2005-06-17-67"
 ### 2025-12-22 — lov/2025-12-22-120
 
 *§ 11-7 tredje ledd skal lyde:*
+
+> (3) Departementet kan i forskrift fastsette regler om renter når det på grunn av endringer i utskrevet terminskatt eller innbetalinger etter lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. § 7 nr. 4, er forskjell på innbetalingene av de fem første og de fem siste terminene.
+>
 
 ## § 12-1
 
@@ -2708,6 +2766,11 @@ refid: "lov/2005-06-17-67"
 
 *§ 14-11 første og andre ledd skal lyde:*
 
+> (1) Dersom krav på avgift på tunge kjøretøy, engangsavgift på motorvogner mv. eller omregistreringsavgift ikke betales til rett tid, kan skattekontoret bestemme at bruken av det kjøretøy som kravene knytter seg til, skal stanses inntil avgiftene er betalt. Det samme gjelder dersom merket mineralolje og merket biodiesel brukes til formål som ikke er fritatt for avgift etter særavgiftsloven § 7-4 første og annet ledd.
+>
+> (2) Dersom krav som nevnt i første ledd ikke betales til rett tid, kan registreringsmyndigheten nekte på- eller omregistrering i Kjøretøyregisteret.
+>
+
 ### 2026-06-19 — lov/2026-06-19-41
 
 *§ 14-11 fjerde ledd andre punktum skal lyde:*
@@ -2749,6 +2812,9 @@ refid: "lov/2005-06-17-67"
 
 *§ 14-20 første ledd skal lyde:*
 
+> (1) Skattekontoret kan innvilge kreditt for merverdiavgift, særavgifter og tollavgift som oppstår ved innførsel.
+>
+
 ### 2026-06-19 — lov/2026-06-19-41
 
 *§ 14-20 fjerde ledd første punktum skal lyde:*
@@ -2771,9 +2837,11 @@ refid: "lov/2005-06-17-67"
 
 *§ 14-21 skal lyde:*
 
-> § 14-21.Kreditt for engangsavgift(1) Skattekontoret kan innvilge kreditt for engangsavgift. Det er et vilkår for kreditt at virksomheten stiller sikkerhet for skyldig avgift. De nærmere kravene til sikkerheten, herunder sikkerhetens omfang, fastsettes av skattekontoret og kan senere endres.(2) Departementet kan i forskrift stille vilkår for kreditt, herunder krav til sikkerhetsstillelsen, samt gi regler om opphør av kreditt.
+> § 14-21. Kreditt for engangsavgift
 >
-> § 14-21.Kreditt for engangsavgift
+> (1) Skattekontoret kan innvilge kreditt for engangsavgift. Det er et vilkår for kreditt at virksomheten stiller sikkerhet for skyldig avgift. De nærmere kravene til sikkerheten, herunder sikkerhetens omfang, fastsettes av skattekontoret og kan senere endres.
+>
+> (2) Departementet kan i forskrift stille vilkår for kreditt, herunder krav til sikkerhetsstillelsen, samt gi regler om opphør av kreditt.
 >
 
 ## § 14-22
@@ -2782,9 +2850,11 @@ refid: "lov/2005-06-17-67"
 
 *Ny § 14-22 skal lyde:*
 
-> § 14-22.Sikkerhetsstillelse for særavgifter(1) Skattekontoret kan kreve at virksomheter som er registrert i Særavgiftsregisteret, stiller sikkerhet for fremtidig skyldig avgift. Krav om sikkerhetsstillelse kan stilles ved registreringen eller senere. De nærmere kravene til sikkerhet, herunder sikkerhetens omfang, fastsettes av skattekontoret i det enkelte tilfellet.(2) Departementet kan i forskrift sette nærmere vilkår for sikkerhetsstillelsen og angi hvilke momenter som skal vektlegges ved vurderingen av om sikkerhet skal kreves.
+> § 14-22. Sikkerhetsstillelse for særavgifter
 >
-> § 14-22.Sikkerhetsstillelse for særavgifter
+> (1) Skattekontoret kan kreve at virksomheter som er registrert i Særavgiftsregisteret, stiller sikkerhet for fremtidig skyldig avgift. Krav om sikkerhetsstillelse kan stilles ved registreringen eller senere. De nærmere kravene til sikkerhet, herunder sikkerhetens omfang, fastsettes av skattekontoret i det enkelte tilfellet.
+>
+> (2) Departementet kan i forskrift sette nærmere vilkår for sikkerhetsstillelsen og angi hvilke momenter som skal vektlegges ved vurderingen av om sikkerhet skal kreves.
 >
 
 ## § 15-1
@@ -2856,14 +2926,15 @@ refid: "lov/2005-06-17-67"
 
 *§ 16-1 overskriften skal lyde:*
 
-> § 16-1.Tvangsinnkreving av ansvarskrav
->
-> § 16-1.Tvangsinnkreving av ansvarskrav
+> § 16-1. Tvangsinnkreving av ansvarskrav
 >
 
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 16-1 andre ledd skal lyde:*
+
+> (2) Ansvarskravene er tvangsgrunnlag for utlegg og innkreves etter reglene i innkrevingsloven.
+>
 
 ### 2025-12-22 — lov/2025-12-22-124
 
@@ -2914,9 +2985,11 @@ refid: "lov/2005-06-17-67"
 
 *§ 16-20 skal lyde:*
 
-> § 16-20.Ansvar for forskuddstrekk og skattetrekk etter § 5-4 første ledd (kildeskatteordning)(1) Dersom forskuddstrekk eller skattetrekk etter § 5-4 første ledd (kildeskatteordning) ikke blir foretatt i samsvar med reglene i kapittel 5 eller trukket beløp ikke blir betalt i samsvar med § 10-10, er de som har plikt til å foreta forskuddstrekk eller skattetrekk ansvarlig for beløpet. Unnlatelse av å foreta trekk medfører likevel ikke ansvar når det godtgjøres at forholdet ikke skyldes forsømmelse eller mangel på tilbørlig aktsomhet fra arbeidsgiver eller noen i hans tjeneste.(2) Foreldelsesloven §§ 9 og 11 gjelder tilsvarende for ansvarskravet.
+> § 16-20. Ansvar for forskuddstrekk og skattetrekk etter § 5-4 første ledd (kildeskatteordning)
 >
-> § 16-20.Ansvar for forskuddstrekk og skattetrekk etter § 5-4 første ledd (kildeskatteordning)
+> (1) Dersom forskuddstrekk eller skattetrekk etter § 5-4 første ledd (kildeskatteordning) ikke blir foretatt i samsvar med reglene i kapittel 5 eller trukket beløp ikke blir betalt i samsvar med § 10-10, er de som har plikt til å foreta forskuddstrekk eller skattetrekk ansvarlig for beløpet. Unnlatelse av å foreta trekk medfører likevel ikke ansvar når det godtgjøres at forholdet ikke skyldes forsømmelse eller mangel på tilbørlig aktsomhet fra arbeidsgiver eller noen i hans tjeneste.
+>
+> (2) Foreldelsesloven §§ 9 og 11 gjelder tilsvarende for ansvarskravet.
 >
 
 ## § 16-22
@@ -2962,9 +3035,9 @@ refid: "lov/2005-06-17-67"
 
 *§ 16-40 skal lyde:*
 
-> § 16-40.Ansvar for erverver av motorvognVed overdragelse av motorvogn og tilhenger til motorvogn er erverver ansvarlig for siste termin av avgift på tunge kjøretøy og for slik avgift som er påløpt etter utløpet av siste termin fram til overdragelsestidspunktet.
+> § 16-40. Ansvar for erverver av motorvogn
 >
-> § 16-40.Ansvar for erverver av motorvogn
+> Ved overdragelse av motorvogn og tilhenger til motorvogn er erverver ansvarlig for siste termin av avgift på tunge kjøretøy og for slik avgift som er påløpt etter utløpet av siste termin fram til overdragelsestidspunktet.
 >
 
 ## § 16-41
@@ -3055,9 +3128,15 @@ refid: "lov/2005-06-17-67"
 
 *§ 17-1 skal lyde:*
 
-> § 17-1.Prosessordningen(1) Rettslig prøving av avgjørelser etter skattebetalingsloven rettes mot staten som saksøkt. Søksmål skal anlegges etter vernetingsreglene i tvisteloven. Statens partsstilling utøves av skattekontoret.(2) Første ledd gjelder ikke avgjørelser om rente ved endring, jf. § 11-2. I slike saker gjelder de alminnelige regler i skatteforvaltningsloven kapittel 15 og prosesslovgivningen.(3) Departementet kan i enkeltsaker eller i grupper av saker overta utøvelsen av statens partsstilling eller overføre den til et annet organ i skatteetaten.(4) Endelig rettsavgjørelse og forlik er bindende for alle skattekreditorene.
+> § 17-1. Prosessordningen
 >
-> § 17-1.Prosessordningen
+> (1) Rettslig prøving av avgjørelser etter skattebetalingsloven rettes mot staten som saksøkt. Søksmål skal anlegges etter vernetingsreglene i tvisteloven. Statens partsstilling utøves av skattekontoret.
+>
+> (2) Første ledd gjelder ikke avgjørelser om rente ved endring, jf. § 11-2. I slike saker gjelder de alminnelige regler i skatteforvaltningsloven kapittel 15 og prosesslovgivningen.
+>
+> (3) Departementet kan i enkeltsaker eller i grupper av saker overta utøvelsen av statens partsstilling eller overføre den til et annet organ i skatteetaten.
+>
+> (4) Endelig rettsavgjørelse og forlik er bindende for alle skattekreditorene.
 >
 
 ## § 17-2
@@ -3110,9 +3189,13 @@ refid: "lov/2005-06-17-67"
 
 *§ 18-2 skal lyde:*
 
-> § 18-2.Straff for opplysningssvikt mv.(1) Med bot eller fengsel inntil 2 år straffes skyldner og opplysningspliktig tredjepart som gir uriktig eller ufullstendig opplysning til fastsettingsmyndigheten eller skattekontoret, eller unnlater å gi pliktig opplysning.(2) Grovt uaktsom overtredelse av første ledd straffes med bot eller fengsel inntil 1 år.(3) Med bot eller fengsel inntil 2 år straffes den som unnlater å medvirke til kontrollundersøkelse etter §§ 5-13 og 5-14.
+> § 18-2. Straff for opplysningssvikt mv.
 >
-> § 18-2.Straff for opplysningssvikt mv.
+> (1) Med bot eller fengsel inntil 2 år straffes skyldner og opplysningspliktig tredjepart som gir uriktig eller ufullstendig opplysning til fastsettingsmyndigheten eller skattekontoret, eller unnlater å gi pliktig opplysning.
+>
+> (2) Grovt uaktsom overtredelse av første ledd straffes med bot eller fengsel inntil 1 år.
+>
+> (3) Med bot eller fengsel inntil 2 år straffes den som unnlater å medvirke til kontrollundersøkelse etter §§ 5-13 og 5-14.
 >
 
 ## § 18-3
@@ -3324,13 +3407,67 @@ refid: "lov/2005-06-17-67"
 
 *Nåværende § 5-5 femte til syvende ledd blir sjette til åttende ledd.*
 
+### 2010-07-01 — lov/2010-06-25-32
+
+*I lov 17. juni 2005 nr. 67 om betaling av skatte- og avgiftskrav skal § 16-30 lyde:*
+
+> § 16-30.Ansvar for merverdiavgift ved unnlatt registrering
+>
+> Departementet kan i forskrift bestemme at den som har mottatt varen eller tjenesten, er ansvarlig for merverdiavgift av varer og tjenester fra utenlandsk næringsdrivende som ikke er registrert ved representant etter reglene i merverdiavgiftsloven § 2-1 sjette ledd.
+>
+
 ### 2010-12-10 — lov/2010-12-10-69
 
 *Nåværende tredje til femte ledd blir fjerde, femte og nytt sjette ledd.*
 
+### 2011-06-24 — lov/2011-06-24-27
+
+*I lov 17. juni 2005 nr. 67 om betaling og innkreving av skatte- og avgiftskrav skal § 9-1 første ledd nytt annet punktum lyde:*
+
+> Tilbyder i forenklet registreringsordning som nevnt i merverdiavgiftsloven §§ 14-4 til 14-7 skal betale avgiftskravet ved overføring av beløpet til innkrevingsmyndighetenes konto.
+>
+
+### 2013-04-26 — lov/2013-04-26-16
+
+*I lov 17. juni 2005 nr. 67 om betaling og innkreving av skatte- og avgiftskrav skal § 10-30 annet ledd lyde:*
+
+> (2) Beløp som nevnt i merverdiavgiftsloven § 11-4 annet ledd forfaller til betaling samme dag som det skal leveres melding etter merverdiavgiftsloven § 15-11 annet ledd.
+>
+
 ### 2016-01-01 — lov/2015-12-18-116
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2016-12-02 — lov/2016-12-02-84
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 17. juni 2005 nr. 67 om betaling og innkreving av skatte- og avgiftskrav (skattebetalingsloven).
+>
+> I lov 17. juni 2005 nr. 67 om betaling og innkreving av skatte- og avgiftskrav (skattebetalingsloven) skal ny § 15-3 lyde:
+>
+> § 15-3.
+>
+> Betalingsutsettelse for formuesskatt
+>
+> (1) Personlig eier av aksje kan kreve å utsette betalingen av formuesskatten på aksjen.
+>
+> (2) Personlig eier av annen virksomhet kan kreve å utsette betalingen av formuesskatten på virksomhetsformuen dersom virksomheten har underskudd i årsregnskapet kalenderåret før inntektsåret. Som virksomhetsformue regnes andeler i selskaper med deltakerfastsetting og driftsmidler i enkeltpersonforetak som er omfattet av skatteloven § 4-17 annet ledd.
+>
+> (3) Formue i land utenfor EØS er ikke omfattet av utsettelsesordningen.
+>
+> (4) Utsatt betaling etter denne bestemmelsen kan kreves i to år for formuesskatt for inntektsårene 2016 og 2017 når samlet utsatt formuesskatt overstiger 30 000 kroner i det enkelte inntektsåret.
+>
+> (5) Utsatt formuesskatt tillegges en egen rente frem til ny betalingsfrist for den utsatte formuesskatten. Ved oversittelse av ny betalingsfrist beregnes forsinkelsesrente etter § 11-1 av kravet tillagt rente etter første punktum.
+>
+> (6) Skattyter som kan kreve betalingsutsettelse etter denne bestemmelsen, kan fritas for forskuddstrekk og forskuddsskatt tilsvarende forventet utsatt formuesskatt.
+>
+> (7) Departementet kan i forskrift gi nærmere regler til utfylling og gjennomføring av denne paragraf.
+>
+> Endringene under I trer i kraft straks med virkning for formuesskatt i inntektsårene 2016 og 2017.
+>
 
 ### 2017-12-19 — lov/2017-12-19-123
 
@@ -3386,9 +3523,53 @@ refid: "lov/2005-06-17-67"
 
 *Nåværende fjerde ledd blir tredje ledd.*
 
+### 2020-03-27 — lov/2020-03-27-11
+
+*I lov 17. juni 2005 nr. 67 om betaling og innkreving av skatte- og avgiftskrav skal § 15-3 lyde:*
+
+> § 15-3.Betalingsutsettelse for formuesskatt
+>
+> (1) Personlig eier av virksomhet som ikke utarbeider konsernregnskap, og som har negativt årsresultat i årsregnskapet for 2020, kan kreve å utsette betalingen av formuesskatten på denne virksomhetsformuen.
+>
+> (2) Personlig eier av selskap i konsern etter regnskapsloven § 1-3 som utarbeider konsernregnskap, og som har negativt årsresultat i konsernregnskapet for 2020, kan kreve å utsette betalingen av formuesskatt på aksjer i selskapet.
+>
+> (3) Formue i land utenfor EØS er ikke omfattet av utsettelsesordningen.
+>
+> (4) Som virksomhetsformue regnes formue i aksjer, andeler i selskap med deltakerfastsetting og driftsmidler i enkeltpersonforetak som er omfattet av verdsettingsrabatten i skatteloven § 4-17 annet ledd og næringseiendom.
+>
+> (5) Utsatt betaling etter denne bestemmelsen kan kreves i ett år for formuesskatt for inntektsåret 2020 når samlet utsatt formuesskatt overstiger 30 000 kroner i inntektsåret.
+>
+> (6) Utsatt formuesskatt tillegges en egen rente frem til ny betalingsfrist for den utsatte formuesskatten. Ved oversittelse av ny betalingsfrist beregnes forsinkelsesrente etter § 11-1 av kravet tillagt rente etter første punktum.
+>
+> (7) Skattyter kan fritas for forskuddstrekk og forskuddsskatt, som ikke er innbetalt, tilsvarende forventet utsatt formuesskatt etter første ledd eller andre ledd.
+>
+> (8) Departementet kan i forskrift gi nærmere regler til utfylling og gjennomføring av denne paragraf.
+>
+
+### 2020-04-17 — lov/2020-04-17-24
+
+*I lov 17. juni 2005 nr. 67 om betaling og innkreving av skatte- og avgiftskrav skal § 10-40 tredje ledd lyde:*
+
+> (3) Departementet kan i forskrift gi nærmere regler om forfallstidspunktene for krav som omhandlet i første ledd og avvikende forfallstidspunkt i enkelte situasjoner for krav som omhandlet i annet ledd.
+>
+
+### 2020-11-01 — forskrift/2020-10-16-2060
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 97 om endringer i lov 17. juni 2005 nr. 67 om betaling og innkreving av skatte- og avgiftskrav (skattebetalingsloven). Endringsloven del I trer i kraft 1. november 2020.*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 97 om endringer i lov 17. juni 2005 nr. 67 om betaling og innkreving av skatte- og avgiftskrav (skattebetalingsloven). Endringsloven del I trer i kraft 1. november 2020.
+>
+
 ### 2021-12-22 — lov/2021-12-22-154
 
 *Nåværende § 3-5 blir ny § 3-6.*
+
+### 2022-01-01 — forskrift/2021-12-22-3801
+
+*Loven trer i kraft 1. januar 2022.*
+
+> Loven trer i kraft 1. januar 2022.
+>
 
 ### 2023-06-16 — lov/2023-06-16-48
 
@@ -3401,9 +3582,7 @@ refid: "lov/2005-06-17-67"
 
 *Overskriften i § 5-4 skal lyde:*
 
-> § 5-4.Plikt til å foreta forskuddstrekk og plikt til å foreta skattetrekk i inntekt etter reglene i skatteloven kapittel 20
->
-> § 5-4.Plikt til å foreta forskuddstrekk og plikt til å foreta skattetrekk i inntekt etter reglene i skatteloven kapittel 20
+> § 5-4. Plikt til å foreta forskuddstrekk og plikt til å foreta skattetrekk i inntekt etter reglene i skatteloven kapittel 20
 >
 
 ### 2023-12-20 — lov/2023-12-20-103
@@ -3421,15 +3600,24 @@ refid: "lov/2005-06-17-67"
 > Forskuddstrekk, arbeidsgiveravgift, lønnstrekk til Svalbard, artistskatt, skattetrekk i aksjeutbytte og suppleringsskatt
 >
 
+### 2024-01-01 — forskrift/2023-12-20-2138
+
+*Ikraftsetting av lov 20. desember 2023 nr. 103 om endringer i skattebetalingsloven. Loven trer i kraft 1. januar 2024.*
+
+> Ikraftsetting av lov 20. desember 2023 nr. 103 om endringer i skattebetalingsloven. Loven trer i kraft 1. januar 2024.
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *Kapittel 2 skal lyde:*
 
 > Kapittel 2. Myndighet etter loven
 >
-> § 2-1.Skatte- og avgiftskrav mv.(1) Departementet kan bestemme at Innkrevingsmyndigheten skal utøve den myndighet som er lagt til skattekontoret i denne loven.(2) Departementet kan i forskrift bestemme at Tolletaten skal innkreve nærmere bestemte krav etter reglene i denne loven.
+> § 2-1. Skatte- og avgiftskrav mv.
 >
-> § 2-1.Skatte- og avgiftskrav mv.
+> (1) Departementet kan bestemme at Innkrevingsmyndigheten skal utøve den myndighet som er lagt til skattekontoret i denne loven.
+>
+> (2) Departementet kan i forskrift bestemme at Tolletaten skal innkreve nærmere bestemte krav etter reglene i denne loven.
 >
 
 ### 2025-04-25 — lov/2025-04-25-12
@@ -3443,6 +3631,15 @@ refid: "lov/2005-06-17-67"
 ### 2025-04-25 — lov/2025-04-25-12
 
 *Kapittel 15 oppheves.*
+
+### 2026-01-01 — forskrift/2025-06-20-1093
+
+*Delt ikraftsetting av lov 20. juni 2025 om endringer i skattebetalingsloven. Følgende trer i kraft 1. januar 2026:*
+
+> Delt ikraftsetting av lov 20. juni 2025 om endringer i skattebetalingsloven. Følgende trer i kraft 1. januar 2026:
+>
+> Endringsloven del II.
+>
 
 ### 2026-06-19 — lov/2026-06-19-41
 
@@ -3459,17 +3656,35 @@ refid: "lov/2005-06-17-67"
 
 *§§ 10-30 til 10-32 skal lyde:*
 
-> § 10-30.Merverdiavgift(1) Merverdiavgift forfaller til betaling samme dag som det skal leveres skattemelding etter skatteforvaltningsloven § 8-3 første og annet ledd.(2) Merverdiavgift for varer som innføres, forfaller til betaling samtidig som avgiften i henhold til tollavgiftsloven § 2-1 skal beregnes. Avgift som belastes kreditten ved innførsel, jf. § 14-20 første ledd, eller månedsoppgjørsordningen en kalendermåned, jf. § 14-20 andre ledd, forfaller til betaling den 18. i neste måned. Avgift som belastes dagsoppgjørsordningen, forfaller til betaling første virkedag etter frigjøring for prosedyren overgang til fri disponering. Skattekontoret kan fastsette en nærmere frist for når på forfallsdagen betaling av dagsoppgjør må ha skjedd.(3) Beløp som uriktig er oppgitt som merverdiavgift, jf. merverdiavgiftsloven § 11-4 annet ledd, forfaller til betaling samme dag som det skal leveres melding etter merverdiavgiftsloven § 15-11 annet ledd.(4) Departementet kan i forskrift gi regler om avvikende forfallstidspunkt for enkelte situasjoner.
+> § 10-30. Merverdiavgift
 >
-> § 10-30.Merverdiavgift
+> (1) Merverdiavgift forfaller til betaling samme dag som det skal leveres skattemelding etter skatteforvaltningsloven § 8-3 første og annet ledd.
 >
-> § 10-31.Særavgifter(1) Særavgifter forfaller til betaling samme dag som det skal leveres skattemelding etter skatteforvaltningsloven § 8-4 første eller fjerde ledd.(2) Særavgifter for varer som innføres, forfaller til betaling etter reglene i § 10-30 annet ledd med mindre den avgiftspliktige er registrert i Særavgiftsregisteret.(3) Veibruksavgift på drivstoff ved bruk av merket mineralolje og merket biodiesel til formål som ikke er fritatt for avgift, jf. særavgiftsloven § 7-1 annet ledd, forfaller til betaling tre uker etter at avgiftskravet er sendt.(4) Engangsavgift på motorvogner mv. forfaller til betaling når kjøretøyet registreres for første gang i Kjøretøyregisteret. Dersom det benyttes kreditt, jf. § 14-21, forfaller avgiften til betaling den 18. i måneden etter registreringen. Engangsavgift som skal betales før eller etter første gangs registrering, forfaller til betaling samme dag som det skal leveres skattemelding etter skatteforvaltningsloven § 8-4 sjette ledd.(5) Omregistreringsavgift forfaller til betaling når kjøretøyet omregistreres i Kjøretøyregisteret.(6) Avgift på tunge kjøretøy som er registrert i Kjøretøyregisteret 1. januar, forfaller til betaling 20. februar. Avgift på tunge kjøretøy som er registrert i Kjøretøyregisteret 1. juli, forfaller til betaling 20. august.(7) Departementet kan i forskrift gi regler om forfallstidspunktene og avvikende forfallstidspunkt i enkelte situasjoner.
+> (2) Merverdiavgift for varer som innføres, forfaller til betaling samtidig som avgiften i henhold til tollavgiftsloven § 2-1 skal beregnes. Avgift som belastes kreditten ved innførsel, jf. § 14-20 første ledd, eller månedsoppgjørsordningen en kalendermåned, jf. § 14-20 andre ledd, forfaller til betaling den 18. i neste måned. Avgift som belastes dagsoppgjørsordningen, forfaller til betaling første virkedag etter frigjøring for prosedyren overgang til fri disponering. Skattekontoret kan fastsette en nærmere frist for når på forfallsdagen betaling av dagsoppgjør må ha skjedd.
 >
-> § 10-31.Særavgifter
+> (3) Beløp som uriktig er oppgitt som merverdiavgift, jf. merverdiavgiftsloven § 11-4 annet ledd, forfaller til betaling samme dag som det skal leveres melding etter merverdiavgiftsloven § 15-11 annet ledd.
 >
-> § 10-32.TollavgiftTollavgift forfaller til betaling etter reglene i § 10-30 annet ledd.
+> (4) Departementet kan i forskrift gi regler om avvikende forfallstidspunkt for enkelte situasjoner.
 >
-> § 10-32.Tollavgift
+> § 10-31. Særavgifter
+>
+> (1) Særavgifter forfaller til betaling samme dag som det skal leveres skattemelding etter skatteforvaltningsloven § 8-4 første eller fjerde ledd.
+>
+> (2) Særavgifter for varer som innføres, forfaller til betaling etter reglene i § 10-30 annet ledd med mindre den avgiftspliktige er registrert i Særavgiftsregisteret.
+>
+> (3) Veibruksavgift på drivstoff ved bruk av merket mineralolje og merket biodiesel til formål som ikke er fritatt for avgift, jf. særavgiftsloven § 7-1 annet ledd, forfaller til betaling tre uker etter at avgiftskravet er sendt.
+>
+> (4) Engangsavgift på motorvogner mv. forfaller til betaling når kjøretøyet registreres for første gang i Kjøretøyregisteret. Dersom det benyttes kreditt, jf. § 14-21, forfaller avgiften til betaling den 18. i måneden etter registreringen. Engangsavgift som skal betales før eller etter første gangs registrering, forfaller til betaling samme dag som det skal leveres skattemelding etter skatteforvaltningsloven § 8-4 sjette ledd.
+>
+> (5) Omregistreringsavgift forfaller til betaling når kjøretøyet omregistreres i Kjøretøyregisteret.
+>
+> (6) Avgift på tunge kjøretøy som er registrert i Kjøretøyregisteret 1. januar, forfaller til betaling 20. februar. Avgift på tunge kjøretøy som er registrert i Kjøretøyregisteret 1. juli, forfaller til betaling 20. august.
+>
+> (7) Departementet kan i forskrift gi regler om forfallstidspunktene og avvikende forfallstidspunkt i enkelte situasjoner.
+>
+> § 10-32. Tollavgift
+>
+> Tollavgift forfaller til betaling etter reglene i § 10-30 annet ledd.
 >
 
 ### 2026-06-19 — lov/2026-06-19-41
@@ -3483,9 +3698,7 @@ refid: "lov/2005-06-17-67"
 
 *Overskriften til § 14-20 skal lyde:*
 
-> § 14-20.Kreditt for avgift ved innførsel
->
-> § 14-20.Kreditt for avgift ved innførsel
+> § 14-20. Kreditt for avgift ved innførsel
 >
 
 ### 2026-06-19 — lov/2026-06-19-41

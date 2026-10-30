@@ -15,6 +15,23 @@ refid: "lov/1933-05-19-11"
 
 *Nåværende § 7 blir § 8.*
 
+### 2016-06-17 — lov/2016-06-17-32
+
+*Endring i følgjande lov:*
+
+> Endring i følgjande lov:
+>
+> Lov 19. mai 1933 nr. 11 om særavgifter.
+>
+> I lov 19. mai 1933 nr. 11 om særavgifter blir det gjort følgjande endring:
+>
+> Tittelen til lova skal lyde:
+>
+> Lov om særavgifter (særavgiftsloven)
+>
+> Lova tek til å gjelde straks.
+>
+
 ## § 1
 
 ### 2004-12-10 — lov/2004-12-10-77

@@ -104,9 +104,19 @@ refid: "lov/1985-06-21-83"
 
 *Ny § 2-13 a skal lyde:*
 
-> § 2-13 a.Krav til kjønnssammensetning i styret(1) Bestemmelsene i denne paragrafen gjelder for selskaper der samtlige deltakere er juridiske personer, og som på balansedagen for årsregnskapet enten har driftsinntekter og finansinntekter som samlet er større enn 50 millioner kroner, eller som har flere enn 30 ansatte. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 2-9, jf. § 2-10 første ledd.(2) Har styret tre eller flere medlemmer, skal kjønnssammensetning i styret oppfylle følgende krav:Har styret tre eller fire medlemmer, kan maksimalt to styremedlemmer ha samme kjønn.Har styret fem eller seks medlemmer, kan maksimalt tre styremedlemmer ha samme kjønn.Har styret syv medlemmer, kan maksimalt fire styremedlemmer ha samme kjønn.Har styret åtte medlemmer, kan maksimalt fem styremedlemmer ha samme kjønn.Har styret ni eller flere medlemmer, kan maksimalt 60 prosent av styremedlemmene ha samme kjønn.(3) Annet ledd gjelder tilsvarende for varamedlemmer.(4) Når det for et selskap inntrer en plikt til å oppfylle kravene til kjønnssammensetning, skal styret senest én måned etter første etterfølgende selskapsmøte oppfylle kravene til kjønnssammensetning etter annet og tredje ledd.(5) For styremedlemmer som de ansatte skal velge etter § 2-13 annet til fjerde ledd, gjelder kravene til kjønnssammensetning i § 2-13 b.(6) Departementet kan i forskrift gi nærmere regler om hva som regnes som driftsinntekter og finansinntekter etter første ledd første punktum.
+> § 2-13 a. Krav til kjønnssammensetning i styret
 >
-> § 2-13 a.Krav til kjønnssammensetning i styret
+> (1) Bestemmelsene i denne paragrafen gjelder for selskaper der samtlige deltakere er juridiske personer, og som på balansedagen for årsregnskapet enten har driftsinntekter og finansinntekter som samlet er større enn 50 millioner kroner, eller som har flere enn 30 ansatte. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 2-9, jf. § 2-10 første ledd.
+>
+> (2) Har styret tre eller flere medlemmer, skal kjønnssammensetning i styret oppfylle følgende krav:Har styret tre eller fire medlemmer, kan maksimalt to styremedlemmer ha samme kjønn.Har styret fem eller seks medlemmer, kan maksimalt tre styremedlemmer ha samme kjønn.Har styret syv medlemmer, kan maksimalt fire styremedlemmer ha samme kjønn.Har styret åtte medlemmer, kan maksimalt fem styremedlemmer ha samme kjønn.Har styret ni eller flere medlemmer, kan maksimalt 60 prosent av styremedlemmene ha samme kjønn.
+>
+> (3) Annet ledd gjelder tilsvarende for varamedlemmer.
+>
+> (4) Når det for et selskap inntrer en plikt til å oppfylle kravene til kjønnssammensetning, skal styret senest én måned etter første etterfølgende selskapsmøte oppfylle kravene til kjønnssammensetning etter annet og tredje ledd.
+>
+> (5) For styremedlemmer som de ansatte skal velge etter § 2-13 annet til fjerde ledd, gjelder kravene til kjønnssammensetning i § 2-13 b.
+>
+> (6) Departementet kan i forskrift gi nærmere regler om hva som regnes som driftsinntekter og finansinntekter etter første ledd første punktum.
 >
 
 ## § 2-13 b
@@ -115,9 +125,11 @@ refid: "lov/1985-06-21-83"
 
 *Ny § 2-13 b skal lyde:*
 
-> § 2-13 b.Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte(1) Dersom det skal velges tre eller flere styremedlemmer av og blant de ansatte etter § 2-13 annet eller tredje ledd, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i selskapet har samme kjønn.(2) For selskaper med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som velges av og blant de ansatte etter § 2-13 fjerde ledd, oppfylle kravene i § 2-13 a annet og tredje ledd. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 2-9, jf. § 2-10 første ledd.
+> § 2-13 b. Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte
 >
-> § 2-13 b.Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte
+> (1) Dersom det skal velges tre eller flere styremedlemmer av og blant de ansatte etter § 2-13 annet eller tredje ledd, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i selskapet har samme kjønn.
+>
+> (2) For selskaper med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som velges av og blant de ansatte etter § 2-13 fjerde ledd, oppfylle kravene i § 2-13 a annet og tredje ledd. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 2-9, jf. § 2-10 første ledd.
 >
 
 ## § 2-15
@@ -250,6 +262,13 @@ refid: "lov/1985-06-21-83"
 > (4) Tilhører selskapet et konsern eller annen gruppe foretak som er knyttet sammen gjennom eierinteresser eller felles ledelse, og det ikke er inngått avtale etter tredje ledd, kan Kongen etter søknad fra konsernet eller gruppen, et flertall av de ansatte eller én eller flere lokale fagforeninger som representerer et flertall av de ansatte i konsernet eller gruppen, bestemme at de ansatte i konsernet eller gruppen ved anvendelse av § 2-9 annet og tredje ledd skal regnes som ansatt i selskapet, og at disse seg imellom foretar valg etter § 2-9 annet og tredje ledd.
 >
 > (5) Kongen kan ved forskrift, eller ved vedtak i det enkelte tilfelle, bestemme at fjerde ledd skal anvendes overfor deler av konsernet eller gruppen. Kongen kan dessuten gi utfyllende forskrift til fjerde ledd, herunder om vilkår for stemmerett og valgbarhet, valgmåten, om avgjørelsen av tvister om valget og om bortfall av verv som selskapsmøtemedlem.
+>
+
+### 2019-03-22 — lov/2019-03-22-7
+
+*I lov 21. juni 1985 nr. 83 om ansvarlige selskaper og kommandittselskaper skal § 1-1 fjerde ledd lyde:*
+
+> Loven gjelder ikke for partrederier etter sjøloven kapittel 5. Den gjelder heller ikke for samarbeidsavtaler knyttet til tillatelse gitt i medhold av lov 29. november 1996 nr. 72 om petroleumsvirksomhet § 4-3 og samarbeidsavtaler med hjemmel i lovens § 3-3 fjerde ledd og § 4-7, jf. § 4-3, og tilsvarende avtaler inngått før petroleumslovens ikrafttredelse eller samarbeidsavtaler knyttet til tillatelse gitt i medhold av havbunnsmineralloven §§ 3-1 og 4-1, jf. § 4-7.
 >
 
 ### 2021-05-28 — lov/2021-05-28-51

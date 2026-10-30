@@ -5,6 +5,15 @@ refid: "lov/2019-06-21-70"
 
 # Endringshistorikk: Havne- og farvannsloven
 
+## (annet)
+
+### 2025-12-05 — forskrift/2025-12-05-2419
+
+*Havne- og farvannsloven § 17 femte ledd og § 18 første og tredje ledd gis utvidet geografisk virkeområde til også å omfatte Norges økonomiske sone ved Fastlands-Norge, med de begrensninger som er anerkjent i folkeretten eller følger av overenskomst med fremmed stat.*
+
+> Havne- og farvannsloven § 17 femte ledd og § 18 første og tredje ledd gis utvidet geografisk virkeområde til også å omfatte Norges økonomiske sone ved Fastlands-Norge, med de begrensninger som er anerkjent i folkeretten eller følger av overenskomst med fremmed stat.
+>
+
 ## § 14
 
 ### 2021-01-01 — lov/2020-12-18-159

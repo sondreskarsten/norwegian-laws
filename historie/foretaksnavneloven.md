@@ -478,38 +478,6 @@ refid: "lov/1985-06-21-79"
 
 *§ 412 nr. 136 skal lyde:*
 
-> I lov 15. juni 1990 nr. 27 om vern av kretsmønstre for integrerte kretser skal § 9 lyde:
->
-> § 9.Straff
->
-> Den som begår inngrep i en kretsmønsterrett, straffes med bøter eller fengsel inntil ett år.
->
-> Dersom det foreligger særlig skjerpende omstendigheter, er straffen bøter eller fengsel inntil tre år. Ved vurderingen av om særlig skjerpende omstendigheter foreligger skal det særlig legges vekt på den skade som er påført rettighetshaveren, herunder skade på rettighetshaverens kommersielle omdømme, den vinning som inngriperen har oppnådd, og omfanget av inngrepet for øvrig.
->
-> For overtredelse av denne bestemmelsen kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale, jf. straffeprosessloven § 62 a.
->
-
-### 2013-05-31 — lov/2013-05-31-25
-
-*§ 412 nr. 154 skal lyde:*
-
-> I lov 12. mars 1993 nr. 32 om planteforedlerrett skal § 22 lyde:
->
-> § 22.Straff
->
-> Den som begår inngrep i en planteforedlerrett, straffes med bøter eller fengsel inntil ett år.
->
-> Dersom det foreligger særlig skjerpende omstendigheter, er straffen bøter eller fengsel inntil tre år. Ved vurderingen av om særlig skjerpende omstendigheter foreligger skal det særlig legges vekt på den skade som er påført rettighetshaveren, herunder skade på rettighetshaverens kommersielle omdømme, den vinning som inngriperen har oppnådd, og omfanget av inngrepet for øvrig.
->
-> Den som overtrer reglene om anvendelse av sortsnavn i § 20, straffes med bøter.
->
-> Ved overtredelse av første og annet ledd kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale, jf. straffeprosessloven § 62 a. Overtredelse av tredje ledd påtales bare av det offentlige hvis fornærmede ber om det.
->
-
-### 2013-05-31 — lov/2013-05-31-25
-
-*§ 412 nr. 230 skal lyde:*
-
 ## § 9
 
 ### 2021-06-18 — lov/2021-06-18-122

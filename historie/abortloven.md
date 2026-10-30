@@ -11,9 +11,7 @@ refid: "lov/2024-12-20-96"
 
 *§ 9 overskriften skal lyde:*
 
-> § 9.Gravide som mangler beslutningskompetanse
->
-> § 9.Gravide som mangler beslutningskompetanse
+> § 9. Gravide som mangler beslutningskompetanse
 >
 
 ### 2026-01-23 — lov/2026-01-23-1

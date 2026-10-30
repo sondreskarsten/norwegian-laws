@@ -11,6 +11,13 @@ refid: "lov/1990-05-18-11"
 
 *Noverande § 13 blir ny § 14.*
 
+### 2015-07-01 — forskrift/2015-06-19-726
+
+*Loven trer i kraft 1. juli 2015.*
+
+> Loven trer i kraft 1. juli 2015.
+>
+
 ### 2019-07-01 — lov/2019-06-21-59
 
 *Noverande §§ 12-14 blir nye §§ 14-16.*

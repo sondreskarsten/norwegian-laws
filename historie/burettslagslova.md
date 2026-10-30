@@ -115,9 +115,13 @@ refid: "lov/2003-06-06-39"
 
 *Ny § 4-3 a skal lyde:*
 
-> § 4-3 a.Juridiske personar som kan tilby avtale om leige til eige eller deleigeMed leige til eige er det i denne lova meint avtale mellom ein juridisk person og ein eller fleire fysiske personar om leige av bustad, der den eller dei fysiske personane innanfor ein tidsbestemt periode har rett til å kjøpe bustaden.Med deleige er det i denne lova meint avtale om delt eigarskap av ein bustad mellom ein juridisk person og ein eller fleire fysiske personar, der den eller dei fysiske personane har rett til å kjøpe heile bustaden. Den eller dei fysiske personane må eige minst 50 prosent av bustaden og ha ein eksklusiv bruksrett til heile bustaden.Departementet kan gi forskrift om at juridiske personar som tilbyr bustad med avtale om leige til eige eller deleige, kan eige opp til 50 prosent av bustadene i laget. Slik forskrift skal stille nærare vilkår til avtalane om leige til eige og deleige. Forskrifta kan fastsetje at ein kommune kan eige ein større andel enn 50 prosent av bustadene i laget.
+> § 4-3 a. Juridiske personar som kan tilby avtale om leige til eige eller deleige
 >
-> § 4-3 a.Juridiske personar som kan tilby avtale om leige til eige eller deleige
+> Med leige til eige er det i denne lova meint avtale mellom ein juridisk person og ein eller fleire fysiske personar om leige av bustad, der den eller dei fysiske personane innanfor ein tidsbestemt periode har rett til å kjøpe bustaden.
+>
+> Med deleige er det i denne lova meint avtale om delt eigarskap av ein bustad mellom ein juridisk person og ein eller fleire fysiske personar, der den eller dei fysiske personane har rett til å kjøpe heile bustaden. Den eller dei fysiske personane må eige minst 50 prosent av bustaden og ha ein eksklusiv bruksrett til heile bustaden.
+>
+> Departementet kan gi forskrift om at juridiske personar som tilbyr bustad med avtale om leige til eige eller deleige, kan eige opp til 50 prosent av bustadene i laget. Slik forskrift skal stille nærare vilkår til avtalane om leige til eige og deleige. Forskrifta kan fastsetje at ein kommune kan eige ein større andel enn 50 prosent av bustadene i laget.
 >
 
 ## § 4-3 b
@@ -126,9 +130,9 @@ refid: "lov/2003-06-06-39"
 
 *Ny § 4-3 b skal lyde:*
 
-> § 4-3 b.Forelding av kjøpsrett ved avtale om leige til eige og deleigeNår ein person har fått tilbod om kjøp av bustad som nemnt i § 4-3 a første eller andre ledd, blir retten til å tre inn i kjøpsavtalen ikkje forelda før akseptfristen som er angitt i kjøpsretten, er gått ut. For krav med grunnlag i ein inngått kjøpsavtale gjeld reglane i foreldelsesloven.
+> § 4-3 b. Forelding av kjøpsrett ved avtale om leige til eige og deleige
 >
-> § 4-3 b.Forelding av kjøpsrett ved avtale om leige til eige og deleige
+> Når ein person har fått tilbod om kjøp av bustad som nemnt i § 4-3 a første eller andre ledd, blir retten til å tre inn i kjøpsavtalen ikkje forelda før akseptfristen som er angitt i kjøpsretten, er gått ut. For krav med grunnlag i ein inngått kjøpsavtale gjeld reglane i foreldelsesloven.
 >
 
 ## § 4-6
@@ -159,11 +163,17 @@ refid: "lov/2003-06-06-39"
 
 *§ 4-12 tredje ledd skal lyde:*
 
+> (3) Forkjøpsretten kan heller ikkje gjerast gjeldande når ein leigar eller deleigar nyttar seg av kjøpsretten i ein leige til eige- eller deleigeavtale som nemnd i § 4-3 a første og andre ledd.
+>
+
 ## § 5-2
 
 ### 2025-12-19 — lov/2025-12-19-114
 
 *§ 5-2 nytt femte ledd skal lyde:*
+
+> (5) Reglane i paragrafen her er ikkje til hinder for slikt sameige som nemnt i § 4-3 a andre ledd.
+>
 
 ## § 5-4
 
@@ -395,6 +405,9 @@ refid: "lov/2003-06-06-39"
 
 *§ 7-10 nytt tredje ledd skal lyde:*
 
+> (3) Departementet kan gi forskrift om røysterett på generalforsamlinga ved bruk av avtale om leige til eige eller deleige i laget.
+>
+
 ## § 8-5
 
 ### 2021-03-26 — lov/2021-03-26-16
@@ -585,6 +598,13 @@ refid: "lov/2003-06-06-39"
 > Kongen kan i forskrifter gi ytterlegare mellombelse reglar til kapittel 6 i lova her er sett i verk.
 >
 
+### 2006-12-15 — lov/2006-12-15-89
+
+*I lov 6. juni 2003 nr. 39 om burettslag (burettslagslova) skal § 8-13 annet ledd første punktum lyde:*
+
+> Pengar skal plasserast som innskott i norsk bank eller i annan finansinstitusjon som har rett til å tilby slik teneste i Noreg.
+>
+
 ### 2010-09-03 — lov/2010-09-03-54
 
 *Nåværende fjerde ledd blir nytt femte ledd og skal lyde:*
@@ -636,6 +656,15 @@ refid: "lov/2003-06-06-39"
 > Berre sikring etter §§ 5-26 til 5-29 kan marknadsførast som sikring mot tap av felleskostnader ved sal av andelar i burettslag. Andre ordningar kan heller ikkje marknadsførast på ein måte som gjer at dei kan forvekslast med å vere sikring etter §§ 5-26 til 5-29.
 >
 
+### 2019-12-13 — lov/2019-12-13-79
+
+*I lov 6. juni 2003 nr. 39 om burettslag skal § 5-28 lyde:*
+
+> § 5-28.Krav til produktet
+>
+> Departementet gir nærare forskrifter om krav til produktet, og kan i den samanhengen gi føresegner som vik frå forsikringsvirksomhetsloven og finansforetaksloven.
+>
+
 ### 2020-12-04 — lov/2020-12-04-137
 
 *Kapittel 14 del IV og V blir oppheva.*
@@ -648,7 +677,11 @@ refid: "lov/2003-06-06-39"
 
 *I lov 6. juni 2003 nr. 39 om burettslag skal § 6-11 lyde:*
 
-> § 6-11.Rettsvern ved konkurs og rekonstruksjonsforhandling(1) For at ein rett som byggjer på frivillig disposisjon, skal ha rettsvern i konkurs, må retten vere registrert seinast dagen før konkursopninga. Likevel har rettserverv som nemnde i §§ 6-6 tredje og fjerde ledd og § 6-7 rettsvern i konkurs utan omsyn til om og når ervervet er registrert.(2) Har det vore opna rekonstruksjonsforhandling rett før konkursen, jf. dekningsloven § 1-4 femte ledd, må retten vere registrert seinast dagen før opninga av rekonstruksjonsforhandlinga. Når retten er stifta med samtykke av rekonstruksjonsutvalet, er likevel rettsvernet i høve til konkursbuet ikkje avhengig av registrering.(3) For at ein frivillig stifta rett skal ha rettsvern ved rekonstruksjonsforhandling, må retten vere registrert seinast dagen før opninga av rekonstruksjonsforhandlinga.
+> § 6-11. Rettsvern ved konkurs og rekonstruksjonsforhandling
 >
-> § 6-11.Rettsvern ved konkurs og rekonstruksjonsforhandling
+> (1) For at ein rett som byggjer på frivillig disposisjon, skal ha rettsvern i konkurs, må retten vere registrert seinast dagen før konkursopninga. Likevel har rettserverv som nemnde i §§ 6-6 tredje og fjerde ledd og § 6-7 rettsvern i konkurs utan omsyn til om og når ervervet er registrert.
+>
+> (2) Har det vore opna rekonstruksjonsforhandling rett før konkursen, jf. dekningsloven § 1-4 femte ledd, må retten vere registrert seinast dagen før opninga av rekonstruksjonsforhandlinga. Når retten er stifta med samtykke av rekonstruksjonsutvalet, er likevel rettsvernet i høve til konkursbuet ikkje avhengig av registrering.
+>
+> (3) For at ein frivillig stifta rett skal ha rettsvern ved rekonstruksjonsforhandling, må retten vere registrert seinast dagen før opninga av rekonstruksjonsforhandlinga.
 >

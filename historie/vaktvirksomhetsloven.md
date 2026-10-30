@@ -48,6 +48,13 @@ refid: "lov/2001-01-05-1"
 
 *Nåværende § 18 blir ny § 22.*
 
+### 2011-04-01 — forskrift/2011-04-01-342
+
+*Lov 19. juni 2009 nr. 85 om endringer i lov om vaktvirksomhet romertall I og II trer i kraft fra 1. april 2011.*
+
+> Lov 19. juni 2009 nr. 85 om endringer i lov om vaktvirksomhet romertall I og II trer i kraft fra 1. april 2011.
+>
+
 ## § 19
 
 ### 2009-06-19 — lov/2009-06-19-85

@@ -499,6 +499,9 @@ refid: "lov/2000-03-24-16"
 
 *§ 4-7 a syvende ledd skal lyde:*
 
+> (7) Pensjonsinnretningen har plikt til å kartlegge fripoliseinnehaverens behov og ønske om risiko. Pensjonsinnretningen skal opplyse både om eventuelle forhold som taler for at en avtale om forvaltning av fripolisen i en egen investeringsportefølje vil være i fripoliseinnehaverens interesse, og om eventuelle forhold som taler mot. Før det inngås avtale om utstedelse av fripolise tilordnet en egen investeringsportefølje, skal pensjonsinnretningen gi fripoliseinnehaveren råd om sammensetningen av investeringsporteføljen. Når fripoliseinnehaveren har nådd en alder med få år igjen til uttak av pensjon, skal pensjonsinnretningen informere om risikoreduserende tiltak. En skriftlig sammenfatning av de opplysninger og råd som pensjonsinnretningen gir etter leddet her, skal sendes fripoliseinnehaveren. Kongen kan gi nærmere regler om pliktig informasjon og rådgivning i forskrift.
+>
+
 ## § 4-7 b
 
 ### 2012-12-14 — lov/2012-12-14-84
@@ -626,6 +629,9 @@ refid: "lov/2000-03-24-16"
 ### 2026-05-07 — lov/2026-05-07-16
 
 *§ 5-1 tredje ledd skal lyde:*
+
+> (3) Krav eller avtale om at utbetalingstiden reduseres som angitt i annet ledd annet til fjerde punktum, må fremsettes eller inngås senest ett år etter at uttak av pensjon startet.
+>
 
 ## § 5-2
 
@@ -1300,6 +1306,13 @@ refid: "lov/2000-03-24-16"
 > (7) Foretaket kan tegne pensjon til etterlatte enten i tilknytning til den ytelsesbaserte pensjonsordningen eller i tilknytning til begge pensjonsordningene i den kombinerte ordningen. Den samlede kombinerte ordningen kan legges til grunn ved fastsettelse av etterlattepensjonens størrelse etter kapittel 7. Dersom etterlattepensjonen er tegnet kun i tilknytning til foretakets ytelsesbaserte pensjonsordning, kan det fastsettes i regelverket at det skal ytes et tillegg til den etterlattepensjon som fastsettes på grunnlag av størrelsen på den ytelsesbaserte alderspensjonen. Innskuddspensjonsloven § 7-4 femte ledd gjelder tilsvarende ved kombinerte pensjonsordninger dersom etterlatt ektefelle, registrert partner eller samboer gis pensjon etter reglene i innskuddspensjonsloven § 7-4 tredje ledd.
 >
 
+### 2005-06-10 — lov/2005-06-10-45
+
+*I lov 24. mars 2000 nr. 16 om foretakspensjon (foretakspensjonsloven) skal § 9-6 annet ledd annet punktum lyde:*
+
+> § 9-3 tredje og fjerde ledd og § 9-4 gjelder tilsvarende.
+>
+
 ### 2007-06-15 — lov/2007-06-15-28
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
@@ -1307,6 +1320,10 @@ refid: "lov/2000-03-24-16"
 ### 2007-06-15 — lov/2007-06-15-28
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
+
+### 2008-06-27 — lov/2008-06-27-53
+
+*I lov 24. mars 2000 nr. 16 om foretakspensjon skal § 1-2 annet ledd bokstav e lyde:Registrert partner: Partner i registrert partnerskap der partnerne ikke har samtykket til å omgjøre partnerskapet til ekteskap.*
 
 ### 2011-01-01 — lov/2010-12-17-83
 
@@ -1349,13 +1366,43 @@ refid: "lov/2000-03-24-16"
 > (5) Kongen kan gi nærmere regler om opplysningsplikt for pensjonsinnretninger.
 >
 
+### 2014-09-01 — forskrift/2014-06-27-884
+
+*Lov 14. desember 2012 nr. 84 om endringer i finanstilsynsloven, banksikringsloven og foretakspensjonsloven del III § 4-7a og § 4-7b trer i kraft 1. september 2014.*
+
+> Lov 14. desember 2012 nr. 84 om endringer i finanstilsynsloven, banksikringsloven og foretakspensjonsloven del III § 4-7a og § 4-7b trer i kraft 1. september 2014.
+>
+
+### 2014-09-01 — forskrift/2014-07-02-932
+
+*Lov 14. desember 2012 nr. 84 om endringer i finanstilsynsloven, banksikringsloven og foretakspensjonsloven del III § 2-3 annet ledd nytt annet punktum og § 11-2 nytt femte ledd trer i kraft 1. september 2014.*
+
+> Lov 14. desember 2012 nr. 84 om endringer i finanstilsynsloven, banksikringsloven og foretakspensjonsloven del III § 2-3 annet ledd nytt annet punktum og § 11-2 nytt femte ledd trer i kraft 1. september 2014.
+>
+
 ### 2015-05-22 — lov/2015-05-22-31
 
 *§§ 6-1 til 6-5 oppheves.*
 
 ### 2019-12-13 — lov/2019-12-13-79
 
+*I lov 24. mars 2000 nr. 16 om foretakspensjon skal § 2-8 nytt tredje ledd lyde:*
+
+> Foretaket skal på anmodning fra en arbeidstaker gi informasjon om vilkårene for opptjening av rett til pensjon, hvilken betydning det har for pensjonsrettighetene å avslutte arbeidsforholdet, verdien av de opptjente pensjonsrettigheter og vilkårene for forvaltning og regulering av opptjente pensjonsrettigheter.
+>
+
+### 2019-12-13 — lov/2019-12-13-79
+
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2020-04-17 — lov/2020-04-17-20
+
+*I lov 24. mars 2000 nr. 16 om foretakspensjon skal § 3-7 nytt fjerde og femte ledd lyde:*
+
+> (4) Foretak som ikke har bestemmelser i regelverket som nevnt i tredje ledd, kan beslutte at arbeidstakere likevel skal være medlem av pensjonsordningen under permitteringen. Foretaket har ikke plikt til å betale premie for pensjonssparing, forsikring som gir rett til premiefritak ved uførhet, eller eventuelle uføre- og etterlatteforsikringer for de permitterte arbeidstakerne.
+>
+> (5) Adgangen til å beholde medlemskap under permittering som nevnt i fjerde ledd, gjelder så lenge arbeidstaker er lovlig permittert fra foretaket. Arbeidstaker som blir sykemeldt under permittering og fortsatt er sykemeldt når permitteringsperioden avsluttes, skal likevel beholde medlemskapet i pensjonsordningen frem til vedkommende gjeninntrer i arbeidsforholdet eller arbeidsforholdet opphører. Arbeidstakeren skal beholde medlemskapet i pensjonsordningen under permittering selv om arbeidstakeren meldes inn i ny pensjonsordning hos annen arbeidsgiver.
+>
 
 ### 2021-12-22 — lov/2021-12-22-164
 

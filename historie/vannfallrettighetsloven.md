@@ -7,6 +7,27 @@ refid: "lov/1917-12-14-16"
 
 ## (annet)
 
+### 2004-06-25 — lov/2004-06-25-57
+
+*I lov 14. desember 1917 nr. 16 om erverv av vannfall, bergverk og annen fast eiendom m.v. skal § 2 fjerde ledd post 12 sjette ledd lyde:*
+
+> Prisen på kraften fastsettes basert på gjennomsnittlig selvkost for et representativt antall vannkraftverk i hele landet. Skatter beregnet av kraftproduksjonens overskudd ut over normalavkastningen inngår ikke i selvkostberegningen. Departementet skal hvert år fastsette prisen på kraften levert kraftstasjonens apparatanlegg for utgående ledninger. Bestemmelsene i første og tredje punktum gjelder ikke for konsesjoner gitt etter bestemmelser gjeldende før lov av 10. april 1959 nr. 2 trådte i kraft.
+>
+
+### 2010-07-01 — forskrift/2010-06-25-938
+
+*Lov 19. juni 2009 nr. 106 om endringer i industrikonsesjonsloven, vassdragsreguleringsloven og vannressursloven (utleie av vannkraftproduksjon mv.) romertall I trer i kraft 1. juli 2010.*
+
+> Lov 19. juni 2009 nr. 106 om endringer i industrikonsesjonsloven, vassdragsreguleringsloven og vannressursloven (utleie av vannkraftproduksjon mv.) romertall I trer i kraft 1. juli 2010.
+>
+
+### 2016-07-01 — forskrift/2016-06-17-720
+
+*Lov om endringer i lov om erverv av vannfall mv. (erverv av andel i offentlig ansvarlig selskap med konsesjonspliktige rettigheter til vannfall) trer i kraft 1. juli 2016.*
+
+> Lov om endringer i lov om erverv av vannfall mv. (erverv av andel i offentlig ansvarlig selskap med konsesjonspliktige rettigheter til vannfall) trer i kraft 1. juli 2016.
+>
+
 ### 2025-04-10 — lov/2025-04-10-9
 
 *1.I lov 14. desember 1917 nr. 16 om konsesjon for rettigheter til vannfall mv. skal § 5 første punktum lyde:*

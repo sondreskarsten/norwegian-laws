@@ -7,13 +7,52 @@ refid: "lov/1973-12-14-61"
 
 ## (annet)
 
+### 2005-01-01 — lov/2004-12-17-87
+
+*I lov 14. desember 1973 nr. 61 om statsgaranti for lønnskrav ved konkurs m.v. skal § 1 tredje leddet første punktum lyde:*
+
+> Kravene dekkes av garantien i den utstrekning de har fortrinnsrett etter kapittel 9 i lov om fordringshavernes dekningsrett, dog begrenset i det enkelte tilfelle til et beløp som svarer til to ganger folketrygdens grunnbeløp på fristdagen.
+>
+
+### 2005-12-21 — lov/2005-12-21-120
+
+*I lov 14. desember 1973 nr. 61 om statsgaranti for lønnskrav ved konkurs m.v. skal § 1 tredje ledd nytt annet punktum lyde:*
+
+> Krav på vederlag som nevnt i dekningsloven § 9-3 første ledd nr. 1 første ledd bokstav c og d er likevel, med samme beløpsbegrensning, dekningsberettiget etter lønnsgarantien.
+>
+
 ### 2005-12-21 — lov/2005-12-21-120
 
 *Nåværende andre og tredje punktum blir tredje og fjerde punktum.*
 
+### 2012-12-14 — lov/2012-12-14-80
+
+*I lov 14. desember 1973 nr. 61 om statsgaranti for lønnskrav ved konkurs m.v. skal § 1 tredje ledd lyde:*
+
+> Kravene dekkes av garantien i den utstrekning de har fortrinnsrett etter kapittel 9 i lov om fordringshavernes dekningsrett, dog begrenset i det enkelte tilfelle til et beløp som svarer til to ganger folketrygdens grunnbeløp på fristdagen. Krav på vederlag som nevnt i dekningsloven § 9-3 første ledd nr. 1 første ledd bokstav c og d er likevel, med samme beløpsbegrensning, dekningsberettiget etter lønnsgarantien. Lønnskrav som er forfalt i løpet av de siste 12 måneder før fristdagen er, med samme beløpsbegrensning, dekningsberettiget etter lønnsgarantien. Dekningsloven § 9-3 første ledd nr. 1 tredje ledd første punktum og § 9-3 andre ledd gjelder ikke. Garantien dekker krav på renter inntil fristdagen og inndrivelseskostnader vedrørende krav som er dekningsberettiget etter tredje og fjerde punktum. For banker og forsikringsselskaper under offentlig administrasjon gjelder bestemmelsene i dekningsloven kapittel 9 tilsvarende så langt de passer. Som fristdag regnes den dagen vedtak om offentlig administrasjon ble truffet.
+>
+
+### 2013-12-13 — lov/2013-12-13-105
+
+*I lov 14. desember 1973 nr. 61 om statsgaranti for lønnskrav ved konkurs m.v. skal § 1 tredje til femte ledd lyde:*
+
+> Kravene dekkes av garantien i den utstrekning de har fortrinnsrett etter dekningsloven kapittel 9, men med følgende begrensninger:Garantien er i det enkelte tilfelle begrenset til et beløp som svarer til to ganger folketrygdens grunnbeløp på fristdagen.Etter konkursåpning dekkes krav som nevnt i andre ledd i inntil én måned regnet fra konkursåpningstidspunktet.Det gis kun dekning for feriepenger som er opptjent i samme år som året for fristdagen i konkursen og året før.
+>
+> Følgende krav dekkes av garantien, med samme beløpsbegrensning som i tredje ledd nr. 1, selv om de ikke har fortrinnsrett etter dekningsloven kapittel 9:krav på vederlag som nevnt i dekningsloven § 9-3 første ledd nr. 1 første ledd bokstav c og d, oglønnskrav som er forfalt i løpet av de siste 12 måneder før fristdagen. Dekningsloven § 9-3 første ledd nr. 1 tredje ledd første punktum og § 9-3 andre ledd gjelder ikke. Garantien dekker også krav på renter inntil fristdagen og inndrivelseskostnader for krav etter dette ledd.
+>
+> For banker og forsikringsselskaper under offentlig administrasjon gjelder bestemmelsene i dekningsloven kapittel 9 tilsvarende så langt de passer. Som fristdag regnes den dagen vedtak om offentlig administrasjon ble truffet.
+>
+
 ### 2013-12-13 — lov/2013-12-13-105
 
 *Nåværende fjerde og femte ledd blir nye sjette og sjuende ledd.*
+
+### 2022-12-20 — lov/2022-12-20-100
+
+*I lov 14. desember 1973 nr. 61 om statsgaranti for lønnskrav ved konkurs m.v. skal § 1 sjette ledd lyde:*
+
+> Garantien omfatter i tillegg rimelige omkostninger arbeidstaker eller en arbeidstakerorganisasjon har i forbindelse med konkursbegjæringen. Kravene dekkes i den utstrekning de er massefordringer etter dekningsloven § 9-2 andre ledd nr. 1, og boet selv ikke har midler til å dekke dem.
+>
 
 ## § 10
 

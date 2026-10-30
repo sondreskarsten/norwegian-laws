@@ -11,17 +11,15 @@ refid: "lov/2005-06-17-102"
 
 *Kapittel 4 overskrifta skal lyde:*
 
-### 2013-02-01 — lov/2013-02-01-6
-
-*Kapittel 4. Støtte fra andre. Regnskap, bokføring og innberetning. Offentliggjøring*
+> Kapittel 4. Støtte fra andre. Regnskap, bokføring og innberetning. Offentliggjøring
+>
 
 ### 2013-02-01 — lov/2013-02-01-6
 
 *Kapittel 5 overskrifta skal lyde:*
 
-### 2013-02-01 — lov/2013-02-01-6
-
-*Kapittel 5 Nemnd for kontroll med partifinansieringen, klagebehandling mv.*
+> Kapittel 5 Nemnd for kontroll med partifinansieringen, klagebehandling mv.
+>
 
 ### 2013-02-01 — lov/2013-02-01-6
 
@@ -53,9 +51,36 @@ refid: "lov/2005-06-17-102"
 > Noverande § 28 blir § 31.
 >
 
+### 2013-03-01 — forskrift/2013-02-01-128
+
+*Delt ikraftsetting av Stortingets vedtak 10. januar 2013 til lov om endringar i partiloven. Endringene, med unntak av ny § 18a, § 18b, § 20a og § 20b, trer i kraft 1. mars 2013. Ny § 18a, § 18b, § 20a og § 20b trer i kraft 1. januar 2014.*
+
+> Delt ikraftsetting av Stortingets vedtak 10. januar 2013 til lov om endringar i partiloven. Endringene, med unntak av ny § 18a, § 18b, § 20a og § 20b, trer i kraft 1. mars 2013. Ny § 18a, § 18b, § 20a og § 20b trer i kraft 1. januar 2014.
+>
+
+### 2021-06-18 — lov/2021-06-18-127
+
+*I lov 17. juni 2005 nr. 102 om visse forhold vedrørende de politiske partiene skal § 24 sjuende ledd andre punktum lyde:*
+
+> Forvaltningsloven § 13 a første ledd nr. 1 til 3 og § 13 b første ledd nr. 2 til 7 får likevel anvendelse.
+>
+
 ### 2025-06-20 — lov/2025-06-20-94
 
 *Nåværende femte ledd blir nytt sjette ledd.*
+
+### 2025-07-01 — forskrift/2025-06-20-1138
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 94 om endringer i partiloven (innberetning og offentliggjøring av bidrag fra bakenforliggende givere). Følgende trer i kraft 1. juli 2025:*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 94 om endringer i partiloven (innberetning og offentliggjøring av bidrag fra bakenforliggende givere). Følgende trer i kraft 1. juli 2025:
+>
+> Endringsloven del I § 17a første og andre ledd, § 17a femte ledd andre punktum og § 20 femte, sjette og syvende ledd.
+>
+> Følgende trer i kraft fra 1. januar 2026:
+>
+> Endringsloven del I § 18 tredje ledd første punktum, § 18 fjerde ledd første punktum og § 20 første ledd.
+>
 
 ## § 1
 
@@ -127,17 +152,9 @@ refid: "lov/2005-06-17-102"
 
 *§ 17 a første og andre ledd skal lyde:*
 
-> givere som er ukjente for partiet (anonyme bidrag)
+> (1) Politiske partier og partiledd kan ikke motta bidrag fragivere som er ukjente for partiet (anonyme bidrag)juridiske personer som har som formål eller vesentlig del av sin virksomhet å støtte politiske partier eller partiledd økonomiskprivatpersoner som har mottatt bidrag fra andre for å gi disse til politiske partier eller partiledd.Bidrag som nevnt i bokstav b og c i leddet her kan likevel mottas dersom partiet eller partileddet har mottatt dokumentasjon på hvem giveren har mottatt bidrag fra i forrige kalenderår og i inneværende kalenderår frem til tidspunktet bidraget til partiet eller partileddet ble gitt, og på størrelsen på bidragene.
 >
-> juridiske personer som har som formål eller vesentlig del av sin virksomhet å støtte politiske partier eller partiledd økonomisk
->
-> privatpersoner som har mottatt bidrag fra andre for å gi disse til politiske partier eller partiledd.
->
-> rettssubjekter under statens eller annen offentlig myndighets kontroll
->
-> utenlandske givere, det vil si privatpersoner som ikke er norske statsborgere eller som ikke oppfyller vilkårene for å ha stemmerett ved kommunestyre- og fylkestingsvalg, jf. valgloven § 2-2, eller juridiske personer som er registrert i utlandet
->
-> givere som nevnt i første ledd første punktum bokstav b og c som har mottatt bidrag fra rettssubjekter som nevnt i bokstav a og b i leddet her.
+> (2) Politiske partier og partiledd kan heller ikke motta bidrag frarettssubjekter under statens eller annen offentlig myndighets kontrollutenlandske givere, det vil si privatpersoner som ikke er norske statsborgere eller som ikke oppfyller vilkårene for å ha stemmerett ved kommunestyre- og fylkestingsvalg, jf. valgloven § 2-2, eller juridiske personer som er registrert i utlandetgivere som nevnt i første ledd første punktum bokstav b og c som har mottatt bidrag fra rettssubjekter som nevnt i bokstav a og b i leddet her.
 >
 
 ### 2025-06-20 — lov/2025-06-20-94
@@ -258,13 +275,22 @@ refid: "lov/2005-06-17-102"
 
 *§ 20 første ledd skal lyde:*
 
+> (1) Dersom en bidragsyter i løpet av perioden har gitt ett eller flere bidrag til partiets hovedorganisasjon som til sammen utgjør en verdi av 51 000 kroner eller mer, skal bidragets verdi og bidragsyterens identitet oppgis særskilt. Det samme gjelder for bidrag til partiledd på fylkeskommunalt nivå som til sammen utgjør en verdi av 34 000 kroner eller mer, og for bidrag til partiledd på kommunalt nivå som til sammen utgjør en verdi av 17 000 kroner eller mer. Beløpsgrensene gjelder tilsvarende for bidrag til partienes ungdomsorganisasjoner på tilsvarende nivå.
+>
+
 ### 2025-06-20 — lov/2025-06-20-94
 
 *§ 20 femte ledd skal lyde:*
 
+> (5) Den som har gitt bidrag til en giver som nevnt i § 17 a første ledd første punktum bokstav b og c, skal identifiseres etter sjette ledd når bidraget overskrider beløpsgrensene i første ledd eller § 18 fjerde ledd. Størrelsen på bidraget skal også oppgis.
+>
+
 ### 2025-06-20 — lov/2025-06-20-94
 
 *§ 20 nytt syvende ledd skal lyde:*
+
+> (7) Givere som nevnt i § 17 a første ledd første punktum bokstav b og c kan, der det er nødvendig for at partiet eller partileddet skal kunne oppfylle innberetningsplikten etter § 20 femte ledd, lagre og gi partiet eller partileddet opplysninger som identifiserer hvem giverne har mottatt bidrag fra, og om størrelsen på bidraget.
+>
 
 ## § 20 a
 

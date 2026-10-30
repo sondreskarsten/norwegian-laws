@@ -7,6 +7,10 @@ refid: "lov/2005-04-01-14"
 
 ## (annet)
 
+### 2011-11-18 — lov/2011-11-18-42
+
+*I lov 1. april 2005 nr. 14 om europeiske selskaper ved gjennomføring av EØS-avtalen vedlegg XXII nr. 10a (rådsforordning (EF) nr. 2157/2001) skal § 7 første ledd bokstav f oppheves.*
+
 ### 2022-12-20 — lov/2022-12-20-122
 
 *Nåværende andre punktum blir nytt tredje punktum.*

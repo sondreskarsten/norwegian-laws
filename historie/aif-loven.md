@@ -247,6 +247,11 @@ refid: "lov/2014-06-20-28"
 
 *§ 7-2 skal lyde:*
 
+> (1) Ved markedsføring eller salg av alternative investeringsfond til ikke-profesjonell investor gjelder reglene i PRIIPs-loven med forskrifter.
+>
+> (2) Departementet kan i forskrift gi nærmere regler om nøkkelinformasjon, herunder innhold, format og fremstilling.
+>
+
 ## § 7-3
 
 ### 2021-04-30 — lov/2021-04-30-26
@@ -319,15 +324,28 @@ refid: "lov/2014-06-20-28"
 
 *§ 9-4 tredje ledd skal lyde:*
 
+> (3) Når tillatelsen bortfaller eller blir kalt tilbake, skal den konsesjonspliktige virksomheten avvikles. Finanstilsynet fører tilsyn under avviklingsperioden og kan gi pålegg om gjennomføringen av avviklingen. Overføring av forvaltningen til en ny forvalter etter varsel om tilbakekall eller tilbakekall av tillatelsen til å drive forvaltning krever samtykke fra Finanstilsynet. Finanstilsynet kan stille vilkår om gjennomføringstidspunkt og hvordan overføringen skal offentliggjøres. Forvalteren kan iverksette overføringen med mindre Finanstilsynet innen én måned etter å ha mottatt informasjon har motsatt seg overføringen eller fastsatt vilkår for overføringen. Finanstilsynet kan forlenge fristen med inntil én måned dersom særlige omstendigheter ved saken gjør det nødvendig. Finanstilsynet skal underrette forvalteren om fristforlengelsen. Kostnadene til overføringen skal dekkes av forvalteren. Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+>
+
 ## § 9-4 a
 
 ### 2024-12-20 — lov/2024-12-20-93
 
 *Ny § 9-4 a skal lyde:*
 
-> § 9-4 a.Oppnevning av administrator(1) Dersom forvalteren ikke overholder pålegg gitt etter § 9-4 tredje ledd annet punktum, og det anses nødvendig for å ivareta investorenes interesser, kan Finanstilsynet oppnevne en eller flere administratorer til å sikre en forsvarlig avvikling av den konsesjonspliktige virksomheten. Det samme gjelder dersom Finanstilsynet har grunn til å anta at foretaket vil bryte et pålegg gitt etter § 9-4 tredje ledd annet punktum, og risikoen for at kundene vil lide vesentlige tap er betydelig større om oppnevningen må vente. Oppdraget skal gjelde til den konsesjonspliktige virksomheten er avviklet, eller til Finanstilsynet bringer det til opphør. Administratoren skal ha de nødvendige kvalifikasjonene for å utføre oppdraget og skal ikke ha interessekonflikter.(2) Administratorens oppgaver og myndighet fastsettes av Finanstilsynet i det enkelte tilfellet og kan omfatte daglig leders og styrets oppgaver. Det kan fastsettes at vedtak i bestemte saker ikke kan treffes uten samtykke fra administratoren eller godkjennelse fra Finanstilsynet.(3) Hvis administratoren helt eller delvis skal overta styrets oppgaver og myndighet, skal Finanstilsynet gi melding til Foretaksregisteret om at det er oppnevnt en administrator, og hvem dette er. Meldingen skal også angi hvilke av styrets oppgaver og hvilken myndighet administratoren har overtatt. Meldingen skal kunngjøres av Foretaksregisteret.(4) Administratoren skal regelmessig gi Finanstilsynet rapport om utførelsen av sitt oppdrag. Administratoren er ikke ansvarlig for skade voldt under utførelsen av oppdraget, med mindre skaden skyldes eget forsett eller grov uaktsomhet.(5) Kostnadene til administratoren skal dekkes av forvalteren.(6) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> § 9-4 a. Oppnevning av administrator
 >
-> § 9-4 a.Oppnevning av administrator
+> (1) Dersom forvalteren ikke overholder pålegg gitt etter § 9-4 tredje ledd annet punktum, og det anses nødvendig for å ivareta investorenes interesser, kan Finanstilsynet oppnevne en eller flere administratorer til å sikre en forsvarlig avvikling av den konsesjonspliktige virksomheten. Det samme gjelder dersom Finanstilsynet har grunn til å anta at foretaket vil bryte et pålegg gitt etter § 9-4 tredje ledd annet punktum, og risikoen for at kundene vil lide vesentlige tap er betydelig større om oppnevningen må vente. Oppdraget skal gjelde til den konsesjonspliktige virksomheten er avviklet, eller til Finanstilsynet bringer det til opphør. Administratoren skal ha de nødvendige kvalifikasjonene for å utføre oppdraget og skal ikke ha interessekonflikter.
+>
+> (2) Administratorens oppgaver og myndighet fastsettes av Finanstilsynet i det enkelte tilfellet og kan omfatte daglig leders og styrets oppgaver. Det kan fastsettes at vedtak i bestemte saker ikke kan treffes uten samtykke fra administratoren eller godkjennelse fra Finanstilsynet.
+>
+> (3) Hvis administratoren helt eller delvis skal overta styrets oppgaver og myndighet, skal Finanstilsynet gi melding til Foretaksregisteret om at det er oppnevnt en administrator, og hvem dette er. Meldingen skal også angi hvilke av styrets oppgaver og hvilken myndighet administratoren har overtatt. Meldingen skal kunngjøres av Foretaksregisteret.
+>
+> (4) Administratoren skal regelmessig gi Finanstilsynet rapport om utførelsen av sitt oppdrag. Administratoren er ikke ansvarlig for skade voldt under utførelsen av oppdraget, med mindre skaden skyldes eget forsett eller grov uaktsomhet.
+>
+> (5) Kostnadene til administratoren skal dekkes av forvalteren.
+>
+> (6) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
 >
 
 ## § 9-5
@@ -346,6 +364,9 @@ refid: "lov/2014-06-20-28"
 ### 2024-06-25 — lov/2024-06-25-60
 
 *§ 9-5 første ledd skal lyde:*
+
+> (1) Dersom styremedlemmer, oppdragstakere eller ansatte i foretak med tillatelse til å drive virksomhet som omfattes av denne loven, har overtrådt eller medvirket til overtredelse av bestemmelser gitt i eller i medhold av loven her, verdipapirfondloven, eller SFTR, jf. verdipapirhandelloven § 17A-1, artikkel 13 og 14, kan Finanstilsynet fatte vedtak om at vedkommende ikke kan ha ledelsesfunksjon i et foretak som må ha tillatelse til å drive virksomhet etter loven her eller verdipapirfondloven, dersom overtredelsen eller medvirkningen til denne medfører at vedkommende må anses uskikket til å ha ledelsesfunksjon i et foretak som må ha tillatelse til å drive virksomhet etter loven her eller verdipapirfondloven.
+>
 
 ## § 9-6
 
@@ -393,12 +414,26 @@ refid: "lov/2014-06-20-28"
 
 *§ 11-1 skal lyde:*
 
-> § 11-1.StraffMed bøter eller fengsel i inntil ett år straffes den som forsettlig eller uaktsomt:overtrer § 2-2, § 3-5, § 4-4, § 4-5, § 5-3, §§ 6-1 til 6-5, §§ 7-1 til 7-3, §§ 8-1 til 8-3, § 9-2, § 9-3, § 10-1 eller § 10-2, SFTR, jf. verdipapirhandelloven § 17A-1, artikkel 14, eller regler eller tillatelser gitt i medhold av de nevnte bestemmelsene,grovt eller gjentatte ganger overtrer § 3-2 eller § 3-3.
+> § 11-1. Straff
 >
-> § 11-1.Straff
+> Med bøter eller fengsel i inntil ett år straffes den som forsettlig eller uaktsomt:overtrer § 2-2, § 3-5, § 4-4, § 4-5, § 5-3, §§ 6-1 til 6-5, §§ 7-1 til 7-3, §§ 8-1 til 8-3, § 9-2, § 9-3, § 10-1 eller § 10-2, SFTR, jf. verdipapirhandelloven § 17A-1, artikkel 14, eller regler eller tillatelser gitt i medhold av de nevnte bestemmelsene,grovt eller gjentatte ganger overtrer § 3-2 eller § 3-3.
 >
 
 ## (annet)
+
+### 2014-07-01 — forskrift/2014-06-20-785
+
+*Loven trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. juli 2014.
+>
+
+### 2016-12-16 — lov/2016-12-16-90
+
+*I lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond skal § 3-6 første ledd lyde:*
+
+> (1) Forvalteren skal etablere og praktisere en godtgjørelsesordning som fremmer god og effektiv risikostyring og forvaltning i samsvar med investeringsmandatene for de alternative investeringsfondene som forvaltes. Godtgjørelsesordningen skal omfatte ansatte med vesentlig betydning for risikoprofilen til forvalteren eller fond under forvaltning, herunder ledende ansatte, ansatte med kontrolloppgaver samt ansatte med tilsvarende godtgjørelse som ledende ansatte. Godtgjørelsesordningen skal tilpasses virksomhetens art, omfang og kompleksitet.
+>
 
 ### 2021-06-18 — lov/2021-06-18-101
 
@@ -491,9 +526,19 @@ refid: "lov/2014-06-20-28"
 > gode administrasjons- og regnskapsrutiner, kontroll- og sikkerhetsordninger for elektronisk databehandling, herunder for nettverk og systemer som er etablert og håndtert etter forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, og regler for ansattes personlige transaksjoner,
 >
 
+### 2026-04-01 — forskrift/2026-02-06-148
+
+*Loven trer i kraft 1. april 2026.*
+
+> Loven trer i kraft 1. april 2026.
+>
+
 ### 2026-06-19 — lov/2026-06-19-40
 
 *I lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond skal § 9-6 femte ledd lyde:*
+
+> (5) Foretak kan ilegges overtredelsesgebyr når foretaket eller noen som har handlet på foretakets vegne, forsettlig eller uaktsomt har begått en overtredelse som nevnt i første eller annet ledd.
+>
 
 ## § 1a-3
 
@@ -501,9 +546,15 @@ refid: "lov/2014-06-20-28"
 
 *§ 1a-3 skal lyde:*
 
-> § 1a-3.Gjennomføring av ELTIF-forordningen(1) EØS-avtalen vedlegg IX forordning (EU) 2015/760 (om europeiske langsiktige investeringsfond (ELTIF-forordningen)), som endret ved forordning (EU) 2023/606, gjelder som lov med de endringer og tillegg som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.(2) Når det i loven her vises til ELTIF-forordningen, menes forordningen slik den til enhver tid er gjennomført og endret etter første eller tredje ledd.(3) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen.(4) Departementet kan i forskrift gi nærmere regler om ikke-samarbeidsvillige jurisdiksjoner for skattemessige formål som nevnt i forordning (EU) 2015/760 artikkel 11.
+> § 1a-3. Gjennomføring av ELTIF-forordningen
 >
-> § 1a-3.Gjennomføring av ELTIF-forordningen
+> (1) EØS-avtalen vedlegg IX forordning (EU) 2015/760 (om europeiske langsiktige investeringsfond (ELTIF-forordningen)), som endret ved forordning (EU) 2023/606, gjelder som lov med de endringer og tillegg som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+> (2) Når det i loven her vises til ELTIF-forordningen, menes forordningen slik den til enhver tid er gjennomført og endret etter første eller tredje ledd.
+>
+> (3) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen.
+>
+> (4) Departementet kan i forskrift gi nærmere regler om ikke-samarbeidsvillige jurisdiksjoner for skattemessige formål som nevnt i forordning (EU) 2015/760 artikkel 11.
 >
 
 ## § 1a-5

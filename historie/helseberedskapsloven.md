@@ -108,6 +108,36 @@ refid: "lov/2000-06-23-56"
 
 ## (annet)
 
+### 2010-04-16 — forskrift/2010-04-16-521
+
+*Fullmaktene i lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap jf. lovens § 3-1, § 4-1, § 5-1 og § 5-2 kommer til anvendelse, jf. lovens § 1-5 nr. 2.*
+
+> Fullmaktene i lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap jf. lovens § 3-1, § 4-1, § 5-1 og § 5-2 kommer til anvendelse, jf. lovens § 1-5 nr. 2.
+>
+> Fullmaktene får virkning fra og med 16. april 2010 og gjelder inntil 14 dager.
+>
+
+### 2013-06-14 — lov/2013-06-14-39
+
+*I lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap skal § 2-2 første ledd lyde:*
+
+> Kommuner, fylkeskommuner, regionale helseforetak og staten plikter å utarbeide en beredskapsplan for de helse- og omsorgstjenester eller sosialtjenester de skal sørge for et tilbud av eller er ansvarlige for. Kommuner skal også utarbeide beredskapsplan for sine oppgaver etter folkehelseloven kapittel 3. Beredskapsplanen skal også omfatte tjenester som etter lov eller avtale tilbys av private virksomheter som en del av de respektive tjenester. Det skal også i nødvendig utstrekning utarbeides delplaner for aktuelle institusjoner og tjenesteområder.
+>
+
+### 2018-12-20 — lov/2018-12-20-113
+
+*I lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap skal § 2-4 første ledd første punktum lyde:*
+
+> Folkehelseinstituttet, Helsedirektoratet og Direktoratet for strålevern og atomsikkerhet kan etablere registre med helseopplysninger for å håndtere beredskapssituasjoner.
+>
+
+### 2020-05-07 — forskrift/2020-05-07-949
+
+*Delt ikraftsetting av loven. Loven § 17 nr. 1 trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven § 17 nr. 1 trer i kraft straks.
+>
+
 ### 2024-01-12 — lov/2024-01-12-3
 
 *I § 1-3 første ledd skal bokstav g, bokstav h, og ny bokstav i lyde:*

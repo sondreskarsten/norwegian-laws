@@ -47,9 +47,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 2-1 skal lyde:*
 
-> § 2-1.Formues- og inntektsskatt, Jan Mayen-skatt, artistskatt, arbeidsgiveravgift, finansskatt på lønn, merverdiavgift og suppleringsskattSkattekontoret, Skattedirektoratet, Skatteklagenemnda og sekretariatet for Skatteklagenemnda er myndigheter for formues- og inntektsskatt, Jan Mayen-skatt, artistskatt, arbeidsgiveravgift, finansskatt på lønn, merverdiavgift og suppleringsskatt.
+> § 2-1. Formues- og inntektsskatt, Jan Mayen-skatt, artistskatt, arbeidsgiveravgift, finansskatt på lønn, merverdiavgift og suppleringsskatt
 >
-> § 2-1.Formues- og inntektsskatt, Jan Mayen-skatt, artistskatt, arbeidsgiveravgift, finansskatt på lønn, merverdiavgift og suppleringsskatt
+> Skattekontoret, Skattedirektoratet, Skatteklagenemnda og sekretariatet for Skatteklagenemnda er myndigheter for formues- og inntektsskatt, Jan Mayen-skatt, artistskatt, arbeidsgiveravgift, finansskatt på lønn, merverdiavgift og suppleringsskatt.
 >
 
 ## § 2-2
@@ -178,6 +178,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 3-6 nytt fjerde ledd skal lyde:*
 
+> (4) Taushetsplikten etter § 3-1 er ikke til hinder for at pensjonsinnretning gis tilgang til nødvendige lønnsopplysninger som er gitt etter § 7-2 og pensjonsgivende inntekt, til bruk i arbeidet med avtalefestet pensjon i kommunal sektor for arbeidstakere født i 1963 eller senere.
+>
+
 ## § 3-9
 
 ### 2018-12-20 — lov/2018-12-20-110
@@ -250,6 +253,9 @@ refid: "lov/2016-05-27-14"
 ### 2024-01-01 — lov/2024-01-12-7
 
 *§ 5-6 første ledd skal lyde:*
+
+> (1) Før enkeltvedtak treffes, skal den vedtaket retter seg mot varsles med en passende frist for å uttale seg om saken. Den som har klagerett etter § 13-2, skal varsles om vedtak som nevnt i denne bestemmelsen. Fristen for å uttale seg er seks måneder i saker om Safe Harbour-regler gitt i medhold av suppleringsskatteloven § 5-7.
+>
 
 ## § 5-11
 
@@ -425,9 +431,15 @@ refid: "lov/2016-05-27-14"
 
 *§ 7-5 syvende ledd skal lyde:*
 
+> (7) Formidler av drosjetjenester og driftsansvarlig for kontrollutrustning skal gi opplysninger fra skiftlappen for løyvehavere som er tilknyttet virksomheten eller kontrollutrustningen. Departementet kan gi forskrift om at formidlere av drosjetjenester som anvender digitale plattformer, skal ha plikter etter § 7-11.
+>
+
 ### 2025-06-20 — lov/2025-06-20-64
 
 *§ 7-5 åttende ledd skal lyde:*
+
+> (8) For den som formidler utleie av fast eiendom hvor betaling for formidlingen er knyttet til gjennomførte transaksjoner, gjelder opplysningsplikten etter § 7-11 tilsvarende dersom formidlingen ikke har skjedd gjennom en digital plattform. Det samme gjelder for den som på vegne av utleier inngår kontrakt om utleie av fast eiendom hvor betaling for tjenesten er knyttet til gjennomførte transaksjoner.
+>
 
 ### 2025-06-20 — lov/2025-06-20-64
 
@@ -488,6 +500,9 @@ refid: "lov/2016-05-27-14"
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 7-9 andre ledd skal lyde:*
+
+> (2) Innkrevingsmyndigheten skal gi opplysninger til skattemyndighetene om bidragspliktiges gjeld i forbindelse med pliktig underholdsbidrag og andre mellomværender med Innkrevingsmyndigheten.
+>
 
 ## § 7-10
 
@@ -559,9 +574,11 @@ refid: "lov/2016-05-27-14"
 
 *§ 7-11 skal lyde:*
 
-> § 7-11.Salg av tjenester og utleie gjennom digitale plattformer(1) Digitale plattformer skal gi opplysninger om salg av tjenester, utleie av fast eiendom og utleie av transportmidler som formidles gjennom plattformen mot vederlag. Det skal blant annet gis opplysninger om utleieren eller tjenesteyteren, om det formidlingen gjelder og om vederlaget.(2) Digitale plattformer skal identifisere utleiere og tjenesteytere. Departementet kan gi forskrift om framgangsmåten ved slik identifisering, herunder om hvilke opplysninger plattformen skal innhente. Det kan gis forskrift om konsekvensene av at den digitale plattformen ikke får opplysninger fra utleieren eller tjenesteyteren, herunder om plikt for plattformen til å utelukke denne fra tjenesten eller å holde tilbake vederlag. Det kan også gis forskrift om at den digitale plattformen skal oppbevare opplysninger og dokumentasjon benyttet i forbindelse med identifisering.
+> § 7-11. Salg av tjenester og utleie gjennom digitale plattformer
 >
-> § 7-11.Salg av tjenester og utleie gjennom digitale plattformer
+> (1) Digitale plattformer skal gi opplysninger om salg av tjenester, utleie av fast eiendom og utleie av transportmidler som formidles gjennom plattformen mot vederlag. Det skal blant annet gis opplysninger om utleieren eller tjenesteyteren, om det formidlingen gjelder og om vederlaget.
+>
+> (2) Digitale plattformer skal identifisere utleiere og tjenesteytere. Departementet kan gi forskrift om framgangsmåten ved slik identifisering, herunder om hvilke opplysninger plattformen skal innhente. Det kan gis forskrift om konsekvensene av at den digitale plattformen ikke får opplysninger fra utleieren eller tjenesteyteren, herunder om plikt for plattformen til å utelukke denne fra tjenesten eller å holde tilbake vederlag. Det kan også gis forskrift om at den digitale plattformen skal oppbevare opplysninger og dokumentasjon benyttet i forbindelse med identifisering.
 >
 
 ## § 7-12
@@ -577,9 +594,15 @@ refid: "lov/2016-05-27-14"
 
 *§ 7-12 skal lyde:*
 
-> § 7-12.Kryptoeiendeler(1) Vekslings- og oppbevaringstjenester skal gi opplysninger om kryptoeiendeler og andre finansielle forhold. Departementet kan gi forskrift om hva som regnes som kryptoeiendel, og nærmere avgrensninger av hvilke tilbydere av vekslings- og oppbevaringstjenester som er opplysningspliktige.(2) For den enkelte bruker av tjenesten skal det blant annet gis opplysninger omvekslinger mellom kryptoeiendeler og offisiell valutavekslinger mellom kryptoeiendeleroverføringer av kryptoeiendeler som vederlag for kjøp eller salg av varer eller tjenesterannen veksling eller overføring av kryptoeiendeler som ikke er dekket av bokstav a, b eller cinnestående verdier.Departementet kan gi forskrift om hvilke opplysninger som skal gis, hvilke brukere det skal gis opplysninger om og beregning av markedsverdien av kryptoeiendeler og utenlandsk valuta.(3) Opplysningspliktige skal identifisere brukere av tjenesten. For brukere som er juridiske personer, skal opplysningspliktige også identifisere reelle rettighetshavere. Departementet kan gi forskrift om hvilke opplysninger som skal gis, og framgangsmåten ved slik identifisering, herunder om innhenting av egenerklæring om skattemessig bosted mv. Det kan gis forskrift om konsekvensene av at framgangsmåten ikke blir fulgt, herunder at det ikke kan gjennomføres overføringer eller transaksjoner på vegne av brukeren. Det kan også gis forskrift om at opplysningspliktige skal oppbevare opplysninger og dokumentasjon benyttet i forbindelse med identifisering og overføring.(4) Dersom opplysningspliktige etter denne bestemmelsen innretter seg for å unngå at opplysninger blir utvekslet etter overenskomst med fremmed stat, skal pliktene etter denne bestemmelsen likevel gjelde. Opplysningspliktige som har grunn til å tro at bruker eller annen person har innrettet seg for å unngå at opplysninger blir utvekslet etter overenskomst med fremmed stat, skal foreta undersøkelser for å avkrefte eller bekrefte mistanken. Dersom mistanken ikke kan avkreftes, skal den opplysningspliktige gi de opplysningene som foreligger, herunder om de forholdene som har medført mistanke.
+> § 7-12. Kryptoeiendeler
 >
-> § 7-12.Kryptoeiendeler
+> (1) Vekslings- og oppbevaringstjenester skal gi opplysninger om kryptoeiendeler og andre finansielle forhold. Departementet kan gi forskrift om hva som regnes som kryptoeiendel, og nærmere avgrensninger av hvilke tilbydere av vekslings- og oppbevaringstjenester som er opplysningspliktige.
+>
+> (2) For den enkelte bruker av tjenesten skal det blant annet gis opplysninger omvekslinger mellom kryptoeiendeler og offisiell valutavekslinger mellom kryptoeiendeleroverføringer av kryptoeiendeler som vederlag for kjøp eller salg av varer eller tjenesterannen veksling eller overføring av kryptoeiendeler som ikke er dekket av bokstav a, b eller cinnestående verdier.Departementet kan gi forskrift om hvilke opplysninger som skal gis, hvilke brukere det skal gis opplysninger om og beregning av markedsverdien av kryptoeiendeler og utenlandsk valuta.
+>
+> (3) Opplysningspliktige skal identifisere brukere av tjenesten. For brukere som er juridiske personer, skal opplysningspliktige også identifisere reelle rettighetshavere. Departementet kan gi forskrift om hvilke opplysninger som skal gis, og framgangsmåten ved slik identifisering, herunder om innhenting av egenerklæring om skattemessig bosted mv. Det kan gis forskrift om konsekvensene av at framgangsmåten ikke blir fulgt, herunder at det ikke kan gjennomføres overføringer eller transaksjoner på vegne av brukeren. Det kan også gis forskrift om at opplysningspliktige skal oppbevare opplysninger og dokumentasjon benyttet i forbindelse med identifisering og overføring.
+>
+> (4) Dersom opplysningspliktige etter denne bestemmelsen innretter seg for å unngå at opplysninger blir utvekslet etter overenskomst med fremmed stat, skal pliktene etter denne bestemmelsen likevel gjelde. Opplysningspliktige som har grunn til å tro at bruker eller annen person har innrettet seg for å unngå at opplysninger blir utvekslet etter overenskomst med fremmed stat, skal foreta undersøkelser for å avkrefte eller bekrefte mistanken. Dersom mistanken ikke kan avkreftes, skal den opplysningspliktige gi de opplysningene som foreligger, herunder om de forholdene som har medført mistanke.
 >
 
 ## § 7-13
@@ -594,6 +617,9 @@ refid: "lov/2016-05-27-14"
 ### 2025-12-22 — lov/2025-12-22-122
 
 *§ 7-13 første ledd skal lyde:*
+
+> (1) Departementet kan gi forskrift om det nærmere innholdet i opplysningsplikten etter dette kapitlet, hvordan opplysninger skal gis, signatur, leveringsfrist og leveringssted, bekreftelse av opplysninger fra revisor samt om fritak fra å levere melding etter dette kapitlet.
+>
 
 ## § 8-2
 
@@ -654,6 +680,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 8-2 femte ledd skal lyde:*
 
+> (5) Skattepliktig som bare har inntekt som skattlegges etter kapittel 20 i skatteloven (kildeskatteordning), er fritatt fra å levere skattemelding.
+>
+
 ## § 8-3
 
 ### 2017-06-21 — lov/2017-06-21-86
@@ -676,6 +705,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 8-4 første ledd skal lyde:*
 
+> (1) Den som er eller skal være registrert i Særavgiftsregisteret, skal levere skattemelding med opplysninger om uttak fra virksomhetens registrerte lokale av avgiftspliktige varer, uttak av varer som er fritatt for avgift, innførte varer som ikke er lagt på registrert lokale, og andre opplysninger som har betydning for fastsetting av særavgifter.
+>
+
 ### 2026-06-19 — lov/2026-06-19-41
 
 *§ 8-4 andre ledd bokstav b skal lyde:*
@@ -694,9 +726,15 @@ refid: "lov/2016-05-27-14"
 
 *§ 8-4 femte ledd skal lyde:*
 
+> (5) Skattepliktig som ikke er registrert i Særavgiftsregisteret, skal levere skattemelding med opplysninger som har betydning for fastsettingen av særavgift som oppstår ved innførsel.
+>
+
 ### 2026-06-19 — lov/2026-06-19-41
 
 *§ 8-4 sjette ledd skal lyde:*
+
+> (6) Den som er skattepliktig for engangsavgift på motorvogner mv., avgift på tunge kjøretøy og omregistreringsavgift, skal levere skattemelding med opplysninger om bruk eller endring av motorvognen og andre opplysninger som har betydning for fastsetting av avgiften. Dette gjelder likevel ikke når den skattepliktige har gitt riktige og fullstendige opplysninger til vegmyndighetene.
+>
 
 ## § 8-5
 
@@ -755,6 +793,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 8-8 første ledd skal lyde:*
 
+> (1) Arbeidsgivere som skal foreta lønnstrekk for skatt etter Svalbardskatteloven § 3-1, Jan Mayen-skatteloven § 1 og skatteloven kapittel 20 (kildeskatteordning), skal levere melding om foretatt lønnstrekk etter reglene i a-opplysningsloven.
+>
+
 ## § 8-11
 
 ### 2017-06-21 — lov/2017-06-21-86
@@ -805,9 +846,15 @@ refid: "lov/2016-05-27-14"
 
 *§ 8-14 skal lyde:*
 
-> § 8-14.Skattemelding og melding for suppleringsskatt(1) Skattepliktig som skal svare skatt etter suppleringsskatteloven skal levere skattemelding med opplysninger om beregning av skatten og andre opplysninger som har betydning for fastsetting av denne etter § 9-1 første ledd og § 9-2 første ledd.(2) Konsernenheter som er lokalisert i Norge som er omfattet av suppleringsskatteloven, skal levere melding med opplysninger om og beregning av suppleringsskatt. Meldingen kan blant annet inneholde informasjon om samtlige enheter i konsernet og opplysninger som er nødvendige for å beregne suppleringsskatt i andre jurisdiksjoner. Meldingen skal utarbeides på engelsk.(3) Plikten etter annet ledd gjelder ikke hvis opplysningene er gitt av øverste morselskap i konsernet, eller en rapporterende konsernenhet, og det er lokalisert i en jurisdiksjon Norge har informasjonsutvekslingsavtale med for den aktuelle skattleggingsperioden.(4) Konsernenheter i Norge skal gi notifikasjon om hvilken konsernenhet som skal gi opplysningene som nevnt i tredje ledd, og i hvilken jurisdiksjon enheten er lokalisert. Denne opplysningsplikten gjelder ikke hvis notifikasjon er gitt av annen norsk konsernenhet, dersom det i notifikasjonen også opplyses om hvilke konsernenheter det gis notifikasjon på vegne av.
+> § 8-14. Skattemelding og melding for suppleringsskatt
 >
-> § 8-14.Skattemelding og melding for suppleringsskatt
+> (1) Skattepliktig som skal svare skatt etter suppleringsskatteloven skal levere skattemelding med opplysninger om beregning av skatten og andre opplysninger som har betydning for fastsetting av denne etter § 9-1 første ledd og § 9-2 første ledd.
+>
+> (2) Konsernenheter som er lokalisert i Norge som er omfattet av suppleringsskatteloven, skal levere melding med opplysninger om og beregning av suppleringsskatt. Meldingen kan blant annet inneholde informasjon om samtlige enheter i konsernet og opplysninger som er nødvendige for å beregne suppleringsskatt i andre jurisdiksjoner. Meldingen skal utarbeides på engelsk.
+>
+> (3) Plikten etter annet ledd gjelder ikke hvis opplysningene er gitt av øverste morselskap i konsernet, eller en rapporterende konsernenhet, og det er lokalisert i en jurisdiksjon Norge har informasjonsutvekslingsavtale med for den aktuelle skattleggingsperioden.
+>
+> (4) Konsernenheter i Norge skal gi notifikasjon om hvilken konsernenhet som skal gi opplysningene som nevnt i tredje ledd, og i hvilken jurisdiksjon enheten er lokalisert. Denne opplysningsplikten gjelder ikke hvis notifikasjon er gitt av annen norsk konsernenhet, dersom det i notifikasjonen også opplyses om hvilke konsernenheter det gis notifikasjon på vegne av.
 >
 
 ## § 8-15
@@ -853,13 +900,24 @@ refid: "lov/2016-05-27-14"
 
 *§ 9-1 tredje ledd skal lyde:*
 
+> (3) Trekkpliktige fastsetter grunnlaget for skatt av inntekt etter skatteloven kapittel 20 (kildeskatteordning), artistskatt, skatt av renter og vederlag for bruk av eller retten til å bruke immaterielle rettigheter og skip, fartøy, rigger mv., fly og helikopter etter skatteloven §§ 10-80 og 10-81, skatt av utbytte og uttak fra aksjesparekonto som er skattepliktig etter skatteloven § 10-13, og skatt som skal beregnes etter Svalbardskatteloven § 3-1, ved levering av melding om trekk som nevnt i § 8-8.
+>
+
 ### 2024-01-01 — lov/2024-01-12-7
 
 *§ 9-1 første ledd skal lyde:*
 
+> (1) Skattepliktige fastsetter grunnlaget for formues- og inntektsskatt, petroleumsskatt, merverdiavgift, arbeidsgiveravgift, finansskatt på lønn, særavgifter, svalbardskatt etter Svalbardskatteloven § 3-2, merverdiavgiftskompensasjon og suppleringsskatt ved levering av skattemelding som nevnt i kapittel 8.
+>
+
 ### 2026-06-19 — lov/2026-06-19-41
 
 *§ 9-1 første og andre ledd skal lyde:*
+
+> (1) Skattepliktige fastsetter grunnlaget for formues- og inntektsskatt, petroleumsskatt, merverdiavgift, arbeidsgiveravgift, finansskatt på lønn, svalbardskatt etter Svalbardskatteloven § 3-2, merverdiavgiftskompensasjon, suppleringsskatt og særavgifter unntatt dokumentavgift og avgiftene nevnt i annet ledd ved levering av skattemelding som nevnt i kapittel 8.
+>
+> (2) Skattemyndighetene fastsetter grunnlaget for engangsavgift på motorvogner mv., avgift på tunge kjøretøy og omregistreringsavgift.
+>
 
 ## § 9-2
 
@@ -888,13 +946,22 @@ refid: "lov/2016-05-27-14"
 
 *§ 9-2 annet ledd skal lyde:*
 
+> (2) Trekkpliktige beregner skatt av inntekt etter skatteloven kapittel 20 (kildeskatteordning), artistskatt, skatt av renter og vederlag for bruk av eller retten til å bruke immaterielle rettigheter og skip, fartøy, rigger mv., fly og helikopter etter skatteloven §§ 10-80 og 10-81, skatt av utbytte som er skattepliktig etter skatteloven § 10-13, og skatt som skal beregnes etter Svalbardskatteloven § 3-1, av grunnlaget som er fastsatt etter § 9-1 tredje ledd.
+>
+
 ### 2024-01-01 — lov/2024-01-12-7
 
 *§ 9-2 første ledd skal lyde:*
 
+> (1) Skattepliktige beregner merverdiavgift, arbeidsgiveravgift, finansskatt på lønn, særavgifter, merverdiavgiftskompensasjon og suppleringsskatt av grunnlaget som er fastsatt etter § 9-1 første ledd.
+>
+
 ### 2026-06-19 — lov/2026-06-19-41
 
 *§ 9-2 første ledd skal lyde:*
+
+> (1) Skattepliktige beregner merverdiavgift, arbeidsgiveravgift, finansskatt på lønn, merverdiavgiftskompensasjon, suppleringsskatt og særavgifter unntatt dokumentavgift, engangsavgift på motorvogner mv., avgift på tunge kjøretøy og omregistreringsavgift av grunnlaget som er fastsatt etter § 9-1 første ledd.
+>
 
 ## § 9-4
 
@@ -1034,6 +1101,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 10-8 første ledd skal lyde:*
 
+> (1) Skattemyndighetene, tollmyndighetene, Statens vegvesen og politiet kan når som helst uten varsel kontrollere motorvogner for å påse at bestemmelsene om avgift på tunge kjøretøy og engangsavgift på motorvogner mv. og bruk av merket biodiesel og merket mineralolje blir overholdt.
+>
+
 ## § 10-9
 
 ### 2016-12-20 — lov/2016-12-20-120
@@ -1119,9 +1189,7 @@ refid: "lov/2016-05-27-14"
 
 *§ 11-2 første ledd skal lyde:*
 
-> aksjeselskap der det er truffet beslutning i medhold av aksjeloven § 7-6
->
-> selskap som nevnt i regnskapsloven § 1-2 første ledd nr. 13, som er organisert etter en utenlandsk selskapsform som i det vesentligste tilsvarer definisjonen av aksjeselskap i aksjeloven § 1-1 annet ledd, og som ikke har revisjonsplikt etter revisorloven § 2-1.
+> (1) Når skattepliktiges årsregnskap er fastsatt i strid med bestemmelser gitt i eller i medhold av regnskapsloven eller bokføringsloven eller god regnskapsskikk eller bokføringsskikk, kan skattemyndighetene gi pålegg om at ett eller flere årsregnskap skal revideres av en statsautorisert revisor i samsvar med bestemmelsene i revisorloven foraksjeselskap der det er truffet beslutning i medhold av aksjeloven § 7-6selskap som nevnt i regnskapsloven § 1-2 første ledd nr. 13, som er organisert etter en utenlandsk selskapsform som i det vesentligste tilsvarer definisjonen av aksjeselskap i aksjeloven § 1-1 annet ledd, og som ikke har revisjonsplikt etter revisorloven § 2-1.
 >
 
 ## § 12-1
@@ -1253,6 +1321,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 14-1 tredje ledd skal lyde:*
 
+> (3) Skattemyndighetene kan redusere eller frafalle påløpt mulkt som følge av særlige grunner som forelå ved ileggelsen.
+>
+
 ### 2025-06-20 — lov/2025-06-20-64
 
 *§ 14-1 første ledd tredje punktum skal lyde:*
@@ -1339,9 +1410,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 14-12 skal lyde:*
 
-> § 14-12.Kompensasjon for urimelig lang saksbehandlingstidDepartementet kan gi forskrift om utmåling av kompensasjon dersom tilleggsskatt eller overtredelsesgebyr ikke er fastsatt, frafalt eller henlagt innen rimelig tid, herunder hvilken periode kompensasjon skal gis for, hvordan kompensasjon skal gis, hvordan kompensasjon skal utmåles og størrelsen på kompensasjonen.
+> § 14-12. Kompensasjon for urimelig lang saksbehandlingstid
 >
-> § 14-12.Kompensasjon for urimelig lang saksbehandlingstid
+> Departementet kan gi forskrift om utmåling av kompensasjon dersom tilleggsskatt eller overtredelsesgebyr ikke er fastsatt, frafalt eller henlagt innen rimelig tid, herunder hvilken periode kompensasjon skal gis for, hvordan kompensasjon skal gis, hvordan kompensasjon skal utmåles og størrelsen på kompensasjonen.
 >
 
 ## § 14-13
@@ -1371,6 +1442,9 @@ refid: "lov/2016-05-27-14"
 ### 2025-06-20 — lov/2025-06-20-59
 
 *§ 15-1 nytt tredje ledd skal lyde:*
+
+> (3) Skattemyndighetene skal varsle kommunen dersom den skattepliktige går til søksmål om vedtak som har betydning for utskrivingen av eiendomsskatt på kraftanlegg.
+>
 
 ## § 15-2
 
@@ -1588,6 +1662,13 @@ refid: "lov/2016-05-27-14"
 > (4) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.
 >
 
+### 2017-12-19 — lov/2017-12-19-122
+
+*I lov 27. mai 2016 nr. 14 om skatteforvaltning (skatteforvaltningsloven) skal § 7-9 annet ledd lyde:*
+
+> (2) Innkrevingssentralen for bidrag og tilbakebetalingskrav skal gi opplysninger til skattemyndighetene om pliktig underholdsbidrag mottatt fra bidragspliktige, om de bidragspliktiges gjeld og andre mellomværender med innkrevingssentralen.
+>
+
 ### 2017-12-19 — lov/2017-12-19-128
 
 *Nåværende fjerde punktum blir nytt femte punktum.*
@@ -1600,9 +1681,39 @@ refid: "lov/2016-05-27-14"
 
 *Nåværende åttende ledd blir nytt tiende ledd.*
 
+### 2019-06-21 — lov/2019-06-21-25
+
+*I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 3-6 andre ledd lyde:*
+
+> Taushetsplikten etter § 3-1 er ikke til hinder for at pensjonsinnretning som har offentlig tjenestepensjon eller tjenestepensjon etter foretakspensjonsloven, innskuddspensjonsloven eller tjenestepensjonsloven, gis tilgang til opplysninger om pensjonsgivende inntekt for personer som mottar uførepensjon eller avtalefestet pensjon fra innretningen.
+>
+
+### 2020-12-18 — lov/2020-12-18-161
+
+*I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 7-5 syvende ledd lyde:*
+
+> (7) Formidler av drosjetjenester og driftsansvarlig for kontrollutrustning skal gi opplysninger fra skiftlappen for løyvehavere som er tilknyttet virksomheten eller kontrollutrustningen.
+>
+
+### 2021-04-30 — lov/2021-04-30-28
+
+*I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 8-13 tredje ledd lyde:*
+
+> (3) Den som er utpekt etter regler i eller i medhold av konkursloven §§ 79 og 138, skal levere melding om åpning og avslutning av behandlingen av konkursboet til en registrert skattepliktig.
+>
+
 ### 2021-12-22 — lov/2021-12-22-158
 
 *Nåværende § 5-11 blir ny § 5-12.*
+
+### 2022-01-01 — forskrift/2021-12-22-3804
+
+*Delt ikraftsetting av lov om endringer i skatteforvaltningsloven. Følgende trer i kraft 1. januar 2022:*
+
+> Delt ikraftsetting av lov om endringer i skatteforvaltningsloven. Følgende trer i kraft 1. januar 2022:
+>
+> Endringsloven del II.
+>
 
 ### 2023-12-20 — lov/2023-12-20-105
 
@@ -1620,6 +1731,9 @@ refid: "lov/2016-05-27-14"
 
 *I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 3-5 andre ledd lyde:*
 
+> (2) Opplysninger som skattemyndighetene får i henhold til § 8-10, kan gis til Energidepartementet uten hinder av taushetsplikten.
+>
+
 ### 2024-05-31 — lov/2024-05-31-25
 
 *I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 3-10 første punktum lyde:*
@@ -1631,9 +1745,9 @@ refid: "lov/2016-05-27-14"
 
 *10.I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 3-9 lyde:*
 
-> § 3-9.Utlevering av opplysninger til AdvokattilsynetTaushetsplikten etter § 3-1 er ikke til hinder for at opplysninger gis til Advokattilsynet til bruk for tilsynsformål.
+> § 3-9. Utlevering av opplysninger til Advokattilsynet
 >
-> § 3-9.Utlevering av opplysninger til Advokattilsynet
+> Taushetsplikten etter § 3-1 er ikke til hinder for at opplysninger gis til Advokattilsynet til bruk for tilsynsformål.
 >
 
 ### 2025-06-20 — lov/2025-06-20-59
@@ -1647,6 +1761,9 @@ refid: "lov/2016-05-27-14"
 ### 2025-12-22 — lov/2025-12-22-117
 
 *I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 3-6 nytt femte ledd lyde:*
+
+> (5) Taushetsplikten etter § 3-1 er ikke til hinder for at pensjonsinnretning gis tilgang til nødvendige lønnsopplysninger som er gitt etter § 7-2, og opplysninger om pensjonsgivende inntekt, til bruk i arbeidet med tidligpensjon og særalderspåslag og etteroppgjør i kommunal sektor for arbeidstakere født i 1963 eller senere.
+>
 
 ### 2026-06-19 — lov/2026-06-19-41
 

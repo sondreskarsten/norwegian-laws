@@ -5,6 +5,15 @@ refid: "lov/2005-12-21-124"
 
 # Endringshistorikk: OTP-loven
 
+## (annet)
+
+### 2015-05-22 — lov/2015-05-22-31
+
+*I lov 21. desember 2005 nr. 124 om obligatorisk tjenestepensjon skal § 4 tredje ledd lyde:*
+
+> (3) Det skal i regelverket for pensjonsordningen fastsettes at det for medlemmer som blir uføre, skal være innskuddsfritak ved uførhet i samsvar med uføregraden dersom uføregraden er 20 prosent eller mer. Uføregraden fastsettes etter reglene i tjenestepensjonsloven § 8-4. Innskuddsfritaket løper så lenge uføregraden er 20 prosent eller mer, men ikke lenger enn til medlemmet fyller 67 år. Samlet opptjening av rett til alderspensjon på grunnlag av arbeidsinntekt og innskuddsfritak skal ikke på noe tidspunkt overstige opptjening svarende til 100 prosent av full stilling. Foretaket skal dekke premiekostnadene ved innskuddsfritak ved uførhet i tillegg til innskudd etter første ledd.
+>
+
 ## § 2
 
 ### 2021-01-01 — lov/2020-12-21-167

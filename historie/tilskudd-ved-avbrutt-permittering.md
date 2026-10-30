@@ -11,6 +11,9 @@ refid: "lov/2020-06-23-99"
 
 *§ 16 første ledd skal lyde:*
 
+> (1) Krav på tilbakebetaling av uriktig utbetalt tilskudd og administrative sanksjoner betales til og innkreves av Innkrevingsmyndigheten.
+>
+
 ## § 2
 
 ### 2020-10-23 — lov/2020-10-23-117

@@ -199,9 +199,55 @@ refid: "lov/2008-05-15-35"
 > Tilbakekall av oppholdsdokumenter mv.
 >
 
+### 2010-01-01 — forskrift/2009-12-04-1442
+
+*Delvis ikraftsetting av lov 8. mai 2009 nr. 23 om endringer i utlendingsloven (krav om at referansepersoner må ha fire års arbeid eller utdanning i Norge for at søkeren skal ha rett til familieetablering).*
+
+> Delvis ikraftsetting av lov 8. mai 2009 nr. 23 om endringer i utlendingsloven (krav om at referansepersoner må ha fire års arbeid eller utdanning i Norge for at søkeren skal ha rett til familieetablering).
+>
+> Lovens del II, med unntak av endringen i utlendingsloven § 42 annet ledd, skal gjelde fra 1. januar 2010.
+>
+
+### 2010-01-08 — forskrift/2010-01-08-3
+
+*Ikraftsetting av lov 18. desember 2009 nr. 132 om endringer i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her.*
+
+> Ikraftsetting av lov 18. desember 2009 nr. 132 om endringer i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her.
+>
+> Loven trer i kraft straks.
+>
+
+### 2010-03-12 — forskrift/2010-03-12-363
+
+*Delvis ikraftsetting av lov 19. juni 2009 nr. 38 om endringer i utlendingsloven 1988 og utlendingsloven 2008 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS) mv. Lovens del II, endringen i utlendingsloven § 102f, trer i kraft straks.*
+
+> Delvis ikraftsetting av lov 19. juni 2009 nr. 38 om endringer i utlendingsloven 1988 og utlendingsloven 2008 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS) mv. Lovens del II, endringen i utlendingsloven § 102f, trer i kraft straks.
+>
+
+### 2010-12-24 — forskrift/2010-12-17-1612
+
+*Loven gjelder fra 24. desember 2010.*
+
+> Loven gjelder fra 24. desember 2010.
+>
+
+### 2011-10-11 — forskrift/2011-10-07-998
+
+*Delvis ikraftsetting av lov 19. juni 2009 nr. 38 om endringer i utlendingsloven 1988 og utlendingsloven 2008 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS) mv. Lovens del II, endringer i utlendingsloven § 102 – § 102e, trer i kraft 11. oktober 2011.*
+
+> Delvis ikraftsetting av lov 19. juni 2009 nr. 38 om endringer i utlendingsloven 1988 og utlendingsloven 2008 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS) mv. Lovens del II, endringer i utlendingsloven § 102 – § 102e, trer i kraft 11. oktober 2011.
+>
+
 ### 2012-01-20 — lov/2012-01-20-5
 
 *Nåværende annet, tredje og fjerde ledd blir tredje, fjerde og femte ledd.*
+
+### 2012-03-01 — forskrift/2012-01-06-4
+
+*Loven trer i kraft 1. mars 2012.*
+
+> Loven trer i kraft 1. mars 2012.
+>
 
 ### 2012-04-13 — lov/2012-04-13-15
 
@@ -254,6 +300,48 @@ refid: "lov/2008-05-15-35"
 > Representantens oppdrag opphører nården mindreårige fyller 18 år eller anses å være over 18 år i vedtak fra Utlendingsdirektoratet,den mindreårige innvilges oppholdstillatelse som danner grunnlag for permanent oppholdstillatelse, og det er oppnevnt verge etter vergemålslovens bestemmelser,den mindreårige varig forlater landet,den mindreåriges foreldre eller andre med foreldreansvar kommer til Norge, eller på annen måte blir i stand til å utøve foreldreansvaret, ellervilkårene for oppnevnelsen for øvrig ikke lenger er til stede.
 >
 > En oppnevnt representant kan med rimelig varsel til fylkesmannen kreve å bli løst fra oppdraget som representant. Fylkesmannen kan frata en oppnevnt representant oppdraget dersom hensynet til den mindreåriges beste tilsier det. Representantens oppdrag opphører ikke før en ny representant er oppnevnt.
+>
+
+### 2012-05-01 — forskrift/2012-04-13-327
+
+*Føresegna i utlendingslova § 77 tredje ledd gjeld frå 1. mai 2012.*
+
+> Føresegna i utlendingslova § 77 tredje ledd gjeld frå 1. mai 2012.
+>
+
+### 2012-05-20 — forskrift/2012-05-04-401
+
+*Lov 20. april 2012 nr. 17 om endringer i utlendingsloven (innføring av Schengen-standardisert oppholdskort med biometri) trer i kraft fra 20. mai 2012.*
+
+> Lov 20. april 2012 nr. 17 om endringer i utlendingsloven (innføring av Schengen-standardisert oppholdskort med biometri) trer i kraft fra 20. mai 2012.
+>
+
+### 2012-06-23 — forskrift/2012-06-22-577
+
+*Loven gjelder fra 23. juni 2012.*
+
+> Loven gjelder fra 23. juni 2012.
+>
+
+### 2012-07-01 — forskrift/2012-06-22-583
+
+*Loven trer i kraft 1. juli 2012 med unntak av del I § 28 første ledd bokstav a, som trer i kraft 1. september 2012.*
+
+> Loven trer i kraft 1. juli 2012 med unntak av del I § 28 første ledd bokstav a, som trer i kraft 1. september 2012.
+>
+
+### 2012-09-01 — forskrift/2012-06-22-584
+
+*Ikraftsetting av lov 20. januar 2012 nr. 5 om endringer i utlendingsloven m.m. (høring av barn mv.). Lovens del I, endring i utlendingsloven § 30, trer i kraft 1. september 2012.*
+
+> Ikraftsetting av lov 20. januar 2012 nr. 5 om endringer i utlendingsloven m.m. (høring av barn mv.). Lovens del I, endring i utlendingsloven § 30, trer i kraft 1. september 2012.
+>
+
+### 2013-06-14 — lov/2013-06-14-32
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 27 andre ledd lyde:*
+
+> Arbeidstilsynet gir de påleggene og treffer de vedtakene ellers som er nødvendige for gjennomføringen av tilsyn etter første ledd. Arbeidsmiljøloven § 18-6 første, annet, sjette, sjuende og åttende ledd samt §§ 18-7, 18-8 og 18-10 får tilsvarende anvendelse ved tilsyn etter loven her. En eventuell oppdragsgiver skal også gjøres kjent med pålegg og andre enkeltvedtak.
 >
 
 ### 2013-06-21 — lov/2013-06-21-90
@@ -417,6 +505,109 @@ refid: "lov/2008-05-15-35"
 
 *Nåværende §§ 126 og 127 blir nye §§ 139 og 140 i kapittel 15.*
 
+### 2013-06-21 — forskrift/2013-06-21-709
+
+*Delt ikraftsetting. § 128a og § 7 fjerde ledd annet punktum og lovens del IV trer i kraft straks.*
+
+> Delt ikraftsetting. § 128a og § 7 fjerde ledd annet punktum og lovens del IV trer i kraft straks.
+>
+
+### 2013-07-01 — forskrift/2013-05-31-556
+
+*Ikraftsetting av lov 13. april 2012 nr. 15 om endringar i utlendingsloven (avvikling av åremålsordninga for nemndleiarar i Utlendingsnemnda og rett til representant for einslege, mindreårige asylsøkjarar). Loven trer i kraft 1. juli 2013.*
+
+> Ikraftsetting av lov 13. april 2012 nr. 15 om endringar i utlendingsloven (avvikling av åremålsordninga for nemndleiarar i Utlendingsnemnda og rett til representant for einslege, mindreårige asylsøkjarar). Loven trer i kraft 1. juli 2013.
+>
+
+### 2013-07-01 — forskrift/2013-06-21-711
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
+### 2013-07-01 — forskrift/2013-06-21-712
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
+### 2014-01-01 — forskrift/2013-12-17-1480
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
+>
+
+### 2014-04-04 — forskrift/2014-04-04-380
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2014-08-15 — lov/2014-08-15-57
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 97 lyde:*
+
+> § 97.Politiattest for ansatte i mottak (barneomsorgsattest)
+>
+> Den som skal ansettes i mottak, skal legge fram politiattest som nevnt i politiregisterloven § 39 første ledd. Det skal også kreves politiattest som nevnt i første punktum fra andre som skal utføre oppgaver for utlendingsmyndighetene, og som har direkte kontakt med mindreårige som oppholder seg i mottak. Attesten skal ikke være eldre enn tre måneder.
+>
+> Den som har vedtatt forelegg eller er dømt for seksuelle overgrep mot mindreårige, er utelukket fra å utføre arbeid i mottak eller oppgaver som omhandlet i første ledd annet punktum. I andre tilfeller må konsekvensene av merknader på politiattesten vurderes konkret.
+>
+> Kongen kan gi utfyllende forskrifter til bestemmelsen.
+>
+
+### 2014-09-01 — forskrift/2014-08-15-1080
+
+*Loven skal gjelde fra 1. september 2014.*
+
+> Loven skal gjelde fra 1. september 2014.
+>
+
+### 2015-01-01 — forskrift/2014-12-12-1673
+
+*Loven gjelder fra 1. januar 2015.*
+
+> Loven gjelder fra 1. januar 2015.
+>
+
+### 2015-01-01 — forskrift/2014-12-12-1700
+
+*Loven gjelder fra 1. januar 2015.*
+
+> Loven gjelder fra 1. januar 2015.
+>
+
+### 2015-01-09 — lov/2015-01-09-2
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven).
+>
+> I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal ny § 84 b lyde:
+>
+> § 84 b.
+>
+> Unntak fra taushetsplikt for ansatte i mottak og omsorgssentre mv.
+>
+> Ansatte som utfører arbeid eller tjeneste i mottak, skal etter anmodning gi utlendingsmyndighetene opplysninger om en beboer til bruk i sak etter loven her, herunder iverksetting av vedtak som innebærer at beboeren må reise ut av landet. De ansatte har adgang til å gi opplysninger om beboeren på eget initiativ. Opplysninger etter første og annet punktum kan gis uten hinder av reglene om taushetsplikt i forvaltningsloven §§ 13 flg.
+>
+> For beboere som er enslige, mindreårige asylsøkere, kan utlendingsmyndighetene ikke anmode ansatte som nevnt i første ledd, og ansatte i omsorgssentre for mindreårige og barnevernsinstitusjoner, jf. barnevernloven kapittel 5 og 5 A, om opplysninger etter første ledd.
+>
+> Kongen kan gi forskrift om hvilke opplysninger som skal gis etter første ledd, om fremgangsmåten for innhenting av opplysninger etter første ledd, og den videre behandling av de innhentede opplysninger.
+>
+> Loven gjelder fra den tid Kongen bestemmer.
+>
+
+### 2015-04-17 — lov/2015-04-17-18
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 17 første ledd bokstav h lyde:når utlendingen i utlandet er straffet eller er ilagt særreaksjon for et forhold som etter norsk lov kan føre til fengselsstraff i fem år eller mer,*
+
 ### 2015-04-24 — lov/2015-04-24-22
 
 *Overskriften til § 124 skal lyde:*
@@ -427,6 +618,102 @@ refid: "lov/2008-05-15-35"
 ### 2015-04-24 — lov/2015-04-24-22
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
+
+### 2015-05-01 — forskrift/2015-04-17-395
+
+*Loven trer i kraft 1. mai 2015.*
+
+> Loven trer i kraft 1. mai 2015.
+>
+
+### 2015-06-01 — forskrift/2015-05-22-527
+
+*Ikraftsetting av lov 9. januar 2015 nr. 2 om endringer i utlendingsloven m.m. (unntak fra taushetsplikt). Loven trer i kraft 1. juni 2015.*
+
+> Ikraftsetting av lov 9. januar 2015 nr. 2 om endringer i utlendingsloven m.m. (unntak fra taushetsplikt). Loven trer i kraft 1. juni 2015.
+>
+
+### 2015-06-12 — lov/2015-06-12-40
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 101 lyde:*
+
+> § 101.Behandling av fingeravtrykk. Eurodac
+>
+> Europaparlaments- og rådsforordning (EU) nr. 603/2013 (Eurodac-forordningen 2013), jf. artikkel 4 i Norges tilknytningsavtale til Dublin-samarbeidet, gjelder som norsk lov, med unntak av artikkel 1 nr. 2, 2 nr. 1 bokstav a, c, f, j og k og nr. 4, 3 nr. 5, 5, 6, 7 nr. 2, 8 nr. 1 bokstav h og i, 18 nr. 2 og nr. 3, 19 til 22, 32 nr. 2, 33, 36, 38, 39 nr. 3 siste del, 40 nr. 7 og 43.
+>
+> Personopplysningsloven gjelder for behandlingen av opplysningene hvis ikke annet er bestemt i lov eller forskrift. Kongen kan i forskrift gi nærmere regler om behandlingen av opplysningene.
+>
+
+### 2015-07-20 — forskrift/2015-06-12-632
+
+*Loven gjelder fra 20. juli 2015.*
+
+> Loven gjelder fra 20. juli 2015.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1617
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
+### 2016-05-20 — forskrift/2016-05-20-509
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2016-08-26 — forskrift/2016-08-26-1004
+
+*Lov 17. juni 2016 nr. 56 om endringar i utlendingslova (pågriping og fengsling i samband med 48-timarprosedyren) trer i kraft straks.*
+
+> Lov 17. juni 2016 nr. 56 om endringar i utlendingslova (pågriping og fengsling i samband med 48-timarprosedyren) trer i kraft straks.
+>
+
+### 2016-09-01 — forskrift/2016-08-26-1005
+
+*Delvis ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her § 9, § 32, § 34, § 66 første ledd, § 92, § 105, § 106, § 106a og ny § 94a trer i kraft 1. september 2016. Endringen i § 28 trer i kraft 1. oktober 2016.*
+
+> Delvis ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her § 9, § 32, § 34, § 66 første ledd, § 92, § 105, § 106, § 106a og ny § 94a trer i kraft 1. september 2016. Endringen i § 28 trer i kraft 1. oktober 2016.
+>
+> Ny § 94a gjelder bare for avslagsvedtak truffet etter 1. september 2016. § 66 første ledd ny bokstav f gjelder bare for saker hvor utlendingen har reist inn og har blitt nektet realitetsbehandling etter 1. september 2016.
+>
+
+### 2016-10-01 — forskrift/2016-09-30-1136
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her § 62 annet til syvende ledd, § 90, § 100 og § 100 a trer i kraft 1. oktober 2016.*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her § 62 annet til syvende ledd, § 90, § 100 og § 100 a trer i kraft 1. oktober 2016.
+>
+
+### 2016-10-21 — forskrift/2016-10-14-1204
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her § 66 annet ledd bokstav a og b og § 108 annet ledd bokstav a trer i kraft 21. oktober 2016.*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her § 66 annet ledd bokstav a og b og § 108 annet ledd bokstav a trer i kraft 21. oktober 2016.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1588
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her § 40 annet ledd, § 41 fjerde ledd, ny § 41a og § 62 første ledd bokstav d og e trer i kraft 1. januar 2017.*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her § 40 annet ledd, § 41 fjerde ledd, ny § 41a og § 62 første ledd bokstav d og e trer i kraft 1. januar 2017.
+>
+> Ny § 41a i utlendingsloven og endringene i § 40 annet ledd og § 41 fjerde ledd gjelder bare for søknader som fremmes 1. januar 2017 eller senere.
+>
+> Utlendingsloven § 62 første ledd bokstav d og e gjelder for søknader som fremmes 17. desember 2016 eller senere.
+>
+
+### 2017-09-01 — forskrift/2017-06-21-835
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven) § 62 første ledd bokstav f trer i kraft 1. september 2017.*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven) § 62 første ledd bokstav f trer i kraft 1. september 2017.
+>
+> Endringene i utlendingsloven § 62 første ledd bokstav f gjelder bare for søknader som fremmes 1. september 2017 eller senere.
+>
 
 ### 2018-04-20 — lov/2018-04-20-9
 
@@ -440,13 +727,69 @@ refid: "lov/2008-05-15-35"
 
 *Nåværende § 106 a blir ny § 106 d.*
 
+### 2018-04-20 — forskrift/2018-04-20-589
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2018-04-20 — forskrift/2018-04-20-592
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2018-05-15 — forskrift/2018-04-20-590
+
+*Loven trer i kraft 15. mai 2018.*
+
+> Loven trer i kraft 15. mai 2018.
+>
+
 ### 2018-06-15 — lov/2018-06-15-36
 
 *Kapittel 11 del I overskriften skal lyde:*
 
+### 2018-06-18 — forskrift/2018-06-15-893
+
+*Loven trer i kraft samtidig med ny personopplysningslov (Stortingets vedtak 28. mai 2018 til lov om behandling av personopplysninger).*
+
+> Loven trer i kraft samtidig med ny personopplysningslov (Stortingets vedtak 28. mai 2018 til lov om behandling av personopplysninger).
+>
+
 ### 2018-12-20 — lov/2018-12-20-117
 
 *I § 92 fjerde ledd første og annet punktum skal uttrykket «fengsling» endres til «internering».*
+
+### 2019-01-01 — forskrift/2018-12-20-2065
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2019-04-01 — forskrift/2019-03-08-204
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Lovens del I, endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven) § 60, trer i kraft 1. april 2019.*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Lovens del I, endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven) § 60, trer i kraft 1. april 2019.
+>
+
+### 2019-10-01 — forskrift/2019-06-21-811
+
+*Loven trer i kraft 1. oktober 2019.*
+
+> Loven trer i kraft 1. oktober 2019.
+>
+
+### 2020-03-27 — forskrift/2020-03-27-469
+
+*Endringsloven trer i kraft straks.*
+
+> Endringsloven trer i kraft straks.
+>
 
 ### 2020-05-26 — lov/2020-05-26-48
 
@@ -489,9 +832,187 @@ refid: "lov/2008-05-15-35"
 > Kongen kan gi forskrift om overgangsregler.
 >
 
+### 2020-06-01 — forskrift/2020-05-29-1099
+
+*Loven trer i kraft 1. juni 2020.*
+
+> Loven trer i kraft 1. juni 2020.
+>
+
 ### 2020-06-12 — lov/2020-06-12-66
 
 *Nåværende § 77 femte ledd blir nytt åttende ledd.*
+
+### 2020-06-12 — forskrift/2020-06-12-1185
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2020-06-19 — lov/2020-06-19-83
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven).
+>
+> § 1
+>
+> .
+>
+> Lovens formål og virkeområde
+>
+> Formålet med loven er å begrense retten til innreise for utlendinger som ellers vil ha lovlig adgang til innreise etter utlendingsloven, når det er nødvendig for å trygge folkehelsen ved utbrudd av den allmennfarlige smittsomme sykdommen covid-19.
+>
+> Loven gjelder ikke for norske statsborgere. Loven gjelder heller ikke statsborgere fra et annet nordisk land som er bosatt i Norge.
+>
+> § 2
+>
+> .
+>
+> Innreise til Norge og bortvisning
+>
+> Utlendinger har bare rett til innreise dersom
+>
+> utlendingen er bosatt i Norge med oppholdstillatelse eller oppholdsrett etter utlendingsloven
+>
+> utlendingen søker beskyttelse i riket (asyl) eller på annen måte påberoper en rett til internasjonal beskyttelse på grunn av fare ved forfølgelse mv., jf. utlendingsloven § 73
+>
+> utlendingens tilstedeværelse i riket er strengt nødvendig for å kunne opprettholde forsvarlig drift av kritiske samfunnsfunksjoner eller ivareta befolkningens grunnleggende behov
+>
+> utlendingen er gitt oppholdstillatelse uten utsatt innreise, jf. § 3
+>
+> utlendingen er gitt innreisevisum etter utlendingsloven § 12
+>
+> utlendingen er gitt visum etter utlendingsloven § 10 av norsk vedtaksmyndighet etter 15. mars 2020.
+>
+> I andre tilfeller kan en utlending gis rett til innreise dersom særlige grunner tilsier det, slik som særskilt omsorgsansvar for personer i Norge eller andre sterke velferdshensyn.
+>
+> Dersom utlendingen kommer til riket eller har reist inn i strid med loven eller forskriften, kan det treffes vedtak om bortvisning. Utlendinger som bortvises skal forlate riket uten ugrunnet opphold.
+>
+> Kongen kan i forskrift gi nærmere regler om bortvisning og unntak fra innreiserestriksjoner.
+>
+> § 3
+>
+> .
+>
+> Utsatt innreise for utlendinger med oppholdstillatelse
+>
+> For utlendinger som gis oppholdstillatelse i medhold av utlendingsloven, kan adgangen til innreise utsettes inntil videre.
+>
+> Utstedelse av innreisevisum, jf. utlendingsloven § 12 og utlendingsforskriften § 3-13 første ledd, til visumpliktig utlending som er gitt oppholdstillatelse, kan utsettes inntil videre. Utstedelse av innreisevisum kan også utsettes dersom tillatelsen vurderes tilbakekalt.
+>
+> Utlendinger som omfattes av unntak i § 2 første ledd bokstav c eller annet ledd, eller av unntak gitt i medhold av loven, skal likevel gis adgang til innreise uten utsettelse. Kongen kan i forskrift gi nærmere regler om innreise for utlendinger med oppholdstillatelse.
+>
+> § 4
+>
+> .
+>
+> Ansvar for utgifter mv.
+>
+> For utlendinger som i medhold av loven føres ut av riket gjelder utlendingsloven § 91 første ledd om betaling av utgifter til egen utreise tilsvarende.
+>
+> Transportøransvaret etter utlendingsloven § 91 tredje ledd gjelder tilsvarende for vedtak om bortvisning etter loven her.
+>
+> § 5
+>
+> .
+>
+> Unntak fra andre regler
+>
+> Forvaltningsloven kapittel IV og V gjelder ikke for vedtak om bortvisning etter loven her. Reglene om saksbehandling i utlendingsloven kapittel 11 og utlendingsforskriften kapittel 17 gjelder bare så langt de lar seg forene med en forenklet og rask behandling av vedtak om bortvisning. Vedtak etter loven § 3 om utsatt innreise for utlending som gis oppholdstillatelse, kan ikke påklages.
+>
+> Reglene om fritt rettsråd i utlendingsloven § 92 første ledd gjelder ikke for vedtak om bortvisning etter loven her.
+>
+> § 6
+>
+> .
+>
+> Forenklet saksbehandling for vedtak, begrunnelse, vedtaksmyndighet og klage
+>
+> Vedtak om bortvisning skal være skriftlig. Begrunnelsen kan være kort og standardisert. Begrunnelsen skal angi reglene som vedtaket bygger på. Det skal gis opplysning om klagerett etter fjerde ledd.
+>
+> Vedtak kan være muntlig hvis avgjørelsen haster eller skriftlighet av andre grunner ikke er praktisk mulig. Når vedtaket ikke er skriftlig, skal det gis opplysninger som nevnt i første ledd. Vedtaksorganet skal bekrefte vedtaket og dets begrunnelse skriftlig hvis parten ber om det.
+>
+> Vedtak treffes av Utlendingsdirektoratet eller politiet. Justis- og beredskapsdepartementet kan gi vedtakskompetanse til annen myndighet. Utlendingsdirektoratet kan gi nærmere retningslinjer om vedtaksmyndighet.
+>
+> Vedtak om bortvisning kan påklages til Utlendingsdirektoratet, eller til Utlendingsnemnda hvis Utlendingsdirektoratet har truffet vedtak i første instans, etter reglene i forvaltningsloven kapittel VI. Forvaltningsloven § 42 om utsatt iverksetting gjelder ikke.
+>
+> Kongen kan i forskrift gi nærmere regler om saksbehandlingen.
+>
+> § 7
+>
+> .
+>
+> Utvisning
+>
+> En utlending uten oppholdstillatelse kan utvises etter utlendingsloven § 66 første ledd bokstav a når utlendingen grovt eller gjentatte ganger har overtrådt innreiserestriksjonene i §§ 2 eller 3 eller har gitt vesentlig uriktige eller åpenbart villedende opplysninger i forbindelse med innreisekontroll eller senere behandling av spørsmålet om innreiseadgang etter loven her.
+>
+> § 8
+>
+> .
+>
+> Tvangsmidler
+>
+> Reglene om bruk av tvangsmidler i utlendingsloven kapittel 12 gjelder tilsvarende som ved bortvisning etter utlendingsloven.
+>
+> § 9
+>
+> .
+>
+> Straff
+>
+> Med bot eller med fengsel inntil seks måneder eller med begge deler straffes den som
+>
+> overtrer innreiserestriksjonene i § 2 eller 3, eller
+>
+> gir vesentlig uriktige eller åpenbart villedende opplysninger i forbindelse med innreisekontroll eller senere behandling av spørsmålet om innreiseadgang etter loven her.
+>
+> § 10
+>
+> .
+>
+> Ikrafttredelse og overgangsbestemmelser
+>
+> Loven gjelder fra den tid Kongen bestemmer. Kongen kan gi overgangsbestemmelser.
+>
+> Loven oppheves 1. november 2020.
+>
+> § 11
+>
+> .
+>
+> Endringer i andre lover
+>
+> I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 18 tredje ledd nytt annet punktum lyde:
+>
+> Kongen kan også gi myndighet til politiet eller annen myndighet til å treffe vedtak om bortvisning av hensyn til folkehelsen etter utlendingsloven § 17 første ledd bokstav l.
+>
+
+### 2020-07-01 — forskrift/2020-05-29-1098
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2020-10-30 — lov/2020-10-30-120
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 79 e lyde:*
+
+> § 79 e.Ikraftsetting og opphevelse av kapittel 10 a
+>
+> Kapittel 10 a trer i kraft straks, og oppheves 1. juni 2021.
+>
+
+### 2021-04-30 — forskrift/2021-04-23-1231
+
+*Loven trer i kraft 30. april 2021.*
+
+> Loven trer i kraft 30. april 2021.
+>
 
 ### 2021-05-07 — lov/2021-05-07-32
 
@@ -511,6 +1032,65 @@ refid: "lov/2008-05-15-35"
 > Kongen kan gi nærmere regler i forskrift om vurderingen etter første og annet ledd.
 >
 
+### 2021-05-11 — lov/2021-05-11-36
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 95 lyde:*
+
+> § 95.Innkvartering ved søknad om beskyttelse
+>
+> En utlending som søker beskyttelse, skal gis tilbud om innkvartering. En utlending som har fått avslag på søknad om beskyttelse, kan gis tilbud om innkvartering i påvente av utreise.
+>
+> Utlendingsdirektoratet har omsorgen for enslige mindreårige som bor i asylmottak. Asylmottaket ved driftsoperatøren kan utøve omsorgen på vegne av Utlendingsdirektoratet.
+>
+> Kongen kan gi forskrift om innkvarteringsordninger, blant annet om tildeling og bortfall av botilbud, og om innkvartering av og omsorg til enslige mindreårige som bor i asylmottak.
+>
+> Forvaltningsloven §§ 24 og 25 om begrunnelse og §§ 28 til 34 om klage gjelder ikke for utlendingsmyndighetenes vedtak om tildeling av botilbud og overføring til nytt innkvarteringssted. Forvaltningsloven §§ 28 til 34 om klage gjelder ikke for utlendingsmyndighetenes vedtak om bortfall av botilbud.
+>
+
+### 2021-05-28 — lov/2021-05-28-45
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 79 e lyde:*
+
+> § 79 e.Ikraftsetting og opphevelse av kapittel 10 a
+>
+> Kapittel 10 a trer i kraft straks og oppheves 1. desember 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-21-1564
+
+*Delt ikraftsetting av lov 12. juni 2020 nr. 65 om endringer i utlendingsloven mv. (utlevering av opplysninger til politiet mv.). Endringsloven del II (endringene i utlendingsloven) trer i kraft 1. juni 2021.*
+
+> Delt ikraftsetting av lov 12. juni 2020 nr. 65 om endringer i utlendingsloven mv. (utlevering av opplysninger til politiet mv.). Endringsloven del II (endringene i utlendingsloven) trer i kraft 1. juni 2021.
+>
+
+### 2021-07-01 — lov/2021-06-11-68
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 13 første ledd andre punktum lyde:*
+
+> Myndighet til å avgjøre søknader om visum i henhold til §§ 10 og 12 kan også legges til utenrikstjenesten og til Sysselmesteren på Svalbard.
+>
+
+### 2021-07-01 — forskrift/2021-05-11-1472
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-09-01 — forskrift/2021-06-11-1875
+
+*Loven trer i kraft 1. september 2021.*
+
+> Loven trer i kraft 1. september 2021.
+>
+
+### 2021-09-10 — forskrift/2021-09-03-2659
+
+*Ikraftsetting av lov 7. mai 2021 nr. 32 om endringer i utlendingsloven (nytt tiltak ved brudd på utlendingsloven m.m.). Loven trer i kraft 10. september 2021.*
+
+> Ikraftsetting av lov 7. mai 2021 nr. 32 om endringer i utlendingsloven (nytt tiltak ved brudd på utlendingsloven m.m.). Loven trer i kraft 10. september 2021.
+>
+
 ### 2022-02-18 — lov/2022-02-18-6
 
 *Nåværende femte og sjette ledd blir sjette og nytt sjuende ledd.*
@@ -522,6 +1102,78 @@ refid: "lov/2008-05-15-35"
 ### 2022-04-29 — lov/2022-04-29-26
 
 *§§ 14 og 15 oppheves.*
+
+### 2022-05-01 — forskrift/2022-04-08-549
+
+*Delt ikraftsetting av lov 25. mars 2022 nr. 16 om endringer i utlendingsloven (innhenting av opplysninger fra utdanningsinstitusjoner mv.). Følgende trer i kraft 1. mai 2022:*
+
+> Delt ikraftsetting av lov 25. mars 2022 nr. 16 om endringer i utlendingsloven (innhenting av opplysninger fra utdanningsinstitusjoner mv.). Følgende trer i kraft 1. mai 2022:
+>
+> Endringsloven del I § 62 annet ledd annet punktum og femte ledd første punktum og § 95 tredje ledd.
+>
+
+### 2022-06-01 — forskrift/2022-02-18-268
+
+*Ikraftsetting av lov 11. juni 2021 nr. 73 om endringer i utlendingsloven (oppnevning av prosessfullmektig i saker om frihetsberøvelse etter utlendingsloven mv.). Loven trer i kraft 1. juni 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 73 om endringer i utlendingsloven (oppnevning av prosessfullmektig i saker om frihetsberøvelse etter utlendingsloven mv.). Loven trer i kraft 1. juni 2022.
+>
+
+### 2022-06-01 — forskrift/2022-05-20-886
+
+*Delt ikraftsetting av lov 25. mars 2022 nr. 16 om endringer i utlendingsloven (innhenting av opplysninger fra utdanningsinstitusjoner mv.). Følgende trer i kraft 1. juni 2022:*
+
+> Delt ikraftsetting av lov 25. mars 2022 nr. 16 om endringer i utlendingsloven (innhenting av opplysninger fra utdanningsinstitusjoner mv.). Følgende trer i kraft 1. juni 2022:
+>
+> Endringsloven del I § 84 første ledd.
+>
+
+### 2022-06-17 — lov/2022-06-17-61
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 95 lyde:*
+
+> § 95.Innkvartering ved søknad om beskyttelse
+>
+> En utlending som søker beskyttelse, skal gis tilbud om innkvartering. En utlending som har fått avslag på søknad om beskyttelse, kan gis tilbud om innkvartering i påvente av utreise.
+>
+> Utlendingsdirektoratet har omsorgen for enslige mindreårige som bor i asylmottak. Asylmottaket ved driftsoperatøren kan utøve omsorgen på vegne av Utlendingsdirektoratet.
+>
+> Statsforvalteren skal føre tilsyn med at omsorgen for enslige mindreårige som bor i asylmottak, utøves i samsvar med denne loven og forskrifter til loven. Dersom tilsynet avdekker forhold som er i strid med denne loven eller forskrifter til loven, kan statsforvalteren gi pålegg til Utlendingsdirektoratet eller driftsoperatøren om å rette forholdet eller nedlegge driften. Statens helsetilsyn har det overordnede faglige ansvaret for tilsynet og er klageinstans for vedtak som fattes av statsforvalteren. Statsforvalteren og Statens helsetilsyn kan kreve at Utlendingsdirektoratet og driftsoperatøren uten hinder av taushetsplikt gir de opplysningene og den tilgangen som er nødvendig for å utføre tilsynsoppgavene.
+>
+> Kongen kan gi forskrift om innkvarteringsordninger, blant annet om tildeling og bortfall av botilbud, innkvartering av og omsorg til enslige mindreårige som bor i asylmottak, stønad til beboere i asylmottak, og om tilsyn etter tredje ledd.
+>
+> Forvaltningsloven §§ 24 og 25 om begrunnelse og §§ 28 til 34 om klage gjelder ikke for utlendingsmyndighetenes vedtak om tildeling av botilbud og overføring til nytt innkvarteringssted. Forvaltningsloven §§ 28 til 34 om klage gjelder ikke for utlendingsmyndighetenes vedtak om bortfall av botilbud.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-560
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2022-07-01 — forskrift/2022-06-17-1066
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2254
+
+*Delt ikraftsetting av lov 11. juni 2021 nr. 72 om endringer i politiregisterloven og utlendingsloven. Følgende trer i kraft 1. januar 2023:*
+
+> Delt ikraftsetting av lov 11. juni 2021 nr. 72 om endringer i politiregisterloven og utlendingsloven. Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I (utlendingsloven).
+>
+
+### 2023-04-28 — lov/2023-04-28-10
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 100 annet ledd lyde:*
+
+> Opplysninger i registeret kan utleveres til politiet i forbindelse med etterforskningen av en eller flere handlinger som samlet kan medføre høyere straff enn fengsel i 6 måneder. Ansiktsfoto kan i tillegg utleveres til politiet dersom det er nødvendig forpolitiets oppgaver etter loven her eller grenseloven kapittel 3,å finne en savnet person,å identifisere en død person eller en person som det hører under politiets oppgaver å hjelpe,å identifisere en person som kan innbringes eller skal pågripes eller anbringes i politiarrest,forebygging av brudd på utlendingsloven eller andre lovbrudd som kan medføre høyere straff enn fengsel i seks måneder,kvalitetskontroll av politiets registre, ellerpolitiets oppgaver etter passloven eller ID-kortloven.
+>
 
 ### 2023-06-02 — lov/2023-06-02-20
 
@@ -535,6 +1187,24 @@ refid: "lov/2008-05-15-35"
 *Nåværende § 78 åttende ledd blir nytt niende ledd og skal lyde:*
 
 > Kongen kan i forskrift gi regler om nemndas arbeidsform og om den nærmere behandlingen av sakene og valg av avgjørelsesform, herunder om hva som skal regnes som vesentlige tvilsspørsmål etter tredje ledd, og om vilkårene for og gjennomføring av fjernmøter. Kongen kan i forskrift gi nærmere regler om formkrav til omgjøringsanmodninger, og om avvisning av omgjøringsanmodninger som ikke fyller slike formkrav. Kongen kan også i forskrift gi nærmere regler om avvisning av omgjøringsanmodninger fra utlendinger som ikke har kjent oppholdssted.
+>
+
+### 2023-07-01 — forskrift/2023-06-02-778
+
+*Delt ikraftsetting av Stortingets vedtak 23. mai 2023 til lov om endringer i utlendingsloven (fjernmøter i Utlendingsnemnda mv.).*
+
+> Delt ikraftsetting av Stortingets vedtak 23. mai 2023 til lov om endringer i utlendingsloven (fjernmøter i Utlendingsnemnda mv.).
+>
+> Følgende trer i kraft 1. juli 2023:
+>
+> Endringsloven del I § 1 første ledd, § 5 fjerde ledd, § 76 annet ledd annet punktum, § 78 sjette ledd første punktum, § 78 syvende, åttende og niende ledd og § 90a tredje ledd.
+>
+
+### 2023-07-01 — forskrift/2023-06-16-903
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
 >
 
 ### 2024-03-22 — lov/2024-03-22-11
@@ -552,9 +1222,11 @@ refid: "lov/2008-05-15-35"
 
 *I lov 29. april 2022 nr. 26 om endringer i grenseloven, utlendingsloven og politiregisterloven (etablering av systemer for inn- og utreise, fremreise og passasjerlisteopplysninger mv.) skal utlendingsloven ny § 9 a i del I lyde:*
 
-> § 9 a.FremreisetillatelseForordning (EU) 2018/1240 om etableringen av fremreisesystemet (ETIAS-forordningen), som endret ved forordning (EU) 2019/817, forordning (EU) 2021/1134 og forordning (EU) 2021/1152, gjelder som lov.Kongen kan gi forskrift om gjennomføringen av forordningen, blant annet om saksbehandlingen for søknader om fremreisetillatelse og hvem som er klageinstans.
+> § 9 a. Fremreisetillatelse
 >
-> § 9 a.Fremreisetillatelse
+> Forordning (EU) 2018/1240 om etableringen av fremreisesystemet (ETIAS-forordningen), som endret ved forordning (EU) 2019/817, forordning (EU) 2021/1134 og forordning (EU) 2021/1152, gjelder som lov.
+>
+> Kongen kan gi forskrift om gjennomføringen av forordningen, blant annet om saksbehandlingen for søknader om fremreisetillatelse og hvem som er klageinstans.
 >
 
 ### 2024-06-21 — lov/2024-06-21-47
@@ -565,34 +1237,100 @@ refid: "lov/2008-05-15-35"
 
 *I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal ny § 95 a lyde:*
 
-> § 95 a.Midlertidige forskrifter om at kommunen skal sørge for innkvarteringDersom det i en krisesituasjon med høye ankomster av asylsøkere er nødvendig for å kunne gi tilbud om innkvartering etter lovens § 95, kan Kongen i statsråd gi midlertidig forskrift om at kommuner skal sørge for innkvarteringstilbud for asylsøkere.Forskrift etter første ledd kan gjelde i inntil seks måneder. Den kan fornyes for tre måneder av gangen.I forskrift etter første ledd kan det også gis bestemmelser om rekvirering av bruksrett eller annen særlig rådighet over fast eiendom for innkvarteringsformål.
+> § 95 a. Midlertidige forskrifter om at kommunen skal sørge for innkvartering
 >
-> § 95 a.Midlertidige forskrifter om at kommunen skal sørge for innkvartering
+> Dersom det i en krisesituasjon med høye ankomster av asylsøkere er nødvendig for å kunne gi tilbud om innkvartering etter lovens § 95, kan Kongen i statsråd gi midlertidig forskrift om at kommuner skal sørge for innkvarteringstilbud for asylsøkere.
+>
+> Forskrift etter første ledd kan gjelde i inntil seks måneder. Den kan fornyes for tre måneder av gangen.
+>
+> I forskrift etter første ledd kan det også gis bestemmelser om rekvirering av bruksrett eller annen særlig rådighet over fast eiendom for innkvarteringsformål.
+>
+
+### 2024-07-01 — forskrift/2024-06-21-1105
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-09-15 — forskrift/2024-04-19-633
+
+*Loven trer i kraft 15. september 2024.*
+
+> Loven trer i kraft 15. september 2024.
+>
+
+### 2025-01-01 — forskrift/2023-09-15-2100
+
+*Delt ikraftsetting av lov 2. juni 2023 nr. 20 om endringer i utlendingsloven (fjernmøter i Utlendingsnemnda mv.). Følgende trer i kraft 1. januar 2025:*
+
+> Delt ikraftsetting av lov 2. juni 2023 nr. 20 om endringer i utlendingsloven (fjernmøter i Utlendingsnemnda mv.). Følgende trer i kraft 1. januar 2025:
+>
+> Endringsloven del I § 77 fjerde ledd første punktum, § 77 sjette ledd, § 78 første ledd tredje punktum og § 78 annet ledd.
+>
+
+### 2025-01-01 — forskrift/2024-11-29-2891
+
+*Loven settes i kraft 1. januar 2025.*
+
+> Loven settes i kraft 1. januar 2025.
 >
 
 ### 2025-04-04 — lov/2025-04-04-7
 
 *Nye §§ 90 b til 90 f skal lyde:*
 
-> § 90 b.Utreiseplikt og utreisefrist for utlendinger med oppholdstillatelse eller annet grunnlag for opphold i en Schengen- eller EU-medlemsstatFør utlendingsmyndighetene pålegger en utlending som har oppholdstillatelse eller annet grunnlag for opphold i en Schengen- eller EU-medlemsstat, en utreiseplikt fra Schengen- og EU-området, skal utlendingen gis mulighet til å begi seg til denne medlemsstaten ved at utlendingsmyndighetene pålegger vedkommende å forlate riket umiddelbart. Dette gjelder likevel ikke dersom hensynet til nasjonal sikkerhet eller offentlig orden påkrever utreise fra Schengen- og EU-området.Plikten til å gi utlendingen en mulighet til å begi seg til den medlemsstaten vedkommende har lovlig opphold i etter første ledd, gjelder ikke dersom utlendingen bortvises eller utvises ved Schengenyttergrensen eller på grunn av ilagt straff etter andre bestemmelser enn § 108 annet ledd.Kongen kan gi nærmere regler i forskrift om utreiseplikt og utreisefrist for utlendinger med oppholdstillatelse eller annet grunnlag for opphold i en Schengen- eller EU-medlemsstat.
+> § 90 b. Utreiseplikt og utreisefrist for utlendinger med oppholdstillatelse eller annet grunnlag for opphold i en Schengen- eller EU-medlemsstat
 >
-> § 90 b.Utreiseplikt og utreisefrist for utlendinger med oppholdstillatelse eller annet grunnlag for opphold i en Schengen- eller EU-medlemsstat
+> Før utlendingsmyndighetene pålegger en utlending som har oppholdstillatelse eller annet grunnlag for opphold i en Schengen- eller EU-medlemsstat, en utreiseplikt fra Schengen- og EU-området, skal utlendingen gis mulighet til å begi seg til denne medlemsstaten ved at utlendingsmyndighetene pålegger vedkommende å forlate riket umiddelbart. Dette gjelder likevel ikke dersom hensynet til nasjonal sikkerhet eller offentlig orden påkrever utreise fra Schengen- og EU-området.
 >
-> § 90 c.Tidspunktet for iverksetting av vedtakVedtak om bortvisning eller utvisning av en utlending som ikke har oppholdstillatelse eller oppholdsrett etter kapittel 13, eller en nordisk borger som ikke har hatt opphold i riket i mer enn tre måneder, kan iverksettes straks. Det samme gjelder vedtak om bortvisning eller utvisning av en utlending med oppholdsrett etter § 111.Vedtak om avslag på søknad om første gangs oppholdstillatelse eller søknad om fornyet oppholdstillatelse fremsatt etter utløpet av fristen i § 61 sjette eller sjuende ledd, kan iverksettes før det er endelig dersom utlendingen har fått mulighet til å fremsette klage. Slikt vedtak kan tidligst iverksettes 48 timer etter at meldingen om vedtaket har kommet frem til utlendingen. Dersom søknaden anses åpenbart grunnløs, kan vedtaket likevel iverksettes så snart fristen for å begjære utsatt iverksetting er utløpt, og Utlendingsdirektoratet har tatt stilling til en eventuell begjæring.Vedtak om å nekte realitetsbehandling etter § 32 første ledd bokstav a, c eller d eller femte ledd, kan iverksettes straks. Dersom det ikke er åpenbart at søknaden bør nektes realitetsbehandlet, skal utlendingen gis en frist til å begjære utsatt iverksetting. Vedtaket kan ikke iverksettes før denne fristen er utløpt, eller Utlendingsdirektoratet har tatt stilling til begjæringen. Er søknaden nektet realitetsbehandlet etter § 32 første ledd bokstav b, jf. fjerde ledd, og utlendingen har begjært utsatt iverksetting, kan vedtaket ikke iverksettes før Utlendingsnemnda har tatt stilling til begjæringen eller behandlet klagen på vedtaket.Vedtak om avslag på søknad om fornyet oppholdstillatelse eller permanent oppholdstillatelse fremsatt innen utløpet av fristen i § 61 sjette eller sjuende ledd, kan ikke iverksettes før det er endelig. Tilsvarende gjelder vedtak om tilbakekall etter § 63 og vedtak om utvisning av en utlending som har oppholdstillatelse, eller en nordisk borger som har hatt opphold i riket i mer enn tre måneder. Dersom det er sannsynlig at utlendingen vil begå en straffbar handling overfor eller forfølge en annen person eller på annet vis alvorlig krenke en annen persons fred, kan vedtaket iverksettes på et tidligere tidspunkt enn det som følger av første og annet punktum.Påberoper en utlending seg rett til beskyttelse, jf. § 28, eller for øvrig gir opplysninger som tyder på at vernet mot utsendelse etter § 73 vil komme til anvendelse, kan et vedtak bare iverksettes før det er endelig dersomsøknaden om opphold er nektet realitetsbehandlet i medhold av § 32søkeren tidligere har fått avslag på søknad om beskyttelse i et annet land, ellervilkårene for opphold etter §§ 28 eller 73 åpenbart ikke er oppfylt.Dersom en utlending påberoper seg omstendigheter som nevnt i § 28 på tidspunktet for iverksetting av et vedtak som pålegger en utreiseplikt, jf. § 90, og det ikke fremgår at det allerede er tatt standpunkt til de påberopte forholdene, skal politiet forelegge spørsmålet om utsatt iverksetting for den myndigheten som har truffet vedtaket.Beslutninger som gjelder iverksetting, regnes ikke som enkeltvedtak etter forvaltningsloven § 2 første ledd bokstav b.
+> Plikten til å gi utlendingen en mulighet til å begi seg til den medlemsstaten vedkommende har lovlig opphold i etter første ledd, gjelder ikke dersom utlendingen bortvises eller utvises ved Schengenyttergrensen eller på grunn av ilagt straff etter andre bestemmelser enn § 108 annet ledd.
 >
-> § 90 c.Tidspunktet for iverksetting av vedtak
+> Kongen kan gi nærmere regler i forskrift om utreiseplikt og utreisefrist for utlendinger med oppholdstillatelse eller annet grunnlag for opphold i en Schengen- eller EU-medlemsstat.
 >
-> § 90 d.Instruksjonsadgang om utsatt iverksettingUtlendingsnemnda kan instruere politiet om å utsette iverksettingen av vedtak fra nemnda som pålegger en utreiseplikt, jf. § 90. Det samme gjelder vedtak fra direktoratet som pålegger en utreiseplikt, jf. § 90, på nemndas saksområde.Utlendingsdirektoratet kan instruere politiet om å utsette iverksettingen av vedtak fra direktoratet som pålegger en utreiseplikt, jf. § 90.Departementet kan instruere Utlendingsdirektoratet og Utlendingsnemnda om å utsette iverksettingen av en bestemt type vedtak som pålegger en utreiseplikt, jf. § 90, i påvente av endringer i lov eller forskrift.
+> § 90 c. Tidspunktet for iverksetting av vedtak
 >
-> § 90 d.Instruksjonsadgang om utsatt iverksetting
+> Vedtak om bortvisning eller utvisning av en utlending som ikke har oppholdstillatelse eller oppholdsrett etter kapittel 13, eller en nordisk borger som ikke har hatt opphold i riket i mer enn tre måneder, kan iverksettes straks. Det samme gjelder vedtak om bortvisning eller utvisning av en utlending med oppholdsrett etter § 111.
 >
-> § 90 e.UttransporteringPolitiet kan uttransportere en utlending som er pålagt en utreiseplikt, dersom utlendingen ikke overholder utreisefristen, utreisefrist ikke er gitt, eller det er konkrete holdepunkter for å anta at utlendingen ikke vil overholde utreisefristen. Politiet kan ikke med tvang uttransportere en utlending som er pålagt utreiseplikt fra riket etter § 90 b.Uttransportering skal skje til det området som følger av vedtaket, jf. § 90.Utlendinger som ikke har gyldig reisedokument, har plikt til å skaffe seg dette.Tvungen utsendelse av en enslig mindreårig skal bare skje til et familiemedlem, en utnevnt verge eller til et annet forsvarlig omsorgstilbud.Kongen kan gi forskrift om uttransportering av utlendinger som er pålagt en utreiseplikt.
+> Vedtak om avslag på søknad om første gangs oppholdstillatelse eller søknad om fornyet oppholdstillatelse fremsatt etter utløpet av fristen i § 61 sjette eller sjuende ledd, kan iverksettes før det er endelig dersom utlendingen har fått mulighet til å fremsette klage. Slikt vedtak kan tidligst iverksettes 48 timer etter at meldingen om vedtaket har kommet frem til utlendingen. Dersom søknaden anses åpenbart grunnløs, kan vedtaket likevel iverksettes så snart fristen for å begjære utsatt iverksetting er utløpt, og Utlendingsdirektoratet har tatt stilling til en eventuell begjæring.
 >
-> § 90 e.Uttransportering
+> Vedtak om å nekte realitetsbehandling etter § 32 første ledd bokstav a, c eller d eller femte ledd, kan iverksettes straks. Dersom det ikke er åpenbart at søknaden bør nektes realitetsbehandlet, skal utlendingen gis en frist til å begjære utsatt iverksetting. Vedtaket kan ikke iverksettes før denne fristen er utløpt, eller Utlendingsdirektoratet har tatt stilling til begjæringen. Er søknaden nektet realitetsbehandlet etter § 32 første ledd bokstav b, jf. fjerde ledd, og utlendingen har begjært utsatt iverksetting, kan vedtaket ikke iverksettes før Utlendingsnemnda har tatt stilling til begjæringen eller behandlet klagen på vedtaket.
 >
-> § 90 f.Registrering i SISMelding om retur, jf. returforordningen artikkel 3, skal registreres i SIS etter reglene i returforordningen, jf. SIS-loven § 1 nr. 3, dersom det treffes et vedtak som pålegger en utreiseplikt fra Schengen- og EU-området, jf. § 90.Melding om nektet innreise og opphold, jf. grensekontrollforordningen artikkel 24, skal registreres i SIS etter reglene i grensekontrollforordningen, jf. SIS-loven § 1 nr. 2, dersomdet treffes et vedtak som innebærer nektelse av innreise og opphold fordi utlendingen anses for å utgjøre en trussel mot offentlig orden, offentlig sikkerhet eller nasjonal sikkerhetdet treffes et vedtak om utvisning som pålegger en utreiseplikt fra Schengen- og EU-området, jf. § 90.Dersom et vedtak som nevnt i første og annet ledd gjelder en utlending med gyldig oppholdstillatelse eller gyldig visum for langvarig opphold utstedt av en Schengen- eller EU-medlemsstat, skal det gjennomføres konsultasjon, jf. returforordningen artikkel 10 og grensekontrollforordningen artikkel 28, før det kan registreres en melding i SIS. Medlemsstaten utlendingen har lovlig opphold i, skal da vurdere om det er grunnlag for tilbakekall. Dersom utlendingens lovlige opphold opprettholdes, skal det ikke registreres melding i SIS.
+> Vedtak om avslag på søknad om fornyet oppholdstillatelse eller permanent oppholdstillatelse fremsatt innen utløpet av fristen i § 61 sjette eller sjuende ledd, kan ikke iverksettes før det er endelig. Tilsvarende gjelder vedtak om tilbakekall etter § 63 og vedtak om utvisning av en utlending som har oppholdstillatelse, eller en nordisk borger som har hatt opphold i riket i mer enn tre måneder. Dersom det er sannsynlig at utlendingen vil begå en straffbar handling overfor eller forfølge en annen person eller på annet vis alvorlig krenke en annen persons fred, kan vedtaket iverksettes på et tidligere tidspunkt enn det som følger av første og annet punktum.
 >
-> § 90 f.Registrering i SIS
+> Påberoper en utlending seg rett til beskyttelse, jf. § 28, eller for øvrig gir opplysninger som tyder på at vernet mot utsendelse etter § 73 vil komme til anvendelse, kan et vedtak bare iverksettes før det er endelig dersomsøknaden om opphold er nektet realitetsbehandlet i medhold av § 32søkeren tidligere har fått avslag på søknad om beskyttelse i et annet land, ellervilkårene for opphold etter §§ 28 eller 73 åpenbart ikke er oppfylt.
+>
+> Dersom en utlending påberoper seg omstendigheter som nevnt i § 28 på tidspunktet for iverksetting av et vedtak som pålegger en utreiseplikt, jf. § 90, og det ikke fremgår at det allerede er tatt standpunkt til de påberopte forholdene, skal politiet forelegge spørsmålet om utsatt iverksetting for den myndigheten som har truffet vedtaket.
+>
+> Beslutninger som gjelder iverksetting, regnes ikke som enkeltvedtak etter forvaltningsloven § 2 første ledd bokstav b.
+>
+> § 90 d. Instruksjonsadgang om utsatt iverksetting
+>
+> Utlendingsnemnda kan instruere politiet om å utsette iverksettingen av vedtak fra nemnda som pålegger en utreiseplikt, jf. § 90. Det samme gjelder vedtak fra direktoratet som pålegger en utreiseplikt, jf. § 90, på nemndas saksområde.
+>
+> Utlendingsdirektoratet kan instruere politiet om å utsette iverksettingen av vedtak fra direktoratet som pålegger en utreiseplikt, jf. § 90.
+>
+> Departementet kan instruere Utlendingsdirektoratet og Utlendingsnemnda om å utsette iverksettingen av en bestemt type vedtak som pålegger en utreiseplikt, jf. § 90, i påvente av endringer i lov eller forskrift.
+>
+> § 90 e. Uttransportering
+>
+> Politiet kan uttransportere en utlending som er pålagt en utreiseplikt, dersom utlendingen ikke overholder utreisefristen, utreisefrist ikke er gitt, eller det er konkrete holdepunkter for å anta at utlendingen ikke vil overholde utreisefristen. Politiet kan ikke med tvang uttransportere en utlending som er pålagt utreiseplikt fra riket etter § 90 b.
+>
+> Uttransportering skal skje til det området som følger av vedtaket, jf. § 90.
+>
+> Utlendinger som ikke har gyldig reisedokument, har plikt til å skaffe seg dette.
+>
+> Tvungen utsendelse av en enslig mindreårig skal bare skje til et familiemedlem, en utnevnt verge eller til et annet forsvarlig omsorgstilbud.
+>
+> Kongen kan gi forskrift om uttransportering av utlendinger som er pålagt en utreiseplikt.
+>
+> § 90 f. Registrering i SIS
+>
+> Melding om retur, jf. returforordningen artikkel 3, skal registreres i SIS etter reglene i returforordningen, jf. SIS-loven § 1 nr. 3, dersom det treffes et vedtak som pålegger en utreiseplikt fra Schengen- og EU-området, jf. § 90.
+>
+> Melding om nektet innreise og opphold, jf. grensekontrollforordningen artikkel 24, skal registreres i SIS etter reglene i grensekontrollforordningen, jf. SIS-loven § 1 nr. 2, dersomdet treffes et vedtak som innebærer nektelse av innreise og opphold fordi utlendingen anses for å utgjøre en trussel mot offentlig orden, offentlig sikkerhet eller nasjonal sikkerhetdet treffes et vedtak om utvisning som pålegger en utreiseplikt fra Schengen- og EU-området, jf. § 90.
+>
+> Dersom et vedtak som nevnt i første og annet ledd gjelder en utlending med gyldig oppholdstillatelse eller gyldig visum for langvarig opphold utstedt av en Schengen- eller EU-medlemsstat, skal det gjennomføres konsultasjon, jf. returforordningen artikkel 10 og grensekontrollforordningen artikkel 28, før det kan registreres en melding i SIS. Medlemsstaten utlendingen har lovlig opphold i, skal da vurdere om det er grunnlag for tilbakekall. Dersom utlendingens lovlige opphold opprettholdes, skal det ikke registreres melding i SIS.
 >
 
 ### 2025-04-04 — lov/2025-04-04-7
@@ -602,6 +1340,13 @@ refid: "lov/2008-05-15-35"
 ### 2025-04-04 — lov/2025-04-04-7
 
 *I § 108 annet ledd bokstav a erstattes henvisningen til § 90 sjette ledd med § 90 a.*
+
+### 2025-06-02 — forskrift/2025-04-04-602
+
+*Loven trer i kraft 2. juni 2025.*
+
+> Loven trer i kraft 2. juni 2025.
+>
 
 ### 2025-06-20 — lov/2025-06-20-96
 
@@ -668,9 +1413,24 @@ refid: "lov/2008-05-15-35"
 
 *I kapittel 12 skal ny § 108 a lyde:*
 
-> § 108 a.Straff for utilbørlig utnyttelse av utlendingerMed bot eller fengsel inntil 3 år straffes den som forsettlig eller grovt uaktsomt bruker arbeidskraften til, stiller et bosted til rådighet for, eller formidler et arbeid eller et bosted til en utlending, når forholdet innebærer utilbørlig utnyttelse av utlendingens sårbare situasjon, og utlendingenhar midlertidig oppholdstillatelse og er avhengig av arbeidet eller bostedet for oppholdstillatelsen,er asylsøker,ikke har oppholdstillatelse eller nødvendig tillatelse til arbeid etter loven, elleromfattes av lovens kapittel 13 og ikke har varig oppholdsrett etter §§ 115 eller 116.På samme måte straffes den som forsettlig eller grovt uaktsomtbruker en utlending til tigging eller tiggelignende virksomhet eller formidler slik virksomhet til en utlending som ikke har oppholdstillatelse, eller som omfattes av lovens kapittel 13 og ikke har varig oppholdsrett etter §§ 115 eller 116, når forholdet innebærer utilbørlig utnyttelse av utlendingens sårbare situasjon, ellerutferdiger eller formidler erklæringer, tilsagn eller dokumenter til bruk for en sak etter loven, når forholdet innebærer utilbørlig utnyttelse av utlendingens sårbare situasjon.Grov overtredelse av første eller annet ledd straffes med fengsel inntil 6 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om utnyttelsen har et systematisk eller organisert preg, om den har gitt stor økonomisk fordel og om den har pågått over lang tid. Det skal også legges vekt på om utnyttelsen fremstår som særlig krenkende for den enkelte og om den som har blitt utnyttet, er under 18 år.
+> § 108 a. Straff for utilbørlig utnyttelse av utlendinger
 >
-> § 108 a.Straff for utilbørlig utnyttelse av utlendinger
+> Med bot eller fengsel inntil 3 år straffes den som forsettlig eller grovt uaktsomt bruker arbeidskraften til, stiller et bosted til rådighet for, eller formidler et arbeid eller et bosted til en utlending, når forholdet innebærer utilbørlig utnyttelse av utlendingens sårbare situasjon, og utlendingenhar midlertidig oppholdstillatelse og er avhengig av arbeidet eller bostedet for oppholdstillatelsen,er asylsøker,ikke har oppholdstillatelse eller nødvendig tillatelse til arbeid etter loven, elleromfattes av lovens kapittel 13 og ikke har varig oppholdsrett etter §§ 115 eller 116.
+>
+> På samme måte straffes den som forsettlig eller grovt uaktsomtbruker en utlending til tigging eller tiggelignende virksomhet eller formidler slik virksomhet til en utlending som ikke har oppholdstillatelse, eller som omfattes av lovens kapittel 13 og ikke har varig oppholdsrett etter §§ 115 eller 116, når forholdet innebærer utilbørlig utnyttelse av utlendingens sårbare situasjon, ellerutferdiger eller formidler erklæringer, tilsagn eller dokumenter til bruk for en sak etter loven, når forholdet innebærer utilbørlig utnyttelse av utlendingens sårbare situasjon.
+>
+> Grov overtredelse av første eller annet ledd straffes med fengsel inntil 6 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om utnyttelsen har et systematisk eller organisert preg, om den har gitt stor økonomisk fordel og om den har pågått over lang tid. Det skal også legges vekt på om utnyttelsen fremstår som særlig krenkende for den enkelte og om den som har blitt utnyttet, er under 18 år.
+>
+
+### 2026-06-12 — forskrift/2026-06-12-1059
+
+*Delt ikraftsetting av lov 12. juni 2026 om endringer i utlendingsloven (gjennomføring av Eurodac-forordningen, forordning om asyl- og migrasjonshåndtering og kriseforordningen i norsk rett).*
+
+> Delt ikraftsetting av lov 12. juni 2026 om endringer i utlendingsloven (gjennomføring av Eurodac-forordningen, forordning om asyl- og migrasjonshåndtering og kriseforordningen i norsk rett).
+>
+> Følgende trer i kraft 12. juni 2026 kl. 15.00:
+>
+> Endringsloven del I (utlendingsloven).
 >
 
 ### 2026-06-19 — lov/2026-06-19-45
@@ -694,6 +1454,22 @@ refid: "lov/2008-05-15-35"
 ### 2026-06-19 — lov/2026-06-19-50
 
 *Nåværende femte ledd blir nytt sjette ledd.*
+
+### 2026-07-01 — forskrift/2026-06-19-1136
+
+*Følgende trer i kraft 1. juli 2026:*
+
+> Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del I om endringer i utlendingsloven § 34.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1490
+
+*Endringen i utlendingsloven § 34 femte ledd gjelder for klager over avslag på tillatelse etter § 34 andre ledd første til fjerde punktum som fremmes etter 1. juli 2026.*
+
+> Endringen i utlendingsloven § 34 femte ledd gjelder for klager over avslag på tillatelse etter § 34 andre ledd første til fjerde punktum som fremmes etter 1. juli 2026.
+>
 
 ## § 1
 
@@ -862,9 +1638,13 @@ refid: "lov/2008-05-15-35"
 
 *§ 100 b overskriften og første til tredje ledd skal lyde:*
 
-> § 100 b.Innhenting av biometrisk personinformasjon til kontroll mot utlendingsregisteret og mot standardiserte oppholdskort mv.I forbindelse med kontroll etter § 21 eller grenseloven § 15, eller i forbindelse med behandlingen av en sak etter utlendingsloven, kan politiet, Utlendingsdirektoratet, Utlendingsnemnda, Utenriksdepartementet, utenriksstasjon eller andre med kontrollmyndighet etter § 22 eller grenseloven innhente biometrisk personinformasjon i form av ansiktsfoto og fingeravtrykk til kontroll mot utlendingsregisteret eller mot fremlagt oppholdskort eller annet kort med registrert biometrisk personinformasjon etter § 100 a første og annet ledd. Utlendingen har plikt til å medvirke til opptak av slik biometrisk personinformasjon.Bestemmelsen i § 100 sjette ledd om opptak av fingeravtrykk og ansiktsfoto med tvang gjelder tilsvarende.Biometrisk personinformasjon innhentet i henhold til første ledd skal slettes så snart som mulig etter at utlendingens identitet er verifisert mot utlendingsregisteret, oppholdskortet eller kort med registrert biometrisk personinformasjon etter § 100 a annet ledd.
+> § 100 b. Innhenting av biometrisk personinformasjon til kontroll mot utlendingsregisteret og mot standardiserte oppholdskort mv.
 >
-> § 100 b.Innhenting av biometrisk personinformasjon til kontroll mot utlendingsregisteret og mot standardiserte oppholdskort mv.
+> I forbindelse med kontroll etter § 21 eller grenseloven § 15, eller i forbindelse med behandlingen av en sak etter utlendingsloven, kan politiet, Utlendingsdirektoratet, Utlendingsnemnda, Utenriksdepartementet, utenriksstasjon eller andre med kontrollmyndighet etter § 22 eller grenseloven innhente biometrisk personinformasjon i form av ansiktsfoto og fingeravtrykk til kontroll mot utlendingsregisteret eller mot fremlagt oppholdskort eller annet kort med registrert biometrisk personinformasjon etter § 100 a første og annet ledd. Utlendingen har plikt til å medvirke til opptak av slik biometrisk personinformasjon.
+>
+> Bestemmelsen i § 100 sjette ledd om opptak av fingeravtrykk og ansiktsfoto med tvang gjelder tilsvarende.
+>
+> Biometrisk personinformasjon innhentet i henhold til første ledd skal slettes så snart som mulig etter at utlendingens identitet er verifisert mot utlendingsregisteret, oppholdskortet eller kort med registrert biometrisk personinformasjon etter § 100 a annet ledd.
 >
 
 ## § 101
@@ -894,9 +1674,13 @@ refid: "lov/2008-05-15-35"
 
 *§ 101 skal lyde:*
 
-> § 101.Systemet EurodacForordning (EU) 2024/1358 (Eurodac-forordningen) gjelder som lov, med unntak av artikkel 8 til 11 og kapittel VII og VIII, og gjelder med de begrensninger som følger av Norges tilknytningsavtale til Dublin-samarbeidet.Kongen kan gi forskrift om behandling av opplysninger i Eurodac, herunder om behandlingsansvar, klageadgang og fremgangsmåte for klagebehandling.Bestemmelsen i § 100 sjette ledd om opptak av fingeravtrykk og ansiktsbilde med tvang gjelder tilsvarende.
+> § 101. Systemet Eurodac
 >
-> § 101.Systemet Eurodac
+> Forordning (EU) 2024/1358 (Eurodac-forordningen) gjelder som lov, med unntak av artikkel 8 til 11 og kapittel VII og VIII, og gjelder med de begrensninger som følger av Norges tilknytningsavtale til Dublin-samarbeidet.
+>
+> Kongen kan gi forskrift om behandling av opplysninger i Eurodac, herunder om behandlingsansvar, klageadgang og fremgangsmåte for klagebehandling.
+>
+> Bestemmelsen i § 100 sjette ledd om opptak av fingeravtrykk og ansiktsbilde med tvang gjelder tilsvarende.
 >
 
 ## § 102
@@ -916,9 +1700,11 @@ refid: "lov/2008-05-15-35"
 
 *§ 102 skal lyde:*
 
-> § 102.Visuminformasjonssystemet VISForordning (EU) nr. 767/2008 om visuminformasjonssystemet VIS (VIS-forordningen), som endret ved forordning (EF) nr. 810/2009, forordning (EU) nr. 610/2013, forordning (EU) 2017/2226, forordning (EU) 2019/817, forordning (EU) 2021/1134 og forordning (EU) 2021/1152, gjelder som lov. VIS-forordningen regulerer blant annet registrering, lagring og deling av opplysninger mellom statene i Schengen-samarbeidet om visum og oppholdstillatelser.Kongen kan gi forskrift om behandling av opplysninger i VIS, herunder om registrering, overføring av opplysninger, lagring, søk, innsyn, endring, sletting, tilgang og behandlingsansvar, samt om opptak av biometrisk personinformasjon.
+> § 102. Visuminformasjonssystemet VIS
 >
-> § 102.Visuminformasjonssystemet VIS
+> Forordning (EU) nr. 767/2008 om visuminformasjonssystemet VIS (VIS-forordningen), som endret ved forordning (EF) nr. 810/2009, forordning (EU) nr. 610/2013, forordning (EU) 2017/2226, forordning (EU) 2019/817, forordning (EU) 2021/1134 og forordning (EU) 2021/1152, gjelder som lov. VIS-forordningen regulerer blant annet registrering, lagring og deling av opplysninger mellom statene i Schengen-samarbeidet om visum og oppholdstillatelser.
+>
+> Kongen kan gi forskrift om behandling av opplysninger i VIS, herunder om registrering, overføring av opplysninger, lagring, søk, innsyn, endring, sletting, tilgang og behandlingsansvar, samt om opptak av biometrisk personinformasjon.
 >
 
 ## § 102 a
@@ -2593,9 +3379,13 @@ refid: "lov/2008-05-15-35"
 
 *§ 43 skal lyde:*
 
-> § 43.Familiegjenforening mellom barn med opphold etter §§ 28 eller 34 og barnets foreldre og søskenSøkere som er foreldre til barn under 18 år med opphold i riket etter §§ 28 eller 34, har rett til opphold. Det er et vilkår at søkerne skal bo sammen med barnet. Dersom en av barnets foreldre har oppholdstillatelse i Norge, er det et vilkår at søkeren ikke er gift med eller skal bo sammen med denne forelderen. Dersom søkeren er enslig mor eller far, har den av foreldrene som hadde foreldreansvaret og som barnet bodde fast sammen med i hjemlandet, fortrinnsrett til opphold i Norge.Første ledd første og annet punktum gjelder tilsvarende for søsken under 18 år som ikke har ektefelle eller samboer, og som bor sammen med foreldrene, eller den av dem som får opphold.Dersom oppholdstillatelse vil føre til en situasjon der flere enn to personer lever i et samliv som gifte, samboere eller en kombinasjon av dette, kan oppholdstillatelse til en søker som gjenforenes med en annen ektefelle, nektes. Oppholdstillatelse kan også nektes dersom tillatelsen vil lede til at søkeren blir gjenforent med en tidligere ektefelle, og det er sannsynlig at søkeren har til hensikt å gjenoppta samlivet med denne.
+> § 43. Familiegjenforening mellom barn med opphold etter §§ 28 eller 34 og barnets foreldre og søsken
 >
-> § 43.Familiegjenforening mellom barn med opphold etter §§ 28 eller 34 og barnets foreldre og søsken
+> Søkere som er foreldre til barn under 18 år med opphold i riket etter §§ 28 eller 34, har rett til opphold. Det er et vilkår at søkerne skal bo sammen med barnet. Dersom en av barnets foreldre har oppholdstillatelse i Norge, er det et vilkår at søkeren ikke er gift med eller skal bo sammen med denne forelderen. Dersom søkeren er enslig mor eller far, har den av foreldrene som hadde foreldreansvaret og som barnet bodde fast sammen med i hjemlandet, fortrinnsrett til opphold i Norge.
+>
+> Første ledd første og annet punktum gjelder tilsvarende for søsken under 18 år som ikke har ektefelle eller samboer, og som bor sammen med foreldrene, eller den av dem som får opphold.
+>
+> Dersom oppholdstillatelse vil føre til en situasjon der flere enn to personer lever i et samliv som gifte, samboere eller en kombinasjon av dette, kan oppholdstillatelse til en søker som gjenforenes med en annen ektefelle, nektes. Oppholdstillatelse kan også nektes dersom tillatelsen vil lede til at søkeren blir gjenforent med en tidligere ektefelle, og det er sannsynlig at søkeren har til hensikt å gjenoppta samlivet med denne.
 >
 
 ## § 44
@@ -2659,9 +3449,9 @@ refid: "lov/2008-05-15-35"
 
 *Ny § 5 a skal lyde:*
 
-> § 5 a.Forholdet mellom utlendingsloven og grenseloven under screening etter forordning (EU) 2024/1356En sak etter loven her kan påbegynnes under screening etter forordning (EU) 2024/1356, jf. grenseloven § 8 første ledd nr. 6. Kongen kan gi forskrift med nærmere regler om saksgang mv.
+> § 5 a. Forholdet mellom utlendingsloven og grenseloven under screening etter forordning (EU) 2024/1356
 >
-> § 5 a.Forholdet mellom utlendingsloven og grenseloven under screening etter forordning (EU) 2024/1356
+> En sak etter loven her kan påbegynnes under screening etter forordning (EU) 2024/1356, jf. grenseloven § 8 første ledd nr. 6. Kongen kan gi forskrift med nærmere regler om saksgang mv.
 >
 
 ## § 51
@@ -2880,12 +3670,6 @@ refid: "lov/2008-05-15-35"
 
 > Kongen kan gi forskrift omat permanent oppholdstillatelse kan gis i andre tilfeller enn nevnt i første leddinnholdet i vilkårene etter første ledd bokstav d, e og f og fjerde ledd og unntak fra disse vilkårenebortfall av permanent oppholdstillatelse og hvor langvarig et mellomliggende opphold i Norge skal være for at et opphold i utlandet ikke regnes som sammenhengende etter åttende ledd.
 >
-> at permanent oppholdstillatelse kan gis i andre tilfeller enn nevnt i første ledd
->
-> innholdet i vilkårene etter første ledd bokstav d, e og f og fjerde ledd og unntak fra disse vilkårene
->
-> bortfall av permanent oppholdstillatelse og hvor langvarig et mellomliggende opphold i Norge skal være for at et opphold i utlandet ikke regnes som sammenhengende etter åttende ledd.
->
 
 ## § 63
 
@@ -3069,18 +3853,6 @@ refid: "lov/2008-05-15-35"
 
 > Med mindre det vil være et uforholdsmessig tiltak, jf. § 70, skal en utlending uten oppholdstillatelse utvisesnår utlendingen ikke har overholdt utreisefristen gitt i medhold av § 90 a, ellernår utlendingen ikke er gitt en utreisefristfordi det er konkrete holdepunkter for å anta at utlendingen vil unndra seg iverksettingen av vedtaket, jf. § 90 a første ledd bokstav a og § 106 d,fordi en søknad er avslått som åpenbart grunnløs, eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 a første ledd bokstav b,fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden etter § 90 a første ledd bokstav c, ellerfordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser etter § 129 femte ledd.
 >
-> når utlendingen ikke har overholdt utreisefristen gitt i medhold av § 90 a, eller
->
-> når utlendingen ikke er gitt en utreisefristfordi det er konkrete holdepunkter for å anta at utlendingen vil unndra seg iverksettingen av vedtaket, jf. § 90 a første ledd bokstav a og § 106 d,fordi en søknad er avslått som åpenbart grunnløs, eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 a første ledd bokstav b,fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden etter § 90 a første ledd bokstav c, ellerfordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser etter § 129 femte ledd.
->
-> fordi det er konkrete holdepunkter for å anta at utlendingen vil unndra seg iverksettingen av vedtaket, jf. § 90 a første ledd bokstav a og § 106 d,
->
-> fordi en søknad er avslått som åpenbart grunnløs, eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 a første ledd bokstav b,
->
-> fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden etter § 90 a første ledd bokstav c, eller
->
-> fordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser etter § 129 femte ledd.
->
 
 ## § 67
 
@@ -3255,9 +4027,17 @@ refid: "lov/2008-05-15-35"
 
 *§ 71 skal lyde:*
 
-> § 71.Utvisningens virkning og varighetEnhver gyldig tillatelse til opphold i riket opphører å gjelde når et vedtak om utvisning er endelig. Kongen kan gi forskrift om virkningen av et vedtak om utvisning for søknader om oppholdstillatelse som ikke er avgjort på utvisningstidspunktet.Utvisningen er til hinder for senere innreise i riket eller Schengen- og EU-området. Innreiseforbudet kan gjøres varig eller tidsbegrenset, men ikke for kortere tidsrom enn ett år.Innreiseforbudet løper fra det tidspunktet utlendingen forlater området utreiseplikten gjelder etter § 90 første ledd. Dersom vedtaket ikke pålegger en utreiseplikt, løper innreiseforbudet fra tidspunktet for førsteinstansens vedtak.Innreiseforbudet kan etter søknad oppheves dersom nye omstendigheter tilsier det. Dersom særskilte omstendigheter foreligger, kan den utviste etter søknad få adgang til riket for kortvarig besøk selv om innreiseforbudet ikke oppheves, men som regel ikke før to år er gått fra utreisen.Kongen kan gi forskrift om virkningen og varigheten av utvisningen.
+> § 71. Utvisningens virkning og varighet
 >
-> § 71.Utvisningens virkning og varighet
+> Enhver gyldig tillatelse til opphold i riket opphører å gjelde når et vedtak om utvisning er endelig. Kongen kan gi forskrift om virkningen av et vedtak om utvisning for søknader om oppholdstillatelse som ikke er avgjort på utvisningstidspunktet.
+>
+> Utvisningen er til hinder for senere innreise i riket eller Schengen- og EU-området. Innreiseforbudet kan gjøres varig eller tidsbegrenset, men ikke for kortere tidsrom enn ett år.
+>
+> Innreiseforbudet løper fra det tidspunktet utlendingen forlater området utreiseplikten gjelder etter § 90 første ledd. Dersom vedtaket ikke pålegger en utreiseplikt, løper innreiseforbudet fra tidspunktet for førsteinstansens vedtak.
+>
+> Innreiseforbudet kan etter søknad oppheves dersom nye omstendigheter tilsier det. Dersom særskilte omstendigheter foreligger, kan den utviste etter søknad få adgang til riket for kortvarig besøk selv om innreiseforbudet ikke oppheves, men som regel ikke før to år er gått fra utreisen.
+>
+> Kongen kan gi forskrift om virkningen og varigheten av utvisningen.
 >
 
 ## § 72
@@ -3834,16 +4614,6 @@ refid: "lov/2008-05-15-35"
 
 > Forordning (EU) 2018/1240 om etableringen av fremreisesystemet (ETIAS-forordningen) gjelder som lov. Forordningen gjelder med de endringene som følger avforordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356forordning (EU) 2024/1358
 >
-> forordning (EU) 2019/817
->
-> forordning (EU) 2021/1134
->
-> forordning (EU) 2021/1152
->
-> forordning (EU) 2024/1356
->
-> forordning (EU) 2024/1358
->
 
 ## § 90
 
@@ -3997,9 +4767,15 @@ refid: "lov/2008-05-15-35"
 
 *§ 90 skal lyde:*
 
-> § 90.UtreisepliktVedtak som pålegger en utreiseplikt, innebærer at utlendingen skal forlate riket eller Schengen- og EU-området.Dersom utlendingen pålegges utreiseplikt fra Schengen- og EU-området, skal utreise skje tilutlendingens opprinnelsesland,et transittland i samsvar med fellesskapsavtaler eller bilaterale avtaler om tilbaketaking eller andre ordninger, elleret annet tredjeland etter utlendingens ønske, og som vil ta imot vedkommende.Utreise kan likevel skje til et annet land, dersom utlendingen bortvises eller utvises ved Schengenyttergrensen eller på grunn av ilagt straff etter andre bestemmelser enn § 108 annet ledd.Kongen kan gi nærmere regler i forskrift om utreiseplikt og hvilket land utreise skal skje til.
+> § 90. Utreiseplikt
 >
-> § 90.Utreiseplikt
+> Vedtak som pålegger en utreiseplikt, innebærer at utlendingen skal forlate riket eller Schengen- og EU-området.
+>
+> Dersom utlendingen pålegges utreiseplikt fra Schengen- og EU-området, skal utreise skje tilutlendingens opprinnelsesland,et transittland i samsvar med fellesskapsavtaler eller bilaterale avtaler om tilbaketaking eller andre ordninger, elleret annet tredjeland etter utlendingens ønske, og som vil ta imot vedkommende.
+>
+> Utreise kan likevel skje til et annet land, dersom utlendingen bortvises eller utvises ved Schengenyttergrensen eller på grunn av ilagt straff etter andre bestemmelser enn § 108 annet ledd.
+>
+> Kongen kan gi nærmere regler i forskrift om utreiseplikt og hvilket land utreise skal skje til.
 >
 
 ## § 90 a
@@ -4026,9 +4802,11 @@ refid: "lov/2008-05-15-35"
 
 *§ 90 a skal lyde:*
 
-> § 90 a.UtreisefristUtlendingen skal gis en frist på mellom sju og tretti dager til å overholde utreiseplikten. Dersom det anses nødvendig, kan det settes en lengre frist. Det kan settes en kortere frist enn sju dager eller unnlates å gi en utreisefrist nårdet er konkrete holdepunkter for å anta at utlendingen vil unndra seg iverksettingen av vedtaket, jf. § 106 den søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysningerutlendingen er funnet å utgjøre en trussel mot offentlig ordenutlendingen omfattes av § 32utlendingen bortvises eller utvises ved Schengenyttergrensenutlendingen utvises etter § 66 første ledd bokstav b, c, e eller g, § 66 annet ledd, § 67 eller § 68.Kongen kan gi nærmere regler i forskrift om fastsettelse av utreisefrist.
+> § 90 a. Utreisefrist
 >
-> § 90 a.Utreisefrist
+> Utlendingen skal gis en frist på mellom sju og tretti dager til å overholde utreiseplikten. Dersom det anses nødvendig, kan det settes en lengre frist. Det kan settes en kortere frist enn sju dager eller unnlates å gi en utreisefrist nårdet er konkrete holdepunkter for å anta at utlendingen vil unndra seg iverksettingen av vedtaket, jf. § 106 den søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysningerutlendingen er funnet å utgjøre en trussel mot offentlig ordenutlendingen omfattes av § 32utlendingen bortvises eller utvises ved Schengenyttergrensenutlendingen utvises etter § 66 første ledd bokstav b, c, e eller g, § 66 annet ledd, § 67 eller § 68.
+>
+> Kongen kan gi nærmere regler i forskrift om fastsettelse av utreisefrist.
 >
 
 ### 2025-06-20 — lov/2025-06-20-85
@@ -4046,9 +4824,13 @@ refid: "lov/2008-05-15-35"
 
 *§ 90 g skal lyde:*
 
-> § 90 g.Stønad i forbindelse med retur og tilbakevendingDet kan gis stønad til en utlending i forbindelse med retur eller tilbakevending.Kongen kan gi forskrift om tilskuddsordninger og vilkår for å motta stønad, og om at klager på avslag på søknader om stønad skal behandles av Utlendingsnemnda eller et annet klageorgan.Kongen kan gi forskrift om at bestemmelsene i § 78 kan fravikes ved behandling av klager på avslag om stønad etter første ledd, og om at Utlendingsnemndas direktør gis myndighet til å avgjøre hvordan de aktuelle sakene skal behandles og avgjøres.
+> § 90 g. Stønad i forbindelse med retur og tilbakevending
 >
-> § 90 g.Stønad i forbindelse med retur og tilbakevending
+> Det kan gis stønad til en utlending i forbindelse med retur eller tilbakevending.
+>
+> Kongen kan gi forskrift om tilskuddsordninger og vilkår for å motta stønad, og om at klager på avslag på søknader om stønad skal behandles av Utlendingsnemnda eller et annet klageorgan.
+>
+> Kongen kan gi forskrift om at bestemmelsene i § 78 kan fravikes ved behandling av klager på avslag om stønad etter første ledd, og om at Utlendingsnemndas direktør gis myndighet til å avgjøre hvordan de aktuelle sakene skal behandles og avgjøres.
 >
 
 ## § 91
@@ -4218,9 +5000,21 @@ refid: "lov/2008-05-15-35"
 
 *§ 92 skal lyde:*
 
-> § 92.RettshjelpEn utlending har rett til fritt rettsråd uten behovsprøving både ved førsteinstansbehandling og ved eventuell klage i saker ombortvisningutvisning, unntatt ved utvisning på grunn av ilagt straff eller særreaksjon etter § 66 første ledd bokstav b og c, § 67 første ledd bokstav a, b, c og f, § 68 første ledd bokstav a og b og § 122, med mindre utlendingen har mindreårige barn som er bosatt i Norge og som er norske borgere eller har oppholdstillatelse eller oppholdsretttilbakekall av oppholdstillatelse eller tilbakekall av oppholdsdokument, jf. § 120oppholdstillatelse etter § 28 eller vern mot utsendelse etter § 73, dersom utlendingen er enslig mindreårigutelukkelse etter § 31, herunder saker hvor Utlendingsdirektoratet finner at dette kan bli utfallet.En utlending som ikke har rett til fritt rettsråd etter første ledd, har likevel rett til fritt rettsråd uten behovsprøving i forbindelse medklage over negativt vedtak fattet av Utlendingsdirektoratet, i saker hvor utlendingen søker om beskyttelse etter § 28 eller for øvrig påberoper seg et vern mot utsendelse etter § 73. Dette gjelder likevel ikke der utlendingen klager over bare å ha fått oppholdstillatelse etter § 38overprøving av Utlendingsdirektoratets vedtak i Utlendingsnemnda etter beslutning fra departementet etter § 76 tredje ledd.Ved domstolsbehandling skal retten av eget tiltak og uten behovsprøving gi bevilling til fri sakførsel i følgende tilfeller:når departementet fremmer søksmål mot utlendingen etter § 79 annet ledd for å prøve gyldigheten av et vedtak truffet av Utlendingsnemndanår retten prøver spørsmålet om internering etter § 106. I disse tilfellene skal det så vidt mulig oppnevnes en prosessfullmektig straks det er klart at en pågrepet utlending ikke vil bli løslatt, uttransportert eller fremstilt for internering etter § 106 innen utløpet av den andre dagen etter pågripelsen. En utlending som blir pågrepet eller internert, har rett til ukontrollert skriftlig og muntlig samkvem med sin prosessfullmektignår retten prøver spørsmålet om beslag eller pålegg etter § 104 annet ledd og § 105 annet ledd, med mindre det ville medføre særlig ulempe eller tidsspille, eller retten finner det ubetenkelig å unnlate å oppnevne prosessfullmektignår utlendingen har fått medhold i tingretten og staten anker en sak etter loven her.Oppnevning etter tredje ledd bokstav b og c faller bort når retten bestemmer det.I de tilfeller det er gitt fritt rettsråd uten behovsprøving eller fri sakførsel, kan det offentliges utgifter i forbindelse med rettshjelpen kreves helt eller delvis erstattet dersom utlendingen har økonomisk evne til det.Reglene i rettshjelpsloven om saksbehandling, klageadgang mv., gjelder så langt de passer.Kongen kan gi nærmere regler i forskrift om blant annetunntak fra retten til fritt rettsrådrett til fritt rettsråd uten behovsprøving i andre saker etter loven her enn nevnt i første og annet leddsaksbehandling, klageadgang, oppnevning av advokat mv.godtgjørelse i saker hvor det gis rett til fri rettshjelp etter denne paragrafen.
+> § 92. Rettshjelp
 >
-> § 92.Rettshjelp
+> En utlending har rett til fritt rettsråd uten behovsprøving både ved førsteinstansbehandling og ved eventuell klage i saker ombortvisningutvisning, unntatt ved utvisning på grunn av ilagt straff eller særreaksjon etter § 66 første ledd bokstav b og c, § 67 første ledd bokstav a, b, c og f, § 68 første ledd bokstav a og b og § 122, med mindre utlendingen har mindreårige barn som er bosatt i Norge og som er norske borgere eller har oppholdstillatelse eller oppholdsretttilbakekall av oppholdstillatelse eller tilbakekall av oppholdsdokument, jf. § 120oppholdstillatelse etter § 28 eller vern mot utsendelse etter § 73, dersom utlendingen er enslig mindreårigutelukkelse etter § 31, herunder saker hvor Utlendingsdirektoratet finner at dette kan bli utfallet.
+>
+> En utlending som ikke har rett til fritt rettsråd etter første ledd, har likevel rett til fritt rettsråd uten behovsprøving i forbindelse medklage over negativt vedtak fattet av Utlendingsdirektoratet, i saker hvor utlendingen søker om beskyttelse etter § 28 eller for øvrig påberoper seg et vern mot utsendelse etter § 73. Dette gjelder likevel ikke der utlendingen klager over bare å ha fått oppholdstillatelse etter § 38overprøving av Utlendingsdirektoratets vedtak i Utlendingsnemnda etter beslutning fra departementet etter § 76 tredje ledd.
+>
+> Ved domstolsbehandling skal retten av eget tiltak og uten behovsprøving gi bevilling til fri sakførsel i følgende tilfeller:når departementet fremmer søksmål mot utlendingen etter § 79 annet ledd for å prøve gyldigheten av et vedtak truffet av Utlendingsnemndanår retten prøver spørsmålet om internering etter § 106. I disse tilfellene skal det så vidt mulig oppnevnes en prosessfullmektig straks det er klart at en pågrepet utlending ikke vil bli løslatt, uttransportert eller fremstilt for internering etter § 106 innen utløpet av den andre dagen etter pågripelsen. En utlending som blir pågrepet eller internert, har rett til ukontrollert skriftlig og muntlig samkvem med sin prosessfullmektignår retten prøver spørsmålet om beslag eller pålegg etter § 104 annet ledd og § 105 annet ledd, med mindre det ville medføre særlig ulempe eller tidsspille, eller retten finner det ubetenkelig å unnlate å oppnevne prosessfullmektignår utlendingen har fått medhold i tingretten og staten anker en sak etter loven her.
+>
+> Oppnevning etter tredje ledd bokstav b og c faller bort når retten bestemmer det.
+>
+> I de tilfeller det er gitt fritt rettsråd uten behovsprøving eller fri sakførsel, kan det offentliges utgifter i forbindelse med rettshjelpen kreves helt eller delvis erstattet dersom utlendingen har økonomisk evne til det.
+>
+> Reglene i rettshjelpsloven om saksbehandling, klageadgang mv., gjelder så langt de passer.
+>
+> Kongen kan gi nærmere regler i forskrift om blant annetunntak fra retten til fritt rettsrådrett til fritt rettsråd uten behovsprøving i andre saker etter loven her enn nevnt i første og annet leddsaksbehandling, klageadgang, oppnevning av advokat mv.godtgjørelse i saker hvor det gis rett til fri rettshjelp etter denne paragrafen.
 >
 
 ## § 93

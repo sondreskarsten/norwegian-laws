@@ -7,6 +7,20 @@ refid: "lov/1997-06-13-43"
 
 ## (annet)
 
+### 2007-06-15 — lov/2007-06-15-36
+
+*I lov 13. juni 1997 nr. 43 om avtalar med forbrukar om oppføring av ny bustad m.m. (bustadoppføringslova) skal § 30 nytt femte ledd lyde:*
+
+> Retten til å gjere ein mangel gjeldande kan òg bli mista etter reglane om forelding i foreldingslova.
+>
+
+### 2010-09-03 — lov/2010-09-03-54
+
+*I lov 13. juni 1997 nr. 43 om avtalar med forbrukar om oppføring av ny bustad m.m. skal § 1a annet ledd lyde:*
+
+> Avtalen skal opplyse om kontantvederlag, andel fellesgjeld i burettslaget og den samla summen av desse beløpa.
+>
+
 ### 2016-12-16 — lov/2016-12-16-94
 
 *Nåværende annet til åttende ledd blir nye tredje til niende ledd.*

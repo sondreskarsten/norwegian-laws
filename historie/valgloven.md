@@ -42,9 +42,9 @@ refid: "lov/2023-06-16-62"
 
 *§ 18-5 skal lyde:*
 
-> § 18-5.Offentliggjøring av valgresultater ved forlenget valgtingHvis valgtinget forlenges til etter klokken 21 på valgdagen, gjelder § 21-8 tilsvarende.
+> § 18-5. Offentliggjøring av valgresultater ved forlenget valgting
 >
-> § 18-5.Offentliggjøring av valgresultater ved forlenget valgting
+> Hvis valgtinget forlenges til etter klokken 21 på valgdagen, gjelder § 21-8 tilsvarende.
 >
 
 ## § 21-8
@@ -53,9 +53,9 @@ refid: "lov/2023-06-16-62"
 
 *§ 21-8 skal lyde:*
 
-> § 21-8.Offentliggjøring av valgresultater og prognoser på valgdagenFør klokken 21 på valgdagen er det ikke tillatt ågi ut informasjon om eller offentliggjøre valgresultateroffentliggjøre prognoser laget på grunnlag av undersøkelser på valgdagen eller dagen i forveien.
+> § 21-8. Offentliggjøring av valgresultater og prognoser på valgdagen
 >
-> § 21-8.Offentliggjøring av valgresultater og prognoser på valgdagen
+> Før klokken 21 på valgdagen er det ikke tillatt ågi ut informasjon om eller offentliggjøre valgresultateroffentliggjøre prognoser laget på grunnlag av undersøkelser på valgdagen eller dagen i forveien.
 >
 
 ## (annet)

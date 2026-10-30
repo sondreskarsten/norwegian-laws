@@ -137,6 +137,9 @@ refid: "lov/2015-12-04-95"
 
 *6.I lov 4. desember 2015 nr. 95 om fastsettelse av finansielle referanseverdier skal § 1 første ledd lyde:*
 
+> (1) EØS-avtalen vedlegg IX (forordning (EU) 2016/1011) om indekser brukt som referanseverdier i finansielle instrumenter og finansielle kontrakter eller for å måle resultatet i investeringsfond (referanseverdiforordningen), som endret ved forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+
 ### 2026-06-19 — lov/2026-06-19-40
 
 *Nåværende annet ledd blir nytt tredje ledd.*
@@ -146,6 +149,9 @@ refid: "lov/2015-12-04-95"
 ### 2026-06-19 — lov/2026-06-19-40
 
 *§ 10 annet ledd skal lyde:*
+
+> (2) Et vedtak etter første ledd kan gis for et tidsrom av inntil fem år.
+>
 
 ## § 12
 

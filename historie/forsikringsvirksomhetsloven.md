@@ -210,9 +210,13 @@ refid: "lov/2005-06-10-44"
 
 *Ny § 3-19 a skal lyde:*
 
-> § 3-19 a.Betinget egenkapitalbidrag for kontraktsfastsatte forpliktelserHvis avkastningen tilordnet en kontrakt i kollektivporteføljen i et år er negativ eller ikke er stor nok til å dekke det årlige kravet til økning i premiereserven etter premieberegningsgrunnlaget, og kravet heller ikke kan oppfylles ved bruk av bufferfond tilordnet kontrakten, kan kravet oppfylles ved betinget egenkapitalbidrag fra foretaket.For kontrakter som har fått tilført betinget egenkapitalbidrag, skal foretaket benytte hele eller deler av tilført avkastning utover tilordning i samsvar med beregningsgrunnlaget for kontrakten til økning av premiereserven og tilsvarende reduksjon av betinget egenkapitalbidrag.Ved gjenkjøp eller opphør av kontrakten skal egenkapitalbidraget anses som tilført med endelig virkning.
+> § 3-19 a. Betinget egenkapitalbidrag for kontraktsfastsatte forpliktelser
 >
-> § 3-19 a.Betinget egenkapitalbidrag for kontraktsfastsatte forpliktelser
+> Hvis avkastningen tilordnet en kontrakt i kollektivporteføljen i et år er negativ eller ikke er stor nok til å dekke det årlige kravet til økning i premiereserven etter premieberegningsgrunnlaget, og kravet heller ikke kan oppfylles ved bruk av bufferfond tilordnet kontrakten, kan kravet oppfylles ved betinget egenkapitalbidrag fra foretaket.
+>
+> For kontrakter som har fått tilført betinget egenkapitalbidrag, skal foretaket benytte hele eller deler av tilført avkastning utover tilordning i samsvar med beregningsgrunnlaget for kontrakten til økning av premiereserven og tilsvarende reduksjon av betinget egenkapitalbidrag.
+>
+> Ved gjenkjøp eller opphør av kontrakten skal egenkapitalbidraget anses som tilført med endelig virkning.
 >
 
 ## § 3-20
@@ -725,6 +729,27 @@ refid: "lov/2005-06-10-44"
 
 *Nåværende annet og tredje ledd blir nye fjerde og femte ledd.*
 
+### 2007-12-21 — lov/2007-12-21-129
+
+*I lov 10. juni 2005 nr. 44 om forsikringsselskaper, pensjonsforetak og deres virksomhet mv. (forsikringsloven) skal § 13-5 annet ledd annet punktum lyde:*
+
+> Reglene i aksjeloven kapitlene 13 og 14 og § 4-26 gjelder tilsvarende for gjensidige forsikringsselskaper, med unntak av reglene i aksjeloven §§ 13-25 og 14-12.
+>
+
+### 2009-01-01 — lov/2009-01-16-5
+
+*I lov 10. juni 2005 nr. 44 om forsikringsselskaper, pensjonsforetak og deres virksomhet mv. (forsikringsloven) skal § 1-6 andre ledd nytt tredje punktum lyde:*
+
+> Bestemmelsene i første ledd er heller ikke til hinder for at opplysninger gis til Arbeids- og velferdsetaten i medhold av folketrygdloven § 21-4 b første ledd.
+>
+
+### 2009-06-19 — lov/2009-06-19-59
+
+*I lov 10. juni 2005 nr. 44 om forsikringsselskaper, pensjonsforetak og deres virksomhet mv. (forsikringsvirksomhetsloven) skal § 2-1 første ledd tredje og fjerde punktum lyde:*
+
+> Tillatelse skal nektes med mindre Kongen er overbevist om at eiere av kvalifiserte eierandeler er egnet til å inneha slike eierandeler og utøve slik innflytelse i foretaket som eierandelene gir grunnlag for. Med kvalifisert eierandel menes en eierandel som beregnet etter reglene i finansieringsvirksomhetsloven § 2-2, representerer 10 prosent eller mer av kapitalen og stemmene i institusjonen, eller som for øvrig gir adgang til å utøve en vesentlig innflytelse i ledelsen av institusjonen og dens virksomhet.
+>
+
 ### 2010-12-17 — lov/2010-12-17-84
 
 *Kapittel 12 skal lyde:*
@@ -852,6 +877,24 @@ refid: "lov/2005-06-10-44"
 > Kongen kan i forskrift fastsette nærmere regler til utfylling og avgrensning av bestemmelsene i kapitlet her.
 >
 
+### 2011-01-01 — forskrift/2010-12-17-1664
+
+*Delt ikraftsetting av Stortingets vedtak 18. november 2010 til lov om endringer i forsikringsvirksomhetsloven (skadeforsikring).*
+
+> Delt ikraftsetting av Stortingets vedtak 18. november 2010 til lov om endringer i forsikringsvirksomhetsloven (skadeforsikring).
+>
+> Loven trer i kraft 1. januar 2011 med unntak av § 12-17.
+>
+> Skadeforsikringsselskaper skal senest innrette seg etter de nye reglene innen 1. juli 2011.
+>
+
+### 2014-06-20 — lov/2014-06-20-29
+
+*I lov 10. juni 2005 nr. 44 om forsikringsselskaper, pensjonsforetak og deres virksomhet mv. skal § 9-3 a nytt annet punktum lyde:*
+
+> Ved avtaler om private og frivillige forsikringer utenfor arbeidsforhold skal anvendelse av kjønn som faktor ved beregningen ikke føre til forskjeller i forsikringstakeres premier og ytelser.
+>
+
 ### 2019-12-13 — lov/2019-12-13-79
 
 *Nåværende tredje ledd blir nytt fjerde ledd og skal lyde:*
@@ -875,21 +918,27 @@ refid: "lov/2005-06-10-44"
 
 *§§ 4-17 og 4-18 og nye §§ 4-19 og 4-20 skal lyde:*
 
-> § 4-17.Innhenting av opplysninger til bruk for arbeidet med avtalefestet pensjonArbeids- og velferdsetaten skal utlevere den samlede pensjonsbeholdningen beregnet etter folketrygdloven § 20-4 og andre opplysninger som er nødvendige for pensjonsinnretningens premieberegning, beregning av fremtidig pensjon, vilkårsprøving og beregning av avtalefestet pensjon for arbeidstakere født i 1963 eller senere. Taushetsplikten etter arbeids- og velferdsforvaltningsloven § 7 er ikke til hinder for utveksling av opplysninger mellom Arbeids- og velferdsetaten og kommunale pensjonsinnretninger i den utstrekning det er nødvendig for å fremme oppgaver etter denne bestemmelsen.Pensjonsinnretningen har rett til å innhente opplysninger fra det felles organet etter AFP-tilskottsloven § 18, som gjør det mulig å vurdere om vilkårene for avtalefestet pensjon for arbeidstakere født i 1963 eller senere, er oppfylt.Pensjonsinnretningen har rett til å innhente opplysninger fra nåværende eller tidligere arbeidsgivere om arbeidstakerens eller pensjonistens arbeids- og inntektsforhold som er nødvendige for å forvalte og beregne avtalefestet pensjon for arbeidstakere født i 1963 eller senere. Den som pålegges å gi opplysninger, plikter å gjøre dette uten godtgjørelse og uten hinder av taushetsplikt.
+> § 4-17. Innhenting av opplysninger til bruk for arbeidet med avtalefestet pensjon
 >
-> § 4-17.Innhenting av opplysninger til bruk for arbeidet med avtalefestet pensjon
+> Arbeids- og velferdsetaten skal utlevere den samlede pensjonsbeholdningen beregnet etter folketrygdloven § 20-4 og andre opplysninger som er nødvendige for pensjonsinnretningens premieberegning, beregning av fremtidig pensjon, vilkårsprøving og beregning av avtalefestet pensjon for arbeidstakere født i 1963 eller senere. Taushetsplikten etter arbeids- og velferdsforvaltningsloven § 7 er ikke til hinder for utveksling av opplysninger mellom Arbeids- og velferdsetaten og kommunale pensjonsinnretninger i den utstrekning det er nødvendig for å fremme oppgaver etter denne bestemmelsen.
 >
-> § 4-18.Innhenting av opplysninger til bruk for beregning av forventede fremtidige pensjonsytelser fra pensjonsordningenArbeids- og velferdsetaten skal utlevere den samlede pensjonsbeholdningen beregnet etter folketrygdloven § 20-4 og andre opplysninger som er nødvendige for pensjonsinnretningens beregning av forventede fremtidige pensjonsytelser fra pensjonsordningen for sine medlemmer. Taushetsplikten etter arbeids- og velferdsforvaltningsloven § 7 er ikke til hinder for utveksling av opplysninger mellom Arbeids- og velferdsetaten og kommunale pensjonsinnretninger i den utstrekning det er nødvendig for å fremme oppgaver etter denne bestemmelsen.
+> Pensjonsinnretningen har rett til å innhente opplysninger fra det felles organet etter AFP-tilskottsloven § 18, som gjør det mulig å vurdere om vilkårene for avtalefestet pensjon for arbeidstakere født i 1963 eller senere, er oppfylt.
 >
-> § 4-18.Innhenting av opplysninger til bruk for beregning av forventede fremtidige pensjonsytelser fra pensjonsordningen
+> Pensjonsinnretningen har rett til å innhente opplysninger fra nåværende eller tidligere arbeidsgivere om arbeidstakerens eller pensjonistens arbeids- og inntektsforhold som er nødvendige for å forvalte og beregne avtalefestet pensjon for arbeidstakere født i 1963 eller senere. Den som pålegges å gi opplysninger, plikter å gjøre dette uten godtgjørelse og uten hinder av taushetsplikt.
 >
-> § 4-19.Opplysninger i skattemeldingen for arbeidsgiveravgift og finansskatt på lønnArbeidsgivere med kommunal pensjonsordning skal gi opplysning om identifikator på pensjonsinnretningen i skattemeldingen etter skatteforvaltningsloven § 8-6.
+> § 4-18. Innhenting av opplysninger til bruk for beregning av forventede fremtidige pensjonsytelser fra pensjonsordningen
 >
-> § 4-19.Opplysninger i skattemeldingen for arbeidsgiveravgift og finansskatt på lønn
+> Arbeids- og velferdsetaten skal utlevere den samlede pensjonsbeholdningen beregnet etter folketrygdloven § 20-4 og andre opplysninger som er nødvendige for pensjonsinnretningens beregning av forventede fremtidige pensjonsytelser fra pensjonsordningen for sine medlemmer. Taushetsplikten etter arbeids- og velferdsforvaltningsloven § 7 er ikke til hinder for utveksling av opplysninger mellom Arbeids- og velferdsetaten og kommunale pensjonsinnretninger i den utstrekning det er nødvendig for å fremme oppgaver etter denne bestemmelsen.
 >
-> § 4-20.Adgang til å treffe automatiserte avgjørelserPensjonsinnretningen kan treffe avgjørelser som utelukkende er basert på automatisert behandling av personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10. Behandlingen må sikre partens krav til forsvarlig saksbehandling og være forenlig med retten til vern av personopplysninger. Avgjørelsen kan ikke bygge på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjørelsen er utvilsom. Den registrerte har rett til manuell overprøving av avgjørelsen.Departementet kan i forskrift gi nærmere regler om bruk av automatiserte avgjørelser.
+> § 4-19. Opplysninger i skattemeldingen for arbeidsgiveravgift og finansskatt på lønn
 >
-> § 4-20.Adgang til å treffe automatiserte avgjørelser
+> Arbeidsgivere med kommunal pensjonsordning skal gi opplysning om identifikator på pensjonsinnretningen i skattemeldingen etter skatteforvaltningsloven § 8-6.
+>
+> § 4-20. Adgang til å treffe automatiserte avgjørelser
+>
+> Pensjonsinnretningen kan treffe avgjørelser som utelukkende er basert på automatisert behandling av personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10. Behandlingen må sikre partens krav til forsvarlig saksbehandling og være forenlig med retten til vern av personopplysninger. Avgjørelsen kan ikke bygge på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjørelsen er utvilsom. Den registrerte har rett til manuell overprøving av avgjørelsen.
+>
+> Departementet kan i forskrift gi nærmere regler om bruk av automatiserte avgjørelser.
 >
 
 ### 2024-12-20 — lov/2024-12-20-93
@@ -900,9 +949,11 @@ refid: "lov/2005-06-10-44"
 
 *I lov 10. juni 2005 nr. 44 om forsikringsvirksomhet skal ny § 4-17 a lyde:*
 
-> § 4-17 a.Innhenting av opplysninger til bruk for arbeidet med tidligpensjon og særalderspåslagPensjonsinnretningen har rett til å innhente opplysninger fra nåværende og tidligere arbeidsgiver om arbeidstakerens eller pensjonistens arbeidsforhold som er nødvendige for å forvalte og beregne tidligpensjon og særalderspåslag for arbeidstakere født i 1963 eller senere. Den som pålegges å gi opplysninger, plikter å gjøre dette uten godtgjørelse og uten hinder av taushetsplikt.Arbeids- og velferdsetaten skal utlevere opplysninger som er nødvendige for pensjonsinnretningens premieberegning, beregning av fremtidig pensjon, vilkårsprøving og beregning av tidligpensjon og særalderspåslag for arbeidstakere født i 1963 eller senere. Taushetsplikten etter arbeids- og velferdsforvaltningsloven § 7 er ikke til hinder for utveksling av opplysninger mellom Arbeids- og velferdsetaten og pensjonsinnretningen i den utstrekning det er nødvendig for å fremme oppgaver etter denne bestemmelsen.
+> § 4-17 a. Innhenting av opplysninger til bruk for arbeidet med tidligpensjon og særalderspåslag
 >
-> § 4-17 a.Innhenting av opplysninger til bruk for arbeidet med tidligpensjon og særalderspåslag
+> Pensjonsinnretningen har rett til å innhente opplysninger fra nåværende og tidligere arbeidsgiver om arbeidstakerens eller pensjonistens arbeidsforhold som er nødvendige for å forvalte og beregne tidligpensjon og særalderspåslag for arbeidstakere født i 1963 eller senere. Den som pålegges å gi opplysninger, plikter å gjøre dette uten godtgjørelse og uten hinder av taushetsplikt.
+>
+> Arbeids- og velferdsetaten skal utlevere opplysninger som er nødvendige for pensjonsinnretningens premieberegning, beregning av fremtidig pensjon, vilkårsprøving og beregning av tidligpensjon og særalderspåslag for arbeidstakere født i 1963 eller senere. Taushetsplikten etter arbeids- og velferdsforvaltningsloven § 7 er ikke til hinder for utveksling av opplysninger mellom Arbeids- og velferdsetaten og pensjonsinnretningen i den utstrekning det er nødvendig for å fremme oppgaver etter denne bestemmelsen.
 >
 
 ### 2026-05-07 — lov/2026-05-07-16
@@ -924,17 +975,25 @@ refid: "lov/2005-06-10-44"
 
 *Nye §§ 9-1 til 9-3 skal lyde:*
 
-> § 9-1.Finanstilsynets taushetsplikt mv.Enhver som utfører arbeid eller tjeneste for Finanstilsynet eller departementet, har taushetsplikt overfor uvedkommende om opplysninger som omhandler sanksjoner og andre tiltak som knytter seg til overtredelse av regler i loven her, eller forskrifter i medhold av loven, dersom offentliggjøring av opplysningene kan skape alvorlig uro på finansmarkedene eller påføre de berørte partene uforholdsmessig stor skade. Forvaltningsloven § 13 og §§ 13 b til 13 e gjelder ikke for opplysninger som nevnt i første punktum.
+> § 9-1. Finanstilsynets taushetsplikt mv.
 >
-> § 9-1.Finanstilsynets taushetsplikt mv.
+> Enhver som utfører arbeid eller tjeneste for Finanstilsynet eller departementet, har taushetsplikt overfor uvedkommende om opplysninger som omhandler sanksjoner og andre tiltak som knytter seg til overtredelse av regler i loven her, eller forskrifter i medhold av loven, dersom offentliggjøring av opplysningene kan skape alvorlig uro på finansmarkedene eller påføre de berørte partene uforholdsmessig stor skade. Forvaltningsloven § 13 og §§ 13 b til 13 e gjelder ikke for opplysninger som nevnt i første punktum.
 >
-> § 9-2.OvertredelsesgebyrFinanstilsynet kan ilegge overtredelsesgebyr ved overtredelse av § 2-3, § 2-7, § 3-8, § 3-11 syvende ledd og § 3-23 og forskrifter gitt i medhold av disse bestemmelsene. Medvirkning til overtredelse av disse bestemmelsene kan sanksjoneres på samme måte.Fysiske personer kan ilegges overtredelsesgebyr for forsettlige eller uaktsomme overtredelser. Foretak kan ilegges overtredelsesgebyr for forsettlige eller uaktsomme overtredelser begått av foretaket eller av noen som har handlet på foretakets vegne. Departementet kan i forskrift fastsette bestemmelser om kvalifisert skyldkrav som vilkår for å ilegge overtredelsesgebyr.Fysiske personer kan ilegges overtredelsesgebyr på inntil 50 millioner kroner. Foretak kan ilegges overtredelsesgebyr på inntil 50 millioner kroner eller 10 prosent av den samlede årsomsetningen etter siste godkjente årsregnskap, dersom dette utgjør et høyere beløp. For et morforetak eller et datterforetak av et morforetak som skal utarbeide konsernregnskap etter direktiv 2013/34/EU, skal den relevante omsetningen være den totale årsomsetningen, eller tilsvarende inntekt etter relevante regnskapsdirektiver, etter siste tilgjengelige konsoliderte årsregnskap godkjent av ledelsen i det overordnede morforetaket. Overtredelsesgebyret kan fastsettes til inntil to ganger oppnådd fortjeneste eller unngått tap som følge av overtredelsen, dersom dette utgjør et høyere beløp enn etter første og annet punktum.Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen opphørte. Fristen avbrytes ved at Finanstilsynet sender forhåndsvarsel eller treffer vedtak om overtredelsesgebyr.Departementet kan fastsette utfyllende forskrifter til paragrafen her.
+> § 9-2. Overtredelsesgebyr
 >
-> § 9-2.Overtredelsesgebyr
+> Finanstilsynet kan ilegge overtredelsesgebyr ved overtredelse av § 2-3, § 2-7, § 3-8, § 3-11 syvende ledd og § 3-23 og forskrifter gitt i medhold av disse bestemmelsene. Medvirkning til overtredelse av disse bestemmelsene kan sanksjoneres på samme måte.
 >
-> § 9-3.Momenter ved ileggelse og utmåling av overtredelsesgebyrVed vurderingen av om overtredelsesgebyr skal ilegges og ved utmåling kan det tas hensyn tilovertredelsens grovhet og varighetgraden av skyld hos overtrederenovertrederens finansielle styrke, særlig samlet omsetning eller årsinntektoppnådd fortjeneste eller unngått taptap påført tredjemann som følge av overtredelsenvilje til å samarbeide med myndighetenetidligere overtredelserforhold som nevnt i forvaltningsloven § 46 annet leddandre relevante forhold.
+> Fysiske personer kan ilegges overtredelsesgebyr for forsettlige eller uaktsomme overtredelser. Foretak kan ilegges overtredelsesgebyr for forsettlige eller uaktsomme overtredelser begått av foretaket eller av noen som har handlet på foretakets vegne. Departementet kan i forskrift fastsette bestemmelser om kvalifisert skyldkrav som vilkår for å ilegge overtredelsesgebyr.
 >
-> § 9-3.Momenter ved ileggelse og utmåling av overtredelsesgebyr
+> Fysiske personer kan ilegges overtredelsesgebyr på inntil 50 millioner kroner. Foretak kan ilegges overtredelsesgebyr på inntil 50 millioner kroner eller 10 prosent av den samlede årsomsetningen etter siste godkjente årsregnskap, dersom dette utgjør et høyere beløp. For et morforetak eller et datterforetak av et morforetak som skal utarbeide konsernregnskap etter direktiv 2013/34/EU, skal den relevante omsetningen være den totale årsomsetningen, eller tilsvarende inntekt etter relevante regnskapsdirektiver, etter siste tilgjengelige konsoliderte årsregnskap godkjent av ledelsen i det overordnede morforetaket. Overtredelsesgebyret kan fastsettes til inntil to ganger oppnådd fortjeneste eller unngått tap som følge av overtredelsen, dersom dette utgjør et høyere beløp enn etter første og annet punktum.
+>
+> Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen opphørte. Fristen avbrytes ved at Finanstilsynet sender forhåndsvarsel eller treffer vedtak om overtredelsesgebyr.
+>
+> Departementet kan fastsette utfyllende forskrifter til paragrafen her.
+>
+> § 9-3. Momenter ved ileggelse og utmåling av overtredelsesgebyr
+>
+> Ved vurderingen av om overtredelsesgebyr skal ilegges og ved utmåling kan det tas hensyn tilovertredelsens grovhet og varighetgraden av skyld hos overtrederenovertrederens finansielle styrke, særlig samlet omsetning eller årsinntektoppnådd fortjeneste eller unngått taptap påført tredjemann som følge av overtredelsenvilje til å samarbeide med myndighetenetidligere overtredelserforhold som nevnt i forvaltningsloven § 46 annet leddandre relevante forhold.
 >
 
 ### 2026-06-19 — lov/2026-06-19-40

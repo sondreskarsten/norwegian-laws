@@ -7,6 +7,13 @@ refid: "lov/1980-06-13-35"
 
 ## (annet)
 
+### 2004-07-02 — lov/2004-07-02-67
+
+*I lov 13. juni 1980 nr. 35 om fri rettshjelp skal § 13 første ledd lyde:*
+
+> I saker etter utlendingsloven har utlending rett til fritt rettsråd uten behovsprøving som bestemt i utlendingsloven § 42 tredje og fjerde ledd. I saker om erstatning etter strafforfølgning etter straffeprosessloven kapittel 31 har siktede rett til fritt rettsråd uten behovsprøving.
+>
+
 ### 2005-04-15 — lov/2005-04-15-17
 
 *Nåværende § 5 blir § 6.*
@@ -294,26 +301,6 @@ refid: "lov/1980-06-13-35"
 
 > Søknad om fritt rettsråd kan innvilges uten behovsprøving i følgende tilfeller:for utlending som har rett til fri rettshjelp etter utlendingsloven § 92 første ledd, annet ledd og tredje ledd første punktum, eller for den som har rett til fri rettshjelp etter statsborgerloven § 27 sjuende ledd første, tredje eller fjerde punktum.for den som er part i sak hvor barnevernet har fattet vedtak som nevnt i barnevernsloven § 4-2 første og annet ledd og § 4-4 første ledd, men hvor vedtaket ikke blir etterfulgt av at barnevernet starter forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven.for den som er part i sak hvor barnevernet har startet forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven, men hvor saken likevel ikke blir oversendt nemnda.for siktede som reiser krav om erstatning for urettmessig straffeforfølgning etter straffeprosessloven kapittel 31.til voldsofre i erstatningssak mot gjerningspersonen.til den som har vært utsatt for handling som nevnt i straffeprosessloven § 107 a første ledd bokstav a eller b, for å vurdere forhold av betydning for anmeldelse.til den som er utsatt for tvangsekteskap eller forsøk på sådan som nevnt i straffeloven § 253, jf. straffeloven § 16, men hvor saken ikke er anmeldt og den nødvendige bistand er av samme art som nevnt i straffeprosessloven § 107 c eller annen relevant bistand.for pasienter i saker for statsforvalteren om undersøkelse og behandling uten eget samtykke etter psykisk helsevernloven § 4-4.til ungdom som vurderer å klage eller som klager etter konfliktrådsloven § 22 e.
 >
-> for utlending som har rett til fri rettshjelp etter utlendingsloven § 92 første ledd, annet ledd og tredje ledd første punktum, eller for den som har rett til fri rettshjelp etter statsborgerloven § 27 sjuende ledd første, tredje eller fjerde punktum.
->
-> for den som er part i sak hvor barnevernet har fattet vedtak som nevnt i barnevernsloven § 4-2 første og annet ledd og § 4-4 første ledd, men hvor vedtaket ikke blir etterfulgt av at barnevernet starter forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven.for den som er part i sak hvor barnevernet har startet forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven, men hvor saken likevel ikke blir oversendt nemnda.
->
-> for den som er part i sak hvor barnevernet har fattet vedtak som nevnt i barnevernsloven § 4-2 første og annet ledd og § 4-4 første ledd, men hvor vedtaket ikke blir etterfulgt av at barnevernet starter forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven.
->
-> for den som er part i sak hvor barnevernet har startet forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven, men hvor saken likevel ikke blir oversendt nemnda.
->
-> for siktede som reiser krav om erstatning for urettmessig straffeforfølgning etter straffeprosessloven kapittel 31.
->
-> til voldsofre i erstatningssak mot gjerningspersonen.
->
-> til den som har vært utsatt for handling som nevnt i straffeprosessloven § 107 a første ledd bokstav a eller b, for å vurdere forhold av betydning for anmeldelse.
->
-> til den som er utsatt for tvangsekteskap eller forsøk på sådan som nevnt i straffeloven § 253, jf. straffeloven § 16, men hvor saken ikke er anmeldt og den nødvendige bistand er av samme art som nevnt i straffeprosessloven § 107 c eller annen relevant bistand.
->
-> for pasienter i saker for statsforvalteren om undersøkelse og behandling uten eget samtykke etter psykisk helsevernloven § 4-4.
->
-> til ungdom som vurderer å klage eller som klager etter konfliktrådsloven § 22 e.
->
 
 ### 2024-11-29 — lov/2024-11-29-72
 
@@ -329,6 +316,13 @@ refid: "lov/1980-06-13-35"
 > for innsatte som er eller har vært helt utelukket fra fellesskapet etter straffegjennomføringsloven § 17 eller § 37 i mer enn ett sammenhengende døgn, og som vurderer å klage eller som klager på vedtaket. For innsatte under 18 år er det ikke et vilkår at utelukkelsen overskrider ett døgn.
 >
 > for innsatte som er eller har vært plassert i sikkerhetscelle eller sikkerhetsseng etter straffegjennomføringsloven § 38, og som vurderer å klage eller som klager på vedtaket.
+>
+
+### 2025-10-15 — forskrift/2025-09-19-1881
+
+*Ikraftsetting av lov 20. desember 2023 nr. 109 om endringer i rettshjelploven (ny modell for økonomisk behovsprøving). Loven trer i kraft 15. oktober 2025.*
+
+> Ikraftsetting av lov 20. desember 2023 nr. 109 om endringer i rettshjelploven (ny modell for økonomisk behovsprøving). Loven trer i kraft 15. oktober 2025.
 >
 
 ### 2026-05-12 — lov/2026-05-12-18
@@ -440,9 +434,17 @@ refid: "lov/1980-06-13-35"
 
 *§ 11 skal lyde:*
 
-> § 11.Vilkår for fritt rettsrådSøknad om fritt rettsråd kan innvilges uten behovsprøving i følgende tilfeller:for utlending som har rett til fri rettshjelp etter utlendingsloven § 92 første ledd, annet ledd og tredje ledd første punktum, eller for den som har rett til fri rettshjelp etter statsborgerloven § 27 sjuende ledd første, tredje eller fjerde punktum.for den som er part i sak hvor barnevernet har fattet vedtak som nevnt i barnevernsloven § 4-2 første og annet ledd og § 4-4 første ledd, men hvor vedtaket ikke blir etterfulgt av at barnevernet starter forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven.for den som er part i sak hvor barnevernet har startet forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven, men hvor saken likevel ikke blir oversendt nemnda.for siktede som reiser krav om erstatning for urettmessig straffeforfølgning etter straffeprosessloven kapittel 31.til voldsofre i erstatningssak mot gjerningspersonen.til den som har vært utsatt for handling som nevnt i straffeprosessloven § 107 a første ledd bokstav a eller b, for å vurdere forhold av betydning for anmeldelse.til den som er utsatt for tvangsekteskap eller forsøk på sådan som nevnt i straffeloven § 253, jf. straffeloven § 16, men hvor saken ikke er anmeldt og den nødvendige bistand er av samme art som nevnt i straffeprosessloven § 107 c eller annen relevant bistand.for pasienter i saker for statsforvalteren om undersøkelse og behandling uten eget samtykke etter psykisk helsevernloven § 4-4.Søknad om fritt rettsråd kan innvilges til den som har en betalingsevne som ikke overstiger fem ganger folketrygdens grunnbeløp, i følgende tilfeller:i saker etter ekteskapsloven eller barneloven kap. 5, 6, 7 og 8, herunder saker om tvangsfullbyrdelse og midlertidig sikring.i saker etter lov 4. juli 1991 nr. 45 om rett til felles bolig og innbo når husstandsfellesskap opphører.for den skadede eller etterlatte i sak om erstatning for personskade eller tap av forsørger.for leietaker i sak etter tvangsfullbyrdelsesloven § 13-2 tredje ledd bokstav c når saken gjelder leietakerens bolig.for arbeidstaker i sak etter arbeidsmiljøloven om et arbeidsforhold består eller om erstatning i forbindelse med opphør av et arbeidsforhold.i klagesaker etter folketrygdloven § 21-12.Ved beregning av betalingsevnen etter annet ledd skal bruttoinntekt, nettoformue, og fradrag for forsørgelse av barn inngå. Ektefeller og andre som lever sammen med felles økonomi skal vurderes samlet.I andre saker kan det unntaksvis innvilges fritt rettsråd dersom det økonomiske vilkåret etter annet og tredje ledd er oppfylt og saken objektivt sett berører søker i særlig sterk grad. Ved vurderingen skal det legges vekt på om saken har likhetstrekk med saksfeltene i første og annet ledd.Departementet gir forskrift om det økonomiske vilkåret og utregningen av dette. Herunder kan departementet også gi regler om det økonomiske vilkåret for personer som er bosatt i utlandet og som søker om fri rettshjelp med behovsprøving.
+> § 11. Vilkår for fritt rettsråd
 >
-> § 11.Vilkår for fritt rettsråd
+> Søknad om fritt rettsråd kan innvilges uten behovsprøving i følgende tilfeller:for utlending som har rett til fri rettshjelp etter utlendingsloven § 92 første ledd, annet ledd og tredje ledd første punktum, eller for den som har rett til fri rettshjelp etter statsborgerloven § 27 sjuende ledd første, tredje eller fjerde punktum.for den som er part i sak hvor barnevernet har fattet vedtak som nevnt i barnevernsloven § 4-2 første og annet ledd og § 4-4 første ledd, men hvor vedtaket ikke blir etterfulgt av at barnevernet starter forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven.for den som er part i sak hvor barnevernet har startet forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven, men hvor saken likevel ikke blir oversendt nemnda.for siktede som reiser krav om erstatning for urettmessig straffeforfølgning etter straffeprosessloven kapittel 31.til voldsofre i erstatningssak mot gjerningspersonen.til den som har vært utsatt for handling som nevnt i straffeprosessloven § 107 a første ledd bokstav a eller b, for å vurdere forhold av betydning for anmeldelse.til den som er utsatt for tvangsekteskap eller forsøk på sådan som nevnt i straffeloven § 253, jf. straffeloven § 16, men hvor saken ikke er anmeldt og den nødvendige bistand er av samme art som nevnt i straffeprosessloven § 107 c eller annen relevant bistand.for pasienter i saker for statsforvalteren om undersøkelse og behandling uten eget samtykke etter psykisk helsevernloven § 4-4.
+>
+> Søknad om fritt rettsråd kan innvilges til den som har en betalingsevne som ikke overstiger fem ganger folketrygdens grunnbeløp, i følgende tilfeller:i saker etter ekteskapsloven eller barneloven kap. 5, 6, 7 og 8, herunder saker om tvangsfullbyrdelse og midlertidig sikring.i saker etter lov 4. juli 1991 nr. 45 om rett til felles bolig og innbo når husstandsfellesskap opphører.for den skadede eller etterlatte i sak om erstatning for personskade eller tap av forsørger.for leietaker i sak etter tvangsfullbyrdelsesloven § 13-2 tredje ledd bokstav c når saken gjelder leietakerens bolig.for arbeidstaker i sak etter arbeidsmiljøloven om et arbeidsforhold består eller om erstatning i forbindelse med opphør av et arbeidsforhold.i klagesaker etter folketrygdloven § 21-12.
+>
+> Ved beregning av betalingsevnen etter annet ledd skal bruttoinntekt, nettoformue, og fradrag for forsørgelse av barn inngå. Ektefeller og andre som lever sammen med felles økonomi skal vurderes samlet.
+>
+> I andre saker kan det unntaksvis innvilges fritt rettsråd dersom det økonomiske vilkåret etter annet og tredje ledd er oppfylt og saken objektivt sett berører søker i særlig sterk grad. Ved vurderingen skal det legges vekt på om saken har likhetstrekk med saksfeltene i første og annet ledd.
+>
+> Departementet gir forskrift om det økonomiske vilkåret og utregningen av dette. Herunder kan departementet også gi regler om det økonomiske vilkåret for personer som er bosatt i utlandet og som søker om fri rettshjelp med behovsprøving.
 >
 
 ### 2025-06-20 — lov/2025-06-20-40
@@ -537,10 +539,6 @@ refid: "lov/1980-06-13-35"
 *§ 12 første til tredje ledd skal lyde:*
 
 > Søknad om fritt rettsråd kan innvilges helt eller delvis til den som oppfyller det økonomiske vilkåret i § 11 annet og tredje ledd, i følgende tilfeller:for den som er part i sak som er tatt til behandling av Den europeiske menneskerettighetsdomstol,for den som har fått sitt barn ulovlig bortført fra Norge, jf. barnebortføringskonvensjonen av 25. oktober 1980 art 3. Det samme gjelder for den som har fått sitt barn ulovlig bortført fra Norge og politiet har registrert et barn som savnet eller det er opprettet straffesak om barnebortføring.
->
-> for den som er part i sak som er tatt til behandling av Den europeiske menneskerettighetsdomstol,
->
-> for den som har fått sitt barn ulovlig bortført fra Norge, jf. barnebortføringskonvensjonen av 25. oktober 1980 art 3. Det samme gjelder for den som har fått sitt barn ulovlig bortført fra Norge og politiet har registrert et barn som savnet eller det er opprettet straffesak om barnebortføring.
 >
 > I andre saker for utenlandsk domstol eller forvaltningsorgan kan det unntaksvis innvilges helt eller delvis fritt rettsråd dersom det økonomiske vilkåret i § 11 annet og tredje ledd er oppfylt og særlige grunner taler for det.
 >
@@ -676,20 +674,6 @@ refid: "lov/1980-06-13-35"
 *§ 16 første ledd skal lyde:*
 
 > Fri sakførsel innvilges uten behovsprøving i saker som nevnt i § 11 første ledd nr. 4 og 6, samt i følgende tilfeller:for den vernepliktige i saker om fritak for tjeneste i Forsvaret av overbevisningsgrunner etter forsvarsloven kapittel 4.for den et tvangstiltak retter seg mot i saker om overprøving av administrative tvangsvedtak i helse- og sosialsektoren etter tvisteloven kapittel 36,for den private part i saker hvor søksmål er anbefalt av Sivilombudet,for utlending i tilfeller som nevnt i utlendingsloven § 92 tredje ledd annet punktum og fjerde ledd, § 129 annet ledd, eller for den som har rett til fri sakførsel etter statsborgerloven § 27 sjuende ledd annet eller tredje punktum,til den som er begjært fratatt rettslig handleevne, eller som begjærer et vedtak om fratakelse av rettslig handleevne opphevet etter vergemålsloven,til den det oppnevnes advokat for i medhold av barneloven § 61 første ledd nr. 5,til den som er saksøkt i sak som nevnt i § 11 første ledd nr. 4.
->
-> for den vernepliktige i saker om fritak for tjeneste i Forsvaret av overbevisningsgrunner etter forsvarsloven kapittel 4.
->
-> for den et tvangstiltak retter seg mot i saker om overprøving av administrative tvangsvedtak i helse- og sosialsektoren etter tvisteloven kapittel 36,
->
-> for den private part i saker hvor søksmål er anbefalt av Sivilombudet,
->
-> for utlending i tilfeller som nevnt i utlendingsloven § 92 tredje ledd annet punktum og fjerde ledd, § 129 annet ledd, eller for den som har rett til fri sakførsel etter statsborgerloven § 27 sjuende ledd annet eller tredje punktum,
->
-> til den som er begjært fratatt rettslig handleevne, eller som begjærer et vedtak om fratakelse av rettslig handleevne opphevet etter vergemålsloven,
->
-> til den det oppnevnes advokat for i medhold av barneloven § 61 første ledd nr. 5,
->
-> til den som er saksøkt i sak som nevnt i § 11 første ledd nr. 4.
 >
 
 ### 2025-06-20 — lov/2025-06-20-40
@@ -858,9 +842,15 @@ refid: "lov/1980-06-13-35"
 
 *§ 25 skal lyde:*
 
-> § 25.Vilkår for fritak mv.Fritak for rettsgebyr kan gis som del av bevilling til fri sakførsel etter § 22 etter de samme regler som gjelder for slik bevilling.Den som ikke har krav på fri sakførsel, kan gis fritak for rettsgebyr dersom det økonomiske vilkåret i § 16 annet og tredje ledd er oppfylt. Fritak gis av den som har myndighet til å gi bevilling til fri sakførsel i saken.I skiftesaker kan domstolen gi fritak for rettsgebyr, dersom det økonomiske vilkåret i § 16 annet og tredje ledd er oppfylt.Søknad om fritak for rettsgebyr kan avslås når det ikke er rimelig at det offentlige gir slik støtte.
+> § 25. Vilkår for fritak mv.
 >
-> § 25.Vilkår for fritak mv.
+> Fritak for rettsgebyr kan gis som del av bevilling til fri sakførsel etter § 22 etter de samme regler som gjelder for slik bevilling.
+>
+> Den som ikke har krav på fri sakførsel, kan gis fritak for rettsgebyr dersom det økonomiske vilkåret i § 16 annet og tredje ledd er oppfylt. Fritak gis av den som har myndighet til å gi bevilling til fri sakførsel i saken.
+>
+> I skiftesaker kan domstolen gi fritak for rettsgebyr, dersom det økonomiske vilkåret i § 16 annet og tredje ledd er oppfylt.
+>
+> Søknad om fritak for rettsgebyr kan avslås når det ikke er rimelig at det offentlige gir slik støtte.
 >
 
 ### 2025-06-20 — lov/2025-06-20-82
@@ -911,9 +901,9 @@ refid: "lov/1980-06-13-35"
 
 *§ 28 skal lyde:*
 
-> § 28.Innhenting av personopplysningerOffentlige organer som behandler søknader om rettshjelp kan, uten hinder av taushetsplikt, innhente fra Folkeregisteret og Skatteetaten opplysninger om søker og søkers ektefelle eller samboer som er nødvendige for å vurdere om vilkårene for rettshjelp er oppfylt eller har vært oppfylt i tidligere perioder. Organene skal også ha tilgang til opplysninger til utredning og produksjon av statistikk.
+> § 28. Innhenting av personopplysninger
 >
-> § 28.Innhenting av personopplysninger
+> Offentlige organer som behandler søknader om rettshjelp kan, uten hinder av taushetsplikt, innhente fra Folkeregisteret og Skatteetaten opplysninger om søker og søkers ektefelle eller samboer som er nødvendige for å vurdere om vilkårene for rettshjelp er oppfylt eller har vært oppfylt i tidligere perioder. Organene skal også ha tilgang til opplysninger til utredning og produksjon av statistikk.
 >
 
 ## § 28 a
@@ -982,20 +972,6 @@ refid: "lov/1980-06-13-35"
 
 > Fri rettshjelp omfatter ikke bistand som dekkes av andre ordninger eller som kan erstattes på annen måte, herunder gjennom:oppnevning av forsvarer eller bistandsadvokat i straffesaker etter straffeprosessloven,private forsikringer som omfatter rettshjelp,forvaltningsloven § 36 om dekning av saksomkostninger,etablerte offentlige service- og rådgivningskontorer og tvisteløsningsorganer,det offentliges opplysnings- og veiledningsplikt, jf. bl.a. forvaltningsloven § 11,medlemskap i foreninger og lag,private eller offentlige rettshjelpsordninger i andre land.
 >
-> oppnevning av forsvarer eller bistandsadvokat i straffesaker etter straffeprosessloven,
->
-> private forsikringer som omfatter rettshjelp,
->
-> forvaltningsloven § 36 om dekning av saksomkostninger,
->
-> etablerte offentlige service- og rådgivningskontorer og tvisteløsningsorganer,
->
-> det offentliges opplysnings- og veiledningsplikt, jf. bl.a. forvaltningsloven § 11,
->
-> medlemskap i foreninger og lag,
->
-> private eller offentlige rettshjelpsordninger i andre land.
->
 
 ## § 8
 
@@ -1036,9 +1012,13 @@ refid: "lov/1980-06-13-35"
 
 *§ 9 skal lyde:*
 
-> § 9.Betaling av egenandelMottaker av fri rettshjelp i behovsprøvde saker skal betale en egenandel av utgiftene til bistand etter denne lov. I utgiftene det skal betales egenandel av skal advokatens salær og godtgjøring for advokatens nødvendige reiseutgifter og reisefravær inngå. Egenandelen beregnes etter den offentlige salærsatsen og skal øke med de totale advokatutgiftene i saken. Egenandelen fastsettes ut fra søkers betalingsevne etter § 11 annet og tredje ledd og § 16 annet og tredje ledd. Personer med betalingsevne som ikke overstiger én ganger folketrygdens grunnbeløp skal ikke betale egenandel.Egenandelen skal kreves inn av staten. Statens krav om betaling av egenandel er tvangsgrunnlag for utlegg.Departementet gir forskrift om beregningen av egenandelen. Herunder kan departementet også gi regler om innkrevingen av egenandelen.
+> § 9. Betaling av egenandel
 >
-> § 9.Betaling av egenandel
+> Mottaker av fri rettshjelp i behovsprøvde saker skal betale en egenandel av utgiftene til bistand etter denne lov. I utgiftene det skal betales egenandel av skal advokatens salær og godtgjøring for advokatens nødvendige reiseutgifter og reisefravær inngå. Egenandelen beregnes etter den offentlige salærsatsen og skal øke med de totale advokatutgiftene i saken. Egenandelen fastsettes ut fra søkers betalingsevne etter § 11 annet og tredje ledd og § 16 annet og tredje ledd. Personer med betalingsevne som ikke overstiger én ganger folketrygdens grunnbeløp skal ikke betale egenandel.
+>
+> Egenandelen skal kreves inn av staten. Statens krav om betaling av egenandel er tvangsgrunnlag for utlegg.
+>
+> Departementet gir forskrift om beregningen av egenandelen. Herunder kan departementet også gi regler om innkrevingen av egenandelen.
 >
 
 ## §16
@@ -1047,7 +1027,17 @@ refid: "lov/1980-06-13-35"
 
 *§16 skal lyde:*
 
-> § 16.Vilkår for fri sakførsel.Fri sakførsel innvilges uten behovsprøving i saker som nevnt i § 11 første ledd nr. 4 og 7, samt i følgende tilfeller:for den vernepliktige i saker om fritak for tjeneste i Forsvaret av overbevisningsgrunner etter forsvarsloven kapittel 4.for den et tvangstiltak retter seg mot i saker om overprøving av administrative tvangsvedtak i helse- og sosialsektoren etter tvisteloven kapittel 36,for den private part i saker hvor søksmål er anbefalt av Sivilombudet,for utlending i tilfeller som nevnt i utlendingsloven § 92 tredje ledd annet punktum og fjerde ledd, § 129 annet ledd, eller for den som har rett til fri sakførsel etter statsborgerloven § 27 sjuende ledd annet eller tredje punktum,til den som er begjært fratatt rettslig handleevne, eller som begjærer et vedtak om fratakelse av rettslig handleevne opphevet etter vergemålsloven,til den det oppnevnes advokat for i medhold av barneloven § 61 første ledd nr. 5,til den som er saksøkt i sak som nevnt i § 11 første ledd nr. 4.Søknad om fri sakførsel kan innvilges til den som har en betalingsevne som ikke overstiger fem ganger folketrygdens grunnbeløp, i følgende tilfeller:saker etter barnelova kapittel 5, 6, 7 og 8, herunder saker om tvangsfullbyrdelse og midlertidig sikring,saker etter ekteskapsloven med unntak av saker etter lovens del II og § 91,saker som nevnt i § 11 annet ledd nr. 3 og 5,saker etter barnebortføringskonvensjonen av 25. oktober 1980 artikkel 3 for den som har fått sitt barn ulovlig bortført til Norge,saker etter husleieloven § 9-8 og tvangsfullbyrdelsesloven § 13-2 tredje ledd bokstav c for leietaker når saken gjelder leietakerens bolig.Ved beregning av betalingsevnen etter annet ledd skal bruttoinntekt, nettoformue, og fradrag for forsørgelse av barn inngå. Ektefeller og andre som lever sammen med felles økonomi skal vurderes samlet.I andre saker kan det unntaksvis innvilges fri sakførsel dersom det økonomiske vilkåret etter annet og tredje ledd er oppfylt og saken objektivt sett berører søker i særlig sterk grad. Ved vurderingen skal det legges vekt på om saken har likhetstrekk med saksfeltene i første og annet ledd.Det innvilges ikke fri sakførsel etter annet til fjerde ledd dersom det er urimelig at det offentlige betaler for bistanden.Departementet gir forskrift om det økonomiske vilkåret og utregningen av dette. Herunder kan departementet også gi regler om det økonomiske vilkåret for personer som er bosatt i utlandet og som søker om fri rettshjelp med behovsprøving.
+> § 16. Vilkår for fri sakførsel.
 >
-> § 16.Vilkår for fri sakførsel.
+> Fri sakførsel innvilges uten behovsprøving i saker som nevnt i § 11 første ledd nr. 4 og 7, samt i følgende tilfeller:for den vernepliktige i saker om fritak for tjeneste i Forsvaret av overbevisningsgrunner etter forsvarsloven kapittel 4.for den et tvangstiltak retter seg mot i saker om overprøving av administrative tvangsvedtak i helse- og sosialsektoren etter tvisteloven kapittel 36,for den private part i saker hvor søksmål er anbefalt av Sivilombudet,for utlending i tilfeller som nevnt i utlendingsloven § 92 tredje ledd annet punktum og fjerde ledd, § 129 annet ledd, eller for den som har rett til fri sakførsel etter statsborgerloven § 27 sjuende ledd annet eller tredje punktum,til den som er begjært fratatt rettslig handleevne, eller som begjærer et vedtak om fratakelse av rettslig handleevne opphevet etter vergemålsloven,til den det oppnevnes advokat for i medhold av barneloven § 61 første ledd nr. 5,til den som er saksøkt i sak som nevnt i § 11 første ledd nr. 4.
+>
+> Søknad om fri sakførsel kan innvilges til den som har en betalingsevne som ikke overstiger fem ganger folketrygdens grunnbeløp, i følgende tilfeller:saker etter barnelova kapittel 5, 6, 7 og 8, herunder saker om tvangsfullbyrdelse og midlertidig sikring,saker etter ekteskapsloven med unntak av saker etter lovens del II og § 91,saker som nevnt i § 11 annet ledd nr. 3 og 5,saker etter barnebortføringskonvensjonen av 25. oktober 1980 artikkel 3 for den som har fått sitt barn ulovlig bortført til Norge,saker etter husleieloven § 9-8 og tvangsfullbyrdelsesloven § 13-2 tredje ledd bokstav c for leietaker når saken gjelder leietakerens bolig.
+>
+> Ved beregning av betalingsevnen etter annet ledd skal bruttoinntekt, nettoformue, og fradrag for forsørgelse av barn inngå. Ektefeller og andre som lever sammen med felles økonomi skal vurderes samlet.
+>
+> I andre saker kan det unntaksvis innvilges fri sakførsel dersom det økonomiske vilkåret etter annet og tredje ledd er oppfylt og saken objektivt sett berører søker i særlig sterk grad. Ved vurderingen skal det legges vekt på om saken har likhetstrekk med saksfeltene i første og annet ledd.
+>
+> Det innvilges ikke fri sakførsel etter annet til fjerde ledd dersom det er urimelig at det offentlige betaler for bistanden.
+>
+> Departementet gir forskrift om det økonomiske vilkåret og utregningen av dette. Herunder kan departementet også gi regler om det økonomiske vilkåret for personer som er bosatt i utlandet og som søker om fri rettshjelp med behovsprøving.
 >

@@ -7,6 +7,13 @@ refid: "lov/2016-08-12-77"
 
 ## (annet)
 
+### 2021-07-01 — forskrift/2021-03-26-1002
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2023-11-24 — lov/2023-11-24-84
 
 *§§ 7 og 65 oppheves.*
@@ -21,81 +28,165 @@ refid: "lov/2016-08-12-77"
 
 > Kapittel 8 Refselse og straff
 >
-> § 65.Hvilke handlinger det kan ilegges refselse forDen som overtrer eller forsømmer militære tjenesteplikter som følger av lov, reglement, instruks, direktiv, forskrift eller rettmessig ordre, kan refses disiplinært.Det samme gjelder den som overtrer eller forsømmer seg mot militær skikk og orden.Refselse kan også ilegges den som gjør seg skyldig i andre straffbare forholdpå militært område,overfor tjenestepliktige, jf. § 2 første leddmot eller ved bruk av militært materiell.
+> § 65. Hvilke handlinger det kan ilegges refselse for
 >
-> § 65.Hvilke handlinger det kan ilegges refselse for
+> Den som overtrer eller forsømmer militære tjenesteplikter som følger av lov, reglement, instruks, direktiv, forskrift eller rettmessig ordre, kan refses disiplinært.
 >
-> § 66.Grunnvilkår for straffansvar i disiplinærsakerGrunnvilkårene for straffansvar etter straffeloven kapittel 3 gjelder tilsvarende i disiplinærsaker med de unntak som følger av paragrafen her.Forsøk kan refses uavhengig av lovbruddets strafferamme.Refselse kan ilegges for forsettlige og uaktsomme forhold.
+> Det samme gjelder den som overtrer eller forsømmer seg mot militær skikk og orden.
 >
-> § 66.Grunnvilkår for straffansvar i disiplinærsaker
+> Refselse kan også ilegges den som gjør seg skyldig i andre straffbare forholdpå militært område,overfor tjenestepliktige, jf. § 2 første leddmot eller ved bruk av militært materiell.
 >
-> § 67.Hvem som kan ilegges refselseRefselse kan ilegges tjenestepliktige, jf. § 2 første ledd.Refselse kan også ilegges krigsfanger med de særregler som følger av Genève-konvensjonen 12. august 1949 om behandling av krigsfanger, og overfor den som omfattes av lov 17. mars 1916 om straffebestemmelser for utenlandske militærpersoner som er internert her i riket under krig mellem fremmede magter.Med unntak av det som gjelder i krig eller når krig truer, jf. § 82, kan sivilt ansatte i Forsvaret ikke ilegges refselse.
+> § 66. Grunnvilkår for straffansvar i disiplinærsaker
 >
-> § 67.Hvem som kan ilegges refselse
+> Grunnvilkårene for straffansvar etter straffeloven kapittel 3 gjelder tilsvarende i disiplinærsaker med de unntak som følger av paragrafen her.
 >
-> § 68.Disiplinærbestemmelsenes virkeområde i tidRefselse kan ilegges for forhold som finner sted i tjenestetiden.Utenfor tjenestetiden kan refselse brukes når det gjelderforhold som kan straffes etter § 84overtredelse av militær straffelov § 34forhold utvist mens vedkommende på offentlig sted eller militært område lovlig var iført militær uniformunnlatelse av å besvare tjenstlige henvendelser om forhold oppstått i tjenestetidenbruk av utlevert militær bekledning, effekter eller utstyr i strid med militære bestemmelser.Adgangen til å ilegge refselse faller bort to år etter det refsbare forholdet.
+> Forsøk kan refses uavhengig av lovbruddets strafferamme.
 >
-> § 68.Disiplinærbestemmelsenes virkeområde i tid
+> Refselse kan ilegges for forsettlige og uaktsomme forhold.
 >
-> § 69.RefselsesmidleneSom refselsesmiddel kan brukesirettesettelseovertredelsesgebyrfrihetsinnskrenkning.Overtredelsesgebyret fastsettes på grunnlag av tjenestetillegget som gjelder for menig inne til førstegangstjeneste. Overtredelsesgebyret kan kreves inn ved trekk i tjenestetillegg, dimisjonsgodtgjørelse eller lønn.Refselsesvedtak som går ut på overtredelsesgebyr og som ikke blir brakt inn for domstolene ved søksmål, jf. § 77, har samme virkning som en rettskraftig dom og kan fullbyrdes etter reglene for dommer.Frihetsinnskrenkning består i forbud mot til visse tider av døgnet eller hele døgn ågå utenfor leiren eller annet nærmere avgrenset område eller fartøy for et tidsrom av inntil 30 dagerforlate et fartøy for bestemte landgangsturer innen samme tidsrom.Departementet kan i forskrift gi nærmere bestemmelser om refselsesmidlene, blant annet om gjennomføringen av frihetsinnskrenkningen, de maksimale grensene for overtredelsesgebyr, utmålingen og trekk i tjenestetillegg, dimisjonsgodtgjørelse eller lønn ved innkreving av overtredelsesgebyr.
+> § 67. Hvem som kan ilegges refselse
 >
-> § 69.Refselsesmidlene
+> Refselse kan ilegges tjenestepliktige, jf. § 2 første ledd.
 >
-> § 70.Plikt til å forelegge forhold for påtalemyndighetenForhold som kan kvalifisere til straff, skal etter nærmere retningslinjer fra riksadvokaten forelegges påtalemyndigheten for avgjørelse av om det skal iverksettes etterforskning.Plikten til å forelegge forhold for påtalemyndigheten ligger til militære sjefer med disiplinærmyndighet og sivilt ansatte ledere i Forsvaret med tilsvarende funksjon.Dersom det er grunn til å anta at både straff og refselse kan være en aktuell reaksjon mot samme forhold, må disiplinærmyndigheten i samråd med påtalemyndigheten avklare om forholdet skal forfølges strafferettslig, disiplinært eller begge deler.
+> Refselse kan også ilegges krigsfanger med de særregler som følger av Genève-konvensjonen 12. august 1949 om behandling av krigsfanger, og overfor den som omfattes av lov 17. mars 1916 om straffebestemmelser for utenlandske militærpersoner som er internert her i riket under krig mellem fremmede magter.
 >
-> § 70.Plikt til å forelegge forhold for påtalemyndigheten
+> Med unntak av det som gjelder i krig eller når krig truer, jf. § 82, kan sivilt ansatte i Forsvaret ikke ilegges refselse.
 >
-> § 71.Hvem som har disiplinærmyndighetEnhver offiser som fast eller for tilfellet fører kompanisjefs eller tilsvarende eller høyere kommando, har myndighet til å ilegge undergitt personell refselse.Disiplinærmyndighet kan ikke delegeres.Departementet kan i forskrift gi nærmere bestemmelser om hvem som har begrenset og full disiplinærmyndighet.
+> § 68. Disiplinærbestemmelsenes virkeområde i tid
 >
-> § 71.Hvem som har disiplinærmyndighet
+> Refselse kan ilegges for forhold som finner sted i tjenestetiden.
 >
-> § 72.Plikt til å sørge for at saken er tilstrekkelig opplystDen som utøver disiplinærmyndighet, skal sørge for at saken er tilstrekkelig opplyst før det avgjøres om refselse skal ilegges. Det kreves klar sannsynlighetsovervekt for de faktiske omstendigheter som ligger til grunn for et vedtak om å ilegge en refselse.Før refselse ilegges, skal den som disiplinærundersøkelsen er rettet mot, gjøres kjent med de opplysninger som foreligger om det aktuelle forholdet. Vedkommende skal også gis adgang til å forklare seg muntlig eller skriftlig og oppgi bevis.Første og andre ledd gjelder også ved Klagenemnda for disiplinærsaker i Forsvarets klagebehandling etter loven her.
+> Utenfor tjenestetiden kan refselse brukes når det gjelderforhold som kan straffes etter § 84overtredelse av militær straffelov § 34forhold utvist mens vedkommende på offentlig sted eller militært område lovlig var iført militær uniformunnlatelse av å besvare tjenstlige henvendelser om forhold oppstått i tjenestetidenbruk av utlevert militær bekledning, effekter eller utstyr i strid med militære bestemmelser.
 >
-> § 72.Plikt til å sørge for at saken er tilstrekkelig opplyst
+> Adgangen til å ilegge refselse faller bort to år etter det refsbare forholdet.
 >
-> § 73.Rett til bistandUt over det som følger av forvaltningsloven § 12, har den som disiplinærundersøkelsen retter seg mot, rett til å la seg bistå av tillitsvalgt eller en tjenestepliktig i tjeneste. Valget av bistandsperson må ikke vesentlig forsinke saken.Første ledd gjelder også ved Klagenemnda for disiplinærsaker i Forsvarets klagebehandling etter loven her. Nemnda kan beslutte om det på Forsvarets bekostning skal oppnevnes advokat til å bistå klageren.
+> § 69. Refselsesmidlene
 >
-> § 73.Rett til bistand
+> Som refselsesmiddel kan brukesirettesettelseovertredelsesgebyrfrihetsinnskrenkning.
 >
-> § 74.Underretning om avgjørelse og klageadgangDen disiplinærundersøkelsen har rettet seg mot, skal uten opphold underrettes om avgjørelsen i saken. Dersom det er en personlig fornærmet i saken, skal også vedkommende underrettes om avgjørelsen i saken.Dersom avgjørelsen går ut på refselse, skal den refsede underrettes om klageadgangen og klagefristen.Dersom forholdet vil bli forelagt påtalemyndigheten, skal den som disiplinærundersøkelsen har rettet seg mot, underrettes om dette med mindre det vil kunne være til hinder for oppklaring av saken. Dersom det er en personlig fornærmet i saken, skal også vedkommende på samme vilkår underrettes om dette.Departementet kan i forskrift gi nærmere bestemmelser om avgjørelsen og hvordan underretningen skal gjennomføres, inkludert om bruk av elektronisk kommunikasjon.
+> Overtredelsesgebyret fastsettes på grunnlag av tjenestetillegget som gjelder for menig inne til førstegangstjeneste. Overtredelsesgebyret kan kreves inn ved trekk i tjenestetillegg, dimisjonsgodtgjørelse eller lønn.
 >
-> § 74.Underretning om avgjørelse og klageadgang
+> Refselsesvedtak som går ut på overtredelsesgebyr og som ikke blir brakt inn for domstolene ved søksmål, jf. § 77, har samme virkning som en rettskraftig dom og kan fullbyrdes etter reglene for dommer.
 >
-> § 75.Adgang til å oppheve og omgjøre en avgjørelse i sakenOffiser som har ilagt en refselse, kan innen tre måneder fra ileggelsen oppheve eller omgjøre refselsen, dersom det viser seg at vedtaket er uriktig, eller det på grunn av etterfølgende omstendigheter er urimelig at det blir stående.Den refsende sjefs foresatte kan oppheve eller omgjøre avgjørelsen i saken innen tre måneder fra den undergitte sjefen tok en avgjørelse i saken.Adgangen til omgjøring etter første og andre ledd faller bort når klage over refselsen er sendt til klagenemnda etter § 76.Departementet kan i forskrift gi nærmere bestemmelser om adgangen til å oppheve og omgjøre en avgjørelse i saken.
+> Frihetsinnskrenkning består i forbud mot til visse tider av døgnet eller hele døgn ågå utenfor leiren eller annet nærmere avgrenset område eller fartøy for et tidsrom av inntil 30 dagerforlate et fartøy for bestemte landgangsturer innen samme tidsrom.
 >
-> § 75.Adgang til å oppheve og omgjøre en avgjørelse i saken
+> Departementet kan i forskrift gi nærmere bestemmelser om refselsesmidlene, blant annet om gjennomføringen av frihetsinnskrenkningen, de maksimale grensene for overtredelsesgebyr, utmålingen og trekk i tjenestetillegg, dimisjonsgodtgjørelse eller lønn ved innkreving av overtredelsesgebyr.
 >
-> § 76.Klage til Klagenemnda for disiplinærsaker i ForsvaretDen som er ilagt en refselse, kan klage på refselsen til Klagenemnda for disiplinærsaker i Forsvaret. Vedkommende må fremsette klagen innen to virkedager etter å ha blitt underrettet om vedtaket. Klagen fremsettes for den som har ilagt refselsen (den refsende sjef). Dersom den refsende sjef ikke tar klagen til følge, sender vedkommende saken til klagenemnda.En personlig fornærmet i en disiplinærsak som ikke blir avgjort med refselse, har samme klageadgang til klagenemnda som den undersøkelsen har rettet seg mot og på de samme vilkår, jf. første ledd.Departementet kan i forskrift gi nærmere bestemmelser om klagen, klagebehandlingen og klagenemnda.
+> § 70. Plikt til å forelegge forhold for påtalemyndigheten
 >
-> § 76.Klage til Klagenemnda for disiplinærsaker i Forsvaret
+> Forhold som kan kvalifisere til straff, skal etter nærmere retningslinjer fra riksadvokaten forelegges påtalemyndigheten for avgjørelse av om det skal iverksettes etterforskning.
 >
-> § 77.Særskilte begrensninger i adgangen til å bringe en disiplinærsak inn for domstoleneSøksmål etter tvisteloven kan bare reises når klageadgangen er uttømt. Søksmål må være reist innen to måneder etter at den refsede fikk underretning om avgjørelsen og om fristen for å reise søksmål.Søksmål har ikke oppsettende virkning for iverksetting av refselsen, jf. § 79.
+> Plikten til å forelegge forhold for påtalemyndigheten ligger til militære sjefer med disiplinærmyndighet og sivilt ansatte ledere i Forsvaret med tilsvarende funksjon.
 >
-> § 77.Særskilte begrensninger i adgangen til å bringe en disiplinærsak inn for domstolene
+> Dersom det er grunn til å anta at både straff og refselse kan være en aktuell reaksjon mot samme forhold, må disiplinærmyndigheten i samråd med påtalemyndigheten avklare om forholdet skal forfølges strafferettslig, disiplinært eller begge deler.
 >
-> § 78.Begrensninger som følger av folkeretten eller avtaleUtøvelsen av disiplinærmyndigheten skjer med de begrensninger som er anerkjent i folkeretten eller følger av avtale med fremmed stat eller med en internasjonal organisasjon.Departementet kan i forskrift gi nærmere bestemmelser om utøvelsen av disiplinærmyndighet etter første ledd.
+> § 71. Hvem som har disiplinærmyndighet
 >
-> § 78.Begrensninger som følger av folkeretten eller avtale
+> Enhver offiser som fast eller for tilfellet fører kompanisjefs eller tilsvarende eller høyere kommando, har myndighet til å ilegge undergitt personell refselse.
 >
-> § 79.Iverksetting av refselseEt endelig vedtak om refselse skal iverksettes uten opphold. Iverksetting kan skje senest tre måneder etter at vedtaket ble endelig.Departementet kan i forskrift gi nærmere bestemmelser om unntak fra første ledd første punktum.
+> Disiplinærmyndighet kan ikke delegeres.
 >
-> § 79.Iverksetting av refselse
+> Departementet kan i forskrift gi nærmere bestemmelser om hvem som har begrenset og full disiplinærmyndighet.
 >
-> § 80.ErstatningBlir en refselse opphevet, skal den refsede ha erstatning av staten for det økonomiske tapet vedkommende måtte ha lidt.Blir en refselse som medfører frihetsinnskrenkning opphevet etter at den er gjennomført, kan det gis oppreisning.Erstatning tilkjennes ikke når vedkommende ved tilståelse eller på annen måte ved eget forsettlig forhold har fremkalt disiplinærundersøkelsen.Har den refsede medvirket til skaden på en måte som kan legges vedkommende til last, kan erstatningen settes ned eller falle helt bort.Erstatningsspørsmålet avgjøres av departementet.
+> § 72. Plikt til å sørge for at saken er tilstrekkelig opplyst
 >
-> § 80.Erstatning
+> Den som utøver disiplinærmyndighet, skal sørge for at saken er tilstrekkelig opplyst før det avgjøres om refselse skal ilegges. Det kreves klar sannsynlighetsovervekt for de faktiske omstendigheter som ligger til grunn for et vedtak om å ilegge en refselse.
 >
-> § 81.Rådgivning, tilsyn og kontrollDe militære sjefer skal bistås av Forsvarets jurister ved utøvelsen av disiplinærmyndigheten.Enhver sjef skal føre tilsyn med sine undergittes utøvelse av disiplinærmyndigheten.Forsvaret skal gjennomføre legalitetskontroll av ilagte refselser og føre en sentral oversikt over disse.Departementet kan i forskrift gi nærmere bestemmelser om rådgivning, tilsyn og kontroll.
+> Før refselse ilegges, skal den som disiplinærundersøkelsen er rettet mot, gjøres kjent med de opplysninger som foreligger om det aktuelle forholdet. Vedkommende skal også gis adgang til å forklare seg muntlig eller skriftlig og oppgi bevis.
 >
-> § 81.Rådgivning, tilsyn og kontroll
+> Første og andre ledd gjelder også ved Klagenemnda for disiplinærsaker i Forsvarets klagebehandling etter loven her.
 >
-> § 82.Særregler i krig eller når krig truerI krig kan refselse anvendes mot enhver som kan straffes etter militær straffelov § 9, i tillegg til personer som nevnt i § 67. Det samme gjelder når krig truer, for personer i de avdelinger som er under styrkeoppbygging.I tilfeller som nevnt i første ledd kan frihetsinnskrenkning innebære frihetsberøvelse, forutsatt derogasjon fra den europeiske menneskerettskonvensjon artikkel 5, jf. artikkel 15.I tilfeller som nevnt i første ledd gjelder ikke bestemmelsene i § 76 om klagenemnd. Den refsende sjefs nærmeste foresatte er klageinstans. De øvrige reglene for klagebehandlingen ved klagenemnda gjelder så langt de passer.Bestemmelsen i første, andre og tredje ledd gjelder også i de tilfeller hvor Kongen har truffet bestemmelse i medhold av straffeprosessloven § 463 andre ledd.Departementet kan i forskrift gi nærmere bestemmelser som gjelder i krig eller når krig truer om begrenset disiplinærmyndighet, økning av satser for overtredelsesgebyr, økning i antall dager frihetsinnskrenkning kan anvendes, saksbehandling for krigsfanger og internerte og forenkling i saksbehandlingen, inkludert om rådgivning, frist for iverksetting og kontroll.
+> § 73. Rett til bistand
 >
-> § 82.Særregler i krig eller når krig truer
+> Ut over det som følger av forvaltningsloven § 12, har den som disiplinærundersøkelsen retter seg mot, rett til å la seg bistå av tillitsvalgt eller en tjenestepliktig i tjeneste. Valget av bistandsperson må ikke vesentlig forsinke saken.
 >
-> § 83.Forskrifter i medhold av lovenDepartementet kan i forskrift gi nærmere bestemmelser om forholdet til forvaltningsloven, hvilke handlinger det kan ilegges refselse for, skyldkravet, virkeområde i tid, foreleggelsesplikten, opplysningsplikten, rett til bistand og erstatning. Departementet kan i forskrift også gi nærmere bestemmelser om gjennomføring av kapittel 8 i forbindelse med tjenestegjøring ved internasjonale enheter, i internasjonale operasjoner og lignende.Kongen kan i forskrift gi nærmere bestemmelser om gjennomføring av kapittel 8 for øvrig.
+> Første ledd gjelder også ved Klagenemnda for disiplinærsaker i Forsvarets klagebehandling etter loven her. Nemnda kan beslutte om det på Forsvarets bekostning skal oppnevnes advokat til å bistå klageren.
 >
-> § 83.Forskrifter i medhold av loven
+> § 74. Underretning om avgjørelse og klageadgang
+>
+> Den disiplinærundersøkelsen har rettet seg mot, skal uten opphold underrettes om avgjørelsen i saken. Dersom det er en personlig fornærmet i saken, skal også vedkommende underrettes om avgjørelsen i saken.
+>
+> Dersom avgjørelsen går ut på refselse, skal den refsede underrettes om klageadgangen og klagefristen.
+>
+> Dersom forholdet vil bli forelagt påtalemyndigheten, skal den som disiplinærundersøkelsen har rettet seg mot, underrettes om dette med mindre det vil kunne være til hinder for oppklaring av saken. Dersom det er en personlig fornærmet i saken, skal også vedkommende på samme vilkår underrettes om dette.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om avgjørelsen og hvordan underretningen skal gjennomføres, inkludert om bruk av elektronisk kommunikasjon.
+>
+> § 75. Adgang til å oppheve og omgjøre en avgjørelse i saken
+>
+> Offiser som har ilagt en refselse, kan innen tre måneder fra ileggelsen oppheve eller omgjøre refselsen, dersom det viser seg at vedtaket er uriktig, eller det på grunn av etterfølgende omstendigheter er urimelig at det blir stående.
+>
+> Den refsende sjefs foresatte kan oppheve eller omgjøre avgjørelsen i saken innen tre måneder fra den undergitte sjefen tok en avgjørelse i saken.
+>
+> Adgangen til omgjøring etter første og andre ledd faller bort når klage over refselsen er sendt til klagenemnda etter § 76.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om adgangen til å oppheve og omgjøre en avgjørelse i saken.
+>
+> § 76. Klage til Klagenemnda for disiplinærsaker i Forsvaret
+>
+> Den som er ilagt en refselse, kan klage på refselsen til Klagenemnda for disiplinærsaker i Forsvaret. Vedkommende må fremsette klagen innen to virkedager etter å ha blitt underrettet om vedtaket. Klagen fremsettes for den som har ilagt refselsen (den refsende sjef). Dersom den refsende sjef ikke tar klagen til følge, sender vedkommende saken til klagenemnda.
+>
+> En personlig fornærmet i en disiplinærsak som ikke blir avgjort med refselse, har samme klageadgang til klagenemnda som den undersøkelsen har rettet seg mot og på de samme vilkår, jf. første ledd.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om klagen, klagebehandlingen og klagenemnda.
+>
+> § 77. Særskilte begrensninger i adgangen til å bringe en disiplinærsak inn for domstolene
+>
+> Søksmål etter tvisteloven kan bare reises når klageadgangen er uttømt. Søksmål må være reist innen to måneder etter at den refsede fikk underretning om avgjørelsen og om fristen for å reise søksmål.
+>
+> Søksmål har ikke oppsettende virkning for iverksetting av refselsen, jf. § 79.
+>
+> § 78. Begrensninger som følger av folkeretten eller avtale
+>
+> Utøvelsen av disiplinærmyndigheten skjer med de begrensninger som er anerkjent i folkeretten eller følger av avtale med fremmed stat eller med en internasjonal organisasjon.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om utøvelsen av disiplinærmyndighet etter første ledd.
+>
+> § 79. Iverksetting av refselse
+>
+> Et endelig vedtak om refselse skal iverksettes uten opphold. Iverksetting kan skje senest tre måneder etter at vedtaket ble endelig.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om unntak fra første ledd første punktum.
+>
+> § 80. Erstatning
+>
+> Blir en refselse opphevet, skal den refsede ha erstatning av staten for det økonomiske tapet vedkommende måtte ha lidt.
+>
+> Blir en refselse som medfører frihetsinnskrenkning opphevet etter at den er gjennomført, kan det gis oppreisning.
+>
+> Erstatning tilkjennes ikke når vedkommende ved tilståelse eller på annen måte ved eget forsettlig forhold har fremkalt disiplinærundersøkelsen.
+>
+> Har den refsede medvirket til skaden på en måte som kan legges vedkommende til last, kan erstatningen settes ned eller falle helt bort.
+>
+> Erstatningsspørsmålet avgjøres av departementet.
+>
+> § 81. Rådgivning, tilsyn og kontroll
+>
+> De militære sjefer skal bistås av Forsvarets jurister ved utøvelsen av disiplinærmyndigheten.
+>
+> Enhver sjef skal føre tilsyn med sine undergittes utøvelse av disiplinærmyndigheten.
+>
+> Forsvaret skal gjennomføre legalitetskontroll av ilagte refselser og føre en sentral oversikt over disse.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om rådgivning, tilsyn og kontroll.
+>
+> § 82. Særregler i krig eller når krig truer
+>
+> I krig kan refselse anvendes mot enhver som kan straffes etter militær straffelov § 9, i tillegg til personer som nevnt i § 67. Det samme gjelder når krig truer, for personer i de avdelinger som er under styrkeoppbygging.
+>
+> I tilfeller som nevnt i første ledd kan frihetsinnskrenkning innebære frihetsberøvelse, forutsatt derogasjon fra den europeiske menneskerettskonvensjon artikkel 5, jf. artikkel 15.
+>
+> I tilfeller som nevnt i første ledd gjelder ikke bestemmelsene i § 76 om klagenemnd. Den refsende sjefs nærmeste foresatte er klageinstans. De øvrige reglene for klagebehandlingen ved klagenemnda gjelder så langt de passer.
+>
+> Bestemmelsen i første, andre og tredje ledd gjelder også i de tilfeller hvor Kongen har truffet bestemmelse i medhold av straffeprosessloven § 463 andre ledd.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser som gjelder i krig eller når krig truer om begrenset disiplinærmyndighet, økning av satser for overtredelsesgebyr, økning i antall dager frihetsinnskrenkning kan anvendes, saksbehandling for krigsfanger og internerte og forenkling i saksbehandlingen, inkludert om rådgivning, frist for iverksetting og kontroll.
+>
+> § 83. Forskrifter i medhold av loven
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om forholdet til forvaltningsloven, hvilke handlinger det kan ilegges refselse for, skyldkravet, virkeområde i tid, foreleggelsesplikten, opplysningsplikten, rett til bistand og erstatning. Departementet kan i forskrift også gi nærmere bestemmelser om gjennomføring av kapittel 8 i forbindelse med tjenestegjøring ved internasjonale enheter, i internasjonale operasjoner og lignende.
+>
+> Kongen kan i forskrift gi nærmere bestemmelser om gjennomføring av kapittel 8 for øvrig.
 >
 
 ### 2023-11-24 — lov/2023-11-24-84
@@ -123,6 +214,13 @@ refid: "lov/2016-08-12-77"
 *2. I lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. skal § 65 tredje ledd bokstav a lyde:*
 
 > på militært område, jf. militærpolitiloven § 5
+>
+
+### 2024-01-01 — forskrift/2023-12-15-2049
+
+*Ikraftsetting av lov 20. desember 2022 nr. 113 om endringer i forsvarsloven (utvidet adgang til å inngå kontrakt om tjenesteplikt mv.). Loven trer i kraft 1. januar 2024.*
+
+> Ikraftsetting av lov 20. desember 2022 nr. 113 om endringer i forsvarsloven (utvidet adgang til å inngå kontrakt om tjenesteplikt mv.). Loven trer i kraft 1. januar 2024.
 >
 
 ## § 17
@@ -373,9 +471,13 @@ refid: "lov/2016-08-12-77"
 
 *Ny § 57 a skal lyde:*
 
-> § 57 a.Behandling av personopplysningerForsvaret kan behandle personopplysninger, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9 og 10, når det er nødvendig for å utøve myndighet eller utføre andre oppgaver etter loven her.Klagenemnda for disiplinærsaker i Forsvaret kan behandle personopplysninger som nevnt i første ledd når det er nødvendig ved klagebehandling etter loven her.Departementet kan i forskrift gi nærmere bestemmelser om behandlingen av personopplysninger, blant annet om formålet med behandlingen, behandlingsansvar, hvilke personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, adgangen til viderebehandling, utlevering, registerføring og tilgang til registre.
+> § 57 a. Behandling av personopplysninger
 >
-> § 57 a.Behandling av personopplysninger
+> Forsvaret kan behandle personopplysninger, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9 og 10, når det er nødvendig for å utøve myndighet eller utføre andre oppgaver etter loven her.
+>
+> Klagenemnda for disiplinærsaker i Forsvaret kan behandle personopplysninger som nevnt i første ledd når det er nødvendig ved klagebehandling etter loven her.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om behandlingen av personopplysninger, blant annet om formålet med behandlingen, behandlingsansvar, hvilke personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, adgangen til viderebehandling, utlevering, registerføring og tilgang til registre.
 >
 
 ## § 58
@@ -384,9 +486,13 @@ refid: "lov/2016-08-12-77"
 
 *§ 58 skal lyde:*
 
-> § 58.Forsvarets rett til å innhente personopplysninger og andre aktørers plikt til å gi opplysninger til ForsvaretForsvaret kan innhente personopplysninger om norske statsborgere og personer som oppholder seg i Norge uten å være norske statsborgere, når det er nødvendig for åavgjøre hvem som anses skikket til tjenesteinnkalle tjenestepliktige til tjenesteholde verneplikts- og tjenesteregisteret oppdatertutbetale godtgjøring til tjenestepliktige.Opplysningene i første ledd bokstav a til c kan innhentes fra offentlige og private registre fra det året personer fyller 17 år. Opplysningene registreres i Forsvarets verneplikts- og tjenesteregister.Offentlige myndigheter, arbeidsgivere, utdannings- og helseinstitusjoner, prester og forstandere i tros- og livssynssamfunn skal på forespørsel fra Forsvaret og uten hinder av lovpålagt taushetsplikt gi opplysninger som nevnt i første ledd, om personer som er knyttet til dem eller registrert hos dem. Det kan ikke kreves betaling for slike opplysninger. Opplysningene i første ledd bokstav a til c kan gis fra det året personene fyller 17 år.
+> § 58. Forsvarets rett til å innhente personopplysninger og andre aktørers plikt til å gi opplysninger til Forsvaret
 >
-> § 58.Forsvarets rett til å innhente personopplysninger og andre aktørers plikt til å gi opplysninger til Forsvaret
+> Forsvaret kan innhente personopplysninger om norske statsborgere og personer som oppholder seg i Norge uten å være norske statsborgere, når det er nødvendig for åavgjøre hvem som anses skikket til tjenesteinnkalle tjenestepliktige til tjenesteholde verneplikts- og tjenesteregisteret oppdatertutbetale godtgjøring til tjenestepliktige.
+>
+> Opplysningene i første ledd bokstav a til c kan innhentes fra offentlige og private registre fra det året personer fyller 17 år. Opplysningene registreres i Forsvarets verneplikts- og tjenesteregister.
+>
+> Offentlige myndigheter, arbeidsgivere, utdannings- og helseinstitusjoner, prester og forstandere i tros- og livssynssamfunn skal på forespørsel fra Forsvaret og uten hinder av lovpålagt taushetsplikt gi opplysninger som nevnt i første ledd, om personer som er knyttet til dem eller registrert hos dem. Det kan ikke kreves betaling for slike opplysninger. Opplysningene i første ledd bokstav a til c kan gis fra det året personene fyller 17 år.
 >
 
 ## § 60 a

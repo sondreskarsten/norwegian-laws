@@ -7,6 +7,13 @@ refid: "lov/2001-06-15-70"
 
 ## (annet)
 
+### 2013-02-08 — lov/2013-02-08-7
+
+*I lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser skal § 26 første ledd andre og tredje punktum lyde:*
+
+> Nemnda bør spegle av innbyggjartalet i dei enkelte kommunane eller fylkeskommunane. Det skal likevel vere minimum tre medlemmer i nemnda frå kvar kommune eller fylkeskommune.
+>
+
 ### 2013-06-21 — lov/2013-06-21-94
 
 *Overskrifta til § 2 skal lyde:*
@@ -14,15 +21,89 @@ refid: "lov/2001-06-15-70"
 > § 2.Verkeområde
 >
 
+### 2014-01-01 — forskrift/2013-06-21-735
+
+*Endringane i lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser tek til å gjelde frå 1. januar 2014.*
+
+> Endringane i lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser tek til å gjelde frå 1. januar 2014.
+>
+
 ### 2018-06-22 — lov/2018-06-22-84
 
 *Nåværende §§ 29 og 30 blir §§ 30 og ny 31.*
+
+### 2020-01-01 — lov/2019-06-21-35
+
+*Endring i følgjande lov:*
+
+> Endring i følgjande lov:
+>
+> Lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser (inndelingslova).
+>
+> I lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser gjer ein følgjande endring:
+>
+> § 12 fjerde ledd vert oppheva.
+>
+> Endringa under I tek til å gjelde frå og med 1. januar 2020.
+>
+
+### 2021-05-07 — lov/2021-05-07-35
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser (inndelingslova).
+>
+> I lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser skal § 29 nr. 10 lyde:
+>
+> Nordland eller Nordlánnda.
+>
+> Loven gjelder fra den tiden Kongen bestemmer.
+>
+
+### 2021-05-07 — forskrift/2021-05-07-1410
+
+*Endringsloven trer i kraft straks.*
+
+> Endringsloven trer i kraft straks.
+>
+
+### 2023-06-02 — lov/2023-06-02-21
+
+*I lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser skal § 26 første ledd sjette punktum lyde:*
+
+> Nemnda vel sjølv leiar og nestleiar.
+>
 
 ### 2023-12-15 — lov/2023-12-15-92
 
 *I lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser skal § 10 nytt andre ledd lyde:*
 
 > Når departementet tek initiativ til å utgreie spørsmål om grenseendring etter § 8 tredje ledd, kan departementet innhente innbyggjarane sine synspunkt på forslag til grenseendring. Høyringa kan skje som nemnt i første ledd andre punktum. Departementet kan gi forskrift om gjennomføringa av høyringa.
+>
+
+### 2023-12-15 — forskrift/2023-12-15-2048
+
+*Lova trer i kraft straks.*
+
+> Lova trer i kraft straks.
+>
+
+### 2024-01-01 — lov/2022-06-22-82
+
+*I lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser skal § 29 lyde:*
+
+> § 29.Fylkesinndeling og fylkesnamn
+>
+> Rikets fylke skal ha desse namna:ØstfoldOsloAkershusInnlandetBuskerudVestfoldTelemarkAgderRogalandVestlandMøre og RomsdalTrøndelag eller TrööndelageNordland eller NordlánndaTroms eller Romsa eller TromssaFinnmark eller Finnmárku eller Finmarkku
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1096
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ## § 12
