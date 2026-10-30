@@ -67,17 +67,90 @@ def parser_changed(previous_sha: str, repo: str | Path = ".") -> bool:
     return parser_identity(previous_sha, repo) != parser_identity("HEAD", repo)
 
 
+def publication_commits(repo: str | Path = ".", limit: int = 100) -> list[dict]:
+    """Publication commits reachable from HEAD, newest first, read from their trailers."""
+    raw = subprocess.run(["git", "log", f"-n{limit}", "--format=%H%x1f%B%x1e"], cwd=str(repo),
+                         check=True, capture_output=True, text=True).stdout
+    found = []
+    for chunk in raw.split("\x1e"):
+        sha, _, body = chunk.strip().partition("\x1f")
+        manifest, digest, kind = [], "", ""
+        for line in body.splitlines():
+            if line.startswith("Kildearkiv: "):
+                filename, modified, size = line[len("Kildearkiv: "):].rsplit(" ", 2)
+                manifest.append({"filename": filename, "lastModified": modified, "sizeBytes": int(size)})
+            elif line.startswith("Kildemanifest: sha256:"):
+                digest = line[len("Kildemanifest: sha256:"):].strip()
+            elif line.startswith("Publikasjonstype: "):
+                kind = line[len("Publikasjonstype: "):].strip()
+        if sha and digest:
+            found.append({"sha": sha, "kind": kind, "manifest": manifest, "manifest_sha256": digest})
+    return found
+
+
+def latest_publication(repo: str | Path = ".") -> dict | None:
+    commits = publication_commits(repo)
+    return commits[0] if commits else None
+
+
+def observation_evidence(sha: str, repo: str | Path = ".", repository: str = "") -> dict:
+    """Receipt of the observation release that published commit ``sha``, or {} when none exists."""
+    repository = repository or os.environ.get("GITHUB_REPOSITORY", "")
+    if not repository:
+        url = git("remote", "get-url", "origin", cwd=repo)
+        repository = url.rsplit("github.com", 1)[-1].strip(":/").removesuffix(".git")
+    refs = subprocess.run(["git", "ls-remote", "--tags", "origin", "refs/tags/observation-*"], cwd=str(repo),
+                          check=True, capture_output=True, text=True).stdout
+    tag = ""
+    for line in refs.splitlines():
+        ref_sha, _, ref = line.partition("\t")
+        if ref_sha == sha and not ref.endswith("^{}"):
+            tag = ref.rsplit("/", 1)[-1]
+    if not tag:
+        return {}
+    receipt_url = f"https://github.com/{repository}/releases/download/{tag}/evidence.json"
+    with tempfile.TemporaryDirectory(prefix="observation-receipt-") as temp:
+        receipt_path = Path(temp) / "evidence.json"
+        _download(receipt_url, receipt_path)
+        receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+    if receipt.get("source_sha") != sha:
+        return {}
+    return {"observation_id": receipt.get("observation_id", ""), "receipt_url": receipt_url,
+            "bundle_sha256": receipt["bundle"]["sha256"]}
+
+
 def plan(state_path: Path, live_manifest: list[dict], repo: str | Path = ".") -> dict:
-    """Classify the pending publication against the acknowledged one."""
+    """Classify the pending publication against the last one on main.
+
+    The baseline is the newest commit on main that carries publication
+    trailers. It is usually the acknowledged publication in ``state_path``, but
+    when a run committed to main and then failed before the acknowledgement
+    (a site deploy error), main is ahead of the state: comparing against the
+    state would regenerate sources that main already carries and label the
+    source difference as a parser change. The evidence needed to restore the
+    baseline's archives comes from the state when its manifest digest matches,
+    otherwise from the observation release that published the baseline.
+    """
     from lovdata_loader.download import select_source_manifest
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {}
     published_manifest = select_source_manifest(state["source_manifest"]) if state.get("source_manifest") else []
-    live = select_source_manifest(live_manifest)
     previous_sha = state.get("source_sha", "")
+    evidence = state.get("evidence") or {}
+    baseline = "acknowledged"
+    latest = latest_publication(repo)
+    if latest and latest["sha"] != previous_sha:
+        baseline = "main"
+        previous_sha = latest["sha"]
+        published_manifest = select_source_manifest(latest["manifest"])
+        if latest["manifest_sha256"] != state.get("source_manifest_sha256", ""):
+            evidence = {}
+    live = select_source_manifest(live_manifest)
     changed_parser = parser_changed(previous_sha, repo)
     changed_source = live != published_manifest
-    evidence = state.get("evidence") or {}
+    if baseline == "main" and not evidence and changed_parser and changed_source:
+        evidence = observation_evidence(previous_sha, repo)
     return {
+        "baseline": baseline,
         "previous_source_sha": previous_sha,
         "previous_identity": parser_identity(previous_sha, repo) if previous_sha else {},
         "identity": parser_identity("HEAD", repo),

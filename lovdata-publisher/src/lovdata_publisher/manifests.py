@@ -193,7 +193,10 @@ def generate_manifests(db_path: str, output_dir: str) -> tuple[int, int]:
     acts_n = generate_amendment_acts_jsonl(db_path, str(out / "amendment-acts.jsonl"))
     print(f"  Wrote amendment-acts.jsonl with {acts_n} rows")
     amendments_n = generate_amendments_jsonl(db_path, str(out / "amendments.jsonl"))
-    print(f"  Wrote amendments.jsonl with {amendments_n} rows")
+    # GitHub Pages refuses files over 100 MB and the uncompressed export passed
+    # that limit on 2026-10-30 (108.9 MB); only the gzipped file is published.
+    (out / "amendments.jsonl").unlink()
+    print(f"  Wrote amendments.jsonl.gz with {amendments_n} rows")
     generate_schemas(str(out))
     print(f"  Wrote schemas to {out}/schemas/")
     return acts_n, amendments_n

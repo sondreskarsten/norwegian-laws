@@ -34,7 +34,11 @@ jobs:
       changed: ${{ steps.commit.outputs.changed }}
       source_sha: ${{ steps.commit.outputs.source_sha }}
     steps:
+      # The plan step reads the publication trailers of recent commits, so the
+      # checkout needs history beyond HEAD (one or two publications a day).
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 40
 
       - uses: actions/setup-python@v5
         with:
@@ -50,8 +54,9 @@ jobs:
       # Every commit on main must be either a pure source update or a pure
       # parser regeneration. The plan compares the live Lovdata manifest and
       # the parser code (lovdata-loader/, lovdata-publisher/ trees) with the
-      # last acknowledged publication.
-      - name: Classify this publication against the last acknowledged one
+      # newest publication commit on main (normally the acknowledged one; a
+      # run that failed after committing leaves main ahead of the state).
+      - name: Classify this publication against the last publication on main
         id: plan
         run: python .github/scripts/provenance.py plan --output "$RUNNER_TEMP/publication-plan.json"
 
