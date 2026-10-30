@@ -146,6 +146,33 @@ refid: "lov/2007-06-29-73"
 > (6) Departementet kan i forskrift gi nærmere regler til utfylling og gjennomføring av denne paragrafen, herunder om foretakets plikt til å gi melding etter femte ledd, om rettigheter og plikter for fagansvarlig, samt om hvilke straffbare forhold som skal avmerkes på politiattesten og om behandling av denne.
 >
 
+## § 2-10
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 2-10 skal lyde:*
+
+> § 2-10.Tilslutning til utenrettslig tvisteløsningsordning
+>
+> Foretak og advokat som driver eiendomsmegling, jf. § 2-1, skal være tilsluttet utenrettslig tvisteløsningsordning godkjent i medhold av lov.
+>
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 2-10 fjerde ledd første punktum skal lyde:*
+
+> (4) Departementet kan fastsette nærmere regler om betalingsforetak og foretak med begrenset tillatelse etter tredje ledd, herunder gjøre unntak fra reglene som gjelder for finansforetak, og fastsette regler om organisering, virksomhet, kapitalkrav, eierforhold, sikring av midler, bruk av agenter og oppdragstakere, vilkår for tillatelse, tilbakekall av tillatelse, utenrettslig tvisteløsningsordning og tilsyn.
+>
+
+## § 2-11
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 2-11 tredje ledd skal lyde:*
+
+> (3) Departementet kan gi forskrift om e-pengeforetak, herunder gjøre unntak fra reglene som gjelder for finansforetak, og fastsette regler om organisering, virksomhet, kapitalkrav, eierforhold, sikring av midler, innløsning av elektroniske penger, bruk av agenter og oppdragstakere, vilkår for tillatelse, tilbakekall av tillatelse, utenrettslig tvisteløsningsordning og tilsyn.
+>
+
 ## § 3-2
 
 ### 2014-04-11 — lov/2014-04-11-12
@@ -287,6 +314,13 @@ refid: "lov/2007-06-29-73"
 
 ## § 6-4
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 6-4 første ledd nr. 10 skal lyde:*
+
+> adgangen til å benytte utenrettslige tvisteløsningsordninger,
+>
+
 ### 2017-12-15 — lov/2017-12-15-106
 
 *§ 6-4 femte ledd oppheves.*
@@ -297,7 +331,9 @@ refid: "lov/2007-06-29-73"
 
 *§ 6-7 annet ledd nr. 12 og nr. 13 skal lyde:*
 
-> hvis kjøpesum er fastsatt, totalkostnad som omfatter andel av fellesgjeld, alle gebyrer, avgifter og øvrige kostnader,hvis kjøpesum ikke er fastsatt, en samlet oppstilling som omfatter prisantydning, andel av fellesgjeld, alle gebyrer, avgifter og øvrige kostnader, samt summen av disse beløpene, og
+> hvis kjøpesum er fastsatt, totalkostnad som omfatter andel av fellesgjeld, alle gebyrer, avgifter og øvrige kostnader,
+>
+> hvis kjøpesum ikke er fastsatt, en samlet oppstilling som omfatter prisantydning, andel av fellesgjeld, alle gebyrer, avgifter og øvrige kostnader, samt summen av disse beløpene, og
 >
 
 ### 2010-09-03 — lov/2010-09-03-54
@@ -410,6 +446,13 @@ refid: "lov/2007-06-29-73"
 > (3) I tilfeller som nevnt i første ledd kan Finanstilsynet oppnevne en forvalter som selv har tillatelse til å drive eiendomsmegling etter § 2-1 første ledd til å sluttføre oppdrag etter denne loven. Departementet kan i forskrift fastsette nærmere bestemmelser om forvalterens rettigheter og plikter. Dersom det er nødvendig for en forsvarlig avvikling av løpende oppdrag, kan departementet i enkeltvedtak gjøre unntak fra lovens bestemmelser.
 >
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 8-2 første ledd nr. 8 skal lyde:*
+
+> ikke innen den frist som er fastsatt av Finanstilsynet oppfyller pålegg om å slutte seg til utenrettslig tvisteløsningsordning.
+>
+
 ### 2017-12-15 — lov/2017-12-15-106
 
 *§ 8-2 paragrafoverskriften skal lyde:*
@@ -439,6 +482,13 @@ refid: "lov/2007-06-29-73"
 > (2) I tilfelle som nevnt i første ledd kan Finanstilsynet oppnevne en forvalter som selv har tillatelse til å drive eiendomsmegling etter § 2-1 første ledd til å sluttføre oppdrag etter denne loven. Reglene i § 8-2 tredje ledd annet og tredje punktum gjelder tilsvarende.
 >
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 8-3 første ledd nr. 6 skal lyde:*
+
+> ikke innen den frist som er fastsatt av Finanstilsynet oppfyller pålegg om å slutte seg til utenrettslig tvisteløsningsordning.
+>
+
 ### 2024-06-21 — lov/2024-06-21-46
 
 *§ 8-3 første ledd nr. 3 skal lyde:*
@@ -455,6 +505,33 @@ refid: "lov/2007-06-29-73"
 > § 8-6 a. Adgang til å forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelper
 >
 > Finanstilsynet kan forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelper dersom personen anses uegnet fordi vedkommendehar gjort seg skyldig i straffbar handling og dette må antas å svekke den tillit som er nødvendig for yrkesutøvelsen, ellergrovt eller gjentatte ganger har overtrådt sine plikter etter lov eller forskrifter.
+>
+
+## § 8-8
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 8-8 skal lyde:*
+
+> § 8-8.Behandling av tvister i klageorgan
+>
+> Kongen kan godkjenne klageorgan for behandling av tvister mellom foretak eller advokat som driver eiendomsmegling og selger, kjøper eller øvrige interessenter til objekt som nevnt i § 1-2, når organet er opprettet ved avtale mellom én eller flere organisasjoner som representerer foretak eller advokater som driver eiendomsmegling på den ene siden, og på den annen side én eller flere organisasjoner som representerer aktører i eiendomsmarkedet. Kongen kan i forskrift gi bestemmelser om klageorganets virksomhet, herunder om:hvem som kan bringe saker inn for klageorganet,vilkår for behandling av saker hos klageorganet,behandlingens virkning mellom partene, herunder forholdet til alminnelige domstoler, adgangen til å bringe saker direkte inn for tingretten og tvangskraft og rettskraft for klageorganets avgjørelser,forholdet til annen lovgivning om utenrettslig tvisteløsning, ogopplysningsplikt overfor foretakets og advokatens kunder og øvrige interessenter.
+>
+> 8. I lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. skal ny § 10a lyde:
+>
+> § 10a.Informasjon om klageorgan og om plattform for nettbasert tvisteløsning mv.
+>
+> Næringsdrivende skal på en klar og forståelig måte gi informasjon til forbrukere om klageorgan som kan behandle en sak mellom partene, og som er innmeldt i henhold til lov om klageorganer for forbrukersaker § 27. Informasjonen skal vise til klageorganenes hjemmesider på Internett. Informasjonen skal som et minimum gis i de generelle avtalevilkårene, hvor slike foreligger, og på den næringsdrivendes hjemmeside på Internett, hvor slik finnes. Informasjonen skal være lett tilgjengelig på hjemmesiden.
+>
+> Næringsdrivende skal informere forbrukeren i henhold til første ledd når det oppstår sak mellom partene, og det er klart at partene selv ikke kommer til en minnelig løsning. Informasjonen skal gis skriftlig eller på annet varig medium. Med varig medium forstås enhver innretning som gjør forbrukerne i stand til å lagre opplysninger på en slik måte at opplysningene i fremtiden er tilgjengelig i uendret form.
+>
+> Næringsdrivende som inngår avtaler med forbruker på Internett, eller nettbaserte markedsplasser, skal på sine hjemmesider ha en lett tilgjengelig elektronisk lenke til plattformen for nettbasert tvisteløsning, som etableres ved gjennomføring av forordning (EU) nr. 524/2013 om nettbasert tvisteløsning i forbrukersaker, jf. lov om klageorganer for forbrukersaker § 28. Informasjonen om plattformen skal også fremgå i de generelle avtalevilkårene, hvor slike foreligger. Den næringsdrivende skal også informere forbrukere om at plattformen kan anvendes ved behandling av sak mellom partene. Der tilbudet til forbruker fremsettes ved bruk av e-post, skal e-posten inneholde en elektronisk lenke til plattformen. Den næringsdrivende skal på sine hjemmesider på Internett også opplyse om sin e-postadresse.
+>
+> 9. I lov 25. november 2011 nr. 44 om verdipapirfond skal § 2-13 annet ledd lyde:
+>
+> (2) Departementet kan i forskrift fastsette nærmere regler om klagebehandling, herunder at forvaltningsselskap skal være tilknyttet utenrettslig tvisteløsningsordning godkjent i medhold av lov.10. I lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond skal § 7-1 syvende ledd lyde:
+>
+> (7) Departementet kan i forskrift gi regler om klagebehandling, herunder at forvalter skal være tilsluttet utenrettslig tvisteløsningsordning godkjent i medhold av lov.11. I lov 10. april 2015 nr. 17 om finansforetak og finanskonsern gjøres følgende endringer:
 >
 
 ## § 8-9
@@ -487,11 +564,84 @@ refid: "lov/2007-06-29-73"
 > (7) Departementet kan fastsette forskrift om renter ved forsinket betaling av overtredelsesgebyr.
 >
 
+## § 16-3
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 16-3 skal lyde:*
+
+> § 16-3.Behandling av tvister i klageorgan
+>
+> (1) Kongen kan ved forskrift bestemme at finansforetak skal være tilsluttet utenrettslig tvisteløsningsordning godkjent i medhold av lov.
+>
+> (2) Et finansforetak skal, dersom det ikke følger en uttalelse fra en tvisteløsningsordning som nevnt i første ledd i tvist med en kunde som er forbruker, dekke egne og motpartens nødvendige sakskostnader ved domstolsbehandling i første instans av samme tvist mellom de samme partene. Første punktum gjelder tilsvarende for behandling i høyere rettsinstanser dersom finansforetaket er den ankende part. Reglene i tvisteloven § 10-5 om sakskostnader i småkravprosess kommer ikke til anvendelse ved beregning av nødvendige sakskostnader.
+>
+> (3) Departementet kan gi forskrift om utenrettslig tvisteløsningsordning etter annet ledd, herunder om ansvar for kostnader ved tvistebehandlingen.
+>
+
 ## (annet)
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*26. I lov av 29. juni 2007 nr. 73 om eiendomsmegling, skal § 2-3 nytt fjerde ledd lyde:*
+
+> (4) Departementet kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for tillatelse til å drive eiendomsmegling, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser. Saksbehandlingsreglene kan fravike reglene i forvaltningsloven.
+>
+
+### 2009-12-21 — forskrift/2009-12-18-1603
+
+*Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.*
+
+> Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.
+>
+
+### 2010-06-04 — forskrift/2010-06-04-771
+
+*Loven trer i kraft 1. juli 2010 med unntak av del V som trer i kraft straks.*
+
+> Loven trer i kraft 1. juli 2010 med unntak av del V som trer i kraft straks.
+>
 
 ### 2010-09-03 — lov/2010-09-03-54
 
 *Nåværende fjerde og femte ledd blir nytt femte og sjette ledd.*
+
+### 2011-01-01 — forskrift/2010-09-03-1238
+
+*Loven trer i kraft fra 1. januar 2011.*
+
+> Loven trer i kraft fra 1. januar 2011.
+>
+
+### 2012-07-01 — forskrift/2012-05-25-472
+
+*Loven trer i kraft 1. juli 2012.*
+
+> Loven trer i kraft 1. juli 2012.
+>
+
+### 2014-07-01 — forskrift/2014-04-11-547
+
+*Loven trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. juli 2014.
+>
+
+### 2016-01-01 — forskrift/2015-12-04-1399
+
+*Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.*
+
+> Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.
+>
+> Delt ikraftsetting av lov om endringer i finanslovgivningen mv. Loven trer i kraft 1. januar 2016, med unntak av del VI som trer i kraft straks og del XII § 6-10 og § 6-11 som trer i kraft 1. juli 2016.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
 
 ### 2017-12-15 — lov/2017-12-15-106
 
@@ -508,11 +658,32 @@ refid: "lov/2007-06-29-73"
 > (4) Fra den tid loven her trer i kraft, gjøres følgende endring i annen lov:Lov 16. juni 1989 nr. 53 om eiendomsmegling oppheves.
 >
 
+### 2018-01-01 — forskrift/2017-12-15-2042
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
 ### 2024-06-21 — lov/2024-06-21-41
 
 *5.I lov 29. juni 2007 nr. 73 om eiendomsmegling skal § 8-1 første ledd innledningen lyde:*
 
 > (1) Finanstilsynet fører kontroll og tilsyn etter finanstilsynsloven med
+>
+
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
+
+### 2025-04-01 — forskrift/2025-03-21-479
+
+*Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.*
+
+> Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.
 >
 
 ### 2025-04-10 — lov/2025-04-10-10
@@ -537,4 +708,29 @@ refid: "lov/2007-06-29-73"
 *Ikraftsetting av lov 10. april 2025 nr. 10 om endringer i eiendomsmeglingsloven (budgivning, egnethetskrav og sanksjoner mv.). Loven trer i kraft 1. juli 2025.*
 
 > Ikraftsetting av lov 10. april 2025 nr. 10 om endringer i eiendomsmeglingsloven (budgivning, egnethetskrav og sanksjoner mv.). Loven trer i kraft 1. juli 2025.
+>
+
+## § 1
+
+### 2014-07-01 — forskrift/2014-05-06-608
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Endringene i finansieringsvirksomhetsloven § 2-12b, § 4b-1 og § 4c-3, verdipapirhandelloven § 10-16a og verdipapirfondloven § 2-13 gjelder for klager som kommer inn til behandling til en klagenemnd fra og med 1. juli 2014.
+>
+> § 2
+>
+> .
+>
+> Endringene i eiendomsmeglingsloven § 3-2 og § 6-9 gjelder for oppdragsavtaler som inngås fra og med 1. juli 2014.
+>
+> § 3
+>
+> .
+>
+> Forskriften trer i kraft 1. juli 2014.
 >

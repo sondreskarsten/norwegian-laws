@@ -7,6 +7,24 @@ refid: "lov/1991-07-04-47"
 
 ## (annet)
 
+### 2001-06-13 — forskrift/2001-06-13-678
+
+*Følgende forskrifter hjemlet i lov av 4. juli 1991 nr. 47 om ekteskap oppheves:Forskrift av 3. februar 1984 nr. 239 om godkjenning av formen for vigsel i Vennenes Samfunn Kvekerne i Norge.Forskrift av 23. mars 1984 nr. 808 om godkjenning av formen for vigsel: Sikh Center & Gurudwara Organization.For*
+
+### 2005-04-29 — lov/2005-04-29-20
+
+*4. I lov 4. juli 1991 nr. 47 om ekteskap skal § 85 nytt tredje ledd lyde:*
+
+> Bidraget skal betales på forskudd for hver måned, fra og med den måned kravet oppstår og ut den kalendermåned retten til bidraget faller bort, dersom ikke annet er avtalt eller fastsatt.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*22. I lov 4. juli 1991 nr. 47 om ekteskap skal § 83 fjerde punktum lyde:*
+
+> Bidragsfogdens vedtak kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer.
+>
+
 ### 2007-01-18 — lov/2007-01-18-1
 
 *Overskriften til § 23 skal lyde:*
@@ -90,6 +108,46 @@ refid: "lov/1991-07-04-47"
 
 *Nåværende femte ledd blir nytt sjette ledd.*
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*111. I lov 4. juli 1991 nr. 47 om ekteskap skal § 89 lyde:*
+
+> § 89.Bortfall av retten til ektefellepensjon på grunn av lovbrudd mot den avdøde.
+>
+> Blir en ektefelle eller fraskilt ektefelle dømt til ubetinget fengsel for lovbrudd mot den som har opptjent pensjonsretten, og denne dør som følge av handlingen, faller retten til ektefellepensjon fra annen pensjonsordning enn folketrygden bort. § 88 andre ledd første punktum gjelder tilsvarende.
+>
+> 112. I lov 20. juli 1991 nr. 67 om overføring av domfelte skal § 5 annet ledd lyde:
+>
+> Fullbyrding i Norge av en utenlandsk straffereaksjon mot en utilregnelig person kan bare skje etter dom på overføring til tvungent psykisk helsevern etter straffeloven § 62 eller til tvungen omsorg etter straffeloven § 63.
+>
+> 113. I lov 30. august 1991 nr. 71 om statsforetak skal § 58 lyde:
+>
+> § 58.Straffeansvar
+>
+> Styremedlem, medlem av bedriftsforsamlingen eller administrerende direktør som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av denne lov, straffes med bøter eller under skjerpende forhold med fengsel inntil tre måneder.
+>
+> 114. I lov 15. mai 1992 nr. 47 om laksefisk og innlandsfisk mv. skal § 49 lyde:
+>
+> § 49.Straff.
+>
+> Den som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av denne lov eller opprettholdt ved loven eller vilkår fastsatt i medhold av loven, straffes med bøter eller fengsel i inntil 1 år dersom forholdet ikke rammes av et strengere straffebud. Under særdeles skjerpende omstendigheter kan fengsel i inntil 2 år anvendes.
+>
+> Det foreligger uaktsomhet når den som fisker etter saltvannsfisk eller innlandsfisk burde ha skjønt at det i forhold til redskapets art og fiskeeffekt, tidspunktet for fisket og området det fiskes i og mengdeforholdet mellom anadrome laksefisk og saltvannsfisk eller innlandsfisk på fiskeplassen, var en nærliggende mulighet for fangst av anadrome laksefisk. Det regnes også som uaktsomt å fortsette fisket når fangsten viser seg å inneholde en ikke helt ubetydelig mengde anadrome laksefisk.
+>
+> Den som krenker en annens rett ved å fiske, straffes med bøter. Forsøk er straffbart.
+>
+> Gjelder overtredelsen også naturmangfoldloven, skal straffebestemmelsen i naturmangfoldloven § 75 anvendes.
+>
+> 115. I lov 29. mai 1992 nr. 50 om inspeksjoner i samsvar med Avtalen om konvensjonelle styrker i Europa (CFE-avtalen) og om immunitet og privilegier for inspektørene m.fl. gjøres følgende endring:
+>
+
+### 2016-01-01 — forskrift/2015-09-18-1057
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
 ### 2016-05-27 — lov/2016-05-27-12
 
 *I lov 4. juli 1991 nr. 47 om ekteskap skal § 83 nytt fjerde punktum lyde:*
@@ -100,6 +158,22 @@ refid: "lov/1991-07-04-47"
 ### 2016-05-27 — lov/2016-05-27-12
 
 *Nåværende fjerde og femte punktum blir femte og nytt sjette punktum.*
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2018-01-01 — forskrift/2017-09-01-1328
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 66 om endringer i ekteskapsloven og bustøttelova m.m. (oppgaveoverføring til kommunene).*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 66 om endringer i ekteskapsloven og bustøttelova m.m. (oppgaveoverføring til kommunene).
+>
+> Lovens del I (om endringer i lov 4. juli 1991 nr. 47 om ekteskap) og del II (om endringer i lov 26. april 2002 nr. 12 om notarius publicus) trer i kraft 1. januar 2018.
+>
 
 ### 2018-04-20 — lov/2018-04-20-5
 
@@ -114,11 +188,36 @@ refid: "lov/1991-07-04-47"
 > Meklere som arbeider innenfor rammen av denne loven, plikter også å gi opplysninger etter pålegg i samsvar med barnevernloven § 6-4.
 >
 
+### 2018-07-01 — forskrift/2018-06-08-839
+
+*Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.*
+
+> Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.
+>
+
 ### 2018-07-01 — forskrift/2018-06-15-883
 
 *Loven trer i kraft 1. juli 2018.*
 
 > Loven trer i kraft 1. juli 2018.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-884
+
+*Ikraftsetting av lov 16. juni 2017 nr. 48 om adopsjon. Loven trer i kraft 1. juli 2018.*
+
+> Ikraftsetting av lov 16. juni 2017 nr. 48 om adopsjon. Loven trer i kraft 1. juli 2018.
+>
+
+### 2020-01-01 — forskrift/2017-06-16-758
+
+*Delt ikraftsetting av loven. Del III om endringer i lov 24. august 2012 nr. 65*
+
+> Delt ikraftsetting av loven. Del III om endringer i lov 24. august 2012 nr. 65
+>
+> om bustøtte trer i kraft fra 1. januar 2020.
+>
+> Skal være lov 24. august 2012 nr. 64. Lovtidend-redaksjonens anm.
 >
 
 ### 2020-12-18 — lov/2020-12-18-149
@@ -163,6 +262,20 @@ refid: "lov/1991-07-04-47"
 > Når Kongen ikke har bestemt annet, gjelder bestemmelsene i arveloven kapittel 17 avsnitt V tilsvarende så langt de passer for tingrettens avgjørelser etter denne paragraf.
 >
 
+### 2021-01-01 — forskrift/2020-04-24-855
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2021, med unntak av § 6 annet ledd.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2021, med unntak av § 6 annet ledd.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2021-06-11 — lov/2021-06-11-63
 
 *I kapittel 3 skal ny § 18 b og ny § 18 c lyde:*
@@ -187,13 +300,50 @@ refid: "lov/1991-07-04-47"
 > Delt ikraftsetting av lov om endringer i ekteskapsloven (ekteskap inngått med mindreårig, etter utenlandsk rett mv.). Endringene i ekteskapsloven § 7 første ledd bokstav b, § 16 fjerde ledd første punktum og § 18b andre ledd fjerde punktum trer i kraft straks.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*6. I lov 4. juli 1991 nr. 47 om ekteskap skal § 26 a lyde:*
+
+> § 26 a.Opplysningsplikt til barnevernet
+>
+> Meklere som arbeider innenfor rammen av denne loven skal i sitt arbeid være oppmerksomme på forhold som kan føre til tiltak fra barnevernstjenesten.
+>
+> Meklere som arbeider innenfor rammen av denne loven, skal uten hinder av taushetsplikt melde fra til barnevernstjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling,når det er grunn til å tro at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når et barn har vist alvorlige atferdsvansker ved å begå alvorlige eller gjentatte lovbrudd, ved problematisk bruk av rusmidler, eller ved å ha vist annen form for utpreget normløs atferd,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Meklere som arbeider innenfor rammen av denne loven, plikter også å gi opplysninger etter pålegg i samsvar med barnevernsloven § 13-4.
+>
+
 ### 2021-07-01 — lov/2021-06-11-68
 
-*I lov 4. juli 1991 nr. 47 om ekteskap skal § 12 første ledd bokstav d lyde:sysselmesteren på Svalbard. Sysselmesteren kan delegere vigselsmyndigheten til ansatte hos Sysselmesteren.*
+*I lov 4. juli 1991 nr. 47 om ekteskap skal § 12 første ledd bokstav d lyde:*
+
+> sysselmesteren på Svalbard. Sysselmesteren kan delegere vigselsmyndigheten til ansatte hos Sysselmesteren.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
 
 ### 2023-06-16 — lov/2023-06-16-42
 
 *Nåværende andre til femte ledd blir tredje til nytt sjette ledd.*
+
+### 2023-09-01 — forskrift/2023-06-16-899
+
+*Loven trer i kraft 1. september 2023.*
+
+> Loven trer i kraft 1. september 2023.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-944
+
+*Loven trer i kraft 1. oktober 2023.*
+
+> Loven trer i kraft 1. oktober 2023.
+>
 
 ### 2024-06-25 — lov/2024-06-25-57
 
@@ -344,6 +494,17 @@ refid: "lov/1991-07-04-47"
 > Departementet kan gi forskrift om tildeling og tilbaketrekking av vigselsrett for seremonileder eller tilsvarende i livssynssamfunn.
 >
 
+### 2020-04-24 — lov/2020-04-24-31
+
+*§ 12 første ledd bokstav a skal lyde:*
+
+> prester i Den norske kirke og personer som i medhold av trossamfunnsloven er tildelt vigselsrett, når Kongen har godkjent formen for inngåelse av ekteskap.
+>
+
+### 2020-04-24 — lov/2020-04-24-31
+
+*§ 12 andre ledd oppheves.*
+
 ### 2023-06-16 — lov/2023-06-16-34
 
 *§ 12 bokstav c skal lyde:*
@@ -378,6 +539,19 @@ refid: "lov/1991-07-04-47"
 *§ 13 annet ledd skal lyde:*
 
 > En kirkelig vigsler kan også nekte å foreta vigsel dersom en av brudefolkene er skilt og den tidligere ektefellen lever, eller dersom brudefolkene er av samme kjønn.
+>
+
+### 2020-04-24 — lov/2020-04-24-31
+
+*§ 13 skal lyde:*
+
+> § 13.En vigslers adgang til å nekte å foreta vigsler
+>
+> En vigsler som nevnt i § 12 bokstav a kan nekte å foreta vigsel dersom en av brudefolkene ikke er medlem av tros- eller livssynssamfunnet, eller dersom ingen av dem tilhører vigslers menighet, lokallag eller tilsvarende enhet i tros- eller livssynssamfunnet.
+>
+> Prester i Den norske kirke og vigslere i andre trossamfunn kan også nekte å foreta vigsel dersom en av brudefolkene er skilt, og den tidligere ektefellen lever, eller dersom brudefolkene er av samme kjønn.
+>
+> Vigsler skal praktisere første og andre ledd slik at kvinner og menn likebehandles.
 >
 
 ## § 14
@@ -447,6 +621,10 @@ refid: "lov/1991-07-04-47"
 
 > Etter begjæring fra en av partene kan ekteskapet likevel godkjennes som gyldig når særlige grunner foreligger. Slik godkjenning kan også gis når én eller begge parter er død. Departementet fastsetter hvilke fylkesmenn som skal behandle slike begjæringer.
 >
+
+### 2020-04-24 — lov/2020-04-24-31
+
+*§ 16 første ledd tredje punktum oppheves.*
 
 ### 2021-06-11 — lov/2021-06-11-63
 
@@ -757,6 +935,10 @@ refid: "lov/1991-07-04-47"
 
 ## § 4
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 4 annet punktum oppheves.*
+
 ### 2021-06-11 — lov/2021-06-11-63
 
 *§ 4 nytt andre ledd skal lyde:*
@@ -823,24 +1005,6 @@ refid: "lov/1991-07-04-47"
 *§ 57 første ledd bokstav c annet punktum skal lyde:*
 
 > Dersom ektefellen er mindreårig eller fratatt rettslig handleevne på det økonomiske området, må vergen samtykke.
->
-> 33. I lov 19. juni 1992 nr. 59 om bygdeallmenninger skal § 4-2 tredje og fjerde ledd lyde:
->
-> For person som er mindreårig eller fratatt rettslig handleevne, utøves stemmeretten av vergen.
->
-> Ingen kan avgi mer enn to stemmer. I tilfelle hvor både vergen og person som nevnt i tredje ledd har stemmerett, kan likevel vergen stemme både for seg selv og personen han eller hun er verge for.
->
-> 34. I lov 19. juni 1992 nr. 60 om skogsdrift m.v. i statsallmenningene skal § 3-2 tredje og fjerde ledd lyde:
->
-> For person som er mindreårig eller fratatt rettslig handleevne, utøves stemmeretten av vergen.
->
-> Ingen kan avgi mer enn to stemmer. I tilfelle hvor både vergen og person som nevnt i tredje ledd har stemmerett, kan likevel vergen stemme både for seg selv og personen han eller hun er verge for.
->
-> 35. I lov 18. juni 1993 nr. 109 om autorisasjon av regnskapsførere skal § 4 første ledd nr. 5 lyde:ikke være mindreårig eller fratatt rettslig handleevne etter vergemålsloven,
->
-> 36. I lov 22. desember 1995 nr. 85 om europeiske økonomiske foretaksgrupper ved gjennomføring av EØS-avtalens vedlegg XXII nr. 10 (rådsforordning (EØF) nr. 2137/85) skal § 3 lyde:
->
-> § 3 Ingen kan være forretningsfører i en foretaksgruppe når vedkommende er mindreårig eller fratatt rettslig handleevne, eller det inntrer slik hindring for vedkommende som nevnt i konkursloven § 142.
 >
 
 ## § 6
@@ -1231,10 +1395,6 @@ refid: "lov/1991-07-04-47"
 *§ 93 første ledd første punktum skal lyde:*
 
 > Dersom det pågår sak om kravet eller sak for domstolene etter kapittel 5, treffes midlertidig avgjørelse etter § 92 av den retten som behandler saken.
->
-> 93. I lov 20. juli 1991 nr. 67 om overføring av domfelte skal § 9 tredje punktum lyde:
->
-> Avgjørelse etter gyldighetskonvensjonen art. 39 nr. 2 første punktum treffes ved kjennelse, som kan ankes etter reglene om anke over dommer.
 >
 
 ## § 95

@@ -11,6 +11,9 @@ refid: "lov/2023-06-16-62"
 
 *§ 5-11 andre ledd tredje punktum skal lyde:*
 
+> Den tillitsvalgte skal legge ved en erklæring fra den nye kandidaten om at han eller hun er villig til å stå som kandidat på listen.
+>
+
 ## § 11-1
 
 ### 2028-01-01 — lov/2026-06-19-57

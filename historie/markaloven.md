@@ -7,6 +7,13 @@ refid: "lov/2009-06-05-35"
 
 ## (annet)
 
+### 2014-06-01 — forskrift/2014-03-28-371
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
+
 ### 2016-08-12 — lov/2016-08-12-79
 
 *I lov 5. juni 2009 nr. 35 om naturområder i Oslo og nærliggende kommuner skal § 11 femte ledd og nytt sjette ledd lyde:*
@@ -42,6 +49,27 @@ refid: "lov/2009-06-05-35"
 > Markalovens geografiske virkeområde
 >
 > For å lese kartet se her: (pdf)
+>
+
+### 2020-01-01 — forskrift/2019-11-22-1548
+
+*Ikraftsetting av lov 21. juni 2019 nr. 52 om endringer i andre lover som følge av lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 21. juni 2019 nr. 52 om endringer i andre lover som følge av lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2025-07-01 — forskrift/2025-06-06-945
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ## § 10

@@ -7,6 +7,31 @@ refid: "lov/1990-04-27-9"
 
 ## (annet)
 
+### 2007-06-29 — lov/2007-06-29-81
+
+*25. I lov 27. april 1990 nr. 9 om regulering av eksporten av fisk og fiskevarer skal § 4 første ledd lyde:*
+
+> Departementet kan ved forskrift bestemme at forhandlinger om og gjennomføring av salg av bestemte fiskeslag og fiskevarer til nærmere bestemte utenlandske markeder, bare skal kunne foretas av ett eller flere salgsforetak med begrenset ansvar (sentralisert salg).
+>
+> 26. I lov 19. juni 1992 nr. 59 om bygdeallmenninger skal § 4-2 første ledd nr. 3 lyde:For eiendom som eies av en fylkeskommune, en kommune, et selskap, et samvirkeforetak, en stiftelse, en forening, et bo eller lignende, utøves stemmeretten ved skriftlig fullmakt undertegnet av rette vedkommende.
+>
+> 27. I lov 19. juni 1992 nr. 60 om skogsdrift m.v. i statsallmenningene skal § 3-2 første ledd nr. 3 lyde:For eiendom som eies av en fylkeskommune, en kommune, et selskap, et samvirkeforetak, en stiftelse, en forening, et bo eller lignende, utøves stemmeretten ved skriftlig fullmakt undertegnet av rette vedkommende.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*135. I lov 27. april 1990 nr. 9 om regulering av eksporten av fisk og fiskevarer skal § 9 annet punktum lyde:*
+
+> På samme måte straffes forsøk.
+>
+
+### 2011-12-09 — forskrift/2011-12-09-1221
+
+*Loven trer i kraft fra 1. januar 2012 med unntak av romertall I og IV som trer i kraft straks.*
+
+> Loven trer i kraft fra 1. januar 2012 med unntak av romertall I og IV som trer i kraft straks.
+>
+
 ### 2023-07-01 — forskrift/2023-05-26-729
 
 *Loven trer i kraft 1. juli 2023.*

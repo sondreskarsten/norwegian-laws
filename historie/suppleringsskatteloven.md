@@ -803,6 +803,9 @@ refid: "lov/2024-01-12-1"
 
 *Overskriften til § 2-4 skal lyde:*
 
+> Fordeling av suppleringsskatt etter skatteinkluderingsregelen
+>
+
 ### 2025-12-22 — lov/2025-12-22-123
 
 *Nåværende tredje punktum blir nytt fjerde punktum.*

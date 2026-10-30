@@ -7,6 +7,13 @@ refid: "lov/1980-06-13-35"
 
 ## (annet)
 
+### 2003-01-10 — lov/2003-01-10-3
+
+*2. I lov 13. juni 1980 nr. 35 om fri rettshjelp skal § 13 første ledd nytt annet punktum lyde:*
+
+> I saker om erstatning etter strafforfølgning etter straffeprosessloven kapittel 31 har siktede rett til fritt rettsråd uten behovsprøving.
+>
+
 ### 2004-07-02 — lov/2004-07-02-67
 
 *I lov 13. juni 1980 nr. 35 om fri rettshjelp skal § 13 første ledd lyde:*
@@ -275,6 +282,77 @@ refid: "lov/1980-06-13-35"
 
 *Nåværende § 29 blir § 28.*
 
+### 2010-01-01 — forskrift/2009-10-30-1324
+
+*Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.*
+
+> Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 9. januar 2009 nr. 1 om endringar i utlendingslovgivinga (reglar for EØS- og EFTA-borgarar o.a.). Lovens del I trer i kraft 1. januar 2010.
+>
+> Delvis ikraftsetting av lov 19. juni 2009 nr. 38 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS mv.). Lovens del II, endringen i utlendingsloven § 92 og § 94, og lovens del III trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 19. juni 2009 nr. 41 om endringer i utlendingsloven og i enkelte andre lover. Loven trer i kraft 1. januar 2010.
+>
+
+### 2010-01-15 — forskrift/2010-01-15-33
+
+*Loven del I og III trer i kraft 1. mars 2010. Loven del II trer i kraft straks.*
+
+> Loven del I og III trer i kraft 1. mars 2010. Loven del II trer i kraft straks.
+>
+
+### 2013-04-05 — lov/2013-04-05-12
+
+*23. I lov 13. juni 1980 nr. 35 om fri rettshjelp skal § 16 første ledd lyde:*
+
+> Fri sakførsel innvilges uten behovsprøving i saker som nevnt i § 11 første ledd nr. 4, 5 og 7, samt i følgende tilfeller:for den vernepliktige i militærnektersaker etter lov 19. mars 1965 nr. 3 om fritaking for militærtjeneste av overbevisningsgrunner,for den et tvangstiltak retter seg mot i saker om overprøving av administrative tvangsvedtak i helse- og sosialsektoren etter tvisteloven kapittel 36,for den private part i saker hvor søksmål er anbefalt av Stortingets ombudsmann for forvaltningen,for utlending i tilfeller som nevnt i utlendingsloven § 92 tredje ledd annet punktum og fjerde ledd eller for den som har rett til fri sakførsel etter statsborgerloven § 27 sjuende ledd annet punktum,til den som er begjært fratatt rettslig handleevne, eller som begjærer et vedtak om fratakelse av rettslig handleevne opphevet etter vergemålsloven,til den det oppnevnes advokat for i medhold av barneloven § 61 første ledd nr. 5.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
+### 2014-01-01 — forskrift/2013-12-13-1497
+
+*Delt ikraftsetting av lov 21. juni 2013 nr. 92 om endringer i utlendingsloven mv. (behandling av sikkerhetssaker). Loven trer i kraft 1. januar 2014, med unntak av del I § 128a.*
+
+> Delt ikraftsetting av lov 21. juni 2013 nr. 92 om endringer i utlendingsloven mv. (behandling av sikkerhetssaker). Loven trer i kraft 1. januar 2014, med unntak av del I § 128a.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1625
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2017-09-01 — forskrift/2017-02-10-146
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. september 2017 med unntak av romertall I § 1-7 tredje ledd og romertall II, som trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. september 2017 med unntak av romertall I § 1-7 tredje ledd og romertall II, som trer i kraft 1. juli 2017.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
 ### 2018-12-20 — lov/2018-12-20-114
 
 *I kapittel V skal ny § 28 lyde:*
@@ -288,11 +366,76 @@ refid: "lov/1980-06-13-35"
 
 *Nåværende § 28 blir ny § 29.*
 
+### 2019-01-01 — forskrift/2018-05-25-759
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2020-01-15 — forskrift/2019-12-20-1921
+
+*Loven trer i kraft 15. januar 2020.*
+
+> Loven trer i kraft 15. januar 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2022-07-01 — forskrift/2022-05-06-758
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2023-01-01 — forskrift/2022-09-23-1635
+
+*Ikraftsetting av lov 17. juni 2022 nr. 57 om erstatning fra staten til voldsutsatte (voldserstatningsloven). Loven trer i kraft 1. januar 2023.*
+
+> Ikraftsetting av lov 17. juni 2022 nr. 57 om erstatning fra staten til voldsutsatte (voldserstatningsloven). Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *I lov 13. juni 1980 nr. 35 om fri rettshjelp skal § 11 første ledd ny nr. 9 lyde:*
 
 > til ungdom som vurderer å klage eller som klager etter konfliktrådsloven § 22 e.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
 >
 
 ### 2024-06-21 — lov/2024-06-21-46
@@ -309,6 +452,13 @@ refid: "lov/1980-06-13-35"
 > for utlending som har rett til fri rettshjelp etter utlendingsloven § 92 første ledd, annet ledd, tredje ledd første punktum og sjuende ledd, eller for den som har rett til fri rettshjelp etter statsborgerloven § 27 sjuende ledd første, tredje eller fjerde punktum.
 >
 
+### 2024-11-29 — forskrift/2024-11-29-2892
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2025-06-20 — lov/2025-06-20-82
 
 *I del I om endring i lov 13. juni 1980 nr. 35 om fri rettshjelp skal § 11 første ledd ny nr. 9 og 10 lyde:*
@@ -318,11 +468,29 @@ refid: "lov/1980-06-13-35"
 > for innsatte som er eller har vært plassert i sikkerhetscelle eller sikkerhetsseng etter straffegjennomføringsloven § 38, og som vurderer å klage eller som klager på vedtaket.
 >
 
+### 2025-07-01 — forskrift/2025-06-20-1095
+
+*Delt ikraftsetting av loven. Loven del I § 11 første ledd nr. 5 til 10, loven del III og loven del IV trer i kraft 1. juli 2025.*
+
+> Delt ikraftsetting av loven. Loven del I § 11 første ledd nr. 5 til 10, loven del III og loven del IV trer i kraft 1. juli 2025.
+>
+
 ### 2025-10-15 — forskrift/2025-09-19-1881
 
 *Ikraftsetting av lov 20. desember 2023 nr. 109 om endringer i rettshjelploven (ny modell for økonomisk behovsprøving). Loven trer i kraft 15. oktober 2025.*
 
 > Ikraftsetting av lov 20. desember 2023 nr. 109 om endringer i rettshjelploven (ny modell for økonomisk behovsprøving). Loven trer i kraft 15. oktober 2025.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ### 2026-05-12 — lov/2026-05-12-18
@@ -332,6 +500,13 @@ refid: "lov/1980-06-13-35"
 > for innsatte som er eller har vært utelukket fra fellesskapet etter straffegjennomføringsloven §§ 37, 37 a eller 37 b i mer enn ett sammenhengende døgn, og som vurderer å klage eller som klager på vedtaket. For innsatte under 18 år er det ikke et vilkår at utelukkelsen overskrider ett døgn.
 >
 > for innsatte som er eller har vært plassert i sikkerhetscelle eller sikkerhetsseng etter straffegjennomføringsloven § 38 c eller § 38 d, og som vurderer å klage eller som klager på vedtaket.
+>
+
+### 2026-10-01 — forskrift/2026-09-11-1775
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.
 >
 
 ## § 1
@@ -359,6 +534,17 @@ refid: "lov/1980-06-13-35"
 
 > Krav som nevnt i første ledd, innkreves av Statens Innkrevingssentral. Innkrevingssentralen kan inndrive kravet ved trekk i lønn eller andre lignende ytelser etter reglene i dekningsloven § 2-7. Innkrevingssentralen kan også inndrive kravet ved å stifte utleggspant for kravet dersom panteretten kan gis rettsvern ved registrering i et register eller ved underretning til en tredjeperson, jf. panteloven kapittel 5, og utleggsforretningen kan holdes på Innkrevingssentralens kontor etter tvangsfullbyrdelsesloven § 7-9 første ledd.
 >
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 11 annet ledd nr. 7 skal lyde:*
+
+> i klagesaker etter folketrygdloven § 21-12.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 11 annet ledd nr. 8 oppheves.*
 
 ### 2006-06-30 — lov/2006-06-30-36
 
@@ -423,12 +609,25 @@ refid: "lov/1980-06-13-35"
 > i saker etter ekteskapsloven eller barneloven kap. 5, 6, 7 og 8, herunder saker om tvangsfullbyrdelse og midlertidig sikring.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 11 første ledd nr. 2 bokstav a og b skal lyde:*
+
+> for den som er part i sak hvor barnevernet har fattet vedtak som nevnt i barnevernsloven § 4-2 første og annet ledd og § 4-4 første ledd, men hvor vedtaket ikke blir etterfulgt av at barnevernet starter forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven.
+>
+> for den som er part i sak hvor barnevernet har startet forberedelse til sak som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven, men hvor saken likevel ikke blir oversendt nemnda.
+>
+
 ### 2022-05-06 — lov/2022-05-06-27
 
 *§ 11 andre ledd nr. 4 skal lyde:*
 
 > for leietaker i sak etter tvangsfullbyrdelsesloven § 13-2 tredje ledd bokstav c når saken gjelder leietakerens bolig.
 >
+
+### 2022-06-17 — lov/2022-06-17-57
+
+*§ 11 andre ledd nr. 6 oppheves. Nåværende nr. 7 blir nr. 6.*
 
 ### 2023-12-20 — lov/2023-12-20-109
 
@@ -611,22 +810,6 @@ refid: "lov/1980-06-13-35"
 
 > for utlending i tilfeller som nevnt i utlendingsloven § 92 tredje ledd annet punktum og fjerde ledd eller for den som har rett til fri sakførsel etter statsborgerloven § 27 sjuende ledd annet punktum.
 >
-> 6. I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 annet ledd bokstav d lyde:forbrytelse mot militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, tolloven § 66, merverdiavgiftsloven § 72, ligningsloven § 12-1, utlendingsloven § 108 annet ledd, jf. femte ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum og bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum.
->
-> 7. I lov 28. februar 1997 nr. 19 om folketrygd skal § 1-7 lyde:
->
-> § 1-7.Flyktning
->
-> Med flyktning menes i denne loven en person som er innvilget oppholdstillatelse i medhold av utlendingsloven § 28.
->
-> 8. I lov 13. juni 1997 nr. 42 om kystvakten skal § 12 første ledd bokstav g lyde:lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven),
->
-> 9. I lov 19. juni 1997 nr. 82 om pass skal § 1 tredje ledd lyde:
->
-> Kongen kan bestemme at § 6 annet ledd (innhenting og lagring av biometrisk personinformasjon i passet) og § 6 a (innsyn i og sletting av biometrisk personinformasjon innhentet for personalisering av passet og etterfølgende identitetskontroll) også skal omfatte diplomatpass, spesialpass og tjenestepass utstedt etter regler gitt i medhold av lov 3. mai 2002 nr. 13 om utenrikstjenesten, samt utlendingspass i medhold av utlendingsloven § 64.
->
-> 10. I lov 16. juli 1999 nr. 66 om Schengen informasjonssystem skal § 7 nr. 2 lyde:opplysninger om personer som ikke skal gis tillatelse til innreise fordi det i forbindelse med utvisning etter utlendingsloven § 66 bokstav a, b, c, e eller f, §§ 67 eller 68 er truffet vedtak om innreiseforbud, og vedtaket fortsatt er gjeldende
->
 
 ### 2015-12-18 — lov/2015-12-18-126
 
@@ -666,7 +849,24 @@ refid: "lov/1980-06-13-35"
 
 *§ 16 andre ledd nr. 3 til 5 skal lyde:*
 
-> saker som nevnt i § 11 annet ledd nr. 3 og 5,saker etter barnebortføringskonvensjonen av 25. oktober 1980 artikkel 3 for den som har fått sitt barn ulovlig bortført til Norge,saker etter husleieloven § 9-8 og tvangsfullbyrdelsesloven § 13-2 tredje ledd bokstav c for leietaker når saken gjelder leietakerens bolig.
+> saker som nevnt i § 11 annet ledd nr. 3 og 5,
+>
+> saker etter barnebortføringskonvensjonen av 25. oktober 1980 artikkel 3 for den som har fått sitt barn ulovlig bortført til Norge,
+>
+> saker etter husleieloven § 9-8 og tvangsfullbyrdelsesloven § 13-2 tredje ledd bokstav c for leietaker når saken gjelder leietakerens bolig.
+>
+
+### 2022-06-17 — lov/2022-06-17-57
+
+*§ 16 første ledd nr. 4 til 6 og nytt nr. 7 skal lyde:*
+
+> for utlending i tilfeller som nevnt i utlendingsloven § 92 tredje ledd annet punktum og fjerde ledd, § 129 annet ledd, eller for den som har rett til fri sakførsel etter statsborgerloven § 27 sjuende ledd annet eller tredje punktum,
+>
+> til den som er begjært fratatt rettslig handleevne, eller som begjærer et vedtak om fratakelse av rettslig handleevne opphevet etter vergemålsloven,
+>
+> til den det oppnevnes advokat for i medhold av barneloven § 61 første ledd nr. 5,
+>
+> til den som er saksøkt i sak som nevnt i § 11 første ledd nr. 4.
 >
 
 ### 2024-06-21 — lov/2024-06-21-46
@@ -724,6 +924,15 @@ refid: "lov/1980-06-13-35"
 *§ 17 tredje ledd nr. 1 skal lyde:*
 
 > I saker som skal behandles av fylkesnemnda etter lov om sosiale tjenester mv.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 17 tredje ledd nr. 1 og 2 skal lyde:*
+
+> I saker som skal behandles av barneverns- og helsenemnda etter helse- og omsorgstjenesteloven.
+>
+> saker som skal behandles av barneverns- og helsenemnda etter kapittel 14 i barnevernsloven.
 >
 
 ### 2023-12-20 — lov/2023-12-20-109
@@ -836,6 +1045,13 @@ refid: "lov/1980-06-13-35"
 > Dersom en part som har fri rettshjelp, vinner saken, skal saksomkostninger etter tvisteloven kap. 20 i tilfelle tilkjennes det offentlige i den utstrekning det er nødvendig for å dekke utgiftene til fri rettshjelp.
 >
 
+### 2022-06-17 — lov/2022-06-17-57
+
+*§ 23 første ledd nytt annet punktum skal lyde:*
+
+> Dette gjelder likevel ikke fri rettshjelp som er innvilget til partene i medhold av § 16 første ledd, jf. § 11 første ledd nr. 4.
+>
+
 ## § 25
 
 ### 2023-12-20 — lov/2023-12-20-109
@@ -874,14 +1090,6 @@ refid: "lov/1980-06-13-35"
 > Domstolen skal tilrettelegge saken for ankedomstolen og gi slik redegjørelse for saken som er nødvendig for ankedomstolen.
 >
 > Om dekning av sakskostnader av det offentlige gjelder forvaltningsloven § 36 første ledd og tredje ledd første og annet punktum tilsvarende.
->
-> 75. I lov 6. mars 1981 nr. 5 om barneombud skal § 4 tredje ledd første punktum lyde:
->
-> Reglene i tvisteloven §§ 22-1, 22-2, 22-4 til 22-11 får tilsvarende anvendelse for Ombudets rett til å kreve opplysninger.
->
-> 76. I lov 13. mars 1981 nr. 6 om vern om forurensninger og om avfall (Forurensningsloven) skal § 64 første ledd første punktum lyde:
->
-> Søksmål om erstatning eller krav som gjelder fast eiendom kan samlet reises i enhver rettskrets hvor det er verneting for ett av kravene, såfremt grunnlaget for kravene er det samme eller vesentlig likeartet.
 >
 
 ### 2010-01-15 — lov/2010-01-15-2

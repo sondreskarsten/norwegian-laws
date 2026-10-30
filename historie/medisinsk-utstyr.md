@@ -22,12 +22,34 @@ refid: "lov/1995-01-12-6"
 
 *Noverande §§ 12 til 14 blir nye §§ 13 til 15.*
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*166. I lov 12. januar 1995 nr. 6 om medisinsk utstyr skal § 12 første ledd lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer bestemmelser eller pålegg gitt i eller i medhold av denne lov, straffes med bøter eller fengsel inntil 3 måneder, eller under særlig skjerpende omstendigheter med bøter eller fengsel inntil 2 år.
+>
+
 ### 2014-06-20 — lov/2014-06-20-39
 
 *I lov 12. januar 1995 nr. 6 om medisinsk utstyr skal § 1 nytt annet ledd lyde:*
 
 > Kongen kan gi forskrift om at loven og forskrifter med hjemmel i loven helt eller delvis skal gjelde for Svalbard og kan fastsette særlige regler under hensyn til de stedlige forholdene.
 >
+
+### 2014-07-01 — forskrift/2014-06-20-788
+
+*Loven trer i kraft fra 1. juli 2014.*
+
+> Loven trer i kraft fra 1. juli 2014.
+>
+
+### 2020-05-07 — lov/2020-05-07-37
+
+*Følgende lov oppheves:Lov 12. januar 1995 nr. 6 om medisinsk utstyr.*
+
+### 2020-05-07 — lov/2020-05-07-37
+
+*Lov 12. januar 1995 nr. 6 om medisinsk utstyr oppheves fra den tid Kongen bestemmer. Kongen kan oppheve de enkelte bestemmelsene til forskjellig tid.*
 
 ## § 12
 

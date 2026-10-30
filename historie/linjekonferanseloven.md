@@ -31,3 +31,9 @@ refid: "lov/1984-06-08-55"
 
 > Et internasjonalt meglingsforslag som er bindende vedtatt, anses som utenlandsk offentlig forlik i forhold til reglene i tvisteloven § 19-16 og tvangsfullbyrdelsesloven § 4-1 annet ledd bokstav f.
 >
+
+## § 9
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 9 første ledd annet punktum og annet ledd oppheves.*

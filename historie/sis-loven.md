@@ -7,9 +7,36 @@ refid: "lov/1999-07-16-66"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*123. I lov 16. juli 1999 nr. 66 om Schengen informasjonssystem (SIS) skal § 11 første ledd lyde:*
+
+> Overføring av supplerende opplysninger som ikke formidles via SIS og som hentes fra andre politiregistre, reguleres av lov 11. juni 1971 nr. 52 om strafferegistrering og lov 14. april 2000 nr. 31 om behandling av personopplysninger.
+>
+> 124. I lov 15. juni 2001 nr. 37 om endringer i barnelova, forskotteringsloven og i enkelte andre lover (nye regler for beregning av barnebidrag m.m.) skal andre punktum i lov 8. april 1981 nr. 7 om barn og foreldre § 58 nytt andre ledd i I lyde:
+>
+> Dette gjeld i alle typer saker der det kjem minst eitt krav om førstegangsfastsetjing, klage eller endring eller der tilskotsfuten av eige tiltak kan ta opp eit krav.
+>
+
+### 2010-01-01 — forskrift/2009-10-30-1324
+
+*Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.*
+
+> Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 9. januar 2009 nr. 1 om endringar i utlendingslovgivinga (reglar for EØS- og EFTA-borgarar o.a.). Lovens del I trer i kraft 1. januar 2010.
+>
+> Delvis ikraftsetting av lov 19. juni 2009 nr. 38 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS mv.). Lovens del II, endringen i utlendingsloven § 92 og § 94, og lovens del III trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 19. juni 2009 nr. 41 om endringer i utlendingsloven og i enkelte andre lover. Loven trer i kraft 1. januar 2010.
+>
+
 ### 2010-06-18 — lov/2010-06-18-25
 
-*I lov 16. juli 1999 nr. 66 om Schengen informasjonssystem (SIS) skal § 12 første ledd bokstav a lyde:politi- og tollmyndighet når de utøver grensekontroll og annen kontroll*
+*I lov 16. juli 1999 nr. 66 om Schengen informasjonssystem (SIS) skal § 12 første ledd bokstav a lyde:*
+
+> politi- og tollmyndighet når de utøver grensekontroll og annen kontroll
+>
 
 ### 2011-01-01 — forskrift/2010-12-17-1611
 
@@ -25,11 +52,75 @@ refid: "lov/1999-07-16-66"
 > Lov 27. juni 2008 nr. 66 om endringer i lov 16. juli 1999 nr. 66 om Schengen informasjonssystem § 1, § 2, § 6, § 8, § 9A, § 12 og § 20, gjelder fra 9. april 2013.
 >
 
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
+### 2014-07-01 — forskrift/2014-06-20-792
+
+*Loven trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. juli 2014.
+>
+
+### 2016-04-22 — lov/2016-04-22-3
+
+*21. I lov 16. juli 1999 nr. 66 om Schengen informasjonssystem (SIS) skal § 11 tredje punktum lyde:*
+
+> Behandlingen av supplerende opplysninger for øvrig reguleres av politiregisterloven og personopplysningsloven, med unntak av de særlige slettereglene i § 20 syvende ledd.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2017-04-18 — forskrift/2017-03-31-414
+
+*Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.*
+
+> Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.
+>
+> Lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. (elektronisk tinglysing) gjelder fra 18. april 2017, med følgende unntak:
+>
+> endringene i tinglysingsloven gjelder ikke for tinglysing i Akvakulturregisteret.
+>
+> endringene i tinglysingsloven § 7 første ledd første og annet punktum gjelder ikke for tinglysing i Løsøreregisteret.
+>
+> Frem til tinglysingsloven § 7 første ledd første og annet punktum som endret ved lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. trer i kraft for tinglysing i Løsøreregisteret, skal et dokument som kreves tinglyst i Løsøreregisteret, registreres snarest mulig. Dokument som kommer inn til kontoret elektronisk eller på papir innen klokken 14.00, skal anses som registrert den dato det er kommet inn. Kommer det senere, skal det anses som registrert den neste kontordagen. Er kontortiden enkelte dager slutt før kl. 14.00, opphører adgangen til innføring i registeret ved kontortidens slutt.
+>
+
+### 2018-11-01 — forskrift/2018-10-05-1547
+
+*Ikraftsetting av lov 22. juni 2018 nr. 78 om endringer i utlendingsloven mv. (utvisning på grunnlag av eksklusjon fra flyktningstatus mv.). Loven trer i kraft 1. november 2018.*
+
+> Ikraftsetting av lov 22. juni 2018 nr. 78 om endringer i utlendingsloven mv. (utvisning på grunnlag av eksklusjon fra flyktningstatus mv.). Loven trer i kraft 1. november 2018.
+>
+
 ### 2021-06-18 — lov/2021-06-18-127
 
 *I lov 16. juli 1999 nr. 66 om Schengen informasjonssystem (SIS) skal § 14 andre ledd lyde:*
 
 > Forvaltningsloven §§ 13 til 13 d og 13 g gjelder ikke.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2023-03-07 — forskrift/2023-02-10-173
+
+*Ikraftsetting av lov 18. februar 2022 nr. 6 om endringer i lov om Schengen informasjonssystem (SIS-loven) mv. Loven trer i kraft 7. mars 2023.*
+
+> Ikraftsetting av lov 18. februar 2022 nr. 6 om endringer i lov om Schengen informasjonssystem (SIS-loven) mv. Loven trer i kraft 7. mars 2023.
 >
 
 ### 2024-06-21 — lov/2024-06-21-47
@@ -39,6 +130,15 @@ refid: "lov/1999-07-16-66"
 > § 1. Gjennomføring av forordninger om Schengen informasjonssystem (SIS)
 >
 > Følgende forordninger gjelder som lov:Forordning (EU) 2018/1862 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) innenfor politisamarbeid og strafferettslig samarbeid (politisamarbeidsforordningen), som endret ved forordning (EU) 2019/818, forordning (EU) 2021/1133 og forordning (EU) 2021/1150Forordning (EU) 2018/1861 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) på området inn- og utreisekontroll (grensekontrollforordningen), som endret ved forordning (EU) 2019/817, forordning (EU) 2021/1134 og forordning (EU) 2021/1152Forordning (EU) 2018/1860 om bruk av Schengen-informasjonssystem i forbindelse med retur av tredjestatsborgere med ulovlig opphold (returforordningen), som endret ved forordning (EU) 2021/1134 og forordning (EU) 2021/1152.
+>
+
+### 2026-06-12 — forskrift/2026-06-12-1058
+
+*Delt ikraftsetting av lov 12. juni 2026 om endringer i grenseloven, utlendingsloven og SIS-loven (screening av tredjelandsborgere). Følgende endringer trer i kraft 12. juni 2026 kl. 15.00:*
+
+> Delt ikraftsetting av lov 12. juni 2026 om endringer i grenseloven, utlendingsloven og SIS-loven (screening av tredjelandsborgere). Følgende endringer trer i kraft 12. juni 2026 kl. 15.00:
+>
+> Endringsloven del I til III.
 >
 
 ## § 1
@@ -76,7 +176,9 @@ refid: "lov/1999-07-16-66"
 
 *§ 12 første ledd ny bokstav b og c skal lyde:*
 
-> påtalemyndighetutlendingsmyndighet med ansvar for behandling av visumsøknader, behandling av tillatelser til opphold, og ellers ved håndheving av utlendingsloven med hensyn til de opplysninger som er lagt inn i medhold av § 7 nr. 2 og § 6 annet ledd bokstav d og e for å gjennomføre bestemmelsene om personbevegelse i konvensjonen om gjennomføring av Schengenavtalen.
+> påtalemyndighet
+>
+> utlendingsmyndighet med ansvar for behandling av visumsøknader, behandling av tillatelser til opphold, og ellers ved håndheving av utlendingsloven med hensyn til de opplysninger som er lagt inn i medhold av § 7 nr. 2 og § 6 annet ledd bokstav d og e for å gjennomføre bestemmelsene om personbevegelse i konvensjonen om gjennomføring av Schengenavtalen.
 >
 
 ### 2006-06-30 — lov/2006-06-30-47
@@ -115,7 +217,13 @@ refid: "lov/1999-07-16-66"
 
 *§ 13 første ledd ny bokstav c, d, e og f skal lyde:*
 
-> påtalemyndighetutlendingsmyndighet i saker som nevnt i § 12 første ledd bokstav cveimyndighet i saker som nevnt i § 12 første ledd bokstav ddepartementet og Politidirektoratet i forbindelse med utøvelse av overordnet myndighet
+> påtalemyndighet
+>
+> utlendingsmyndighet i saker som nevnt i § 12 første ledd bokstav c
+>
+> veimyndighet i saker som nevnt i § 12 første ledd bokstav d
+>
+> departementet og Politidirektoratet i forbindelse med utøvelse av overordnet myndighet
 >
 
 ## § 19
@@ -233,7 +341,11 @@ refid: "lov/1999-07-16-66"
 
 *§ 6 annet ledd bokstav a til c skal lyde:*
 
-> kjøretøyer med et sylindervolum på over 50 ccm, båter og luftfartøyer,tilhengere med en egenvekt på over 750 kg, campingvogner, industriutstyr, utenbords båtmotorer og containere,skytevåpen,
+> kjøretøyer med et sylindervolum på over 50 ccm, båter og luftfartøyer,
+>
+> tilhengere med en egenvekt på over 750 kg, campingvogner, industriutstyr, utenbords båtmotorer og containere,
+>
+> skytevåpen,
 >
 
 ### 2008-06-27 — lov/2008-06-27-66
@@ -279,7 +391,9 @@ refid: "lov/1999-07-16-66"
 
 *§ 8 første ledd nr. 1 bokstav a og b skal lyde:*
 
-> når det foreligger konkrete holdepunkter for å anta at vedkommende person planlegger å begå eller begår en alvorlig straffbar handling, ellernår det ut fra en samlet vurdering av vedkommende person, særlig på grunnlag av tidligere begåtte straffbare handlinger, må antas at vedkommende også i fremtiden vil begå alvorlige straffbare handlinger.
+> når det foreligger konkrete holdepunkter for å anta at vedkommende person planlegger å begå eller begår en alvorlig straffbar handling, eller
+>
+> når det ut fra en samlet vurdering av vedkommende person, særlig på grunnlag av tidligere begåtte straffbare handlinger, må antas at vedkommende også i fremtiden vil begå alvorlige straffbare handlinger.
 >
 
 ### 2026-06-12 — lov/2026-06-12-31

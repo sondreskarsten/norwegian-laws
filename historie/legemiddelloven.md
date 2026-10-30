@@ -15,6 +15,13 @@ refid: "lov/1992-12-04-132"
 
 *Nåværende annet, tredje og fjerde ledd blir nytt fjerde, femte og sjette ledd.*
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*Nåværende første og annet ledd blir nye annet og tredje ledd.*
+
+> 7. Med virkning frem til ny straffelov trer i kraft skal det i straffegjennomføringsloven 18. mai 2001 nr. 21 gjøres følgende endringer:
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *Nåværende første og annet ledd blir nye annet og tredje ledd.*
@@ -30,13 +37,15 @@ refid: "lov/1992-12-04-132"
 
 *Nåværende første og annet ledd blir nye annet og tredje ledd.*
 
-> 154. I lov 12. mars 1993 nr. 32 om planteforedlerrett skal § 22 lyde:
+### 2009-06-19 — lov/2009-06-19-103
+
+*16. I lov 4. desember 1992 nr. 132 om legemidler, skal ny § 26a lyde:*
+
+> Departementet kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for godkjenning av virksomheter som driver med forskrivning, tilvirkning, distribusjon mv. av medisinfôr til dyr, fugler, fisk og andre akvatiske organismer, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser. Saksbehandlingsreglene kan fravike reglene i forvaltningsloven.
 >
-> Den som gjør inngrep i den enerett en planteforedlerrett medfører, straffes med bøter eller fengsel inntil tre måneder.
+> 17. I lov 11. juni 1993 nr. 101 om luftfart, skal nytt annet ledd til § 15-4 lyde:
 >
-> Den som forsettlig eller grovt uaktsomt overtrer reglene om anvendelse av sortsnavn i § 20, straffes med bøter.
->
-> 155. I lov 2. april 1993 nr. 38 om framstilling og bruk av genmodifiserte organismer m.m. gjøres følgende endring:
+> Departementet kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for godkjennelse av autorisert verksted, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser. Saksbehandlingsreglene kan fravike reglene i forvaltningsloven.
 >
 
 ### 2010-01-08 — forskrift/2010-01-08-2
@@ -87,6 +96,22 @@ refid: "lov/1992-12-04-132"
 > Loven trer i kraft fra 1. juli 2011.
 >
 
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
+### 2013-06-21 — lov/2013-06-21-82
+
+*I lov 4. desember 1992 nr. 132 om legemidler m.v. skal ny § 30 a kapittel IX lyde:*
+
+> § 30 a.
+>
+> Farmasøytisk industri, legemiddelgrossister og apotek kan kreve fremleggelse av ordinær politiattest, jf. politiregisterloven § 40. Attesten avgrenses til å omfatte overtredelser av narkotikalovgivningen.
+>
+
 ### 2013-07-01 — forskrift/2013-06-14-616
 
 *Loven trer i kraft 1. juli 2013.*
@@ -111,6 +136,15 @@ refid: "lov/1992-12-04-132"
 > Kapittel VI overskriften skal lyde:
 >
 
+### 2014-06-20 — lov/2014-06-20-39
+
+*I lov 4. desember 1992 nr. 132 om legemidler m.v. skal ny § 2 a lyde:*
+
+> 2 a.
+>
+> Kongen kan gi forskrift om at loven og forskrifter med hjemmel i loven helt eller delvis skal gjelde for Svalbard og Jan Mayen og kan fastsette særlige regler under hensyn til de stedlige forholdene.
+>
+
 ### 2014-07-01 — forskrift/2014-05-23-669
 
 *Loven trer i kraft 1. juli 2014.*
@@ -118,11 +152,29 @@ refid: "lov/1992-12-04-132"
 > Loven trer i kraft 1. juli 2014.
 >
 
+### 2014-07-01 — forskrift/2014-06-20-788
+
+*Loven trer i kraft fra 1. juli 2014.*
+
+> Loven trer i kraft fra 1. juli 2014.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Nåværende første og annet ledd blir annet og tredje ledd.*
+
 ### 2016-07-01 — forskrift/2016-06-17-707
 
 *Loven trer i kraft 1. juli 2016.*
 
 > Loven trer i kraft 1. juli 2016.
+>
+
+### 2017-09-01 — forskrift/2017-06-16-785
+
+*Loven trer i kraft 1. september 2017.*
+
+> Loven trer i kraft 1. september 2017.
 >
 
 ### 2018-07-01 — forskrift/2018-04-27-675
@@ -139,6 +191,13 @@ refid: "lov/1992-12-04-132"
 > Departementet kan ilegge den som overtrer bestemmelsene i §§ 13 første og fjerde ledd, 14 annet ledd, 16 annet ledd, 19, 20, 21 og 23 femte ledd, overtredelsesgebyr. Det samme gjelder ved overtredelse av forskrifter gitt i medhold av disse bestemmelsene eller § 10 første ledd første punktum når det er fastsatt i forskrift at overtredelsen kan medføre slik sanksjon.
 >
 
+### 2020-07-01 — forskrift/2020-05-20-1032
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestilli*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester og del VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 a.
+>
+
 ### 2021-05-21 — lov/2021-05-21-40
 
 *I lov 4. desember 1992 nr. 132 om legemidler m.v. skal § 6 tredje ledd annet punktum lyde:*
@@ -151,6 +210,31 @@ refid: "lov/1992-12-04-132"
 *I lov 4. desember 1992 nr. 132 om legemidler m.v. skal § 30 sjette punktum lyde:*
 
 > Forvaltningslovens §§ 13 til 13 e og 13 g gjelder ikke.
+>
+
+### 2021-07-01 — forskrift/2021-05-21-1653
+
+*Endringsloven trer i kraft 1. juli 2021.*
+
+> Endringsloven trer i kraft 1. juli 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-01-01 — forskrift/2021-09-17-2767
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall II, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v., § 28 og § 28a trer i kraft 1.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall II, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v., § 28 og § 28a trer i kraft 1. januar 2022.
+>
+> Lov 21. juni 2019 nr. 42 om endringer i apotekloven, legemiddelloven og folketrygdloven (overtredelsesgebyr) trer i kraft 1. januar 2022.
+>
+> Delt ikraftsetting av lov 20. mai 2020 nr. 42 om endringer i markedsføringsloven mv. (gjennomføring av forordning (EU) 2017/2394 om forbrukervernsamarbeid). Romertall VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v., § 28a trer i kraft 1. januar 2022.
 >
 
 ### 2022-06-17 — lov/2022-06-17-54
@@ -181,6 +265,13 @@ refid: "lov/1992-12-04-132"
 > Ikraftsetting av lov 17. juni 2022 nr. 54 om endringer i legemiddelloven (legemidler til dyr). Loven trer i kraft straks.
 >
 
+### 2024-01-01 — forskrift/2023-12-20-2128
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
 ### 2024-06-21 — lov/2024-06-21-43
 
 *Nåverande fjerde ledd blir oppheva. Nåverande femte til sjuande ledd blir fjerde til sjette ledd.*
@@ -195,6 +286,20 @@ refid: "lov/1992-12-04-132"
 ### 2024-06-25 — lov/2024-06-25-68
 
 *Nåværende femte til åttende ledd blir sjette til nytt niende ledd.*
+
+### 2024-07-01 — forskrift/2024-06-21-1101
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1268
+
+*Endringsloven trer i kraft 1. juli 2024.*
+
+> Endringsloven trer i kraft 1. juli 2024.
+>
 
 ### 2024-12-20 — lov/2024-12-20-97
 
@@ -213,6 +318,13 @@ refid: "lov/1992-12-04-132"
 ### 2025-06-20 — lov/2025-06-20-83
 
 *Nåværende tredje og fjerde ledd blir fjerde og nytt femte ledd.*
+
+### 2026-07-01 — forskrift/2026-06-19-1235
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
 
 ## § 1
 
@@ -649,14 +761,14 @@ refid: "lov/1992-12-04-132"
 > § 24 annet ledd gjelder tilsvarende.
 >
 
-## § 25
+### 2015-06-19 — lov/2015-06-19-65
 
-### 2009-06-19 — lov/2009-06-19-74
+*§ 24 a første ledd første punktum skal lyde:*
 
-*§ 25 tredje ledd oppheves.*
-
-> 156. I lov 11. juni 1993 nr. 66 om pristiltak gjøres følgende endring:
+> Det er forbudt uten lovlig adkomst å erverve, besitte eller bruke stoff som etter forskrift med hjemmel i straffeloven § 234 første ledd er regnet som dopingmidler.
 >
+
+## § 25
 
 ### 2011-06-24 — lov/2011-06-24-28
 
@@ -868,6 +980,10 @@ refid: "lov/1992-12-04-132"
 > Besittelse og bruk av narkotika, jf. § 24 første ledd, og erverv, besittelse og bruk av dopingmidler, jf. § 24 a første ledd, straffes med bøter eller fengsel inntil 6 måneder, eller begge deler.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 31 fjerde ledd første punktum oppheves.*
+
 ### 2022-06-17 — lov/2022-06-17-54
 
 *§ 31 første ledd skal lyde:*
@@ -907,6 +1023,13 @@ refid: "lov/1992-12-04-132"
 
 ## § 32
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 32 nytt første ledd skal lyde:*
+
+> Dersom vilkårene for inndragning etter straffeloven er oppfylt, kan påtalemyndigheten beslutte at beslaglagte stoffer som er oppført på narkotikalisten, inndras. Beslutningen skal være skriftlig og begrunnet. Eieren eller besitteren skal så vidt mulig underrettes om påtalemyndighetens beslutning og kan kreve saken forelagt for retten innen 1 måned etter at beslaget ble foretatt.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *§ 32 nytt første ledd skal lyde:*
@@ -926,6 +1049,13 @@ refid: "lov/1992-12-04-132"
 *§ 32 annet ledd skal lyde:*
 
 > Departementet bestemmer også hva som skal gjøres med narkotika som er å regne som hittegods.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 32 nytt første ledd skal lyde:*
+
+> Dersom vilkårene for inndragning etter straffeloven er oppfylt, kan påtalemyndigheten beslutte at beslaglagte stoffer som er oppført på narkotikalisten inndras. Beslutningen skal være skriftlig og begrunnet. Eieren eller besitteren skal så vidt mulig underrettes om påtalemyndighetens beslutning og kan kreve saken forelagt for retten innen 1 måned etter at beslaget ble foretatt.
 >
 
 ## § 33
@@ -952,15 +1082,40 @@ refid: "lov/1992-12-04-132"
 > Reglene i straffeprosessloven § 157 femte ledd gjelder tilsvarende for undersøkelser etter denne paragrafen.
 >
 
-## § 4
+## § 44
 
-### 2009-06-19 — lov/2009-06-19-74
+### 2005-05-20 — lov/2005-05-20-28
 
-*§ 4 første ledd bokstav d oppheves.*
+*§ 44 annet ledd skal lyde:*
 
-> 157. I lov 11. juni 1993 nr. 73 om prisregulering ved import av fisk og fiskevarer m.v. skal § 4 annet punktum lyde:
+> Hvis den prøveløslatte etter at kriminalomsorgen har holdt innskjerpingssamtale eller fastsatt vilkår etter første ledd, på nytt bryter vilkår, kan regionalt nivå bringe saken inn for tingretten med begjæring om gjeninnsettelse i fengsel for hel eller delvis fullbyrding av reststraffen. Bestemmelsene om omgjøring av dom på samfunnsstraff etter straffeloven § 28 b første ledd bokstav a gis tilsvarende anvendelse på saker om gjeninnsettelse for fullbyrdelse av reststraff etter prøveløslatelse.
 >
-> På samme måte straffes forsøk.
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 44 annet ledd skal lyde:*
+
+> Hvis den prøveløslatte etter at kriminalomsorgen har holdt innskjerpingssamtale eller fastsatt vilkår etter første ledd, på nytt bryter vilkår, kan regionalt nivå bringe saken inn for tingretten med begjæring om gjeninnsettelse i fengsel for hel eller delvis fullbyrding av reststraffen. Bestemmelsene om omgjøring av dom på samfunnsstraff etter straffeloven § 52 første ledd bokstav a gis tilsvarende anvendelse på saker om gjeninnsettelse for fullbyrdelse av reststraff etter prøveløslatelse.
+>
+
+## § 45
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 45 skal lyde:*
+
+> Begår den prøveløslatte en ny straffbar handling i prøvetiden, gjelder bestemmelsene om omgjøring av dom på samfunnsstraff etter straffeloven § 28 b første ledd bokstav b tilsvarende. Det er likevel tilstrekkelig om tiltale blir reist eller saken blir begjært pådømt innen 6 måneder etter at prøvetiden gikk ut.
+>
+> Dersom den prøveløslatte er siktet for en straffbar handling som kan føre til gjeninnsettelse for fullbyrdelse av reststraffen etter straffeloven § 28 b første ledd bokstav b, kan gjennomføringen av straffen avbrytes.
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 45 skal lyde:*
+
+> Begår den prøveløslatte en ny straffbar handling i prøvetiden, gjelder bestemmelsene om omgjøring av dom på samfunnsstraff etter straffeloven § 52 første ledd bokstav b tilsvarende. Det er likevel tilstrekkelig om tiltale blir reist eller saken blir begjært pådømt innen 6 måneder etter at prøvetiden gikk ut.
+>
+> Dersom den prøveløslatte er siktet for en straffbar handling som kan føre til gjeninnsettelse for fullbyrdelse av reststraffen etter straffeloven § 52 første ledd bokstav b, kan gjennomføringen av straffen avbrytes.
 >
 
 ## § 5
@@ -970,6 +1125,99 @@ refid: "lov/1992-12-04-132"
 *§ 5 første punktum skal lyde:*
 
 > Den som bryt denne lova eller føresegner som er gjevne med heimel i lova, vert straffa med bot eller fengsel i opptil fem år dersom handlinga ikkje vert ramma av strengare strafføresegner som til dømes straffelova §§ 107 og 142.
+>
+
+## § 53
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 53 første ledd skal lyde:*
+
+> De idømte timene samfunnsstraff etter straffeloven § 49 første ledd bokstav a skal gå ut påsamfunnsnyttig tjeneste,program, ellerandre tiltak som er egnet til å motvirke ny kriminalitet.
+>
+
+## § 54
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 54 første ledd bokstav d skal lyde:*
+
+> overholde vilkårene som domstolen har fastsatt etter straffeloven § 28 a femte ledd, og
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 54 tredje ledd skal lyde:*
+
+> Den domfelte skal ikke begå en ny straffbar handling før utløpet av gjennomføringstiden.
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 54 første ledd bokstav d skal lyde:*
+
+> overholde vilkårene som domstolen har fastsatt etter straffeloven § 50, og
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 54 tredje ledd skal lyde:*
+
+> Den domfelte skal ikke begå en ny straffbar handling før utløpet av gjennomføringstiden.
+>
+
+## § 56
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 56 første ledd første punktum skal lyde:*
+
+> Hvis retten har satt vilkår etter straffeloven § 28 a femte ledd eller kriminalomsorgen etter § 55 eller § 58 første ledd har forbudt den domfelte å bruke berusende eller bedøvende midler, skal kriminalomsorgen undersøke om vilkåret eller forbudet blir overholdt.
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 56 første ledd første punktum skal lyde:*
+
+> Hvis retten har satt vilkår etter straffeloven § 50 eller kriminalomsorgen etter § 55 eller § 58 første ledd har forbudt den domfelte å bruke berusende eller bedøvende midler, skal kriminalomsorgen undersøke om vilkåret eller forbudet blir overholdt.
+>
+
+## § 58
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 58 annet ledd skal lyde:*
+
+> Hvis den domfelte etter at kriminalomsorgen har holdt innskjerpingssamtale eller fastsatt vilkår etter første ledd, på nytt bryter kravene eller vilkår fastsatt etter første ledd bokstav a til d, bør regionalt nivå bringe saken inn for retten med begjæring om at den subsidiære fengselsstraffen skal fullbyrdes helt eller delvis i medhold av straffeloven § 28 b første ledd bokstav a.
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 58 annet ledd skal lyde:*
+
+> Hvis den domfelte etter at kriminalomsorgen har holdt innskjerpingssamtale eller fastsatt vilkår etter første ledd, på nytt bryter kravene eller vilkår fastsatt etter første ledd bokstav a til d, bør regionalt nivå bringe saken inn for retten med begjæring om at den subsidiære fengselsstraffen skal fullbyrdes helt eller delvis i medhold av straffeloven § 52 første ledd bokstav a.
+>
+
+## § 59
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 59 skal lyde:*
+
+> Begår den domfelte en ny straffbar handling før utløpet av gjennomføringstiden, kan påtalemyndigheten bringe saken inn for retten med begjæring om at den subsidiære fengselsstraffen skal fullbyrdes helt eller delvis i medhold av straffeloven § 28 b første ledd bokstav b.
+>
+> Dersom den domfelte er siktet for en straffbar handling som kan føre til fullbyrding av den subsidiære fengselsstraffen etter straffeloven § 28 b første ledd bokstav b, kan gjennomføringen av straffen avbrytes. Når påtalemyndigheten beslutter å bringe saken inn for retten, avbrytes gjennomføringen av straffen fra det tidspunktet begjæringen er oversendt retten.
+>
+> 8. Med virkning fra den tid ny straffelov trer i kraft skal det i straffegjennomføringsloven 18. mai 2001 nr. 21 gjøres følgende endringer:
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 59 skal lyde:*
+
+> Begår den domfelte en ny straffbar handling før utløpet av gjennomføringstiden, kan påtalemyndigheten bringe saken inn for retten med begjæring om at den subsidiære fengselsstraffen skal fullbyrdes helt eller delvis i medhold av straffeloven § 52 første ledd bokstav b.
+>
+> Dersom den domfelte er siktet for en straffbar handling som kan føre til fullbyrding av den subsidiære fengselsstraffen etter straffeloven § 52 første ledd bokstav b, kan gjennomføringen av straffen avbrytes. Når påtalemyndigheten beslutter å bringe saken inn for retten, avbrytes gjennomføringen av straffen fra det tidspunkt begjæringen er oversendt retten.
 >
 
 ## § 6

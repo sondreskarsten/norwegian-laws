@@ -62,6 +62,20 @@ refid: "lov/2015-04-10-17"
 
 ## § 1-7
 
+### 2019-06-21 — lov/2019-06-21-31
+
+*§ 1-7 Overskriften skal lyde:*
+
+> § 1-7.Forskrifter mv.
+>
+
+### 2019-06-21 — lov/2019-06-21-31
+
+*§ 1-7 nytt annet ledd skal lyde:*
+
+> Kongen i statsråd kan gi Norges Bank i oppgave å fastsette krav i medhold av denne lov til finansforetak ut fra hensynet til å fremme finansiell stabilitet. I vedtaket kan det fastsettes at sentralbankloven § 1-4 annet ledd skal gjelde tilsvarende, og at enkeltvedtak ikke skal kunne påklages.
+>
+
 ### 2026-06-19 — lov/2026-06-19-40
 
 *§ 1-7 skal lyde:*
@@ -115,6 +129,13 @@ refid: "lov/2015-04-10-17"
 *§ 2-1 første ledd skal lyde:*
 
 > (1) Finansieringsvirksomhet kan bare drives av banker, kredittforetak og finansieringsforetak som etter denne loven har tillatelse til å drive slik virksomhet her i riket, med mindre annet følger av lovgivningen om verdipapirforetak, forsikringsformidlingsforetak, forvaltningsselskap for verdipapirfond eller alternative investeringsfond og eiendomsmeglerforetak. Finansieringsvirksomhet kan også drives av utenlandske kredittinstitusjoner som etter denne loven har adgang til å drive slik virksomhet her i riket.
+>
+
+### 2022-12-16 — lov/2022-12-16-91
+
+*§ 2-1 første ledd første punktum skal lyde:*
+
+> (1) Finansieringsvirksomhet kan bare drives av banker, kredittforetak og finansieringsforetak som etter denne loven har tillatelse til å drive slik virksomhet her i riket, med mindre annet følger av lovgivningen om verdipapirforetak, låneformidlingsforetak, forsikringsformidlingsforetak, forvaltningsselskap for verdipapirfond eller alternative investeringsfond og eiendomsmeglerforetak.
 >
 
 ### 2026-02-06 — lov/2026-02-06-2
@@ -173,6 +194,15 @@ refid: "lov/2015-04-10-17"
 > (5) Departementet kan fastsette nærmere regler om betalingstjenestevirksomhet, hva som skal regnes som betalingstjenester og hva som ikke skal regnes som betalingstjenester. I forskriften kan det bestemmes at enkelte typer av virksomhet er underlagt meldeplikt.
 >
 
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 2-3 tredje og fjerde ledd skal lyde:*
+
+> (3) Som betalingstjenester regnes i denne loven tjenester som angitt i finansavtaleloven § 1-5 første ledd med unntak for tjenester som det er gjort unntak for etter forskrift fastsatt med hjemmel i femte ledd første punktum i paragrafen her. Med pengeoverføringer menes betalingstjeneste som angitt i finansavtaleloven § 1-5 første ledd bokstav f.
+>
+> (4) Tillatelse til å utføre betalingstjenester omfatter, når ikke annet er fastsatt, også omsetning av valuta i forbindelse med pengeoverføringer med utlandet og kredittyting innenfor fastsatte kredittgrenser ved gjennomføringen av betalingstjeneste som angitt i finansavtaleloven § 1-5 første ledd bokstav d og e, dersom kreditten ikke ytes av midler mottatt for å utføre betalingsoverføringer, og er kortsiktig og skal tilbakebetales senest innen 12 måneder.
+>
+
 ## § 2-4
 
 ### 2015-12-04 — lov/2015-12-04-96
@@ -180,6 +210,24 @@ refid: "lov/2015-04-10-17"
 *§ 2-4 første ledd første punktum skal lyde:*
 
 > Elektroniske penger kan bare utstedes av banker, kredittforetak og e-pengeforetak og av finansieringsforetak som etter denne loven har tillatelse til å drive slik virksomhet her i riket.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 2-4 annet ledd skal lyde:*
+
+> (2) Med elektroniske penger menes en elektronisk lagret pengeverdi representert ved en fordring på utstederen, som er utstedt etter mottak av midler for å utføre betalingstransaksjoner, og som er anerkjent som betalingsmiddel av andre foretak enn utstederen. Med betalingstransaksjoner menes transaksjoner som angitt i finansavtaleloven § 1-5 sjette ledd.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 2-4 tredje ledd oppheves.*
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 2-4 nåværende fjerde ledd blir tredje ledd og skal lyde:*
+
+> (3) Departementet kan fastsette nærmere regler om hva som skal regnes som elektroniske penger etter første og annet ledd, hva som ikke skal regnes som elektroniske penger, om utstedelse av elektroniske penger, samt unnta visse e-pengeforetak helt eller delvis fra bestemmelser om e-pengeforetak gitt i eller i medhold av denne loven.
 >
 
 ## § 2-7
@@ -273,6 +321,20 @@ refid: "lov/2015-04-10-17"
 > (5) Departementet kan fastsette nærmere regler om betalingsforetak og foretak med begrenset tillatelse etter fjerde ledd, herunder gjøre unntak fra reglene som gjelder for finansforetak, og fastsette regler om organisering, virksomhet, kapitalkrav, eierforhold, sikring av midler, bruk av agenter og oppdragstakere, vilkår for tillatelse, tilbakekall av tillatelse, utenrettslig tvisteløsningsordning og tilsyn. Departementet kan ved forskrift eller enkeltvedtak gjøre unntak for virksomhet som omfattes av fjerde ledd.
 >
 
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 2-10 første ledd annet punktum skal lyde:*
+
+> Tillatelsen kan avgrenses til å gjelde én eller flere av de tjenester som er nevnt i finansavtaleloven § 1-5 første ledd.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 2-10 fjerde ledd tredje punktum bokstav a skal lyde:*
+
+> Foretaket kan bare yte betalingstjenesten pengeoverføring, jf. finansavtaleloven § 1-5 første ledd bokstav f.
+>
+
 ## § 2-10 a
 
 ### 2018-11-23 — lov/2018-11-23-87
@@ -307,6 +369,12 @@ refid: "lov/2015-04-10-17"
 
 > Tillatelsen kan avgrenses til å gjelde én eller flere av de tjenester som nevnt i finansavtaleloven § 1-5 første ledd.
 >
+
+## § 2-18
+
+### 2022-12-16 — lov/2022-12-16-91
+
+*§ 2-18 oppheves.*
 
 ## § 3-1
 
@@ -346,7 +414,7 @@ refid: "lov/2015-04-10-17"
 
 *§ 3-4 annet ledd bokstav b skal lyde:*
 
-> 50 000 euro dersom betalingsforetaket tilbyr betalingsfullmakttjeneste,
+> 50 000 euro dersom betalingsforetaket tilbyr betalingsfullmakttjeneste,
 >
 
 ### 2019-12-13 — lov/2019-12-13-79
@@ -354,6 +422,21 @@ refid: "lov/2015-04-10-17"
 *§ 3-4 femte ledd annet punktum skal lyde:*
 
 > For foretak som nevnt i første ledd kan departementet i særlige tilfeller samtykke til lavere samlet startkapital, men ikke mindre enn et beløp som svarer til 1 million euro.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 3-4 annet ledd annet punktum bokstav a, b og c skal lyde:*
+
+> 20 000 euro dersom betalingsforetaket bare yter slik betalingstjeneste som er nevnt i finansavtaleloven § 1-5 første ledd bokstav f,
+>
+> 50 000 euro dersom betalingsforetaket tilbyr betalingsfullmakttjeneste,
+>
+> 125 000 euro når betalingsforetaket yter én eller flere av betalingstjenestene som er nevnt i finansavtaleloven § 1-5 første ledd bokstav a til e.
+>
+> 11.I lov 21. juni 2019 nr. 31 om Norges Bank og pengevesenet mv. skal § 3-1 sjette ledd lyde:
+>
+> (6) Kravet om særskilt samtykke fra låntakeren etter finansavtaleloven § 2-13 gjelder ikke ved overdragelse eller pantsettelse av lånefordringer til Norges Bank ved yting av kreditt eller andre tiltak etter paragrafen her eller ved bankens senere overdragelse av slike lånefordringer.
 >
 
 ## § 3-5
@@ -375,7 +458,9 @@ refid: "lov/2015-04-10-17"
 
 *§ 3-7 første ledd bokstav e og ny bokstav f skal lyde:*
 
-> foretaket ikke oppfyller kapitalkrav fastsatt i eller i medhold av denne loven, eller unnlater å etterkomme pålegg av Finanstilsynet,foretaket ville utgjøre en trussel mot betalingssystemets stabilitet eller tilliten til det, dersom det fortsatte sin betalingstjenestevirksomhet.
+> foretaket ikke oppfyller kapitalkrav fastsatt i eller i medhold av denne loven, eller unnlater å etterkomme pålegg av Finanstilsynet,
+>
+> foretaket ville utgjøre en trussel mot betalingssystemets stabilitet eller tilliten til det, dersom det fortsatte sin betalingstjenestevirksomhet.
 >
 
 ### 2026-02-06 — lov/2026-02-06-3
@@ -500,6 +585,13 @@ refid: "lov/2015-04-10-17"
 > (1) For filial som etter reglene i §§ 5-2 og 5-3 driver virksomhet her i riket, gjelder kapittel 1 samt bestemmelsene i §§ 2-19 til 2-22, § 9-1 annet og tredje ledd, § 9-2, §§ 9-4 til 9-6, § 12-27, § 13-5 fjerde ledd, § 13-7 første ledd, § 13-17, kapittel 16, § 17-11 sjette ledd, § 17-12, § 17-13 første og tredje ledd, § 19-2, § 20A-3 annet ledd, § 21-7 annet ledd og §§ 22-1 til 22-3. Revisorloven § 2-3 første og annet ledd gjelder tilsvarende for møter mellom daglig leder av filialen og revisor.
 >
 
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 5-4 første ledd annet punktum skal lyde:*
+
+> Allmennaksjeloven § 7-5 a første og annet ledd gjelder tilsvarende for møter mellom daglig leder av filialen og revisor.
+>
+
 ### 2022-04-08 — lov/2022-04-08-20
 
 *§ 5-4 annet ledd første punktum skal lyde:*
@@ -521,6 +613,13 @@ refid: "lov/2015-04-10-17"
 *§ 5-5 tredje ledd skal lyde:*
 
 > For grensekryssende virksomhet her i riket fra en annen EØS-stat gjelder kapittel 1 samt bestemmelsene i § 9-1 annet og tredje ledd, § 9-2, §§ 9-4 til 9-6, § 12-27, § 13-5 fjerde ledd, §§ 16-5 til 16-9, § 16-11, §§ 16-13 til 16-16, § 22-1 og § 22-2, tilsvarende.
+>
+
+### 2022-12-16 — lov/2022-12-16-91
+
+*§ 5-5 femte ledd skal lyde:*
+
+> (5) Departementet kan fastsette nærmere regler for virksomhet som omfattes av første og annet ledd, herunder om hva slags virksomhet som er omfattet av retten til å drive grensekryssende virksomhet. Departementet kan ved forskrift fastsette krav til kvalifikasjoner for ansatte som utformer, tilbyr, bevilger eller gir råd om lån til forbrukere her i riket. Departementet kan ved forskrift og enkeltvedtak gjøre unntak fra bestemmelsene i tredje og fjerde ledd når virksomheten er underlagt regler i hjemstaten som regulerer samme forhold. Departementet kan gi forskrift som utfyller eller gjør unntak fra reglene i paragrafen her for ulike typer finansforetak.
 >
 
 ### 2025-12-22 — lov/2025-12-22-125
@@ -688,6 +787,17 @@ refid: "lov/2015-04-10-17"
 
 *§ 7-7 annet ledd oppheves. § 7-7 nåværende tredje ledd blir annet ledd.*
 
+## § 7-8
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 7-8 første ledd bokstav i og ny bokstav j skal lyde:*
+
+> hvordan foretaket skal avvikles og foretakets kapital disponeres ved avvikling,
+>
+> i hvilken verdipapirsentral egenkapitalbevisene er innført.
+>
+
 ## § 8-4
 
 ### 2024-01-01 — lov/2023-12-20-114
@@ -745,6 +855,15 @@ refid: "lov/2015-04-10-17"
 *§ 8-5 nytt fjerde ledd skal lyde:*
 
 > (4) Departementet kan pålegge datterforetak i finanskonsern å ha flere styremedlemmer enn minstekravet til antall styremedlemmer, kreve at færre enn tre firedeler av styrets medlemmer kan være ansatt i foretak i konsernet eller medlem av styret i annet foretak i konsernet, samt kreve at styreleder i datterforetak ikke kan være ansatt i morselskapet.
+>
+
+## § 8-6
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 8-6 tredje ledd skal lyde:*
+
+> (3) Styret skal holde seg orientert om foretakets økonomiske stilling og plikter, og påse at dets virksomhet, regnskap og formuesforvaltning er gjenstand for betryggende kontroll. Styret skal minst én gang hvert kvartal ha møte med revisor uten at daglig leder eller andre fra den daglige ledelsen er til stede, med mindre annet fastsettes i instruks for styret. Allmennaksjeloven § 7-5 a annet og tredje ledd gjelder tilsvarende.
 >
 
 ## § 8-9
@@ -869,6 +988,13 @@ refid: "lov/2015-04-10-17"
 
 ## § 8-17
 
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 8-17 første ledd skal lyde:*
+
+> (1) Et finansforetak er revisjonspliktig etter revisorloven. Generalforsamlingen velger én eller flere revisorer og godkjenner deres godtgjørelse. Allmennaksjeloven §§ 7-2 til 7-5 a gjelder tilsvarende for finansforetak som ikke er organisert som aksjeselskap eller allmennaksjeselskap. Finanstilsynet trer i tingrettens sted ved utøvelse av myndighet etter allmennaksjeloven § 7-3 og aksjeloven § 7-3.
+>
+
 ### 2024-06-21 — lov/2024-06-21-42
 
 *§ 8-17 første ledd skal lyde:*
@@ -876,7 +1002,31 @@ refid: "lov/2015-04-10-17"
 > (1) Et finansforetak er revisjonspliktig etter revisorloven. Generalforsamlingen velger én eller flere revisorer til å revidere årsregnskapet. I finansforetak som har plikt til å utarbeide bærekraftsrapportering etter regnskapsloven § 2-3, skal revisor også attestere bærekraftsrapporteringen. Generalforsamlingen kan i stedet velge en annen revisor til å attestere bærekraftsrapporteringen eller en uavhengig tilbyder av attestasjonstjenester dersom det er adgang til dette etter revisorloven § 1-3. Generalforsamlingen skal godkjenne godtgjørelsen. Allmennaksjeloven §§ 7-2 til 7-6 gjelder tilsvarende for finansforetak som ikke er organisert som aksjeselskap eller allmennaksjeselskap. Finanstilsynet trer i tingrettens sted ved utøvelse av myndighet etter allmennaksjeloven § 7-3 og aksjeloven § 7-3.
 >
 
+## § 8-17 a
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*Ny § 8-17 a skal lyde:*
+
+> § 8-17 a.Særlige plikter ved revisjon av foretak av allmenn interesse – revisjonsforordningen
+>
+> For finansforetak som er foretak av allmenn interesse etter revisorloven § 1-2 sjette ledd, gjelder reglene i forordning (EU) nr. 537/2014 om særlige plikter ved revisjon av foretak av allmenn interesse som gjennomført ved revisorloven § 12-1 første ledd (revisjonsforordningen).
+>
+
 ## § 8-18
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 8-18 skal lyde:*
+
+> § 8-18.Plikt til å ha revisjonsutvalg
+>
+> (1) Finansforetak som er foretak av allmenn interesse etter revisorloven § 1-2 sjette ledd, skal ha et revisjonsutvalg. Det samme gjelder holdingforetak i konsern hvor slike finansforetak inngår.
+>
+> (2) Med mindre Finanstilsynet bestemmer noe annet, gjelder første ledd ikke for:finansforetak som er heleid datterforetak i finanskonsern hvor morselskapet har revisjonsutvalg,kredittforetak som utsteder obligasjoner med fortrinnsrett, forutsatt at foretaket offentlig begrunner at det verken bør ha et revisjonsutvalg eller at styret bør fungere som revisjonsutvalg,finansieringsforetak som ikke har utstedt aksjer eller egenkapitalbevis notert på regulert marked, ikke har utestående obligasjoner eller sertifikater med samlet pålydende på 100 millioner euro eller mer, og ikke har offentliggjort prospekt.
+>
+> (3) Finanstilsynet kan i forskrift eller ved enkeltvedtak gjøre unntak fra finansforetaks plikt til å ha revisjonsutvalg og kan gi utfyllende regler om revisjonsutvalgets sammensetning og oppgaver.
+>
 
 ### 2024-06-21 — lov/2024-06-21-42
 
@@ -886,6 +1036,17 @@ refid: "lov/2015-04-10-17"
 >
 
 ## § 8-19
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 8-19 skal lyde:*
+
+> § 8-19.Revisjonsutvalgets oppgaver
+>
+> (1) Revisjonsutvalget er et forberedende og rådgivende utvalg for styret.
+>
+> (2) Revisjonsutvalget skal:informere styret om resultatet av den lovfestede revisjonen og forklare hvordan revisjonen bidro til regnskapsrapportering med integritet og revisjonsutvalgets rolle i den prosessen,forberede styrets oppfølging av regnskapsrapporteringsprosessen og komme med anbefalinger eller forslag for å sikre dens integritet,for så vidt gjelder foretakets regnskapsrapportering, overvåke systemene for internkontroll, risikostyring og foretakets internrevisjon uten at det bryter med revisjonsutvalgets uavhengige rolle,ha løpende kontakt med foretakets valgte revisor om revisjonen av årsregnskapet, herunder særlig overvåke revisjonsutførelsen i lys av forhold Finanstilsynet har påpekt i henhold til revisjonsforordningen artikkel 26 nr. 6, jf. revisorloven § 12-1,vurdere og overvåke revisors uavhengighet etter revisorloven kapittel 8 og revisjonsforordningen artikkel 6, herunder særlig at andre tjenester enn revisjon er levert i samsvar med revisjonsforordningen artikkel 5, jf. revisorloven § 12-1,ha ansvaret for å forberede foretakets valg av revisor og gi sin anbefaling i samsvar med revisjonsforordningen artikkel 16, jf. revisorloven § 12-1.
+>
 
 ### 2024-06-21 — lov/2024-06-21-42
 
@@ -970,6 +1131,15 @@ refid: "lov/2015-04-10-17"
 *§ 10-6 første ledd annet punktum skal lyde:*
 
 > Aksjeloven § 8-4 og allmennaksjeloven § 8-4 gjelder ikke for finansforetak.
+>
+
+## § 10-12
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 10-12 annet ledd skal lyde:*
+
+> (2) Finansforetaket skal sørge for at det uten opphold opprettes et register over egenkapitalbeviseierne i en verdipapirsentral med godkjennelse eller anerkjennelse etter verdipapirsentralforordningen (forordning (EU) nr. 909/2014). Egenkapitalbevisene skal uten opphold registreres i den verdipapirsentralen som fremgår av finansforetakets vedtekter. Allmennaksjeloven §§ 4-1 til 4-11 gjelder tilsvarende.
 >
 
 ## § 10-22
@@ -1724,6 +1894,21 @@ refid: "lov/2015-04-10-17"
 > Allmennaksjeloven §§ 5-6 tredje ledd, 6-16 a og 6-16 b gjelder tilsvarende for finansforetak som ikke er organisert som aksjeselskap eller allmennaksjeselskap, og som har utstedt egenkapitalbevis som er tatt opp til handel på regulert marked.
 >
 
+## § 16-1
+
+### 2022-12-16 — lov/2022-12-16-91
+
+*§ 16-1 femte ledd skal lyde:*
+
+> (5) Departementet kan gi forskrift om organisering av kundebehandling og krav til fagkyndighet for kundebehandlere og for ansatte som deltar i långivningsprosessen. Departementet kan i forskrift gi nærmere krav til kunnskap og kompetanse for styremedlemmene, daglig leder og faktiske ledere i finansforetaket.
+>
+> 2.I lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering § 4 skal første ledd bokstav o lyde:finansmeglerforetak
+>
+> 3.I lov 18. desember 2020 nr. 146 om finansavtaler skal § 3-58 tredje ledd lyde:
+>
+> (3) For oppdragsforetak som ikke er omfattet av reglene i låneformidlingsloven, gjelder reglene fastsatt i og i medhold av låneformidlingsloven §§ 6-1 til 6-3 om forsikringsplikt mv. tilsvarende så langt de passer. For oppdragsforetakets klientmidler gjelder reglene fastsatt i og i medhold av forsikringsformidlingsloven § 8-3 tilsvarende så langt de passer.
+>
+
 ## § 16-2
 
 ### 2018-11-23 — lov/2018-11-23-87
@@ -1876,6 +2061,15 @@ refid: "lov/2015-04-10-17"
 *§ 18-1 åttende ledd skal lyde:*
 
 > (8) Bestemmelsene i paragrafen her gjelder ikke eierforetak som nevnt i § 17-6 annet ledd bokstav c, med mindre annet fastsettes av departementet i forskrift eller ved enkeltvedtak.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 18-1 fjerde og femte ledd skal lyde:*
+
+> (4) Styret i morselskapet skal sørge for at det avgis en felles revisjonsberetning for morselskapet og finanskonsernet. Reglene i § 8-17 gjelder tilsvarende for morselskapet.
+>
+> (5) Bestemmelsene om revisjonsutvalg i §§ 8-18 til 8-20 gjelder tilsvarende for holdingforetak med konsesjon til å drive virksomhet som morselskap i finanskonsern som omfatter finansforetak som er foretak av allmenn interesse etter revisorloven § 1-2 sjette ledd.
 >
 
 ### 2026-06-19 — lov/2026-06-19-40
@@ -2365,6 +2559,13 @@ refid: "lov/2015-04-10-17"
 > Det samme gjelder dersom foretaket er ute av stand til å oppfylle kravene til ansvarlig kapital, med mindre det blir gitt samtykke til at foretaket midlertidig har lavere ansvarlig kapital enn fastsatt.
 >
 
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 21-11 tredje ledd tredje punktum skal lyde:*
+
+> Vedtaket skal også registreres i en verdipapirsentral og tinglyses hos registerfører for tinglysing i fast eiendom.
+>
+
 ## § 21-12
 
 ### 2018-03-23 — lov/2018-03-23-2
@@ -2519,6 +2720,52 @@ refid: "lov/2015-04-10-17"
 ### 2015-12-04 — lov/2015-12-04-96
 
 *Nåværende fjerde ledd blir tredje ledd.*
+
+### 2016-01-01 — forskrift/2015-04-10-350
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
+### 2016-01-01 — forskrift/2015-12-04-1399
+
+*Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.*
+
+> Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.
+>
+> Delt ikraftsetting av lov om endringer i finanslovgivningen mv. Loven trer i kraft 1. januar 2016, med unntak av del VI som trer i kraft straks og del XII § 6-10 og § 6-11 som trer i kraft 1. juli 2016.
+>
+
+### 2017-07-01 — forskrift/2017-06-09-717
+
+*Delt ikraftsetting av lov 16. desember 2016 nr. 91. Romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting av lov 16. desember 2016 nr. 91. Romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X trer i kraft 1. juli 2017.
+>
+
+### 2017-10-01 — forskrift/2017-06-09-718
+
+*Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.*
+
+> Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.
+>
+> Loven trer i kraft 1. oktober 2017, med unntak av § 10-1 tredje ledd.
+>
+
+### 2017-11-01 — forskrift/2017-06-16-766
+
+*Loven trer i kraft 1. november 2017.*
+
+> Loven trer i kraft 1. november 2017.
+>
+
+### 2018-01-01 — forskrift/2017-12-15-2041
+
+*Loven trer i kraft 1. januar 2018, med virkning for regnskapsår avsluttet 31. desember 2017 eller senere.*
+
+> Loven trer i kraft 1. januar 2018, med virkning for regnskapsår avsluttet 31. desember 2017 eller senere.
+>
 
 ### 2018-03-23 — lov/2018-03-23-2
 
@@ -3236,6 +3483,22 @@ refid: "lov/2015-04-10-17"
 > (1) Vedtak om foretakenes bidrag til krisetiltaksfondet kan påklages til departementet etter reglene i forvaltningsloven.
 >
 
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
 ### 2018-11-23 — lov/2018-11-23-87
 
 *Nåværende femte til syvende ledd blir sjette til åttende ledd.*
@@ -3243,6 +3506,43 @@ refid: "lov/2015-04-10-17"
 ### 2018-12-14 — lov/2018-12-14-92
 
 *Nåværende tredje ledd blir andre ledd.*
+
+### 2019-01-01 — forskrift/2018-03-23-453
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2019-01-01 — forskrift/2018-11-16-1713
+
+*Delt ikraftsetting av lov 15. juni 2018 nr. 35 om endringer i verdipapirhandelloven og oppheving av børsloven. Loven med unntak av § 8-1 trer i kraft 1. januar 2019.*
+
+> Delt ikraftsetting av lov 15. juni 2018 nr. 35 om endringer i verdipapirhandelloven og oppheving av børsloven. Loven med unntak av § 8-1 trer i kraft 1. januar 2019.
+>
+
+### 2019-01-01 — forskrift/2018-12-14-1924
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*25.Lov 27. mai 2016 nr. 14 om skatteforvaltning § 7-3 første ledd bokstav h og i skal lyde:*
+
+> verdipapirforetak, jf. verdipapirhandelloven § 2-7 første ledd
+>
+> verdipapirsentraler
+>
+
+### 2019-04-01 — forskrift/2019-02-15-125
+
+*Ikraftsetting av lov 23. november 2018 nr. 87 om endringer i finansforetaksloven mv. (andre betalingstjenestedirektiv). Loven trer i kraft 1. april 2019.*
+
+> Ikraftsetting av lov 23. november 2018 nr. 87 om endringer i finansforetaksloven mv. (andre betalingstjenestedirektiv). Loven trer i kraft 1. april 2019.
+>
 
 ### 2019-05-03 — lov/2019-05-03-14
 
@@ -3288,6 +3588,50 @@ refid: "lov/2015-04-10-17"
 ### 2019-12-13 — lov/2019-12-13-79
 
 *Nåværende annet og tredje ledd blir nye tredje og fjerde ledd.*
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
+>
+
+### 2020-05-01 — forskrift/2020-04-24-870
+
+*Delt ikraftsetting av lov 13. desember 2019 nr. 79 om endringer i finansforetaksloven mv. (diverse endringer). Endringsloven del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr.*
+
+> Delt ikraftsetting av lov 13. desember 2019 nr. 79 om endringer i finansforetaksloven mv. (diverse endringer). Endringsloven del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd, trer i kraft 1. mai 2020.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*Nye §§ 22-4 til 22-6 skal lyde:*
+
+> § 22-4.Overtredelsesgebyr ved overtredelse av regler om revisjonsutvalg og valg av revisor
+>
+> (1) Finanstilsynet kan ilegge et finansforetak overtredelsesgebyr ved brudd på følgende bestemmelser:§§ 8-18 og 8-19 og bestemmelsene i revisjonsforordningen, jf. revisorloven § 12-1, om revisjonsutvalgets oppgaverrevisjonsforordningen, jf. revisorloven § 12-1, artikkel 16 om valg av revisorrevisjonsforordningen, jf. revisorloven § 12-1, artikkel 17 om revisjonsoppdragets varighet.
+>
+> (2) Det kan fastsettes et overtredelsesgebyr på inntil 10 millioner kroner, eller opptil 2 prosent av den samlede årsomsetningen etter siste godkjente årsregnskap. For et morselskap eller et datterselskap av et morselskap som skal utarbeide konsernregnskap etter direktiv 2013/34/EU, skal den relevante samlede omsetningen være den samlede årsomsetningen, eller tilsvarende inntekt etter relevante regnskapsdirektiver, etter siste godkjente konsernregnskap.
+>
+> (3) Departementet kan fastsette utfyllende forskrift til bestemmelsen her.
+>
+> § 22-5.Momenter ved vedtak om overtredelsesgebyr
+>
+> Ved avgjørelsen av om overtredelsesgebyr skal ilegges og ved utmåling av overtredelsesgebyr kan det blant annet tas hensyn tilovertredelsens grovhet og varighetovertrederens finansielle styrke, særlig samlet omsetning eller årsinntekt og eiendelerhvor stor vinning som er oppnådd eller tap som er unngått ved overtredelsentap påført tredjemann som følge av overtredelseni hvilken grad overtrederen har samarbeidet med Finanstilsynettidligere overtredelser.
+>
+> § 22-6.Foreldelse mv.
+>
+> (1) Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen har opphørt. Fristen avbrytes ved at Finanstilsynet sender forhåndsvarsel eller treffer vedtak.
+>
+> (2) Departementet kan fastsette forskrifter om renter ved forsinket betaling av overtredelsesgebyr og nærmere bestemmelser om foreldelse.
+>
 
 ### 2021-04-23 — lov/2021-04-23-22
 
@@ -3337,6 +3681,20 @@ refid: "lov/2015-04-10-17"
 > Erverv av aksjer eller egenkapitalbevis som følge av krisetiltak gir ikke tilbudsplikt etter verdipapirhandelloven kapittel 6.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-28-1667
+
+*Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del *
+
+> Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del VI (SE-loven), del VII (samvirkelova) med unntak av § 75, del VIII (finansforetaksloven) og del IX trer i kraft 1. juni 2021.
+>
+
 ### 2021-06-18 — lov/2021-06-18-100
 
 *Overskriften i § 17-5 skal lyde:*
@@ -3353,6 +3711,27 @@ refid: "lov/2015-04-10-17"
 *Delt ikraftsetting av loven. Loven del I, endringene i finansforetaksloven § 20-9, § 20-14, nytt avsnitt VI A, § 20-32 og § 21-15, trer i kraft 1. juli 2021.*
 
 > Delt ikraftsetting av loven. Loven del I, endringene i finansforetaksloven § 20-9, § 20-14, nytt avsnitt VI A, § 20-32 og § 21-15, trer i kraft 1. juli 2021.
+>
+
+### 2021-07-01 — forskrift/2021-04-30-1316
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-08-01 — forskrift/2021-06-18-1985
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. august 2021 med unntak av loven del II (verdipapirfondloven) og del III (lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond) § 1a-3, § 1a-4 og § 9-6 første ledd bokstavene d og e.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. august 2021 med unntak av loven del II (verdipapirfondloven) og del III (lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond) § 1a-3, § 1a-4 og § 9-6 første ledd bokstavene d og e.
+>
+
+### 2022-01-01 — forskrift/2021-12-22-3808
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2022 med unntak av § 9-2 første ledd.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2022 med unntak av § 9-2 første ledd.
 >
 
 ### 2022-04-08 — lov/2022-04-08-20
@@ -3395,11 +3774,79 @@ refid: "lov/2015-04-10-17"
 > § 11-11.Krav til overpantsettelse
 >
 
+### 2022-06-01 — forskrift/2022-05-06-807
+
+*Ikraftsetting av lov 18. juni 2021 nr. 100 om endringer i finansforetaksloven mv. (kapitalkravs- og krisehåndteringsregler for finansforetak mv.). Loven trer i kraft 1. juni 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 100 om endringer i finansforetaksloven mv. (kapitalkravs- og krisehåndteringsregler for finansforetak mv.). Loven trer i kraft 1. juni 2022.
+>
+
+### 2022-06-22 — forskrift/2022-06-22-1108
+
+*Delt ikraftsetting av lov 22. juni 2022 om endringer i verdipapirhandelloven mv. (samleproposisjon):*
+
+> Delt ikraftsetting av lov 22. juni 2022 om endringer i verdipapirhandelloven mv. (samleproposisjon):
+>
+> Endringsloven del IV (finansforetaksloven) trer i kraft 1. januar 2023.
+>
+> Endringsloven del V (hvitvaskingsloven) trer i kraft straks.
+>
+
+### 2022-07-08 — forskrift/2022-05-23-893
+
+*Loven trer i kraft 8. juli 2022.*
+
+> Loven trer i kraft 8. juli 2022.
+>
+
+### 2023-01-01 — forskrift/2022-06-22-1107
+
+*Ikraftsetting av lov 8. april 2022 nr. 20 om endringer i finansforetaksloven mv. (gjennomføring av EØS-rett, egen pensjonskonto). Loven trer i kraft 1. januar 2023.*
+
+> Ikraftsetting av lov 8. april 2022 nr. 20 om endringer i finansforetaksloven mv. (gjennomføring av EØS-rett, egen pensjonskonto). Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-09-02-1528
+
+*Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.*
+
+> Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2266
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
 ### 2023-03-31 — lov/2023-03-31-5
 
 *I lov 10. april 2015 nr. 17 om finansforetak og finanskonsern skal § 16-2 syvende ledd lyde:*
 
 > (7) Et finansforetak kan begjære utlevert fra Folkeregisteret opplysning om ektefelle, barn, foreldre, foreldreansvar, opplysninger om vergemål, herunder innholdet av vergemålet og vergens oppdrag, og stadfestet fremtidsfullmakt. Folkeregistermyndigheten kan, uten hinder av taushetsplikt, utlevere opplysningen når det er nødvendig for utførelsen av finansforetakets plikter eller oppgaver hjemlet i denne lov.
+>
+
+### 2023-04-01 — forskrift/2023-03-31-445
+
+*Loven trer i kraft 1. april 2023.*
+
+> Loven trer i kraft 1. april 2023.
+>
+
+### 2023-08-11 — forskrift/2023-08-11-1319
+
+*Delt ikraftsetting av lov 6. desember 2019 nr. 77 om endringer i aksjelovgivningen mv. (langsiktig eierskap i noterte selskaper mv.). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 6. desember 2019 nr. 77 om endringer i aksjelovgivningen mv. (langsiktig eierskap i noterte selskaper mv.). Følgende trer i kraft straks:
+>
+> Endringsloven del III (finansforetaksloven) med unntak av § 15-6 første ledd
+>
+> Endringsloven del IV (lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond)
+>
+> Endringsloven del VI (verdipapirfondloven)
+>
+> Endringsloven del VII (verdipapirhandelloven).
 >
 
 ### 2024-06-25 — lov/2024-06-25-60
@@ -3411,6 +3858,42 @@ refid: "lov/2015-04-10-17"
 *Delt ikraftsetting av loven. Loven § 10-6 første ledd annet punktum og § 20-32 trer i kraft 1. juli 2024. De andre bestemmelsene i loven trer i kraft 1. januar 2025.*
 
 > Delt ikraftsetting av loven. Loven § 10-6 første ledd annet punktum og § 20-32 trer i kraft 1. juli 2024. De andre bestemmelsene i loven trer i kraft 1. januar 2025.
+>
+
+### 2024-11-01 — forskrift/2024-10-11-2454
+
+*Følgende trer i kraft 1. november 2024:*
+
+> Følgende trer i kraft 1. november 2024:
+>
+> Endringsloven del I (regnskapsloven)
+>
+> Endringsloven del II (revisorloven) med unntak av § 12-1.
+>
+> Endringsloven del III (statsforetaksloven)
+>
+> Endringsloven del IV (aksjeloven)
+>
+> Endringsloven del V (allmennaksjeloven)
+>
+> Endringsloven del VI (bustadbyggjelagslova)
+>
+> Endringsloven del VIII (verdipapirhandelloven)
+>
+> Endringsloven del IX (samvirkelova)
+>
+> Endringsloven del X (finansforetaksloven)
+>
+> Endringsloven del XI (fagskoleloven)
+>
+> Endringsloven del XII (åpenhetsloven).
+>
+
+### 2025-04-01 — forskrift/2025-03-21-479
+
+*Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.*
+
+> Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.
 >
 
 ### 2025-04-10 — lov/2025-04-10-11
@@ -3438,6 +3921,27 @@ refid: "lov/2015-04-10-17"
 > § 11-21. Liste over ikke-samarbeidende jurisdiksjoner for skatteformål
 >
 > Departementet kan i forskrift fastsette en liste over ikke-samarbeidsvillige jurisdiksjoner som nevnt i verdipapiriseringsforordningen artikkel 4.
+>
+
+### 2025-06-20 — forskrift/2025-06-20-1084
+
+*Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.*
+
+> Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.
+>
+
+### 2025-07-01 — forskrift/2025-05-27-868
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
+### 2025-08-01 — forskrift/2025-06-24-1203
+
+*Ikraftsetting av lov 10. april 2025 nr. 11 om endringer i finansforetaksloven mv. (syntetisk STS-verdipapirisering mv.). Loven trer i kraft 1. august 2025.*
+
+> Ikraftsetting av lov 10. april 2025 nr. 11 om endringer i finansforetaksloven mv. (syntetisk STS-verdipapirisering mv.). Loven trer i kraft 1. august 2025.
 >
 
 ### 2025-08-01 — forskrift/2025-06-24-1204
@@ -3561,6 +4065,24 @@ refid: "lov/2015-04-10-17"
 *I lov 10. april 2015 nr. 17 om finansforetak og finanskonsern skal § 16-12 annet ledd lyde:*
 
 > (2) Personer som omfattes av første ledd, skal fremlegge ordinær politiattest etter politiregisterloven § 40 og bekreftelse fra Brønnøysundregistrene om at vedkommende ikke er under konkursbehandling, konkurskarantene, rekonstruksjonsforhandling eller gjeldsforhandling.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1151
+
+*Delt ikraftsetting av lov 19. juni 2026 om endringer i finansforetaksloven mv. (gjennomføring av endringer i kapitalkravsdirektivet, taushetsplikt, overtredelsesgebyr mv.). Følgende trer i kraft 1. juli 2026:*
+
+> Delt ikraftsetting av lov 19. juni 2026 om endringer i finansforetaksloven mv. (gjennomføring av endringer i kapitalkravsdirektivet, taushetsplikt, overtredelsesgebyr mv.). Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del I (finansforetaksloven) § 2-1 tredje ledd, § 5-1 annet ledd, § 5-2 første ledd bokstav d og e, § 5-9, § 7-5, § 8-5 fjerde ledd, § 16-2, § 19-11 sjette ledd, og § 20-51 sjette ledd.
+>
+> Endringsloven del VIII (lov om Bankenes sikringsfond).
+>
+
+### 2026-08-01 — forskrift/2026-06-19-1152
+
+*Ikraftsetting av lov 6. februar 2026 nr. 2 om folkefinansiering av næringsvirksomhet (folkefinansieringsloven). Loven trer i kraft 1. august 2026.*
+
+> Ikraftsetting av lov 6. februar 2026 nr. 2 om folkefinansiering av næringsvirksomhet (folkefinansieringsloven). Loven trer i kraft 1. august 2026.
 >
 
 ## § 20A-1

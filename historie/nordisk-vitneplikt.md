@@ -14,6 +14,27 @@ refid: "lov/1975-03-21-9"
 > Etter reglane i denne lova kan personar som ved innkallinga har fylt 18 år og er busette og oppheld seg i Danmark, Finland, Island eller Sverige, påleggast å møte som vitne her i landet for dei vanlege domstolane og jordskifterettane.
 >
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*68. I lov 21. mars 1975 nr. 9 om nordisk vitneplikt skal § 3 lyde:*
+
+> Ingen må påleggast å gje vitneforklaring i strid med reglane i straffeprosessloven §§ 117 til 125 eller tvistemålsloven §§ 204 til 209 a (jf likevel barnelova § 21), eller med lovgjevinga i det landet der vitnet er busett.
+>
+
+### 2016-04-22 — lov/2016-04-22-3
+
+*11. I lov 21. mars 1975 nr. 9 om nordisk vitneplikt skal § 5 tredje punktum lyde:*
+
+> Heller ikkje kan han straffast for uriktig forklaring.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ## § 1
 
 ### 2007-02-27 — lov/2007-01-26-3

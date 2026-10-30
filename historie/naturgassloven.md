@@ -11,11 +11,29 @@ refid: "lov/2002-06-28-61"
 
 *Nåværende § 8 blir ny § 14.*
 
+### 2019-11-01 — forskrift/2019-10-11-1345
+
+*Delt ikraftsetting av lov 25. mai 2018 nr. 21 om endringer i energiloven (tredje energimarkedspakke). Loven trer i kraft 1. november 2019, med unntak av § 4-1 sjette ledd.*
+
+> Delt ikraftsetting av lov 25. mai 2018 nr. 21 om endringer i energiloven (tredje energimarkedspakke). Loven trer i kraft 1. november 2019, med unntak av § 4-1 sjette ledd.
+>
+> Ikraftsetting av lov 25. mai 2018 nr. 22 om endringer i naturgassloven (tredje energimarkedspakke). Loven trer i kraft 1. november 2019.
+>
+
 ### 2023-06-16 — lov/2023-06-16-69
 
 *I lov 28. juni 2002 nr. 61 om felles regler for det indre marked for naturgass skal § 13 første ledd lyde:*
 
 > Departementet kan gi forskrift til gjennomføring og utfylling av denne loven, blant annet nærmere bestemmelser om retten til adgang til systemet, driften av systemet, krav til naturgassforetakenes virksomhet, konsesjon, regnskap, krav om oppbevaring av opplysninger, leverandørbytte, beskyttelse av forbrukere og andre kunder, måling og fakturering, unntak fra loven i geografisk avgrensete områder og for ny infrastruktur, behandling av tvister, saksbehandlingsfrister og utsatt iverksetting av vedtak.
+>
+
+### 2025-04-01 — forskrift/2024-10-25-2598
+
+*Delt ikraftsetting av lov 16. juni 2023 nr. 69 om endringer i energiloven og naturgassloven (overskuddsvarme, energikartlegging, måling og fakturering). Følgende trer i kraft 1. april 2025:*
+
+> Delt ikraftsetting av lov 16. juni 2023 nr. 69 om endringer i energiloven og naturgassloven (overskuddsvarme, energikartlegging, måling og fakturering). Følgende trer i kraft 1. april 2025:
+>
+> Endringsloven del I (energiloven), med unntak av kapittel 8 overskriften og § 8-5 som er satt i kraft 1. mars 2024, og endringsloven del II (naturgassloven).
 >
 
 ## § 2

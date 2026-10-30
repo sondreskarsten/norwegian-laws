@@ -199,6 +199,19 @@ refid: "lov/2008-05-15-35"
 > Tilbakekall av oppholdsdokumenter mv.
 >
 
+### 2010-01-01 — forskrift/2009-10-30-1324
+
+*Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.*
+
+> Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 9. januar 2009 nr. 1 om endringar i utlendingslovgivinga (reglar for EØS- og EFTA-borgarar o.a.). Lovens del I trer i kraft 1. januar 2010.
+>
+> Delvis ikraftsetting av lov 19. juni 2009 nr. 38 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS mv.). Lovens del II, endringen i utlendingsloven § 92 og § 94, og lovens del III trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 19. juni 2009 nr. 41 om endringer i utlendingsloven og i enkelte andre lover. Loven trer i kraft 1. januar 2010.
+>
+
 ### 2010-01-01 — forskrift/2009-12-04-1442
 
 *Delvis ikraftsetting av lov 8. mai 2009 nr. 23 om endringer i utlendingsloven (krav om at referansepersoner må ha fire års arbeid eller utdanning i Norge for at søkeren skal ha rett til familieetablering).*
@@ -214,6 +227,13 @@ refid: "lov/2008-05-15-35"
 
 > Ikraftsetting av lov 18. desember 2009 nr. 132 om endringer i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her.
 >
+> Loven trer i kraft straks.
+>
+
+### 2010-01-15 — forskrift/2010-01-15-32
+
+*Loven trer i kraft straks.*
+
 > Loven trer i kraft straks.
 >
 
@@ -241,6 +261,13 @@ refid: "lov/2008-05-15-35"
 ### 2012-01-20 — lov/2012-01-20-5
 
 *Nåværende annet, tredje og fjerde ledd blir tredje, fjerde og femte ledd.*
+
+### 2012-02-01 — forskrift/2012-01-20-37
+
+*Loven gjelder fra 1. februar 2012.*
+
+> Loven gjelder fra 1. februar 2012.
+>
 
 ### 2012-03-01 — forskrift/2012-01-06-4
 
@@ -533,6 +560,13 @@ refid: "lov/2008-05-15-35"
 > Loven trer i kraft 1. juli 2013.
 >
 
+### 2014-01-01 — forskrift/2013-12-13-1497
+
+*Delt ikraftsetting av lov 21. juni 2013 nr. 92 om endringer i utlendingsloven mv. (behandling av sikkerhetssaker). Loven trer i kraft 1. januar 2014, med unntak av del I § 128a.*
+
+> Delt ikraftsetting av lov 21. juni 2013 nr. 92 om endringer i utlendingsloven mv. (behandling av sikkerhetssaker). Loven trer i kraft 1. januar 2014, med unntak av del I § 128a.
+>
+
 ### 2014-01-01 — forskrift/2013-12-17-1480
 
 *Loven trer i kraft 1. januar 2014.*
@@ -540,11 +574,25 @@ refid: "lov/2008-05-15-35"
 > Loven trer i kraft 1. januar 2014.
 >
 
+### 2014-01-15 — forskrift/2014-01-10-14
+
+*Loven trer i kraft 15. januar 2014.*
+
+> Loven trer i kraft 15. januar 2014.
+>
+
 ### 2014-04-04 — forskrift/2014-04-04-380
 
 *Loven trer i kraft straks.*
 
 > Loven trer i kraft straks.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
 >
 
 ### 2014-08-15 — lov/2014-08-15-57
@@ -583,17 +631,9 @@ refid: "lov/2008-05-15-35"
 
 ### 2015-01-09 — lov/2015-01-09-2
 
-*Endringer i følgende lov:*
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal ny § 84 b lyde:*
 
-> Endringer i følgende lov:
->
-> Lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven).
->
-> I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal ny § 84 b lyde:
->
-> § 84 b.
->
-> Unntak fra taushetsplikt for ansatte i mottak og omsorgssentre mv.
+> § 84 b.Unntak fra taushetsplikt for ansatte i mottak og omsorgssentre mv.
 >
 > Ansatte som utfører arbeid eller tjeneste i mottak, skal etter anmodning gi utlendingsmyndighetene opplysninger om en beboer til bruk i sak etter loven her, herunder iverksetting av vedtak som innebærer at beboeren må reise ut av landet. De ansatte har adgang til å gi opplysninger om beboeren på eget initiativ. Opplysninger etter første og annet punktum kan gis uten hinder av reglene om taushetsplikt i forvaltningsloven §§ 13 flg.
 >
@@ -601,12 +641,13 @@ refid: "lov/2008-05-15-35"
 >
 > Kongen kan gi forskrift om hvilke opplysninger som skal gis etter første ledd, om fremgangsmåten for innhenting av opplysninger etter første ledd, og den videre behandling av de innhentede opplysninger.
 >
-> Loven gjelder fra den tid Kongen bestemmer.
->
 
 ### 2015-04-17 — lov/2015-04-17-18
 
-*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 17 første ledd bokstav h lyde:når utlendingen i utlandet er straffet eller er ilagt særreaksjon for et forhold som etter norsk lov kan føre til fengselsstraff i fem år eller mer,*
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 17 første ledd bokstav h lyde:*
+
+> når utlendingen i utlandet er straffet eller er ilagt særreaksjon for et forhold som etter norsk lov kan føre til fengselsstraff i fem år eller mer,
+>
 
 ### 2015-04-24 — lov/2015-04-24-22
 
@@ -624,6 +665,13 @@ refid: "lov/2008-05-15-35"
 *Loven trer i kraft 1. mai 2015.*
 
 > Loven trer i kraft 1. mai 2015.
+>
+
+### 2015-05-01 — forskrift/2015-04-24-405
+
+*Loven gjelder fra 1. mai 2015.*
+
+> Loven gjelder fra 1. mai 2015.
 >
 
 ### 2015-06-01 — forskrift/2015-05-22-527
@@ -656,6 +704,28 @@ refid: "lov/2008-05-15-35"
 *Loven trer i kraft 1. januar 2016.*
 
 > Loven trer i kraft 1. januar 2016.
+>
+
+### 2016-04-22 — lov/2016-04-22-3
+
+*26. I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 66 annet ledd bokstav b lyde:*
+
+> når utlendingen ikke er gitt en utreisefrist fordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a, fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 femte ledd bokstav b, fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden, jf. § 90 femte ledd bokstav c, eller fordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, jf. § 129 femte ledd.
+>
+> fordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a,
+>
+> fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 femte ledd bokstav b,
+>
+> fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden, jf. § 90 femte ledd bokstav c, eller
+>
+> fordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, jf. § 129 femte ledd.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ### 2016-05-20 — forskrift/2016-05-20-509
@@ -695,6 +765,13 @@ refid: "lov/2008-05-15-35"
 > Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her § 66 annet ledd bokstav a og b og § 108 annet ledd bokstav a trer i kraft 21. oktober 2016.
 >
 
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
 ### 2017-01-01 — forskrift/2016-12-16-1588
 
 *Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her § 40 annet ledd, § 41 fjerde ledd, ny § 41a og § 62 første ledd bokstav d og e trer i kraft 1. januar 2017.*
@@ -706,6 +783,37 @@ refid: "lov/2008-05-15-35"
 > Utlendingsloven § 62 første ledd bokstav d og e gjelder for søknader som fremmes 17. desember 2016 eller senere.
 >
 
+### 2017-04-18 — forskrift/2017-03-31-414
+
+*Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.*
+
+> Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.
+>
+> Lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. (elektronisk tinglysing) gjelder fra 18. april 2017, med følgende unntak:
+>
+> endringene i tinglysingsloven gjelder ikke for tinglysing i Akvakulturregisteret.
+>
+> endringene i tinglysingsloven § 7 første ledd første og annet punktum gjelder ikke for tinglysing i Løsøreregisteret.
+>
+> Frem til tinglysingsloven § 7 første ledd første og annet punktum som endret ved lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. trer i kraft for tinglysing i Løsøreregisteret, skal et dokument som kreves tinglyst i Løsøreregisteret, registreres snarest mulig. Dokument som kommer inn til kontoret elektronisk eller på papir innen klokken 14.00, skal anses som registrert den dato det er kommet inn. Kommer det senere, skal det anses som registrert den neste kontordagen. Er kontortiden enkelte dager slutt før kl. 14.00, opphører adgangen til innføring i registeret ved kontortidens slutt.
+>
+
+### 2017-07-01 — forskrift/2017-06-02-680
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Romertall I § 51 tredje og fjerde ledd trer i kraft 1. juli 2017. Romertall III trer i kraft straks.*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Romertall I § 51 tredje og fjerde ledd trer i kraft 1. juli 2017. Romertall III trer i kraft straks.
+>
+> Utlendingsloven § 51 tredje og fjerde ledd gjelder bare for søknader som fremmes 1. juli 2017 eller senere.
+>
+
+### 2017-07-01 — forskrift/2017-06-21-821
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
+
 ### 2017-09-01 — forskrift/2017-06-21-835
 
 *Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Endringene i lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven) § 62 første ledd bokstav f trer i kraft 1. september 2017.*
@@ -714,6 +822,26 @@ refid: "lov/2008-05-15-35"
 >
 > Endringene i utlendingsloven § 62 første ledd bokstav f gjelder bare for søknader som fremmes 1. september 2017 eller senere.
 >
+
+### 2017-10-01 — forskrift/2017-06-09-718
+
+*Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.*
+
+> Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.
+>
+> Loven trer i kraft 1. oktober 2017, med unntak av § 10-1 tredje ledd.
+>
+
+### 2017-12-15 — forskrift/2017-12-15-2045
+
+*Delt ikraftsetting av lov om endringer i utlendingsloven mv. (videreføring av innstramninger mv.). Loven del II og endringen i utlendingsloven § 76 annet ledd trer i kraft straks, mens del I for øvrig trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i utlendingsloven mv. (videreføring av innstramninger mv.). Loven del II og endringen i utlendingsloven § 76 annet ledd trer i kraft straks, mens del I for øvrig trer i kraft 1. januar 2018.
+>
+
+### 2018-04-20 — lov/2018-04-20-8
+
+*§§ 14 og 15 oppheves.*
 
 ### 2018-04-20 — lov/2018-04-20-9
 
@@ -759,6 +887,13 @@ refid: "lov/2008-05-15-35"
 > Loven trer i kraft samtidig med ny personopplysningslov (Stortingets vedtak 28. mai 2018 til lov om behandling av personopplysninger).
 >
 
+### 2018-11-01 — forskrift/2018-10-05-1547
+
+*Ikraftsetting av lov 22. juni 2018 nr. 78 om endringer i utlendingsloven mv. (utvisning på grunnlag av eksklusjon fra flyktningstatus mv.). Loven trer i kraft 1. november 2018.*
+
+> Ikraftsetting av lov 22. juni 2018 nr. 78 om endringer i utlendingsloven mv. (utvisning på grunnlag av eksklusjon fra flyktningstatus mv.). Loven trer i kraft 1. november 2018.
+>
+
 ### 2018-12-20 — lov/2018-12-20-117
 
 *I § 92 fjerde ledd første og annet punktum skal uttrykket «fengsling» endres til «internering».*
@@ -768,6 +903,19 @@ refid: "lov/2008-05-15-35"
 *Loven trer i kraft 1. januar 2019.*
 
 > Loven trer i kraft 1. januar 2019.
+>
+
+### 2019-03-29 — lov/2019-03-29-9
+
+*1.I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal ny § 125 a lyde:*
+
+> § 125 a.Rett til fortsatt opphold for britiske borgere og deres familiemedlemmer
+>
+> Kongen kan gi forskrift om rett til opphold for britiske borgere som har oppholdsrett eller varig oppholdsrett etter §§ 111, 112 eller 115 på det tidspunktet bestemmelsene i EØS-avtalen ikke lenger kommer til anvendelse overfor Storbritannia, og om rett til opphold for deres familiemedlemmer, jf. § 110 tredje ledd. Kongen kan gi forskrift om søknadsfrister, klage, gebyr mv. for personer som nevnt i første punktum. Forskriftene kan avvike fra øvrige bestemmelser i loven.
+>
+> 2.I lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten skal § 22 første ledd siste punktum lyde:
+>
+> For utlevering av opplysninger til land som ikke er forpliktet etter direktiv (EU) 2016/680 og til internasjonale organisasjoner, gjelder i tillegg de vilkår som fastsettes i forskrift.
 >
 
 ### 2019-04-01 — forskrift/2019-03-08-204
@@ -852,142 +1000,8 @@ refid: "lov/2008-05-15-35"
 
 ### 2020-06-19 — lov/2020-06-19-83
 
-*Endringer i følgende lov:*
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 18 tredje ledd nytt annet punktum lyde:*
 
-> Endringer i følgende lov:
->
-> Lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven).
->
-> § 1
->
-> .
->
-> Lovens formål og virkeområde
->
-> Formålet med loven er å begrense retten til innreise for utlendinger som ellers vil ha lovlig adgang til innreise etter utlendingsloven, når det er nødvendig for å trygge folkehelsen ved utbrudd av den allmennfarlige smittsomme sykdommen covid-19.
->
-> Loven gjelder ikke for norske statsborgere. Loven gjelder heller ikke statsborgere fra et annet nordisk land som er bosatt i Norge.
->
-> § 2
->
-> .
->
-> Innreise til Norge og bortvisning
->
-> Utlendinger har bare rett til innreise dersom
->
-> utlendingen er bosatt i Norge med oppholdstillatelse eller oppholdsrett etter utlendingsloven
->
-> utlendingen søker beskyttelse i riket (asyl) eller på annen måte påberoper en rett til internasjonal beskyttelse på grunn av fare ved forfølgelse mv., jf. utlendingsloven § 73
->
-> utlendingens tilstedeværelse i riket er strengt nødvendig for å kunne opprettholde forsvarlig drift av kritiske samfunnsfunksjoner eller ivareta befolkningens grunnleggende behov
->
-> utlendingen er gitt oppholdstillatelse uten utsatt innreise, jf. § 3
->
-> utlendingen er gitt innreisevisum etter utlendingsloven § 12
->
-> utlendingen er gitt visum etter utlendingsloven § 10 av norsk vedtaksmyndighet etter 15. mars 2020.
->
-> I andre tilfeller kan en utlending gis rett til innreise dersom særlige grunner tilsier det, slik som særskilt omsorgsansvar for personer i Norge eller andre sterke velferdshensyn.
->
-> Dersom utlendingen kommer til riket eller har reist inn i strid med loven eller forskriften, kan det treffes vedtak om bortvisning. Utlendinger som bortvises skal forlate riket uten ugrunnet opphold.
->
-> Kongen kan i forskrift gi nærmere regler om bortvisning og unntak fra innreiserestriksjoner.
->
-> § 3
->
-> .
->
-> Utsatt innreise for utlendinger med oppholdstillatelse
->
-> For utlendinger som gis oppholdstillatelse i medhold av utlendingsloven, kan adgangen til innreise utsettes inntil videre.
->
-> Utstedelse av innreisevisum, jf. utlendingsloven § 12 og utlendingsforskriften § 3-13 første ledd, til visumpliktig utlending som er gitt oppholdstillatelse, kan utsettes inntil videre. Utstedelse av innreisevisum kan også utsettes dersom tillatelsen vurderes tilbakekalt.
->
-> Utlendinger som omfattes av unntak i § 2 første ledd bokstav c eller annet ledd, eller av unntak gitt i medhold av loven, skal likevel gis adgang til innreise uten utsettelse. Kongen kan i forskrift gi nærmere regler om innreise for utlendinger med oppholdstillatelse.
->
-> § 4
->
-> .
->
-> Ansvar for utgifter mv.
->
-> For utlendinger som i medhold av loven føres ut av riket gjelder utlendingsloven § 91 første ledd om betaling av utgifter til egen utreise tilsvarende.
->
-> Transportøransvaret etter utlendingsloven § 91 tredje ledd gjelder tilsvarende for vedtak om bortvisning etter loven her.
->
-> § 5
->
-> .
->
-> Unntak fra andre regler
->
-> Forvaltningsloven kapittel IV og V gjelder ikke for vedtak om bortvisning etter loven her. Reglene om saksbehandling i utlendingsloven kapittel 11 og utlendingsforskriften kapittel 17 gjelder bare så langt de lar seg forene med en forenklet og rask behandling av vedtak om bortvisning. Vedtak etter loven § 3 om utsatt innreise for utlending som gis oppholdstillatelse, kan ikke påklages.
->
-> Reglene om fritt rettsråd i utlendingsloven § 92 første ledd gjelder ikke for vedtak om bortvisning etter loven her.
->
-> § 6
->
-> .
->
-> Forenklet saksbehandling for vedtak, begrunnelse, vedtaksmyndighet og klage
->
-> Vedtak om bortvisning skal være skriftlig. Begrunnelsen kan være kort og standardisert. Begrunnelsen skal angi reglene som vedtaket bygger på. Det skal gis opplysning om klagerett etter fjerde ledd.
->
-> Vedtak kan være muntlig hvis avgjørelsen haster eller skriftlighet av andre grunner ikke er praktisk mulig. Når vedtaket ikke er skriftlig, skal det gis opplysninger som nevnt i første ledd. Vedtaksorganet skal bekrefte vedtaket og dets begrunnelse skriftlig hvis parten ber om det.
->
-> Vedtak treffes av Utlendingsdirektoratet eller politiet. Justis- og beredskapsdepartementet kan gi vedtakskompetanse til annen myndighet. Utlendingsdirektoratet kan gi nærmere retningslinjer om vedtaksmyndighet.
->
-> Vedtak om bortvisning kan påklages til Utlendingsdirektoratet, eller til Utlendingsnemnda hvis Utlendingsdirektoratet har truffet vedtak i første instans, etter reglene i forvaltningsloven kapittel VI. Forvaltningsloven § 42 om utsatt iverksetting gjelder ikke.
->
-> Kongen kan i forskrift gi nærmere regler om saksbehandlingen.
->
-> § 7
->
-> .
->
-> Utvisning
->
-> En utlending uten oppholdstillatelse kan utvises etter utlendingsloven § 66 første ledd bokstav a når utlendingen grovt eller gjentatte ganger har overtrådt innreiserestriksjonene i §§ 2 eller 3 eller har gitt vesentlig uriktige eller åpenbart villedende opplysninger i forbindelse med innreisekontroll eller senere behandling av spørsmålet om innreiseadgang etter loven her.
->
-> § 8
->
-> .
->
-> Tvangsmidler
->
-> Reglene om bruk av tvangsmidler i utlendingsloven kapittel 12 gjelder tilsvarende som ved bortvisning etter utlendingsloven.
->
-> § 9
->
-> .
->
-> Straff
->
-> Med bot eller med fengsel inntil seks måneder eller med begge deler straffes den som
->
-> overtrer innreiserestriksjonene i § 2 eller 3, eller
->
-> gir vesentlig uriktige eller åpenbart villedende opplysninger i forbindelse med innreisekontroll eller senere behandling av spørsmålet om innreiseadgang etter loven her.
->
-> § 10
->
-> .
->
-> Ikrafttredelse og overgangsbestemmelser
->
-> Loven gjelder fra den tid Kongen bestemmer. Kongen kan gi overgangsbestemmelser.
->
-> Loven oppheves 1. november 2020.
->
-> § 11
->
-> .
->
-> Endringer i andre lover
->
-> I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 18 tredje ledd nytt annet punktum lyde:
->
 > Kongen kan også gi myndighet til politiet eller annen myndighet til å treffe vedtak om bortvisning av hensyn til folkehelsen etter utlendingsloven § 17 første ledd bokstav l.
 >
 
@@ -1005,6 +1019,20 @@ refid: "lov/2008-05-15-35"
 > § 79 e.Ikraftsetting og opphevelse av kapittel 10 a
 >
 > Kapittel 10 a trer i kraft straks, og oppheves 1. juni 2021.
+>
+
+### 2020-12-18 — forskrift/2020-12-18-2834
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2021-01-01 — forskrift/2020-11-06-2247
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
 >
 
 ### 2021-04-30 — forskrift/2021-04-23-1231
@@ -1056,6 +1084,13 @@ refid: "lov/2008-05-15-35"
 > Kapittel 10 a trer i kraft straks og oppheves 1. desember 2021.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2021-06-01 — forskrift/2021-05-21-1564
 
 *Delt ikraftsetting av lov 12. juni 2020 nr. 65 om endringer i utlendingsloven mv. (utlevering av opplysninger til politiet mv.). Endringsloven del II (endringene i utlendingsloven) trer i kraft 1. juni 2021.*
@@ -1077,6 +1112,13 @@ refid: "lov/2008-05-15-35"
 > Loven trer i kraft 1. juli 2021.
 >
 
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2021-09-01 — forskrift/2021-06-11-1875
 
 *Loven trer i kraft 1. september 2021.*
@@ -1089,6 +1131,13 @@ refid: "lov/2008-05-15-35"
 *Ikraftsetting av lov 7. mai 2021 nr. 32 om endringer i utlendingsloven (nytt tiltak ved brudd på utlendingsloven m.m.). Loven trer i kraft 10. september 2021.*
 
 > Ikraftsetting av lov 7. mai 2021 nr. 32 om endringer i utlendingsloven (nytt tiltak ved brudd på utlendingsloven m.m.). Loven trer i kraft 10. september 2021.
+>
+
+### 2022-01-01 — forskrift/2021-09-03-2653
+
+*Ikraftsetting av lov 11. juni 2021 nr. 79 om offentlige organers ansvar for bruk av tolk mv. (tolkeloven). Loven trer i kraft 1. januar 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 79 om offentlige organers ansvar for bruk av tolk mv. (tolkeloven). Loven trer i kraft 1. januar 2022.
 >
 
 ### 2022-02-18 — lov/2022-02-18-6
@@ -1112,6 +1161,13 @@ refid: "lov/2008-05-15-35"
 > Endringsloven del I § 62 annet ledd annet punktum og femte ledd første punktum og § 95 tredje ledd.
 >
 
+### 2022-05-01 — forskrift/2022-04-29-638
+
+*Loven trer i kraft 1. mai 2022, med unntak av § 8 første ledd nr. 2.*
+
+> Loven trer i kraft 1. mai 2022, med unntak av § 8 første ledd nr. 2.
+>
+
 ### 2022-06-01 — forskrift/2022-02-18-268
 
 *Ikraftsetting av lov 11. juni 2021 nr. 73 om endringer i utlendingsloven (oppnevning av prosessfullmektig i saker om frihetsberøvelse etter utlendingsloven mv.). Loven trer i kraft 1. juni 2022.*
@@ -1126,6 +1182,23 @@ refid: "lov/2008-05-15-35"
 > Delt ikraftsetting av lov 25. mars 2022 nr. 16 om endringer i utlendingsloven (innhenting av opplysninger fra utdanningsinstitusjoner mv.). Følgende trer i kraft 1. juni 2022:
 >
 > Endringsloven del I § 84 første ledd.
+>
+
+### 2022-06-17 — lov/2022-06-17-60
+
+*1.I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal ny § 103 a lyde:*
+
+> § 103 a.Test for sykdommen covid-19 utløst av SARS-CoV-2
+>
+> Dersom det er nødvendig for å kunne gjennomføre en uttransportering, kan politiet pålegge utlendingen å gjennomføre en godkjent test for avdekking av sykdommen covid-19 utløst av SARS-CoV-2. Dette skal skje gjennom bruk av PCR-test eller en tilsvarende testmetode som kan gjennomføres på medisinskfaglig forsvarlig måte uten å påføre fare.
+>
+> Dersom utlendingen ikke medvirker til å følge opp et pålegg etter første ledd om å teste seg, kan politimesteren eller den politimesteren gir fullmakt, avgjøre at testen skal tas med tvang når dette er nødvendig.
+>
+> En avgjørelse etter annet ledd om å gjennomføre en test med tvang kan bringes inn for retten med oppsettende virkning.
+>
+> Testen skal gjennomføres av lege eller annet kvalifisert helsepersonell og så skånsomt som mulig.
+>
+> Politiet kan innhente resultatet av testen uten hinder av taushetsplikten etter helsepersonelloven § 21 og uten hinder av taushetsplikt utlevere opplysninger om resultatet til fremmede stater og private aktører så langt det er nødvendig for iverksetting av vedtak etter § 90. Personopplysningsloven gjelder for behandlingen av opplysningene hvis ikke annet er bestemt i lov eller forskrift. Kongen kan gi forskrift om behandlingen av opplysningene.
 >
 
 ### 2022-06-17 — lov/2022-06-17-61
@@ -1145,6 +1218,13 @@ refid: "lov/2008-05-15-35"
 > Forvaltningsloven §§ 24 og 25 om begrunnelse og §§ 28 til 34 om klage gjelder ikke for utlendingsmyndighetenes vedtak om tildeling av botilbud og overføring til nytt innkvarteringssted. Forvaltningsloven §§ 28 til 34 om klage gjelder ikke for utlendingsmyndighetenes vedtak om bortfall av botilbud.
 >
 
+### 2022-06-24 — forskrift/2022-06-17-1040
+
+*Loven trer i kraft 24. juni 2022.*
+
+> Loven trer i kraft 24. juni 2022.
+>
+
 ### 2022-07-01 — forskrift/2022-04-08-560
 
 *Loven trer i kraft 1. juli 2022.*
@@ -1159,6 +1239,20 @@ refid: "lov/2008-05-15-35"
 > Loven trer i kraft 1. juli 2022.
 >
 
+### 2023-01-01 — forskrift/2022-09-16-1574
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-01-01 — forskrift/2022-12-16-2254
 
 *Delt ikraftsetting av lov 11. juni 2021 nr. 72 om endringer i politiregisterloven og utlendingsloven. Følgende trer i kraft 1. januar 2023:*
@@ -1166,6 +1260,13 @@ refid: "lov/2008-05-15-35"
 > Delt ikraftsetting av lov 11. juni 2021 nr. 72 om endringer i politiregisterloven og utlendingsloven. Følgende trer i kraft 1. januar 2023:
 >
 > Endringsloven del I (utlendingsloven).
+>
+
+### 2023-03-07 — forskrift/2023-02-10-173
+
+*Ikraftsetting av lov 18. februar 2022 nr. 6 om endringer i lov om Schengen informasjonssystem (SIS-loven) mv. Loven trer i kraft 7. mars 2023.*
+
+> Ikraftsetting av lov 18. februar 2022 nr. 6 om endringer i lov om Schengen informasjonssystem (SIS-loven) mv. Loven trer i kraft 7. mars 2023.
 >
 
 ### 2023-04-28 — lov/2023-04-28-10
@@ -1214,6 +1315,36 @@ refid: "lov/2008-05-15-35"
 > Havindustritilsynet har innenfor sitt myndighetsområde tilsvarende tilsynsansvar og myndighet som nevnt i første, annet og tredje ledd.
 >
 
+### 2024-04-01 — forskrift/2024-03-22-516
+
+*Loven trer i kraft 1. april 2024.*
+
+> Loven trer i kraft 1. april 2024.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
 ### 2024-06-21 — lov/2024-06-21-47
 
 *§§ 102 a til 102 f oppheves.*
@@ -1260,6 +1391,13 @@ refid: "lov/2008-05-15-35"
 > Loven trer i kraft 15. september 2024.
 >
 
+### 2024-11-29 — forskrift/2024-11-29-2892
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2025-01-01 — forskrift/2023-09-15-2100
 
 *Delt ikraftsetting av lov 2. juni 2023 nr. 20 om endringer i utlendingsloven (fjernmøter i Utlendingsnemnda mv.). Følgende trer i kraft 1. januar 2025:*
@@ -1274,6 +1412,13 @@ refid: "lov/2008-05-15-35"
 *Loven settes i kraft 1. januar 2025.*
 
 > Loven settes i kraft 1. januar 2025.
+>
+
+### 2025-03-14 — forskrift/2025-03-14-446
+
+*Ikraftsetting av lov 28. april 2023 nr. 10 om endringer i utlendingsloven, passloven og ID-kortloven (biometrisk sammenligning). Loven trer i kraft straks.*
+
+> Ikraftsetting av lov 28. april 2023 nr. 10 om endringer i utlendingsloven, passloven og ID-kortloven (biometrisk sammenligning). Loven trer i kraft straks.
 >
 
 ### 2025-04-04 — lov/2025-04-04-7
@@ -1355,6 +1500,38 @@ refid: "lov/2008-05-15-35"
 > Bestemmelsene om kassasjon og retting gitt i og i medhold av arkivlova § 6 bokstav b og § 13 er ikke til hinder for sletting etter tredje ledd.
 >
 
+### 2025-07-01 — forskrift/2025-06-20-1099
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
+### 2025-10-12 — forskrift/2025-09-19-1877
+
+*Ikraftsetting av lov 20. juni 2025 nr. 85 om endringer i grenseloven og utlendingsloven mv. (gjennomføring av revidert grenseforordning). Loven trer i kraft 12. oktober 2025.*
+
+> Ikraftsetting av lov 20. juni 2025 nr. 85 om endringer i grenseloven og utlendingsloven mv. (gjennomføring av revidert grenseforordning). Loven trer i kraft 12. oktober 2025.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
+>
+
 ### 2026-06-12 — lov/2026-06-12-29
 
 *Gjeldende første ledd bokstav c til i blir bokstav d til ny j.*
@@ -1422,6 +1599,15 @@ refid: "lov/2008-05-15-35"
 > Grov overtredelse av første eller annet ledd straffes med fengsel inntil 6 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om utnyttelsen har et systematisk eller organisert preg, om den har gitt stor økonomisk fordel og om den har pågått over lang tid. Det skal også legges vekt på om utnyttelsen fremstår som særlig krenkende for den enkelte og om den som har blitt utnyttet, er under 18 år.
 >
 
+### 2026-06-12 — forskrift/2026-06-12-1058
+
+*Delt ikraftsetting av lov 12. juni 2026 om endringer i grenseloven, utlendingsloven og SIS-loven (screening av tredjelandsborgere). Følgende endringer trer i kraft 12. juni 2026 kl. 15.00:*
+
+> Delt ikraftsetting av lov 12. juni 2026 om endringer i grenseloven, utlendingsloven og SIS-loven (screening av tredjelandsborgere). Følgende endringer trer i kraft 12. juni 2026 kl. 15.00:
+>
+> Endringsloven del I til III.
+>
+
 ### 2026-06-12 — forskrift/2026-06-12-1059
 
 *Delt ikraftsetting av lov 12. juni 2026 om endringer i utlendingsloven (gjennomføring av Eurodac-forordningen, forordning om asyl- og migrasjonshåndtering og kriseforordningen i norsk rett).*
@@ -1464,6 +1650,32 @@ refid: "lov/2008-05-15-35"
 > Endringsloven del I om endringer i utlendingsloven § 34.
 >
 
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1283
+
+*Delt ikraftsetting av lov 19. juni 2026 om endringer i politiregisterloven og grenseloven mv. (testing og utvikling av informasjonssystemer). Følgende trer i kraft 1. juli 2026:*
+
+> Delt ikraftsetting av lov 19. juni 2026 om endringer i politiregisterloven og grenseloven mv. (testing og utvikling av informasjonssystemer). Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del II (politiloven) § 24b
+>
+> Endringsloven del III (utlendingsloven)
+>
+> Endringsloven del V (grenseloven)
+>
+> Endringsloven del IV (politiregisterloven) § 18
+>
+
 ### 2026-07-01 — forskrift/2026-06-19-1490
 
 *Endringen i utlendingsloven § 34 femte ledd gjelder for klager over avslag på tillatelse etter § 34 andre ledd første til fjerde punktum som fremmes etter 1. juli 2026.*
@@ -1471,7 +1683,50 @@ refid: "lov/2008-05-15-35"
 > Endringen i utlendingsloven § 34 femte ledd gjelder for klager over avslag på tillatelse etter § 34 andre ledd første til fjerde punktum som fremmes etter 1. juli 2026.
 >
 
+### 2026-09-15 — forskrift/2026-06-12-1054
+
+*Loven trer i kraft 15. september 2026.*
+
+> Loven trer i kraft 15. september 2026.
+>
+
+### 2026-10-01 — forskrift/2026-09-11-1775
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.
+>
+
 ## § 1
+
+### 2018-11-01 — forskrift/2018-10-24-1610
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Utlendinger som er gitt asyl før 1. november 2018
+>
+> En utlending som før 1. november 2018 er gitt asyl, kan ikke utvises etter de nye lovreglene uten at det først blir truffet vedtak om eksklusjon eller tilbakekall.
+>
+> § 2
+>
+> .
+>
+> Utlendinger som er gitt oppholdstillatelse med annen hjemmel enn utlendingsloven § 74 eller § 28 før 1. november 2018
+>
+> En utlending som før 1. november 2018 er gitt oppholdstillatelse med en annen hjemmel enn utlendingsloven § 74 eller § 28, kan ikke utvises etter de nye lovreglene, med mindre handlingene har funnet sted etter lovendringenes ikrafttredelse eller forholdet gir grunnlag for tilbakekall av den gitte tillatelsen.
+>
+> § 3
+>
+> .
+>
+> Ikrafttredelse
+>
+> Overgangsbestemmelsene trer i kraft 1. november 2018.
+>
 
 ### 2023-06-02 — lov/2023-06-02-20
 
@@ -1618,6 +1873,15 @@ refid: "lov/2008-05-15-35"
 > Bestemmelsene om kassasjon og retting i lov 4. desember 1992 nr. 126 om arkiv § 9 bokstav c og d er ikke til hinder for sletting etter tredje ledd.
 >
 > Kongen kan gi nærmere regler i forskrift.
+>
+
+### 2018-04-20 — lov/2018-04-20-8
+
+*§ 100 b første ledd første punktum skal lyde:*
+
+> I forbindelse med kontroll etter § 21 eller grenseloven § 15, eller i forbindelse med behandlingen av en sak etter utlendingsloven, kan politiet, Utlendingsdirektoratet, Utlendingsnemnda, Utenriksdepartementet, utenriksstasjon eller andre med kontrollmyndighet etter grenseloven innhente biometrisk personinformasjon i form av ansiktsfoto og fingeravtrykk til kontroll av fremlagt oppholdskort eller kontroll av annet kort med registrert biometrisk personinformasjon etter § 100 a annet ledd.
+>
+> I § 108 annet ledd bokstav a utgår § 14 første og annet ledd og § 16 første ledd fra opplistingen av bestemmelser.
 >
 
 ### 2022-04-29 — lov/2022-04-29-26
@@ -1977,7 +2241,9 @@ refid: "lov/2008-05-15-35"
 
 *§ 105 første ledd bokstav c og ny bokstav d skal lyde:*
 
-> det eneste grunnlag for opphold i riket er vernet mot utsendelse etter § 73,utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser og av andre grunner enn nevnt i bokstav c ikke har innrettet seg etter vedtak om at vedkommende må forlate riket, eller dersom tvangsretur for øvrig ikke lar seg gjennomføre.
+> det eneste grunnlag for opphold i riket er vernet mot utsendelse etter § 73,
+>
+> utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser og av andre grunner enn nevnt i bokstav c ikke har innrettet seg etter vedtak om at vedkommende må forlate riket, eller dersom tvangsretur for øvrig ikke lar seg gjennomføre.
 >
 
 ### 2010-12-17 — lov/2010-12-17-88
@@ -2005,7 +2271,9 @@ refid: "lov/2008-05-15-35"
 
 *§ 105 første ledd bokstav c og d skal lyde:*
 
-> utlendingen er asylsøker eller har ulovlig opphold og er ilagt straff for et straffbart forhold eller treffes på fersk gjerning ved utøvelse av et straffbart forhold, som kan føre til høyere straff enn fengsel i seks måneder, ellerdet eneste grunnlag for opphold i riket er vernet mot utsendelse etter § 73.
+> utlendingen er asylsøker eller har ulovlig opphold og er ilagt straff for et straffbart forhold eller treffes på fersk gjerning ved utøvelse av et straffbart forhold, som kan føre til høyere straff enn fengsel i seks måneder, eller
+>
+> det eneste grunnlag for opphold i riket er vernet mot utsendelse etter § 73.
 >
 
 ### 2013-06-21 — lov/2013-06-21-92
@@ -2016,7 +2284,11 @@ refid: "lov/2008-05-15-35"
 
 *§ 105 første ledd bokstav c, d og ny bokstav e skal lyde:*
 
-> utlendingen er asylsøker eller har ulovlig opphold og er ilagt straff for et straffbart forhold eller treffes på fersk gjerning ved utøvelse av et straffbart forhold, som kan føre til høyere straff enn fengsel i seks måneder,det eneste grunnlag for opphold i riket er vernet mot utsendelse etter § 73, ellerutlendingens søknad om beskyttelse har blitt eller mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d fordi vedkommende har fått asyl eller annen form for beskyttelse i et annet land, eller forut for innreise til riket hadde opphold i en stat eller et område hvor vedkommende ikke var forfulgt.
+> utlendingen er asylsøker eller har ulovlig opphold og er ilagt straff for et straffbart forhold eller treffes på fersk gjerning ved utøvelse av et straffbart forhold, som kan føre til høyere straff enn fengsel i seks måneder,
+>
+> det eneste grunnlag for opphold i riket er vernet mot utsendelse etter § 73, eller
+>
+> utlendingens søknad om beskyttelse har blitt eller mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d fordi vedkommende har fått asyl eller annen form for beskyttelse i et annet land, eller forut for innreise til riket hadde opphold i en stat eller et område hvor vedkommende ikke var forfulgt.
 >
 
 ### 2016-06-17 — lov/2016-06-17-56
@@ -2037,7 +2309,9 @@ refid: "lov/2008-05-15-35"
 
 *§ 105 første ledd bokstav d og e skal lyde:*
 
-> det eneste grunnlag for opphold i riket er vernet mot utsendelse etter § 73,utlendingens søknad om beskyttelse har blitt eller mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d eller femte ledd, eller
+> det eneste grunnlag for opphold i riket er vernet mot utsendelse etter § 73,
+>
+> utlendingens søknad om beskyttelse har blitt eller mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d eller femte ledd, eller
 >
 
 ### 2018-04-20 — lov/2018-04-20-9
@@ -2060,7 +2334,11 @@ refid: "lov/2008-05-15-35"
 
 *§ 105 første ledd bokstav e og f og ny bokstav g skal lyde:*
 
-> utlendingens søknad om beskyttelse har blitt eller mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d eller femte ledd,utlendingens søknad om beskyttelse antas å være åpenbart grunnløs og skal behandles i løpet av 48 timer, ellerutlendingen har blitt stanset i forbindelse med innreise og har blitt eller mest sannsynlig vil bli bortvist eller utvist. Dette gjelder ikke hvis utlendingen har søkt beskyttelse.
+> utlendingens søknad om beskyttelse har blitt eller mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d eller femte ledd,
+>
+> utlendingens søknad om beskyttelse antas å være åpenbart grunnløs og skal behandles i løpet av 48 timer, eller
+>
+> utlendingen har blitt stanset i forbindelse med innreise og har blitt eller mest sannsynlig vil bli bortvist eller utvist. Dette gjelder ikke hvis utlendingen har søkt beskyttelse.
 >
 
 ### 2025-04-04 — lov/2025-04-04-7
@@ -2112,7 +2390,9 @@ refid: "lov/2008-05-15-35"
 
 *§ 106 første ledd bokstav e og f skal lyde:*
 
-> utlendingen ikke gjør det som er nødvendig for å oppfylle plikten til å skaffe seg gyldig reisedokument, og formålet er å fremstille utlendingen for det aktuelle lands utenriksstasjon for å få utstedt reisedokument, ellerutlendingen er i transitt i norsk lufthavn, med sikte på utsendelse.
+> utlendingen ikke gjør det som er nødvendig for å oppfylle plikten til å skaffe seg gyldig reisedokument, og formålet er å fremstille utlendingen for det aktuelle lands utenriksstasjon for å få utstedt reisedokument, eller
+>
+> utlendingen er i transitt i norsk lufthavn, med sikte på utsendelse.
 >
 
 ### 2013-06-21 — lov/2013-06-21-92
@@ -2157,7 +2437,11 @@ refid: "lov/2008-05-15-35"
 
 *§ 106 første ledd bokstav e, f og ny bokstav g skal lyde:*
 
-> utlendingen ikke gjør det som er nødvendig for å oppfylle plikten til å skaffe seg gyldig reisedokument, og formålet er å fremstille utlendingen for det aktuelle lands utenriksstasjon for å få utstedt reisedokument,utlendingen er i transitt i norsk lufthavn, med sikte på utsendelse, ellerutlendingens søknad om beskyttelse mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d fordi vedkommende har fått asyl eller annen form for beskyttelse i et annet land, eller forut for innreise til riket hadde opphold i en stat eller et område hvor vedkommende ikke var forfulgt. Dette gjelder ikke hvis utlendingen er mindreårig eller har mindreårige barn som også har søkt beskyttelse.
+> utlendingen ikke gjør det som er nødvendig for å oppfylle plikten til å skaffe seg gyldig reisedokument, og formålet er å fremstille utlendingen for det aktuelle lands utenriksstasjon for å få utstedt reisedokument,
+>
+> utlendingen er i transitt i norsk lufthavn, med sikte på utsendelse, eller
+>
+> utlendingens søknad om beskyttelse mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d fordi vedkommende har fått asyl eller annen form for beskyttelse i et annet land, eller forut for innreise til riket hadde opphold i en stat eller et område hvor vedkommende ikke var forfulgt. Dette gjelder ikke hvis utlendingen er mindreårig eller har mindreårige barn som også har søkt beskyttelse.
 >
 
 ### 2015-11-20 — lov/2015-11-20-94
@@ -2192,7 +2476,9 @@ refid: "lov/2008-05-15-35"
 
 *§ 106 første ledd bokstav f og g skal lyde:*
 
-> utlendingen er i transitt i norsk lufthavn, med sikte på utsendelse,utlendingens søknad om beskyttelse mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d eller femte ledd. Dette gjelder ikke hvis utlendingen er mindreårig eller har mindreårige barn som også har søkt beskyttelse, eller
+> utlendingen er i transitt i norsk lufthavn, med sikte på utsendelse,
+>
+> utlendingens søknad om beskyttelse mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d eller femte ledd. Dette gjelder ikke hvis utlendingen er mindreårig eller har mindreårige barn som også har søkt beskyttelse, eller
 >
 
 ### 2018-04-20 — lov/2018-04-20-9
@@ -2212,7 +2498,11 @@ refid: "lov/2008-05-15-35"
 
 *§ 106 første ledd bokstav g og h og ny bokstav i skal lyde:*
 
-> utlendingens søknad om beskyttelse mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d eller femte ledd. Dette gjelder ikke hvis utlendingen er mindreårig eller har mindreårige barn som også har søkt beskyttelse,utlendingens søknad om beskyttelse antas å være åpenbart grunnløs og skal behandles i løpet av 48 timer. Dette gjelder ikke hvis utlendingen er mindreårig eller har mindreårige barn som også har søkt beskyttelse, ellerutlendingen har blitt eller mest sannsynlig vil bli nektet innreise og bortvist eller utvist. Dette gjelder ikke hvis utlendingen har søkt beskyttelse, er mindreårig eller har med seg mindreårige barn som ikke fyller vilkårene for innreise.
+> utlendingens søknad om beskyttelse mest sannsynlig vil bli nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d eller femte ledd. Dette gjelder ikke hvis utlendingen er mindreårig eller har mindreårige barn som også har søkt beskyttelse,
+>
+> utlendingens søknad om beskyttelse antas å være åpenbart grunnløs og skal behandles i løpet av 48 timer. Dette gjelder ikke hvis utlendingen er mindreårig eller har mindreårige barn som også har søkt beskyttelse, eller
+>
+> utlendingen har blitt eller mest sannsynlig vil bli nektet innreise og bortvist eller utvist. Dette gjelder ikke hvis utlendingen har søkt beskyttelse, er mindreårig eller har med seg mindreårige barn som ikke fyller vilkårene for innreise.
 >
 
 ### 2025-04-04 — lov/2025-04-04-7
@@ -2274,7 +2564,11 @@ refid: "lov/2008-05-15-35"
 
 *§ 106 a første ledd bokstav i, j og ny bokstav k skal lyde:*
 
-> utlendingen er ansvarlig for alvorlige ordensforstyrrelser ved innkvarteringssted for asylsøkere mv., jf. § 95 første og annet ledd,utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, ellerutlendingens søknad om beskyttelse er nektet realitetsbehandlet etter § 32 første ledd bokstav a eller d.
+> utlendingen er ansvarlig for alvorlige ordensforstyrrelser ved innkvarteringssted for asylsøkere mv., jf. § 95 første og annet ledd,
+>
+> utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, eller
+>
+> utlendingens søknad om beskyttelse er nektet realitetsbehandlet etter § 32 første ledd bokstav a eller d.
 >
 
 ### 2016-06-17 — lov/2016-06-17-56
@@ -2297,7 +2591,9 @@ refid: "lov/2008-05-15-35"
 
 *§ 106 a første ledd bokstav j og k skal lyde:*
 
-> utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser,utlendingens søknad om beskyttelse er nektet realitetsbehandlet etter § 32 første ledd bokstav a eller d eller femte ledd, eller
+> utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser,
+>
+> utlendingens søknad om beskyttelse er nektet realitetsbehandlet etter § 32 første ledd bokstav a eller d eller femte ledd, eller
 >
 
 ### 2018-04-20 — lov/2018-04-20-9
@@ -2391,6 +2687,13 @@ refid: "lov/2008-05-15-35"
 > Barn som er i stand til å danne seg egne synspunkter skal informeres og gis anledning til å bli hørt før retten treffer sin beslutning om internering. Barnet kan høres personlig eller gjennom foreldre, representant eller andre som kan uttale seg på vegne av barnet. På hvilken måte barnet skal høres, må vurderes av retten ut fra forholdene i den enkelte sak. Barnets syn skal tillegges vekt i samsvar med barnets alder og modenhet.
 >
 > En mindreårig utlending kan interneres for inntil 3 døgn (72 timer) av gangen. Samlet interneringstid skal ikke overstige 3 døgn, med mindre det foreligger særlige og sterke grunner. Med særlig grunn siktes det i første rekke til at familien eller barnet selv har en vesentlig del av ansvaret for at uttransportering ikke har latt seg gjennomføre innen 3 døgn etter kjennelsen om internering, eller at det er klarlagt et tidspunkt for uttransportering som ligger nært i tid. I de tilfeller hvor det unntaksvis er grunnlag for internering ut over 3 døgn, skal samlet interneringstid ikke overstige 9 døgn.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 106 c fjerde ledd skal lyde:*
+
+> Politiet skal varsle barnevernstjenesten om pågripelse av barn så snart som mulig etter at det blir sannsynlig at politiet vil begjære internering. Varsel skal uansett gis så snart som mulig dersom andre særlige grunner tilsier det. Barnevernstjenesten skal så vidt mulig avgi en skriftlig uttalelse i saken, med mindre retten eller barnevernstjenesten finner det åpenbart unødvendig. Barnevernstjenesten skal delta i møte om internering dersom retten eller barnevernstjenesten finner deltagelse nødvendig. Reglene i straffeprosessloven § 118 gjelder tilsvarende.
 >
 
 ### 2023-06-16 — lov/2023-06-16-58
@@ -2508,14 +2811,18 @@ refid: "lov/2008-05-15-35"
 
 *§ 108 annet ledd bokstav c og d skal lyde:*
 
-> ved falske forespeilinger eller liknende utilbørlig atferd forleder en utlending til å reise inn i riket med sikte på å bosette seg her,overlater til en annen pass, reisebevis for flyktninger, annet reisedokument eller liknende dokument som kan bli brukt som reisedokument, når vedkommende vet eller bør vite at det kan bli brukt av en utlending til å reise inn i riket eller til en annen stat.
+> ved falske forespeilinger eller liknende utilbørlig atferd forleder en utlending til å reise inn i riket med sikte på å bosette seg her,
+>
+> overlater til en annen pass, reisebevis for flyktninger, annet reisedokument eller liknende dokument som kan bli brukt som reisedokument, når vedkommende vet eller bør vite at det kan bli brukt av en utlending til å reise inn i riket eller til en annen stat.
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 108 tredje ledd bokstav a og b skal lyde:*
 
-> hjelper en utlending til ulovlig opphold i riket eller et annet land som deltar i Schengensamarbeidet, ellerhjelper en utlending til ulovlig å reise inn i riket eller til et annet land. Dette gjelder likevel ikke dersom hensikten er å hjelpe en utlending som omfattes av § 28 til å reise inn i trygge land.
+> hjelper en utlending til ulovlig opphold i riket eller et annet land som deltar i Schengensamarbeidet, eller
+>
+> hjelper en utlending til ulovlig å reise inn i riket eller til et annet land. Dette gjelder likevel ikke dersom hensikten er å hjelpe en utlending som omfattes av § 28 til å reise inn i trygge land.
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -2528,11 +2835,6 @@ refid: "lov/2008-05-15-35"
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 108 sjette ledd oppheves. Nåværende syvende, åttende og niende ledd blir nytt sjette, syvende og åttende ledd.*
-
-> 268. I lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning (helseforskningsloven) skal § 54 første ledd lyde:
->
-> Med bøter eller fengsel inntil ett år eller begge deler straffes den som forsettlig eller grovt uaktsomt overtrer bestemmelser i loven eller bestemmelser gitt i medhold av den.
->
 
 ### 2009-12-18 — lov/2009-12-18-132
 
@@ -2569,7 +2871,41 @@ refid: "lov/2008-05-15-35"
 
 *§ 108 annet ledd bokstav a skal lyde:*
 
-> forsettlig eller uaktsomt overtrer de bestemmelsene som er angitt i det følgende, eller forbud, påbud eller vilkår gitt i medhold av disse bestemmelsene:§ 7 første ledd§ 8 første ledd§ 9 første og fjerde ledd§ 14 første og annet ledd§ 16 første og tredje ledd§ 19 første og annet ledd§ 20 tredje ledd§ 21 første ledd§ 27 første ledd, jf. fjerde ledd§ 55 første og annet ledd§ 71 annet ledd§ 83 første og annet ledd§ 90 sjette ledd§ 93 første ledd annet punktum§ 100 b første ledd annet punktum§ 105 første ledd§ 124 første ledd
+> forsettlig eller uaktsomt overtrer de bestemmelsene som er angitt i det følgende, eller forbud, påbud eller vilkår gitt i medhold av disse bestemmelsene: § 7 første ledd § 8 første ledd § 9 første og fjerde ledd § 14 første og annet ledd § 16 første og tredje ledd § 19 første og annet ledd § 20 tredje ledd § 21 første ledd § 27 første ledd, jf. fjerde ledd § 55 første og annet ledd § 71 annet ledd § 83 første og annet ledd § 90 sjette ledd § 93 første ledd annet punktum § 100 b første ledd annet punktum § 105 første ledd § 124 første ledd
+>
+> § 7 første ledd
+>
+> § 8 første ledd
+>
+> § 9 første og fjerde ledd
+>
+> § 14 første og annet ledd
+>
+> § 16 første og tredje ledd
+>
+> § 19 første og annet ledd
+>
+> § 20 tredje ledd
+>
+> § 21 første ledd
+>
+> § 27 første ledd, jf. fjerde ledd
+>
+> § 55 første og annet ledd
+>
+> § 71 annet ledd
+>
+> § 83 første og annet ledd
+>
+> § 90 sjette ledd
+>
+> § 93 første ledd annet punktum
+>
+> § 100 b første ledd annet punktum
+>
+> § 105 første ledd
+>
+> § 124 første ledd
 >
 
 ### 2012-04-20 — lov/2012-04-20-17
@@ -2583,7 +2919,7 @@ refid: "lov/2008-05-15-35"
 
 *§ 108 annet ledd bokstav a skal lyde:*
 
-> Forsettlig eller uaktsomt overtrer de bestemmelsene som er angitt i det følgende, eller forbud, påbud eller vilkår gitt i medhold av disse bestemmelsene:§ 8 første ledd§ 9 første og fjerde ledd§ 14 første og annet ledd§ 16 første og tredje ledd§ 19 første og annet ledd§ 20 tredje ledd§ 21 første ledd§ 27 første ledd, jf. fjerde ledd§ 55 første og annet ledd§ 71 annet ledd§ 83 første og annet ledd§ 90 femte ledd§ 93 første ledd annet punktum§ 100 b første ledd annet punktum§ 105 første ledd§ 124 første ledd§ 126 første ledd
+> Forsettlig eller uaktsomt overtrer de bestemmelsene som er angitt i det følgende, eller forbud, påbud eller vilkår gitt i medhold av disse bestemmelsene: § 8 første ledd § 9 første og fjerde ledd § 14 første og annet ledd § 16 første og tredje ledd § 19 første og annet ledd § 20 tredje ledd § 21 første ledd § 27 første ledd, jf. fjerde ledd § 55 første og annet ledd § 71 annet ledd § 83 første og annet ledd § 90 femte ledd § 93 første ledd annet punktum § 100 b første ledd annet punktum § 105 første ledd § 124 første ledd § 126 første ledd
 >
 
 ### 2014-01-10 — lov/2014-01-10-1
@@ -2597,6 +2933,35 @@ refid: "lov/2008-05-15-35"
 
 *§ 108 åttende ledd oppheves. Nåværende niende og tiende ledd blir åttende og niende ledd.*
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 108 tredje ledd bokstav c og d skal lyde:*
+
+> ved falske forespeilinger eller liknende utilbørlig atferd forleder en utlending til å reise inn i riket med sikte på å bosette seg her,
+>
+> overlater til en annen pass, reisebevis for flyktninger, annet reisedokument eller liknende dokument som kan bli brukt som reisedokument, standardisert oppholdskort eller liknende kort, når vedkommende vet eller bør forstå at det kan bli brukt av en utlending til å reise inn i riket eller til en annen stat,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 108 fjerde ledd bokstav a og b skal lyde:*
+
+> hjelper en utlending til ulovlig opphold i riket eller i et annet land som deltar i Schengensamarbeidet, eller
+>
+> hjelper en utlending til ulovlig å reise inn i riket eller til et annet land. Dette gjelder likevel ikke dersom hensikten er å hjelpe en utlending som omfattes av lovens § 28 til å reise inn i første trygge land.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 108 sjette ledd innledningen skal lyde:*
+
+> Den som yter humanitær bistand til utlending som oppholder seg ulovlig i riket, skal ikke kunne straffes for medvirkning til ulovlig opphold med mindre
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 108 syvende og niende ledd oppheves. Nåværende åttende ledd blir syvende ledd.*
+
 ### 2018-04-20 — lov/2018-04-20-10
 
 *§ 108 sjuende ledd skal lyde:*
@@ -2608,14 +2973,16 @@ refid: "lov/2008-05-15-35"
 
 *§ 108 andre ledd bokstav a skal lyde:*
 
-> Forsettlig eller uaktsomt overtrer de bestemmelsene som er angitt i det følgende, eller forbud, påbud eller vilkår gitt i medhold av disse bestemmelsene:§ 8 første ledd§ 9 første og fjerde ledd§ 14 første og annet ledd§ 16 første og tredje ledd§ 19 første og annet ledd§ 20 tredje ledd§ 21 første ledd§ 27 første ledd, jf. fjerde ledd§ 55 første og annet ledd, med mindre overtredelsen rammes av tredje ledd bokstav f§ 83 første og annet ledd§ 90 sjette ledd§ 93 første ledd annet punktum§ 100 b første ledd annet punktum§ 105 første ledd§ 126 første ledd§ 130 første ledd, jf. § 105
+> Forsettlig eller uaktsomt overtrer de bestemmelsene som er angitt i det følgende, eller forbud, påbud eller vilkår gitt i medhold av disse bestemmelsene: § 8 første ledd § 9 første og fjerde ledd § 14 første og annet ledd § 16 første og tredje ledd § 19 første og annet ledd § 20 tredje ledd § 21 første ledd § 27 første ledd, jf. fjerde ledd § 55 første og annet ledd, med mindre overtredelsen rammes av tredje ledd bokstav f § 83 første og annet ledd § 90 sjette ledd § 93 første ledd annet punktum § 100 b første ledd annet punktum § 105 første ledd § 126 første ledd § 130 første ledd, jf. § 105
 >
 
 ### 2021-04-23 — lov/2021-04-23-23
 
 *§ 108 tredje ledd bokstav e og ny bokstav f skal lyde:*
 
-> forsettlig eller uaktsomt overtrer innreiseforbudet i § 71 annet ledd eller § 124 første ledd. Dersom utlendingen ikke har lovlig opphold i et Schengenland, straffes overtredelsen bare med bot, med mindre vedkommende er utvist på grunn av straff, utreise fra Schengenområdet har funnet sted eller returprosedyrer er anvendt uten at slik utreise har funnet sted,er utvist som følge av ilagt fengselsstraff, forvaring eller særreaksjon etter andre bestemmelser enn annet ledd, og forsettlig eller uaktsomt overtrer kravet om oppholdstillatelse i utlendingsloven § 55 annet ledd ved ikke å forlate riket.
+> forsettlig eller uaktsomt overtrer innreiseforbudet i § 71 annet ledd eller § 124 første ledd. Dersom utlendingen ikke har lovlig opphold i et Schengenland, straffes overtredelsen bare med bot, med mindre vedkommende er utvist på grunn av straff, utreise fra Schengenområdet har funnet sted eller returprosedyrer er anvendt uten at slik utreise har funnet sted,
+>
+> er utvist som følge av ilagt fengselsstraff, forvaring eller særreaksjon etter andre bestemmelser enn annet ledd, og forsettlig eller uaktsomt overtrer kravet om oppholdstillatelse i utlendingsloven § 55 annet ledd ved ikke å forlate riket.
 >
 
 ### 2022-04-29 — lov/2022-04-29-26
@@ -2658,7 +3025,9 @@ refid: "lov/2008-05-15-35"
 
 *§ 110 tredje ledd bokstav c og d skal lyde:*
 
-> slektning i direkte nedstigende linje fra en EØS-borger eller fra en utlending nevnt i bokstav a eller b, som er under 21 år eller som forsørges av EØS-borgeren eller dennes ektefelle, ogslektning i direkte oppstigende linje fra en EØS-borger eller fra en utlending nevnt i bokstav a eller b som forsørges av EØS-borgeren eller dennes ektefelle.
+> slektning i direkte nedstigende linje fra en EØS-borger eller fra en utlending nevnt i bokstav a eller b, som er under 21 år eller som forsørges av EØS-borgeren eller dennes ektefelle, og
+>
+> slektning i direkte oppstigende linje fra en EØS-borger eller fra en utlending nevnt i bokstav a eller b som forsørges av EØS-borgeren eller dennes ektefelle.
 >
 
 ## § 114
@@ -2727,6 +3096,13 @@ refid: "lov/2008-05-15-35"
 *§ 122 første ledd første punktum skal lyde:*
 
 > EØS-borgere og deres familiemedlemmer, og utlendinger som nevnt i lovens § 110 fjerde ledd med oppholdsrett etter § 111 annet ledd eller § 114 annet ledd, kan utvises når hensynet til offentlig orden eller sikkerhet tilsier det.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 122 tredje ledd skal lyde:*
+
+> En utlending som har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd, kan utvises uavhengig av bestemmelsene i annet ledd.
 >
 
 ### 2020-05-29 — lov/2020-05-29-57
@@ -2896,6 +3272,15 @@ refid: "lov/2008-05-15-35"
 
 ## § 16
 
+### 2018-04-20 — lov/2018-04-20-8
+
+*§ 16 skal lyde:*
+
+> § 16.Blindpassasjer
+>
+> En utlending som er blindpassasjer om bord i luft- eller sjøfartøy, må ikke gå i land i riket uten tillatelse fra politiet etter grenseloven § 17. Kongen kan gi nærmere regler i forskrift om vilkårene for at blindpassasjerer skal gis adgang til riket, samt regler om saksbehandlingen og klageadgangen i slike saker.
+>
+
 ### 2022-04-29 — lov/2022-04-29-26
 
 *§ 16 skal lyde:*
@@ -2957,16 +3342,31 @@ refid: "lov/2008-05-15-35"
 
 *§ 18 annet ledd bokstav c og ny bokstav d skal lyde:*
 
-> vedtaket gjelder bortvisning etter § 17 første ledd bokstav h og l, ellerUtlendingsdirektoratet beslutter at saken skal avgjøres av direktoratet.
+> vedtaket gjelder bortvisning etter § 17 første ledd bokstav h og l, eller
+>
+> Utlendingsdirektoratet beslutter at saken skal avgjøres av direktoratet.
 >
 
 ## § 20
+
+### 2018-04-20 — lov/2018-04-20-8
+
+*§ 20 første ledd bokstav a og b oppheves. Nåværende bokstav c til g blir bokstav a til e.*
+
+### 2018-04-20 — lov/2018-04-20-8
+
+*§ 20 nytt fjerde ledd skal lyde:*
+
+> Regler om plikt for transportør av luft- og sjøfartøy til å gi forhåndsmelding om reisende og mannskap følger av grenseloven § 16.
+>
 
 ### 2020-03-27 — lov/2020-03-27-16
 
 *§ 20 første ledd bokstav a og b skal lyde:*
 
-> føreren av luftfartøy som kommer fra, eller går til utlandet, skal gi politiet fortegnelse over utenlandske og norske reisende og mannskap,føreren av skip som passerer grensen på vei til eller fra norsk havn, skal gi politiet fortegnelse over utenlandske og norske reisende og mannskap,
+> føreren av luftfartøy som kommer fra, eller går til utlandet, skal gi politiet fortegnelse over utenlandske og norske reisende og mannskap,
+>
+> føreren av skip som passerer grensen på vei til eller fra norsk havn, skal gi politiet fortegnelse over utenlandske og norske reisende og mannskap,
 >
 
 ### 2022-04-29 — lov/2022-04-29-26
@@ -3001,6 +3401,10 @@ refid: "lov/2008-05-15-35"
 >
 
 ## § 22
+
+### 2018-04-20 — lov/2018-04-20-8
+
+*§ 22 oppheves.*
 
 ### 2022-04-29 — lov/2022-04-29-26
 
@@ -3278,6 +3682,13 @@ refid: "lov/2008-05-15-35"
 > Oppholdstillatelse til særkullsbarn som nevnt i femte ledd skal som hovedregel nektes dersom referansepersonen (forelderens ektefelle) i løpet av de siste 10 årene er domfelt for overtredelse av straffelovens bestemmelser om seksualforbrytelser og den straffbare handlingen var begått mot et barn under 18 år, med mindre særlige grunner tilsier at oppholdstillatelse likevel bør gis. Oppholdstillatelse kan også nektes dersom det er grunn til å frykte at særkullsbarnet vil bli utsatt for seksuelle overgrep. Dersom forelderens ektefelle er mistenkt eller siktet for et straffbart forhold som kan få betydning for søknaden, skal søknaden stilles i bero. Kongen kan gi nærmere regler om bestemmelsens anvendelse i forskrift.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 40 sjette ledd første punktum skal lyde:*
+
+> Oppholdstillatelse til særkullsbarn som nevnt i femte ledd skal som hovedregel nektes dersom referansepersonen (forelderens ektefelle) i løpet av de siste 10 årene er domfelt for overtredelse av straffelovens bestemmelser om seksuallovbrudd og den straffbare handlingen var begått mot et barn under 18 år, med mindre særlige grunner tilsier at oppholdstillatelse likevel bør gis.
+>
+
 ### 2016-06-17 — lov/2016-06-17-58
 
 *§ 40 annet ledd skal lyde:*
@@ -3476,6 +3887,13 @@ refid: "lov/2008-05-15-35"
 
 ## § 6
 
+### 2018-04-20 — lov/2018-04-20-8
+
+*§ 6 annet ledd skal lyde:*
+
+> Kongen kan i forskrift fravike lovens regler for innretninger og anlegg som nevnt i første ledd, samt gi forskrift om kontroll ved reise mellom disse og norsk landterritorium.
+>
+
 ### 2020-03-27 — lov/2020-03-27-16
 
 *§ 6 fjerde ledd skal lyde:*
@@ -3553,7 +3971,11 @@ refid: "lov/2008-05-15-35"
 
 *§ 62 første ledd bokstav d til f skal lyde:*
 
-> utlendingen har gjennomført pliktig norskopplæring i henhold til introduksjonsloven og ved avsluttende prøve i norsk behersker et minimum av norsk muntlig,utlendingen har gjennomført pliktig opplæring i samfunnskunnskap i henhold til introduksjonsloven og har bestått avsluttende prøve i samfunnskunnskap på et språk han eller hun forstår, ogutlendingen har vært selvforsørget de siste tolv månedene.
+> utlendingen har gjennomført pliktig norskopplæring i henhold til introduksjonsloven og ved avsluttende prøve i norsk behersker et minimum av norsk muntlig,
+>
+> utlendingen har gjennomført pliktig opplæring i samfunnskunnskap i henhold til introduksjonsloven og har bestått avsluttende prøve i samfunnskunnskap på et språk han eller hun forstår, og
+>
+> utlendingen har vært selvforsørget de siste tolv månedene.
 >
 
 ### 2016-06-17 — lov/2016-06-17-58
@@ -3738,7 +4160,9 @@ refid: "lov/2008-05-15-35"
 
 *§ 66 første ledd bokstav d og e skal lyde:*
 
-> når en administrativ myndighet i et Schengenland har truffet en endelig avgjørelse om bortvisning eller utvisning av utlendingen på grunn av manglende overholdelse av landets bestemmelser om utlendingers innreise eller opphold, ellernår utlendingen har overtrådt straffeloven §§ 147 a eller 147 b, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått en slik forbrytelse.
+> når en administrativ myndighet i et Schengenland har truffet en endelig avgjørelse om bortvisning eller utvisning av utlendingen på grunn av manglende overholdelse av landets bestemmelser om utlendingers innreise eller opphold, eller
+>
+> når utlendingen har overtrådt straffeloven §§ 147 a eller 147 b, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått en slik forbrytelse.
 >
 
 ### 2013-06-21 — lov/2013-06-21-92
@@ -3749,14 +4173,35 @@ refid: "lov/2008-05-15-35"
 
 *§ 66 annet ledd bokstav a og b skal lyde:*
 
-> når utlendingen ikke har overholdt plikten til å forlate riket innen utreisefristen gitt i medhold av § 90 femte ledd, ellernår utlendingen ikke er gitt en frist for frivillig returfordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a,fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 femte ledd bokstav b, ellerfordi utlendingen er funnet å utgjøre en trussel mot offentlig orden eller grunnleggende nasjonale interesser, jf. § 90 femte ledd bokstav c.
+> når utlendingen ikke har overholdt plikten til å forlate riket innen utreisefristen gitt i medhold av § 90 femte ledd, eller
+>
+> når utlendingen ikke er gitt en frist for frivillig retur fordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a, fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 femte ledd bokstav b, eller fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden eller grunnleggende nasjonale interesser, jf. § 90 femte ledd bokstav c.
+>
+> fordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a,
+>
+> fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 femte ledd bokstav b, eller
+>
+> fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden eller grunnleggende nasjonale interesser, jf. § 90 femte ledd bokstav c.
 >
 
 ### 2014-12-12 — lov/2014-12-12-71
 
 *§ 66 annet ledd bokstav b skal lyde:*
 
-> når utlendingen ikke er gitt en utreisefristfordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a,fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villledende opplysninger, jf. § 90 femte ledd bokstav b, ellerfordi utlendingen er funnet å utgjøre en trussel mot offentlig orden eller grunnleggende nasjonale interesser, jf. § 90 femte ledd bokstav c.
+> når utlendingen ikke er gitt en utreisefrist fordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a, fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villledende opplysninger, jf. § 90 femte ledd bokstav b, eller fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden eller grunnleggende nasjonale interesser, jf. § 90 femte ledd bokstav c.
+>
+> fordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a,
+>
+> fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villledende opplysninger, jf. § 90 femte ledd bokstav b, eller
+>
+> fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden eller grunnleggende nasjonale interesser, jf. § 90 femte ledd bokstav c.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 66 første ledd bokstav e skal lyde:*
+
+> når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd.
 >
 
 ### 2015-12-18 — lov/2015-12-18-127
@@ -3777,21 +4222,52 @@ refid: "lov/2008-05-15-35"
 
 *§ 66 annet ledd bokstav b skal lyde:*
 
-> når utlendingen ikke er gitt en utreisefristfordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a,fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbartvilledende opplysninger, jf. § 90 femte ledd bokstav b,fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden, jf. § 90 femte ledd bokstav c, ellerfordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, jf. § 129 femte ledd.
+> når utlendingen ikke er gitt en utreisefrist fordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a, fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 femte ledd bokstav b, fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden, jf. § 90 femte ledd bokstav c, eller fordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, jf. § 129 femte ledd.
+>
+> fordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a,
+>
+> fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart
+>
+> villedende opplysninger, jf. § 90 femte ledd bokstav b,
+>
+> fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden, jf. § 90 femte ledd bokstav c, eller
+>
+> fordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, jf. § 129 femte ledd.
 >
 
 ### 2016-06-17 — lov/2016-06-17-58
 
 *§ 66 første ledd bokstav d, e og ny bokstav f skal lyde:*
 
-> når en administrativ myndighet i et Schengenland har truffet en endelig avgjørelse om bortvisning eller utvisning av utlendingen på grunn av manglende overholdelse av landets bestemmelser om utlendingers innreise eller opphold,når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd, ellernår utlendingens søknad om beskyttelse er nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d, og søkeren også tidligere har fått søknad nektet realitetsbehandlet, og søknaden fremstår som et misbruk av asylsystemet.
+> når en administrativ myndighet i et Schengenland har truffet en endelig avgjørelse om bortvisning eller utvisning av utlendingen på grunn av manglende overholdelse av landets bestemmelser om utlendingers innreise eller opphold,
+>
+> når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd, eller
+>
+> når utlendingens søknad om beskyttelse er nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d, og søkeren også tidligere har fått søknad nektet realitetsbehandlet, og søknaden fremstår som et misbruk av asylsystemet.
 >
 
 ### 2016-06-17 — lov/2016-06-17-58
 
 *§ 66 annet ledd bokstav a og b skal lyde:*
 
-> når utlendingen ikke har overholdt plikten til å forlate riket innen utreisefristen gitt i medhold av § 90 sjette ledd, ellernår utlendingen ikke er gitt en utreisefristfordi det er fare for unndragelse, jf. § 90 sjette ledd bokstav a og § 106 a,fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 sjette ledd bokstav b,fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden, jf. § 90 sjette ledd bokstav c, ellerfordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, jf. § 129 femte ledd.
+> når utlendingen ikke har overholdt plikten til å forlate riket innen utreisefristen gitt i medhold av § 90 sjette ledd, eller
+>
+> når utlendingen ikke er gitt en utreisefrist fordi det er fare for unndragelse, jf. § 90 sjette ledd bokstav a og § 106 a, fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 sjette ledd bokstav b, fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden, jf. § 90 sjette ledd bokstav c, eller fordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, jf. § 129 femte ledd.
+>
+> fordi det er fare for unndragelse, jf. § 90 sjette ledd bokstav a og § 106 a,
+>
+> fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 sjette ledd bokstav b,
+>
+> fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden, jf. § 90 sjette ledd bokstav c, eller
+>
+> fordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, jf. § 129 femte ledd.
+>
+
+### 2018-04-20 — lov/2018-04-20-8
+
+*§ 66 første ledd bokstav a skal lyde:*
+
+> når utlendingen grovt eller gjentatte ganger har overtrådt en eller flere bestemmelser i loven her eller grenseloven, forsettlig eller grovt uaktsomt har gitt vesentlig uriktige eller åpenbart villedende opplysninger i en sak etter loven, eller unndrar seg gjennomføringen av et vedtak som innebærer at vedkommende skal forlate riket,
 >
 
 ### 2018-04-20 — lov/2018-04-20-9
@@ -3805,14 +4281,18 @@ refid: "lov/2008-05-15-35"
 
 *§ 66 første ledd bokstav e og f og ny bokstav g skal lyde:*
 
-> når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd,når utlendingens søknad om beskyttelse er nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d, og søkeren også tidligere har fått søknad nektet realitetsbehandlet, og søknaden fremstår som et misbruk av asylsystemet, ellernår utlendingen er utelukket fra rett til anerkjennelse som flyktning etter § 31 første ledd bokstav a til c, annet eller tredje ledd, eller ville blitt det ved en vurdering etter disse bestemmelsene.
+> når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd,
+>
+> når utlendingens søknad om beskyttelse er nektet realitetsbehandlet i medhold av § 32 første ledd bokstav a eller d, og søkeren også tidligere har fått søknad nektet realitetsbehandlet, og søknaden fremstår som et misbruk av asylsystemet, eller
+>
+> når utlendingen er utelukket fra rett til anerkjennelse som flyktning etter § 31 første ledd bokstav a til c, annet eller tredje ledd, eller ville blitt det ved en vurdering etter disse bestemmelsene.
 >
 
 ### 2020-05-29 — lov/2020-05-29-57
 
 *§ 66 første ledd bokstav c skal lyde:*
 
-> når utlendingen her i riket er ilagt straff eller særreaksjon for et forhold som kan føre til fengselsstraff, eller for overtredelse av et av følgende straffebud i straffeloven:§ 323 (mindre tyveri)§ 326 (mindre underslag)§ 334 (mindre heleri)§ 339 (mindre hvitvasking)§ 362 (mindre dokumentfalsk)§ 373 (mindre bedrageri)
+> når utlendingen her i riket er ilagt straff eller særreaksjon for et forhold som kan føre til fengselsstraff, eller for overtredelse av et av følgende straffebud i straffeloven: § 323 (mindre tyveri) § 326 (mindre underslag) § 334 (mindre heleri) § 339 (mindre hvitvasking) § 362 (mindre dokumentfalsk) § 373 (mindre bedrageri)
 >
 
 ### 2021-06-11 — lov/2021-06-11-70
@@ -3860,7 +4340,9 @@ refid: "lov/2008-05-15-35"
 
 *§ 67 første ledd bokstav c og d skal lyde:*
 
-> når utlendingen har sonet eller er ilagt straff eller særreaksjon for brudd på straffeloven §§ 271, 272, 273 og 274,når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått en slik forbrytelse, eller
+> når utlendingen har sonet eller er ilagt straff eller særreaksjon for brudd på straffeloven §§ 271, 272, 273 og 274,
+>
+> når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått en slik forbrytelse, eller
 >
 
 ### 2012-01-20 — lov/2012-01-20-5
@@ -3874,12 +4356,23 @@ refid: "lov/2008-05-15-35"
 
 *§ 67 første ledd bokstav c og d skal lyde:*
 
-> når utlendingen har sonet eller er ilagt straff eller særreaksjon for brudd på straffeloven §§ 228 første ledd, 237, 342 første ledd bokstav b eller c, 352 a, 384 eller 385, ellernår utlendingen har overtrådt straffeloven §§ 147 a eller 147 b, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått en slik forbrytelse.
+> når utlendingen har sonet eller er ilagt straff eller særreaksjon for brudd på straffeloven §§ 228 første ledd, 237, 342 første ledd bokstav b eller c, 352 a, 384 eller 385, eller
+>
+> når utlendingen har overtrådt straffeloven §§ 147 a eller 147 b, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått en slik forbrytelse.
 >
 
 ### 2013-06-21 — lov/2013-06-21-92
 
 *§ 67 første ledd bokstav e oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 67 første ledd bokstav c og d skal lyde:*
+
+> når utlendingen har sonet eller er ilagt straff eller særreaksjon for brudd på straffeloven §§ 168, 189 annet ledd, 271 første ledd, eller
+>
+> når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd.
+>
 
 ### 2015-12-18 — lov/2015-12-18-127
 
@@ -3899,14 +4392,26 @@ refid: "lov/2008-05-15-35"
 
 *§ 67 første ledd bokstav c og d og ny bokstav e skal lyde:*
 
-> når utlendingen har sonet eller er ilagt straff eller særreaksjon for brudd på straffeloven §§ 168, 189 annet ledd, 271 første ledd,når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd, ellernår utlendingen er utelukket fra rett til anerkjennelse som flyktning etter § 31 første ledd bokstav a til c, annet eller tredje ledd, eller ville blitt det ved en vurdering etter disse bestemmelsene.
+> når utlendingen har sonet eller er ilagt straff eller særreaksjon for brudd på straffeloven §§ 168, 189 annet ledd, 271 første ledd,
+>
+> når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd, eller
+>
+> når utlendingen er utelukket fra rett til anerkjennelse som flyktning etter § 31 første ledd bokstav a til c, annet eller tredje ledd, eller ville blitt det ved en vurdering etter disse bestemmelsene.
 >
 
 ### 2020-05-29 — lov/2020-05-29-57
 
 *§ 67 første ledd bokstav b til e og ny bokstav f skal lyde:*
 
-> når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff eller særreaksjon for et forhold som kan føre til fengselsstraff i mer enn ett år,når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff eller særreaksjon for overtredelse av et av følgende straffebud i straffeloven:§ 168 (brudd på oppholds- og kontaktforbud)§ 182 første ledd (opptøyer)§ 189 (ulovlig bevæpning på offentlig sted)§ 231 annet ledd (uaktsom narkotikaovertredelse)§ 237 fjerde ledd (grovt uaktsom smitteoverføring)§ 262 første ledd (brudd på ekteskapsloven)§ 263 (trusler)§ 271 første ledd (kroppskrenkelse)§ 297 (seksuell handling uten samtykke)§ 298 (seksuelt krenkende atferd offentlig eller uten samtykke)§ 305 (seksuelt krenkende atferd mv. overfor barn under 16 år)§ 306 (avtale om møte for å begå seksuelt overgrep)§ 374 første punktum (grovt uaktsomt bedrageri)§ 380 (grovt uaktsomt skattesvik)når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd,når utlendingen er utelukket fra rett til anerkjennelse som flyktning etter § 31 første ledd bokstav a til c, annet eller tredje ledd, eller ville blitt det ved en vurdering etter disse bestemmelsene, ellernår utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff for alvorlig overtredelse av én eller flere bestemmelser i vegtrafikkloven, og utlendingen ble dømt til ubetinget fengselsstraff, den straffbare handlingen skapte særlig stor fare for andre trafikanter eller for allmennheten, eller utlendingen er straffet for flere lovovertredelser som kan føre til tap av retten til å føre motorvogn, eller for flere tilfeller av kjøring uten førerrett.
+> når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff eller særreaksjon for et forhold som kan føre til fengselsstraff i mer enn ett år,
+>
+> når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff eller særreaksjon for overtredelse av et av følgende straffebud i straffeloven: § 168 (brudd på oppholds- og kontaktforbud) § 182 første ledd (opptøyer) § 189 (ulovlig bevæpning på offentlig sted) § 231 annet ledd (uaktsom narkotikaovertredelse) § 237 fjerde ledd (grovt uaktsom smitteoverføring) § 262 første ledd (brudd på ekteskapsloven) § 263 (trusler) § 271 første ledd (kroppskrenkelse) § 297 (seksuell handling uten samtykke) § 298 (seksuelt krenkende atferd offentlig eller uten samtykke) § 305 (seksuelt krenkende atferd mv. overfor barn under 16 år) § 306 (avtale om møte for å begå seksuelt overgrep) § 374 første punktum (grovt uaktsomt bedrageri) § 380 (grovt uaktsomt skattesvik)
+>
+> når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd,
+>
+> når utlendingen er utelukket fra rett til anerkjennelse som flyktning etter § 31 første ledd bokstav a til c, annet eller tredje ledd, eller ville blitt det ved en vurdering etter disse bestemmelsene, eller
+>
+> når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff for alvorlig overtredelse av én eller flere bestemmelser i vegtrafikkloven, og utlendingen ble dømt til ubetinget fengselsstraff, den straffbare handlingen skapte særlig stor fare for andre trafikanter eller for allmennheten, eller utlendingen er straffet for flere lovovertredelser som kan føre til tap av retten til å føre motorvogn, eller for flere tilfeller av kjøring uten førerrett.
 >
 
 ### 2021-06-11 — lov/2021-06-11-70
@@ -3936,12 +4441,21 @@ refid: "lov/2008-05-15-35"
 
 *§ 68 første ledd bokstav b og c skal lyde:*
 
-> når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff eller særreaksjon for et forhold som kan føre til fengselsstraff i to år eller mer, ellernår utlendingen har overtrådt straffeloven §§ 147 a eller 147 b, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått en slik forbrytelse.
+> når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff eller særreaksjon for et forhold som kan føre til fengselsstraff i to år eller mer, eller
+>
+> når utlendingen har overtrådt straffeloven §§ 147 a eller 147 b, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått en slik forbrytelse.
 >
 
 ### 2013-06-21 — lov/2013-06-21-92
 
 *§ 68 første ledd bokstav d oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 68 første ledd bokstav c skal lyde:*
+
+> når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd.
+>
 
 ### 2015-12-18 — lov/2015-12-18-127
 
@@ -3961,14 +4475,18 @@ refid: "lov/2008-05-15-35"
 
 *§ 68 første ledd bokstav b og c og ny bokstav d skal lyde:*
 
-> når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff eller særreaksjon for et forhold som kan føre til fengselsstraff i to år eller mer, eller for brudd på straffeloven § 182 første ledd (opptøyer), § 231 (narkotikaovertredelse), § 237 fjerde ledd (grovt uaktsom smitteoverføring), § 262 første ledd (brudd på ekteskapsloven), § 263 (trusler), § 305 (seksuelt krenkende atferd mv. overfor barn under 16 år) eller § 374 første alternativ (grovt uaktsomt bedrageri),når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd, ellernår utlendingen er utelukket fra rett til anerkjennelse som flyktning etter § 31 første ledd bokstav a til c, annet eller tredje ledd, eller ville blitt det ved en vurdering etter disse bestemmelsene.
+> når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff eller særreaksjon for et forhold som kan føre til fengselsstraff i to år eller mer, eller for brudd på straffeloven § 182 første ledd (opptøyer), § 231 (narkotikaovertredelse), § 237 fjerde ledd (grovt uaktsom smitteoverføring), § 262 første ledd (brudd på ekteskapsloven), § 263 (trusler), § 305 (seksuelt krenkende atferd mv. overfor barn under 16 år) eller § 374 første alternativ (grovt uaktsomt bedrageri),
+>
+> når utlendingen har overtrådt straffeloven kapittel 18, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått et slikt lovbrudd, eller
+>
+> når utlendingen er utelukket fra rett til anerkjennelse som flyktning etter § 31 første ledd bokstav a til c, annet eller tredje ledd, eller ville blitt det ved en vurdering etter disse bestemmelsene.
 >
 
 ### 2020-05-29 — lov/2020-05-29-57
 
 *§ 68 første ledd bokstav b skal lyde:*
 
-> når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff eller særreaksjon for et forhold som kan føre til fengselsstraff i to år eller mer, eller for overtredelse av et av følgende straffebud i straffeloven:§ 182 første ledd (opptøyer)§ 189 (ulovlig bevæpning på offentlig sted)§ 231 annet ledd (uaktsom narkotikaovertredelse)§ 237 fjerde ledd (grovt uaktsom smitteoverføring)§ 262 første ledd (brudd på ekteskapsloven)§ 263 (trusler)§ 297 (seksuell handling uten samtykke)§ 298 (seksuelt krenkende atferd offentlig eller uten samtykke)§ 305 (seksuelt krenkende atferd mv. overfor barn under 16 år)§ 306 (avtale om møte for å begå seksuelt overgrep)§ 374 første punktum (grovt uaktsomt bedrageri)
+> når utlendingen for mindre enn ett år siden her i riket har sonet eller er ilagt straff eller særreaksjon for et forhold som kan føre til fengselsstraff i to år eller mer, eller for overtredelse av et av følgende straffebud i straffeloven: § 182 første ledd (opptøyer) § 189 (ulovlig bevæpning på offentlig sted) § 231 annet ledd (uaktsom narkotikaovertredelse) § 237 fjerde ledd (grovt uaktsom smitteoverføring) § 262 første ledd (brudd på ekteskapsloven) § 263 (trusler) § 297 (seksuell handling uten samtykke) § 298 (seksuelt krenkende atferd offentlig eller uten samtykke) § 305 (seksuelt krenkende atferd mv. overfor barn under 16 år) § 306 (avtale om møte for å begå seksuelt overgrep) § 374 første punktum (grovt uaktsomt bedrageri)
 >
 
 ### 2020-05-29 — lov/2020-05-29-57
@@ -4173,6 +4691,13 @@ refid: "lov/2008-05-15-35"
 > Utlendingsnemnda avgjør som et uavhengig organ de sakene som er lagt til den i § 76 første og tredje ledd.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 77 femte ledd siste punktum skal lyde:*
+
+> Overtredelse straffes etter straffeloven § 209.
+>
+
 ### 2020-06-12 — lov/2020-06-12-66
 
 *§ 77 fjerde til sjuende ledd skal lyde:*
@@ -4269,18 +4794,6 @@ refid: "lov/2008-05-15-35"
 *§ 79 nytt tredje ledd skal lyde:*
 
 > Søksmål mot staten om gyldigheten av vedtak truffet av Utlendingsnemnda etter loven her, eller om erstatning som følge av slike vedtak, anlegges ved Oslo tingrett. Tilsvarende gjelder for søksmål om vedtak truffet av Utlendingsdirektoratet og Kongen i statsråd. Tvisteloven § 32-4 annet ledd får ikke anvendelse.
->
-> 2. I lov 27. november 1992 nr. 112 om gjennomføring i norsk rett av vedlegg V punkt 2 rådsforordning (EØF) nr. 1612/68 i EØS-avtalen om fri bevegelse for arbeidstakere mv. innenfor EØS skal § 1 første punktum lyde:
->
-> EØS-avtalens vedlegg V punkt 2 (rådsforordning (EØF) nr. 1612/68 som endret ved rådsforordningene (EØF) nr. 312/76 og nr. 2434/92 og direktiv 2004/38/EF) om fri bevegelighet for arbeidstakere m v innenfor EØS gjelder som lov med de endringer og tillegg som følger av vedlegg V, protokoll 1 til avtalen og avtalen for øvrig.
->
-> 3. I lov om utdanningsstøtte 3. juni 2005 nr. 37 skal § 3 annet ledd første punktum lyde:
->
-> Loven gjelder for norske statsborgere og for EØS-borgere eller EFTA-borgere som har arbeidstilknytning, eller EØS-borger som har annen særlig tilknytning til Norge.
->
-> 4. I lov 7. mars 1940 nr. 1 om adgangen til visse områder skal § 2 tredje ledd lyde:
->
-> Utlending som handler mot disse bestemmelser, kan utvises av riket i overensstemmelse med utlendingsloven kapittel 8.
 >
 
 ### 2013-06-21 — lov/2013-06-21-92
@@ -4481,6 +4994,13 @@ refid: "lov/2008-05-15-35"
 > Politiet skal uten hinder av taushetsplikt og etter skriftlig anmodning til mottak, omsorgssenter som nevnt i annet ledd eller Utlendingsdirektoratet få utlevert følgende opplysninger når det er nødvendig for politiets oppgaver etter utlendingsloven eller for politimessige formål som nevnt i politiregisterloven § 2 nr. 13:navn, fødselsdato og nasjonalitet til nåværende og tidligere beboere i asylmottak eller omsorgssenterdato for når beboere har flyttet til eller fra mottaket eller omsorgssenteretvarigheten av eventuelle permisjoner fra mottaket eller omsorgssenteretnytt bosted.
 >
 > Kongen kan gi forskrift om hvilke opplysninger som skal gis etter første ledd, om fremgangsmåten for innhenting av opplysninger etter første og tredje ledd, og den videre behandling av de innhentede opplysninger.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 84 b annet ledd skal lyde:*
+
+> For beboere som er enslige, mindreårige asylsøkere, kan utlendingsmyndighetene ikke anmode ansatte som nevnt i første ledd, og ansatte i omsorgssentre for enslige mindreårige asylsøkere og barnevernsinstitusjoner, jf. barnevernsloven kapittel 10 og 11, om opplysninger etter første ledd.
 >
 
 ### 2025-04-04 — lov/2025-04-04-7

@@ -92,6 +92,24 @@ refid: "lov/2018-06-22-83"
 > Hvis varaordføreren trer midlertidig ut av vervet, skal det velges en ny varaordfører midlertidig. Hvis varaordføreren trer endelig ut av vervet, skal det velges en ny varaordfører.
 >
 
+## § 7-1
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 7-1 andre ledd første punktum skal lyde:*
+
+> Som første sak i det konstituerende møtet tar kommunestyret og fylkestinget stilling til om kommunestyrevalget eller fylkestingsvalget er gyldig, jf. valgloven § 15-2 første ledd og § 15-3 første ledd.
+>
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 7-1 nytt sjette og syvende ledd skal lyde:*
+
+> Hvis valgperioden for de sittende kommunestyremedlemmene eller fylkestingsmedlemmene forlenges ved et omvalg, jf. valgloven § 17-3 første ledd og § 18-6 første ledd, forlenges funksjonstiden tilsvarende for medlemmer av andre folkevalgte organer i kommunene og fylkeskommunene, med et tillegg på inntil to måneder.
+>
+> Hvis de nyvalgte kommunestyremedlemmene eller fylkestingsmedlemmene blir sittende i vervene ved et omvalg, jf. valgloven § 17-3 andre ledd og § 18-6 andre ledd, blir funksjonstiden til medlemmene av andre folkevalgte organer i kommunene og fylkeskommunene forlenget inntil omvalget til kommunestyret eller fylkestinget er endelig godkjent, med et tillegg på inntil to måneder.
+>
+
 ## § 7-2
 
 ### 2019-06-21 — lov/2019-06-21-55
@@ -104,6 +122,19 @@ refid: "lov/2018-06-22-83"
 ### 2019-06-21 — lov/2019-06-21-55
 
 *§ 7-2 fjerde ledd oppheves. Nåværende femte og sjette ledd blir fjerde og femte ledd.*
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 7-2 andre ledd skal lyde:*
+
+> Valgbarhet og plikt til å ta imot valg til kommunestyret og fylkestinget er regulert i valgloven §§ 3-2 og 3-4.
+>
+
+## § 7-3
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 7-3 sjette ledd oppheves. Nåværende syvende ledd blir sjette ledd.*
 
 ## § 7-5
 
@@ -191,6 +222,15 @@ refid: "lov/2018-06-22-83"
 *§ 11-3 femte ledd skal lyde:*
 
 > Et folkevalgt organ kan fatte vedtak i en sak som ikke er oppført på sakslisten, hvis ikke møtelederen eller minst 1/3 av de møtende medlemmene motsetter seg det. På tilsvarende måte kan organet fatte vedtak i en sak der saksdokumentene ikke er sendt ut sammen med innkallingen, hvis ikke møtelederen eller minst 1/3 av de møtende medlemmene motsetter seg det.
+>
+
+## § 11-9
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 11-9 andre ledd første punktum skal lyde:*
+
+> Et vedtak treffes med flertallet av de avgitte stemmene hvis ikke noe annet følger av denne loven eller av valgloven § 9-1 femte ledd.
 >
 
 ## § 11-10
@@ -317,6 +357,19 @@ refid: "lov/2018-06-22-83"
 
 *§ 27-1 første ledd andre punktum oppheves. Nåværende tredje til sjette punktum blir andre til femte punktum.*
 
+## § 27-2
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 27-2 andre ledd ny bokstav d skal lyde:*
+
+> avgjørelse om kommunestyrevalget eller fylkestingsvalget er gyldig, jf. valgloven § 15-2 første ledd og § 15-3 første ledd.
+>
+> 5.I lov 20. mai 2005 nr. 28 om straff skal § 151 andre ledd lyde:
+>
+> Med offentlig valg menes folkeavstemning, valg etter valgloven og valg etter sameloven kapittel 2.
+>
+
 ## § 31-4
 
 ### 2019-06-21 — lov/2019-06-21-55
@@ -345,6 +398,43 @@ refid: "lov/2018-06-22-83"
 > Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Det konstituerende møtet skal finne sted innen utgangen av oktober 2019, jf. kommuneloven § 7-1. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020, med unntak for kap. 25, iflg. kgl.res. 20. des 2018 nr. 2062. § 31-6 trer i kraft 1. november 2019, iflg. kgl.res. 25 juni 2019 nr. 879.
 >
 
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2020-01-01 — forskrift/2019-06-21-776
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-12-30 — forskrift/2020-11-27-2486
+
+*Ikraftsetting av lov 23. juni 2020 nr. 97 om endringer i gravferdsloven mv. (urnevegg mv.). Loven trer i kraft 30. desember 2020.*
+
+> Ikraftsetting av lov 23. juni 2020 nr. 97 om endringer i gravferdsloven mv. (urnevegg mv.). Loven trer i kraft 30. desember 2020.
+>
+
+### 2021-01-01 — forskrift/2020-06-23-1281
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-01-01 — forskrift/2020-09-25-1825
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapittel 25 trer i kraft 1. januar 2021.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapittel 25 trer i kraft 1. januar 2021.
+>
+> Ikraftsetting av lov 19. juni 2020 nr. 89 om endringer av internkontrollregler i sektorlovgivningen (tilpasning til ny kommunelov). Loven trer i kraft 1. januar 2021.
+>
+
 ### 2021-04-23 — lov/2021-04-23-24
 
 *I lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner skal ny § 7-2 a lyde:*
@@ -352,6 +442,20 @@ refid: "lov/2018-06-22-83"
 > § 7-2 a.Valgbarhet ved valg til stemmestyrer ved stortingsvalget i 2021
 >
 > § 7-2 tredje ledd bokstav b gjelder ikke ved valg til stemmestyrer etter valgloven § 4-2 ved stortingsvalget i 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
 >
 
 ### 2023-06-02 — lov/2023-06-02-21
@@ -366,9 +470,41 @@ refid: "lov/2018-06-22-83"
 
 *Nåværende § 8-1 andre ledd blir nytt tredje ledd.*
 
+### 2023-07-01 — forskrift/2023-06-02-767
+
+*Lova trer i kraft 1. juli 2023.*
+
+> Lova trer i kraft 1. juli 2023.
+>
+
+### 2024-05-01 — forskrift/2024-03-22-553
+
+*Delt ikraftsetjing av lov 16. juni 2023 nr. 62 om valg til Stortinget, fylkesting og kommunestyrer (valgloven). Lova tek til å gjelde 1. mai 2024, med unntak av endringane i partilova § 3, § 4 og § 9 i vallova § 22-2 nr. 3.*
+
+> Delt ikraftsetjing av lov 16. juni 2023 nr. 62 om valg til Stortinget, fylkesting og kommunestyrer (valgloven). Lova tek til å gjelde 1. mai 2024, med unntak av endringane i partilova § 3, § 4 og § 9 i vallova § 22-2 nr. 3.
+>
+
 ### 2025-06-20 — lov/2025-06-20-96
 
 *13.I lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner skal § 3-2 tredje ledd første og andre punktum lyde:*
 
 > Kommunen og fylkeskommunen skal uten ugrunnet opphold sende vedtak om kommunale eller fylkeskommunale våpen og flagg til Nasjonalarkivet. Nasjonalarkivet skal publisere mottatte våpen og flagg uten ugrunnet opphold.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
 >

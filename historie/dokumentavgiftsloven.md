@@ -5,11 +5,58 @@ refid: "lov/1975-12-12-59"
 
 # Endringshistorikk: Dokumentavgiftsloven – dal
 
+## § 3-13
+
+### 2004-05-28 — lov/2004-05-28-29
+
+*§ 3-13 nr. 2 bokstav b skal lyde:*
+
+> til offentlig myndighet for bruk i forbindelse med håndheving av lovgivningen om arbeidsmiljø, regnskapsplikt og regnskapsførere, revisjonsvesen eller aksjeselskaper, eller som reviderer offentlig virksomhet,
+>
+
+## § 12-1
+
+### 2004-05-28 — lov/2004-05-28-29
+
+*§ 12-1 nr. 1 bokstav c oppheves.*
+
 ## (annet)
 
 ### 2007-01-01 — lov/2006-12-15-76
 
 *Nåværende § 7 tredje til sjette ledd, blir nye annet til femte ledd.*
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*77. I lov 12. desember 1975 nr. 59 om dokumentavgift skal ny § 5 a lyde:*
+
+> Med bot eller fengsel inntil 2 år straffes den som unnlater å medvirke til kontrollundersøkelse etter forskrifter gitt i medhold av denne lov.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
 
 ## § 2
 
@@ -17,14 +64,18 @@ refid: "lov/1975-12-12-59"
 
 *§ 2 bokstav e og ny bokstav f skal lyde:*
 
-> betaling av renter av avgift som blir erlagt for sent og rentegodtgjørelse ved tilbakebetaling av avgift,innbetalingsordningen og om bankers plikt til å avvise betalingsoppdrag med mangelfulle opplysninger.
+> betaling av renter av avgift som blir erlagt for sent og rentegodtgjørelse ved tilbakebetaling av avgift,
+>
+> innbetalingsordningen og om bankers plikt til å avvise betalingsoppdrag med mangelfulle opplysninger.
 >
 
 ### 2011-06-24 — lov/2011-06-24-21
 
 *§ 2 bokstav e og f skal lyde:*
 
-> betaling av renter av avgift som blir erlagt for sent og rentegodtgjørelse ved tilbakebetaling av avgift,innbetalingsordningen og om bankers plikt til å avvise betalingsoppdrag med mangelfulle opplysninger.
+> betaling av renter av avgift som blir erlagt for sent og rentegodtgjørelse ved tilbakebetaling av avgift,
+>
+> innbetalingsordningen og om bankers plikt til å avvise betalingsoppdrag med mangelfulle opplysninger.
 >
 
 ## § 5

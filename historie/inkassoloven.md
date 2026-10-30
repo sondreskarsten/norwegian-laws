@@ -59,11 +59,39 @@ refid: "lov/1988-05-13-26"
 > Foreldelse avbrytes etter foreldelsesloven § 16 nr. 2 bokstav a når tvist om krav som nemnda har myndighet til å behandle (jf. § 22 første ledd), bringes inn til avgjørelse for nemnda.
 >
 
+### 2007-02-27 — lov/2007-01-26-3
+
+*88. I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav skal § 23 første ledd annet punktum lyde:*
+
+> Gjelder tvisten fordringshaverens krav på å få dekket kostnadene ved inndrivingen, kan den likevel bringes inn etter tvistelovens regler til behandling for de alminnelige domstolene sammen med hovedkravet.
+>
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*12. I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav, skal § 5 syvende ledd nytt annet og tredje punktum lyde:*
+
+> Til utfylling av reglene i tjenesteloven kan Kongen gi forskrift om behandling av inkassobevilling, herunder om frister og rettsvirkninger ved fristoverskridelse. Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.
+>
+
+### 2009-12-21 — forskrift/2009-12-18-1603
+
+*Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.*
+
+> Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.
+>
+
 ### 2010-12-10 — lov/2010-12-10-75
 
 *I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav skal § 4 femte ledd nytt annet punktum lyde:*
 
 > Kongen kan i forskrift gi regler om at Finanstilsynet uhindret av taushetsplikten kan eller skal gi opplysninger om en inkassator som har norsk inkassobevilling og midlertidig utøver inkassovirksomhet i en annen EØS-stat, til relevant myndighet i vedkommende EØS-stat.
+>
+
+### 2011-07-01 — forskrift/2011-06-24-647
+
+*Loven gjelder fra 1. juli 2011.*
+
+> Loven gjelder fra 1. juli 2011.
 >
 
 ### 2012-06-22 — lov/2012-06-22-35
@@ -78,6 +106,70 @@ refid: "lov/1988-05-13-26"
 *I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav skal § 5 sjette ledd lyde:*
 
 > Politiattest etter paragrafen her skal bare vise merknader om strafferettslige reaksjoner for overtredelse av straffeloven kapittel 15, 18, 22, 24 til 28 og 31, inkassoloven, konkurranselovgivningen, konkurslovgivningen, regnskapslovgivningen, selskapslovgivningen, skatte- og avgiftslovgivningen og verdipapirlovgivningen. Overtredelsene skal anmerkes i samsvar med politiregisterloven § 41 nr. 1. Fornyet vandelskontroll kan foretas i samsvar med politiregisterloven § 43.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
+### 2016-01-01 — forskrift/2015-12-11-1438
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
+### 2017-04-18 — forskrift/2017-03-31-414
+
+*Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.*
+
+> Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.
+>
+> Lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. (elektronisk tinglysing) gjelder fra 18. april 2017, med følgende unntak:
+>
+> endringene i tinglysingsloven gjelder ikke for tinglysing i Akvakulturregisteret.
+>
+> endringene i tinglysingsloven § 7 første ledd første og annet punktum gjelder ikke for tinglysing i Løsøreregisteret.
+>
+> Frem til tinglysingsloven § 7 første ledd første og annet punktum som endret ved lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. trer i kraft for tinglysing i Løsøreregisteret, skal et dokument som kreves tinglyst i Løsøreregisteret, registreres snarest mulig. Dokument som kommer inn til kontoret elektronisk eller på papir innen klokken 14.00, skal anses som registrert den dato det er kommet inn. Kommer det senere, skal det anses som registrert den neste kontordagen. Er kontortiden enkelte dager slutt før kl. 14.00, opphører adgangen til innføring i registeret ved kontortidens slutt.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
+### 2018-10-15 — forskrift/2018-09-14-1326
+
+*Ikraftsetting av lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering (hvitvaskingsloven). Loven trer i kraft 15. oktober 2018.*
+
+> Ikraftsetting av lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering (hvitvaskingsloven). Loven trer i kraft 15. oktober 2018.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-779
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2019-12-20 — lov/2019-12-20-109
+
+*2. I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav skal § 28 andre ledd lyde:*
+
+> Første ledd hindrer ikke at opplysninger overlates til eller lovlig brukes i foretak som driver kredittopplysningsvirksomhet i samsvar med kredittopplysningsloven.
+>
+
+### 2020-05-01 — forskrift/2020-04-24-870
+
+*Delt ikraftsetting av lov 13. desember 2019 nr. 79 om endringer i finansforetaksloven mv. (diverse endringer). Endringsloven del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr.*
+
+> Delt ikraftsetting av lov 13. desember 2019 nr. 79 om endringer i finansforetaksloven mv. (diverse endringer). Endringsloven del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd, trer i kraft 1. mai 2020.
 >
 
 ### 2022-05-12 — lov/2022-05-12-28
@@ -102,11 +194,32 @@ refid: "lov/1988-05-13-26"
 > Det kan kreves gebyr for behandling av klage som angitt i første ledd. Departementet kan gi forskrift om når gebyr skal kreves, om gebyrenes størrelse og om innkrevingen.
 >
 
+### 2022-07-01 — forskrift/2022-05-20-872
+
+*Ikraftsetting av lov 20. desember 2019 nr. 109 om behandling av opplysninger i kredittopplysningsvirksomhet. Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 20. desember 2019 nr. 109 om behandling av opplysninger i kredittopplysningsvirksomhet. Loven trer i kraft 1. juli 2022.
+>
+
+### 2023-01-01 — forskrift/2022-12-02-2075
+
+*Ikraftsetting av lov 3. juni 2022 nr. 33 om endringer i inkassoloven og finanstilsynsloven (klagebehandlingen av Finanstilsynets vedtak etter inkassoloven). Loven trer i kraft 1. januar 2023.*
+
+> Ikraftsetting av lov 3. juni 2022 nr. 33 om endringer i inkassoloven og finanstilsynsloven (klagebehandlingen av Finanstilsynets vedtak etter inkassoloven). Loven trer i kraft 1. januar 2023.
+>
+
 ### 2024-06-21 — lov/2024-06-21-46
 
 *4.I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav skal § 19 andre ledd lyde:*
 
 > Kongen kan gi forskrift om høyere beløp som en fordringshaver kan kreve av en erstatningsansvarlig skyldner som erstatning for kostnader ved å drive inn kravet selv, når en advokat som har stilt sikkerhet etter advokatloven § 5, har den faglige ledelse av inndrivingen.
+>
+
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
 >
 
 ### 2026-05-22 — lov/2026-05-22-19
@@ -272,13 +385,19 @@ refid: "lov/1988-05-13-26"
 
 > Den som uaktsomt overtrer første ledd, straffes med bøter.
 >
-> 128. I lov 20. mai 1988 nr. 32 om militær disiplinærmyndighet skal § 10 første ledd lyde:
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 32 første ledd innledningen skal lyde:*
+
+> Med bøter eller fengsel inntil tre måneder, eller begge deler, straffes den som overtrer
 >
-> Er et anmeldt forhold straffbart etter borgerlig lov og undergitt offentlig påtale, eller begjæres påtale av allmenne hensyn, eller er det annen grunn til å regne med at straffesak vil bli reist, bør refselse bare brukes dersom spesielle forhold gjør en forføyning nødvendig.
->
-> 129. I lov 10. juni 1988 nr. 40 om finansieringsvirksomhet og finansinstitusjoner skal § 5-1 lyde:
->
-> Den som forsettlig eller uaktsomt overtrer denne lov eller bestemmelse eller pålegg gitt med hjemmel i loven, straffes med bøter, eller under særlig skjerpende omstendigheter med fengsel i inntil 1 år, dersom forholdet ikke går inn under noen strengere straffebestemmelse.
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 32 annet ledd skal lyde:*
+
+> Den som uaktsomt overtrer første ledd, straffes med bøter.
 >
 
 ## § 4

@@ -7,6 +7,13 @@ refid: "lov/2020-11-06-127"
 
 ## (annet)
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2021-06-11 — lov/2021-06-11-78
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
@@ -14,6 +21,33 @@ refid: "lov/2020-11-06-127"
 ### 2021-06-11 — lov/2021-06-11-78
 
 *Nåværende §§ 50 til 52 blir §§ 51 til ny 53.*
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*29. I lov 6. november 2020 nr. 127 om integrering gjennom opplæring, utdanning og arbeid skal § 49 lyde:*
+
+> § 49.Opplysningsplikt til barnevernet
+>
+> Personell som arbeider innenfor rammen av denne loven, skal i sitt arbeid være oppmerksom på forhold som kan føre til tiltak fra barnevernstjenesten.
+>
+> Personell som arbeider innenfor rammen av denne loven, skal uten hinder av taushetsplikt melde fra til barnevernstjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling,når det er grunn til å tro at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når et barn har vist alvorlige atferdsvansker ved å begå alvorlige eller gjentatte lovbrudd, ved problematisk bruk av rusmidler, eller ved å ha vist annen form for utpreget normløs atferd,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Personell som arbeider innenfor rammen av denne loven, plikter også å gi opplysninger etter pålegg i samsvar med barnevernsloven § 13-4.
+>
+
+### 2022-01-01 — forskrift/2021-06-18-1974
+
+*Endringsloven trer i kraft 1. januar 2022.*
+
+> Endringsloven trer i kraft 1. januar 2022.
+>
+
+### 2022-01-01 — forskrift/2021-09-03-2653
+
+*Ikraftsetting av lov 11. juni 2021 nr. 79 om offentlige organers ansvar for bruk av tolk mv. (tolkeloven). Loven trer i kraft 1. januar 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 79 om offentlige organers ansvar for bruk av tolk mv. (tolkeloven). Loven trer i kraft 1. januar 2022.
+>
 
 ### 2022-06-10 — lov/2022-06-10-35
 
@@ -62,6 +96,27 @@ refid: "lov/2020-11-06-127"
 > Dersom kapasitetshensyn i kommunen eller fylkeskommunen gjør det nødvendig, kan en midlertidig forskrift etter første ledd også fravike kravene som følger av bestemmelsene som nevnt i første ledd bokstav a til g, for andre enn personer som har fått oppholdstillatelse etter utlendingsloven § 34.
 >
 
+### 2022-06-15 — forskrift/2022-06-10-994
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
+>
+
+### 2022-08-01 — forskrift/2022-05-20-871
+
+*Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-06-09 — lov/2023-06-09-24
 
 *Nåværende § 9 andre ledd blir nytt tredje ledd.*
@@ -77,6 +132,13 @@ refid: "lov/2020-11-06-127"
 > § 37 f.Behandling av kompetanseopplysninger
 >
 > Departementet kan gi midlertidig forskrift om innhenting og utlevering av kompetanseopplysninger, uten hinder av taushetsplikt, fra Integrerings- og mangfoldsdirektoratets registre for å legge til rette for at personer som er innvilget midlertidig kollektiv beskyttelse etter utlendingsloven § 34, kan sysselsettes i det statlige, kommunale eller fylkeskommunale tjenestetilbudet. Med kompetanseopplysninger menes opplysninger som er innhentet ved kompetansekartlegging eller karriereveiledning etter § 37 b, eller opplysninger om den enkeltes kompetanse som er innhentet før bosetting, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9.
+>
+
+### 2023-08-01 — forskrift/2023-06-09-804
+
+*Loven trer i kraft 1. august 2023.*
+
+> Loven trer i kraft 1. august 2023.
 >
 
 ### 2024-06-25 — lov/2024-06-25-53
@@ -141,11 +203,50 @@ refid: "lov/2020-11-06-127"
 > Ektefeller eller samboere som begge deltar i introduksjonsprogrammet og ikke har barn, mottar 5/6 stønad hver. Med samboere menes personer som bor sammen i et ekteskapslignende forhold.
 >
 
+### 2024-07-01 — forskrift/2024-06-25-1211
+
+*Delt ikraftsetting av Stortingets vedtak 17. juni 2024 til lov om endringer i integreringsloven, folketrygdloven og tannhelsetjenesteloven (innstramminger). Følgende trer i kraft 1. juli 2024:*
+
+> Delt ikraftsetting av Stortingets vedtak 17. juni 2024 til lov om endringer i integreringsloven, folketrygdloven og tannhelsetjenesteloven (innstramminger). Følgende trer i kraft 1. juli 2024:
+>
+> Endringsloven del I (integreringsloven)
+>
+> Endringsloven del III (tannhelsetjenesteloven).
+>
+> Følgende trer i kraft 1. oktober 2024
+>
+> Endringsloven del II (folketrygdloven).
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ### 2025-06-20 — lov/2025-06-20-84
 
 *I lov 6. november 2020 nr. 127 om integrering gjennom opplæring, utdanning og arbeid skal § 26 sjette ledd lyde:*
 
 > Personer nevnt i § 27 som har påbegynt et introduksjonsprogram eller opplæring i norsk og samfunnskunnskap, har rett til å fullføre opplæringen i norsk og samfunnskunnskap, uavhengig av om oppholdstillatelsen endres, eller om de får innvilget statsborgerskap.
+>
+
+### 2025-06-20 — forskrift/2025-06-20-1102
+
+*Følgende trer i kraft straks:*
+
+> Følgende trer i kraft straks:
+>
+> Endringsloven del I § 1 første ledd andre punktum, § 12 andre ledd, § 30 andre ledd første punktum og § 48, samt opphevelse av § 40 tredje ledd tredje og fjerde punktum
+>
+> Endringsloven del II
+>
+> Endringsloven del III
+>
+> Følgende trer i kraft 1. januar 2026:
+>
+> Øvrige bestemmelser i endringsloven del I med unntak av § 8 første ledd første punktum og § 8 tredje ledd første punktum.
 >
 
 ### 2026-06-12 — lov/2026-06-12-22
@@ -200,6 +301,13 @@ refid: "lov/2020-11-06-127"
 > Integreringserklæringen skal angi deltagerens forpliktelser som deltager i introduksjonsprogrammet, og sentrale plikter og rettigheter som gjelder for personer som bor i Norge.
 >
 > Departementet kan gi forskrift om innholdet i integreringserklæringen.
+>
+
+### 2026-07-01 — forskrift/2026-06-12-1076
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 1

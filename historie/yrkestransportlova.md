@@ -7,6 +7,15 @@ refid: "lov/2002-06-21-45"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*127. I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy skal § 17 lyde:*
+
+> § 17.Transport av post
+>
+> Posten Norge AS treng ikkje løyve for transport av postsendingar som ligg innanfor samfunnspålagte oppgåver og som følgjer av selskapet sin konsesjon etter lov 29. november 1996 nr. 73 om formidling av landsdekkende postsendinger (postloven). Unnatak frå løyveplikta gjeld berre transporter som Posten Norge AS utfører med motorvogner selskapet eig eller har bruksretten til etter leasing- eller leigekontrakt som skal visast fram ved kontroll.
+>
+
 ### 2004-01-01 — lov/2003-12-19-132
 
 *Nytt kapittel 7A skal lyde:*
@@ -64,11 +73,50 @@ refid: "lov/2002-06-21-45"
 > Dersom særlige grunnar talar for det, kan politimeisteren eller den han gir myndigheit forkorte den perioden for tap av retten til å føre motorvogn ved persontransport mot vederlag som er fastsett ved dom eller førelegg, jf. § 37 f. Dersom særs sterke grunner talar for det, kan perioden forkortast sjølv om minstetida etter lov eller forskrift ikkje er gått ut.
 >
 
+### 2007-02-16 — lov/2007-02-16-9
+
+*11. I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy skal § 7 annet ledd bokstav c lyde:*
+
+> Transport av inntil 12 personar, såframt det ikkje vert krevd passasjersertifikat etter lov om skipssikkerhet (skipssikkerhetsloven).
+>
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*12. Endringene i lov 24. juni 1994 nr. 39 om sjøfarten § 11 tredje ledd tredje og fjerde punktum i nr. 8 oppheves ett år etter ikrafttredelsen.*
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*128. I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy (yrkestransportlova) skal § 34 lyde:*
+
+> Styringsorgan som har gjort vedtak etter denne lova, kan fastsetje at fristen for å reise søksmål skal vere to månader frå det kom fram melding om vedtaket til vedkommande part.
+>
+
+### 2009-04-17 — lov/2009-04-17-19
+
+*6. I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy (yrkestransportlova) skal § 7 (2) bokstav b lyde:*
+
+> Transport av personar innan ein kommunes sjøområde, dersom det med heimel i lov 17. april 2009 nr. 19 om havner og farvann er fastsett særskilt løyveordning. Dette gjeld likevel ikkje for riksvegferjer.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*226. I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy (yrkestransportlova) skal § 41 første punktum lyde:*
+
+> Om nokon med vilje eller aktløyse bryt denne lova, forskrifter eller vilkår som er fastsette med heimel i lova, vert han straffa med bot.
+>
+
 ### 2011-01-01 — forskrift/2010-12-17-1671
 
 *Lov 19. juni 2009 nr. 108 om endringar i lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy (yrkestransportlova) og i lov 11. juni 1993 nr. 100 om anlegg og drift av jernbane, herunder sporvei, tunnelbane og forstadsbane m.m. (jernbaneloven), som gjeld endringane i yrkestransportlova § 5 og § 16 blir sett i verk 1. januar 2011.*
 
 > Lov 19. juni 2009 nr. 108 om endringar i lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy (yrkestransportlova) og i lov 11. juni 1993 nr. 100 om anlegg og drift av jernbane, herunder sporvei, tunnelbane og forstadsbane m.m. (jernbaneloven), som gjeld endringane i yrkestransportlova § 5 og § 16 blir sett i verk 1. januar 2011.
+>
+
+### 2011-01-01 — forskrift/2010-12-17-1672
+
+*Iverksetjing av lov 13. august 2010 nr. 51 om endringar i yrkestransportlova og jernbaneloven (gjennomføring av forordning (EF) nr. 1370/2007 av 23. oktober 2007 om offentlig persontransport med jernbane og på vei og om oppheving av rådsforordning (EØF) nr. 1191/69 og 1107/70). Lova vert sett i kraf*
+
+> Iverksetjing av lov 13. august 2010 nr. 51 om endringar i yrkestransportlova og jernbaneloven (gjennomføring av forordning (EF) nr. 1370/2007 av 23. oktober 2007 om offentlig persontransport med jernbane og på vei og om oppheving av rådsforordning (EØF) nr. 1191/69 og 1107/70). Lova vert sett i kraft frå 1. januar 2011.
 >
 
 ### 2015-01-01 — forskrift/2014-11-21-1428
@@ -94,11 +142,25 @@ refid: "lov/2002-06-21-45"
 > Ikraftsetting av lovendring i yrkestransportloven § 7. Endringen i § 7 trer i kraft straks.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*190. I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy skal § 41 første punktum lyde:*
+
+> Om nokon med vilje eller aktløyse bryt denne lova, forskrifter eller vilkår som er fastsette med heimel i lova, vert han straffa med bot.
+>
+
 ### 2016-01-01 — forskrift/2015-12-18-1619
 
 *Ikraftsetting av lov 29. august 2014 nr. 63 om endringar i yrkestransportlova (gjennomføring av EØS-reglar om busspassasjerrettar). Loven trer i kraft 1. januar 2016.*
 
 > Ikraftsetting av lov 29. august 2014 nr. 63 om endringar i yrkestransportlova (gjennomføring av EØS-reglar om busspassasjerrettar). Loven trer i kraft 1. januar 2016.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1610
+
+*Lov om endringer i lov om endringer i lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy og lov 16. juli 1999 nr. 69 om offentlige anskaffelser trer i kraft 1. januar 2017.*
+
+> Lov om endringer i lov om endringer i lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy og lov 16. juli 1999 nr. 69 om offentlige anskaffelser trer i kraft 1. januar 2017.
 >
 
 ### 2017-03-24 — lov/2017-03-24-11
@@ -119,11 +181,60 @@ refid: "lov/2002-06-21-45"
 > Departementet kan fastsetje i forskrift at det skal betalast gebyr forutferding av løyvedokument, løyveskilt, eller annan dokumentasjon etter denne lovaavvikling av løyveeksamen og utferding av kompetansebevis.
 >
 
+### 2019-06-21 — lov/2019-06-21-70
+
+*Nåværende bokstav c blir bokstav b.*
+
+> 4.I lov 20. april 2018 nr. 8 om grensetilsyn og grensekontroll av personer skal § 28 andre ledd nr. 2 lyde:
+>
+
+### 2019-06-21 — forskrift/2019-06-21-869
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.
+>
+
+### 2020-01-01 — forskrift/2017-06-16-759
+
+*Loven trer i kraft fra 1. januar 2020.*
+
+> Loven trer i kraft fra 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-06-21-872
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
 ### 2020-05-27 — forskrift/2020-05-26-1055
 
 *Loven trer i kraft 27. mai 2020.*
 
 > Loven trer i kraft 27. mai 2020.
+>
+
+### 2020-07-01 — forskrift/2020-05-20-1032
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestilli*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester og del VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 a.
+>
+
+### 2021-01-01 — forskrift/2020-12-18-2875
+
+*Endringsloven trer i kraft 1. januar 2021.*
+
+> Endringsloven trer i kraft 1. januar 2021.
+>
+
+### 2021-01-01 — forskrift/2020-12-18-2877
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
 >
 
 ### 2021-06-11 — lov/2021-06-11-87
@@ -133,6 +244,20 @@ refid: "lov/2002-06-21-45"
 > § 36.Ekstraordinære tilhøve
 >
 > Når samferdselsomsyn under ekstraordinære tilhøve gjer det naudsynt, kan departementet gje løyvehavar pålegg om å utføre visse transportoppgåver. Det same gjeld for andre som eig eller brukar motorvogner for gods- og persontransport og målepliktig fartøy.
+>
+
+### 2021-06-11 — forskrift/2021-06-11-1871
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2022-06-22 — forskrift/2022-06-22-1132
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ### 2023-06-01 — forskrift/2023-05-26-730
@@ -147,6 +272,13 @@ refid: "lov/2002-06-21-45"
 *I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy skal § 32 a åttende ledd lyde:*
 
 > (8) Handhevingsorganet kan fastsetje lovbrotsgebyr for ei verksemd dersom verksemda eller nokon på vegne av verksemda har handla i strid med reglane i første til fjerde ledd. Dette gjeld òg dersom verksemda eller nokon på vegne av verksemda ikkje hjelper til ved gjennomføring av kontroll på tenesteytaren sin eigedom, jf. femte ledd. Departementet kan i forskrift gi reglar om utmåling av lovbrotsgebyret.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-930
+
+*Endringsloven trer i kraft 1. oktober 2023.*
+
+> Endringsloven trer i kraft 1. oktober 2023.
 >
 
 ### 2024-03-01 — forskrift/2024-02-02-153
@@ -184,6 +316,13 @@ refid: "lov/2002-06-21-45"
 > Kjøresetel utferda med grunnlag i dette unntaket gjeld til innehavaren har budd fire år i Noreg, med mindre anna er bestemt om føresetnader som gjeld alder i § 37 a tredje ledd. Politiet skal påføre kjøresetelen merknad om kva for periode han gjeld for.
 >
 
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *Overskriften i § 9 skal lyde:*
@@ -204,6 +343,27 @@ refid: "lov/2002-06-21-45"
 *Ikraftsetting av lov 15. mars 2024 nr. 10 om endringer i yrkestransportlova (sentraltilknytningsplikt og justering av løyveplikten for drosje). Loven trer i kraft 1. september 2024.*
 
 > Ikraftsetting av lov 15. mars 2024 nr. 10 om endringer i yrkestransportlova (sentraltilknytningsplikt og justering av løyveplikten for drosje). Loven trer i kraft 1. september 2024.
+>
+
+### 2024-10-01 — forskrift/2024-06-07-925
+
+*Delt ikraftsetting av lov om endringer i finansavtaleloven mv. (forbrukeres rett til kontant betaling mv.).*
+
+> Delt ikraftsetting av lov om endringer i finansavtaleloven mv. (forbrukeres rett til kontant betaling mv.).
+>
+> Følgende trer i kraft 1. oktober 2024:
+>
+> Endringen av finansavtaleloven § 2-1 i loven del I
+>
+> Loven del II
+>
+> Loven del III.
+>
+> Følgende trer i kraft 1. januar 2025:
+>
+> Endringen av finansavtaleloven § 1-2 i loven del I
+>
+> Endringen av finansavtaleloven § 7-2 i loven del I.
 >
 
 ### 2025-06-20 — lov/2025-06-20-111
@@ -277,6 +437,13 @@ refid: "lov/2002-06-21-45"
 > Politiet kan krevje at personar med mellombels kollektivt vern kjem til intervju for å vurdere om vilkåra etter § 37 c første ledd første punktum er oppfylte.
 >
 > Kjøresetel utferda med grunnlag i dette unntaket gjeld til innehavaren har budd fire år i Noreg, med mindre anna er bestemt om føresetnader som gjeld alder i § 37 a tredje ledd. Politiet skal påføre kjøresetelen merknad om kva for periode han gjeld for.
+>
+
+### 2026-07-01 — forskrift/2026-06-12-1076
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 1
@@ -427,6 +594,15 @@ refid: "lov/2002-06-21-45"
 > (2) Løyve etter §§ 9 og 9 c vert gjevne av fylkeskommunen.
 >
 
+## § 13
+
+### 2017-06-16 — lov/2017-06-16-64
+
+*§ 13 andre ledd skal lyde:*
+
+> (2) Med den avgrensinga som følgjer av første ledd, gjev fylkeskommunen løyve til rutetransport etter §§ 6 og 7. Kommunen gjev likevel løyve innanfor kommunegrensa når ansvar for kollektivtransport er overført til kommunen i samsvar med lov om overføring av ansvar for kollektivtransport.
+>
+
 ## § 14
 
 ### 2013-06-21 — lov/2013-06-21-104
@@ -497,7 +673,23 @@ refid: "lov/2002-06-21-45"
 > (1) Departementet kan i forskrift eller einskildvedtak fastsetje unnatak frå kravet om løyve eller einskilde vilkår for løyve, for særskilte slag transportar eller motorvogner dersom det ikkje er i strid med internasjonal avtale der Noreg er part.
 >
 
+## § 22
+
+### 2017-06-16 — lov/2017-06-16-64
+
+*§ 22 nytt sjette ledd skal lyde:*
+
+> (6) Dersom kommunen har fått overført ansvar for kollektivtransport etter lov om overføring av ansvar for kollektivtransport, gjeld første til femte ledd tilsvarande for kommunen.
+>
+
 ## § 23
+
+### 2017-06-16 — lov/2017-06-16-64
+
+*§ 23 nytt andre ledd skal lyde:*
+
+> (2) Første ledd gjeld òg for kommunen der kommunen har fått overført ansvar for kollektivtransport etter lov om overføring av ansvar for kollektivtransport.
+>
 
 ### 2022-06-17 — lov/2022-06-17-70
 
@@ -644,7 +836,9 @@ refid: "lov/2002-06-21-45"
 
 *§ 31 første ledd bokstav b og ny bokstav c skal lyde:*
 
-> avvikling av løyveeksamen, førareksamen og utferding av kompetansebevisgjennomføring av tilsyn av kontrollutrustningar mv.
+> avvikling av løyveeksamen, førareksamen og utferding av kompetansebevis
+>
+> gjennomføring av tilsyn av kontrollutrustningar mv.
 >
 
 ## § 32 a
@@ -884,7 +1078,9 @@ refid: "lov/2002-06-21-45"
 
 *§ 40 tredje og fjerde ledd skal lyde:*
 
-> Eit forbod etter første ledd kan sikrast ved å inndra kjennemerke og vognkort eller ved bruk av mekanisk eller elektronisk innretning.Eit køyretøy som det er forbode å bruke, kan kontrollmakta, når ho meiner det trengst, ta i forvaring. Vert køyretøyet ikkje henta innan tre månader etter at forbodstida har gått ut, kan køyretøyet verte selt etter reglane i vegtrafikkloven § 37 femte til åttande ledd.
+> Eit forbod etter første ledd kan sikrast ved å inndra kjennemerke og vognkort eller ved bruk av mekanisk eller elektronisk innretning.
+>
+> Eit køyretøy som det er forbode å bruke, kan kontrollmakta, når ho meiner det trengst, ta i forvaring. Vert køyretøyet ikkje henta innan tre månader etter at forbodstida har gått ut, kan køyretøyet verte selt etter reglane i vegtrafikkloven § 37 femte til åttande ledd.
 >
 
 ## § 40 a
@@ -1014,6 +1210,10 @@ refid: "lov/2002-06-21-45"
 
 > (1) Den som mot vederlag vil drive persontransport i rute med luftputefartøy, eller med anna fartøy over 8 m lengde tilsvarande 4 bruttotonn må ha ruteløyve. § 4 andre ledd bokstav b) og c) og § 6 andre ledd gjeld tilsvarande.
 >
+
+### 2019-06-21 — lov/2019-06-21-70
+
+*§ 7 andre ledd bokstav b oppheves.*
 
 ### 2022-06-17 — lov/2022-06-17-70
 

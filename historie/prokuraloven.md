@@ -5,6 +5,15 @@ refid: "lov/1985-06-21-80"
 
 # Endringshistorikk: Prokuraloven – prokl
 
+## (annet)
+
+### 2021-06-18 — forskrift/2021-06-18-1986
+
+*Endringsloven trer i kraft straks.*
+
+> Endringsloven trer i kraft straks.
+>
+
 ## § 1
 
 ### 2021-06-18 — lov/2021-06-18-137

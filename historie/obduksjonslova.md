@@ -7,6 +7,13 @@ refid: "lov/2015-05-07-26"
 
 ## (annet)
 
+### 2016-01-01 — forskrift/2015-11-13-1289
+
+*Ikraftsetting av 1. lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova) 2. lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova). Lovene trer i kraft 1. januar 2016.*
+
+> Ikraftsetting av 1. lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova) 2. lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova). Lovene trer i kraft 1. januar 2016.
+>
+
 ### 2017-06-16 — lov/2017-06-16-54
 
 *I kapittel 4 skal ny § 16 a lyde:*
@@ -18,9 +25,52 @@ refid: "lov/2015-05-07-26"
 > Påtale skal finne stad dersom Statens helsetilsyn krev det. Elles gjeld straffeprosessloven § 62 a.
 >
 
+### 2017-07-01 — forskrift/2017-06-16-761
+
+*Loven trer i kraft fra 1. juli 2017.*
+
+> Loven trer i kraft fra 1. juli 2017.
+>
+
+### 2019-05-01 — forskrift/2019-04-26-541
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.
+>
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 1 til § 15 nr. 2, § 15 nr. 3 for så vidt gjelder endringene i lov 2. juni 1999 nr. 63
+>
+> om pasient- og brukerrettigheter § 7-6, samt § 15 nr. 4 til 7, trer i kraft 1. juli 2019.
+>
+> Skal være lov 2. juli 1999 nr. 63, Lovtidend-redaksjonens anm.
+>
+
 ### 2020-03-06 — lov/2020-03-06-2
 
 *Kapittel 4 overskriften skal lyde:*
+
+### 2020-03-06 — forskrift/2020-03-06-244
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. mai 2020 med unntak av loven del II som trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. mai 2020 med unntak av loven del II som trer i kraft straks.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
 
 ## § 1
 
@@ -40,6 +90,15 @@ refid: "lov/2015-05-07-26"
 > § 16.Pålegg og administrative sanksjonar
 >
 > Spesialisthelsetjenesteloven §§ 7-1 og 7-2 gjeld tilsvarande ved brot på obduksjonslova eller forskrifter som er gjevne med heimel i lova.
+>
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 16 skal lyde:*
+
+> § 16.Pålegg og tvangsmulkt
+>
+> Statens helsetilsyn kan gi pålegg om retting og stenging, og fastsette tvangsmulkt etter reglane i helsetilsynsloven §§ 8 og 9.
 >
 
 ## § 2

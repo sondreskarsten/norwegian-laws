@@ -16,7 +16,24 @@ refid: "lov/2003-05-23-35"
 
 ### 2011-11-18 — lov/2011-11-18-42
 
-*I lov 23. mai 2003 nr. 35 om visse sider av elektronisk handel og andre informasjonssamfunnstjenester skal § 6 første ledd bokstav h lyde:utstedelse av elektroniske penger av en institusjon som går inn under et unntak gitt i medhold av finansieringsvirksomhetsloven § 4c-3 tredje ledd, og*
+*I lov 23. mai 2003 nr. 35 om visse sider av elektronisk handel og andre informasjonssamfunnstjenester skal § 6 første ledd bokstav h lyde:*
+
+> utstedelse av elektroniske penger av en institusjon som går inn under et unntak gitt i medhold av finansieringsvirksomhetsloven § 4c-3 tredje ledd, og
+>
+
+### 2012-01-01 — forskrift/2011-11-18-1107
+
+*Loven trer i kraft 1. januar 2012.*
+
+> Loven trer i kraft 1. januar 2012.
+>
+
+### 2023-01-01 — forskrift/2022-03-18-414
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
 
 ### 2023-06-16 — lov/2023-06-16-38
 
@@ -29,6 +46,13 @@ refid: "lov/2003-05-23-35"
 > Ved forsettlig eller uaktsom overtredelse av §§ 8 til 12 som anses som vesentlig eller har skjedd gjentatte ganger, kan den ansvarlige ilegges et overtredelsesgebyr.
 >
 > Departementet kan i forskrift gi nærmere regler om utmåling av overtredelsesgebyr.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-930
+
+*Endringsloven trer i kraft 1. oktober 2023.*
+
+> Endringsloven trer i kraft 1. oktober 2023.
 >
 
 ## § 15
@@ -140,7 +164,9 @@ refid: "lov/2003-05-23-35"
 
 *§ 6 bokstav g og h skal lyde:*
 
-> markedsføring av andeler i verdipapirfond, jf. verdipapirfondloven,utstedelse av elektroniske penger av en institusjon som går inn under et unntak gitt i medhold av finansforetaksloven § 2-10 fjerde ledd, og
+> markedsføring av andeler i verdipapirfond, jf. verdipapirfondloven,
+>
+> utstedelse av elektroniske penger av en institusjon som går inn under et unntak gitt i medhold av finansforetaksloven § 2-10 fjerde ledd, og
 >
 
 ## § 7

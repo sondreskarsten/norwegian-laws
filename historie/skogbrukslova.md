@@ -7,11 +7,50 @@ refid: "lov/2005-05-27-31"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*247. I lov 27. mai 2005 nr. 31 om skogbruk (skogbrukslova) skal § 22 annet og tredje ledd lyde:*
+
+> Den som forsettleg eller aktlaust bryt føresegnene i §§ 6, 7, 8, 11, 12, 13, 14 eller 15, forskrifter gitt med heimel i desse paragrafane eller vedtak i medhald av desse føresegnene eller forskriftene, blir straffa med bøter eller fengsel i inntil eitt år.
+>
+> Den som forsettleg eller aktlaust bryt forskrifter gitt med heimel i §§ 4 tredje ledd eller 17 eller vedtak i medhald av desse forskriftene, blir straffa på same måte.
+>
+
 ### 2014-03-28 — lov/2014-03-28-9
 
 *I lov 27. mai 2005 nr. 31 om skogbruk skal § 2 annet ledd lyde:*
 
 > Lova gjeld sjølv om eit område er verna etter naturmangfoldloven kapittel V eller eldre vernevedtak som nemnt i naturmangfoldloven § 77, eller i plan etter plan- og bygningslova er lagt ut til andre formål enn landbruk, så sant ikkje anna følgjer av verne- eller planvedtaket eller av forskrifter knytt til vedtaket.
+>
+
+### 2014-06-01 — forskrift/2014-03-28-371
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*208. I lov 27. mai 2005 nr. 31 om skogbruk skal § 22 første og annet ledd lyde:*
+
+> Den som forsettleg eller aktlaust bryt føresegnene i §§ 6, 7, 8, 11, 12, 13, 14 eller 15, forskrifter gitt med heimel i desse paragrafane eller vedtak i medhald av desse føresegnene eller forskriftene, blir straffa med bøter eller fengsel i inntil eitt år.
+>
+> Den som forsettleg eller aktlaust bryt forskrifter gitt med heimel i §§ 4 tredje ledd eller 17 eller vedtak i medhald av desse forskriftene, blir straffa på same måte.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
 >
 
 ## § 12

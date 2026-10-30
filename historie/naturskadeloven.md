@@ -7,6 +7,13 @@ refid: "lov/1994-03-25-7"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*111. I lov 25. mars 1994 nr. 7 om sikring mot og erstatning for naturskader skal § 21 første ledd lyde:*
+
+> Kommunen kan kreve avstått fast eiendom eller rett over fast eiendom, derunder rett til å forby hogst eller annen særlig utnyttelse, når det er nødvendig for å gjennomføre tiltak til sikring mot naturskade utenfor de tilfelle som er omhandlet i lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom § 2 nr. 53.
+>
+
 ### 2005-06-17 — lov/2005-06-17-84
 
 *Endringen av § 7 første punktum skal lyde:*
@@ -28,6 +35,14 @@ refid: "lov/1994-03-25-7"
 > Statens naturskadefond har til oppgave å yte erstatning for naturskader i de tilfeller hvor det ikke er adgang til å forsikre seg mot skaden ved en alminnelig forsikring.
 >
 
+### 2014-08-15 — lov/2014-08-15-59
+
+*Overskriftene til kapittel 1 til 4 oppheves. Det samme gjelder overskriftene til §§ 3, 7, 11, 18, 20, 23 og 24.*
+
+### 2014-08-15 — lov/2014-08-15-59
+
+*§§ 1 til 19 oppheves.*
+
 ## § 10
 
 ### 2004-12-17 — lov/2004-12-17-98
@@ -45,6 +60,21 @@ refid: "lov/1994-03-25-7"
 
 > Ved fastsetting av erstatning kan fondsstyret trekke fra den takserte verdistigningen etter § 10 dersom det finnes rimelig.
 >
+
+## § 20
+
+### 2014-08-15 — lov/2014-08-15-59
+
+*§ 20 første ledd skal lyde:*
+
+> Kommunen plikter å treffe forholdsregler mot naturskader slik som bestemt i plan- og bygningsloven § 11-8 tredje ledd bokstav a og § 28-1, samt ved nødvendige sikringstiltak. Med naturskade menes naturskade slik det fremgår av naturskadeerstatningsloven § 4 første ledd.
+>
+
+## § 24
+
+### 2014-08-15 — lov/2014-08-15-59
+
+*§ 24 sjette ledd oppheves. Nåværende sjuende og åttende ledd blir sjette og sjuende ledd.*
 
 ## § 5
 
@@ -100,3 +130,6 @@ refid: "lov/1994-03-25-7"
 ### 2004-06-25 — lov/2004-06-25-53
 
 *§ 9 første ledd annet punktum oppheves.I lov 9. desember 1994 nr. 64 om løysingsrettar skal § 22 første ledd lyde:*
+
+> I lov 9. desember 1994 nr. 64 om løysingsrettar skal § 22 første ledd lyde:
+>

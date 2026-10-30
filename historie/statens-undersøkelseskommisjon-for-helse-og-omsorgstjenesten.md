@@ -7,6 +7,26 @@ refid: "lov/2017-06-16-56"
 
 ## (annet)
 
+### 2019-05-01 — forskrift/2019-04-26-541
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.
+>
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 1 til § 15 nr. 2, § 15 nr. 3 for så vidt gjelder endringene i lov 2. juni 1999 nr. 63
+>
+> om pasient- og brukerrettigheter § 7-6, samt § 15 nr. 4 til 7, trer i kraft 1. juli 2019.
+>
+> Skal være lov 2. juli 1999 nr. 63, Lovtidend-redaksjonens anm.
+>
+
+### 2021-05-07 — forskrift/2021-05-07-1444
+
+*Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens un*
+
+> Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten) og del VIII (helsetilsynsloven) trer i kraft 1. juli 2021.
+>
+
 ### 2025-06-20 — lov/2025-06-20-74
 
 *I lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten skal § 7 lyde:*

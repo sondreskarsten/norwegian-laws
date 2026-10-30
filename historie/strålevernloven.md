@@ -7,6 +7,20 @@ refid: "lov/2000-05-12-36"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*209. I lov 12. mai 2000 nr. 36 om strålevern og bruk av stråling skal § 23 første ledd lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer bestemmelser eller pålegg gitt i eller i medhold av denne loven, straffes med bøter eller fengsel i inntil 3 måneder.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*174. I lov 12. mai 2000 nr. 36 om strålevern og bruk av stråling skal § 23 første ledd lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer bestemmelser eller pålegg gitt i eller i medhold av denne loven, straffes med bøter eller fengsel i inntil 3 måneder.
+>
+
 ### 2016-01-01 — forskrift/2015-12-18-1587
 
 *Loven trer i kraft fra 1. januar 2016.*
@@ -14,9 +28,30 @@ refid: "lov/2000-05-12-36"
 > Loven trer i kraft fra 1. januar 2016.
 >
 
+### 2016-01-01 — forskrift/2015-12-18-1593
+
+*Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.*
+
+> Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.
+>
+
+### 2017-07-01 — forskrift/2017-06-21-908
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. juli 2017 med unntak av romertall I § 4 tredje ledd, § 6 andre ledd, § 7 første til andre ledd, § 8 første til femte ledd, § 9 første til tredje ledd, § 10 første til fjerde ledd, § 11 og § 35, som trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. juli 2017 med unntak av romertall I § 4 tredje ledd, § 6 andre ledd, § 7 første til andre ledd, § 8 første til femte ledd, § 9 første til tredje ledd, § 10 første til fjerde ledd, § 11 og § 35, som trer i kraft 1. januar 2018.
+>
+
 ### 2018-06-22 — lov/2018-06-22-76
 
 *Nåværende tredje ledd blir annet ledd.*
+
+### 2019-01-01 — forskrift/2018-12-20-2060
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
 
 ### 2019-01-01 — forskrift/2018-12-20-2066
 
@@ -25,9 +60,34 @@ refid: "lov/2000-05-12-36"
 > Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall V endringer i lov 12. mai 2000 nr. 36 om strålevern og bruk av stråling § 21 trer i kraft 1. januar 2019.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
 ### 2025-06-20 — lov/2025-06-20-70
 
 *Nåværende tredje til femte ledd blir annet til fjerde ledd.*
+
+### 2026-01-01 — forskrift/2025-11-21-2305
+
+*Følgende trer i kraft 1. januar 2026:*
+
+> Følgende trer i kraft 1. januar 2026:
+>
+> Romertall IV og V
+>
 
 ## § 15
 

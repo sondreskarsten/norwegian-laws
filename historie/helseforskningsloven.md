@@ -5,6 +5,12 @@ refid: "lov/2008-06-20-44"
 
 # Endringshistorikk: Helseforskningsloven – hforsknl
 
+## § 32-9
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 32-9 annet ledd bokstav b annet punktum oppheves.*
+
 ## (annet)
 
 ### 2008-11-14 — lov/2008-11-14-80
@@ -14,11 +20,100 @@ refid: "lov/2008-06-20-44"
 > Departementet kan i forskrift bestemme at for spesielle typer forskningsprosjekter kan barn mellom 12 og 16 år selv samtykke til forskning på helseopplysninger. Departementet kan i forskrift gi nærmere regler om kravene til et slikt samtykke.
 >
 
+### 2009-06-19 — lov/2009-06-19-73
+
+*2. I lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning skal § 53 første ledd første punktum lyde:*
+
+> Statens helsetilsyn og Datatilsynet kan fastsette en løpende tvangsmulkt for hver dag, uke eller måned som går etter utløpet av den fristen som er satt for oppfylling av pålegget etter §§ 51 eller 52, inntil pålegget er oppfylt.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*268. I lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning (helseforskningsloven) skal § 54 første ledd lyde:*
+
+> Med bøter eller fengsel inntil ett år eller begge deler straffes den som forsettlig eller grovt uaktsomt overtrer bestemmelser i loven eller bestemmelser gitt i medhold av den.
+>
+
+### 2015-01-01 — forskrift/2014-12-19-1732
+
+*Lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp (pasientjournalloven) trer i kraft 1. januar 2015.*
+
+> Lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp (pasientjournalloven) trer i kraft 1. januar 2015.
+>
+> Lov 20. juni 2014 nr. 43 om helseregistre og behandling av helseopplysninger (helseregisterloven) trer i kraft 1. januar 2015.
+>
+
+### 2015-05-07 — lov/2015-05-07-26
+
+*I lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning skal § 21 lyde:*
+
+> § 21.Forskning på humant biologisk materiale fra døde
+>
+> For forskning på biologisk materiale som tas ut fra avdøde gjelder obduksjonslova § 7 første til tredje ledd om informasjon og nærmeste pårørendes rett til å nekte donasjon mv.
+>
+> Lov 4. juni 1898 indeholdende visse Bestemmelser om Behandlingen af Lig opphevast.
+>
+> Lova gjeld frå den tida Kongen fastset. Kongen kan setje i verk dei einskilde føresegnene til ulik tid.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*229. I lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning skal § 54 første ledd lyde:*
+
+> Med bøter eller fengsel inntil ett år eller begge deler straffes den som forsettlig eller grovt uaktsomt overtrer bestemmelser i loven eller bestemmelser gitt i medhold av den.
+>
+> 230. I lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling gjøres følgende endring:
+>
+
+### 2016-01-01 — forskrift/2015-11-13-1289
+
+*Ikraftsetting av 1. lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova) 2. lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova). Lovene trer i kraft 1. januar 2016.*
+
+> Ikraftsetting av 1. lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova) 2. lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova). Lovene trer i kraft 1. januar 2016.
+>
+
+### 2017-05-01 — forskrift/2017-04-28-505
+
+*Lova gjeld frå 1. mai 2017.*
+
+> Lova gjeld frå 1. mai 2017.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-761
+
+*Loven trer i kraft fra 1. juli 2017.*
+
+> Loven trer i kraft fra 1. juli 2017.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
 ### 2018-06-22 — lov/2018-06-22-76
 
 *I lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning skal § 2 fjerde ledd lyde:*
 
 > Departementet kan i forskrift gi bestemmelser om lovens anvendelse for særskilte områder innenfor medisinsk og helsefaglig forskning.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2021-06-01 — forskrift/2021-05-21-1578
+
+*Lov 4. desember 2020 nr. 133 om endringer i helseregisterloven m.m. (tilgjengeliggjøring av helsedata) del I, II og del III § 17 og § 19 til § 20 trer i kraft 1. juni 2021.*
+
+> Lov 4. desember 2020 nr. 133 om endringer i helseregisterloven m.m. (tilgjengeliggjøring av helsedata) del I, II og del III § 17 og § 19 til § 20 trer i kraft 1. juni 2021.
 >
 
 ### 2025-06-20 — lov/2025-06-20-71
@@ -43,7 +138,48 @@ refid: "lov/2008-06-20-44"
 > Hvis opplysninger ikke deretter skal oppbevares i henhold til arkivlova eller annen lovgivning, skal de anonymiseres eller slettes.
 >
 
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
+>
+
+### 2026-11-01 — forskrift/2026-09-25-1907
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 71 om endringer i helseforskningsloven mv. (vilkår for medisinsk og helsefaglig forskning og for bruk av helseopplysninger i forskning). Følgende trer i kraft 1. november 2026.*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 71 om endringer i helseforskningsloven mv. (vilkår for medisinsk og helsefaglig forskning og for bruk av helseopplysninger i forskning). Følgende trer i kraft 1. november 2026.
+>
+> Endringsloven del I (helseforskningsloven) og del III (helseregisterloven)
+>
+
 ## § 10
+
+### 2017-04-28 — lov/2017-04-28-23
+
+*§ 10 tredje ledd skal lyde:*
+
+> Vedtak vedrørende forhåndsgodkjenning kan påklages til Den nasjonale forskningsetiske komité for medisin og helsefag, jf. forskningsetikkloven § 10 tredje ledd.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 10 annet ledd annet punktum skal lyde:*
+
+> Den regionale komiteen for medisinsk og helsefaglig forskningsetikk kan sette vilkår for godkjenning, blant annet om tiltak for å verne de registrertes grunnleggende rettigheter og interesser.
+>
 
 ### 2025-06-20 — lov/2025-06-20-71
 
@@ -68,6 +204,13 @@ refid: "lov/2008-06-20-44"
 >
 
 ## § 13
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 13 annet ledd første punktum skal lyde:*
+
+> Med samtykke menes enhver frivillig, spesifikk, informert og utvetydig viljesytring fra deltakeren der vedkommende ved en erklæring eller tydelig bekreftelse gir sitt samtykke til behandling av helseopplysninger eller humant biologisk materiale.
+>
 
 ### 2025-06-20 — lov/2025-06-20-71
 
@@ -174,6 +317,17 @@ refid: "lov/2008-06-20-44"
 
 ## § 2
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 2 annet, tredje og fjerde ledd skal lyde:*
+
+> For behandling av helseopplysninger gjelder personvernforordningen og personopplysningsloven med forskrifter, i den utstrekning ikke annet følger av denne loven. For opplysninger som er taushetsbelagte etter helsepersonelloven § 21, og for opplysninger om avdøde personer gjelder bestemmelsene i loven her om behandling av helseopplysninger så langt de passer. Loven gjelder ikke for etablering av helseregistre.
+>
+> For klinisk utprøvning av legemidler på mennesker gjelder legemiddelloven § 3 med forskrifter. For klinisk utprøvning av medisinsk utstyr gjelder lov om medisinsk utstyr med forskrifter. Loven her gjelder utfyllende så langt den passer.
+>
+> Departementet kan gi forskrift om lovens anvendelse for særskilte områder innenfor medisinsk og helsefaglig forskning.
+>
+
 ### 2025-06-20 — lov/2025-06-20-71
 
 *§ 2 første ledd andre punktum oppheves.*
@@ -189,6 +343,15 @@ refid: "lov/2008-06-20-44"
 > For forskning på biologisk materiale som tas ut fra avdøde, gjelder obduksjonslova § 7 første til tredje ledd om informasjon og nærmeste pårørendes rett til å nekte obduksjon mv.
 >
 
+## § 25
+
+### 2014-06-20 — lov/2014-06-20-43
+
+*§ 25 femte ledd skal lyde:*
+
+> Departementet kan i forskrift gi bestemmelser om opprettelse og annen behandling av humant biologisk materiale i biobanker som er tilknyttet helseregistre etter helseregisterloven §§ 8 til 11.
+>
+
 ## § 29
 
 ### 2025-06-20 — lov/2025-06-20-71
@@ -198,7 +361,20 @@ refid: "lov/2008-06-20-44"
 > Humant biologisk materiale fra en forskningsbiobank kan bare sendes ut av landet eller tas inn i landet etter godkjenning fra den regionale komiteen for medisinsk og helsefaglig forskningsetikk, og det kan godtgjøres at kravene til samtykke i kapittel 4 er oppfylt.
 >
 
+## § 3
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 3 annet ledd oppheves. Någjeldende tredje ledd blir nytt annet ledd.*
+
 ## § 32
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 32 første ledd første punktum skal lyde:*
+
+> Behandling av helseopplysninger i medisinsk og helsefaglig forskning skal være i samsvar med prinsippene i personvernforordningen artikkel 5 og ha uttrykkelig angitte formål.
+>
 
 ### 2025-06-20 — lov/2025-06-20-71
 
@@ -212,6 +388,30 @@ refid: "lov/2008-06-20-44"
 >
 
 ## § 33
+
+### 2014-06-20 — lov/2014-06-20-43
+
+*§ 33 andre ledd skal lyde:*
+
+> Behandling av helseopplysninger fra helseregistre etter helseregisterloven §§ 8 til 11 krever ikke tillatelser etter første ledd, med mindre annet følger av forskriftene til registrene.
+>
+> 5) I lov 24. juni 2011 nr. 29 om folkehelsearbeid skal § 25 første ledd lyde:
+>
+> Nasjonalt folkehelseinstitutt skal overvåke utviklingen av folkehelsen, utarbeide oversikt over befolkningens helsetilstand og faktorer som påvirker denne, samt utføre helseanalyser og drive forskning på folkehelseområdet.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 33 skal lyde:*
+
+> § 33.Krav om forhåndsgodkjenning
+>
+> Behandling av helseopplysninger i medisinsk og helsefaglig forskning krever forhåndsgodkjenning fra den regionale komiteen for medisinsk og helsefaglig forskningsetikk etter kapittel 3.
+>
+> Behandling av helseopplysninger fra helseregistre etter helseregisterloven §§ 8 til 11 krever ikke forhåndsgodkjenning, med mindre annet følger av forskriftene til registrene.
+>
+> Personopplysningsloven § 10 og § 11 andre ledd gjelder ikke for medisinsk og helsefaglig forskning.
+>
 
 ### 2020-12-04 — lov/2020-12-04-133
 
@@ -228,17 +428,61 @@ refid: "lov/2008-06-20-44"
 
 ## § 34
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 34 skal lyde:*
+
+> § 34.Behandling av helseopplysninger
+>
+> Helseopplysninger kan sammenstilles, tilgjengeliggjøres og behandles på andre måter i tråd med forskningsprosjektets formål, eventuelle samtykker, forhåndsgodkjenningen etter § 33 og i samsvar med forskningsprotokollen.
+>
+> Den regionale komiteen for medisinsk og helsefaglig forskningsetikk kan ved godkjenningen etter kapittel 3 nekte slik sammenstilling, tilgjengeliggjøring eller annen behandling dersom denne finnes å være medisinsk eller etisk uforsvarlig.
+>
+> Sammenstilling og tilgjengeliggjøring av helseopplysninger kan skje til dataansvarlige eller forskningsansvarlige som har adgang til å behandle personopplysningene etter personvernforordningen artikkel 6 og 9.
+>
+
 ### 2020-12-04 — lov/2020-12-04-133
 
 *§ 34 tredje ledd oppheves.*
 
 ## § 35
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 35 første ledd fjerde punktum skal lyde:*
+
+> Den regionale komiteen for medisinsk og helsefaglig forskningsetikk kan sette vilkår for bruken, blant annet om tiltak for å verne de registrertes grunnleggende rettigheter og interesser.
+>
+
 ### 2020-12-04 — lov/2020-12-04-133
 
 *§ 35 oppheves.*
 
+## § 36
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 36 nytt første ledd skal lyde:*
+
+> Den registrerte kan kreve retting eller sletting etter personvernforordningen artikkel 16 og 17. Unntaket i personopplysningsloven § 17 andre og tredje ledd gjelder.
+>
+> Någjeldende § 36 første, annet og tredje ledd, blir henholdsvis nytt annet, tredje og fjerde ledd.
+>
+
+## § 37
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 37 oppheves.*
+
 ## § 4
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 4 bokstav d skal lyde:*
+
+> helseopplysninger: personopplysninger om en fysisk persons fysiske eller psykiske helse, medregnet om ytelse av helsetjenester, som gir informasjon om vedkommendes helsetilstand, jf. personvernforordningen artikkel 4 nr. 15
+>
 
 ### 2025-06-20 — lov/2025-06-20-71
 
@@ -255,6 +499,28 @@ refid: "lov/2008-06-20-44"
 > klinisk behandlingsstudie: forskningsprosjekt som kan påvirke pasientforløpet, og som inngår i helsehjelpen.
 >
 
+## § 40
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 40 første ledd skal lyde:*
+
+> Forskningsdeltakeren har rett til innsyn i helseopplysninger om seg selv etter personvernforordningen artikkel 15. Deltakeren har også rett til innsyn i sikkerhetstiltakene ved behandlingen av helseopplysningene så langt innsyn ikke svekker sikkerheten.
+>
+
+## § 42
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 42 skal lyde:*
+
+> § 42.Unntak fra innsyn
+>
+> Unntakene i personopplysningsloven §§ 16 og 17 fra retten til informasjon og innsyn og fra plikten til underretning om brudd på personopplysningssikkerheten, gjelder tilsvarende for innsyn etter §§ 40 og 41 i loven her.
+>
+> Avslag på krav om innsyn og informasjon kan overprøves av den regionale komiteen for medisinsk og helsefaglig forskningsetikk.
+>
+
 ## § 44
 
 ### 2025-06-20 — lov/2025-06-20-71
@@ -264,6 +530,19 @@ refid: "lov/2008-06-20-44"
 > Den regionale komiteen for medisinsk og helsefaglig forskningsetikk skal føre en systematisk fortegnelse over innmeldte og avsluttede forskningsprosjekter basert på opplysninger i søknad, eventuelt forskningsprotokoll, og sluttmelding, jf. § 9 andre ledd andre punktum, §§ 10, 11 og 12.
 >
 
+## § 47
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 47 skal lyde:*
+
+> § 47.Datatilsynets myndighet
+>
+> Datatilsynet fører tilsyn med bruken av helseopplysninger etter denne loven i samsvar med personvernforordningen og personopplysningsloven.
+>
+> Når Datatilsynet har gitt pålegg, skal Statens helsetilsyn informeres om dette.
+>
+
 ## § 5
 
 ### 2025-06-20 — lov/2025-06-20-71
@@ -271,6 +550,53 @@ refid: "lov/2008-06-20-44"
 *§ 5 tredje ledd skal lyde:*
 
 > Medisinsk og helsefaglig forskning skal vareta etiske, medisinske, helsefaglige og vitenskapelige forhold.
+>
+
+## § 50
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 50 annet, tredje og fjerde ledd skal lyde:*
+
+> Den forskningsansvarlige skal erstatte skader som er oppstått som følge av at humant biologisk materiale er behandlet i strid med bestemmelser gitt i eller i medhold av loven, med mindre det godtgjøres at skaden ikke skyldes feil eller forsømmelse på den forskningsansvarliges side. Erstatningen skal svare til det økonomiske tapet som den skadelidte er påført som følge av den ulovlige behandlingen av det humant biologiske materialet. Den forskningsansvarlige kan også pålegges å betale slik erstatning for skader av ikke-økonomisk art (oppreisning) som synes rimelig.
+>
+> Den dataansvarlige og databehandleren skal erstatte skader som er oppstått som følge av at helseopplysninger er behandlet i strid med personvernforordningen, jf. forordningen artikkel 82. Ansvaret gjelder tilsvarende ved behandling av helseopplysninger i strid med denne loven eller forskrifter gitt i medhold av loven.
+>
+> For forskningsansvarlige og dataansvarlige som er private, skal det ved forsikring stilles sikkerhet for det økonomiske ansvaret som kan oppstå etter andre og tredje ledd.
+>
+
+## § 52
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 52 skal lyde:*
+
+> § 52.Datatilsynets adgang til å fatte vedtak om overtredelsesgebyr
+>
+> Ved behandling av helseopplysninger i strid med loven eller forskrifter gitt i medhold av loven, kan Datatilsynet ilegge overtredelsesgebyr etter personvernforordningen artikkel 83 og personopplysningsloven §§ 26 og 27.
+>
+> Når Datatilsynet har fattet vedtak etter første ledd, skal Statens helsetilsyn informeres om dette.
+>
+
+## § 53
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 53 første og annet ledd skal lyde:*
+
+> Statens helsetilsyn kan fastsette en løpende tvangsmulkt for hver dag, uke eller måned som går etter utløpet av den fristen som er satt for oppfylling av pålegget etter § 51, inntil pålegget er oppfylt. En tvangsmulkt kan også fastsettes som engangsmulkt. Statens helsetilsyn kan frafalle en påløpt tvangsmulkt. Tvangsmulkten løper ikke før klagefristen er ute. Hvis vedtaket påklages, løper ikke tvangsmulkten før klageinstansen har bestemt det.
+>
+> Datatilsynet kan fastsette tvangsmulkt etter personopplysningsloven § 29.
+>
+> 25.I lov 17. oktober 2008 nr. 79 om utvalget for gjennomgang av stortingspensjoner oppheves § 3.
+>
+> 26.I lov 19. juni 2009 nr. 97 om dyrevelferd skal § 36 første ledd annet punktum lyde:
+>
+> Slike registre kan ikke uten samtykke fra den det gjelder, inneholde personopplysninger som omfattes av personvernforordningen artikkel 9 eller 10.
+>
+> 27.I lov 25. november 2011 nr. 44 om verdipapirfond skal § 1-6 lyde:
+>
+> Næringsorganisasjon eller tilknyttet juridisk enhet som gir opplæring til og autoriserer personer ansatt i et forvaltningsselskap, tilknyttet agent, eller utenlandsk forvaltningsselskap som nevnt i §§ 3-3 første ledd eller 3-4 første ledd, kan behandle slike opplysninger som nevnt i personvernforordningen artikkel 10 som ledd i vurderingen av om en ansatt skal gis autorisasjon, fratas autorisasjon eller gis advarsel.
 >
 
 ## § 6
@@ -298,6 +624,13 @@ refid: "lov/2008-06-20-44"
 >
 
 ## § 9
+
+### 2017-04-28 — lov/2017-04-28-23
+
+*§ 9 første ledd skal lyde:*
+
+> Forskningsprosjektet må være forhåndsgodkjent av den regionale komiteen for medisinsk og helsefaglig forskningsetikk, jf. forskningsetikkloven § 10 første ledd.
+>
 
 ### 2025-06-20 — lov/2025-06-20-71
 

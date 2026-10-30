@@ -30,6 +30,13 @@ refid: "lov/1933-06-29-2"
 
 *Nåværende del II blir ny § 2.*
 
+### 2018-01-01 — forskrift/2017-12-15-2118
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
 ### 2021-06-04 — forskrift/2021-06-04-1765
 
 *Loven trer i kraft straks.*

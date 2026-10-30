@@ -11,6 +11,27 @@ refid: "lov/1999-03-26-15"
 
 *I kapittel VI blir nåværende §§ 28 og 29 nye §§ 30 og 31. I kapittel VII blir nåværende § 30 ny § 32.*
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*198. I lov 26. mars 1999 nr. 15 om retten til å delta i fiske og fangst (deltakerloven) skal § 31 annet ledd lyde:*
+
+> På samme måte straffes forsøk.
+>
+
+### 2013-01-01 — forskrift/2012-09-21-913
+
+*Loven trer i kraft fra 1. januar 2013.*
+
+> Loven trer i kraft fra 1. januar 2013.
+>
+
+### 2014-01-01 — forskrift/2013-05-31-540
+
+*Loven trer i kraft fra 1. januar 2014.*
+
+> Loven trer i kraft fra 1. januar 2014.
+>
+
 ### 2015-06-19 — lov/2015-06-19-78
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
@@ -29,6 +50,24 @@ refid: "lov/1999-03-26-15"
 > Selskaper og sammenslutninger som er omfattet av finansforetaksloven § 1-3, og som har rett til å drive finansieringsvirksomhet i Norge, kan i medhold av slike forskrifter bli tildelt midlertidig ervervstillatelse ved tvangssalg og konkurs uten hensyn til § 5.
 >
 
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
+>
+
+### 2022-01-01 — forskrift/2021-12-17-3629
+
+*Delt ikraftsetting av lov 5. mars 2021 nr. 7 om endringar i deltakerloven og havressurslova (endringar i kvotesystemet): Følgjande trer i kraft 1. januar 2022:*
+
+> Delt ikraftsetting av lov 5. mars 2021 nr. 7 om endringar i deltakerloven og havressurslova (endringar i kvotesystemet): Følgjande trer i kraft 1. januar 2022:
+>
+> Endringslova del I (deltakerloven) § 5a tredje ledd
+>
+> Endringslova del II (havressurslova) § 23 tredje ledd, § 34 første ledd bokstavene g og h, § 49, § 51 andre ledd og § 66 første ledd.
+>
+
 ### 2023-04-21 — lov/2023-04-21-6
 
 *I lov 26. mars 1999 nr. 15 om retten til å delta i fiske og fangst (deltakerloven) skal ny § 30 a lyde:*
@@ -36,6 +75,13 @@ refid: "lov/1999-03-26-15"
 > § 30 a.Tilgang til opplysninger i Folkeregisteret
 >
 > Fiskeridirektoratet skal, uten hinder av taushetsplikt, ha tilgang til opplysninger i Folkeregisteret som er nødvendige for utførelsen av oppgaver etter denne loven. Direktoratet skal også ha tilgang til opplysninger i Folkeregisteret til utredning og produksjon av statistikk.
+>
+
+### 2023-04-21 — forskrift/2023-04-21-527
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ## § 1 a
@@ -351,6 +397,10 @@ refid: "lov/1999-03-26-15"
 > Forsøk og medvirkning straffes på samme måte.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 31 femte ledd oppheves.*
+
 ### 2021-03-05 — lov/2021-03-05-7
 
 *§ 31 første ledd skal lyde:*
@@ -371,6 +421,13 @@ refid: "lov/1999-03-26-15"
 > Det kan fastsettes at panterett og andre rettigheter i ting som blir inndratt, helt eller delvis faller bort. Bestemmelsene i straffeloven § 37 c gjelder tilsvarende.
 >
 > Når lovlig og ulovlig fangst er blandet sammen, kan hele fangsten inndras.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 31 a annet ledd annet punktum skal lyde:*
+
+> Bestemmelsene i straffeloven § 74 gjelder tilsvarende.
 >
 
 ## § 5

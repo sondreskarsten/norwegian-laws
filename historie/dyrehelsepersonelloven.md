@@ -5,6 +5,21 @@ refid: "lov/2001-06-15-75"
 
 # Endringshistorikk: Dyrehelsepersonelloven
 
+## (annet)
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*22. I lov 15. juni 2001 nr. 75 om veterinærer og annet dyrehelsepersonell, skal ny § 9a lyde:*
+
+> § 9a.Forholdet til tjenesteloven
+>
+> Kongen kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse.
+>
+> Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.
+>
+> Saksbehandlingsreglene kan fravike reglene i denne loven og forvaltningsloven.
+>
+
 ## § 1
 
 ### 2008-01-01 — lov/2007-12-21-132
@@ -24,6 +39,19 @@ refid: "lov/2001-06-15-75"
 > Dyrehelsepersonell har plikt til å utøve sin virksomhet på en faglig forsvarlig måte.
 >
 > Departementet kan i medhold av § 5 knytte vilkår til lisens og herunder bestemme at innehaver skal være underlagt tilsyn av annet dyrehelsepersonell.
+>
+
+## § 14
+
+### 2009-06-19 — lov/2009-06-19-97
+
+*§ 14 Nødhjelp skal lyde:*
+
+> Dyrehelsepersonell plikter snarest mulig etter anmodning å yte den hjelp vedkommende evner – personlig eller ved stedfortreder – når det etter tilgjengelige opplysninger må antas at øyeblikkelig hjelp er påtrengende nødvendig. Plikten faller bort ved gyldig forfall eller ved at hjelp i tide blir ytt av annet dyrehelsepersonell.
+>
+> For den hjelp dyrehelsepersonell har ytt etter foregående ledd, kan hun eller han kreve en passende godtgjørelse fra staten dersom hun eller han ikke etter krav får betaling av rekvirenten eller den som har betalingsplikten. Dersom rekvirenten eller dyrehelsepersonellet selv har hjelpeplikt etter dyrevelferdsloven § 4 og dyret er viltlevende eller ikke har en kjent eier eller innehaver, kan dyrehelsepersonell kreve en passende godtgjørelse fra staten for nødvendig hjelp.
+>
+> Departementet kan gi forskrifter om når øyeblikkelig hjelp er påtrengende nødvendig, hva som er nødvendig hjelp, passende godtgjørelse og om andre vilkår for godtgjørelse etter denne bestemmelsen.
 >
 
 ## § 16
@@ -83,6 +111,13 @@ refid: "lov/2001-06-15-75"
 ### 2003-12-19 — lov/2003-12-19-129
 
 *§ 31 tredje ledd annet punktum oppheves.*
+
+### 2009-06-19 — lov/2009-06-19-97
+
+*§ 31 første ledd første punktum skal lyde:*
+
+> Rådet skal være rådgiver for veterinærmyndighetene i disiplinærsaker, saker om forsvarlig virksomhet og saker av veterinærmedisinsk art.
+>
 
 ## § 34
 

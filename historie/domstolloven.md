@@ -225,6 +225,22 @@ refid: "lov/1915-08-13-5"
 > Beslutter en ret etter § 47 at anmode en utenlandsk myndighet om bevisoptagelse, utfærdiges anmodningen av retten selv, men hvis den har flere medlemmer, av rettens leder.
 >
 
+### 2009-06-19 — lov/2009-06-19-103
+
+*Kapittel 11 ny del IIIa skal lyde:*
+
+> § 233a.
+>
+> Kongen kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for tillatelsesordninger i eller i medhold av dette kapittel, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 andre ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser. Saksbehandlingsreglene kan fravike reglene i denne loven og forvaltningsloven.
+>
+
+### 2010-01-15 — forskrift/2010-01-15-33
+
+*Loven del I og III trer i kraft 1. mars 2010. Loven del II trer i kraft straks.*
+
+> Loven del I og III trer i kraft 1. mars 2010. Loven del II trer i kraft straks.
+>
+
 ### 2010-12-10 — lov/2010-12-10-76
 
 *Opphevelsen av § 131 a oppheves.*
@@ -233,11 +249,25 @@ refid: "lov/1915-08-13-5"
 
 *Endringen i § 198 tredje ledd oppheves.*
 
+### 2011-09-01 — forskrift/2011-08-12-834
+
+*De deler av lov 10. desember 2010 nr. 76 om endringer i straffeprosessloven mv. som ikke ble satt i kraft ved kongelig resolusjon 10. desember 2010 nr. 1574, settes i kraft. Endringer i domstolloven § 159a og straffeprosessloven § 42, § 107b, § 109a, § 149a, § 185, § 248, § 271 og § 272 trer i kraft*
+
+> De deler av lov 10. desember 2010 nr. 76 om endringer i straffeprosessloven mv. som ikke ble satt i kraft ved kongelig resolusjon 10. desember 2010 nr. 1574, settes i kraft. Endringer i domstolloven § 159a og straffeprosessloven § 42, § 107b, § 109a, § 149a, § 185, § 248, § 271 og § 272 trer i kraft 1. september 2011.
+>
+
 ### 2012-05-25 — lov/2012-05-25-28
 
 *I lov 13. august 1915 nr. 5 om domstolene skal § 191 første ledd lyde:*
 
 > For staten er det statsministeren eller vedkommende departementschef, som tar imot forkyndelser og meddelelser; for en fylkeskommune er det fylkesordføreren; for en kommune er det ordføreren; for en samkommune er det samkommunestyrets leder.
+>
+
+### 2013-01-01 — forskrift/2012-12-14-1208
+
+*Lov 22. juni 2012 nr. 52 om endringer i utleveringsloven m.m. del I, II, III, IV og V trer i kraft 1. januar 2013.*
+
+> Lov 22. juni 2012 nr. 52 om endringer i utleveringsloven m.m. del I, II, III, IV og V trer i kraft 1. januar 2013.
 >
 
 ### 2013-06-21 — lov/2013-06-21-82
@@ -264,6 +294,20 @@ refid: "lov/1915-08-13-5"
 > Et medlem skal være registrert eller statsautorisert revisor.
 >
 
+### 2014-07-01 — forskrift/2014-06-26-866
+
+*Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, sam*
+
+> Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, samt del XV til XVIII, trer i kraft 1. juli 2014.
+>
+
+### 2015-02-13 — lov/2015-02-13-9
+
+*1. I lov 13. august 1915 nr. 5 om domstolene skal § 51 første ledd lyde:*
+
+> Konsulretten styres av utsendt utenrikstjenestemann og norsk honorær representant som departementet har gitt myndighet.
+>
+
 ### 2015-09-04 — lov/2015-09-04-90
 
 *I lov 13. august 1915 nr. 5 om domstolene skal § 163 a annet ledd lyde:*
@@ -271,11 +315,11 @@ refid: "lov/1915-08-13-5"
 > Følgende myndigheter foretar forkynning postalt etter reglene i denne bestemmelse: De alminnelige domstoler, jordskifterettene, forbrukertvistutvalget, parkeringsklagenemnda, fylkesnemndene for barnevern og sosiale saker, påtalemyndigheten, namsmenn, lensmenn, namsfogder, politistasjoner med sivile rettspleieoppgaver og fylkesmenn.
 >
 
-### 2016-04-22 — lov/2016-04-22-3
+### 2016-01-01 — forskrift/2013-06-21-736
 
-*13. Lov 8. februar 1980 nr. 2 om pant § 6-1 annet ledd bokstav c skal lyde:*
+*Loven trer i kraft fra 1. januar 2016.*
 
-> årsgebyr for vann og avløp etter lov 16. mars 2012 nr. 12 om kommunale vass- og avløpsanlegg.
+> Loven trer i kraft fra 1. januar 2016.
 >
 
 ### 2016-04-22 — lov/2016-04-22-4
@@ -285,9 +329,69 @@ refid: "lov/1915-08-13-5"
 > For staten er det statsministeren eller vedkommende departementschef, som tar imot forkyndelser og meddelelser; for en fylkeskommune er det fylkesordføreren; for en kommune er det ordføreren.
 >
 
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*1. I lov 13. august 1915 nr. 5 om domstolene skal § 165 andre ledd andre punktum lyde:*
+
+> Overfor de som gjør tjeneste i Forsvaret kan forkynning i straffesaker også skje ved offiser, befal eller militærpoliti.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2017-01-01 — forskrift/2016-11-25-1407
+
+*Lov 4. september 2015 nr. 90 om endringer i vegtrafikkloven mv. (vilkårsparkering) trer i kraft 1. januar 2017.*
+
+> Lov 4. september 2015 nr. 90 om endringer i vegtrafikkloven mv. (vilkårsparkering) trer i kraft 1. januar 2017.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1640
+
+*Loven trer i kraft 1. januar 2017.*
+
+> Loven trer i kraft 1. januar 2017.
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
 ### 2017-06-16 — lov/2017-06-16-58
 
 *Nåværende femte punktum blir nytt sjette punktum.*
+
+### 2017-07-01 — forskrift/2017-06-16-778
+
+*Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.*
+
+> Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.
+>
+
+### 2017-10-01 — forskrift/2017-06-09-718
+
+*Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.*
+
+> Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.
+>
+> Loven trer i kraft 1. oktober 2017, med unntak av § 10-1 tredje ledd.
+>
 
 ### 2017-12-19 — lov/2017-12-19-114
 
@@ -296,11 +400,91 @@ refid: "lov/1915-08-13-5"
 > Følgende myndigheter foretar forkynning postalt etter reglene i denne bestemmelse: De alminnelige domstoler, jordskifterettene, Forbrukerklageutvalget, Parkeringsklagenemnda, fylkesnemndene for barnevern og sosiale saker, påtalemyndigheten, namsmenn, lensmenn, namsfogder, politistasjoner med sivile rettspleieoppgaver og fylkesmenn.
 >
 
+### 2018-01-01 — forskrift/2017-10-13-1613
+
+*Lov 16. juni 2017 nr. 58 om endringer i straffeprosessloven mv. (oppheving av juryordningen) trer i kraft 1. januar 2018.*
+
+> Lov 16. juni 2017 nr. 58 om endringer i straffeprosessloven mv. (oppheving av juryordningen) trer i kraft 1. januar 2018.
+>
+> Loven får ikke anvendelse i tilfeller der anke til lagmannsretten er fremsatt før 1. januar 2018, jf. straffeprosessloven § 312. Det samme gjelder saker som henvises til ny fullstendig behandling i lagmannsretten dersom gjenåpning er besluttet innen samme tidspunkt, jf. straffeprosessloven § 400. Loven kommer likevel til anvendelse dersom ankeforhandlingen påbegynnes etter 31. desember 2018.
+>
+
+### 2018-01-01 — forskrift/2017-12-19-2155
+
+*Lovendringene trer i kraft 1. januar 2018.*
+
+> Lovendringene trer i kraft 1. januar 2018.
+>
+
+### 2018-06-22 — lov/2018-06-22-80
+
+*I lov 13. august 1915 nr. 5 om domstolene skal ny § 132 a lyde:*
+
+> § 132 a.
+>
+> Enhver som søker adgang til domstolens lokaler kan pålegges sikkerhetskontroll etter beslutning fra domstolleder.
+>
+> Kontrollen skal utføres slik at den ikke medfører unødig ulempe eller skade. Kroppsvisitasjon kan kun gjennomføres etter samtykke.
+>
+> Personer som ikke vil la seg kontrollere, eller ikke etterkommer anvisninger gitt under kontrollen, kan etter beslutning fra domstolleder eller den domstolleder bemyndiger nektes adgang til domstolens lokaler.
+>
+> Domstoladministrasjonen kan gi nærmere bestemmelser om gjennomføring og organisering av sikkerhetskontroller i domstolene. Domstoladministrasjonen avgjør ved hvilke domstoler det skal etableres permanent sikkerhetskontroll.
+>
+
+### 2018-09-01 — forskrift/2018-08-10-1229
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 80 om endringer i domstolloven mv. (elektronisk kommunikasjon mv.). Loven trer i kraft 1. september 2018 med unntak av del II, som trer i kraft 1. januar 2019.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 80 om endringer i domstolloven mv. (elektronisk kommunikasjon mv.). Loven trer i kraft 1. september 2018 med unntak av del II, som trer i kraft 1. januar 2019.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2020-01-01 — forskrift/2019-11-22-1552
+
+*Delt ikraftsetting av lov 22. april 2016 nr. 4 om endringar i kommuneloven mv. (avvikling av samkommunemodellen). Endringsloven romertall I siste setning og romertall II–VII trer i kraft 1. januar 2020.*
+
+> Delt ikraftsetting av lov 22. april 2016 nr. 4 om endringar i kommuneloven mv. (avvikling av samkommunemodellen). Endringsloven romertall I siste setning og romertall II–VII trer i kraft 1. januar 2020.
+>
+
 ### 2021-04-01 — forskrift/2021-03-19-760
 
 *Ikraftsetting av lov 21. desember 2020 nr. 173 om endringer i domstolloven. Loven trer i kraft 1. april 2021.*
 
 > Ikraftsetting av lov 21. desember 2020 nr. 173 om endringer i domstolloven. Loven trer i kraft 1. april 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-12-01 — forskrift/2021-11-19-3238
+
+*Ikraftsetting av lov 4. juni 2021 nr. 55 om endringer i domstolloven mv. (signatur og elektronisk forkynnelse). Loven trer i kraft 1. desember 2021.*
+
+> Ikraftsetting av lov 4. juni 2021 nr. 55 om endringer i domstolloven mv. (signatur og elektronisk forkynnelse). Loven trer i kraft 1. desember 2021.
 >
 
 ### 2022-05-12 — lov/2022-05-12-28
@@ -347,6 +531,22 @@ refid: "lov/1915-08-13-5"
 > Departementet kan gi forskrift om strømming etter første ledd, blant annet om behandling av personopplysninger.
 >
 
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2022-07-01 — forskrift/2022-06-17-1035
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
 ### 2023-05-11 — lov/2023-05-11-13
 
 *I lov 13. august 1915 nr. 5 om domstolene skal § 146 andre ledd nytt fjerde punktum lyde:*
@@ -366,6 +566,36 @@ refid: "lov/1915-08-13-5"
 *I lov 13. august 1915 nr. 5 om domstolene skal § 51 første ledd lyde:*
 
 > Konsulretten styres av utsendt utenrikstjenesteansatt og norsk honorær representant som departementet har gitt myndighet.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-944
+
+*Loven trer i kraft 1. oktober 2023.*
+
+> Loven trer i kraft 1. oktober 2023.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
 >
 
 ### 2024-06-21 — lov/2024-06-21-46
@@ -397,11 +627,47 @@ refid: "lov/1915-08-13-5"
 
 *§§ 219 a, 219 b og 221 til 234 oppheves.*
 
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ### 2026-06-19 — lov/2026-06-19-48
 
 *I lov 13. august 1915 nr. 5 om domstolene skal § 70 annet ledd nr. 3 lyde:*
 
 > ikke være under rekonstruksjonsforhandling eller konkursbehandling eller i konkurskarantene,
+>
+
+### 2026-07-01 — forskrift/2026-05-07-743
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >
 
 ## § 1
@@ -416,6 +682,13 @@ refid: "lov/1915-08-13-5"
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 1 annet ledd skal lyde:*
+
+> Paa samme maate straffes en utenlandsk militærperson, som er internert her i riket og medvirker til et saadant lovbrud.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 1 annet ledd skal lyde:*
 
@@ -854,6 +1127,15 @@ refid: "lov/1915-08-13-5"
 
 *Ny § 131 oppheves.*
 
+## § 131a
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*§ 131a nytt fjerde ledd skal lyde:*
+
+> Kongen kan i forskrift gi saksbehandlingsregler til utfylling av reglene i tjenesteloven for søknad om tillatelse til fotografering, filmopptak og opptak for radio eller fjernsyn, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 andre ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.
+>
+
 ## § 132
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -864,6 +1146,13 @@ refid: "lov/1915-08-13-5"
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 132 første ledd skal lyde:*
+
+> Under offentlig retsmøte kan adgang negtes folk under 18 aar og enhver, som fremstiller sig i en saadan tilstand, at hans nærvær vil stride mot rettens værdighet eller god orden. Det samme gjelder i straffesaker enhver som er fradømt stemmerett i offentlige anliggender, eller som i løpet av de siste fem år er idømt frihetstraff for en straffbar handling.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 132 første ledd skal lyde:*
 
@@ -1313,6 +1602,13 @@ refid: "lov/1915-08-13-5"
 > Med bøter straffes den som bevirker at noe som er forhandlet i rettsmøte for lukkede dører, og som skal holdes hemmelig, blir kjent for uvedkommende, eller at noe blir gjengitt offentlig i strid med § 129 eller § 130.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 199 skal lyde:*
+
+> Med bøter straffes den som bevirker at noe som er forhandlet i rettsmøte for lukkede dører, og som skal holdes hemmelig, blir kjent for uvedkommende, eller at noe blir gjengitt offentlig i strid med § 129 eller § 130.
+>
+
 ## § 2
 
 ### 2002-08-30 — lov/2002-08-30-67
@@ -1332,6 +1628,13 @@ refid: "lov/1915-08-13-5"
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 2 skal lyde:*
+
+> En utenlandsk militærperson, som under internering her i riket overtræder nogen forskrift, som er git av en offentlig myndighet angaaende interneringen, straffes med arrest eller fængsel indtil 6 maaneder.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 2 skal lyde:*
 
@@ -1424,6 +1727,13 @@ refid: "lov/1915-08-13-5"
 > Straffes med bøter kan dessuten den som i en sak om utlegg eller arrest unnlater å gi namsmyndigheten opplysninger som vedkommende er pålagt å gi etter tvangsfullbyrdelsesloven § 7-12.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 206 første ledd annet punktum skal lyde:*
+
+> Straffes med bøter kan dessuten den som i en sak om utlegg eller arrest unnlater å gi namsmyndigheten opplysninger som vedkommende er pålagt å gi etter tvangsfullbyrdelsesloven § 7-12.
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 206 første ledd andre punktum skal lyde:*
@@ -1494,6 +1804,13 @@ refid: "lov/1915-08-13-5"
 > Straf og erstatningsansvar efter §§ 205, 206, 207 og 209 kan ogsaa ilægges parter og stedfortredere, naar de efter tvisteloven § 23-1 eller § 23-2 pligter at møte, avgi forklaring eller forsikring, eller naar de efter samme lovs § 26-8 annet ledd pligter at fremlægge eller gi tilgang til realbevis.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 210 skal lyde:*
+
+> Straf og erstatningsansvar efter §§ 205, 206, 207 og 209 kan ogsaa ilægges parter og stedfortredere, naar de efter tvisteloven § 23-1 eller § 23-2 pligter at møte, avgi forklaring eller forsikring, eller naar de efter samme lovs § 26-8 annet ledd pligter at fremlægge eller gi tilgang til realbevis. Straff etter § 206 kan også ilegges en saksøkt som i en sak om tvangsfullbyrdelse eller midlertidig sikring unnlater å gi namsmyndighetene opplysninger som vedkommende er pålagt å gi etter tvangsfullbyrdelsesloven § 5-9 første ledd.
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 210 andre punktum skal lyde:*
@@ -1511,6 +1828,13 @@ refid: "lov/1915-08-13-5"
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 213 tredje ledd skal lyde:*
+
+> Hvis de lovbrud, som er nævnt i § 200 og §§ 205-212, er begaat ved en anden ret end den, som har hovedsaken til behandling, kan det overlates til den at ilægge erstatningsansvar.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 213 tredje ledd skal lyde:*
 
@@ -1648,7 +1972,17 @@ refid: "lov/1915-08-13-5"
 
 *§ 220 andre ledd nr. 1 og 2 skal lyde:*
 
-> at vedkommende har bestått juridisk embetseksamen eller mastergrad i rettsvitenskap, ogat vedkommende i til sammen minst to år etter embetseksamen eller mastergrad har vært i virksomhetsom autorisert fullmektig hos en advokat som selv utøver advokatvirksomhet,som dommer eller dommerfullmektig,i en stilling ved påtalemyndigheten der behandling av rettssaker inngår som en vesentlig del, ellersom universitetslærer i rettsvitenskap.
+> at vedkommende har bestått juridisk embetseksamen eller mastergrad i rettsvitenskap, og
+>
+> at vedkommende i til sammen minst to år etter embetseksamen eller mastergrad har vært i virksomhet som autorisert fullmektig hos en advokat som selv utøver advokatvirksomhet, som dommer eller dommerfullmektig, i en stilling ved påtalemyndigheten der behandling av rettssaker inngår som en vesentlig del, eller som universitetslærer i rettsvitenskap.
+>
+> som autorisert fullmektig hos en advokat som selv utøver advokatvirksomhet,
+>
+> som dommer eller dommerfullmektig,
+>
+> i en stilling ved påtalemyndigheten der behandling av rettssaker inngår som en vesentlig del, eller
+>
+> som universitetslærer i rettsvitenskap.
 >
 
 ### 2013-06-21 — lov/2013-06-21-82
@@ -1697,6 +2031,13 @@ refid: "lov/1915-08-13-5"
 > Autorisasjon gis av Tilsynsrådet for advokatvirksomhet. Fullmektigen må ha juridisk embetseksamen eller mastergrad i rettsvitenskap, og det må godtgjøres ved ordinær politiattest at vedkommende har ført en hederlig vandel. Videre må det ikke foreligge noe forhold som etter § 230 ville ført til at autorisasjonen ville blitt satt ut av kraft eller kalt tilbake. Er en tidligere autorisasjon kalt tilbake av grunner som nevnt i § 230 første ledd nr 4, jf. femte ledd, må ny autorisasjon ikke gis før det forhold som førte til tilbakekallingen er brakt i orden.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 223 første ledd skal lyde:*
+
+> Enhver advokat har rett til å ha en autorisert fullmektig til å opptre for seg i rettergang. Fullmektigen kan ikke opptre for Høyesterett, ved saker som behandles muntlig for lagmannsrett eller ved hovedforhandling for tingrett i saker om straff for lovbrudd som etter loven kan medføre fengsel i mer enn 6 år, uten at vedkommende har tillatelse etter § 221 eller § 220 til å være advokat ved vedkommende rett. Lagmannsretten kan for den enkelte sak tillate at en advokat opptrer ved autorisert fullmektig ved hovedforhandling i andre saker enn saker om straff for lovbrudd som etter loven kan medføre fengsel i mer enn 6 år. I sivile saker kan fullmektigen opptre for Høyesteretts ankeutvalg når anken gjelder kjennelser og beslutninger avsagt av lagmannsrettene.
+>
+
 ## § 224
 
 ### 2004-12-17 — lov/2004-12-17-94
@@ -1713,6 +2054,13 @@ refid: "lov/1915-08-13-5"
 *§ 228 første ledd nr. 1 skal lyde:*
 
 > advokaten dør eller blir fradømt retten til å utøve advokatvirksomhet etter straffeloven § 56 eller vedkommendes advokatbevilling blir tilbakekalt eller frakjent etter domstolloven § 230.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 228 første ledd nr. 1 skal lyde:*
+
+> advokaten dør eller blir fradømt retten til å utøve advokatvirksomhet etter straffeloven § 56 eller vedkommendes advokatbevilling blir tilbakekalt eller frakjent etter domstolloven § 230,
 >
 
 ## § 23
@@ -1735,6 +2083,13 @@ refid: "lov/1915-08-13-5"
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 230 femte ledd skal lyde:*
+
+> Blir en advokat siktet for et lovbrudd som kan medføre tap av advokatbevilling, kan Advokatbevillingsnemnden bestemme at bevillingen skal tre ut av kraft inntil saken er endelig avgjort.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 230 fjerde ledd skal lyde:*
 
 > Blir en advokat siktet for et lovbrudd som kan medføre tap av advokatbevilling, kan Advokatbevillingsnemnden bestemme at bevillingen skal tre ut av kraft inntil saken er endelig avgjort.
 >
@@ -1764,6 +2119,19 @@ refid: "lov/1915-08-13-5"
 *§ 234 fjerde ledd oppheves.*
 
 > 8. I lov 17. mars 1916 om straffebestemmelser for utenlandske militærpersoner som er internert her i riket under krig mellem fremmede magter gjøres følgende endringer:
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 234 skal lyde:*
+
+> Med bøter eller fengsel inntil tre måneder eller begge deler straffes den som yter rettshjelp uten å ha rett til dette.
+>
+> Med bøter eller fengsel inntil seks måneder eller begge deler straffes den som overtrertaushetsplikt etter § 218 tredje ledd, bestemmelse om sikkerhetsstillelse i medhold av § 219 første ledd første punktum eller § 222, eller vilkår eller begrensninger som nevnt i § 219 første ledd fjerde punktum, ellerreglene om organisering av advokatvirksomhet i § 231 til § 233, forutsatt at reglene er overtrådt gjentatte ganger eller at overtredelsen er grov.reglene om organisering av rettshjelpsvirksomhet i §§ 219 a og 219 b, forutsatt at reglene er overtrådt gjentatte ganger eller at overtredelsen er grov.
+>
+> Den som uaktsomt overtrer bestemmelsene som nevnt i første eller annet ledd straffes med bøter.
+>
+> 6. I lov 17. mars 1916 om straffebestemmelser for utenlandske militærpersoner som er internert her i riket under krig mellem fremmede magter gjøres følgende endringer:
 >
 
 ## § 235
@@ -1921,6 +2289,13 @@ refid: "lov/1915-08-13-5"
 > De strafbare handlinger, som omhandles i §§ 1 og 2, er militære lovbrud.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 3 første ledd skal lyde:*
+
+> De strafbare handlinger, som omhandles i §§ 1 og 2, er militære lovbrud.
+>
+
 ### 2026-05-07 — lov/2026-05-07-17
 
 *§ 3 skal lyde:*
@@ -2050,6 +2425,13 @@ refid: "lov/1915-08-13-5"
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 4 skal lyde:*
+
+> En utenlandsk militærperson, som under internering her i riket gjør sig skyldig i noget lovbrud mot militær tugt og orden, som ikke er strafbart efter § 1 eller § 2, kan straffes disciplinært med revselse.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 4 skal lyde:*
 
@@ -2605,6 +2987,13 @@ refid: "lov/1915-08-13-5"
 > Utvalg av lagrettemedlemmer, meddommere og skjønnsmedlemmer.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 63 a annet ledd skal lyde:*
+
+> Forvaltningsloven §§ 13 til 13 e og straffeloven § 209 får tilsvarende anvendelse.
+>
+
 ## § 63a
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -2848,6 +3237,13 @@ refid: "lov/1915-08-13-5"
 > den som er idømt forvaring eller særreaksjoner etter straffeloven §§ 62-65
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 72 første ledd nr. 2 skal lyde:*
+
+> den som er idømt forvaring eller særreaksjoner etter straffeloven § 40 eller §§ 62 til 65,
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *§ 72 andre ledd første punktum skal lyde:*
@@ -2932,44 +3328,6 @@ refid: "lov/1915-08-13-5"
 *§ 76 første ledd fjerde punktum skal lyde:*
 
 > Bestemmelsen i § 73 annet ledd gjelder tilsvarende.
->
-> 3. I lov 1. juni 1917 nr. 1 om skjønn og ekspropriasjonssaker skal § 15 første ledd lyde:
->
-> Sletting av skjønnsmedlemmer fra utvalget, jf § 14, foretas av fylkesrådmannen når et skjønnsmedlem flytter fra fylket eller for øvrig vilkårene for sletting foreligger etter reglene i domstolloven § 76 første eller annet ledd. Før avgjørelse treffes, skal vedkommende skjønnsmedlem så vidt mulig få høve til å uttale seg, og han skal om mulig gis meddelelse om resultatet. Reglene i domstolloven § 76 tredje ledd om klage gjelder tilsvarende. Klagen går til lagmannsretten. Istedenfor et skjønnsmedlem som er slettet, oppnevner fylkesrådmannen en annen.
->
-> 4. I lov 1. juli 1927 nr. 1 om registrering av elektriske kraftledninger skal § 6 annet ledd første punktum lyde:
->
-> Vil nogen overfor eier av eller rettighetshaver i ledningen gjøre innsigelse mot adkomsten til den av hensyn til ledningen fornødne benyttelse av grunnen, må erklæring herom være registrert på ledningens folium senest 2 år efterat den i § 5 omhandlede meddelelse har vært innrykket i Norsk Lysingsblad.
->
-> 5. I lov 21. februar 1930 om skifte oppheves § 126 annet ledd annet punktum.
->
-> 6. I lov 29. mai 1953 nr. 1 om rett for handverkarar o.a. til å selja ting som ikkje vert henta skal § 7 annet punktum lyde:
->
-> Er tilskrifta åt tingaren ikkje kjend, eller er det tvil om kven som har retten til pengane, skal dei deponerast i Noregs Bank etter §§ 1 til 4 i lov 17. februar 1939 nr. 2 om deponering i gjeldshøve.
->
-> 7. I lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom skal § 5 fjerde ledd lyde:
->
-> I heimel etter fyrste eller tredje leden kan det gjevast reglar om korleis heimelen skal nyttast.
->
-> 8. I lov 9. juni 1961 nr. 1 om skytevåpen og ammunisjon m.v. skal § 4 annet punktum lyde:
->
-> Heller ikke gjelder loven for ammunisjon som er bestemt for eller tilhører Direktoratet for samfunnssikkerhet og beredskap.
->
-> 9. I lov 16. juni 1961 nr. 15 om rettshøve mellom grannar skal § 3 første ledd første punktum lyde:
->
-> Er det ikkje nemnande om å gjera for eigaren eller for naturmangfaldet på staden, må eigaren ikkje ha tre som er til skade eller serleg ulempe for grannen, nærare hus, hage, tun eller dyrka jord på granneeigedomen enn tredjeparten av trehøgda.
->
-> 10. I lov 4. desember 1964 nr. 1 om fristar og betalingsutsetjing og ymist anna i serlege tilhøve skal § 7 lyde:
->
-> Det som er sagt i § 5 i lov 15. desember 1950 nr. 7 om serlege rådgjerder når det er krig, krigsfare og liknande tilstand, skal gjelda på tilsvarande måte om høve for styringsmakt i einskilde luter av landet til å gjeva føresegner etter lova her.
->
-> 11. I lov 21. mars 1975 nr. 9 om nordisk vitneplikt skal § 5 tredje punktum lyde:
->
-> Heller ikkje kan han straffast for uriktig forklaring.
->
-> 12. I lov 10. juni 1977 nr. 73 om jernbaneansvar skal § 2 tredje ledd første punktum lyde:
->
-> Fra lovens regler om ansvaret i kapittel II jf. kapittel IV unntas også befordring som er omfattet av Europaparlaments- og rådsforordning (EF) 1371/2007 av 23. oktober 2007 om jernbanepassasjerers rettigheter og forpliktelser, jf. jernbaneloven § 7 c.
 >
 
 ## § 77

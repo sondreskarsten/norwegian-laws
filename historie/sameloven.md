@@ -69,6 +69,20 @@ refid: "lov/1987-06-12-56"
 > Kongen gir utfyllende bestemmelser om mandatfordelingen og kandidatkåring.
 >
 
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 2-4 første ledd skal lyde:*
+
+> Ved valg til Sametinget velges medlemmer med varamedlemmer fra følgende valgkretser:Østre valgkrets/Nuortaguovllu válgabiire: kommunene Sør-Varanger, Nesseby, Vadsø, Vardø, Båtsfjord, Tana, Berlevåg, Lebesby og Gamvik i Finnmark fylkeÁvjovári valgkrets/Ávjovári válgabiire: kommunene Karasjok, Kautokeino og Porsanger i Finnmark fylkeNordre valgkrets/Davveguovllu válgabiire: kommunene Nordkapp, Måsøy, Hammerfest, Alta, Hasvik og Loppa i Finnmark fylke og kommunene Skjervøy, Kvænangen og Nordreisa i Troms fylkeGáisi valgkrets/Gáiseguovllu válgabiire: kommunene Kåfjord, Storfjord, Lyngen, Karlsøy, Tromsø, Balsfjord, Målselv, Bardu, Senja og Sørreisa i Troms fylkeVesthavet valgkrets/Viestarmera válggabijrra/Viesttarmeara válgabiire: kommunene Dyrøy, Salangen, Lavangen, Gratangen, Tjeldsund, Ibestad, Harstad og Kvæfjord i Troms fylke og kommunene fra og med Saltdal, Beiarn og Meløy og nordover i Nordland fylkeSørsamisk valgkrets/Åarjel-Saepmie veeljemegievlie: kommunene fra og med Rana og Rødøy og sørover i Nordland fylke, Trøndelag fylke, kommunene Surnadal og Sunndal i Møre og Romsdal fylke og kommunene Engerdal, Rendalen, Os, Tolga, Tynset og Folldal i Innlandet fylkeSør-Norge valgkrets/Lulli-Norgga válgabiire: de kommunene i Møre og Romsdal og Innlandet fylker som ikke tilhører valgkrets 6, samt fylkene Vestland, Rogaland, Agder, Telemark, Buskerud, Vestfold, Akershus, Østfold og Oslo.
+>
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 2-4 andre ledd tredje punktum skal lyde:*
+
+> Deretter fordeles de øvrige 25 mandatene forholdsmessig mellom valgkretsene på grunnlag av antall manntallsførte etter fordelingsmåten fastsatt i valgloven § 11-3 tredje og fjerde ledd.
+>
+
 ## § 2-5
 
 ### 2008-06-27 — lov/2008-06-27-51
@@ -117,6 +131,21 @@ refid: "lov/1987-06-12-56"
 *§ 2-8 annet ledd skal lyde:*
 
 > Rett til å kreve seg fritatt for valg har alle somhar fylt seksti år innen valgårets utløp, ellerhar gjort tjeneste som medlem av Sametinget de siste fire år, elleroverfor Sametingets valgnemnd godtgjør at de ikke vil kunne skjøtte sine plikter som medlem av Sametinget uten uforholdsmessig vanskelighet.
+>
+
+## § 2-9
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 2-9 andre ledd skal lyde:*
+
+> Medlemmer som blir ansatt i Sametingets administrasjon, trer ut av Sametinget for resten av valgperioden.
+>
+> 2.I lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser skal § 6 lyde:
+>
+> § 6.Vedtak om grensejustering
+>
+> Kongen gjer vedtak om justering av grenser mellom kommunar og mellom fylke. Dersom grensejustering mellom fylke inneber at ein eller fleire heile kommunar blir flytta over til eit anna fylke, skal saka leggjast fram for Stortinget til avgjerd.
 >
 
 ## § 2-15
@@ -201,15 +230,9 @@ refid: "lov/1987-06-12-56"
 
 *§ 3-4 første ledd nr. 4 og 5 skal lyde:*
 
-> Når en part begjærer det, kan rettens leder bestemme at forhandlingsspråket skal være samisk. Nr. 3 andre punktum gjelder tilsvarende.Er forhandlingsspråket samisk, kan rettens leder bestemme at også rettsboken skal føres på samisk. Domstolen sørger for oversettelse til norsk.
+> Når en part begjærer det, kan rettens leder bestemme at forhandlingsspråket skal være samisk. Nr. 3 andre punktum gjelder tilsvarende.
 >
-> 88. I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav skal § 23 første ledd annet punktum lyde:
->
-> Gjelder tvisten fordringshaverens krav på å få dekket kostnadene ved inndrivingen, kan den likevel bringes inn etter tvistelovens regler til behandling for de alminnelige domstolene sammen med hovedkravet.
->
-> 89. I lov 20. mai 1988 nr. 32 om militær disiplinærmyndighet skal § 36 første punktum lyde:
->
-> Søksmål etter tvisteloven kan bare reises når klageadgangen er uttømt.
+> Er forhandlingsspråket samisk, kan rettens leder bestemme at også rettsboken skal føres på samisk. Domstolen sørger for oversettelse til norsk.
 >
 
 ### 2023-06-09 — lov/2023-06-09-28
@@ -370,6 +393,28 @@ refid: "lov/1987-06-12-56"
 > Sametinget utarbeider hvert fjerde år en rapport til Kongen om situasjonen for samiske språk i Norge.
 >
 
+### 2003-04-11 — lov/2003-04-11-22
+
+*I lov 12. juni 1987 nr. 56 om Sametinget og andre samiske rettsforhold (samelova) skal ny § 1-6 lyde:*
+
+> § 1-6.Det samiske flagget
+>
+> Det samiske flagget er flagget godkjent av den 13. nordiske samekonferansen 15. august 1986.
+>
+> Sametinget kan ved forskrift gi nærmere bestemmelser om bruken av det samiske flagget.
+>
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*93. I lov 12. juni 1987 nr. 56 om Sametinget og andre samiske rettsforhold skal § 3-4 tredje ledd lyde:*
+
+> For kriminalomsorgens anstalter i Troms og Finnmark gjelder i tillegg følgende regler om bruk av samisk:§ 3-5 gjelder tilsvarende for innsatte.Innsatte har rett til å bruke samisk overfor hverandre og overfor sine pårørende.Innsatte har rett til å bruke samisk ved muntlig rettsmiddelerklæring til fengselsmyndigheten.
+>
+> 94. I lov 18. desember 1987 nr. 97 om endringer i rettergangslovgivningen m.m. blir endringane i § 456 første ledd første til sjette punktum i lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker oppheva.
+>
+> 95. I lov 29. april 1988 nr. 21 om ferie blir § 10 nr. 4 tredje ledd oppheva.
+>
+
 ### 2004-05-14 — lov/2004-05-14-26
 
 *I lov 12. juni 1987 nr. 56 om Sametinget og andre samiske rettsforhold (sameloven) skal § 2-6 lyde:*
@@ -439,6 +484,13 @@ refid: "lov/1987-06-12-56"
 > Loven trer i kraft 1. januar 2021.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2021-06-11 — lov/2021-06-11-76
 
 *Nytt kapittel 4 skal lyde:*
@@ -504,6 +556,13 @@ refid: "lov/1987-06-12-56"
 
 *Nåværende kapittel 4 blir nytt kapittel 5. Nåværende §§ 4-1 og 4-2 blir nye §§ 5-1 og 5-2.*
 
+### 2021-07-01 — forskrift/2021-06-11-1870
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2023-06-09 — lov/2023-06-09-28
 
 *Overskriften til § 2-15 skal lyde:*
@@ -520,4 +579,18 @@ refid: "lov/1987-06-12-56"
 *Lova trer i kraft 1. januar 2024.*
 
 > Lova trer i kraft 1. januar 2024.
+>
+
+### 2024-05-01 — forskrift/2024-03-22-553
+
+*Delt ikraftsetjing av lov 16. juni 2023 nr. 62 om valg til Stortinget, fylkesting og kommunestyrer (valgloven). Lova tek til å gjelde 1. mai 2024, med unntak av endringane i partilova § 3, § 4 og § 9 i vallova § 22-2 nr. 3.*
+
+> Delt ikraftsetjing av lov 16. juni 2023 nr. 62 om valg til Stortinget, fylkesting og kommunestyrer (valgloven). Lova tek til å gjelde 1. mai 2024, med unntak av endringane i partilova § 3, § 4 og § 9 i vallova § 22-2 nr. 3.
+>
+
+### 2024-08-01 — forskrift/2024-05-31-1028
+
+*Ikraftsetting av lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova). Loven trer i kraft 1. august 2024.*
+
+> Ikraftsetting av lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova). Loven trer i kraft 1. august 2024.
 >

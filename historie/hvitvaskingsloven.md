@@ -7,11 +7,25 @@ refid: "lov/2018-06-01-23"
 
 ## (annet)
 
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
 ### 2021-06-18 — lov/2021-06-18-127
 
 *I lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering skal § 45 første ledd andre punktum lyde:*
 
 > Forvaltningsloven §§ 13, 13 b til 13 e og 13 g gjelder ikke for opplysninger som nevnt i første punktum.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
 >
 
 ### 2022-06-22 — lov/2022-06-22-79
@@ -21,6 +35,45 @@ refid: "lov/2018-06-01-23"
 > Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen har opphørt.
 >
 
+### 2022-06-22 — forskrift/2022-06-22-1108
+
+*Delt ikraftsetting av lov 22. juni 2022 om endringer i verdipapirhandelloven mv. (samleproposisjon):*
+
+> Delt ikraftsetting av lov 22. juni 2022 om endringer i verdipapirhandelloven mv. (samleproposisjon):
+>
+> Endringsloven del IV (finansforetaksloven) trer i kraft 1. januar 2023.
+>
+> Endringsloven del V (hvitvaskingsloven) trer i kraft straks.
+>
+
+### 2023-01-01 — forskrift/2022-03-18-414
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-09-16-1575
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2255
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2266
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
 ### 2024-06-25 — lov/2024-06-25-60
 
 *I § 43 annet ledd skal ny bokstav d lyde:*
@@ -28,11 +81,32 @@ refid: "lov/2018-06-01-23"
 > tilsynsmyndighet for rapporteringspliktige etter § 4 annet ledd bokstav h og i, som fastsatt av departementet i forskrift. Forskriften kan inneholde nærmere regler om gjennomføring av tilsyn, blant annetopplysningsplikt og utlevering av dokumenter uavhengig av taushetsplikt, herunder om periodisk innlevering av opplysninger og krav til elektronisk rapportering i bestemte formatstedlige tilsyn hos rapporteringspliktige og tilhørende undersøkelse av dokumenter, lokaler, regnskap, protokoller og ethvert annet informasjonsbehandlingssystem til bruk for rapporteringspliktiges etterlevelse av hvitvaskingsloven med forskriftertilsynsmyndighetens behandling av opplysninger, herunder taushetsplikt, og samarbeid med andre myndigheter, herunder deling av informasjonbehandling av klager over vedtak fattet av tilsynsmyndighetenføring av et register over rapporteringspliktige under tilsyn og innsyn i registeret, herunder registreringspliktbetaling av gebyr til dekning av tilsynsmyndighetens utgifter.
 >
 
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
+
 ### 2025-07-01 — forskrift/2025-05-27-869
 
 *Loven trer i kraft 1. juli 2025.*
 
 > Loven trer i kraft 1. juli 2025.
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1110
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
+### 2026-08-01 — forskrift/2026-06-19-1152
+
+*Ikraftsetting av lov 6. februar 2026 nr. 2 om folkefinansiering av næringsvirksomhet (folkefinansieringsloven). Loven trer i kraft 1. august 2026.*
+
+> Ikraftsetting av lov 6. februar 2026 nr. 2 om folkefinansiering av næringsvirksomhet (folkefinansieringsloven). Loven trer i kraft 1. august 2026.
 >
 
 ## § 10
@@ -122,6 +196,20 @@ refid: "lov/2018-06-01-23"
 
 ## § 22
 
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 22 første ledd bokstav h skal lyde:*
+
+> verdipapirsentral som er rapporteringspliktig
+>
+
+### 2022-12-16 — lov/2022-12-16-90
+
+*§ 22 første ledd bokstav k skal lyde:*
+
+> statsautorisert regnskapsfører og regnskapsselskap
+>
+
 ### 2024-06-25 — lov/2024-06-25-60
 
 *§ 22 første ledd bokstav g skal lyde:*
@@ -162,6 +250,20 @@ refid: "lov/2018-06-01-23"
 >
 
 ## § 4
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 4 første ledd bokstav l skal lyde:*
+
+> verdipapirsentraler, i tilfeller der verdipapirsentralen ikke benytter ekstern kontofører som er rapporteringspliktig. For kontohavere og utstedere som har ekstern kontofører som er rapporteringspliktig, er det kontoføreren som er rapporteringspliktig.
+>
+
+### 2022-12-16 — lov/2022-12-16-90
+
+*§ 4 annet ledd bokstav b første punktum skal lyde:*
+
+> statsautoriserte regnskapsførere og regnskapsselskaper.
+>
 
 ### 2024-06-25 — lov/2024-06-25-60
 
@@ -205,6 +307,19 @@ refid: "lov/2018-06-01-23"
 *§ 4 første ledd ny bokstav q skal lyde:*
 
 > folkefinansieringsforetak
+>
+
+## § 42
+
+### 2022-12-16 — lov/2022-12-16-90
+
+*§ 42 første ledd tredje punktum skal lyde:*
+
+> Autorisasjon fra Finanstilsynet er likevel ikke nødvendig for advokater, statsautoriserte regnskapsførere, regnskapsselskaper, statsautoriserte og registrerte revisorer og godkjente revisjonsselskaper.
+>
+> 7.I lov 28. januar 2022 nr. 2 om lønnsstøtte skal § 12 annet ledd lyde:
+>
+> (2) Departementet kan gi forskrift om krav til søknaden, herunder om hvordan opplysninger skal gis, nærmere vilkår for leveringsmåte og format, hvilke opplysninger søknaden skal inneholde, frister og krav om bekreftelse eller kontroll fra revisor eller statsautorisert regnskapsfører.
 >
 
 ## § 43

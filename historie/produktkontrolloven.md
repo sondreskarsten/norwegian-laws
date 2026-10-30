@@ -7,6 +7,13 @@ refid: "lov/1976-06-11-79"
 
 ## (annet)
 
+### 2002-07-01 — lov/2002-06-21-34
+
+*2. I lov 11. juni 1976 nr. 79 om kontroll med produkter og forbrukertjenester (produktkontrolloven) skal § 2 tredje ledd annet punktum lyde:*
+
+> Med forbrukertjenester menes tjenester som tilbys fysiske personer hovedsakelig utenfor næringsvirksomhet.
+>
+
 ### 2005-04-29 — lov/2005-04-29-23
 
 *§§ 1 til 3 skal lyde:*
@@ -59,6 +66,29 @@ refid: "lov/1976-06-11-79"
 > § 10.Rett til informasjon om produkter fra produsent, importør, bearbeider, omsetter eller bruker av produkt
 >
 
+### 2006-05-19 — lov/2006-05-19-16
+
+*5. I lov 11. juni 1976 nr. 79 om kontroll med produkter og forbrukertjenester skal § 9 tredje ledd første punktum lyde:*
+
+> Krav om informasjon kan avslås dersom det er et reelt og saklig behov for det i det enkelte tilfelle og informasjonen eller dokumentet informasjonen finnes i, kan unntas fra offentlighet i medhold av offentleglova kapittel 3.
+>
+> 6. I lov 28. april 1978 nr. 18 om behandling av forbrukertvister blir desse endringane gjorde:
+>
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*8. I lov 11. juni 1976 nr. 79 om kontroll med produkter og forbrukertjenester skal § 7 lyde:*
+
+> Departementet kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for søknad om godkjenning av produkt, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-786
+
+*Delt ikraftsetting av loven. Del I–IV og del V § 75 annet ledd trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Del I–IV og del V § 75 annet ledd trer i kraft 1. juli 2019.
+>
+
 ### 2020-07-01 — forskrift/2020-06-19-1273
 
 *Loven trer i kraft 1. juli 2020.*
@@ -66,7 +96,39 @@ refid: "lov/1976-06-11-79"
 > Loven trer i kraft 1. juli 2020.
 >
 
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ## § 10
+
+### 2003-05-09 — lov/2003-05-09-31
+
+*Ny § 10 skal lyde:*
+
+> § 10.Rett til informasjon om produkter fra tilvirker, importør, bearbeider, omsetter eller bruker av produkt
+>
+> Enhver har rett til å få informasjon omproduktet inneholder komponenter eller har egenskaper som kan medføre virkning som nevnt i § 1,hvilke komponenter eller egenskaper dette er,hvordan produktet må håndteres for å unngå virkning som nevnt i § 1,vesentlige helseskader eller miljøforstyrrelser som produksjonen og distribusjonen av produktet forårsaker, oghvem som er tilvirker eller importør av produktet.
+>
+> Informasjon etter første ledd kan kreves fra tilvirker, importør, bearbeider, omsetter eller bruker av produktet.
+>
+> Rett til informasjon i henhold til første ledd bokstav d gjelder også informasjon om virkninger på miljøet som følge av produksjon eller distribusjon av produkt utenfor Norges grenser, i den grad slik informasjon er tilgjengelig. Virksomheten skal rette forespørsel til foregående salgsledd dersom dette er nødvendig for å besvare kravet.
+>
+> Krav om informasjon kan avvises dersom det er for generelt formulert eller ikke gir tilstrekkelig grunnlag for å identifisere hva kravet gjelder.
+>
+> Krav om informasjon kan avslås dersomkravet er åpenbart urimelig, ellerinformasjonen som etterspørres angår tekniske innretninger og framgangsmåter, samt drifts- eller forretningsforhold som det vil være av konkurransemessig betydning å hemmeligholde av hensyn til den som opplysningene angår.
+>
+> Avslag på krav om informasjon kan påklages. For øvrig gjelder reglene i miljøinformasjonsloven §§ 6, 17 tredje ledd, 18 og 19 om betaling, saksbehandling og klage, samt forskrifter gitt i medhold av § 7, tilsvarende så langt de passer.
+>
+> Tilvirker, importør, bearbeider og omsetter av produkter skal gi informasjon som omfattes av denne paragrafen, til etterfølgende salgsledd.
+>
 
 ### 2005-04-29 — lov/2005-04-29-23
 
@@ -89,13 +151,51 @@ refid: "lov/1976-06-11-79"
 > Produsent, importør, bearbeider og omsetter av produkter skal gi informasjon som omfattes av denne paragrafen, til etterfølgende salgsledd.
 >
 
+## § 11
+
+### 2003-05-09 — lov/2003-05-09-31
+
+*§ 11 annet ledd skal lyde:*
+
+> Taushetsplikten er ikke til hinder for at det gis opplysninger om produkts virkning som nevnt i § 1 og om nødvendig en forklaring av årsaken til denne, samt opplysninger om forholdsregler for å hindre eller redusere virkninger som nevnt i § 1.
+>
+
+### 2003-05-09 — lov/2003-05-09-31
+
+*§ 11 nytt femte, sjette og syvende ledd skal lyde:*
+
+> Offentlig organ som definert i miljøinformasjonsloven § 5 første ledd, kan kreve at den som gir informasjon til organet, eller som et krav om informasjon berører, skal identifisere hvilken del av informasjonen som det vil være av konkurransemessig betydning å hemmeligholde, og gi en begrunnelse for dette.
+>
+> Før opplysninger underlagt lovbestemt taushetsplikt utleveres i medhold av § 11 annet ledd, skal den opplysningene gjelder, gis anledning til å uttale seg innen en passende svarfrist.
+>
+> Dersom organet vil utlevere informasjon som er underlagt lovbestemt taushetsplikt, skal den som informasjonen gjelder, varsles om det. Avgjørelsen om utlevering kan påklages etter reglene i miljøinformasjonsloven § 15. Klagen har oppsettende virkning.
+>
+
 ## § 12
+
+### 2003-05-09 — lov/2003-05-09-31
+
+*§ 12 første ledd skal lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av denne lov, eller som bryter vilkår fastsatt med hjemmel i § 7, straffes med bøter, fengsel i inntil 3 måneder eller begge deler så fremt ikke strengere straffebestemmelse kommer til anvendelse. Dette gjelder ikke overtredelse av §§ 9, 10 og 11 femte ledd. Overtredelse av § 3 straffes bare dersom den skjer forsettlig eller ved grov uaktsomhet. Medvirkning straffes på samme måte.
+>
 
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 12 første ledd siste punktum oppheves.*
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 12 annet ledd nytt tredje og fjerde punktum skal lyde:*
+
+> Forsøk straffes på samme måte. Medvirkning straffes ikke.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 12 første ledd siste punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 12 annet ledd nytt tredje og fjerde punktum skal lyde:*
 
@@ -195,6 +295,13 @@ refid: "lov/1976-06-11-79"
 > Kongen kan selv iverksette slike undersøkelser, og kan når det finnes rimelig pålegge produsent eller importør å bære kostnadene ved undersøkelsen. Kostnadene er tvangsgrunnlag for utlegg.
 >
 
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 5 tredje ledd skal lyde:*
+
+> Dokumentene i Forbrukerrådets klagesaker blir først offentlige etter bestemmelsene i offentleglova fra det tidspunkt saken er endelig avsluttet i Forbrukerrådet eller endelig avgjort av Forbrukertvistutvalget.
+>
+
 ### 2020-06-19 — lov/2020-06-19-86
 
 *§ 5 annet og tredje ledd skal lyde:*
@@ -255,4 +362,36 @@ refid: "lov/1976-06-11-79"
 > Kongen kan gi nærmere regler om krav til meldeplikten og om når det kan gjøres unntak fra denne.
 >
 > Meldeplikten etter første og annet ledd gjelder tilsvarende for den som eier eller leder virksomhet som tilbyr forbrukertjenester og som vet eller burde vite at denne utgjør en uakseptabel risiko for helseskade.
+>
+
+## § 7
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 7 femte ledd skal lyde:*
+
+> Dokumentene i Forbrukertvistutvalgets klagesaker blir først offentlige etter bestemmelsene i offentleglova fra det tidspunkt saken er endelig avgjort av utvalget.
+>
+> 7. I lov 13. juni 1980 nr. 24 om ligningsforvaltning skal § 8-8 nr. 1 lyde:
+>
+> Når ligningen er ferdig, utarbeides det en liste for hver kommune over alle som det er foretatt ligningsfastsettelser for. Det kan gis innsyn i og utskrift av opplysninger i listen så langt det følger av bestemmelsen her. Offentleglova får ikke anvendelse ved krav om innsyn i slike lister.
+>
+
+## § 9
+
+### 2003-05-09 — lov/2003-05-09-31
+
+*Ny § 9 skal lyde:*
+
+> § 9.Rett til informasjon om produkter som foreligger hos offentlig organ
+>
+> Enhver har rett til å få informasjon fra et offentlig organ om produkter som har eller kan ha virkning som nevnt i § 1, så framt informasjonen foreligger hos vedkommende organ, og det ikke er gjort unntak fra informasjonsretten etter loven her. Med offentlig organ menes organ slik det er definert i miljøinformasjonsloven § 5 første ledd.
+>
+> Et krav om informasjon kan avvises dersom det er for generelt formulert eller ikke gir tilstrekkelig grunnlag for å identifisere hva kravet gjelder. Før et krav avvises, skal informasjonssøkeren i rimelig grad gis veiledning til å utforme kravet på en måte som gjør at det kan behandles.
+>
+> Krav om informasjon kan avslås dersom det er et reelt og saklig behov for det i det enkelte tilfelle og informasjonen eller dokumentet informasjonen finnes i, kan unntas fra offentlighet i medhold av offentlighetsloven §§ 5, 6 eller 6a. Ved vurderingen av om det foreligger reelt og saklig behov, skal de miljø- og samfunnsmessige interessene som ivaretas ved å utlevere informasjonen, veies mot de interessene som ivaretas ved et avslag. Dersom de miljø- og samfunnsmessige interessene veier tyngst, skal informasjonen utleveres.
+>
+> Krav om informasjon som er underlagt lovbestemt taushetsplikt, avslås med mindre noe annet følger av § 11 annet ledd.
+>
+> Avslag på krav om informasjon kan påklages. For øvrig gjelder reglene i miljøinformasjonsloven §§ 6, 10 annet og fjerde ledd, 11 tredje ledd, 13 og 15 om betaling, saksbehandling og klage mv., samt forskrifter gitt i medhold av § 7, tilsvarende så langt de passer.
 >

@@ -30,6 +30,13 @@ refid: "lov/1987-05-15-21"
 > Departementet kan i forskrift gi nærmare reglar om førehandskontroll, registreringsplikt og betaling av avgift.
 >
 
+### 2013-01-01 — forskrift/2012-12-14-1245
+
+*Loven trer i kraft 1. januar 2013.*
+
+> Loven trer i kraft 1. januar 2013.
+>
+
 ### 2013-01-01 — forskrift/2012-12-14-1248
 
 *Loven trer i kraft 1. januar 2013.*
@@ -50,9 +57,33 @@ refid: "lov/1987-05-15-21"
 > Departementet fastset i forskrift nærmare retningsliner om avgiftsgrunnlag, utrekning og innkrevjing av avgifter, bruken av midlane og kan gjere unntak frå kravet om avgift.
 >
 
+## § 11
+
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 11 oppheves.*
+
+## § 12
+
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 12 skal lyde:*
+
+> § 12.Nekta registrering av videogram
+>
+> Departementet kan gi forskrift om høve for Medietilsynet til å nekte registrering av videogram frå distributørar som bryt reglane i denne lova eller i forskrifter gitt med heimel i denne lova.
+>
+
 ## § 13
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 13 nytt annet punktum skal lyde:*
+
+> Medverknad blir ikkje straffa.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 13 nytt annet punktum skal lyde:*
 
@@ -67,6 +98,10 @@ refid: "lov/1987-05-15-21"
 
 > Medverknad blir ikkje straffa.
 >
+
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 13 a til § 16 oppheves.*
 
 ## § 13a
 
@@ -130,16 +165,6 @@ refid: "lov/1987-05-15-21"
 
 > Ein film eller eit videogram som heilt eller delvis er i strid med § 317 eller § 318 i straffelova, kan ved dom inndragast utan omsyn til om nokon kan straffast.
 >
-> 124. I lov 12. juni 1987 nr. 48 om norsk internasjonalt skipsregister skal § 11 lyde:
->
-> Den som forsettlig eller grovt uaktsomt vesentlig overtrer bestemmelsene i § 4 eller forskrifter gitt i medhold av bestemmelsene, eller plikten til å framlegge dokumentasjon som nevnt i § 9 annet ledd straffes med bøter. Medvirkning straffes ikke.
->
-> Ved vurderingen av om en overtredelse av første ledd er vesentlig, skal det særlig legges vekt på overtredelsens omfang og virkninger og graden av utvist skyld.
->
-> 125. I lov 12. juni 1987 nr. 57 om forbud mot fallskjermhopping m.v. innenfor visse fjellområder skal § 3 lyde:
->
-> Den som overtrer forskrifter gitt i medhold av § 2, straffes med bøter.
->
 
 ### 2010-09-03 — lov/2010-09-03-55
 
@@ -187,6 +212,13 @@ refid: "lov/1987-05-15-21"
 ### 2010-09-03 — lov/2010-09-03-55
 
 *§ 2 femte ledd blir oppheva. Noverande sjette ledd blir nytt femte ledd.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 2 annet ledd annet punktum skal lyde:*
+
+> Løyvet kan nektast eller trekkjast attende dersom løyvehavaren bryt reglar i denne lova eller i forskrifter til denne lova, straffelova §§ 236, 311 eller 317 eller bryt vilkår som er sette ved tildeling av løyvet.
+>
 
 ## § 3
 
@@ -268,6 +300,10 @@ refid: "lov/1987-05-15-21"
 > Eit videogram som Medietilsynet meiner er i strid med reglane i straffelova §§ 204, 204 a eller 382 kan ikkje registrerast. Det same gjeld videogram som er funne rettsstridig ved dom, vedteke førelegg eller som etter avgjerd av påtalemakta eller tingretten skal inndragast eller sperrast fordi det er eller kan vere i strid med reglane i straffelova §§ 204, 204 a eller 382.
 >
 
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 7 andre og tredje ledd oppheves. Nåværende fjerde ledd blir andre ledd.*
+
 ## § 9
 
 ### 2010-09-03 — lov/2010-09-03-55
@@ -280,3 +316,7 @@ refid: "lov/1987-05-15-21"
 >
 > Ved omsetning av videogram over disk skal den som omset videogram til kunden, ha fylt 18 år.
 >
+
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 9 oppheves.*

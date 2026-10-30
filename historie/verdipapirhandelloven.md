@@ -5,6 +5,19 @@ refid: "lov/2007-06-29-75"
 
 # Endringshistorikk: Verdipapirhandelloven – vphl
 
+## § 1-8
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 1-8 skal lyde:*
+
+> § 1-8.Skatteforhold
+>
+> (1) Det skal fremgå av avtalevilkårene, kvitteringer for innbetalt innskudd, premie og vederlag som nevnt i § 1-3 og meldinger til skattemyndighetene at dokumentene gjelder pensjonsavtale etter loven her.
+>
+> (2) Institusjonen er ansvarlig for at opplysninger som fremgår av dokumenter som nevnt i første ledd er riktige.
+>
+
 ## § 2-1
 
 ### 2019-06-21 — lov/2019-06-21-41
@@ -119,6 +132,15 @@ refid: "lov/2007-06-29-75"
 > (1) EØS-avtalen vedlegg IX nr. 29a forordning (EU) nr. 596/2014 (markedsmisbruksforordningen), som endret ved forordning (EU) 2016/1011 om referanseverdier og forordning (EU) 2019/2115 om å fremme bruken av SMB-vekstmarkeder, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
 >
 
+## § 3-5
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 3-5 første ledd skal lyde:*
+
+> (1) EØS-avtalen vedlegg IX forordning (EU) nr. 236/2012 (om shortsalg og visse sider ved kredittapsbytteavtaler (shortsalgforordningen)), som endret ved forordning (EU) nr. 909/2014, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+
 ## § 3-6
 
 ### 2012-06-22 — lov/2012-06-22-35
@@ -161,6 +183,15 @@ refid: "lov/2007-06-29-75"
 >
 
 ## § 3-14a
+
+### 2016-06-17 — lov/2016-06-17-30
+
+*Ny § 3-14a skal lyde:*
+
+> § 3-14a.Salg av finansielle instrumenter som selgeren ikke eier
+>
+> EØS-avtalen vedlegg IX nr. 29f (forordning (EU) nr. 236/2012) om shortsalg og visse sider ved kredittbytteavtaler (shortsalgforordningen) gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig. Departementet kan i forskrift fastsette nærmere regler til gjennomføring av denne bestemmelsen.
+>
 
 ### 2016-12-16 — lov/2016-12-16-91
 
@@ -464,6 +495,13 @@ refid: "lov/2007-06-29-75"
 > (6) Årsberetningen skal utarbeides etter regnskapsloven § 3-3 a, etter nasjonal lovgivning som gjennomfører artiklene 46 og 46 a i direktiv 78/660/EØF eller tilsvarende regler i land utenfor EØS og, dersom det kreves at utstederen utarbeider konsernregnskap, etter nasjonal lovgivning som gjennomfører artikkel 36 i direktiv 83/349/EØF eller tilsvarende regler i land utenfor EØS.
 >
 
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 5-5 åttende ledd nytt annet punktum skal lyde:*
+
+> Departementet kan også fastsette forskrift om krav til revisjon, valg av revisor og revisjonsutvalg.
+>
+
 ### 2021-04-30 — lov/2021-04-30-26
 
 *§ 5-5 første ledd tredje punktum skal lyde:*
@@ -652,6 +690,17 @@ refid: "lov/2007-06-29-75"
 > Finanstilsynet er tilbudsmyndighet for selskaper etablert i Norge og selskaper notert på regulert marked i Norge.
 >
 
+## § 6-7
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-7 annet ledd skal lyde:*
+
+> (2) Oppdragstakeren plikter før handel sluttes å gi kjøperen en skriftlig oppgave som minst inneholder følgende opplysninger:eiendommens registerbetegnelse og adresse,eierforhold,tinglyste forpliktelser,tilliggende rettigheter,grunnarealer,bebyggelsens arealer og angivelse av alder og byggemåte,eventuell adgang til utleie av eiendommen eller deler av denne til boligformål,ferdigattest eller midlertidig brukstillatelse,verdien ved skattefastsettingen og offentlige avgifter,forholdet til endelige offentlige planer, konsesjonsplikt og odelsrett,spesifikasjon over faste løpende kostnader,hvis kjøpesum er fastsatt, totalkostnad som omfatter andel av fellesgjeld, alle gebyrer, avgifter og øvrige kostnader,hvis kjøpesum ikke er fastsatt, en samlet oppstilling som omfatter prisantydning, andel av fellesgjeld, alle gebyrer, avgifter og øvrige kostnader, samt summen av disse beløpene, oghva som er avtalt om meglers vederlag, jf. § 7-2.
+>
+> 35. I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven) gjøres følgende endring:
+>
+
 ## § 6-10
 
 ### 2020-04-24 — lov/2020-04-24-32
@@ -715,14 +764,20 @@ refid: "lov/2007-06-29-75"
 
 *§ 7-4 nr. 6 og 7 skal lyde:*
 
-> tilbudet gjelder verdipapirer som tilbys som vederlag ved oppkjøp, forutsatt at det foreligger et dokument som prospektmyndigheten anser at gir tilsvarende opplysninger som det som følger av § 7-13,tilbudet gjelder utbytte til eksisterende aksjeeiere utbetalt i form av aksjer av samme klasse som de aksjer slikt utbytte utbetales for, forutsatt at det foreligger et dokument med opplysninger om aksjeklasse, antall aksjer samt bakgrunn og vilkår for tilbudet,
+> tilbudet gjelder verdipapirer som tilbys som vederlag ved oppkjøp, forutsatt at det foreligger et dokument som prospektmyndigheten anser at gir tilsvarende opplysninger som det som følger av § 7-13,
+>
+> tilbudet gjelder utbytte til eksisterende aksjeeiere utbetalt i form av aksjer av samme klasse som de aksjer slikt utbytte utbetales for, forutsatt at det foreligger et dokument med opplysninger om aksjeklasse, antall aksjer samt bakgrunn og vilkår for tilbudet,
 >
 
 ### 2012-06-22 — lov/2012-06-22-35
 
 *§ 7-4 nr. 9 og 10 og nytt nr. 11 skal lyde:*
 
-> tilbudet rettes til nåværende eller tidligere ansatte eller styremedlemmer fra arbeidsgiveren eller fra annet selskap i samme konsern, forutsatt at vedkommende selskap har hovedkontor eller forretningskontor i et EØS-land eller et tredjeland godkjent av prospektmyndigheten, og at det foreligger et dokument som inneholder opplysninger om type og antall verdipapirer samt bakgrunn og vilkår for tilbudet,tilbudet gjelder verdipapirer som legges ut i enkeltstørrelser med pålydende eller krav på vederlag på minst 100 000 euro,tilbudet gjelder salg gjennom verdipapirforetak, der verdipapirforetaket har avtale med utsteder om bruk av gyldig prospekt, jf. § 7-12.
+> tilbudet rettes til nåværende eller tidligere ansatte eller styremedlemmer fra arbeidsgiveren eller fra annet selskap i samme konsern, forutsatt at vedkommende selskap har hovedkontor eller forretningskontor i et EØS-land eller et tredjeland godkjent av prospektmyndigheten, og at det foreligger et dokument som inneholder opplysninger om type og antall verdipapirer samt bakgrunn og vilkår for tilbudet,
+>
+> tilbudet gjelder verdipapirer som legges ut i enkeltstørrelser med pålydende eller krav på vederlag på minst 100 000 euro,
+>
+> tilbudet gjelder salg gjennom verdipapirforetak, der verdipapirforetaket har avtale med utsteder om bruk av gyldig prospekt, jf. § 7-12.
 >
 
 ### 2012-06-22 — lov/2012-06-22-35
@@ -745,7 +800,9 @@ refid: "lov/2007-06-29-75"
 
 *§ 7-5 nr. 7 og 8 skal lyde:*
 
-> verdipapirer som tilbys som vederlag ved oppkjøp, forutsatt at det foreligger et dokument som prospektmyndigheten anser at gir tilsvarende opplysninger som det som følger av § 7-13,aksjer som tilbys vederlagsfritt til eksisterende aksjeeiere, og utbytte utbetalt i form av aksjer i samme klasse som de aksjer slikt utbytte utbetales for, forutsatt at nevnte aksjer er i samme klasse som allerede noterte aksjer, og at det foreligger et dokument med opplysninger om aksjeklasse, antall aksjer samt bakgrunn og vilkår for tilbudet,
+> verdipapirer som tilbys som vederlag ved oppkjøp, forutsatt at det foreligger et dokument som prospektmyndigheten anser at gir tilsvarende opplysninger som det som følger av § 7-13,
+>
+> aksjer som tilbys vederlagsfritt til eksisterende aksjeeiere, og utbytte utbetalt i form av aksjer i samme klasse som de aksjer slikt utbytte utbetales for, forutsatt at nevnte aksjer er i samme klasse som allerede noterte aksjer, og at det foreligger et dokument med opplysninger om aksjeklasse, antall aksjer samt bakgrunn og vilkår for tilbudet,
 >
 
 ## § 7-6
@@ -763,14 +820,14 @@ refid: "lov/2007-06-29-75"
 
 *§ 7-7 første ledd nr. 2 skal lyde:*
 
-> tilbud fremsatt i EØS-land og som samlet gjelder beløp på minst 5 000 000 euro beregnet over en periode på 12 måneder,
+> tilbud fremsatt i EØS-land og som samlet gjelder beløp på minst 5 000 000 euro beregnet over en periode på 12 måneder,
 >
 
 ### 2012-06-22 — lov/2012-06-22-35
 
 *§ 7-7 første ledd nr. 5 skal lyde:*
 
-> tilbud som gjelder beløp under 5 000 000 euro, forutsatt at det er utarbeidet prospekt etter bestemmelsene i medhold av § 7-13 annet ledd og §§ 7-14 til 7-21.
+> tilbud som gjelder beløp under 5 000 000 euro, forutsatt at det er utarbeidet prospekt etter bestemmelsene i medhold av § 7-13 annet ledd og §§ 7-14 til 7-21.
 >
 
 ## § 7-8
@@ -965,16 +1022,33 @@ refid: "lov/2007-06-29-75"
 
 *§ 9-2 annet ledd nr. 9 og nytt nr. 10 skal lyde:*
 
-> handler for andre medlemmers regning i derivatmarkedet, eller stiller priser for slike medlemmer, forutsatt at kontraktene som inngås eller prisene som stilles er sikret ved at oppgjørsmedlemmer eller oppgjørssentral fra de samme markedene trer inn som part eller på annen måte garanterer for oppfyllelsen av kontraktene eller prisene,kun yter tjenester som nevnt i § 9-1 tredje ledd overfor kunder som påtar seg et samlet forpliktet investeringsbeløp som minst svarer til 5 000 000 norske kroner, eller overfor kunder etter verdipapirforskriften § 10-1 jf. § 10-2.
+> handler for andre medlemmers regning i derivatmarkedet, eller stiller priser for slike medlemmer, forutsatt at kontraktene som inngås eller prisene som stilles er sikret ved at oppgjørsmedlemmer eller oppgjørssentral fra de samme markedene trer inn som part eller på annen måte garanterer for oppfyllelsen av kontraktene eller prisene,
+>
+> kun yter tjenester som nevnt i § 9-1 tredje ledd overfor kunder som påtar seg et samlet forpliktet investeringsbeløp som minst svarer til 5 000 000 norske kroner, eller overfor kunder etter verdipapirforskriften § 10-1 jf. § 10-2.
 >
 
 ## § 9-3
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 9-3 første ledd nr. 8 skal lyde:*
+
+> verdipapirsentral med unntak av det som fremgår av verdipapirsentralforordningen artikkel 73 jf. verdipapirsentralloven § 1-1,
+>
 
 ### 2022-06-22 — lov/2022-06-22-79
 
 *§ 9-3 annet ledd nr. 7 bokstav b skal lyde:*
 
-> den som yter investeringstjenester, unntatt handel for egen regning, i varederivater eller utslippskvoter eller derivater på slike, til kundene eller leverandørene av sin hovedvirksomhet, forutsatt:at dette for hvert av disse tilfellene, på individuelt nivå og på samlet nivå, er en tilknyttet virksomhet til deres hovedvirksomhet på konsernplan,at disse personene ikke inngår i et konsern som har som hovedvirksomhet å yte investeringstjenester etter direktiv 2014/65/EU, å utføre en aktivitet nevnt i vedlegg I til direktiv 2013/36/EU eller å opptre som prisstiller for varederivater,at disse personene ikke driver med høyfrekvent algoritmehandel, jf. § 9-22, ogat disse personene på anmodning opplyser Finanstilsynet om grunnlaget for at de anser at deres virksomhet etter bokstav a og b er en tilknyttet virksomhet til deres hovedvirksomhet,
+> den som yter investeringstjenester, unntatt handel for egen regning, i varederivater eller utslippskvoter eller derivater på slike, til kundene eller leverandørene av sin hovedvirksomhet, forutsatt: at dette for hvert av disse tilfellene, på individuelt nivå og på samlet nivå, er en tilknyttet virksomhet til deres hovedvirksomhet på konsernplan, at disse personene ikke inngår i et konsern som har som hovedvirksomhet å yte investeringstjenester etter direktiv 2014/65/EU, å utføre en aktivitet nevnt i vedlegg I til direktiv 2013/36/EU eller å opptre som prisstiller for varederivater, at disse personene ikke driver med høyfrekvent algoritmehandel, jf. § 9-22, og at disse personene på anmodning opplyser Finanstilsynet om grunnlaget for at de anser at deres virksomhet etter bokstav a og b er en tilknyttet virksomhet til deres hovedvirksomhet,
+>
+> at dette for hvert av disse tilfellene, på individuelt nivå og på samlet nivå, er en tilknyttet virksomhet til deres hovedvirksomhet på konsernplan,
+>
+> at disse personene ikke inngår i et konsern som har som hovedvirksomhet å yte investeringstjenester etter direktiv 2014/65/EU, å utføre en aktivitet nevnt i vedlegg I til direktiv 2013/36/EU eller å opptre som prisstiller for varederivater,
+>
+> at disse personene ikke driver med høyfrekvent algoritmehandel, jf. § 9-22, og
+>
+> at disse personene på anmodning opplyser Finanstilsynet om grunnlaget for at de anser at deres virksomhet etter bokstav a og b er en tilknyttet virksomhet til deres hovedvirksomhet,
 >
 
 ### 2026-02-06 — lov/2026-02-06-2
@@ -1260,6 +1334,15 @@ refid: "lov/2007-06-29-75"
 > (4) Departementet kan gi forskrift om retningslinjer for aktivt eierskap.
 >
 
+## § 9-17
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 9-17 annet ledd nr. 2 skal lyde:*
+
+> krav til dokumentasjon, herunder bestemmelser som gjør unntak fra personopplysningsloven.
+>
+
 ## § 9-18
 
 ### 2013-06-14 — lov/2013-06-14-34
@@ -1399,6 +1482,19 @@ refid: "lov/2007-06-29-75"
 *§ 9-27 fjerde ledd skal lyde:*
 
 > (4) Kravene i §§ 10-9 til 10-18, § 10-19, § 10-20 første ledd og § 10-21 gjelder ikke for transaksjoner som inngås mellom deltakerne av den multilaterale handelsfasiliteten, eller mellom fasiliteten og dens deltakere, etter fasilitetens regler og under anvendelse av fasilitetens systemer. Kravene i §§ 10-9 til 10-21 gjelder likevel overfor deltakernes kunder når de på vegne av kundene utfører ordre via den multilaterale handelsfasiliteten.
+>
+
+## § 9-28
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 9-28 skal lyde:*
+
+> Næringsorganisasjon eller tilknyttet juridisk enhet som gir opplæring til og autoriserer personer ansatt i verdipapirforetak, tilknyttet agent, eller filial av utenlandsk foretak som yter investeringstjenester i Norge, kan behandle slike opplysninger som nevnt i personvernforordningen artikkel 10 som ledd i vurderingen av om en ansatt skal gis autorisasjon, fratas autorisasjon eller gis advarsel.
+>
+> 23.I lov 21. desember 2007 nr. 119 om toll og vareførsel skal § 13-12 første ledd lyde:
+>
+> (1) Ved planlegging, målretting og gjennomføring av kontroller kan tollmyndighetene innhente, lagre, sammenstille og bruke nødvendige personopplysninger, herunder helseopplysninger, jf. personvernforordningen artikkel 9 nr. 1, og opplysninger som nevnt i personvernforordningen artikkel 10. For samme formål kan grensekryssende trafikk på landeveien og fergeterminaler med utenlands trafikk overvåkes av tollmyndighetene ved bruk av skiltgjenkjenningssystem.
 >
 
 ## § 9-30
@@ -1743,6 +1839,13 @@ refid: "lov/2007-06-29-75"
 
 ## § 11-13
 
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 11-13 fjerde ledd skal lyde:*
+
+> (4) Departementet kan i forskrift eller ved enkeltvedtak gjøre unntak fra taushetsplikten overfor annet regulert marked, verdipapirsentral, sentral motpart, utenlandske tilsynsmyndigheter, andre offentlige myndigheter og internasjonale eller overnasjonale institusjoner.
+>
+
 ### 2024-06-25 — lov/2024-06-25-60
 
 *§ 11-13 skal lyde:*
@@ -1815,6 +1918,15 @@ refid: "lov/2007-06-29-75"
 *§ 12-3 fjerde ledd første punktum skal lyde:*
 
 > Finanstilsynet skal kreve at andre handelsplasser og systematiske internaliserere som handler det aktuelle finansielle instrumentet, suspenderer eller stryker instrumentet fra handel dersom beslutningen om suspensjon eller strykning er begrunnet i overtakelsestilbud, mistanke om markedsmisbruk eller manglende offentliggjøring av innsideinformasjon om utstederen eller det finansielle instrumentet i strid med artikkel 7 og 17 i markedsmisbruksforordningen, jf. § 3-1, med mindre dette kan medføre vesentlig ulempe for eierne av instrumentet eller markedets funksjon.
+>
+
+## § 12-5
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 12-5 tredje ledd første punktum skal lyde:*
+
+> Markedsoperatøren kan kreve at en verdipapirsentral og en sentral motpart uten hinder av taushetsplikt gir opplysninger som er nødvendige for at det regulerte markedet skal kunne oppfylle sine plikter etter første og annet ledd.
 >
 
 ## § 12-8
@@ -1926,6 +2038,17 @@ refid: "lov/2007-06-29-75"
 ### 2012-06-22 — lov/2012-06-22-35
 
 *§ 13-1 fjerde ledd nåværende annet punktum blir nytt tredje punktum.*
+
+## § 13-6a
+
+### 2016-06-17 — lov/2016-06-17-30
+
+*Ny § 13-6a skal lyde:*
+
+> EØS-avtalen vedlegg IX nr. 29bc (forordning (EU) nr. 648/2012) om OTC-derivater, sentrale motparter og transaksjonsregistre (EMIR) gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig. Departementet kan i forskrift fastsette nærmere regler til gjennomføring av denne bestemmelsen.
+>
+> 2. I lov 20. juni 2014 nr. 30 om kredittvurderingsbyråer gjøres følgende endring:
+>
 
 ## § 14-1
 
@@ -2045,6 +2168,15 @@ refid: "lov/2007-06-29-75"
 >
 
 ## § 15-3
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 15-3 annet ledd nr. 1 skal lyde:*
+
+> lovbestemt taushetsplikt som ellers påhviler skattemyndigheter og myndigheter som har til oppgave å overvåke offentlig regulering av ervervsvirksomhet,
+>
+> 34. I lov 29. juni 2007 nr. 73 om eiendomsmegling gjøres følgende endring:
+>
 
 ### 2022-06-22 — lov/2022-06-22-79
 
@@ -2181,6 +2313,13 @@ refid: "lov/2007-06-29-75"
 > (1) Dersom det er oppnådd vinning ved en uaktsom eller forsettlig overtredelse av §§ 3-3 første ledd, 3-4, 3-6 første og annet ledd, 3-7, 3-8, 3-9, 3-10, 3-14, 8-2 til 8-6, 9-5, 10-2, 10-3, 10-8 første ledd, 10-11 eller 17-5, jf. forskrifter gitt i medhold av disse bestemmelsene, kan den som vinningen er tilfalt, pålegges helt eller delvis å avstå denne.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 17-2 sjette ledd skal lyde:*
+
+> (6) Dersom overtredelsen behandles av påtalemyndigheten eller retten etter lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker, skal eventuelt krav om vinningsavståelse tas med som inndragningskrav etter straffeloven § 67.
+>
+
 ### 2016-12-16 — lov/2016-12-16-91
 
 *§ 17-2 første ledd første punktum skal lyde:*
@@ -2259,6 +2398,10 @@ refid: "lov/2007-06-29-75"
 > overtrer §§ 3-4, 3-5, 3-7, 3-11, 3-14, 7-2, 7-3, 7-7, 7-10, 8-1 til 8-7, 9-1, 9-6, 9-11 første ledd nr. 7, § 10-2 til 10-9, 10-17, 10-18, 13-1 første ledd, 13-4, 15-2, 15-3 eller 17-5, jf. forskrifter gitt i medhold av disse bestemmelsene,
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 17-3 fjerde og femte ledd oppheves.*
+
 ### 2016-12-16 — lov/2016-12-16-91
 
 *§ 17-3 annet ledd nr. 1 skal lyde:*
@@ -2336,6 +2479,13 @@ refid: "lov/2007-06-29-75"
 *§ 17-4 tredje ledd nytt femte punktum skal lyde:*
 
 > Bestemmelsen i § 15-6 tredje ledd gjelder tilsvarende for regulert marked.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 17-4 første ledd tredje punktum skal lyde:*
+
+> Det samme gjelder forsøkshandlinger, jf. straffeloven § 16.
 >
 
 ### 2016-12-16 — lov/2016-12-16-91
@@ -2454,6 +2604,20 @@ refid: "lov/2007-06-29-75"
 > (4) Ved mistanke om brudd på kapittel 3 eller ureglementerte markedsforhold eller ved vesentlige brudd på reglene til et regulert marked plikter det regulerte markedet og selskap i samme konsern straks å melde fra til og bistå Finanstilsynet. Opplysningene og bistanden skal gis uten kostnad for Finanstilsynet. Dersom et regulert marked har grunn til å anta at det er benyttet urimelige forretningsmetoder, opptrådt i strid med god forretningsskikk eller for øvrig handlet i strid med bestemmelsene i denne lov, skal dette meddeles Finanstilsynet.
 >
 
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 19-1 annet ledd skal lyde:*
+
+> (2) Finanstilsynet fører kontroll med at årsregnskap, årsberetning, halvårsregnskap og annen finansiell rapportering, samt revisjonsutvalg, valg av revisor og rapportering om betalinger til myndigheter, fra utstedere av omsettelige verdipapirer som er eller søkes tatt opp til handel på regulert marked i EØS og som har Norge som hjemstat, er i samsvar med lov eller forskrifter.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 19-1 femte ledd annet punktum skal lyde:*
+
+> Departementet kan herunder fastsette forskrifter om kontroll og tiltak som nevnt i annet ledd blant annet for å sikre at det blir gitt korrekt informasjon i tilfeller der den finansielle rapporteringen og rapporteringen om betalinger til myndigheter etter annet ledd, ikke er i samsvar med lov eller forskrifter.
+>
+
 ### 2024-06-25 — lov/2024-06-25-60
 
 *§ 19-1 tredje og fjerde ledd oppheves. Nåværende femte ledd blir tredje ledd og skal lyde:*
@@ -2482,6 +2646,17 @@ refid: "lov/2007-06-29-75"
 *§ 19-2 niende ledd skal lyde:*
 
 > (9) Finanstilsynet kan pålegge enhver å innhente den dokumentasjonen som tilsynet krever til gjennomføring av kontroll av at vedkommende har etterlevd bestemmelsene i EMIR som gjennomført i § 17-1 første ledd eller i forskrift gitt til utfylling av disse bestemmelsene.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 19-2 fjerde ledd skal lyde:*
+
+> (4) Finanstilsynet kan uten hinder av taushetsplikt kreve å få de opplysninger det finner påkrevet i sin kontrollvirksomhet fra en verdipapirsentral på den måten Finanstilsynet finner hensiktsmessig.
+>
+> 21.I lov 26. mars 2010 nr. 9 om vergemål skal § 54 første ledd lyde:
+>
+> Kongen kan i forskrift gi regler om at når en mindreårig eller en person som er fratatt den rettslige handleevnen, tilføres eiendeler, skal offentlige forvaltningsorganer, finansforetak, forsikringsforetak, pensjonsforetak, fondsforvaltningsselskaper, verdipapirsentraler og verge gi melding til fylkesmannen om dette.
 >
 
 ### 2024-06-25 — lov/2024-06-25-60
@@ -2572,6 +2747,13 @@ refid: "lov/2007-06-29-75"
 *§ 19-7 åttende ledd skal lyde:*
 
 > (8) Finanstilsynet kan pålegge foretak som nevnt i § 19-1 tredje ledd å innhente den dokumentasjon som Finanstilsynet krever til gjennomføring av kontroll etter § 19-1 tredje ledd. Finanstilsynsloven § 10 annet ledd gjelder tilsvarende.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 19-7 syvende ledd skal lyde:*
+
+> (7) Finanstilsynet kan pålegge foretak som nevnt i § 19-1 annet ledd å innhente den dokumentasjonen som Finanstilsynet krever til gjennomføring av kontroll etter § 19-1 annet ledd. Første ledd gjelder tilsvarende dersom Finanstilsynet har grunn til å anta at noen handler i strid med lov eller forskrifter som er underlagt kontroll etter § 19-1 annet ledd.
 >
 
 ### 2022-06-22 — lov/2022-06-22-80
@@ -2731,7 +2913,18 @@ refid: "lov/2007-06-29-75"
 
 *§ 21-3 annet ledd nr. 4 til 6 skal lyde:*
 
-> overtrer plikten i § 9-18 til å oppbevare finansielle instrumenter og midler som tilhører investoren atskilt fra foretakets,unnlater å etterkomme krav etter § 19-5 eller pålegg etter 19-7, ellergrovt eller gjentatte ganger overtrer § 3-6 tredje, fjerde eller sjette ledd, § 3-9, § 3-10, § 4-2, § 5-2, § 5-3 eller § 10-9 til § 10-17, jf. forskrifter gitt i medhold av disse bestemmelsene.
+> overtrer plikten i § 9-18 til å oppbevare finansielle instrumenter og midler som tilhører investoren atskilt fra foretakets,
+>
+> unnlater å etterkomme krav etter § 19-5 eller pålegg etter 19-7, eller
+>
+> grovt eller gjentatte ganger overtrer § 3-6 tredje, fjerde eller sjette ledd, § 3-9, § 3-10, § 4-2, § 5-2, § 5-3 eller § 10-9 til § 10-17, jf. forskrifter gitt i medhold av disse bestemmelsene.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 21-3 tredje ledd skal lyde:*
+
+> (3) Annet ledd gjelder tilsvarende dersom foretaket overtrer allmennaksjeloven § 6-41, § 6-43 og § 7-2, revisjonsforordningen, jf. revisorloven § 12-1, artikkel 16 og 17, eller tilsvarende regler som foretaket plikter å følge i medhold av verdipapirhandelloven eller forskrift fastsatt i medhold av denne.
 >
 
 ### 2022-06-22 — lov/2022-06-22-80
@@ -2853,149 +3046,22 @@ refid: "lov/2007-06-29-75"
 
 ### 2009-03-06 — lov/2009-03-06-12
 
-*Endring i følgende lov:*
+*I lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) skal § 6-3 nytt annet ledd lyde:*
 
-> Endring i følgende lov:
->
-> Lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven).
->
-> § 1
->
-> .
->
-> Formål
->
-> Statens finansfond (Finansfondet) har til formål å bidra midlertidig med kjernekapital til norske banker for å styrke bankene og sette bankene bedre i stand til å opprettholde normal utlånsvirksomhet.
->
-> § 2
->
-> .
->
-> Finansfondets kapital og statens ansvar
->
-> Finansfondets kapital bevilges av Stortinget. Fondet tilhører staten. Departementet fastsetter den årlige avkastningen av kapitalen som betales til staten.
->
-> Statens ansvar for Finansfondet er begrenset til den kapital fondet har til enhver tid.
->
-> § 3
->
-> .
->
-> Organisasjon og ledelse
->
-> Finansfondet er et eget rettssubjekt. Finansfondet skal registreres i Foretaksregisteret.
->
-> Finansfondet ledes av et styre med tre medlemmer. Kongen oppnevner medlemmene og utpeker styrets leder og nestleder for en periode av tre år. Kongen oppnevner også to varamedlemmer.
->
-> Styremedlemmer og varamedlemmer skal ha godtgjøring som fastsettes av departementet.
->
-> Styret skal sørge for forsvarlig organisering av virksomheten og påse at kontrollen med formuesforvaltning, regnskap og øvrig virksomhet er betryggende.
->
-> Aksjeloven § 6-17 gjelder tilsvarende for styret i Finansfondet.
->
-> Departementet fastsetter vedtekter for Finansfondet.
->
-> § 4
->
-> .
->
-> Forvaltning av Finansfondets midler, departementets instruksjonsmyndighet mv.
->
-> Styret forestår forvaltningen av Finansfondets midler. Styret representerer Finansfondet utad og tegner dets firma. Styret kan gi fullmakt til å tegne fondets firma. Slik fullmakt kan også fastsettes i vedtektene.
->
-> Før styret treffer vedtak av særlig viktighet, skal saken skriftlig forelegges departementet.
->
-> Departementet kan i særlige tilfelle instruere styret skriftlig i enkeltsaker. Styret skal ha adgang til å uttale seg før departementet treffer slikt vedtak.
->
-> § 5
->
-> .
->
-> Finansfondets plasseringer
->
-> Finansfondets midler kan plasseres på følgende måte:
->
-> Erverv av kjernekapitalinstrumenter utstedt av norske banker, og rettigheter til slike. Departementet kan i forskrift fastsette at Finansfondet kan erverve kjernekapitalinstrumenter utstedt av morselskap i finanskonsern.
->
-> Kontolån til staten.
->
-> Betaling av avkastning til staten.
->
-> Finansfondet kan ikke ta opp lån eller stille garanti for andres forpliktelser.
->
-> Finansfondet kan påta seg slike forpliktelser som er nødvendig i forbindelse med ledelse og administrasjon av fondets virksomhet.
->
-> Departementet kan i forskrift fastsette nærmere regler om hvilke kjernekapitalinstrumenter fondet kan investere i og om utforming av vilkår for statens kapitalinnskudd.
->
-> § 6
->
-> .
->
-> Årsregnskap, årsberetning og meddelelse til Stortinget
->
-> Finansfondet skal hvert år utarbeide årsregnskap og årsberetning som skal sendes departementet innen utgangen av mars måned.
->
-> Bestemmelsene i regnskapsloven og bokføringsloven skal følges. Departementet kan i forskrift utfylle eller fravike bestemmelsene om regnskapsloven og bokføringsloven for Statens finansfond.
->
-> Meddelelse fra departementet til Stortinget om virksomheten i Finansfondet skal finne sted minst én gang hver stortingsperiode, og oftere dersom særlige grunner tilsier det.
->
-> § 7
->
-> .
->
-> Revisjon
->
-> Finansfondet skal ha en revisor som utpekes av departementet. Departementet kan i forskrift gi nærmere bestemmelser om revisjon.
->
-> Revisors godtgjøring fastsettes av departementet.
->
-> § 8
->
-> .
->
-> Forholdet til annen lovgivning
->
-> Forvaltningsloven gjelder ikke for Finansfondet. Forvaltningslovens regler om inhabilitet og taushetsplikt gjelder likevel for enhver som utfører tjenester eller arbeid for fondet. Taushetsplikt gjelder ikke overfor departementet, Kredittilsynet og Norges Bank. Departementet kan gi nærmere regler om avgrensning av taushetsplikten.
->
-> Statens finansfond regnes som offentlig organ etter lov 4. desember 1992 nr. 126 om arkiv § 2 bokstav g.
->
-> § 9
->
-> .
->
-> Avvikling og omdanning
->
-> Kongen kan beslutte at Finansfondet skal avvikles eller omdannes. Kongen kan i slike tilfeller beslutte at hele eller deler av Finansfondets kapital skal tilbakeføres til statskassen.
->
-> § 10
->
-> .
->
-> Utfyllende regler
->
-> Departementet kan gi forskrift med nærmere regler for Finansfondet og dets virksomhet, og utfyllende bestemmelser til gjennomføring av loven.
->
-> § 11
->
-> .
->
-> Andre lovendringer
->
-> I lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) skal § 6-3 nytt annet ledd lyde:
->
 > Tilbudsplikten etter § 6-1 og § 6-6 gjelder ikke for Statens finansfond.
->
-> § 12
->
-> .
->
-> Ikrafttredelse og overgangsbestemmelser
 >
 > Loven trer i kraft fra den tid Kongen bestemmer.
 >
 > Det er adgang til å sette i kraft forskjellige deler av loven til forskjellig tid.
 >
 > Kongen kan gi overgangsregler.
+>
+
+### 2009-12-21 — forskrift/2009-12-18-1603
+
+*Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.*
+
+> Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.
 >
 
 ### 2010-06-04 — lov/2010-06-04-20
@@ -3016,6 +3082,24 @@ refid: "lov/2007-06-29-75"
 
 *Nåværende femte og sjette ledd blir nytt sjette og syvende ledd.*
 
+### 2010-06-04 — forskrift/2010-06-04-771
+
+*Loven trer i kraft 1. juli 2010 med unntak av del V som trer i kraft straks.*
+
+> Loven trer i kraft 1. juli 2010 med unntak av del V som trer i kraft straks.
+>
+
+### 2010-07-01 — forskrift/2010-06-25-980
+
+*Delt ikraftsetting av lov 25. juni 2010 om endringer i regnskapsloven og enkelte andre lover.*
+
+> Delt ikraftsetting av lov 25. juni 2010 om endringer i regnskapsloven og enkelte andre lover.
+>
+> Loven trer i kraft 1. juli 2010 med unntak av:
+>
+> del VII § 2-3 som trer i kraft 1. januar 2011.
+>
+
 ### 2011-04-15 — lov/2011-04-15-11
 
 *I lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) skal § 15-3 annet ledd lyde:*
@@ -3023,9 +3107,23 @@ refid: "lov/2007-06-29-75"
 > (2) Opplysningsplikten i første ledd gjelder ikke opplysninger som vedkommende ville vært forhindret fra å gi i straffesak. Opplysningsplikten gjelder likevel uten hinder av:lovbestemt taushetsplikt som ellers påhviler ligningsmyndigheter, andre skatte- og avgiftsmyndigheter og myndigheter som har til oppgave å overvåke offentlig regulering av ervervsvirksomhet,taushetsplikt som nevnt i lov om elektronisk kommunikasjon § 2-9 for så vidt gjelder opplysninger om avtalebasert hemmelig telefonnummer eller andre abonnementsopplysninger og elektronisk kommunikasjonsadresse, ogtaushetsplikt som nevnt i lov om elektronisk kommunikasjon § 2-9 for så vidt gjelder opplysninger om trafikkdata, dersom det er gitt fritak fra slik taushetsplikt. Begjæring om slikt fritak fra taushetsplikten fremsettes av Finanstilsynet for tingretten på det sted hvor det mest praktisk kan skje. Retten kan ved kjennelse gi tilbyder slikt fritak. Ved vurderingen av om fritak skal gis skal det blant annet legges vekt på hensynet til taushetsplikten og sakens opplysning. Straffeprosessloven § 170 a gjelder tilsvarende.Retten sørger for at kjennelsen snarest mulig blir meddelt den mistenkte eller andre som rammes av at taushetsplikten oppheves. Straffeprosessloven § 210 a jf. § 100 a gjelder tilsvarende. Departementet kan i forskrift gi nærmere regler om domstolskontroll og Finanstilsynets behandling av saker etter denne bestemmelsen, herunder regler om behandlingen av overskuddsinformasjon.
 >
 
+### 2011-05-01 — forskrift/2011-04-15-400
+
+*Lov om endringer i revisorloven og enkelte andre lover (unntak fra revisjonsplikt for små aksjeselskaper) trer i kraft 1. mai 2011.*
+
+> Lov om endringer i revisorloven og enkelte andre lover (unntak fra revisjonsplikt for små aksjeselskaper) trer i kraft 1. mai 2011.
+>
+
 ### 2011-11-18 — lov/2011-11-18-42
 
 *Nåværende nr. 7 blir nytt nr. 6.*
+
+### 2012-01-01 — forskrift/2011-11-18-1107
+
+*Loven trer i kraft 1. januar 2012.*
+
+> Loven trer i kraft 1. januar 2012.
+>
 
 ### 2012-06-22 — lov/2012-06-22-35
 
@@ -3045,6 +3143,29 @@ refid: "lov/2007-06-29-75"
 ### 2012-06-22 — lov/2012-06-22-35
 
 *Nåværende tredje til sjette ledd blir nye fjerde til syvende ledd.*
+
+### 2012-09-07 — forskrift/2012-09-07-864
+
+*Lov 22. juni 2012 nr. 35 om endringer i bokføringsloven, verdipapirhandelloven, eiendomsmeglingsloven m.m. del XI § 5 første ledd første punktum, § 5 annet ledd første punktum, § 13 annet ledd, § 13 femte ledd og § 13b trer i kraft 7. september 2012 med virkning for regnskapsår påbegynt etter 31. de*
+
+> Lov 22. juni 2012 nr. 35 om endringer i bokføringsloven, verdipapirhandelloven, eiendomsmeglingsloven m.m. del XI § 5 første ledd første punktum, § 5 annet ledd første punktum, § 13 annet ledd, § 13 femte ledd og § 13b trer i kraft 7. september 2012 med virkning for regnskapsår påbegynt etter 31. desember 2012.
+>
+> Lov 22. juni 2012 nr. 35 om endringer i bokføringsloven, verdipapirhandelloven, eiendomsmeglingsloven m.m. del XVII § 5-13 trer i kraft 1. juli 2013.
+>
+
+### 2013-06-01 — forskrift/2013-04-19-395
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. juni 2013 med unntak av del I § 3-3c og § 3-5 samt del II § 5-1 og § 5-6, som trer i kraft 1. juni 2013 med virkning for regnskapsår påbegynt etter 31. desember 2012.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. juni 2013 med unntak av del I § 3-3c og § 3-5 samt del II § 5-1 og § 5-6, som trer i kraft 1. juni 2013 med virkning for regnskapsår påbegynt etter 31. desember 2012.
+>
+
+### 2013-07-01 — forskrift/2013-06-14-620
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
+>
 
 ### 2014-01-01 — lov/2013-12-13-123
 
@@ -3122,6 +3243,20 @@ refid: "lov/2007-06-29-75"
 > Departementet kan i forskrift stille ytterligere krav til motpartsvirksomhet og fastsette regler om tilbakekall av tillatelse til å drive virksomhet som sentral motpart når det finnes nødvendig av hensyn til at motpartsvirksomhet skal skje på en sikker, ordnet og effektiv måte.
 >
 
+### 2014-07-01 — forskrift/2014-04-11-547
+
+*Loven trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. juli 2014.
+>
+
+### 2014-07-01 — forskrift/2014-06-26-866
+
+*Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, sam*
+
+> Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, samt del XV til XVIII, trer i kraft 1. juli 2014.
+>
+
 ### 2015-12-04 — lov/2015-12-04-96
 
 *I lov 29. juni 2007 nr. 75 om verdipapirhandel skal § 7-15 lyde:*
@@ -3131,6 +3266,15 @@ refid: "lov/2007-06-29-75"
 > (1) Enhver ny omstendighet, vesentlig feil eller unøyaktighet som kan få betydning for vurderingen av verdipapirene, og som fremkommer mellom tidspunktet for godkjenningen av prospektet og tidspunktet for akseptperiodens utløp eller opptaket til notering, det alternativet som inntrer sist, skal fremgå av et tillegg til prospektet. Tillegget skal godkjennes i samsvar med § 7-7 og offentliggjøres uten ugrunnet opphold i samsvar med § 7-19.
 >
 > (2) Departementet kan i forskrift fastsette nærmere regler om tillegg til prospekt.
+>
+
+### 2016-01-01 — forskrift/2015-12-04-1399
+
+*Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.*
+
+> Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.
+>
+> Delt ikraftsetting av lov om endringer i finanslovgivningen mv. Loven trer i kraft 1. januar 2016, med unntak av del VI som trer i kraft straks og del XII § 6-10 og § 6-11 som trer i kraft 1. juli 2016.
 >
 
 ### 2016-12-16 — lov/2016-12-16-91
@@ -3180,6 +3324,41 @@ refid: "lov/2007-06-29-75"
 > § 13-7.Tvangsfullbyrdelse
 >
 > Finanstilsynet fører kontroll med tvangsgrunnlagets ekthet etter bestemmelsene om tvangsfullbyrdelse i EMIR artikkel 68 nr. 4 som gjennomført i § 13-1 første ledd.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1592
+
+*Delt ikraftsetting av Stortingets vedtak 12. desember 2016 til lov om endringer i verdipapirfondloven mv. (UCITS V-direktivet mv.). Lovens del I, II, IV og V trer i kraft 1. januar 2017.*
+
+> Delt ikraftsetting av Stortingets vedtak 12. desember 2016 til lov om endringer i verdipapirfondloven mv. (UCITS V-direktivet mv.). Lovens del I, II, IV og V trer i kraft 1. januar 2017.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1607
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. januar 2017 med unntak for romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. januar 2017 med unntak for romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X.
+>
+
+### 2017-07-01 — forskrift/2017-06-09-717
+
+*Delt ikraftsetting av lov 16. desember 2016 nr. 91. Romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting av lov 16. desember 2016 nr. 91. Romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X trer i kraft 1. juli 2017.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-784
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
 >
 
 ### 2018-06-15 — lov/2018-06-15-35
@@ -4743,6 +4922,36 @@ refid: "lov/2007-06-29-75"
 
 *I ny del 9 blir nåværende kapittel 18 og 19 nytt kapittel 22 og 23.*
 
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2018-10-15 — forskrift/2018-09-14-1326
+
+*Ikraftsetting av lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering (hvitvaskingsloven). Loven trer i kraft 15. oktober 2018.*
+
+> Ikraftsetting av lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering (hvitvaskingsloven). Loven trer i kraft 15. oktober 2018.
+>
+
+### 2019-01-01 — forskrift/2018-11-16-1713
+
+*Delt ikraftsetting av lov 15. juni 2018 nr. 35 om endringer i verdipapirhandelloven og oppheving av børsloven. Loven med unntak av § 8-1 trer i kraft 1. januar 2019.*
+
+> Delt ikraftsetting av lov 15. juni 2018 nr. 35 om endringer i verdipapirhandelloven og oppheving av børsloven. Loven med unntak av § 8-1 trer i kraft 1. januar 2019.
+>
+
 ### 2019-06-21 — lov/2019-06-21-41
 
 *Kapittel 3 skal lyde:*
@@ -5252,9 +5461,48 @@ refid: "lov/2007-06-29-75"
 > (2) Første ledd gjelder tilsvarende når det for øvrig følger av straffeloven §§ 4 til 8 eller § 1-2 i loven her at bestemmelsene får anvendelse på forholdet.
 >
 
+### 2019-07-21 — forskrift/2019-06-21-802
+
+*Delt ikraftsetting av loven. Loven trer i kraft 21. juli 2019 med unntak av endringene i verdipapirhandelloven kapittel 3, 4, 5, 12, 19 og 21.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 21. juli 2019 med unntak av endringene i verdipapirhandelloven kapittel 3, 4, 5, 12, 19 og 21.
+>
+
+### 2019-12-20 — forskrift/2019-12-20-1913
+
+*Ikraftsetting av lov 6. desember 2019 nr. 76 om endringer i referanserenteloven mv. (gjennomføring av referanseverdiforordningen). Loven trer i kraft 20. desember 2019.*
+
+> Ikraftsetting av lov 6. desember 2019 nr. 76 om endringer i referanserenteloven mv. (gjennomføring av referanseverdiforordningen). Loven trer i kraft 20. desember 2019.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-12-13-1748
+
+*Delt ikraftsetting av lov 15. juni 2018 nr. 35 om endringer i verdipapirhandelloven og oppheving av børsloven mv. Endringsloven del I, endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) § 8-1, trer i kraft 1. januar 2020.*
+
+> Delt ikraftsetting av lov 15. juni 2018 nr. 35 om endringer i verdipapirhandelloven og oppheving av børsloven mv. Endringsloven del I, endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven) § 8-1, trer i kraft 1. januar 2020.
+>
+
 ### 2020-04-24 — lov/2020-04-24-32
 
 *Nåværende annet punktum blir nytt tredje punktum. Nytt tredje punktum oppheves.*
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*Overskriften til § 21-3 skal lyde:*
+
+> Overtredelse av reglene om flagging og periodisk rapportering mv.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*Nåværende tredje til sjette ledd blir fjerde til syvende ledd.*
 
 ### 2021-03-01 — forskrift/2020-11-27-2488
 
@@ -5303,11 +5551,39 @@ refid: "lov/2007-06-29-75"
 > Delt ikraftsetting av lov 20. november 2020 nr. 128 om revisjon og revisorer (revisorloven). Loven § 16-3 nr. 10, endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel (verdipapirhandelloven), trer i kraft 1. mai 2021.
 >
 
+### 2021-07-01 — forskrift/2021-04-30-1316
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-08-01 — forskrift/2021-06-18-1985
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. august 2021 med unntak av loven del II (verdipapirfondloven) og del III (lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond) § 1a-3, § 1a-4 og § 9-6 første ledd bokstavene d og e.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. august 2021 med unntak av loven del II (verdipapirfondloven) og del III (lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond) § 1a-3, § 1a-4 og § 9-6 første ledd bokstavene d og e.
+>
+
 ### 2022-05-01 — forskrift/2022-04-08-551
 
 *Ikraftsetting av lov 22. desember 2021 nr. 162 om endringer i verdipapirhandelloven (EU-gjenopprettingsprospekt mv.). Loven trer i kraft 1. mai 2022.*
 
 > Ikraftsetting av lov 22. desember 2021 nr. 162 om endringer i verdipapirhandelloven (EU-gjenopprettingsprospekt mv.). Loven trer i kraft 1. mai 2022.
+>
+
+### 2022-06-01 — forskrift/2022-05-06-807
+
+*Ikraftsetting av lov 18. juni 2021 nr. 100 om endringer i finansforetaksloven mv. (kapitalkravs- og krisehåndteringsregler for finansforetak mv.). Loven trer i kraft 1. juni 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 100 om endringer i finansforetaksloven mv. (kapitalkravs- og krisehåndteringsregler for finansforetak mv.). Loven trer i kraft 1. juni 2022.
 >
 
 ### 2022-06-22 — lov/2022-06-22-79
@@ -5356,6 +5632,13 @@ refid: "lov/2007-06-29-75"
 > Loven trer i kraft 1. september 2022.
 >
 
+### 2023-01-01 — forskrift/2022-09-02-1528
+
+*Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.*
+
+> Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.
+>
+
 ### 2023-02-01 — forskrift/2023-01-13-42
 
 *Delt ikraftsetting av lov 22. juni 2022 nr. 79 om endringer i verdipapirhandelloven mv. (samleproposisjon). Følgende trer i kraft 1. februar 2023:*
@@ -5374,6 +5657,28 @@ refid: "lov/2007-06-29-75"
 > § 3-4 a.Innsidelister for utstedere på vekstmarked for små og mellomstore bedrifter
 >
 > Innsidelister for utstedere av finansielle instrumenter som er tatt opp til handel på et vekstmarked for små og mellomstore bedrifter i Norge, skal omfatte alle personer som er nevnt i markedsmisbruksforordningen artikkel 18 nr. 1 bokstav a.
+>
+
+### 2023-06-01 — forskrift/2023-04-21-525
+
+*Ikraftsetting av lov 31. mars 2023 nr. 4 om endringer i verdipapirhandelloven mv. (samleproposisjon). Loven trer i kraft 1. juni 2023.*
+
+> Ikraftsetting av lov 31. mars 2023 nr. 4 om endringer i verdipapirhandelloven mv. (samleproposisjon). Loven trer i kraft 1. juni 2023.
+>
+
+### 2023-08-11 — forskrift/2023-08-11-1319
+
+*Delt ikraftsetting av lov 6. desember 2019 nr. 77 om endringer i aksjelovgivningen mv. (langsiktig eierskap i noterte selskaper mv.). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 6. desember 2019 nr. 77 om endringer i aksjelovgivningen mv. (langsiktig eierskap i noterte selskaper mv.). Følgende trer i kraft straks:
+>
+> Endringsloven del III (finansforetaksloven) med unntak av § 15-6 første ledd
+>
+> Endringsloven del IV (lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond)
+>
+> Endringsloven del VI (verdipapirfondloven)
+>
+> Endringsloven del VII (verdipapirhandelloven).
 >
 
 ### 2024-06-25 — lov/2024-06-25-60
@@ -5446,6 +5751,35 @@ refid: "lov/2007-06-29-75"
 > (5) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her, herunder bestemmelser om gebyrets størrelse, foreldelse, hvem gebyret skal tilfalle, om det skal være tvangsgrunnlag for utlegg og andre regler om inndriving.
 >
 
+### 2024-11-01 — forskrift/2024-10-11-2454
+
+*Følgende trer i kraft 1. november 2024:*
+
+> Følgende trer i kraft 1. november 2024:
+>
+> Endringsloven del I (regnskapsloven)
+>
+> Endringsloven del II (revisorloven) med unntak av § 12-1.
+>
+> Endringsloven del III (statsforetaksloven)
+>
+> Endringsloven del IV (aksjeloven)
+>
+> Endringsloven del V (allmennaksjeloven)
+>
+> Endringsloven del VI (bustadbyggjelagslova)
+>
+> Endringsloven del VIII (verdipapirhandelloven)
+>
+> Endringsloven del IX (samvirkelova)
+>
+> Endringsloven del X (finansforetaksloven)
+>
+> Endringsloven del XI (fagskoleloven)
+>
+> Endringsloven del XII (åpenhetsloven).
+>
+
 ### 2024-12-13 — lov/2024-12-13-76
 
 *3. I lov 29. juni 2007 nr. 75 om verdipapirhandel skal § 19-3 tredje ledd nr. 4 og fjerde ledd første punktum lyde:*
@@ -5462,6 +5796,41 @@ refid: "lov/2007-06-29-75"
 ### 2024-12-20 — lov/2024-12-20-93
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2025-01-01 — forskrift/2024-12-13-3095
+
+*Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.*
+
+> Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.
+>
+
+### 2025-01-01 — forskrift/2024-12-20-3303
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
+### 2025-04-01 — forskrift/2025-03-21-479
+
+*Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.*
+
+> Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.
+>
+
+### 2025-06-20 — forskrift/2025-06-20-1084
+
+*Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.*
+
+> Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.
+>
+
+### 2025-07-01 — forskrift/2025-05-27-868
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
 
 ### 2025-08-01 — forskrift/2025-06-24-1202
 
@@ -5679,3 +6048,49 @@ refid: "lov/2007-06-29-75"
 ### 2026-06-19 — lov/2026-06-19-40
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2026-07-01 — forskrift/2026-06-19-1154
+
+*Delt ikraftsetting av lov 19. juni 2026 om endringer i bokføringsloven og enkelte andre lover på finansmarkedsområdet (pliktig digital bokføring og e-fakturering mv.)*
+
+> Delt ikraftsetting av lov 19. juni 2026 om endringer i bokføringsloven og enkelte andre lover på finansmarkedsområdet (pliktig digital bokføring og e-fakturering mv.)
+>
+> Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del II–VI
+>
+> Følgende trer i kraft 1. januar 2027:
+>
+> Endringsloven del I § 3, § 10, § 11 og § 13
+>
+> Følgende trer i kraft 1. januar 2030
+>
+> Endringsloven del I § 7 fjerde ledd
+>
+
+### 2026-08-01 — forskrift/2026-06-19-1152
+
+*Ikraftsetting av lov 6. februar 2026 nr. 2 om folkefinansiering av næringsvirksomhet (folkefinansieringsloven). Loven trer i kraft 1. august 2026.*
+
+> Ikraftsetting av lov 6. februar 2026 nr. 2 om folkefinansiering av næringsvirksomhet (folkefinansieringsloven). Loven trer i kraft 1. august 2026.
+>
+
+## § 1
+
+### 2016-06-17 — lov/2016-06-17-30
+
+*§ 1 skal lyde:*
+
+> EØS-avtalen vedlegg IX nr. 31eb (forordning (EF) nr. 1060/2009) om kredittvurderingsbyråer (kredittvurderingsbyråforordningen) som endret ved forordning (EU) nr. 513/2011, direktiv 2011/61/EU og forordning (EU) nr. 462/2013, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+
+## § 84
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 84 første ledd skal lyde:*
+
+> Dersom det organet som behandler en sak etter loven her, anser det som nødvendig for opplysning av saken, kan organet, uten hinder av taushetsplikt, pålegge følgende organer å utlevere opplysninger om utlendinger eller andre loven gjelder for:barnevernsmyndighetene,kommune i tilknytning til introduksjonsprogrammet,Statens lånekasse for utdanning,arbeids- og verferdsforvaltningen,skattemyndighetene, ogpolitiet.
+>
+> 36. I lov 27. juni 2008 nr. 62 om individuell pensjonsordning gjøres følgende endring:
+>

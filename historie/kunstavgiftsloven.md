@@ -7,11 +7,32 @@ refid: "lov/1948-11-04-1"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-58
+
+*1. I lov 4. november 1948 nr. 1 om avgift på omsetning av billedkunst m.m. (kunstavgiftsloven) skal § 6 lyde:*
+
+> Den avgift som i henhold til merverdiavgiftsloven i tilfelle skal innbetales til statskassen, berøres ikke av denne lov.
+>
+
+### 2010-01-01 — forskrift/2009-11-06-1347
+
+*Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.*
+
+> Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.
+>
+
 ### 2018-12-20 — lov/2018-12-20-120
 
 *I lov 4. november 1948 nr. 1 om avgift på omsetning av billedkunst m.m. skal § 1 sjette ledd lyde:*
 
 > Unntatt fra avgiftsplikten er omsetning som omfattes av åndsverkloven §§ 59, 60 og 61.
+>
+
+### 2019-08-01 — forskrift/2019-06-21-807
+
+*Ikraftsetting av lov 20. desember 2018 nr. 120 om endringer i åndsverkloven mv. (portabilitet av nettbaserte innholdstjenester mv.). Loven trer i kraft 1. august 2019.*
+
+> Ikraftsetting av lov 20. desember 2018 nr. 120 om endringer i åndsverkloven mv. (portabilitet av nettbaserte innholdstjenester mv.). Loven trer i kraft 1. august 2019.
 >
 
 ## § 1

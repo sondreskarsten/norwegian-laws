@@ -7,11 +7,39 @@ refid: "lov/2017-06-16-51"
 
 ## (annet)
 
+### 2018-01-01 — forskrift/2017-12-19-2154
+
+*Lovendringene trer i kraft 1. januar 2018.*
+
+> Lovendringene trer i kraft 1. januar 2018.
+>
+
+### 2020-01-01 — forskrift/2019-06-21-776
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
+### 2022-01-01 — forskrift/2021-06-11-1910
+
+*Loven trer i kraft 1. januar 2022.*
+
+> Loven trer i kraft 1. januar 2022.
+>
+
 ### 2022-04-08 — forskrift/2022-04-08-559
 
 *Kongens myndighet etter lov 16. juni 2017 nr. 51 om likestilling og forbud mot diskriminering (likestillings- og diskrimineringsloven) § 3, § 17, § 26, § 26a og § 28 delegeres til Kultur- og likestillingsdepartementet.*
 
 > Kongens myndighet etter lov 16. juni 2017 nr. 51 om likestilling og forbud mot diskriminering (likestillings- og diskrimineringsloven) § 3, § 17, § 26, § 26a og § 28 delegeres til Kultur- og likestillingsdepartementet.
+>
+
+### 2024-07-01 — forskrift/2024-06-14-961
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
 >
 
 ## § 10

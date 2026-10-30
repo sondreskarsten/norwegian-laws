@@ -14,6 +14,13 @@ refid: "lov/2015-02-13-9"
 > Loven trer i kraft fra 1. mars 2015.
 >
 
+### 2017-07-01 — forskrift/2017-06-16-763
+
+*Lov om statens ansatte mv. trer i kraft 1. juli 2017.*
+
+> Lov om statens ansatte mv. trer i kraft 1. juli 2017.
+>
+
 ### 2023-06-16 — lov/2023-06-16-34
 
 *Nåværende § 3 annet og tredje ledd blir tredje og fjerde ledd.*
@@ -32,6 +39,13 @@ refid: "lov/2015-02-13-9"
 ### 2023-06-16 — lov/2023-06-16-34
 
 *Nåværende § 3 sjette og syvende ledd blir syvende og nytt åttende ledd.*
+
+### 2023-10-01 — forskrift/2023-06-16-944
+
+*Loven trer i kraft 1. oktober 2023.*
+
+> Loven trer i kraft 1. oktober 2023.
+>
 
 ## § 10
 

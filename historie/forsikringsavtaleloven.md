@@ -36,6 +36,13 @@ refid: "lov/1989-06-16-69"
 > Om selskapet tilbyr en forsikringstaker forsikring bare til en særlig høy premie, skal forsikringstakeren underrettes skriftlig om hvilke forhold som ligger til grunn for dette, og om de individuelle risikovurderingene som eventuelt er foretatt. Det skal også redegjøres for eventuell praksis i selskapet, bransjenormer, lov eller forskrift, som innebærer at kunden etter en viss tid eller etter endrede forhold vil kunne søke den aktuelle forsikringen til en lavere premie.
 >
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 2-1 fjerde ledd skal lyde:*
+
+> Selskapet skal også opplyse om reglene for å bringe tvister om forsikringsavtalen inn for utenrettslige tvisteløsningsordninger.
+>
+
 ## § 2-2
 
 ### 2022-02-18 — lov/2022-02-18-5
@@ -56,6 +63,15 @@ refid: "lov/1989-06-16-69"
 *§ 2-3 oppheves.*
 
 ## § 2-4
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*Ny § 2-4 skal lyde:*
+
+> § 2-4.Forbruker
+>
+> Som forbruker anses en fysisk person som ikke hovedsakelig handler som ledd i næringsvirksomhet.
+>
 
 ### 2022-02-18 — lov/2022-02-18-5
 
@@ -141,6 +157,13 @@ refid: "lov/1989-06-16-69"
 
 ## § 3-5
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 3-5 annet ledd skal lyde:*
+
+> Selskapet kan bare unnlate å fornye en forsikring etter første ledd når det foreligger særlige grunner som gjør det rimelig å avbryte forsikringsforholdet. Selskapet skal i varslet orientere om adgangen til å benytte utenrettslige tvisteløsningsordninger, eventuelt om andre muligheter for å få prøvd om selskapet har rett til å unnlate fornyelse.
+>
+
 ### 2022-02-18 — lov/2022-02-18-5
 
 *§ 3-5 første ledd annet punktum skal lyde:*
@@ -155,6 +178,13 @@ refid: "lov/1989-06-16-69"
 *§ 3-7 første ledd første punktum skal lyde:*
 
 > Selskapet kan si opp en løpende forsikring i samsvar med reglene i §§ 4-3 og 8-1 femte ledd.
+>
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 3-7 annet ledd fjerde punktum skal lyde:*
+
+> Selskapet skal i oppsigelsen gi orientering om adgangen til å benytte utenrettslige tvisteløsningsordninger, eventuelt om andre muligheter for å få prøvd om oppsigelsen er lovlig.
 >
 
 ### 2022-02-18 — lov/2022-02-18-5
@@ -183,6 +213,13 @@ refid: "lov/1989-06-16-69"
 > Underretningen om avslag skal inneholde opplysninger om reglene for å bringe tvister om forsikringsavtalen inn for en klagenemnd, jf. § 20-1, samt opplysning om tidsfristen i sjette ledd.
 >
 > En forsikringssøker som vil påberope seg at det foreligger en ulovlig forsikringsnektelse, må gi selskapet skriftlig melding om dette eller bringe saken inn for en klagenemnd som nevnt i femte ledd innen seks måneder etter at forsikringssøkeren mottok skriftlig underretning om avslaget.
+>
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 3-10 femte ledd skal lyde:*
+
+> Underretningen om avslag skal inneholde opplysninger om reglene for å bringe tvister om forsikringsavtalen inn for utenrettslige tvisteløsningsordninger, samt opplysning om tidsfristen i sjette ledd.
 >
 
 ### 2022-02-18 — lov/2022-02-18-5
@@ -227,6 +264,13 @@ refid: "lov/1989-06-16-69"
 
 ## § 4-14
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 4-14 første ledd tredje punktum skal lyde:*
+
+> I denne forbindelse skal selskapet også gi orientering om adgangen til å benytte utenrettslige tvisteløsningsordninger, eventuelt om andre muligheter for å få prøvd saken utenfor domstolene.
+>
+
 ### 2022-02-18 — lov/2022-02-18-5
 
 *§ 4-14 første ledd første punktum skal lyde:*
@@ -266,6 +310,13 @@ refid: "lov/1989-06-16-69"
 *§ 8-1 femte ledd skal lyde:*
 
 > I tilfeller som nevnt i fjerde ledd kan selskapet si opp enhver forsikringsavtale det har med sikrede med en ukes varsel. § 3-7 annet ledd første, annet og fjerde punktum gjelder tilsvarende.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 8-1 annet ledd skal lyde:*
+
+> Dersom selskapet ber om samtykke til innhenting av taushetsbelagte opplysninger fra en tredjeperson, skal samtykket begrenses til det som trengs på hvert trinn i saken. Samtykket skal oppfylle kravene i personopplysningsloven.
 >
 
 ### 2022-02-18 — lov/2022-02-18-5
@@ -361,6 +412,13 @@ refid: "lov/1989-06-16-69"
 
 ## § 10-1
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 10-1 nytt annet ledd skal lyde:*
+
+> Nemnd etablert etter første ledd og som behandler tvister mellom arrangør eller formidler og forbruker, skal søke godkjenning etter lov om klageorganer for forbrukersaker.
+>
+
 ### 2022-02-18 — lov/2022-02-18-5
 
 *§ 10-1 overskriften skal lyde:*
@@ -421,6 +479,12 @@ refid: "lov/1989-06-16-69"
 > Forsikringsforetakets plikter etter lovens fjerde del gjelder så langt de passer for andre enn forsikringsforetak som ved avtale påtar seg å yte personforsikring.
 >
 
+## § 10-5
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 10-5 oppheves.*
+
 ## § 11-1
 
 ### 2005-04-29 — lov/2005-04-29-22
@@ -437,9 +501,25 @@ refid: "lov/1989-06-16-69"
 > Om selskapet tilbyr en forsikringstaker forsikring bare til en særlig høy premie, skal forsikringstakeren underrettes skriftlig om hvilke forhold som ligger til grunn for dette, og om de individuelle risikovurderingene som eventuelt er foretatt. Det skal også redegjøres for eventuell praksis i selskapet, bransjenormer, lov eller forskrift, som innebærer at kunden etter en viss tid eller etter endrede forhold vil kunne søke den aktuelle forsikringen til en lavere premie.
 >
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 11-1 femte ledd skal lyde:*
+
+> Selskapet skal også opplyse om reglene for å bringe tvister om forsikringsavtalen inn for utenrettslige tvisteløsningsordninger.
+>
+
 ### 2022-02-18 — lov/2022-02-18-5
 
 *§ 11-1 oppheves.*
+
+## § 11-2
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 11-2 annet ledd bokstav d skal lyde:*
+
+> retten til å benytte utenrettslige tvisteløsningsordninger, eller andre liknende ordninger som er etablert for å løse tvister.
+>
 
 ## § 11-3
 
@@ -510,6 +590,13 @@ refid: "lov/1989-06-16-69"
 > Ved ulykkes- og sykeforsikring kan selskapet si opp en løpende forsikring i samsvar med reglene i §§ 13-3 og 18-1 femte ledd.
 >
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 12-4 tredje ledd fjerde punktum skal lyde:*
+
+> Selskapet skal i oppsigelsen gi orientering om adgangen til å benytte utenrettslige tvisteløsningsordninger, eventuelt om andre muligheter for å få prøvd lovligheten av oppsigelsen.
+>
+
 ### 2022-02-18 — lov/2022-02-18-5
 
 *§ 12-4 tredje ledd annet punktum skal lyde:*
@@ -576,6 +663,13 @@ refid: "lov/1989-06-16-69"
 > Selskapet kan bare unnlate å fornye en forsikring etter første ledd når det foreligger særlige grunner som gjør det rimelig å avbryte forsikringsforholdet. Selskapet skal i varslet orientere om adgangen til å kreve nemndbehandling etter § 20-1, eventuelt om andre muligheter for å få prøvd om selskapet har rett til å unnlate fornyelse.
 >
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 12-9 annet ledd skal lyde:*
+
+> Selskapet kan bare unnlate å fornye en forsikring etter første ledd når det foreligger særlige grunner som gjør det rimelig å avbryte forsikringsforholdet. Selskapet skal i varslet orientere om adgangen til å benytte utenrettslige tvisteløsningsordninger, eventuelt om andre muligheter for å få prøvd om selskapet har rett til å unnlate fornyelse.
+>
+
 ### 2022-02-18 — lov/2022-02-18-5
 
 *§ 12-9 første ledd annet punktum skal lyde:*
@@ -618,6 +712,13 @@ refid: "lov/1989-06-16-69"
 > Underretningen om avslag skal inneholde opplysninger om reglene for å bringe tvister om forsikringsavtalen inn for en klagenemnd, jf. § 20-1, samt opplysning om tidsfristen i sjette ledd.
 >
 > En forsikringssøker som vil påberope seg at det foreligger en ulovlig forsikringsnektelse, må gi selskapet skriftlig melding om dette eller bringe saken inn for en klagenemnd som nevnt i femte ledd innen seks måneder etter at forsikringssøkeren mottok skriftlig underretning om avslaget.
+>
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 12-12 femte ledd skal lyde:*
+
+> Underretningen om avslag skal inneholde opplysninger om reglene for å bringe tvister om forsikringsavtalen inn for utenrettslige tvisteløsningsordninger, samt opplysning om tidsfristen i sjette ledd.
 >
 
 ### 2022-02-18 — lov/2022-02-18-5
@@ -700,6 +801,13 @@ refid: "lov/1989-06-16-69"
 
 ## § 13-13
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 13-13 første ledd tredje punktum skal lyde:*
+
+> I denne forbindelse skal selskapet også gi orientering om adgangen til å benytte utenrettslige tvisteløsningsordninger, eventuelt om andre muligheter for å få prøvd saken utenfor domstolene.
+>
+
 ### 2022-02-18 — lov/2022-02-18-5
 
 *§ 13-13 første ledd første punktum skal lyde:*
@@ -742,7 +850,15 @@ refid: "lov/1989-06-16-69"
 
 *§ 15-4 bokstav b til f skal lyde:*
 
-> Har forsikringstakeren foretatt flere oppnevnelser, gjelder arveloven § 58 bokstav e tilsvarende.Dør den begunstigede før den forsikrede, gjelder arveloven § 58 bokstav b tilsvarende.Er den forsikredes ektefelle oppnevnt, gjelder § 15-1 annet ledd tilsvarende.Er den forsikredes arvinger oppnevnt, omfatter dette også arvinger etter testament.Er forsikringen pantsatt ved forsikringstakerens død, gjelder arveloven § 58 bokstav d tilsvarende i forholdet mellom dødsboet og den begunstigede.
+> Har forsikringstakeren foretatt flere oppnevnelser, gjelder arveloven § 58 bokstav e tilsvarende.
+>
+> Dør den begunstigede før den forsikrede, gjelder arveloven § 58 bokstav b tilsvarende.
+>
+> Er den forsikredes ektefelle oppnevnt, gjelder § 15-1 annet ledd tilsvarende.
+>
+> Er den forsikredes arvinger oppnevnt, omfatter dette også arvinger etter testament.
+>
+> Er forsikringen pantsatt ved forsikringstakerens død, gjelder arveloven § 58 bokstav d tilsvarende i forholdet mellom dødsboet og den begunstigede.
 >
 
 ## § 15-9
@@ -849,6 +965,13 @@ refid: "lov/1989-06-16-69"
 > I tilfeller som nevnt i fjerde ledd kan selskapet si opp enhver forsikringsavtale det har med vedkommende med en ukes varsel. § 12-4 tredje ledd første, annet og fjerde punktum gjelder tilsvarende.
 >
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 18-1 annet ledd skal lyde:*
+
+> Dersom selskapet ber om samtykke til innhenting av taushetsbelagte opplysninger fra en tredjeperson, skal samtykket begrenses til det som trengs på hvert trinn i saken. Samtykket skal oppfylle kravene i personopplysningsloven.
+>
+
 ### 2022-02-18 — lov/2022-02-18-5
 
 *§ 18-1 første ledd skal lyde:*
@@ -890,6 +1013,13 @@ refid: "lov/1989-06-16-69"
 *§ 18-5 andre ledd tredje punktum skal lyde:*
 
 > Foreldelsesloven 18. mai 1979 nr. 18 § 10 nr. 2 og 4 gjelder tilsvarende.
+>
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 18-5 annet ledd første punktum skal lyde:*
+
+> Avslår selskapet i ulykkes- eller sykeforsikring et krav om erstatning helt eller delvis, mister vedkommende retten til erstatning dersom ikke sak er anlagt, eller behandling i utenrettslig tvisteløsningsorgan godkjent i medhold av lov er krevd, innen seks måneder etter at han eller hun fikk skriftlig melding om avslaget.
 >
 
 ### 2022-02-18 — lov/2022-02-18-5
@@ -951,7 +1081,29 @@ refid: "lov/1989-06-16-69"
 > Lovens del C oppheves.
 >
 
+## § 20-1
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 20-1 skal lyde:*
+
+> § 20-1.(behandling av tvister i klageorgan)
+>
+> Kongen kan godkjenne klageorgan for behandling av tvister når organet er opprettet ved avtale mellom en finansinstitusjon eller en lignende institusjon eller en organisasjon for slike institusjoner på den ene siden, og på den annen side én eller flere organisasjoner som representerer institusjonenes kunder. Kongen kan i forskrift gi bestemmelser om klageorganets virksomhet, herunder om:hvem som kan bringe saker inn for klageorganet,vilkår for behandling av saker hos klageorganet,behandlingens virkning mellom partene, herunder forholdet til alminnelige domstoler, adgangen til å bringe saker direkte inn for tingretten og tvangskraft og rettskraft for klageorganets avgjørelser,forholdet til annen lovgivning om utenrettslig tvisteløsning, ogopplysningsplikt overfor institusjonenes kunder.
+>
+> 2. I lov 25. august 1995 nr. 57 om pakkereiser og reisegaranti gjøres følgende endringer:
+>
+
 ## (annet)
+
+### 2001-12-21 — lov/2001-12-21-117
+
+*I lov 16. juni 1989 nr. 69 om forsikringsavtaler skal ny § 20-3 lyde:*
+
+> § 20-3.Bruk av elektronisk kommunikasjon
+>
+> Krav om skriftlighet i eller i medhold av loven her er ikke til hinder for at selskapet gjør bruk av elektronisk kommunikasjon dersom den som skal motta dokumentet, uttrykkelig har godtatt dette. Det samme gjelder for andre bestemmelser i eller i medhold av loven her om at det skal gis eller sendes opplysninger, melding, varsel eller liknende.
+>
 
 ### 2004-04-23 — lov/2004-04-23-18
 
@@ -1013,6 +1165,29 @@ refid: "lov/1989-06-16-69"
 *I lov 16. juni 1989 nr. 69 om forsikringsavtaler skal § 15-1 tredje ledd annet punktum lyde:*
 
 > Satt forsikringstakeren i uskiftet bo på grunnlag av ekteskap i samsvar med arveloven kapittel III, inngår forsikringssummen i de midler som skal deles likt mellom førsteavdødes og lengstlevendes arvinger, jf arveloven § 26 første ledd første punktum.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
 >
 
 ### 2020-04-17 — lov/2020-04-17-25
@@ -1241,6 +1416,36 @@ refid: "lov/1989-06-16-69"
 > For eldre forsikringsavtaler gjelder loven med de unntak og særregler som følger av §§ 24-3 og 24-4.
 >
 
+### 2022-06-17 — forskrift/2022-06-17-1033
+
+*Delt ikraftsetting av lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. (etablering av naturskadekapital i Norsk Naturskadepool mv.). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. (etablering av naturskadekapital i Norsk Naturskadepool mv.). Følgende trer i kraft straks:
+>
+> Endringsloven del II (atomenergiloven)
+>
+> Endringsloven del IV (lov 18. desember 2020 nr. 146 om finansavtaler)
+>
+> Endringsloven del V (lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.).
+>
+> Følgende trer i kraft 1. juli 2022:
+>
+> Endringsloven del III (straffeprosessloven)
+>
+> Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I (naturskadeforsikringsloven) § 1 første ledd annet punktum
+>
+> Endringsloven del VI nr. 2.
+>
+
+### 2022-07-01 — forskrift/2022-03-04-324
+
+*Ikraftsetting av lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.). Loven trer i kraft 1. juli 2022.
+>
+
 ### 2023-06-16 — lov/2023-06-16-38
 
 *I lov 16. juni 1989 nr. 69 om forsikringsavtaler skal § 22-3 annet ledd lyde:*
@@ -1248,9 +1453,46 @@ refid: "lov/1989-06-16-69"
 > Tilsynet utføres i samsvar med reglene i markedsføringsloven §§ 32 til 41, § 42 første ledd annet punktum og §§ 43 til 43 c når ikke annet følger av tredje ledd eller forskrift etter fjerde ledd.
 >
 
+### 2023-10-01 — forskrift/2023-06-16-930
+
+*Endringsloven trer i kraft 1. oktober 2023.*
+
+> Endringsloven trer i kraft 1. oktober 2023.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
 ### 2024-06-21 — lov/2024-06-21-41
 
 *1.I lov 16. juni 1989 nr. 69 om forsikringsavtaler skal § 22-3 tredje ledd lyde:*
 
 > Bestemmelsene gitt i eller i medhold av finanstilsynsloven §§ 2-4, 2-5, 2-6 og 2-7, og finansforetaksloven § 22-7 gjelder så langt de passer tilsvarende for ansatte i Forbrukertilsynet og medlemmer av Markedsrådet, med mindre noe annet følger av forskrift etter fjerde ledd.
+>
+
+### 2025-04-01 — forskrift/2025-03-21-479
+
+*Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.*
+
+> Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.
 >

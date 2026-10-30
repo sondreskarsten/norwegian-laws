@@ -7,6 +7,13 @@ refid: "lov/1931-06-19-18"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*18. I lov 19. juni 1931 nr. 18 om Aktieselskapet Vinmonopolet skal § 4 tredje ledd lyde:*
+
+> Staten skal etter 30 juni 1932 ha rett til når som helst å innløse aksjene etter minst 3 måneders varsel, bekjentgjort 2 ganger i Norsk lysingsblad, mot at aksjonærene får tilbakebetalt aksjeinnskuddet med det bestemte utbytte til den fastsatte innløsningsdag.
+>
+
 ### 2003-12-19 — lov/2003-12-19-120
 
 *I lov 19. juni 1931 nr. 18 om Aktieselskapet Vinmonopolet skal § 5 første ledd nytt fjerde punktum lyde:*
@@ -19,6 +26,13 @@ refid: "lov/1931-06-19-18"
 *I lov 19. juni 1931 nr. 18 om Aktieselskapet Vinmonopolet skal § 12 lyde:*
 
 > Styret skal etter utløpet av regnskapsåret sende inn til vedkommende departement et utdrag av selskapets regnskaper og en beretning om dets virksomhet.
+>
+
+### 2012-01-01 — forskrift/2011-05-06-466
+
+*Loven trer i kraft 1. januar 2012.*
+
+> Loven trer i kraft 1. januar 2012.
 >
 
 ## § 13

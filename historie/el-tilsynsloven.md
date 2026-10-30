@@ -7,6 +7,17 @@ refid: "lov/1929-05-24-4"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-103
+
+*Nåværende § 15 blir ny § 16.*
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
 ### 2024-06-21 — lov/2024-06-21-48
 
 *Nåværende § 12 andre til fjerde ledd blir tredje til nytt femte ledd.*
@@ -16,6 +27,17 @@ refid: "lov/1929-05-24-4"
 *Loven trer i kraft 1. juli 2024.*
 
 > Loven trer i kraft 1. juli 2024.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ## § 11
@@ -86,6 +108,15 @@ refid: "lov/1929-05-24-4"
 *§ 13 a fjerde ledd skal lyde:*
 
 > Tilsynsmyndigheten kan frafalle ilagt overtredelsesgebyr dersom særlige grunner knyttet til ileggelsen tilsier det.
+>
+
+## § 15
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*§ 15 skal lyde:*
+
+> Kongen kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for tillatelsesordninger i eller i medhold av loven her, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 andre ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.
 >
 
 ## § 2

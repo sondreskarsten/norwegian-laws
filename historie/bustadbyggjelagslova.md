@@ -287,34 +287,69 @@ refid: "lov/2003-06-06-38"
 >
 > (3) Anke etter andre ledd kan ikkje grunnast på at avgjerda er utenleg eller uheldig. Dette gjeld ikkje orskurd etter §§ 5-24 til 5-26.
 >
-> 132. I lov 6. juni 2003 nr. 39 om burettslag (burettslagslova) skal § 13-2 annet og tredje ledd lyde:
->
-> (2) Orskurdar og vedtak som retten gjer etter lova her, kan ankast.
->
-> (3) Ein anke etter andre ledd kan ikkje grunnast på at avgjerda er utenleg eller uheldig. Dette gjeld ikkje orskurd etter §§ 7-14 til 7-16.
->
 
 ## (annet)
 
+### 2005-06-10 — lov/2005-06-10-40
+
+*4. I lov 6. juni 2003 nr. 38 om bustadbyggjelag skal § 1-4 lyde:*
+
+> Forbod mot diskriminering
+>
+> (1) I vedtektene kan det ikkje setjast vilkår for å vere andelseigar som tek omsyn til etnisitet, nasjonalt opphav, avstamming, hudfarge, språk, religion eller livssyn. Slike omstende kan ikkje reknast som sakleg grunn til å nekte godkjenning av ein andelseigar eller ha vekt ved tildeling av bustad. Ved slik diskriminering gjeld diskrimineringsloven.
+>
+> (2) I vedtektene kan det heller ikkje setjast vilkår for å vere andelseigar som tek omsyn til homofil orientering. Slike omstende kan ikkje reknast som sakleg grunn til å nekte godkjenning av ein andelseigar eller ha vekt ved tildeling av bustad.
+>
+> (3) Dersom det ligg føre omstende som gir grunn til å tru at det har funne stad diskriminering i strid med andre ledd, skal slik diskriminering leggjast til grunn som bevist, om ikkje den som har utført handlinga gjer det sannsynleg at diskriminering likevel ikkje har funne stad.
+>
+> (4) Om skadebotansvar for ulovleg diskriminering etter andre ledd gjeld vanlege skadebotreglar.
+>
+> (5) Likestillings- og diskrimineringsombodet og Likestillings- og diskrimineringsnemnda skal føre tilsyn med og medverke til gjennomføring av andre ledd, jf. diskrimineringsombudsloven.
+>
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*35. I lov 6. juni 2003 nr. 38 om bustadbyggjelag skal ny § 6-4 a lyde:*
+
+> § 6-4 a.Krav om representasjon av begge kjønn i styret
+>
+> (1) I styret i bustadbyggjelag med meir enn 1 000 andelseigarar på det tidspunktet valet av styremedlemmer skjer skal begge kjønn vere representert på følgjande måte:Har styret to eller tre medlemmer, skal begge kjønn vere representert.Har styret fire eller fem medlemmer, skal kvart kjønn vere representert med minst to.Har styret seks til åtte medlemmer, skal kvart kjønn vere representert med minst tre.Har styret ni medlemmer, skal kvart kjønn vere representert med minst fire, og har styret fleire medlemmer, skal kvart kjønn vere representert med minst 40 prosent.Reglane i nr. 1 til 4 gjeld tilsvarande ved val av varamedlemmer.
+>
+> (2) Første ledd nr. 1 til 5 omfattar ikkje styremedlemmer som skal veljast blant dei tilsette etter § 6-4. Når det skal veljast to eller fleire styremedlemmer som nemnt i første punktum, skal begge kjønn vere representert. Det same gjeld for varamedlemmer. Andre og tredje punktum gjeld ikkje dersom eit av kjønna utgjer mindre enn 20 prosent av det samla talet på tilsette i laget på det tidspunktet valet skjer.
+>
+
+### 2008-06-20 — lov/2008-06-20-42
+
+*5. I lov 6. juni 2003 nr. 38 om bustadbyggjelag skal § 1-4 første og annet ledd lyde:*
+
+> (1) I vedtektene kan det ikkje setjast vilkår for å vere andelseigar som tek omsyn til kjønn, etnisitet, nasjonalt opphav, avstamming, hudfarge, språk, religion, livssyn eller nedsett funksjonsevne. Slike omstende kan ikkje reknast som sakleg grunn til å nekte godkjenning av ein andelseigar eller ha vekt ved tildeling av bustad. Ved slik diskriminering gjeld likestillingsloven, diskrimineringsloven og diskriminerings- og tilgjengelighetsloven.
+>
+> (2) I vedtektene kan det heller ikkje setjast vilkår for å vere andelseigar som tek omsyn til seksuell orientering. Slike omstende kan ikkje reknast som sakleg grunn til å nekte godkjenning av ein andelseigar eller ha vekt ved tildeling av bustad.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*232. I lov 6. juni 2003 nr. 38 om bustadbyggjelag (bustadbyggjelagslova) skal § 12-1 annet ledd lyde:*
+
+> Brot på teieplikta kan straffast med bøter. Medverknad blir ikkje straffa.
+>
+
+### 2011-07-01 — forskrift/2011-06-24-647
+
+*Loven gjelder fra 1. juli 2011.*
+
+> Loven gjelder fra 1. juli 2011.
+>
+
 ### 2012-06-08 — lov/2012-06-08-31
 
-*Endring i følgende lov:*
+*I lov 6. juni 2003 nr. 38 om bustadbyggjelag skal ny § 9-14 lyde:*
 
-> Endring i følgende lov:
->
-> Lov 6. juni 2003 nr. 38 om bustadbyggjelag (bustadbyggjelagslova).
->
-> I lov 6. juni 2003 nr. 38 om bustadbyggjelag skal ny § 9-14 lyde:
->
-> § 9-14.
->
-> Fusjon mellom bustadbyggjelag og heileigd dotterselskap
+> § 9-14.Fusjon mellom bustadbyggjelag og heileigd dotterselskap
 >
 > (1) Dersom eit bustadbyggjelag eig alle aksjane i eit aksjeselskap eller allmennaksjeselskap, kan styra i foretaka vedta ein fusjonsplan som går ut på at dotterselskapet vederlagsfritt skal overføre eigedelar, rettar og skyldnader under eitt til morforetaket.
 >
 > (2) For gjennomføringa av fusjonen gjeld aksjelova § 13-23 og allmennaksjelova § 13-24 tilsvarande.
->
-> Loven gjelder fra den tid Kongen bestemmer.
 >
 
 ### 2012-07-01 — forskrift/2012-06-08-495
@@ -324,6 +359,124 @@ refid: "lov/2003-06-06-38"
 > Loven trer i kraft fra 1. juli 2012.
 >
 
+### 2013-04-05 — lov/2013-04-05-12
+
+*47. I lov 6. juni 2003 nr. 38 om bustadbyggjelag skal § 6-7 første ledd annet punktum lyde:*
+
+> Det same gjeld dersom ein styremedlem blir fråteken rettsleg handleevne eller blir sett i konkurskarantene etter konkursloven §§ 142 og 143.
+>
+
+### 2013-06-21 — lov/2013-06-21-61
+
+*3. I lov 6. juni 2003 nr. 38 om bustadbyggjelag skal § 1-4 lyde:*
+
+> § 1-4.Forbod mot diskriminering
+>
+> I vedtektene kan det ikkje setjast vilkår for å vere andelseigar som tek omsyn til kjønn, etnisitet, religion, livssyn, nedsett funksjonsevne, seksuell orientering, kjønnsidentitet eller kjønnsuttrykk. Slike omstende kan ikkje reknast som sakleg grunn til å nekte godkjenning av ein andelseigar eller ha vekt ved tildeling av bustad. Ved diskriminering gjeld likestillingsloven, diskrimineringsloven om etnisitet, diskriminerings- og tilgjengelighetsloven og diskrimineringsloven om seksuell orientering.
+>
+
+### 2013-07-01 — forskrift/2013-06-14-638
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
+>
+
+### 2014-01-01 — forskrift/2013-06-21-707
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*194. I lov 6. juni 2003 nr. 38 om bustadbyggjelag skal § 12-1 annet ledd lyde:*
+
+> (2) Brot på teieplikta kan straffast med bøter. Medverknad blir ikkje straffa.195. I lov 6. juni 2003 nr. 39 om burettslag skal § 13-1 annet ledd lyde:
+>
+> (2) Brot på teieplikta kan straffast med bøter. Medverknad blir ikkje straffa.196. I lov 27. juni 2003 nr. 58 om særlige tiltak mot Republikken Zimbabwe skal § 3 lyde:Ved overtredelse av bestemmelser gitt i medhold av denne lov gjelder §§ 2 og 3 i lov 7. juni 1968 nr. 4 til gjennomføring av bindende vedtak av De forente nasjoners sikkerhetsråd tilsvarende.197. I lov 27. juni 2003 nr. 64 om alternativ behandling av sykdom mv. gjøres følgende endringer:
+>
+
+### 2018-01-01 — forskrift/2017-06-16-751
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2020-01-01 — forskrift/2019-04-10-474
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
 ### 2020-12-04 — lov/2020-12-04-137
 
 *Kapittel 13 del III blir oppheva.*
+
+### 2021-01-01 — forskrift/2020-12-04-2591
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-04-01 — forskrift/2021-03-26-966
+
+*Loven trer i kraft 1. april 2021.*
+
+> Loven trer i kraft 1. april 2021.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2024-11-01 — forskrift/2024-10-11-2454
+
+*Følgende trer i kraft 1. november 2024:*
+
+> Følgende trer i kraft 1. november 2024:
+>
+> Endringsloven del I (regnskapsloven)
+>
+> Endringsloven del II (revisorloven) med unntak av § 12-1.
+>
+> Endringsloven del III (statsforetaksloven)
+>
+> Endringsloven del IV (aksjeloven)
+>
+> Endringsloven del V (allmennaksjeloven)
+>
+> Endringsloven del VI (bustadbyggjelagslova)
+>
+> Endringsloven del VIII (verdipapirhandelloven)
+>
+> Endringsloven del IX (samvirkelova)
+>
+> Endringsloven del X (finansforetaksloven)
+>
+> Endringsloven del XI (fagskoleloven)
+>
+> Endringsloven del XII (åpenhetsloven).
+>
+
+## § 9
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 9 første ledd skal lyde:*
+
+> Den som forsettlig eller grovt uaktsomt overtrer bestemmelser i loven eller i medhold av den, straffes med bøter eller fengsel i inntil tre måneder.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 9 annet ledd annet punktum oppheves.*

@@ -5,6 +5,15 @@ refid: "lov/2005-12-21-126"
 
 # Endringshistorikk: Kosmetikklova
 
+## (annet)
+
+### 2024-07-01 — forskrift/2024-02-02-152
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ## § 16 a
 
 ### 2024-02-02 — lov/2024-02-02-8

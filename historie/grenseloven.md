@@ -7,6 +7,13 @@ refid: "lov/2018-04-20-8"
 
 ## (annet)
 
+### 2020-01-01 — forskrift/2019-06-21-872
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *15.I lov 20. april 2018 nr. 8 om grensetilsyn og grensekontroll av personer skal § 3 første ledd lyde:*
@@ -14,11 +21,41 @@ refid: "lov/2018-04-20-8"
 > Loven gjelder i riket, på og ved innretninger og anlegg som nyttes på eller er tilknyttet norsk kontinentalsokkel, og i tilstøtende sone, jf. lov 27. juni 2003 nr. 57 om Norges territorialfarvann og tilstøtende sone § 4.
 >
 
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
 ### 2025-06-20 — lov/2025-06-20-85
 
 *Kapittel 5 overskriften skal lyde:*
 
 > Kapittel 5. Behandling av personopplysninger og taushetsplikt
+>
+
+### 2025-10-12 — forskrift/2025-09-19-1877
+
+*Ikraftsetting av lov 20. juni 2025 nr. 85 om endringer i grenseloven og utlendingsloven mv. (gjennomføring av revidert grenseforordning). Loven trer i kraft 12. oktober 2025.*
+
+> Ikraftsetting av lov 20. juni 2025 nr. 85 om endringer i grenseloven og utlendingsloven mv. (gjennomføring av revidert grenseforordning). Loven trer i kraft 12. oktober 2025.
 >
 
 ### 2026-06-12 — lov/2026-06-12-31
@@ -48,6 +85,30 @@ refid: "lov/2018-04-20-8"
 > Forvaltningslovens regler om enkeltvedtak gjelder ikke for beslutninger om bruk av tvang etter bestemmelsen her.
 >
 > Utlendingen kan kreve spørsmålet om rettmessigheten av tvangsinngrepet brakt inn for retten. Screeningmyndigheten sørger for at utlendingen blir gjort kjent med denne retten. Ved slik domstolsbehandling gjelder bestemmelsene i straffeprosessloven kapittel 26 tilsvarende så langt de passer.
+>
+
+### 2026-06-12 — forskrift/2026-06-12-1058
+
+*Delt ikraftsetting av lov 12. juni 2026 om endringer i grenseloven, utlendingsloven og SIS-loven (screening av tredjelandsborgere). Følgende endringer trer i kraft 12. juni 2026 kl. 15.00:*
+
+> Delt ikraftsetting av lov 12. juni 2026 om endringer i grenseloven, utlendingsloven og SIS-loven (screening av tredjelandsborgere). Følgende endringer trer i kraft 12. juni 2026 kl. 15.00:
+>
+> Endringsloven del I til III.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1283
+
+*Delt ikraftsetting av lov 19. juni 2026 om endringer i politiregisterloven og grenseloven mv. (testing og utvikling av informasjonssystemer). Følgende trer i kraft 1. juli 2026:*
+
+> Delt ikraftsetting av lov 19. juni 2026 om endringer i politiregisterloven og grenseloven mv. (testing og utvikling av informasjonssystemer). Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del II (politiloven) § 24b
+>
+> Endringsloven del III (utlendingsloven)
+>
+> Endringsloven del V (grenseloven)
+>
+> Endringsloven del IV (politiregisterloven) § 18
 >
 
 ## § 1

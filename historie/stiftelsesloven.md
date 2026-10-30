@@ -20,6 +20,15 @@ refid: "lov/2001-06-15-59"
 > Stiftelsestilsynet skal kunngjøre vedtaket om å oppheve stiftelsen. I kunngjøringen skal stiftelsens kreditorer varsles om at de må melde sine krav til avviklingsstyrets leder innen to måneder fra kunngjøringen i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon. Navn og adresse til avviklingsstyrets leder skal fremgå av kunngjøringen. Kunngjøringen skal rykkes inn i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon og to ganger med minst en ukes mellomrom i en avis som er alminnelig lest på stedet. Kunngjøringen i avisen kan gjengis i kortform med henvisning til den elektroniske kunngjøringen. Alle kreditorer med kjent adresse skal så vidt mulig ha særskilt varsel.
 >
 
+### 2003-12-19 — lov/2003-12-19-120
+
+*I lov 15. juni 2001 nr. 59 om stiftelser skal ny § 27 a lyde:*
+
+> § 27 a.Kjønnsrepresentasjon når staten, en fylkeskommune eller kommune oppnevner medlemmer av styret
+>
+> Lov 9. juni 1978 nr. 45 om likestilling mellom kjønnene § 21 første, annet og femte ledd gjelder tilsvarende når staten, en fylkeskommune eller kommune oppnevner hele styret i en stiftelse. Når staten, en fylkeskommune eller kommune oppnevner deler av styret i en stiftelse, gjelder første punktum her tilsvarende i forhold til de styremedlemmene dette gjelder.
+>
+
 ### 2004-12-17 — lov/2004-12-17-93
 
 *I lov 15. juni 2001 nr. 59 om stiftelser skal § 7 lyde:*
@@ -37,6 +46,41 @@ refid: "lov/2001-06-15-59"
 
 *Nåværende bokstav h blir ny bokstav i.*
 
+### 2009-12-21 — forskrift/2009-12-18-1603
+
+*Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.*
+
+> Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.
+>
+
+### 2011-09-01 — forskrift/2011-08-26-866
+
+*Lov om endringer i gravferdsloven og enkelte andre lover trer i kraft 1. januar 2012. Bestemmelsen i lov 7. juni 1996 nr. 31 om Den norske kirke § 25 tredje ledd tredje punktum trer i kraft 1. september 2011.*
+
+> Lov om endringer i gravferdsloven og enkelte andre lover trer i kraft 1. januar 2012. Bestemmelsen i lov 7. juni 1996 nr. 31 om Den norske kirke § 25 tredje ledd tredje punktum trer i kraft 1. september 2011.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
+### 2013-07-01 — forskrift/2013-06-14-638
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
+>
+
+### 2015-04-01 — forskrift/2015-03-13-226
+
+*Lovendringen i § 53 trer i kraft fra 1. april 2015.*
+
+> Lovendringen i § 53 trer i kraft fra 1. april 2015.
+>
+
 ### 2018-11-23 — lov/2018-11-23-89
 
 *I lov 15. juni 2001 nr. 59 om stiftelser skal § 7 nytt femte ledd lyde:*
@@ -49,6 +93,45 @@ refid: "lov/2001-06-15-59"
 *Loven trer i kraft straks.*
 
 > Loven trer i kraft straks.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*8. I lov 15. juni 2001 nr. 59 om stiftelser skal ny § 44 a i kapittel 5 lyde:*
+
+> § 44 a.Møte med revisor
+>
+> Styret skal hvert år ha et møte med revisor uten at daglig leder eller andre fra den daglige ledelsen er til stede. Aksjeloven § 7-5 a gjelder tilsvarende.
+>
+> 9. I lov 19. november 2004 nr. 73 om bokføring skal § 13 første ledd nr. 4 lyde:revisors skriftlige kommunikasjon med styret etter revisorloven § 9-5,
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-28-1667
+
+*Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del *
+
+> Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del VI (SE-loven), del VII (samvirkelova) med unntak av § 75, del VIII (finansforetaksloven) og del IX trer i kraft 1. juni 2021.
+>
+
+### 2021-06-23 — forskrift/2021-06-23-2064
+
+*Delt ikraftsetting av lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav). Endringsloven del III (aksjeloven) § 6-11 første ledd, del IV (allmennaksjeloven) § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) § 27 andre le*
+
+> Delt ikraftsetting av lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav). Endringsloven del III (aksjeloven) § 6-11 første ledd, del IV (allmennaksjeloven) § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) § 27 andre ledd og del VII (samvirkelova) § 75, trer i kraft samtidig som frihandelsavtalen mellom Island, Liechtenstein, Norge og Storbritannia trer i kraft.
+>
+
+### 2021-12-01 — forskrift/2021-12-01-3309
+
+*Frihandelsavtale mellom Island, Fyrstedømmet Liechtenstein og Kongeriket Norge og Det forente kongerike Storbritannia og Nord-Irland trer midlertidig i kraft for Norge 1. desember 2021. Lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskra*
+
+> Frihandelsavtale mellom Island, Fyrstedømmet Liechtenstein og Kongeriket Norge og Det forente kongerike Storbritannia og Nord-Irland trer midlertidig i kraft for Norge 1. desember 2021. Lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav) del III (aksjeloven) § 6-11 første ledd, del IV (allmennaksjeloven) § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) § 27 andre ledd og del VII (samvirkelova) § 75 trer derfor i kraft 1. desember 2021, jf. loven del X nr. 1 og kongelig resolusjon 23. juni 2021 nr. 2064 om delt ikraftsetting av lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav).
 >
 
 ### 2022-12-16 — lov/2022-12-16-93
@@ -93,6 +176,13 @@ refid: "lov/2001-06-15-59"
 > Loven trer i kraft 1. januar 2023.
 >
 
+### 2023-01-01 — forskrift/2022-12-16-2255
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
 ### 2024-04-12 — lov/2024-04-12-17
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
@@ -104,9 +194,34 @@ refid: "lov/2001-06-15-59"
 > pensjonskasser og pensjonsfond som er under Finanstilsynets tilsyn, jf. finanstilsynsloven § 1-2 første ledd bokstav k,
 >
 
+### 2024-07-01 — forskrift/2024-04-12-602
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2025-04-01 — forskrift/2025-03-21-479
+
+*Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.*
+
+> Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.
+>
+
 ### 2025-06-20 — lov/2025-06-20-106
 
 *Nåværende andre punktum blir nytt tredje punktum.*
+
+### 2025-06-20 — forskrift/2025-06-20-1094
+
+*---.*
+
+> ---.
+>
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2026, med unntak av bestemmelsene nevnt i punkt 3 nedenfor.
+>
+> Enhetsregisterloven § 6-5 andre ledd og § 8-3 første ledd tredje og fjerde punktum trer i kraft på et senere tidspunkt.
+>
 
 ## § 10
 
@@ -157,14 +272,6 @@ refid: "lov/2001-06-15-59"
 > 46. I lov 5. juli 2002 nr. 64 om registrering av finansielle instrumenter skal § 8-2 nr. 3 første punktum lyde:
 >
 > Tingretten og namsmannen har rett til å få opplyst hvilke registrerte finansielle instrumenter som tilhører en saksøkt, en skyldner eller en person som er fratatt rettslig handleevne, og om det er øvrige begrensede rettigheter i disse.
->
-> 47. I lov 6. juni 2003 nr. 38 om bustadbyggjelag skal § 6-7 første ledd annet punktum lyde:
->
-> Det same gjeld dersom ein styremedlem blir fråteken rettsleg handleevne eller blir sett i konkurskarantene etter konkursloven §§ 142 og 143.
->
-> 48. I lov 27. juni 2003 nr. 64 om alternativ behandling av sykdom mv. skal § 7 tredje ledd første punktum lyde:
->
-> Bestemmelsen i første ledd gjelder ikke dersom behandlingen skjer i samarbeid eller samforståelse med pasientens lege, og pasienten har samtykkekompetanse etter pasient- og brukerrettighetsloven § 4-3 første og andre ledd.
 >
 
 ### 2021-05-28 — lov/2021-05-28-51
@@ -307,6 +414,10 @@ refid: "lov/2001-06-15-59"
 
 *§ 58 første ledd annet punktum og tredje ledd første punktum oppheves.*
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 58 første ledd annet punktum og tredje ledd første punktum oppheves.*
+
 ## § 61
 
 ### 2007-06-15 — lov/2007-06-15-36
@@ -317,6 +428,10 @@ refid: "lov/2001-06-15-59"
 >
 
 ## § 7
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 7 fjerde ledd annet punktum oppheves.*
 
 ### 2013-12-13 — lov/2013-12-13-119
 

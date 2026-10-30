@@ -5,6 +5,29 @@ refid: "lov/1965-06-25-1"
 
 # Endringshistorikk: Forpaktingslova – fpl
 
+## (annet)
+
+### 2017-07-01 — forskrift/2017-06-21-829
+
+*Delt ikraftsetting. Endringsloven trer i kraft 1. september 2017 med unntak av endringene i jordloven § 18 og konsesjonsloven § 9 og § 9a første ledd samt overgangsbestemmelsen i lovvedtaket V punkt 2 som gjelder konsesjonsloven § 9 og § 9a første ledd og som trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting. Endringsloven trer i kraft 1. september 2017 med unntak av endringene i jordloven § 18 og konsesjonsloven § 9 og § 9a første ledd samt overgangsbestemmelsen i lovvedtaket V punkt 2 som gjelder konsesjonsloven § 9 og § 9a første ledd og som trer i kraft 1. juli 2017.
+>
+
+### 2019-07-01 — forskrift/2019-05-24-673
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ## § 1
 
 ### 2017-06-21 — lov/2017-06-21-99

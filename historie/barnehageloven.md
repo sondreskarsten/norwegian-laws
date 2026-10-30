@@ -7,6 +7,21 @@ refid: "lov/2005-06-17-64"
 
 ## (annet)
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*35. I lov 17. juni 2005 nr. 64 om barnehager (barnehageloven) skal § 8 fjerde ledd lyde:*
+
+> Hver kommune skal opprette og føre register til bruk for Arbeids- og velferdsetaten i forbindelse med kontroll av beregning og utbetaling av kontantstøtte etter kontantstøtteloven. Registeret kan samkjøres mot Arbeids- og velferdsetatens register over mottakere av kontantstøtte. Departementet gir forskrifter med utfyllende bestemmelser om føringen av registeret, hvilke opplysninger registeret skal inneholde og behandlingen av disse opplysningene.
+>
+> 36. I lov 17. juni 2005 nr. 65 om endringer i lov 17. juli 1992 nr. 100 om barneverntjenester og lov 13. desember 1991 nr. 81 om sosiale tjenester (sosialtjenesteloven) m.v. skal barnevernloven § 9-2 annet, tredje og fjerde ledd lyde:
+>
+> Krav om bidrag eller endring av fastsatt bidrag etter første ledd, sendes til bidragsfogden. Bidragsfogd etter denne bestemmelsen er det organ som Arbeids- og velferdsdirektoratet bestemmer, og dette organ avgjør kravet og fastsetter beløpet. Den bidragspliktige kan sette fram krav overfor bidragsfogden om å få endret bidraget eller ettergitt bidragsgjeld. Bidraget kan fastsettes eller endres med virkning fra inntil tre måneder før kravet ble mottatt. Bidrag som er fastsatt etter barneloven faller bort fra det tidspunkt bidrag kan fastsettes etter denne bestemmelsen. Barneverntjenesten skal, uten hinder av taushetsplikt, gi bidragsfogden de opplysninger som er nødvendige i den enkelte sak.
+>
+> Bidragsfogdens vedtak kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer.
+>
+> Bidrag etter denne bestemmelsen innkreves av Arbeids- og velferdsetatens innkrevingssentral etter bidragsinnkrevingsloven. Bidraget skal innbetales til kommunen.
+>
+
 ### 2010-08-01 — forskrift/2010-06-18-827
 
 *Loven trer i kraft 1. august 2010.*
@@ -118,6 +133,17 @@ refid: "lov/2005-06-17-64"
 > Departementet kan gi forskrift om tegnspråkopplæring for barn under opplæringspliktig alder.
 >
 
+### 2016-06-17 — forskrift/2016-06-17-679
+
+*Delt ikraftsetting av lov 13. juni 2016*
+
+> Delt ikraftsetting av lov 13. juni 2016
+>
+> nr. 65 om endringer i lov 17. juni 2005 nr. 64 om barnehager og lov 17. juli 1998 nr. 61 om grunnskolen og den vidaregåande opplæringa. Loven trer i kraft fra 1. august 2016 med unntak av romertall I § 12 a, som trer i kraft straks.
+>
+> Skal vel være 17. juni 2016, Lovdatas anm.
+>
+
 ### 2016-08-01 — forskrift/2016-06-17-674
 
 *Loven trer i kraft 1. august 2016.*
@@ -132,37 +158,24 @@ refid: "lov/2005-06-17-64"
 > Loven trer i kraft fra 1. august 2017.
 >
 
+### 2018-01-01 — forskrift/2017-06-16-757
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
 ### 2018-03-16 — lov/2018-03-16-1
 
-*Endringer i følgende lov:*
+*I lov 17. juni 2005 nr. 64 om barnehager skal ny § 18 a lyde:*
 
-> Endringer i følgende lov:
->
-> Lov 17. juni 2005 nr. 64 om barnehager (barnehageloven).
->
-> I lov 17. juni 2005 nr. 64 om barnehager skal ny § 18 a lyde:
->
-> § 18 a.
->
-> Krav om norskferdigheter for å bli ansatt i barnehage
+> § 18 a.Krav om norskferdigheter for å bli ansatt i barnehage
 >
 > For å bli fast eller midlertidig ansatt i barnehage må personer med et annet førstespråk enn norsk eller samisk ha avlagt en norskprøve og ha oppnådd nivå A2 på delprøven i skriftlig framstilling og nivå B1 på delprøvene i leseforståelse, lytteforståelse og muntlig kommunikasjon. Nivåene A2 og B1 skal tilsvare nivåene beskrevet i Det felles europeiske rammeverket for språk.
 >
-> Kravet om norskprøve etter første ledd gjelder ikke for
->
-> stillinger som styrer eller pedagogisk leder
->
-> stillinger i barnehager som gir et tilbud på et annet språk enn norsk
->
-> personer som har gjennomført opplæring i norsk i grunnskolen eller på videregående skole og fått bestått karakter i faget
->
-> personer som har minst fem års relevant arbeidserfaring fra en norskspråklig barnehage eller skole
->
-> personer som har svensk eller dansk som førstespråk.
+> Kravet om norskprøve etter første ledd gjelder ikke forstillinger som styrer eller pedagogisk lederstillinger i barnehager som gir et tilbud på et annet språk enn norskpersoner som har gjennomført opplæring i norsk i grunnskolen eller på videregående skole og fått bestått karakter i fagetpersoner som har minst fem års relevant arbeidserfaring fra en norskspråklig barnehage eller skolepersoner som har svensk eller dansk som førstespråk.
 >
 > Dersom det er pedagogisk forsvarlig, kan barnehageeier ansette personer som ikke oppfyller kravet til norskprøve.
->
-> Loven gjelder fra den tid Kongen bestemmer.
 >
 
 ### 2018-04-20 — lov/2018-04-20-5
@@ -186,11 +199,59 @@ refid: "lov/2005-06-17-64"
 
 *Nåværende § 19 i blir ny § 19 j.*
 
+### 2018-06-22 — lov/2018-06-22-85
+
+*I lov 17. juni 2005 nr. 64 om barnehager skal ny § 18 c lyde:*
+
+> § 18 c.Forbud mot bruk av klesplagg som helt eller delvis dekker ansiktet
+>
+> Personer som er fast eller midlertidig ansatt i barnehagen eller utfører pedagogiske oppgaver etter loven, skal ikke bruke klesplagg som helt eller delvis dekker ansiktet i arbeidstiden. Forbudet gjelder når personen befinner seg på barnehagens område eller deltar på aktiviteter i regi av barnehagen.
+>
+> Forbudet gjelder ikke når bruken av slike plagg er begrunnet i klimatiske, pedagogiske, helsemessige eller sikkerhetsmessige forhold.
+>
+> Dersom noen bruker klesplagg i strid med forbudet, skal barnehageeieren eller kommunen gi personen pålegg om å fjerne plagget. Gjentatte brudd på forbudet kan gi grunnlag for oppsigelse.
+>
+
+### 2018-07-01 — forskrift/2018-06-08-839
+
+*Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.*
+
+> Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.
+>
+
 ### 2018-08-01 — forskrift/2018-03-16-384
 
 *Loven trer i kraft 1. august 2018.*
 
 > Loven trer i kraft 1. august 2018.
+>
+
+### 2018-08-01 — forskrift/2018-06-08-827
+
+*Loven trer i kraft 1. august 2018.*
+
+> Loven trer i kraft 1. august 2018.
+>
+
+### 2018-08-01 — forskrift/2018-06-22-946
+
+*Loven trer i kraft 1. august 2018.*
+
+> Loven trer i kraft 1. august 2018.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
 >
 
 ### 2020-06-19 — lov/2020-06-19-91
@@ -406,11 +467,53 @@ refid: "lov/2005-06-17-64"
 
 *§§ 14 a og 16 a oppheves.*
 
+### 2021-01-01 — forskrift/2020-12-18-2844
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-08-01 — forskrift/2021-06-11-1899
+
+*Lova gjeld frå 1. august 2021.*
+
+> Lova gjeld frå 1. august 2021.
+>
+
 ### 2022-01-01 — forskrift/2021-12-10-3461
 
 *Delt ikraftsetting av lov 19. juni 2020 nr. 91 om endringer i folkehøyskoleloven, barnehageloven og voksenopplæringsloven m.m. (utfasing av tilskudd til kortkurs i folkehøyskolen, internkontroll for friskoler og barnehager, psykososialt barnehagemiljø, krav til og tilsyn med private barnehager, kommunal barnehagemyndighet, studieforbund m.m.). Loven del IV (barnehageloven) § 10 første ledd andre punktum, § 13 og nytt kapittel X trer i kraft 1. januar 2022.*
 
 > Delt ikraftsetting av lov 19. juni 2020 nr. 91 om endringer i folkehøyskoleloven, barnehageloven og voksenopplæringsloven m.m. (utfasing av tilskudd til kortkurs i folkehøyskolen, internkontroll for friskoler og barnehager, psykososialt barnehagemiljø, krav til og tilsyn med private barnehager, kommunal barnehagemyndighet, studieforbund m.m.). Loven del IV (barnehageloven) § 10 første ledd andre punktum, § 13 og nytt kapittel X trer i kraft 1. januar 2022.
+>
+
+### 2022-06-15 — forskrift/2022-06-10-994
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
+>
+
+### 2022-06-15 — forskrift/2022-06-10-997
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
 >
 
 ### 2022-07-01 — forskrift/2022-06-10-998
@@ -428,11 +531,39 @@ refid: "lov/2005-06-17-64"
 > Endringsloven del I § 7 til § 7b, § 23 femte ledd, § 23a og § 23c.
 >
 
+### 2022-08-01 — forskrift/2022-05-20-871
+
+*Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2024-06-14 — forskrift/2024-06-14-958
 
 *Loven trer i kraft straks.*
 
 > Loven trer i kraft straks.
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-08-01 — forskrift/2024-05-31-1028
+
+*Ikraftsetting av lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova). Loven trer i kraft 1. august 2024.*
+
+> Ikraftsetting av lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova). Loven trer i kraft 1. august 2024.
 >
 
 ### 2025-06-20 — lov/2025-06-20-100
@@ -477,9 +608,42 @@ refid: "lov/2005-06-17-64"
 > Endringsloven del I §§ 1a til 2, § 4, §§ 6 til 7a, §§ 8 til 9, § 12, §§ 14 til 15, § 17, §§ 19 til 20a, §§ 25 til 30, §§ 42 til 43, § 49, § 51, § 53 og § 56
 >
 
+### 2025-08-01 — forskrift/2025-06-20-1091
+
+*Loven trer i kraft 1. august 2025.*
+
+> Loven trer i kraft 1. august 2025.
+>
+
 ### 2026-06-19 — lov/2026-06-19-59
 
 *I del I om endringer i lov 17. juni 2005 nr. 64 om barnehager oppheves endringen i § 14 b.*
+
+### 2026-06-19 — forskrift/2026-06-19-1137
+
+*Følgende trer i kraft straks:*
+
+> Følgende trer i kraft straks:
+>
+> Endringsloven del III (barnehageloven) §§ 7a tredje ledd og 23a andre ledd
+>
+> Endringsloven del IV (folkehøgskoleloven)
+>
+> Følgende trer i kraft 1. august 2026:
+>
+> Endringsloven del I (opplæringslova)
+>
+> Endringsloven del II (privatskolelova)
+>
+> Endringsloven del III (barnehageloven) §§ 24 fjerde ledd og 25 tredje ledd
+>
+
+### 2026-07-01 — forskrift/2026-06-12-1076
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
 
 ## § 1
 
@@ -825,6 +989,13 @@ refid: "lov/2005-06-17-64"
 > Kommunen kan gi dispensasjon fra kravet til grunnbemanning i andre ledd første punktum for inntil ett år av gangen når særlige hensyn tilsier det. Barnehageeieren skal legge uttalelse fra barnehagens samarbeidsutvalg ved søknaden.
 >
 > Kommunens vedtak etter tredje ledd kan påklages til fylkesmannen.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 18 annet ledd skal lyde:*
+
+> Barn som det er fattet vedtak om etter barnevernsloven § 5-1 første ledd bokstav a til d, § 3-1 og § 3-4 første ledd bokstav b, har rett til prioritet ved opptak i barnehage.
 >
 
 ## § 18 b
@@ -1308,7 +1479,25 @@ refid: "lov/2005-06-17-64"
 > Barnehagen og kommunen som barnehagemyndighet kan kreve politiattest som nevnt i første ledd for andre personer som regelmessig oppholder seg i barnehagen eller har vesentlig innflytelse på barnehagens drift.
 >
 
+## § 31
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 31 femte og sjette ledd skal lyde:*
+
+> Fylkeskommunen skal oppfylle retten til spesialpedagogisk hjelp etter denne loven for barn i barnevernsinstitusjon og barn som er pasient i helseinstitusjon eid av regionalt helseforetak, eller i privat helseinstitusjon med avtale med regionalt helseforetak.
+>
+> Departementet kan gi forskrift om ansvar for utgifter til spesialpedagogisk hjelp, hvem som skal regnes som bosatt i kommunen, refusjon av andre kommuners eller fylkeskommuners utgifter til spesialpedagogisk hjelp, fylkeskommunens ansvar for rett til spesialpedagogisk hjelp for barn i barnevernsinstitusjon og fylkeskommunens ansvar for rett til spesialpedagogisk hjelp for barn som er pasienter i helseinstitusjon eid av regionalt helseforetak, eller i privat helseinstitusjon med avtale med regionalt helseforetak.
+>
+
 ## § 32
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 32 fjerde ledd skal lyde:*
+
+> Dersom barnevernstjenesten har overtatt omsorgen etter barnevernsloven § 5-1, har barnevernstjenesten rett til å ta avgjørelser etter dette kapittelet på vegne av barnet. Tilsvarende gjelder ved vedtak om flytteforbud etter barnevernsloven § 4-3 og vedtak om plassering etter barnevernsloven § 4-2.
+>
 
 ### 2025-06-20 — lov/2025-06-20-39
 
@@ -1422,6 +1611,21 @@ refid: "lov/2005-06-17-64"
 > § 45.Opplysninger til den kommunale helse- og omsorgstjenesten og sosialtjenesten
 >
 > Barnehagepersonalet skal i sitt arbeid være oppmerksom på forhold som bør føre til tiltak fra sosialtjenesten eller helse- og omsorgstjenesten. Barnehagen skal av eget tiltak gi sosialtjenesten eller helse- og omsorgstjenesten opplysninger om slike forhold så langt opplysningene kan gis uten hinder av taushetsplikt.
+>
+
+## § 46
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 46 skal lyde:*
+
+> § 46.Opplysningsplikt til barnevernet
+>
+> Enhver som utfører tjeneste eller arbeid etter denne loven, skal i sitt arbeid være oppmerksom på forhold som kan føre til tiltak fra barnevernstjenesten.
+>
+> Enhver som utfører tjeneste eller arbeid etter denne loven, skal uten hinder av taushetsplikt melde fra til barnevernstjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling,når det er grunn til å tro at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Enhver som utfører tjeneste eller arbeid etter denne loven, plikter også å gi opplysninger etter pålegg i samsvar med barnevernsloven § 13-4.
 >
 
 ## § 47 a

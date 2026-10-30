@@ -89,6 +89,59 @@ refid: "lov/1972-05-12-28"
 > Er skadevoldende atomsubstans på ulykketiden ikke i noe atomanlegg og heller ikke under transport, skal ansvaret for atomskaden ligge hos den innehaver av atomanlegg i konvensjonstat som på ulykketiden eller senest før ulykken hadde atomsubstansen i sin besittelse, eller som uttrykkelig har påtatt seg ansvaret i skriftlig avtale.
 >
 
+### 2010-12-10 — forskrift/2010-12-10-1574
+
+*Delt ikraftsetting av lovendringene.*
+
+> Delt ikraftsetting av lovendringene.
+>
+> Lovendringene, med unntak av endringene i domstolloven § 159a og straffeprosessloven § 42, § 107b, § 109a, § 149a, § 185, § 248, § 271 og § 272, trer i kraft 10. desember 2010.
+>
+
+### 2010-12-10 — forskrift/2010-12-10-1574
+
+*Delt ikraftsetting av lovendringene.*
+
+> Delt ikraftsetting av lovendringene.
+>
+> Lovendringene, med unntak av endringene i domstolloven § 159a og straffeprosessloven § 42, § 107b, § 109a, § 149a, § 185, § 248, § 271 og § 272, trer i kraft 10. desember 2010.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1593
+
+*Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.*
+
+> Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.
+>
+
+### 2018-11-01 — forskrift/2018-09-28-1482
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall I § 3-1 tredje ledd, § 3-1b første ledd, § 4-4 åttende ledd og § 5-2 første ledd, og romertall*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall I § 3-1 tredje ledd, § 3-1b første ledd, § 4-4 åttende ledd og § 5-2 første ledd, og romertall IV § 56a trer i kraft 1. november 2018.
+>
+
+### 2019-01-01 — forskrift/2018-12-20-2060
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2020-06-19 — lov/2020-06-19-80
+
+*1. I lov 12. mai 1972 nr. 28 om atomenergivirksomhet skal § 56 a første ledd lyde:*
+
+> Direktoratet for strålevern og atomsikkerhet kan treffe vedtak om tvangsmulkt i form av engangsmulkt eller løpende dagmulkt for å sikre at bestemmelsene i denne lov eller vedtak i medhold av loven blir etterlevd.
+>
+
+### 2020-06-19 — forskrift/2020-06-19-1234
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. juli 2020, med unntak av § 10 som trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. juli 2020, med unntak av § 10 som trer i kraft straks.
+>
+
 ### 2022-01-01 — forskrift/2022-01-31-145
 
 *Den 1. januar 2022 trådte endringsprotokoll 12. februar 2004 til Pariskonvensjonen 29. juli 1960 og endringsprotokoll 12. februar 2004 til Brusselkonvensjonen (tilleggskonvensjonen) 31. januar 1963 om erstatningsansvar på atomenergiens område i kraft for Norge.*
@@ -98,13 +151,63 @@ refid: "lov/1972-05-12-28"
 > Ved vedtak 15. juni 2007 nr. 626 er det fastsatt at lov 15. juni 2007 nr. 37 om endringer i lov 12. mai 1972 nr. 28 om atomenergivirksomhet trer i kraft samme dato som endringsprotokollene. Lovendringene trådte derfor i kraft 1. januar 2022.
 >
 
+### 2022-06-17 — forskrift/2022-06-17-1033
+
+*Delt ikraftsetting av lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. (etablering av naturskadekapital i Norsk Naturskadepool mv.). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. (etablering av naturskadekapital i Norsk Naturskadepool mv.). Følgende trer i kraft straks:
+>
+> Endringsloven del II (atomenergiloven)
+>
+> Endringsloven del IV (lov 18. desember 2020 nr. 146 om finansavtaler)
+>
+> Endringsloven del V (lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.).
+>
+> Følgende trer i kraft 1. juli 2022:
+>
+> Endringsloven del III (straffeprosessloven)
+>
+> Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I (naturskadeforsikringsloven) § 1 første ledd annet punktum
+>
+> Endringsloven del VI nr. 2.
+>
+
+### 2026-01-01 — forskrift/2025-11-21-2305
+
+*Følgende trer i kraft 1. januar 2026:*
+
+> Følgende trer i kraft 1. januar 2026:
+>
+> Romertall IV og V
+>
+
 ## § 1
 
 ### 2007-06-15 — lov/2007-06-15-37
 
 *§ 1 bokstav e, h, j, k, l, m og n skal lyde:*
 
-> atomanlegg:atomreaktoranlegg;fabrikk for framstilling eller behandling av atomsubstans,fabrikk for separasjon av isotoper i atombrensel,fabrikk for opparbeiding av bestrålt atombrensel,innretning for lagring av atomsubstans, bortsett fra innretning som er bestemt til bare å brukes til midlertidig oppbevaring under transport,anlegg for deponering av atomsubstans,reaktor, fabrikk, innretning eller anlegg av nevnte slag som er under nedlegging,og etter departementets nærmere bestemmelse annen innretning der det fins atombrensel eller radioaktivt produkt;atomskade:skade som faller under § 21 nr. 1 og som skyldes ioniserende stråling som et resultat av radioaktive egenskaper eller en forening av radioaktive og giftige, eksplosive eller andre farlige egenskaper vedatombrensel eller radioaktivt produkt i et atomanlegg,annen strålekilde i et atomanlegg,atomsubstans som kommer fra, har opphav i eller er sendt til et atomanlegg;Pariskonvensjonen:den konvensjon om erstatningsansvar på atomenergiens område som ble inngått i Paris 29 juli 1960 og endret ved protokoller 28 januar 1964, 16 november 1982 og 12 februar 2004 ;Tilleggskonvensjonen:den konvensjon til utfylling av Pariskonvensjonen som ble inngått i Brussel 31 januar 1963 og endret ved protokoller 28 januar 1964, 16 november 1982 og 12 februar 2004;Wienkonvensjonen:den konvensjon om erstatningsansvar for atomskade som ble inngått i Wien 21 mai 1963, og som med virkning for noen stater er endret ved protokoll 29 september 1997;konvensjonsstat:stat som er tilsluttet Pariskonvensjonen;Fellesprotokollen:den fellesprotokoll i tilknytning til Wienkonvensjonen og Pariskonvensjonen som ble inngått i Wien 21 september 1988.
+> atomanlegg: atomreaktoranlegg; fabrikk for framstilling eller behandling av atomsubstans, fabrikk for separasjon av isotoper i atombrensel, fabrikk for opparbeiding av bestrålt atombrensel, innretning for lagring av atomsubstans, bortsett fra innretning som er bestemt til bare å brukes til midlertidig oppbevaring under transport, anlegg for deponering av atomsubstans, reaktor, fabrikk, innretning eller anlegg av nevnte slag som er under nedlegging, og etter departementets nærmere bestemmelse annen innretning der det fins atombrensel eller radioaktivt produkt;
+>
+> atomskade: skade som faller under § 21 nr. 1 og som skyldes ioniserende stråling som et resultat av radioaktive egenskaper eller en forening av radioaktive og giftige, eksplosive eller andre farlige egenskaper ved atombrensel eller radioaktivt produkt i et atomanlegg, annen strålekilde i et atomanlegg, atomsubstans som kommer fra, har opphav i eller er sendt til et atomanlegg;
+>
+> atombrensel eller radioaktivt produkt i et atomanlegg,
+>
+> annen strålekilde i et atomanlegg,
+>
+> atomsubstans som kommer fra, har opphav i eller er sendt til et atomanlegg;
+>
+> Pariskonvensjonen: den konvensjon om erstatningsansvar på atomenergiens område som ble inngått i Paris 29 juli 1960 og endret ved protokoller 28 januar 1964, 16 november 1982 og 12 februar 2004 ;
+>
+> Tilleggskonvensjonen: den konvensjon til utfylling av Pariskonvensjonen som ble inngått i Brussel 31 januar 1963 og endret ved protokoller 28 januar 1964, 16 november 1982 og 12 februar 2004;
+>
+> Wienkonvensjonen: den konvensjon om erstatningsansvar for atomskade som ble inngått i Wien 21 mai 1963, og som med virkning for noen stater er endret ved protokoll 29 september 1997;
+>
+> konvensjonsstat: stat som er tilsluttet Pariskonvensjonen;
+>
+> Fellesprotokollen: den fellesprotokoll i tilknytning til Wienkonvensjonen og Pariskonvensjonen som ble inngått i Wien 21 september 1988.
 >
 
 ## § 12
@@ -309,7 +412,21 @@ refid: "lov/1972-05-12-28"
 
 *§ 40 nr. 1 skal lyde:*
 
-> I den utstrekning erstatningskrav mot innehaver av atomanlegg til fredelige formål som ligger i Norge eller annen stat tilsluttet Tilleggskonvensjonen, ikke kan fyldestgjøres på grunn av ansvarsbegrensningen etter § 30, jfr. § 31, men for øvrig kan gjøres – og i tide er gjort – gjeldende mot innehaveren eller dennes garantist i samsvar med reglene i kapitlet her, skal kravene dekkes av statsmidler, innen de grenser § 41 setter, såfremt kravene gjelder atomskade oppståttinnenfor territoriet til Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen,i eller over havområder utenfor territorialfarvannet til Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, men ikke medregnet andre staters territorialfarvann, og bare dersom skaden har rammeten statsborger i Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, ellerom bord i eller på et skip som fører flagget til en av disse statene, ellerom bord i eller på et luftfartøy registrert i en av disse statene, elleri eller på en kunstig øy, installasjon eller byggverk under en slik stats jurisdiksjon,innenfor eller over den eksklusive økonomiske sone eller kontinentalsokkelen til Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, i forbindelse med utnytting eller utforskning av naturressurser som er der.Ansvaret for den norske stat etter paragrafen her gjelder bare dersom norske domstoler har domsmyndighet for krav mot innehaveren eller dennes garantist etter § 44, og denne domsmyndigheten bygger på Pariskonvensjonen artikkel 13.
+> I den utstrekning erstatningskrav mot innehaver av atomanlegg til fredelige formål som ligger i Norge eller annen stat tilsluttet Tilleggskonvensjonen, ikke kan fyldestgjøres på grunn av ansvarsbegrensningen etter § 30, jfr. § 31, men for øvrig kan gjøres – og i tide er gjort – gjeldende mot innehaveren eller dennes garantist i samsvar med reglene i kapitlet her, skal kravene dekkes av statsmidler, innen de grenser § 41 setter, såfremt kravene gjelder atomskade oppstått innenfor territoriet til Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, i eller over havområder utenfor territorialfarvannet til Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, men ikke medregnet andre staters territorialfarvann, og bare dersom skaden har rammet en statsborger i Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, eller om bord i eller på et skip som fører flagget til en av disse statene, eller om bord i eller på et luftfartøy registrert i en av disse statene, eller i eller på en kunstig øy, installasjon eller byggverk under en slik stats jurisdiksjon, innenfor eller over den eksklusive økonomiske sone eller kontinentalsokkelen til Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, i forbindelse med utnytting eller utforskning av naturressurser som er der. Ansvaret for den norske stat etter paragrafen her gjelder bare dersom norske domstoler har domsmyndighet for krav mot innehaveren eller dennes garantist etter § 44, og denne domsmyndigheten bygger på Pariskonvensjonen artikkel 13.
+>
+> innenfor territoriet til Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen,
+>
+> i eller over havområder utenfor territorialfarvannet til Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, men ikke medregnet andre staters territorialfarvann, og bare dersom skaden har rammet en statsborger i Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, eller om bord i eller på et skip som fører flagget til en av disse statene, eller om bord i eller på et luftfartøy registrert i en av disse statene, eller i eller på en kunstig øy, installasjon eller byggverk under en slik stats jurisdiksjon,
+>
+> en statsborger i Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, eller
+>
+> om bord i eller på et skip som fører flagget til en av disse statene, eller
+>
+> om bord i eller på et luftfartøy registrert i en av disse statene, eller
+>
+> i eller på en kunstig øy, installasjon eller byggverk under en slik stats jurisdiksjon,
+>
+> innenfor eller over den eksklusive økonomiske sone eller kontinentalsokkelen til Norge eller en annen stat som er tilsluttet Tilleggskonvensjonen, i forbindelse med utnytting eller utforskning av naturressurser som er der. Ansvaret for den norske stat etter paragrafen her gjelder bare dersom norske domstoler har domsmyndighet for krav mot innehaveren eller dennes garantist etter § 44, og denne domsmyndigheten bygger på Pariskonvensjonen artikkel 13.
 >
 
 ### 2007-06-15 — lov/2007-06-15-37

@@ -5,6 +5,19 @@ refid: "lov/1999-07-02-61"
 
 # Endringshistorikk: Spesialisthelsetjenesteloven – sphl
 
+## § 1-2
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 1-2 første ledd skal lyde:*
+
+> Loven gjelder for spesialisthelsetjenester som tilbys eller ytes i riket av staten og private, når ikke annet følger av de enkelte bestemmelser i loven.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 1-2 fjerde ledd oppheves.*
+
 ## § 1-3
 
 ### 2022-11-25 — lov/2022-11-25-86
@@ -16,6 +29,26 @@ refid: "lov/1999-07-02-61"
 > Kongen kan i forskrift gjennomføre bilaterale avtaler med andre land om trygdekoordinering.
 >
 > Bestemmelsene som er gitt i eller i medhold av denne loven, skal fravikes i den utstrekning det er nødvendig for å overholde forpliktelser som følger av EØS-avtalens hoveddel, bilaterale avtaler som nevnt i første ledd og forordninger og avtaler som nevnt i folketrygdloven §§ 1-3 a og 1-3 b.
+>
+
+## § 1-7
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 1-7 tredje ledd skal lyde:*
+
+> Ved saker om tvungen observasjon, etablering, opprettholdelse eller opphør av tvungent psykisk helsevern, saker om overføringer, saker som nevnt i §§ 2-1 annet ledd og 2-2 fjerde ledd og ved klage til fylkesmannen over vedtak om undersøkelse og behandling etter § 4-4, har pasienten rett til fri rettshjelp etter lov 13. juni 1980 nr. 35 om fri rettshjelp.
+>
+
+## § 2-1
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Ny § 2-1 skal lyde:*
+
+> § 2-1.Statens ansvar for spesialisthelsetjenester
+>
+> Staten har det overordnede ansvar for at befolkningen gis nødvendig spesialisthelsetjeneste.
 >
 
 ## § 2-1a
@@ -40,7 +73,13 @@ refid: "lov/1999-07-02-61"
 
 *§ 2-1a første ledd nr. 3 og 4 og nytt nr. 5 og 6 skal lyde:*
 
-> akuttmedisinsk beredskap,medisinsk nødmeldetjeneste, luftambulansetjeneste og ambulansetjeneste med bil og eventuelt båt,transport til undersøkelse eller behandling i kommune- og spesialisthelsetjenesten ogtransport av behandlingspersonell.
+> akuttmedisinsk beredskap,
+>
+> medisinsk nødmeldetjeneste, luftambulansetjeneste og ambulansetjeneste med bil og eventuelt båt,
+>
+> transport til undersøkelse eller behandling i kommune- og spesialisthelsetjenesten og
+>
+> transport av behandlingspersonell.
 >
 
 ### 2004-06-25 — lov/2004-06-25-46
@@ -193,6 +232,13 @@ refid: "lov/1999-07-02-61"
 
 ## § 3-1
 
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 3-1 annet ledd skal lyde:*
+
+> Regionale helseforetak skal utpeke det nødvendige antall helseinstitusjoner eller avdelinger i slike institusjoner innen helseregionen med tilsvarende plikt overfor pasienter som trenger psykiatrisk helsehjelp.
+>
+
 ### 2007-12-21 — lov/2007-12-21-123
 
 *§ 3-1 andre ledd skal lyde:*
@@ -258,6 +304,29 @@ refid: "lov/1999-07-02-61"
 
 ## § 3-3 a
 
+### 2017-06-16 — lov/2017-06-16-56
+
+*§ 3-3 a overskriften skal lyde:*
+
+> § 3-3 a.Varsel om alvorlige hendelser
+>
+
+### 2017-06-16 — lov/2017-06-16-56
+
+*§ 3-3 a første ledd skal lyde:*
+
+> Helseforetak og virksomheter som har avtale med helseforetak eller regionale helseforetak, skal straks varsle om alvorlige hendelser til Statens helsetilsyn og Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Med alvorlige hendelse menes dødsfall eller betydelig skade på pasient hvor utfallet er uventet ut fra påregnelig risiko.
+>
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 3-3 a skal lyde:*
+
+> § 3-3 a.Varsel til Statens helsetilsyn om alvorlige hendelser
+>
+> Virksomheter som er omfattet av loven her, skal straks varsle Statens helsetilsyn og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Varslingsplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko.
+>
+
 ### 2021-05-07 — lov/2021-05-07-31
 
 *§ 3-3 a overskriften skal lyde:*
@@ -274,6 +343,19 @@ refid: "lov/1999-07-02-61"
 > Virksomheter som er omfattet av loven her, skal snarest mulig og senest innen fem virkedager sende melding til statsforvalteren og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko. En kopi av meldingen skal sendes til Statens helsetilsyn.
 >
 > Virksomheten skal i tillegg oversende en rapport om hendelsen til statsforvalteren innen tre måneder etter at melding er sendt. Rapporten skal blant annet inneholde en gjennomgang av hendelsen og mulige årsaker, hvilke tiltak virksomheten vil sette i verk for at lignende hendelser ikke skal skje igjen, og hvordan pasienten, brukeren, nærmeste pårørende og berørt helsepersonell er fulgt opp og involvert i forbedringsarbeidet.
+>
+
+## § 3-5
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 3-5 skal lyde:*
+
+> § 3-5.Om deltakelse i undervisning og opplæring
+>
+> De regionale helseforetakene skal sørge for at behovet for undervisning og opplæring av helsefaglige elever, lærlinger, studenter, turnuskandidater og spesialister dekkes innen helseregionen.
+>
+> Departementet kan gi forskrifter om plikten til å delta i undervisning og opplæring, herunder om private helseinstitusjoners plikt.
 >
 
 ## § 3-7 a
@@ -427,6 +509,13 @@ refid: "lov/1999-07-02-61"
 
 ## § 4-1
 
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 4-1 tredje ledd skal lyde:*
+
+> Ved vurderingen av om godkjenningen skal gis, kan det blant annet legges vekt på om samfunnsmessige eller faglige hensyn taler for at helseinstitusjonen eller helsetjenesten godkjennes, om helseinstitusjonen eller helsetjenesten er omfattet av planer utarbeidet av regionale helseforetak, jf. lov 15. juni 2001 nr. 93 om helseforetak m.m. § 34, og om de tjenester som skal ytes pasientene synes forsvarlige.
+>
+
 ### 2025-06-20 — lov/2025-06-20-72
 
 *§ 4-1 andre og tredje ledd skal lyde:*
@@ -525,14 +614,18 @@ refid: "lov/1999-07-02-61"
 
 *§ 5-5 nr. 3 og og nytt nr. 4 skal lyde:*
 
-> adgang til å bestemme at pasienter som oppholder seg i langtidsinstitusjoner helt eller delvis skal dekke 25 prosent av forpleiningsutgiftene når dette finnes rimelig etter pasientens økonomiske kår. Det kan ikke tas refusjon i kontantytelser som pasienten oppebærer etter folketrygdloven og heller ikke i midler som skriver seg fra slike ytelser,pasientens betaling for reise til undersøkelse og behandling, herunder fritak for betaling for enkelte pasientgrupper.
+> adgang til å bestemme at pasienter som oppholder seg i langtidsinstitusjoner helt eller delvis skal dekke 25 prosent av forpleiningsutgiftene når dette finnes rimelig etter pasientens økonomiske kår. Det kan ikke tas refusjon i kontantytelser som pasienten oppebærer etter folketrygdloven og heller ikke i midler som skriver seg fra slike ytelser,
+>
+> pasientens betaling for reise til undersøkelse og behandling, herunder fritak for betaling for enkelte pasientgrupper.
 >
 
 ### 2006-01-01 — lov/2005-12-21-127
 
 *§ 5-5 nr. 4 og nytt nr. 5 skal lyde:*
 
-> pasienters betaling for reise til undersøkelse og behandling, herunder fritak for betaling for enkelte pasientgrupper,pasienters betaling for opphold i opptreningsinstitusjoner og andre private rehabiliteringsinstitusjoner som har driftsavtale med regionalt helseforetak, herunder om fritak for betaling for enkelte pasientgrupper.
+> pasienters betaling for reise til undersøkelse og behandling, herunder fritak for betaling for enkelte pasientgrupper,
+>
+> pasienters betaling for opphold i opptreningsinstitusjoner og andre private rehabiliteringsinstitusjoner som har driftsavtale med regionalt helseforetak, herunder om fritak for betaling for enkelte pasientgrupper.
 >
 
 ### 2019-12-20 — lov/2019-12-20-103
@@ -577,6 +670,15 @@ refid: "lov/1999-07-02-61"
 > Opplysninger som er gitt Statens helsetilsyn eller Helsetilsynet i fylket i henhold til denne bestemmelsen, kan uten hinder av taushetsplikten forelegges sakkyndige til uttalelse eller departementet til orientering.
 >
 
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 6-2 skal lyde:*
+
+> § 6-2.Opplysningsplikt til Statens helsetilsyn og Fylkesmannen
+>
+> Bestemmelsene i helsetilsynsloven § 7 om plikt til å gi tilsynsmyndigheten opplysninger og adgang til virksomheten på anmodning, og adgang til å gi tilsynsmyndigheten opplysninger av eget tiltak uten hinder av taushetsplikt, gjelder for enhver som utfører tjeneste eller arbeid som angår helsetjenester som omfattes av denne loven.
+>
+
 ## § 6-4
 
 ### 2003-11-28 — lov/2003-11-28-99
@@ -589,6 +691,15 @@ refid: "lov/1999-07-02-61"
 >
 
 ## § 7-1
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 7-1 skal lyde:*
+
+> § 7-1.Pålegg og tvangsmulkt
+>
+> Statens helsetilsyn kan gi pålegg om retting og stenging, og fastsette tvangsmulkt etter reglene i helsetilsynsloven §§ 8 og 9.
+>
 
 ### 2025-06-20 — lov/2025-06-20-74
 
@@ -610,6 +721,13 @@ refid: "lov/1999-07-02-61"
 > I pålegg etter loven her kan Statens helsetilsyn fastsette en løpende tvangsmulkt for hver dag/uke/måned som går etter utløpet av den frist som er satt for oppfylling av pålegget, inntil pålegget er oppfylt. Tvangsmulkt kan også fastsettes som engangsmulkt. Statens helsetilsyn kan frafalle påløpt tvangsmulkt.
 >
 
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 7-2 oppheves.*
+
+> 2.I lov 2. juli 1999 nr. 62 om etablering og gjennomføring av psykisk helsevern gjøres følgende endring:
+>
+
 ## § 8-3
 
 ### 2018-06-22 — lov/2018-06-22-76
@@ -617,6 +735,288 @@ refid: "lov/1999-07-02-61"
 *§ 8-3 oppheves.*
 
 ## (annet)
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-1 blir § 2-1a og skal lyde:*
+
+> § 2-1a.De regionale helseforetakenes ansvar for spesialisthelsetjenester
+>
+> De regionale helseforetakene skal sørge for at personer med fast bopel eller oppholdssted innen helseregionen tilbys spesialisthelsetjeneste i og utenfor institusjon, herundersykehustjenester,medisinske laboratorietjenester og radiologiske tjenester,akuttmedisinsk beredskap ogmedisinsk nødmeldetjeneste, luftambulansetjeneste og ambulansetjeneste med bil og eventuelt med båt.
+>
+> Det regionale helseforetaket plikter å yte hjelp ved ulykker og andre akutte situasjoner i helseregionen.
+>
+> Tjenester som nevnt i første ledd kan ytes av de regionale helseforetakene selv, eller ved at de inngår avtale med andre tjenesteytere.
+>
+> Departementet kan i forskrift stille krav til tjenester som omfattes av denne loven.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-1a blir § 2-1b og skal lyde:*
+
+> § 2-1b.Beredskapsplan
+>
+> Det regionale helseforetaket skal utarbeide beredskapsplan etter lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap for institusjoner og tjenester som det regionale helseforetaket skal sørge for, jf. § 2-1a i denne lov. Beredskapsplanen skal samordnes med kommunenes, fylkeskommunenes og de andre regionale helseforetakenes beredskapsplaner.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-1b blir § 2-1c og skal lyde:*
+
+> § 2-1c.Bistand ved ulykker og andre akutte situasjoner
+>
+> Dersom forholdene tilsier det, skal helsetjenesten til det regionale helseforetaket yte bistand til andre regionale helseforetak ved ulykker og andre akutte situasjoner. Anmodning om bistand fremmes av det regionale helseforetaket som har bistandsbehovet.
+>
+> Det regionale helseforetaket som mottar bistand etter første ledd, skal yte kompensasjon for utgifter som pådras til det regionale helseforetaket som bidrar med hjelp, med mindre noe annet er avtalt.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-1c blir ny § 2-1d og skal lyde:*
+
+> § 2-1d.Det regionale helseforetakets adgang til å disponere helsepersonell i enkelte akutte situasjoner
+>
+> Ved ulykker og andre akutte situasjoner som forårsaker ekstraordinær pågang av pasienter, kan det regionale helseforetaket pålegge helsepersonell som tjenestegjør i det regionale helseforetaket og institusjoner som det regionale helseforetaket eier, å utføre nærmere tilvist arbeid.
+>
+> Departementet kan pålegge lege å delta i lokal redningssentral.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-2 oppheves.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-3 blir § 2-2.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-4 blir § 2-3 og skal lyde:*
+
+> § 2-3.Departementets bestemmelser om lands- og flerregionale funksjoner og markedsføring av spesialisthelsetjenester
+>
+> Departementet kan ved forskrift eller i det enkelte tilfelle gi bestemmelser om:lands- og flerregionale funksjoner ogmarkedsføring av tjenester som omfattes av denne loven, herunder forbud mot visse former for markedsføring.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-5 blir § 2-4 og skal lyde:*
+
+> § 2-4.Ventelisteregistrering
+>
+> Departementet kan gi forskrifter omføring av ventelister over pasienter som søker og har behov for helsehjelp som omfattes av denne loven,ansvar for å skaffe registrerte pasienter innenfor visse prioriterte pasientgrupper helsehjelp på offentlig institusjon, samt pasienters rett til selv å skaffe slik helsehjelp, ogregionale helseforetaks rapporteringsplikt for aktivitetstall.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-6 blir § 2-5 og skal lyde:*
+
+> § 2-5.Individuell plan
+>
+> Helseforetaket skal utarbeide en individuell plan for pasienter med behov for langvarige og koordinerte tilbud. Helseforetaket skal samarbeide med andre tjenesteytere om planen for å bidra til et helhetlig tilbud for pasientene.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om hvilke pasientgrupper plikten omfatter, og om planens innhold.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-7 blir ny § 3-10 og skal lyde:*
+
+> § 3-10.Opplæring, etterutdanning og videreutdanning
+>
+> Virksomheter som yter helsetjenester som omfattes av denne loven, skal sørge for at ansatt helsepersonell gis slik opplæring, etterutdanning og videreutdanning som er påkrevet for at den enkelte skal kunne utføre sitt arbeid forsvarlig.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 2-8 blir ny § 3-11 og skal lyde:*
+
+> § 3-11.Om informasjon
+>
+> Helseinstitusjoner som omfattes av denne loven, har plikt til å gi videre den informasjon som er nødvendig for at allmennheten skal kunne ivareta sine rettigheter, jf. lov om pasientrettigheter § 2-1, § 2-2, § 2-3, § 2-4 og § 2-5.
+>
+> Helseinstitusjoner som omfattes av denne loven, har plikt til å gi slik informasjon som pasienten har rett til å motta etter lov om pasientrettigheter § 3-2 siste ledd.
+>
+> Departementet kan gi forskrift om det nærmere innhold i informasjonsplikten etter første og annet ledd.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Overskriften til kapittel 4 skal lyde:*
+
+> Kapittel 4 Godkjenning av helseinstitusjoner og helsetjenester. Legefordeling
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 5-5 blir ny § 4-2 og skal lyde:*
+
+> § 4-2.Legefordeling
+>
+> Departementet kan hvert år fastsette:antall nye spesialistlegestillinger innen hver medisinsk spesialitet som kan opprettes ved helseinstitusjoner og helsetjenester som mottar tilskudd til drift og vedlikehold fra et regionalt helseforetak eller fra staten,antall nye hjemler for avtaler om drift av privat spesialistpraksis som kan opprettes av hvert enkelt regionale helseforetak ogantall nye spesialistlegestillinger innen hver medisinsk spesialitet som kan opprettes ved statlige helseinstitusjoner og helsetjenester.
+>
+> Antall nye stillinger og avtalehjemler som nevnt i første ledd angis som en samlet ramme for hver enkelt helseregion fordelt på de ulike medisinske spesialiteter.
+>
+> De regionale helseforetakene fordeler stillingene som nevnt i første ledd. Departementet kan sette vilkår for fordelingen.
+>
+> Departementet kan ved forskrift gi nærmere regler til utfylling og gjennomføring av denne bestemmelsen.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende §§ 5-1, 5-2, 5-3 og 5-4 oppheves.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Overskriften til kapittel 5 skal lyde:*
+
+> Kapittel 5 Finansiering
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende §§ 6-1, 6-2 første, andre og tredje ledd og 6-3 oppheves.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 6-5 blir § 5-1 og skal lyde:*
+
+> § 5-1.Pasientens bostedsregion
+>
+> Som bostedsregion skal regnes den helseregion der pasienten har sin faste bopel. Dersom pasienten ikke har fast bopel, skal den helseregion hvor vedkommende har sitt faste oppholdssted regnes som bostedsregion.
+>
+> For pasient som oppholder seg i institusjon eller privat forpleiningssted hvor oppholdsutgiftene helt eller delvis dekkes av det offentlige etter denne loven, skal forholdene på den tid da vedkommende ble mottatt i institusjon eller forpleiningssted legges til grunn.
+>
+> Inntil et barn fyller 16 år har barnet samme bostedsregion som foreldrene eller som den av foreldrene barnet lever hos eller senest levde hos. For barn som fyller 16 år under opphold i institusjon eller forpleiningssted som nevnt i annet ledd, skal det ved fortsatt opphold legges til grunn samme bostedsregion som før barnet fylte 16 år.
+>
+> Departementet avgjør i tvilstilfeller hvor en pasient har bostedsregion.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 6-6 blir § 5-2 og skal lyde:*
+
+> § 5-2.Refusjonskrav mot det regionale helseforetaket i pasientens bostedsregion
+>
+> Det regionale helseforetakets behandlings- og forpleiningsutgifter skal dekkes av det regionale helseforetaket i pasientens bostedsregion, jf. § 5-1. Det samme gjelder utgifter til behandling og forpleining som ytes av andre tjenesteytere etter avtale med det regionale helseforetaket i pasientens bostedsregion, jf. § 2-1a. Til gjennomføring av psykisk helsevern dekkes også andre utgifter av det regionale helseforetaket i pasientens bostedsregion.
+>
+> Det regionale helseforetaket i pasientens bostedsregion skal dekke utgifter til behandling og forpleining:når det i henhold til internasjonal overenskomst foreligger rett til å reise til utlandet for å få nødvendig behandling. Dette gjelder også når andre norske myndigheter har forskottert beløpet overfor utenlandsk tjenesteyter,når utgifter til sykehusbehandling i utlandet finansieres av folketrygden etter folketrygdloven § 5-22. Utgiftene dekkes i samme utstrekning som om behandlingen hadde funnet sted i Norge.
+>
+> Departementet kan gi forskrift om beregning av utgifter som nevnt i første og annet ledd, og kan fastsette samme refusjonssatser for en eller flere grupper av institusjoner.
+>
+> Utgifter til laboratorie- og røntgentjenester dekkes bare av det regionale helseforetaket i pasientens bostedsregion, jf. § 5-1, dersom dette følger av avtale mellom det regionale helseforetaket i bostedsregionen og den som yter slike tjenester. De regionale helseforetakene skal gjøre kjent hvilke medisinske laboratorier og røntgeninstitutt de har avtale med. Departementet kan i forskrift gi nærmere bestemmelser om finansieringen av laboratorie- og røntgentjenester, herunder overgangsordninger.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 6-7 blir § 5-3.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 6-8 blir § 5-4.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 6-9 blir § 5-5 og skal lyde:*
+
+> § 5-5.Pasienters egenbetaling
+>
+> Departementet kan gi forskrift om:pasienters betaling for poliklinisk behandling ved institusjon, hos legespesialist og spesialist i klinisk psykologi, herunder fritak for betaling ved forsinket behandling/undersøkelse eller kontroll,pasienters betaling for bestilt time som ikke benyttes ved poliklinikk, hos legespesialist og spesialist i klinisk psykologi,adgang til å bestemme at pasienter som oppholder seg i langtidsinstitusjoner helt eller delvis skal dekke 25 prosent av forpleiningsutgiftene når dette finnes rimelig etter pasientens økonomiske kår. Det kan ikke tas refusjon i kontantytelser som pasienten oppebærer etter folketrygdloven og heller ikke i midler som skriver seg fra slike ytelser.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 6-2 fjerde ledd blir ny § 5-6 og skal lyde:*
+
+> § 5-6.Innhenting av driftsopplysninger
+>
+> Departementet kan kreve seg forelagt budsjett, regnskap og andre opplysninger om drift av offentlig finansiert spesialisthelsetjeneste.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Overskriften til kapittel 6 skal lyde:*
+
+> Kapittel 6 Taushetsplikt, opplysningsplikt og veiledningsplikt
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 7-1 blir § 6-1.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 7-2 blir § 6-2.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 7-4 blir § 6-3 og skal lyde:*
+
+> § 6-3.Veiledningsplikt overfor kommunehelsetjenesten
+>
+> Helsepersonell som er ansatt i statlige helseinstitusjoner som omfattes av denne loven, eller som mottar tilskudd fra regionale helseforetak til sin virksomhet, skal gi kommunehelsetjenesten råd, veiledning og opplysninger om helsemessige forhold som er påkrevet for at kommunehelsetjenesten skal kunne løse sine oppgaver etter lov og forskrift.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 6-4 oppheves.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Overskriften til kapittel 7 skal lyde:*
+
+> Kapittel 7 Pålegg
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 8-1 blir § 7-1 og skal lyde:*
+
+> § 7-1.Pålegg
+>
+> Dersom helsetjenester som omfattes av denne loven drives på en måte som er i strid med loven eller bestemmelser gitt i medhold av den, og driften antas å kunne ha skadelige følger for pasienter, kan Statens helsetilsyn gi pålegg om å rette forholdene. Dersom Statens helsetilsyn finner det nødvendig, kan det gis pålegg om stenging av helseinstitusjonen.
+>
+> Pålegg som nevnt i første ledd skal inneholde en frist for når retting skal være utført.
+>
+> Pålegg som nevnt i første ledd kan påklages til eller omgjøres uten klage etter reglene i forvaltningsloven kapittel VI av det departementet Kongen bestemmer. Klagen skal gis oppsettende virkning, hvis ikke Statens helsetilsyn bestemmer at vedtaket straks skal iverksettes.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 7-3 oppheves.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Overskriften i kapittel 8 skal lyde:*
+
+> Kapittel 8 Ikrafttredelse, overgangsbestemmelser, endringer i andre lover m.m.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 9-1 blir § 8-1.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 9-2 blir ny § 8-2.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 9-3 blir ny § 8-3 og skal lyde:*
+
+> § 8-3.Pasienter i privat forpleining under det psykiske helsevernet
+>
+> De regionale helseforetakene plikter å opprettholde ordningen med privat forpleining som omtalt i lov om psykisk helsevern av 28. april 1961 nr. 2.
+>
+> Privat forpleining som tvungent psykisk helsevern kan bare videreføres for den enkelte pasient dersom vilkårene etter § 3-3 og § 3-9 i lov 2. juli 1999 nr. 62 om etablering og gjennomføring av tvungent psykisk helsevern (psykisk helsevernloven) er oppfylt.
+>
+> Kongen gir nærmere forskrifter om gjennomføringen av den private forpleiningen, herunder bruken av forpleiningskontrakter og ansvaret for den medisinske oppfølgingen av pasientene.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende § 9-4 blir ny § 8-4.*
 
 ### 2003-12-12 — lov/2003-12-12-110
 
@@ -626,11 +1026,61 @@ refid: "lov/1999-07-02-61"
 
 *Nåværende § 3-16 blir ny § 3-17.*
 
+### 2010-01-01 — forskrift/2009-12-11-1501
+
+*Ikraftsetting av lov 19. juni 2009 nr. 70 om endringar i helsepersonelloven m.m. (oppfølging av born som pårørande). Loven trer i kraft fra 1. januar 2010.*
+
+> Ikraftsetting av lov 19. juni 2009 nr. 70 om endringar i helsepersonelloven m.m. (oppfølging av born som pårørande). Loven trer i kraft fra 1. januar 2010.
+>
+
+### 2010-01-01 — forskrift/2009-12-18-1583
+
+*Ikraftsetting av Stortingets vedtak 15. desember 2009 til lov om endringer i folketrygdloven og helseregisterloven m.m. (innføring av automatisk frikortordning og etablering av nødvendige registre m.m.). Loven skal gjelde fra 1. januar 2010.*
+
+> Ikraftsetting av Stortingets vedtak 15. desember 2009 til lov om endringer i folketrygdloven og helseregisterloven m.m. (innføring av automatisk frikortordning og etablering av nødvendige registre m.m.). Loven skal gjelde fra 1. januar 2010.
+>
+
+### 2011-01-01 — forskrift/2010-12-03-1508
+
+*Lov 19. juni 2009 nr. 72 om endringer i folketrygdloven m.m. (etablering av en ordning for refusjon av pasienters utgifter til helsehjelp i andre EØS-land) trer i kraft 1. januar 2011.*
+
+> Lov 19. juni 2009 nr. 72 om endringer i folketrygdloven m.m. (etablering av en ordning for refusjon av pasienters utgifter til helsehjelp i andre EØS-land) trer i kraft 1. januar 2011.
+>
+
+### 2012-06-22 — lov/2012-06-22-47
+
+*I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal ny § 3-2 a lyde:*
+
+> § 3-2 a.Plikt til bevaring, kassasjon og avlevering av pasientarkiv
+>
+> Virksomheter i spesialisthelsetjenesten som omfattes av bevarings-, kassasjons- og avleveringsbestemmelsene i arkivlova kapittel II, skal avlevere sitt pasientjournalarkiv til Norsk helsearkiv, jf. arkivlova § 4.
+>
+> Private virksomheter i spesialisthelsetjenesten plikter å bevare sitt pasientjournalarkiv og avlevere dette til Norsk helsearkiv etter at forskriftsmessig kassasjon er utført.
+>
+> Taushetsplikt er ikke til hinder for avlevering etter første og andre ledd.
+>
+> Bevaring, kassasjon og avlevering etter første og andre ledd skal skje i samsvar med bestemmelser gitt i forskrift med hjemmel i arkivlova § 12 og helseregisterloven § 8 a.
+>
+
+### 2012-06-22 — forskrift/2012-06-22-578
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2013-06-07 — lov/2013-06-07-29
 
 *I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal § 3-11 andre ledd lyde:*
 
 > Helseinstitusjoner som omfattes av denne loven, har plikt til å sørge for at det gis slik informasjon som pasienten har rett til å motta etter pasient- og brukerrettighetsloven § 3-2. Tilsvarende gjelder for informasjon til pasientens nærmeste pårørende etter pasient- og brukerrettighetsloven § 3-3 tredje ledd.
+>
+
+### 2014-01-01 — forskrift/2013-12-06-1398
+
+*Lov 7. juni 2013 nr. 29 om endringer i pasient- og brukerrettighetsloven mv. (styrking av pasienters, brukeres og pårørendes stilling m.m.) trer i kraft fra 1. januar 2014.*
+
+> Lov 7. juni 2013 nr. 29 om endringer i pasient- og brukerrettighetsloven mv. (styrking av pasienters, brukeres og pårørendes stilling m.m.) trer i kraft fra 1. januar 2014.
 >
 
 ### 2014-06-20 — lov/2014-06-20-40
@@ -748,11 +1198,75 @@ refid: "lov/1999-07-02-61"
 > Departementet kan ved forskrift gi nærmere bestemmelser om innholdet etter annet ledd, herunder fastsette størrelsen på egenbetalingen.
 >
 
+### 2015-03-01 — forskrift/2014-12-19-1735
+
+*Romertall II, III og IV trer i kraft 1. mars 2015.*
+
+> Romertall II, III og IV trer i kraft 1. mars 2015.
+>
+
+### 2015-05-22 — lov/2015-05-22-32
+
+*I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal ny § 4-3 lyde:*
+
+> § 4-3.Fritt behandlingsvalg
+>
+> Private virksomheter kan yte helsehjelp til pasienter som har rett til nødvendig helsehjelp fra spesialisthelsetjenesten, for en pris fastsatt i forskrift etter andre ledd. Slike virksomheter må være godkjent av Helsedirektoratet eller det organ direktoratet utpeker, etter vilkår fastsatt med hjemmel i forskrift etter andre ledd.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om vilkår for tildeling og bortfall av godkjenning av virksomheter som kan yte helsehjelp etter første ledd. Departementet kan i forskrift gi nærmere bestemmelser om forvaltning av ordningen, herunder prising av tjenester og innfasing og utfasing av tjenester.
+>
+
+### 2015-11-01 — forskrift/2015-10-30-1241
+
+*Lov 22. mai 2015 nr. 32 om endringer i pasient- og brukerrettighetsloven og spesialisthelsetjenesteloven (fritt behandlingsvalg) trer i kraft 1. november 2015.*
+
+> Lov 22. mai 2015 nr. 32 om endringer i pasient- og brukerrettighetsloven og spesialisthelsetjenesteloven (fritt behandlingsvalg) trer i kraft 1. november 2015.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1593
+
+*Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.*
+
+> Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.
+>
+
+### 2016-06-17 — forskrift/2016-06-17-706
+
+*Delt ikraftsetting av lov 30. mai 2016*
+
+> Delt ikraftsetting av lov 30. mai 2016
+>
+> til lov om endringer i pasient- og brukerrettighetsloven mv. (utvidelse av retten til fritt behandlingsvalg til å omfatte private rehabiliteringsinstitusjoner m.m.). Romertall I, III og IV trer i kraft straks.
+>
+> Skal vel være 17. juni 2016 nr. 48, Lovdatas anm.
+>
+
+### 2016-11-01 — forskrift/2016-08-26-1002
+
+*Lov 20. mai 2016 nr. 10 om endringer i psykisk helsevernloven mv. (rettigheter og bruk av tvang på rusfeltet) trer i kraft 1. november 2016.*
+
+> Lov 20. mai 2016 nr. 10 om endringer i psykisk helsevernloven mv. (rettigheter og bruk av tvang på rusfeltet) trer i kraft 1. november 2016.
+>
+
 ### 2017-06-16 — lov/2017-06-16-53
 
 *I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal § 3-7 a første ledd lyde:*
 
 > Helseinstitusjoner som omfattes av denne loven, skal i nødvendig utstrekning ha barneansvarlig personell. Barneansvarlig personell skal ha ansvar for å fremme og koordinere helsepersonells oppfølging av mindreårige som er pårørende barn eller søsken av psykisk syke, rusmiddelavhengige og alvorlig somatisk syke eller skadde pasienter, eller er etterlatte barn eller søsken etter slike pasienter.
+>
+
+### 2017-06-16 — forskrift/2017-06-16-777
+
+*Delt ikraftsetting av loven. Romertall I trer i kraft fra 1. januar 2018, med unntak av endringen i lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 2-5 c første til tredje ledd som settes i kraft straks. Romertall II trer i kraft fra 1. januar 2020. Romertall V trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Romertall I trer i kraft fra 1. januar 2018, med unntak av endringen i lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 2-5 c første til tredje ledd som settes i kraft straks. Romertall II trer i kraft fra 1. januar 2020. Romertall V trer i kraft straks.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-878
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 1, § 2, § 4 og § 20 trer i kraft straks.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 1, § 2, § 4 og § 20 trer i kraft straks.
 >
 
 ### 2018-12-07 — lov/2018-12-07-91
@@ -770,6 +1284,26 @@ refid: "lov/1999-07-02-61"
 > Den som er tildelt godkjenning plikter å gi departementet de opplysningene som departementet krever for å kunne utføre sine oppgaver. Departementet kan utføre gransking i form av stedlig undersøkelse (inspeksjon).
 >
 
+### 2019-04-10 — forskrift/2019-04-10-473
+
+*Delt ikraftsetting av lov om endringar i spesialisthelsetenestelova m.m. (avvikling av meldeordninga m.m.). Del III, IV og V trer i kraft straks. Del I og II trer i kraft 15. mai 2019, med unntak av endringen i lov 2. juli 1999 nr. 64 om helsepersonell m.v. § 36 andre ledd.*
+
+> Delt ikraftsetting av lov om endringar i spesialisthelsetenestelova m.m. (avvikling av meldeordninga m.m.). Del III, IV og V trer i kraft straks. Del I og II trer i kraft 15. mai 2019, med unntak av endringen i lov 2. juli 1999 nr. 64 om helsepersonell m.v. § 36 andre ledd.
+>
+
+### 2019-05-01 — forskrift/2019-04-26-541
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.
+>
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 1 til § 15 nr. 2, § 15 nr. 3 for så vidt gjelder endringene i lov 2. juni 1999 nr. 63
+>
+> om pasient- og brukerrettigheter § 7-6, samt § 15 nr. 4 til 7, trer i kraft 1. juli 2019.
+>
+> Skal være lov 2. juli 1999 nr. 63, Lovtidend-redaksjonens anm.
+>
+
 ### 2019-12-20 — lov/2019-12-20-103
 
 *Nåværende tredje til syvende ledd blir fjerde til åttende ledd.*
@@ -777,6 +1311,34 @@ refid: "lov/1999-07-02-61"
 ### 2019-12-20 — lov/2019-12-20-103
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2021-01-01 — forskrift/2020-12-04-2622
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-05-07 — forskrift/2021-05-07-1444
+
+*Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens un*
+
+> Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten) og del VIII (helsetilsynsloven) trer i kraft 1. juli 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
 
 ### 2022-05-20 — lov/2022-05-20-29
 
@@ -804,11 +1366,80 @@ refid: "lov/1999-07-02-61"
 > Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å foreta omstillinger eller prioriteringer for å bidra til å sikre at spesialisthelsetjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-5 om individuell plan§ 2-5 a om koordinator§ 2-5 c om kontaktlege.
 >
 
+### 2022-06-15 — forskrift/2022-06-10-994
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
+>
+
+### 2022-07-01 — forskrift/2022-05-20-887
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2022-08-01 — forskrift/2022-05-20-871
+
+*Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.
+>
+
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2249
+
+*Følgende trer i kraft 1. januar 2023:*
+
+> Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I (spesialisthelsetjenesteloven) § 4-3
+>
+> Endringsloven del II (pasient- og brukerrettighetsloven) § 2-4
+>
+> Endringsloven del III nr. 2 (overgangsregel)
+>
+> Endringsloven del III nr. 3 (forskriftshjemmel)
+>
+> Følgende trer i kraft 1. januar 2024:
+>
+> Endringsloven del II (pasient- og brukerrettighetsloven) § 2-6.
+>
+
 ### 2023-12-20 — lov/2023-12-20-106
 
 *I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal § 7-3 første ledd lyde:*
 
 > Helsedirektoratet skal utvikle, formidle og vedlikeholde nasjonale faglige retningslinjer og veiledere som understøtter de mål som er satt for helse- og omsorgstjenesten. Departementet kan bestemme på hvilke områder direktoratet skal utarbeide slike retningslinjer og veiledere. Retningslinjer og veiledere skal baseres på kunnskap om god praksis og skal bidra til kontinuerlig forbedring av virksomhet og tjenester.
+>
+
+### 2024-01-01 — forskrift/2023-12-20-2128
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
+### 2024-06-01 — forskrift/2024-04-26-746
+
+*Delt ikraftsetting av lov 28. april 2023 nr. 9 om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten). Følgende trer i kraft 1. juni 2024:*
+
+> Delt ikraftsetting av lov 28. april 2023 nr. 9 om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten). Følgende trer i kraft 1. juni 2024:
+>
+> Endringsloven del I
+>
+> Endringsloven del II
+>
+> Endringsloven del III med unntak av § 7-4 andre ledd
+>
+> Endringsloven del V.
 >
 
 ### 2024-06-25 — lov/2024-06-25-53
@@ -818,6 +1449,13 @@ refid: "lov/1999-07-02-61"
 > § 2-5 d. Midlertidige unntak fra plikter
 >
 > Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å foreta omstillinger eller prioriteringer for å bidra til å sikre at spesialisthelsetjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-5 om individuell plan§ 2-5 a om koordinator§ 2-5 c om kontaktlege.
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
 >
 
 ### 2025-04-25 — lov/2025-04-25-13
@@ -837,6 +1475,69 @@ refid: "lov/1999-07-02-61"
 ### 2025-06-20 — lov/2025-06-20-72
 
 *Nåværende tredje og fjerde ledd blir fjerde og nytt femte ledd.*
+
+### 2025-06-20 — forskrift/2025-06-20-1101
+
+*Delt ikraftsetting av endringsloven. Endringen i spesialisthelsetjenesteloven § 7-1, jf. lovvedtaket del II, endringen i helse- og omsorgstjenesteloven § 12-3 andre ledd, jf. lovvedtaket del IV og endringen i helsetilsynsloven § 8 første ledd, jf. lovvedtaket del VI, trer i kraft straks.*
+
+> Delt ikraftsetting av endringsloven. Endringen i spesialisthelsetjenesteloven § 7-1, jf. lovvedtaket del II, endringen i helse- og omsorgstjenesteloven § 12-3 andre ledd, jf. lovvedtaket del IV og endringen i helsetilsynsloven § 8 første ledd, jf. lovvedtaket del VI, trer i kraft straks.
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1122
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
+### 2025-09-01 — forskrift/2025-06-20-1109
+
+*Følgende trer i kraft 1. september 2025:*
+
+> Følgende trer i kraft 1. september 2025:
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 9-2.
+>
+> Følgende trer i kraft 1. juni 2026:
+>
+> Endringsloven del I (spesialisthelsetjenesteloven) § 3-11.
+>
+> Endringsloven del II (psykisk helsevernloven) § 1-1, § 1-2, § 2-1, § 3-2, § 3-3, § 3-3a, § 3-4, § 3-5, § 4-2a, § 4-4, § 4-4b, § 4-8a og § 6-4.
+>
+> Endringsloven del III (pasient- og brukerrettighetsloven) § 3-1, § 3-3, § 4-3, § 4-5, § 4-6, § 4-6a, § 4A-2, § 4A-3, § 7-2 og § 7-4.
+>
+> Endringsloven del IV (helsepersonelloven) § 22, § 25 og § 45.
+>
+> Endringsloven del V (behandlingsbiobankloven) § 11.
+>
+> Endringsloven del VI (alternativ behandlingsloven) § 7.
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 4-2a.
+>
+> Endringsloven del VIII (pasientjournalloven) § 17.
+>
+> Endringsloven del IX (helseregisterloven) § 15.
+>
+> Endringsloven del X (transplantasjonslova) § 5 og § 7.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
+>
 
 ### 2026-01-23 — lov/2026-01-23-1
 
@@ -858,4 +1559,25 @@ refid: "lov/1999-07-02-61"
 > § 3-11 a. Om medvirkning
 >
 > Helseinstitusjoner som omfattes av loven her, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.
+>
+
+### 2026-07-01 — forskrift/2026-03-13-402
+
+*Ikraftsetting av lov 23. januar 2026 nr. 1 om endringer i helsepersonelloven og pasientjournalloven mv. (taushetsplikt og tilgjengeliggjøring av pasientopplysninger). Loven trer i kraft 1. juli 2026.*
+
+> Ikraftsetting av lov 23. januar 2026 nr. 1 om endringer i helsepersonelloven og pasientjournalloven mv. (taushetsplikt og tilgjengeliggjøring av pasientopplysninger). Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-12-1076
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1142
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >

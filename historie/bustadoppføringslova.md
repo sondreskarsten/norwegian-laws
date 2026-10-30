@@ -7,6 +7,15 @@ refid: "lov/1997-06-13-43"
 
 ## (annet)
 
+### 2001-12-21 — lov/2001-12-21-117
+
+*I lov 13. juni 1997 nr. 43 om avtalar med forbrukar om oppføring av ny bustad m.m. (bustadoppføringslova) skal ny § 6 a lyde:*
+
+> § 6 a.Bruk av elektronisk kommunikasjon
+>
+> Krav i lova her om at avtale eller melding mv. skal vere skriftleg, er ikkje til hinder for bruk av elektronisk kommunikasjon om forbrukaren uttrykkeleg har godtatt dette.
+>
+
 ### 2007-06-15 — lov/2007-06-15-36
 
 *I lov 13. juni 1997 nr. 43 om avtalar med forbrukar om oppføring av ny bustad m.m. (bustadoppføringslova) skal § 30 nytt femte ledd lyde:*
@@ -21,6 +30,20 @@ refid: "lov/1997-06-13-43"
 > Avtalen skal opplyse om kontantvederlag, andel fellesgjeld i burettslaget og den samla summen av desse beløpa.
 >
 
+### 2011-01-01 — forskrift/2010-09-03-1238
+
+*Loven trer i kraft fra 1. januar 2011.*
+
+> Loven trer i kraft fra 1. januar 2011.
+>
+
+### 2011-07-01 — forskrift/2010-12-10-1570
+
+*Loven trer i kraft 1. juli 2011.*
+
+> Loven trer i kraft 1. juli 2011.
+>
+
 ### 2016-12-16 — lov/2016-12-16-94
 
 *Nåværende annet til åttende ledd blir nye tredje til niende ledd.*
@@ -30,7 +53,44 @@ refid: "lov/1997-06-13-43"
 > I tilfelle der det skal stillast garanti etter fristen i andre ledd første punktum, har forbrukaren rett til å halde att alt vederlag fram til det er dokumentert at det ligg føre garanti i samsvar med paragrafen her. I tilfelle der det skal stillast garanti etter fristen i andre ledd andre punktum, og dette ikkje er gjort, kan forbrukaren gje entreprenøren eit skriftleg varsel med ein frist på minst ti virkedagar til å rette forholdet. Har entreprenøren heller ikkje innan denne fristen dokumentert at det er stilt garanti i samsvar med paragrafen her, har forbrukaren rett til å heve avtalen.
 >
 
+### 2017-01-01 — forskrift/2016-12-16-1585
+
+*Loven gjelder fra 1. januar 2017.*
+
+> Loven gjelder fra 1. januar 2017.
+>
+
+### 2018-01-01 — forskrift/2017-09-15-1393
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).
+>
+> Loven trer i kraft fra 1. januar 2018 med unntak av § 9 som trer i kraft 1. juli 2018.
+>
+
+### 2019-01-01 — forskrift/2018-05-15-723
+
+*Loven gjelder fra 1. januar 2019.*
+
+> Loven gjelder fra 1. januar 2019.
+>
+
+### 2021-01-01 — forskrift/2020-06-23-1285
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
 ## § 1
+
+### 2002-07-01 — lov/2002-06-21-34
+
+*§ 1 første ledd første punktum skal lyde:*
+
+> Lova gjeld avtalar mellom entreprenør og ein forbrukar om oppføring av ny eigarbustad.
+>
 
 ### 2010-12-10 — lov/2010-12-10-74
 
@@ -92,6 +152,15 @@ refid: "lov/1997-06-13-43"
 > Til det er dokumentert at det ligg føre garanti i samsvar med paragrafen her, har forbrukaren rett til å halde att alt vederlag.
 >
 
+## § 2
+
+### 2002-07-01 — lov/2002-06-21-34
+
+*§ 2 første ledd skal lyde:*
+
+> Som forbrukar vert rekna ein fysisk person som ikkje hovudsakleg handlar som ledd i næringsverksemd.
+>
+
 ## § 47
 
 ### 2010-12-10 — lov/2010-12-10-74
@@ -106,4 +175,26 @@ refid: "lov/1997-06-13-43"
 *§ 47 tredje ledd annet punktum skal lyde:*
 
 > § 12 sjette og sjuande ledd gjeld tilsvarande.
+>
+
+## § 61
+
+### 2002-07-01 — lov/2002-06-21-34
+
+*§ 61 annet ledd skal lyde:*
+
+> Med konsulentavtale er det meint ein avtale mellom ein sjølvstendig oppdragstakar (konsulenten) og ein oppdragsgjevar (forbrukaren, jf § 2) om planlegging av oppføring av bygning til bustadføremål eller planlegging av arbeid som vert utført direkte som ledd i slik oppføring.
+>
+> Tredje ledd oppheves. Nåværende fjerde ledd blir tredje ledd.
+>
+> 10. I lov 21. desember 2000 nr. 105 om opplysningsplikt og angrerett mv. ved fjernsalg og salg utenfor fast utsalgssted (angrerettloven) oppheves § 6 bokstav e annet punktum.
+>
+
+## § 64
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 64 annet ledd oppheves. Nåværende tredje ledd blir annet ledd og skal lyde:*
+
+> Dersom det på grunnlag av avtale mellom entreprenørane eller konsulentane sine organisasjonar og Forbrukarrådet er skipa ei nemnd for tvistar om avtalar som går inn under lova her, og som er godkjend etter lov om klageorganer for forbrukersaker, kan kvar av partane leggje fram for nemnda ein tvist der nemnda er kompetent. Så lenge tvisten er til førehaving i nemnda, kan ikkje entreprenøren reise søksmål om same tvisteemnet.
 >

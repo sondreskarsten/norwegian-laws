@@ -14,6 +14,53 @@ refid: "lov/1918-05-31-4"
 > Finder denne myndighet, at begjæringen bør indvilges, utfærdiger den en erklæring om, at fuldmagten skal være magtesløs, naar erklæringen har været indrykket i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon og derefter en bestemt tid, høist fjorten dage, er gaat. Det kan i erklæringen bestemmes, at den ogsaa skal kundgjøres paa anden maate før indrykningen i den elektroniske kunngjøringspublikasjonen.
 >
 
+### 2010-03-26 — lov/2010-03-26-9
+
+*2. I lov 31. mai 1918 nr. 4 om avslutning av avtaler, om fuldmagt og om ugyldige viljeserklæringer skal § 22 lyde:*
+
+> § 22.
+>
+> Blir fullmaktsgiveren på grunn av sinnslidelse, herunder demens, eller alvorlig svekket helbred ute av stand til å inngå rettslig bindende disposisjoner, får en disposisjon fullmektigen deretter foretar, ikke annen virkning enn den ville ha hatt om fullmaktsgiveren selv hadde foretatt den, med mindre noe annet følger av reglene i vergemålsloven kapittel 10.
+>
+> Blir fullmaktsgiveren fratatt den rettslige handleevnen etter vergemålsloven § 22, får en disposisjon fullmektigen deretter foretar, ikke annen virkning enn den ville ha hatt om fullmaktsgiveren selv hadde foretatt den.
+>
+> Blir fullmaktsgiveren satt under vergemål, kan vergen innenfor sitt mandat kalle tilbake fullmakter.
+>
+
+### 2014-06-20 — lov/2014-06-20-27
+
+*Nytt kapittel 4 skal lyde:*
+
+> § 38 a.Virkeområde
+>
+> Bestemmelsene i dette kapitlet gjelder for avtaler som inngås mellom en næringsdrivende og en forbruker, med mindre annet følger av lov eller av bestemmelser gitt i medhold av lov. Bestemmelsene kan ikke ved avtale fravikes til ugunst for en forbruker.
+>
+> Med forbruker menes en fysisk person som ikke hovedsakelig handler som ledd i næringsvirksomhet. Med næringsdrivende menes en fysisk eller juridisk person som handler, herunder ved fullmektig, som ledd i næringsvirksomhet.
+>
+> § 38 b.Informasjonskrav i forbrukeravtaler
+>
+> Før det blir inngått avtale skal den næringsdrivende gi forbrukeren følgende opplysninger på en klar og forståelig måte, såfremt opplysningene ikke allerede går frem av sammenhengen:varens eller tjenestens viktigste egenskaper, i den utstrekning kommunikasjonsmåten og varen eller tjenesten er egnet til dette,den næringsdrivendes identitet, slik som foretaksnavn, geografisk adresse og eventuelt telefonnummer, telefaksnummer og elektronisk postadresse samt identitet og geografisk adresse til næringsdrivende det opptres på vegne av,den samlede prisen for varen eller tjenesten medregnet avgifter, eller, dersom varens eller tjenestens art gjør at prisen ikke med rimelighet kan forhåndsberegnes, metoden for beregning av prisen, samt eventuelle tilleggskostnader til frakt, levering, porto eller annet, eller, dersom disse ikke med rimelighet kan forhåndsberegnes, at slike tilleggskostnader kan forekomme. For avtaler uten tidsbegrensning og for abonnementsavtaler skal den samlede prisen omfatte de samlede kostnadene per avregningsperiode, og ved betaling med fast beløp også de samlede månedlige kostnadene, og om de samlede kostnadene ikke kan forhåndsberegnes, metoden for beregning av prisen,ordningene for betaling, levering, oppfyllelse og leveringsfrist samt hvordan den næringsdrivende håndterer reklamasjoner,den rettslige forpliktelsen til å levere en kontraktsmessig vare, eventuell ettersalgsservice og eventuelle kommersielle garantier samt vilkårene for disse,avtalens varighet, eller, for avtaler som er uten tidsbegrensning eller forlenges automatisk, vilkårene for å si opp avtalen,der dette er relevant, funksjonaliteten, herunder tekniske beskyttelsestiltak, for digitalt innhold og det digitale innholdets evne til å virke sammen med maskinvare og programvare så langt den næringsdrivende kjenner til eller med rimelighet kan forventes å kjenne til dette.
+>
+> Bestemmelsene i første ledd gjelder ikkeavtaler om dagligdagse transaksjoner som oppfylles umiddelbart ved avtaleinngåelsen,avtaler om finansielle tjenester,avtaler som er omfattet av pakkereiseloven,avtaler som er omfattet av tidspartloven,avtaler om oppføring av bygninger,avtaler om persontransporttjenester,avtaler som er inngått med ekomtilbyder gjennom offentlig tilgjengelige betalingstelefoner for bruk av disse, eller som er inngått for bruk av én enkelt telefon-, Internett-, eller telefaksforbindelse opprettet av en forbruker,avtaler om levering av næringsmidler, drikkevarer eller andre varer som er beregnet på løpende forbruk i husholdningen, og som leveres fysisk av en næringsdrivende på hyppige og regelmessige runder til forbrukerens hjem, bolig eller arbeidsplass.
+>
+> Første ledd gjelder heller ikke avtaler om fjernsalg og avtaler inngått utenom faste forretningslokaler. For slike avtaler gjelder angrerettloven.
+>
+
+### 2014-06-20 — lov/2014-06-20-27
+
+*Nåværende kapittel 4 blir nytt kapittel 5.*
+
+### 2014-06-20 — lov/2014-06-20-27
+
+*Nytt kapittel 5 overskriften skal lyde:*
+
+### 2014-11-01 — forskrift/2014-08-29-1119
+
+*Lov 28. februar 2014 nr. 2 om endringar i kjøpsloven og avtaleloven gjelder fra 1. november 2014.*
+
+> Lov 28. februar 2014 nr. 2 om endringar i kjøpsloven og avtaleloven gjelder fra 1. november 2014.
+>
+
 ### 2015-12-18 — lov/2015-12-18-104
 
 *I lov 31. mai 1918 nr. 4 om avslutning av avtaler, om fuldmagt og om ugyldige viljeserklæringer skal § 38 lyde:*
@@ -21,6 +68,20 @@ refid: "lov/1918-05-31-4"
 > § 38.
 >
 > Har noen på grunn av konkurransehensyn forpliktet seg til ikke å drive virksomhet av en viss art eller ta ansettelse i virksomhet av en viss art, er forpliktelsen ikke bindende i den utstrekning den urimelig innskrenker vedkommendes adgang til erverv eller må anses for å strekke seg lenger enn nødvendig for å verne mot konkurranse. Ved avgjørelsen av om forpliktelsen urimelig innskrenker adgangen til erverv, skal det også tas hensyn til den betydning det har for den annen part at forpliktelsen opprettholdes.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1578
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-885
+
+*Loven trer i kraft 1. juli 2018.*
+
+> Loven trer i kraft 1. juli 2018.
 >
 
 ### 2023-06-16 — lov/2023-06-16-38
@@ -34,6 +95,13 @@ refid: "lov/1918-05-31-4"
 > Ved forsettlig eller uaktsom overtredelse av § 38 b som anses som vesentlig eller har skjedd gjentatte ganger, kan den ansvarlige ilegges et overtredelsesgebyr.
 >
 > Departementet kan i forskrift gi nærmere regler om utmåling av overtredelsesgebyr.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-930
+
+*Endringsloven trer i kraft 1. oktober 2023.*
+
+> Endringsloven trer i kraft 1. oktober 2023.
 >
 
 ### 2026-06-19 — lov/2026-06-19-34
@@ -135,5 +203,7 @@ refid: "lov/1918-05-31-4"
 
 *§ 38 b annet ledd nr. 8 og ny nr. 9 skal lyde:*
 
-> avtaler om levering av næringsmidler, drikkevarer eller andre varer som er beregnet på løpende forbruk i husholdningen, og som leveres fysisk av en næringsdrivende på hyppige og regelmessige runder til forbrukerens hjem, bolig eller arbeidsplass,avtaler om salg av varer som selges på tvangsauksjon eller på annen måte tvangsmessig i henhold til lov.
+> avtaler om levering av næringsmidler, drikkevarer eller andre varer som er beregnet på løpende forbruk i husholdningen, og som leveres fysisk av en næringsdrivende på hyppige og regelmessige runder til forbrukerens hjem, bolig eller arbeidsplass,
+>
+> avtaler om salg av varer som selges på tvangsauksjon eller på annen måte tvangsmessig i henhold til lov.
 >

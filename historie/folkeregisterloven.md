@@ -105,23 +105,13 @@ refid: "lov/2016-12-09-88"
 
 ### 2019-07-01 — lov/2018-12-20-111
 
-*Endring i følgende lov:*
+*I lov 9. desember 2016 nr. 88 om folkeregistrering skal ny § 9-4 lyde:*
 
-> Endring i følgende lov:
->
-> Lov 9. desember 2016 nr. 88 om folkeregistrering (folkeregisterloven).
->
-> I lov 9. desember 2016 nr. 88 om folkeregistrering skal ny § 9-4 lyde:
->
-> § 9-4.
->
-> Bruk av personopplysninger ved utvikling og testing av IT-systemer
+> § 9-4.Bruk av personopplysninger ved utvikling og testing av IT-systemer
 >
 > Folkeregistermyndigheten kan behandle innhentede personopplysninger for å utvikle og teste IT-systemer dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.
 >
 > Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.
->
-> Endringen under I trer i kraft 1. juli 2019.
 >
 
 ### 2020-10-05 — forskrift/2020-10-05-1960
@@ -142,11 +132,25 @@ refid: "lov/2016-12-09-88"
 > Loven trer i kraft 1. januar 2022.
 >
 
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-03-31 — lov/2023-03-31-5
 
 *I lov 9. desember 2016 nr. 88 om folkeregistrering skal § 9-1 tredje ledd lyde:*
 
 > Departementet kan i forskrift fastsette unntak fra taushetsplikten for opplysninger om registreringsstatus, jf. § 3-1 første ledd bokstav w. Departementet kan i forskrift også gi regler om hvilke nærmere opplysninger om vergemål og stadfestet fremtidsfullmakt som skal omfattes av taushetsplikt.
+>
+
+### 2023-04-01 — forskrift/2023-03-31-445
+
+*Loven trer i kraft 1. april 2023.*
+
+> Loven trer i kraft 1. april 2023.
 >
 
 ### 2025-01-01 — lov/2024-12-20-94
@@ -171,4 +175,15 @@ refid: "lov/2016-12-09-88"
 > Opphold i statsministerboligen endrer ikke registrert bosted så lenge statsministeren disponerer en egen privat bolig gjennom et reelt eie- eller leieforhold. Ektefelle og barn i statsministerens husstand anses bosatt samme sted, med mindre de har særlig svak tilknytning til den private boligen.
 >
 > Departementet kan gi forskrift om kravene til å disponere bolig, herunder besøkshyppighet, kravene til fullverdig bolig og vilkårene for adgangen etter tredje ledd andre punktum til å etablere bosted under funksjonsperioden.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >

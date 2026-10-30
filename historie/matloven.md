@@ -7,11 +7,34 @@ refid: "lov/2003-12-19-124"
 
 ## (annet)
 
+### 2010-03-26 — lov/2010-03-26-8
+
+*6. I lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. skal § 30 annet ledd lyde:*
+
+> Kongen kan i denne forbindelse i forskrifter også innskrenke registreringsadgangen i medhold av varemerkeloven, lov 21. juni 1985 om enerett til foretaksnavn og andre forretningskjennetegn, lov 12. mars 1993 nr. 32 om planteforedlerrett, lov 7. juni 2002 nr. 19 om personnavn og lov 14. mars 2003 nr. 15 om beskyttelse av design, og avgrense rettigheter gitt i eller i medhold av de samme lovene, dersom det ikke har kommet inn innvendinger mot at en betegnelse blir vernet i samsvar med forskrifter gitt i medhold av denne loven.
+>
+
+### 2010-07-01 — forskrift/2010-06-25-936
+
+*Lov 26. mars 2010 nr. 8 om beskyttelse av varemerker trer i kraft 1. juli 2010.*
+
+> Lov 26. mars 2010 nr. 8 om beskyttelse av varemerker trer i kraft 1. juli 2010.
+>
+
 ### 2015-01-01 — forskrift/2014-12-12-1597
 
 *Loven trer i kraft 1. januar 2015.*
 
 > Loven trer i kraft 1. januar 2015.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
 >
 
 ### 2018-06-22 — lov/2018-06-22-76
@@ -21,11 +44,40 @@ refid: "lov/2003-12-19-124"
 > Kongen kan i denne forbindelse i forskrifter også innskrenke registreringsadgangen i medhold av varemerkeloven, lov 21. juni 1985 nr. 79 om enerett til foretaksnavn og andre forretningskjennetegn, lov 12. mars 1993 nr. 32 om planteforedlerrett, lov 7. juni 2002 nr. 19 om personnavn og lov 14. mars 2003 nr. 15 om beskyttelse av design, og avgrense rettigheter gitt i eller i medhold av de samme lovene, dersom det ikke har kommet inn innvendinger mot at en betegnelse blir vernet i samsvar med forskrifter gitt i medhold av denne loven.
 >
 
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2024-07-01 — forskrift/2024-02-02-152
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ### 2024-12-20 — lov/2024-12-20-95
 
 *I lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. skal § 10 nytt tredje ledd lyde:*
 
 > Kongen kan, for å fremme helse, gi forskrifter om merking, presentasjon, reklame og annen markedsføring av næringsmidler, herunder om forbud mot slik markedsføring.
+>
+
+### 2024-12-20 — forskrift/2024-12-20-3306
+
+*Følgende trer i kraft straks:*
+
+> Følgende trer i kraft straks:
+>
+> Endringsloven del I (matloven)
+>
+> Endringsloven del III (lov 10. februar 2017 nr. 5 om endringer i tobakksskadeloven (gjennomføring av direktiv 2014/40/EU og standardiserte tobakkspakninger)
+>
+> Følgende trer i kraft 1. januar 2025:
+>
+> Endringsloven del II (tobakksskadeloven)
 >
 
 ### 2025-06-20 — lov/2025-06-20-75
@@ -43,6 +95,17 @@ refid: "lov/2003-12-19-124"
 > Kongen kan i forskrift gi bestemmelser om utmåling. Kongen kan gi forskrifter om betaling av overtredelsesgebyret, herunder betalingsfrister, om renter og om tilleggsgebyr dersom overtredelsesgebyret ikke blir betalt ved forfall.
 >
 > Tilsynsmyndighetens adgang til å ilegge overtredelsesgebyr foreldes etter 2 år. Fristen regnes fra tidspunktet overtredelsen fant sted. Fristen avbrytes ved at tilsynsmyndigheten gir forhåndsvarsel eller fatter vedtak om overtredelsesgebyr. Kongen kan gi nærmere bestemmelser i forskrift om foreldelse, herunder fravike bestemmelsene om foreldelsesfrist og fristavbrudd for særlige typer overtredelser.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >
 
 ### 2027-01-01 — forskrift/2025-06-20-1143

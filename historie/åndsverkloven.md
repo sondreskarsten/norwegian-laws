@@ -7,6 +7,28 @@ refid: "lov/2018-06-15-40"
 
 ## (annet)
 
+### 2019-08-01 — forskrift/2019-06-21-807
+
+*Ikraftsetting av lov 20. desember 2018 nr. 120 om endringer i åndsverkloven mv. (portabilitet av nettbaserte innholdstjenester mv.). Loven trer i kraft 1. august 2019.*
+
+> Ikraftsetting av lov 20. desember 2018 nr. 120 om endringer i åndsverkloven mv. (portabilitet av nettbaserte innholdstjenester mv.). Loven trer i kraft 1. august 2019.
+>
+
+### 2021-05-28 — lov/2021-05-28-49
+
+*Nåværende fjerde ledd blir nytt femte ledd.*
+
+### 2021-07-01 — forskrift/2021-05-28-1685
+
+*---.*
+
+> ---.
+>
+> Loven, med unntak av endringen i § 56 av åndsverkloven § 118, trer i kraft 1. juli 2021.
+>
+> Bestemmelser i loven som krever beslutning på årsmøtet, får ikke anvendelse før avholdelse av første ordinære årsmøte etter 1. juli 2021. Plikten til å utarbeide åpenhetsrapport etter § 36 gjelder ikke for regnskapsår som er påbegynt før 1. juli 2021. Registreringsplikten i § 52 får ikke anvendelse før 1. september 2021.
+>
+
 ### 2021-07-01 — forskrift/2021-06-04-1779
 
 *Loven trer i kraft 1. juli 2021.*
@@ -35,6 +57,13 @@ refid: "lov/2018-06-15-40"
 > Hvis det sannsynliggjøres at det er gjort inngrep i rettigheter etter denne loven, kan retten uten hinder av taushetsplikten etter ekomloven § 3-10, etter begjæring fra rettighetshaveren, pålegge en tilbyder av elektroniske kommunikasjonstjenester å utlevere opplysninger som identifiserer innehaveren av abonnementet som er brukt ved inngrepet.
 >
 > Før retten fatter avgjørelse i saken, skal Nasjonal kommunikasjonsmyndighet anmodes om å samtykke til at tilbyderen fritas fra taushetsplikten etter ekomloven § 3-10.
+>
+
+### 2025-01-01 — forskrift/2024-12-13-3095
+
+*Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.*
+
+> Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.
 >
 
 ## § 100
@@ -66,7 +95,27 @@ refid: "lov/2018-06-15-40"
 > Kapittel 2 gjelder, med unntak av §§ 23 og 24 og den i §§ 16 og 20 nevnte spredningsrett, til fordel for arbeid som er frembrakt avnorsk statsborger eller person som er bosatt her i riketselskap som har norsk styre og sete her i riket.
 >
 
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 114 andre ledd første punktum skal lyde:*
+
+> Bestemmelsene i §§ 16 og 22 gjelder også for fremføringer og kringkastingssendinger som finner sted i Norge.
+>
+
+## § 118
+
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 118 andre ledd andre punktum oppheves.*
+
 ## § 16
+
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 16 femte ledd skal lyde:*
+
+> Bestemmelsene i § 3 første til tredje ledd, §§ 4, 5, 8 til 10, 25, 26, 29, 30, 33 til 36, 40, 43 til 55, 57, 58, 62 til 70 og 75 til 77 gjelder tilsvarende.
+>
 
 ### 2021-06-04 — lov/2021-06-04-58
 
@@ -77,11 +126,29 @@ refid: "lov/2018-06-15-40"
 
 ## § 20
 
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 20 fjerde ledd skal lyde:*
+
+> Bestemmelsene i §§ 3 første til tredje ledd, 4, 9, 10, 26, 29, 30, 33 til 36, 40, 43 til 55, 57, 58 og 62 til 66 gjelder tilsvarende.
+>
+
 ### 2021-06-04 — lov/2021-06-04-58
 
 *§ 20 fjerde ledd skal lyde:*
 
 > Bestemmelsene i § 3 første til tredje ledd, §§ 4, 9, 10, 26, 29, 30, 33 til 36, 40, 43 til 55, 56 a, 57, 58 og 62 til 66 gjelder tilsvarende.
+>
+
+## § 21
+
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 21 fjerde og femte ledd skal lyde:*
+
+> Bestemmelsene i §§ 5, 29, 30, 36, 40 og 43, jf. §§ 25, og 75 fjerde ledd gjelder tilsvarende.
+>
+> Det som er bestemt i denne paragrafen gjelder ikke for lydopptak som inngår i film, dersom den ellers vederlagspliktige bruk av lydopptaket allerede er klarert ved overføringen til filmen. For offentlig fremføring og overføring til allmennheten av lydopptak som ikke er vernet etter denne loven, gjelder lov 14. desember 1956 nr. 4 om avgift på offentlig framføring av utøvende kunstneres prestasjoner mv.
 >
 
 ## § 22
@@ -91,6 +158,15 @@ refid: "lov/2018-06-15-40"
 *§ 22 femte ledd skal lyde:*
 
 > Bestemmelsene i §§ 4, 9, 10, 26, 29, 30, 33 til 36, § 40 første ledd bokstav a, §§ 43 til 45, 48, 49, 54, 55, 56 a, 58, 62 og § 65 første til tredje ledd gjelder tilsvarende.
+>
+
+## § 4
+
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 4 første ledd skal lyde:*
+
+> Når tilfeldig eller forbigående fremstilling av midlertidige eksemplar utgjør en integrert og vesentlig del av en teknisk prosess og har som eneste formål å muliggjørelovlig bruk av et verk, elleren overføring i nettverk av et mellomledd på vegne av tredjeparter,omfattes slik eksemplarfremstilling ikke av eneretten etter § 3, med mindre den har selvstendig økonomisk betydning.
 >
 
 ## § 55
@@ -115,6 +191,35 @@ refid: "lov/2018-06-15-40"
 > § 56 a.Nærmere regler for gjennomføring av Marrakechtraktaten og Marrakechdirektivet
 >
 > Departementet kan i forskrift gi bestemmelser om at nærmere angitt organisasjon kan fremstille, importere og utveksle eksemplar av offentliggjort litterært verk, herunder lydopptak, som er tilrettelagt for bruk for blinde, syns- og lesehemmede, til berettigede enkeltpersoner og til nærmere angitt organisasjon i et annet land, herunder overføring av tilpasset åndsverk slik at den enkelte selv kan velge tid og sted for tilgang til verket.
+>
+
+## § 63
+
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 63 tredje ledd og nytt fjerde ledd skal lyde:*
+
+> For avtalelisens etter første og andre ledd må avtalen inngås av en organisasjon som er godkjent av Patentstyret på grunnlag av at den på området representerer et betydelig antall opphavere til verk som brukes i Norge, og er egnet til å forvalte rettighetene på området. For bruk på nærmere angitte områder kan departementet i forskrift bestemme at den organisasjonen som godkjennes, må være en felles organisasjon for de berørte rettighetshavere. Godkjenning kan trekkes tilbake dersom organisasjonen ikke lenger oppfyller kravene i dette ledd eller andre særlige grunner tilsier det. Organisasjoner som er godkjent, plikter å melde fra til Patentstyret om forhold som kan ha betydning for godkjenningen, slik som endringer med hensyn til organisasjonens representativitet.
+>
+> Klagenemnda for mediesaker (Medieklagenemnda) er klageinstans for enkeltvedtak fattet av Patentstyret etter tredje ledd. Søksmål kan bare reises hvis klageretten har blitt brukt og Medieklagenemnda har avgjort klagen. Søksmål rettes mot staten ved Klagenemnda for mediesaker.
+>
+
+## § 70
+
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 70 nytt fjerde ledd skal lyde:*
+
+> Dersom rettighetene er lisensiert fra en kollektiv forvaltningsorganisasjon, gjelder også rapporteringsplikten etter lov om kollektiv forvaltning av opphavsrett mv. § 31.
+>
+
+## § 85
+
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 85 skal lyde:*
+
+> Sivilt søksmål om inngrep i en annens rett eller andre overtredelser av denne loven må reises ved Oslo tingrett. Det samme gjelder søksmål om prøving av avgjørelse om godkjenning etter §§ 18, 21, 46, 60 og 63.
 >
 
 ## § 86

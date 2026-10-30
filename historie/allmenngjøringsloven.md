@@ -11,6 +11,15 @@ refid: "lov/1993-06-04-58"
 
 *§ 1-1 oppheves.*
 
+## § 1-2
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 1-2 nr. 1 nytt andre punktum skal lyde:*
+
+> Departementet gir forskrift om lovens anvendelse for utsendte arbeidstakere, jf. arbeidsmiljøloven § 1-7.
+>
+
 ## § 25-12
 
 ### 2021-06-18 — lov/2021-06-18-122
@@ -60,6 +69,13 @@ refid: "lov/1993-06-04-58"
 > Arbeidsgiver som forsettlig eller uaktsomt unnlater å rette seg etter et vedtak av Tariffnemnda, straffes med bøter eller fengsel inntil ett år. Det samme gjelder den som i arbeidsgivers sted leder virksomheten, og som opptrer som nevnt i første punktum, og oppdragsgiver som overtrer plikter i medhold av § 12. Grov overtredelse straffes med bøter eller fengsel inntil tre år. Medvirkning straffes på samme måte, likevel slik at arbeidstaker ikke kan straffes for medvirkning.
 >
 
+### 2015-07-01 — forskrift/2015-04-24-398
+
+*Loven trer i kraft fra 1. juli 2015.*
+
+> Loven trer i kraft fra 1. juli 2015.
+>
+
 ### 2015-12-18 — lov/2015-12-18-103
 
 *I lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler m.v. skal § 4 første ledd første punktum lyde:*
@@ -85,6 +101,33 @@ refid: "lov/1993-06-04-58"
 > Loven trer i kraft 1. juli 2020.
 >
 
+### 2020-07-01 — forskrift/2020-06-19-1233
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2021-07-01 — forskrift/2021-06-11-1872
+
+*Delt ikraftsetting av lov 10. juni 2021*
+
+> Delt ikraftsetting av lov 10. juni 2021
+>
+> om endringer i arbeidsmiljøloven mv. (tiltak for å bekjempe arbeidslivskriminalitet). Endringsloven trer i kraft 1. januar 2022 med unntak av del I, som trer i kraft 1. juli 2021.
+>
+> Skal være lov 11. juni 2021 nr. 59 om endringer i arbeidsmiljøloven mv. (tiltak for å bekjempe arbeidslivskriminalitet). Lovtidend-redaksjonens anmerkning.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
 ### 2022-12-20 — forskrift/2022-12-20-2295
 
 *Loven trer i kraft straks.*
@@ -97,6 +140,13 @@ refid: "lov/1993-06-04-58"
 *I lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler m.v. skal § 11 femte ledd lyde:*
 
 > Havindustritilsynet har innenfor sitt myndighetsområde tilsvarende tilsynsansvar og myndighet som nevnt i første til fjerde ledd.
+>
+
+### 2024-04-01 — forskrift/2024-03-22-516
+
+*Loven trer i kraft 1. april 2024.*
+
+> Loven trer i kraft 1. april 2024.
 >
 
 ### 2025-03-28 — lov/2025-03-28-4
@@ -130,6 +180,13 @@ refid: "lov/1993-06-04-58"
 *Loven trer i kraft for Longyearbyen og Ny-Ålesund 1. juli 2025.*
 
 > Loven trer i kraft for Longyearbyen og Ny-Ålesund 1. juli 2025.
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1099
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ## § 1
@@ -305,6 +362,19 @@ refid: "lov/1993-06-04-58"
 *§ 2 nr. 2 skal lyde:*
 
 > 2. (Arbeidstakere på skip mv.)Loven omfatterarbeidstakere på skip og flyttbare innretninger registrert i Norsk ordinært skipsregister (NOR)arbeidstakere på skip i innenriksfart registrert enten i Norsk internasjonalt skipsregister (NIS) eller utenlandsk skipsregister.Skip i innenriksfart etter første ledd omfatter:skip som frakter last eller passasjerer mellom norske havner på fastlandet, men likevel ikke skip som utelukkende setter i land last eller passasjerer som kommer fra utenlandske havner, eller som utelukkende tar om bord last eller passasjerer som skal til utenlandske havnercruiseskip som seiler mellom norske havner på fastlandet, også cruiseskip som utelukkende opererer ut fra én norsk havn, men likevel ikke cruiseskip som anløper norske havner på seilas fra eller til en utenlandsk havnskip som yter andre tjenester i norsk territorialfarvann ved fastlandet, men ikke fiske- og fangstfartøy, skip som tilhører Forsvaret eller benyttes i Forsvarets tjeneste, eller andre statlige skip som brukes utenfor næringsvirksomhet.
+>
+
+## § 3
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 3 første ledd skal lyde:*
+
+> Tariffnemnda kan treffe vedtak om at en landsomfattende tariffavtale helt eller delvis skal gjelde for alle arbeidstakere som utfører arbeid av den art avtalen omfatter, i en bransje eller en del av en bransje, med de begrensninger som følger i og i medhold av arbeidsmiljøloven § 1-7. Vilkåret er at krav om slik allmenngjøring er fremsatt av en arbeidstaker- eller arbeidsgiverorganisasjon som er part i avtalen og har innstillingsrett etter lov av 5. mai 1927 nr. 1 om arbeidstvister § 11 nr. 1. Bare slike organisasjoner kan kreve at nemnda realitetsbehandler et krav om allmenngjøring.
+>
+> 14. I lov 12. mai 1995 nr. 22 om universiteter og høgskoler skal § 44 nr. 6 lyde:
+>
+> Arbeidstilsynet fører tilsyn med at kravene i nr. 2 overholdes. Arbeidsmiljøloven kapittel 18 om tilsyn og tvangsmidler mv. gjelder tilsvarende så langt det passer. Departementet kan fastsette forskrift.
 >
 
 ## § 4

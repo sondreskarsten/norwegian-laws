@@ -13,3 +13,10 @@ refid: "lov/1996-08-23-63"
 
 > Vilkåret er at krav om slik allmenngjøring er framsatt av en arbeidstaker- eller arbeidsgiverorganisasjon som er part i avtalen og har innstillingsrett etter arbeidstvistloven § 39.
 >
+
+### 2019-08-01 — forskrift/2019-06-14-726
+
+*Loven trer i kraft 1. august 2019.*
+
+> Loven trer i kraft 1. august 2019.
+>

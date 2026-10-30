@@ -7,6 +7,27 @@ refid: "lov/2009-01-09-2"
 
 ## (annet)
 
+### 2011-01-01 — forskrift/2010-09-03-1245
+
+*Loven trer i kraft fra 1. januar 2011.*
+
+> Loven trer i kraft fra 1. januar 2011.
+>
+
+### 2012-05-25 — lov/2012-05-25-27
+
+*3. I lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. skal § 44 annet ledd første punktum lyde:*
+
+> §§ 45 og 46 får anvendelse på handlinger som strider mot bestemmelser som gjennomfører EØS-lovgivningen som er tatt inn i vedlegg 1 til europaparlaments- og rådsdirektiv 2009/22/EF om nedlegging av forbud med hensyn til vern av forbrukernes interesser.
+>
+
+### 2012-07-01 — forskrift/2012-05-25-472
+
+*Loven trer i kraft 1. juli 2012.*
+
+> Loven trer i kraft 1. juli 2012.
+>
+
 ### 2013-05-31 — lov/2013-05-31-25
 
 *Kapittel 9 overskriften skal lyde:*
@@ -20,12 +41,30 @@ refid: "lov/2009-01-09-2"
 > Næringsdrivende som i markedsføring tilbyr forbrukerne en tilleggsfordel eller en mulighet for å oppnå en slik fordel, eksempelvis i form av rabatter, gaver, deltakelse i konkurranser eller spill, skal sikre at vilkårene for å benytte seg av tilbudet er klare og lett tilgjengelige for forbrukerne.
 >
 
+### 2013-07-01 — forskrift/2013-05-31-543
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
 ### 2013-07-01 — forskrift/2013-06-21-714
 
 *Loven trer i kraft 1. juli 2013.*
 
 > Loven trer i kraft 1. juli 2013.
 >
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
+### 2014-06-20 — lov/2014-06-20-27
+
+*Nåværende tredje ledd blir nytt femte ledd.*
 
 ### 2017-06-16 — lov/2017-06-16-49
 
@@ -45,7 +84,27 @@ refid: "lov/2009-01-09-2"
 > Lovendringene trer i kraft 1. juli 2017.
 >
 
+### 2017-08-25 — forskrift/2017-08-25-1287
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 29 om godkjenning av klageorganer for forbrukersaker. § 12 annet ledd og § 28 trer i kraft 25. august 2017.*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 29 om godkjenning av klageorganer for forbrukersaker. § 12 annet ledd og § 28 trer i kraft 25. august 2017.
+>
+> Delt ikraftsetting av lov 9. januar 2009 nr. 2 om markedsføring og avtalevilkår mv. (markedsføringsloven). § 10a tredje ledd
+>
+> trer i kraft 25. august 2017.
+>
+> Gjelder lov 17. juni 2016 nr. 29 om godkjenning av klageorganer for forbrukersaker § 30 pkt. 8. Lovtidend-redaksjonens anm.
+>
+
 ### 2018-01-01 — forskrift/2017-06-02-682
+
+*Lovendringene trer i kraft 1. januar 2018.*
+
+> Lovendringene trer i kraft 1. januar 2018.
+>
+
+### 2018-01-01 — forskrift/2017-06-16-772
 
 *Lovendringene trer i kraft 1. januar 2018.*
 
@@ -59,9 +118,43 @@ refid: "lov/2009-01-09-2"
 > Vedtak kan også rettes mot medvirkere. Dette gjelder likevel ikke ved vedtak mot reklame i strid med kringkastingsloven § 3-1 første ledd og forskrifter gitt i medhold av kringkastingsloven § 3-1 tredje ledd. § 48 femte ledd gjelder tilsvarende.
 >
 
+### 2019-07-01 — forskrift/2019-06-21-812
+
+*Loven gjelder fra 1. juli 2019.*
+
+> Loven gjelder fra 1. juli 2019.
+>
+
+### 2020-03-27 — lov/2020-03-27-15
+
+*§§ 28 og 29 oppheves.*
+
 ### 2020-05-20 — lov/2020-05-20-42
 
 *Gjeldende § 41 oppheves. Gjeldende § 42 blir § 41.*
+
+### 2020-07-01 — forskrift/2020-05-20-1032
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestilli*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester og del VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 a.
+>
+
+### 2021-01-01 — forskrift/2020-06-23-1285
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
 
 ### 2022-07-01 — forskrift/2022-06-17-1043
 
@@ -77,6 +170,24 @@ refid: "lov/2009-01-09-2"
 *I lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. skal § 23 tredje ledd lyde:*
 
 > Garantivilkårene skal utleveres til forbrukeren på et varig medium senest ved levering av ytelsen.
+>
+
+### 2023-09-01 — forskrift/2023-09-01-1380
+
+*Delt ikraftsetting av lov 20. mai 2020 nr. 42 om endringer i markedsføringsloven mv. (gjennomføring av forordning (EU) 2017/2394 om forbrukervernsamarbeid). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 20. mai 2020 nr. 42 om endringer i markedsføringsloven mv. (gjennomføring av forordning (EU) 2017/2394 om forbrukervernsamarbeid). Følgende trer i kraft straks:
+>
+> Endringsloven del I (markedsføringsloven) § 44 tredje ledd og § 47.
+>
+> Endringsloven del V (kringkastingsloven).
+>
+
+### 2023-10-01 — forskrift/2023-06-16-930
+
+*Endringsloven trer i kraft 1. oktober 2023.*
+
+> Endringsloven trer i kraft 1. oktober 2023.
 >
 
 ### 2023-10-25 — forskrift/2023-10-25-1721
@@ -998,6 +1109,13 @@ refid: "lov/2009-01-09-2"
 > Europaparlaments- og rådsforordning (EU) 2017/1128 av 14. juni 2017 om portabilitet over landegrensene av nettinnholdstjenester i det indre marked (EUT L 168 av 30.6.2017, s. 1).
 >
 
+### 2024-01-01 — forskrift/2023-06-16-909
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
 ### 2024-06-14 — lov/2024-06-14-32
 
 *I lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. skal § 7 tredje ledd lyde:*
@@ -1005,11 +1123,43 @@ refid: "lov/2009-01-09-2"
 > Praksisen anses likevel bare som villedende dersom den er egnet til å påvirke forbrukerne til å treffe en økonomisk beslutning som de ellers ikke ville ha truffet.
 >
 
+### 2024-07-01 — forskrift/2024-06-14-956
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1097
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ### 2026-05-07 — lov/2026-05-07-17
 
 *I lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. skal § 43 a annet ledd første punktum lyde:*
 
 > Begjæring om midlertidig forføyning settes frem skriftlig for Oslo tingrett.
+>
+
+### 2026-07-01 — forskrift/2026-05-07-743
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 1
@@ -1043,7 +1193,9 @@ refid: "lov/2009-01-09-2"
 
 *§ 10 tredje ledd annet punktum bokstav b og ny bokstav c skal lyde:*
 
-> gi påbud om sortering og bestemmelser om mål og vekt og opplysning om pris pr. enhet (jamførpris) for varer som frambys for salg,gi påbud om å opplyse om førpris der prisen på varer markedsføres som nedsatt.
+> gi påbud om sortering og bestemmelser om mål og vekt og opplysning om pris pr. enhet (jamførpris) for varer som frambys for salg,
+>
+> gi påbud om å opplyse om førpris der prisen på varer markedsføres som nedsatt.
 >
 
 ### 2023-06-16 — lov/2023-06-16-38
@@ -1062,6 +1214,17 @@ refid: "lov/2009-01-09-2"
 ### 2025-06-20 — lov/2025-06-20-41
 
 *§ 10 a tredje ledd oppheves.*
+
+## § 11
+
+### 2014-06-20 — lov/2014-06-20-27
+
+*§ 11 nytt tredje og fjerde ledd skal lyde:*
+
+> I næringsvirksomhet er det forbudt å henvise forbrukere som skal ta kontakt med den næringsdrivende i forbindelse med en inngått avtale, til et telefonnummer som belaster forbrukeren med en høyere kostnad enn grunntakst.
+>
+> Før en avtale blir inngått, skal den næringsdrivende innhente forbrukerens uttrykkelige samtykke til enhver betaling utover vederlaget for hovedytelsen. Dersom slikt samtykke ikke er innhentet, men er lagt til grunn ved bruk av standardløsninger som forbrukeren må velge bort for å unngå tilleggsbetaling, har forbrukeren rett til å få tilbakeført tilleggsbetalingen.
+>
 
 ## § 12
 
@@ -1130,6 +1293,13 @@ refid: "lov/2009-01-09-2"
 >
 
 ## § 16
+
+### 2014-06-20 — lov/2014-06-20-27
+
+*§ 16 annet ledd skal lyde:*
+
+> Ved uanmodet markedsføring på telefon til forbrukere skal den næringsdrivende straks presentere seg og opplyse om at henvendelsen skjer i markedsføringshensikt. Dersom henvendelsen skjer på vegne av en annen, skal dette opplyses. Den næringsdrivende skal informere om reservasjonsretten etter § 12. Det skal legges til rette for at mottakeren enkelt og gebyrfritt kan reservere seg hos den næringsdrivende.
+>
 
 ### 2017-06-02 — lov/2017-06-02-31
 
@@ -1550,6 +1720,13 @@ refid: "lov/2009-01-09-2"
 > Ved forsettlig eller uaktsom overtredelse av forskrift gitt i medhold av § 6 femte ledd, § 10, forskrift gitt i medhold av § 10, § 11, § 12, § 13, § 14, § 15, § 16, § 17, § 18 første ledd eller § 20 annet ledd, som enten anses som vesentlig eller har skjedd gjentatt, kan det fastsettes et overtredelsesgebyr som den som vedtaket retter seg mot, skal betale.
 >
 
+### 2014-06-20 — lov/2014-06-20-27
+
+*§ 43 første ledd skal lyde:*
+
+> Ved forsettlig eller uaktsom overtredelse av forskrift gitt i medhold av § 6 femte ledd, § 10, forskrift gitt i medhold av § 10, § 11, § 12, § 13, § 14, § 15, § 16, § 17, § 18 første ledd eller § 20 annet ledd, som enten anses som vesentlig eller har skjedd gjentatte ganger, kan det fastsettes et overtredelsesgebyr som den som vedtaket retter seg mot, skal betale.
+>
+
 ### 2017-06-02 — lov/2017-06-02-31
 
 *§ 43 første ledd skal lyde:*
@@ -1684,12 +1861,42 @@ refid: "lov/2009-01-09-2"
 > Den som forsettlig og vesentlig overtrer § 6 fjerde ledd jf. første ledd, forskrift gitt i medhold av § 6 femte ledd, § 11, § 13, § 15, § 20 annet ledd, § 26, § 27, § 28, § 29 eller § 30, straffes med bøter, fengsel inntil 6 måneder eller begge deler, dersom ikke strengere straffebestemmelse kommer til anvendelse.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 48 skal lyde:*
+
+> § 48.Straff
+>
+> Den som vesentlig overtrer § 6 fjerde ledd jf. første ledd, forskrift gitt i medhold av § 6 femte ledd, § 11, § 13, § 15, § 20 annet ledd, § 26, § 27, § 28, § 29 eller § 30, straffes med bøter, fengsel inntil 6 måneder eller begge deler dersom ikke strengere straffebestemmelse kommer til anvendelse.
+>
+> Uaktsom vesentlig overtredelse av § 7 eller § 8 jf. § 6 fjerde ledd jf. første ledd, § 11 første ledd, § 26 eller § 27 straffes med bøter, fengsel inntil 6 måneder eller begge deler dersom ikke strengere straffebestemmelse kommer til anvendelse.
+>
+> Ved vurderingen av om en overtredelse er vesentlig, skal det særlig legges vekt på overtredelsens omfang, virkninger og graden av skyld. Dersom personen eller foretaket tidligere er ilagt straff eller overtredelsesgebyr for overtredelse av denne lov eller forskrift i medhold av loven, kan straff etter første og annet ledd anvendes selv om overtredelsen ikke er vesentlig.
+>
+> Den som forsettlig eller uaktsomt overtrer vedtak som er gjort i medhold av denne lov, straffes med bøter, fengsel inntil 6 måneder eller begge deler dersom ikke strengere straffebestemmelse kommer til anvendelse.
+>
+> Straff kommer ikke til anvendelse for overtredelse foretatt av en ekspeditør, betjent eller annen liknende underordnet når overtredelsen vesentlig har vært foranlediget av vedkommendes avhengige stilling til den næringsdrivende.
+>
+> Straff kommer ikke til anvendelse ved overtredelse av § 28 når kunnskap om eller rådighet over bedriftshemmeligheten er oppnådd i et tjeneste- eller tillitsvervsforhold eller gjennom pliktstridig handling i et slikt forhold og mer enn 2 år er gått siden forholdet opphørte.
+>
+
 ### 2017-06-02 — lov/2017-06-02-31
 
 *§ 48 første ledd skal lyde:*
 
 > Den som vesentlig overtrer § 6 fjerde ledd jf. første ledd, forskrift gitt i medhold av § 6 femte ledd, § 11, § 12, § 13, § 15, § 16 a første ledd bokstav a, jf. § 12 og § 13, § 20 annet ledd, § 26, § 27, § 28, § 29 eller § 30, straffes med bøter, fengsel inntil 6 måneder eller begge deler dersom ikke strengere straffebestemmelse kommer til anvendelse.
 >
+
+### 2020-03-27 — lov/2020-03-27-15
+
+*§ 48 første ledd skal lyde:*
+
+> Den som vesentlig overtrer § 6 fjerde ledd, jf. første ledd, forskrift gitt i medhold av § 6 femte ledd, § 11, § 12, § 13, § 15, § 16 a første ledd bokstav a, jf. § 12 og § 13, § 20 annet ledd, § 26, § 27 eller § 30, straffes med bøter, fengsel inntil 6 måneder eller begge deler dersom ikke strengere straffebestemmelse kommer til anvendelse.
+>
+
+### 2020-03-27 — lov/2020-03-27-15
+
+*§ 48 sjette ledd oppheves.*
 
 ## § 48 a
 
@@ -1723,6 +1930,21 @@ refid: "lov/2009-01-09-2"
 > Bestemmelsene om sanksjoner mot varemerkeinngrep i varemerkeloven kapittel 8, bortsett fra §§ 60, 61 og 61 a, gjelder tilsvarende ved bruk av geografiske betegnelser i strid med §§ 25, 26 eller 31.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 48 a skal lyde:*
+
+> § 48 a.Straff og sivilrettslige sanksjoner ved ulovlig bruk av geografiske betegnelser
+>
+> Den som bruker en geografisk betegnelse i strid med §§ 25, 26 eller 31, straffes med bøter eller fengsel inntil ett år.
+>
+> Dersom det foreligger særlig skjerpende omstendigheter, er straffen bøter eller fengsel inntil tre år. Ved vurderingen av om særlig skjerpende omstendigheter foreligger, skal det særlig legges vekt på den skade som er påført den forurettede, herunder skade på dennes kommersielle omdømme, den vinning som krenkeren har oppnådd, og omfanget av krenkelsen for øvrig.
+>
+> For overtredelse av første og annet ledd kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale, jf. straffeprosessloven § 62 a.
+>
+> Bestemmelsene om sanksjoner mot varemerkeinngrep i varemerkeloven kapittel 8, bortsett fra §§ 60, 61 og 61 a, gjelder tilsvarende ved bruk av geografiske betegnelser i strid med §§ 25, 26 eller 31.
+>
+
 ### 2021-06-18 — lov/2021-06-18-122
 
 *§ 48 a tredje ledd oppheves. Nåværende fjerde ledd blir nytt tredje ledd.*
@@ -1744,6 +1966,13 @@ refid: "lov/2009-01-09-2"
 > Første og annet ledd gjelder tilsvarende ved overtredelse av §§ 25 og 26 som består i etterligning av annens produkt, kjennetegn, reklamemidler eller andre frembringelser.
 >
 
+### 2020-03-27 — lov/2020-03-27-15
+
+*§ 48 b første ledd første punktum innledningen skal lyde:*
+
+> For forsettlig eller uaktsom overtredelse av § 30 skal overtrederen betale til den forurettede:
+>
+
 ## § 48 c
 
 ### 2023-06-16 — lov/2023-06-16-38
@@ -1754,6 +1983,12 @@ refid: "lov/2009-01-09-2"
 >
 > Har en næringsdrivende handlet i strid med bestemmelsene i kapittel 1 til 5 eller bestemmelser gitt i medhold av § 35, og en forbruker lider skade som følge av overtredelsen, kan forbrukeren ha krav på blant annet erstatning, prisavslag og heving etter kontraktsrettslige, avtalerettslige og erstatningsrettslige regler.
 >
+
+## § 49
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 49 første ledd oppheves.*
 
 ## § 5
 

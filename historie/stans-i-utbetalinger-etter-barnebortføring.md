@@ -38,6 +38,50 @@ refid: "lov/2014-06-06-19"
 > Dei som skal gje opplysningar etter paragrafen her, skal gjere dette utan hinder av teieplikt og utan godtgjersle.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*24. I lov 6. juni 2014 nr. 19 om stans i utbetalinga av offentlege ytingar og barnebidrag når ein av foreldra har bortført eit barn til utlandet skal § 3 annet ledd lyde:*
+
+> Barnebidrag tyder i lova her barnebidrag som vert kravd inn av Innkrevingssentralen for bidrag og tilbakebetalingskrav, med unntak av oppfostringsbidrag fastsett etter barnevernsloven § 15-13.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-928
+
+*Følgende trer i kraft straks:*
+
+> Følgende trer i kraft straks:
+>
+> Endringsloven del I (barnevernsloven) med unntak av § 12-11 annet ledd, § 13-5 og § 13-6 første ledd.
+>
+> Endringsloven del II (barnelova) § 69 første punktum.
+>
+> Endringsloven del III (barnetrygdloven) § 1 annet ledd og overskriften til kapittel 3.
+>
+> Endringsloven del IV lov 6. juni 2014 nr. 19 om stans i utbetalinga av offentlege ytingar og barnebidrag når ein av foreldra har bortført eit barn til utlandet § 2 annet ledd annet punktum bokstav a, § 3 og § 4.
+>
+> Følgende trer i kraft 1. januar 2024:
+>
+> Endringsloven del I § 12-11 annet ledd, § 13-5 og § 13-6 første ledd.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ## § 2
 
 ### 2023-06-16 — lov/2023-06-16-41

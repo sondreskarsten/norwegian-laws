@@ -7,11 +7,55 @@ refid: "lov/2010-03-26-9"
 
 ## (annet)
 
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2016-04-22 — lov/2016-04-22-3
+
+*27. I lov 26. mars 2010 nr. 9 om vergemål skal § 5 første ledd lyde:*
+
+> Området for hvert fylkesmannsembete utgjør et vergemålsdistrikt. Svalbard er et eget vergemålsdistrikt.
+>
+> 28. I lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten erstattes i § 40 nr. 7 bokstav e og nr. 8 ordet «tvunget» av «tvungent».
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
 ### 2021-05-07 — lov/2021-05-07-34
 
 *I lov 26. mars 2010 nr. 9 om vergemål skal § 5 første ledd første punktum lyde:*
 
 > Området for hver statsforvalter utgjør et vergemålsdistrikt.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2021-07-01 — lov/2021-06-11-68
@@ -28,6 +72,13 @@ refid: "lov/2010-03-26-9"
 > Vergemålsmyndigheten skal uten hinder av taushetsplikt gi nødvendige opplysninger til Advokattilsynet dersom en advokat får oppnevnt verge.
 >
 
+### 2023-04-01 — forskrift/2023-03-31-445
+
+*Loven trer i kraft 1. april 2023.*
+
+> Loven trer i kraft 1. april 2023.
+>
+
 ### 2024-06-21 — lov/2024-06-21-46
 
 *9.I lov 26. mars 2010 nr. 9 om vergemål skal § 65 nytt andre ledd lyde:*
@@ -35,11 +86,25 @@ refid: "lov/2010-03-26-9"
 > Vergemålsmyndigheten skal uten hinder av taushetsplikt gi nødvendige opplysninger til Advokattilsynet dersom en advokat eller en advokatfullmektig får oppnevnt verge.
 >
 
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
+
 ### 2025-06-20 — lov/2025-06-20-82
 
 *I lov 26. mars 2010 nr. 9 om vergemål skal § 76 andre ledd lyde:*
 
 > Retten skal gjøre partene i saken oppmerksom på retten til å få oppnevnt advokat på det offentliges bekostning, jf. rettshjelpsloven § 16.
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1095
+
+*Delt ikraftsetting av loven. Loven del I § 11 første ledd nr. 5 til 10, loven del III og loven del IV trer i kraft 1. juli 2025.*
+
+> Delt ikraftsetting av loven. Loven del I § 11 første ledd nr. 5 til 10, loven del III og loven del IV trer i kraft 1. juli 2025.
 >
 
 ### 2026-03-20 — forskrift/2026-03-20-440
@@ -426,7 +491,9 @@ refid: "lov/2010-03-26-9"
 
 *§ 77 første ledd bokstav d og ny bokstav e skal lyde:*
 
-> Verdipapirsentralen,Folkeregisteret.
+> Verdipapirsentralen,
+>
+> Folkeregisteret.
 >
 
 ### 2013-04-05 — lov/2013-04-05-12

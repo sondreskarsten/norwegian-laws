@@ -20,6 +20,13 @@ refid: "lov/1985-06-21-79"
 > Kapittel II Overskriften skal lyde:
 >
 
+### 2010-03-26 — lov/2010-03-26-8
+
+*§ 1-1 tredje ledd fjerde punktum skal lyde:*
+
+> Bestemmelsene i denne lov, unntatt § 2-2, § 3-1 og kapittel 4, får tilsvarende anvendelse for sekundære forretningskjennetegn.
+>
+
 ### 2024-04-12 — lov/2024-04-12-17
 
 *§ 1-1 nytt tredje ledd skal lyde:*
@@ -46,6 +53,13 @@ refid: "lov/1985-06-21-79"
 >
 
 ## § 2-2
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 2-2 ellevte ledd skal lyde:*
+
+> Firma for regionalt helseforetak skal inneholde ordene regionalt helseforetak eller forkortelsen RHF. Firma for helseforetak skal inneholde ordene helseforetak eller HF.
+>
 
 ### 2015-06-19 — lov/2015-06-19-77
 
@@ -88,6 +102,13 @@ refid: "lov/1985-06-21-79"
 *§ 2-6 skal lyde:*
 
 > Såfremt det ikke foreligger samtykke fra vedkommende rettighetshaver, må et foretaksnavn ikke:inneholde noe som er egnet til å oppfattes som annens navn, kunstnernavn eller lignende, med mindre det åpenbart siktes til en forlengst avdød person;inneholde noe som er egnet til å oppfattes som alminnelig kjent navn på en stiftelse, ideell forening eller lignende sammenslutning;inneholde noe som er egnet til å oppfattes som den særpregede tittel på en annens vernede åndsverk, eller som særskilt laget navn i slikt verk, hvis navnet er blitt alminnelig kjent;være egnet til å forveksles med et varekjennetegn som etter lov 3. mars 1961 nr. 4 om varemerker eller lov 3. mars 1961 nr. 5 om fellesmerker har vern med eldre rett, eller med foretaksnavn eller sekundært forretningskjennetegn som har vern etter loven her;inneholde særegent navn på annens faste eiendom, eller noe som kan forveksles med det.
+>
+
+### 2010-03-26 — lov/2010-03-26-8
+
+*§ 2-6 nr. 4 skal lyde:*
+
+> være egnet til å forveksles med et varekjennetegn som etter varemerkeloven har vern med eldre rett, eller med foretaksnavn eller sekundært forretningskjennetegn som har vern etter loven her;
 >
 
 ### 2020-06-12 — lov/2020-06-12-67
@@ -153,6 +174,13 @@ refid: "lov/1985-06-21-79"
 > For at et foretaksnavn skal ha vern mot lignende foretaksnavn eller varekjennetegn, må foretaksnavnet oppfylle de krav til særpreg som gjelder etter lov 3. mars 1961 nr. 4 om varemerker § 13.
 >
 > Rett til foretaksnavn etter første ledd har den virkning at ingen annen enn innehaveren uhjemlet kan ta i bruk foretaksnavn eller varekjennetegn som er så likt foretaksnavnet (kjennetegnslikhet) at det er egnet til å forveksles med dette i den alminnelige omsetning, jfr. § 3-3.
+>
+
+### 2010-03-26 — lov/2010-03-26-8
+
+*§ 3-2 første ledd skal lyde:*
+
+> For at et foretaksnavn skal ha vern mot lignende foretaksnavn eller varekjennetegn, må foretaksnavnet oppfylle de krav til særpreg som gjelder etter varemerkeloven § 14.
 >
 
 ### 2020-06-12 — lov/2020-06-12-67
@@ -309,6 +337,23 @@ refid: "lov/1985-06-21-79"
 > Kapittel VII Overskriften skal lyde:
 >
 
+## § 4-3
+
+### 2010-03-26 — lov/2010-03-26-8
+
+*Ny § 4-3 skal lyde:*
+
+> Rett til sekundært forretningskjennetegn kan overdras i eller uten forbindelse med den virksomheten som kjennetegnet er knyttet til.
+>
+> Bestemmelsene i § 4-1 annet ledd og § 4-2 første ledd gjelder tilsvarende for sekundære forretningskjennetegn. Ved konkurs går retten til sekundære forretningskjennetegn over til konkursboet. Inneholder kjennetegnet et personnavn, gjelder dette bare for den øvrige del av kjennetegnet, med mindre kjennetegnet er et registrert eller innarbeidet varemerke, eller vedkommende person er død eller ikke har rimelig grunn til å motsette seg at boet råder over hele kjennetegnet. Kjennetegn som etter dette ikke tilhører konkursboet kan likevel anvendes for den tid virksomheten fortsetter for boets regning.
+>
+> En innehaver av sekundært forretningskjennetegn kan gi en annen rett til å bruke kjennetegnet i næringsvirksomhet (lisens). Lisenshaveren kan ikke overdra sin rett videre, med mindre avtalen med innehaveren gir rett til dette.
+>
+> Innehaveren av et sekundært forretningskjennetegn kan påberope sin kjennetegnsrett overfor en lisenshaver som overtrer lisensavtalens bestemmelser om varigheten av lisensen, i hvilken utforming kjennetegnet kan brukes, hvilke former for virksomhet det kan brukes for, hvilket geografisk område det kan brukes i eller kvaliteten av de ytelser lisenshaveren tilbyr.
+>
+> Hvis et sekundært forretningskjennetegn er villedende, eller av innehaveren eller noen annen med innehaverens samtykke blir brukt på en måte som er egnet til å villede, kan retten ved dom forby bruk av kjennetegnet eller slike former for bruk som er villedende, og ellers gi de påbud som finnes nødvendig. Søksmål etter forrige punktum kan reises av enhver som har rettslig interesse i det.
+>
+
 ## § 4-9
 
 ### 2021-06-18 — lov/2021-06-18-122
@@ -377,6 +422,17 @@ refid: "lov/1985-06-21-79"
 > For overtredelse av denne bestemmelsen kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale, jf. straffeprosessloven § 62 a.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 6-1 første til tredje ledd skal lyde:*
+
+> Den som bruker foretaksnavn som er vernet etter §§ 3-2 og 3-3 i strid med annens rett, straffes med bøter eller fengsel inntil ett år.
+>
+> Dersom det foreligger særlig skjerpende omstendigheter, er straffen bøter eller fengsel inntil tre år. Ved vurderingen av om særlig skjerpende omstendigheter foreligger, skal det særlig legges vekt på den skade som er påført rettighetshaveren, herunder skade på rettighetshaverens kommersielle omdømme, den vinning som krenkeren har oppnådd og omfanget av krenkelsen for øvrig.
+>
+> For overtredelse av denne bestemmelsen kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale, jf. straffeprosessloven § 62 a.
+>
+
 ### 2021-06-18 — lov/2021-06-18-122
 
 *§ 6-1 tredje ledd oppheves. Nåværende fjerde og femte ledd blir nytt tredje og fjerde ledd.*
@@ -389,6 +445,13 @@ refid: "lov/1985-06-21-79"
 ### 2013-05-31 — lov/2013-05-31-25
 
 *§ 6-2 første og nytt annet punktum skal lyde:*
+
+> Den som bruker foretaksnavn i strid med denne lov straffes med bøter eller med fengsel inntil tre måneder, for så vidt ikke strengere straffebestemmelse kommer til anvendelse. Medvirkning straffes ikke.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 6-2 skal lyde:*
 
 > Den som bruker foretaksnavn i strid med denne lov straffes med bøter eller med fengsel inntil tre måneder, for så vidt ikke strengere straffebestemmelse kommer til anvendelse. Medvirkning straffes ikke.
 >
@@ -420,23 +483,37 @@ refid: "lov/1985-06-21-79"
 
 ## (annet)
 
+### 2001-06-15 — lov/2001-06-15-93
+
+*Nåværende ellevte ledd blir nytt tolvte ledd.*
+
+### 2002-06-07 — lov/2002-06-07-19
+
+*3. I lov 21. juni 1985 nr. 79 om enerett til firma og andre forretningskjennetegn skal § 2-2 første ledd lyde:*
+
+> Firma for enkeltmannsforetak skal inneholde innehaverens etternavn.
+>
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*85. I lov 21. juni 1985 nr. 79 om enerett til foretaksnavn og andre forretningskjennetegn mv. skal § 3-8 fjerde ledd tredje punktum lyde:*
+
+> Det kan ikke gis oppfriskning mot oversittelse av søksmålsfristen, som skal nevnes i meldingen om vedtaket.
+>
+
 ### 2009-06-19 — lov/2009-06-19-74
 
 *Nåværende annet punktum blir nytt tredje punktum.*
 
-> 120. I lov 21. juni 1985 nr. 82 om kredittkjøp m.m. skal § 31 lyde:
->
-> Den som overtrer bestemmelser gitt i eller i medhold av § 7, § 9, jf § 27 a, eller § 29 bokstav c, straffes med bøter, eller under særlig skjerpende omstendigheter med fengsel inntil tre måneder, eventuelt sammen med bøter. På samme måte straffes den som unnlater å gi opplysninger som nevnt i §§ 4, 5, 6, jf § 27 a, § 29 bokstav b eller § 30 annet ledd, eller gir misvisende opplysninger som der nevnt. På samme måte straffes også en kredittyter som overtrer § 5 a første eller tredje ledd, jf § 27 a, eller unnlater å oppfylle sin plikt etter § 5 b, jf § 27 a.
->
-> Den som uaktsomt overtrer bestemmelse som nevnt i første ledd straffes med bøter.
->
-> 121. I lov 28. februar 1986 nr. 8 om adopsjon skal § 16 b annet ledd første punktum lyde:
->
-> Den som overtrer forbudet i første ledd straffes med bøter eller fengsel inntil tre måneder.
->
-> 122. I lov 20. juni 1986 nr. 35 om mesterbrev i håndverk og annen næring skal § 1 fjerde ledd nytt annet punktum lyde:
->
-> Medvirkning straffes ikke.
+### 2010-03-26 — lov/2010-03-26-8
+
+*Kapitteloverskriften til kapittel 4 skal lyde:*
+
+### 2010-07-01 — forskrift/2010-06-25-936
+
+*Lov 26. mars 2010 nr. 8 om beskyttelse av varemerker trer i kraft 1. juli 2010.*
+
+> Lov 26. mars 2010 nr. 8 om beskyttelse av varemerker trer i kraft 1. juli 2010.
 >
 
 ### 2013-05-31 — lov/2013-05-31-25
@@ -451,6 +528,65 @@ refid: "lov/1985-06-21-79"
 
 *Nåværende annet punktum blir nytt tredje punktum*
 
+### 2013-07-01 — forskrift/2013-05-31-543
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
+### 2015-07-01 — forskrift/2015-06-19-675
+
+*Loven trer i kraft 1. juli 2015.*
+
+> Loven trer i kraft 1. juli 2015.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-798
+
+*Lov om endringer i patentloven mv. (forenklinger) gjelder fra 1. juli 2019.*
+
+> Lov om endringer i patentloven mv. (forenklinger) gjelder fra 1. juli 2019.
+>
+> Endringene i patentloven § 28 og § 72, designloven § 50 og varemerkeloven § 80 gjelder bare der fristoversittelsen skjer etter at loven har trådt i kraft.
+>
+> Endringen i patentloven § 19 gjelder bare der underretning til søkeren om at patent kan meddeles er sendt fra Patentstyret etter at loven har trådt i kraft.
+>
+> Endringen i designloven § 13 gjelder bare for søknader som leveres til Patentstyret eller til Det internasjonale byrået ved WIPO etter at loven har trådt i kraft.
+>
+> Endringene i patentloven § 39a og 39b gjelder bare for begjæringer om patentbegrensning som leveres til Patentstyret etter at loven har trådt i kraft.
+>
+> Endringen i patentloven § 52d gjelder bare for krav om administrativ overprøving som leveres til Patentstyret etter at loven har trådt i kraft.
+>
+> Opphevingen av patentloven § 63a gjelder bare der stevning tas ut etter at loven har trådt i kraft.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2023-03-01 — forskrift/2023-02-17-229
+
+*Delt ikraftsetting av lov 12. juni 2020 nr. 67 om endringer i varemerkeloven og tolloven mv. (gjennomføring av nytt varemerkedirektiv mv.). Følgende deler av loven trer i kraft 1. mars 2023:*
+
+> Delt ikraftsetting av lov 12. juni 2020 nr. 67 om endringer i varemerkeloven og tolloven mv. (gjennomføring av nytt varemerkedirektiv mv.). Følgende deler av loven trer i kraft 1. mars 2023:
+>
+> del I (varemerkeloven)
+>
+> del II (patentloven)
+>
+> del III (panteloven)
+>
+> del IV (foretaksnavneloven)
+>
+> del V (designloven).
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *I § 3-6 niende ledd første punktum erstattes henvisningen til «§ 36 a» av en henvisning til «§ 3-6 a».*
@@ -464,6 +600,36 @@ refid: "lov/1985-06-21-79"
 *Nåværende femtende ledd blir nytt sekstende ledd og skal lyde:*
 
 > Foretaksnavn må ikke inneholde annen foretaksbetegnelse enn den som angir foretakets egen organisasjonsform. Foretaksbetegnelsen skal stå bakerst i foretaksnavnet. Kongen kan gi nærmere regler om utforming av foretaksnavn.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
+### 2024-07-01 — forskrift/2024-04-12-602
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
 >
 
 ## § 22

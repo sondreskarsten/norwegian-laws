@@ -50,6 +50,68 @@ refid: "lov/1959-10-23-3"
 > Som saker utenfor rettergang anses i denne forbindelse også behandling for forliksrådet, offentlig skiftebehandling med unntak av skiftetvist i søksmåls former, skjønn som styres av en lensmann, namsfogd eller politistasjonssjef og voldgiftsaker som ikke går inn under § 16.Nr. 30 om endringer i lov 8. april 1981 nr. 7 om barn og foreldre skal lyde:
 >
 
+### 2006-01-01 — lov/2005-06-17-79
+
+*2. I lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom skal § 2 nr. 28 skal lyde:*
+
+> Fiske, fangst av sjødyr, akvakultur og verksemd i samband med slikt, medrekna undervisning, forskning og utvikling.
+>
+
+### 2007-06-15 — lov/2007-06-15-40
+
+*1. I lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom § 30 oppheves henvisningen til lov 9. juni 1978 nr. 49 om reindrift og ny henvisning til lov 15. juni 2007 nr. 40 om reindrift føyes til.*
+
+### 2011-09-01 — forskrift/2011-08-26-866
+
+*Lov om endringer i gravferdsloven og enkelte andre lover trer i kraft 1. januar 2012. Bestemmelsen i lov 7. juni 1996 nr. 31 om Den norske kirke § 25 tredje ledd tredje punktum trer i kraft 1. september 2011.*
+
+> Lov om endringer i gravferdsloven og enkelte andre lover trer i kraft 1. januar 2012. Bestemmelsen i lov 7. juni 1996 nr. 31 om Den norske kirke § 25 tredje ledd tredje punktum trer i kraft 1. september 2011.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2016-04-22 — lov/2016-04-22-3
+
+*7. I lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom skal § 5 fjerde ledd lyde:*
+
+> I heimel etter fyrste eller tredje leden kan det gjevast reglar om korleis heimelen skal nyttast.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2017-07-01 — forskrift/2017-05-22-617
+
+*Loven trer i kraft fra 1. juli 2017.*
+
+> Loven trer i kraft fra 1. juli 2017.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2024-11-29 — lov/2024-11-29-73
 
 *I lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. skal oreigningslova § 30 nr. 20 til 28 under del XI nr. 3 lyde:*
@@ -80,9 +142,23 @@ refid: "lov/1959-10-23-3"
 > Lov 13. desember 2024 nr. 76 om elektronisk kommunikasjon § 10-1
 >
 
+### 2025-01-01 — forskrift/2024-12-13-3095
+
+*Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.*
+
+> Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.
+>
+
 ### 2025-06-20 — lov/2025-06-20-102
 
 *1.I lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom oppheves § 30 nr. 22.*
+
+### 2026-07-01 — forskrift/2025-06-20-1105
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
 
 ## § 12
 
@@ -166,6 +242,15 @@ refid: "lov/1959-10-23-3"
 > I andre høve vert skadebota fastsett i skjøn som vert styrt av jordskifteretten.
 >
 
+## § 2
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 2 første ledd nytt nr. 55 skal lyde:*
+
+> Skjøtsel og istandsetjing til naturvernformål.
+>
+
 ## § 26
 
 ### 2004-06-25 — lov/2004-06-25-53
@@ -221,6 +306,17 @@ refid: "lov/1959-10-23-3"
 >
 
 ## § 30
+
+### 2009-06-19 — lov/2009-06-19-101
+
+*§ 30 nr. 8 og nr. 17 oppheves.*
+
+### 2009-06-19 — lov/2009-06-19-101
+
+*Ny § 30 nr. 32 skal lyde:*
+
+> Lov 19. juni 2009 nr. 101 om erverv og utvinning av mineralressurser (mineralloven)
+>
 
 ### 2023-12-20 — lov/2023-12-20-110
 

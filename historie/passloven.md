@@ -7,6 +7,20 @@ refid: "lov/1997-06-19-82"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*117. I lov 19. juni 1997 nr. 82 om pass skal § 5 andre ledd bokstav b lyde:*
+
+> innskrenkninger pålagt i henhold til straffeloven §§ 28 a, 28 b, 28 c, 39 (jf. lov 2. juli 1999 nr. 62 om etablering og gjennomføring av psykisk helsevern § 5-3), 39 g, 53 eller 54, straffegjennomføringsloven § 43 eller straffeprosessloven § 69 tredje ledd.
+>
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*117. I lov 19. juni 1997 nr. 82 om pass skal § 5 første ledd bokstav b lyde:*
+
+> når utreiseforbud følger av tvisteloven § 33-11 eller konkursloven § 102;
+>
+
 ### 2007-06-15 — lov/2007-06-15-35
 
 *I lov 19. juni 1997 nr. 82 om pass skal § 3 fjerde ledd annet punktum lyde:*
@@ -23,6 +37,52 @@ refid: "lov/1997-06-19-82"
 > For pass til barn under 16 år betales 270 kroner.
 >
 
+### 2009-06-19 — lov/2009-06-19-41
+
+*9. I lov 19. juni 1997 nr. 82 om pass skal § 1 tredje ledd lyde:*
+
+> Kongen kan bestemme at § 6 annet ledd (innhenting og lagring av biometrisk personinformasjon i passet) og § 6 a (innsyn i og sletting av biometrisk personinformasjon innhentet for personalisering av passet og etterfølgende identitetskontroll) også skal omfatte diplomatpass, spesialpass og tjenestepass utstedt etter regler gitt i medhold av lov 3. mai 2002 nr. 13 om utenrikstjenesten, samt utlendingspass i medhold av utlendingsloven § 64.
+>
+> 10. I lov 16. juli 1999 nr. 66 om Schengen informasjonssystem skal § 7 nr. 2 lyde:opplysninger om personer som ikke skal gis tillatelse til innreise fordi det i forbindelse med utvisning etter utlendingsloven § 66 bokstav a, b, c, e eller f, §§ 67 eller 68 er truffet vedtak om innreiseforbud, og vedtaket fortsatt er gjeldende
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*190. I lov 19. juni 1997 nr. 82 om pass skal § 5 annet ledd bokstav b lyde:*
+
+> innskrenkninger pålagt i henhold til straffeloven §§ 18, 20 annet ledd, 62, 71 annet til fjerde ledd, 73, 79 bokstav a (jf. lov 2. juli 1999 nr. 62 om etablering og gjennomføring av psykisk helsevern § 5-3), straffegjennomføringsloven § 43 eller straffeprosessloven § 69 tredje ledd.
+>
+> 191. Utgår.
+>
+
+### 2010-01-01 — forskrift/2009-10-30-1324
+
+*Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.*
+
+> Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 9. januar 2009 nr. 1 om endringar i utlendingslovgivinga (reglar for EØS- og EFTA-borgarar o.a.). Lovens del I trer i kraft 1. januar 2010.
+>
+> Delvis ikraftsetting av lov 19. juni 2009 nr. 38 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS mv.). Lovens del II, endringen i utlendingsloven § 92 og § 94, og lovens del III trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 19. juni 2009 nr. 41 om endringer i utlendingsloven og i enkelte andre lover. Loven trer i kraft 1. januar 2010.
+>
+
+### 2013-04-05 — lov/2013-04-05-12
+
+*41. I lov 19. juni 1997 nr. 82 om pass skal § 4 lyde:*
+
+> § 4.
+>
+> Pass til mindreårige og personer som er fratatt rettslighandleevne
+>
+> Til barn under 18 år utstedes ikke pass uten samtykke fra den eller de som har foreldreansvaret. Har foreldrene felles foreldreansvar, må begge samtykke. Pass kan likevel utstedes til barn med bare den ene av foreldrenes samtykke i tilfelle der vedkommende i henhold til barneloven har anledning til å ta med barnet ut av landet uten den annens samtykke. Dersom barneverntjenesten har overtatt omsorgen for barnet etter barnevernloven § 4-8 eller § 4-12, skal samtykke kun innhentes fra barneverntjenesten.
+>
+> Til person som er fratatt rettslig handleevne, utstedes ikke pass uten samtykke fra vergen.
+>
+> Pass kan i særlige tilfeller utstedes til person som nevnt i første og annet ledd uten samtykke dersom det er åpenbart ubetenkelig.
+>
+
 ### 2013-06-21 — forskrift/2013-06-21-713
 
 *Loven trer i kraft straks.*
@@ -32,260 +92,33 @@ refid: "lov/1997-06-19-82"
 
 ### 2015-06-05 — lov/2015-06-05-39
 
-*Endring i følgende lov:*
+*I lov 19. juni 1997 nr. 82 om pass skal § 8 fjerde ledd lyde:*
 
-> Endring i følgende lov:
->
-> Lov 19. juni 1997 nr. 82 om pass (passloven).
->
-> § 1
->
-> .
->
-> Rett til nasjonalt ID-kort
->
-> Norske statsborgere som fyller vilkårene i loven, har etter søknad rett til å få nasjonalt ID-kort med funksjonalitet som gyldig reisedokument i EØS-området (reiserett).
->
-> Norske statsborgere som ikke kan få nasjonalt ID-kort med reiserett, men fyller lovens øvrige vilkår, har etter søknad rett til å få nasjonalt ID-kort uten reiserett.
->
-> § 2
->
-> .
->
-> Ansvarlig myndighet
->
-> Politiet er ansvarlig myndighet for utstedelse av nasjonalt ID-kort (ID-kortmyndighet).
->
-> § 3
->
-> .
->
-> Søknad om nasjonalt ID-kort
->
-> Søknad om nasjonalt ID-kort fremmes ved personlig oppmøte med mindre særlige grunner vanskeliggjør fremmøte.
->
-> Søker plikter å godtgjøre sin identitet og statsborgerskap, blant annet ved å avgi opplysninger og fremlegge dokumenter som ID-kortmyndigheten anser nødvendige. Det kan innhentes biometrisk personinformasjon i form av ansiktsfoto og fingeravtrykk til bruk for senere kontroll av kortinnehaverens identitet.
->
-> Tidligere nasjonalt ID-kort skal innleveres for makulering før nytt utleveres.
->
-> Kongen gir forskrift med nærmere regler om søknaden, godtgjøring av identitet og statsborgerskap og innhenting av biometrisk personinformasjon.
->
-> § 4
->
-> .
->
-> Mindreårige og personer uten rettslig handleevne
->
-> For utstedelse av nasjonalt ID-kort med reiserett til mindreårige under 18 år og personer uten rettslig handleevne kreves samtykke fra verge. Har foreldrene felles foreldreansvar for den mindreårige, må begge samtykke, med mindre barneloven gir adgang for en av foreldrene til å reise ut av landet med barnet uten den andres samtykke. Når barneverntjenesten har overtatt omsorgen etter barnevernloven § 4-8 eller § 4-12, skal samtykke kun innhentes fra barneverntjenesten.
->
-> Samtykke fra verge kreves også for utstedelse av nasjonalt ID-kort uten reiserett til mindreårige under 13 år. Har foreldrene felles foreldreansvar, må begge samtykke.
->
-> Nasjonalt ID-kort med reiserett kan i særlige tilfeller utstedes til person som nevnt i første ledd uten samtykke dersom det er åpenbart ubetenkelig.
->
-> § 5
->
-> .
->
-> Hindringer for å få nasjonalt ID-kort med reiserett
->
-> Nasjonalt ID-kort med reiserett skal ikke utstedes
->
-> når søkeren er etterlyst med henblikk på pågripelse, er besluttet pågrepet eller varetektsfengslet eller har samtykket i innlevering av pass etter straffeprosessloven kapittel 14
->
-> når utreiseforbud følger av tvisteloven § 33-11 eller konkursloven § 102
->
-> når det foreligger lovhjemlet beslutning av offentlig myndighet som innebærer at utreise vil være ulovlig.
->
-> Nasjonalt ID-kort med reiserett kan nektes utstedt når søkeren ikke kan reise ut av riket fordi det følger av
->
-> dom, kjennelse eller annen lovhjemlet beslutning av offentlig myndighet som pålegger frihetsberøvelse
->
-> innskrenkninger pålagt i henhold til straffeloven §§ 34, 39, 45, 46, 48, 52 og 62 (jf. psykisk helsevernloven § 5-3), straffegjennomføringsloven § 43 eller straffeprosessloven § 69 tredje ledd.
->
-> Nasjonalt ID-kort med reiserett kan også nektes utstedt når
->
-> det foreligger vedtak om passnektelse eller tilbakekall av pass etter passloven § 5 tredje ledd, jf. § 7 første ledd bokstav b
->
-> omstendighetene gir skjellig grunn til å tro at formålet med reisen er ulovlig virksomhet
->
-> søkeren tidligere har forfalsket eller brukt falskt nasjonalt ID-kort med reiserett, rettsstridig har overlatt kortet til tredjemann eller på annen måte har misbrukt det.
->
-> Nasjonalt ID-kort med reiserett må ikke nektes uten at tungtveiende hensyn taler for det. Ved avgjørelsen skal det tas i betraktning hvilken betydning kortet vil ha for søkeren. Etter annet ledd skal det vurderes om søkeren vil unndra seg iverksettelse av den lovhjemlede forpliktelsen.
->
-> § 6
->
-> .
->
-> Innholdet i nasjonalt ID-kort
->
-> Nasjonalt ID-kort skal bare inneholde opplysninger som er nødvendige for å kontrollere kortets ekthet og bekrefte innehaverens identitet. Biometriske personopplysninger innhentet etter § 3 annet ledd lagres i det nasjonale ID-kortet på en slik måte at hensynet til informasjonens ekthet, integritet og konfidensialitet blir ivaretatt.
->
-> Utfylling av personopplysninger i de enkelte nasjonale ID-kortene skal gjøres i Norge.
->
-> Kongen gir forskrift med nærmere regler om innholdet i nasjonalt ID-kort, blant annet om hvordan biometriske personopplysninger kan lagres og hvilke opplysninger som skal fremgå på kortet.
->
-> § 7
->
-> .
->
-> Oppbevaring og tap
->
-> Det nasjonale ID-kortet skal oppbevares på betryggende måte. Kortinnehaver skal straks skriftlig eller ved personlig oppmøte melde tap av kortet til ID-kortmyndigheten.
->
-> Kort som er meldt tapt kan ikke tas i bruk på nytt.
->
-> § 8
->
-> .
->
-> Tilbakekall, innlevering og beslag
->
-> Nasjonalt ID-kort med reiserett kan tilbakekalles når
->
-> det foreligger hindring som nevnt i § 5
->
-> kortet er utstedt med, eller på bakgrunn av, informasjon som ikke var, eller lenger er, riktig
->
-> kortets utseende eller innhold er endret
->
-> kortet er skadet eller slitt eller av andre årsaker ikke er tjenlig som identitetsbevis
->
-> kortet finnes i uvedkommendes besittelse.
->
-> Første ledd bokstavene b, c, d og e gjelder for alle nasjonale ID-kort.
->
-> Når det er fattet vedtak om tilbakekall av nasjonalt ID-kort etter første ledd, skal kortet innleveres. Når kortet ikke innleveres frivillig, kan politiet ta det fra besitteren.
->
-> Politiet kan ta beslag i nasjonalt ID-kort med reiserett som forevises ved grensekontroll i inntil 3 uker når vilkårene etter første ledd antas oppfylt. Kortet skal tilbakeleveres hvis ID-kortmyndigheten ikke har fattet vedtak om tilbakekall innen 3 uker. Straffeprosessloven § 208 gjelder tilsvarende.
->
-> § 9
->
-> .
->
-> Nasjonalt ID-kortregister
->
-> Det skal opprettes et nasjonalt ID-kortregister. Registeret kan kobles mot passregisteret.
->
-> Nasjonalt ID-kortregister kan inneholde opplysninger som er nødvendige for forvaltning av registeret og utstedelse av nasjonalt ID-kort, blant annet søkers navn, signatur, fødselsnummer, ansiktsfoto, høyde, øyenfarge, hårfarge, serienummer eller annen entydig referanse for tilknyttet eID, og opplysninger om tap og tilbakekall av kortet. Ved endring av navn eller andre opplysninger, og ved utstedelse av nytt nasjonalt ID-kort, kan tidligere data beholdes i registeret.
->
-> Kongen gir forskrift med nærmere regler om
->
-> hvilke opplysninger som kan registreres
->
-> hvem som er behandlingsansvarlig
->
-> innsyn, retting, sperring og sletting av opplysninger.
->
-> § 10
->
-> .
->
-> Tilgang (rett til direkte søk)
->
-> ID-kortmyndigheten, Politidirektoratet, Kripos og ansatte i politiet som utfører grensekontroll kan gis tilgang til opplysninger i nasjonalt ID-kortregister, eller opplysningene kan på annen måte gjøres tilgjengelig for dem når det er tjenestemessig behov for opplysningene til utstedelse av nasjonalt ID-kort eller utførelse av grensekontroll.
->
-> § 11
->
-> .
->
-> Utlevering av opplysninger
->
-> Opplysninger fra nasjonalt ID-kortregister kan utleveres når det er nødvendig for å kontrollere identiteten til innehavere av nasjonalt ID-kort eller kortets ekthet.
->
-> Utlevering av opplysninger etter første ledd kan skje ved direkte søk som går ut på treff eller ikke-treff.
->
-> § 12
->
-> .
->
-> Utlevering av opplysninger til andre formål
->
-> Opplysninger fra nasjonalt ID-kortregister kan utleveres til politiet til bruk
->
-> i arbeid med å finne savnet person eller med å identifisere en død person eller en person som det hører under politiets oppgaver å hjelpe
->
-> i arbeid med å identifisere en person som kan innbringes eller skal pågripes eller anbringes i politiarrest
->
-> ved forebygging eller etterforskning av en handling som etter loven kan medføre høyere straff enn fengsel i seks måneder
->
-> i arbeid etter utlendingsloven med å avklare identiteten til en person som har plikt til å gi opplysninger om egen identitet
->
-> ved kontroll av opplysninger som skal føres inn i det sentrale registeret over strafferettslige reaksjoner
->
-> når den opplysningene gjelder har gitt et uttrykkelig samtykke som er basert på frivillighet og informasjon
->
-> for utførelse av oppgaver etter passloven.
->
-> Utlevering av opplysninger etter første ledd kan skje ved direkte søk.
->
-> Opplysninger som er hentet fra nasjonalt ID-kortregister etter denne bestemmelsen, skal ikke lagres ut over det som er nødvendig for å oppfylle formålet med behandlingen av opplysningen eller dokumentere behandlingen av den saken som opplysningene er innhentet for.
->
-> Til oppgaver nevnt i første ledd kan opplysninger fra nasjonalt ID-kortregister utleveres til utenlandske samarbeidende politimyndigheter og sikkerhetstjenester når utleveringen ikke anses uforholdsmessig. Utleveringen skal besluttes av den som Politidirektoratet utpeker. Første og annet punktum innebærer ingen begrensning i adgangen til å utlevere opplysninger på annet grunnlag.
->
-> § 13
->
-> .
->
-> Klage
->
-> Avgjørelser om å nekte eller tilbakekalle nasjonalt ID-kort, og om innsyn, retting, sperring og sletting etter denne loven, kan påklages til Politidirektoratet.
->
-> § 14
->
-> .
->
-> Forskrifter
->
-> Kongen gir forskrifter med nærmere regler om
->
-> gyldighetstiden for nasjonalt ID-kort, blant annet om begrenset eller forlenget gyldighetstid
->
-> fastsetting og betaling av gebyr for søknad om nasjonalt ID-kort.
->
-> Kongen kan gi forskrifter med nærmere regler om
->
-> tildeling og bruk av tilknyttet eID ved utstedelse av nasjonalt ID-kort, blant annet om aldersgrenser, gyldighet, sertifikatutsteder, sikkerhetsnivå, tilbakekall og klage
->
-> utenlandske statsborgeres rett til å få nasjonalt ID-kort, blant annet om særlige vilkår om tilknytning til Norge
->
-> hvem som kan få utlevert opplysninger fra nasjonalt ID-kortregister
->
-> gjennomføring av loven, blant annet om søknads- og klagesaksbehandling
->
-> adgang til å få nasjonalt ID-kort ved norsk fagutenriksstasjon
->
-> adgang til å få midlertidig ID-dokument ved tap av nasjonalt ID-kort med reiserett.
->
-> § 15
->
-> .
->
-> Forholdet til folkeretten
->
-> Loven skal anvendes i samsvar med internasjonale regler Norge er bundet av.
->
-> § 16
->
-> .
->
-> Ikrafttredelse
->
-> Loven gjelder fra den tid Kongen bestemmer. Kongen kan sette i kraft de enkelte bestemmelsene til forskjellig tid.
->
-> § 17
->
-> .
->
-> Endring i andre lover
->
-> I lov 19. juni 1997 nr. 82 om pass skal § 8 fjerde ledd lyde:
->
 > Bare passmyndigheten, ID-kortmyndigheten, Kripos og norsk grensekontrollmyndighet skal ha tilgang til passregisteret med mindre annet er bestemt i lov eller i forskrift i medhold av lov.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*156. I lov 19. juni 1997 nr. 82 om pass skal § 5 annet ledd bokstav b lyde:*
+
+> innskrenkninger pålagt i henhold til straffeloven §§ 34, 39, 45, 46, 48, 52 og 62 (jf. lov 2. juli 1999 nr. 62 om etablering og gjennomføring av psykisk helsevern § 5-3), straffegjennomføringsloven § 43 eller straffeprosessloven § 69 tredje ledd.
 >
 
 ### 2017-04-21 — lov/2017-04-21-16
 
-*I lov 19. juni 1997 nr. 82 om pass skal § 5 tredje ledd bokstav e og ny bokstav f lyde:vilkårene for innlevering av tidligere utstedt pass etter § 7 første ledd bokstav e første alternativ er til stede;det er grunn til å tro at formålet med reisen er å begå en handling som rammes av bestemmelsene i straffeloven §§ 101 til 107 om folkemord, forbrytelser mot menneskeheten og krigsforbrytelser eller straffeloven §§ 131 til 145 om terror-handlinger og terrorrelaterte handlinger.*
+*I lov 19. juni 1997 nr. 82 om pass skal § 5 tredje ledd bokstav e og ny bokstav f lyde:*
+
+> vilkårene for innlevering av tidligere utstedt pass etter § 7 første ledd bokstav e første alternativ er til stede;
+>
+> det er grunn til å tro at formålet med reisen er å begå en handling som rammes av bestemmelsene i straffeloven §§ 101 til 107 om folkemord, forbrytelser mot menneskeheten og krigsforbrytelser eller straffeloven §§ 131 til 145 om terror-handlinger og terrorrelaterte handlinger.
+>
+
+### 2017-06-01 — forskrift/2017-04-21-486
+
+*Lovens del I trer i kraft 1. juni 2017.*
+
+> Lovens del I trer i kraft 1. juni 2017.
+>
 
 ### 2017-06-21 — lov/2017-06-21-93
 
@@ -307,6 +140,20 @@ refid: "lov/1997-06-19-82"
 > Delt ikraftsetting av endringsloven. Endringsloven del I, endringene i lov 19. juni 1997 nr. 82 (passloven) § 4, trer i kraft 1. februar 2020.
 >
 
+### 2022-05-01 — forskrift/2022-04-29-638
+
+*Loven trer i kraft 1. mai 2022, med unntak av § 8 første ledd nr. 2.*
+
+> Loven trer i kraft 1. mai 2022, med unntak av § 8 første ledd nr. 2.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-04-28 — lov/2023-04-28-10
 
 *I lov 19. juni 1997 nr. 82 om pass skal § 10 første ledd lyde:*
@@ -314,9 +161,40 @@ refid: "lov/1997-06-19-82"
 > Opplysninger fra passregisteret kan utleveres når det er nødvendig for å kontrollere et pass eller innehaverens identitet. Opplysninger om utstedte pass kan utleveres til registermyndigheten for Folkeregisteret. Ansiktsfoto kan utleveres til utlendingsmyndighetene når det er nødvendig i forbindelse med opptak og registrering av ansiktsfoto etter utlendingsloven § 100.
 >
 
+### 2025-03-14 — forskrift/2025-03-14-446
+
+*Ikraftsetting av lov 28. april 2023 nr. 10 om endringer i utlendingsloven, passloven og ID-kortloven (biometrisk sammenligning). Loven trer i kraft straks.*
+
+> Ikraftsetting av lov 28. april 2023 nr. 10 om endringer i utlendingsloven, passloven og ID-kortloven (biometrisk sammenligning). Loven trer i kraft straks.
+>
+
 ### 2025-12-22 — lov/2025-12-22-115
 
 *Nåværende bokstav c blir ny bokstav d.*
+
+### 2026-01-01 — forskrift/2025-12-19-2706
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-23 — forskrift/2026-01-23-68
+
+*Følgende endringer trer i kraft straks:*
+
+> Følgende endringer trer i kraft straks:
+>
+> Endringsloven del I (passloven)
+>
+> Endringsloven del III (ID-kortloven)
+>
+> Endringsloven del IV (barnevernsloven)
+>
+> Følgende endringer trer i kraft 15. april 2026
+>
+> Endringsloven del II (straffeloven)
+>
 
 ## § 1
 
@@ -474,6 +352,13 @@ refid: "lov/1997-06-19-82"
 > Pass kan i særlige tilfeller utstedes til person som nevnt i første og annet ledd uten samtykke dersom det er fare for personens liv eller helse, eller det av andre grunner er åpenbart ubetenkelig.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 4 første ledd tredje punktum skal lyde:*
+
+> I tilfeller som omfattes av barnevernsloven § 5-6 om forbud mot å ta med barnet ut av Norge, skal samtykke kun innhentes fra barnevernstjenesten.
+>
+
 ### 2025-12-19 — lov/2025-12-19-113
 
 *§ 4 andre ledd skal lyde:*
@@ -510,7 +395,9 @@ refid: "lov/1997-06-19-82"
 
 *§ 5 tredje ledd bokstav f og ny bokstav g skal lyde:*
 
-> det er grunn til å tro at formålet med reisen er å begå en handling som rammes av bestemmelsene i straffeloven §§ 101 til 107 om folkemord, forbrytelser mot menneskeheten og krigsforbrytelser eller straffeloven §§ 131 til 145 om terrorhandlinger og terrorrelaterte handlinger;søkeren er mindreårig, og det er grunn til å tro at søkeren vil bli utsatt for straffbare forhold i utlandet eller forhold der som kan medføre fare for liv eller helse.
+> det er grunn til å tro at formålet med reisen er å begå en handling som rammes av bestemmelsene i straffeloven §§ 101 til 107 om folkemord, forbrytelser mot menneskeheten og krigsforbrytelser eller straffeloven §§ 131 til 145 om terrorhandlinger og terrorrelaterte handlinger;
+>
+> søkeren er mindreårig, og det er grunn til å tro at søkeren vil bli utsatt for straffbare forhold i utlandet eller forhold der som kan medføre fare for liv eller helse.
 >
 
 ### 2025-12-19 — lov/2025-12-19-113
@@ -653,6 +540,15 @@ refid: "lov/1997-06-19-82"
 > § 7 a.Underretningsplikt til kommunens barneverntjeneste
 >
 > Passmyndigheten skal straks underrette kommunens barneverntjeneste om vedtak om nektelse eller tilbakekall av pass etter § 5 tredje ledd bokstav g, jf. § 7 første ledd bokstav b.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 7 a skal lyde:*
+
+> § 7 a.Underretningsplikt til kommunens barnevernstjeneste
+>
+> Passmyndigheten skal straks underrette kommunens barnevernstjeneste om vedtak om nektelse eller tilbakekall av pass etter § 5 tredje ledd bokstav g, jf. § 7 første ledd bokstav b.
 >
 
 ## § 8

@@ -5,6 +5,45 @@ refid: "lov/1981-04-08-7"
 
 # Endringshistorikk: Barnelova – bl
 
+## § 1-2
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 1-2 skal lyde:*
+
+> § 1-2.Lovens stedlige virkeområde
+>
+> Lovens bestemmelser om tjenester og tiltak gjelder når barn har vanlig bosted og oppholder seg i riket. Lovens bestemmelser om tjenester og tiltak gjelder også for barn som er flyktninger eller er internt fordrevne, eller når barnets vanlige bosted ikke lar seg fastsette.
+>
+> For barn som har vanlig bosted i riket, men som oppholder seg i en annen stat, gjelder §§ 4-12 og 4-24. For barn som oppholder seg i riket, men som har vanlig bosted i en annen stat, gjelder §§ 4-4, 4-6, 4-7, 4-9, 4-10, 4-11, 4-25, 4-26 og 4-29.
+>
+> Kongen kan gi forskrifter om lovens anvendelse på Svalbard.
+>
+
+## § 4-4 a
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*Ny § 4-4 a skal lyde:*
+
+> § 4-4 a.Frivillig plassering i fosterhjem eller institusjon over landegrensene
+>
+> Barneverntjenesten kan beslutte at et barn skal plasseres i et konkret fosterhjem eller i en institusjon i en stat som har sluttet seg til konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn, dersom:Vilkårene for plassering som hjelpetiltak etter § 4-4 er oppfylt.Plasseringen er forsvarlig og til barnets beste. Det skal legges særlig vekt på barnets tilknytning til staten som barnet ønskes plassert i.Barnets rettigheter er ivaretatt i samsvar med § 4-1 og § 6-3. Barnets mening skal tillegges stor vekt og skal fremkomme av sakens dokumenter.Forelder med foreldreansvar og barn over 12 år har samtykket til plasseringen.Staten som barnet ønskes plassert i, har en forsvarlig tilsynsordning.Gjennomføringen av tilsyn, oppfølging av barnet og utgiftsfordeling i forbindelse med plasseringen er avtalt med myndighetene i den staten som barnet ønskes plassert i.Vilkår for plassering etter artikkel 33 i konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn er oppfylt.
+>
+> Barneverntjenesten kan samtykke i plassering av et barn i et konkret fosterhjem eller en institusjon i Norge etter et utenlandsk vedtak truffet av en stat som har tiltrådt konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn. Samtykke kan bare gis dersom vilkårene i første ledd er oppfylt. Barneverntjenesten skal søke Utlendingsdirektoratet om oppholdstillatelse for barnet når dette er nødvendig. Barneverntjenesten kan ikke samtykke i plasseringen før barnet har fått oppholdstillatelse.
+>
+> 3. I lov 4. juli 1991 nr. 47 om ekteskap (ekteskapsloven) gjøres følgende endringer:
+>
+
+## § 13-4
+
+### 2022-06-17 — lov/2022-06-17-44
+
+*§ 13-4 sjette ledd skal lyde:*
+
+> Myndigheter med ansvar etter denne loven kan uten hinder av taushetsplikt innhente opplysninger fra Folkeregisteret når det er nødvendig for å utføre oppgaver etter denne loven. Sentralmyndigheten for Haagkonvensjonen 1996 kan, uten hinder av taushetsplikt, innhente opplysninger fra Folkeregisteret når det er nødvendig å innhente opplysninger for å motta og formidle henvendelser til og fra utenlandske myndigheter i barnevernssaker som ikke reguleres av Haagkonvensjonen av 1996.
+>
+
 ## (annet)
 
 ### 2001-06-15 — lov/2001-06-15-37
@@ -227,6 +266,30 @@ refid: "lov/1981-04-08-7"
 
 *I ny § 88 endres «§ 44 andre stykket første punktum» til «§ 42 andre stykket første punktum».*
 
+### 2003-12-05 — lov/2003-12-05-100
+
+*2. I lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) skal § 9 fjerde og femte ledd lyde:*
+
+> Er det utført assistert befruktning på mora, og ektemann eller sambuar har gitt sitt samtykke til dette, skal det seiast dom for at han er faren, dersom det ikkje er lite truleg at barnet er avla ved assistert befruktning.
+>
+> Sædgiveren kan ikkje dømast til far. Dette gjeld likevel ikkje dersom assistert befruktning er gjort med sæd frå ektemann eller sambuar.
+>
+
+### 2005-04-29 — lov/2005-04-29-20
+
+*2. I lov 8. april 1981 nr. 7 om barn og foreldre skal § 78 lyde:*
+
+> § 78.Gjennomføring av avgjerder om tilskot og gebyr. Tvangsgrunnlag.
+>
+> Fostringstilskot krevjast inn av Innkrevjingssentralen for fostringstilskot etter reglane i bidragsinnkrevjingslova.
+>
+> Avgjerd i tilskotssak er tvangsgrunnlag for utlegg. Avgjerda har rettsverknader og kan fullførast før ho er endeleg, om ikkje anna er fastsett. Oppfyllingsfristen er tre dagar, om ikkje annan frist er fastsett.
+>
+> Ei skriftleg avtale om tilskot er tvangsgrunnlag for utlegg når tilskot etter avtala vert kravd inn etter reglane i bidragsinnkrevjingslova. Det same gjeld ei avgjerd om gebyr som nemnd i § 70 andre stykket.
+>
+> Vert tilskot som er gjort opp, sett ned etter § 74 andre ledd eller § 76, kan den tilskotspliktige krevje at Innkrevjingssentralen for fostringstilskot gjer frådrag i pålagt lønnstrekk m.m. på den måten og for dei terminane som sentralen finn rimeleg.
+>
+
 ### 2005-06-17 — lov/2005-06-17-84
 
 *I lov 8. april 1981 nr. 7 om foreldre og barn skal § 38 tredje ledd første punktum lyde:*
@@ -263,6 +326,17 @@ refid: "lov/1981-04-08-7"
 >
 > Registrerings- og forseglingsforretningene kan overlates til lensmannen, namsfogden eller politistasjon med sivile rettspleieoppgaver eller en annen skikket person oppnevnt av retten.I nr. 33 skal endringen i plan- og bygningslov 14. juni 1985 nr. 77 § 59 annet ledd lyde:
 >
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*Overskriften til kapittel 3 skal lyde:*
+
+> Kapittel 3 Oppgåvene til Arbeids- og velferdsetaten i farskapssaker
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*I § 10 første ledd fjerde punktum skal betegnelsen «fylkestrygdekontoret» endres til «det organ i Arbeids- og velferdsetaten som Arbeids- og velferdsdirektoratet bestemmer».*
 
 ### 2007-02-27 — lov/2007-01-26-3
 
@@ -329,6 +403,17 @@ refid: "lov/1981-04-08-7"
 > § 4.Vedgåing av farskap eller medmorskap
 >
 
+### 2010-04-09 — forskrift/2010-04-09-500
+
+*Endringene i lov 8. april 1981 nr. 7 om barn og foreldre § 3 første og tredje ledd, § 30 tredje ledd, § 44 andre ledd og i lov 3. mars 1972 nr. 5 om arv § 4 første ledd trer i kraft straks.*
+
+> Endringene i lov 8. april 1981 nr. 7 om barn og foreldre § 3 første og tredje ledd, § 30 tredje ledd, § 44 andre ledd og i lov 3. mars 1972 nr. 5 om arv § 4 første ledd trer i kraft straks.
+>
+> Endringene i lov 2. juli 1999 nr. 63 om pasientrettigheter § 4-4 trer i kraft 1. mai 2010.
+>
+> Endringene i lov 8. april 1981 nr. 7 om barn og foreldre § 36, § 42 første ledd og § 43 andre ledd fjerde punktum trer i kraft 1. juli 2010.
+>
+
 ### 2013-06-21 — lov/2013-06-21-64
 
 *Overskriften til kapittel 1 skal lyde:*
@@ -342,6 +427,35 @@ refid: "lov/1981-04-08-7"
 *Loven trer i kraft 1. januar 2014, med unntak av § 1 a, § 5 andre og fjerde ledd, § 15 nytt andre ledd, § 78 fjerde ledd og § 81 første ledd som trer i kraft 1. juli 2014.*
 
 > Loven trer i kraft 1. januar 2014, med unntak av § 1 a, § 5 andre og fjerde ledd, § 15 nytt andre ledd, § 78 fjerde ledd og § 81 første ledd som trer i kraft 1. juli 2014.
+>
+
+### 2014-01-01 — forskrift/2013-12-13-1443
+
+*Ikraftsetting av lov 21. juni 2013 nr. 62 om endringer i barnelova (barneperspektivet i foreldretvister).*
+
+> Ikraftsetting av lov 21. juni 2013 nr. 62 om endringer i barnelova (barneperspektivet i foreldretvister).
+>
+> Loven trer i kraft 1. januar 2014.
+>
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*Overskriften til kapittel 7 skal lyde:*
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
 >
 
 ### 2017-06-02 — forskrift/2017-06-02-690
@@ -358,6 +472,13 @@ refid: "lov/1981-04-08-7"
 > Når ein part med heimel i ei avtale med framand stat ber om innkrevjing av ei avtale om tilskot etter § 70 første stykket, skal avtala sendast Innkrevingssentralen for bidrag og tilbakebetalingskrav for godkjenning.
 >
 
+### 2018-01-01 — forskrift/2017-09-15-1395
+
+*Delt ikraftsetting av lov 31. mars 2017 nr. 13 om endring i lov 8. april 1981 nr. 7 om barn og foreldre og lov 19. juni 1997 nr. 62 om familievernkontor. Lovendringene trer i kraft fra 1. januar 2018, med unntak av endringen i barnelova § 35 som vil tre i kraft på et senere tidspunkt.*
+
+> Delt ikraftsetting av lov 31. mars 2017 nr. 13 om endring i lov 8. april 1981 nr. 7 om barn og foreldre og lov 19. juni 1997 nr. 62 om familievernkontor. Lovendringene trer i kraft fra 1. januar 2018, med unntak av endringen i barnelova § 35 som vil tre i kraft på et senere tidspunkt.
+>
+
 ### 2018-04-20 — lov/2018-04-20-6
 
 *Kapittel 7 avsnitt IV blir nytt avsnitt V.*
@@ -371,11 +492,39 @@ refid: "lov/1981-04-08-7"
 > Folkeregistermyndigheita skal, utan hinder av teieplikt, gje dei opplysingane som er naudsynte for utføring av oppgåver etter lova her.
 >
 
+### 2019-01-01 — forskrift/2018-04-20-600
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft 1. januar 2019, med unntak av endringen i barneloven § 56 andre ledd andre punktum.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft 1. januar 2019, med unntak av endringen i barneloven § 56 andre ledd andre punktum.
+>
+
+### 2019-04-01 — forskrift/2019-03-01-163
+
+*Ikraftsetting av lov 15. juni 2018 nr. 34 om endringer i barnelova og statsborgerloven (foreldreskap og statsborgerskap for barn født i utlandet). Loven trer i kraft 1. april 2019.*
+
+> Ikraftsetting av lov 15. juni 2018 nr. 34 om endringer i barnelova og statsborgerloven (foreldreskap og statsborgerskap for barn født i utlandet). Loven trer i kraft 1. april 2019.
+>
+
+### 2019-05-01 — forskrift/2019-04-26-534
+
+*Delt ikraftsetting av lov 20. april 2018 nr. 6 om endringer i barnelova og straffeloven mv. (bedre rettsvern for barn mot vold og overgrep). Lovens del I, endringene i lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) § 56 andre ledd andre punktum, settes i kraft 1. mai 2019.*
+
+> Delt ikraftsetting av lov 20. april 2018 nr. 6 om endringer i barnelova og straffeloven mv. (bedre rettsvern for barn mot vold og overgrep). Lovens del I, endringene i lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) § 56 andre ledd andre punktum, settes i kraft 1. mai 2019.
+>
+
 ### 2019-06-21 — lov/2019-06-21-25
 
 *I lov 8. april 1981 nr. 7 om barn og foreldre skal § 73 andre ledd lyde:*
 
 > Indeksreguleringa gjeld også for beløpet som er fastsett etter forskotteringsloven § 5 første stykket, med mindre Stortinget gjer vedtak om noko anna.
+>
+
+### 2019-06-21 — forskrift/2019-06-21-781
+
+*Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.
 >
 
 ### 2020-01-01 — forskrift/2019-09-13-1121
@@ -390,6 +539,13 @@ refid: "lov/1981-04-08-7"
 *Loven trer i kraft 1. januar 2021.*
 
 > Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2021-06-11 — lov/2021-06-11-60
@@ -446,6 +602,50 @@ refid: "lov/1981-04-08-7"
 > Delt ikraftsetting av lov om endringer i barnelova (Barnesakkyndig kommisjon i foreldretvistsaker). Endringene i barnelova § 61b og § 61c fjerde ledd trer i kraft straks.
 >
 
+### 2022-06-17 — lov/2022-06-17-44
+
+*Nåværende annet ledd blir nytt tredje ledd.*
+
+> 5.I lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven) gjøres følgende endring:
+>
+
+### 2022-06-17 — forskrift/2022-06-17-1037
+
+*Delt iverksetjing av lov om forskriftsheimel for behandling av personopplysningar for frivillige tiltak på barne-, oppvekst- og familieområdet mv.*
+
+> Delt iverksetjing av lov om forskriftsheimel for behandling av personopplysningar for frivillige tiltak på barne-, oppvekst- og familieområdet mv.
+>
+> Følgjande blir sett i kraft 1. januar 2023:
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 2 om endring i lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) § 44.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 3 om endring i lov 22. juni 2013 nr. 43
+>
+> om arbeidsgivers innrapportering av ansettelses- og inntektsforhold m.m. (a-opplysningsloven) § 8 første ledd første punktum.
+>
+> Følgjande blir sett i kraft straks:
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 1–§ 5.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 1 om endring i lov 16. juni 2017 nr. 48 om adopsjon (adopsjonsloven) § 35.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 4 om endring i lov 4. september 2015 nr. 85 om gjennomføring av konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn (lov om Haagkonvensjonen 1996) § 2 annet ledd.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 5 om endring i lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven) § 13-4 sjette ledd.
+>
+> Skal vere lov 22. juni 2012 nr. 43. Lovtidend-redaksjonen sin merknad.
+>
+> Rettelser
+>
+> Det som er rettet er satt i kursiv.
+>
+> Andre ledd andre strekpunkt skal lyde:
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 3 om endring i lov 22. juni
+>
+> nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold m.m. (a-opplysningsloven) § 8 første ledd første punktum.
+>
+
 ### 2022-08-15 — forskrift/2022-06-03-959
 
 *Delt iverksetjing av lov 11. juni 2021 nr. 60 om endringer i barnelova (Barnesakkyndig kommisjon i foreldretvistsaker). Følgjande blir sett i kraft frå 15. august 2022:*
@@ -455,9 +655,63 @@ refid: "lov/1981-04-08-7"
 > Endringslova del I § 61c fyrste til tredje ledd og § 61d.
 >
 
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-06-16 — lov/2023-06-16-34
 
-*I lov 8. april 1981 nr. 7 om barn og foreldre skal § 4 andre ledd bokstav d lyde:utsend utanrikstenestetilsett, dersom faren er i utlandet.*
+*I lov 8. april 1981 nr. 7 om barn og foreldre skal § 4 andre ledd bokstav d lyde:*
+
+> utsend utanrikstenestetilsett, dersom faren er i utlandet.
+>
+
+### 2023-09-01 — forskrift/2023-06-16-899
+
+*Loven trer i kraft 1. september 2023.*
+
+> Loven trer i kraft 1. september 2023.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-944
+
+*Loven trer i kraft 1. oktober 2023.*
+
+> Loven trer i kraft 1. oktober 2023.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-928
+
+*Følgende trer i kraft straks:*
+
+> Følgende trer i kraft straks:
+>
+> Endringsloven del I (barnevernsloven) med unntak av § 12-11 annet ledd, § 13-5 og § 13-6 første ledd.
+>
+> Endringsloven del II (barnelova) § 69 første punktum.
+>
+> Endringsloven del III (barnetrygdloven) § 1 annet ledd og overskriften til kapittel 3.
+>
+> Endringsloven del IV lov 6. juni 2014 nr. 19 om stans i utbetalinga av offentlege ytingar og barnebidrag når ein av foreldra har bortført eit barn til utlandet § 2 annet ledd annet punktum bokstav a, § 3 og § 4.
+>
+> Følgende trer i kraft 1. januar 2024:
+>
+> Endringsloven del I § 12-11 annet ledd, § 13-5 og § 13-6 første ledd.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
 
 ## § 1
 
@@ -498,6 +752,13 @@ refid: "lov/1981-04-08-7"
 *§ 1 a oppheves.*
 
 ## § 10
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 10 tredje ledd skal lyde:*
+
+> Tilskotsfut er det organ i Arbeids- og velferdsetaten som Arbeids- og velferdsdirektoratet bestemmer. Departementet kan fastsetje noko anna.
+>
 
 ### 2007-06-29 — lov/2007-06-29-53
 
@@ -604,6 +865,15 @@ refid: "lov/1981-04-08-7"
 
 *§ 19 annet ledd oppheves.*
 
+## § 2
+
+### 2022-06-17 — lov/2022-06-17-44
+
+*§ 2 annet ledd skal lyde:*
+
+> Sentralmyndigheten kan, uten hinder av taushetsplikt, innhente fra Folkeregisteret de opplysninger som er nødvendige for utførelsen av oppgaver etter denne loven.
+>
+
 ## § 21
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -644,6 +914,12 @@ refid: "lov/1981-04-08-7"
 >
 > Lèt nokon vere å rette seg etter påbod etter første stykket eller § 11 første stykket om å kome sjølv eller med barn vedkomande har omsorg for, til prøvetaking og DNA-analyse, kan retten i orskurd vedta at vedkomande skal gripast av politiet og førast til lækjar for prøvetaking.
 >
+
+## § 25 a
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 25 a annet ledd oppheves.*
 
 ## § 26
 
@@ -771,6 +1047,15 @@ refid: "lov/1981-04-08-7"
 > Ein avtale foreldre eller andre gjer om ekteskap på vegner av barnet, er ikkje bindande.
 >
 
+## § 30 d
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 30 d nytt femte ledd skal lyde:*
+
+> For spørsmål som bringes inn i saken etter første ledd bokstav a og c, gjelder § 30 b om norske domstolers kompetanse og § 30 c om verneting tilsvarende. For spørsmål som bringes inn i saken etter første ledd bokstav b, gjelder § 30 c om verneting tilsvarende. For spørsmål som bringes inn i saken etter første ledd bokstav b, gjelder barnelova § 82 om norske domstolers kompetanse tilsvarende, med mindre noe annet følger av overenskomst med annen stat. Med mindre noe annet følger av overenskomst med annen stat, har norske domstoler også kompetanse til å behandle spørsmål etter første ledd bokstav b dersom:en av barnets foreldre har vanlig bosted her i landet,en av dem har foreldreansvar for barnet ogdet er til barnets beste at spørsmål etter barnelova behandles.
+>
+
 ## § 31
 
 ### 2003-06-20 — lov/2003-06-20-40
@@ -854,6 +1139,21 @@ refid: "lov/1981-04-08-7"
 > Foreldre som ikkje er gifte, har foreldreansvaret saman for sams barn. Dersom foreldra ikkje bur saman, og mora ønskjer foreldreansvaret aleine, kan ho gje melding til folkeregistermyndigheita innan eitt år frå farskapen vart fastsett. Tilsvarande gjeld der faren ikkje ønskjer sams foreldreansvar. Når ein av foreldra har gjeve slik melding, får mora foreldreansvaret aleine.
 >
 > For sambuande foreldre som flyttar frå kvarandre, gjeld reglane i § 34 andre leddet tilsvarande.
+>
+
+### 2022-06-17 — lov/2022-06-17-44
+
+*§ 35 skal lyde:*
+
+> § 35.Forholdet til forvaltningsloven mv.
+>
+> Forvaltningsloven gjelder ved behandlingen av adopsjonssaker dersom ikke noe annet følger av denne loven.
+>
+> Enhver som utfører tjeneste eller arbeid for barne-, ungdoms- og familieetaten eller en adopsjonsorganisasjon med tillatelse etter §§ 31 og 32, har taushetsplikt etter forvaltningsloven §§ 13 til 13 e og 13 g. Taushetsplikten omfatter også opplysninger om fødested, fødselsdato, personnummer, statsborgerforhold, sivilstand, yrke, bopel og arbeidssted.
+>
+> Offentlige myndigheter kan, uten hinder av taushetsplikt, innhente opplysninger fra Folkeregisteret når det er nødvendig for å utføre oppgaver etter denne loven.
+>
+> 2.I lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) gjøres følgende endring:
 >
 
 ## § 35 a
@@ -967,6 +1267,17 @@ refid: "lov/1981-04-08-7"
 > Dersom farskap eller medmorskap er fastsett og foreldra er folkeregistrerte på same adresse eller erklærer i melding til folkeregistermyndigheita at dei bur saman, skal folkeregistermyndigheita registrera at foreldra har foreldreansvaret saman.
 >
 
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 39 skal lyde:*
+
+> § 39.Melding om foreldreansvar mv.
+>
+> Avtale eller norsk avgjerd om foreldreansvaret skal meldast til folkeregistermyndigheita. Avtale om foreldreansvar som ikkje er meldt til folkeregistermyndigheita, er ikkje gyldig. Dersom farskap eller medmorskap er fastsett, og foreldra er folkeregistrerte på same adresse her i landet eller erklærer i melding til folkeregistermyndigheita at dei bur saman her, skal folkeregistermyndigheita registrera at foreldra har foreldreansvaret saman.
+>
+> Ei avtale etter første stykket må vere inngått i samsvar med norsk rett mellom foreldra og gjelde felles barn.
+>
+
 ## § 4
 
 ### 2002-12-20 — lov/2002-12-20-92
@@ -991,6 +1302,13 @@ refid: "lov/1981-04-08-7"
 > Vedgåing kan dessutan gjevast ved påteikning på farskapsførelegg.
 >
 > Er den som vil vedgå farskapen under 18 år, må også dei som har foreldreansvaret for han, skrive under vedgåinga.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 4 annet ledd bokstav b skal lyde:*
+
+> tilskotsfuten, dommaren eller det organ i Arbeids- og velferdsetaten som Arbeids- og velferdsdirektoratet bestemmer.
 >
 
 ### 2007-06-29 — lov/2007-06-29-53
@@ -1084,6 +1402,42 @@ refid: "lov/1981-04-08-7"
 > Departementet kan ved forskrift gje utfyllande reglar om fastsetjing av medmorskap etter §§ 3 og 4 i denne lova.
 >
 
+## § 40
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 40 skal lyde:*
+
+> § 40.Flytting for barnet ut av landet og opphald utanfor landet
+>
+> Har den eine av foreldra foreldreansvaret åleine, kan den andre ikkje setje seg imot at barnet flyttar ut av landet.
+>
+> Dersom foreldra har foreldreansvaret saman, må begge samtykkje til at barnet skal flytte ut av landet eller ta opphald utanfor landet utover stuttare utanlandsferder, jf. § 41. Det same gjeld der eit avtalt opphald blir forlenga eller endra, til dømes der barnet blir etterlate.
+>
+> Barn som er fylt 12 år, må samtykkje til ei avgjerd etter første og andre stykket dersom barnet flyttar eller tek opphald utan ein forelder med foreldreansvar.
+>
+> Er foreldra usamde om kven som skal ha foreldreansvaret, flytting med barnet ut av landet, eller kven barnet skal bu fast saman med, må barnet ikkje flytte ut av landet før saka er avgjort.
+>
+
+## § 41
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 41 skal lyde:*
+
+> § 41.Utanlandsferd for barnet
+>
+> Den som har sams foreldreansvar, kan ta med eller sende barnet på stuttare utanlandsferder. Har foreldra sams foreldreansvar, kan retten i orskurd setje forbod mot utanlandsferd for barnet, dersom det er uvisst om barnet vil kome attende. Forbodet kan gjelde ei enkelt reise eller ålment, og kan også setjast i ei sak om foreldreansvaret, kven barnet skal bu fast saman med, eller samværsrett. Retten kan ta førebels avgjerd for tida fram til saka er endeleg avgjord.
+>
+> I sak der det vert nedlagt reiseforbod, skal barnet førast ut av passet til den som vil forlate landet, eller barnet sitt pass skal trekkjast attende, eller barnet kan setjast bort til andre på forsvarleg måte til saka er avgjord.
+>
+> Dersom det er fare for at barnet ikkje vil kome attende, kan politiet leggje ned førebels utreiseforbod fram til saka kan handsamast av retten. Andre stykket gjeld tilsvarande. Eit førebels utreiseforbod kan ikkje påklagast.
+>
+> Den av foreldra som ikkje har foreldreansvaret, kan ikkje reise ut av landet med barnet utan samtykkje frå den som har foreldreansvaret. Retten kan likevel etter krav frå den som vil reise, gje samtykkje til utanlandsferd med barnet når det er openbert at barnet vil kome attende. Første stykket tredje og fjerde punktum gjeld tilsvarande for samtykkjet.
+>
+> Barn som er fylt 12 år, må samtykkje i ei avgjerd om å dra på utanlandsferd utan ein forelder med foreldreansvar.
+>
+
 ## § 42
 
 ### 2010-04-09 — lov/2010-04-09-13
@@ -1093,7 +1447,20 @@ refid: "lov/1981-04-08-7"
 > Barnet har rett til samvær med begge foreldra, jamvel om dei lever kvar for seg. Foreldra har gjensidig ansvar for at samværsretten vert oppfyld. Dersom ein av foreldra vil flytte, og det er avtale eller avgjerd om samvær, skal den som vil flytte, varsle den andre seinast seks veker før flyttinga.
 >
 
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 42 første ledd tredje punktum oppheves.*
+
 ## § 42 a
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*Ny § 42 a skal lyde:*
+
+> § 42 a.Varsel ved flytting
+>
+> Dersom ein av foreldra vil flytte i Noreg eller ut av landet, og det er avtale eller avgjerd om samvær, skal den som vil flytte, varsle den andre seinast seks veker før flyttinga.
+>
 
 ### 2017-03-31 — lov/2017-03-31-13
 
@@ -1237,6 +1604,21 @@ refid: "lov/1981-04-08-7"
 > Reglane i § 63 gjeld tilsvarande.
 >
 
+### 2022-06-17 — lov/2022-06-17-44
+
+*§ 44 skal lyde:*
+
+> § 44.Reisekostnader ved samvær.
+>
+> Reisekostnadene ved samvær skal delast mellom foreldra etter storleiken på inntektene deira der foreldra ikkje blir samde om noko anna. Kostnadene som skal delast, er kostnader til barnet si reise, foreldra sine nødvendige kostnader til reise i samband med å hente eller bringe barnet til samværet og samværsforelderen sine kostnader til eiga reise når samværet skjer der barnet bur. Reglane i § 70 sjuande ledd gjeld så langt dei høver.
+>
+> Dersom særlege grunnar gjer det rimeleg, kan retten fastsetje ei anna fordeling av reisekostnadene. Er foreldra samde om det, kan sak om reisekostnadene i staden gå til arbeids- og velferdsetaten. Har barnet fylt 15 år, kan sak om reisekostnader gå til arbeids- og velferdsetaten jamvel om berre ein av foreldra ber om det. Reglane i § 63 gjeld tilsvarande. Arbeids- og velferdsetaten sitt vedtak er tvangsgrunnlag for utlegg.
+>
+> Når begge foreldra ber om det, kan arbeids- og velferdsetaten fastsetje at ei skriftleg avtale om deling av reisekostnader skal kunne tvangsfullførast ved utlegg etter tvangsfullbyrdelsesloven kapittel 7.
+>
+> 3.I lov 22. juni 2012 nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold m.m. (a-opplysningsloven) gjøres følgende endring:
+>
+
 ## § 44 b
 
 ### 2001-06-15 — lov/2001-06-15-37
@@ -1287,6 +1669,13 @@ refid: "lov/1981-04-08-7"
 > Avgjerder om foreldreansvar, om kvar barnet skal bu fast og om samvær, og handsaminga av slike saker, skal først og fremst rette seg etter det som er best for barnet.
 >
 > Ved avgjerda skal det takast omsyn til at barnet ikkje må bli utsett for vald eller på anna vis bli handsama slik at den fysiske eller psykiske helsa vert utsett for skade eller fare.
+>
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 48 første ledd skal lyde:*
+
+> Avgjerder om foreldreansvar, flytting med barnet ut av landet, kven barnet skal bu fast saman med og samvær, og handsaminga av slike saker, skal først og fremst rette seg etter det som er best for barnet.
 >
 
 ## § 5
@@ -1418,6 +1807,13 @@ refid: "lov/1981-04-08-7"
 > Saka må bringast inn for den fylkesmannen der barnet har alminneleg verneting på den tida saka vert reist.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 55 første ledd tredje punktum skal lyde:*
+
+> Trengst det, bør sakkunnige, barnevernstenesta eller sosialtenesta uttale seg før statsforvaltaren avgjer spørsmålet.
+>
+
 ## § 56
 
 ### 2001-06-15 — lov/2001-06-15-37
@@ -1425,6 +1821,13 @@ refid: "lov/1981-04-08-7"
 *§ 56 andre ledd skal lyde:*
 
 > Indeksreguleringa gjeld også for beløpet som er fastset etter lov 17. februar 1989 nr. 2 om bidragsforskott (forskotteringsloven) § 5 første stykket.
+>
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 56 første ledd skal lyde:*
+
+> Er foreldra usamde om kven som skal ha foreldreansvar, kven barnet skal bu fast saman med, eller samvær, kan kvar av dei reise sak for retten. Sak om flytting med barnet ut av landet kan reisast av forelder med foreldreansvar eller av forelder som samstundes reiser sak om foreldreansvar. Andre enn foreldra kan reise sak når vilkåra etter §§ 45 eller 63 er oppfylde.
 >
 
 ### 2018-04-20 — lov/2018-04-20-6
@@ -1563,6 +1966,13 @@ refid: "lov/1981-04-08-7"
 > Etter krav frå ein part skal retten i alle høve ta førebels avgjerd dersom det er ein risiko for at barnet blir utsett for vald eller på anna vis handsama slik at den fysiske eller psykiske helsa blir utsett for skade eller fare.
 >
 
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 60 første ledd skal lyde:*
+
+> Retten kan etter krav frå ein part ta førebels avgjerd om foreldreansvar, flytting med barnet ut av landet, kven barnet skal bu fast saman med, og samvær. Sak om førebels avgjerd om flytting med barnet ut av landet kan reisast av forelder med foreldreansvar og av forelder som samstundes reiser sak om foreldreansvar. Slik avgjerd kan gjelde for ei viss tid eller til saka er endeleg avgjord. Retten kan også ta førebels avgjerd før saka er reist, dersom særlege grunnar talar for det. Etter krav frå ein part skal retten i alle høve ta førebels avgjerd dersom det er ein risiko for at barnet blir utsett for vald eller på anna vis handsama slik at den fysiske eller psykiske helsa blir utsett for skade eller fare.
+>
+
 ## § 60 a
 
 ### 2006-04-07 — lov/2006-04-07-6
@@ -1602,7 +2012,11 @@ refid: "lov/1981-04-08-7"
 
 *§ 61 første ledd nr. 3, 4 og 5 skal lyde:*
 
-> Der det trengst, bør retten oppnemne sakkunnig til å uttale seg om eitt eller fleire av spørsmåla som saka reiser. Der det er sett fram påstandar om vald, overgrep, rus eller psykisk liding og saka ikkje er tilstrekkeleg opplyst på anna måte, kan retten oppnemne ein sakkunnig.Dommaren kan gjennomføre samtalar med barnet, jf. § 31. Retten kan oppnemne ein sakkunnig eller annan eigna person til å hjelpe seg, eller la ein sakkunnig ha samtale med barnet aleine. Der barnet har formidla meininga si, skal dommaren eller den dommaren peiker ut orientere barnet om utfallet av saka og korleis meininga til barnet har blitt teke omsyn til.Retten kan i særlege høve, mellom anna når det er grunn til å tru at barnet er utsett for vald eller på anna vis blir handsama slik at den fysiske eller psykiske helsa blir utsett for skade eller fare, oppnemne ein advokat eller annan representant til å ta vare på interessene til barnet i samband med søksmålet. Den som er oppnemnd, kan samtale med barnet og skal gje slik informasjon og støtte som er naturleg. Advokaten eller representanten skal få saksdokumenta. Han kan kome med framlegg om handsaminga av saka og skriftleg eller i rettsmøte gje råd om korleis sakshandsaminga best kan ta vare på interessene til barnet. Retten avgjer om og eventuelt kor lenge han skal vere til stades under rettsmøta i saka. Når advokaten eller representanten er til stades i rettsmøta, kan han stille spørsmål til partar og vitne.
+> Der det trengst, bør retten oppnemne sakkunnig til å uttale seg om eitt eller fleire av spørsmåla som saka reiser. Der det er sett fram påstandar om vald, overgrep, rus eller psykisk liding og saka ikkje er tilstrekkeleg opplyst på anna måte, kan retten oppnemne ein sakkunnig.
+>
+> Dommaren kan gjennomføre samtalar med barnet, jf. § 31. Retten kan oppnemne ein sakkunnig eller annan eigna person til å hjelpe seg, eller la ein sakkunnig ha samtale med barnet aleine. Der barnet har formidla meininga si, skal dommaren eller den dommaren peiker ut orientere barnet om utfallet av saka og korleis meininga til barnet har blitt teke omsyn til.
+>
+> Retten kan i særlege høve, mellom anna når det er grunn til å tru at barnet er utsett for vald eller på anna vis blir handsama slik at den fysiske eller psykiske helsa blir utsett for skade eller fare, oppnemne ein advokat eller annan representant til å ta vare på interessene til barnet i samband med søksmålet. Den som er oppnemnd, kan samtale med barnet og skal gje slik informasjon og støtte som er naturleg. Advokaten eller representanten skal få saksdokumenta. Han kan kome med framlegg om handsaminga av saka og skriftleg eller i rettsmøte gje råd om korleis sakshandsaminga best kan ta vare på interessene til barnet. Retten avgjer om og eventuelt kor lenge han skal vere til stades under rettsmøta i saka. Når advokaten eller representanten er til stades i rettsmøta, kan han stille spørsmål til partar og vitne.
 >
 
 ### 2013-06-21 — lov/2013-06-21-62
@@ -1628,6 +2042,15 @@ refid: "lov/1981-04-08-7"
 > § 61 a.Fritak for teieplikt for barnevernstenesta
 >
 > Barnevernstenesta kan uhindra av teieplikta etter barnevernloven § 6-7 gi opplysningar til domstolen i sak om foreldreansvar, kvar barnet skal bu fast og samvær.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 61 a skal lyde:*
+
+> § 61 a.Fritak for teieplikt for barnevernstenesta
+>
+> Barnevernstenesta kan uhindra av teieplikta etter barnevernsloven § 13-1 gi opplysningar til domstolen i sak om foreldreansvar, kvar barnet skal bu fast og samvær.
 >
 
 ## § 62
@@ -1748,6 +2171,29 @@ refid: "lov/1981-04-08-7"
 > Dersom ein av foreldra har flytta med barnet utan at foreldra var samde, kan den andre av foreldra reise ny sak for retten.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 64 fjerde ledd skal lyde:*
+
+> Retten skal avgjere spørsmålet om foreldreansvar ved dom. Retten bør innhente fråsegner frå den kommunale barnevernstenesta der det trengst. Retten bør gje dei næraste slektningane til barnet eller dei som barnet bur saman med, høve til å uttale seg, med mindre dette er uturvande.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 64 syvende ledd skal lyde:*
+
+> Retten skal gje melding til den kommunale barnevernstenesta og statsforvaltaren dersom ingen har vendt seg til retten etter § 64 a, eller dersom dommen fører til at ingen har foreldreansvar for barnet. Barnevernstenesta skal plassere og følgje opp barnet etter reglane i barnevernsloven.
+>
+
+## § 64 c
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 64 c første ledd skal lyde:*
+
+> Retten skal av eige tiltak og utan ugrunna opphald ta avgjerd om foreldreansvar når det er teke ei førebels avgjerd og ingen har teke ut søksmål etter § 64. Dette gjeld ikkje dersom retten etter § 64 b har tatt avgjerd om at ingen skal ha foreldreansvaret, og gitt melding til den kommunale barnevernstenesta og statsforvaltaren.
+>
+
 ## § 65
 
 ### 2013-06-21 — lov/2013-06-21-62
@@ -1809,6 +2255,15 @@ refid: "lov/1981-04-08-7"
 
 ## § 69
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 69 skal lyde:*
+
+> § 69.Tilhøvet mellom reglane om fostringsplikt etter barnelova og barnevernsloven
+>
+> Fostringstilskot som er fastsette etter lova her fell bort frå det tidspunktet tilskot kan fastsetjast etter barnevernsloven § 15-13 første ledd.
+>
+
 ### 2023-06-16 — lov/2023-06-16-41
 
 *§ 69 første punktum skal lyde:*
@@ -1841,6 +2296,13 @@ refid: "lov/1981-04-08-7"
 *§ 70 sjuende ledd skal lyde:*
 
 > Foreldra har plikt til å opplyse det organet som skal handsame fastsetjinga av tilskotet, om kva arbeid, utdanning, inntekt og formue dei har, og elles om alt anna som kan ha noko å seie for fastsetjinga av fostringstilskotet. For å fastsetje tilskotet kan organet utan omsyn til teieplikta krevje dei opplysningane som trengst frå arbeidsgjevarar, likningsstell, arbeids- og velferdsetaten og forsikringsselskap, bankar og andre som forvarer eller forvaltar formueverdiar.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 70 syvende ledd skal lyde:*
+
+> Foreldra har plikt til å opplyse det organet som skal handsame fastsetjinga av tilskotet, om kva arbeid, utdanning, inntekt og formue dei har, og elles om alt ana som kan ha noko å seie for fastsetjinga av fostringstilskotet. For å fastsetje tilskotet kan organet utan omsyn til teieplikta krevje dei opplysningane som trengst frå arbeidsgjevarar, skattestyresmaktene, arbeids- og velferdsetaten og forsikringsselskap, bankar og andre som forvarer eller forvaltar formueverdiar.
 >
 
 ### 2017-06-02 — lov/2017-06-02-33
@@ -1880,6 +2342,13 @@ refid: "lov/1981-04-08-7"
 >
 
 ## § 77
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 77 skal lyde:*
+
+> Avgjerd om fostringstilskot til barn fastsett av tilskotsfuten kan klagast inn for næraste overordna organ eller det organ som Arbeids- og velferdsdirektoratet bestemmer.
+>
 
 ### 2008-12-12 — lov/2008-12-12-85
 
@@ -1932,6 +2401,15 @@ refid: "lov/1981-04-08-7"
 > Domstolar eller styringsorgan kan ikkje prøve farskapen eller medmorskapen i andre saker enn nemnt i §§ 6 og 7. Domstol eller styringsorgan kan ikkje i andre saker leggje til grunn at ein mann er faren eller ei kvinne medmora utan at det er fastsett etter lova her.
 >
 
+### 2022-06-17 — lov/2022-06-17-44
+
+*§ 8 første ledd første punktum skal lyde:*
+
+> Arbeids- og velferdsetaten skal ha tilgang til opplysningene i registeret i forbindelse med forvaltning og beregning av ytelser etter folketrygdloven og andre lover som etaten administrerer, forvaltning av arbeidstakerregisteret og fastsetting av underholdsbidrag og deling av reisekostnader ved samvær etter barnelova, oppfostringsbidrag etter barnevernloven og bidrag etter ekteskapsloven.
+>
+> 4.I lov 4. september 2015 nr. 85 om gjennomføring av konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn (lov om Haagkonvensjonen 1996) gjøres følgende endring:
+>
+
 ## § 80
 
 ### 2006-04-07 — lov/2006-04-07-6
@@ -1956,6 +2434,13 @@ refid: "lov/1981-04-08-7"
 > Kravet kan setjast ned eller falle bort dersom det er klart at han ikkje hadde rimeleg grunn til å vedgå eller erklære farskapen, eller at han burde ha reist sak til endring tidlegare.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 80 første ledd tredje og fjerde punktum skal lyde:*
+
+> Ei indeksregulering skal likevel først gjerast etter at det er teke omsyn til frådraga den frikjende faren tidlegare har fått i skattefastsetjinga si for betalt tilskot. Fordelen av det tidlegare frådraget i skattefastsetjinga skal setjast til 20 prosent.
+>
+
 ## § 81
 
 ### 2008-06-27 — lov/2008-06-27-53
@@ -1974,6 +2459,17 @@ refid: "lov/1981-04-08-7"
 *§ 81 første ledd skal lyde:*
 
 > Farskap og medmorskap kan fastsetjast i Noreg etter § 4, § 7 og kapitla 3 og 4dersom mora var busett i Noreg då barnet vart født,dersom barnet seinare har busett seg i Noreg, ellerdersom den oppgjevne faren eller medmora er busett i Noreg.
+>
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 81 skal lyde:*
+
+> § 81.Når farskap eller medmorskap kan fastsetjast i Noreg
+>
+> Farskap og medmorskap kan fastsetjast i Noreg etter § 4, § 7 og kapitla 3 og 4dersom mora hadde vanleg bustad i Noreg då barnet vart født,dersom barnet seinare har fått vanleg bustad i Noreg, ellerdersom den oppgjevne faren eller medmora har vanleg bustad i Noreg.
+>
+> Endringssak etter § 6 kan reisast for norske domstolar, om nokon av dei som kan reise søksmål, har vanleg bustad i Noreg, eller farskapen er fastsett etter norske reglar.
 >
 
 ### 2018-06-15 — lov/2018-06-15-34
@@ -1996,6 +2492,30 @@ refid: "lov/1981-04-08-7"
 > Ei sak om morskap kan handsamast etter kapittel 4A og § 5 tredje stykketdersom barnet er busett i Noreg,dersom mora var busett i Noreg då barnet vart født, ellerdersom mora seinare har busett seg i Noreg.
 >
 
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 81 a skal lyde:*
+
+> § 81 a.Når sak om morskap kan handsamast i Noreg
+>
+> Ei sak om morskap kan handsamast etter kapittel 4A og § 5 tredje stykketdersom barnet har vanleg bustad i Noreg,dersom mora hadde vanleg bustad i Noreg då barnet vart født, ellerdersom mora seinare har fått vanleg bustad i Noreg.
+>
+
+## § 82
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 82 skal lyde:*
+
+> § 82.Når sak om foreldreansvar, flytting med barnet ut av landet, kven barnet skal bu fast saman med, eller samvær kan handsamast i Noreg
+>
+> Sak om foreldreansvar, flytting med barnet ut av landet, kven barnet skal bu fast saman med eller samvær kan reisast for norsk domstol dersom barnet har vanleg bustad i Noreg. Det same gjeld i sak som fylkesmannen skal handsame etter § 55.
+>
+> Sak om førebels avgjerd kan handsamast av norsk domstol i alle tilfelle der barnet har opphald i Noreg.
+>
+> Første og andre stykket gjeld ikkje dersom anna følgjer av overeinskomst med annan stat.
+>
+
 ## § 83
 
 ### 2008-06-27 — lov/2008-06-27-53
@@ -2003,6 +2523,15 @@ refid: "lov/1981-04-08-7"
 *§ 83 bokstav a skal lyde:*
 
 > når det vert reist i sak om farskap, medmorskap, foreldreansvar eller samværsrett for avgjerdsført norsk organ
+>
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 83 skal lyde:*
+
+> § 83.Når sak om fostringstilskot kan handsamast i Noreg
+>
+> Spørsmålet om fostringstilskot kan handsamast av tilskotsfuten eller norsk domstolnår det vert reist i sak om farskap, medmorskap, foreldreansvar, flytting med barnet ut av landet eller samvær for avgjerdsført norsk organdersom ein av partane eller barnet har vanleg bustad i Noreg.
 >
 
 ## § 83 a
@@ -2043,13 +2572,48 @@ refid: "lov/1981-04-08-7"
 > Når ein part med heimel i ei avtale med framand stat ber om innkrevjing av ei avtale om tilskot etter § 70 første stykket, skal avtala sendast Arbeids- og velferdsetaten for godkjenning. Arbeids- og velferdsetaten skal kontrollere at vilkåra for innkrevjing av avtala etter norske reglar er oppfylte. Om vilkåra er oppfylte, skal Innkrevjingsmyndigheita gi skriftleg fråsegn om at avtala er godkjent og tvangskraftig i Noreg.
 >
 
+## § 84
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*§ 84 skal lyde:*
+
+> Saker som høyrer under norsk avgjerdsmakt etter §§ 81 til 83, skal avgjerast etter norsk rett, med mindre anna følgjer av overeinskomst med annan stat.
+>
+
 ## § 84 a
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*Ny § 84 a skal lyde:*
+
+> § 84 a.Lovvalet for foreldreansvar etter lova mv.
+>
+> Reglane i §§ 34 og 35 gjeld for barn som har vanleg bustad i Noreg. Det same gjeld § 39 om avtalar.
+>
+> Foreldreansvar eller tilsvarande myndigheitsforhold etter lova i ein stat der barnet tidlegare hadde vanleg bustad, skal leggjast til grunn i Noreg når dette følgjer av konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn artikkel 16 nr. 3. Dette gjeld likevel ikkje dersom det ligg føre ei utanlandsk avgjerd som skal godkjennast etter § 84 b.
+>
+> Når eit barn får vanleg bustad i Noreg, og tidlegare hadde vanleg bustad i ein annan stat, kan ein forelder som ikkje har foreldreansvar etter andre stykket, berre tildelast foreldreansvar for barnet i kraft av barnelova dersom forelderen har vanleg bustad i Noreg.
+>
 
 ### 2018-04-20 — lov/2018-04-20-6
 
 *§ 84 a første ledd første punktum skal lyde:*
 
 > Reglane i §§ 34, 35 og 38 gjeld for barn som har vanleg bustad i Noreg.
+>
+
+## § 84 b
+
+### 2015-09-04 — lov/2015-09-04-85
+
+*Ny § 84 b skal lyde:*
+
+> § 84 b.Godkjenning av utanlandsk avgjerd om foreldreansvar mv.
+>
+> Avgjerd om foreldreansvar eller tilsvarande myndigheitsforhold, flytting med barnet ut av landet, kven barnet skal bu fast saman med eller samvær skal berre leggjast til grunn i Noreg direkte i kraft av lova når dette følgjer av overeinskomst med annan stat.
+>
+> 2. I lov 17. juli 1992 nr. 100 om barneverntjenester gjøres følgende endringer:
 >
 
 ## § 85

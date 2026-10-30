@@ -14,6 +14,13 @@ refid: "lov/2022-03-04-7"
 > Departementet kan gi forskrift om gjennomføring i norsk rett av EØS-prosedyreregler.
 >
 
+### 2023-01-01 — forskrift/2022-12-16-2248
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
 ### 2025-06-20 — lov/2025-06-20-108
 
 *I lov 4. mars 2022 nr. 7 om nasjonale saksbehandlingsregler i saker om offentlig støtte skal § 2 lyde:*
@@ -32,6 +39,17 @@ refid: "lov/2022-03-04-7"
 *Loven trer i kraft 1. august 2025.*
 
 > Loven trer i kraft 1. august 2025.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ### 2026-06-19 — lov/2026-06-19-62

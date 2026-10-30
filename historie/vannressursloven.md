@@ -7,13 +7,131 @@ refid: "lov/2000-11-24-82"
 
 ## (annet)
 
+### 2005-05-27 — lov/2005-05-27-31
+
+*7. I lov 24. november 2000 nr. 82 om vassdrag og grunnvann skal § 20 første ledd bokstav e lyde:*
+
+> er godkjent med hjemmel i forskrift etter skogbrukslova § 7 eller jordlova § 11.
+>
+> 8. I lov 28. juni 1974 nr. 58 om odelsretten og åsetesretten skal omgrepet «fylkeslandbruksstyret» endrast til «landbruksmyndigheita», i § 16 fjerde ledd annet punktum, § 24 første punktum, § 31 annet ledd og § 54 første ledd.
+>
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*20. I lov 24. november 2000 nr. 82 om vassdrag og grunnvann skal § 24 første ledd lyde:*
+
+> Søknaden er offentlig i samsvar med reglene i offentleglova.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*213. I lov 24. november 2000 nr. 82 om vassdrag og grunnvann (vannressursloven) skal § 63 annet ledd lyde:*
+
+> På samme måte straffes den som overtrer bestemmelsen i § 44 annet ledd annet punktum.
+>
+
+### 2010-01-01 — forskrift/2009-10-23-1295
+
+*Lov 19. juni 2009 nr. 106 om endringer i industrikonsesjonsloven, vassdragsreguleringsloven og vannressursloven (utleie av vannkraftproduksjon mv.) romertall II og III trer i kraft 1. januar 2010.*
+
+> Lov 19. juni 2009 nr. 106 om endringer i industrikonsesjonsloven, vassdragsreguleringsloven og vannressursloven (utleie av vannkraftproduksjon mv.) romertall II og III trer i kraft 1. januar 2010.
+>
+
+### 2010-06-25 — lov/2010-06-25-45
+
+*I lov 24. november 2000 nr. 82 om vassdrag og grunnvann (vannressursloven) skal § 40 første ledd første punktum lyde:*
+
+> Når forholdene i eller utenfor et vassdrag skaper en særskilt og uvanlig fare for mennesker, miljø eller eiendom, kan vassdragsmyndigheten pålegge enhver tiltakshaver å innrette sin virksomhet for å redusere faren.
+>
+
+### 2010-06-25 — forskrift/2010-06-25-942
+
+*Lov om kommunal beredskapsplikt, sivile beskyttelsestiltak og Sivilforsvaret trer i kraft 1. januar 2011.*
+
+> Lov om kommunal beredskapsplikt, sivile beskyttelsestiltak og Sivilforsvaret trer i kraft 1. januar 2011.
+>
+> Endringer i lov 24. november 2000 nr. 82 om vassdrag og grunnvann (vannressursloven) trer i kraft straks.
+>
+
+### 2012-03-16 — forskrift/2012-03-16-225
+
+*Loven romertall II, III, IV, V, VI og de deler av romertall I som omhandler endringer i energiloven § 8-2 første ledd og § 10-1 tredje ledd trer i kraft straks.*
+
+> Loven romertall II, III, IV, V, VI og de deler av romertall I som omhandler endringer i energiloven § 8-2 første ledd og § 10-1 tredje ledd trer i kraft straks.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
 ### 2013-06-14 — lov/2013-06-14-52
 
 *Nåværende tredje ledd blir nytt femte ledd.*
 
+### 2013-06-21 — lov/2013-06-21-100
+
+*17. I lov 24. november 2000 nr. 82 om vassdrag og grunnvann skal § 31 tredje ledd bokstav c lyde:*
+
+> av jordskifteretten etter begjæring fra en deltaker eller etter henvisning fra vassdragsmyndigheten.
+>
+> 18. I lov 20. mai 2005 nr. 28 om straff skal § 412 nr. 101 opphevast.
+>
+> 19. I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark fylke skal det gjerast slike endringar:
+>
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*I kapittel 9 skal ny § 70 a lyde:*
+
+> § 70 a.Saksbehandlingen av erstatningskrav
+>
+> Krav om skjønn etter § 70 bør framsettes snarest mulig. I kravet om skjønn skal det gis så vidt mulig nøyaktige opplysninger om tid og sted for skadeordelsen, skadens art og omfang og erstatningskravet størrelse. Det bør så vidt mulig gis opplysninger som kan ha betydning for å fastslå hvem som eier den reinen som har gjort skaden. Eventuelle vitner bør også oppgis.
+>
+> Rettens leder skal snarest mulig foreta befaring etter at krav om skjønn er innkommet. Med på befaringen skal være representant fra vedkommende kommune og reindriftsetaten for å bistå rettens leder med faglige vurderinger. Om mulig skal også lederen i vedkommende reinbeitedistrikt være med, foruten den som har krevd skjønn. Er det åpenbart at det ikke er skjedd noen skade voldt av reinen, kan rettens leder avvise kravet om skjønn av eget tiltak.
+>
+> Skjønnet skal fremmes så snart som mulig. Gjelder det skade voldt av rein som antas å høre hjemme i reinbeitedistrikt, skal distriktsstyret ved lederen alltid innkalles til skjønnet.
+>
+> Skjønnsstyreren kan på ethvert trinn av saksbehandlingen forsøke megling med sikte på en minnelig ordning.
+>
+> Skjønnet skal vurdere om skaden er voldt av rein og er av en slik art at den kan kreves erstattet og i tilfelle taksere skaden og fastsette erstatningsbeløpet.
+>
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*I kapittel 9 skal ny § 70 b lyde:*
+
+> § 70 b.Forholdet til jordskiftelova
+>
+> Saker jordskifteretten behandler med hjemmel i loven her, skal følge reglene i jordskiftelova § 5-7. I tillegg gjelder reglene i § 70 a for saker jordskifteretten behandler etter § 70.
+>
+> 22. I lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling skal § 12-7 nr. 13 lyde:krav om fordeling av planskapt netto verdiøkning ved ulike felles tiltak innenfor en nærmere bestemt del av planområdet i henhold til jordskifteloven § 3-30,
+>
+> 23. lov 26. mars 2010 nr. 9 om vergemål skal § 39 første ledd bokstav e lyde:å kreve sak etter jordskiftelova,
+>
+
 ### 2014-03-28 — lov/2014-03-28-9
 
-*I lov 24. november 2000 nr. 82 om vassdrag og grunnvann skal § 20 første ledd bokstav c lyde:må ha dispensasjon fra vernevedtak etter naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, eller utføres som skjøtselstiltak etter naturmangfoldloven § 47;*
+*I lov 24. november 2000 nr. 82 om vassdrag og grunnvann skal § 20 første ledd bokstav c lyde:*
+
+> må ha dispensasjon fra vernevedtak etter naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, eller utføres som skjøtselstiltak etter naturmangfoldloven § 47;
+>
+
+### 2014-06-01 — forskrift/2014-03-28-371
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
 
 ### 2017-06-16 — lov/2017-06-16-74
 
@@ -41,6 +159,34 @@ refid: "lov/2000-11-24-82"
 > Grunnvannstiltak skal fylle alle krav som med rimelighet kan stilles til sikring mot fare for mennesker, miljø eller eiendom.
 >
 
+### 2018-01-01 — forskrift/2017-06-16-753
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2018-01-01 — forskrift/2017-12-15-2034
+
+*Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.*
+
+> Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-04-1778
+
+*Lov 18. desember 2020 nr. 157 om endringer i vannressursloven og energiloven mv. (administrative reaksjoner og sanksjoner) trer i kraft 1. juli 2021.*
+
+> Lov 18. desember 2020 nr. 157 om endringer i vannressursloven og energiloven mv. (administrative reaksjoner og sanksjoner) trer i kraft 1. juli 2021.
+>
+
 ### 2023-04-21 — lov/2023-04-21-7
 
 *I lov 24. november 2000 nr. 82 om vassdrag og grunnvann skal § 58 lyde:*
@@ -48,6 +194,27 @@ refid: "lov/2000-11-24-82"
 > § 58.(Gebyr og sektoravgift for tilsyn og kontroll med vassdragstiltak)
 >
 > Vassdragsmyndigheten kan gi forskrift om gebyr eller sektoravgift til dekning av tilsyns- og kontrollarbeid med vassdragstiltak og om innrapportering av opplysninger som er nødvendige for beregning av gebyret eller sektoravgiften. Satsene skal settes slik at gebyrene eller sektoravgiftene samlet ikke overskrider vassdragsmyndighetens kostnader med tilsyns- og kontrollarbeidet og til tiltak etter § 40 første ledd annet punktum. Gebyret eller sektoravgiften er tvangsgrunnlag for utlegg. Betales ikke gebyret eller sektoravgiften til forfallstid, svares deretter rente som fastsatt i medhold av lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. § 3 første ledd.
+>
+
+### 2023-07-01 — forskrift/2023-04-21-530
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1147
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 12
@@ -73,6 +240,24 @@ refid: "lov/2000-11-24-82"
 *§ 16 første ledd bokstav d skal lyde:*
 
 > motorisert ferdsel på åpent eller islagt vassdrag når det skjer i samsvar med lov 19. juni 2026 nr. 53 om motorferdsel i utmark og vassdrag og grunneieren ikke har nedlagt forbud etter annet ledd.
+>
+
+## § 17
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 17 annet ledd skal lyde:*
+
+> Krav som nevnt i første ledd innkreves av Statens innkrevingssentral med mindre departementet bestemmer annet.
+>
+
+## § 18
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 18 første punktum skal lyde:*
+
+> Vassdragsmyndigheten kan ved forskrift eller enkeltvedtak fastsette om et vassdragstiltak trenger konsesjon etter § 8 eller gi forskrift om at visse vassdragstiltak eller vassdragstiltak i nærmere angitte områder eller typer områder skal meldes til vassdragsmyndigheten.
 >
 
 ## § 19
@@ -118,6 +303,24 @@ refid: "lov/2000-11-24-82"
 > Er tillatt i reguleringsplan etter plan- og bygningsloven; eller
 >
 
+## § 21
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 21 andre ledd andre punktum skal lyde:*
+
+> Kan ikke partene bli enige om at forutsetningene for å kreve utvisning av tomt er til stede, eller om stedsvalg, størrelse og avgrensing, vilkår og vederlag, avgjøres dette av jordskifteretten.
+>
+
+## § 22
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 22 andre ledd andre punktum skal lyde:*
+
+> Eventuell skade som følge av omlegging av flyttlei eller åpning av ny flyttlei erstattes etter avgjørelse ved jordskifteretten.
+>
+
 ## § 24
 
 ### 2012-01-27 — lov/2012-01-27-11
@@ -127,11 +330,34 @@ refid: "lov/2000-11-24-82"
 > Søknaden skal kunngjøres for søkerens regning etter reglene i plan- og bygningsloven § 12-10 første ledd første og annet punktum, annet og tredje ledd, jf. § 5-2.
 >
 
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 24 sjuande ledd blir nytt sjette ledd.*
+
+> 21. I lov 15. juni 2007 nr. 40 om reindrift skal det gjerast slike endringar:
+>
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 24 andre ledd tredje punktum skal lyde:*
+
+> Hvis ikke grunneieren og eventuelle bruksberettigede gir sitt samtykke, kan departementet gi tillatelse til utføring av anlegget mot vederlag fastsatt av jordskifteretten for skade og ulempe.
+>
+
 ### 2014-06-20 — lov/2014-06-20-52
 
 *§ 24 andre ledd første punktum skal lyde:*
 
 > Søknaden skal kunngjøres for søkerens regning etter reglene i plan- og bygningsloven § 12-10 første ledd første og annet punktum, annet og fjerde ledd, jf. § 5-2.
+>
+
+## § 25
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 25 tredje ledd tredje punktum skal lyde:*
+
+> Oppnås ikke enighet om betalingen, kan beløpets størrelse kreves fastsatt ved jordskifteretten.
 >
 
 ## § 28
@@ -173,6 +399,22 @@ refid: "lov/2000-11-24-82"
 > Endringer i et manøvreringsreglement som gir adgang til å variere vannstanden eller vannføringen, skal sendes på høring etter forvaltningslovens regler om forskrifter og kunngjøres etter reglene i plan- og bygningsloven § 12-10 første ledd første og annet punktum, annet og fjerde ledd, jf. § 5-2.
 >
 
+## § 33
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 33 første ledd bokstav b skal lyde:*
+
+> bestemmelser i vedtak etter naturmangfoldloven kapittel V, eller
+>
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 33 annet ledd første punktum skal lyde:*
+
+> For så vidt vassdraget går inn under vedtak etter naturmangfoldloven kapittel V, gjelder reglene i og i medhold av naturmangfoldloven istedenfor loven her.
+>
+
 ## § 36
 
 ### 2026-06-19 — lov/2026-06-19-37
@@ -185,6 +427,24 @@ refid: "lov/2000-11-24-82"
 >
 
 ## § 45
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 45 overskrifta skal lyde:*
+
+> Grensemerking m.m. og tinglysing
+>
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 45 første ledd skal lyde:*
+
+> Rettskraftige dommer fra utmarksdomstolen samt erklæringer og avtaler som er avgitt eller inngått i samsvar med Finnmarkskommisjonens konklusjoner, kan bringes inn for jordskifteretten som gjennomfører grensemerking i terrenget, koordinatfesting og kartlegging av grensene i samsvar med dommen, erklæringen eller avtalen. Saksbehandlingsreglene i jordskiftelova gjelder så langt de passer. Jordskifteretten settes uten jordskiftemeddommere. Det skal ikke betales gebyr etter jordskiftelova §§ 7-2 til 7-4. Partene skal heller ikke betale for kostnadene ved grensemerking, koordinatfesting og kartlegging av grensene. For tinglysing gjelder jordskiftelova § 6-31.
+>
+> 20. I lov 17. juni 2005 nr. 101 om eigedomsregistrering skal det gjerast slike endringar:
+>
+> § 24 sjette ledd opphevast.
+>
 
 ### 2017-06-16 — lov/2017-06-16-74
 
@@ -297,6 +557,13 @@ refid: "lov/2000-11-24-82"
 
 ## § 60 a
 
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 60 a annet ledd tredje til femte punktum oppheves.*
+
+> 25. I lov 20. april 2001 nr. 13 om erstatning fra staten for personskade voldt ved straffbar handling m.m. gjøres følgende endring:
+>
+
 ### 2017-06-21 — lov/2017-06-21-101
 
 *§ 60 a annet ledd skal lyde:*
@@ -387,6 +654,24 @@ refid: "lov/2000-11-24-82"
 
 ## § 63
 
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 63 tredje ledd skal lyde:*
+
+> Spørsmål om tiltak kommer i strid med første ledd, kan avgjøres på forhånd av jordskifteretten. Jordskifteretten kan også avgjøre hvordan og på hvilke vilkår tiltaket kan gjennomføres. Krav for jordskifteretten kan fremmes av den som akter å sette et tiltak i verk eller av distriktsstyret ved lederen. Er distriktsstyre ikke opprettet, kan krav fremmes av reindriftsutøver i distrikt som vil bli berørt av tiltaket.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 63 annet ledd skal lyde:*
+
+> På samme måte straffes den som overtrer bestemmelsen i § 44 annet ledd annet punktum.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 63 fjerde ledd oppheves.*
+
 ### 2017-06-16 — lov/2017-06-16-74
 
 *§ 63 første ledd skal lyde:*
@@ -434,4 +719,47 @@ refid: "lov/2000-11-24-82"
 *§ 64 fjerde ledd skal lyde:*
 
 > Kongen kan instruere enhver med myndighet etter loven om hvordan myndigheten skal utøves og om delegering av den. Dette gjelder ikke der myndigheten er lagt til kommunen.
+>
+
+## § 69
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 69 overskrifta skal lyde:*
+
+> Gjerder til støtte for reineierens driveplikt og sikring mot erstatningsansvar
+>
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 69 første ledd første punktum skal lyde:*
+
+> I et reinbeitedistrikt kan så vel distriktsstyret som den enkelte reineier i mangel av minnelig overenskomst få avgjort ved jordskifteretten om reineieren skal ha adgang til å føre opp gjerde til støtte for sin driveplikt og sikring mot erstatningsansvar.
+>
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 69 andre ledd skal lyde:*
+
+> På samme måte kan en grunneier kreve avgjort ved jordskifteretten om noen del av utgiftene ved oppføring av gjerde som nevnt i § 19 og § 68 annet ledd bør utliknes på reineierne.
+>
+
+## § 70
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 70 første ledd blir ny § 70 som skal lyde:*
+
+> § 70.Skade voldt av rein
+>
+> I mangel av enighet som er bekreftet skriftlig av reineieren eller av distriktsstyret ved lederen, avgjøres krav om erstatning for skade voldt av rein ved skjønn ved jordskifteretten eller tingretten.
+>
+
+## § 8
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 8 tredje ledd skal lyde:*
+
+> Dersom eiere og brukere som rår over den største delen av et fjellområde som er høvelig til tamreindrift, ønsker området disponert til slik virksomhet, men hindres i dette av enkelte grunneiere som ikke vil være med, kan bestemmelsene om felles tiltak i jordskiftelovas § 3-9 brukes tilsvarende.
 >

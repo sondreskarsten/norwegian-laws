@@ -14,6 +14,13 @@ refid: "lov/2016-08-12-77"
 > Loven trer i kraft 1. juli 2021.
 >
 
+### 2022-07-01 — forskrift/2022-06-17-1038
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
 ### 2023-11-24 — lov/2023-11-24-84
 
 *§§ 7 og 65 oppheves.*
@@ -221,6 +228,27 @@ refid: "lov/2016-08-12-77"
 *Ikraftsetting av lov 20. desember 2022 nr. 113 om endringer i forsvarsloven (utvidet adgang til å inngå kontrakt om tjenesteplikt mv.). Loven trer i kraft 1. januar 2024.*
 
 > Ikraftsetting av lov 20. desember 2022 nr. 113 om endringer i forsvarsloven (utvidet adgang til å inngå kontrakt om tjenesteplikt mv.). Loven trer i kraft 1. januar 2024.
+>
+
+### 2024-07-01 — forskrift/2024-05-31-875
+
+*Delt ikraftsetting av lov 24. november 2023 nr. 84 om endringer i forsvarsloven mv. (militær disiplinærmyndighet) del I–V og del VII og VIII. Loven trer i kraft 1. juli 2024.*
+
+> Delt ikraftsetting av lov 24. november 2023 nr. 84 om endringer i forsvarsloven mv. (militær disiplinærmyndighet) del I–V og del VII og VIII. Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-07-01 — forskrift/2024-05-31-876
+
+*Ikraftsetting av lov 24. november 2023 nr. 85 om militær politimyndighet (militærpolitiloven). Loven trer i kraft 1. juli 2024.*
+
+> Ikraftsetting av lov 24. november 2023 nr. 85 om militær politimyndighet (militærpolitiloven). Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-07-01 — forskrift/2024-05-31-877
+
+*Ikraftsetting av lov 16. juni 2023 nr. 55 om endringer i forsvarsloven og folketrygdloven (kontrakt om tjenesteplikt for militære studenter). Loven trer i kraft 1. juli 2024.*
+
+> Ikraftsetting av lov 16. juni 2023 nr. 55 om endringer i forsvarsloven og folketrygdloven (kontrakt om tjenesteplikt for militære studenter). Loven trer i kraft 1. juli 2024.
 >
 
 ## § 17

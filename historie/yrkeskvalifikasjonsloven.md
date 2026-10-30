@@ -21,6 +21,20 @@ refid: "lov/2017-06-16-69"
 > Delt ikraftsetting av lov 16. juni 2017 nr. 69 om godkjenning av yrkeskvalifikasjoner (yrkeskvalifikasjonsloven). Loven § 14 og § 20 trer i kraft 1. mars 2019.
 >
 
+### 2019-08-01 — forskrift/2019-06-21-778
+
+*Lova gjeld frå 1. august 2019.*
+
+> Lova gjeld frå 1. august 2019.
+>
+
+### 2021-01-01 — forskrift/2020-12-18-2842
+
+*Loven § 2 og § 5 trer i kraft 1. januar 2021.*
+
+> Loven § 2 og § 5 trer i kraft 1. januar 2021.
+>
+
 ### 2021-06-11 — lov/2021-06-11-81
 
 *Nåværende § 2 tredje ledd blir fjerde ledd.*
@@ -30,6 +44,20 @@ refid: "lov/2017-06-16-69"
 *Nåværende § 2 fjerde ledd blir nytt femte ledd og skal lyde:*
 
 > Departementet kan gi forskrift om yrkesutøver som har ervervet sine yrkeskvalifikasjoner i et tredjeland, og tredjelandsborgere som omfattes av direktiv 2004/38/EF.
+>
+
+### 2021-08-01 — forskrift/2021-06-11-1898
+
+*Delt ikraftsetting av loven. Loven del I med unntak av universitets- og høyskoleloven § 3-9, del II, del V og del VI trer i kraft 1. august 2021. Endringen i universitets- og høyskoleloven § 3-9 trer i kraft 1. august 2022. Loven del III og IV trer i kraft 1. januar 2022.*
+
+> Delt ikraftsetting av loven. Loven del I med unntak av universitets- og høyskoleloven § 3-9, del II, del V og del VI trer i kraft 1. august 2021. Endringen i universitets- og høyskoleloven § 3-9 trer i kraft 1. august 2022. Loven del III og IV trer i kraft 1. januar 2022.
+>
+
+### 2021-08-01 — forskrift/2021-06-18-1972
+
+*Delt ikraftsetting av lov 11. juni 2021 nr. 81 om endringer i universitets- og høyskoleloven, utdanningsstøtteloven, fagskoleloven og yrkeskvalifikasjonsloven mv. (formål og oppgaver for universiteter og høyskoler, studentrettigheter, fagskoleutdanningens omfang, behandling av personopplysninger, yr*
+
+> Delt ikraftsetting av lov 11. juni 2021 nr. 81 om endringer i universitets- og høyskoleloven, utdanningsstøtteloven, fagskoleloven og yrkeskvalifikasjonsloven mv. (formål og oppgaver for universiteter og høyskoler, studentrettigheter, fagskoleutdanningens omfang, behandling av personopplysninger, yrkeskvalifikasjoner fra tredjeland mv.). Loven del I (opplæringslova), del II (universitets- og høyskoleloven) med unntak av § 3-9, del V (yrkeskvalifikajonsloven) og del VI (fagskoleloven) trer i kraft 1. august 2021. Loven del II (universitets- og høyskoleloven) § 3-9 trer i kraft 1. august 2022. Loven del III (utdanningsstøtteloven) og del IV (studentsamskipnadsloven) trer i kraft 1. januar 2022.
 >
 
 ## § 1

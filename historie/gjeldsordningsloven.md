@@ -302,6 +302,13 @@ refid: "lov/1992-07-17-99"
 > Bestemmelsene i denne paragraf gjelder selv om skyldneren ikke er bosatt i Norge.
 >
 
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 3-4 første ledd bokstav f skal lyde:*
+
+> rette krav mot kausjonisten, jf. finansavtaleloven § 6-10 fjerde ledd.
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 3-4 femte ledd skal lyde:*
@@ -448,7 +455,13 @@ refid: "lov/1992-07-17-99"
 
 *§ 4-8 bokstav c, d, h og i skal lyde:*
 
-> Skatte- og avgiftskravSkatte- og avgiftskrav som er oppstått etter åpningstidspunktet omfattes ikke av gjeldsordningen, med mindre kravet er en følge av at skyldneren har hatt et for lavt forskuddstrekk i gjeldsordningsperioden, og dette har medført høyere dividende enn dersom trekket hadde vært riktig. Tilsvarende gjelder for skatte- og avgiftskrav som fastsettes ved vedtak etter åpningstidspunktet.BidragsforpliktelseBidragsforpliktelser som skyldneren er pålagt etter ekteskapslovgivningen eller etter barneloven, unntatt gjeld til det offentlige, skal gis full dekning. Gjeld til bidragsberettigede som har oppstått mer enn fem år før søknaden om gjeldsordning fremmes, kan nedsettes dersom det ikke vil virke særlig urimelig overfor den bidragsberettigede.Ved vurderingen etter første ledd annet punktum skal det særlig legges vekt på utsiktene til at gjelden vil kunne bli nedbetalt. Det skal også legges vekt på årsaken til at gjelden har oppstått, og bidragsmottakerens økonomiske stilling.Krav som grunner seg på en straffbar handlingStraffebøter som er fastsatt ved dom eller forelegg mindre enn tre år før søknad om gjeldsforhandling fremmes, skal som hovedregel gis full dekning.Krav på erstatning eller oppreisning for skade voldt ved en straffbar handling skal gis full dekning. Unntak kan gjøres dersom kravet er fastsatt ved dom eller forelegg mer enn tre år før søknad om gjeldsforhandling fremmes, eller dersom særlige resosialiseringshensyn tilsier det og hensyn til den som har kravet ikke er avgjørende. Ved vurderingen av om det foreligger et slikt unntakstilfelle, skal det særlig legges vekt på arten av den straffbare handling.Gjeld oppstått etter et åpenbart brudd på frarådingsplikten i finansavtaleloven § 47Gjeld som stammer fra lån eller kreditt som åpenbart skulle ha vært frarådet i henhold til finansavtaleloven § 47 kan gis dårligere dekning enn andre krav med mindre det vil virke særlig urimelig overfor enkelte fordringshavere.
+> Skatte- og avgiftskrav Skatte- og avgiftskrav som er oppstått etter åpningstidspunktet omfattes ikke av gjeldsordningen, med mindre kravet er en følge av at skyldneren har hatt et for lavt forskuddstrekk i gjeldsordningsperioden, og dette har medført høyere dividende enn dersom trekket hadde vært riktig. Tilsvarende gjelder for skatte- og avgiftskrav som fastsettes ved vedtak etter åpningstidspunktet.
+>
+> Bidragsforpliktelse Bidragsforpliktelser som skyldneren er pålagt etter ekteskapslovgivningen eller etter barneloven, unntatt gjeld til det offentlige, skal gis full dekning. Gjeld til bidragsberettigede som har oppstått mer enn fem år før søknaden om gjeldsordning fremmes, kan nedsettes dersom det ikke vil virke særlig urimelig overfor den bidragsberettigede. Ved vurderingen etter første ledd annet punktum skal det særlig legges vekt på utsiktene til at gjelden vil kunne bli nedbetalt. Det skal også legges vekt på årsaken til at gjelden har oppstått, og bidragsmottakerens økonomiske stilling.
+>
+> Krav som grunner seg på en straffbar handling Straffebøter som er fastsatt ved dom eller forelegg mindre enn tre år før søknad om gjeldsforhandling fremmes, skal som hovedregel gis full dekning. Krav på erstatning eller oppreisning for skade voldt ved en straffbar handling skal gis full dekning. Unntak kan gjøres dersom kravet er fastsatt ved dom eller forelegg mer enn tre år før søknad om gjeldsforhandling fremmes, eller dersom særlige resosialiseringshensyn tilsier det og hensyn til den som har kravet ikke er avgjørende. Ved vurderingen av om det foreligger et slikt unntakstilfelle, skal det særlig legges vekt på arten av den straffbare handling.
+>
+> Gjeld oppstått etter et åpenbart brudd på frarådingsplikten i finansavtaleloven § 47 Gjeld som stammer fra lån eller kreditt som åpenbart skulle ha vært frarådet i henhold til finansavtaleloven § 47 kan gis dårligere dekning enn andre krav med mindre det vil virke særlig urimelig overfor enkelte fordringshavere.
 >
 
 ### 2003-01-10 — lov/2003-01-10-1
@@ -471,7 +484,7 @@ refid: "lov/1992-07-17-99"
 
 *§ 4-8 første ledd bokstav c skal lyde:*
 
-> Skatte- og avgiftskravSkatte- og avgiftskrav som er oppstått etter åpningstidspunktet omfattes ikke av gjeldsordningen. Dette gjelder også skatte- og avgiftskrav som fastsettes ved vedtak etter åpningstidspunktet.Har skyldneren hatt for lavt forskudd i gjeldsordningsperioden, som har medført høyere dividende enn dersom forskuddet hadde vært riktig, skal derved oppstått skattegjeld dekkes fullt ut ved at dividenden til kreditorene settes ned tilsvarende inntil skattekravet med tillegg av renter og omkostninger er betalt.
+> Skatte- og avgiftskrav Skatte- og avgiftskrav som er oppstått etter åpningstidspunktet omfattes ikke av gjeldsordningen. Dette gjelder også skatte- og avgiftskrav som fastsettes ved vedtak etter åpningstidspunktet. Har skyldneren hatt for lavt forskudd i gjeldsordningsperioden, som har medført høyere dividende enn dersom forskuddet hadde vært riktig, skal derved oppstått skattegjeld dekkes fullt ut ved at dividenden til kreditorene settes ned tilsvarende inntil skattekravet med tillegg av renter og omkostninger er betalt.
 >
 
 ### 2014-05-14 — lov/2014-05-14-17
@@ -479,6 +492,13 @@ refid: "lov/1992-07-17-99"
 *§ 4-8 første ledd bokstav h første ledd skal lyde:*
 
 > Straffebøter som er fastsatt ved dom, skal dekkes fullt ut, eller i henhold til et eventuelt benådningsvedtak. Straffebøter som er fastsatt ved forelegg mindre enn tre år før søknad om gjeldsforhandling fremmes, skal som hovedregel gis full dekning.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 4-8 første ledd bokstav i skal lyde:*
+
+> Gjeld oppstått etter åpenbart brudd på avslagsplikten etter finansavtaleloven § 5-4 Gjeld som stammer fra lån eller kreditt som åpenbart skulle ha vært avslått i henhold til finansavtaleloven § 5-4, kan gis dårligere dekning enn andre krav med mindre det vil virke særlig urimelig overfor enkelte fordringshavere.
 >
 
 ## § 4-10
@@ -826,11 +846,25 @@ refid: "lov/1992-07-17-99"
 > Straks etter at gjeldsforhandling er åpnet, skal det rykkes inn kunngjøring om det i Norsk Lysingsblad med oppfordring til enhver som har fordring mot skyldneren, om å melde sitt krav til namsmannen innen tre uker etter kunngjøringen.
 >
 
+### 2013-07-01 — forskrift/2013-06-14-638
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
+>
+
 ### 2017-10-01 — forskrift/2017-09-22-1440
 
 *Delt ikraftsetting av lov 14. mai 2014 nr. 17 om endringer i gjeldsordningsloven og dekningsloven mv. § 1-4 fjerde ledd og § 2-1 første ledd tredje punktum trer i kraft 1. oktober 2017.*
 
 > Delt ikraftsetting av lov 14. mai 2014 nr. 17 om endringer i gjeldsordningsloven og dekningsloven mv. § 1-4 fjerde ledd og § 2-1 første ledd tredje punktum trer i kraft 1. oktober 2017.
+>
+
+### 2017-11-01 — forskrift/2017-06-16-766
+
+*Loven trer i kraft 1. november 2017.*
+
+> Loven trer i kraft 1. november 2017.
 >
 
 ### 2019-10-01 — forskrift/2019-06-21-809
@@ -840,9 +874,45 @@ refid: "lov/1992-07-17-99"
 > Loven trer i kraft 1. oktober 2019.
 >
 
+### 2023-01-01 — forskrift/2022-09-02-1528
+
+*Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.*
+
+> Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.
+>
+
+### 2025-01-01 — forskrift/2024-10-11-2455
+
+*Delt ikraftsetting av lov 25. juni 2024 nr. 56 om endringer i gjeldsordningsloven mv. (effektivisering og forenkling av gjeldsordningsprosessen). Endringsloven trer i kraft 1. januar 2025, med unntak av § 2-1 første ledd annet punktum.*
+
+> Delt ikraftsetting av lov 25. juni 2024 nr. 56 om endringer i gjeldsordningsloven mv. (effektivisering og forenkling av gjeldsordningsprosessen). Endringsloven trer i kraft 1. januar 2025, med unntak av § 2-1 første ledd annet punktum.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ### 2026-06-19 — lov/2026-06-19-45
 
 *I følgende bestemmelser endres ordene «namsmannen» og «namsmannens» til henholdsvis ordene «namsfogden» og «namsfogdens»:*
 
 > §§ 2-2, 2-3, 2-4, 2-5, 2-6, 2-7, 3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 3-7, 4-1, 4-6, 4-7, 4-11, 4-12, 5-1, 6-1, 6-4, 7-1, 7-2 og 7-3.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >

@@ -50,6 +50,13 @@ refid: "lov/1999-07-02-63"
 
 ## § 2-1
 
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 2-1 fjerde ledd skal lyde:*
+
+> Retten til helsehjelp gjelder i offentlig finansiert spesialisthelsetjeneste i riket og andre tjenesteytere i den utstrekning regionale helseforetak eller helseforetak har inngått avtale med disse om tjenesteyting, og innen de grenser som kapasiteten setter.
+>
+
 ### 2003-12-12 — lov/2003-12-12-110
 
 *§ 2-1 skal lyde:*
@@ -465,7 +472,15 @@ refid: "lov/1999-07-02-63"
 
 *§ 2-5 d bokstav a til e skal lyde:*
 
-> § 2-2 a andre ledd tredje punktum om fastsettelse av tidsfrist for når pasienten senest skal få nødvendig helsehjelp§ 2-2 b første ledd om rett til nødvendig helsehjelp uten opphold ved brudd på tidsfrist fastsatt etter § 2-2 a andre ledd tredje punktum§ 2-2 a andre ledd bokstav a om informasjon om rett til nødvendig helsehjelp§ 2-2 a andre ledd bokstav b om informasjon om tidspunkt for oppstart av helsehjelpen§ 2-2 b første ledd om plikt til å kontakte Helfo
+> § 2-2 a andre ledd tredje punktum om fastsettelse av tidsfrist for når pasienten senest skal få nødvendig helsehjelp
+>
+> § 2-2 b første ledd om rett til nødvendig helsehjelp uten opphold ved brudd på tidsfrist fastsatt etter § 2-2 a andre ledd tredje punktum
+>
+> § 2-2 a andre ledd bokstav a om informasjon om rett til nødvendig helsehjelp
+>
+> § 2-2 a andre ledd bokstav b om informasjon om tidspunkt for oppstart av helsehjelpen
+>
+> § 2-2 b første ledd om plikt til å kontakte Helfo
 >
 
 ## § 2-6
@@ -658,6 +673,15 @@ refid: "lov/1999-07-02-63"
 > Dersom pasienten eller brukeren blir påført skade eller alvorlige komplikasjoner, og utfallet er uventet i forhold til påregnelig risiko, skal pasienten eller brukeren også informeres om hvilke tiltak helse- og omsorgstjenesten vil iverksette for at lignende hendelse ikke skal skje igjen.
 >
 
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 3-2 femte og sjette ledd skal lyde:*
+
+> Dersom pasienten eller brukeren blir påført skade eller alvorlige komplikasjoner, og utfallet er uventet ut fra påregnelig risiko, skal pasienten eller brukeren også informeres om hvilke tiltak helse- og omsorgstjenesten vil iverksette for at lignende hendelse ikke skal skje igjen.
+>
+> Dersom skade eller komplikasjon som nevnt i femte ledd er svært alvorlig, skal pasienten eller brukeren gis tilbud om møte med helse- og omsorgstjenesten så snart som mulig etter hendelsen, og senest ti dager etter hendelsen. Slike møter skal ha til formål å gi pasienten eller brukeren informasjon etter fjerde og femte ledd og svar på spørsmål knyttet til hendelsen og den videre oppfølgingen av denne. Ved dødsfall som følge av alvorlig hendelse, skal nærmeste pårørende tilbys tilsvarende møte.
+>
+
 ### 2025-06-20 — lov/2025-06-20-74
 
 *§ 3-2 sjette ledd skal lyde:*
@@ -688,6 +712,13 @@ refid: "lov/1999-07-02-63"
 > Dersom pasienten eller brukeren samtykker til det eller forholdene tilsier det, skal pasientens eller brukerens nærmeste pårørende ha informasjon om pasientens eller brukerens helsetilstand og den helsehjelp som ytes.
 >
 > Er pasienten eller brukeren over 16 år og åpenbart ikke kan ivareta sine interesser på grunn av fysiske eller psykiske forstyrrelser, demens eller psykisk utviklingshemning, har både pasienten eller brukeren og dennes nærmeste pårørende rett til informasjon etter reglene i § 3-2.
+>
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 3-3 tredje ledd skal lyde:*
+
+> Dersom en pasient eller bruker dør og utfallet er uventet ut fra påregnelig risiko, har pasientens eller brukerens nærmeste pårørende rett til informasjon etter § 3-2 fjerde til og med sjette ledd, så langt taushetsplikten ikke er til hinder for dette.
 >
 
 ### 2025-04-25 — lov/2025-04-25-13
@@ -729,6 +760,13 @@ refid: "lov/1999-07-02-63"
 > Har barneverntjenesten overtatt omsorgen for en pasient eller bruker under 18 år etter barnevernloven § 4-6 andre ledd, § 4-8 eller § 4-12, gjelder første til femte ledd tilsvarende for barneverntjenesten.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 3-4 sjette ledd skal lyde:*
+
+> Har barnevernstjenesten overtatt omsorgen for en pasient eller bruker under 18 år etter barnevernsloven § 4-2 eller 5-1, gjelder første til femte ledd tilsvarende for barnevernstjenesten.
+>
+
 ### 2025-06-20 — lov/2025-06-20-39
 
 *§ 3-4 sjette ledd skal lyde:*
@@ -743,6 +781,15 @@ refid: "lov/1999-07-02-63"
 *§ 3-5 andre ledd skal lyde:*
 
 > Personellet skal så langt som mulig sikre seg at mottakeren har forstått innholdet og betydningen av informasjonen.
+>
+
+## § 3-6
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 3-6 tredje ledd skal lyde:*
+
+> Dersom helsepersonell tilgjengeliggjør opplysninger som er undergitt lovbestemt opplysningsplikt, skal den opplysningene gjelder, så langt forholdene tilsier det, informeres om at opplysningene er gjort tilgjengelige og hvilke opplysninger det dreier seg om.
 >
 
 ## § 3-7
@@ -868,6 +915,15 @@ refid: "lov/1999-07-02-63"
 > Når barnet er fylt 7 år, og når et yngre barn er i stand til å danne seg egne synspunkter på det samtykket dreier seg om, skal foreldrene, andre som har foreldreansvaret eller barneverntjenesten gi barnet informasjon og anledning til å si sin mening før de avgjør spørsmål om å samtykke til helsehjelp. Det skal legges vekt på hva barnet mener, i samsvar med barnets alder og modenhet. Er barnet fylt 12 år, skal det legges stor vekt på hva barnet mener.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 4-4 fjerde og femte ledd skal lyde:*
+
+> Har barnevernstjenesten overtatt omsorgen for et barn under 16 år etter barnevernsloven § 4-2 eller 5-1, har barnevernstjenesten rett til å samtykke til helsehjelp.
+>
+> Når barnet er fylt 7 år, og når et yngre barn er i stand til å danne seg egne synspunkter på det samtykket dreier seg om, skal foreldrene, andre som har foreldreansvaret eller barnevernstjenesten gi barnet informasjon og anledning til å si sin mening før de avgjør spørsmål om å samtykke til helsehjelp. Det skal legges vekt på hva barnet mener, i samsvar med barnets alder og modenhet. Er barnet fylt 12 år, skal det legges stor vekt på hva barnet mener.
+>
+
 ### 2025-06-20 — lov/2025-06-20-39
 
 *§ 4-4 fjerde ledd skal lyde:*
@@ -883,6 +939,13 @@ refid: "lov/1999-07-02-63"
 >
 
 ## § 4-5
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 4-5 andre ledd skal lyde:*
+
+> Dersom barnevernstjenesten har overtatt omsorgen for barn mellom 16 og 18 år etter barnevernsloven § 5-1, har barnevernstjenesten rett til å samtykke til helsehjelp.
+>
 
 ### 2025-04-25 — lov/2025-04-25-13
 
@@ -1050,12 +1113,26 @@ refid: "lov/1999-07-02-63"
 
 > Helsepersonell må forsikre seg om at pasient som nevnt i første og annet ledd er over 18 år og ikke er fratatt rettslig handleevne på det personlige området, og at vedkommende er gitt tilfredsstillende informasjon og har forstått konsekvensene for egen helse ved behandlingsnektelsen.
 >
-> 44. I lov 21. desember 2000 nr. 105 om opplysningsplikt og angrerett mv. ved fjernsalg og salg utenfor fast utsalgssted skal § 7 a tredje ledd annet punktum lyde:
->
-> Det skal tas særskilt hensyn til behovet for beskyttelse av personer uten rettslig handleevne, som for eksempel mindreårige.
+
+## § 5-1
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 5-1 første ledd første punktum skal lyde:*
+
+> Pasienten og brukeren har rett til innsyn i journalen sin med bilag og har etter særskilt forespørsel rett til kopi, jf. personvernforordningen artikkel 15.
 >
 
 ## § 5-3
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 5-3 skal lyde:*
+
+> § 5-3.Overføring og tilgjengeliggjøring av journal
+>
+> Pasienten og brukeren har rett til å motsette seg overføring og tilgjengeliggjøring av journal eller opplysninger i journal. Opplysningene kan heller ikke overføres eller tilgjengeliggjøres dersom det er grunn til å tro at pasienten eller brukeren ville motsette seg det ved forespørsel. Overføring og tilgjengeliggjøring kan likevel skje dersom tungtveiende grunner taler for det. Overføring og tilgjengeliggjøring av journal eller opplysninger i journal skal skje i henhold til bestemmelsene i lov om helsepersonell.
+>
 
 ### 2026-01-23 — lov/2026-01-23-1
 
@@ -1077,6 +1154,17 @@ refid: "lov/1999-07-02-63"
 *§ 6-1 første ledd skal lyde:*
 
 > Barn har rett til nødvendig helsehjelp også i form av helsekontroll, herunder tannhelsekontroll, i den kommunen barnet bor eller midlertidig oppholder seg, jf. helse- og omsorgstjenesteloven § 3-2.
+>
+
+## § 6-2
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 6-2 skal lyde:*
+
+> § 6-2.Barnas rett til samvær med foreldrene i helseinstitusjon
+>
+> Barn har rett til samvær med minst en av foreldrene eller andre med foreldreansvaret under hele oppholdet i helseinstitusjon, med mindre dette er utilrådelig av hensyn til barnet, eller samværsretten er bortfalt etter reglene i barneloven eller barnevernsloven.
 >
 
 ## § 6-4
@@ -1323,6 +1411,17 @@ refid: "lov/1999-07-02-63"
 > Forvaltningslovens regler om behandling av klager over enkeltvedtak gjelder så langt de passer, med de særlige bestemmelser som er gitt i dette kapitlet. Fylkesmannen skal ved prøving av kommunale vedtak om helsetjenester legge vekt på hensynet til det kommunale selvstyret ved prøving av det frie skjønn. For øvrige kommunale vedtak skal klageinstansen legge stor vekt på hensynet til det kommunale selvstyre ved prøving av det frie skjønn, jf. forvaltningsloven § 34 andre ledd tredje punktum.
 >
 
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 7-6 skal lyde:*
+
+> § 7-6.Varsel til Statens helsetilsyn om alvorlig hendelse
+>
+> Pasient, bruker eller nærmeste pårørende kan varsle Statens helsetilsyn om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av ytelse av helse- og omsorgstjenester eller ved at en pasient eller bruker skader en annen. Adgangen til å varsle gjelder dersom utfallet er uventet ut fra påregnelig risiko.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om varsling etter første ledd, herunder om innholdet i varslene.
+>
+
 ### 2025-06-20 — lov/2025-06-20-74
 
 *§ 7-6 skal lyde:*
@@ -1375,6 +1474,13 @@ refid: "lov/1999-07-02-63"
 >
 
 ## § 8-2
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 8-2 første ledd første punktum skal lyde:*
+
+> Staten skal sørge for at det er et pasientombud i hvert fylke.
+>
 
 ### 2008-08-22 — lov/2008-08-22-74
 
@@ -1569,6 +1675,15 @@ refid: "lov/1999-07-02-63"
 > Departementet kan gi nærmere regler om gjennomføringen av helsehjelpen etter dette kapitlet og om saksbehandlingen, herunder hvilke krav som skal stilles til dokumentasjon av vedtak om helsehjelp.
 >
 
+### 2007-02-27 — lov/2007-01-26-3
+
+*122. I lov 2. juli 1999 nr. 63 om pasientrettigheter (pasientrettighetsloven) skal § 8-5 annet punktum lyde:*
+
+> Reglene i tvisteloven kapittel 22 får tilsvarende anvendelse for ombudets rett til å kreve opplysninger.
+>
+> 123. I lov 2. juli 1999 nr. 64 om helsepersonell (helsepersonelloven) oppheves § 71 annet ledd første punktum. Nåværende annet punktum blir annet ledd.
+>
+
 ### 2008-08-22 — lov/2008-08-22-74
 
 *Overskriften til kapittel 8 skal lyde:*
@@ -1580,9 +1695,48 @@ refid: "lov/1999-07-02-63"
 > § 8-5.Pasient- og brukerombudets rett til å få opplysninger
 >
 
+### 2010-01-01 — forskrift/2009-12-11-1501
+
+*Ikraftsetting av lov 19. juni 2009 nr. 70 om endringar i helsepersonelloven m.m. (oppfølging av born som pårørande). Loven trer i kraft fra 1. januar 2010.*
+
+> Ikraftsetting av lov 19. juni 2009 nr. 70 om endringar i helsepersonelloven m.m. (oppfølging av born som pårørande). Loven trer i kraft fra 1. januar 2010.
+>
+
+### 2010-03-26 — lov/2010-03-26-9
+
+*8. I lov 2. juli 1999 nr. 63 om pasientrettigheter (pasientrettighetsloven) skal § 1-3 bokstav b annet punktum lyde:*
+
+> Dersom pasienten er ute av stand til å oppgi pårørende, skal nærmeste pårørende være den som i størst utstrekning har varig og løpende kontakt med pasienten, likevel slik at det tas utgangspunkt i følgende rekkefølge: ektefelle, registrert partner, personer som lever i ekteskapslignende eller partnerskapslignende samboerskap med pasienten, myndige barn, foreldre eller andre med foreldreansvaret, myndige søsken, besteforeldre, andre familiemedlemmer som står pasienten nær, verge eller fremtidsfullmektig med kompetanse på det personlige området.
+>
+
+### 2010-04-09 — forskrift/2010-04-09-500
+
+*Endringene i lov 8. april 1981 nr. 7 om barn og foreldre § 3 første og tredje ledd, § 30 tredje ledd, § 44 andre ledd og i lov 3. mars 1972 nr. 5 om arv § 4 første ledd trer i kraft straks.*
+
+> Endringene i lov 8. april 1981 nr. 7 om barn og foreldre § 3 første og tredje ledd, § 30 tredje ledd, § 44 andre ledd og i lov 3. mars 1972 nr. 5 om arv § 4 første ledd trer i kraft straks.
+>
+> Endringene i lov 2. juli 1999 nr. 63 om pasientrettigheter § 4-4 trer i kraft 1. mai 2010.
+>
+> Endringene i lov 8. april 1981 nr. 7 om barn og foreldre § 36, § 42 første ledd og § 43 andre ledd fjerde punktum trer i kraft 1. juli 2010.
+>
+
+### 2013-01-01 — forskrift/2012-12-14-1210
+
+*Loven trer i kraft 1. januar 2013.*
+
+> Loven trer i kraft 1. januar 2013.
+>
+
 ### 2013-06-07 — lov/2013-06-07-29
 
 *Nåværende femte og sjette ledd blir nye sjette og syvende ledd.*
+
+### 2013-09-01 — forskrift/2013-06-14-637
+
+*Loven trer i kraft fra 1. september 2013.*
+
+> Loven trer i kraft fra 1. september 2013.
+>
 
 ### 2014-01-01 — forskrift/2013-08-09-969
 
@@ -1593,19 +1747,18 @@ refid: "lov/1999-07-02-63"
 > Romertall I § 2-4 første ledd trer i kraft 1. januar 2014.
 >
 
+### 2014-01-01 — forskrift/2013-12-06-1398
+
+*Lov 7. juni 2013 nr. 29 om endringer i pasient- og brukerrettighetsloven mv. (styrking av pasienters, brukeres og pårørendes stilling m.m.) trer i kraft fra 1. januar 2014.*
+
+> Lov 7. juni 2013 nr. 29 om endringer i pasient- og brukerrettighetsloven mv. (styrking av pasienters, brukeres og pårørendes stilling m.m.) trer i kraft fra 1. januar 2014.
+>
+
 ### 2014-06-20 — lov/2014-06-20-41
 
-*Endringer i følgende lov:*
+*I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal ny § 2-1 d lyde:*
 
-> Endringer i følgende lov:
->
-> Lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter (pasient- og brukerrettighetsloven).
->
-> I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal ny § 2-1 d lyde:
->
-> § 2-1 d.
->
-> Rett til brukerstyrt personlig assistanse
+> § 2-1 d.Rett til brukerstyrt personlig assistanse
 >
 > Personer under 67 år med langvarig og stort behov for personlig assistanse etter helse- og omsorgstjenesteloven § 3-2 første ledd nr. 6 bokstav b har rett til å få slike tjenester organisert som brukerstyrt personlig assistanse. Retten omfatter avlastningstiltak etter helse- og omsorgstjenesteloven § 3-2 første ledd nr. 6 bokstav d for personer med foreldreansvar for hjemmeboende barn under 18 år med nedsatt funksjonsevne. Helsetjenester i avlastningstiltak omfattes ikke.
 >
@@ -1615,14 +1768,19 @@ refid: "lov/1999-07-02-63"
 >
 > Med stort behov i første ledd menes et tjenestebehov på minst 32 timer per uke. Brukere med tjenestebehov på minst 25 timer per uke har likevel rett til å få tjenester organisert som brukerstyrt personlig assistanse, med mindre kommunen kan dokumentere at slik organisering vil medføre vesentlig økt kostnad for kommunen.
 >
-> Loven gjelder fra den tid Kongen bestemmer.
->
 
 ### 2015-01-01 — forskrift/2014-11-14-1406
 
 *Ikraftsetting av lov 20. juni 2014 nr. 41 om endringer i pasient- og brukerrettighetsloven (rett til brukerstyrt personlig assistanse). Loven trer i kraft 1. januar 2015.*
 
 > Ikraftsetting av lov 20. juni 2014 nr. 41 om endringer i pasient- og brukerrettighetsloven (rett til brukerstyrt personlig assistanse). Loven trer i kraft 1. januar 2015.
+>
+
+### 2015-03-01 — forskrift/2014-12-19-1735
+
+*Romertall II, III og IV trer i kraft 1. mars 2015.*
+
+> Romertall II, III og IV trer i kraft 1. mars 2015.
 >
 
 ### 2015-11-01 — forskrift/2015-10-30-1240
@@ -1632,9 +1790,45 @@ refid: "lov/1999-07-02-63"
 > Delt ikraftsetting av lov 21. juni 2013 nr. 79 om endringer i pasient- og brukerrettighetsloven mv. (rett til nødvendig helsehjelp og pasientrettighetsdirektivet m.m). Romertall I § 2-1b andre ledd og § 2-2 trer i kraft 1. november 2015.
 >
 
+### 2015-11-01 — forskrift/2015-10-30-1241
+
+*Lov 22. mai 2015 nr. 32 om endringer i pasient- og brukerrettighetsloven og spesialisthelsetjenesteloven (fritt behandlingsvalg) trer i kraft 1. november 2015.*
+
+> Lov 22. mai 2015 nr. 32 om endringer i pasient- og brukerrettighetsloven og spesialisthelsetjenesteloven (fritt behandlingsvalg) trer i kraft 1. november 2015.
+>
+
 ### 2015-12-11 — lov/2015-12-11-97
 
 *Kapittel 7 overskrifta skal lyde:*
+
+### 2016-01-01 — forskrift/2015-12-18-1593
+
+*Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.*
+
+> Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.
+>
+
+### 2016-06-17 — forskrift/2016-06-17-706
+
+*Delt ikraftsetting av lov 30. mai 2016*
+
+> Delt ikraftsetting av lov 30. mai 2016
+>
+> til lov om endringer i pasient- og brukerrettighetsloven mv. (utvidelse av retten til fritt behandlingsvalg til å omfatte private rehabiliteringsinstitusjoner m.m.). Romertall I, III og IV trer i kraft straks.
+>
+> Skal vel være 17. juni 2016 nr. 48, Lovdatas anm.
+>
+
+### 2016-07-01 — forskrift/2016-06-17-729
+
+*Delt ikraftsetting av lov 13. juni 2016*
+
+> Delt ikraftsetting av lov 13. juni 2016
+>
+> til lov om endringer i pasient- og brukerrettighetsloven og helse- og omsorgstjenesteloven (rett til opphold i sykehjem eller tilsvarende bolig særskilt tilrettelagt for heldøgns tjenester – kriterier og ventelister). Romertall I § 2-1e første ledd, II § 3-2a første og andre ledd og III trer i kraft 1. juli 2016.
+>
+> Skal vel være 17. juni 2016, Lovdatas anm.
+>
 
 ### 2016-10-01 — forskrift/2016-09-16-1069
 
@@ -1647,11 +1841,85 @@ refid: "lov/1999-07-02-63"
 
 *Nåværende tredje til femte ledd blir fjerde til sjette ledd.*
 
+### 2017-07-01 — forskrift/2017-05-22-622
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 48 om endringer i pasient- og brukerrettighetsloven mv. (utvidelse av retten til fritt behandlingsvalg til å omfatte private rehabiliteringsinstitusjoner m.m.).*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 48 om endringer i pasient- og brukerrettighetsloven mv. (utvidelse av retten til fritt behandlingsvalg til å omfatte private rehabiliteringsinstitusjoner m.m.).
+>
+> Romertall II trer i kraft 1. juli 2017.
+>
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*Nåværende sjette og syvende ledd blir syvende og nytt åttende ledd.*
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*Nåværende § 7-6 blir ny § 7-7.*
+
+### 2018-01-01 — forskrift/2017-06-16-757
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
 ### 2018-06-22 — lov/2018-06-22-76
 
 *I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 3-2 fjerde ledd andre punktum lyde:*
 
 > Det skal samtidig informeres om adgangen til å søke erstatning hos Norsk pasientskadeerstatning, til å henvende seg til pasient- og brukerombudet og adgangen til å anmode tilsynsmyndigheten om vurdering av eventuelt pliktbrudd etter § 7-4.
+>
+
+### 2018-07-01 — forskrift/2018-04-06-553
+
+*Delt ikraftsetting av lov 18. desember 2015 nr. 121 om endringer i helselovgivningen (Nasjonalt klageorgan for helsetjenesten mv.). Del III, IV, VII og endringene i pasientskadeloven § 18 første ledd i del VI trer i kraft 1. juli 2018.*
+
+> Delt ikraftsetting av lov 18. desember 2015 nr. 121 om endringer i helselovgivningen (Nasjonalt klageorgan for helsetjenesten mv.). Del III, IV, VII og endringene i pasientskadeloven § 18 første ledd i del VI trer i kraft 1. juli 2018.
+>
+
+### 2018-07-01 — forskrift/2018-06-22-948
+
+*Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 15 nr. 3, endringene i lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter § 3-2 femte og sjette ledd, samt § 3-3 tredje ledd, trer i kraft 1. juli 2018.*
+
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 15 nr. 3, endringene i lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter § 3-2 femte og sjette ledd, samt § 3-3 tredje ledd, trer i kraft 1. juli 2018.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2019-05-01 — forskrift/2019-04-26-541
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.
+>
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 1 til § 15 nr. 2, § 15 nr. 3 for så vidt gjelder endringene i lov 2. juni 1999 nr. 63
+>
+> om pasient- og brukerrettigheter § 7-6, samt § 15 nr. 4 til 7, trer i kraft 1. juli 2019.
+>
+> Skal være lov 2. juli 1999 nr. 63, Lovtidend-redaksjonens anm.
+>
+
+### 2020-03-01 — forskrift/2019-12-20-1919
+
+*Loven trer i kraft 1. mars 2020.*
+
+> Loven trer i kraft 1. mars 2020.
 >
 
 ### 2020-06-19 — lov/2020-06-19-79
@@ -1675,6 +1943,13 @@ refid: "lov/1999-07-02-63"
 > Pasient eller representant for pasienten som mener at bestemmelsen i § 2-4 a annet ledd bokstav a ikke er overholdt, kan klage til en klagenemnd som oppnevnes av departementet.
 >
 
+### 2021-01-01 — forskrift/2020-12-04-2622
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
 ### 2021-05-07 — lov/2021-05-07-31
 
 *I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 7-6 lyde:*
@@ -1684,6 +1959,20 @@ refid: "lov/1999-07-02-63"
 > En pasient, bruker eller nærmeste pårørende kan varsle Statens helsetilsyn og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av ytelse av helse- og omsorgstjenester eller ved at en pasient eller bruker skader en annen. Adgangen til å varsle gjelder dersom utfallet er uventet ut fra påregnelig risiko.
 >
 > Departementet kan gi forskrift om varsling etter første ledd, også om innholdet i varslene.
+>
+
+### 2021-05-07 — forskrift/2021-05-07-1444
+
+*Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens un*
+
+> Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten) og del VIII (helsetilsynsloven) trer i kraft 1. juli 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2022-04-01 — lov/2022-04-01-18
@@ -1704,15 +1993,105 @@ refid: "lov/1999-07-02-63"
 > Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-1 b andre ledd andre punktum om fastsettelse av frist for når pasienten senest skal få nødvendig helsehjelp§ 2-1 b fjerde ledd om rett til nødvendig helsehjelp uten opphold ved brudd på frist fastsatt etter andre ledd andre punktum§ 2-2 første ledd første punktum om informasjon om rett til nødvendig helsehjelp§ 2-2 første ledd fjerde punktum om informasjon om tidspunkt for når utredning eller behandling skal settes i gang§ 2-2 andre ledd om plikt til å kontakte HELFO§ 2-3 om rett til fornyet vurdering§ 2-4 om rett til fritt behandlingsvalg§ 2-5 om rett til individuell plan§ 2-5 a om rett til kontaktlege§ 2-5 b om rett til koordinator§ 2-5 c om rett til barnekoordinator.
 >
 
+### 2022-06-15 — forskrift/2022-06-10-994
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
+>
+
+### 2022-07-01 — forskrift/2022-04-01-518
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2022-07-01 — forskrift/2022-05-20-887
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2022-08-01 — forskrift/2022-05-20-871
+
+*Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.
+>
+
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2249
+
+*Følgende trer i kraft 1. januar 2023:*
+
+> Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I (spesialisthelsetjenesteloven) § 4-3
+>
+> Endringsloven del II (pasient- og brukerrettighetsloven) § 2-4
+>
+> Endringsloven del III nr. 2 (overgangsregel)
+>
+> Endringsloven del III nr. 3 (forskriftshjemmel)
+>
+> Følgende trer i kraft 1. januar 2024:
+>
+> Endringsloven del II (pasient- og brukerrettighetsloven) § 2-6.
+>
+
 ### 2023-04-28 — lov/2023-04-28-9
 
 *Nåværende § 2-1 a blir ny § 2-1. § 2-1 b oppheves.*
+
+### 2023-04-28 — forskrift/2023-04-28-613
+
+*1. Delt ikraftsetting av lov om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten).*
+
+> 1. Delt ikraftsetting av lov om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten).
+>
+> Følgende trer i kraft straks:
+>
+> Endringsloven del III (pasient- og brukerrettighetsloven) § 7-4 andre ledd
+>
+> Endringsloven del IV
+>
+> Endringsloven del VI.
+>
 
 ### 2023-06-16 — lov/2023-06-16-56
 
 *I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 7-2 første ledd første punktum lyde:*
 
 > Pasient eller bruker eller dennes representant som mener at bestemmelsene i kapittel 2 med unntak av § 2-4 a, kapitlene 3 og 4, samt § 5-1, § 6-2 og § 6-3 er brutt, kan klage til statsforvalteren.
+>
+
+### 2023-07-01 — forskrift/2023-03-03-289
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
+### 2023-07-01 — forskrift/2023-06-16-945
+
+*Lovendringene trer i kraft 1. juli 2023.*
+
+> Lovendringene trer i kraft 1. juli 2023.
 >
 
 ### 2023-12-20 — lov/2023-12-20-106
@@ -1729,6 +2108,28 @@ refid: "lov/1999-07-02-63"
 > Pasientens eller brukerens representant etter første ledd er den som har fullmakt til å klage på pasientens eller brukerens vegne, eller som har samtykkekompetanse etter kapittel 4. Fullmektig som ikke er advokat, skal legge frem skriftlig fullmakt.
 >
 
+### 2024-01-01 — forskrift/2023-12-20-2128
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
+### 2024-06-01 — forskrift/2024-04-26-746
+
+*Delt ikraftsetting av lov 28. april 2023 nr. 9 om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten). Følgende trer i kraft 1. juni 2024:*
+
+> Delt ikraftsetting av lov 28. april 2023 nr. 9 om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten). Følgende trer i kraft 1. juni 2024:
+>
+> Endringsloven del I
+>
+> Endringsloven del II
+>
+> Endringsloven del III med unntak av § 7-4 andre ledd
+>
+> Endringsloven del V.
+>
+
 ### 2024-06-21 — lov/2024-06-21-43
 
 *I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter blir § 7-7 andre ledd oppheva.*
@@ -1742,6 +2143,20 @@ refid: "lov/1999-07-02-63"
 > Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-2 a andre ledd tredje punktum om fastsettelse av tidsfrist for når pasienten senest skal få nødvendig helsehjelp§ 2-2 b første ledd om rett til nødvendig helsehjelp uten opphold ved brudd på tidsfrist fastsatt etter § 2-2 a andre ledd tredje punktum§ 2-2 a andre ledd bokstav a om informasjon om rett til nødvendig helsehjelp§ 2-2 a andre ledd bokstav b om informasjon om tidspunkt for oppstart av helsehjelpen§ 2-2 b første ledd om plikt til å kontakte HELFO§ 2-3 om rett til fornyet vurdering§ 2-4 om rett til valg av behandlingssted§ 2-5 om rett til individuell plan§ 2-5 a om rett til kontaktlege§ 2-5 b om rett til koordinator§ 2-5 c om rett til barnekoordinator.
 >
 
+### 2024-07-01 — forskrift/2024-06-21-1101
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ### 2025-04-25 — lov/2025-04-25-13
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
@@ -1757,6 +2172,48 @@ refid: "lov/1999-07-02-63"
 ### 2025-06-20 — lov/2025-06-20-67
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2025-09-01 — forskrift/2025-06-20-1109
+
+*Følgende trer i kraft 1. september 2025:*
+
+> Følgende trer i kraft 1. september 2025:
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 9-2.
+>
+> Følgende trer i kraft 1. juni 2026:
+>
+> Endringsloven del I (spesialisthelsetjenesteloven) § 3-11.
+>
+> Endringsloven del II (psykisk helsevernloven) § 1-1, § 1-2, § 2-1, § 3-2, § 3-3, § 3-3a, § 3-4, § 3-5, § 4-2a, § 4-4, § 4-4b, § 4-8a og § 6-4.
+>
+> Endringsloven del III (pasient- og brukerrettighetsloven) § 3-1, § 3-3, § 4-3, § 4-5, § 4-6, § 4-6a, § 4A-2, § 4A-3, § 7-2 og § 7-4.
+>
+> Endringsloven del IV (helsepersonelloven) § 22, § 25 og § 45.
+>
+> Endringsloven del V (behandlingsbiobankloven) § 11.
+>
+> Endringsloven del VI (alternativ behandlingsloven) § 7.
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 4-2a.
+>
+> Endringsloven del VIII (pasientjournalloven) § 17.
+>
+> Endringsloven del IX (helseregisterloven) § 15.
+>
+> Endringsloven del X (transplantasjonslova) § 5 og § 7.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
 
 ### 2026-06-12 — lov/2026-06-12-22
 
@@ -1772,6 +2229,27 @@ refid: "lov/1999-07-02-63"
 *I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 3-1 nytt femte ledd lyde:*
 
 > Pasient eller bruker har rett til å ha andre personer til stede når helse- og omsorgstjenester gis. Det kan gjøres unntak dersom det er nødvendig for å kunne gi forsvarlige helse- og omsorgstjenester.
+>
+
+### 2026-07-01 — forskrift/2026-03-13-402
+
+*Ikraftsetting av lov 23. januar 2026 nr. 1 om endringer i helsepersonelloven og pasientjournalloven mv. (taushetsplikt og tilgjengeliggjøring av pasientopplysninger). Loven trer i kraft 1. juli 2026.*
+
+> Ikraftsetting av lov 23. januar 2026 nr. 1 om endringer i helsepersonelloven og pasientjournalloven mv. (taushetsplikt og tilgjengeliggjøring av pasientopplysninger). Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-12-1076
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1142
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 4A-2

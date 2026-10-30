@@ -15,6 +15,13 @@ refid: "lov/2015-05-12-30"
 
 *Ny endring etter endringen av § 505 annet punktum skal lyde:*
 
+### 2025-02-11 — forskrift/2024-11-11-2739
+
+*Den internasjonale Nairobi-konvensjonen om fjerning av vrak, 2007, trer i kraft for Norge 11. februar 2025. Lov 20. desember 2018 nr. 115 om endringer i sjøloven mv. (fjerning av vrak) trer derfor i kraft 11. februar 2025, jf. kgl.res. 11. oktober 2024 nr. 2458 med hjemmel i lov 20. desember 2018 nr*
+
+> Den internasjonale Nairobi-konvensjonen om fjerning av vrak, 2007, trer i kraft for Norge 11. februar 2025. Lov 20. desember 2018 nr. 115 om endringer i sjøloven mv. (fjerning av vrak) trer derfor i kraft 11. februar 2025, jf. kgl.res. 11. oktober 2024 nr. 2458 med hjemmel i lov 20. desember 2018 nr. 115 om endringer i sjøloven mv. (fjerning av vrak) del IV.
+>
+
 ## § 210 h
 
 ### 2018-12-20 — lov/2018-12-20-115

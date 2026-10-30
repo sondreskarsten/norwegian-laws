@@ -7,6 +7,39 @@ refid: "lov/2010-03-26-8"
 
 ## (annet)
 
+### 2013-07-01 — forskrift/2013-05-31-543
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-798
+
+*Lov om endringer i patentloven mv. (forenklinger) gjelder fra 1. juli 2019.*
+
+> Lov om endringer i patentloven mv. (forenklinger) gjelder fra 1. juli 2019.
+>
+> Endringene i patentloven § 28 og § 72, designloven § 50 og varemerkeloven § 80 gjelder bare der fristoversittelsen skjer etter at loven har trådt i kraft.
+>
+> Endringen i patentloven § 19 gjelder bare der underretning til søkeren om at patent kan meddeles er sendt fra Patentstyret etter at loven har trådt i kraft.
+>
+> Endringen i designloven § 13 gjelder bare for søknader som leveres til Patentstyret eller til Det internasjonale byrået ved WIPO etter at loven har trådt i kraft.
+>
+> Endringene i patentloven § 39a og 39b gjelder bare for begjæringer om patentbegrensning som leveres til Patentstyret etter at loven har trådt i kraft.
+>
+> Endringen i patentloven § 52d gjelder bare for krav om administrativ overprøving som leveres til Patentstyret etter at loven har trådt i kraft.
+>
+> Opphevingen av patentloven § 63a gjelder bare der stevning tas ut etter at loven har trådt i kraft.
+>
+
 ### 2020-06-12 — lov/2020-06-12-67
 
 *I kapittel 7 skal ny § 56 a lyde:*
@@ -37,11 +70,71 @@ refid: "lov/2010-03-26-8"
 > Ved kollisjon mellom rettserverv som nevnt i første ledd og panterett i driftstilbehør etter panteloven §§ 3-4 eller 5-4 som omfatter en rett til varemerkesøknad, registrert varemerke eller en lisens som gjelder slike rettigheter, går rettserverv som er mottatt til anmerkning hos Patentstyret, foran panterett i driftstilbehør som ikke er mottatt til anmerkning hos Løsøreregisteret samme dag eller tidligere. Annet ledd gjelder tilsvarende. En eldre panterett i driftstilbehør som ikke er mottatt til anmerkning i Løsøreregisteret, går likevel foran et yngre rettserverv som nevnt i første ledd, dersom den yngre retten er basert på et frivillig rettserverv, og erververen kjente eller burde kjenne til driftstilbehørspanteretten da kravet om anmerkning ble mottatt hos Patentstyret.
 >
 
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2023-03-01 — forskrift/2023-02-17-229
+
+*Delt ikraftsetting av lov 12. juni 2020 nr. 67 om endringer i varemerkeloven og tolloven mv. (gjennomføring av nytt varemerkedirektiv mv.). Følgende deler av loven trer i kraft 1. mars 2023:*
+
+> Delt ikraftsetting av lov 12. juni 2020 nr. 67 om endringer i varemerkeloven og tolloven mv. (gjennomføring av nytt varemerkedirektiv mv.). Følgende deler av loven trer i kraft 1. mars 2023:
+>
+> del I (varemerkeloven)
+>
+> del II (patentloven)
+>
+> del III (panteloven)
+>
+> del IV (foretaksnavneloven)
+>
+> del V (designloven).
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *12.I lov 26. mars 2010 nr. 8 om beskyttelse av varemerker skal § 61 tredje ledd lyde:*
 
 > Ved inngrep i rett til fellesmerke eller garanti- eller kontrollmerke anses bare merkehaveren som fornærmet.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >
 
 ## § 1
@@ -143,6 +236,13 @@ refid: "lov/2010-03-26-8"
 *§ 15 første ledd bokstav c skal lyde:*
 
 > uten tillatelse inneholder et våpen eller annet tegn som er omfattet av straffeloven § 165 bokstav b og § 166, et statsflagg, eller noe annet som er egnet til å oppfattes som slikt tegn eller flagg.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 15 første ledd bokstav c skal lyde:*
+
+> uten tillatelse inneholder et våpen eller annet tegn som er omfattet av straffeloven § 165 bokstav b og § 166, et statsflagg, eller noe som er egnet til å oppfattes som slikt tegn eller flagg.
 >
 
 ### 2020-06-12 — lov/2020-06-12-67
@@ -352,6 +452,10 @@ refid: "lov/2010-03-26-8"
 
 ## § 37
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 37 tredje ledd oppheves.*
+
 ### 2020-06-12 — lov/2020-06-12-67
 
 *§ 37 andre ledd skal lyde:*
@@ -381,7 +485,11 @@ refid: "lov/2010-03-26-8"
 
 *§ 4 tredje ledd bokstav d og ny bokstav e og f skal lyde:*
 
-> å bruke tegnet på forretningspapirer og i reklameå bruke tegnet som foretaksnavn eller forretningskjennetegn, eller som del av et foretaksnavn eller forretningskjennetegnå bruke tegnet i sammenlignende reklame i strid med forskrift etter markedsføringsloven § 26 annet ledd.
+> å bruke tegnet på forretningspapirer og i reklame
+>
+> å bruke tegnet som foretaksnavn eller forretningskjennetegn, eller som del av et foretaksnavn eller forretningskjennetegn
+>
+> å bruke tegnet i sammenlignende reklame i strid med forskrift etter markedsføringsloven § 26 annet ledd.
 >
 
 ## § 4 a
@@ -619,6 +727,21 @@ refid: "lov/2010-03-26-8"
 > Offentlig påtale finner bare sted hvis den fornærmede ber om det, med mindre det kreves av allmenne hensyn. Ved inngrep i fellesmerke anses bare merkehaveren som fornærmet.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 61 skal lyde:*
+
+> § 61.Straff
+>
+> Den som begår varemerkeinngrep straffes med bøter eller fengsel i inntil ett år.
+>
+> Dersom det foreligger særlig skjerpende omstendigheter, er straffen bøter eller fengsel inntil tre år. Ved vurderingen av om særlig skjerpende omstendigheter foreligger skal det særlig legges vekt på den skade som er påført rettighetshaveren, herunder skade på rettighetshaverens kommersielle omdømme, den vinning som inngriperen har oppnådd, og omfanget av inngrepet for øvrig.
+>
+> For overtredelse av denne bestemmelsen kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale, jf. straffeprosessloven § 62 a. Ved inngrep i fellesmerke anses bare merkehaveren som fornærmet.
+>
+> 240. I lov 25. juni 2010 nr. 45 om kommunal beredskapsplikt, sivile beskyttelsestiltak og Sivilforsvaret gjøres følgende endring:
+>
+
 ### 2020-06-12 — lov/2020-06-12-67
 
 *§ 61 tredje ledd andre punktum skal lyde:*
@@ -747,10 +870,6 @@ refid: "lov/2010-03-26-8"
 > Meddelelser fra Patentstyret eller Klagenemnden til en søker, registreringsinnehaver, innsiger eller en som har krevd administrativ overprøving etter § 40, regnes alltid som avgitt når de er sendt til den adressen som vedkommende senest har oppgitt til Patentstyret eller Klagenemnden. Adressen innføres i varemerkeregistret. For søkere og registreringsinnehavere som har fullmektig, kan meddelelser sendes til fullmektigen.
 >
 > Hvis den registrerte adressen viser seg å være feil, inntas meddelelsen eller et sammendrag i Norsk Varemerketidende, med opplysning om at dokumentet kan fås hos Patentstyret eller Klagenemnden.
->
-> 28. I lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre skal § 23 annet ledd tredje og fjerde punktum lyde:
->
-> Spørsmålet om samtykke skal likevel behandlast skriftleg, om ikkje retten treff avgjerd om munnleg behandling. I tilfelle som nemnde i § 21 andre ledd skal oppmodinga sendast den tingretten som avgjorde spørsmålet om overlevering.
 >
 
 ## § 8

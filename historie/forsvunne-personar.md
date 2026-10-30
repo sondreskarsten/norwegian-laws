@@ -14,6 +14,20 @@ refid: "lov/2015-05-12-27"
 > Reglane i første til tredje ledd gjeld òg når ein person har døydd i utlandet, og det ikkje kan skaffast dokumentasjon på dødsfallet som norske styresmakter godtek for å registrere dødsfallet i Folkeregisteret. Reglane elles i denne lova gjeld tilsvarande for slike saker så langt dei høver.
 >
 
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ## § 15
 
 ### 2020-12-18 — lov/2020-12-18-149

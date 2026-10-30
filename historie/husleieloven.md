@@ -5,6 +5,17 @@ refid: "lov/1999-03-26-17"
 
 # Endringshistorikk: Husleieloven – husll
 
+## § 1-8
+
+### 2008-06-20 — lov/2008-06-20-42
+
+*§ 1-8 første og annet ledd skal lyde:*
+
+> Ved utleie av husrom kan det ikke tas hensyn til kjønn, etnisitet, nasjonal opprinnelse, avstamning, hudfarge, språk, religion, livssyn eller nedsatt funksjonsevne. Slike omstendigheter kan ikke regnes som saklig grunn til å nekte opptak i husstand, framleie, personskifte eller tillegges vekt ved opphør av leieforholdet. Ved slik diskriminering gjelder likestillingsloven, diskrimineringsloven og diskriminerings- og tilgjengelighetsloven.
+>
+> Ved utleie av husrom kan det heller ikke tas hensyn til seksuell orientering. Slike omstendigheter kan ikke regnes som saklig grunn til å nekte opptak i husstand, framleie, personskifte eller tillegges vekt ved opphør av leieforholdet.
+>
+
 ## § 2-13
 
 ### 2009-01-16 — lov/2009-01-16-6
@@ -105,6 +116,15 @@ refid: "lov/1999-03-26-17"
 *§ 5-3 annet ledd annet og tredje punktum skal lyde:*
 
 > Leieren plikter også å foreta nødvendig funksjonskontroll, rengjøring, batteriskift, testing og lignende av røykvarsler og brannslukkingsutstyr. Må gjenstander som tilhører utleieren skiftes ut, påhviler dette utleieren hvis annet ikke er avtalt.
+>
+
+## § 5-4
+
+### 2008-06-20 — lov/2008-06-20-42
+
+*§ 5-4 tredje ledd skal lyde:*
+
+> Leier av bolig kan med utleierens godkjenning gjennomføre tiltak på eiendommen som er nødvendige på grunn av leierens eller husstandsmedlemmers nedsatte funksjonsevne. Leier av lokale kan med utleierens godkjenning sette opp vanlige skilter, markiser o.l. Godkjenning etter første og annet punktum kan ikke nektes uten saklig grunn.
 >
 
 ## § 7-1
@@ -259,6 +279,15 @@ refid: "lov/1999-03-26-17"
 > Departementet kan i en eller flere kommuner opprette et partssammensatt utvalg til behandling av tvister etter loven her og etter lov 16. juni 1939 nr. 6 om husleie (Husleietvistutvalg).
 >
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 12-5 annet og tredje ledd skal lyde:*
+
+> I områder der det er opprettet husleietvistutvalg, må tvister om leie av bolig behandles der før de kan bringes inn for tingretten hvis det følger av rettergangslovgivningen at behandling i forliksrådet ellers ville vært nødvendig. Forliksrådet kan ikke behandle tvister om leie av bolig i områder der det er opprettet husleietvistutvalg.
+>
+> Husleietvistutvalget kan behandle tvister om leie av bolig fra hele landet når saken gjelder klage fra en forbruker mot næringsdrivende utleier. I områder der det ikke er opprettet husleietvistutvalg, kan slike saker alternativt bringes inn for forliksrådet.
+>
+
 ### 2025-12-22 — lov/2025-12-22-127
 
 *§ 12-5 første og andre ledd skal lyde:*
@@ -276,10 +305,6 @@ refid: "lov/1999-03-26-17"
 
 > For dommer forkynt etter lovens ikrafttredelse gjelder ankefristene i tvisteloven § 29-5.
 >
-> 120. I lov 25. juni 1999 nr. 46 om finansavtaler og finansoppdrag (finansavtaleloven) skal § 4 fjerde ledd annet punktum lyde:
->
-> Bestemmelsen i første punktum er likevel ikke til hinder for tvangsfullbyrdelse etter tvangsfullbyrdelsesloven eller midlertidig sikring etter tvisteloven.
->
 
 ## (annet)
 
@@ -288,6 +313,23 @@ refid: "lov/1999-03-26-17"
 *I lov 26. mars 1999 nr. 17 om husleieavtaler (husleieloven) skal § 12-5 første punktum lyde:*
 
 > Departementet kan som forsøk i en eller flere kommuner opprette et partssammensatt utvalg til behandling av tvister etter loven her og etter lov 16. juni 1939 nr. 6 om husleie (Husleietvistutvalg).
+>
+
+### 2005-06-10 — lov/2005-06-10-40
+
+*3. I lov 26. mars 1999 nr. 17 om husleieavtaler skal § 1-8 lyde:*
+
+> Forbud mot diskriminering
+>
+> Ved utleie av husrom kan det ikke tas hensyn til etnisitet, nasjonal opprinnelse, avstamning, hudfarge, språk, religion eller livssyn. Slike omstendigheter kan ikke regnes som saklig grunn til å nekte opptak i husstand, framleie, personskifte eller tillegges vekt ved opphør av leieforholdet. Ved slik diskriminering gjelder diskrimineringsloven.
+>
+> Ved utleie av husrom kan det heller ikke tas hensyn til homofil orientering. Slike omstendigheter kan ikke regnes som saklig grunn til å nekte opptak i husstand, framleie, personskifte eller tillegges vekt ved opphør av leieforholdet.
+>
+> Hvis det foreligger omstendigheter som gir grunn til å tro at det har funnet sted diskriminering i strid med annet ledd, skal slik diskriminering anses som bevist, med mindre den som har utført handlingen sannsynliggjør at diskriminering likevel ikke har funnet sted.
+>
+> Om erstatningsansvar for ulovlig diskriminering etter annet ledd gjelder vanlige erstatningsregler.
+>
+> Likestillings- og diskrimineringsombudet og Likestillings- og diskrimineringsnemnda skal føre tilsyn med og medvirke til gjennomføringen av annet ledd, jf. diskrimineringsombudsloven.
 >
 
 ### 2006-07-01 — lov/2006-06-16-34
@@ -303,17 +345,11 @@ refid: "lov/1999-03-26-17"
 
 *I lov 26. mars 1999 nr. 17 om husleieavtaler (husleieloven) skal ny § 9-11 lyde:*
 
-> I lov 26. mars 1999 nr. 17 om husleieavtaler (husleieloven) skal ny § 9-11 lyde:
->
-> § 9-11.
->
-> Varsel om fravikelse
+> § 9-11.Varsel om fravikelse
 >
 > Når det er grunnlag for å begjære fravikelse av husrommet kan utleier, dersom det er grunn til det, sende skriftlig varsel til sosialtjenesten i kommunen om misligholdet. En eventuell begjæring om tvangsfravikelse bør tidligst fremsettes for namsmyndigheten to uker etter at skriftlig varsel er sendt til sosialtjenesten. Utleier kan gi andre fullmakt til å sende slikt varsel. Leier kan i skriftlig melding til utleier reservere seg mot at slikt varsel blir sendt til sosialtjenesten.
 >
 > Utleier skal senest samtidig med oversendelse av varsel til sosialtjenesten i kommunen etter første ledd, sende kopi av varselet eller annen melding om innholdet til leier.
->
-> Loven gjelder fra den tid Kongen bestemmer.
 >
 
 ### 2009-01-16 — lov/2009-01-16-6
@@ -328,6 +364,33 @@ refid: "lov/1999-03-26-17"
 *Overskriften i § 7-7 skal lyde:*
 
 > § 7-7.Framleierens stilling ved opphør av hovedleieavtalen
+>
+
+### 2013-06-21 — lov/2013-06-21-61
+
+*2. I lov 26. mars 1999 nr. 17 om husleieavtaler skal § 1-8 lyde:*
+
+> § 1-8.Forbud mot diskriminering
+>
+> Ved utleie av husrom kan det ikke tas hensyn til kjønn, etnisitet, religion, livssyn, nedsatt funksjonsevne, seksuell orientering, kjønnsidentitet eller kjønnsuttrykk. Slike omstendigheter kan ikke regnes som saklig grunn til å nekte opptak i husstand, framleie, personskifte eller tillegges vekt ved opphør av leieforholdet. Ved diskriminering gjelder likestillingsloven, diskrimineringsloven om etnisitet, diskriminerings- og tilgjengelighetsloven og diskrimineringsloven om seksuell orientering.
+>
+
+### 2014-01-01 — forskrift/2013-06-21-707
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
+>
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*Nåværende § 12-5 tredje ledd blir fjerde ledd.*
+
+### 2018-01-01 — forskrift/2017-06-16-751
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
 >
 
 ### 2022-05-06 — lov/2022-05-06-27
@@ -349,6 +412,24 @@ refid: "lov/1999-03-26-17"
 > Departementet kan gi forskrift om Husleietvistutvalget.
 >
 
+### 2022-07-01 — forskrift/2022-05-06-758
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2023-06-02 — lov/2023-06-02-17
+
+*I lov 26. mars 1999 nr. 17 om husleieavtaler skal ny § 9-3 a lyde:*
+
+> § 9-3 a.Midlertidig unntak ved utleie av fritidsbolig som bolig
+>
+> For bygning hvor det er gitt unntak for tidsbestemt bruksendring fra fritidsbolig til bolig etter plan- og bygningsloven §§ 20-9 og 20-10, kan det inngås tidsbestemt leieavtale med minstetid på ned til ett år.
+>
+> Del XI nr. 2 skal lyde:Del III til X a i loven oppheves 1. juli 2024.
+>
+
 ### 2024-06-25 — lov/2024-06-25-53
 
 *I lov 26. mars 1999 nr. 17 om husleieavtaler skal § 9-3 a lyde:*
@@ -356,6 +437,13 @@ refid: "lov/1999-03-26-17"
 > § 9-3 a. Midlertidig unntak ved utleie av fritidsbolig som bolig
 >
 > For bygning hvor det er gitt unntak for tidsbestemt bruksendring fra fritidsbolig til bolig etter plan- og bygningsloven §§ 20-9 og 20-10, kan det inngås tidsbestemt leieavtale med minstetid på ned til ett år.
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
 >
 
 ### 2026-01-01 — forskrift/2025-12-22-2815
@@ -372,4 +460,11 @@ refid: "lov/1999-03-26-17"
 > § 9-3 a. Midlertidig unntak ved utleie av fritidsbolig som bolig
 >
 > For bygning hvor det er gitt unntak for tidsbestemt bruksendring fra fritidsbolig til bolig etter plan- og bygningsloven §§ 20-9 og 20-10, kan det inngås tidsbestemt leieavtale med minstetid på ned til ett år.
+>
+
+### 2026-07-01 — forskrift/2026-06-12-1076
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >

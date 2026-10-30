@@ -7,6 +7,15 @@ refid: "lov/1932-02-05-2"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*20. I lov 5. februar 1932 nr. 2 om rettergangsmåten i riksrettssaker skal § 19 første punktum lyde:*
+
+> Er det i én sak flere anklagede, utøver de utskytningsretten i fellesskap.
+>
+> 21. I lov 27. mai 1932 nr. 2 om veksler skal § 43 andre ledd nr. 3 lyde:hvis trassenten i tilfelle hvor han har forbudt vekslens forevisning til aksept, er kommet under konkurs eller har åpnet gjeldsforhandling etter loven.
+>
+
 ### 2007-03-30 — lov/2007-03-30-13
 
 *§§ 18 til 20 oppheves.*
@@ -15,6 +24,22 @@ refid: "lov/1932-02-05-2"
 
 *Nytt kapittel 3 skal lyde:*
 
+### 2014-05-09 — lov/2014-05-09-16
+
+*3. I lov 5. februar 1932 nr. 2 om rettergangsmåten i riksrettssaker skal § 9 tredje ledd annet punktum lyde:*
+
+> Dette utvalg som velges av retten skal i tilfelle ha tre medlemmer, derav én høiesterettsdommer, som tjenestegjør som leder, og to av medlemmene valgt av Stortinget.
+>
+> 4. I lov 10. februar 1967 om behandlingsmåten i forvaltningssaker § 13 b første ledd nr. 6 erstattes «angiverorganets» med «avgiverorganets».
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
 ## § 10
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -22,18 +47,6 @@ refid: "lov/1932-02-05-2"
 *§ 10 tredje ledd første punktum skal lyde:*
 
 > For øvrig gjelder om vidneplikten og plikten til å gjøre tjeneste som sakkyndig, og om fremgangsmåten ved innkallelse og avhøring av vidner og sakkyndige, reglene i tvisteloven.
->
-> 17. I lov 27. mai 1932 nr. 2 om veksler skal § 71 første ledd lyde:
->
-> Vekselforeldelsen avbrytesved at stevning er sendt til retten eller i tilfelle klage til forliksrådet, eller ved at vekselkravet under rettssak gjøres gjeldende til motregning, eller for øvrig inndras i saken (jf. tvisteloven § 15-1) ellerved at vekselfordringen anmeldes i skyldnerens bo dersom dette behandles av offentlige myndigheter ellerved at den mot hvem søksmål (motregningskrav) som foran omtalt er reist, gir en formann varsel om søksmålet (tvisteloven § 15-9). Den som har mottatt sådan innvarsling, kan avbryte foreldelsen ved likeledes å gi sin formann prosessvarsel.
->
-> 18. I lov 27. mai 1932 nr. 3 om chekker skal § 53 første ledd lyde:
->
-> Sjekkforeldelse avbrytesved at stevning er sendt til retten eller i tilfelle klage til forliksrådet, eller ved at sjekkravet under rettssak gjøres gjeldende til motregning, eller for øvrig inndras i saken (jf. tvisteloven § 15-1) ellerved at chekkfordringen anmeldes i skyldnerens bo dersom dette behandles av offentlige myndigheter ellerved at den mot hvem søksmål (motregningskrav) som foran omtalt er reist, gir en formann varsel om søksmålet (tvisteloven § 15-9). Den som har mottatt sådan innvarsling, kan avbryte foreldelsen ved likeledes å gi sin formann prosessvarsel.
->
-> 19. I lov 17. juni 1932 nr. 2 om enkelte bestemmelser om fremmede konsulers rettsstilling skal § 1 første ledd bokstav b annet punktum lyde:
->
-> Tvistelovens regler om bevisopptak i rettssak får i så fall anvendelse.
 >
 
 ## § 14

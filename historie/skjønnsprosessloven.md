@@ -77,9 +77,39 @@ refid: "lov/1917-06-01-1"
 > Fylkesrådmannen skal innen 1. november året etter hvert kommunestyrevalg sende oppgave over alle skjønnsmedlemmer i det fylkesvise utvalg til tingrettene og jordskifterettene i fylket og til vedkommende lagmannsrett. Oppgaven skal inneholde fullt navn, adresse, fødselsnummer, eventuell telefon til arbeidsted og privat, stilling og yrke, samt angivelse av hva vedkommende er særlig kyndig i.
 >
 
+### 2016-04-22 — lov/2016-04-22-3
+
+*3. I lov 1. juni 1917 nr. 1 om skjønn og ekspropriasjonssaker skal § 15 første ledd lyde:*
+
+> Sletting av skjønnsmedlemmer fra utvalget, jf § 14, foretas av fylkesrådmannen når et skjønnsmedlem flytter fra fylket eller for øvrig vilkårene for sletting foreligger etter reglene i domstolloven § 76 første eller annet ledd. Før avgjørelse treffes, skal vedkommende skjønnsmedlem så vidt mulig få høve til å uttale seg, og han skal om mulig gis meddelelse om resultatet. Reglene i domstolloven § 76 tredje ledd om klage gjelder tilsvarende. Klagen går til lagmannsretten. Istedenfor et skjønnsmedlem som er slettet, oppnevner fylkesrådmannen en annen.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2017-05-11 — lov/2017-05-11-26
 
 *§ 7, § 9 annet ledd, § 10 annet ledd, § 17 annet ledd, § 24, § 25, § 31, § 34 første ledd, § 38 annet ledd, § 40 første ledd annet punktum, § 45, § 49 og § 54 b annet ledd oppheves.*
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
 
 ### 2023-06-09 — lov/2023-06-09-32
 
@@ -92,11 +122,52 @@ refid: "lov/1917-06-01-1"
 > I vidtløftige saker kan skjønnsstyreren bestemme at en eller to varamedlemmer skal følge forhandlingene for å tre inn i retten om noen av skjønnsmedlemmene får forfall.
 >
 
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
 ### 2025-06-20 — lov/2025-06-20-82
 
 **
 
 > lov 1. juni 1917 nr. 1 om skjønn og ekspropriasjonssaker § 20 a
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
+### 2026-10-01 — forskrift/2026-09-11-1775
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.
 >
 
 ## § 1

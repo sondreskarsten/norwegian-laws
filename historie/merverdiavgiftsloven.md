@@ -18,7 +18,9 @@ refid: "lov/2009-06-19-58"
 
 *§ 1-3 annet ledd bokstav d og ny bokstav e skal lyde:*
 
-> fartøy og luftfartøy i utenriks fartelektroniske tjenester
+> fartøy og luftfartøy i utenriks fart
+>
+> elektroniske tjenester
 >
 
 ### 2013-04-26 — lov/2013-04-26-16
@@ -256,6 +258,17 @@ refid: "lov/2009-06-19-58"
 
 *§ 3-16 oppheves.*
 
+## § 3-29
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 3-29 første ledd og nytt annet ledd skal lyde:*
+
+> (1) Det skal beregnes merverdiavgift ved innførsel av varer til merverdiavgiftsområdet. Tollavgiftsloven § 2-1 om når tollavgift skal beregnes gjelder tilsvarende for merverdiavgift ved innførsel.
+>
+> (2) Tollavgiftsloven § 2-2 om tidfesting gjelder tilsvarende ved beregning av merverdiavgift ved innførsel.
+>
+
 ## § 3-30
 
 ### 2010-12-10 — lov/2010-12-10-71
@@ -301,6 +314,15 @@ refid: "lov/2009-06-19-58"
 > forsinkelsesrente etter forsinkelsesrenteloven
 >
 
+## § 4-2
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 4-2 første ledd bokstav a skal lyde:*
+
+> tollavgift og andre avgifter fastsatt med hjemmel i lov eller Stortingets plenarvedtak, unntatt engangsavgift på motorvogner mv.
+>
+
 ## § 4-7
 
 ### 2026-01-01 — lov/2025-12-22-121
@@ -322,6 +344,24 @@ refid: "lov/2009-06-19-58"
 ### 2012-12-07 — lov/2012-12-07-78
 
 *§ 4-8 oppheves.*
+
+## § 4-11
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 4-11 første ledd skal lyde:*
+
+> (1) Ved innførsel av varer skal beregningsgrunnlaget fastsettes etter vareførselsloven §§ 6-2 flg. om tollverdi. Tollavgift og andre avgifter som skal beregnes ved innførsel av varer, skal inngå i beregningsgrunnlaget.
+>
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 4-11 fjerde ledd og nytt femte ledd skal lyde:*
+
+> (4) Ved gjeninnførsel av varer etter foredling, bearbeiding eller reparasjon er beregningsgrunnlaget omkostningene ved arbeidet og ved forsendelsen fram og tilbake. Dersom reparasjon er utført uten vederlag, settes beregningsgrunnlaget til null.
+>
+> (5) Dersom varen er forringet som følge av skade eller bedervelse før varen er underlagt tollprosedyren overgang til fri disponering, settes beregningsgrunnlaget ned forholdsmessig etter verdiforringelsen som skaden eller bedervelsen har medført.
+>
 
 ## § 4-12
 
@@ -676,13 +716,28 @@ refid: "lov/2009-06-19-58"
 > (3) Annet ledd gjelder likevel ikke dersom leveringen av elektroniske kommunikasjonstjenester skjer gjennom fast terminal i merverdiavgiftsområdet. Skjer leveringen av slike tjenester gjennom fast terminal utenfor merverdiavgiftsområdet, er leveringen fritatt.
 >
 
+## § 6-23
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 6-23 skal lyde:*
+
+> § 6-23.Varer som legges inn på tollager
+>
+> Omsetning av varer som etter vareførselsloven § 4-4 legges inn på kjøpers tollager for utførsel, er fritatt for merverdiavgift.
+>
+
 ## § 6-29
 
 ### 2010-07-01 — lov/2010-06-25-32
 
 *§ 6-29 annet ledd nye bokstaver d, e og f skal lyde:*
 
-> adgang til utstillinger i museer og gallerieradgang til fornøyelsesparker og opplevelsessentrerett til å overvære idrettsarrangementer
+> adgang til utstillinger i museer og gallerier
+>
+> adgang til fornøyelsesparker og opplevelsessentre
+>
+> rett til å overvære idrettsarrangementer
 >
 
 ## § 6-30
@@ -721,6 +776,21 @@ refid: "lov/2009-06-19-58"
 > Det skal ikke beregnes merverdiavgift ved innførsel av varer som nevnt i § 3-6 bokstav d, § 3-7 fjerde ledd, § 3-18, § 6-1, §§ 6-3 og 6-4, § 6-7 første og annet ledd og § 6-15.
 >
 
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 7-1 skal lyde:*
+
+> § 7-1.Varer som er fritatt eller unntatt ved omsetning i merverdiavgiftsområdet
+>
+> (1) Det skal ikke beregnes merverdiavgift ved innførsel av varer som nevnt i § 3-6 bokstav d, § 3-7 fjerde ledd, § 3-18, § 6-1, §§ 6-3 og 6-4, § 6-7 første og annet ledd, § 6-10 fjerde ledd, § 6-11 fjerde ledd og § 6-15.
+>
+> (2) Det samme gjelder ved innførsel av varer og driftsutstyr som nevnt i § 6-9 første ledd, § 6-10 første ledd, § 6-11 første ledd eller ved gjeninnførsel av slike varer etter ombygging, reparasjon eller vedlikehold utenfor merverdiavgiftsområdet.
+>
+> (3) Bestemmelsene om adgang til å treffe enkeltvedtak om fritak for våpensystemet F-35 i § 6-37 gjelder tilsvarende for beregning av merverdiavgift ved innførsel av varer.
+>
+> (4) Departementet kan gi forskrift om omfanget av og vilkår for fritak fra beregning av merverdiavgift ved innførsel etter denne paragrafen og om fritak for varer til bruk for luftfartøy som nevnt i § 6-10 første ledd dersom luftfartøyet går i utenriks fart eller for den enkelte tur har bestemmelsessted utenfor merverdiavgiftsområdet.
+>
+
 ### 2024-01-01 — lov/2023-12-20-100
 
 *§ 7-1 første ledd skal lyde:*
@@ -744,6 +814,64 @@ refid: "lov/2009-06-19-58"
 > (1) Det skal ikke beregnes merverdiavgift ved innførsel av varer som nevnt i tolloven § 5-1, § 5-2 første ledd bokstav b og c, § 5-3, § 5-4 første ledd bokstav a, c, d, f og g, § 5-5, § 5-6 og § 5-7 første ledd bokstav e. Det samme gjelder ved innførsel av varer med lav verdi der tilbyder beregner og betaler merverdiavgift etter forenklet registrerings- og rapporteringsordning, jf. § 14-4 første ledd. Det skal heller ikke beregnes merverdiavgift ved gjeninnførsel av varer som nevnt i tolloven § 5-4 første ledd bokstav e dersom den som utfører og innfører varen er samme person. Vilkåret om at den som innfører og utfører varen må være samme person, gjelder likevel ikke dersom varen tidligere er endelig belastet merverdiavgift.
 >
 
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 7-2 skal lyde:*
+
+> § 7-2.Varer som er unntatt fra deklarasjonsplikt etter vareførselsloven § 4-1 og varer det ikke skal beregnes tollavgift av ved innførsel
+>
+> (1) Det skal ikke beregnes merverdiavgift ved innførsel av varer som det ikke er plikt til å levere deklarasjon for etter vareførselsloven 4-1 tredje ledd.
+>
+> (2) Det skal ikke beregnes merverdiavgift ved gjeninnførsel av varer som nevnt i tollavgiftsloven § 6-4 første ledd bokstav a dersom den som utfører og innfører varen, er samme person. Vilkåret om at den som innfører og utfører varen må være samme person, gjelder likevel ikke dersom varen tidligere er endelig belastet merverdiavgift.
+>
+> (3) Departementet kan gi forskrift om omfanget av og vilkårene for fritak og at det ikke skal beregnes merverdiavgift ved innførsel av varer som nevnt i tollavgiftsloven § 6-4 første ledd bokstav d.
+>
+
+## § 7-3
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 7-3 skal lyde:*
+
+> § 7-3.Varer til personlig bruk
+>
+> (1) Det skal ikke beregnes merverdiavgift ved innførsel avbrukt utstyr tilhørende personer bosatt i Norge som har avgått ved døden utenfor merverdiavgiftsområdetflyttegodspremie og gavearvegods
+>
+> (2) Fritak etter første ledd bokstav a til c er betinget av at varen bare benyttes til personlig formål, og at den ikke utnyttes kommersielt. Fritak etter første ledd bokstav d er betinget av at varen har vært benyttet til personlig formål av arvelater.
+>
+> (3) Departementet kan gi forskrift om omfanget av og vilkårene for fritak.
+>
+
+## § 7-4
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 7-4 skal lyde:*
+
+> § 7-4.Vareprøver, varer til teknisk og vitenskapelig bruk mv.
+>
+> (1) Det skal ikke beregnes merverdiavgift ved innførsel avvareprøve, modell og mønster av ubetydelig verdireklamemateriell og reklamefilmopplysningsmateriell fra andre lands turistmyndigheterdokumenter og trykksak fra andre lands myndigheterutstyr til bruk for utenlandske vitenskapelige ekspedisjoner
+>
+> (2) Varer etter første ledd bokstav e kan bare benyttes av berettiget bruker og ikke overdras til andre.
+>
+> (3) Departementet kan gi forskrift om omfanget av og vilkårene for fritak.
+>
+
+## § 7-5
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 7-5 skal lyde:*
+
+> § 7-5.Diverse fritak
+>
+> (1) Det skal ikke beregnes merverdiavgift ved innførsel avproviant som medbringes om bord i fartøy under reise til og fra merverdiavgiftsområdet og under opphold der,varer til fremmede makters representasjoner og disses representanter, militære styrker og kommandoenheter, andre internasjonale organisasjoner og offentlig finansierte samarbeidsprosjekter med annen stat,varer som innføres fra Svalbard eller Jan Mayen med tilhørende farvann, og som er fanget, utvunnet eller tilvirket der, ogføll av hoppe som er drektig ved utførsel fra merverdiavgiftsområdet, dersom føllet innføres sammen med hoppa etter følling.
+>
+> (2) Varer etter første ledd bokstav b kan ikke overdras til andre.
+>
+> (3) Departementet kan gi forskrift om omfanget av og vilkårene for fritak.
+>
+
 ## § 7-9
 
 ### 2017-01-01 — lov/2016-12-20-116
@@ -765,6 +893,10 @@ refid: "lov/2009-06-19-58"
 >
 > Departementet kan treffe enkeltvedtak om fritak fra plikten til å beregne merverdiavgift ved innførsel av varer til vedlikehold av våpensystemet F-35. Departementet kan gi forskrift om utfylling og gjennomføring av denne paragrafen, herunder fastsette vilkår for fritak.
 >
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 7-10 oppheves.*
 
 ## § 8-3
 
@@ -827,14 +959,14 @@ refid: "lov/2009-06-19-58"
 
 *§ 9-1 annet ledd bokstav a skal lyde:*
 
-> maskiner, inventar og andre driftsmidler der inngående merverdiavgift av kostpris utgjør minst 50 000 kroner, likevel ikke kjøretøyer som er fritatt for merverdiavgift etter § 6-7 tredje ledd
+> maskiner, inventar og andre driftsmidler der inngående merverdiavgift av kostpris utgjør minst 50 000 kroner, likevel ikke kjøretøyer som er fritatt for merverdiavgift etter § 6-7 tredje ledd
 >
 
 ### 2023-06-16 — lov/2023-06-16-50
 
 *§ 9-1 andre ledd bokstav a skal lyde:*
 
-> maskiner, inventar og andre driftsmidler der inngående merverdiavgift av kostpris utgjør minst 50 000 kroner, likevel ikke kjøretøyer som er fritatt for merverdiavgift etter § 6-7 første ledd
+> maskiner, inventar og andre driftsmidler der inngående merverdiavgift av kostpris utgjør minst 50 000 kroner, likevel ikke kjøretøyer som er fritatt for merverdiavgift etter § 6-7 første ledd
 >
 
 ## § 9-2
@@ -844,6 +976,15 @@ refid: "lov/2009-06-19-58"
 *§ 9-2 nytt sjette ledd skal lyde:*
 
 > (6) Inngående merverdiavgift skal ikke justeres når kommunale vann- og avløpsanlegg overdras som følge av vedtak om sammenslåing eller deling etter lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser §§ 4 og 5. Overdragerens rett og plikt til justering overtas uendret av det overtakende avgiftssubjektet.
+>
+
+## § 9-5
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 9-5 femte ledd skal lyde:*
+
+> (5) Justeringsbeløpet skal tas med i skattemeldingen som en økning eller reduksjon av inngående merverdiavgift.
 >
 
 ## § 9-6
@@ -899,6 +1040,15 @@ refid: "lov/2009-06-19-58"
 
 *§ 10-5 oppheves.*
 
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 10-5 annet ledd bokstav a skal lyde:*
+
+> myndigheter som fastsetter eller innkrever skatt, tollavgift eller andre avgifter, eller som utbetaler erstatninger, tilskudd, bidrag, trygder, stønader mv., etter krav fra skattemyndighetene gi opplysninger om de fastsatte, innkrevde eller utbetalte beløp, om grunnlaget for dem og om gjeld, beløp til gode og renter
+>
+> 8.I lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering gjøres følgende endring:
+>
+
 ### 2026-01-01 — lov/2025-12-22-121
 
 *Ny § 10-5 skal lyde:*
@@ -940,6 +1090,13 @@ refid: "lov/2009-06-19-58"
 *§ 10-7 andre ledd skal lyde:*
 
 > (2) For varer som gjenutføres, jf. første ledd bokstav a til c, er det et vilkår for refusjon at varen gjenutføres innen ett år etter innførselen. Fristen kan i særlige tilfeller forlenges. Kravet om gjenutførsel kan frafalles dersom varen blir tilintetgjort under kontroll av eller etter avtale med tollmyndighetene mot at den som var ansvarlig for merverdiavgiften etter § 11-1 første ledd bærer kostnadene.
+>
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 10-7 første ledd skal lyde:*
+
+> (1) Den som ikke er avgiftssubjekt har rett til refusjon av merverdiavgift betalt ved innførsel dersomvaren gjenutføres i uforandret stand fordi varen er feilsendt, feilbestilt eller ikke levert som avtaltvaren gjenutføres etter tollavgiftsloven § 7-2 første og annet leddvaren gjenutføres og kunne vært deklarert for prosedyren midlertidig innførsel etter vareførselsloven § 4-6 ved innførselenvaren gjenutføres i andre tilfeller enn nevnt i bokstav a til c og det foreligger særlige grunner
 >
 
 ### 2023-06-16 — lov/2023-06-16-50
@@ -992,6 +1149,13 @@ refid: "lov/2009-06-19-58"
 > (1) Avgiftssubjektet skal beregne og betale merverdiavgift av merverdiavgiftspliktig omsetning, uttak og innførsel av varer. Når andre enn avgiftssubjektet innfører varer skal den som etter tolloven er ansvarlig for toll, beregne og betale merverdiavgift.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11-1 første ledd første punktum skal lyde:*
+
+> Avgiftssubjektet skal beregne og betale merverdiavgift av merverdiavgiftspliktig omsetning, uttak og innførsel av varer, jf. skatteforvaltningsloven §§ 9-1 og 9-2.
+>
+
 ### 2016-06-17 — lov/2016-06-17-31
 
 *§ 11-1 fjerde ledd annet punktum skal lyde:*
@@ -1004,6 +1168,13 @@ refid: "lov/2009-06-19-58"
 *§ 11-1 fjerde ledd andre punktum skal lyde:*
 
 > Representanten er likevel ikke ansvarlig for betaling av merverdiavgift dersom den næringsdrivende er hjemmehørende i en EØS-stat eller Storbritannia når staten etter skatteavtale eller annen folkerettslig overenskomst med Norge skal utveksle opplysninger og bistå med innfordring av merverdiavgiftskrav.
+>
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 11-1 første ledd skal lyde:*
+
+> (1) Avgiftssubjektet skal beregne og betale merverdiavgift av merverdiavgiftspliktig omsetning, uttak og innførsel av varer, jf. skatteforvaltningsloven §§ 9-1 og 9-2. Når andre enn avgiftssubjektet innfører varer, gjelder tollavgiftsloven § 2-3 tilsvarende for plikten til å beregne og betale merverdiavgift. Tollavgiftsloven §§ 2-4, 2-5 og 2-7 om ansvar gjelder tilsvarende for merverdiavgift ved innførsel.
 >
 
 ## § 11-2
@@ -1071,7 +1242,27 @@ refid: "lov/2009-06-19-58"
 > Dette gjelder også merverdiavgift oppgitt når mottakeren plikter å beregne og betale merverdiavgift etter § 11-1 annet eller tredje ledd.
 >
 
+## § 11-5
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11-5 skal lyde:*
+
+> § 11-5.Utbetaling av inngående merverdiavgift
+>
+> (1) Dersom inngående merverdiavgift overstiger utgående merverdiavgift i en termin, skal overskytende inngående merverdiavgift utbetales. Skattemeldinger må være levert for tidligere terminer.
+>
+> (2) Selv om utbetaling av beløpet ikke har funnet sted innen neste avgiftstermin, har avgiftssubjektet ikke rett til å fradragsføre beløpet i senere skattemelding.
+>
+
 ## § 11-6
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11-6 første ledd skal lyde:*
+
+> (1) Fiskere som skal levere skattemelding en gang i året etter bestemmelser gitt i medhold av skatteforvaltningsloven § 8-14, jf. § 8-3, kan etter forlis av fartøy, større redskapstap eller større skade på fartøy, fiskeredskap eller fartøyets varige driftsutstyr få utbetalt overskytende inngående merverdiavgift etter særskilt avregning før utløpet av vedkommende kalenderår.
+>
 
 ### 2024-01-01 — lov/2024-01-12-6
 
@@ -1224,6 +1415,10 @@ refid: "lov/2009-06-19-58"
 > Noverande fjerde ledd blir nytt sjette ledd.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-1 første og sjette ledd oppheves. Nåværende annet til femte ledd blir første til fjerde ledd.*
+
 ### 2023-06-16 — lov/2023-06-16-50
 
 *§ 14-1 andre og tredje ledd skal lyde:*
@@ -1231,6 +1426,17 @@ refid: "lov/2009-06-19-58"
 > (2) Fellesregistrering og frivillig registrering etter § 2-3 fjerde til sjette ledd kan tidligst skje med virkning fra og med den oppgaveterminen den elektroniske søknaden om registrering blir loggført i mottakssentralen som godkjent. Godkjenning bekreftes ved elektronisk kvittering.
 >
 > (3) Frivillig registrering etter § 2-3 første og annet ledd kan tidligst skje med virkning fra og med en oppgavetermin som utløp de siste seks måneder før den elektroniske søknaden om registrering ble loggført i mottakssentralen. Godkjenning bekreftes ved elektronisk kvittering.
+>
+
+## § 14-2
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-2 skal lyde:*
+
+> § 14-2.Registrering av konkursbo og dødsbo
+>
+> Konkursbo registres på eget nummer med virkning fra åpningen av bobehandlingen. Dødsbo forblir registrert på avdødes registreringsnummer.
 >
 
 ## § 14-3
@@ -1241,6 +1447,21 @@ refid: "lov/2009-06-19-58"
 
 > (3) Dersom merverdiavgiftspliktig omsetning og uttak er falt under den til enhver tid gjeldende beløpsgrensen i § 2-1 første til tredje ledd uten at virksomheten er slettet i medhold av denne paragrafen, skal avgiftssubjektet forbli registrert i minst to hele kalenderår. Det samme gjelder dersom avgiftssubjektet rykker ned til en divisjon lavere enn angitt i § 2-1 annet ledd annet punktum og omsetningen av tjenester som gir noen rett til å overvære idrettsarrangementer utgjør mindre enn 3 millioner kroner.
 >
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-3 første og fjerde ledd oppheves. Nåværende annet og tredje ledd blir første og annet ledd.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-3 tredje ledd skal lyde:*
+
+> (3) Solidaransvaret etter § 2-2 tredje ledd består fram til det er gitt melding om sletting av fellesregistrering.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-3 fjerde ledd oppheves.*
 
 ## § 14-4
 
@@ -1255,6 +1476,15 @@ refid: "lov/2009-06-19-58"
 > (2) Tilbyder som nevnt i første ledd kan tillates registrert etter forenklet registreringsordning før samlede leveranser har oversteget beløpsgrensen etter § 2-1 tredje ledd.
 >
 > (3) Tilbyder som er registrert etter første ledd, skal ikke samtidig registreres i Merverdiavgiftsregisteret.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-4 nytt fjerde og femte ledd skal lyde:*
+
+> (4) All kommunikasjon mellom skattekontoret og tilbyder i forenklet registreringsordning skal skje elektronisk.
+>
+> (5) Departementet kan gi forskrift om utforming av forenklet registreringsordning.
 >
 
 ### 2019-12-20 — lov/2019-12-20-98
@@ -1290,6 +1520,15 @@ refid: "lov/2009-06-19-58"
 > (4) Departementet kan gi forskrift om hvilke opplysninger den elektroniske meldingen som nevnt i første ledd skal inneholde. Departementet kan også gi forskrift om utforming av forenklet registreringsordning.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-5 skal lyde:*
+
+> § 14-5.Identifikasjonsnummer
+>
+> Når tilbyder har valgt forenklet registreringsordning, skal skattekontoret tildele tilbyderen et identifikasjonsnummer.
+>
+
 ## § 14-6
 
 ### 2011-06-24 — lov/2011-06-24-27
@@ -1322,6 +1561,10 @@ refid: "lov/2009-06-19-58"
 > (6) Departementet kan i forskrift gi utfyllende regler om vilkårene for sletting og nyregistrering av tilbydere som har blitt slettet.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-7 første ledd oppheves. Nåværende annet til sjette ledd blir første til femte ledd.*
+
 ### 2017-06-21 — lov/2017-06-21-84
 
 *§ 14-7 tredje og fjerde ledd skal lyde:*
@@ -1352,6 +1595,21 @@ refid: "lov/2009-06-19-58"
 *§ 15-1 sjette ledd skal lyde:*
 
 > (6) Avgiftssubjektet skal levere omsetningsoppgave selv om merverdiavgiftspliktig omsetning og uttak er falt under beløpsgrensen i § 2-1 første til tredje ledd.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 15-1 skal lyde:*
+
+> § 15-1.Føring av skattemelding
+>
+> (1) I skattemeldingen for primærnæringene kan det tas med omsetning fra annen næringsvirksomhet dersom merverdiavgiftspliktig omsetning og uttak i denne virksomheten ikke overstiger 30 000 kroner, merverdiavgift ikke medregnet.
+>
+> (2) Merverdiavgift som skal beregnes ved kjøp av fjernleverbare tjenester, skal innberettes som utgående merverdiavgift.
+>
+> (3) Beløpet for utgående merverdiavgift skal også omfatte beløp uriktig betegnet som merverdiavgift som nevnt i § 11-4 første ledd. Dette kan unnlates dersom feilen rettes overfor kjøperen.
+>
+> (4) Departementet kan treffe enkeltvedtak om at merverdiavgift som beregnes ved omsetning av elektroniske kommunikasjonstjenester i forbindelse med en humanitær innsamlingsaksjon, ikke skal føres i skattemeldingen, eller at beregnet merverdiavgift kan tilbakeføres.
 >
 
 ## § 15-4
@@ -1453,6 +1711,13 @@ refid: "lov/2009-06-19-58"
 *§ 15-9 første ledd nytt annet punktum skal lyde:*
 
 > Beløp som nevnt i § 15-6 tredje ledd oppgis for den terminen betalingen skjedde.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 15-9 første ledd skal lyde:*
+
+> (1) Beløp som nevnt i skatteforvaltningsloven § 8-3 første ledd bokstav a til d oppgis i skattemeldingen for den terminen dokumentasjonen er utstedt. Beløp som nevnt i skatteforvaltningsloven § 8-3 første ledd bokstav e oppgis for den terminen betalingen skjedde.
 >
 
 ## § 15-10
@@ -1884,6 +2149,15 @@ refid: "lov/2009-06-19-58"
 > Den som forsettlig unnlater å registrere seg i Merverdiavgiftsregisteret etter kapittel 2 og 14, eller overtrer bestemmelsene i kapittel 15 eller 16 om opplysningsplikt og kontroll, straffes med bøter eller fengsel inntil tre måneder.
 >
 
+## § 22-1
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 22-1 første ledd annet punktum oppheves.*
+
+> 7.I lov 27. mai 2016 nr. 14 om skatteforvaltning gjøres følgende endring:
+>
+
 ## § 22-2
 
 ### 2010-06-25 — lov/2010-06-25-44
@@ -1909,6 +2183,13 @@ refid: "lov/2009-06-19-58"
 ### 2009-12-11 — lov/2009-12-11-129
 
 *Nåværende åttende ledd blir nytt niende ledd.*
+
+### 2010-01-01 — forskrift/2009-11-06-1347
+
+*Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.*
+
+> Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.
+>
 
 ### 2010-03-26 — lov/2010-03-26-7
 
@@ -1970,6 +2251,13 @@ refid: "lov/2009-06-19-58"
 ### 2010-12-10 — lov/2010-12-10-71
 
 *Nåværende § 18-3 blir ny § 18-4.*
+
+### 2011-05-01 — forskrift/2011-04-15-400
+
+*Lov om endringer i revisorloven og enkelte andre lover (unntak fra revisjonsplikt for små aksjeselskaper) trer i kraft 1. mai 2011.*
+
+> Lov om endringer i revisorloven og enkelte andre lover (unntak fra revisjonsplikt for små aksjeselskaper) trer i kraft 1. mai 2011.
+>
 
 ### 2011-06-24 — lov/2011-06-24-27
 
@@ -2104,6 +2392,22 @@ refid: "lov/2009-06-19-58"
 > Dersom arbeidsgiver skal utstyre en arbeidstaker med id-kort etter regler gitt i medhold av arbeidsmiljøloven § 4-1 syvende ledd, kan avgiftsmyndighetene kreve at arbeidstakeren framviser id-kortet.
 >
 
+### 2013-04-26 — forskrift/2013-04-26-413
+
+*Delt ikraftsetting av loven. Loven del IX trer i kraft straks. Loven del I med unntak av § 10-9 og § 11-1, del II, III, IV, VI og VIII trer i kraft 1. juli 2013. Loven del I § 10-9 og § 11-1 og loven del V trer i kraft 1. januar 2014.*
+
+> Delt ikraftsetting av loven. Loven del IX trer i kraft straks. Loven del I med unntak av § 10-9 og § 11-1, del II, III, IV, VI og VIII trer i kraft 1. juli 2013. Loven del I § 10-9 og § 11-1 og loven del V trer i kraft 1. januar 2014.
+>
+
+### 2013-06-21 — lov/2013-06-21-75
+
+*4. I lov 19. juni 2009 nr. 58 om merverdiavgift skal § 5-8 lyde:*
+
+> § 5-8.Førstehåndsomsetning av viltlevende marine ressurser
+>
+> Det skal beregnes merverdiavgift med redusert sats ved fiskeres omsetning til eller gjennom fiskesalgslag som er opprettet i medhold av av fiskesalslagslova. Det skal beregnes merverdiavgift med redusert sats ved fiskesalgslagets formidling eller godkjenning av slik omsetning.
+>
+
 ### 2013-07-01 — lov/2013-06-21-71
 
 *I lov 19. juni 2009 nr. 58 om merverdiavgift skal § 11-1 tredje ledd nytt andre punktum lyde:*
@@ -2123,6 +2427,33 @@ refid: "lov/2009-06-19-58"
 
 *Nåværende annet punktum blir nytt tredje punktum.*
 
+### 2014-01-01 — forskrift/2013-06-21-726
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*236. I lov 19. juni 2009 nr. 58 om merverdiavgift skal § 21-4 lyde:*
+
+> § 21-4.Straff
+>
+> (1) Med bot eller fengsel inntil 2 år straffes opplysningspliktig tredjepart etter kapittel 16 med forskrifter som gir uriktige eller ufullstendige opplysninger til avgiftsmyndighetene.
+>
+> (2) Med bot eller fengsel inntil 1 år straffes grovt uaktsom overtredelse av første ledd.
+>
+> (3) Med bot eller fengsel inntil 2 år straffes den som unnlater å medvirke til kontrollundersøkelse etter § 16-6.237. I lov 19. juni 2009 nr. 97 om dyrevelferd gjøres følgende endring:
+>
+
+### 2015-07-01 — forskrift/2015-06-12-648
+
+*Lov 13. desember 2013 nr. 128 om lov om endringer i lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven) trer i kraft 1. juli 2015.*
+
+> Lov 13. desember 2013 nr. 128 om lov om endringer i lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven) trer i kraft 1. juli 2015.
+>
+
 ### 2015-12-18 — lov/2015-12-18-118
 
 *§§ 11-2 og 13-3 oppheves.*
@@ -2132,6 +2463,95 @@ refid: "lov/2009-06-19-58"
 *Delt ikraftsetting av lov 18. desember 2015 nr. 118 om endringer i lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven). Del III trer i kraft 1. mars 2016.*
 
 > Delt ikraftsetting av lov 18. desember 2015 nr. 118 om endringer i lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven). Del III trer i kraft 1. mars 2016.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Kapittel 12 oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Kapittel 13 oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Overskriften til § 14-1 skal lyde:*
+
+> § 14-1.Vilkår for registrering
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Overskriften til § 14-4 skal lyde:*
+
+> § 14-4.Hvem ordningen gjelder for mv.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Overskriften til kapittel 15 skal lyde:*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Underoverskriften til kapittel 15 I Omsetningsoppgaven oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§§ 15-2 til 15-8 oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Underoverskriften til kapittel 15 II Dokumentasjonsplikt oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Underoverskriften til kapittel 15 III Merverdiavgift i salgsdokumentasjon oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Kapittel 16 oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Kapittel 17 oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Kapittel 18 oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Kapittel 19 oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Kapittel 20 oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Kapittel 21 oppheves.*
+
+> 38. I lov 16. desember 2011 nr. 65 om næringsberedskap gjøres følgende endring:
+>
+
+### 2016-07-01 — forskrift/2016-01-22-43
+
+*Lov 19. desember 2014 nr. 77 del V om endringer i ligningsloven (Ny klagenemndsordning) trer i kraft 1. juli 2016.*
+
+> Lov 19. desember 2014 nr. 77 del V om endringer i ligningsloven (Ny klagenemndsordning) trer i kraft 1. juli 2016.
+>
+> Lov 19. desember 2014 nr. 78 del II om endringer i lov om skatt til Svalbard trer i kraft fra 1. juli 2016.
+>
+> Lov 19. desember 2014 nr. 84 del III om endringer i merverdiavgiftsloven trer i kraft fra 1. juli 2016.
+>
+> Lov 19. desember 2014 nr. 86 del II om endring i a-opplysningsloven trer i kraft fra 1. juli 2016.
+>
+
+### 2016-07-01 — forskrift/2016-06-10-619
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
 >
 
 ### 2017-01-01 — lov/2016-12-20-116
@@ -2158,6 +2578,13 @@ refid: "lov/2009-06-19-58"
 > § 6-37.Våpensystemet F-35
 >
 > Departementet kan treffe enkeltvedtak om fritak fra merverdiavgift ved omsetning av varer og tjenester til vedlikehold av våpensystemet F-35. Departementet kan gi forskrift om utfylling og gjennomføring av denne paragrafen, herunder fastsette vilkår for fritak.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
 >
 
 ### 2017-04-01 — forskrift/2017-03-24-375
@@ -2201,9 +2628,45 @@ refid: "lov/2009-06-19-58"
 > Lov om endringar i merverdiavgiftsloven trer i kraft 1. juli 2021.
 >
 
+### 2022-03-11 — lov/2022-03-11-8
+
+*Nåværende § 7-8 oppheves.*
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*Nåværende § 7-9 blir § 7-8.*
+
+### 2022-06-10 — forskrift/2022-06-10-1004
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2022-10-27 — forskrift/2022-10-27-1802
 
 *Finansdepartementets myndighet etter lov 19. juni 2009 nr. 58 om merverdiavgift (merverdiavgiftsloven) kapittel 7 Varer som det ikke skal beregnes merverdiavgift av ved innførsel, delegeres til Skattedirektoratet.*
+
+### 2023-01-01 — forskrift/2022-03-18-414
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-09-16-1575
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
 
 ### 2025-07-01 — forskrift/2025-06-17-1036
 
@@ -2215,3 +2678,27 @@ refid: "lov/2009-06-19-58"
 ### 2026-01-01 — lov/2025-12-22-121
 
 *Nåværende § 3-30 tredje ledd blir nytt fjerde ledd.*
+
+## § 15
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 15 første ledd bokstav a skal lyde:*
+
+> skatte- og avgiftsmyndigheter, tollmyndigheter og andre myndigheter med ansvar for regulering og kontroll av import og eksport,
+>
+
+## § 34
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 34 annet ledd skal lyde:*
+
+> (2) Økokrim kan gi opplysninger som er oversendt etter § 26, videre til andre offentlige myndigheter som arbeider med forebygging av forhold som rammes av straffeloven §§ 131 til 136 a. Økokrim kan også gi opplysninger som er oversendt etter § 26 videre til Skatteetaten og Tolletaten til bruk i deres arbeid med skatt, avgift og tollavgift.
+>
+
+## § 37
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 37 første ledd annet punktum oppheves.*

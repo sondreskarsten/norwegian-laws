@@ -60,6 +60,13 @@ refid: "lov/2014-06-20-30"
 > Departementet kan i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i § 1 til gjennomføring av Norges forpliktelser etter EØS-avtalen.
 >
 
+### 2017-01-01 — forskrift/2016-12-16-1607
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. januar 2017 med unntak for romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. januar 2017 med unntak for romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X.
+>
+
 ### 2021-04-23 — lov/2021-04-23-22
 
 *I lov 20. juni 2014 nr. 30 om kredittvurderingsbyråer skal § 1 lyde:*
@@ -76,6 +83,20 @@ refid: "lov/2014-06-20-30"
 > § 1. EØS-regler om kredittvurderingsbyråer
 >
 > EØS-avtalen vedlegg IX nr. 31eb (forordning (EF) nr. 1060/2009) om kredittvurderingsbyråer (kredittvurderingsbyråforordningen), som endret ved forordning (EU) nr. 513/2011, direktiv 2011/61/EU, forordning (EU) nr. 462/2013 og forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+
+### 2025-06-20 — forskrift/2025-06-20-1084
+
+*Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.*
+
+> Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.
+>
+
+### 2025-07-01 — forskrift/2025-05-27-868
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ### 2026-06-19 — lov/2026-06-19-40

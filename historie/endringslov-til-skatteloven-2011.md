@@ -23,3 +23,20 @@ refid: "lov/2011-12-09-52"
 >
 > Endringen under I trer i kraft straks med virkning fra og med inntektsåret 2015.
 >
+
+### 2016-12-20 — lov/2016-12-20-117
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 9. desember 2011 nr. 52 om endringer i skatteloven.
+>
+> I lov 9. desember 2011 nr. 52 om endringer i skatteloven gjøres følgende endringer:
+>
+> Del III oppheves.
+>
+> Del IV tredje ledd oppheves.
+>
+> Endringene under I trer i kraft straks.
+>

@@ -7,6 +7,15 @@ refid: "lov/1939-02-17-1"
 
 ## (annet)
 
+### 2013-04-05 — lov/2013-04-05-12
+
+*8. I lov 17. februar 1939 nr. 1 om gjeldsbrev skal § 17 lyde:*
+
+> § 17.
+>
+> Utgjevaren kann likeins gjera gjeldande at gjeldsbrevet er falskt eller forfalska, underskrive på hans vegner utan fullmakt eller ugildt på grunn av grov tvang (§ 28 i avtalelova), manglande rettsleg handleevne eller sinnssjukdom, at gjeldsbrevet er sagt maktlaust, eller at kravet er bortfalle eller brigda etter reglane om deponering, forelding, preklusjon eller tvangsakkord.
+>
+
 ### 2026-06-19 — lov/2026-06-19-48
 
 *I lov 17. februar 1939 nr. 1 om gjeldsbrev skal § 17 lyde:*

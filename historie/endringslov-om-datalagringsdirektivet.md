@@ -5,6 +5,26 @@ refid: "lov/2011-04-15-11"
 
 # Endringshistorikk: Endringslov om datalagringsdirektivet
 
+## § 12-1
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 12-1 første ledd annet punktum skal lyde:*
+
+> Overtredelse straffes etter straffeloven § 209.
+>
+> 244. I lov 24. juni 2011 nr. 39 om elsertifikater gjøres følgende endring:
+>
+
+## § 18
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 18 første ledd annet punktum oppheves.*
+
+> 243. I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. gjøres følgende endring:
+>
+
 ## § 203
 
 ### 2012-06-22 — lov/2012-06-22-52
@@ -25,3 +45,9 @@ refid: "lov/2011-04-15-11"
 >
 > § 210 b annet til sjette ledd gjelder tilsvarende.
 >
+
+## § 27
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 27 annet ledd oppheves.*

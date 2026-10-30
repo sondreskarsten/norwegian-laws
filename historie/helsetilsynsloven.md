@@ -7,13 +7,90 @@ refid: "lov/2017-12-15-107"
 
 ## (annet)
 
+### 2018-07-01 — forskrift/2018-06-22-948
+
+*Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 15 nr. 3, endringene i lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter § 3-2 femte og sjette ledd, samt § 3-3 tredje ledd, trer i kraft 1. juli 2018.*
+
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 15 nr. 3, endringene i lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter § 3-2 femte og sjette ledd, samt § 3-3 tredje ledd, trer i kraft 1. juli 2018.
+>
+
+### 2019-05-01 — forskrift/2019-04-26-541
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.
+>
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 1 til § 15 nr. 2, § 15 nr. 3 for så vidt gjelder endringene i lov 2. juni 1999 nr. 63
+>
+> om pasient- og brukerrettigheter § 7-6, samt § 15 nr. 4 til 7, trer i kraft 1. juli 2019.
+>
+> Skal være lov 2. juli 1999 nr. 63, Lovtidend-redaksjonens anm.
+>
+
+### 2020-03-01 — forskrift/2019-12-20-1919
+
+*Loven trer i kraft 1. mars 2020.*
+
+> Loven trer i kraft 1. mars 2020.
+>
+
 ### 2021-05-07 — lov/2021-05-07-31
 
 *Nåværende § 6 tredje ledd blir nytt fjerde ledd.*
 
+### 2021-05-07 — forskrift/2021-05-07-1444
+
+*Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens un*
+
+> Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten) og del VIII (helsetilsynsloven) trer i kraft 1. juli 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2022-07-01 — forskrift/2022-05-20-887
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2023-04-28 — forskrift/2023-04-28-613
+
+*1. Delt ikraftsetting av lov om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten).*
+
+> 1. Delt ikraftsetting av lov om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten).
+>
+> Følgende trer i kraft straks:
+>
+> Endringsloven del III (pasient- og brukerrettighetsloven) § 7-4 andre ledd
+>
+> Endringsloven del IV
+>
+> Endringsloven del VI.
+>
+
+### 2025-01-01 — forskrift/2024-06-21-1100
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
 ### 2025-06-20 — lov/2025-06-20-74
 
 *Nåværende § 4 fjerde ledd blir nytt femte ledd.*
+
+### 2025-06-20 — forskrift/2025-06-20-1101
+
+*Delt ikraftsetting av endringsloven. Endringen i spesialisthelsetjenesteloven § 7-1, jf. lovvedtaket del II, endringen i helse- og omsorgstjenesteloven § 12-3 andre ledd, jf. lovvedtaket del IV og endringen i helsetilsynsloven § 8 første ledd, jf. lovvedtaket del VI, trer i kraft straks.*
+
+> Delt ikraftsetting av endringsloven. Endringen i spesialisthelsetjenesteloven § 7-1, jf. lovvedtaket del II, endringen i helse- og omsorgstjenesteloven § 12-3 andre ledd, jf. lovvedtaket del IV og endringen i helsetilsynsloven § 8 første ledd, jf. lovvedtaket del VI, trer i kraft straks.
+>
 
 ## § 1
 

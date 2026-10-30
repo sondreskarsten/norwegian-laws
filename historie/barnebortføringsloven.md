@@ -14,6 +14,20 @@ refid: "lov/1988-07-08-72"
 > (1) Bestemmelsene i barneloven 8. april 1981 nr. 7 §§ 60 og 65 gjelder for saker om tvangsfullbyrding etter § 6 og tilbakelevering etter § 11. Barneloven § 65 første ledd gjelder også ved tvangsfullbyrding av samværsrett.
 >
 
+### 2007-02-27 — lov/2007-01-26-3
+
+*91. I lov 8. juli 1988 nr. 72 om anerkjennelse og fullbyrding av utenlandske avgjørelser om foreldreansvar m v og om tilbakelevering av barn skal § 14 første punktum lyde:*
+
+> Begjæring om fullbyrding av en avgjørelse som nevnt i § 6 skal være ledsaget av en kopi av avgjørelsen, og dersom det framgår at avgjørelsen er truffet under saksøktes fravær i saken, et dokument som viser om saksøkte har fått forkynt eller på annen tilbørlig måte er blitt gjort kjent med stevningen eller tilsvarende dokument.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1625
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
 ### 2018-12-20 — lov/2018-12-20-114
 
 *Nåværende annet ledd blir nytt tredje ledd.*

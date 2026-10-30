@@ -14,11 +14,32 @@ refid: "lov/1988-04-29-21"
 > (Opptjening av feriepenger under sykdom, foreldrepermisjon mv.)
 >
 
+### 2013-01-01 — forskrift/2012-06-22-607
+
+*Loven trer i kraft fra 1. januar 2013 med unntak av tjenestemannsloven § 3D, arbeidsmiljøloven § 14-12c og ferieloven § 11 nr. 6 overskrift og andre punktum, som trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft fra 1. januar 2013 med unntak av tjenestemannsloven § 3D, arbeidsmiljøloven § 14-12c og ferieloven § 11 nr. 6 overskrift og andre punktum, som trer i kraft 1. juli 2013.
+>
+
+### 2017-07-01 — forskrift/2017-06-02-694
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
+
 ### 2023-03-17 — lov/2023-03-17-3
 
 *I lov 29. april 1988 nr. 21 om ferie skal § 2 første ledd lyde:*
 
 > (1)(Arbeidstaker)Enhver som utfører arbeid for og underordnet en annen (arbeidstaker), har rett til ferie etter denne lov.
+>
+
+### 2024-01-01 — forskrift/2023-03-17-341
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
 >
 
 ## § 10
@@ -60,6 +81,13 @@ refid: "lov/1988-04-29-21"
 >
 
 ## § 11
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 11 nr. 6 skal lyde:*
+
+> (6) (Utbetalingsmåte, trekk i feriepenger mv)Utbetalingsmåten, adgangen til å foreta trekk i feriepenger og plikten til å gi opplysninger om hvordan feriepengene er regnet ut, reguleres av arbeidsmiljøloven § 14-15.
+>
 
 ### 2008-12-05 — lov/2008-12-05-82
 
@@ -109,6 +137,13 @@ refid: "lov/1988-04-29-21"
 >
 
 ## § 2
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 2 nr. 6 skal lyde:*
+
+> (6) (Utsendte arbeidstakere)Departementet gir forskrift om lovens anvendelse for utsendte arbeidstakere, jf. arbeidsmiljøloven § 1-7.
+>
 
 ### 2008-12-05 — lov/2008-12-05-82
 
@@ -185,6 +220,21 @@ refid: "lov/1988-04-29-21"
 >
 
 ## § 9
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 9 nr. 2 skal lyde:*
+
+> (Ferieavvikling under fødsels- og omsorgspermisjon)
+>
+> Arbeidsgiver kan ikke uten arbeidstakers samtykke legge ferie til permisjonstid hvor det ytes fødselspenger eller adopsjonspenger etter folketrygdloven §§ 14-1 til 14-19. Det samme gjelder under permisjon som fedre og andre omsorgspersoner har i tilknytning til fødsel i medhold av arbeidsmiljøloven § 12-3 første ledd.
+>
+> Arbeidstaker kan kreve å avvikle lovbestemt ferie i løpet av permisjonstid hvor det ytes fødselspenger eller adopsjonspenger, jf folketrygdloven §§ 14-7, 14-16, 14-22 og 14-25.
+>
+> Faller permisjonstid som nevnt i første ledd sammen med allerede fastsatt ferie, kan arbeidstaker kreve utsettelse av de virkedager ferie som er blitt omfattet av permisjonstiden.
+>
+> På de vilkår som følger av §§ 6 og 7 kan arbeidsgiver legge ferie til den tid da arbeidstaker har utvidet omsorgspermisjon etter arbeidsmiljøloven § 12-5.
+>
 
 ### 2008-12-05 — lov/2008-12-05-82
 

@@ -5,6 +5,26 @@ refid: "lov/1981-03-13-6"
 
 # Endringshistorikk: Forurensningsloven – forurl
 
+## § 2-1
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 2-1 skal lyde:*
+
+> § 2-1.Oppmålingsforretning og matrikkelføring
+>
+> Krev fullføring av salet at det blir halde oppmålingsforretning og sett fram krav om matrikkelføring, skal seljaren syte for dette så snart avtala er bindande.
+>
+
+## § 2-6
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 2-6 første ledd skal lyde:*
+
+> (1) Seljaren ber alle kostnadene med å gjere eigedomen ferdig for sal. Det gjeld og kostnadene til oppmålingsforretning og matrikkelføring, og sakkunnig hjelp til dette.
+>
+
 ## (annet)
 
 ### 2002-03-15 — lov/2002-03-15-5
@@ -18,321 +38,80 @@ refid: "lov/1981-03-13-6"
 
 *Kapittel 7A (herunder kapitteloverskriften) oppheves og § 52 c går inn i kapittel 7.*
 
+### 2004-05-14 — lov/2004-05-14-25
+
+*8. I lov 13. mars 1981 nr. 6 om vern mot forurensinger og om avfall skal § 33 femte ledd tredje punktum lyde:*
+
+> Partene kan kreve vederlagsspørsmålet avgjort ved voldgift etter voldgiftsloven.
+>
+> 9. I lov 19. november 1982 nr. 66 om helsetjenester i kommunene skal annet til fjerde ledd i § 6-4 lyde:
+>
+> Hvis ikke partene er enige om annen ordning, velger hver kommune et medlem av voldgiftsretten, og departementet velger leder.
+>
+> Dersom tre eller flere kommuner er parter i saken og disse ikke blir enige om oppnevning av to eller flere voldgiftsdommere, foretar departementet valget av alle medlemmene av voldgiftsretten.
+>
+> For øvrig gjelder reglene i voldgiftsloven så langt de passer.
+>
+
 ### 2005-01-01 — lov/2004-12-17-99
 
-*Endringer i følgende lov:*
+*Nåværende § 11 annet ledd blir § 11 tredje ledd osv.*
 
-> Endringer i følgende lov:
->
-> Lov 13. mars 1981 nr. 6 om vern mot forurensning og om avfall (Forurensningsloven).
->
-> Kapittel 1 Innledende bestemmelser
->
-> § 1
->
-> .
->
-> (lovens formål)
->
-> Formålet med denne loven er å begrense utslippene av klimagasser på en kostnadseffektiv måte gjennom et system med kvoteplikt for utslipp av CO
->
-> og fritt omsettelige utslippskvoter.
->
-> § 2
->
-> .
->
-> (lovens stedlige virkeområde)
->
-> Loven gjelder for utslipp i riket og for utslipp fra virksomhet på den norske delen av kontinentalsokkelen, med de begrensningene som følger av folkeretten.
->
-> Kongen kan gi forskrift med nærmere bestemmelser om lovens stedlige virkeområde, herunder om lovens anvendelse på Svalbard.
->
-> § 3
->
-> .
->
-> (utslipp som omfattes av denne loven)
->
-> Loven gjelder utslipp av CO
->
-> i forbindelse med:
->
-> energiproduksjon
->
-> raffinering av mineralolje
->
-> produksjon av koks
->
-> produksjon og bearbeiding av jern og stål, herunder røsting og sintring av jernmalm
->
-> produksjon av sement, kalk, glass, glassfiber og keramiske produkter.
->
-> Loven gjelder likevel ikke utslipp:
->
-> fra forbrenning av biomasse
->
-> fra forbrenning av farlig avfall og kommunalt avfall
->
-> som er avgiftsbelagt etter Stortingets årlige vedtak om CO
->
-> -avgift.
->
-> Kongen kan i forskrift gi bestemmelser om at utslipp omfattet av første ledd fra produksjonsenheter med kapasitet under en fastsatt grense skal være unntatt fra denne lov, herunder bestemmelser om at flere produksjonsenheter som står i nær driftsmessig eller fysisk sammenheng skal vurderes under ett ved beregningen av kapasiteten.
->
-> Kongen kan i forskrift gi bestemmelser om at utslipp av CO
->
-> fra en produksjonsenhet i sin helhet skal være omfattet av denne lov selv om utslippet bare delvis skyldes virksomhet som nevnt i første ledd.
->
-> § 4
->
-> .
->
-> (kvoteplikt)
->
-> Den som driver virksomhet som nevnt i § 3 er kvotepliktig etter denne lov og må innlevere kvoter tilsvarende sine kvotepliktige utslipp i samsvar med bestemmelsene i § 13. I tillegg kreves tillatelse etter forurensningsloven § 11.
->
-> § 5
->
-> .
->
-> (søknad om utslippstillatelse og kvoter)
->
-> Søknad om utslippstillatelse etter forurensningsloven § 11 må foreligge innen 15. januar 2005 for at virksomheten skal komme i betraktning ved tildeling av kvoter etter § 8 for perioden 1. januar 2005 til 31. desember 2007. Søknader som er innlevert innen denne fristen anses samtidig for å være søknader om å få tildelt kvoter i medhold av § 8. Søknaden må inneholde de opplysningene som er nødvendige for å vurdere hvor mange kvoter som skal tildeles etter § 8. Forurensningsmyndighetene kan i det enkelte tilfellet fastsette hvilke opplysninger eller undersøkelser søkeren må sørge for.
->
-> Kapittel 2 Fastsettelse av det samlede antallet kvoter og tildeling
->
-> § 6
->
-> .
->
-> (fastsettelse av det samlede antallet kvoter)
->
-> Kongen fastsetter det samlede antallet kvoter som tildeles for perioden 1. januar 2005 til 31. desember 2007.
->
-> Ved fastsettelsen av det samlede antallet kvoter skal Kongen blant annet ta hensyn til Norges internasjonale forpliktelser til å begrense utslippene av klimagasser, den faktiske og forventede utslippsutviklingen i Norge, hvor stor andel av de faktiske og forventede utslippene som omfattes av § 3, å unngå forskjellsbehandling mellom sektorer og bedrifter, og de tekniske og økonomiske mulighetene for å begrense utslipp som omfattes av § 3.
->
-> § 7
->
-> .
->
-> (tildelingsmetode)
->
-> Kvotene skal for perioden 1. januar 2005 til 31. desember 2007 tildeles vederlagsfritt til de kvotepliktige.
->
-> § 8
->
-> .
->
-> (tildeling av kvoter)
->
-> Forurensningsmyndighetene treffer vedtak om hvor mange kvoter som skal tildeles den enkelte kvotepliktige for perioden 1. januar 2005 til 31. desember 2007.
->
-> For tildelingen av kvoter for perioden 1. januar 2005 til 31. desember 2007 skal følgende retningslinjer legges til grunn:
->
-> For virksomhet som er igangsatt senest 1. januar 2001, skal tildelingen ta utgangspunkt i virksomhetens gjennomsnittlige utslipp i basisårene fra og med 1998 til og med 2001.
->
-> Dersom virksomhet som nevnt i bokstav a ikke har vært i drift i alle basisårene eller av andre grunner har atypiske utslipp i ett eller flere av basisårene, kan kvoter tildeles på grunnlag av utslippene i de øvrige årene.
->
-> Dersom utslippene fra virksomhet som nevnt i bokstav a etter 1. januar 2001, men før 31. desember 2007, har blitt eller med rimelig sikkerhet forventes å bli vesentlig redusert eller økt som følge av vesentlige endringer av virksomhetens art eller omfang, skal dette tillegges betydning ved tildelingen. Ved endringer som medfører økte utslipp kan det ved tildelingen legges vekt på mulighetene, herunder de tekniske og økonomiske mulighetene, for å begrense utslipp av CO
->
-> , særlig ved å ta i bruk de beste tilgjengelige teknikkene.
->
-> For virksomhet som er igangsatt etter 1. januar 2001 eller med rimelig sikkerhet forventes å bli igangsatt før 31. desember 2007, kan det ved tildelingen legges vekt på mulighetene, herunder de tekniske og økonomiske mulighetene, for å begrense utslipp av CO
->
-> , særlig ved å ta i bruk de beste tilgjengelige teknikkene.
->
-> Tildelingsvedtaket gjøres betinget av at den kvotepliktige ved den årlige utdelingen av kvoter etter § 9, har utslippstillatelse for CO
->
-> etter forurensningsloven § 11 annet ledd og at virksomhetens art og omfang ikke avviker vesentlig i forhold til de forutsetningene som tildelingsvedtaket bygger på. I forbindelse med den årlige utdelingen av kvoter etter § 9 prøver forurensningsmyndighetene om betingelsene for tildelingsvedtaket er oppfylt. Dersom forurensningsmyndighetene kommer til at dette ikke er tilfellet kan tildelingsvedtaket omgjøres. Omgjøringsvedtaket legges til grunn for kvoteutdelingen etter § 9.
->
-> Kongen kan i forskrift gi nærmere bestemmelser om tildeling av kvoter etter denne bestemmelsen.
->
-> § 9
->
-> .
->
-> (utdeling av kvoter)
->
-> Forurensningsmyndighetene deler hvert år ut det antallet kvoter den enkelte kvotepliktige er berettiget til etter vedtak i medhold av § 8. Utdelingen av kvoter skjer ved at forurensningsmyndighetene innen 1. mars hvert år underretter Det norske registeret for klimakvoter om at et angitt antall kvoter skal overføres til den kvotepliktiges konto i registeret. Utdeling av kvoter for 2005 skal skje innen 15. mars 2005.
->
-> Dersom den kvotepliktige har fått utdelt et større antall kvoter enn det vedkommende er berettiget til i henhold til vedtak om tildeling av kvoter etter § 8, skal forurensningsmyndighetene underrette Det norske registeret for klimakvoter om at overskytende kvoter skal slettes fra vedkommendes konto. Før forurensningsmyndighetene underretter Det norske registeret for klimakvoter om sletting, skal den kvotepliktige varsles og gis anledning til å uttale seg innen en nærmere angitt frist, med mindre vedkommende allerede på annen måte har hatt rimelig anledning til å uttale seg, varsel av andre grunner må anses åpenbart unødvendig, eller det er grunn til å frykte at det vil vanskeliggjøre slettingen.
->
-> § 10
->
-> .
->
-> (meldeplikt)
->
-> Den kvotepliktige skal på forhånd gi melding til forurensningsmyndighetene om enhver endring av virksomhetens art eller omfang som kan ha betydning for om betingelsene i vedtak etter § 8 er oppfylt.
->
-> Kapittel 3 Det norske registeret for klimakvoter – Oppgjør av kvoteplikten
->
-> § 11
->
-> .
->
-> (Det norske registeret for klimakvoter)
->
-> Det norske registeret for klimakvoter skal inneholde opplysninger om utstedelse, utdeling, beholdning, overdragelse, overføring til oppgjør og sletting av kvoter.
->
-> Kongen utpeker en ansvarlig myndighet for opprettelse og drift av registeret. Kongen kan i forskrift gi nærmere bestemmelser om utformingen og driften av dette registeret, herunder bestemmelser om hvilke typer kontoer og opplysninger registeret skal inneholde, hvilke opplysninger som skal være offentlig tilgjengelige og om samarbeid med andre registre.
->
-> Offentlige myndigheter har rett til å få tilgang til opplysninger fra kvoteregisteret i den utstrekning dette er nødvendig for å fremme deres oppgaver i eller i medhold av lov.
->
-> § 12
->
-> .
->
-> (opprettelse av konto, overføring og sletting av kvoter)
->
-> Enhver fysisk eller juridisk person har rett til å opprette konto i Det norske registeret for klimakvoter.
->
-> En kontohaver har rett til å overføre egne kvoter til andre kontohavere. Kongen kan i forskrift gi bestemmelser som innskrenker overføringsadgangen etter denne bestemmelsen der dette er nødvendig i henhold til regelverket under Kyotoprotokollen 1997 til FNs rammekonvensjon 1992 om klimaendring.
->
-> En kontohaver kan kreve at kvoter registrert på egen konto slettes.
->
-> Kongen kan i forskrift gi bestemmelser om betaling av gebyr for opprettelse av konto, mottak av kvoter utstedt av staten og overføring av kvoter i, til eller fra registeret.
->
-> § 13
->
-> .
->
-> (plikt til å overføre kvoter til oppgjør)
->
-> Den kvotepliktige skal innen 1. mai hvert år overføre et antall kvoter som svarer til virksomhetens rapporteringspliktige utslipp det foregående året, til en nærmere angitt oppgjørskonto i registeret.
->
-> Dersom den kvotepliktige ikke innen fristen etter første ledd har satt inn et tilstrekkelig antall kvoter på oppgjørskontoen, skal den kvotepliktige innen 1. mai året etter at oppgjør i medhold av første ledd skulle ha funnet sted, plassere kvoter på den tildelte oppgjørskontoen svarende til underskuddet fra det tidligere året. I tillegg skal det ilegges overtredelsesgebyr etter § 21.
->
-> Kvoter som er overført til oppgjør etter første og annet ledd for kvoteplikt i perioden 1. januar 2005 til 31. desember 2007 skal slettes.
->
-> § 14
->
-> .
->
-> (godkjenning av kvoter som ikke er utstedt i Det norske registeret for klimakvoter)
->
-> Kongen kan i forskrift gi nærmere bestemmelser om hvilke typer kvoter, andre enn de som er utstedt etter § 8, som kan godkjennes i oppgjør i forhold til kvoteplikten, og prosedyrene for dette.
->
-> § 15
->
-> .
->
-> (utstedelse av kvoter på grunnlag av utslippsreduserende prosjekter i sektorer innenlands som ikke har kvoteplikt)
->
-> Kongen kan i forskrift gi nærmere bestemmelser om utstedelse av kvoter på grunnlag av utslippsreduserende prosjekter i sektorer innenlands som ikke har kvoteplikt.
->
-> Kapittel 4 Rapportering og kontroll
->
-> § 16
->
-> .
->
-> (rapportering)
->
-> Den kvotepliktige skal innen 1. mars hvert år rapportere foregående års kvotepliktige utslipp av CO
->
-> til forurensningsmyndighetene.
->
-> Kongen kan i forskrift gi nærmere bestemmelser om rapporteringen, herunder bestemmelser om hva som skal rapporteres og hvordan utslippene skal beregnes eller måles.
->
-> § 17
->
-> .
->
-> (forurensningsmyndighetenes kontroll)
->
-> Forurensningsmyndighetene kontrollerer og godkjenner den enkelte kvotepliktiges rapportering av CO
->
-> -utslipp etter § 16.
->
-> I særlige tilfeller kan forurensningsmyndighetene gi pålegg om at den kvotepliktiges utslippsrapport skal verifiseres av en uavhengig tredjepart før innlevering. Kongen kan i forskrift gi nærmere bestemmelser om krav til og akkreditering av verifikasjonsinstans, herunder om utarbeidelsen og innholdet av verifikasjonserklæringer.
->
-> Kongen kan i forskrift fastsette at omkostninger i forbindelse med forurensningsmyndighetenes kontroll av utslippsrapporter etter denne bestemmelsen skal dekkes av den kvotepliktige.
->
-> § 18
->
-> .
->
-> (pålegg om opplysninger eller undersøkelse)
->
-> Forurensningsmyndighetene kan pålegge kvotepliktige å gi opplysninger eller å sørge for eller bekoste undersøkelser eller lignende tiltak som med rimelighet kan kreves for å fastslå om det er behov for å endre rapporteringsreglene gitt i medhold av § 16.
->
-> Kapittel 5 Sanksjoner
->
-> § 19
->
-> .
->
-> (suspensjon av retten til å overføre kvoter)
->
-> Dersom den kvotepliktige ikke innen 1. april det enkelte år har rapportert sine utslipp i henhold til bestemmelsene gitt i eller i medhold av § 16, skal forurensningsmyndighetene suspendere vedkommende fra retten til å overføre kvoter i kvoteregisteret fram til tilfredsstillende rapportering foreligger.
->
-> § 20
->
-> .
->
-> (tvangsmulkt)
->
-> Ved overtredelse av rapporteringsplikten etter § 16 kan forurensningsmyndighetene fatte vedtak om tvangsmulkt til staten. Tvangsmulkten begynner å løpe dersom den kvotepliktige oversitter den fristen som forurensningsmyndighetene har fastsatt for å rette forholdet. Tvangsmulkten løper så lenge det ulovlige forholdet varer.
->
-> Tvangsmulkten ilegges den kvotepliktige etter § 4. Vedtak om tvangsmulkt er tvangsgrunnlag for utlegg. Forurensningsmyndighetene kan frafalle påløpt tvangsmulkt.
->
-> § 21
->
-> .
->
-> (overtredelsesgebyr)
->
-> Dersom den kvotepliktige ikke har overholdt sine forpliktelser etter § 13 første ledd, ilegger forurensningsmyndighetene et overtredelsesgebyr til statskassen. Overtredelsesgebyret skal tilsvare 40 euro på forfallstidspunktet for hvert tonn rapporteringspliktig CO
->
-> som det ikke er plassert kvoter for på virksomhetens konto i henhold til § 13 første ledd. Gebyret forfaller til betaling 14 dager etter påkrav. Ved forsinket betaling skal det betales renter etter lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. Vedtak om overtredelsesgebyr er tvangsgrunnlag for utlegg. Kongen kan i forskrift endre størrelsen på overtredelsesgebyret.
->
-> Informasjon om hvem som er ilagt overtredelsesgebyr og omfanget av overtredelsen skal gjøres tilgjengelig for offentligheten.
->
-> § 22
->
-> .
->
-> (straff)
->
-> Med bøter eller fengsel inntil 3 måneder eller begge deler straffes den som forsettlig eller uaktsomt overtrer bestemmelsene om rapporteringsplikt gitt i eller i medhold av § 16 i denne lov.
->
-> Kapittel 6 Avsluttende bestemmelser
->
-> § 23
->
-> .
->
-> (endringer i andre lover)
->
-> I lov 13. mars 1981 nr. 6 om vern mot forurensning og om avfall gjøres følgende endringer:
->
-> § 11 nytt annet ledd skal lyde:
->
-> Kvotepliktig etter klimakvoteloven § 4 skal etter søknad innvilges tillatelse til kvotepliktige utslipp av CO
->
-> så fremt han godtgjør at han er i stand til å overvåke og rapportere utslippene på en tilfredstillende måte. Kongen kan i utslippstillatelsen sette vilkår i medhold av § 16. Det skal ikke settes noen utslippsgrenseverdi i tillatelsen. Tillatelsen gjelder så langt det innleveres kvoter i henhold til plikten i klimakvoteloven § 13.
->
-> Nåværende § 11 annet ledd blir § 11 tredje ledd osv.
->
-> § 18 nytt annet ledd skal lyde:
->
-> Tillatelse gitt i medhold av § 11 annet ledd tilbakekalles eller endres dersom kvoteplikten etter klimakvoteloven § 4 opphører.
->
-> Nåværende § 18 annet ledd blir § 18 tredje ledd.
->
-> Nåværende § 18 tredje ledd blir § 18 nytt fjerde ledd og skal lyde:
->
+### 2005-01-01 — lov/2004-12-17-99
+
+*Nåværende § 18 annet ledd blir § 18 tredje ledd.*
+
+### 2005-01-01 — lov/2004-12-17-99
+
+*Nåværende § 18 tredje ledd blir § 18 nytt fjerde ledd og skal lyde:*
+
 > Ved avgjørelser etter første og tredje ledd skal det tas hensyn til kostnadene en endring eller omgjøring vil påføre forurenseren og de fordeler og ulemper endring eller omgjøring for øvrig vil medføre.
 >
-> § 24
->
-> .
->
-> (ikrafttredelse)
->
 > Loven gjelder fra 1. januar 2005.
+>
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*10. I lov 13. mars 1981 nr. 6 om vern mot forurensninger og om avfall (forurensningsloven) skal ny § 51a lyde:*
+
+> § 51a.Registrering av forurensning i eller på fast eiendom
+>
+> Forurensningsmyndigheten kan registrere opplysninger om forurensning i eller på fast eiendom i matrikkelen, jf. lov om eigedomsregistrering.
+>
+> Før registrering skjer skal berørte parter varsles.
+>
+> Forurensningsmyndigheten kan også registrere pålegg som gjelder forurensning i eller på fast eiendom på vedkommende matrikkelenhet.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om registrering i matrikkelen, herunder hvem som skal sørge for slik registrering.
+>
+> 11. I lov 14. juni 1985 nr. 77 Plan- og bygningslov blir gjort følgjande endringar:
+>
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*8. I lov 13. mars 1981 nr. 6 om vern mot forurensninger og om avfall skal § 14 andre og tredje ledd lyde:*
+
+> Opplysninger som forurensningsmyndigheten har taushetsplikt om etter forvaltningsloven § 13 flg., kan holdes tilbake også av den meldepliktige. Det samme gjelder opplysninger som går inn under offentleglova §§ 20 og 21.
+>
+> Bestemmelsen i offentleglova § 30 om hvordan dokument skal gjøres kjent og i § 32 om klage over avgjørelse om ikke å gjøre det tilgjengelig, gjelder både når krav om offentlighet av konsekvensanalyse rettes til forurensningsmyndigheten og til den meldepliktige. Klage over avgjørelse truffet av den meldepliktige går til forurensningsmyndigheten.
+>
+> 9. I plan- og bygningslov 14. juni 1985 nr. 77 skal § 16-1 tredje ledd lyde:
+>
+> Enhver har hos vedkommende myndighet rett til å gjøre seg kjent med alternative utkast til planer som nevnt i annet ledd og med de dokumenter som ligger til grunn for planutkastene med de unntak som følger av § 13 eller §§ 20 til 26 i offentleglova.
+>
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*6. I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 277 første ledd nr. 2 lyde:*
+
+> overtredelse av straffeloven kap 30 og 42, lov 20 juli 1893 nr. 2 om stranding og vrak §§ 1, 2 og 5 og annen overtredelse av tjenesteplikter som sjømann og lov om skipssikkerhet (skipssikkerhetsloven) kapittel 10.
+>
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*76. I lov 13. mars 1981 nr. 6 om vern om forurensninger og om avfall (Forurensningsloven) skal § 64 første ledd første punktum lyde:*
+
+> Søksmål om erstatning eller krav som gjelder fast eiendom kan samlet reises i enhver rettskrets hvor det er verneting for ett av kravene, såfremt grunnlaget for kravene er det samme eller vesentlig likeartet.
 >
 
 ### 2007-06-29 — lov/2007-06-29-93
@@ -345,6 +124,36 @@ refid: "lov/1981-03-13-6"
 ### 2013-07-01 — lov/2013-06-14-48
 
 *I lov 13. mars 1981 nr. 6 om vern mot forurensninger og om avfall skal i § 81 første ledd bokstav a og § 85 annet ledd første og annet punktum uttrykket «Statens forurensningstilsyn» endres til «Miljødirektoratet».*
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-786
+
+*Delt ikraftsetting av loven. Del I–IV og del V § 75 annet ledd trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Del I–IV og del V § 75 annet ledd trer i kraft 1. juli 2019.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
 
 ### 2021-01-01 — lov/2020-12-18-159
 
@@ -360,6 +169,13 @@ refid: "lov/1981-03-13-6"
 > Femte ledd skal lyde:
 >
 > Om lemping av ansvar etter første, annet og tredje ledd gjelder skadeerstatningsloven § 5-2 tilsvarende.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2022-06-17 — lov/2022-06-17-65
@@ -380,6 +196,13 @@ refid: "lov/1981-03-13-6"
 > Loven trer i kraft 1. juli 2023.
 >
 
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
+>
+
 ### 2025-06-06 — forskrift/2025-06-06-944
 
 *Loven trer i kraft straks.*
@@ -387,7 +210,32 @@ refid: "lov/1981-03-13-6"
 > Loven trer i kraft straks.
 >
 
+### 2026-01-01 — forskrift/2025-06-06-988
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ## § 11
+
+### 2005-01-01 — lov/2004-12-17-99
+
+*§ 11 nytt annet ledd skal lyde:*
+
+> Kvotepliktig etter klimakvoteloven § 4 skal etter søknad innvilges tillatelse til kvotepliktige utslipp av CO2så fremt han godtgjør at han er i stand til å overvåke og rapportere utslippene på en tilfredstillende måte. Kongen kan i utslippstillatelsen sette vilkår i medhold av § 16. Det skal ikke settes noen utslippsgrenseverdi i tillatelsen. Tillatelsen gjelder så langt det innleveres kvoter i henhold til plikten i klimakvoteloven § 13.
+>
 
 ### 2026-06-19 — lov/2026-06-19-54
 
@@ -397,6 +245,13 @@ refid: "lov/1981-03-13-6"
 >
 
 ## § 18
+
+### 2005-01-01 — lov/2004-12-17-99
+
+*§ 18 nytt annet ledd skal lyde:*
+
+> Tillatelse gitt i medhold av § 11 annet ledd tilbakekalles eller endres dersom kvoteplikten etter klimakvoteloven § 4 opphører.
+>
 
 ### 2023-06-16 — lov/2023-06-16-61
 
@@ -596,6 +451,19 @@ refid: "lov/1981-03-13-6"
 
 *§ 32 nåværende annet ledd blir nytt tredje ledd.*
 
+## § 32 a
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*Ny § 32 a skal lyde:*
+
+> § 32 a.Mottaksanlegg for avfall fra skip
+>
+> Forurensningsmyndigheten kan gi forskrifter om etablering og drift av mottaksanlegg i land for avfall og lasterester fra skip. Forurensningsmyndigheten kan herunder pålegge den enkelte kommune, havnemyndighet, havneeier eller andre å sørge for at det finnes tilstrekkelige leveringsmuligheter og gi bestemmelser om videre transport og disponering av mottatt avfall.
+>
+> Forurensningsmyndigheten kan gi forskrifter om betaling av gebyr ved anløp i havn med mottaksanlegg og betaling av gebyr for levering av avfall og lasterester i havn.
+>
+
 ## § 32 b
 
 ### 2025-06-06 — lov/2025-06-06-24
@@ -685,6 +553,13 @@ refid: "lov/1981-03-13-6"
 
 ## § 5
 
+### 2007-02-16 — lov/2007-02-16-9
+
+*§ 5 annet ledd skal lyde:*
+
+> For forurensning fra det enkelte transportmiddel gjelder det som er fastsatt i eller i medhold av produktkontrolloven, vegtrafikkloven, skipssikkerhetsloven, havneloven, luftfartsloven og jernbaneloven i stedet for bestemmelsene i denne loven.
+>
+
 ### 2026-06-19 — lov/2026-06-19-54
 
 *§ 5 annet ledd skal lyde:*
@@ -703,6 +578,30 @@ refid: "lov/1981-03-13-6"
 > Forurensingsmyndigheten eller den forurensningsmyndigheten bemyndiger kan gi forskrifter som gjennomfører EØS-avtalens regler om frivillig deltakelse i en miljøstyrings- og miljørevisjonsordning (EMAS-ordningen).
 >
 > Brønnøysundregistrenes vedtak om hvorvidt en organisasjon skal registreres eller strykes fra registeret etter forordningens artikkel 6, og Justervesenets vedtak om å gi, utvide, avslå, suspendere eller trekke tilbake akkreditering av miljøkontrollører etter artikkel 4 nr. 4 og 5, kan påklages til forurensningsmyndigheten.
+>
+
+## § 57
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 57 første ledd andre punktum skal lyde:*
+
+> Endelig fastsatt refusjonskrav har panterett i det refusjonspliktige areal eller – dersom arealet ikke er utskilt – den eiendom arealet er en del av.
+>
+> Overskrifta til kapittel XI skal lyde:
+>
+> Kap. XI. Opprettelse og endring av eiendommer.
+>
+
+## § 63
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 63 skal lyde:*
+
+> § 63.Opprettelse og endring av matrikkelenhet
+>
+> Matrikkelenhet må ikke opprettes på en slik måte at det oppstår forhold som strider mot denne lov, forskrift, vedtekt eller plan. Matrikkelenhet må heller ikke opprettes, eller endres, slik at det dannes tomter som etter kommunens skjønn er mindre vel skikket til bebyggelse på grunn av sin størrelse, form eller plassering.
 >
 
 ## § 73
@@ -730,6 +629,10 @@ refid: "lov/1981-03-13-6"
 ## § 78
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 78 første ledd bokstav e oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 78 første ledd bokstav e oppheves.*
 
@@ -773,6 +676,24 @@ refid: "lov/1981-03-13-6"
 ### 2015-01-01 — lov/2014-08-29-62
 
 *§ 79 nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 79 første ledd bokstav b skal lyde:*
+
+> unnlater å etterkomme pålegg om tiltak mot avfall etter § 37.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 79 første ledd bokstav c oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 79 tredje ledd skal lyde:*
+
+> Med bøter eller fengsel inntil 2 år straffes den som forsettlig eller uaktsomt innfører eller utfører avfall i strid med bestemmelser om grensekryssende forsendelse av avfall i forskrift etter §§ 31 til 32.
+>
 
 ### 2019-06-21 — lov/2019-06-21-54
 
@@ -861,9 +782,79 @@ refid: "lov/1981-03-13-6"
 
 ## § 85
 
+### 2009-06-19 — lov/2009-06-19-103
+
+*§ 85 overskriften skal lyde:*
+
+> (forholdet til forvaltningsloven og tjenesteloven)
+>
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*§ 85 nytt fjerde ledd skal lyde:*
+
+> Departementet kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for søknad om tillatelse etter kap. 3, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.
+>
+> 10. I lov 29. mai 1981 nr. 38 om viltet, § 26 skal ny nr. 11 lyde:om saksbehandlingen til utfylling av reglene i tjenesteloven for autorisasjon av preparanter og av jegerprøveinstruktører, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.
+>
+
 ### 2013-06-14 — lov/2013-06-14-52
 
 *§ 85 første ledd skal lyde:*
 
 > Forvaltningsloven gjelder med de særlige bestemmelser som er gitt i loven her.
+>
+
+## § 93
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 93 bokstav h første punktum skal lyde:*
+
+> Opprettelse av ny grunneiendom, ny anleggseiendom eller nytt jordsameie, samt opprettelse av ny festegrunn for bortfeste som kan gjelde i mer enn 10 år, eller arealoverføring, jf. lov om eigedomsregistrering.
+>
+
+## § 93b
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 93b nr. 1 nytt andre ledd skal lyde:*
+
+> De som er nevnt i § 9 i lov om eigedomsregistrering kan søke om tillatelse til å opprette ny grunneiendom, ny anleggseiendom, ny festegrunn eller nytt jordsameie, eller tillatelse til arealoverføring. Kommunen kan kreve at søknad som reiser spesielle rettslige eller oppmålingstekniske spørsmål, blir utformet av landmålerforetak som er godkjent etter lov om eigedomsregistrering.
+>
+
+## § 94
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 94 nr. 1 tredje ledd skal lyde:*
+
+> Søknad om å opprette ny grunneiendom, ny anleggseiendom, ny festegrunn eller nytt jordsameie, eller tillatelse til arealoverføring, må angi hvordan enheten ønskes utformet, herunder angi grenseforløpet på kart. Søknaden må vise hvordan de nye enhetene eller arealoverføringen på hensiktsmessig måte kan gå inn i en fremtidig utnytting av området, herunder også hvordan de krav som nevnt i § 69 nr. 1 kan oppfylles.
+>
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 94 nr. 3 fjerde ledd skal lyde:*
+
+> Ved delt søknad skal det bare sendes nabovarsel for søknad som omfatter tiltak som nevnt i § 93 så langt det gjelder tiltak etter bokstav h, tiltakets ytre rammer eller den virksomhet som skal drives, samt endringer i disse forhold.
+>
+
+## § 95
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 95 nr. 5 skal lyde:*
+
+> 5. Kommunen kan sette som vilkår for å gi tillatelse at:det blir holdt oppmålingsforretning når det er behov for å klarlegge grensene for den eller de matrikkelenhetene som tiltaket gjelder for,eiendommer som skal nyttes under ett blir sammenføyd etter lov om eigedomsregistrering.Ved søknad om opprettelse av ny festegrunn for bortfeste som kan gjelde i mer enn 10 år, kan kommunen sette som vilkår for tillatelsen at festeretten skal gjelde for et særskilt avgrenset areal, eller at enheten blir opprettet som grunneiendom.
+>
+
+## § 96
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 96 nytt fjerde ledd skal lyde:*
+
+> Tillatelse til tiltak etter § 93 første ledd bokstav h til å opprette ny grunneiendom, ny anleggseiendom, ny festegrunn for bortfeste som kan gjelde i mer enn 10 år, eller nytt jordsameie faller bort dersom det ikke er satt fram krav om matrikkelføring etter lov om eigedomsregistrering innen tre år etter at tillatelsen ble gitt. Tillatelsen faller også bort dersom kommunen må avvise kravet om matrikkelføring, og vilkårene for matrikkelføring ikke er rettet innen en nærmere fastsatt frist. Tilsvarende gjelder tillatelse til arealoverføring.
+>
+> 12. I lov 3. juli 1992 nr. 93 om avhending av fast eigedom (avhendingslova) blir gjort følgjande endringar:
 >

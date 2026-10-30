@@ -5,6 +5,33 @@ refid: "lov/1992-12-04-130"
 
 # Endringshistorikk: Husdyravlsloven – avlsl
 
+## (annet)
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*152. I lov 4. desember 1992 nr. 130 om husdyravl skal § 7 lyde:*
+
+> Den som overtrer bestemmelser gitt i eller i medhold av denne lov straffes med bøter eller med fengsel inntil tre måneder.
+>
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*15. I lov 4. desember 1992 nr. 130 om husdyravl, skal ny § 7a lyde:*
+
+> Departementet kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for godkjenning etter §§ 2 og 4 herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse.
+>
+> Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.
+>
+> Saksbehandlingsreglene kan fravike reglene i forvaltningsloven.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*123. I lov 4. desember 1992 nr. 130 om husdyravl skal § 7 lyde:*
+
+> Den som overtrer bestemmelser gitt i eller i medhold av denne lov straffes med bøter eller med fengsel inntil tre måneder.
+>
+
 ## § 6 a
 
 ### 2003-12-19 — lov/2003-12-19-129

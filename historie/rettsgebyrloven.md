@@ -21,9 +21,27 @@ refid: "lov/1982-12-17-86"
 > Gebyret beregnes med utgangspunkt i et grunngebyr kalt rettsgebyret. Dette utgjør kr 700.
 >
 
+### 2004-05-14 — lov/2004-05-14-25
+
+*10. I lov 17. desember 1982 nr. 86 om rettsgebyr skal § 26 lyde:*
+
+> For begjæring til tingretten etter voldgiftsloven § 13 fjerde ledd betales rettsgebyret.
+>
+> For begjæring til tingretten etter voldgiftsloven § 15 annet ledd, § 16 første ledd, § 18 fjerde ledd, 30 annet ledd og § 39 tredje ledd betales 2 ganger rettsgebyret. Ved muntlig behandling påløper i tillegg 3 ganger rettsgebyret pr. dag.
+>
+> For begjæring til tingretten etter voldgiftsloven § 30 første ledd betales rettsgebyret. Ved bevisopptak i rettsmøte i tingretten påløper i tillegg 3 ganger rettsgebyret pr. dag.
+>
+
 ### 2004-12-10 — lov/2004-12-10-77
 
 *Nåværende § 3 fjerde ledd blir nytt femte ledd.*
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*15. I lov 17. desember 1982 nr. 86 om rettsgebyr § 10 nr. 9 skal betegnelsen «Rikstrygdeverket» endres til «Arbeids- og velferdsdirektoratet».*
+
+> 16. I lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs (konkursloven) skal § 85 første ledd nr. 9 lyde:å gi melding så tidlig som mulig til det felles lokale kontoret i arbeids- og velferdsforvaltningen der skyldneren holder til konkursen og om hvilke arbeidstakere som har krav i boet, dersom det er arbeidstakere i skyldnerens virksomhet.
+>
 
 ### 2007-01-01 — lov/2006-12-22-101
 
@@ -58,13 +76,81 @@ refid: "lov/1982-12-17-86"
 > For tinglysing eller registrering av pantedokument betales 1,233 ganger rettsgebyret.
 >
 
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
 ### 2013-06-21 — lov/2013-06-21-92
 
-*I lov 17. desember 1982 nr. 86 om rettsgebyr skal § 10 første ledd nytt punkt 16 lyde:sak etter utlendingsloven § 129 annet ledd, jf. også lov om fri rettshjelp § 16 første ledd nr. 4.*
+*I lov 17. desember 1982 nr. 86 om rettsgebyr skal § 10 første ledd nytt punkt 16 lyde:*
+
+> sak etter utlendingsloven § 129 annet ledd, jf. også lov om fri rettshjelp § 16 første ledd nr. 4.
+>
+
+### 2014-01-01 — forskrift/2013-12-13-1474
+
+*Lov 13. desember 2013 nr. 131 om endringer i rettsgebyrloven, kraftledningsregisterloven og tinglysingsloven trer i kraft 1. januar 2014.*
+
+> Lov 13. desember 2013 nr. 131 om endringer i rettsgebyrloven, kraftledningsregisterloven og tinglysingsloven trer i kraft 1. januar 2014.
+>
+
+### 2014-01-01 — forskrift/2013-12-13-1497
+
+*Delt ikraftsetting av lov 21. juni 2013 nr. 92 om endringer i utlendingsloven mv. (behandling av sikkerhetssaker). Loven trer i kraft 1. januar 2014, med unntak av del I § 128a.*
+
+> Delt ikraftsetting av lov 21. juni 2013 nr. 92 om endringer i utlendingsloven mv. (behandling av sikkerhetssaker). Loven trer i kraft 1. januar 2014, med unntak av del I § 128a.
+>
+
+### 2014-05-09 — lov/2014-05-09-16
+
+*9. I lov 17. desember 1982 nr. 86 om rettsgebyr skal § 4 lyde:*
+
+> Gebyrplikten for sivile tvister, skjønn, tvangsfullbyrdelse og midlertidig sikring inntrer når saken er ført inn i sakslisten og for overprøving ved høyere instans innføring i dennes saksliste. Ved tinglysing er påføringen av attest for tinglysing avgjørende for gebyrplikten. For bobehandling gjelder de særlige regler i kapittel 5.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
+### 2015-07-01 — forskrift/2015-05-12-469
+
+*Loven gjelder fra 1. juli 2015.*
+
+> Loven gjelder fra 1. juli 2015.
+>
+
+### 2015-07-01 — forskrift/2015-05-12-494
+
+*Lov 23. januar 2015 nr. 4 om endringer i panteloven m.m. (pant i patenter og planteforedlerretter) trer i kraft 1. juli 2015.*
+
+> Lov 23. januar 2015 nr. 4 om endringer i panteloven m.m. (pant i patenter og planteforedlerretter) trer i kraft 1. juli 2015.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
 
 ### 2017-05-11 — lov/2017-05-11-26
 
 *Nåværende fjerde ledd blir tredje ledd.*
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
 
 ### 2018-06-22 — lov/2018-06-22-80
 
@@ -73,9 +159,69 @@ refid: "lov/1982-12-17-86"
 > For behandling av begjæring om oppfriskning etter tvisteloven § 6-14 fjerde ledd betales et halvt rettsgebyr.
 >
 
+### 2018-09-01 — forskrift/2018-08-10-1229
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 80 om endringer i domstolloven mv. (elektronisk kommunikasjon mv.). Loven trer i kraft 1. september 2018 med unntak av del II, som trer i kraft 1. januar 2019.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 80 om endringer i domstolloven mv. (elektronisk kommunikasjon mv.). Loven trer i kraft 1. september 2018 med unntak av del II, som trer i kraft 1. januar 2019.
+>
+
 ### 2019-01-01 — lov/2018-12-20-118
 
 *Nåværende fjerde til sjette ledd blir nye tiende til tolvte ledd.*
+
+### 2019-01-01 — forskrift/2018-05-25-759
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2020-11-01 — forskrift/2020-10-30-2181
+
+*Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.*
+
+> Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 87 om endring i vegtrafikkloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Delt ikraftsetting av lov 20. desember 2019 nr. 88 om endringer i eigedomsskattelova. Endringsloven del I trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 89 om endring i fjellova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 91 om endring i rettsgebyrloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 93 om endringer i folketrygdloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 95 om endring i brann- og eksplosjonsvernloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 99 om endring i vass- og avløpsanleggslova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 100 om endring i a-opplysningsloven. Endringsloven trer i kraft 1. november 2020.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
 
 ### 2025-06-20 — lov/2025-06-20-82
 
@@ -84,11 +230,40 @@ refid: "lov/1982-12-17-86"
 > lov 17. desember 1982 nr. 86 om rettsgebyr § 27 a
 >
 
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ### 2026-06-19 — lov/2026-06-19-48
 
 *I lov 17. desember 1982 nr. 86 om rettsgebyr skal § 16 nr. 2 lyde:*
 
 > For rekonstruksjonsforhandling betales 5 ganger rettsgebyret. Tas skyldnerens bo under konkursbehandling i forbindelse med innstilling av rekonstruksjonsforhandlingen, betales i stedet gebyr etter nr. 1.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
+### 2026-10-01 — forskrift/2026-09-11-1775
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.
 >
 
 ## § 1
@@ -626,6 +801,8 @@ refid: "lov/1982-12-17-86"
 
 *§ 25 tredje ledd oppheves.I lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs skal § 80 fjerde ledd lyde:*
 
+> I lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs skal § 80 fjerde ledd lyde:
+>
 > Registrerings- og forseglingsforretningene kan overlates til lensmannen eller namsfogden eller en annen skikket person oppnevnt av retten.I plan- og bygningslov 14. juni 1985 nr. 77 skal § 59 annet ledd lyde:
 >
 

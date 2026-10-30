@@ -7,9 +7,40 @@ refid: "lov/2004-03-26-17"
 
 ## (annet)
 
+### 2012-01-01 — forskrift/2011-11-18-1107
+
+*Loven trer i kraft 1. januar 2012.*
+
+> Loven trer i kraft 1. januar 2012.
+>
+
 ### 2016-12-16 — lov/2016-12-16-91
 
-*I lov 26. mars 2004 nr. 17 om finansiell sikkerhetsstillelse skal § 1 tredje ledd bokstav d) lyde:avregningssentraler, sentrale motparter og lignende lovregulerte institusjoner som handler med finansielle instrumenter som nevnt i verdipapirhandelloven § 2-2 første ledd nr. 4, eller juridiske personer som handler i egenskap av formuesforvalter eller etter fullmakt fra en eller flere personer, for eksempel tillitsmenn for obligasjonseiere i obligasjonsmarkedet eller spesialforetak opprettet i forbindelse med verdipapirisering.*
+*I lov 26. mars 2004 nr. 17 om finansiell sikkerhetsstillelse skal § 1 tredje ledd bokstav d) lyde:*
+
+> avregningssentraler, sentrale motparter og lignende lovregulerte institusjoner som handler med finansielle instrumenter som nevnt i verdipapirhandelloven § 2-2 første ledd nr. 4, eller juridiske personer som handler i egenskap av formuesforvalter eller etter fullmakt fra en eller flere personer, for eksempel tillitsmenn for obligasjonseiere i obligasjonsmarkedet eller spesialforetak opprettet i forbindelse med verdipapirisering.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1592
+
+*Delt ikraftsetting av Stortingets vedtak 12. desember 2016 til lov om endringer i verdipapirfondloven mv. (UCITS V-direktivet mv.). Lovens del I, II, IV og V trer i kraft 1. januar 2017.*
+
+> Delt ikraftsetting av Stortingets vedtak 12. desember 2016 til lov om endringer i verdipapirfondloven mv. (UCITS V-direktivet mv.). Lovens del I, II, IV og V trer i kraft 1. januar 2017.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1607
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. januar 2017 med unntak for romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. januar 2017 med unntak for romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
 
 ## § 2
 

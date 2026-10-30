@@ -9,7 +9,17 @@ refid: "lov/2010-06-25-28"
 
 ### 2011-12-16 — lov/2011-12-16-58
 
-*I lov 25. juni 2010 nr. 28 om avtalefestet pensjon for medlemmer av Statens pensjonskasse skal § 3 bokstav e første punktum lyde:Det ytes ikke avtalefestet pensjon etter loven her for tidsrom hvor det ytes arbeidsavklaringspenger, uførepensjon eller pensjon til gjenlevende ektefelle fra folketrygden.*
+*I lov 25. juni 2010 nr. 28 om avtalefestet pensjon for medlemmer av Statens pensjonskasse skal § 3 bokstav e første punktum lyde:*
+
+> Det ytes ikke avtalefestet pensjon etter loven her for tidsrom hvor det ytes arbeidsavklaringspenger, uførepensjon eller pensjon til gjenlevende ektefelle fra folketrygden.
+>
+
+### 2015-01-01 — forskrift/2014-06-20-799
+
+*Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraf*
+
+> Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraft 1. januar 2015.
+>
 
 ### 2016-05-27 — lov/2016-05-27-12
 
@@ -43,11 +53,25 @@ refid: "lov/2010-06-25-28"
 > Pensjonen, unntatt forsørgingstillegg og AFP-tillegg, reguleres i samsvar med et gjennomsnitt av lønns- og prisvekst.
 >
 
+### 2022-04-01 — forskrift/2022-04-01-496
+
+*Loven trer i kraft 1. april 2022.*
+
+> Loven trer i kraft 1. april 2022.
+>
+
 ### 2023-06-16 — lov/2023-06-16-35
 
 *I lov 25. juni 2010 nr. 28 om avtalefestet pensjon for medlemmer av Statens pensjonskasse skal § 3 første ledd bokstav e første punktum lyde:*
 
 > Det ytes ikke avtalefestet pensjon etter loven her for tidsrom hvor det ytes arbeidsavklaringspenger, uføretrygd eller pensjon, overgangsstønad eller omstillingsstønad til gjenlevende ektefelle fra folketrygden.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-904
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
 >
 
 ### 2024-04-12 — lov/2024-04-12-14
@@ -165,6 +189,15 @@ refid: "lov/2010-06-25-28"
 > Kapittel 4 Ikrafttredelse
 >
 
+### 2024-10-01 — forskrift/2024-09-20-2209
+
+*Ikrafttredelsestidspunktet for lov om endringer i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse og enkelte andre lover (ny avtalefestet pensjon) fremskyndes.*
+
+> Ikrafttredelsestidspunktet for lov om endringer i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse og enkelte andre lover (ny avtalefestet pensjon) fremskyndes.
+>
+> Loven trer i kraft 1. oktober 2024.
+>
+
 ### 2024-12-20 — lov/2024-12-20-81
 
 *Noverande § 3 første ledd bokstav b femte punktum blir fjerde punktum.*
@@ -173,11 +206,50 @@ refid: "lov/2010-06-25-28"
 
 *Noverande tredje til femte ledd blir fjerde til nytt sjette ledd.*
 
+### 2024-12-20 — forskrift/2024-12-20-3298
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del V (folketrygdloven) §§ 8-49, 11-4, 11-13, 11-16, 11-18, 13-2, 13-11 og 20-4.
+>
+> Endringsloven del VI (lov om arbeidsmarkedstjenester), VII (lov om norsk statsborgerskap), IX (AFP-tilskottsloven), X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) og XI (lov 24. november 2023 nr. 83 om endringer i lov om Statens pensjonskasse og enkelte andre lover).
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) får virkning fra 1. oktober 2024, med unntak av endringene i §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2025:
+>
+> Endringsloven del I (lov om Statens pensjonskasse), II (lov om pensjonsordning for apotekvirksomhet mv.), III (lov om samordning av pensjons- og trygdeytelser) og IV (lov om pensjonsordning for sykepleiere).
+>
+> Endringsloven del V (folketrygdloven) opphevelsen av overskriften «V. Forsørgingstillegg» i kapittel 3 og endringene i §§ 3-3, 3-24, 3-25, 3-26, 4-5, 4-9, 4-10, 4-15, 4-16, 4-20, 4-21, 4-23, 4-26, 12-15, 19-3, 19-8, 19-9a og 22-16.
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2025:
+>
+> Endringsloven del VIII (lov om pensjonsordning for oppdragstaker i statlig beredskapshjem eller spesialisert fosterhjem).
+>
+
+### 2025-01-01 — forskrift/2024-04-12-614
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
 ### 2025-06-06 — forskrift/2025-06-06-943
 
 *Loven trer i kraft straks.*
 
 > Loven trer i kraft straks.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-965
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
 >
 
 ## § 1

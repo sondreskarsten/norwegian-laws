@@ -30,7 +30,9 @@ refid: "lov/2018-06-01-24"
 
 *§ 2-1 første ledd bokstav b og c skal lyde:*
 
-> identifisere og holde oversikt over virksomheter som har vesentlig betydning for grunnleggende nasjonale funksjoner eller for nasjonale sikkerhetsinteresserfatte vedtak etter § 1-3 første og andre ledd.
+> identifisere og holde oversikt over virksomheter som har vesentlig betydning for grunnleggende nasjonale funksjoner eller for nasjonale sikkerhetsinteresser
+>
+> fatte vedtak etter § 1-3 første og andre ledd.
 >
 
 ## § 2-2
@@ -192,6 +194,29 @@ refid: "lov/2018-06-01-24"
 > Den som forsettlig eller grovt uaktsomt bryter taushetsplikt etter § 5-4 andre ledd eller § 6-6 fjerde ledd, straffes med bot eller fengsel inntil 1 år eller begge deler, hvis ikke forholdet går inn under en strengere straffebestemmelse.
 >
 
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
 ### 2024-06-14 — forskrift/2024-06-14-982
 
 *Delt ikraftsetting av lov 20. juni 2023 nr. 77 om endringer i sikkerhetsloven (eierskapskontroll og lovens virkeområde). Følgende trer i kraft straks:*
@@ -210,4 +235,11 @@ refid: "lov/2018-06-01-24"
 > Kongen utpeker ett eller flere forvaltningsorganer med klareringsmyndighet. Kongen kan gi forskrift om klareringsmyndighetenes oppgaver.
 >
 > Kongen kan gi forskrift om opprettelsen av et sentralt register for klareringsavgjørelser.
+>
+
+### 2026-10-16 — forskrift/2026-10-16-2068
+
+*Ikraftsetting av lov 23. juni 2026 nr. 74 om endringer i sikkerhetsloven (organisering av klareringsmyndigheten). Loven trer i kraft straks.*
+
+> Ikraftsetting av lov 23. juni 2026 nr. 74 om endringer i sikkerhetsloven (organisering av klareringsmyndigheten). Loven trer i kraft straks.
 >

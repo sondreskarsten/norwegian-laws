@@ -7,6 +7,17 @@ refid: "lov/2018-04-20-7"
 
 ## (annet)
 
+### 2021-06-01 — forskrift/2021-05-07-1415
+
+*---*
+
+> ---
+>
+> Endringsloven trer i kraft 1. juni 2021.
+>
+> Ikraftsetting av lov 20. april 2018 nr. 7 om våpen, skytevåpen, våpendelar og ammunisjon (våpenlova). Loven trer i kraft 1. juni 2021.
+>
+
 ### 2024-01-26 — forskrift/2024-01-26-121
 
 *Ikraftsetting av lov 20. juni 2023 nr. 79 om endringer i våpenlova (unntak fra taushetsplikten). Loven trer i kraft straks.*
@@ -26,6 +37,13 @@ refid: "lov/2018-04-20-7"
 *9.I lov 20. april 2018 nr. 7 om våpen, skytevåpen, våpendelar og ammunisjon skal § 11 andre ledd tredje punktum lyde:*
 
 > Dei skytevåpna som er nemnde i første og andre punktum, skal i tillegg oppfylle krava til jaktvåpen som er gjevne i eller i medhald av viltressursloven § 24.
+>
+
+### 2026-07-01 — forskrift/2025-06-20-1105
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 13

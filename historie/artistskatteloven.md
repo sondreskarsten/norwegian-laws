@@ -11,6 +11,13 @@ refid: "lov/1996-12-13-87"
 
 *Nåværende femte ledd blir nytt sjette ledd.*
 
+### 2013-04-26 — forskrift/2013-04-26-413
+
+*Delt ikraftsetting av loven. Loven del IX trer i kraft straks. Loven del I med unntak av § 10-9 og § 11-1, del II, III, IV, VI og VIII trer i kraft 1. juli 2013. Loven del I § 10-9 og § 11-1 og loven del V trer i kraft 1. januar 2014.*
+
+> Delt ikraftsetting av loven. Loven del IX trer i kraft straks. Loven del I med unntak av § 10-9 og § 11-1, del II, III, IV, VI og VIII trer i kraft 1. juli 2013. Loven del I § 10-9 og § 11-1 og loven del V trer i kraft 1. januar 2014.
+>
+
 ### 2016-06-17 — lov/2016-06-17-39
 
 *Endring i følgjande lov:*
@@ -26,6 +33,13 @@ refid: "lov/1996-12-13-87"
 > Lov om skatt på honorar til utenlandske artister mv (artistskatteloven)
 >
 > Lova tek til å gjelde straks.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
 >
 
 ## § 1
@@ -51,6 +65,17 @@ refid: "lov/1996-12-13-87"
 > Skatteplikt etter denne lov faller bort, og avløses av skatteplikt etter skatteloven, fra og med inntektsåret forut for det inntektsår da vilkårene i skatteloven § 2-1 annet ledd for å anses som bosatt, er oppfylt. I inntektsår når artist bosatt i annen EØS-stat ikke anses skattemessig bosatt i riket, kan artisten etter inntektsårets utløp uansett kreve å bli lignet etter skattelovens regler for begrenset skattepliktige. Trukket skatt etter denne lov § 7 omgjøres i tilfeller som nevnt i første og andre punktum til forskudd på skatt etter skattebetalingsloven.
 >
 
+## § 10
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10 skal lyde:*
+
+> § 10.Forskriftshjemmel
+>
+> Departementet kan i forskrift fastsette nærmere bestemmelser om skattlegging etter denne lov, herunder om fastsettelse av utgifter til transport, kost og losji, bruk av billetter, skattetrekk og innkreving.
+>
+
 ## § 11
 
 ### 2008-12-12 — lov/2008-12-12-96
@@ -72,6 +97,21 @@ refid: "lov/1996-12-13-87"
 *§ 11 tredje ledd skal lyde:*
 
 > (3) Oppgjørsblanketten erstatter lønnsoppgave etter ligningsloven § 5-2, men har for øvrig samme virkning.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11 oppheves.*
+
+## § 12
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 12 skal lyde:*
+
+> § 12.Forholdet til annen skattelovgivning
+>
+> Den øvrige skattelovgivning, herunder skatteforvaltningsloven og skattebetalingsloven, kommer til anvendelse så langt annet ikke følger av denne lov med forskrifter. Trekkplikt etter denne lov, og forsømmelse av slik plikt har samme virkning som tilsvarende plikt og forsømmelse etter de nevnte lover.
 >
 
 ## § 6
@@ -106,6 +146,10 @@ refid: "lov/1996-12-13-87"
 > Melding som er forhåndsutfylt med opplysninger om den meldepliktige og artisten, kan gjøres tilgjengelig for den meldepliktige ved elektronisk kommunikasjon.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6 oppheves.*
+
 ## § 8
 
 ### 2007-06-29 — lov/2007-06-29-58
@@ -135,6 +179,17 @@ refid: "lov/1996-12-13-87"
 
 > Artister og personer som er ansvarlige for at skatt blir trukket og innbetalt etter § 7 første til tredje ledd, kan klage til skattekontoret over fastsettelsen av skatt. Klagen skal være skriftlig og må leveres senest seks uker etter at skattekontoret har sendt melding som i foregående ledd.
 >
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8 overskriften skal lyde:*
+
+> § 8.Attest om innbetalt skatt
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8 første til femte ledd oppheves.*
 
 ## § 9
 

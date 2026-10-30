@@ -310,6 +310,34 @@ refid: "lov/2023-06-09-30"
 
 *Nåværende tredje og fjerde punktum blir fjerde og femte punktum.*
 
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-08-01 — forskrift/2024-03-08-407
+
+*Lova tek til å gjelde 1. august 2024.*
+
+> Lova tek til å gjelde 1. august 2024.
+>
+
+### 2025-08-01 — forskrift/2025-05-23-840
+
+*Loven trer i kraft 1. august 2025.*
+
+> Loven trer i kraft 1. august 2025.
+>
+
+### 2025-08-01 — forskrift/2025-06-20-1091
+
+*Loven trer i kraft 1. august 2025.*
+
+> Loven trer i kraft 1. august 2025.
+>
+
 ### 2026-02-13 — lov/2026-02-13-6
 
 *Nåværende andre til femte ledd blir tredje til sjette ledd.*
@@ -324,6 +352,32 @@ refid: "lov/2023-06-09-30"
 ### 2026-06-19 — lov/2026-06-19-59
 
 *Nåværende § 22-2 første ledd bokstav t blir § 22-2 første ledd ny bokstav u.*
+
+### 2026-06-19 — forskrift/2026-06-19-1137
+
+*Følgende trer i kraft straks:*
+
+> Følgende trer i kraft straks:
+>
+> Endringsloven del III (barnehageloven) §§ 7a tredje ledd og 23a andre ledd
+>
+> Endringsloven del IV (folkehøgskoleloven)
+>
+> Følgende trer i kraft 1. august 2026:
+>
+> Endringsloven del I (opplæringslova)
+>
+> Endringsloven del II (privatskolelova)
+>
+> Endringsloven del III (barnehageloven) §§ 24 fjerde ledd og 25 tredje ledd
+>
+
+### 2026-07-01 — forskrift/2026-06-12-1076
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
 
 ### 2026-08-01 — forskrift/2026-02-13-197
 

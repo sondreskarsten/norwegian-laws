@@ -110,6 +110,13 @@ refid: "lov/1965-06-18-4"
 
 *Nåværende tredje til sjette ledd blir nye fjerde til sjuende ledd.*
 
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
 ### 2013-06-21 — lov/2013-06-21-82
 
 *I lov 18. juni 1965 nr. 4 om vegtrafikk skal § 27 første ledd lyde:*
@@ -145,6 +152,13 @@ refid: "lov/1965-06-18-4"
 > Loven trer i kraft straks.
 >
 
+### 2017-01-01 — forskrift/2016-11-25-1407
+
+*Lov 4. september 2015 nr. 90 om endringer i vegtrafikkloven mv. (vilkårsparkering) trer i kraft 1. januar 2017.*
+
+> Lov 4. september 2015 nr. 90 om endringer i vegtrafikkloven mv. (vilkårsparkering) trer i kraft 1. januar 2017.
+>
+
 ### 2017-03-31 — forskrift/2017-03-31-421
 
 *Delt ikraftsetting av lov 17. desember 2010 nr. 91 om endringar i lov 18. juni 1965 nr. 4 om vegtrafikk (endringar relatert til ruspåverka køyring m.m.). Del I § 33 nr. 1 annet ledd trer i kraft straks.*
@@ -176,23 +190,18 @@ refid: "lov/1965-06-18-4"
 
 ### 2018-04-20 — lov/2018-04-20-13
 
-*Endringer i følgende lov:*
+*I lov 18. juni 1965 nr. 4 om vegtrafikk skal ny § 18 lyde:*
 
-> Endringer i følgende lov:
->
-> Lov 18. juni 1965 nr. 4 om vegtrafikk (vegtrafikkloven).
->
-> I lov 18. juni 1965 nr. 4 om vegtrafikk skal ny § 18 lyde:
->
-> § 18.
->
-> Krav om alkolås ved transport mot vederlag
+> § 18.Krav om alkolås ved transport mot vederlag
 >
 > Departementet kan fastsette i forskrift at det skal være montert alkolås i kjøretøy som benyttes ved transport mot vederlag, og gir nærmere bestemmelser om godkjenning, montering og kontroll av alkolåsen. Utgifter til anskaffelse, montering og kontroll av alkolåsen dekkes av den som driver transport mot vederlag. Departementet kan gi nærmere bestemmelser om ordningen, herunder bestemmelser om virkeområde, hvilke grupper kjøretøy som skal omfattes, og om pålegg om retting ved kontroll langs veg.
 >
-> Loven gjelder fra den tid Kongen bestemmer.
->
-> Departementet kan gi nærmere overgangsregler.
+
+### 2018-05-01 — forskrift/2018-04-20-601
+
+*Loven trer i kraft 1. mai 2018.*
+
+> Loven trer i kraft 1. mai 2018.
 >
 
 ### 2018-10-01 — forskrift/2018-05-04-679
@@ -204,39 +213,24 @@ refid: "lov/1965-06-18-4"
 
 ### 2018-12-14 — lov/2018-12-14-96
 
-*Lov om endringer i vegtrafikkloven (krav til CO*
+*I lov 18. juni 1965 nr. 4 om vegtrafikk skal ny § 13 b lyde:*
 
-> Lov om endringer i vegtrafikkloven (krav til CO
+> § 13 b.Krav til CO2-utslipp mv. for produsenter av personbiler og lette nyttekjøretøy
 >
-> -utslipp)
+> For å ivareta Norges forpliktelser etter EØS-avtalen kan departementet i forskrift fastsette regler om utslippskrav mv. for produsenter av personbiler og lette nyttekjøretøy (N1), herunder regler omen øvre grense for tillatt utslipp av CO2fra personbiler og lette nyttekjøretøy (N1),overtredelsesgebyr,overvåkning,rapportering,innovative teknologier, herunder godkjenning.
 >
-> Endringer i følgende lov:
+
+### 2019-01-01 — forskrift/2018-12-14-1921
+
+*Ikraftsetting av lov 14. desember 2018 nr. 96 om endringer i vegtrafikkloven (krav til CO*
+
+> Ikraftsetting av lov 14. desember 2018 nr. 96 om endringer i vegtrafikkloven (krav til CO
 >
-> Lov 18. juni 1965 nr. 4 om vegtrafikk (vegtrafikkloven).
+> -utslipp) og samtykke til godkjenning av EØS-komiteens beslutning nr. 109/2017 om innlemmelse i EØS-avtalen av forordning (EF) nr. 443/2009 og EØS-komiteens beslutning nr. 111/2017 om innlemmelse i EØS-avtalen av forordning (EU) nr. 510/2011, med tilknyttede rettsakter
 >
-> I lov 18. juni 1965 nr. 4 om vegtrafikk skal ny § 13 b lyde:
+> Loven trer i kraft 1. januar 2019.
 >
-> § 13 b.
->
-> Krav til CO
->
-> -utslipp mv. for produsenter av personbiler og lette nyttekjøretøy
->
-> For å ivareta Norges forpliktelser etter EØS-avtalen kan departementet i forskrift fastsette regler om utslippskrav mv. for produsenter av personbiler og lette nyttekjøretøy (N1), herunder regler om
->
-> en øvre grense for tillatt utslipp av CO
->
-> fra personbiler og lette nyttekjøretøy (N1),
->
-> overtredelsesgebyr,
->
-> overvåkning,
->
-> rapportering,
->
-> innovative teknologier, herunder godkjenning.
->
-> Loven gjelder fra den tid Kongen bestemmer.
+> Norge meddeler de andre avtaleparter at de forfatningsrettslige krav er oppfylt for at EØS-komiteens beslutning nr. 109/2017 om innlemmelse i EØS-avtalen av forordning (EF) nr. 443/2009 og EØS-komiteens beslutning nr. 111/2017 om innlemmelse i EØS-avtalen av forordning (EU) nr. 510/2011, med tilknyttede rettsakter, kan bli bindende for Norge.
 >
 
 ### 2019-03-29 — lov/2019-03-29-10
@@ -263,11 +257,86 @@ refid: "lov/1965-06-18-4"
 > Statens vegvesen kan uten hinder av taushetsplikt innhente opplysninger fra folkeregistermyndigheten som er nødvendige for å utføre oppgaver etter denne loven eller andre oppgaver som er fastsatt i eller i medhold av lov.
 >
 
+### 2019-03-29 — forskrift/2019-03-29-401
+
+*---*
+
+> ---
+>
+> Loven trer i kraft straks.
+>
+> I overgangsregler om behandling av personopplysninger, fastsatt ved kongelig resolusjon 15. juni 2018 nr. 877, oppheves § 6 annet ledd bokstav c.
+>
+
+### 2019-06-21 — forskrift/2019-06-21-869
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.
+>
+
+### 2020-03-06 — lov/2020-03-06-2
+
+*I lov 18. juni 1965 nr. 4 om vegtrafikk skal ny § 51 a lyde:*
+
+> § 51 a.Statens vegvesens ulykkesanalysearbeid
+>
+> Statens vegvesen skal undersøke vegtrafikkulykker for å klarlegge hendelsesforløp og årsaksfaktorer med formål å forbedre trafikksikkerheten.
+>
+> For dette formålet skal Statens vegvesens ulykkesanalysegruppe foreta dybdeanalyser av alle dødsulykkene på veg i Norge. Ulykkesanalysegruppen skal ikke ta stilling til sivilrettslig eller strafferettslig skyld og ansvar i forbindelse med vegtrafikkulykken. Ulykkesanalysegruppen skal uten hinder av lovbestemt taushetsplikt få utlevert saksopplysninger fra politiet som er nødvendig for gruppens arbeid og obduksjonsrapport om trafikkdrepte.
+>
+> Departementet kan gi forskrift om ulykkesanalysegruppens arbeid.
+>
+
+### 2020-03-06 — forskrift/2020-03-06-244
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. mai 2020 med unntak av loven del II som trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. mai 2020 med unntak av loven del II som trer i kraft straks.
+>
+
 ### 2020-04-03 — forskrift/2020-04-03-576
 
 *Delt ikraftsetting av loven. Loven trer i kraft straks, med unntak av del I endringene i § 26 og § 29.*
 
 > Delt ikraftsetting av loven. Loven trer i kraft straks, med unntak av del I endringene i § 26 og § 29.
+>
+
+### 2020-11-01 — forskrift/2020-10-30-2181
+
+*Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.*
+
+> Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 87 om endring i vegtrafikkloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Delt ikraftsetting av lov 20. desember 2019 nr. 88 om endringer i eigedomsskattelova. Endringsloven del I trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 89 om endring i fjellova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 91 om endring i rettsgebyrloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 93 om endringer i folketrygdloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 95 om endring i brann- og eksplosjonsvernloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 99 om endring i vass- og avløpsanleggslova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 100 om endring i a-opplysningsloven. Endringsloven trer i kraft 1. november 2020.
+>
+
+### 2021-01-01 — forskrift/2020-12-18-2875
+
+*Endringsloven trer i kraft 1. januar 2021.*
+
+> Endringsloven trer i kraft 1. januar 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2021-06-11 — forskrift/2021-06-11-1863
@@ -284,6 +353,13 @@ refid: "lov/1965-06-18-4"
 > § 13 b.Krav til CO2-utslipp mv. for produsenter av personbiler, varebiler og tunge kjøretøy
 >
 > For å ivareta Norges forpliktelser etter EØS-avtalen kan departementet i forskrift fastsette regler om utslippskrav mv. for produsenter av kjøretøy i gruppe M, N og O, herunder regler om:krav til utslipp av CO2,overtredelsesgebyr,overvåkning,rapportering,innovative teknologier, herunder godkjenning.
+>
+
+### 2022-06-22 — forskrift/2022-06-22-1132
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ### 2022-07-01 — forskrift/2022-06-17-1041
@@ -309,6 +385,58 @@ refid: "lov/1965-06-18-4"
 *Loven trer i kraft 1. januar 2024.*
 
 > Loven trer i kraft 1. januar 2024.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >
 
 ## § 10
@@ -416,6 +544,12 @@ refid: "lov/1965-06-18-4"
 
 > Registreringspliktig kjøretøy som er avregistrert eller er uten lovlige kjennemerker, skal ikke være parkert utover 14 dager på offentlig veg eller privat veg skiltet med offentlig trafikkskilt.
 >
+
+## § 18
+
+### 2002-06-14 — lov/2002-06-14-20
+
+*§ 18 oppheves.*
 
 ## § 19
 
@@ -596,6 +730,20 @@ refid: "lov/1965-06-18-4"
 *§ 22 fjerde ledd annet punktum skal lyde:*
 
 > Det samme gjelder villfarelse med hensyn til størrelsen av konsentrasjonen av annet berusende eller bedøvende middel, med mindre slikt middel er inntatt i henhold til gjeldende forskrivning fra lege eller tannlege, jf. tredje ledd.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 22 første ledd skal lyde:*
+
+> Ingen må føre motorvogn når han er påvirket av alkohol eller annet berusende eller bedøvende middel.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 22 femte ledd første punktum skal lyde:*
+
+> Fører av motorvogn må ikke nyte alkohol eller ta annet berusende eller bedøvende middel i de første seks timene etter at han er ferdig med kjøringen, når han forstår at det kan bli politietterforskning på grunn av kjøringen eller utviser grov uaktsomhet i så måte.
 >
 
 ## § 22 a
@@ -988,6 +1136,20 @@ refid: "lov/1965-06-18-4"
 > Påvirkningsgraden hos førere som har inntatt legemiddel i henhold til gjeldende forskrivning fra lege eller tannlege, vurderes konkret.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 31 første ledd skal lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av denne lov, straffes med bøter eller med fengsel inntil ett år, dersom forholdet ikke går inn under strengere straffebud. På samme måte straffes overtredelse av vilkår i enkeltvedtak i medhold av denne lov og brudd på forbud etter §§ 35 og 36. Forsøk straffes ikke, med unntak for § 22 første ledd. Den som ved bruk av motorvogn uaktsomt volder betydelig legemsskade eller en annens død, straffes etter straffeloven § 280 eller § 281.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 31 femte ledd skal lyde:*
+
+> I stedet for bot og ubetinget fengsel kan det idømmes bot og betinget fengsel med vilkår som nevnt i straffeloven § 37 bokstav f.
+>
+
 ### 2015-09-04 — lov/2015-09-04-90
 
 *§ 31 syvende ledd skal lyde:*
@@ -1023,6 +1185,20 @@ refid: "lov/1965-06-18-4"
 >
 
 ## § 31 b
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 31 b første ledd første punktum skal lyde:*
+
+> Kongen kan bestemme at bøteleggelse på stedet eller i ettertid for lovbrudd av nærmere angitt art kan skje ved forenklet forelegg etter faste bøtesatser.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 31 b femte ledd skal lyde:*
+
+> Kongen gir nærmere regler om bruk av forenklet forelegg og fastsetter bøtesatser og subsidiær fengselsstraff for de forskjellige lovbrudd som ordningen skal omfatte.
+>
 
 ### 2026-06-19 — lov/2026-06-19-45
 
@@ -1170,6 +1346,20 @@ refid: "lov/1965-06-18-4"
 
 ## § 36
 
+### 2002-06-14 — lov/2002-06-14-20
+
+*§ 36 nr. 1 bokstav f) skal lyde:*
+
+> regler gitt i medhold av § 7 tredje ledd blir vesentlig overtrådt eller pålegg gitt i medhold av disse ikke blir etterkommet.
+>
+
+### 2002-06-14 — lov/2002-06-14-20
+
+*§ 36 nr. 2 bokstav b) skal lyde:*
+
+> har brukt kjøretøy med vesentlig overlast, eller med farlig gods i strid med bestemmelser gitt i eller i medhold av denne lov, eller med uforsvarlig plassert last, eller på veg der kjøretøyet ikke må kjøre etter gitte bestemmelser om aksel- og boggilast, lengde, bredde, høyde m.m, eller
+>
+
 ### 2008-04-25 — lov/2008-04-25-12
 
 *§ 36 nytt nr. 9 skal lyde:*
@@ -1182,14 +1372,6 @@ refid: "lov/1965-06-18-4"
 *§ 36 nr. 2 bokstav c skal lyde:*
 
 > har brukt kjøretøyet til kjøring ellers i strid med bestemmelser i eller i medhold av denne lov, og han tidligere er ilagt straff eller domfelt for overtredelser av slik bestemmelse eller for overtredelse av straffeloven kapittel 25 under bruk av motorvogn eller tilhenger til motorvogn, eller
->
-> 66. I lov 25. juni 1965 nr. 2 om adgang til regulering av penge- og kredittforholdene skal § 18 lyde:
->
-> Den som forsettlig eller aktløst overtrer bestemmelser som er gitt i medhold av §§ 11 og 13-15, straffes med bøter.
->
-> 67. I lov 10. juni 1966 nr. 3 om avgift til statskassen på inngangspenger til forestillinger og framvisninger m.v. skal § 4 annet ledd lyde:
->
-> Den som i hensikt å skaffe seg eller andre en uberettiget vinning unnlater å betale avgift av avgiftspliktige inngangspenger, straffes som bestemt for underslag i straffeloven kap. 27.
 >
 
 ### 2012-06-22 — lov/2012-06-22-59
@@ -1211,6 +1393,13 @@ refid: "lov/1965-06-18-4"
 *§ 36 nr. 9 nytt annet og tredje punktum skal lyde:*
 
 > Pålegg om hvile kan om nødvendig sikres ved bruk av mekanisk eller elektronisk innretning. Kjøretøyet kan ved bruk av slik innretning holdes tilbake inntil omkostninger knyttet til bruken av innretningen er betalt.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 36 nr. 2 bokstav c skal lyde:*
+
+> har brukt kjøretøyet til kjøring ellers i strid med bestemmelser i eller i medhold av denne lov, og han tidligere er ilagt straff eller domfelt for overtredelser av slik bestemmelse eller for overtredelse av straffeloven kapittel 25 under bruk av motorvogn eller tilhenger til motorvogn, eller
 >
 
 ### 2019-06-21 — lov/2019-06-21-68
@@ -1252,7 +1441,9 @@ refid: "lov/1965-06-18-4"
 
 *§ 36 nr. 1 bokstav g og ny bokstav h skal lyde:*
 
-> kjøretøyet er endret i strid med § 13 femte ledd,fartsskriver ikke er installert, eller der fartsskriveren er manipulert eller på annen måte endret slik at informasjonen fra fartsskriveren ikke samsvarer med faktisk kjøring eller annen regulert bruk.
+> kjøretøyet er endret i strid med § 13 femte ledd,
+>
+> fartsskriver ikke er installert, eller der fartsskriveren er manipulert eller på annen måte endret slik at informasjonen fra fartsskriveren ikke samsvarer med faktisk kjøring eller annen regulert bruk.
 >
 
 ## § 36 a
@@ -1412,6 +1603,22 @@ refid: "lov/1965-06-18-4"
 
 ## § 38
 
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 38 annet ledd fjerde punktum skal lyde:*
+
+> Krav som nevnt i paragrafen her innkreves av Statens innkrevingssentral med mindre departementet bestemmer annet.
+>
+> 4. I lov 21. mai 1971 nr. 47 om brannfarlige varer samt væsker og gasser under trykk gjøres følgende endring:
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 38 annet ledd første punktum skal lyde:*
+
+> Tilleggsavgift og gebyrer etter § 31 er tvangsgrunnlag for utlegg hos den skyldige og hos den som på tiden for overtredelsen var registrert som eier av kjøretøyet, med mindre dette da var fravendt denne ved et lovbrudd.
+>
+
 ### 2015-09-04 — lov/2015-09-04-90
 
 *§ 38 skal lyde:*
@@ -1502,6 +1709,15 @@ refid: "lov/1965-06-18-4"
 > Departementet kan i forskrift gi regler om at kommunen pålegges å utarbeide og gjennomføre ulike trafikksikkerhetstiltak i tilknytning til skoleskyss.
 >
 
+## § 43
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 43 fjerde ledd oppheves.*
+
+> 5. I lov 12. desember 1975 nr. 59 om dokumentavgift gjøres følgende endring:
+>
+
 ## § 44
 
 ### 2004-06-18 — lov/2004-06-18-40
@@ -1521,6 +1737,15 @@ refid: "lov/1965-06-18-4"
 >
 
 ## § 5
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 5 annet ledd skal lyde:*
+
+> Krav som nevnt i første ledd samt renter innkreves av Statens innkrevingssentral med mindre departementet bestemmer annet.
+>
+> 6. I lov 13. juni 1980 nr. 35 om fri rettshjelp gjøres følgende endring:
+>
 
 ### 2024-12-06 — lov/2024-12-06-74
 
@@ -1576,6 +1801,13 @@ refid: "lov/1965-06-18-4"
 >
 
 ## § 7
+
+### 2002-06-14 — lov/2002-06-14-20
+
+*§ 7 nytt tredje ledd skal lyde:*
+
+> Vegdirektoratet kan bestemme at transport av visse typer farlig gods kun skal være tillatt på visse veger, til visse tider eller på andre særlige vilkår. Vegdirektoratet kan gi vegkontoret adgang til å gjøre unntak fra slik forskrift.
+>
 
 ### 2019-06-21 — lov/2019-06-21-68
 
@@ -1659,6 +1891,13 @@ refid: "lov/1965-06-18-4"
 >
 
 ## § 8
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 8 annet ledd skal lyde:*
+
+> Krav som nevnt i første ledd innkreves av Statens innkrevingssentral med mindre departementet bestemmer annet.
+>
 
 ### 2015-09-04 — lov/2015-09-04-90
 

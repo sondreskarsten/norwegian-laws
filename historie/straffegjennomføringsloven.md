@@ -70,6 +70,13 @@ refid: "lov/2001-05-18-21"
 
 *Nåværende annet punktum blir nytt femte punktum.*
 
+### 2012-01-20 — forskrift/2012-01-20-41
+
+*Lovendringene i straffeloven § 18, § 28 annet ledd, § 28a annet ledd og § 39c annet ledd, straffeprosessloven § 69 annet ledd tredje punktum, § 98 første ledd annet punktum, § 161a, § 183 annet og tredje ledd, § 184 annet ledd annet punktum, § 185 annet ledd, § 186 annet ledd tredje punktum og § 186*
+
+> Lovendringene i straffeloven § 18, § 28 annet ledd, § 28a annet ledd og § 39c annet ledd, straffeprosessloven § 69 annet ledd tredje punktum, § 98 første ledd annet punktum, § 161a, § 183 annet og tredje ledd, § 184 annet ledd annet punktum, § 185 annet ledd, § 186 annet ledd tredje punktum og § 186a, del VI, straffegjennomføringsloven § 6 tredje ledd, § 10 fjerde ledd, § 11 femte ledd, § 16 første ledd annet punktum og annet ledd, straffeloven 2005 § 40 første ledd annet punktum, § 48 annet ledd, § 53 fjerde ledd, § 55 tredje ledd og § 78 bokstav h og i, samt del XII trer i kraft straks.
+>
+
 ### 2013-05-24 — lov/2013-05-24-19
 
 *I lov 18. mai 2001 nr. 21 om gjennomføring av straff mv. skal § 16 annet ledd første punktum lyde:*
@@ -83,6 +90,17 @@ refid: "lov/2001-05-18-21"
 
 > Delt ikraftsetting av lov 17. desember 2010 nr. 85 om endringer i forvaltningsloven og straffegjennomføringsloven. Del II om straffegjennomføringsloven nytt kapittel 1a trer i kraft straks.
 >
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*Nåværende annet ledd blir nytt tredje ledd.*
 
 ### 2015-01-23 — lov/2015-01-23-3
 
@@ -140,9 +158,30 @@ refid: "lov/2001-05-18-21"
 > Delt ikraftsetting av lov 20. januar 2012 nr. 6 om endringer i straffeloven, straffeprosessloven, straffegjennomføringsloven, konfliktrådsloven m.fl. (barn og straff). Del IX § 10 a, § 31 åttende ledd, § 37 med unntak av femte ledd siste setning, § 38 tredje, fjerde og femte ledd og § 39 annet punktum trer i kraft straks.
 >
 
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2016-12-16 — lov/2016-12-16-98
 
 *Nåværende annet ledd blir nytt tredje ledd.*
+
+### 2017-01-01 — forskrift/2016-12-16-1604
+
+*Loven trer i kraft fra 1. januar 2017.*
+
+> Loven trer i kraft fra 1. januar 2017.
+>
+
+### 2018-06-01 — forskrift/2018-06-01-790
+
+*Loven gjelder fra 1. juni 2018.*
+
+> Loven gjelder fra 1. juni 2018.
+>
 
 ### 2019-12-20 — lov/2019-12-20-105
 
@@ -169,6 +208,13 @@ refid: "lov/2001-05-18-21"
 > Kriminalomsorgen kan beslutte at straffen skal avbrytes inntil én måned dersom hensynet til kapasiteten i kriminalomsorgen krever det, og hverken sikkerhetsmessige hensyn eller særskilte hensyn til den domfeltes rehabilitering taler imot. Dersom kapasiteten i kriminalomsorgen krever det, kan beslutningen fornyes med inntil én måned. Det skal ikke besluttes straffavbrudd etter bestemmelsen her dersom den domfelte ikke har egen bolig.
 >
 > Dersom forholdene tilsier det, skal kriminalomsorgen varsle fornærmede i saken eller dennes etterlatte om beslutning om straffavbrudd etter bestemmelsen her.
+>
+
+### 2020-07-01 — forskrift/2020-06-19-1245
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.). Loven trer i kraft 1. juli 2020 med unntak av loven del I, endringene i straffegjennomføringsloven § 16a fjerde ledd som trer*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.). Loven trer i kraft 1. juli 2020 med unntak av loven del I, endringene i straffegjennomføringsloven § 16a fjerde ledd som trer i kraft 1. september 2020, og loven del I, endringene i straffegjennomføringsloven § 10.
 >
 
 ### 2020-12-18 — lov/2020-12-18-148
@@ -384,6 +430,36 @@ refid: "lov/2001-05-18-21"
 > Kapittel 3. Fengselsstraff og forvaring
 >
 
+### 2024-04-08 — forskrift/2024-03-22-488
+
+*Ikraftsetting av lov 20. desember 2023 nr. 111 om endringer i straffeprosessloven mv. (elektronisk kontroll av besøksforbud). Loven trer i kraft 8. april 2024.*
+
+> Ikraftsetting av lov 20. desember 2023 nr. 111 om endringer i straffeprosessloven mv. (elektronisk kontroll av besøksforbud). Loven trer i kraft 8. april 2024.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
 ### 2024-06-21 — forskrift/2024-06-21-1099
 
 *Loven trer i kraft straks.*
@@ -391,11 +467,25 @@ refid: "lov/2001-05-18-21"
 > Loven trer i kraft straks.
 >
 
+### 2024-12-01 — forskrift/2024-11-29-2890
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. desember 2024, med unntak av endringene under del V.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. desember 2024, med unntak av endringene under del V.
+>
+
 ### 2025-01-01 — forskrift/2024-11-15-2784
 
 *Ikraftsetting av lov 2. juni 2023 nr. 18 om endringar i straffegjennomføringsloven (tilsynsråd for kriminalomsorga) 1. januar 2025.*
 
 > Ikraftsetting av lov 2. juni 2023 nr. 18 om endringar i straffegjennomføringsloven (tilsynsråd for kriminalomsorga) 1. januar 2025.
+>
+
+### 2025-07-01 — forskrift/2025-06-10-996
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ### 2026-05-12 — lov/2026-05-12-18
@@ -477,6 +567,13 @@ refid: "lov/2001-05-18-21"
 > For domfelte under 18 år skal personundersøkelse som er foretatt etter straffeprosessloven § 161 a, danne grunnlag for valg av gjennomføringsform og andre avgjørelser om straffegjennomføringen. Det skal foretas en ny personundersøkelse dersom det har gått mer enn ett år fra personundersøkelsen ble foretatt til straffegjennomføring iverksettes, eller dersom barnets personlighet, livsforhold eller fremtidsmuligheter vesentlig er endret.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 10 fjerde ledd skal lyde:*
+
+> Subsidiær fengselsstraff fastsatt etter straffeloven § 55, kan gjennomføres som bøtetjeneste etter § 16 a.
+>
+
 ### 2019-06-21 — lov/2019-06-21-48
 
 *§ 10 første og annet ledd skal lyde:*
@@ -490,7 +587,9 @@ refid: "lov/2001-05-18-21"
 
 *§ 10 første ledd bokstav d og e skal lyde:*
 
-> utenfor fengsel med særlige vilkår etter § 16,utenfor fengsel med elektronisk kontroll etter § 16 a, eller
+> utenfor fengsel med særlige vilkår etter § 16,
+>
+> utenfor fengsel med elektronisk kontroll etter § 16 a, eller
 >
 
 ### 2019-12-20 — lov/2019-12-20-105
@@ -645,6 +744,13 @@ refid: "lov/2001-05-18-21"
 > Første ledd tredje punktum gjelder tilsvarende.
 >
 
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 16 nytt åttende ledd skal lyde:*
+
+> Domfelte og fornærmede skal tilbys gjenopprettende prosess. Dersom de ved avtale kommer frem til enighet om å overholde bestemmelser om oppholdssted, eller unnlate å ha samkvem med bestemte personer, skal kriminalomsorgen ta hensyn til avtalen ved fastsettelse av vilkår for gjennomføring av straffen utenfor fengsel. Kriminalomsorgen trenger ikke å ta hensyn til avtalen dersom den blir urimelig for fornærmede eller domfelte.
+>
+
 ### 2019-12-20 — lov/2019-12-20-105
 
 *§ 16 annet ledd oppheves. Nåværende tredje til åttende ledd blir annet til syvende ledd.*
@@ -678,6 +784,10 @@ refid: "lov/2001-05-18-21"
 >
 > Departementet gir forskrift med nærmere regler om bøtetjenesten, herunder blant annet fastsetting av timetall, innhold og gjennomføring, og avbrudd.
 >
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 16 a annet ledd annet punktum oppheves.*
 
 ### 2016-12-16 — lov/2016-12-16-98
 
@@ -755,6 +865,13 @@ refid: "lov/2001-05-18-21"
 
 ## § 2
 
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 2 annet ledd skal lyde:*
+
+> Det skal gis tilbud om gjenopprettende prosess under straffegjennomføringen.
+>
+
 ### 2026-05-12 — lov/2026-05-12-18
 
 *§ 2 andre ledd skal lyde:*
@@ -791,6 +908,22 @@ refid: "lov/2001-05-18-21"
 *§ 24 tredje ledd nytt tredje og fjerde punktum skal lyde:*
 
 > Forsøk straffes på samme måte. Medvirkning straffes ikke.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 24 tredje ledd nytt tredje og fjerde punktum skal lyde:*
+
+> Forsøk straffes på samme måte. Medvirkning straffes ikke.
+>
+
+## § 26
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 26 tredje ledd annet punktum skal lyde:*
+
+> Hvis pengene eller gjenstandene ikke blir beslaglagt etter straffeprosessloven kapittel 16, inndratt etter straffeloven § 67, eller holdt tilbake på annet grunnlag, skal de senest leveres tilbake ved løslatelse eller når en besøkende forlater fengslet.
 >
 
 ## § 27
@@ -911,6 +1044,13 @@ refid: "lov/2001-05-18-21"
 *§ 36 andre ledd andre punktum innledningen skal lyde:*
 
 > Det kan blant annet bestemmes at innsatte skal
+>
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 36 nytt fjerde ledd skal lyde:*
+
+> Domfelte og fornærmede skal tilbys gjenopprettende prosess. Dersom de ved avtale kommer frem til enighet om å overholde bestemmelser om oppholdssted, eller unnlate å ha samkvem med bestemte personer, skal kriminalomsorgen ta hensyn til avtalen ved fastsettelse av vilkår for permisjon eller straffavbrudd. Kriminalomsorgen trenger ikke å ta hensyn til avtalen dersom den blir urimelig for fornærmede eller domfelte.
 >
 
 ## § 37
@@ -1249,6 +1389,17 @@ refid: "lov/2001-05-18-21"
 > Gjeldande sjuande til niande ledd vert nye sjette til åttande ledd.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 40 syvende ledd første punktum skal lyde:*
+
+> Den som forsettlig eller grovt uaktsomt unnlater å etterkomme pålegg som nevnt i straffeprosessloven § 461 første ledd, straffes med bøter eller fengsel inntil 3 måneder.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 40 åttende ledd oppheves. Nåværende niende ledd blir åttende ledd.*
+
 ### 2019-12-20 — lov/2019-12-20-105
 
 *§ 40 tredje ledd første punktum skal lyde:*
@@ -1306,6 +1457,15 @@ refid: "lov/2001-05-18-21"
 > Dersom domfelte er under 25 år, skal kriminalomsorgen også særlig legge vekt på domfeltes alder sammenholdt med hensynet til progresjon og behovet for oppfølging.
 >
 
+## § 43
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 43 nytt femte ledd skal lyde:*
+
+> Domfelte og fornærmede skal tilbys gjenopprettende prosess. Dersom de ved avtale kommer frem til enighet om å overholde bestemmelser om oppholdssted, eller unnlate å ha samkvem med bestemte personer, skal kriminalomsorgen ta hensyn til avtalen ved fastsettelse av vilkår for prøveløslatelse. Kriminalomsorgen trenger ikke å ta hensyn til avtalen dersom den blir urimelig for fornærmede eller domfelte.
+>
+
 ## § 44
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -1336,12 +1496,30 @@ refid: "lov/2001-05-18-21"
 > Kriminalomsorgen kan anmode politiet om å avhente prøveløslatte etter straffeprosessloven § 461 annet ledd hvis det er nødvendig for å iverksette reaksjon etter første ledd.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 44 annet ledd første og annet punktum skal lyde:*
+
+> Hvis den prøveløslatte etter at kriminalomsorgen har holdt innskjerpingssamtale eller fastsatt vilkår etter første ledd, på nytt bryter vilkår, kan regionalt nivå bringe saken inn for tingretten med begjæring om gjeninnsettelse i fengsel for hel eller delvis fullbyrding av reststraffen. Bestemmelsene om omgjøring av dom på samfunnsstraff etter straffeloven § 52 første ledd bokstav a gis tilsvarende anvendelse på saker om gjeninnsettelse for fullbyrdelse av reststraff etter prøveløslatelse.
+>
+
 ## § 45
 
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 45 skal lyde:*
 
+> Begår den prøveløslatte en ny straffbar handling i prøvetiden, gjelder bestemmelsene om omgjøring av dom på samfunnsstraff etter straffeloven § 52 første ledd bokstav b tilsvarende. Det er likevel tilstrekkelig om tiltale blir reist eller saken blir begjært pådømt innen 6 måneder etter at prøvetiden gikk ut.
+>
+> Dersom den prøveløslatte er siktet for en straffbar handling som kan føre til gjeninnsettelse for fullbyrdelse av reststraffen etter straffeloven § 52 første ledd bokstav b, kan gjennomføringen av straffen avbrytes.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 45 skal lyde:*
+
+> § 45.Ny straffbar handling begått i prøvetiden
+>
 > Begår den prøveløslatte en ny straffbar handling i prøvetiden, gjelder bestemmelsene om omgjøring av dom på samfunnsstraff etter straffeloven § 52 første ledd bokstav b tilsvarende. Det er likevel tilstrekkelig om tiltale blir reist eller saken blir begjært pådømt innen 6 måneder etter at prøvetiden gikk ut.
 >
 > Dersom den prøveløslatte er siktet for en straffbar handling som kan føre til gjeninnsettelse for fullbyrdelse av reststraffen etter straffeloven § 52 første ledd bokstav b, kan gjennomføringen av straffen avbrytes.
@@ -1413,14 +1591,17 @@ refid: "lov/2001-05-18-21"
 
 > §§ 12, 15, 16, 20, 33, 35, 36 og 41 til 45 i loven her gjelder ikke.
 >
-> 23. I lov 15. juni 2001 nr. 65 om gjennomføring i norsk rett av Den internasjonale straffedomstols vedtekter 17. juli 1998 (Roma-vedtektene) skal § 12 første ledd lyde:
->
-> For straffansvar for uriktig forklaring for Domstolen gjelder straffeloven § 221 tilsvarende.
->
 
 ## § 53
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 53 første ledd skal lyde:*
+
+> De idømte timene samfunnsstraff etter straffeloven § 49 første ledd bokstav a skal gå ut påsamfunnsnyttig tjeneste,program, ellerandre tiltak som er egnet til å motvirke ny kriminalitet.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 53 første ledd skal lyde:*
 
@@ -1443,9 +1624,30 @@ refid: "lov/2001-05-18-21"
 > Den domfelte skal ikke begå en ny straffbar handling før utløpet av gjennomføringstiden.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 54 første ledd bokstav d skal lyde:*
+
+> overholde vilkårene som domstolen har fastsatt etter straffeloven § 50, og
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 54 tredje ledd skal lyde:*
+
+> Den domfelte skal ikke begå en ny straffbar handling før utløpet av gjennomføringstiden.
+>
+
 ## § 56
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 56 første ledd første punktum skal lyde:*
+
+> Hvis retten har satt vilkår etter straffeloven § 50 eller kriminalomsorgen etter § 55 eller § 58 første ledd har forbudt den domfelte å bruke berusende eller bedøvende midler, skal kriminalomsorgen undersøke om vilkåret eller forbudet blir overholdt.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 56 første ledd første punktum skal lyde:*
 
@@ -1475,6 +1677,13 @@ refid: "lov/2001-05-18-21"
 > Kriminalomsorgen kan anmode politiet om å avhente den domfelte etter straffeprosessloven § 461 annet ledd hvis det er nødvendig for å få iverksatt en reaksjon etter første ledd.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 58 annet ledd første punktum skal lyde:*
+
+> Hvis den domfelte etter at kriminalomsorgen har holdt innskjerpingssamtale eller fastsatt vilkår etter første ledd, på nytt bryter kravene eller vilkår fastsatt etter første ledd bokstav a til d, bør regionalt nivå bringe saken inn for retten med begjæring om at den subsidiære fengselsstraffen skal fullbyrdes helt eller delvis i medhold av straffeloven § 52 første ledd bokstav a.
+>
+
 ## § 59
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -1486,6 +1695,19 @@ refid: "lov/2001-05-18-21"
 > Dersom den domfelte er siktet for en straffbar handling som kan føre til fullbyrding av den subsidiære fengselsstraffen etter straffeloven § 52 første ledd bokstav b, kan gjennomføringen av straffen avbrytes. Når påtalemyndigheten beslutter å bringe saken inn for retten, avbrytes gjennomføringen av straffen fra det tidspunkt begjæringen er oversendt retten.
 >
 > 218. I lov 18. mai 2001 nr. 24 om helseregistre og behandling av helseopplysninger (helseregisterloven) gjøres følgende endring:
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 59 skal lyde:*
+
+> § 59.Ny straffbar handling
+>
+> Begår den domfelte en ny straffbar handling før utløpet av gjennomføringstiden, kan påtalemyndigheten bringe saken inn for retten med begjæring om at den subsidiære fengselsstraffen skal fullbyrdes helt eller delvis i medhold av straffeloven § 52 første ledd bokstav b.
+>
+> Dersom den domfelte er siktet for en straffbar handling som kan føre til fullbyrding av den subsidiære fengselsstraffen etter straffeloven § 52 første ledd bokstav b, kan gjennomføringen av straffen avbrytes. Når påtalemyndigheten beslutter å bringe saken inn for retten, avbrytes gjennomføringen av straffen fra det tidspunkt begjæringen er oversendt retten.
+>
+> 182. I lov 15. juni 2001 nr. 53 om erstatning ved pasientskader mv. gjøres følgende endringer:
 >
 
 ## § 6
@@ -1617,6 +1839,15 @@ refid: "lov/2001-05-18-21"
 > For regler om varsling til fornærmede eller dennes etterlatte om kriminalomsorgens avgjørelser, se § 16 sjette ledd, § 20 annet ledd, § 36 tredje ledd, § 40 siste ledd, § 42 sjette og syvende ledd og straffeloven § 39 g femte ledd.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 7 b skal lyde:*
+
+> § 7 b.Varsel til fornærmede eller dennes etterlatte
+>
+> For regler om varsling til fornærmede eller dennes etterlatte om kriminalomsorgens avgjørelser, se § 16 syvende ledd, § 20 annet ledd, § 36 tredje ledd, § 40 siste ledd, § 42 sjette og syvende ledd og straffeloven § 45 sjette ledd.
+>
+
 ### 2019-12-20 — lov/2019-12-20-105
 
 *§ 7 b første ledd skal lyde:*
@@ -1633,7 +1864,30 @@ refid: "lov/2001-05-18-21"
 > Offentlige etaters opplysningsplikt overfor kriminalomsorgen
 >
 
+## § 8
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 8 tredje ledd første punktum skal lyde:*
+
+> Den som unnlater å oppfylle plikten til å melde fra eller plikten til å betale tilskudd til Norsk Pasientskadeerstatning, straffes med bøter eller fengsel inntil 3 måneder.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 8 tredje ledd nytt tredje punktum skal lyde:*
+
+> Medvirkning straffes ikke.
+>
+
 ## § 8 a
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 8 a tredje ledd skal lyde:*
+
+> Den som unnlater å oppfylle forsikringsplikt fastsatt i medhold av første ledd, straffes med bøter eller fengsel inntil 3 måneder. Medvirkning straffes ikke.
+>
 
 ### 2024-06-21 — lov/2024-06-21-45
 

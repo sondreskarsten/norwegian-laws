@@ -25,7 +25,9 @@ refid: "lov/2014-06-20-28"
 
 *§ 1-2 bokstav l og ny bokstav m skal lyde:*
 
-> ikke-profesjonell investor: ikke-profesjonell kunde som nevnt i verdipapirhandelloven § 10-7markedssondering: direkte eller indirekte informasjon om investeringsstrategier eller investeringsideer fra forvalter, eller på dennes vegne, til potensielle profesjonelle investorer som er hjemmehørende i en EØS-stat, for å teste interessen for et alternativt investeringsfond eller en andelsklasse som ikke er meldt for markedsføring i investorens hjemstat eller som ikke er etablert. Markedssondering kan ikke utgjøre et tilbud om investering i eller lede til en plassering i det alternative investeringsfondet.
+> ikke-profesjonell investor: ikke-profesjonell kunde som nevnt i verdipapirhandelloven § 10-7
+>
+> markedssondering: direkte eller indirekte informasjon om investeringsstrategier eller investeringsideer fra forvalter, eller på dennes vegne, til potensielle profesjonelle investorer som er hjemmehørende i en EØS-stat, for å teste interessen for et alternativt investeringsfond eller en andelsklasse som ikke er meldt for markedsføring i investorens hjemstat eller som ikke er etablert. Markedssondering kan ikke utgjøre et tilbud om investering i eller lede til en plassering i det alternative investeringsfondet.
 >
 
 ## § 2-4
@@ -112,6 +114,13 @@ refid: "lov/2014-06-20-28"
 >
 
 ## § 5-2
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 5-2 første ledd bokstav b skal lyde:*
+
+> verdipapirforetak etablert i en EØS-stat, med tillatelse til å yte tilknyttet tjeneste som nevnt i verdipapirhandelloven § 2-6 første ledd nr. 1 og som har en ansvarlig kapital som minst utgjør et beløp i norske kroner tilsvarende 730 000 euro, eller
+>
 
 ### 2026-02-06 — lov/2026-02-06-3
 
@@ -254,6 +263,15 @@ refid: "lov/2014-06-20-28"
 
 ## § 7-3
 
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 7-3 skal lyde:*
+
+> § 7-3.Krav til god forretningsskikk
+>
+> Ved markedsføring av alternative investeringsfond til ikke-profesjonelle investorer skal krav til god forretningsskikk som nevnt i verdipapirhandelloven § 10-15 første ledd med tilhørende forskrifter overholdes.
+>
+
 ### 2021-04-30 — lov/2021-04-30-26
 
 *§ 7-3 skal lyde:*
@@ -374,7 +392,9 @@ refid: "lov/2014-06-20-28"
 
 *§ 9-6 første ledd bokstav e og ny bokstav f) skal lyde:*
 
-> pengemarkedsfondsforordningen artikkel 6, 9 til 21, 23 til 34 og 36,forordning (EU) 2019/1156 om grensekryssende distribusjon av fond artikkel 4.
+> pengemarkedsfondsforordningen artikkel 6, 9 til 21, 23 til 34 og 36,
+>
+> forordning (EU) 2019/1156 om grensekryssende distribusjon av fond artikkel 4.
 >
 
 ### 2024-06-25 — lov/2024-06-25-60
@@ -433,6 +453,57 @@ refid: "lov/2014-06-20-28"
 *I lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond skal § 3-6 første ledd lyde:*
 
 > (1) Forvalteren skal etablere og praktisere en godtgjørelsesordning som fremmer god og effektiv risikostyring og forvaltning i samsvar med investeringsmandatene for de alternative investeringsfondene som forvaltes. Godtgjørelsesordningen skal omfatte ansatte med vesentlig betydning for risikoprofilen til forvalteren eller fond under forvaltning, herunder ledende ansatte, ansatte med kontrolloppgaver samt ansatte med tilsvarende godtgjørelse som ledende ansatte. Godtgjørelsesordningen skal tilpasses virksomhetens art, omfang og kompleksitet.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1592
+
+*Delt ikraftsetting av Stortingets vedtak 12. desember 2016 til lov om endringer i verdipapirfondloven mv. (UCITS V-direktivet mv.). Lovens del I, II, IV og V trer i kraft 1. januar 2017.*
+
+> Delt ikraftsetting av Stortingets vedtak 12. desember 2016 til lov om endringer i verdipapirfondloven mv. (UCITS V-direktivet mv.). Lovens del I, II, IV og V trer i kraft 1. januar 2017.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1607
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. januar 2017 med unntak for romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. januar 2017 med unntak for romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2019-07-21 — forskrift/2019-06-21-802
+
+*Delt ikraftsetting av loven. Loven trer i kraft 21. juli 2019 med unntak av endringene i verdipapirhandelloven kapittel 3, 4, 5, 12, 19 og 21.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 21. juli 2019 med unntak av endringene i verdipapirhandelloven kapittel 3, 4, 5, 12, 19 og 21.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
 >
 
 ### 2021-06-18 — lov/2021-06-18-101
@@ -511,6 +582,20 @@ refid: "lov/2014-06-20-28"
 > Ved avgjørelsen av om overtredelsesgebyr skal ilegges, og ved utmåling kan det tas hensyn til:overtredelsens grovhet og varighetgraden av skyld hos overtrederenovertrederens finansielle styrke, særlig samlet omsetning eller årsinntektoppnådd fortjeneste eller unngått taptap påført tredjeperson som følge av overtredelsenvilje til å samarbeide med myndighetenetidligere overtredelserforhold som nevnt i forvaltningsloven § 46 andre leddandre relevante forhold.
 >
 
+### 2021-07-01 — forskrift/2021-04-30-1316
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-08-01 — forskrift/2021-06-18-1985
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. august 2021 med unntak av loven del II (verdipapirfondloven) og del III (lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond) § 1a-3, § 1a-4 og § 9-6 første ledd bokstavene d og e.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. august 2021 med unntak av loven del II (verdipapirfondloven) og del III (lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond) § 1a-3, § 1a-4 og § 9-6 første ledd bokstavene d og e.
+>
+
 ### 2022-06-22 — lov/2022-06-22-79
 
 *Overskriften i kapittel 6 skal lyde:*
@@ -519,11 +604,84 @@ refid: "lov/2014-06-20-28"
 
 *Overskriften i kapittel 7 skal lyde:*
 
+### 2023-01-01 — forskrift/2022-12-16-2265
+
+*Delt ikraftsetting av lov 18. juni nr. 101 om endringer i verdipapirfondloven mv. (gjennomføring av EØS-rett, administrative sanksjoner og andre forvaltningstiltak). Følgende trer i kraft 1. januar 2023:*
+
+> Delt ikraftsetting av lov 18. juni nr. 101 om endringer i verdipapirfondloven mv. (gjennomføring av EØS-rett, administrative sanksjoner og andre forvaltningstiltak). Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del II (verdipapirfondloven) med unntak av § 1-7 og § 11-6 første ledd nr. 2
+>
+> Endringsloven del III (AIF-loven) § 1a-3 og § 9-6 første ledd bokstav d.
+>
+> Følgende trer i kraft 1. februar 2023:
+>
+> Endringsloven del II (verdipapirfondloven) § 1-7 og § 11-6 første ledd nr. 2
+>
+> Endringsloven del III (AIF-loven) § 1a-4 og § 9-6 første ledd bokstav e.
+>
+
+### 2023-08-11 — forskrift/2023-08-11-1319
+
+*Delt ikraftsetting av lov 6. desember 2019 nr. 77 om endringer i aksjelovgivningen mv. (langsiktig eierskap i noterte selskaper mv.). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 6. desember 2019 nr. 77 om endringer i aksjelovgivningen mv. (langsiktig eierskap i noterte selskaper mv.). Følgende trer i kraft straks:
+>
+> Endringsloven del III (finansforetaksloven) med unntak av § 15-6 første ledd
+>
+> Endringsloven del IV (lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond)
+>
+> Endringsloven del VI (verdipapirfondloven)
+>
+> Endringsloven del VII (verdipapirhandelloven).
+>
+
+### 2024-10-01 — forskrift/2024-08-09-1912
+
+*Ikraftsetting av lov 21. juni 2024 nr. 40 om nøkkelinformasjon om sammensatte og forsikringsbaserte investeringsprodukter (PRIIPs-loven). Loven trer i kraft 1. oktober 2024.*
+
+> Ikraftsetting av lov 21. juni 2024 nr. 40 om nøkkelinformasjon om sammensatte og forsikringsbaserte investeringsprodukter (PRIIPs-loven). Loven trer i kraft 1. oktober 2024.
+>
+> Norge meddeler at de forfatningsrettslige krav er oppfylt for at EØS-komiteens beslutning nr. 67/2020 av 30. april 2020 og EØS-komiteens beslutning nr. 329/2022 av 9. desember 2022 kan bli bindende for Norge.
+>
+
+### 2024-10-01 — forskrift/2024-08-09-1913
+
+*Delt ikraftsetting av lov 22. juni 2022 nr. 79 om endringer i verdipapirhandelloven mv. (samleproposisjon). Følgende trer i kraft 1. oktober 2024:*
+
+> Delt ikraftsetting av lov 22. juni 2022 nr. 79 om endringer i verdipapirhandelloven mv. (samleproposisjon). Følgende trer i kraft 1. oktober 2024:
+>
+> Endringsloven del II (verdipapirfondloven)
+>
+> Endringsloven del III (AIF-loven)
+>
+
+### 2025-01-01 — forskrift/2024-12-20-3303
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
 ### 2025-05-27 — lov/2025-05-27-18
 
 *3.I lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond skal § 3-1 første ledd bokstav b lyde:*
 
 > gode administrasjons- og regnskapsrutiner, kontroll- og sikkerhetsordninger for elektronisk databehandling, herunder for nettverk og systemer som er etablert og håndtert etter forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, og regler for ansattes personlige transaksjoner,
+>
+
+### 2025-06-20 — forskrift/2025-06-20-1084
+
+*Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.*
+
+> Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.
+>
+
+### 2025-07-01 — forskrift/2025-05-27-868
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ### 2026-04-01 — forskrift/2026-02-06-148

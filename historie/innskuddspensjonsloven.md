@@ -7,6 +7,13 @@ refid: "lov/2000-11-24-81"
 
 ## § 1-1
 
+### 2006-01-01 — lov/2005-12-21-124
+
+*§ 1-1 skal lyde:*
+
+> Loven gjelder innskuddspensjonsordning og foretak som har eller oppretter slik pensjonsordning.
+>
+
 ### 2007-06-15 — lov/2007-06-15-28
 
 *§ 1-1 skal lyde:*
@@ -43,7 +50,9 @@ refid: "lov/2000-11-24-81"
 
 *§ 1-2 bokstav k og l skal lyde:*
 
-> Medlemmer: arbeidsgiveren og de arbeidstakere som oppfyller opptaksvilkårene i regelverket for pensjonsordningen. Som medlem regnes også arbeidstaker som er blitt ufør mens han var i foretakets tjeneste, og som det innbetales innskudd for i henhold til forsikring av innskuddsfritak ved uførhet.Pensjonskapital: innskudd foretatt i samsvar med innskuddsplanen med tillegg av tilført avkastning, samt tilført innskudd i henhold til forsikring av innskuddsfritak ved uførhet. Pensjonskapital i livsforsikringsselskap eller pensjonskasse omfatter i tilfelle også andel av tilleggsavsetninger.
+> Medlemmer: arbeidsgiveren og de arbeidstakere som oppfyller opptaksvilkårene i regelverket for pensjonsordningen. Som medlem regnes også arbeidstaker som er blitt ufør mens han var i foretakets tjeneste, og som det innbetales innskudd for i henhold til forsikring av innskuddsfritak ved uførhet.
+>
+> Pensjonskapital: innskudd foretatt i samsvar med innskuddsplanen med tillegg av tilført avkastning, samt tilført innskudd i henhold til forsikring av innskuddsfritak ved uførhet. Pensjonskapital i livsforsikringsselskap eller pensjonskasse omfatter i tilfelle også andel av tilleggsavsetninger.
 >
 
 ### 2011-01-01 — lov/2010-12-17-83
@@ -51,6 +60,13 @@ refid: "lov/2000-11-24-81"
 *§ 1-2 bokstav o skal lyde:*
 
 > Regelverket: alle regler og vilkår for pensjonsordningen og medlemmenes rettigheter som er fastsatt i avtale mellom foretaket og en institusjon samt tilhørende innskuddsplan.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 1-2 bokstav j skal lyde:*
+
+> Lønn: Skattepliktig lønnsinntekt, beregnet personinntekt og godtgjørelse til deltaker for arbeidsinnsats i selskap med deltakerfastsetting.
 >
 
 ### 2023-06-16 — lov/2023-06-16-43
@@ -88,6 +104,17 @@ refid: "lov/2000-11-24-81"
 >
 
 ## § 2-3
+
+### 2006-01-01 — lov/2005-12-21-124
+
+*§ 2-3 skal lyde:*
+
+> (1) Et foretak kan opprette pensjonsordning i henhold til loven her dersom den skal omfatte:minst to personer i foretaket som begge har en arbeidstid og lønn som utgjør 75 prosent eller mer av full stilling,minst én arbeidstaker uten eierinteresse i foretaket som har en arbeidstid og lønn i foretaket som utgjør 75 prosent eller mer av full stilling, ellerpersoner i foretaket som hver har en arbeidstid og lønn som utgjør 20 prosent eller mer av full stilling, og som til sammen utfører arbeid som tilsvarer minst to årsverk.
+>
+> (2) Et foretak som ikke omfattes av første ledd, hvor eier eller innehaver av foretaket har en arbeidstid og lønn i foretaket som utgjør 75 prosent eller mer av full stilling, kan opprette pensjonsordning i henhold til denne loven. Ordningen kan ikke gå utover minstekravene til pensjonsordning etter lov om obligatorisk tjenestepensjon § 4.
+>
+> (3) Dersom pensjonsordningen ved utløpet av et kalenderår ikke oppfyller vilkårene i første ledd, og pensjonsordningen heller ikke i løpet av et kalenderår igjen oppfyller vilkårene, skal pensjonsordningen opphøre og avvikles etter reglene i kapittel 13 eller videreføres etter reglene i annet ledd. Pensjonsordning etter annet ledd skal opphøre og avvikles etter reglene i kapittel 13, dersom den i en periode på seks måneder ikke oppfyller vilkårene i annet ledd.
+>
 
 ### 2006-06-16 — lov/2006-06-16-31
 
@@ -206,6 +233,24 @@ refid: "lov/2000-11-24-81"
 > (5) Informasjon og råd til arbeidstaker fra foretaket eller institusjonen kan sendes eller gjøres tilgjengelig for arbeidstaker ved bruk av elektronisk kommunikasjon, forutsatt at dette gjøres på en betryggende måte og at arbeidstaker ikke har reservert seg mot slik kommunikasjon. Når elektronisk kommunikasjon benyttes første gang, skal arbeidstaker få tydelig informasjon om muligheten for å reservere seg mot slik kommunikasjon og om rettsvirkningene av valget. Elektroniske meldinger anses mottatt når de er kommet til arbeidstakers kunnskap. Foretaket eller institusjonen må på forsvarlig vis forsikre seg om at arbeidstaker har fått kunnskap om meldingen.
 >
 > (6) Departementet kan fastsette nærmere regler i forskrift om hvilken informasjon som skal gis fra institusjon eller foretak i tilknytning til ordningen.
+>
+
+## § 2-8
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-8 overskriften skal lyde:*
+
+> § 2-8.Skatteforhold
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-8 første og annet ledd skal lyde:*
+
+> (1) Det skal fremgå av regelverket for pensjonsordningen, innskuddskvitteringer og meldinger til skattemyndighetene at dokumentene gjelder pensjonsordning etter loven her.
+>
+> (2) Innskuddskvitteringer og meldinger til skattemyndighetene skal inneholde spesifiserte opplysninger om de innbetalinger foretaket har foretatt, herunder tilskudd til innskuddsfondet.
 >
 
 ## § 2-10
@@ -1020,6 +1065,20 @@ refid: "lov/2000-11-24-81"
 
 *Nåværende bokstaver e til p blir nye bokstaver f til q.*
 
+### 2008-06-27 — lov/2008-06-27-62
+
+*3. I lov 24. november 2000 nr. 81 om innskuddspensjon i arbeidsforhold (innskuddspensjonsloven) skal § 6-3 første ledd lyde:*
+
+> Kontohaveren har rett til å få pensjonskapital i henhold til pensjonskapitalbevis overført til alderspensjonskonto i annen institusjon som nevnt i § 2-2, til annen innskuddspensjonsordning eller til individuell pensjonsavtale etter lov 27. juni 2008 nr. 62 om individuell pensjonsordning.
+>
+
+### 2009-12-21 — forskrift/2009-12-18-1603
+
+*Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.*
+
+> Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.
+>
+
 ### 2015-05-22 — lov/2015-05-22-31
 
 *I lov 24. november 2000 nr. 81 om innskuddspensjon i arbeidsforhold skal § 2-4 lyde:*
@@ -1029,6 +1088,28 @@ refid: "lov/2000-11-24-81"
 > (2) Foretaket skal tegne forsikring som ved uførhet gir rett til innskuddsfritak i samsvar med den faktiske graden av uførhet, tilsvarende innskuddsfritak etter tjenestepensjonsloven § 2-1 annet ledd. Forsikringen skal omfatte alle medlemmer som ikke har fylt 67 år, og den skal gi innskuddsfritak i samsvar med den faktiske graden av uførhet fram til medlemmet har fylt 67 år. Samlet opptjening av rett til alderspensjon på grunnlag av arbeidsinntekt og innskuddsfritak skal ikke på noe tidspunkt overstige opptjening svarende til 100 prosent av full stilling.
 >
 > (3) Første og annet ledd gjelder tilsvarende for foretak og frilansere som omfattes av § 2-3 annet ledd. Forsikring som gir innskuddsfritak i alderspensjonsordningen etter § 2-3 annet ledd, kan likevel ikke gi rett til innskudd som overstiger innskuddsgrensen i § 2-3 annet ledd.
+>
+
+### 2016-01-01 — forskrift/2015-12-15-1480
+
+*Lov 22. mai 2015 nr. 31 om endringer i tjenestepensjonsloven mv. (uførepensjon) trer i kraft 1. januar 2016.*
+
+> Lov 22. mai 2015 nr. 31 om endringer i tjenestepensjonsloven mv. (uførepensjon) trer i kraft 1. januar 2016.
+>
+> Uførepensjonsordninger etter foretakspensjonsloven kapittel 6 skal opphøre innen 31. desember 2016. Opphør er uten innvirkning for rett til uførepensjon som oppstod før avtalens opphør. Bestemmelser som tilsvarer foretakspensjonsloven § 6-1 til § 6-5 skal gjelde for rettigheter til uførepensjon som utgår fra disse uførepensjonsordningene.
+>
+> Ved overgang fra eksisterende til ny uførepensjonsordning skal sykmeldte, og delvis uføre arbeidstakere hva gjelder den arbeidsdyktige delen vurdert i forhold til fulltidsstilling, tas opp i den nye ordningen uten at det innhentes nye helseopplysninger.
+>
+> Bestemmelsene i tjenestepensjonsloven § 8-8 annet ledd annet og tredje punktum om fradrag i uførepensjonen gjelder til 1. januar 2017. Fradraget gjøres ved utbetaling og tilføres premiefondet, jf. foretakspensjonsloven § 10-2 første ledd bokstav d.
+>
+> Dette vedtaket trer i kraft 1. januar 2016.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
 >
 
 ### 2019-12-13 — lov/2019-12-13-79
@@ -1041,6 +1122,13 @@ refid: "lov/2000-11-24-81"
 ### 2019-12-13 — lov/2019-12-13-79
 
 *Nåværende annet og tredje ledd blir nye tredje og fjerde ledd.*
+
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
+>
 
 ### 2020-04-17 — lov/2020-04-17-21
 
@@ -1065,6 +1153,13 @@ refid: "lov/2000-11-24-81"
 > Delt ikraftsetting av lov 3. mai 2019 nr. 14 om endringer i innskuddspensjonsloven mv. (egen pensjonskonto). Endringsloven del I, endringene i innskuddspensjonsloven § 2-1 annet ledd, § 2-7 annet og tredje ledd, § 2-12 tredje ledd, § 3-3 tredje ledd, § 5-7, § 6-3 første ledd, § 6-4 første ledd og § 9-2 samt innskuddspensjonsloven § 2-7 nytt fjerde og sjette ledd, ny § 3-6 og ny § 3-7, trer i kraft 1. januar 2021.
 >
 
+### 2022-01-01 — forskrift/2021-12-22-3810
+
+*Loven trer i kraft 1. januar 2022.*
+
+> Loven trer i kraft 1. januar 2022.
+>
+
 ### 2022-04-08 — lov/2022-04-08-20
 
 *Nåværende femte punktum blir nytt sjette punktum.*
@@ -1074,4 +1169,32 @@ refid: "lov/2000-11-24-81"
 *Nåværende fjerde ledd blir nytt femte ledd og skal lyde:*
 
 > (5) Departementet kan gi nærmere regler i forskrift om overføring av pensjonsmidler etter bestemmelsen her, herunder om frist for overføring av medlemmets tidligere opptjente pensjonskapital til institusjonen.
+>
+
+### 2023-01-01 — forskrift/2022-06-22-1107
+
+*Ikraftsetting av lov 8. april 2022 nr. 20 om endringer i finansforetaksloven mv. (gjennomføring av EØS-rett, egen pensjonskonto). Loven trer i kraft 1. januar 2023.*
+
+> Ikraftsetting av lov 8. april 2022 nr. 20 om endringer i finansforetaksloven mv. (gjennomføring av EØS-rett, egen pensjonskonto). Loven trer i kraft 1. januar 2023.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-935
+
+*Delt ikraftsetting av lov om endringer i foretakspensjonsloven, innskuddspensjonsloven og forsikringsvirksomhetsloven mv. (bufferfond for private garanterte pensjonsprodukter).*
+
+> Delt ikraftsetting av lov om endringer i foretakspensjonsloven, innskuddspensjonsloven og forsikringsvirksomhetsloven mv. (bufferfond for private garanterte pensjonsprodukter).
+>
+> Følgende trer i kraft 1. januar 2024:
+>
+> Endringsloven del I (foretakspensjonsloven)
+>
+> Endringsloven del II (innskuddspensjonsloven)
+>
+> Endringsloven del III (forsikringsvirksomhetsloven)
+>
+> Følgende trer i kraft 1. juli 2023:
+>
+> Endringsloven del IV (finanstilsynsloven)
+>
+> Endringsloven del V
 >

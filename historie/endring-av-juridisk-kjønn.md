@@ -5,6 +5,22 @@ refid: "lov/2016-06-17-46"
 
 # Endringshistorikk: Lov om endring av juridisk kjønn
 
+## (annet)
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1117
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
 ## § 5
 
 ### 2025-06-20 — lov/2025-06-20-73

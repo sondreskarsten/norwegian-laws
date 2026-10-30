@@ -7,11 +7,35 @@ refid: "lov/2001-06-15-53"
 
 ## (annet)
 
+### 2006-05-19 — lov/2006-05-19-16
+
+*21. I lov 15. juni 2001 nr. 53 om erstatning ved pasientskader mv. skal § 14 lyde:*
+
+> § 14.Forholdet til forvaltningsloven og offentleglova
+>
+> Forvaltningsloven og offentleglova gjelder for virksomheten til Norsk Pasientskadeerstatning. Som enkeltvedtak anses avgjørelse om erstatning skal ytes, avgjørelse om erstatningens størrelse, avgjørelse om delutbetaling samt avgjørelse om advokatbistand etter § 11.
+>
+> 22. I lov 15. juni 2001 nr. 93 om helseforetak m.m. blir § 5 andre ledd oppheva. Noverande tredje til femte ledd blir andre til fjerde ledd.
+>
+> 23. I lov 9. mai 2003 nr. 31 om rett til miljøinformasjon og deltakelse i offentlige beslutningsprosesser av betydning for miljøet blir desse endringane gjorde:
+>
+
+### 2007-06-29 — lov/2007-06-29-78
+
+*I nr. 16 skal endringen i lov 15. juni 2001 nr. 53 om erstatning ved pasientskader mv. oppheves.*
+
 ### 2009-06-19 — lov/2009-06-19-72
 
 *I lov 15. juni 2001 nr. 53 om erstatning ved pasientskader mv. (pasientskadeloven) skal § 19 annet punktum lyde:*
 
 > Loven gjelder også skade ved helsetjenester som mottas i utlandet i medhold av pasientrettighetsloven § 2-1 fjerde eller femte ledd eller etter annet oppdrag fra norske myndigheter, og som det offentlige helt eller delvis bekoster, herunder behandlingsreiser.
+>
+
+### 2011-01-01 — forskrift/2010-12-03-1508
+
+*Lov 19. juni 2009 nr. 72 om endringer i folketrygdloven m.m. (etablering av en ordning for refusjon av pasienters utgifter til helsehjelp i andre EØS-land) trer i kraft 1. januar 2011.*
+
+> Lov 19. juni 2009 nr. 72 om endringer i folketrygdloven m.m. (etablering av en ordning for refusjon av pasienters utgifter til helsehjelp i andre EØS-land) trer i kraft 1. januar 2011.
 >
 
 ### 2014-04-01 — forskrift/2014-03-21-306
@@ -28,11 +52,39 @@ refid: "lov/2001-06-15-53"
 > Om renteplikt gjelder reglene i lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m., jf. likevel skadeserstatningsloven § 3-2 a ellevte ledd om renter ved inntektstaperstatning til barn.
 >
 
+### 2016-01-01 — forskrift/2015-12-18-1593
+
+*Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.*
+
+> Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.
+>
+
 ### 2017-06-16 — lov/2017-06-16-53
 
 *I lov 15. juni 2001 nr. 53 om erstatning ved pasientskader mv. skal § 1 første ledd bokstav c nytt andre punktum lyde:*
 
 > Loven gjelder også skader voldt av helsepersonell i forbindelse med helserelatert behandling etter lov 27. juni 2003 nr. 64 om alternativ behandling av sykdom mv. § 2 tredje ledd, som ytes i tilknytning til ordinær helsehjelp, som en integrert og sammenhengende del av behandlingen.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-762
+
+*Delt ikraftsetting av loven. Del III § 6, § 11 andre ledd andre punktum, § 17, § 38, § 62 andre ledd og § 74 første ledd første punktum, del IV, del V, del VI og del IX trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting av loven. Del III § 6, § 11 andre ledd andre punktum, § 17, § 38, § 62 andre ledd og § 74 første ledd første punktum, del IV, del V, del VI og del IX trer i kraft 1. juli 2017.
+>
+
+### 2018-03-01 — forskrift/2018-02-16-235
+
+*Ikraftsetting av lov 18. desember 2015 nr. 124 om endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn). Loven trer i kraft 1. mars 2018.*
+
+> Ikraftsetting av lov 18. desember 2015 nr. 124 om endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn). Loven trer i kraft 1. mars 2018.
+>
+
+### 2018-07-01 — forskrift/2018-04-06-553
+
+*Delt ikraftsetting av lov 18. desember 2015 nr. 121 om endringer i helselovgivningen (Nasjonalt klageorgan for helsetjenesten mv.). Del III, IV, VII og endringene i pasientskadeloven § 18 første ledd i del VI trer i kraft 1. juli 2018.*
+
+> Delt ikraftsetting av lov 18. desember 2015 nr. 121 om endringer i helselovgivningen (Nasjonalt klageorgan for helsetjenesten mv.). Del III, IV, VII og endringene i pasientskadeloven § 18 første ledd i del VI trer i kraft 1. juli 2018.
 >
 
 ### 2020-05-29 — forskrift/2020-05-29-1100
@@ -47,6 +99,46 @@ refid: "lov/2001-06-15-53"
 *I lov 15. juni 2001 nr. 53 om erstatning ved pasientskader mv. skal § 19 annet punktum lyde:*
 
 > Loven gjelder også skade ved helsetjenester som mottas i utlandet i medhold av pasient- og brukerrettighetsloven § 2-1 b fjerde ledd eller § 2-4 a annet ledd bokstav a eller etter annet oppdrag fra norske myndigheter, og som det offentlige helt eller delvis bekoster, herunder behandlingsreiser.
+>
+
+### 2021-01-01 — forskrift/2020-12-04-2622
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2023-04-28 — forskrift/2023-04-28-613
+
+*1. Delt ikraftsetting av lov om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten).*
+
+> 1. Delt ikraftsetting av lov om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten).
+>
+> Følgende trer i kraft straks:
+>
+> Endringsloven del III (pasient- og brukerrettighetsloven) § 7-4 andre ledd
+>
+> Endringsloven del IV
+>
+> Endringsloven del VI.
+>
+
+### 2023-07-01 — forskrift/2023-03-03-289
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ## § 1
@@ -119,6 +211,13 @@ refid: "lov/2001-06-15-53"
 > Pasientens utgifter til advokathjelp dekkes dersom den som utreder saken har truffet vedtak om det, eller utgiftene må regnes som tap som følge av skaden. Pasienten kan kreve forhåndsavgjørelse fra den som utreder saken om hvilke advokatutgifter som vil bli dekket.
 >
 
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 11 første ledd skal lyde:*
+
+> (1) Krav om miljøinformasjon kan avslås dersom det er et reelt og saklig behov for det i det enkelte tilfelle og informasjonen eller dokumentet informasjonen finnes i, kan unntas fra offentlighet i medhold av offentleglova.
+>
+
 ### 2007-06-29 — lov/2007-06-29-78
 
 *§ 11 skal lyde:*
@@ -149,6 +248,17 @@ refid: "lov/2001-06-15-53"
 ### 2007-06-29 — lov/2007-06-29-78
 
 *§ 12 annet ledd oppheves.*
+
+## § 13
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 13 første og andre ledd skal lyde:*
+
+> (1) Organet bestemmer ut fra hensynet til forsvarlig saksbehandling hvordan informasjonen skal gjøres kjent. Det kan kreves papirkopi eller elektronisk kopi av informasjonen i alle eksisterende format og språkversjoner. Organet trenger ikke å gi kopi av format og versjoner av informasjonen som er alminnelig tilgjengelig.
+>
+> (2) Informasjonen skal være dekkende og forståelig i forhold til informasjonsbehovet kravet gir uttrykk for. Dersom forespørselen kan besvares fyllestgjørende ved å henvise til allment tilgjengelige offentlige registre, rapporter, produktmerking eller lignende, kan informasjonssøker henvises dit. Når det gis innsyn i informasjon som det knytter seg immaterielle rettigheter til, skal organet dersom det har kjennskap til det opplyse om hvem som er innehaver av rettighetene eller hvilken lisenshaver organet har fått informasjonen fra. Dette gjelder likevel ikke når det fremstår som åpenbart unødvendig å gi slike opplysninger. Kongen kan gi forskrift om at bestemmelsene i første ledd annet punktum og annet ledd tredje og fjerde punktum i paragrafen her ikke skal gjelde for visse virksomheter eller typer av virksomheter som ikke omfattes av EØS-avtalen vedlegg XI nr. 5k (direktiv 2003/98/EF) om viderebruk av informasjon fra offentlig sektor.
+>
 
 ## § 15
 
@@ -321,6 +431,15 @@ refid: "lov/2001-06-15-53"
 > Loven gjelder for skader som er voldt etter lovens ikrafttredelse for henholdsvis offentlig og privat helsetjeneste. Eldre skader behandles etter loven her, men slik at erstatningskravet avgjøres etterregler for midlertidig ordning med pasientskadeerstatning for somatiske sykehus/poliklinikker,regler for midlertidig ordning med pasientskadeerstatning for psykiatriske sykehus/poliklinikker,regler for midlertidig ordning med pasientskadeerstatning for kommunelegetjenesten/kommunal legevakt,lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer § 8-2, slik den lød før opphevelsen ved loven her, ogalminnelig erstatningsrett.
 >
 
+## § 3
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 3 første ledd skal lyde:*
+
+> (1) Denne loven innskrenker ikke retten til opplysninger etter offentleglova, forvaltningsloven eller annen lovgivning.
+>
+
 ## § 4
 
 ### 2007-06-29 — lov/2007-06-29-78
@@ -346,6 +465,13 @@ refid: "lov/2001-06-15-53"
 
 ## § 5
 
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 5 første ledd bokstav a skal lyde:*
+
+> ethvert forvaltningsorgan som er omfattet av offentleglova § 2.
+>
+
 ### 2007-06-29 — lov/2007-06-29-78
 
 *§ 5 tredje punktum skal lyde:*
@@ -354,6 +480,13 @@ refid: "lov/2001-06-15-53"
 >
 
 ## § 6
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 6 skal lyde:*
+
+> Det er ikke adgang til å ta betaling for den miljøinformasjon som noen har rett til å få utlevert etter loven her, med mindre annet er bestemt i forskrift fastsatt i medhold av denne loven eller offentleglova § 8.
+>
 
 ### 2007-06-29 — lov/2007-06-29-78
 

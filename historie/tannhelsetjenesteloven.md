@@ -196,6 +196,15 @@ refid: "lov/1983-06-03-54"
 
 ## (annet)
 
+### 2002-01-01 — lov/2001-05-18-24
+
+*2 I lov 3. juni 1983 nr. 54 om tannhelsetjenesten skal § 3-4 første ledd lyde:*
+
+> (Meldingsplikt til fylkesadministrasjonen mv.)
+>
+> Fylkeskommunen kan pålegge helsepersonell som arbeider innenfor rammen av denne lov å gi opplysninger til bruk for planlegging, styring og utvikling av tannhelsetjenesten i fylkeskommunen. Utlevering av taushetsbelagte opplysninger etter første punktum skal skje etter samtykke fra den opplysningene angår, hvis ikke annet er bestemt i eller i medhold av lov.
+>
+
 ### 2003-06-06 — lov/2003-06-06-37
 
 *Kapittel 3 oppheves.*
@@ -214,6 +223,13 @@ refid: "lov/1983-06-03-54"
 *I lov 3. juni 1983 nr. 54 om tannhelsetjenesten skal § 5-1 nytt fjerde ledd lyde:*
 
 > I den utstrekning tannhelsetjenester som omhandlet i § 1-3 gir rett til stønad etter regler fastsatt i forskrift i medhold av folketrygdloven § 5-24 a, skal fylkeskommunen dekke utgifter til tannhelsetjenester som bosatte i fylkeskommunen har mottatt i et annet EØS-land. Departementet kan i forskrift gi nærmere bestemmelser om utgiftsdekningen.
+>
+
+### 2011-01-01 — forskrift/2010-12-03-1508
+
+*Lov 19. juni 2009 nr. 72 om endringer i folketrygdloven m.m. (etablering av en ordning for refusjon av pasienters utgifter til helsehjelp i andre EØS-land) trer i kraft 1. januar 2011.*
+
+> Lov 19. juni 2009 nr. 72 om endringer i folketrygdloven m.m. (etablering av en ordning for refusjon av pasienters utgifter til helsehjelp i andre EØS-land) trer i kraft 1. januar 2011.
 >
 
 ### 2015-01-01 — forskrift/2014-12-19-1729
@@ -236,6 +252,28 @@ refid: "lov/1983-06-03-54"
 
 *2.I lov 28. februar 1997 nr. 19 om folketrygd skal § 5-8 tredje ledd første og andre punktum oppheves.*
 
+### 2017-06-16 — lov/2017-06-16-55
+
+*Lov 3. juni 1983 nr. 54 om tannhelsetjenesten oppheves.*
+
+### 2017-06-16 — forskrift/2017-06-16-777
+
+*Delt ikraftsetting av loven. Romertall I trer i kraft fra 1. januar 2018, med unntak av endringen i lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 2-5 c første til tredje ledd som settes i kraft straks. Romertall II trer i kraft fra 1. januar 2020. Romertall V trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Romertall I trer i kraft fra 1. januar 2018, med unntak av endringen i lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 2-5 c første til tredje ledd som settes i kraft straks. Romertall II trer i kraft fra 1. januar 2020. Romertall V trer i kraft straks.
+>
+
+### 2019-06-21 — lov/2019-06-21-43
+
+*I lov 3. juni 1983 nr. 54 om tannhelsetjenesten skal ny § 1-6 lyde:*
+
+> § 1-6.Om informasjon
+>
+> Fylkeskommunen skal sørge for at det gis slik informasjon som pasienten har rett til å motta etter pasient- og brukerrettighetsloven § 3-2. Tilsvarende gjelder for informasjon til pasientens nærmeste pårørende etter pasient- og brukerrettighetsloven § 3-3 tredje ledd.
+>
+> Departementet kan gi forskrift om det nærmere innhold i informasjonsplikten etter første ledd.
+>
+
 ### 2021-05-07 — lov/2021-05-07-31
 
 *I lov 3. juni 1983 nr. 54 om tannhelsetjenesten skal ny § 1-7 lyde:*
@@ -243,6 +281,20 @@ refid: "lov/1983-06-03-54"
 > § 1-7.Varsel om alvorlige hendelser
 >
 > Virksomheter som er omfattet av loven her, skal straks varsle Statens helsetilsyn og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen, eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Varslingsplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko.
+>
+
+### 2021-05-07 — forskrift/2021-05-07-1444
+
+*Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens un*
+
+> Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten) og del VIII (helsetilsynsloven) trer i kraft 1. juli 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2021-06-11 — lov/2021-06-11-78
@@ -262,6 +314,20 @@ refid: "lov/1983-06-03-54"
 
 *Nåværende andre ledd blir nytt tredje ledd.*
 
+### 2022-07-01 — forskrift/2022-05-20-887
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2022-08-01 — forskrift/2022-05-20-871
+
+*Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.
+>
+
 ### 2022-11-25 — lov/2022-11-25-86
 
 *I lov 3. juni 1983 nr. 54 om tannhelsetjenesten skal ny § 1-8 lyde:*
@@ -273,6 +339,35 @@ refid: "lov/1983-06-03-54"
 > Bestemmelsene som er gitt i eller i medhold av denne loven, skal fravikes i den utstrekning det er nødvendig for å overholde forpliktelser som følger av EØS-avtalens hoveddel, bilaterale avtaler som nevnt i første ledd og forordninger og avtaler som nevnt i folketrygdloven §§ 1-3 a og 1-3 b.
 >
 
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2024-07-01 — forskrift/2024-06-21-1101
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1211
+
+*Delt ikraftsetting av Stortingets vedtak 17. juni 2024 til lov om endringer i integreringsloven, folketrygdloven og tannhelsetjenesteloven (innstramminger). Følgende trer i kraft 1. juli 2024:*
+
+> Delt ikraftsetting av Stortingets vedtak 17. juni 2024 til lov om endringer i integreringsloven, folketrygdloven og tannhelsetjenesteloven (innstramminger). Følgende trer i kraft 1. juli 2024:
+>
+> Endringsloven del I (integreringsloven)
+>
+> Endringsloven del III (tannhelsetjenesteloven).
+>
+> Følgende trer i kraft 1. oktober 2024
+>
+> Endringsloven del II (folketrygdloven).
+>
+
 ### 2025-06-20 — lov/2025-06-20-74
 
 *I lov 3. juni 1983 nr. 54 om tannhelsetjenesten skal § 1-7 lyde:*
@@ -282,4 +377,11 @@ refid: "lov/1983-06-03-54"
 > Virksomheter som er omfattet av loven her, skal snarest mulig og senest innen fem virkedager sende melding til statsforvalteren og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko. En kopi av meldingen skal sendes til Statens helsetilsyn.
 >
 > Virksomheten skal i tillegg oversende en rapport om hendelsen til statsforvalteren innen tre måneder etter at melding er sendt. Rapporten skal blant annet inneholde en gjennomgang av hendelsen og mulige årsaker, hvilke tiltak virksomheten vil sette i verk for at lignende hendelser ikke skal skje igjen, og hvordan pasienten, brukeren, nærmeste pårørende og berørt helsepersonell er fulgt opp og involvert i forbedringsarbeidet.
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1117
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >

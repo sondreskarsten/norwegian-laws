@@ -16,6 +16,13 @@ refid: "lov/2019-06-21-31"
 
 ## § 1-11
 
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 1-11 første ledd skal lyde:*
+
+> Norges Bank forvalter Statens pensjonsfond utland, jf. lov 21. desember 2005 nr. 123 om Statens pensjonsfond §§ 3 annet ledd og 10.
+>
+
 ### 2026-03-20 — lov/2026-03-20-10
 
 *§ 1-11 skal lyde:*
@@ -91,6 +98,13 @@ refid: "lov/2019-06-21-31"
 
 ## § 4-1
 
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 4-1 tredje ledd annet punktum skal lyde:*
+
+> Representantskapet har rett til å kreve de opplysningene fra selskapets daglige leder, styret og den valgte revisor som er nødvendige for tilsynet.
+>
+
 ### 2026-03-20 — lov/2026-03-20-10
 
 *§ 4-1 fjerde ledd bokstav f skal lyde:*
@@ -115,6 +129,20 @@ refid: "lov/2019-06-21-31"
 >
 
 ## (annet)
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2023-01-01 — forskrift/2022-09-02-1528
+
+*Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.*
+
+> Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.
+>
 
 ### 2026-04-01 — forskrift/2026-03-20-432
 

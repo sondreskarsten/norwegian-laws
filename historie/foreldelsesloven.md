@@ -15,6 +15,26 @@ refid: "lov/1979-05-18-18"
 
 *Nåværende § 15 nr. 3 annet punktum blir tredje punktum.*
 
+### 2014-05-09 — lov/2014-05-09-16
+
+*7. I lov 18. mai 1979 nr. 18 om foreldelse av fordringer skal § 4 lyde:*
+
+> § 4.(Bankinnskudd m.m.)
+>
+> 1. Fordring på bank eller offentlig kasse i anledning innskudd eller verdier som er gitt i forvaring, samt rentekrav i tilknytning til slik fordring, foreldes først 20 år etter at det er gitt melding etter finansavtaleloven § 22 første ledd. Dette gjelder selv om kontoen påføres renter etter at slik melding er gitt. Foreldelse inntrer bare dersom institusjonen forut for foreldelsesfristens utløp har gjort det som med rimelighet kan forventes for å komme i kontakt med kontohaveren eller arvingene.
+>
+> 2. Foreldelse avbrytes når fordringshaveren melder seg for institusjonen eller kontoen disponeres over ved uttak eller ved at midler settes inn på kontoen. Med bank likestilles annen innretning som med hjemmel i lov skaffer seg midler til sin virksomhet ved å motta innskudd fra en ubestemt krets av innskytere.
+>
+> 3. Finansavtaleloven § 22 gjelder tilsvarende for fordring på offentlig kasse.8. I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker gjøres følgende endringer:
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
 ### 2015-12-18 — lov/2015-12-18-124
 
 *I lov 18. mai 1979 nr. 18 om foreldelse av fordringer skal § 9 første ledd lyde:*
@@ -22,11 +42,81 @@ refid: "lov/1979-05-18-18"
 > 1. Krav på skadeserstatning eller oppreising foreldes 3 år etter den dag da skadelidte fikk eller burde skaffet seg nødvendig kunnskap om skaden og den ansvarlige. Ved krav etter skadeserstatningsloven § 3-2 a tredje ledd løper fristen likevel tidligst fra den dagen da den skadelidte fikk rett til å kreve oppfyllelse. Ved brudd på varslingsplikten etter skadeserstatningsloven § 3-2 a fjerde ledd er fristen etter første punktum 6 år i stedet for 3 år.
 >
 
+### 2017-02-17 — lov/2017-02-17-7
+
+*Nåværende bokstav b blir ny bokstav c.*
+
+> 3.I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 18-2 tredje ledd lyde:
+>
+> (3) Når det følger av lov eller bestemmelse gitt i medhold av lov at behandling av saken i en nemnd eller meklingsorgan avskjærer søksmål for domstolene, kan søksmål likevel anlegges hvis nemnda eller meklingsorganet ikke har avgjort saken innen seks måneder uten at det kan bebreides saksøkeren. I så fall innstilles behandlingen i nemnda eller meklingsorganet.
+>
+> 4.I lov 20. juni 2014 nr. 27 om opplysningsplikt og angrerett ved fjernsalg og salg utenom faste forretningslokaler (angrerettloven) (gjennomføring av direktiv 2011/83/EU om forbrukerrettigheter) skal lovens tittel lyde:
+>
+> Lov 20. juni 2014 nr. 27 om opplysningsplikt og angrerett ved fjernsalg og salg utenom faste forretningslokaler (angrerettloven)
+>
+
+### 2018-01-01 — forskrift/2017-06-16-750
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2018-03-01 — forskrift/2018-02-16-235
+
+*Ikraftsetting av lov 18. desember 2015 nr. 124 om endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn). Loven trer i kraft 1. mars 2018.*
+
+> Ikraftsetting av lov 18. desember 2015 nr. 124 om endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn). Loven trer i kraft 1. mars 2018.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2021-01-01 — forskrift/2020-06-23-1285
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
 ### 2022-12-20 — lov/2022-12-20-115
 
 *I lov 18. mai 1979 nr. 18 om foreldelse av fordringer skal § 21 andre ledd tredje punktum lyde:*
 
 > Det samme gjelder tvist om krav mot den offentlige forvaltning som bringes inn for Sivilombudet, dersom ombudet gir uttrykk for et standpunkt som nevnt i sivilombudsloven § 12 første ledd og ber forvaltningsorganet behandle saken på nytt.
+>
+
+### 2023-01-01 — forskrift/2022-09-02-1528
+
+*Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.*
+
+> Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >
 
 ## § 10
@@ -64,6 +154,12 @@ refid: "lov/1979-05-18-18"
 
 > Ved konkurs, rekonstruksjonsforhandling eller offentlig skifte gjelder §§ 18, 21 og 22 nr. 2 og 3.
 >
+
+## § 130 a
+
+### 2014-05-09 — lov/2014-05-09-16
+
+*§ 130 a fjerde ledd blir nytt tredje ledd annet til fjerde punktum. Femte til niende ledd blir fjerde til åttende ledd.*
 
 ## § 15
 
@@ -110,6 +206,13 @@ refid: "lov/1979-05-18-18"
 *§ 16 nr. 2 skal lyde:*
 
 > 2. Reglene i nr. 1 gjelder tilsvarende for:tvist om krav som bringes inn for en klage- eller reklamasjonsnemnd som er opprettet av skyldneren eller bransjeorganisasjon han er tilsluttet eller under deres medvirkning. Det samme gjelder hvis vedtektene for nemnda er offentlig godkjent etter særskilt lovbestemmelse eller hvis skyldneren godtar at tvist om kravet bringes inn for en opprettet klage- eller reklamasjonsnemnd.tvist om krav mot den offentlige forvaltning som bringes inn for Stortingets ombudsmann for forvaltningen.
+>
+
+### 2017-02-17 — lov/2017-02-17-7
+
+*§ 16 nr. 2 ny bokstav b skal lyde:*
+
+> tvist om krav som bringes inn for Forbrukerrådet eller annet meklingsorgan som er innmeldt etter lov 17. juni 2016 nr. 29 om godkjenning av klageorganer for forbrukersaker § 27 første ledd.
 >
 
 ## § 17
@@ -173,6 +276,36 @@ refid: "lov/1979-05-18-18"
 *§ 19 nr. 1 skal lyde:*
 
 > Er forfølgning i samsvar med §§ 15 eller 16 nr. 1 i rett tid innledet mot en av flere skyldnere, skal fordringen anses rettidig påtalt overfor de øvrige når fordringshaveren, før foreldelse er inntrådt, har gitt dem varsel om forfølgningen på den måten som er fastsatt i tvisteloven § 15-9, og senere forfølger sin fordring mot vedkommende innen 1 år etter at saken er avsluttet ved forlik, dom eller på annen måte.
+>
+
+### 2014-05-09 — lov/2014-05-09-16
+
+*§ 19 første ledd nr. 3 skal lyde:*
+
+> rettslige avgjørelser som blir tatt eller avlest i rettsmøtet, og pålegg som blir gitt av retten eller dens leder.
+>
+
+## § 202 c
+
+### 2014-05-09 — lov/2014-05-09-16
+
+*§ 202 c første til sjette ledd skal lyde:*
+
+> Når noen med skjellig grunn mistenkes for en handling eller forsøk på handling som etter loven kan medføre straff av fengsel i 10 år eller mer, eller som rammes av straffeloven §§ 90, 91, 91 a, 94 jf. 90, 104 a første ledd annet punktum, eller 104 a annet ledd jf. første ledd annet punktum, § 147 d, eller som rammes av lov om kontroll med eksport av strategiske varer, tjenester og teknologi m.v. § 5, kan retten ved kjennelse gi politiet tillatelse til åplassere teknisk peileutstyr i klær eller gjenstander som den mistenkte bærer på seg,plassere teknisk peileutstyr i veske eller annen håndbagasje som den mistenkte bærer med seg, ellerforeta innbrudd for å plassere teknisk peileutstyr som nevnt i bestemmelsen her eller i § 202 b.§ 202 b første ledd annet og tredje punktum gjelder tilsvarende.
+>
+> Tillatelse etter første ledd kan bare gis dersom det må antas at teknisk sporing vil være av vesentlig betydning for å oppklare saken, og at oppklaring ellers i vesentlig grad vil bli vanskeliggjort. Tillatelse etter første ledd bokstav c kan dessuten bare gis dersom det er strengt nødvendig å foreta innbrudd for å plassere peileutstyret.
+>
+> Når politiet ber om rettens tillatelse til teknisk sporing, gjelder § 216 d annet ledd tilsvarende. Dersom det ved opphold er stor fare for at etterforskningen vil lide, kan ordre fra påtalemyndigheten tre istedenfor kjennelse av retten, men ikke ut over 24 timer. § 197 tredje ledd og § 216 d gjelder tilsvarende.
+>
+> Rettens tillatelse skal gis for et bestemt tidsrom, som ikke må være lenger enn strengt nødvendig. Tillatelsen må ikke gis for mer enn 4 uker om gangen. § 216 f annet ledd gjelder tilsvarende.
+>
+> Rettens avgjørelse treffes uten at den mistenkte eller den som avgjørelsen ellers rammer, gis adgang til å uttale seg, og kjennelsen blir ikke meddelt dem. Når bruken av peileutstyr er avsluttet, skal den mistenkte underrettes om kjennelsen og om resultatet av peilingen.
+>
+> Dersom det er strengt nødvendig for etterforskningen i saken at underretning ikke gis, kan påtalemyndigheten i saker om overtredelse av straffeloven kapittel 8 eller 9 beslutte at underretning skal utsettes eller unnlates helt. I andre saker kan retten på de samme vilkår ved kjennelse beslutte at underretning kan utsettes for inntil 8 uker om gangen. Med mindre det er bestemt at underretning helt skal unnlates, skal underretning senest gis når tiltale tas ut. § 216 f annet ledd gjelder tilsvarende.
+>
+> I § 242 syvende ledd erstattes ordet «borgerlig» med «sivilt».
+>
+> I § 339 første ledd annet punktum erstattes ordet «formann» med «leder».
 >
 
 ## § 21
@@ -256,6 +389,60 @@ refid: "lov/1979-05-18-18"
 > 3. Ved rekonstruksjonsforhandling gjelder bestemmelsen i nr. 2 annet punktum tilsvarende for rettidig anmeldt fordring.
 >
 
+## § 35
+
+### 2014-05-09 — lov/2014-05-09-16
+
+*§ 35 annet og tredje ledd skal lyde:*
+
+> For øvrig treffes alle avgjørelser med alminnelig flertall når ikke annet er bestemt. Står stemmene likt, gjelder ved avgjørelser om straff eller rettsfølger som nevnt i § 2 nr. 1 og 2, den mening som er gunstigst for siktede; ellers gjør lederens stemme utslaget.
+>
+> Spørsmålet om vilkårene for mortifikasjon foreligger, blir avgjort med alminnelig flertall. Står stemmene likt, gjør lederens stemme utslaget.
+>
+
+## § 37
+
+### 2014-05-09 — lov/2014-05-09-16
+
+*§ 37 første ledd annet punktum skal lyde:*
+
+> Står da stemmene likt, gjør lederens stemme utslaget.
+>
+
+## § 4
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 4 nr. 1 første punktum skal lyde:*
+
+> Fordring på bank eller offentlig kasse i anledning innskudd eller verdier som er gitt i forvaring, samt rentekrav i tilknytning til slik fordring, foreldes først 20 år etter at det er gitt melding etter finansavtaleloven § 4-46.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 4 nr. 3 skal lyde:*
+
+> Finansavtaleloven § 4-46 gjelder tilsvarende for fordring på offentlig kasse.
+>
+
+## § 44
+
+### 2014-05-09 — lov/2014-05-09-16
+
+*§ 44 tredje punktum skal lyde:*
+
+> Ellers kan lederen foreta rettingen.
+>
+
+## § 52
+
+### 2014-05-09 — lov/2014-05-09-16
+
+*§ 52 tredje ledd fjerde punktum skal lyde:*
+
+> Opplysninger i kjennelsen som det er besluttet at forsvareren ikke skal opplyses om, jf. § 130 a tredje ledd fjerde punktum, skal ikke meddeles forsvareren.
+>
+
 ## § 9
 
 ### 2004-06-25 — lov/2004-06-25-51
@@ -263,4 +450,13 @@ refid: "lov/1979-05-18-18"
 *§ 9 nr. 2 andre punktum bokstav a skal lyde:*
 
 > skaden er voldt i ervervsvirksomhet eller dermed likestilt virksomhet, eller er voldt mens skadelidte er under 18 år.
+>
+
+## § 99
+
+### 2014-05-09 — lov/2014-05-09-16
+
+*§ 99 første ledd annet punktum skal lyde:*
+
+> Dette gjelder likevel ikke i saker etter vegtrafikkloven § 22 første og femte ledd, jf. § 31, eller hvor retten på grunnlag av sakens art og forholdene ellers finner det ubetenkelig at han er uten forsvarer.
 >

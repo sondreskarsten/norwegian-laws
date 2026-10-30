@@ -44,11 +44,29 @@ refid: "lov/1998-06-26-41"
 > Dersom det er gitt engangsstønad etter folketrygdloven § 14-17, utbetales kontantstøtte fra samme tidspunkt som om det var gitt fulle foreldrepenger etter samme lov § 14-9 annet ledd.
 >
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*I § 11 første ledd tredje punktum skal betegnelsen «trygdeetatens» endres til «Arbeids- og velferdsetatens».*
+
 ### 2017-06-16 — lov/2017-06-16-44
 
 *I lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre skal § 3 andre og nytt tredje punktum lyde:*
 
 > Støttemottakeren må være bosatt i riket, og ha vært medlem i folketrygden i minst fem år. Dersom barnet bor sammen med begge foreldrene, må begge foreldrene ha vært medlem i folketrygden i fem år.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-776
+
+*Delt ikraftsetting av loven. Loven del II og III trer i kraft 1. juli 2017. Loven del I trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av loven. Loven del II og III trer i kraft 1. juli 2017. Loven del I trer i kraft 1. januar 2018.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-880
+
+*Delt ikraftsetting av endringsloven. Endringene i folketrygdloven trer i kraft 1. juli 2018, og endringene i kontantstøtteloven trer i kraft 1. august 2018.*
+
+> Delt ikraftsetting av endringsloven. Endringene i folketrygdloven trer i kraft 1. juli 2018, og endringene i kontantstøtteloven trer i kraft 1. august 2018.
 >
 
 ### 2020-06-19 — lov/2020-06-19-73
@@ -58,9 +76,58 @@ refid: "lov/1998-06-26-41"
 > Hvis et utenlandsopphold varer mer enn tre måneder på grunn av utbrudd av covid-19, regnes barnet fortsatt som bosatt i riket dersomdet dokumenteres at oppholdet var planlagt å skulle vare under tre måneder, ogbarnet har reist fra Norge før 15. mars 2020.
 >
 
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2022-08-02 — forskrift/2022-03-18-416
+
+*Delt ikraftsetting av lov 8. mars 2022 nr. 40*
+
+> Delt ikraftsetting av lov 8. mars 2022 nr. 40
+>
+> om endringer i folketrygdloven mv. (styrking av fedres rett til foreldrepenger mv.)
+>
+> Delt ikraftsetting av lov 8. mars 2022 nr. 40
+>
+> om endringer i folketrygdloven mv. (styrking av fedres rett til foreldrepenger mv.):
+>
+> Loven del I trer i kraft 2. august 2022.
+>
+> Loven del II trer i kraft 1. august 2022.
+>
+> Skal være lov 18. mars 2022 nr. 11. Lovtidend-redaksjonens anmerkning.
+>
+
 ### 2022-11-25 — lov/2022-11-25-86
 
 *Kapittel 1 overskriften skal lyde:*
+
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
+### 2024-07-01 — forskrift/2024-05-14-772
+
+*Delt ikraftsetting av loven. Loven del I trer i kraft 1. juli 2024. Loven del II trer i kraft 1. august 2024.*
+
+> Delt ikraftsetting av loven. Loven del I trer i kraft 1. juli 2024. Loven del II trer i kraft 1. august 2024.
+>
 
 ### 2025-01-01 — forskrift/2024-12-20-3327
 
@@ -68,6 +135,21 @@ refid: "lov/1998-06-26-41"
 
 > Lova trer i kraft 1. januar 2025.
 >
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+### 2026-03-01 — forskrift/2026-02-06-166
+
+*Forskrift 30. oktober 2024 nr. 2592 om overgangsregler til endringer i lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre (kontantstøtteloven) oppheves.*
 
 ## § 1 a
 
@@ -112,6 +194,48 @@ refid: "lov/1998-06-26-41"
 > Et beløp som blir krevd tilbake etter første ledd, kan enten dekkes ved trekk i fremtidig kontantstøtte eller innkreves av Innkrevingsmyndigheten. Vedtak om tilbakekreving er tvangsgrunnlag for utlegg.
 >
 
+## § 12
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 12 skal lyde:*
+
+> § 12.Støttemottakers opplysningsplikt
+>
+> Støttemottaker plikter straks, og senest innen 14 dager, å underrette Arbeids- og velferdsetaten om alle endringer som kan ha betydning for retten til kontantstøtte og størrelsen på denne.
+>
+> Støttemottaker skal straks, og senest innen 14 dager, sende melding om flytting til det organ som har utbetalt støtten fram til flyttingen.
+>
+
+## § 13
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 13 innledningen skal lyde:*
+
+> En søknad om kontantstøtte kan avslås og en løpende kontantstøtte kan stanses dersom:
+>
+
+## § 14
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 14 annet ledd skal lyde:*
+
+> Med mindre Arbeids- og velferdsdirektoratet bestemmer noe annet, skal søknaden settes fram skriftlig for det felles lokale kontoret i arbeids- og velferdsforvaltningen på søkerens bosted, eller søkerens oppholdssted dersom vedkommende ikke har fast bosted. Har søkeren ikke fast bosted, settes søknaden fram for det lokale kontoret på søkerens oppholdssted. Det felles lokale kontoret som søkeren henvender seg til, plikter å gi ham eller henne nødvendig veiledning.
+>
+
+## § 15
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 15 skal lyde:*
+
+> § 15.Hvem avgjør søknad om kontantstøtte
+>
+> Søknad om kontantstøtte avgjøres av det organ som Arbeids- og velferdsdirektoratet bestemmer. Avgjørelse om kontantstøtte er enkeltvedtak etter forvaltningsloven.
+>
+
 ## § 16
 
 ### 2006-01-01 — lov/2005-12-21-122
@@ -119,6 +243,15 @@ refid: "lov/1998-06-26-41"
 *§ 16 andre punktum skal lyde:*
 
 > Trygdekontoret fører kontroll med de opplysninger søkeren har gitt, jf barnehageloven § 8.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 16 skal lyde:*
+
+> § 16.Opplysningsplikt
+>
+> Søkeren plikter å gi de opplysninger og levere de erklæringer og attester som er nødvendige for at Arbeids- og velferdsetaten skal kunne avgjøre om vedkommende har rett til kontantstøtte. Arbeids- og velferdsetaten fører kontroll med de opplysninger søkeren har gitt, jf. barnehageloven § 8.
 >
 
 ## § 17
@@ -130,6 +263,26 @@ refid: "lov/1998-06-26-41"
 > Ved behandlingen av saker etter loven her gjelder reglene i forvaltningsloven, likevel slik at reglene i folketrygdloven §§ 20-8, 21-4, 21-9, 21-10 første ledd og 21-11 gjelder så langt de passer.
 >
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 17 skal lyde:*
+
+> § 17.Saksbehandling
+>
+> Ved behandlingen av saker etter loven her gjelder reglene i forvaltningsloven, likevel slik at reglene i folketrygdloven § 21-4, § 21-10 første ledd og § 21-11 gjelder så langt de passer.
+>
+
+## § 18
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 18 skal lyde:*
+
+> § 18.Administrasjon
+>
+> Kontantstøtteordningen administreres av Arbeids- og velferdsetaten.
+>
+
 ## § 19
 
 ### 2006-01-01 — lov/2005-12-21-122
@@ -137,6 +290,15 @@ refid: "lov/1998-06-26-41"
 *§ 19 første punktum skal lyde:*
 
 > Overføring av informasjon fra kommunale registre til trygdeetaten, jf barnehageloven § 8, skjer hver måned.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 19 skal lyde:*
+
+> § 19.Forholdet mellom Arbeids- og velferdsetaten og kommunene
+>
+> Overføring av informasjon fra kommunale registre til Arbeids- og velferdsetaten, jf. barnehageloven § 8, skjer hver måned. Arbeids- og velferdsdirektoratet kan gi nærmere regler om dette.
 >
 
 ### 2024-05-14 — lov/2024-05-14-21
@@ -176,6 +338,30 @@ refid: "lov/1998-06-26-41"
 > Kontantstøtte ytes for barn mellom 12 og 20 måneder som er bosatt i riket, og som ikke eller bare delvis gjør bruk av barnehageplass som det ytes offentlig driftstilskudd for, jf. § 7 tredje ledd.
 >
 
+## § 20
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 20 skal lyde:*
+
+> § 20.Finansiering
+>
+> Arbeids- og velferdsetatens utgifter til utbetaling av kontantstøtten og til administrasjon av kontantstøtteordningen dekkes av statskassen.
+>
+
+## § 21
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21 skal lyde:*
+
+> § 21.Hvem som disponerer tilskuddet på vegne av staten
+>
+> Staten stiller forskuddsvis og senest på betalingstidspunktet de nødvendige midler til rådighet for Arbeids- og velferdsdirektoratet.
+>
+> Arbeids- og velferdsetaten skal holde kontantstøttens midler regnskapsmessig adskilt fra andre midler som etaten har til rådighet.
+>
+
 ## § 22
 
 ### 2022-11-25 — lov/2022-11-25-86
@@ -187,6 +373,15 @@ refid: "lov/1998-06-26-41"
 > Kongen kan i forskrift gjennomføre bilaterale avtaler med andre land om trygdekoordinering.
 >
 > Bestemmelsene som er gitt i eller i medhold av denne loven, skal fravikes i den utstrekning det er nødvendig for å overholde forpliktelser som følger av EØS-avtalens hoveddel, bilaterale avtaler som nevnt i første ledd og forordninger og avtaler som nevnt i folketrygdloven §§ 1-3 a og 1-3 b.
+>
+
+## § 23
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 23 tredje ledd skal lyde:*
+
+> Arbeids- og velferdsdirektoratet eller den det gir fullmakt begjærer påtale.
 >
 
 ## § 3 a
@@ -285,6 +480,13 @@ refid: "lov/1998-06-26-41"
 >
 
 ## § 9
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 9 første ledd første punktum skal lyde:*
+
+> Kontantstøtte utbetales månedlig av det organ som Arbeids- og velferdsdirektoratet bestemmer.
+>
 
 ### 2025-06-20 — lov/2025-06-20-40
 

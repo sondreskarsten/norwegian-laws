@@ -30,6 +30,20 @@ refid: "lov/2014-06-20-49"
 > På Svalbard oppnevnes konfliktrådsmeklere av én representant utpekt av Longyearbyen lokalstyre, én representant fra Sysselmesteren på Svalbard og konfliktrådslederen i Troms.
 >
 
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-07-01 — forskrift/2022-06-17-1035
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *Overskriften i § 5 skal lyde:*
@@ -92,11 +106,48 @@ refid: "lov/2014-06-20-49"
 > Ved klagesak har ungdommen rett til fritt rettsråd uten behovsprøving etter rettshjelploven § 11.
 >
 
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
+### 2024-12-01 — forskrift/2024-11-29-2890
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. desember 2024, med unntak av endringene under del V.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. desember 2024, med unntak av endringene under del V.
+>
+
 ### 2025-06-20 — lov/2025-06-20-82
 
 **
 
 > lov 20. juni 2014 nr. 49 om konfliktrådsbehandling § 22 e
+>
+
+### 2026-10-01 — forskrift/2026-09-11-1775
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.
 >
 
 ## § 1
@@ -230,6 +281,27 @@ refid: "lov/2014-06-20-49"
 
 ## § 21
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 21 første ledd første punktum skal lyde:*
+
+> I saker der mekling i konfliktrådet er satt som vilkår for påtaleunnlatelse i medhold av straffeprosessloven § 69 tredje ledd, jf. straffeloven § 37 første ledd bokstav i, og møtet ikke gjennomføres, skal konfliktrådet straks oversende saken til påtalemyndigheten.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 21 tredje ledd første punktum skal lyde:*
+
+> I saker der mekling i konfliktrådet er satt som vilkår for betinget dom i medhold av straffeloven § 37 første ledd bokstav i, og møtet ikke gjennomføres grunnet siktede, skal konfliktrådet straks oversende saken til påtalemyndigheten.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 21 tredje ledd tredje punktum skal lyde:*
+
+> Påtalemyndigheten avgjør om saken skal bringes inn for retten for fastsettelse av nye vilkår eller fullbyrding av straffen, jf. straffeloven § 39.
+>
+
 ### 2022-06-17 — lov/2022-06-17-58
 
 *§ 21 første ledd oppheves. Nåværende andre til fjerde ledd blir første til tredje ledd.*
@@ -265,6 +337,20 @@ refid: "lov/2014-06-20-49"
 
 ## § 23
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 23 første ledd første punktum skal lyde:*
+
+> Ved ungdomsstraff fastsetter domstolen gjennomføringstiden, jf. straffeloven §§ 52 a til 52 c.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 23 annet ledd første og annet punktum skal lyde:*
+
+> Ved ungdomsoppfølging fastsetter påtalemyndigheten gjennomføringstiden i saker overført i medhold av straffeprosessloven § 71 a annet ledd og § 69 tredje ledd, jf. straffeloven § 37 første ledd bokstav j. Domstolen fastsetter gjennomføringstiden i saker etter straffeloven § 37 første ledd bokstav j.
+>
+
 ### 2022-06-17 — lov/2022-06-17-58
 
 *§ 23 andre ledd første punktum skal lyde:*
@@ -293,6 +379,13 @@ refid: "lov/2014-06-20-49"
 >
 
 ## § 24
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 24 første ledd skal lyde:*
+
+> Konfliktrådet starter forberedelsene til et ungdomsstormøte straks saken er overført fra domstolen etter straffeloven §§ 52 a til 52 c eller § 37 første ledd bokstav j, eller fra påtalemyndigheten etter straffeprosessloven § 71 a annet ledd eller § 69 tredje ledd, jf. straffeloven § 37 første ledd bokstav j.
+>
 
 ### 2022-06-17 — lov/2022-06-17-58
 
@@ -339,6 +432,20 @@ refid: "lov/2014-06-20-49"
 >
 
 ## § 25
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 25 fjerde ledd første punktum skal lyde:*
+
+> I saker der det er idømt ungdomsstraff etter straffeloven §§ 52 a til 52 c eller ungdomsoppfølging som vilkår for betinget dom etter straffeloven § 37 første ledd bokstav j, sendes saken tilbake til domstolen dersom det ikke oppnås enighet om en ungdomsplan.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 25 femte ledd første punktum skal lyde:*
+
+> I saker hvor ungdomsoppfølging er satt som vilkår for påtaleunnlatelse i medhold av straffeprosessloven § 69 tredje ledd, jf. straffeloven § 37 første ledd bokstav j, eller hvor saken er overført etter straffeprosessloven § 71 a annet ledd, sendes saken tilbake til påtalemyndigheten dersom det ikke oppnås enighet om en ungdomsplan.
+>
 
 ### 2022-06-17 — lov/2022-06-17-58
 
@@ -408,6 +515,20 @@ refid: "lov/2014-06-20-49"
 
 ## § 29
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 29 første ledd fjerde punktum skal lyde:*
+
+> Bestemmelsen i straffeloven § 37 første ledd bokstav d jf. tredje ledd gjelder tilsvarende der rusprøve skal avgis.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 29 annet ledd tredje punktum skal lyde:*
+
+> Bestemmelsen i straffeloven § 37 første ledd bokstav d jf. tredje ledd gjelder tilsvarende der rusprøve skal avgis.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *§ 29 skal lyde:*
@@ -439,6 +560,13 @@ refid: "lov/2014-06-20-49"
 >
 
 ## § 31
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 31 tredje ledd første punktum skal lyde:*
+
+> Hvis domfelte etter at ungdomskoordinatoren har holdt samtale som nevnt i første ledd eller fastsatt vilkår etter annet ledd, på nytt bryter kravene eller vilkår fastsatt etter annet ledd bokstav a til d, kan ungdomskoordinatoren, etter samtykke fra politiet og kriminalomsorgen, innkalle til et nytt ungdomsstormøte, eller overføre saken til kriminalomsorgens regionale nivå med innstilling om at saken bringes inn for retten med begjæring om at den betingede fengselsstraffen skal fullbyrdes helt eller delvis i medhold av straffeloven § 52 c.
+>
 
 ### 2023-12-20 — lov/2023-12-20-110
 
@@ -475,6 +603,20 @@ refid: "lov/2014-06-20-49"
 
 ## § 32
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 32 første ledd første punktum skal lyde:*
+
+> Begår den domfelte en ny straffbar handling før gjennomføringstiden utløper, kan påtalemyndigheten bringe saken inn for retten med begjæring om at den betingede fengselsstraffen skal fullbyrdes helt eller delvis etter straffeloven § 52 c første ledd bokstav b.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 32 annet ledd skal lyde:*
+
+> Hvis den domfelte blir siktet for en straffbar handling som kan føre til fullbyrding av den betingede fengselsstraffen etter straffeloven § 52 c første ledd bokstav b, kan påtalemyndigheten beslutte at gjennomføringen av ungdomsstraffen avbrytes.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *§ 32 skal lyde:*
@@ -487,6 +629,13 @@ refid: "lov/2014-06-20-49"
 >
 
 ## § 33
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 33 tredje ledd tredje punktum skal lyde:*
+
+> Påtalemyndigheten vurderer om strafforfølgingen skal gjenopptas eller om saken skal bringes inn for retten for fastsettelse av nye vilkår eller fullbyrding av straffen, jf. straffeloven § 39.
+>
 
 ### 2023-12-20 — lov/2023-12-20-110
 
@@ -504,6 +653,13 @@ refid: "lov/2014-06-20-49"
 >
 
 ## § 34
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 34 første ledd første punktum skal lyde:*
+
+> Begår den siktede eller domfelte en ny straffbar handling før gjennomføringstiden utløper, avgjør påtalemyndigheten om strafforfølgingen skal gjenopptas eller om saken skal bringes inn for retten for fastsettelse av nye vilkår eller fullbyrding av straffen, jf. straffeloven § 39.
+>
 
 ### 2023-12-20 — lov/2023-12-20-110
 
@@ -586,4 +742,13 @@ refid: "lov/2014-06-20-49"
 *§ 8 første ledd skal lyde:*
 
 > Forvaltningsloven gjelder for konfliktrådenes virksomhet med de særregler som er fastsatt i eller i medhold av loven her.
+>
+
+## § 9
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 9 tredje ledd første punktum skal lyde:*
+
+> Brudd på taushetsplikten etter første og annet ledd kan straffes etter straffeloven § 209.
 >

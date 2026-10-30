@@ -18,6 +18,27 @@ refid: "lov/1966-12-16-9"
 > Trygderetten skal ha så mange rettsfullmektiger som Trygderettens leder bestemmer. Rettsfullmektigene tilsettes av Trygderettens leder for en periode på inntil tre år, med mulighet for forlengelse med inntil to år. Rettsfullmektigene kan være administrator ved behandlingen av en ankesak og for øvrig utføre de oppgaver i ankebehandlingen som etter loven her er tillagt de juridisk kyndige medlemmer av Trygderetten. Domstolloven § 54 tredje ledd får tilsvarende anvendelse.
 >
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*Nåværende femte ledd blir fjerde ledd.*
+
+> 9. I lov 22. mars 1968 nr. 2 om tillegg til 1) lov om krigspensjonering for militærpersoner av 13. desember 1946 og 2) lov om krigspensjonering for hjemmestyrkepersonell og sivilpersoner av 13. desember 1946 gjøres følgende endring:
+>
+
+### 2016-04-01 — forskrift/2015-12-18-1581
+
+*Loven trer i kraft fra 1. april 2016.*
+
+> Loven trer i kraft fra 1. april 2016.
+>
+
+### 2018-01-01 — forskrift/2017-12-19-2156
+
+*Delt ikraftsetjing av Stortinget sitt vedtak 15. desember 2017 til lov om endringar i lov om pensjonstrygd for sjømenn, trygderettslova, folketrygdlova og einskilde andre lover. Del VI punkt 1, endringar i lov om pensjonstrygd for sjømenn, setjast i kraft 1. januar 2018.*
+
+> Delt ikraftsetjing av Stortinget sitt vedtak 15. desember 2017 til lov om endringar i lov om pensjonstrygd for sjømenn, trygderettslova, folketrygdlova og einskilde andre lover. Del VI punkt 1, endringar i lov om pensjonstrygd for sjømenn, setjast i kraft 1. januar 2018.
+>
+
 ### 2019-01-01 — lov/2018-12-20-98
 
 *I lov 16. desember 1966 nr. 9 om anke til Trygderetten § 25 første ledd andre punktum skal ordet «tillleggskjennelse» endres til «tilleggskjennelse».*
@@ -29,11 +50,33 @@ refid: "lov/1966-12-16-9"
 > Bestemmelsene i § 31 første ledd første og tredje punktum og § 31 andre ledd gjelder tilsvarende for meldinger til den ankende part etter andre ledd.
 >
 
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2024-07-01 — forskrift/2024-05-24-824
 
 *Loven trer i kraft 1. juli 2024.*
 
 > Loven trer i kraft 1. juli 2024.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1113
+
+*Følgende trer i kraft 1. januar 2026:*
+
+> Følgende trer i kraft 1. januar 2026:
+>
+> Endringsloven del I § 8 femte ledd, § 10 første ledd bokstav a, § 29, § 31 første og andre ledd og § 34 tredje ledd.
+>
+> Følgende trer i kraft 1. januar 2027:
+>
+> Endringsloven del I § 9 andre og tredje ledd, § 11, § 13, § 13a fjerde og femte punktum, § 13b, § 21 fjerde ledd annet punktum, § 22 første ledd og § 28 første ledd.
+>
+> Endringsloven del II (endringer i folketrygdloven).
 >
 
 ## § 10
@@ -46,6 +89,29 @@ refid: "lov/1966-12-16-9"
 >
 
 ## § 11
+
+### 2004-12-10 — lov/2004-12-10-76
+
+*§ 11 første ledd skal lyde:*
+
+> Anke til Trygderetten skal fremsettes skriftlig eller muntlig til vedkommende trygdekontor når det gjelder vedtak etter lovgivning som hører under Rikstrygdeverket, til Aetat i vedkommendes distrikt når det gjelder vedtak etter lovgivning som hører under Aetat Arbeidsdirektoratet, og for øvrig til den institusjon som saken hører under.
+>
+
+### 2004-12-10 — lov/2004-12-10-76
+
+*§ 11 tredje ledd skal lyde:*
+
+> Trygdekontor, Aetat eller vedkommende annen institusjon som mottar muntlig anke, skal sørge for å sette den opp skriftlig og underskrive den sammen med den ankende part.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 11 første og tredje ledd skal lyde:*
+
+> Anke til Trygderetten over vedtak etter lovgivning som hører under Arbeids- og velferdsdirektoratet skal settes fram for det felles lokale kontoret i arbeids- og velferdsforvaltningen, med mindre Arbeids- og velferdsdirektoratet bestemmer noe annet. For øvrig skal anke settes fram for den institusjon som saken hører under. Anken kan settes fram skriftlig eller muntlig.
+>
+> Det felles lokale kontoret eller vedkommende annen institusjon som mottar muntlig anke, skal sørge for å sette den opp skriftlig og underskrive den sammen med den ankende part.
+>
 
 ### 2025-06-20 — lov/2025-06-20-38
 
@@ -69,6 +135,15 @@ refid: "lov/1966-12-16-9"
 *§ 12 nr. 2 skal lyde:*
 
 > Det organ som har truffet det påankede vedtaket, skal, med de unntak som departementet bestemmer, være ankemotpart ved behandlingen av anken i Trygderetten. Rikstrygdeverket skal likevel være ankemotpart for vedtak truffet av trygdekontoret etter andre lover enn folketrygdloven og barnetrygdloven.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 12 skal lyde:*
+
+> Dersom et vedtak kan påklages etter folketrygdloven § 21-12, barnetrygdloven § 15 eller etter bestemmelser i andre særlover, kan saken bringes inn for Trygderetten først etter at klageadgangen er nyttet.
+>
+> Det organ som har truffet det påankede vedtaket, skal, med de unntak som departementet bestemmer, være ankemotpart ved behandlingen av anken i Trygderetten. Arbeids- og velferdsdirektoratet skal likevel være ankemotpart for vedtak truffet av det felles lokale kontoret i arbeids- og velferdsforvaltningen etter andre lover enn folketrygdloven og barnetrygdloven.
 >
 
 ## § 13
@@ -175,6 +250,17 @@ refid: "lov/1966-12-16-9"
 > En part har rett til å la seg bistå av prosessfullmektig etter samme regler som fastsatt i tvisteloven kapittel 3 i søksmål for lagmannsrett og for tingrett.
 >
 
+## § 2
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 2 annet og tredje ledd skal lyde:*
+
+> Når særlige grunner taler for det, kan det dispenseres fra kravet om seks måneders varighet av tjenestetid eller fangenskap.
+>
+> Var vedkommende ikke norsk statsborger under tjenesten eller fangenskapet, kan han bare tilstås ytelser hvis Arbeids- og velferdsdirektoratet bestemmer det. Vedtak etter foregående punktum kan påklages til departementet.
+>
+
 ## § 21
 
 ### 2003-12-19 — lov/2003-12-19-135
@@ -220,6 +306,24 @@ refid: "lov/1966-12-16-9"
 >
 
 ## § 23
+
+### 2004-12-10 — lov/2004-12-10-76
+
+*§ 23 fjerde skal lyde:*
+
+> Departementet skal anses som part i relasjon til bestemmelsen i andre og tredje ledd etter lovgivning som hører under Aetat Arbeidsdirektoratet.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 23 tredje ledd første, annet og tredje punktum skal lyde:*
+
+> For såvidt søksmålet reises mot offentlig myndighet skal det reises mot det forvaltningsorgan som var ankemotpart ved sakens behandling for Trygderetten. Dersom et organ underlagt Arbeids- og velferdsdirektoratet var ankemotpart, skal søksmålet rettes mot Arbeids- og velferdsdirektoratet. Direktoratet skal også anses som part i relasjon til bestemmelsen i annet ledd.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 23 fjerde ledd oppheves.*
 
 ### 2007-02-27 — lov/2007-01-26-3
 

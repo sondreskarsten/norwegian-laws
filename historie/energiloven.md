@@ -21,6 +21,15 @@ refid: "lov/1990-06-29-50"
 > Denne lov kommer til anvendelse på produksjon, omforming, overføring, omsetning, fordeling og bruk av energi.
 >
 
+### 2010-06-04 — lov/2010-06-04-21
+
+*§ 1-1 nytt tredje ledd skal lyde:*
+
+> Departementet kan i forskrift eller i det enkelte tilfelle begrense anvendelsen av enkelte bestemmelser i denne lov hva gjelder innretninger, formål eller virksomheter omfattet av havenergilova.
+>
+> § 1-1 noverande tredje til femte ledd blir fjerde til sjette ledd.
+>
+
 ### 2023-06-16 — lov/2023-06-16-69
 
 *§ 1-1 fjerde ledd annet punktum oppheves.*
@@ -1096,6 +1105,9 @@ refid: "lov/1990-06-29-50"
 
 *§ 7-2 overskriften skal lyde:*
 
+> (Plikt til å gjennomføre en kost-nytteanalyse av mulighetene for å utnytte overskuddsvarme)
+>
+
 ### 2026-06-19 — lov/2026-06-19-38
 
 *§ 7-2 første og annet ledd skal lyde:*
@@ -1275,6 +1287,9 @@ refid: "lov/1990-06-29-50"
 ### 2026-06-19 — lov/2026-06-19-38
 
 *§ 8-4 overskriften skal lyde:*
+
+> (Bygninger med varme- og klimaanlegg)
+>
 
 ### 2026-06-19 — lov/2026-06-19-38
 
@@ -1866,6 +1881,13 @@ refid: "lov/1990-06-29-50"
 > Departementet gir forskrifter og vilkår om planleggingen.
 >
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*100. I lov 29. juni 1990 nr. 50 om produksjon, omforming, overføring, omsetning, fordeling og bruk av energi m.m. skal § 7-4 andre ledd lyde:*
+
+> Endringer i vilkårene kan også foretas etter søknad fra konsesjonæren. Bestemmelsene i § 2-1 får anvendelse så langt de passer.
+>
+
 ### 2003-12-19 — lov/2003-12-19-131
 
 *Gjeldende § 5A-2 tredje ledd blir nytt fjerde ledd.*
@@ -1956,499 +1978,40 @@ refid: "lov/1990-06-29-50"
 > §1-4 skallyde:
 >
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*137. I lov 29. juni 1990 nr. 50 om produksjon, omforming, overføring, omsetning, fordeling og bruk av energi m.m. skal § 7-5 første og annet ledd lyde:*
+
+> Den som overtrer denne lov eller bestemmelser eller pålegg gitt i medhold av loven, straffes med bøter eller fengsel i inntil 1 år eller begge deler. Forsøk straffes på samme måte.
+>
+> Den som uaktsomt overtrer bestemmelse som nevnt i første ledd, straffes med bøter eller fengsel inntil tre måneder eller begge deler.
+>
+> 138. I lov 21. desember 1990 nr. 72 om avgift på utslipp av CO2i petroleumsvirksomhet på kontinentalsokkelen gjøres følgende endring:
+>
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*14. I lov 29. juni 1990 nr. 50 om produksjon, omforming, overføring, omsetning, fordeling og bruk av energi m.m., skal § 7-6 nytt tredje ledd lyde:*
+
+> Departementet kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for konsesjoner etter §§ 4-1 og 4-5 i denne lov, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn. Saksbehandlingsreglene kan fravike reglene i denne loven.
+>
+
 ### 2009-06-19 — lov/2009-06-19-105
 
 *Nåværende §§ 3-4 og 3-5 blir nye §§ 3-5 og 3-6.*
 
-### 2010-06-04 — lov/2010-06-04-21
+### 2010-07-01 — forskrift/2010-06-04-760
 
-*Endringar i følgjande lov:*
+*Lov om fornybar energiproduksjon til havs (havenergilova) trer i kraft fra 1. juli 2010.*
 
-> Endringar i følgjande lov:
->
-> Lov 29. juni 1990 nr. 50 om produksjon, omforming, overføring, omsetning, fordeling og bruk av energi m.m. (energiloven).
->
-> Kapittel 1. Innleiande føresegner
->
-> § 1-1
->
-> .
->
-> (Formål)
->
-> Denne lova skal leggje til rette for utnytting av fornybare energiressursar til havs i samsvar med samfunnsmessige målsetjingar, og for at energianlegg blir planlagde, bygde og disponerte slik at omsynet til energiforsyning, miljø, tryggleik, næringsverksemd og andre interesser blir tekne vare på.
->
-> § 1-2
->
-> .
->
-> (Verkeområde)
->
-> Lova gjeld fornybar energiproduksjon og omforming og overføring av elektrisk energi til havs.
->
-> Lova gjeld på norsk sjøterritorium utanfor grunnlinjene og på kontinentalsokkelen.
->
-> Lova gjeld med dei avgrensingane som følgjer av folkeretten.
->
-> Kongen kan bestemme at føresegner i lova skal gjelde i jurisdiksjonsområder oppretta i medhald av lov 17. desember 1976 nr. 91 om Norges økonomiske sone (økonomisk soneloven).
->
-> Kongen kan i forskrift eller i det einskilde høve bestemme at føresegner i lova skal gjelde for sjøterritoriet og indre farvatn ved Svalbard og Jan Mayen, og kan fastsetje særlege reglar av omsyn til tilhøve der.
->
-> Kongen kan i forskrift eller i det einskilde høve avgrense bruken av heile eller delar av denne lova når det gjeld innretningar, formål eller verksemder til havs omfatta av anna lov.
->
-> Kongen kan i forskrift eller i det einskilde høve utvide verkeområdet for einskilde føresegner i denne lova til indre farvatn.
->
-> Kongen kan bestemme at lova skal gjerast gjeldande på andre produksjonsanlegg enn dei som er omfatta av § 1-4 andre ledd.
->
-> § 1-3
->
-> .
->
-> (Retten til energiproduksjon til havs)
->
-> Retten til å utnytte fornybare energiressursar til havs tilhøyrer staten.
->
-> § 1-4
->
-> .
->
-> (Definisjonar)
->
-> Med fornybar energiproduksjon er meint produksjon av elektrisk energi ved utnytting av fornybare energiressursar, til dømes vind, bølgjer og tidvatn.
->
-> Med produksjonsanlegg er meint utrusting og tilhøyrande bygningstekniske konstruksjonar for utnytting av fornybare energiressursar til produksjon av elektrisk energi.
->
-> Med nettanlegg er meint elektrisk utrusting og tilhøyrande bygningstekniske konstruksjonar for omforming og overføring av elektrisk energi.
->
-> Med energianlegg er meint både produksjonsanlegg og nettanlegg.
->
-> Med konsesjonær er meint den som er gjeven konsesjon eller andre rettar i eller i medhald av denne lova. Er konsesjon eller andre rettar gjeven til fleire slike personar saman, kan omgrepet konsesjonær omfatte både personane samla og den einskilde.
->
-> § 1-5
->
-> .
->
-> (Vektlegging av samiske interesser)
->
-> Ved vedtak i medhald av lova som direkte rører ved samiske interesser, skal det innanfor dei rammene som gjeld for den einskilde føresegna leggjast tilbørleg vekt på omsynet til naturgrunnlaget for samisk kultur.
->
-> Kapittel 2. Planlegging
->
-> § 2-1
->
-> .
->
-> (Forundersøkingar)
->
-> Departementet kan gje forskrifter om forundersøkingar, så som om bruken av måleinnretningar og undersøkingar av botntilhøve.
->
-> § 2-2
->
-> .
->
-> (Opning av areal)
->
-> Kongen i statsråd kan fastsetje at eit nærare stadleg avgrensa område som er omfatta av § 1-2 skal opnast med sikte på tildeling av konsesjon etter § 3-1.
->
-> Før opning av område etter første ledd kan skje skal det utarbeidast konsekvensutgreiingar. Konsekvensutgreiingane skal inkludere vurderingar av miljømessige og samfunnsmessige konsekvensar av fornybar energiproduksjon, så som konsekvensar for andre næringsinteresser.
->
-> Framlegg til opning av område med gjennomførte konsekvensutgreiingar skal sendast på høyring og leggjast ut til offentleg ettersyn.
->
-> Departementet kan gjere unntak frå reglane om opning av areal i særskilte tilfelle.
->
-> Departementet kan gje forskrifter om opning av areal.
->
-> Kapittel 3. Konsesjonar
->
-> § 3-1
->
-> .
->
-> (Produksjonsanlegg)
->
-> Produksjonsanlegg kan ikkje byggjast, eigast eller drivast utan etter konsesjon frå departementet. Det same gjeld ombygging eller utviding av eksisterande anlegg.
->
-> Før bygging av produksjonsanlegg med konsesjon etter første ledd kan ta til, skal konsesjonæren leggje fram ein detaljplan for utbygging og drift for departementet til godkjenning. Detaljplanen skal gjere greie for dei tekniske, tryggleiksmessige og miljømessige tilhøva og elles utfylle konsesjonen så langt det er fastsett. Departementet kan i særlege tilfelle fråfalle krav om detaljplan.
->
-> Før godkjenning av detaljplan etter andre ledd, skal konsekvensutgreiing av utbyggingstiltaket vere godkjent med mindre anna er fastsett i medhald av § 4-1 tredje ledd.
->
-> § 3-2
->
-> .
->
-> (Nettanlegg)
->
-> Nettanlegg kan ikkje byggjast, eigast eller drivast utan etter konsesjon frå departementet. Det same gjeld ombygging eller utviding av eksisterande anlegg.
->
-> Før bygging av nettanlegg med konsesjon etter første ledd kan ta til, skal konsesjonæren leggje fram ein detaljplan for utbygging og drift for departementet til godkjenning. Detaljplanen skal gjere greie for dei tekniske, tryggleiksmessige og miljømessige tilhøva og elles utfylle konsesjonen så langt det er fastsett. Departementet kan i særlege tilfelle fråfalle krav om detaljplan.
->
-> Konsekvensutgreiingar skal leggjast ved søknader om konsesjon til nettanlegg med mindre anna er fastsett i medhald av § 4-1 tredje ledd.
->
-> § 3-3
->
-> .
->
-> (Søknad og handsaming av konsesjonssøknad og detaljplan)
->
-> Konsesjonssøknad og detaljplan etter §§ 3-1 og 3-2 skal sendast til departementet. Departementet kan gje forskrifter om konsesjonssøknad og detaljplan, mellom anna om:
->
-> rett til å søke om og få konsesjon, inklusive prekvalifiseringsføresegner,
->
-> kva slag opplysningar ein søknad skal innehalde,
->
-> kva slag opplysningar ein detaljplan skal innehalde,
->
-> kva slag undersøkingar søkjaren må syte for og
->
-> krav til kunngjering, offentleg ettersyn, høyring og medverknad frå relevante styresmaktar og interesser.
->
-> § 3-4
->
-> .
->
-> (Vilkår)
->
-> For konsesjonar eller godkjenning av detaljplan etter §§ 3-1 og 3-2 kan departementet gje forskrifter og fastsetje vilkår:
->
-> om påbyrjing, bygging, utføring, vedlikehald, drift og nedlegging av energianlegg,
->
-> om tidsfristar for utarbeiding av detaljplan ved tildelt konsesjon, for oppstart av anleggsarbeid og for å setje i drift anlegget eller delar av dette,
->
-> om beredskap og tryggleik,
->
-> om tilrettelegging for eller tilkopling til andre anlegg eller system,
->
-> om tiltak for å unngå eller avgrense skade eller ulempe for miljø, mangfaldet i naturen, kulturminne og annan arealbruk,
->
-> om for- og etterundersøkingar,
->
-> av omsyn til ei rasjonell energiforsyning,
->
-> av omsyn til andre næringsinteresser og
->
-> om bruk av eksterne oppdragstakarar og konsesjonærens ansvar for desse.
->
-> Departementet kan i samband med den einskilde konsesjon fastsetje ytterlegare vilkår dersom omsyn til allmenne eller private interesser krev det.
->
-> § 3-5
->
-> .
->
-> (Konsesjonsvedtak mv.)
->
-> Konsesjon blir gjeven til juridisk person som er stifta i medhald av norsk lovgiving og er registrert i Føretaksregisteret, når anna ikkje følgjer av internasjonale avtaler.
->
-> Konsesjonar etter §§ 3-1 og 3-2 blir gjeven for inntil 30 år frå anlegget er sett i drift. Konsesjonstida kan forlengast etter søknad frå konsesjonæren.
->
-> Departementet kan gje forskrifter og fastsetje vilkår om påbyrjing og forlenging av konsesjonstida.
->
-> Kapittel 4. Sakshandsaming ved konsekvensutgreiingar
->
-> § 4-1
->
-> .
->
-> (Sakshandsaming)
->
-> Før oppstart av konsekvensutgreiingar skal det utarbeidast melding med framlegg til utgreiingsprogram. Framlegg til utgreiingsprogram skal sendast på høyring og leggjast ut til offentleg ettersyn før program blir fastsett.
->
-> Ved opning av areal etter § 2-2, og ved konsesjon eller godkjenning av detaljplan etter §§ 3-1 og 3-2, skal det i saksframlegget eller i vedtaket gå fram korleis konsekvensutgreiingane og innkomne fråsegner er vurderte, og kva dei har hatt å seie for avgjerda.
->
-> Departementet kan gje forskrifter om konsekvensutgreiingar etter denne lova, så som nærare føresegner om harmonisering av utgreiingskrav for dei ulike planstadia og konsesjonane, og om kva slag tiltak og planar som er omfatta av krav om konsekvensutgreiingar.
->
-> § 4-2
->
-> .
->
-> (Konsekvensutgreiingar ved grenseoverskridande verknader)
->
-> Dersom tiltak eller planar som blir handsama etter denne lova kan få vesentlege negative miljøverknader i ein annan stat, skal departementet varsle relevante styresmakter i vedkommande stat, og gje høve til å medverke i plan- eller utgreiingsprosessen etter denne lova.
->
-> Kapittel 5. Tryggleik mv.
->
-> § 5-1
->
-> .
->
-> (Beredskap, tryggleik og arbeidsmiljø)
->
-> Bygging, drift og nedlegging av energianlegg i medhald av denne lova skal gå føre seg slik at eit høgt tryggleiksnivå kan haldast ved lag og utviklast i takt med den teknologiske utviklinga.
->
-> Departementet kan gje forskrifter om krav til beredskap og tryggleik knytt til bygging, drift, ombygging og nedlegging av energianlegg som er omfatta av denne lova, under dette krav til tekniske konstruksjonar, arbeidstilhøve og kvalifikasjonar.
->
-> § 5-2
->
-> .
->
-> (Tryggleikssoner og merking)
->
-> Departementet kan gje forskrifter om tryggleikssoner med forbod mot aktivitet i eit nærare bestemt område i og rundt energianlegg som er omfatta av denne lova. Departementet kan gje forskrifter om merking og andre tiltak av omsyn til navigering.
->
-> Kapittel 6. Nedlegging og oreigning
->
-> § 6-1
->
-> .
->
-> (Nedlegging)
->
-> Ved nedlegging av energianlegg skal anlegget fjernast, med mindre departementet fastset noko anna.
->
-> Den som har konsesjon for energianlegg skal i god tid før utløpet av konsesjonen leggje fram ein avslutningsplan for departementet. Departementet kan fråfalle krav om avslutningsplan dersom det blir søkt om forlenga konsesjon.
->
-> Departementet kan gje forskrifter om nedlegging av energianlegg.
->
-> § 6-2
->
-> .
->
-> (Oreigning)
->
-> Departementet kan gjere vedtak om oreigning av nettanlegg.
->
-> Det kan gjevast løyve til oreigning dersom omsynet til samfunnsmessig rasjonell produksjon, omforming og overføring av elektrisk energi eller allmenne interesser elles tilseier det.
->
-> Kapittel 7. Systemansvar
->
-> § 7-1
->
-> .
->
-> (Systemansvar)
->
-> Departementet kan tildele mynde til å utøve systemansvar innan det stadlege verkeområdet for lova på nærare fastsette vilkår.
->
-> Den systemansvarlege skal syte for at det til kvar tid er balanse i kraftsystemet og kan gje dei pålegg som er nødvendige under utøvinga av dette ansvaret.
->
-> Departementet kan gje forskrifter og fastsetje vilkår om systemansvar innanfor verkeområdet for denne lova. Dette kan mellom anna omfatte samordning av systemansvar etter denne lova og etter lov 29. juni 1990 nr. 50 (energiloven) kapittel 6, og energianlegg etter denne lova som ikkje er knytt til kraftsystemet på land.
->
-> Kapittel 8. Utførsel og innførsel av elektrisk energi
->
-> § 8-1
->
-> .
->
-> (Utførsel og innførsel av elektrisk energi)
->
-> Utførsel og innførsel av elektrisk energi til og frå framand stat kan ikkje skje utan konsesjon frå departementet.
->
-> I konsesjonen kan det setjast vilkår dersom allmenne omsyn krev det.
->
-> Departementet kan i særlege tilfelle gje fritak for konsesjonsplikt.
->
-> Kapittel 9. Skadebot til fiskarar i Noreg
->
-> § 9-1
->
-> .
->
-> (Sakleg verkeområde og definisjonar)
->
-> Økonomisk tap som vert påført fiskarar i Noreg som følgje av at verksemda legg beslag på fiskefelt, medfører forureining og avfall eller ved at energianlegg eller tiltak i samanheng med energianlegg valdar skade, kan dekkjast etter kapitlet her.
->
-> Med forureining og med avfall er i dette kapitlet meint forureining og avfall som nemnt i lov 13. mars 1981 nr. 6 om vern mot forurensninger og om avfall (forurensningsloven) § 6 første ledd nr. 1 og 2 og § 27 første ledd.
->
-> Med fiskarar i Noreg er i dette kapitlet meint personar registrerte i fiskarmanntalet og eigarar av fartøy innført i registeret over merkepliktige norske fiskefarkostar.
->
-> § 9-2
->
-> .
->
-> (Beslaglegging)
->
-> Dersom verksemda etter denne lova i eit område heilt eller delvis legg beslag på eit fiskefelt, pliktar staten i den utstrekninga fisket blir gjort umogleg eller vesentleg vanskelegare å gje skadebot for det økonomiske tapet dette medfører.
->
-> Skadebota kan fastsetjast heilt eller delvis som ein eingongssum eller som faste årlege summar. Tap som er oppstått meir enn sju år etter beslaglegginga, kan normalt ikkje krevjast stetta.
->
-> Staten kan krevje regress av konsesjonær dersom konsesjonæren burde ha avverja tapet.
->
-> § 9-3
->
-> .
->
-> (Ansvar for forureining og avfall)
->
-> Konsesjonær er utan omsyn til skuld ansvarleg for økonomisk tap som følgje av forureining og avfall frå verksemd omfatta av denne lova, og for utgifter til rimelege tiltak for å avverje eller avgrense slik skade eller slikt tap.
->
-> Ansvar etter første ledd gjeld òg for forureining og avfall frå forsynings- eller hjelpefartøy og for transport eller bygging av energianlegg.
->
-> For at skadebot skal kunne krevjast for tapt fangsttid i samband med lokalisering, merking, opptak eller ilandføring av gjenstandar, må gjenstandane merkjast forsvarleg eller førast i land og visast fram for den departementet gjev mynde, med mindre det ligg føre absolutte hindringar. Posisjonen må i alle fall meldast.
->
-> Det som er nemnt i tredje ledd gjeld òg ved skadebot for anna tap for så vidt det er rimeleg å krevje slik merking, posisjonsoppgiving eller ilandføring.
->
-> Ansvaret omfattar òg andre fartøy som hjelper eit fiskefartøy med å bringe gjenstandar til land.
->
-> Dersom det er valda skade omfatta av denne føresegna utan at skadevaldar kan identifiserast, skal konsesjonærar vere solidarisk ansvarlege i den utstrekninga skaden kan tenkjast å vere forårsaka av verksemd i tilknyting til vedkommande sin konsesjon.
->
-> § 9-4
->
-> .
->
-> (Innretning som valdar skade)
->
-> Dersom innretning eller tiltak i samband med plassering av innretning valdar skade som ikkje er dekt av reglane i § 9-2, er konsesjonær ansvarleg utan omsyn til skuld for det økonomiske tapet som fiskarane lir som følgje av skaden.
->
-> § 9-5
->
-> .
->
-> (Nemnd)
->
-> Krav som blir fremja i medhald av dette kapitlet skal avgjerast av ei nemnd. Departementet kan gje nærare forskrifter om samansetjinga av nemnda og sakshandsaming, og reglar om klagehandsaming.
->
-> Vedtak i klageinstansen kan innan to månader etter at vedkommande part har fått melding om vedtaket ved stemning bringast direkte inn for tingretten.
->
-> Krav fastsett av nemnda eller av klageinstansen er tvangsgrunnlag for utlegg etter at klagefristen eller fristen som nemnt i andre ledd har gått ut.
->
-> Ved oversitjing av fristen i andre ledd kan klageinstansen etter reglane i lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven) § 31 vedta at tingretten tek saka til handsaming. Vedtak om fristoversitjing kan ankast til tingretten.
->
-> Kapittel 10. Ymse føresegner
->
-> § 10-1
->
-> .
->
-> (Handsamingsgebyr)
->
-> Det kan krevjast gebyr for handsaming av søknader, godkjenningar og kontroll etter denne lova.
->
-> § 10-2
->
-> .
->
-> (Arealavgift)
->
-> For bruk av areal til fornybar energiproduksjon kan konsesjonær ved tildeling av konsesjon eller seinare påleggjast å betale arealavgift til staten.
->
-> Departementet kan gje forskrifter om betaling av arealavgift, mellom anna om storleiken på og grunnlaget for avgifta.
->
-> Avgiftskrav med tillegg av renter og kostnader er tvangsgrunnlag for utlegg.
->
-> § 10-3
->
-> .
->
-> (Garanti)
->
-> Departementet kan ved tildeling av konsesjon eller seinare bestemme at konsesjonæren skal stille slik garanti som departementet godkjenner for oppfylling av dei pliktene konsesjonæren har påteke seg, og for mogleg ansvar i samband med energianlegg etter denne lova.
->
-> § 10-4
->
-> .
->
-> (Opplysningsplikt)
->
-> Alle som eig eller driv verksemd omfatta av denne lova pliktar uavhengig av reglar om teieplikt å gje departementet dei opplysningane som er nødvendige for å utøve mynde etter denne lova, og for å ta vare på Noreg sine internasjonale plikter.
->
-> Informasjonsplikta omfattar òg opplysningar og statistikk av teknisk karakter knytt til utbygging, drift og produksjon, og ressurs- eller miljøtilhøve av interesse for departementet.
->
-> Departementet kan gje forskrifter om opplysningsplikt, teieplikt og om utlevering av opplysningar. Det gjeld òg forskrifter om kva slag opplysningar ansvarlege etter denne føresegna pliktar å innhente og å sitje inne med.
->
-> § 10-5
->
-> .
->
-> (Kontroll)
->
-> Departementet fører kontroll med at føresegner gjevne i eller i medhald av denne lova blir overhaldne.
->
-> Departementet kan gje dei pålegga som er nødvendige for gjennomføringa av føresegner fastsette i eller i medhald av denne lova.
->
-> § 10-6
->
-> .
->
-> (Tvangsmulkt)
->
-> Departementet kan gjere vedtak om tvangsmulkt for å sikre at ei plikt som følgjer av eller i medhald av denne lova eller vilkår som er sette for konsesjon eller vedtak i eller i medhald av denne lova, blir oppfylte. Vedtak om tvangsmulkt kan òg gjerast ved oversitjing av fristar for detaljplan, byggjestart eller andre fristar knytt til framdrift av tiltaket.
->
-> Tvangsmulkta kan fastsetjast som ei fortløpande mulkt eller som ein eingongssum. Tvangsmulkta tilfell statskassen. Pålagd tvangsmulkt er tvangsgrunnlag for utlegg.
->
-> § 10-7
->
-> .
->
-> (Tilbaketrekking av konsesjon)
->
-> Dersom konsesjon er gjeven på grunnlag av urette eller ufullstendige opplysningar om vesentlege omstende, eller konsesjonæren bryt denne lova eller føresegner eller pålegg gjevne i medhald av lova og brotet er vesentleg, kan konsesjonen trekkjast tilbake.
->
-> Konsesjon kan òg trekkjast tilbake dersom dette følgjer av konsesjonsvedtaket, ved oversitjing av fristar for detaljplan, byggjestart eller andre fristar knytt til framdrift av tiltaket.
->
-> Blir konsesjon for eit etablert anlegg trekt tilbake, skal det fastsetjast ein frist til å syte for at anlegget blir overteke av andre som lovleg kan drive det. Føresegnene i lov 28. november 2003 nr. 98 om konsesjon ved erverv av fast eiendom (konsesjonsloven) § 19 gjeld tilsvarande dersom fristen ikkje er overhalden.
->
-> Blir konsesjon etter andre ledd trekt tilbake kan departementet lyse ut konsesjonen for innhenting av søknader frå andre interesserte, eller påleggje frist for overdraging etter tredje ledd. Ved utlysing gjeld kapittel 3 for handsaming av søknader så langt det passar.
->
-> § 10-8
->
-> .
->
-> (Omgjering)
->
-> I særlege tilfelle kan dei fastsette vilkåra endrast av omsyn til allmenne interesser. Ved avgjerda skal det takast omsyn til kostnadene ei endring vil påføre konsesjonæren og dei fordelane og ulempene endringa elles vil medføre.
->
-> Endringar i vilkåra kan òg gjerast etter søknad frå konsesjonæren. Føresegnene i kapittel 3, jf. kapittel 4, gjeld for søknader etter denne føresegna så langt dei høver.
->
-> § 10-9
->
-> .
->
-> (Lovbrotsgebyr)
->
-> Departementet kan påleggje gebyr for den som forsettleg eller aktlaust bryt eller medverkar til brot på føresegner gjevne i eller i medhald av denne lova.
->
-> Betalingsfristen for pålagt gebyr er fire veker frå vedtakstidspunktet. Pålagt gebyr er tvangsgrunnlag for utlegg. Gebyr blir kravd inn av Statens innkrevjingssentral. Innkrevjingssentralen kan drive inn kravet ved trekk i lønn og andre liknande ytingar etter reglane i lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett (dekningsloven) § 2-7. Innkrevjingssentralen kan òg drive inn kravet ved å stifte utleggspant for kravet dersom panteretten kan gjevast rettsvern ved registrering i eit register eller ved melding til tredjeperson, jf. lov 8. februar 1980 nr. 2 om pant (panteloven) kapittel 5, og utleggsforretninga kan haldast på Innkrevjingssentralens kontor etter lov 19. juni 1992 nr. 86 om tvangsfullbyrdelse (tvangsfullbyrdelsesloven) § 7-9 første ledd.
->
-> Når eit brot på føresegn som kan medføre gebyr etter første ledd er gjort av nokon som har handla på vegner av eit føretak, kan gebyr påleggjast føretaket. Dette gjeld sjølv om gebyr for brotet ikkje kan påleggjast nokon enkeltperson. Med føretak er her meint selskap, enkeltpersonføretak, stifting, foreining eller anna samanslutning, bu eller offentleg verksemd.
->
-> Ved avgjerd av om eit føretak skal påleggjast gebyr for brot på føresegn og ved utmåling av sanksjonen skal det særleg leggjast vekt på:
->
-> kor alvorleg brotet er,
->
-> om føretaket ved retningslinjer, instruksjon, opplæring, kontroll eller andre tiltak kunne ha førebygd brotet,
->
-> om brotet er gjort for å fremje føretaket sine interesser,
->
-> om føretaket har hatt eller kunne ha oppnådd ein fordel ved brotet,
->
-> om det er tale om gjentaking og
->
-> den økonomiske stillinga for føretaket.
->
-> § 10-10
->
-> .
->
-> (Forskrifter)
->
-> Kongen kan gje forskrifter til gjennomføring og utfylling av lova og verkeområdet til lova, inklusive forskrifter som er nødvendige for å oppfylle Noreg sine internasjonale plikter.
->
-> Kapittel 11. Ikraftsetjing
->
-> § 11-1
->
-> .
->
-> (Ikraftsetjing)
->
-> Denne lova gjeld frå den tida Kongen fastset.
->
-> Kapittel 12. Endringar i anna lovverk
->
-> § 12-1
->
-> .
->
-> (Endringar i anna lovverk)
->
-> Frå den tid lova vert satt i kraft, vert det gjort følgjande endringar i andre lover:
->
-> I lov 29. juni 1990 nr. 50 om produksjon, overføring, omsetning, fordeling og bruk av energi m.m. (energiloven) blir gjort følgjande endringar:
->
-> § 1-1 nytt tredje ledd skal lyde:
->
-> Departementet kan i forskrift eller i det enkelte tilfelle begrense anvendelsen av enkelte bestemmelser i denne lov hva gjelder innretninger, formål eller virksomheter omfattet av havenergilova.
->
-> § 1-1 noverande tredje til femte ledd blir fjerde til sjette ledd.
+> Lov om fornybar energiproduksjon til havs (havenergilova) trer i kraft fra 1. juli 2010.
+>
+
+### 2012-03-16 — forskrift/2012-03-16-225
+
+*Loven romertall II, III, IV, V, VI og de deler av romertall I som omhandler endringer i energiloven § 8-2 første ledd og § 10-1 tredje ledd trer i kraft straks.*
+
+> Loven romertall II, III, IV, V, VI og de deler av romertall I som omhandler endringer i energiloven § 8-2 første ledd og § 10-1 tredje ledd trer i kraft straks.
 >
 
 ### 2013-01-01 — forskrift/2012-12-07-1146
@@ -2465,6 +2028,13 @@ refid: "lov/1990-06-29-50"
 > Lov om endringer i energiloven trer i kraft 15. januar 2013.
 >
 
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
 ### 2013-06-14 — lov/2013-06-14-53
 
 *Nåværende § 5-6 blir ny § 5-7.*
@@ -2474,6 +2044,13 @@ refid: "lov/1990-06-29-50"
 *Lov om endringer i energiloven trer i kraft 1. juli 2013.*
 
 > Lov om endringer i energiloven trer i kraft 1. juli 2013.
+>
+
+### 2014-07-01 — forskrift/2014-06-20-782
+
+*Lov om endringer i industrikonsesjonsloven, vassdragsreguleringsloven, energiloven, elsertifikatloven og havenergilova trer i kraft 1. juli 2014.*
+
+> Lov om endringer i industrikonsesjonsloven, vassdragsreguleringsloven, energiloven, elsertifikatloven og havenergilova trer i kraft 1. juli 2014.
 >
 
 ### 2016-07-01 — forskrift/2016-05-27-527
@@ -2517,9 +2094,32 @@ refid: "lov/1990-06-29-50"
 > Loven trer i kraft 1. juli 2019.
 >
 
+### 2019-11-01 — forskrift/2019-10-11-1345
+
+*Delt ikraftsetting av lov 25. mai 2018 nr. 21 om endringer i energiloven (tredje energimarkedspakke). Loven trer i kraft 1. november 2019, med unntak av § 4-1 sjette ledd.*
+
+> Delt ikraftsetting av lov 25. mai 2018 nr. 21 om endringer i energiloven (tredje energimarkedspakke). Loven trer i kraft 1. november 2019, med unntak av § 4-1 sjette ledd.
+>
+> Ikraftsetting av lov 25. mai 2018 nr. 22 om endringer i naturgassloven (tredje energimarkedspakke). Loven trer i kraft 1. november 2019.
+>
+
+### 2021-01-01 — forskrift/2020-06-23-1285
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
 ### 2021-06-11 — lov/2021-06-11-86
 
 *Nåværende § 4-2 første ledd annet punktum blir nytt tredje punktum.*
+
+### 2021-07-01 — forskrift/2021-06-04-1778
+
+*Lov 18. desember 2020 nr. 157 om endringer i vannressursloven og energiloven mv. (administrative reaksjoner og sanksjoner) trer i kraft 1. juli 2021.*
+
+> Lov 18. desember 2020 nr. 157 om endringer i vannressursloven og energiloven mv. (administrative reaksjoner og sanksjoner) trer i kraft 1. juli 2021.
+>
 
 ### 2021-07-01 — forskrift/2021-06-11-1889
 
@@ -2575,6 +2175,20 @@ refid: "lov/1990-06-29-50"
 *I lov 29. juni 1990 nr. 50 om produksjon, omforming, overføring, omsetning, fordeling og bruk av energi m.m. skal § 4-7 tredje ledd lyde:*
 
 > Kravene i første og annet ledd gjelder ikke for nettforetak med færre enn 100 000 nettkunder.
+>
+
+### 2023-07-01 — forskrift/2023-04-21-530
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
+### 2023-07-01 — forskrift/2023-06-16-896
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
 >
 
 ### 2023-07-01 — forskrift/2023-06-16-897
@@ -2647,6 +2261,29 @@ refid: "lov/1990-06-29-50"
 
 *Nåværende § 10-2 annet ledd blir nytt fjerde ledd.*
 
+### 2024-07-01 — forskrift/2024-03-22-501
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-07-01 — forskrift/2024-06-14-956
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2025-04-01 — forskrift/2024-10-25-2598
+
+*Delt ikraftsetting av lov 16. juni 2023 nr. 69 om endringer i energiloven og naturgassloven (overskuddsvarme, energikartlegging, måling og fakturering). Følgende trer i kraft 1. april 2025:*
+
+> Delt ikraftsetting av lov 16. juni 2023 nr. 69 om endringer i energiloven og naturgassloven (overskuddsvarme, energikartlegging, måling og fakturering). Følgende trer i kraft 1. april 2025:
+>
+> Endringsloven del I (energiloven), med unntak av kapittel 8 overskriften og § 8-5 som er satt i kraft 1. mars 2024, og endringsloven del II (naturgassloven).
+>
+
 ### 2025-06-20 — lov/2025-06-20-46
 
 *Nåværende § 2-1 blir § 2-2. Femte til syvende ledd skal lyde:*
@@ -2688,6 +2325,13 @@ refid: "lov/1990-06-29-50"
 > Delt ikraftsetting av lov om endringer i energiloven (tidlig saksavslutning mv.). Endringsloven §§ 3-2 nytt annet ledd, 3-4 a nytt annet ledd, 10-7 annet ledd og 11-1 nytt sjette ledd trer i kraft 1. januar 2026. Endringsloven for øvrig trer i kraft 1. juli 2025.
 >
 
+### 2026-07-01 — forskrift/2026-06-19-1147
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
 ## § 5A-2
 
 ### 2003-12-19 — lov/2003-12-19-131
@@ -2696,3 +2340,9 @@ refid: "lov/1990-06-29-50"
 
 > Rasjoneringsmyndigheten kan delegere myndighet til å treffe vedtak i forbindelse med gjennomføring av rasjonering til Kraftforsyningens beredskapsorganisasjon (KBO). Kapittel VI om klage og omgjøring i lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven) gjelder ikke for enkeltvedtak som er truffet av rasjoneringsmyndigheten eller KBO i forbindelse med gjennomføring av rasjonering. For saker som behandles av KBO gjelder heller ikke forvaltningsloven kapittel II om ugildhet. Saker skal likevel forberedes og avgjøres etter en forsvarlig, saklig og nøytral saksbehandling.
 >
+
+## § 7
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*§ 7 annet punktum oppheves.*

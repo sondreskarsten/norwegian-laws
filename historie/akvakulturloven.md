@@ -16,13 +16,18 @@ refid: "lov/2005-06-17-79"
 > Skyldig gebyr og avgift er tvangsgrunnlag for utlegg.
 >
 
-### 2009-01-09 — lov/2009-01-09-4
+### 2008-06-06 — lov/2008-06-06-37
 
-*9. I lov 6. juni 2008 nr. 37 om forvaltning av viltlevande marine ressursar skal ny § 8 a lyde:*
+*9. I lov 17. juni 2005 nr. 79 om akvakultur skal § 17 andre ledd lyde:*
 
-> § 8 a.Saker der fylkeskommunane har kompetanse
+> Departementet kan i enkeltvedtak eller forskrift regulere uttak og gjenfangst av den enkelte art på lokaliteten uavhengig av bestemmelsene i lov om forvaltning av viltlevande marine ressursar.
 >
-> Fylkeskommunane kan fatte vedtak på særskilde områder innanfor lova sitt verkeområde når dette er fastsett i forskrift. Departementet kan i forskrift fastsetje nærare reglar om fylkeskommunane sin kompetanse etter denne føresegna. I dei sakene der fylkeskommunane er gitt kompetanse til å fatte vedtak, er Fiskeridirektoratet klageinstans.
+
+### 2009-04-17 — lov/2009-04-17-19
+
+*7. I lov 17. juni 2005 nr. 79 om akvakultur (akvakulturloven) skal § 6 første ledd bokstav d tredje strekpunkt lyde:*
+
+> lov 17. april 2009 nr. 19 om havner og farvann, og
 >
 
 ### 2010-01-01 — lov/2009-12-18-136
@@ -66,6 +71,13 @@ refid: "lov/2005-06-17-79"
 > Loven trer i kraft 1. juli 2019.
 >
 
+### 2020-01-01 — forskrift/2019-06-21-872
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
 ### 2025-06-10 — lov/2025-06-10-33
 
 *4.I lov 17. juni 2005 nr. 79 om akvakultur skal § 15 bokstav b til ny bokstav d lyde:*
@@ -84,6 +96,13 @@ refid: "lov/2005-06-17-79"
 > § 22 a. Lønnsvilkår på skip
 >
 > Innehavere av akvakulturtillatelser skal sørge for at ansatte på skip som leverer tjenester til akvakulturproduksjon, ikke har dårligere lønnsvilkår enn det som følger av gjeldende landsomfattende tariffavtaler. Kongen kan gi forskrift om hvordan forpliktelsene til innehavere av akvakulturtillatelser kan oppfylles.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-966
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
 >
 
 ## § 10
@@ -142,6 +161,15 @@ refid: "lov/2005-06-17-79"
 > Departementet kan i forskrift gi nærmere bestemmelser om sammenslutningens ikrafttreden, organisering og virksomhet, herunder om unntak fra plikten til medlemskap, årlig avgift for deltakelse i sammenslutningen og tilleggsinnbetalinger, begrensninger i ansvaret etter annet og tredje ledd og utbetaling.
 >
 > Manglende innbetaling av avgift for deltakelse i sammenslutningen er tvangsgrunnlag for utlegg.
+>
+
+## § 15
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 15 første ledd litra b) skal lyde:*
+
+> vedtatte vernetiltak etter kapittel V i lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold
 >
 
 ## § 16

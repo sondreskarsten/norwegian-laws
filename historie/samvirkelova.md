@@ -22,6 +22,27 @@ refid: "lov/2007-06-29-81"
 > Endringene under I trer i kraft straks.
 >
 
+### 2011-07-01 — forskrift/2011-06-24-647
+
+*Loven gjelder fra 1. juli 2011.*
+
+> Loven gjelder fra 1. juli 2011.
+>
+
+### 2013-07-01 — forskrift/2013-06-14-638
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
+>
+
+### 2014-01-01 — forskrift/2013-06-21-726
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
+>
+
 ### 2014-06-20 — lov/2014-06-20-25
 
 *I lov 29. juni 2007 nr. 81 om samvirkeforetak skal § 68 lyde:*
@@ -35,6 +56,22 @@ refid: "lov/2007-06-29-81"
 > (3) Første og andre ledd gjeld tilsvarande når eit foretak tilhøyrer ei gruppe av foretak som er knytt saman gjennom eigarinteresser eller sams leiing, medrekna føderativt samvirke.
 >
 > (4) Kongen kan fastsetje at paragrafen her berre skal gjelde for delar av eit konsern, eit føderativt samvirke eller ei anna gruppe som nemnd i tredje ledd.
+>
+
+### 2016-01-01 — forskrift/2015-04-10-350
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*11. I lov 29. juni 2007 nr. 81 om samvirkeforetak skal ny § 101 a i kapittel 7 lyde:*
+
+> § 101 a.Møte med revisor
+>
+> Styret skal hvert år ha et møte med revisor uten at daglig leder eller andre fra den daglige ledelsen er til stede. Aksjeloven § 7-5 a gjelder tilsvarende.
 >
 
 ### 2021-05-28 — lov/2021-05-28-51
@@ -85,6 +122,65 @@ refid: "lov/2007-06-29-81"
 ### 2021-05-28 — lov/2021-05-28-51
 
 *Nåværende første og andre punktum blir andre og nytt tredje punktum.*
+
+### 2021-06-01 — forskrift/2021-05-28-1667
+
+*Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del *
+
+> Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del VI (SE-loven), del VII (samvirkelova) med unntak av § 75, del VIII (finansforetaksloven) og del IX trer i kraft 1. juni 2021.
+>
+
+### 2021-06-23 — forskrift/2021-06-23-2064
+
+*Delt ikraftsetting av lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav). Endringsloven del III (aksjeloven) § 6-11 første ledd, del IV (allmennaksjeloven) § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) § 27 andre le*
+
+> Delt ikraftsetting av lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav). Endringsloven del III (aksjeloven) § 6-11 første ledd, del IV (allmennaksjeloven) § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) § 27 andre ledd og del VII (samvirkelova) § 75, trer i kraft samtidig som frihandelsavtalen mellom Island, Liechtenstein, Norge og Storbritannia trer i kraft.
+>
+
+### 2021-12-01 — forskrift/2021-12-01-3309
+
+*Frihandelsavtale mellom Island, Fyrstedømmet Liechtenstein og Kongeriket Norge og Det forente kongerike Storbritannia og Nord-Irland trer midlertidig i kraft for Norge 1. desember 2021. Lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskra*
+
+> Frihandelsavtale mellom Island, Fyrstedømmet Liechtenstein og Kongeriket Norge og Det forente kongerike Storbritannia og Nord-Irland trer midlertidig i kraft for Norge 1. desember 2021. Lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav) del III (aksjeloven) § 6-11 første ledd, del IV (allmennaksjeloven) § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) § 27 andre ledd og del VII (samvirkelova) § 75 trer derfor i kraft 1. desember 2021, jf. loven del X nr. 1 og kongelig resolusjon 23. juni 2021 nr. 2064 om delt ikraftsetting av lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav).
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2024-11-01 — forskrift/2024-10-11-2454
+
+*Følgende trer i kraft 1. november 2024:*
+
+> Følgende trer i kraft 1. november 2024:
+>
+> Endringsloven del I (regnskapsloven)
+>
+> Endringsloven del II (revisorloven) med unntak av § 12-1.
+>
+> Endringsloven del III (statsforetaksloven)
+>
+> Endringsloven del IV (aksjeloven)
+>
+> Endringsloven del V (allmennaksjeloven)
+>
+> Endringsloven del VI (bustadbyggjelagslova)
+>
+> Endringsloven del VIII (verdipapirhandelloven)
+>
+> Endringsloven del IX (samvirkelova)
+>
+> Endringsloven del X (finansforetaksloven)
+>
+> Endringsloven del XI (fagskoleloven)
+>
+> Endringsloven del XII (åpenhetsloven).
+>
 
 ## § 101
 

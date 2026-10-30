@@ -7,6 +7,55 @@ refid: "lov/1917-12-14-17"
 
 ## (annet)
 
+### 2010-01-01 — forskrift/2009-10-23-1295
+
+*Lov 19. juni 2009 nr. 106 om endringer i industrikonsesjonsloven, vassdragsreguleringsloven og vannressursloven (utleie av vannkraftproduksjon mv.) romertall II og III trer i kraft 1. januar 2010.*
+
+> Lov 19. juni 2009 nr. 106 om endringer i industrikonsesjonsloven, vassdragsreguleringsloven og vannressursloven (utleie av vannkraftproduksjon mv.) romertall II og III trer i kraft 1. januar 2010.
+>
+
+### 2012-03-16 — forskrift/2012-03-16-225
+
+*Loven romertall II, III, IV, V, VI og de deler av romertall I som omhandler endringer i energiloven § 8-2 første ledd og § 10-1 tredje ledd trer i kraft straks.*
+
+> Loven romertall II, III, IV, V, VI og de deler av romertall I som omhandler endringer i energiloven § 8-2 første ledd og § 10-1 tredje ledd trer i kraft straks.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
+### 2014-07-01 — forskrift/2014-06-20-782
+
+*Lov om endringer i industrikonsesjonsloven, vassdragsreguleringsloven, energiloven, elsertifikatloven og havenergilova trer i kraft 1. juli 2014.*
+
+> Lov om endringer i industrikonsesjonsloven, vassdragsreguleringsloven, energiloven, elsertifikatloven og havenergilova trer i kraft 1. juli 2014.
+>
+
+### 2014-12-12 — forskrift/2014-12-12-1584
+
+*Lov om endringer i industrikonsesjonsloven og vassdragsreguleringsloven trer i kraft straks.*
+
+> Lov om endringer i industrikonsesjonsloven og vassdragsreguleringsloven trer i kraft straks.
+>
+
+### 2018-01-01 — forskrift/2017-12-15-2034
+
+*Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.*
+
+> Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.
+>
+
+### 2021-07-01 — forskrift/2021-06-04-1778
+
+*Lov 18. desember 2020 nr. 157 om endringer i vannressursloven og energiloven mv. (administrative reaksjoner og sanksjoner) trer i kraft 1. juli 2021.*
+
+> Lov 18. desember 2020 nr. 157 om endringer i vannressursloven og energiloven mv. (administrative reaksjoner og sanksjoner) trer i kraft 1. juli 2021.
+>
+
 ### 2023-04-21 — lov/2023-04-21-7
 
 *I lov 14. desember 1917 nr. 17 om regulering og kraftutbygging i vassdrag skal § 31 lyde:*
@@ -18,6 +67,20 @@ refid: "lov/1917-12-14-17"
 > Departementet kan gi forskrift om gebyr eller sektoravgift og om innrapportering av opplysninger som er nødvendige for beregning av gebyret eller sektoravgiften.
 >
 > Gebyret eller sektoravgiften er tvangsgrunnlag for utlegg. Betales ikke sektoravgiften eller gebyret til forfallstid, svares deretter rente som fastsatt i medhold av lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. § 3 første ledd.
+>
+
+### 2023-07-01 — forskrift/2023-04-21-530
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
+### 2024-07-01 — forskrift/2024-03-22-501
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
 >
 
 ## § 1 a
@@ -181,6 +244,13 @@ refid: "lov/1917-12-14-17"
 > Ved avgjørelsen av om overtredelsesgebyr skal ilegges og ved utmåling av sanksjonen skal det særlig legges vekt på;overtredelsens grovhet,om overtreder ved retningslinjer, instruksjon, opplæring, kontroll eller andre tiltak kunne forebygget overtredelsen,om overtredelsen er begått for å fremme overtreders interesser,om overtreder har hatt eller kunne oppnådd noen fordel ved overtredelsen,om det foreligger gjentakelse,overtreders økonomiske evne.
 >
 
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 25 annet ledd tredje og fjerde punktum oppheves.*
+
+> 2. I lov 24. mai 1929 nr. 4 om tilsyn med elektriske anlegg og elektrisk utstyr gjøres følgende endring:
+>
+
 ### 2013-12-13 — lov/2013-12-13-107
 
 *§ 25 annet ledd siste punktum oppheves.*
@@ -298,6 +368,10 @@ refid: "lov/1917-12-14-17"
 >
 
 ## § 4
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 4 fjerde ledd oppheves.*
 
 ### 2014-06-20 — lov/2014-06-20-56
 

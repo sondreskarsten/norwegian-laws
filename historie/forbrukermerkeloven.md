@@ -18,6 +18,20 @@ refid: "lov/1981-12-18-90"
 
 *Nåværende § 6 a blir ny § 6 b.*
 
+### 2002-07-01 — lov/2002-06-21-34
+
+*4. I lov 18. desember 1981 nr. 90 om merking av forbruksvarer m.v. skal § 2 annet punktum lyde:*
+
+> Med forbruksvarer menes varer som tilbys fysiske personer som ikke hovedsakelig handler som ledd i næringsvirksomhet.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*110. I lov 18. desember 1981 nr. 90 om merking av forbruksvarer m.v. skal § 7 nytt annet punktum lyde:*
+
+> Medvirkning straffes ikke.
+>
+
 ### 2010-09-03 — lov/2010-09-03-53
 
 *Kapittel 1 overskriften oppheves.*
@@ -45,6 +59,13 @@ refid: "lov/1981-12-18-90"
 ### 2010-09-03 — lov/2010-09-03-53
 
 *Nåværende § 8 blir ny § 12.*
+
+### 2011-01-01 — forskrift/2010-09-03-1245
+
+*Loven trer i kraft fra 1. januar 2011.*
+
+> Loven trer i kraft fra 1. januar 2011.
+>
 
 ### 2013-07-01 — forskrift/2013-06-07-591
 

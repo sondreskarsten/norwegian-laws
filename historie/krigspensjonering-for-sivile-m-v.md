@@ -14,7 +14,68 @@ refid: "lov/1946-12-13-22"
 > Kongen kan i forskrift gi nærmere regler om refusjon av utgifter ved sykebehandling etter denne lov.
 >
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*26. I lov 13. desember 1946 nr. 22 om krigspensjonering for hjemmestyrkepersonell og sivilpersoner skal § 1 tredje ledd lyde:*
+
+> Den som antas å ha gjort seg skyldig i forhold som rammes av bestemmelsene i straffeloven kapittel 17, § 184 eller av krigsartiklene i den militære straffelov, skal nektes ytelser etter denne lov for seg og sine etterlatte. Det samme gjelder den som antas å ha gjort seg skyldig i forhold som rammes av de gjeldende straffebestemmelser for landssvik.
+>
+
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
+>
+
+### 2015-01-01 — forskrift/2014-06-20-799
+
+*Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraf*
+
+> Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraft 1. januar 2015.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-904
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
+## § 10
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 10 første ledd annet punktum skal lyde:*
+
+> Det kan også ytes bidrag til vedlikehold og fornyelse av slike hjelpemidler.
+>
+
+## § 14
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 14 første punktum skal lyde:*
+
+> Invaliden kan tilstås bidrag til utdannelse, yrkesopplæring eller hjelp til erverv, når det antas at invaliden kan få varig nytte av dette og han selv ikke har midler til å bekoste det.
+>
+
 ## § 17
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 17 nr. 3 første til femte ledd skal lyde:*
+
+> Rett til enke- eller enkemannspensjon inntrer ikke hvis ekteskapet er inngått etter at avdøde ble skadet, og ekteskapet ikke har vart i minst fem år. Når særlige grunner taler for det, kan det tilstås hel eller delvis pensjon selv om ekteskapet ikke har vart i fem år.
+>
+> Enkepensjonen faller bort hvis enken gifter seg igjen.
+>
+> Blir hun igjen enke eller blir det nye ekteskap oppløst ved skilsmisse, og gjør hennes økonomiske forhold det rimelig, kan hun tilstås pensjon med inntil forskjellen mellom enkepensjonen etter bestemmelsene i denne lov og underhold eller pensjon hun måtte være sikret gjennom seinere ekteskap.
+>
+> Bestemmelsene gjelder tilsvarende for enkemannspensjon.
+>
+> I særlige tilfelle kan det ytes enkepensjon helt eller delvis til kvinne som før skaden inntraff har levd sammen med avdøde og har barn med ham.
+>
 
 ### 2014-06-20 — lov/2014-06-20-24
 
@@ -154,6 +215,37 @@ refid: "lov/1946-12-13-22"
 > Bestemmelsene i de foregående leddene gjelder tilsvarende for ventetillegg og særtillegg fra folketrygden, herunder også særtillegg til overgangsstønad eller pensjon til tidligere familiepleier etter folketrygdloven § 16-7 slik paragrafen lød før 1. januar 2024.
 >
 
+## § 28
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 28 skal lyde:*
+
+> Krigspensjoneringen administreres av Arbeids- og velferdsetaten.
+>
+> Vedtak etter denne loven fattes av Arbeids- og velferdsdirektoratet, som kan delegere vedtaksmyndighet til underliggende organer.
+>
+
+## § 3
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 3 Gruppe 2 skal lyde:*
+
+> Gruppe 2.
+>
+> Fiskere og andre sivilpersoner i yrke eller bedrift som antas å ha vært særlig utsatt for krigsulykker.
+>
+
+## § 31
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 31 tredje og fjerde punktum skal lyde:*
+
+> Ytelsene regnes i så fall fra den dag han gjør kravet gjeldende for Arbeids- og velferdsetaten. Når det finnes rimelig, kan det gjøres unntak fra denne regel.
+>
+
 ## § 32
 
 ### 2024-06-01 — lov/2024-05-24-24
@@ -174,7 +266,62 @@ refid: "lov/1946-12-13-22"
 > Det samme gjelder hvis en trygdet som oppebærer stønad etter loven uten rimelig grunn unnlater å etterkomme legens råd, nekter å gjennomgå arbeidsrettede tiltak eller gjør seg skyldig i grov skjødesløshet med hensyn til sin helse.
 >
 
+## § 34
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 34 første ledd første punktum skal lyde:*
+
+> Det kan bestemmes at barnepensjoner og barnetillegg skal utbetales til den som har omsorgen for barnet.
+>
+
+## § 35
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 35 skal lyde:*
+
+> Krav på pensjoner eller andre ytelser etter denne lov må snarest mulig meldes til Arbeids- og velferdsetaten på vedkommendes bosted med nødvendig legeerklæring.
+>
+> Arbeids- og velferdsetaten kan nekte ytelser etter kapitel II dersom krav ikke er fremsatt uten ugrunnet opphold.
+>
+> Rett til pensjoner og andre ytelser etter kapitel III og IV faller bort hvis det ikke er reist krav overfor Arbeids- og velferdsetaten innen tre år etter at skaden er inntruffet.
+>
+> Det kan ses bort fra denne fristen når særlige grunner foreligger.
+>
+
+## § 36
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 36 første punktum skal lyde:*
+
+> Midlertidig utbetaling av hel eller delvis pensjon kan settes i verk før pensjonskravet er endelig avgjort, når Arbeids- og velferdsetaten finner det overveiende sannsynlig at vilkårene for pensjon er til stede.
+>
+
+## § 39
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 39 nr. 2 skal lyde:*
+
+> Arbeids- og velferdsetaten kan, når det finnes nødvendig for avgjørelsen av en sak etter denne lov, la innhente forklaringer gjennom bevisopptakelse etter reglene i lov om rettergangsmåten for tvistemål eller ved politiet.
+>
+
+## § 40
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 40 oppheves.*
+
 ## § 6
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 6 nr. 2 første punktum skal lyde:*
+
+> Når det finnes rimelig, kan det tilstås sykepenger til person under 18 år.
+>
 
 ### 2014-06-20 — lov/2014-06-20-24
 

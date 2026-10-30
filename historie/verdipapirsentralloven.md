@@ -90,9 +90,23 @@ refid: "lov/2019-03-15-6"
 
 ## (annet)
 
+### 2021-05-15 — forskrift/2021-04-30-1334
+
+*Loven trer i kraft 15. mai 2021.*
+
+> Loven trer i kraft 15. mai 2021.
+>
+
 ### 2021-06-11 — lov/2021-06-11-84
 
 *Nåværende § 11-5 tredje ledd blir nytt fjerde ledd.*
+
+### 2023-07-01 — forskrift/2022-09-02-1527
+
+*Delt ikraftsetting av lov 11. juni 2021 nr. 84 om endringer i aksjelovgivningen mv. (åpenhet om eierskap og deltakelse på generalforsamlingen). Del I (aksjeloven) § 1-7 tredje og fjerde ledd og § 4-4, del II (allmennaksjeloven) § 1-8, oppheving av § 4-2 tredje ledd, § 4-10, § 4-15 femte ledd, § 5-2,*
+
+> Delt ikraftsetting av lov 11. juni 2021 nr. 84 om endringer i aksjelovgivningen mv. (åpenhet om eierskap og deltakelse på generalforsamlingen). Del I (aksjeloven) § 1-7 tredje og fjerde ledd og § 4-4, del II (allmennaksjeloven) § 1-8, oppheving av § 4-2 tredje ledd, § 4-10, § 4-15 femte ledd, § 5-2, § 5-3, § 5-10 første ledd og oppheving av § 5-10 fjerde ledd tredje punktum og del III (verdipapirsentralloven) trer i kraft 1. juli 2023.
+>
 
 ### 2025-05-27 — lov/2025-05-27-18
 
@@ -101,9 +115,34 @@ refid: "lov/2019-03-15-6"
 > EØS-avtalen vedlegg IX forordning (EU) nr. 909/2014 (om forbedring av verdipapiroppgjør i Den europeiske union og om verdipapirsentraler samt om endring av direktiv 98/26/EF og 2014/65/EU og forordning (EU) nr. 236/2012 (verdipapirsentralforordningen)) som endret ved forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, gjelder som lov med de tilpasninger som følger av vedlegg IX til avtalen, protokoll 1 til avtalen og avtalen for øvrig.
 >
 
+### 2025-06-20 — forskrift/2025-06-20-1084
+
+*Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.*
+
+> Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.
+>
+
+### 2025-07-01 — forskrift/2025-05-27-868
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
 ### 2026-06-19 — lov/2026-06-19-48
 
 *I lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. skal § 8-3 første ledd nr. 3 annet punktum lyde:*
 
 > Føreren av Konkursregisteret, retten, bostyrer og rekonstruktør som er oppnevnt av retten, har rett til å få alle opplysninger som er registrert om en konkursskyldner eller en skyldner som er under rekonstruksjonsforhandling, eller om en avdød ved skifte av insolvent dødsbo, herunder alle opplysninger om finansielle instrumenter som er innført i verdipapirsentralen.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >

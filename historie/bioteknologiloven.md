@@ -179,10 +179,6 @@ refid: "lov/2003-12-05-100"
 
 > En sædgiver skal være over 18 år og ikke fratatt rettslig handleevne på det personlige området.
 >
-> 50. I lov 20. mai 2005 nr. 28 om straff skal § 261 første ledd lyde:
->
-> Den som alvorlig eller gjentatte ganger unndrar en mindreårig eller holder denne unndratt fra noen som i henhold til lov, avtale eller rettsavgjørelse skal ha den mindreårige boende fast hos seg, eller som urettmessig unndrar den mindreårige fra noen som har omsorgen etter barnevernloven, straffes med bot eller fengsel inntil 2 år. På samme måte straffes den som tar en mindreårig ut av landet eller holder tilbake en mindreårig i utlandet og ved det ulovlig unndrar den mindreårige fra noen som i henhold til lov, avtale eller rettsavgjørelse har foreldreansvar eller som har omsorgen etter barnevernloven.
->
 
 ### 2020-06-19 — lov/2020-06-19-78
 
@@ -475,6 +471,15 @@ refid: "lov/2003-12-05-100"
 > Fosterdiagnostikk med sikte på å fastsette farskap og farskapstesting på fosterstadiet er forbudt. Dette gjelder ikke når svangerskapet kan være et resultat av omstendigheter som omtalt i straffeloven §§ 291, 295, 296, 299 og 304.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 4-6 skal lyde:*
+
+> § 4-6.Farskapstesting på fosterstadiet
+>
+> Fosterdiagnostikk med sikte på å fastsette farskap og farskapstesting på fosterstadiet er forbudt. Dette gjelder ikke når svangerskapet kan være et resultat av omstendigheter som omtalt i straffeloven §§ 291, 295, 296, 299 bokstav a, 302, 312, 313 og 314 bokstav a.
+>
+
 ## § 5-1
 
 ### 2020-06-19 — lov/2020-06-19-78
@@ -647,6 +652,15 @@ refid: "lov/2003-12-05-100"
 > Første ledd gjelder ikke for:privatpersoner som søker eller benytter tilbud som er i strid med denne loven,den som donerer egg, sæd eller befruktede egg ellerforskningsdeltakere.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 7-5 første ledd skal lyde:*
+
+> Den som overtrer loven eller bestemmelser gitt i medhold av loven straffes med bøter eller fengsel i inntil tre måneder.
+>
+> 202. I lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. gjøres følgende endring:
+>
+
 ### 2020-06-19 — lov/2020-06-19-78
 
 *§ 7-5 nytt tredje ledd skal lyde:*
@@ -746,6 +760,41 @@ refid: "lov/2003-12-05-100"
 > Loven trer i kraft fra 1. juli 2013.
 >
 
+### 2014-06-01 — forskrift/2014-05-09-622
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
+
+### 2015-05-07 — lov/2015-05-07-26
+
+*I lov 5. desember 2003 nr. 100 om humanmedisinsk bruk av bioteknologi m.m. skal § 1-2 tredje ledd lyde:*
+
+> Loven gjelder ikke for obduksjon som faller inn under lov 7. mai 2015 nr. 26 om obduksjon og avgjeving av lik til undervisning og forsking eller lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker § 228 om sakkyndig likundersøkelse.
+>
+
+### 2016-01-01 — forskrift/2015-11-13-1289
+
+*Ikraftsetting av 1. lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova) 2. lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova). Lovene trer i kraft 1. januar 2016.*
+
+> Ikraftsetting av 1. lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova) 2. lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova). Lovene trer i kraft 1. januar 2016.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1593
+
+*Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.*
+
+> Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.
+>
+
+### 2018-07-01 — forskrift/2018-04-06-553
+
+*Delt ikraftsetting av lov 18. desember 2015 nr. 121 om endringer i helselovgivningen (Nasjonalt klageorgan for helsetjenesten mv.). Del III, IV, VII og endringene i pasientskadeloven § 18 første ledd i del VI trer i kraft 1. juli 2018.*
+
+> Delt ikraftsetting av lov 18. desember 2015 nr. 121 om endringer i helselovgivningen (Nasjonalt klageorgan for helsetjenesten mv.). Del III, IV, VII og endringene i pasientskadeloven § 18 første ledd i del VI trer i kraft 1. juli 2018.
+>
+
 ### 2020-06-19 — lov/2020-06-19-78
 
 *§§ 2A-5–2A-7 oppheves.*
@@ -768,6 +817,13 @@ refid: "lov/2003-12-05-100"
 > Dette gjelder uavhengig av om vilkårene i pasient- og brukerrettighetsloven § 2-4 a annet ledd bokstav a er oppfylt.
 >
 
+### 2021-01-01 — forskrift/2020-12-04-2622
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
 ### 2025-06-20 — lov/2025-06-20-68
 
 *Noverande tredje til femte ledd blir nye femte til sjuande ledd.*
@@ -788,6 +844,10 @@ refid: "lov/2003-12-05-100"
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 28 første ledd annet punktum oppheves. Nåværende tredje punktum blir nytt annet punktum.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 28 første ledd annet punktum oppheves. Nåværende tredje punktum blir annet punktum.*
 
 ## § 2A-1
 

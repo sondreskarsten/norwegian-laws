@@ -14,6 +14,13 @@ refid: "lov/2015-05-22-33"
 > For øvrig gjelder bestemmelsene i forvaltningsloven §§ 13 a til 13 g så langt de passer.
 >
 
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2023-01-01 — lov/2022-12-20-117
 
 *Nåværende §§ 12 og 13 blir §§ 11 og 12 og skal lyde:*
@@ -32,6 +39,24 @@ refid: "lov/2015-05-22-33"
 *14.I lov 22. mai 2015 nr. 33 om Norges institusjon for menneskerettigheter skal § 11 andre ledd første punktum lyde:*
 
 > Arkivlova kapittel 1 og 2, med unntak av § 4 andre og tredje ledd, gjelder for institusjonens virksomhet.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
 >
 
 ### 2026-02-13 — lov/2026-02-13-5

@@ -5,7 +5,73 @@ refid: "lov/2005-06-10-51"
 
 # Endringshistorikk: Statsborgerloven
 
+## § 19-3
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 19-3 skal lyde:*
+
+> § 19-3.Ansvar for foretak
+>
+> Straffansvar for foretak er regulert i straffeloven §§ 27 og 28.
+>
+
+## § 19-4
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 19-4 nytt annet punktum skal lyde:*
+
+> Medvirkning straffes ikke.
+>
+
+## § 19-5
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 19-5 skal lyde:*
+
+> § 19-5.Offentlig tjenestemann
+>
+> Enhver som er knyttet til Arbeidstilsynet er i forhold til straffeloven å regne som offentlig tjenestemann.
+>
+
+## § 19-7
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 19-7 oppheves.*
+
 ## (annet)
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*253. I lov 10. juni 2005 nr. 51 om norsk statsborgerskap (statsborgerloven) skal § 33 lyde:*
+
+> Den som forsettlig eller grovt uaktsomt gir vesentlig uriktige eller åpenbart villedende opplysninger i en sak etter loven her, straffes med bøter eller fengsel inntil seks måneder eller begge deler.
+>
+> Overtredelse påtales bare når allmenne hensyn krever det.
+>
+
+### 2010-01-01 — forskrift/2009-10-30-1324
+
+*Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.*
+
+> Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 9. januar 2009 nr. 1 om endringar i utlendingslovgivinga (reglar for EØS- og EFTA-borgarar o.a.). Lovens del I trer i kraft 1. januar 2010.
+>
+> Delvis ikraftsetting av lov 19. juni 2009 nr. 38 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS mv.). Lovens del II, endringen i utlendingsloven § 92 og § 94, og lovens del III trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 19. juni 2009 nr. 41 om endringer i utlendingsloven og i enkelte andre lover. Loven trer i kraft 1. januar 2010.
+>
+
+### 2012-12-10 — forskrift/2012-12-07-1149
+
+*Loven del I trer i kraft 10. desember 2012.*
+
+> Loven del I trer i kraft 10. desember 2012.
+>
 
 ### 2013-01-01 — forskrift/2012-04-27-364
 
@@ -16,67 +82,9 @@ refid: "lov/2005-06-10-51"
 
 ### 2013-03-08 — lov/2013-03-08-9
 
-*Endring i følgende lov:*
+*I lov 10. juni 2005 nr. 51 om norsk statsborgerskap skal ny § 5 a lyde:*
 
-> Endring i følgende lov:
->
-> Lov 10. juni 2005 nr. 51 om norsk statsborgerskap (statsborgerloven).
->
-> § 1
->
-> .
->
-> Formål
->
-> Formålet med loven er av hensyn til barnets beste å gi en midlertidig adgang til å overføre foreldreskap for barn i Norge født av surrogatmor i utlandet for de tilfeller som omfattes av § 2. Loven gjelder ikke overføring av foreldreskap der avtalen med surrogatmor er inngått under tvang.
->
-> § 2
->
-> .
->
-> Vilkår for og rettsvirkninger av overføring av foreldreskap
->
-> Juridisk fars nåværende eller tidligere ektefelle, registrerte partner eller samboer som sammen med barnets far inngikk avtale med surrogatmor, kan søke om foreldreskap for barnet. Søkeren må dokumentere at barnets far og søkeren hadde et felles ønske om å oppfostre barnet sammen. Utenlandsk dom, administrativ avgjørelse eller avtale som dokumenterer et slikt felles ønske, må fremlegges. Der det ikke foreligger et samtykke fra barnets far om overføring av foreldreskapet fra surrogatmor til søker, kan den fremlagte dokumentasjonen tre i stedet for et samtykke fra barnets far.
->
-> Dersom surrogatmoren etter norsk rett har foreldreansvar for barnet, kreves surrogatmorens samtykke til overføring av foreldreskap. Er hun forsvunnet, sinnslidende eller utviklingshemmet, kreves samtykke fra verge. Dersom surrogatmoren ikke har del i foreldreansvaret, skal hun så vidt mulig få uttale seg før det blir truffet vedtak.
->
-> Dersom barnet har fylt 12 år, kreves et samtykke fra barnet for å overføre foreldreskapet. Et barn som er fylt 7 år, og yngre barn som er i stand til å danne seg egne synspunkter, skal informeres og gis anledning til å uttale seg før det tas avgjørelse om overføring av foreldreskap. Barnets mening skal tillegges vekt i samsvar med dets alder og modenhet.
->
-> Ved overføringen av foreldreskapet får barnet samme rettsstilling til faren og søkeren som om det hadde vært deres felles barn. Søkeren får ved overføringen foreldreansvar for barnet med mindre faren og søkeren avtaler noe annet. Samtidig faller rettsforholdet til surrogatmoren og hennes slekt bort. Rettsvirkningen inntrer fra vedtakstidspunktet.
->
-> Adopsjonsloven gjelder om ikke annet følger av loven her.
->
-> § 3
->
-> .
->
-> Jurisdiksjon og lovvalg
->
-> Søknad om overføring av foreldreskap etter denne lov kan avgjøres i Norge dersom søker har bopel i Norge og barnet oppholder seg i Norge på tidspunktet bestemt i § 4.
->
-> Søknaden avgjøres etter norsk rett.
->
-> § 4
->
-> .
->
-> Frist for å fremme søknad
->
-> Søknad om foreldreskap etter denne lov må fremmes innen 1. januar 2014.
->
-> § 5
->
-> .
->
-> Ikrafttredelse og endring i annen lov
->
-> Loven trer i kraft straks og oppheves 31. desember 2015.
->
-> I lov 10. juni 2005 nr. 51 om norsk statsborgerskap skal ny § 5 a lyde:
->
-> § 5 a.
->
-> Erverv ved overføring av foreldreskap for barn født i Norge av surrogatmor i utlandet
+> § 5 a.Erverv ved overføring av foreldreskap for barn født i Norge av surrogatmor i utlandet
 >
 > Der foreldreskap overføres til en norsk statsborger etter midlertidig lov om overføring av foreldreskap for barn i Norge født av surrogatmor i utlandet, blir barnet norsk statsborger ved overføringen dersom barnet er under 18 år på vedtakstidspunktet.
 >
@@ -88,11 +96,60 @@ refid: "lov/2005-06-10-51"
 > Erverv ved overføring av foreldreskap for barn i Norge født av surrogatmor i utlandet
 >
 
+### 2014-04-25 — forskrift/2014-04-25-571
+
+*Delt ikraftsetting av lov 25. mars 2014*
+
+> Delt ikraftsetting av lov 25. mars 2014
+>
+> om endringer i lov 28. februar 1986 nr. 8 om adopsjon (adopsjonsloven), lov 17. juli 1992 nr. 100 om barneverntjenester (barnevernloven) og lov 10. juni 2005 nr. 51 om norsk statsborgerskap (statsborgerloven).
+>
+> Lovens del I § 2, lovens del II § 4-20a første ledd, lovens del III § 5a og lovens del IV trer i kraft straks.
+>
+> Dette er dato for Stortingets vedtak, ikke lovens dato. Lovdatas anm.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*213. I lov 10. juni 2005 nr. 51 om norsk statsborgerskap skal § 33 lyde:*
+
+> § 33.Straff
+>
+> Den som forsettlig eller grovt uaktsomt gir vesentlig uriktige eller åpenbart villedende opplysninger i en sak etter loven her, straffes med bøter eller fengsel inntil seks måneder eller begge deler.
+>
+> 214. I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. gjøres følgende endringer:
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
 ### 2017-01-01 — forskrift/2016-11-18-1345
 
 *Lov 29. april 2016 nr. 8 om endringer i statsborgerloven (krav om norskkunnskaper og bestått prøve i samfunnskunnskap) trer i kraft 1. januar 2017.*
 
 > Lov 29. april 2016 nr. 8 om endringer i statsborgerloven (krav om norskkunnskaper og bestått prøve i samfunnskunnskap) trer i kraft 1. januar 2017.
+>
+
+### 2017-07-01 — forskrift/2017-06-02-680
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Romertall I § 51 tredje og fjerde ledd trer i kraft 1. juli 2017. Romertall III trer i kraft straks.*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 58 om endringer i utlendingsloven mv. (innstramninger II). Romertall I § 51 tredje og fjerde ledd trer i kraft 1. juli 2017. Romertall III trer i kraft straks.
+>
+> Utlendingsloven § 51 tredje og fjerde ledd gjelder bare for søknader som fremmes 1. juli 2017 eller senere.
+>
+
+### 2017-10-01 — forskrift/2017-06-09-718
+
+*Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.*
+
+> Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.
+>
+> Loven trer i kraft 1. oktober 2017, med unntak av § 10-1 tredje ledd.
 >
 
 ### 2018-05-25 — lov/2018-05-25-19
@@ -179,6 +236,13 @@ refid: "lov/2005-06-10-51"
 > Den saken gjelder og dennes prosessfullmektig har ikke rett til innsyn i den delen av sakens avgjørelse som inneholder opplysninger som nevnt i § 31 c første ledd.
 >
 
+### 2018-07-01 — forskrift/2018-06-15-884
+
+*Ikraftsetting av lov 16. juni 2017 nr. 48 om adopsjon. Loven trer i kraft 1. juli 2018.*
+
+> Ikraftsetting av lov 16. juni 2017 nr. 48 om adopsjon. Loven trer i kraft 1. juli 2018.
+>
+
 ### 2018-12-20 — lov/2018-12-20-121
 
 *Nytt kapittel 4 A med § 22 a skal lyde:*
@@ -198,11 +262,46 @@ refid: "lov/2005-06-10-51"
 > Kongen kan gi forskrift om kravet til klarlagt identitet og til politiattest.
 >
 
+### 2019-01-01 — forskrift/2018-05-25-759
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2019-04-01 — forskrift/2019-03-01-163
+
+*Ikraftsetting av lov 15. juni 2018 nr. 34 om endringer i barnelova og statsborgerloven (foreldreskap og statsborgerskap for barn født i utlandet). Loven trer i kraft 1. april 2019.*
+
+> Ikraftsetting av lov 15. juni 2018 nr. 34 om endringer i barnelova og statsborgerloven (foreldreskap og statsborgerskap for barn født i utlandet). Loven trer i kraft 1. april 2019.
+>
+
 ### 2020-01-01 — forskrift/2019-11-01-1458
 
 *Lov 20. desember 2018 nr. 121 om endringer i statsborgerloven (avvikling av prinsippet om ett statsborgerskap) trer i kraft 1. januar 2020.*
 
 > Lov 20. desember 2018 nr. 121 om endringer i statsborgerloven (avvikling av prinsippet om ett statsborgerskap) trer i kraft 1. januar 2020.
+>
+
+### 2020-01-15 — forskrift/2019-12-20-1921
+
+*Loven trer i kraft 15. januar 2020.*
+
+> Loven trer i kraft 15. januar 2020.
+>
+
+### 2020-04-24 — forskrift/2020-04-24-856
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2020-12-18 — forskrift/2020-12-18-2834
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ### 2021-03-12 — lov/2021-03-12-10
@@ -229,11 +328,43 @@ refid: "lov/2005-06-10-51"
 > Loven trer i kraft straks.
 >
 
+### 2022-01-01 — forskrift/2021-06-18-1974
+
+*Endringsloven trer i kraft 1. januar 2022.*
+
+> Endringsloven trer i kraft 1. januar 2022.
+>
+
 ### 2022-10-01 — forskrift/2022-08-26-1483
 
 *Ikraftsetting av lov 30. oktober 2020 nr. 123 om endringer i statsborgerloven (krav om ferdigheter i norsk muntlig). Loven trer i kraft 1. oktober 2022.*
 
 > Ikraftsetting av lov 30. oktober 2020 nr. 123 om endringer i statsborgerloven (krav om ferdigheter i norsk muntlig). Loven trer i kraft 1. oktober 2022.
+>
+
+### 2024-12-20 — forskrift/2024-12-20-3298
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del V (folketrygdloven) §§ 8-49, 11-4, 11-13, 11-16, 11-18, 13-2, 13-11 og 20-4.
+>
+> Endringsloven del VI (lov om arbeidsmarkedstjenester), VII (lov om norsk statsborgerskap), IX (AFP-tilskottsloven), X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) og XI (lov 24. november 2023 nr. 83 om endringer i lov om Statens pensjonskasse og enkelte andre lover).
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) får virkning fra 1. oktober 2024, med unntak av endringene i §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2025:
+>
+> Endringsloven del I (lov om Statens pensjonskasse), II (lov om pensjonsordning for apotekvirksomhet mv.), III (lov om samordning av pensjons- og trygdeytelser) og IV (lov om pensjonsordning for sykepleiere).
+>
+> Endringsloven del V (folketrygdloven) opphevelsen av overskriften «V. Forsørgingstillegg» i kapittel 3 og endringene i §§ 3-3, 3-24, 3-25, 3-26, 4-5, 4-9, 4-10, 4-15, 4-16, 4-20, 4-21, 4-23, 4-26, 12-15, 19-3, 19-8, 19-9a og 22-16.
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2025:
+>
+> Endringsloven del VIII (lov om pensjonsordning for oppdragstaker i statlig beredskapshjem eller spesialisert fosterhjem).
 >
 
 ## § 10
@@ -489,10 +620,6 @@ refid: "lov/2005-06-10-51"
 
 > Utlendingsloven §§ 77 og 78 gjelder tilsvarende ved behandling av saker etter loven her.
 >
-> 13. I lov 17. juni 2005 nr. 67 om betaling og innkreving av skatte- og avgiftskrav skal § 4-1 annet ledd annet punktum lyde:
->
-> Pliktene og ansvaret påhviler også den som oppgir å være arbeidsgiver i saker etter utlendingsloven §§ 23 tredje ledd og 24 annet ledd.
->
 
 ### 2012-04-27 — lov/2012-04-27-22
 
@@ -627,6 +754,17 @@ refid: "lov/2005-06-10-51"
 > Kongen skal i forskrift gi nærmere regler om hvilke organer som kan pålegge utlevering av opplysninger etter annet ledd, i hvilke sakstyper det kan innhentes opplysninger, hvem det kan innhentes opplysninger om og hvilke opplysninger som kan innhentes.
 >
 
+### 2016-12-09 — lov/2016-12-09-88
+
+*§ 29 tredje ledd bokstav d, e og ny f skal lyde:*
+
+> Statens lånekasse for utdanning,
+>
+> kommunene og
+>
+> Folkeregisteret.
+>
+
 ### 2020-04-24 — lov/2020-04-24-35
 
 *§ 29 tredje og fjerde ledd oppheves.*
@@ -730,7 +868,9 @@ refid: "lov/2005-06-10-51"
 
 *§ 7 første ledd bokstavene d og e skal lyde:*
 
-> fyller vilkårene for permanent oppholdstillatelse i utlendingsloven § 62,har til sammen syv års opphold i riket i løpet av de siste ti årene, med oppholdstillatelser av minst ett års varighet, opphold i en eller flere søknadsperioder medregnet i syvårsperioden, jf. femte ledd,
+> fyller vilkårene for permanent oppholdstillatelse i utlendingsloven § 62,
+>
+> har til sammen syv års opphold i riket i løpet av de siste ti årene, med oppholdstillatelser av minst ett års varighet, opphold i en eller flere søknadsperioder medregnet i syvårsperioden, jf. femte ledd,
 >
 
 ### 2012-04-27 — lov/2012-04-27-22
@@ -763,7 +903,9 @@ refid: "lov/2005-06-10-51"
 
 *§ 7 første ledd bokstav f og g skal lyde:*
 
-> fyller kravene om norskopplæring og kunnskaper i norsk muntlig og samfunnskunnskap fastsatt i § 8, ogikke er ilagt straff eller strafferettslig særreaksjon eller har utholdt karenstid, jf. § 9.
+> fyller kravene om norskopplæring og kunnskaper i norsk muntlig og samfunnskunnskap fastsatt i § 8, og
+>
+> ikke er ilagt straff eller strafferettslig særreaksjon eller har utholdt karenstid, jf. § 9.
 >
 
 ### 2018-12-20 — lov/2018-12-20-121

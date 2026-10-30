@@ -7,6 +7,22 @@ refid: "lov/2002-06-14-20"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*126. I lov 14. juni 2002 nr. 20 om vern mot brann, eksplosjon og ulykker med farlig stoff og om brannvesenets redningsoppgaver skal § 44 lyde:*
+
+> § 44.Overgangsbestemmelser
+>
+> Forskrifter, vedtekter og andre bestemmelser gitt i medhold av lov 21. mai 1971 nr. 47 om brannfarlige varer samt væsker og gasser under trykk, lov 14. juni 1974 nr. 39 om eksplosive varer og lov 5. juni 1987 nr. 26 om brannvern m.v. gjelder inntil videre i den utstrekning de ikke strider mot loven her eller bestemmelser gitt i medhold av den. Det samme gjelder tillatelser, godkjenninger, samtykker m.m. så langt tilsynsmyndigheten aksepterer dette.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*225. I lov 14. juni 2002 nr. 20 om vern mot brann, eksplosjon og ulykker med farlig stoff og om brannvesenets redningsoppgaver (brann- og eksplosjonsvernloven) skal § 42 første ledd lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer denne loven, sentrale eller lokale forskrifter eller enkeltvedtak fastsatt i medhold av denne loven, straffes med bøter eller med fengsel inntil 3 måneder.
+>
+
 ### 2009-06-19 — lov/2009-06-19-84
 
 *I kapittel 4 skal ny § 19 a lyde:*
@@ -36,6 +52,84 @@ refid: "lov/2002-06-14-20"
 > Departementet bestemmer hvem som skal føre tilsyn med kommunenes gjennomføring av plikter pålagt etter §§ 9 til 16.
 >
 > For tilsyn med lovligheten av kommunenes gjennomføring av plikter etter §§ 9 til 16 gjelder kapittel 10A i lov 25. september 1992 nr. 107 om kommuner og fylkeskommuner.
+>
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*23. I lov 14. juni 2002 nr. 20 om vern mot brann, eksplosjon og ulykker med farlig stoff og om brannvesenets redningsoppgaver, skal § 43 første ledd ny bokstav f lyde:*
+
+> saksbehandlingen til utfylling av reglene i tjenesteloven for tillatelsesordninger i eller i medhold av loven her, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 andre ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.
+>
+> 24. I lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet § 7, skal nytt femte og sjette ledd lyde:
+>
+> Tjenesteloven § 11 annet ledd om automatisk innvilgelse gjelder ikke for godkjenninger etter denne paragraf.
+>
+> Kongen kan i forskrift fastsette særskilte saksbehandlingsfrister for godkjenninger etter denne paragraf.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
+### 2015-05-29 — forskrift/2015-05-29-553
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*189. I lov 14. juni 2002 nr. 20 om vern mot brann, eksplosjon og ulykker med farlig stoff og om brannvesenets redningsoppgaver skal § 42 annet ledd lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer denne loven, sentrale eller lokale forskrifter eller enkeltvedtak fastsatt i medhold av denne loven, straffes med bot eller fengsel inntil 3 måneder.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2020-11-01 — forskrift/2020-10-30-2181
+
+*Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.*
+
+> Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 87 om endring i vegtrafikkloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Delt ikraftsetting av lov 20. desember 2019 nr. 88 om endringer i eigedomsskattelova. Endringsloven del I trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 89 om endring i fjellova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 91 om endring i rettsgebyrloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 93 om endringer i folketrygdloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 95 om endring i brann- og eksplosjonsvernloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 99 om endring i vass- og avløpsanleggslova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 100 om endring i a-opplysningsloven. Endringsloven trer i kraft 1. november 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2023-01-27 — lov/2023-01-27-1
@@ -91,6 +185,17 @@ refid: "lov/2002-06-14-20"
 *I lov 14. juni 2002 nr. 20 om vern mot brann, eksplosjon og ulykker med farlig stoff og om brannvesenets redningsoppgaver skal § 17 a fjerde ledd første punktum lyde:*
 
 > Overtredelse av første ledd andre punktum straffes etter legemiddelloven § 31 tredje ledd.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ## § 1
@@ -222,6 +327,10 @@ refid: "lov/2002-06-14-20"
 >
 > Innkrevingssentralen kan også inndrive avgiftene og gebyrene ved å stifte utleggspant for kravet dersom panteretten kan gis rettsvern ved registrering i et register eller ved underretning til en tredjeperson, jf. lov 8. februar 1980 nr. 2 om pant kapittel 5, og utleggsforetning kan holdes på Innkrevningssentralens kontor etter lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse § 7-9 første ledd.
 >
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 28 femte ledd og sjette ledd oppheves.*
 
 ### 2019-12-20 — lov/2019-12-20-95
 

@@ -7,6 +7,15 @@ refid: "lov/1993-04-02-38"
 
 ## (annet)
 
+### 2003-05-09 — lov/2003-05-09-31
+
+*5. I lov 2. april 1993 nr. 38 om framstilling og bruk av genmodifiserte organismer (genteknologiloven) skal § 13 lyde:*
+
+> § 13.Offentlig høring
+>
+> Ved saker som krever godkjenning etter denne loven, kan godkjenningsmyndigheten bestemme at det skal gjennomføres en offentlig høring. Det skal alltid gjennomføres offentlig høring i saker som gjelder godkjenning av søknad om utsetting av genmodifiserte organismer. Høring skal holdes i god tid før søknaden blir avgjort. Høringsprosessen må gjennomføres på en måte som sikrer at allmennheten, og i særlig grad berørte interessegrupper, får tilgang til relevant informasjon og gis en reell mulighet til å komme med synspunkter og kommentarer i saken. Beslutningen om at offentlig høring skal holdes, skal kunngjøres.
+>
+
 ### 2004-05-07 — lov/2004-05-07-22
 
 *Overskrifta til kapittel 2 skal lyde:*
@@ -48,9 +57,32 @@ refid: "lov/1993-04-02-38"
 > Kongen kan i forskrift fastsette nærmere krav til virksomheten, krav til innholdet i plikten til å føre protokoll og krav til opplysninger til bruk i myndighetenes registrering av kloning av dyr.
 >
 
+### 2006-01-01 — lov/2005-06-17-79
+
+*8. I lov 2. april 1993 nr. 38 om framstilling og bruk av genmodifiserte organismer (genteknologiloven) skal § 9, annet ledd bokstav c lyde:*
+
+> bruk av genmodifiserte organismer i veksthus, akvakulturinnretning, dyrestaller o.l., med mindre slike er godkjent for innesluttet bruk som en del av et godkjent laboratorium eller annet anlegg
+>
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*13. I lov 2. april 1993 nr. 38 om framstilling og bruk av genmodifiserte organismer m.m. skal § 12 lyde:*
+
+> § 12.Forholdet til offentleglova
+>
+> Offentleglova gjelder for saker som behandles etter denne lov. Uten hinder av taushetsplikt skal følgende opplysninger likevel alltid være offentlige, med mindre de faller inn under offentleglova §§ 20 og 21:beskrivelse av den genmodifiserte organismen, brukerens navn og adresse, formålet med bruken og bruksstedetmetoder og planer for overvåking og beredskapvurderinger av hvilke virkninger som kan forutses.
+>
+
 ### 2014-05-09 — lov/2014-05-09-15
 
 *Kapittel 5 overskriften skal lyde:*
+
+### 2014-06-01 — forskrift/2014-05-09-622
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
 
 ### 2022-05-20 — lov/2022-05-20-30
 

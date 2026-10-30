@@ -79,6 +79,17 @@ refid: "lov/1981-05-22-25"
 > I endringen i lov 20. juli 1991 nr. 67 om overføring av domfelte gjøres følgende endring:
 >
 
+### 2002-12-13 — lov/2002-12-13-85
+
+*3. I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker (straffeprosessloven) skal § 118 første ledd første og nytt annet punktum lyde:*
+
+> Uten samtykke fra departementet må retten ikke ta imot forklaring som vitnet ikke kan gi uten å krenke lovbestemt taushetsplikt han har som følge av tjeneste eller arbeid for stat eller kommune. Tilsvarende gjelder for vitne som har taushetsplikt som følge av tjeneste eller arbeid for familievernkontor, postoperatør, tilbyder av tilgang til telenett eller teletjeneste, teleinstallatør, eller statens lufthavnselskap.
+>
+
+### 2002-12-13 — lov/2002-12-13-85
+
+*Nåværende annet punktum blir nytt tredje punktum.*
+
 ### 2003-01-10 — lov/2003-01-10-3
 
 *Nytt nr. 10 skal lyde:*
@@ -109,6 +120,10 @@ refid: "lov/1981-05-22-25"
 ### 2004-07-02 — lov/2004-07-02-61
 
 *Kapittel 9 a skal lyde:*
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*Nåværende annet ledd i § 256 blir nytt tredje ledd.*
 
 ### 2005-06-17 — lov/2005-06-17-89
 
@@ -216,6 +231,20 @@ refid: "lov/1981-05-22-25"
 
 *Nåværende annet, tredje og fjerde ledd blir nytt tredje, fjerde og femte ledd.*
 
+### 2009-06-19 — lov/2009-06-19-41
+
+*6. I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 annet ledd bokstav d lyde:*
+
+> forbrytelse mot militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, tolloven § 66, merverdiavgiftsloven § 72, ligningsloven § 12-1, utlendingsloven § 108 annet ledd, jf. femte ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum og bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum.
+>
+
+### 2009-06-19 — lov/2009-06-19-58
+
+*3. I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker (straffeprosessloven) skal § 67 annet ledd bokstav d lyde:*
+
+> forbrytelse mot militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, merverdiavgiftsloven § 21-4, ligningsloven § 12-1, utlendingsloven § 47 annet ledd, jf. femte ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum og bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum.
+>
+
 ### 2009-06-19 — lov/2009-06-19-74
 
 *Nåværende annet ledd i § 256 blir nytt tredje ledd.*
@@ -240,6 +269,46 @@ refid: "lov/1981-05-22-25"
 > Analyseinstitusjonen kan likevel oppbevare profilene utelukkende for det formål å dokumentere sin virksomhet.
 >
 
+### 2010-01-01 — forskrift/2009-10-30-1324
+
+*Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.*
+
+> Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 9. januar 2009 nr. 1 om endringar i utlendingslovgivinga (reglar for EØS- og EFTA-borgarar o.a.). Lovens del I trer i kraft 1. januar 2010.
+>
+> Delvis ikraftsetting av lov 19. juni 2009 nr. 38 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS mv.). Lovens del II, endringen i utlendingsloven § 92 og § 94, og lovens del III trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 19. juni 2009 nr. 41 om endringer i utlendingsloven og i enkelte andre lover. Loven trer i kraft 1. januar 2010.
+>
+
+### 2010-01-01 — forskrift/2009-11-06-1347
+
+*Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.*
+
+> Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.
+>
+
+### 2010-01-15 — forskrift/2010-01-15-33
+
+*Loven del I og III trer i kraft 1. mars 2010. Loven del II trer i kraft straks.*
+
+> Loven del I og III trer i kraft 1. mars 2010. Loven del II trer i kraft straks.
+>
+
+### 2010-03-26 — lov/2010-03-26-9
+
+*6. I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker (straffeprosessloven) skal ny § 93 g lyde:*
+
+> § 93 g.
+>
+> Rettigheter som etter loven her tilkommer fornærmede og etterlatte, utøves av vergen når den fornærmede eller etterlatte er under 18 år, med mindre noe annet følger av lov. Er vergene uenige seg imellom om utøvelsen av rettighetene, skal det oppnevnes en setteverge.
+>
+> En mindreårig som har fylt 15 år, kan på ethvert tidspunkt i saken selv utøve rettighetene som fornærmet eller etterlatt, med mindre den mindreårige er i en tilstand som beskrevet i vergemålsloven § 20.
+>
+> Rettigheter som nevnt i første ledd utøves av vergen når den fornærmede eller etterlatte fullt ut er fratatt den rettslige handleevnen. Det samme gjelder en fornærmet eller etterlatt som delvis er fratatt den rettslige handleevnen når fratakelsen av handleevnen må anses å omfatte det å utøve prosessuelle rettigheter.
+>
+
 ### 2010-04-01 — forskrift/2010-03-19-407
 
 *Delvis ikraftsetting av lov 20. juni 2008 nr. 47 om endringer i straffeprosessloven mv. (overføring av kompetanse til å innkalle til soning og behandle søknader om soningsutsettelse).*
@@ -252,6 +321,15 @@ refid: "lov/1981-05-22-25"
 ### 2010-12-10 — lov/2010-12-10-76
 
 *Nåværende § 148 fjerde og femte punktum blir femte og sjette punktum.*
+
+### 2010-12-10 — forskrift/2010-12-10-1574
+
+*Delt ikraftsetting av lovendringene.*
+
+> Delt ikraftsetting av lovendringene.
+>
+> Lovendringene, med unntak av endringene i domstolloven § 159a og straffeprosessloven § 42, § 107b, § 109a, § 149a, § 185, § 248, § 271 og § 272, trer i kraft 10. desember 2010.
+>
 
 ### 2011-01-28 — forskrift/2011-01-28-99
 
@@ -273,9 +351,19 @@ refid: "lov/1981-05-22-25"
 > Loven del II trer i kraft 1. juli 2011.
 >
 
+### 2011-09-01 — forskrift/2011-08-12-834
+
+*De deler av lov 10. desember 2010 nr. 76 om endringer i straffeprosessloven mv. som ikke ble satt i kraft ved kongelig resolusjon 10. desember 2010 nr. 1574, settes i kraft. Endringer i domstolloven § 159a og straffeprosessloven § 42, § 107b, § 109a, § 149a, § 185, § 248, § 271 og § 272 trer i kraft*
+
+> De deler av lov 10. desember 2010 nr. 76 om endringer i straffeprosessloven mv. som ikke ble satt i kraft ved kongelig resolusjon 10. desember 2010 nr. 1574, settes i kraft. Endringer i domstolloven § 159a og straffeprosessloven § 42, § 107b, § 109a, § 149a, § 185, § 248, § 271 og § 272 trer i kraft 1. september 2011.
+>
+
 ### 2012-01-20 — lov/2012-01-20-5
 
-*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 annet ledd bokstav d lyde:forbrytelse mot militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, merverdiavgiftsloven § 21-4, ligningsloven § 12-1, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum og bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum.*
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 annet ledd bokstav d lyde:*
+
+> forbrytelse mot militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, merverdiavgiftsloven § 21-4, ligningsloven § 12-1, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum og bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum.
+>
 
 ### 2012-01-20 — lov/2012-01-20-6
 
@@ -284,6 +372,20 @@ refid: "lov/1981-05-22-25"
 ### 2012-01-20 — lov/2012-01-20-6
 
 *Nåværende tredje til femte ledd blir nye fjerde til sjette ledd.*
+
+### 2012-01-20 — forskrift/2012-01-20-41
+
+*Lovendringene i straffeloven § 18, § 28 annet ledd, § 28a annet ledd og § 39c annet ledd, straffeprosessloven § 69 annet ledd tredje punktum, § 98 første ledd annet punktum, § 161a, § 183 annet og tredje ledd, § 184 annet ledd annet punktum, § 185 annet ledd, § 186 annet ledd tredje punktum og § 186*
+
+> Lovendringene i straffeloven § 18, § 28 annet ledd, § 28a annet ledd og § 39c annet ledd, straffeprosessloven § 69 annet ledd tredje punktum, § 98 første ledd annet punktum, § 161a, § 183 annet og tredje ledd, § 184 annet ledd annet punktum, § 185 annet ledd, § 186 annet ledd tredje punktum og § 186a, del VI, straffegjennomføringsloven § 6 tredje ledd, § 10 fjerde ledd, § 11 femte ledd, § 16 første ledd annet punktum og annet ledd, straffeloven 2005 § 40 første ledd annet punktum, § 48 annet ledd, § 53 fjerde ledd, § 55 tredje ledd og § 78 bokstav h og i, samt del XII trer i kraft straks.
+>
+
+### 2012-02-01 — forskrift/2012-01-20-37
+
+*Loven gjelder fra 1. februar 2012.*
+
+> Loven gjelder fra 1. februar 2012.
+>
 
 ### 2012-03-30 — lov/2012-03-30-14
 
@@ -294,6 +396,29 @@ refid: "lov/1981-05-22-25"
 > Koordinerende bistandsadvokat skal, så langt det er mulig, samordne bistandsadvokatenes syn på spørsmål som oppstår under etterforskningen og forberedelsen av hovedforhandlingen og bidra til en hensiktsmessig gjennomføring av saken i samarbeid med øvrige aktører. Dersom det er nødvendig for en hensiktsmessig gjennomføring av saken, kan retten beslutte at spørsmål som den enkelte bistandsadvokat ønsker stilt under etterforskning, bevisopptak og hovedforhandling til andre enn egen klient, jf. § 271 andre ledd andre punktum og § 291 a, skal samordnes og stilles av koordinerende bistandsadvokat.
 >
 > Rettens oppnevning av en bestemt koordinerende bistandsadvokat kan ikke ankes eller brukes som ankegrunn.
+>
+
+### 2012-10-16 — forskrift/2012-09-21-895
+
+*Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 1 til § 42 trer i kraft 16. oktober 2012 for nordiske arrestordrar.*
+
+> Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 1 til § 42 trer i kraft 16. oktober 2012 for nordiske arrestordrar.
+>
+> Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 43 om endringar i andre lover, trer i kraft 16. oktober 2012, med unntak av endringa i lov 13. juni 1975 nr. 39 om utlevering § 1.
+>
+
+### 2013-01-01 — forskrift/2012-12-14-1208
+
+*Lov 22. juni 2012 nr. 52 om endringer i utleveringsloven m.m. del I, II, III, IV og V trer i kraft 1. januar 2013.*
+
+> Lov 22. juni 2012 nr. 52 om endringer i utleveringsloven m.m. del I, II, III, IV og V trer i kraft 1. januar 2013.
+>
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*Nåværende § 14 sjette ledd annet punktum blir nytt tredje punktum.*
+
+> 9. I lov 20. juni 1986 nr. 35 om mesterbrev i håndverk og annen næring gjøres følgende endring:
 >
 
 ### 2013-04-05 — lov/2013-04-05-12
@@ -319,6 +444,13 @@ refid: "lov/1981-05-22-25"
 ### 2013-05-24 — lov/2013-05-24-19
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
 
 ### 2013-06-14 — lov/2013-06-14-43
 
@@ -370,6 +502,13 @@ refid: "lov/1981-05-22-25"
 > Den særskilte dommerens beslutning om ikke å omgjøre en kjennelse, kan ikke ankes.
 >
 
+### 2013-06-21 — forskrift/2013-06-21-687
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2013-12-30 — forskrift/2013-12-13-1477
 
 *Lov 21. juni 2013 nr. 84 om endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.) trer i kraft 30. desember 2013.*
@@ -377,9 +516,33 @@ refid: "lov/1981-05-22-25"
 > Lov 21. juni 2013 nr. 84 om endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.) trer i kraft 30. desember 2013.
 >
 
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
+### 2014-07-01 — forskrift/2014-06-13-721
+
+*Lovendringene i straffeloven § 15, § 28 c, § 53 nr. 3 bokstav c, § 53 nr. 3 bokstav h, § 53 nr. 6, straffeprosessloven § 76 femte ledd, § 96 tredje ledd, § 99 første ledd tredje punktum, § 100 annet ledd annet punktum, § 107 a første ledd bokstav d, del V, del VII, del VIII, straffeloven 2005 § 29 f*
+
+> Lovendringene i straffeloven § 15, § 28 c, § 53 nr. 3 bokstav c, § 53 nr. 3 bokstav h, § 53 nr. 6, straffeprosessloven § 76 femte ledd, § 96 tredje ledd, § 99 første ledd tredje punktum, § 100 annet ledd annet punktum, § 107 a første ledd bokstav d, del V, del VII, del VIII, straffeloven 2005 § 29 første ledd, § 30 første ledd bokstav g, § 37 første ledd bokstav d, § 37 første ledd bokstav i, § 52 a, § 52 b og § 52 c, samt del XI trer i kraft 1. juli 2014.
+>
+
+### 2014-07-01 — forskrift/2014-06-20-792
+
+*Loven trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. juli 2014.
+>
+
 ### 2015-01-01 — lov/2014-08-29-62
 
-*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 andre ledd bokstav d lyde:forbrytelse mot militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, merverdiavgiftsloven § 21-4, ligningsloven § 12-1, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum og forurensningsloven § 79 tredje ledd.*
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 andre ledd bokstav d lyde:*
+
+> forbrytelse mot militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, merverdiavgiftsloven § 21-4, ligningsloven § 12-1, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum og forurensningsloven § 79 tredje ledd.
+>
 
 ### 2015-03-27 — lov/2015-03-27-15
 
@@ -413,6 +576,52 @@ refid: "lov/1981-05-22-25"
 > Loven trer i kraft straks.
 >
 
+### 2015-05-12 — lov/2015-05-12-27
+
+*3. I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 222 andre punktum lyde:*
+
+> Reglene i lov om forsvunne personar § 6 får anvendelse så langt de passer.
+>
+> 4. I lov 17. desember 1982 nr. 86 om rettsgebyr blir § 10 første ledd nr. 8 oppheva.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*I kapittel 6 skal ny § 62 a lyde:*
+
+> Den offentlige påtalemyndighet skal påtale straffbare handlinger når ikke annet er bestemt ved lov.
+>
+> For overtredelse av straffebud med en strafferamme på 2 år eller lavere kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale. Ved vurderingen av om allmenne hensyn foreligger, legges det blant annet vekt på overtredelsens grovhet, hensynet til den alminnelige lovlydighet og om den fornærmede, en annen som har lidt skade ved overtredelsen, eller vedkommende berørte myndighet ønsker påtale.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*I kapittel 7 skal ny § 81 a lyde:*
+
+> Retten til å begjære påtale på statens vegne utøves av departementet, som kan gi fullmakt til annet offentlig organ eller tjenestemann for så vidt gjelder verdier eller interesser som vedkommende forvalter eller fører tilsyn med. Rammes verdier som varetas av en statlig forretningsdrivende enhet eller offentlig innretning, kan påtale begjæres av styret. Styret kan gi et styremedlem, den daglige leder eller den som er meddelt prokura, fullmakt til å begjære offentlig påtale av straffbare handlinger som er begått, eller av fremtidige straffbare handlinger av nærmere angitt slag. Dersom virksomhet som nevnt i annet punktum drives utenfor hovedsetet, kan fullmakt for så vidt gjelder denne del av virksomheten gis også til den stedlige leder for vedkommende avdeling eller del av virksomheten eller til medlem av avdelingsstyret. Departementet kan gi bestemmelser om delegasjonsadgangen og om utøving av rett til å begjære påtale etter dette ledd og kan i tvilstilfelle avgjøre hvem som har slik rett.
+>
+> Retten til å begjære påtale på vegne av en fylkeskommune, en kommune eller en samkommune utøves av henholdsvis fylkesting, kommunestyre eller samkommunestyre. Fylkestinget kan gi fullmakt til fylkesutvalget, fylkesordføreren, fylkesrådet, faste utvalg og administrasjonssjefen. Kommunestyret kan gi fullmakt til formannskapet, ordføreren, kommunerådet, faste utvalg, kommunedelsutvalg og administrasjonssjefen. Samkommunestyret kan gi fullmakt til samkommunestyrets leder, faste utvalg og administrativ leder. Fullmakt kan bare gis for så vidt gjelder verdier eller interesser som vedkommende organ eller person forvalter eller fører tilsyn med. Første ledd annet og tredje punktum gjelder tilsvarende. Første ledd fjerde punktum gjelder tilsvarende i tilfelle en kommune utøver virksomhet utenfor kommunen, en fylkeskommune utøver virksomhet utenfor fylkeskommunen eller en samkommune utøver virksomhet utenfor samkommunen.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Nåværende annet ledd blir tredje ledd.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Nåværende annet ledd blir tredje ledd.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Nåværende annet ledd blir tredje ledd.*
+
+### 2015-07-01 — forskrift/2015-05-12-469
+
+*Loven gjelder fra 1. juli 2015.*
+
+> Loven gjelder fra 1. juli 2015.
+>
+
 ### 2015-10-02 — forskrift/2015-09-18-1065
 
 *Lov om endringer i straffeprosessloven (avhør av barn og andre særlig sårbare fornærmede og vitner) av 15. juni 2015 nr. 87*
@@ -422,6 +631,13 @@ refid: "lov/1981-05-22-25"
 > trer i kraft fra 2. oktober 2015.
 >
 > Skal være lov 4. september 2015 nr. 87, Lovdatas anm.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ### 2016-06-17 — lov/2016-06-17-54
@@ -451,6 +667,63 @@ refid: "lov/1981-05-22-25"
 > Dataavlesingen skal innrettes slik at det ikke unødig fanges opp opplysninger om andre enn mistenktes bruk av datasystemet. Avlesingen skal utføres slik at det ikke unødig voldes fare for driftshindring eller for skade på utrustning eller data. Politiet skal så vidt mulig avverge fare for at noen som følge av gjennomføringen settes i stand til å skaffe seg uberettiget tilgang til datasystemet eller vernet informasjon eller til å begå andre straffbare handlinger.
 >
 
+### 2016-07-01 — forskrift/2016-06-17-669
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
+### 2016-07-01 — forskrift/2016-06-17-670
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
+### 2016-10-01 — forskrift/2016-09-09-1045
+
+*Lov 29. april 2016 nr. 7 om endringer i straffeloven 2005 mv. (strafferettslige særreaksjoner m.m.) trer i kraft 1. oktober 2016.*
+
+> Lov 29. april 2016 nr. 7 om endringer i straffeloven 2005 mv. (strafferettslige særreaksjoner m.m.) trer i kraft 1. oktober 2016.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1604
+
+*Loven trer i kraft fra 1. januar 2017.*
+
+> Loven trer i kraft fra 1. januar 2017.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1640
+
+*Loven trer i kraft 1. januar 2017.*
+
+> Loven trer i kraft 1. januar 2017.
+>
+
+### 2017-04-18 — forskrift/2017-03-31-414
+
+*Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.*
+
+> Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.
+>
+> Lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. (elektronisk tinglysing) gjelder fra 18. april 2017, med følgende unntak:
+>
+> endringene i tinglysingsloven gjelder ikke for tinglysing i Akvakulturregisteret.
+>
+> endringene i tinglysingsloven § 7 første ledd første og annet punktum gjelder ikke for tinglysing i Løsøreregisteret.
+>
+> Frem til tinglysingsloven § 7 første ledd første og annet punktum som endret ved lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. trer i kraft for tinglysing i Løsøreregisteret, skal et dokument som kreves tinglyst i Løsøreregisteret, registreres snarest mulig. Dokument som kommer inn til kontoret elektronisk eller på papir innen klokken 14.00, skal anses som registrert den dato det er kommet inn. Kommer det senere, skal det anses som registrert den neste kontordagen. Er kontortiden enkelte dager slutt før kl. 14.00, opphører adgangen til innføring i registeret ved kontortidens slutt.
+>
+
 ### 2017-06-16 — lov/2017-06-16-54
 
 *I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 andre ledd bokstav c etter «lakse- og innlandsfiskeloven § 49 første ledd andre punktum» lyde:*
@@ -461,6 +734,26 @@ refid: "lov/1981-05-22-25"
 ### 2017-06-16 — lov/2017-06-16-58
 
 *Kapittel 24 oppheves.*
+
+### 2017-06-16 — forskrift/2017-06-16-783
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2017-06-21 — lov/2017-06-21-90
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal ny § 157 a lyde:*
+
+> § 157 a.
+>
+> Den som med skjellig grunn mistenkes for handling som rammes av straffeloven §§ 291 til 296 eller 299 til 303, kan for å klarlegge om mistenkte er smittet med en seksuelt overførbar infeksjon, underkastes kroppslig undersøkelse, når det ikke fremstår som et uforholdsmessig inngrep. Reglene i § 157 første ledd annet punktum og annet ledd gjelder tilsvarende.
+>
+> Uten mistenktes samtykke kan undersøkelse bare foretas etter ordre fra påtalemyndigheten. Reglene i § 157 fjerde ledd annet og tredje punktum gjelder tilsvarende.
+>
+> Resultatet av de innhentede prøvene skal meddeles fornærmede. For øvrig skal de innhentede prøvene bare brukes i strafferettspleien.
+>
 
 ### 2017-06-21 — lov/2017-06-21-91
 
@@ -479,11 +772,116 @@ refid: "lov/1981-05-22-25"
 > Bestemmelsen gjelder tilsvarende så langt den passer for gransking av datasystem som er tatt i beslag etter kapittel 16.
 >
 
+### 2017-07-01 — forskrift/2017-06-09-713
+
+*Lov 27. mai 2016 nr. 15 om endringer i forvaltningsloven mv. (administrative sanksjoner mv.) trer i kraft 1. juli 2017.*
+
+> Lov 27. mai 2016 nr. 15 om endringer i forvaltningsloven mv. (administrative sanksjoner mv.) trer i kraft 1. juli 2017.
+>
+> Loven får anvendelse for vedtak som treffes etter ikraftsettingen. Endringene i forvaltningsloven § 44 til § 46, § 50 og § 51 får bare anvendelse på handlinger som begås etter ikraftsettingen.
+>
+> Rammer som nevnt i forvaltningsloven § 44 annet ledd første punktum må fastsettes innen 1. juli 2020.
+>
+> Loven får ikke anvendelse for saker etter konkurranseloven.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-761
+
+*Loven trer i kraft fra 1. juli 2017.*
+
+> Loven trer i kraft fra 1. juli 2017.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-778
+
+*Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.*
+
+> Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.
+>
+
+### 2017-07-01 — forskrift/2017-06-21-821
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
+
+### 2017-07-01 — forskrift/2017-06-21-822
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
+
 ### 2017-07-01 — forskrift/2017-06-21-823
 
 *Loven trer i kraft 1. juli 2017.*
 
 > Loven trer i kraft 1. juli 2017.
+>
+
+### 2018-01-01 — forskrift/2017-10-13-1613
+
+*Lov 16. juni 2017 nr. 58 om endringer i straffeprosessloven mv. (oppheving av juryordningen) trer i kraft 1. januar 2018.*
+
+> Lov 16. juni 2017 nr. 58 om endringer i straffeprosessloven mv. (oppheving av juryordningen) trer i kraft 1. januar 2018.
+>
+> Loven får ikke anvendelse i tilfeller der anke til lagmannsretten er fremsatt før 1. januar 2018, jf. straffeprosessloven § 312. Det samme gjelder saker som henvises til ny fullstendig behandling i lagmannsretten dersom gjenåpning er besluttet innen samme tidspunkt, jf. straffeprosessloven § 400. Loven kommer likevel til anvendelse dersom ankeforhandlingen påbegynnes etter 31. desember 2018.
+>
+
+### 2018-05-06 — forskrift/2018-04-27-642
+
+*Ikraftsetting av lov 21. juni 2017 nr. 94 om endringer i politiregisterloven mv. (gjennomføring av direktiv (EU) 2016/680 mv.). Loven trer i kraft 6. mai 2018.*
+
+> Ikraftsetting av lov 21. juni 2017 nr. 94 om endringer i politiregisterloven mv. (gjennomføring av direktiv (EU) 2016/680 mv.). Loven trer i kraft 6. mai 2018.
+>
+
+### 2018-06-22 — lov/2018-06-22-80
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal ny § 4 b lyde:*
+
+> § 4 b.
+>
+> Kreves det med hjemmel i denne lov underskrift på dokumenter, er elektronisk signering likestilt med underskrift når den tekniske løsningen som benyttes sikrer notoritet for signaturen.
+>
+
+### 2018-07-01 — forskrift/2018-04-27-641
+
+*– – –*
+
+> – – –
+>
+> Loven trer i kraft 1. juli 2018.
+>
+> For saker der kjennelse etter straffeprosessloven § 220 er avsagt før 1. juli 2018, kommer loven til anvendelse dersom det avsies kjennelse for det.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
+### 2018-09-01 — forskrift/2018-08-10-1229
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 80 om endringer i domstolloven mv. (elektronisk kommunikasjon mv.). Loven trer i kraft 1. september 2018 med unntak av del II, som trer i kraft 1. januar 2019.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 80 om endringer i domstolloven mv. (elektronisk kommunikasjon mv.). Loven trer i kraft 1. september 2018 med unntak av del II, som trer i kraft 1. januar 2019.
+>
+
+### 2018-10-01 — forskrift/2018-09-28-1470
+
+*Ikraftsetting av lov 22. juni 2018 nr. 79 om endringer i straffeprosessloven og tvisteloven (opptak og gjenbruk av forklaringer i retten mv.). Loven trer i kraft 1. oktober 2018.*
+
+> Ikraftsetting av lov 22. juni 2018 nr. 79 om endringer i straffeprosessloven og tvisteloven (opptak og gjenbruk av forklaringer i retten mv.). Loven trer i kraft 1. oktober 2018.
+>
+
+### 2019-06-07 — forskrift/2019-06-07-705
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ### 2019-06-21 — lov/2019-06-21-50
@@ -495,7 +893,24 @@ refid: "lov/1981-05-22-25"
 
 ### 2019-06-21 — lov/2019-06-21-54
 
-*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 andre ledd bokstav c lyde:overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, kystvaktloven § 36 annet ledd, viltloven § 56 første ledd annet punktum, lakse- og innlandsfiskloven § 49 første ledd annet punktum, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23a.*
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 andre ledd bokstav c lyde:*
+
+> overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, kystvaktloven § 36 annet ledd, viltloven § 56 første ledd annet punktum, lakse- og innlandsfiskloven § 49 første ledd annet punktum, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23a.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-779
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-786
+
+*Delt ikraftsetting av loven. Del I–IV og del V § 75 annet ledd trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Del I–IV og del V § 75 annet ledd trer i kraft 1. juli 2019.
+>
 
 ### 2019-11-01 — lov/2019-11-01-71
 
@@ -512,15 +927,69 @@ refid: "lov/1981-05-22-25"
 > Loven trer i kraft straks.
 >
 
+### 2020-01-01 — forskrift/2019-11-22-1549
+
+*Ikraftsetting av lov 21. juni 2019 nr. 51 om endringer i straffeprosessloven mv. (ankesiling m.m.). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 21. juni 2019 nr. 51 om endringer i straffeprosessloven mv. (ankesiling m.m.). Loven trer i kraft 1. januar 2020.
+>
+> Endringene i straffeprosessloven § 318 og § 321 får ikke anvendelse for saker der anke til lagmannsretten er fremsatt før 1. januar 2020. Første punktum gjelder også ved ny behandling etter opphevelse der anke til lagmannsretten er fremsatt før 1. januar 2020. Dersom straffeforfølgning mot flere personer har vært forent i samme sak, og minst én har fremsatt anke før 1. januar 2020, får endringene i straffeprosessloven § 318 og § 321 ikke anvendelse for andre som er straffeforfulgt som medskyldige i samme handling.
+>
+
+### 2020-01-01 — forskrift/2019-11-22-1552
+
+*Delt ikraftsetting av lov 22. april 2016 nr. 4 om endringar i kommuneloven mv. (avvikling av samkommunemodellen). Endringsloven romertall I siste setning og romertall II–VII trer i kraft 1. januar 2020.*
+
+> Delt ikraftsetting av lov 22. april 2016 nr. 4 om endringar i kommuneloven mv. (avvikling av samkommunemodellen). Endringsloven romertall I siste setning og romertall II–VII trer i kraft 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
 ### 2020-06-19 — lov/2020-06-19-84
 
-*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 annet ledd bokstav c lyde:overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, kystvaktloven § 36 annet ledd, viltloven § 56 første ledd annet punktum, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23 a.*
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 annet ledd bokstav c lyde:*
+
+> overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, kystvaktloven § 36 annet ledd, viltloven § 56 første ledd annet punktum, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23 a.
+>
 
 ### 2020-07-01 — forskrift/2020-06-12-1183
 
 *Delt ikraftsetting av endringsloven. Endringsloven del I trer i kraft 1. juli 2020.*
 
 > Delt ikraftsetting av endringsloven. Endringsloven del I trer i kraft 1. juli 2020.
+>
+
+### 2020-07-01 — forskrift/2020-06-19-1251
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2020-12-04 — forskrift/2020-12-04-2592
+
+*Delt ikraftsetting av loven. Loven del I, endringene i straffeprosessloven § 84, § 94, § 96, § 157, § 188, § 196, § 216a, § 216m, § 216o, § 251, § 409 og § 459, del II, endringene i voldsoffererstatningsloven § 1, del III, endringene i straffeloven § 27, § 67, § 332 og § 337, og del IV, endringene i*
+
+> Delt ikraftsetting av loven. Loven del I, endringene i straffeprosessloven § 84, § 94, § 96, § 157, § 188, § 196, § 216a, § 216m, § 216o, § 251, § 409 og § 459, del II, endringene i voldsoffererstatningsloven § 1, del III, endringene i straffeloven § 27, § 67, § 332 og § 337, og del IV, endringene i politiregisterloven § 12, trer i kraft straks. Loven for øvrig trer i kraft 1. januar 2021.
+>
+
+### 2021-02-01 — forskrift/2020-12-11-2702
+
+*Ikraftsetting av lov 24. april 2020 nr. 33 om endringer i straffeprosessloven og politiregisterloven mv. (behandling av overskuddsinformasjon fra kommunikasjonskontroll mv.). Endringsloven trer i kraft 1. februar 2021.*
+
+> Ikraftsetting av lov 24. april 2020 nr. 33 om endringer i straffeprosessloven og politiregisterloven mv. (behandling av overskuddsinformasjon fra kommunikasjonskontroll mv.). Endringsloven trer i kraft 1. februar 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2021-06-18 — lov/2021-06-18-122
@@ -562,6 +1031,20 @@ refid: "lov/1981-05-22-25"
 > Det skal føres en offentlig tilgjengelig liste over sammenslutninger som det er nedlagt forbud mot etter § 222 e.
 >
 
+### 2021-07-01 — forskrift/2021-06-18-1963
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2027
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2022-05-12 — lov/2022-05-12-28
 
 *2.I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 121 første punktum lyde:*
@@ -569,9 +1052,99 @@ refid: "lov/1981-05-22-25"
 > Selv om forholdet ikke går inn under § 119, kan retten frita et vitne for å svare på spørsmål om noe som er blitt betrodd det under sjelesorg, sosialt hjelpearbeid, medisinsk behandling, rettslig bistand eller liknende virksomhet.
 >
 
+### 2022-06-10 — lov/2022-06-10-36
+
+*1.I lov 19. juni 2009 nr. 58 om merverdiavgift skal ny § 3-33 lyde:*
+
+> § 3-33.Leveranser til militære enheter fra USA
+>
+> Departementet kan treffe enkeltvedtak om unntak fra loven ved omsetning av varer og tjenester fra næringsdrivende som ikke har forretningssted eller hjemsted i merverdiavgiftsområdet til militære enheter fra USA.
+>
+
+### 2022-06-10 — lov/2022-06-10-36
+
+*2.I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal ny § 4 c lyde:*
+
+> Kongen kan i forskrift gi nærmere bestemmelser om strafferettslig jurisdiksjon og varetekt i samsvar med artikkel XII og XIII i tilleggsavtale mellom Norge og USA om forsvarssamarbeid av 16. april 2021.
+>
+
+### 2022-06-10 — forskrift/2022-06-10-1004
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2022-06-17 — lov/2022-06-17-58
 
 *Kapittel 4 overskriften skal lyde:*
+
+### 2022-06-17 — forskrift/2022-06-17-1033
+
+*Delt ikraftsetting av lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. (etablering av naturskadekapital i Norsk Naturskadepool mv.). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. (etablering av naturskadekapital i Norsk Naturskadepool mv.). Følgende trer i kraft straks:
+>
+> Endringsloven del II (atomenergiloven)
+>
+> Endringsloven del IV (lov 18. desember 2020 nr. 146 om finansavtaler)
+>
+> Endringsloven del V (lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.).
+>
+> Følgende trer i kraft 1. juli 2022:
+>
+> Endringsloven del III (straffeprosessloven)
+>
+> Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I (naturskadeforsikringsloven) § 1 første ledd annet punktum
+>
+> Endringsloven del VI nr. 2.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2022-07-01 — forskrift/2022-06-17-1035
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2023-01-01 — forskrift/2022-09-16-1574
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-09-23-1635
+
+*Ikraftsetting av lov 17. juni 2022 nr. 57 om erstatning fra staten til voldsutsatte (voldserstatningsloven). Loven trer i kraft 1. januar 2023.*
+
+> Ikraftsetting av lov 17. juni 2022 nr. 57 om erstatning fra staten til voldsutsatte (voldserstatningsloven). Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-944
+
+*Loven trer i kraft 1. oktober 2023.*
+
+> Loven trer i kraft 1. oktober 2023.
+>
 
 ### 2023-11-24 — lov/2023-11-24-84
 
@@ -663,6 +1236,36 @@ refid: "lov/1981-05-22-25"
 > Kongen kan i forskrift gi nærmere regler om gjennomføringen av elektronisk kontroll, herunder om saksbehandlingen og behandling av personopplysninger i forbindelse med slik kontroll.
 >
 
+### 2024-04-08 — forskrift/2024-03-22-488
+
+*Ikraftsetting av lov 20. desember 2023 nr. 111 om endringer i straffeprosessloven mv. (elektronisk kontroll av besøksforbud). Loven trer i kraft 8. april 2024.*
+
+> Ikraftsetting av lov 20. desember 2023 nr. 111 om endringer i straffeprosessloven mv. (elektronisk kontroll av besøksforbud). Loven trer i kraft 8. april 2024.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
 ### 2024-06-21 — lov/2024-06-21-46
 
 *2.I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 121 første punktum lyde:*
@@ -670,11 +1273,53 @@ refid: "lov/1981-05-22-25"
 > Selv om forholdet ikke går inn under § 119, kan retten frita et vitne for å svare på spørsmål om noe som er blitt betrodd det under sjelesorg, sosialt hjelpearbeid, medisinsk behandling, rettslig bistand eller liknende virksomhet.
 >
 
+### 2024-07-01 — forskrift/2024-05-31-871
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-07-01 — forskrift/2024-05-31-876
+
+*Ikraftsetting av lov 24. november 2023 nr. 85 om militær politimyndighet (militærpolitiloven). Loven trer i kraft 1. juli 2024.*
+
+> Ikraftsetting av lov 24. november 2023 nr. 85 om militær politimyndighet (militærpolitiloven). Loven trer i kraft 1. juli 2024.
+>
+
 ### 2024-07-01 — forskrift/2024-06-14-1007
 
 *Delt ikraftsetting av lov 24. november 2023 nr. 84 om endringer i forsvarsloven mv. (militær disiplinærmyndighet). Loven del VI (endringer i straffeprosessloven), med unntak av § 464, trer i kraft 1. juli 2024.*
 
 > Delt ikraftsetting av lov 24. november 2023 nr. 84 om endringer i forsvarsloven mv. (militær disiplinærmyndighet). Loven del VI (endringer i straffeprosessloven), med unntak av § 464, trer i kraft 1. juli 2024.
+>
+
+### 2024-12-01 — forskrift/2024-11-29-2890
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. desember 2024, med unntak av endringene under del V.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. desember 2024, med unntak av endringene under del V.
+>
+
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
+
+### 2025-01-01 — forskrift/2024-12-13-3090
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
+### 2025-04-01 — forskrift/2025-03-28-544
+
+*Loven trer i kraft 1. april 2025.*
+
+> Loven trer i kraft 1. april 2025.
 >
 
 ### 2025-06-10 — lov/2025-06-10-32
@@ -705,11 +1350,29 @@ refid: "lov/1981-05-22-25"
 > overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, vareførselsloven § 12-9, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, allmenngjøringsloven § 15, kystvaktloven § 36 annet ledd, viltressursloven § 60, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23a.
 >
 
+### 2025-07-01 — forskrift/2025-06-10-996
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
 ### 2025-08-15 — forskrift/2025-05-15-801
 
 *Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll). Endringsloven del III (straffeprosessloven) ny § 184b trer i kraft 15. august 2025.*
 
 > Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll). Endringsloven del III (straffeprosessloven) ny § 184b trer i kraft 15. august 2025.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ### 2026-06-12 — lov/2026-06-12-32
@@ -798,6 +1461,52 @@ refid: "lov/1981-05-22-25"
 > Reglene i § 216 g gjelder tilsvarende så langt de passer.
 >
 
+### 2026-07-01 — forskrift/2025-06-20-1105
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-05-07-743
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
+### 2026-09-15 — forskrift/2026-06-12-1054
+
+*Loven trer i kraft 15. september 2026.*
+
+> Loven trer i kraft 15. september 2026.
+>
+
+### 2026-10-01 — forskrift/2026-06-19-1135
+
+*Loven trer i kraft 1. oktober 2026.*
+
+> Loven trer i kraft 1. oktober 2026.
+>
+
+### 2026-10-01 — forskrift/2026-09-11-1775
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.
+>
+
 ## § 1
 
 ### 2003-01-01 — forskrift/2002-10-11-1094
@@ -811,6 +1520,15 @@ refid: "lov/1981-05-22-25"
 > Domstollederen i kollegiale domstoler kan velge ut en eller flere dommere til å behandle sakene.
 >
 > Stedlig virkekrets for tingrettene fastsettes av departementet.
+>
+
+## § 1 a
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 1 a annet ledd oppheves.*
+
+> 10. I lov 12. juni 1987 nr. 48 om norsk internasjonalt skipsregister gjøres følgende endring:
 >
 
 ## § 100
@@ -834,6 +1552,13 @@ refid: "lov/1981-05-22-25"
 *§ 100 annet ledd nytt annet punktum skal lyde:*
 
 > Når offentlig forsvarer oppnevnes etter første punktum for å delta i ungdomsstormøte, jf. straffeloven § 28 c og konfliktrådsloven § 18 tredje ledd, har fornærmede rett til å få oppnevnt bistandsadvokat.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 100 annet ledd annet punktum skal lyde:*
+
+> Når offentlig forsvarer oppnevnes etter første punktum for å delta i ungdomsstormøte, jf. straffeloven kapittel 8 a og konfliktrådsloven § 24 tredje ledd, har fornærmede rett til å få oppnevnt bistandsadvokat.
 >
 
 ### 2023-12-20 — lov/2023-12-20-110
@@ -912,6 +1637,20 @@ refid: "lov/1981-05-22-25"
 
 ## § 100 b
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 100 b nytt annet ledd skal lyde:*
+
+> Første ledd gjelder tilsvarende når en sak om kontaktforbud i eget hjem, jf. straffeloven § 33 tredje ledd, bringes inn for retten.
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 100 b nytt annet ledd skal lyde:*
+
+> Første ledd gjelder tilsvarende når en sak om kontaktforbud i eget hjem, jf. straffeloven § 57 tredje ledd, bringes inn for retten.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *§ 100 b nytt annet ledd skal lyde:*
@@ -933,6 +1672,15 @@ refid: "lov/1981-05-22-25"
 > Første ledd gjelder tilsvarende når en sak om kontaktforbud i eget hjem, jf. straffeloven § 57 tredje ledd, bringes inn for retten.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 100 b skal lyde:*
+
+> Når en sak om besøksforbud i eget hjem, jf. § 222 a annet ledd annet punktum, bringes inn for retten, har den som forbudet er rettet mot, rett til forsvarer. Det samme gjelder når grunnlaget for besøksforbudet er mulig overtredelse av straffeloven § 282. Reglene i § 100 og §§ 101-107 gjelder tilsvarende så langt de passer.
+>
+> Første ledd gjelder tilsvarende når en sak om kontaktforbud i eget hjem, jf. straffeloven § 57 tredje ledd, bringes inn for retten.
+>
+
 ### 2023-12-20 — lov/2023-12-20-111
 
 *§ 100 b skal lyde:*
@@ -943,6 +1691,17 @@ refid: "lov/1981-05-22-25"
 >
 
 ## § 100 c
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*Ny § 100 c skal lyde:*
+
+> Med mindre retten på grunnlag av sakens art og forholdene ellers finner det ubetenkelig at den domfelte er uten forsvarer, skal den oppnevne offentlig forsvarer når det er spørsmål om å fastsette eller fullbyrde ubetinget frihetsstraff i mer enn 6 måneder etter brudd på vilkårene forstraffutmålingsutsettelse, jf. straffeloven § 60 tredje ledd, jf. § 39 annet ledd,fullbyrdingsutsettelse, jf. straffeloven § 39 annet ledd,løslatelse på prøve fra fengselsstraff, jf. straffegjennomføringsloven § 44 annet ledd,løslatelse på prøve fra forvaring, jf. straffeloven § 46 første ledd, ellersamfunnsstraff, jf. straffeloven § 52 første ledd bokstav a.
+>
+> Er det aktuelt å fastsette eller fullbyrde en mildere straff, kan retten oppnevne offentlig forsvarer for den domfelte når særlige grunner taler for det.
+>
+> Den domfelte skal ha offentlig forsvarer i saker om opphevelse eller endring av vilkår for prøveløslatelse fra forvaring etter straffeloven § 45 femte ledd. I andre saker om endring av vilkår eller forlengelse av prøvetid, jf. straffeloven §§ 39 første ledd, 45 fjerde ledd og 60 tredje ledd, kan retten oppnevne offentlig forsvarer for den domfelte når særlige grunner taler for det.
+>
 
 ### 2008-03-07 — lov/2008-03-07-4
 
@@ -956,6 +1715,17 @@ refid: "lov/1981-05-22-25"
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*Ny § 100 c skal lyde:*
+
+> Med mindre retten på grunnlag av sakens art og forholdene ellers finner det ubetenkelig at den domfelte er uten forsvarer, skal den oppnevne offentlig forsvarer når det er spørsmål om å fastsette eller fullbyrde ubetinget frihetsstraff i mer enn 6 måneder etter brudd på vilkårene forstraffutmålingsutsettelse, jf. straffeloven § 60 tredje ledd, jf. § 39 annet ledd,fullbyrdingsutsettelse, jf. straffeloven § 39 annet ledd,løslatelse på prøve fra fengselsstraff, jf. straffegjennomføringsloven § 44 annet ledd,løslatelse på prøve fra forvaring, jf. straffeloven § 46 første ledd, ellersamfunnsstraff, jf. straffeloven § 52 første ledd bokstav a.
+>
+> Er det aktuelt å fastsette eller fullbyrde en mildere straff, kan retten oppnevne offentlig forsvarer for den domfelte når særlige grunner taler for det.
+>
+> Den domfelte skal ha offentlig forsvarer i saker om opphevelse eller endring av vilkår for prøveløslatelse fra forvaring etter straffeloven § 45 femte ledd. I andre saker om endring av vilkår eller forlengelse av prøvetid, jf. straffeloven §§ 39 første ledd, 45 fjerde ledd og 60 tredje ledd, kan retten oppnevne offentlig forsvarer for den domfelte når særlige grunner taler for det.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *Ny § 100 c skal lyde:*
 
@@ -1000,6 +1770,13 @@ refid: "lov/1981-05-22-25"
 > Kongen kan gi nærmere regler om antakelsen av faste forsvarere.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 101 tredje ledd skal lyde:*
+
+> Skattemyndighetene skal på forlangende fra retten eller bostyreren gi opplysninger om skyldnerens formues- og inntektsforhold.
+>
+
 ## § 102
 
 ### 2015-09-04 — lov/2015-09-04-87
@@ -1020,6 +1797,13 @@ refid: "lov/1981-05-22-25"
 > Taushetsplikten er ikke til hinder for at opplysningene brukes i den utstrekning det er nødvendig for å ivareta klientens tarv i saken.
 >
 > Overtredelse av taushetsplikten etter første ledd kan straffes etter straffeloven § 121.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 106 a tredje ledd skal lyde:*
+
+> Overtredelse av taushetsplikten etter første ledd kan straffes etter straffeloven § 209.
 >
 
 ## § 107
@@ -1063,6 +1847,26 @@ refid: "lov/1981-05-22-25"
 > Politiet skal gjøre fornærmede kjent med retten til advokat ved anmeldelsen av forholdet.
 >
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 107 a første og annet ledd skal lyde:*
+
+> I saker om overtredelse av straffeloven §§ 192-197, 199, 200 tredje ledd, § 342 første ledd bokstav b, jf. § 33 og § 342 første ledd bokstav c, jf. straffeprosessloven § 222 a, har fornærmede rett til hjelp fra advokat dersom fornærmede ønsker det. I andre saker kan retten på begjæring oppnevne advokat for fornærmede hvis det er grunn til å tro at fornærmede som følge av handlingen får betydelig skade på legeme eller helbred og det anses å være behov for advokat.
+>
+> Når en sak om besøksforbud i eget hjem, jf. § 222 a annet ledd annet punktum, eller kontaktforbud i eget hjem, jf. straffeloven § 33 tredje ledd, bringes inn for retten, har den som forbudet skal beskytte, rett til advokat. Reglene i kapitlet her gjelder tilsvarende så langt de passer.
+>
+> 4. Med virkning fra den nye straffeloven trer i kraft, gjøres det i lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker følgende endringer:
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 107 a første og annet ledd skal lyde:*
+
+> I saker om overtredelse av straffeloven §§ 192-197, 199, 200 tredje ledd, § 342 første ledd bokstav b, jf. § 57 og § 342 første ledd bokstav c, jf. straffeprosessloven § 222 a, har fornærmede rett til hjelp fra advokat dersom fornærmede ønsker det. I andre saker kan retten på begjæring oppnevne advokat for fornærmede hvis det er grunn til å tro at fornærmede som følge av handlingen får betydelig skade på legeme eller helbred og det anses å være behov for advokat.
+>
+> Når en sak om besøksforbud i eget hjem, jf. § 222 a annet ledd annet punktum, eller kontaktforbud i eget hjem, jf. straffeloven § 57 tredje ledd, bringes inn for retten, har den som forbudet skal beskytte, rett til advokat. Reglene i kapitlet her gjelder tilsvarende så langt de passer.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *§ 107 a første og annet ledd skal lyde:*
@@ -1099,6 +1903,20 @@ refid: "lov/1981-05-22-25"
 *§ 107 a første ledd ny bokstav d skal lyde:*
 
 > hvor offentlig forsvarer oppnevnes for å delta i ungdomsstormøte, jf. § 100 annet ledd annet punktum.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 107 a første ledd skal lyde:*
+
+> Fornærmede har rett til å få oppnevnt bistandsadvokat i saker:om overtredelse av straffeloven §§ 168, 253, 257, 282, 284, 291, 294, 295, 296, 299, 302, 304, 312 og 314,hvor det er grunn til å tro at fornærmede som følge av handlingen får betydelig skade på kropp eller helse,hvor offentlig forsvarer oppnevnes for å delta i ungdomsstormøte, jf. § 100 annet ledd annet punktum.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 107 a fjerde ledd skal lyde:*
+
+> Når en sak om besøksforbud i eget hjem, jf. § 222 a annet ledd annet punktum, eller kontaktforbud i eget hjem, jf. straffeloven § 57 tredje ledd, bringes inn for retten, har den som forbudet skal beskytte, rett til advokat. Det samme gjelder når besøksforbud på grunnlag av mulig overtredelse av straffeloven § 282 bringes inn for retten. Reglene i kapitlet her gjelder tilsvarende så langt de passer.
 >
 
 ### 2023-12-20 — lov/2023-12-20-110
@@ -1177,6 +1995,13 @@ refid: "lov/1981-05-22-25"
 > Bistandsadvokaten skal varsles om og har rett til å være til stede i rettsmøter i den utstrekning retten finner det nødvendig. Det samme gjelder ved andre etterforskingsskritt som åstedsbefaringer, rekonstruksjoner og lignende når fornærmede eller etterlatte selv skal delta. Bistandsadvokaten skal varsles om og har rett til å være til stede ved politiets avhør av fornærmede under etterforskingen. Bistandsadvokaten kan anmode om at det foretas ytterligere etterforskingsskritt.
 >
 
+### 2022-06-17 — lov/2022-06-17-57
+
+*§ 107 c femte ledd nytt andre punktum skal lyde:*
+
+> Oppdraget som bistandsadvokat omfatter ikke å søke om voldserstatning fra staten.
+>
+
 ## § 107 d
 
 ### 2008-03-07 — lov/2008-03-07-5
@@ -1244,6 +2069,15 @@ refid: "lov/1981-05-22-25"
 > Når det anses hensiktsmessig for gjennomføringen av saken, kan retten oppnevne en eller flere koordinerende bistandsadvokater.
 >
 
+## § 107 i
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 107 i tredje ledd skal lyde:*
+
+> Overtredelse av taushetsplikten etter første ledd kan straffes etter straffeloven § 209.
+>
+
 ## § 109 a
 
 ### 2010-12-10 — lov/2010-12-10-76
@@ -1305,6 +2139,13 @@ refid: "lov/1981-05-22-25"
 *§ 118 første ledd første punktum skal lyde:*
 
 > Retten må ikke ta imot forklaring som vitnet ikke kan gi uten å krenke lovbestemt taushetsplikt han har som følge av tjeneste eller arbeid for stat eller kommune, familievernkontor, postoperatør eller tilbyder av tilgang til telenett eller teletjeneste eller teleinstallatør, hvis ikke departementet gir samtykke.
+>
+
+### 2003-07-04 — lov/2003-07-04-83
+
+*§ 118 første ledd annet punktum skal lyde:*
+
+> Tilsvarende gjelder for vitne som har taushetsplikt som følge av tjeneste eller arbeid for familievernkontor, postoperatør, tilbyder av tilgang til elektronisk kommunikasjonsnett eller elektronisk kommunikasjonstjeneste, elektronisk kommunikasjonsinstallatør, eller statens lufthavnselskap.
 >
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -1397,6 +2238,13 @@ refid: "lov/1981-05-22-25"
 > Før avhøringen skal rettens leder formane vitnene til å forklare den fulle sannhet uten å skjule noe.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 128 første ledd annet punktum skal lyde:*
+
+> Han skal foreholde vitnene det ansvar som følger med uriktig forklaring og forsikring.
+>
+
 ## § 129
 
 ### 2008-03-07 — lov/2008-03-07-5
@@ -1465,6 +2313,13 @@ refid: "lov/1981-05-22-25"
 > Dersom en kjennelse som tillater anonym vitneførsel omgjøres, kan vitnet ikke føres under full identitet, jf. § 130, med mindre vitnet samtykker til det.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 130 a første ledd skal lyde:*
+
+> I saker om overtredelse eller forsøk på overtredelse av straffeloven §§ 101 til 109, 131, 133, 134, 139, 157, 159, 232 første og annet ledd, 233, 257, 274, 275, 291, 294, 328, 330, §§ 332, 335, 337 og 340, jf. 232 første og annet ledd, og §§ 332, 335, 337 og 340, jf. 328, kan retten etter begjæring fra statsadvokaten ved kjennelse bestemme anonym vitneførsel når det om vitnets identitet blir kjent, kan være farefor et alvorlig lovbrudd som krenker livet, helsen eller friheten til vitnet eller til noen vitnet står i et slikt forhold til som nevnt i § 122, ellerfor at muligheten for et vitne til å delta skjult i etterforskningen av andre saker av den art som er nevnt foran blir vesentlig vanskeliggjort.
+>
+
 ## § 131
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -1505,6 +2360,15 @@ refid: "lov/1981-05-22-25"
 > Rettens leder skal overta avhøringen dersom den foregår på en utilfredsstillende måte eller andre grunner taler for det.
 >
 
+## § 14
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 14 sjette ledd nytt annet punktum skal lyde:*
+
+> Det samme gjelder når Statens innkrevingssentral gjennomfører tvangsdekning i enkle pengekrav etter tvangsfullbyrdelsesloven § 2-14 annet ledd.
+>
+
 ## § 142 a
 
 ### 2010-12-10 — lov/2010-12-10-76
@@ -1539,6 +2403,13 @@ refid: "lov/1981-05-22-25"
 *Ny § 147 a skal lyde:*
 
 > I saker der det kan bli lagt ned påstand om dom på overføring til tvungent psykisk helsevern etter straffeloven § 39 eller tvungen omsorg etter straffeloven § 39 a, skal påtalemyndigheten underrette den eller de rettspsykiatrisk sakkyndige om dette. De sakkyndige skal straks etter at de har avgitt den rettspsykiatriske erklæringen, underrette fylkeshelsesjefen om saken. De sakkyndige skal gi råd om hvilken institusjon den siktede bør innskrives ved, jf. psykisk helsevernloven §§ 5-2 og 5-3.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 147 a første punktum skal lyde:*
+
+> I saker der det kan bli lagt ned påstand om dom på overføring til tvungent psykisk helsevern etter straffeloven § 62 eller tvungen omsorg etter straffeloven § 63, skal påtalemyndigheten underrette den eller de rettspsykiatrisk sakkyndige om dette.
 >
 
 ## § 148
@@ -1585,6 +2456,13 @@ refid: "lov/1981-05-22-25"
 > Dersom formålet med undersøkelsen ellers kunne forspilles, kan ordre fra påtalemyndigheten tre i stedet for kjennelse av retten. Ordren skal være skriftlig og grunngitt. Er det fare ved opphold, kan ordren gis muntlig, men den skal da snarest mulig nedtegnes.
 >
 > De innhentede prøvene skal bare brukes i strafferettspleien. Kongen kan i forskrift likevel bestemme at rettstoksikologiske analysedata også kan brukes i forskningsøyemed, og gi nærmere regler om slik bruk.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 157 annet ledd første punktum skal lyde:*
+
+> Disse regler gjelder selv om straff ikke kan idømmes på grunn av reglene i straffeloven § 20 første ledd.
 >
 
 ### 2020-12-04 — lov/2020-12-04-135
@@ -1736,11 +2614,24 @@ refid: "lov/1981-05-22-25"
 > Siktede skal alltid undergis rettspsykiatrisk undersøkelse når det er aktuelt å idømmeoverføring til tvungent psykisk helsevern etter straffeloven § 39,tvungen omsorg etter straffeloven 39 a,opprettholdelse av reaksjon som nevnt i nr. 1 og 2 etter straffeloven § 39 b, elleroverføring til anstalt under kriminalomsorgen etter psykisk helsevernloven § 5-6.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 165 annet ledd nr. 1-3 skal lyde:*
+
+> overføring til tvungent psykisk helsevern etter straffeloven § 62,
+>
+> tvungen omsorg etter straffeloven § 63,
+>
+> opprettholdelse av reaksjon som nevnt i nr. 1 og 2 etter straffeloven § 65, eller
+>
+
 ### 2019-06-21 — lov/2019-06-21-48
 
 *§ 165 annet ledd nr. 2 og 3 skal lyde:*
 
-> tvungen omsorg etter straffeloven § 63 elleropprettholdelse av reaksjon som nevnt i nr. 1 og 2 etter straffeloven § 65.
+> tvungen omsorg etter straffeloven § 63 eller
+>
+> opprettholdelse av reaksjon som nevnt i nr. 1 og 2 etter straffeloven § 65.
 >
 
 ### 2019-06-21 — lov/2019-06-21-48
@@ -1789,6 +2680,24 @@ refid: "lov/1981-05-22-25"
 > Nødvendige opplysninger knyttet til siktedes helse kan gis videre til de sakkyndige som foretar en rettspsykiatrisk undersøkelse, selv om siktede ikke samtykker til slik utlevering. Dette gjelder bare i saker om lovbrudd som kan medføre fengsel i mer enn seks år og hvor utfallet kan avhenge av om siktede er tilregnelig eller ikke.
 >
 
+## § 17
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 17 annet ledd skal lyde:*
+
+> Retten kan utsette en straffesak inntil et omtvistet forhold er nærmere klarlagt i en annen straffesak.
+>
+
+## § 170
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 170 annet ledd skal lyde:*
+
+> Brudd på taushetsplikten straffes som bestemt i straffeloven § 209.
+>
+
 ## § 171
 
 ### 2001-06-15 — lov/2001-06-15-64
@@ -1796,6 +2705,20 @@ refid: "lov/1981-05-22-25"
 *§ 171 annet ledd skal lyde:*
 
 > Når det er reist sak om overføring til tvungent psykisk helsevern etter straffeloven § 39 eller tvungen omsorg etter straffeloven § 39 a, eller det er sannsynlig at slik sak vil bli reist, kan pågripelse skje uansett om straff kan idømmes, såfremt vilkårene i første ledd for øvrig foreligger. Det samme gjelder når det er avsagt dom på overføring til tvungent psykisk helsevern eller tvungen omsorg.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 171 nytt annet ledd skal lyde:*
+
+> Det samme gjelder den som med skjellig grunn mistenkes for overtredelse av straffeloven § 323.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 171 nåværende annet ledd blir tredje ledd og skal lyde:*
+
+> Når det er reist sak om overføring til tvungent psykisk helsevern etter straffeloven § 62 eller tvungen omsorg etter straffeloven § 63, eller det er sannsynlig at slik sak vil bli reist, kan pågripelse skje uansett om straff kan idømmes, såfremt vilkårene i første ledd for øvrig foreligger. Det samme gjelder når det er avsagt dom på overføring til tvungent psykisk helsevern eller tvungen omsorg.
 >
 
 ## § 172
@@ -1816,7 +2739,21 @@ refid: "lov/1981-05-22-25"
 > Gjeldende annet punktum blir nytt tredje punktum.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 172 skal lyde:*
+
+> Når noen mistenkes foret lovbrudd som kan medføre straff av fengsel i 10 år eller mer, eller forsøk på et slikt lovbrudd, ellerovertredelse av straffeloven § 272 eller § 274,kan han pågripes såfremt det foreligger tilståelse eller andre forhold som i særlig grad styrker mistanken, selv om vilkårene i § 171 ikke er oppfylt. Ved vurderingen skal det særlig legges vekt på om det er egnet til å støte allmennhetens rettsfølelse eller skape utrygghet dersom den mistenkte er på frifot.
+>
+
 ## § 173 a
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 173 a skal lyde:*
+
+> Den som med skjellig grunn mistenkes for vilkårsbrudd som nevnt i straffeloven §§ 39 annet ledd, 46 første ledd eller 52 første ledd bokstav a, jf. straffegjennomføringsloven § 44 annet ledd annet punktum, kan pågripes når:det er grunn til å frykte for at han vil unndra seg fullbyrdingen av straff eller andre forholdsregler,det antas påkrevd for å hindre nye vilkårsbrudd, ellerhan selv begjærer det av grunner som finnes fyldestgjørende.
+>
 
 ### 2008-03-07 — lov/2008-03-07-4
 
@@ -1830,6 +2767,13 @@ refid: "lov/1981-05-22-25"
 *§ 173 a skal lyde:*
 
 > Den som med skjellig grunn mistenkes for vilkårsbrudd som nevnt i straffeloven §§ 39 annet ledd, 46 første ledd eller 52 første ledd bokstav a, jf. straffegjennomføringsloven § 44 annet ledd annet punktum, kan pågripes når:det er grunn til å frykte for at han vil unndra seg fullbyrdingen av straff eller andre forholdsregler,det antas påkrevd for å hindre nye vilkårsbrudd, ellerhan selv begjærer det av grunner som finnes fyldestgjørende.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Ny § 173 a skal lyde:*
+
+> Den som med skjellig grunn mistenkes for vilkårsbrudd som nevnt i straffeloven §§ 39 annet ledd, 46 første ledd eller 52 første ledd bokstav a, jf. straffegjennomføringsloven § 44 annet ledd annet punktum, kan pågripes når:det er grunn til å frykte for at han vil unndra seg fullbyrdingen av straff eller andre forholdsregler,det antas påkrevd for å hindre nye vilkårsbrudd, ellerhan selv begjærer det av grunner som finnes fyllestgjørende.
 >
 
 ## § 18
@@ -1863,6 +2807,13 @@ refid: "lov/1981-05-22-25"
 
 *§ 183 nåværende annet ledd blir nytt fjerde ledd.*
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 183 tredje ledd skal lyde:*
+
+> Er siktede under 18 år, skal påtalemyndigheten varsle barnevernstjenesten om fengslingen. Barnevernstjenesten skal møte til hvert fengslingsmøte, med mindre retten finner at deltagelse utover det første fengslingsmøtet er åpenbart unødvendig. Barnevernstjenesten skal uttale seg om behovet for tiltak etter barnevernsloven og gi informasjon om det arbeidet som pågår med å iverksette tiltak. Reglene i § 118 gjelder tilsvarende.
+>
+
 ### 2021-06-18 — lov/2021-06-18-122
 
 *§ 183 første ledd skal lyde:*
@@ -1888,6 +2839,13 @@ refid: "lov/1981-05-22-25"
 > Det skal også gå frem av kjennelsen at fengslingen ikke er et uforholdsmessig inngrep.
 >
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 184 annet ledd skal lyde:*
+
+> Fengsling kan besluttes dersom vilkårene etter §§ 171, 172, 173 annet ledd eller 173 a er oppfylt og formålet ikke kan oppnås ved tiltak etter § 188. Reglene i § 174 gjelder tilsvarende. Kjennelsen skal angi lovhjemmelen, kortfattet nevne hvorfor det antas å foreligge skjellig grunn til mistanke, og for øvrig gjøre rede for grunnen til fengslingen. Det skal også gå frem av kjennelsen at fengslingen ikke er et uforholdsmessig inngrep.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *§ 184 annet ledd skal lyde:*
@@ -1907,6 +2865,13 @@ refid: "lov/1981-05-22-25"
 *§ 184 annet ledd annet punktum skal lyde:*
 
 > Personer under 18 år skal ikke fengsles hvis det ikke er tvingende nødvendig.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 184 annet ledd skal lyde:*
+
+> Fengsling kan besluttes dersom vilkårene etter §§ 171, 172, 173 annet ledd eller 173 a er oppfylt og formålet ikke kan oppnås ved tiltak etter § 188. Personer under 18 år skal ikke fengsles hvis det ikke er tvingende nødvendig. Kjennelsen skal angi lovhjemmelen, kortfattet nevne hvorfor det antas å foreligge skjellig grunn til mistanke, og for øvrig gjøre rede for grunnen til fengslingen. Det skal også gå frem av kjennelsen at fengslingen ikke er et uforholdsmessig inngrep.
 >
 
 ## § 184 b
@@ -1977,6 +2942,10 @@ refid: "lov/1981-05-22-25"
 
 *§ 186 a fjerde ledd oppheves. Nåværende femte ledd blir nytt fjerde ledd.*
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 186 a tredje ledd bokstav a annet punktum og bokstav b annet punktum oppheves. I begge bestemmelsene blir nåværende tredje punktum annet punktum.*
+
 ## § 187
 
 ### 2001-03-02 — lov/2001-03-02-7
@@ -2009,6 +2978,13 @@ refid: "lov/1981-05-22-25"
 
 ## § 188
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 188 annet ledd tredje punktum skal lyde:*
+
+> Retten kan beslutte at siktede som er psykisk utviklingshemmet og antas å være utilregnelig, skal plasseres i en fagenhet for tvungen omsorg, jf. straffeloven § 63.
+>
+
 ### 2016-04-29 — lov/2016-04-29-7
 
 *§ 188 skal lyde:*
@@ -2033,6 +3009,13 @@ refid: "lov/1981-05-22-25"
 
 ## § 192
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 192 nytt annet ledd skal lyde:*
+
+> Det samme gjelder når noen mistenkes for overtredelse av straffeloven § 323.
+>
+
 ### 2020-12-04 — lov/2020-12-04-135
 
 *§ 192 annet ledd skal lyde:*
@@ -2041,6 +3024,13 @@ refid: "lov/1981-05-22-25"
 >
 
 ## § 195
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 195 nytt annet ledd skal lyde:*
+
+> Det samme gjelder når noen mistenkes for overtredelse av straffeloven § 323.
+>
 
 ### 2020-12-04 — lov/2020-12-04-135
 
@@ -2051,12 +3041,25 @@ refid: "lov/1981-05-22-25"
 
 ## § 196
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 196 første punktum skal lyde:*
+
+> Ransaking etter foranstående bestemmelser kan foretas selv om mistenkte ikke kan dømmes til straff på grunn av reglene i straffeloven § 20 første ledd.
+>
+
 ### 2020-12-04 — lov/2020-12-04-135
 
 *§ 196 første punktum skal lyde:*
 
 > Ransaking etter foranstående bestemmelser kan foretas selv om mistenkte ikke kan dømmes til straff på grunn av reglene i straffeloven § 20.
 >
+
+## § 199 a
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 199 a annet ledd oppheves.*
 
 ## § 199a
 
@@ -2082,8 +3085,21 @@ refid: "lov/1981-05-22-25"
 
 *§ 2 nr. 3 og ny 4 skal lyde:*
 
-> sak hvor ærekrenkelse påstås erklært død og maktesløs,sak om tap av retten til å føre motorvogn mv. for en bestemt tid eller for alltid, jf. vegtrafikkloven § 24 a annet ledd, § 33 nr. 1 og 2, jf. nr. 6, og § 35 første ledd. Det samme gjelder sak om tap av retten til å drive persontransport mot vederlag (kjøreseddel).
+> sak hvor ærekrenkelse påstås erklært død og maktesløs,
 >
+> sak om tap av retten til å føre motorvogn mv. for en bestemt tid eller for alltid, jf. vegtrafikkloven § 24 a annet ledd, § 33 nr. 1 og 2, jf. nr. 6, og § 35 første ledd. Det samme gjelder sak om tap av retten til å drive persontransport mot vederlag (kjøreseddel).
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 2 første ledd nr. 1 skal lyde:*
+
+> sak om overføring til tvungent psykisk helsevern etter straffeloven § 62 eller tvungen omsorg etter straffeloven § 63,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 2 første ledd nr. 3 oppheves. Nåværende nr. 4 blir nr. 3.*
 
 ## § 200 a
 
@@ -2092,6 +3108,20 @@ refid: "lov/1981-05-22-25"
 *§ 200 a første ledd første punktum skal lyde:*
 
 > Når noen med skjellig grunn mistenkes for en handling eller forsøk på en handling som etter loven kan medføre straff av fengsel i 10 år eller mer, eller som rammes av straffeloven §§ 90, 91, 91 a, 94 jf. 90, 104 a første ledd annet punktum, eller 104 a annet ledd jf. første ledd annet punktum, § 147 d, eller av §§ 162 eller 317, jf. § 162, kan retten ved kjennelse beslutte at ransaking kan settes i verk uten underretning til den mistenkte eller andre.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 200 a første ledd skal lyde:*
+
+> Når noen med skjellig grunn mistenkes for en handling eller forsøk på en handling som etter loven kan medføre straff av fengsel i 10 år eller mer, eller som rammes av straffeloven §§ 121, 123, 125, 126, 127 jf. 123, 128 første punktum, 129, 136 a, 231, 332 jf. 231, 335 jf. 231, 337 jf. 231, eller 340 jf. 231, kan retten ved kjennelse beslutte at ransaking kan settes i verk uten underretning til den mistenkte eller andre.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 200 a tredje ledd fjerde punktum skal lyde:*
+
+> I saker om overtredelse av straffeloven kapittel 17 kan retten beslutte at underretning kan utsettes for inntil 6 måneder om gangen eller unnlates helt.
 >
 
 ### 2016-06-17 — lov/2016-06-17-52
@@ -2192,6 +3222,13 @@ refid: "lov/1981-05-22-25"
 > Når noen med skjellig grunn mistenkes for en handling eller forsøk på en handling som etter loven kan medføre straff av fengsel i 5 år eller mer, eller som rammes av straffeloven § 162 c, kan påtalemyndigheten beslutte at teknisk peileutstyr plasseres på kjøretøy, gods eller andre gjenstander for å klarlegge hvor den mistenkte eller gjenstandene befinner seg (teknisk sporing).
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 202 b første ledd skal lyde:*
+
+> Når noen med skjellig grunn mistenkes for en handling eller forsøk på handling som etter loven kan medføre straff av fengsel i 5 år eller mer, eller som rammes av straffeloven §§ 121, 123, 125, 126, 127 jf. 123, 128 første punktum eller 198, kan påtalemyndigheten beslutte at teknisk peileutstyr plasseres på kjøretøy, gods eller andre gjenstander for å klarlegge hvor den mistenkte eller gjenstandene befinner seg (teknisk sporing). § 196 gjelder tilsvarende.
+>
+
 ### 2016-06-17 — lov/2016-06-17-52
 
 *§ 202 b første ledd første punktum skal lyde:*
@@ -2234,6 +3271,27 @@ refid: "lov/1981-05-22-25"
 *§ 202 c nytt syvende ledd skal lyde:*
 
 > Reglene om sletting og sperring i § 216 g med tilhørende forskrifter gjelder tilsvarende så langt de passer.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 202 c første ledd første punktum innledningen skal lyde:*
+
+> Når noen med skjellig grunn mistenkes for en handling eller forsøk på handling som etter loven kan medføre straff av fengsel i 10 år eller mer, eller som rammes av straffeloven §§ 121, 123, 125, 126, 127 jf. 123, 128 første punktum, 129 eller 136 a, eller som rammes av lov om kontroll med eksport av strategiske varer, tjenester og teknologi m.v. § 5, kan retten ved kjennelse gi politiet tillatelse til å
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 202 c første ledd annet punktum skal lyde:*
+
+> § 202 b første ledd annet punktum gjelder tilsvarende.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 202 c sjette ledd første punktum skal lyde:*
+
+> Dersom det er strengt nødvendig for etterforskningen i saken at underretning ikke gis, kan påtalemyndigheten i saker om overtredelse av straffeloven kapittel 17 beslutte at underretning skal utsettes eller unnlates helt.
 >
 
 ### 2016-06-17 — lov/2016-06-17-52
@@ -2280,6 +3338,15 @@ refid: "lov/1981-05-22-25"
 > Når noen med skjellig grunn mistenkes for en handling eller forsøk på handling som etter loven kan medføre straff av fengsel i 10 år eller mer, eller som rammes av straffeloven §§ 121, 123, 125, 126, 127 jf. 123, § 128 første punktum, §§ 129, 130, 136, 136 a, 136 b, 145, 146 eller 254, eller som rammes av lov om kontroll med eksport av strategiske varer, tjenester og teknologi m.v. § 5, kan retten ved kjennelse gi politiet tillatelse til å
 >
 
+## § 202 d
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 202 d første ledd innledningen skal lyde:*
+
+> Når noen med skjellig grunn mistenkes for overtredelse av eller forsøk på overtredelse av straffeloven §§ 131, 133, 134 eller 135, kan sjefen eller den stedfortredende sjefen for Politiets sikkerhetstjeneste, eller en statsadvokat, beslutte å båndlegge formuesgoder som tilhører
+>
+
 ## § 202 e
 
 ### 2016-06-17 — lov/2016-06-17-54
@@ -2299,6 +3366,17 @@ refid: "lov/1981-05-22-25"
 >
 
 ## § 208 a
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 208 a første ledd annet punktum oppheves. Nåværende tredje punktum blir annet punktum.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 208 a annet ledd annet punktum skal lyde:*
+
+> I saker om overtredelse av straffeloven kapittel 17 bestemmer påtalemyndigheten hvor lenge underretningen skal utsettes.
+>
 
 ### 2016-06-17 — lov/2016-06-17-54
 
@@ -2367,6 +3445,13 @@ refid: "lov/1981-05-22-25"
 > § 210 annet og fjerde ledd gjelder tilsvarende.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 210 b første ledd skal lyde:*
+
+> Når noen med skjellig grunn mistenkes for en handling eller forsøk på en handling som etter loven kan medføre straff av fengsel i 5 år eller mer, eller som rammes av straffeloven §§ 121, 123, 125, 126 eller 127 jf. 123, kan retten ved kjennelse pålegge den som i fremtiden vil få besittelse av en ting som antas å ha betydning som bevis, å utlevere tingen til politiet straks den mottas. Utleveringspålegg kan bare gis overfor noen som plikter å vitne i saken. §§ 196 og 210 første ledd annet punktum gjelder tilsvarende.
+>
+
 ### 2024-05-31 — lov/2024-05-31-25
 
 *§ 210 b første ledd første punktum skal lyde:*
@@ -2383,6 +3468,13 @@ refid: "lov/1981-05-22-25"
 > Retten kan ved kjennelse pålegge utlevering for et begrenset tidsrom av opplysninger om hvilke telefoner eller annet kommunikasjonsutstyr som innenfor et nærmere bestemt geografisk område har vært satt i forbindelse med bestemte telefoner eller kommunikasjonsutstyr og som tilbyder har plikt til å lagre etter lov 4. juli 2003 nr. 83 om elektronisk kommunikasjon § 2-7 a. Pålegg kan gis når det foreligger skjellig grunn til mistanke om en eller flere straffbare handlingersom etter loven kan medføre straff av fengsel i 5 år eller mer, ellersom etter loven kan medføre straff av fengsel i 3 år eller mer og det er grunn til å tro at handlingen er utøvet som ledd i virksomheten til en organisert kriminell gruppe, jf. straffeloven § 60 a, ellersom rammes av straffeloven §§ 90, 91, 91 a, 94 jf. 90, 104 a annet ledd, § 162, 162 b, 162 c, eller § 317, jf. § 162, eller av utlendingsloven § 108 fjerde ledd.
 >
 > § 210 b annet til femte ledd gjelder tilsvarende.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 210 c annet ledd annet punktum skal lyde:*
+
+> I saker om overtredelse av straffeloven kapittel 17 bestemmer påtalemyndigheten hvor lenge underretningen skal utsettes.
 >
 
 ### 2016-06-17 — lov/2016-06-17-54
@@ -2423,6 +3515,13 @@ refid: "lov/1981-05-22-25"
 
 ## § 211
 
+### 2003-07-04 — lov/2003-07-04-83
+
+*§ 211 første ledd skal lyde:*
+
+> Brev, telegram eller annen sending som besittes av en postoperatør eller en tilbyder av tilgang til elektronisk kommunikasjonsnett eller elektronisk kommunikasjonstjeneste, kan ved rettens kjennelse beslaglegges dersom sendingen etter reglene i §§ 203 og 204 vil kunne beslaglegges hos mottakeren, og mistanken gjelder en handling som etter loven kan medføre straff av fengsel i mer enn 6 måneder.
+>
+
 ### 2016-06-17 — lov/2016-06-17-54
 
 *§ 211 og 212 oppheves.*
@@ -2438,6 +3537,15 @@ refid: "lov/1981-05-22-25"
 
 ## § 214 a
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*Ny § 214 a skal lyde:*
+
+> Påtalemyndigheten kan beslutte inndratt beslaglagte gjenstander som er egnet til bruk ved legemskrenkelse, og beslaglagte etterlikninger av våpen dersom gjenstandene kan inndras etter straffeloven §§ 69 første ledd bokstav c eller 70 første ledd annet punktum. Beslutningen skal være skriftlig og begrunnet. Når påtalemyndigheten utferdiger forelegg, begjærer saken pådømt ved tilståelsesdom eller reiser tiltale med påstand om straff, skal inndragningskravet likevel tas med i saken.
+>
+> Eieren eller besitteren av en beslaglagt ting skal så vidt mulig gis skriftlig underretning om påtalemyndighetens beslutning om inndragning ved kopi av beslutningen, med mindre tingen er av ubetydelig verdi. Saken kan kreves forelagt for retten innen 1 måned etter at underretningen er kommet frem. Har underretning ikke vært gitt, er fristen for å kreve saken inn for retten 6 måneder fra beslaget ble foretatt. Et krav som er fremsatt etter at fristen er utløpt, kan likevel tas til følge når oversittelsen ikke bør legges den til last som har fremsatt kravet, eller når særlige omstendigheter ellers tilsier det.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *Ny § 214 a skal lyde:*
@@ -2456,7 +3564,23 @@ refid: "lov/1981-05-22-25"
 > Eieren eller besitteren av en beslaglagt ting skal så vidt mulig gis skriftlig underretning om påtalemyndighetens beslutning om inndragning ved kopi av beslutningen, med mindre tingen er av ubetydelig verdi. Saken kan kreves forelagt for retten innen 1 måned etter at underretningen er kommet frem. Har underretning ikke vært gitt, er fristen for å kreve saken inn for retten 6 måneder fra beslaget ble foretatt. Et krav som er fremsatt etter at fristen er utløpt, kan likevel tas til følge når oversittelsen ikke bør legges den til last som har fremsatt kravet, eller når særlige omstendigheter ellers tilsier det.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*Ny § 214 a skal lyde:*
+
+> Påtalemyndigheten kan beslutte inndratt beslaglagte gjenstander som er egnet til bruk ved kroppskrenkelse, og beslaglagte etterlikninger av våpen dersom gjenstandene kan inndras etter straffeloven §§ 69 første ledd bokstav c eller 70 første ledd annet punktum. Beslutningen skal være skriftlig og begrunnet. Når påtalemyndigheten utferdiger forelegg, begjærer saken pådømt ved tilståelsesdom eller reiser tiltale med påstand om straff, skal inndragningskravet likevel tas med i saken.
+>
+> Eieren eller besitteren av en beslaglagt ting skal så vidt mulig gis skriftlig underretning om påtalemyndighetens beslutning om inndragning ved kopi av beslutningen, med mindre tingen er av ubetydelig verdi. Saken kan kreves forelagt for retten innen 1 måned etter at underretningen er kommet frem. Har underretning ikke vært gitt, er fristen for å kreve saken inn for retten 6 måneder fra beslaget ble foretatt. Et krav som er fremsatt etter at fristen er utløpt, kan likevel tas til følge når oversittelsen ikke bør legges den til last som har fremsatt kravet, eller når særlige omstendigheter ellers tilsier det.
+>
+
 ## § 214 b
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*Ny § 214 b skal lyde:*
+
+> Påtalemyndigheten kan beslutte inndragning av en beslaglagt ting dersom inndragning kan skje etter straffeloven § 74 og verken eieren, lovbryteren eller besitteren er kjent. Beslutningen skal være skriftlig og begrunnet. Eieren eller besitteren kan kreve saken forelagt for retten innen 6 måneder etter at vedtak om inndragning er fattet.
+>
 
 ### 2008-03-07 — lov/2008-03-07-4
 
@@ -2466,6 +3590,13 @@ refid: "lov/1981-05-22-25"
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*Ny § 214 b skal lyde:*
+
+> Påtalemyndigheten kan beslutte inndragning av en beslaglagt ting dersom inndragning kan skje etter straffeloven § 74 og verken eieren, lovbryteren eller besitteren er kjent. Beslutningen skal være skriftlig og begrunnet. Eieren eller besitteren kan kreve saken forelagt for retten innen 6 måneder etter at vedtak om inndragning er fattet.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *Ny § 214 b skal lyde:*
 
@@ -2512,6 +3643,13 @@ refid: "lov/1981-05-22-25"
 
 ## § 216 a
 
+### 2003-07-04 — lov/2003-07-04-83
+
+*§ 216 a tredje ledd skal lyde:*
+
+> Kommunikasjonsavlytting kan bestå i å avlytte samtaler eller annen kommunikasjon til og fra bestemte telefoner, datamaskiner eller andre anlegg for elektronisk kommunikasjon som den mistenkte besitter eller kan antas å ville bruke.
+>
+
 ### 2012-06-22 — lov/2012-06-22-52
 
 *§ 216 a fjerde ledd nytt tredje og fjerde punktum skal lyde:*
@@ -2533,6 +3671,24 @@ refid: "lov/1981-05-22-25"
 *§ 216 a første ledd bokstav b skal lyde:*
 
 > som rammes av straffeloven §§ 90, 91, 91 a, 94 jf. 90, 104 a første ledd annet punktum, eller 104 a annet ledd jf. første ledd annet punktum, § 147 d, eller av § 162 eller § 317, jf. § 162 eller av lov om kontroll med eksport av strategiske varer, tjenester og teknologi m.v. § 5.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 216 a første ledd bokstav b skal lyde:*
+
+> som rammes av straffeloven §§ 121, 123, 125, 126, 127 jf. 123, 128 første punktum, 129, 136 a, 231, 332 jf. 231, 335 jf. 231, 337 jf. 231, eller 340 jf. 231, eller av lov om kontroll med eksport av strategiske varer, tjenester og teknologi m.v. § 5.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 216 a første ledd annet punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 216 a annet ledd første punktum skal lyde:*
+
+> Kommunikasjonsavlytting kan besluttes selv om straff ikke kan idømmes på grunn av bestemmelsene i straffeloven § 20 første ledd.
 >
 
 ### 2016-06-17 — lov/2016-06-17-52
@@ -2604,7 +3760,9 @@ refid: "lov/1981-05-22-25"
 
 *§ 216 b annet ledd bokstav b og c skal lyde:*
 
-> å stenge anlegg som nevnt i bokstav a for kommunikasjon, ellerå identifisere anlegg som nevnt i bokstav a ved hjelp av teknisk utstyr.
+> å stenge anlegg som nevnt i bokstav a for kommunikasjon, eller
+>
+> å identifisere anlegg som nevnt i bokstav a ved hjelp av teknisk utstyr.
 >
 
 ### 2012-06-22 — lov/2012-06-22-52
@@ -2612,6 +3770,20 @@ refid: "lov/1981-05-22-25"
 *§ 216 b nytt fjerde ledd skal lyde:*
 
 > Ved anmodning fra fremmed stat om rettslig hjelp til kommunikasjonskontroll som nevnt i annet ledd bokstav a gjelder § 216 a fjerde og femte ledd tilsvarende.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 216 b første ledd første punktum skal lyde:*
+
+> Retten kan ved kjennelse gi politiet tillatelse til å foreta annen kontroll av kommunikasjonsanlegg når noen med skjellig grunn mistenkes for en handling eller forsøk på en handlingsom etter loven kan medføre straff av fengsel i 5 år eller mer, eller som rammes av straffeloven kapittel 21, ellersom rammes av straffeloven §§ 121, 123, 125, 126, 127 jf. 123, 128 første punktum, 198, 231, 266, 306, 311, 332 jf. 231, 335 jf. 231, 337 jf. 231, eller 340 jf. 231.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 216 b første ledd annet punktum skal lyde:*
+
+> Reglene i § 216 a annet ledd gjelder tilsvarende.
 >
 
 ### 2016-06-17 — lov/2016-06-17-52
@@ -2625,7 +3797,11 @@ refid: "lov/1981-05-22-25"
 
 *§ 216 b annet ledd bokstav c, d og ny e skal lyde:*
 
-> å identifisere eller lokalisere anlegg som nevnt i bokstav a ved hjelp av teknisk utstyr,at eier eller tilbyder av nett eller tjeneste som benyttes ved kommunikasjonen, skal gi politiet opplysninger om hvilke kommunikasjonsanlegg som i et bestemt tidsrom skal settes eller har vært satt i forbindelse med anlegg som nevnt i bokstav a, andre data knyttet til kommunikasjon, og den geografiske posisjonen til et slikt anlegg,å overføre skjulte signaler til anlegg som nevnt i bokstav a, i forbindelse med tiltak som nevnt i bokstav c og d.
+> å identifisere eller lokalisere anlegg som nevnt i bokstav a ved hjelp av teknisk utstyr,
+>
+> at eier eller tilbyder av nett eller tjeneste som benyttes ved kommunikasjonen, skal gi politiet opplysninger om hvilke kommunikasjonsanlegg som i et bestemt tidsrom skal settes eller har vært satt i forbindelse med anlegg som nevnt i bokstav a, andre data knyttet til kommunikasjon, og den geografiske posisjonen til et slikt anlegg,
+>
+> å overføre skjulte signaler til anlegg som nevnt i bokstav a, i forbindelse med tiltak som nevnt i bokstav c og d.
 >
 
 ### 2024-05-31 — lov/2024-05-31-25
@@ -2651,6 +3827,15 @@ refid: "lov/1981-05-22-25"
 *§ 216 d første ledd første til tredje punktum skal lyde:*
 
 > Dersom det ved opphold er stor fare for at etterforskningen vil lide, kan ordre fra påtalemyndigheten tre istedenfor kjennelse av retten. Påtalemyndighetens beslutning skal snarest mulig, og senest innen 24 timer etter at kontrollen ble påbegynt, forelegges retten for godkjennelse. Ender fristen på et tidspunkt utenom rettens ordinære kontortid, forlenges fristen til retten åpner igjen.
+>
+
+## § 216 f
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 216 f første ledd tredje punktum skal lyde:*
+
+> Gjelder mistanken overtredelse av straffeloven kapittel 17, kan tillatelsen likevel gis for inntil 8 uker om gangen dersom etterforskningens art eller andre særlige omstendigheter tilsier at fornyet prøving etter 4 uker vil være uten betydning.
 >
 
 ## § 216 g
@@ -2712,24 +3897,41 @@ refid: "lov/1981-05-22-25"
 
 *§ 216 i første ledd tredje punktum bokstav g, h og ny bokstav i skal lyde:*
 
-> for å gi opplysninger til kontrollutvalget,for å gi underretning etter § 216 j, ellerfor at Politiets sikkerhetstjeneste kan utlevere opplysninger til Etterretningstjenesten dersom det er nødvendig for forebyggelses- og sikkerhetsmessige formål.
+> for å gi opplysninger til kontrollutvalget,
+>
+> for å gi underretning etter § 216 j, eller
+>
+> for at Politiets sikkerhetstjeneste kan utlevere opplysninger til Etterretningstjenesten dersom det er nødvendig for forebyggelses- og sikkerhetsmessige formål.
 >
 
 ### 2020-04-24 — lov/2020-04-24-33
 
 *§ 216 i bokstav h, i og ny j skal lyde:*
 
-> for å gi underretning etter § 216 j,for at Politiets sikkerhetstjeneste kan utlevere opplysninger til Etterretningstjenesten dersom det er nødvendig for forebyggelses- og sikkerhetsmessige formål,i saker om erstatning etter kapittel 31.
+> for å gi underretning etter § 216 j,
+>
+> for at Politiets sikkerhetstjeneste kan utlevere opplysninger til Etterretningstjenesten dersom det er nødvendig for forebyggelses- og sikkerhetsmessige formål,
+>
+> i saker om erstatning etter kapittel 31.
 >
 
 ### 2021-06-18 — lov/2021-06-18-128
 
 *§ 216 i første ledd bokstav j og ny bokstav k skal lyde:*
 
-> i saker om erstatning etter kapittel 31,i sak om forbud mot en kriminell sammenslutning etter kapittel 17 c.
+> i saker om erstatning etter kapittel 31,
+>
+> i sak om forbud mot en kriminell sammenslutning etter kapittel 17 c.
 >
 
 ## § 216 j
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 216 j første ledd annet punktum skal lyde:*
+
+> Dette gjelder likevel ikke i saker om overtredelse av straffeloven kapittel 17.
+>
 
 ### 2016-06-17 — lov/2016-06-17-54
 
@@ -2766,11 +3968,31 @@ refid: "lov/1981-05-22-25"
 > Tillatelse til romavlytting kan bare gis for sted hvor det må antas at den mistenkte vil oppholde seg. Tillatelse til avlytting av offentlig sted eller annet sted som er tilgjengelig for et større antall personer, kan bare gis når det foreligger særlige grunner. Det samme gjelder ved avlytting av sted hvor advokat, lege, prest eller andre erfaringsmessig fører samtaler av svært fortrolig art eller av redaksjonslokale eller tilsvarende sted hvor redaktør eller journalist fører samtaler av yrkesmessig art, såfremt vedkommende ikke selv er mistenkt i saken. Romavlytting må innrettes slik at den i minst mulig grad fanger opp samtaler hvor den mistenkte ikke er part.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 216 m første ledd bokstav a til c skal lyde:*
+
+> straffeloven §§ 131 eller 134,
+>
+> straffeloven §§ 232 annet ledd, 275 eller 328, jf. straffeloven § 79 bokstav c, eller
+>
+> straffeloven §§ 275 jf. 157 eller 275 jf. 159.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 216 m annet ledd første punktum skal lyde:*
+
+> Romavlytting kan besluttes selv om straff ikke kan idømmes på grunn av bestemmelsene i straffeloven § 20 første ledd.
+>
+
 ### 2016-06-17 — lov/2016-06-17-54
 
 *§ 216 m første ledd bokstav b og c skal lyde:*
 
-> straffeloven § 275,straffeloven §§ 232 annet ledd eller 328, jf. § 79 bokstav c.
+> straffeloven § 275,
+>
+> straffeloven §§ 232 annet ledd eller 328, jf. § 79 bokstav c.
 >
 
 ### 2016-06-17 — lov/2016-06-17-54
@@ -2788,6 +4010,13 @@ refid: "lov/1981-05-22-25"
 >
 
 ## § 216 n
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 216 n skal lyde:*
+
+> Påtalemyndigheten skal sørge for at opptak, opplysninger eller notater som er foretatt, registrert eller nedtegnet i forbindelse med elektronisk kontroll av domfelte, jf. straffeloven § 57 femte ledd, snarest mulig blir tilintetgjort i den utstrekning de er uten betydning for forebyggelsen eller etterforskningen av straffbare forhold.
+>
 
 ### 2023-12-20 — lov/2023-12-20-111
 
@@ -2837,6 +4066,15 @@ refid: "lov/1981-05-22-25"
 *§ 219 første ledd skal lyde:*
 
 > Ved iverksetting av heftelse gjelder tvisteloven §§ 33-5 til 33-8 og denne lovs § 213 første ledd annet punktum tilsvarende.
+>
+
+## § 22
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 22 skal lyde:*
+
+> Når det er grunn til å tro at en uttalelse vil kunne medføre straffansvar for uriktig forklaring eller anklage, bør den føres inn i rettsboka fullstendig og så vidt mulig med vedkommendes egne ord.
 >
 
 ## § 221
@@ -2898,6 +4136,13 @@ refid: "lov/1981-05-22-25"
 > En beslutning om ikke å ilegge besøksforbud kan bringes inn for retten av den et forbud skal beskytte. Den et besøksforbud er rettet mot, og den det skal beskytte, skal varsles om rettsmøter. Begge parter har rett til å være til stede og til å uttale seg. Bistandsadvokat oppnevnt etter § 107 a første og fjerde ledd kan også uttale seg selv om den forbudet skal beskytte, ikke møter. Rettens avgjørelser treffes ved kjennelse. Reglene i §§ 184 og 243 gjelder tilsvarende så langt de passer.
 >
 > § 222 a nåværende sjette ledd utgår.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 222 a femte ledd femte punktum skal lyde:*
+
+> Den et forbud er rettet mot, skal også gjøres kjent med følgene av å bryte forbudet, jf. straffeloven § 168.
 >
 
 ### 2023-12-20 — lov/2023-12-20-111
@@ -2980,6 +4225,22 @@ refid: "lov/1981-05-22-25"
 > straffeloven §§ 83, 84, 86, 86 b, 88, 90, 91, 91 a, kapittel 9, §§ 104 a første ledd annet punktum eller annet ledd, jf. første ledd annet punktum, 147 a fjerde ledd, 147 b, § 147 d, 152 a eller 153 a,
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 222 d første og annet ledd skal lyde:*
+
+> Retten kan ved kjennelse gi politiet tillatelse til som ledd i etterforsking å nytte tvangsmidler som nevnt i kapittel 15, 15 a, 16, 16 a og 16 b når det er rimelig grunn til å tro at noen kommer til å begå en handling som rammes avstraffeloven §§ 131 eller 134,straffeloven §§ 232 annet ledd, 275 eller 328, jf. straffeloven § 79 bokstav c, ellerstraffeloven §§ 275 jf. 157 eller 275 jf. 159.
+>
+> Politiets sikkerhetstjeneste kan også gis slik tillatelse når det er grunn til å tro at noen kommer til å begå en handling som rammes avstraffeloven §§ 111, 113, 115, 117, 119, 123, 126, 128 første punktum, 129, 133, 135, 136 a eller 142,lov om kontroll med eksport av strategiske varer, tjenester og teknologi m.v. § 5,straffeloven §§ 139, 140, 192, 194, 238, 239, 240, 241, 242, 355, 356, 357 eller 358 og som begås med sabotasjehensikt, ellerstraffeloven §§ 251, 253, 254, 263, 273 eller 275 og som retter seg mot medlemmer av Kongehuset, Stortinget, regjeringen, Høyesterett eller representanter for tilsvarende organer i andre stater.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 222 d tredje ledd tredje punktum skal lyde:*
+
+> Politiets sikkerhetstjeneste kan bare gis tillatelse til å romavlytte, jf. § 216 m, når det er grunn til å tro at noen kommer til å begå en handling som rammes av straffeloven §§ 121, 123, 125, 126, 131, 133, 134 eller 142.
+>
+
 ### 2016-06-17 — lov/2016-06-17-52
 
 *§ 222 d annet ledd bokstav a skal lyde:*
@@ -3058,6 +4319,13 @@ refid: "lov/1981-05-22-25"
 
 ## § 225
 
+### 2015-02-13 — lov/2015-02-13-9
+
+*§ 225 tredje ledd skal lyde:*
+
+> Etterforskning av straffbare handlinger forøvd om bord i norsk skip kan også foretas av utsendte utenrikstjenestemenn og norske honorære representanter som departementet har gitt myndighet, etter nærmere regler som Kongen gir.
+>
+
 ### 2021-06-18 — lov/2021-06-18-122
 
 *§ 225 første ledd skal lyde:*
@@ -3081,6 +4349,20 @@ refid: "lov/1981-05-22-25"
 > Formålet med etterforskningen er å skaffe til veie de nødvendige opplysninger forå avgjøre spørsmålet om tiltale,å tjene som forberedelse for rettens behandling av spørsmålet om straffeskyld og eventuelt spørsmålet om fastsettelse av reaksjon,å fullbyrde straff og andre reaksjoner ogå tjene som forberedelse for barneverntjenestens behandling av spørsmålet om det skal sette i verk tiltak etter lov 17. juli 1992 nr. 100 om barneverntjenester.
 >
 
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 226 første ledd skal lyde:*
+
+> Formålet med etterforskningen er å skaffe til veie de nødvendige opplysninger forå avgjøre spørsmålet om tiltale,å tjene som forberedelse for rettens behandling av spørsmålet om straffeskyld og eventuelt spørsmålet om fastsettelse av reaksjon,å avverge eller stanse straffbare handlinger,å fullbyrde straff og andre reaksjoner,å tjene som forberedelse for barneverntjenestens behandling av spørsmålet om det skal sette i verk tiltak etter lov 17. juli 1992 nr. 100 om barneverntjenester, ogå tjene som forberedelse for behandling i konfliktrådet.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 226 første ledd bokstav e skal lyde:*
+
+> å tjene som forberedelse for barnevernstjenestens behandling av spørsmålet om det skal sette i verk tiltak etter barnevernsloven, og
+>
+
 ### 2021-06-18 — lov/2021-06-18-122
 
 *§ 226 tredje ledd skal lyde:*
@@ -3089,6 +4371,10 @@ refid: "lov/1981-05-22-25"
 >
 
 ## § 229
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 229 annet ledd oppheves. Nåværende tredje ledd blir annet ledd.*
 
 ### 2016-05-27 — lov/2016-05-27-15
 
@@ -3154,11 +4440,31 @@ refid: "lov/1981-05-22-25"
 
 ## § 231
 
+### 2015-02-13 — lov/2015-02-13-9
+
+*§ 231 første punktum skal lyde:*
+
+> Etter begjæring fra påtalemyndigheten kan utsendte utenrikstjenestemenn og norske honorære representanter som departementet har gitt myndighet, oppta forklaringer i utlandet, dersom det er adgang til det overfor den fremmede stat.
+>
+
 ### 2023-06-16 — lov/2023-06-16-34
 
 *§ 231 første punktum skal lyde:*
 
 > Etter begjæring fra påtalemyndigheten kan utsendte utenrikstjenesteansatte og norske honorære representanter som departementet har gitt myndighet, oppta forklaringer i utlandet, dersom det er adgang til det overfor den fremmede stat.
+>
+
+## § 232 a
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 232 a skal lyde:*
+
+> Når etterforskning settes i gang mot barn under 18 år og saken ikke er av bagatellmessig art, skal politiet straks underrette barnevernstjenesten. Er barnet i institusjon skal også institusjonen underrettes.
+>
+> Barnevernstjenesten skal i saker som nevnt i første ledd underrettes om avhør av mistenkte dersom det er høve til det.
+>
+> Når barnevernstjenesten har bedt om det, skal den også gis anledning til å uttale seg før tiltalespørsmålet avgjøres.
 >
 
 ## § 233
@@ -3179,6 +4485,13 @@ refid: "lov/1981-05-22-25"
 > Avhør av vitne under 16 år i sak om forbrytelse eller forseelse mot sedeligheten bør fortrinnsvis begjæres foretatt etter reglene i § 239.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 234 annet ledd første punktum skal lyde:*
+
+> Avhør av vitne under 16 år i sak om seksuallovbrudd bør fortrinnsvis begjæres foretatt etter reglene i § 239.
+>
+
 ### 2015-09-04 — lov/2015-09-04-87
 
 *§ 234 første ledd nytt andre punktum skal lyde:*
@@ -3189,6 +4502,15 @@ refid: "lov/1981-05-22-25"
 ### 2015-09-04 — lov/2015-09-04-87
 
 *§ 234 andre ledd oppheves.*
+
+## § 236
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 236 første punktum skal lyde:*
+
+> Første gang fornærmede bli avhørt, skal han spørres om sitt syn på om lovbruddet bør påtales.
+>
 
 ## § 237
 
@@ -3222,6 +4544,13 @@ refid: "lov/1981-05-22-25"
 > Konsulretten kan foreta rettslige avhør og andre enkeltstående rettshandlinger, men har ikke dømmende myndighet.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 238 første ledd skal lyde:*
+
+> Forklaringer under etterforsking av lovbrudd i sjøfartsforhold og av straffbare handlinger foretatt om bord i norsk skip, kan i utlandet avgis for vedkommende norske konsulrett, jf. domstolsloven § 51.
+>
+
 ## § 239
 
 ### 2008-03-07 — lov/2008-03-07-5
@@ -3229,6 +4558,13 @@ refid: "lov/1981-05-22-25"
 *§ 239 første ledd første punktum skal lyde:*
 
 > Ved avhør av et vitne under 16 år eller et vitne med psykisk utviklingshemming eller tilsvarende funksjonssvikt i en sak om forbrytelse eller forseelse mot sedelighet, skal dommeren ta imot forklaringen utenfor rettsmøte, når han finner det ønskelig av hensyn til vitnet eller av andre grunner.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 239 første ledd første punktum skal lyde:*
+
+> Ved avhør av et vitne under 16 år eller et vitne med psykisk utviklingshemming eller tilsvarende funksjonssvikt i sak om seksuallovbrudd, skal dommeren ta imot forklaringen utenfor rettsmøte, når han finner det ønskelig av hensyn til vitnet eller av andre grunner.
 >
 
 ### 2015-09-04 — lov/2015-09-04-87
@@ -3488,6 +4824,13 @@ refid: "lov/1981-05-22-25"
 > Statsadvokatens begjæring etter første ledd og andre dokumenter knyttet til behandlingen av begjæringen inngår ikke i straffesaksdokumentene i den sak begjæringen knytter seg til, og skal ikke gjøres kjent for mistenkte og forsvareren. §§ 216 e annet ledd og 216 i første ledd første punktum gjelder tilsvarende. Kjennelsen skal meddeles den advokat som er særskilt oppnevnt etter § 100 a.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 242 a første ledd bokstav a skal lyde:*
+
+> et alvorlig lovbrudd mot noens liv, helse eller frihet,
+>
+
 ### 2019-06-21 — lov/2019-06-21-50
 
 *§ 242 a tredje ledd skal lyde:*
@@ -3623,6 +4966,10 @@ refid: "lov/1981-05-22-25"
 > Begjæringen skal uttrykkelig angi eventuelle opplysninger som nevnt i straffeprosessloven § 216 i første ledd tredje punktum bokstav d første punktum, jf. § 216 m sjette ledd, og begrunne hvorfor vilkårene for å føre disse som bevis anses oppfylt.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 248 annet ledd oppheves. Nåværende tredje til sjette ledd blir annet til femte ledd.*
+
 ### 2021-06-18 — lov/2021-06-18-122
 
 *§ 248 første ledd skal lyde:*
@@ -3655,6 +5002,13 @@ refid: "lov/1981-05-22-25"
 *§ 251 første ledd skal lyde:*
 
 > Er det grunn til å anta at siktede er i en tilstand som nevnt i straffeloven § 44 og innkalling til hovedforhandling blir unnlatt etter reglene i § 84 annet ledd, kan det bare fremmes sak om overføring til tvungent psykisk helsevern etter straffeloven § 39, tvungen omsorg etter straffeloven § 39 a eller om inndragning.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 251 første ledd skal lyde:*
+
+> Er det grunn til å anta at siktede er i en tilstand som nevnt i straffeloven § 20 første ledd bokstav b til d og innkalling til hovedforhandling blir unnlatt etter reglene i § 84 annet ledd, kan det bare fremmes sak om overføring til tvungent psykisk helsevern etter straffeloven § 62, tvungen omsorg etter straffeloven § 63 eller om inndragning.
 >
 
 ### 2020-12-04 — lov/2020-12-04-135
@@ -3704,6 +5058,15 @@ refid: "lov/1981-05-22-25"
 > Finner påtalemyndigheten at en sak bør avgjøres med bot eller inndragning, eller begge deler, kan den utferdige forelegg i stedet for å reise tiltale. Reaksjoner som nevnt i § 2 nr. 4 kan også avgjøres ved forelegg, og kan også ilegges sammen med reaksjoner som nevnt i første punktum.
 >
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 255 skal lyde:*
+
+> Finner påtalemyndigheten at en sak bør avgjøres med bot, inndragning eller rettighetstap, kan den utferdige forelegg i stedet for å reise tiltale. Reaksjoner som nevnt i § 2 nr. 4 kan også avgjøres ved forelegg og kan også ilegges sammen med reaksjoner som nevnt i første punktum.
+>
+> Rettighetstap som avgjøres ved forelegg, kan bare gjelde for inntil 3 år og kan ikke gjelde tap av stilling, retten til å inneha stilling eller tap av retten til å utøve næringsvirksomhet, med unntak for binæring.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *§ 255 skal lyde:*
@@ -3722,6 +5085,15 @@ refid: "lov/1981-05-22-25"
 > Rettighetstap som avgjøres ved forelegg, kan bare gjelde for inntil 3 år og kan ikke gjelde tap av stilling, retten til å inneha stilling eller tap av retten til å utøve næringsvirksomhet, med unntak for binæring.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 255 skal lyde:*
+
+> Finner påtalemyndigheten at en sak bør avgjøres med bot, inndragning eller rettighetstap, kan den utferdige forelegg i stedet for å reise tiltale. Reaksjoner som nevnt i § 2 nr. 3 kan også avgjøres ved forelegg og kan også ilegges sammen med reaksjoner som nevnt i første punktum.
+>
+> Rettighetstap som avgjøres ved forelegg, kan bare gjelde for inntil 3 år og kan ikke gjelde tap av stilling, retten til å inneha stilling eller tap av retten til å utøve næringsvirksomhet, med unntak for binæring.
+>
+
 ## § 256
 
 ### 2003-07-04 — lov/2003-07-04-77
@@ -3729,6 +5101,15 @@ refid: "lov/1981-05-22-25"
 *§ 256 nr. 4 skal lyde:*
 
 > fastsetting av den bot som kreves, og den fengselsstraff som inntrer om boten ikke blir betalt, og i tilfelle den inndragning eller reaksjon som nevnt i § 2 nr. 4,
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 256 første ledd nr. 4 og nytt annet ledd skal lyde:*
+
+> fastsetting av den bot og i tilfelle den inndragning og det rettighetstap som kreves,
+>
+> Dersom den siktede har vært berøvet friheten i anledning av saken, og det ved fastsettingen av boten ikke er gitt fullt fradrag for frihetsberøvelsen, jf. straffeloven § 83 annet ledd, skal det anmerkes i forelegget hvor mange dager som har kommet til fradrag.
 >
 
 ### 2008-03-07 — lov/2008-03-07-4
@@ -3746,6 +5127,20 @@ refid: "lov/1981-05-22-25"
 
 > fastsetting av den bot og i tilfelle den inndragning og det rettighetstap som kreves,
 >
+> Dersom den siktede har vært berøvet friheten i anledning av saken, og det ved fastsettingen av boten ikke er gitt fullt fradrag for frihetsberøvelsen, jf. straffeloven § 83 annet ledd, skal det anmerkes i forelegget hvor mange dager som har kommet til fradrag.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 256 første ledd nr. 4 skal lyde:*
+
+> fastsetting av den bot som kreves, og den fengselsstraff som inntrer om boten ikke blir betalt, og i tilfelle den inndragning og det rettighetstap eller reaksjon som nevnt i § 2 nr. 3,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 256 annet ledd skal lyde:*
+
 > Dersom den siktede har vært berøvet friheten i anledning av saken, og det ved fastsettingen av boten ikke er gitt fullt fradrag for frihetsberøvelsen, jf. straffeloven § 83 annet ledd, skal det anmerkes i forelegget hvor mange dager som har kommet til fradrag.
 >
 
@@ -4116,6 +5511,10 @@ refid: "lov/1981-05-22-25"
 
 ## § 273
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 273 oppheves.*
+
 ### 2021-06-18 — lov/2021-06-18-122
 
 *§ 273 skal lyde:*
@@ -4206,6 +5605,13 @@ refid: "lov/1981-05-22-25"
 > Innkalling kan sendes offentlig oppnevnt forsvarer med anmodning om at denne forestår forkynningen for tiltalte etter reglene i domstolloven § 179. Forsvareren skal senest en uke før hovedforhandlingen underrette påtalemyndigheten om hvorvidt forkynning har skjedd.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 275 annet ledd bokstav a skal lyde:*
+
+> var under 18 år da lovbruddet ble begått, eller
+>
+
 ## § 276
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -4234,6 +5640,13 @@ refid: "lov/1981-05-22-25"
 *§ 276 første stykket skal lyde:*
 
 > Ved hovedforhandling settes retten med en fagdommer og to meddommere. I saker etter § 268 om forhold som kan straffes med bot eller fengsel inntil ett år, eller med bot og fengsel inntil ett år, kan retten settes uten meddommere. Dette gjelder ikke hvor retten finner behandlingsmåten betenkelig. Rettens avgjørelse om at retten skal settes uten meddommere, kan ikke ankes. Rettens vurdering av om behandlingsmåten er betenkelig kan heller ikke brukes som grunnlag for anke over dommen.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 276 fjerde ledd skal lyde:*
+
+> Retten kan ikke settes med dommerfullmektig i sak om lovbrudd som etter loven kan medføre fengsel i mer enn 6 år, unntatt i sak om overtredelse av straffeloven § 274 første ledd.
 >
 
 ## § 277
@@ -4570,6 +5983,13 @@ refid: "lov/1981-05-22-25"
 > Reglene i § 242 a tredje til sjette ledd gjelder tilsvarende så langt de passer.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 292 a første ledd bokstav a skal lyde:*
+
+> et alvorlig lovbrudd mot noens liv, helse eller frihet,
+>
+
 ### 2019-06-21 — lov/2019-06-21-50
 
 *§ 292 a tredje ledd skal lyde:*
@@ -4587,6 +6007,10 @@ refid: "lov/1981-05-22-25"
 >
 
 ## § 295
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 295 oppheves.*
 
 ### 2021-06-18 — lov/2021-06-18-122
 
@@ -4611,6 +6035,13 @@ refid: "lov/1981-05-22-25"
 *§ 298 første ledd første punktum skal lyde:*
 
 > I sak om forbrytelse eller forseelse mot sedelighet skal opplesing, videoopptak eller lydopptak av en forklaring som et vitne under 16 år har gitt for en domstol eller etter reglene i § 239, tre i stedet for personlig avhør, når ikke retten av særlige grunner finner at vitnet bør gi forklaring under hovedforhandlingen.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 298 første ledd første punktum skal lyde:*
+
+> I sak om seksuallovbrudd skal opplesing, videoopptak eller lydopptak av en forklaring som et vitne under 16 år har gitt for en domstol eller etter reglene i § 239, tre i stedet for personlig avhør, når ikke retten av særlige grunner finner at vitnet bør gi forklaring under hovedforhandlingen.
 >
 
 ### 2015-09-04 — lov/2015-09-04-87
@@ -4651,6 +6082,41 @@ refid: "lov/1981-05-22-25"
 *§ 3 fjerde ledd annet punktum skal lyde:*
 
 > Dette gjelder likevel ikke §§ 72, 80, 229, 273, 289 a, 295, 397 og 398 og ikke kapitlene 9 a og 28.
+>
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 3 fjerde ledd skal lyde:*
+
+> Krav som nevnt i første ledd innkreves av Statens innkrevingssentral med mindre departementet bestemmer annet.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 3 første ledd nr. 5 skal lyde:*
+
+> krav om tap av arverett etter § 73 i arveloven 3. mars 1972 nr. 5,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 3 første ledd nr. 7 skal lyde:*
+
+> krav fra den ene ektefellen mot den andre ektefellen om at ekteskapet er ugyldig eller om skilsmisse uten forutgående separasjon, jf. lov 4. juli 1991 nr. 47 om ekteskap § 16 tredje og fjerde ledd og § 23 i sak etter straffeloven § 253.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 3 annet ledd skal lyde:*
+
+> I forbindelse med straffesak mot en offentlig tjenestemann kan det offentlige gjøre gjeldende krav om avskjed etter lov 4. mars 1983 nr. 3 om statens tjenestemenn § 15A.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 3 fjerde ledd annet punktum skal lyde:*
+
+> Dette gjelder likevel ikke §§ 80, 289 a, 295, 397 og 398 og ikke kapitlene 9 a og 28.
 >
 
 ### 2018-12-20 — lov/2018-12-20-114
@@ -4824,6 +6290,13 @@ refid: "lov/1981-05-22-25"
 > § 264 annet ledd gjelder tilsvarende.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 314 første ledd nr. 1 skal lyde:*
+
+> den dom som angripes, om anken gjelder hele dommen eller bare enkelte tiltaleposter, og om den omfatter avgjørelse om inndragning,
+>
+
 ### 2021-06-18 — lov/2021-06-18-122
 
 *§ 314 første og annet ledd skal lyde:*
@@ -4841,6 +6314,10 @@ refid: "lov/1981-05-22-25"
 
 > Ved prøving av saksbehandlingen er ankedomstolen ikke bundet av avgjørelser truffet etter anke over kjennelser og beslutninger. Likevel er lagmannsretten bundet av den rettsoppfatning som ligger til grunn for avgjørelse i Høyesteretts ankeutvalg.
 >
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 315 annet ledd oppheves. Nåværende tredje ledd blir annet ledd.*
 
 ### 2021-06-18 — lov/2021-06-18-122
 
@@ -4922,6 +6399,20 @@ refid: "lov/1981-05-22-25"
 *§ 321 femte ledd nytt annet til fjerde punktum skal lyde:*
 
 > Beslutning etter første ledd skal være begrunnet når særlige grunner tilsier det. Beslutning etter annet ledd skal være begrunnet. Beslutning etter fjerde ledd annet punktum skal være begrunnet når anken omfattes av annet ledd første punktum og det er fremsatt nye anførsler i begjæringen om omgjøring.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 321 første ledd tredje punktum skal lyde:*
+
+> Samtykke er likevel ikke nødvendig når siktede er et foretak, jf. straffeloven kapittel 4.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 321 tredje ledd annet punktum skal lyde:*
+
+> Leddet her gjelder ikke anke i sak om overtredelse av straffeloven § 274 første ledd.
 >
 
 ### 2019-06-21 — lov/2019-06-21-51
@@ -5067,6 +6558,17 @@ refid: "lov/1981-05-22-25"
 > Paragrafen her gjelder ikke for saker som etter kapittel 24 skal behandles med lagrette, og heller ikke for anke over saker som nevnt i straffeloven § 52 første ledd bokstav a.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 332 første ledd annet punktum oppheves. Nåværende tredje til femte punktum blir annet til fjerde punktum.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 332 tredje ledd skal lyde:*
+
+> Paragrafen her gjelder ikke for saker som etter kapittel 24 skal behandles med lagrette, og heller ikke for anke over saker som nevnt i straffeloven § 39 annet ledd og § 52 første ledd bokstav a.
+>
+
 ### 2017-06-16 — lov/2017-06-16-58
 
 *§ 332 skal lyde:*
@@ -5106,6 +6608,17 @@ refid: "lov/1981-05-22-25"
 *§ 333 sjette ledd skal lyde:*
 
 > Paragrafen her gjelder ikke for anke over saker som nevnt i straffeloven § 52 første ledd bokstav a.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 333 første ledd annet punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 333 sjette ledd skal lyde:*
+
+> Paragrafen her gjelder ikke for anke over saker som nevnt i straffeloven § 39 annet ledd og § 52 første ledd bokstav a.
 >
 
 ## § 334
@@ -5200,6 +6713,10 @@ refid: "lov/1981-05-22-25"
 
 ## § 35
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 35 tredje ledd oppheves.*
+
 ### 2017-06-16 — lov/2017-06-16-58
 
 *§ 35 første ledd annet punktum skal lyde:*
@@ -5216,6 +6733,27 @@ refid: "lov/1981-05-22-25"
 > Forhøyelse av maksimumsstraffen på grunn av gjentakelse, sammenstøt av forbrytelser eller anvendelsen av straffeloven § 60 a eller § 232 kommer ikke i betraktning.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 352 annet ledd nr. 1 skal lyde:*
+
+> i saker om overtredelse av straffeloven kapittel 17,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 352 annet ledd nr. 2 skal lyde:*
+
+> når siktede var under 18 år da lovbruddet ble begått, dersom påtalemyndigheten ikke vil påstå og det ved den påankede dom ikke er idømt fengsel i mer enn 2 år,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 352 tredje ledd skal lyde:*
+
+> Forhøyelse av maksimumsstraffen på grunn av anvendelsen av straffeloven § 79 bokstav c kommer ikke i betraktning.
+>
+
 ## § 353
 
 ### 2001-05-04 — lov/2001-05-04-16
@@ -5225,6 +6763,17 @@ refid: "lov/1981-05-22-25"
 > En ankesak kan omfatte flere forhold som forenes etter reglene i § 13, selv om noen av forholdene skal behandles med lagrette og andre ikke. Dette gjelder uavhengig av om forholdene tidligere har vært forent i én sak. Forhold som gjelder ærekrenkelse, der retten skal prøve bevisbedømmelsen under skyldspørsmålet, kan likevel ikke forenes med forhold som skal behandles med lagrette.
 >
 > Er flere straffbare forhold forent i én sak, gjelder følgende:Ved anke over bevisbedømmelsen under skyldspørsmålet der noen av forholdene skal behandles med lagrette og andre ikke, skal alle forholdene behandles med lagrette. Omfatter ankesaken spørsmål om overtredelse av straffeloven kapittel 8 eller 9 eller lov 18. august 1914 om forsvarshemmeligheter, skal likevel hele saken behandles med meddommere.Dersom ankeforhandlingen omfatter både bevisanke som skal behandles med lagrette, og anke over andre sider ved en dom, avgjøres de sistnevnte forholdene av lagmannsretten uten medvirkning fra lagretten. Dersom fire lagrettemedlemmer tiltrer retten etter § 376 e første ledd, skal de likevel for alle de straffbare forhold som ankeforhandlingen omfatter, delta ved behandlingen av spørsmål om straff eller rettsfølge som nevnt i § 2 første ledd og om saksomkostninger. Selv om vilkårene i § 376 e ikke er oppfylt, skal fire lagrettemedlemmer på samme måte tiltre retten når denne skal behandle spørsmål hvor det etter § 332 skulle ha deltatt meddommere.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 353 første ledd tredje punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 353 annet ledd nr. 1 annet punktum skal lyde:*
+
+> Omfatter ankesaken spørsmål om overtredelse av straffeloven kapittel 17, § 121, § 184 eller lov 20. mars 1998 nr. 10 om forebyggende sikkerhetstjeneste § 18 a, jf. § 31 fjerde ledd, skal likevel hele saken behandles med meddommere.
 >
 
 ## § 355
@@ -5415,6 +6964,13 @@ refid: "lov/1981-05-22-25"
 
 ## § 38
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 38 annet ledd tredje punktum oppheves. Nåværende fjerde punktum blir tredje punktum og skal lyde:*
+
+> Straff eller rettsfølger som nevnt i § 2 nr. 1, kan ikke idømmes i en sak som bare gjelder inndragning.
+>
+
 ### 2017-06-16 — lov/2017-06-16-58
 
 *§ 38 fjerde ledd oppheves.*
@@ -5577,7 +7133,11 @@ refid: "lov/1981-05-22-25"
 
 *§ 391 nr. 2 skal lyde:*
 
-> når en internasjonal domstol eller FNs menneskerettskomité i sak mot Norge har funnet atavgjørelsen er i strid med en folkerettslig regel som Norge er bundet av, og ny behandling må antas å burde føre til en annen avgjørelse, ellersaksbehandlingen som ligger til grunn for avgjørelsen er i strid med en folkerettslig regel som Norge er bundet av, hvis det er grunn til å anta at saksbehandlingsfeilen kan ha innvirket på avgjørelsens innhold, og gjenopptakelse er nødvendig for å bøte på den skade som feilen har medført.
+> når en internasjonal domstol eller FNs menneskerettskomité i sak mot Norge har funnet at avgjørelsen er i strid med en folkerettslig regel som Norge er bundet av, og ny behandling må antas å burde føre til en annen avgjørelse, eller saksbehandlingen som ligger til grunn for avgjørelsen er i strid med en folkerettslig regel som Norge er bundet av, hvis det er grunn til å anta at saksbehandlingsfeilen kan ha innvirket på avgjørelsens innhold, og gjenopptakelse er nødvendig for å bøte på den skade som feilen har medført.
+>
+> avgjørelsen er i strid med en folkerettslig regel som Norge er bundet av, og ny behandling må antas å burde føre til en annen avgjørelse, eller
+>
+> saksbehandlingen som ligger til grunn for avgjørelsen er i strid med en folkerettslig regel som Norge er bundet av, hvis det er grunn til å anta at saksbehandlingsfeilen kan ha innvirket på avgjørelsens innhold, og gjenopptakelse er nødvendig for å bøte på den skade som feilen har medført.
 >
 
 ### 2001-06-15 — lov/2001-06-15-64
@@ -5603,6 +7163,20 @@ refid: "lov/1981-05-22-25"
 *§ 391 nr. 2 bokstav b skal lyde:*
 
 > saksbehandlingen som ligger til grunn for avgjørelsen er i strid med en folkerettslig regel som Norge er bundet av, hvis det er grunn til å anta at saksbehandlingsfeilen kan ha innvirket på avgjørelsens innhold, og gjenåpning er nødvendig for å bøte på den skade som feilen har medført.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 391 nr. 1 skal lyde:*
+
+> når dommer, lagrettemedlem, protokollfører, tjenestemann i politi eller påtalemyndighet, aktor, forsvarer, sakkyndig eller rettstolk har gjort seg skyldig i straffbart forhold med hensyn til saken, eller et vitne har gitt uriktig forklaring i saken, eller et dokument som er brukt under saken er falsk eller forfalsket, og det ikke kan utelukkes at dette har innvirket på dommen til skade for siktede,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 391 nr. 3 annet punktum skal lyde:*
+
+> I sak hvor det ikke er idømt frihetsstraff, overføring til tvungent psykisk helsevern etter straffeloven § 62, tvungen omsorg etter straffeloven § 63 eller rettighetstap, kan det ikke påberopes nye opplysninger eller bevis som vedkommende burde gjort gjeldende på et tidligere tidspunkt.
 >
 
 ## § 392
@@ -5753,6 +7327,13 @@ refid: "lov/1981-05-22-25"
 > Om dokumentinnsyn gjelder §§ 28, 242, 242 a, 264, 264 a og 267 tilsvarende.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 398 fjerde ledd første punktum skal lyde:*
+
+> Når det er strengt nødvendig for å unngå fare for et alvorlig lovbrudd mot noens liv, helse eller frihet, kan kommisjonen nekte domfelte og forsvareren innsyn i opplysninger.
+>
+
 ## § 398 a
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -5780,6 +7361,13 @@ refid: "lov/1981-05-22-25"
 
 ## § 40
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 40 annet ledd nytt tredje punktum skal lyde:*
+
+> Det skal opplyses i domsgrunnene om hvorvidt straffeloven § 77 er anvendt, og det bør angis hvilken betydning tilståelsen har hatt for straffutmålingen.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *§ 40 annet ledd nytt tredje punktum skal lyde:*
@@ -5801,6 +7389,20 @@ refid: "lov/1981-05-22-25"
 > Det skal opplyses i domsgrunnene om hvorvidt straffeloven § 59 annet ledd første punktum er anvendt, og det bør angis hvilken betydning tilståelsen har hatt for straffutmålingen.
 >
 > § 40 annet ledd nåværende tredje punktum blir fjerde punktum.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 40 annet ledd tredje punktum skal lyde:*
+
+> Det skal opplyses i domsgrunnene om hvorvidt straffeloven § 78 bokstav f er anvendt, og det bør angis hvilken betydning tilståelsen har hatt for straffutmålingen.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 40 tredje ledd skal lyde:*
+
+> Har retten, hvor noen av lovbruddene skulle ha medført frihetsstraff, og andre lovbrudd skulle ha medført bøter, unnlatt å idømme sistnevnte og i stedet betraktet de aktuelle lovbruddene som skjerpende omstendigheter, skal det opplyses hvilken eller hvilke straffbare handlinger retten har betraktet som skjerpende omstendigheter.
 >
 
 ### 2017-06-16 — lov/2017-06-16-58
@@ -5862,11 +7464,40 @@ refid: "lov/1981-05-22-25"
 > Private straffesaker og sivile krav
 >
 
+## § 402
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 402 annet ledd oppheves.*
+
 ## § 403
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 403 første ledd skal lyde:*
+
+> Sak etter § 402 nr. 1 eller 2 må reises senest 6 måneder etter at den fornærmede er kommet til kunnskap om den straffbare handling og om hvem som har foretatt den.
+>
 
 ### 2019-11-01 — lov/2019-11-01-71
 
 *§ 403 tredje ledd andre punktum oppheves.*
+
+## § 406
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 406 første ledd første punktum skal lyde:*
+
+> Har påtalemyndigheten besluttet å frafalle en reist påtale for straffbar handling som nevnt i § 402 nr. 2 eller 3, kan fornærmede overta forfølgingen og tre i påtalemyndighetens sted slik saken står.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 406 annet ledd skal lyde:*
+
+> Frafaller påtalemyndigheten saken etter at hovedforhandling er begynt, kan fornærmede ikke overta forfølgningen.
+>
 
 ## § 407
 
@@ -5877,6 +7508,10 @@ refid: "lov/1981-05-22-25"
 > For øvrig gjelder reglene om anke over dom fra en saksøker.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 407 oppheves.*
+
 ## § 409
 
 ### 2013-04-05 — lov/2013-04-05-12
@@ -5886,6 +7521,13 @@ refid: "lov/1981-05-22-25"
 > Er fornærmede under 18 år, helt eller delvis fratatt den rettslige handleevnen, antas å være i en tilstand som nevnt i straffeloven § 44, eller er han død, gjelder reglene i straffeloven § 78.
 >
 > 26. I lov 17. desember 1982 nr. 86 om rettsgebyr skal § 10 første ledd nr. 7 lyde:sak om fratakelse av den rettslige handleevnen etter vergemålsloven,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 409 annet ledd oppheves. Nåværende tredje ledd blir annet ledd og skal lyde:*
+
+> Er fornærmede under 18 år, helt eller delvis fratatt den rettslige handleevnen, antas å være i en tilstand som nevnt i straffeloven § 20 første ledd bokstav b til d, eller er han død, gjelder reglene i § 93 g.
 >
 
 ### 2017-06-16 — lov/2017-06-16-58
@@ -5989,6 +7631,13 @@ refid: "lov/1981-05-22-25"
 > Når saksøkte anker dommen i sak som ikke gjelder ærekrenkelse, overtar påtalemyndigheten forfølgningen og sørger for at ankeerklæringen blir forkynt for saksøkeren.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 423 første punktum skal lyde:*
+
+> Når saksøkte anker dommen, overtar påtalemyndigheten forfølgningen og sørger for at ankeerklæringen blir forkynt for saksøkeren.
+>
+
 ## § 424
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -5998,6 +7647,10 @@ refid: "lov/1981-05-22-25"
 > Når saksøkte anker dommen i sak om ærekrenkelse, gjelder reglene i § 421 og § 422 første og annet punktum tilsvarende for ham.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 424 oppheves.*
+
 ## § 425
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -6005,6 +7658,13 @@ refid: "lov/1981-05-22-25"
 *§ 425 skal lyde:*
 
 > Når en anke over dom er avvist etter § 422 eller § 424 første ledd, eller saken er hevet etter § 424 annet ledd, gjelder reglene i § 420 tilsvarende.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 425 skal lyde:*
+
+> Når en anke over dom er avvist etter § 422, gjelder reglene i § 420 tilsvarende.
 >
 
 ## § 426
@@ -6166,6 +7826,21 @@ refid: "lov/1981-05-22-25"
 
 ## § 43 a
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*Ny § 43 a skal lyde:*
+
+> Når en dom blir lest opp eller forkynt, skal den domfelte gjøres kjent medhva dommen går ut på,eventuelle vilkår for dommen, ogmulige følger av brudd på vilkårene, herunder følger av at den domfelte begår en ny straffbar handling før utløpet av en prøve- eller gjennomføringstid.
+>
+> Dommeren kan gi advarsel og formaning, eventuelt i et særskilt rettsmøte.
+>
+> Hvis den domfelte skal følges opp av kriminalomsorgen, og kriminalomsorgen ikke var til stede da dommen ble avsagt, underretter påtalemyndigheten straks kriminalomsorgen om dommen.
+>
+> § 51 første ledd nytt annet punktum:
+>
+> Reises ny sak om et krav som er avgjort ved rettskraftig dom, skal retten avvise saken av eget tiltak. Det samme gjelder i tilfeller som nevnt i straffeloven § 8.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *Ny § 43 a skal lyde:*
@@ -6194,6 +7869,17 @@ refid: "lov/1981-05-22-25"
 > § 51 første ledd nytt annet punktum:
 >
 > Reises ny sak om et krav som er avgjort ved rettskraftig dom, skal retten avvise saken av eget tiltak. Det samme gjelder i tilfeller som nevnt i straffeloven § 8.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Ny § 43 a skal lyde:*
+
+> Når en dom blir lest opp eller forkynt, skal den domfelte gjøres kjent medhva dommen går ut på,eventuelle vilkår for dommen, ogmulige følger av brudd på vilkårene, herunder følger av at den domfelte begår en ny straffbar handling før utløpet av en prøve- eller gjennomføringstid.
+>
+> Dommeren kan gi advarsel og formaning, eventuelt i et særskilt rettsmøte.
+>
+> Hvis den domfelte skal følges opp av kriminalomsorgen, og kriminalomsorgen ikke var til stede da dommen ble avsagt, underretter påtalemyndigheten straks kriminalomsorgen om dommen.
 >
 
 ## § 431
@@ -6340,6 +8026,13 @@ refid: "lov/1981-05-22-25"
 > Når avgjørelsen ved anke eller begjæring om gjenåpning fra siktede går ham imot, gjelder regelen i første ledd tilsvarende.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 436 første ledd første punktum skal lyde:*
+
+> Blir siktede dømt i offentlig sak, bør siktede i regelen pålegges å erstatte staten nødvendige omkostninger ved saken.
+>
+
 ## § 438
 
 ### 2001-06-15 — lov/2001-06-15-63
@@ -6381,6 +8074,13 @@ refid: "lov/1981-05-22-25"
 *§ 440 første ledd skal lyde:*
 
 > I privat sak etter denne lov gjelder bestemmelsene om erstatning for saksomkostninger i tvisteloven kapittel 20 tilsvarende.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 440 annet ledd første punktum skal lyde:*
+
+> Blir saksøkte dømt i privat sak, kan han ilegges saksomkostninger til staten etter reglene for offentlig sak.
 >
 
 ### 2021-06-18 — lov/2021-06-18-122
@@ -6605,6 +8305,15 @@ refid: "lov/1981-05-22-25"
 > Dom der domfelte var under 18 år på handlingstidspunktet skal oversendes den myndigheten som er ansvarlig for fullbyrdingen etter § 455 annet ledd innen en uke etter at dommen er rettskraftig. Påtalemyndighetens beslutning om at saken skal overføres til ungdomsoppfølging etter § 71 a annet ledd skal oversendes konfliktrådet innen en uke etter at det er truffet endelig påtaleavgjørelse.
 >
 
+## § 453
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 453 annet ledd skal lyde:*
+
+> Bruk av rettsmidler mot avgjørelse om inndragning er ikke til hinder for fullbyrding av dommen for øvrig.
+>
+
 ## § 455
 
 ### 2003-12-19 — lov/2003-12-19-125
@@ -6628,11 +8337,39 @@ refid: "lov/1981-05-22-25"
 > For dom som beslutter å fullbyrde subsidiær fengselsstraff etter straffeloven § 52 første ledd bokstav a, treffes vedtak om fullbyrding av myndighet som nevnt i lov om straffegjennomføring § 58 annet ledd.
 >
 
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 455 tredje ledd oppheves.*
+
 ### 2013-06-14 — lov/2013-06-14-44
 
 *§ 455 fyrste ledd fjerde punktum skal lyde:*
 
 > For dom som beslutter å fullbyrde subsidiær fengselsstraff etter straffeloven § 28 b første ledd bokstav a, reststraff etter prøveløslatelse etter straffegjennomføringsloven § 44 annet ledd og fengselsstraff etter straffeloven § 54 nr. 2, treffes vedtak om fullbyrding av regionalt nivå i kriminalomsorgen.
+>
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 455 første ledd fjerde punktum skal lyde:*
+
+> For dom som beslutter å fullbyrde subsidiær fengselsstraff etter straffeloven § 28 b første ledd bokstav a eller § 28 c fjerde ledd bokstav a, reststraff etter prøveløslatelse etter straffegjennomføringsloven § 44 annet ledd og fengselsstraff etter straffeloven § 54 nr. 2, treffes vedtak om fullbyrding av regionalt nivå i kriminalomsorgen.
+>
+> 4. I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt gjøres følgende endring:
+>
+> I § 5-15, slik § 5-15 lyder etter endringer ved lov 20. januar 2012 nr. 6 del VII, skal første ledd bokstav k lyde:fordel vunnet ved skadevolders arbeid for skadelidte, utført etter skriftlig avtale inngått ved mekling i konfliktråd eller etter ungdomsplan eller plan, jf. konfliktrådsloven.
+>
+> 5. I lov 2. juli 1999 nr. 64 om helsepersonell mv. gjøres følgende endring:
+>
+> I § 12, slik § 12 lyder etter endringer ved lov 20. januar 2012 nr. 6 del VIII, skal tredje ledd lyde:
+>
+> Ved anmodning om rusprøve fra politiet, ved vilkår for påtaleunnlatelse, fra kriminalomsorgen, ved vilkår for betinget dom, og fra ungdomskoordinator, ved gjennomføring av ungdomsstraff og ungdomsoppfølging, skal lege, sykepleier og bioingeniør ta blodprøve eller lignende rusprøve av personer som var under 18 år på handlingstidspunket. Plikten inntrer når personen møter opp til prøvetaking.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 455 første ledd skal lyde:*
+
+> Statsadvokaten gjør vedtak om fullbyrding av dom. Beslutningen treffes likevel av politiet i sak hvor politiet har tatt ut tiltale etter § 67 annet ledd. I sak avgjort ved forelegg treffes beslutningen av politiet. For dom som beslutter å fullbyrde subsidiær fengselsstraff etter straffeloven § 52 første ledd bokstav a eller § 52 c første ledd bokstav a, reststraff etter prøveløslatelse etter straffegjennomføringsloven § 44 annet ledd og fengselsstraff etter straffeloven § 39 annet ledd, treffes vedtak om fullbyrding av regionalt nivå i kriminalomsorgen.
 >
 
 ### 2023-12-20 — lov/2023-12-20-110
@@ -6644,15 +8381,18 @@ refid: "lov/1981-05-22-25"
 
 ## § 456
 
-### 2008-03-07 — lov/2008-03-07-4
+### 2005-05-20 — lov/2005-05-20-28
 
 *§ 456 fjerde ledd annet punktum skal lyde:*
 
 > Bot som ikke betales eller lar seg inndrive ved lønnstrekk eller annen tvangsfullbyrding, skal fullbyrdes ved soning av den subsidiære fengselsstraffen når den botlagte har evne til å betale boten eller allmenne hensyn tilsier det.
 >
-> 6. I lov 2. juni 1989 nr. 27 om omsetning av alkoholholdig drikk m.v. skal § 10-3 lyde:
->
-> Dersom vilkårene for inndragning etter straffeloven er oppfylt, kan påtalemyndigheten beslutte at brennevin og gjærende eller gjæret udestillert væske tilintetgjøres. Det samme gjelder annen alkoholholdig drikk når den er skjenket i glass eller finnes i opptrukket flaske. Beslutning om inndragning av lovlig tilvirket brennevin skal være skriftlig og begrunnet. Eieren eller besitteren skal så vidt mulig underrettes om påtalemyndighetens beslutning ved kopi av beslutningen og kan kreve saken forelagt for retten innen 1 måned etter at beslaget ble foretatt.
+
+### 2008-03-07 — lov/2008-03-07-4
+
+*§ 456 fjerde ledd annet punktum skal lyde:*
+
+> Bot som ikke betales eller lar seg inndrive ved lønnstrekk eller annen tvangsfullbyrding, skal fullbyrdes ved soning av den subsidiære fengselsstraffen når den botlagte har evne til å betale boten eller allmenne hensyn tilsier det.
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -6667,6 +8407,26 @@ refid: "lov/1981-05-22-25"
 *§ 456 tredje ledd nytt fjerde punktum skal lyde:*
 
 > For elektronisk kommunikasjon med Innkrevingssentralen gjelder domstolloven § 197 a tilsvarende.
+>
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 456 skal lyde:*
+
+> Bøter og andre pengekrav som er tilkjent i en offentlig straffesak, innkreves av Statens Innkrevingssentral med mindre departementet bestemmer annet. Det samme gjelder erstatning og andre pengekrav som er tilkjent en fornærmet eller en annen skadelidt i en offentlig straffesak, dersom den berettigete ønsker det.
+>
+> Bot som ikke betales eller lar seg inndrive ved lønnstrekk eller annen tvangsfullbyrding, skal fullbyrdes ved soning av den subsidiære fengselsstraffen. Vedtak om soning treffes av politiet.
+>
+> Etter nærmere regler fastsatt av Justisdepartementet kan bøtelagte pålegges å betale renter og gebyr på ubetalte bøter samt eventuelle andre utgifter som påløper ved tvangsinndriving. Tilsvarende regler kan fastsettes for ilagt inndragning. Dom eller forelegg på bot eller inndragning er også tvangsgrunnlag for tilleggskrav etter dette ledd.
+>
+> 8. I lov 17. desember 1982 nr. 86 om rettsgebyr gjøres følgende endring:
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 456 annet ledd første punktum skal lyde:*
+
+> Bot som ikke betales eller lar seg inndrive ved lønnstrekk eller annen tvangsfullbyrding, skal fullbyrdes ved soning av den subsidiære fengselsstraffen når den botlagte har evne til å betale boten eller allmenne hensyn tilsier det.
 >
 
 ### 2025-04-25 — lov/2025-04-25-12
@@ -6744,6 +8504,15 @@ refid: "lov/1981-05-22-25"
 
 *§ 463 b oppheves.*
 
+## § 464
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 464 skal lyde:*
+
+> Etter reglene i denne del behandles i krigstid også saker om forfølgning av borgerlige lovbrudd når de reises mot personer som nevnt i § 463 andre og tredje ledd, og den straffbare handling er begått på militært område, på krigsskueplass eller utenfor riket.
+>
+
 ## § 466
 
 ### 2002-08-30 — lov/2002-08-30-67
@@ -6767,6 +8536,22 @@ refid: "lov/1981-05-22-25"
 *§ 468 annet ledd nytt annet punktum skal lyde:*
 
 > For kontroll etter § 72 kan militære myndigheter begjære at det foretas vandelsvurdering etter reglene i politiregisterloven § 45.
+>
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 468 første ledd tredje punktum skal lyde:*
+
+> Halvparten av meddommerne skal høre til gruppen menige, grenaderer og konstabler og halvparten til gruppen offiserer og befal.
+>
+
+## § 469
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 469 første ledd skal lyde:*
+
+> Ved behandlingen av en sak mot en menig, grenader eller konstabel skal halvparten av meddommerne høre til denne gruppen. Det samme gjelder ved saker mot personer uten militær grad. Ved behandlingen av saker mot offiserer eller befal skal én meddommer høre til gruppen menige, grenaderer og konstabler og resten til gruppen offiserer og befal. Av de siste skal så vidt mulig minst én ha samme eller høyere grad enn tiltalte. Meddommerne skal tas fra samme forsvarsgren som tiltalte.
 >
 
 ## § 47
@@ -6811,6 +8596,15 @@ refid: "lov/1981-05-22-25"
 
 ## § 474
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 474 skal lyde:*
+
+> I fredstid avgjør statsadvokaten spørsmålet om tiltale i saker om militære lovbrudd når det ikke hører under Kongen i statsråd eller riksadvokaten. Politiet avgjør spørsmålet om tiltale i saker om militære lovbrudd dersom politiet ellers har slik kompetanse med hjemmel i § 67 andre ledd. Generaladvokaten, førstekrigsadvokaten og krigsadvokaten har samme kompetanse som politimesteren til å ta ut tiltale.
+>
+> I krigstid avgjør generaladvokaten eller førstekrigsadvokaten spørsmålet om tiltale i saker om militære lovbrudd når det ikke hører under Kongen i statsråd eller riksadvokaten. I unntakstilfeller kan avgjørelse treffes av statsadvokaten. Krigsadvokaten har samme kompetanse til å utferdige forelegg som politiets embets- og tjenestemenn med påtalemyndighet.
+>
+
 ### 2019-11-01 — lov/2019-11-01-71
 
 *§ 474 første ledd første punktum skal lyde:*
@@ -6834,7 +8628,36 @@ refid: "lov/1981-05-22-25"
 > Det samme gjelder ved rettsmøter utenfor hovedforhandling.
 >
 
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 476 fjerde ledd skal lyde:*
+
+> I saker for tingrett hvor det er utferdiget forelegg, kan påtalemyndigheten møte ved en militær befal eller offiser. Det samme gjelder ved rettsmøter utenfor hovedforhandling.
+>
+
+## § 480
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 480 skal lyde:*
+
+> I saker som gjelder overtredelse av militær straffelov § 34 jf § 95 eller § 35 jf § 96 og hvor tiltalte ikke er til stede, kan hovedforhandling i krig fremmes etter reglene i § 281 uten hensyn til den straff som vil bli påstått idømt, eller etter § 336 andre ledd uten hensyn til den straff som er idømt.
+>
+> Med virkning fra den tid straffeloven 2005 trer i kraft gjøres følgende endringer i annen lovgivning:
+>
+> 1. I lov 2. oktober 1751 Første Codicill og Tillæg til Grendse-Tractaten imellem Kongerigerne Norge og Sverrig Lapperne betreffende (Lappekodisillen) skal § 19 siste punktum lyde:
+>
+> For hver Gang saadant Lovbrud skeer, fordobles Straffen; forgriber Lappen sig paa bemelte Personer videre, end det til simpel Opsetsighet kand regnes, Straffes han desuden derfor efter Loven.
+>
+
 ## § 49
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 49 første ledd skal lyde:*
+
+> Er noen ved forskjellige dommer idømt straff uten at straffeloven § 39 tredje ledd eller § 82 er iakttatt, bringer påtalemyndigheten sakene inn for den rett som avsa den siste fellende dom, til felles avgjørelse.
+>
 
 ### 2017-06-16 — lov/2017-06-16-58
 
@@ -6860,7 +8683,18 @@ refid: "lov/1981-05-22-25"
 
 *§ 5 annet ledd oppheves.*
 
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 5 tredje ledd oppheves.*
+
 ## § 51
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 51 annet ledd nytt tredje og fjerde punktum skal lyde:*
+
+> Inndragningssak etter dette ledd kan bare fremmes dersom tiltalte varsles om at slik sak vil bli fremmet senest når hovedforhandlingen i straffesaken starter, før tilståelsesdom avsies eller før forelegg vedtas. Straffedommens avgjørelse av skyldspørsmålet legges uprøvd til grunn i den senere inndragningssaken i den utstrekning den er avgjørende for spørsmålet om inndragning.
+>
 
 ### 2008-03-07 — lov/2008-03-07-4
 
@@ -6870,6 +8704,20 @@ refid: "lov/1981-05-22-25"
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 51 annet ledd nytt tredje og fjerde punktum skal lyde:*
+
+> Inndragningssak etter dette ledd kan bare fremmes dersom tiltalte varsles om at slik sak vil bli fremmet senest når hovedforhandlingen i straffesaken starter, før tilståelsesdom avsies eller før forelegg vedtas. Straffedommens avgjørelse av skyldspørsmålet legges uprøvd til grunn i den senere inndragningssaken i den utstrekning den er avgjørende for spørsmålet om inndragning.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 51 første ledd nytt annet punktum skal lyde:*
+
+> Det samme gjelder i tilfeller som nevnt i straffeloven § 8.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 51 annet ledd nytt tredje og fjerde punktum skal lyde:*
 
@@ -7138,7 +8986,9 @@ refid: "lov/1981-05-22-25"
 
 *§ 61 c første ledd nr. 5 og ny nr. 6 skal lyde:*
 
-> at opplysningene gjøres kjent for andre offentlige organer når formålet er å forebygge lovovertredelser eller å hindre at virksomhet blir utøvd på en uforsvarlig måte,at opplysningene gjøres kjent for andre enn offentlige organer når det er nødvendig for å forebygge lovovertredelser eller for å hindre at virksomhet blir utøvd på en uforsvarlig måte,
+> at opplysningene gjøres kjent for andre offentlige organer når formålet er å forebygge lovovertredelser eller å hindre at virksomhet blir utøvd på en uforsvarlig måte,
+>
+> at opplysningene gjøres kjent for andre enn offentlige organer når det er nødvendig for å forebygge lovovertredelser eller for å hindre at virksomhet blir utøvd på en uforsvarlig måte,
 >
 
 ### 2003-03-21 — lov/2003-03-21-18
@@ -7163,6 +9013,15 @@ refid: "lov/1981-05-22-25"
 >
 
 ## § 62 a
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*Ny § 62 a skal lyde:*
+
+> Den offentlige påtalemyndighet skal påtale straffbare handlinger når ikke annet er bestemt ved lov.
+>
+> For overtredelse av straffebud med en strafferamme på 2 år eller lavere kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale. Ved vurderingen av om allmenne hensyn foreligger, legges det blant annet vekt på overtredelsens grovhet, hensynet til den alminnelig lovlydighet og om den fornærmede, en annen som har lidt skade ved overtredelsen, eller vedkommende berørte myndighet ønsker påtale.
+>
 
 ### 2008-03-07 — lov/2008-03-07-4
 
@@ -7209,11 +9068,27 @@ refid: "lov/1981-05-22-25"
 > forbrytelser som kan straffes med fengsel inntil 21 eller 30 år,
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 64 annet ledd nr. 1 og 2 skal lyde:*
+
+> lovbrudd som kan straffes med fengsel inntil 21 eller 30 år,
+>
+> overtredelser av straffeloven kapittel 17 eller §§ 151 til 154.
+>
+
 ### 2019-11-01 — lov/2019-11-01-71
 
 *§ 64 oppheves.*
 
 ## § 65
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 65 nytt nr. 4 skal lyde:*
+
+> sak mot utlending som ikke er bosatt i Norge, jf. straffeloven § 5 tredje ledd. Dette gjelder likevel ikke når strafforfølgning her i landet finner sted i samsvar med overenskomst med fremmed stat om overføring av straffesaker.
+>
 
 ### 2005-12-21 — lov/2005-12-21-130
 
@@ -7241,6 +9116,15 @@ refid: "lov/1981-05-22-25"
 *§ 65 nr. 1 skal lyde:*
 
 > forbrytelser som kan straffes med fengsel inntil 21 eller 30 år,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 65 skal lyde:*
+
+> Hvis det ikke er Kongen i statsråd som skal gjøre vedtaket, avgjør riksadvokaten spørsmålet om tiltale når det gjelder:lovbrudd som kan straffes med fengsel inntil 30 år,lovbrudd som kan straffes med fengsel inntil 21 år, unntatt forsøk på en slik handling,overtredelse av straffeloven kapittel 17 eller §§ 151 til 154, 183 eller 211,lovbrudd ved trykt skrift eller i kringkastingssending, unntatt overtredelse av straffeloven §§ 310, 311, 317 og 318,sak mot utlending som ikke er bosatt i Norge, jf. straffeloven § 5 tredje og femte ledd. Dette gjelder likevel ikke når strafforfølgning her i landet finner sted i samsvar med overenskomst med fremmed stat om overføring av straffesaker.
+>
+> I saker som omhandlet i første ledd nr. 2, kan riksadvokaten i den enkelte sak overlate avgjørelsen av tiltalespørsmålet til statsadvokaten.
 >
 
 ### 2019-06-07 — lov/2019-06-07-19
@@ -7278,6 +9162,13 @@ refid: "lov/1981-05-22-25"
 *§ 66 skal lyde:*
 
 > Statsadvokaten avgjør spørsmålet om tiltale i saker om forbrytelser når det ikke hører under Kongen i statsråd, riksadvokaten eller politiet.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 66 skal lyde:*
+
+> Statsadvokaten avgjør spørsmålet om tiltale når det ikke hører under Kongen i statsråd, riksadvokaten eller politiet.
 >
 
 ### 2019-11-01 — lov/2019-11-01-71
@@ -7370,11 +9261,38 @@ refid: "lov/1981-05-22-25"
 > Alle tjenestemenn innen påtalemyndigheten i politiet kan likevel utferdige forelegg i saker som nevnt i annet ledd bokstav b og i saker om overtredelse av straffeloven § 228 jf. § 232.
 >
 
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 67 fjerde ledd skal lyde:*
+
+> Politiet kan beslutte at saker om forbrytelser skal overføres til megling i konfliktråd, oppfølging i konfliktråd eller ungdomsoppfølging i konfliktråd når ikke spørsmålet om tiltale hører under Kongen i statsråd eller riksadvokaten. Politimesteren kan delegere påtalekompetanse til lensmenn og politistasjonssjefer til å overføre straffesaker for overtredelse av straffeloven §§ 147, 257, 258, 260, 291, 391, 391a og 228 første ledd til megling i konfliktrådet, dersom dette er nødvendig.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 67 annet til fjerde ledd skal lyde:*
+
+> Hvis ikke annet er bestemt i loven her, avgjør politiet spørsmålet om tiltale i saker omlovbrudd som etter loven ikke kan medføre straff av fengsel i mer enn ett år, med unntak av saker etter straffeloven §§ 367 annet ledd annet punktum og 313,overtredelse av straffeloven §§ 231, 234, 268, 273, 321, 322, 324, 332, 333 første ledd, 335, jf. 332 og 333 første ledd, 337, 338 første ledd, 340, jf. 337 og 338 første ledd, 342, 352 første ledd, 361, 363, 365, 371, 372, 374 annet punktum, 392 og 393, ogovertredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, merverdiavgiftsloven § 21-4, ligningsloven § 12-1, utlendingsloven § l08 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, kystvaktloven § 36 annet ledd, viltloven § 56 første ledd annet punktum, lakse- og innlandsfiskloven § 49 første ledd annet punktum og forurensningsloven § 79 tredje ledd.
+>
+> I saker som nevnt i annet ledd bokstav b og c, avgjør politimesteren spørsmålet om tiltale. Etter generelle retningslinjer gitt av riksadvokaten kan politimesteren med skriftlig samtykke fra førstestatsadvokaten beslutte at også andre tjenestemenn med juridisk embetseksamen eller mastergrad i rettsvitenskap innen påtalemyndigheten i politiet skal ha slik myndighet.
+>
+> Politiet kan beslutte at saker skal overføres til megling i konfliktråd, oppfølging i konfliktråd eller ungdomsoppfølging i konfliktråd når ikke spørsmålet om tiltale hører under Kongen i statsråd eller riksadvokaten. Politimesteren kan delegere påtalekompetanse til lensmenn og politistasjonssjefer til å overføre straffesaker for overtredelse av straffeloven §§ 268, 271, 321, 322, 323, 326, 334, 339, 342, 351, 352 tredje ledd, 353 og 373 til megling i konfliktrådet, dersom dette er nødvendig.
+>
+
 ### 2016-04-22 — lov/2016-04-22-3
 
 *§ 67 niende ledd skal lyde:*
 
 > Med tjenestemenn i politiet menes i sjette og åttende ledd også politihøgskolestudenter som er i praksis, og innkalte mannskaper fra politireserven.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 67 annet ledd bokstav c skal lyde:*
+
+> overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, kystvaktloven § 36 annet ledd, viltloven § 56 første ledd annet punktum, lakse- og innlandsfiskloven § 49 første ledd annet punktum og forurensningsloven § 79 tredje ledd.
+>
+> 11. I lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs (konkursloven) gjøres følgende endring:
 >
 
 ### 2019-11-01 — lov/2019-11-01-71
@@ -7402,7 +9320,9 @@ refid: "lov/1981-05-22-25"
 
 *§ 67 annet ledd bokstav b og c skal lyde:*
 
-> overtredelse av straffeloven §§ 231, 234, 266, 268, 273, 321, 322, 324, 332, 333 første ledd, 335, jf. 332 og 333 første ledd, 337, 338 første ledd, 340, jf. 337 og 338 første ledd, 342, 352 første ledd, 361, 363, 365, 371, 372, 374 annet punktum, 378, 392 og 393, ogovertredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, allmenngjøringsloven § 15, kystvaktloven § 36 annet ledd, viltloven § 56 første ledd annet punktum, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23a.
+> overtredelse av straffeloven §§ 231, 234, 266, 268, 273, 321, 322, 324, 332, 333 første ledd, 335, jf. 332 og 333 første ledd, 337, 338 første ledd, 340, jf. 337 og 338 første ledd, 342, 352 første ledd, 361, 363, 365, 371, 372, 374 annet punktum, 378, 392 og 393, og
+>
+> overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, lov om toll og vareførsel § 16-7, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, allmenngjøringsloven § 15, kystvaktloven § 36 annet ledd, viltloven § 56 første ledd annet punktum, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23a.
 >
 
 ### 2021-06-18 — lov/2021-06-18-122
@@ -7476,6 +9396,20 @@ refid: "lov/1981-05-22-25"
 > statsadvokaten treffer vedtak om anke i saker der politiet har tatt ut tiltale etter § 67 annet ledd bokstav c eller d, unntatt i saker om overtredelse av straffeloven § 228 første ledd jf. § 232, og i så fall også for forhold i saken der politiet har tatt ut tiltale etter § 67 annet ledd bokstav a eller b.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 68 annet ledd bokstav b skal lyde:*
+
+> statsadvokaten treffer vedtak om anke i saker der politiet har tatt ut tiltale etter § 67 annet ledd bokstav b eller c, og i så fall også for forhold i saken der politiet har tatt ut tiltale etter § 67 annet ledd bokstav a. Politiet kan likevel vedta dommen.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 68 sjette ledd første punktum skal lyde:*
+
+> Anke over tingrettens avgjørelse i sak etter straffeloven § 39 annet ledd og § 52 første ledd bokstav a, treffes av myndighet som nevnt i lov om straffegjennomføring § 58 annet ledd.
+>
+
 ### 2019-11-01 — lov/2019-11-01-71
 
 *§ 68 første ledd skal lyde:*
@@ -7513,6 +9447,17 @@ refid: "lov/1981-05-22-25"
 > Unnlatelse av påtale kan også gjøres betinget av slike vilkår som er nevnt i straffeloven § 53 nr. 2, nr. 3 bokstavene a – h, nr. 4 og nr. 5.
 >
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 69 skal lyde:*
+
+> Selv om straffeskyld anses bevist, kan påtalemyndigheten når helt særlige grunner tilsier det, unnlate å påtale handlingen.
+>
+> Påtaleunnlatelse kan gis på vilkår av at siktede i prøvetiden ikke gjør seg skyldig i noen ny straffbar handling. Prøvetiden er 2 år fra den dag det blir besluttet å unnlate påtale, men ikke lenger enn foreldelsesfristen for adgangen til å reise straffesak for handlingen.
+>
+> Påtaleunnlatelse kan også gis på vilkår som nevnt i straffeloven §§ 35, 36 og 37 bokstavene a til i. Gir siktedes forhold grunn til det, kan påtalemyndigheten i prøvetiden oppheve eller endre fastsatte vilkår og sette nye vilkår. Den siktede skal så vidt mulig få uttale seg om vilkårene før de fastsettes.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *§ 69 skal lyde:*
@@ -7540,6 +9485,24 @@ refid: "lov/1981-05-22-25"
 *§ 69 annet ledd nytt tredje punktum skal lyde:*
 
 > For siktede som var under 18 år på handlingstidspunktet, kan prøvetiden settes til 6, 12, 18 eller 24 måneder.
+>
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 69 tredje ledd første punktum skal lyde:*
+
+> Unnlatelse av påtale kan også gjøres betinget av slike vilkår som er nevnt i straffeloven § 53 nr. 2, nr. 3 bokstavene a-i, nr. 4 og nr. 5.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 69 skal lyde:*
+
+> Selv om straffeskyld anses bevist, kan påtalemyndigheten når helt særlige grunner tilsier det, unnlate å påtale handlingen.
+>
+> Påtaleunnlatelse kan gis på vilkår av at siktede i prøvetiden ikke gjør seg skyldig i noen ny straffbar handling. Prøvetiden er to år fra den dag det blir besluttet å unnlate påtale, men ikke lenger enn foreldelsesfristen for adgangen til å reise straffesak for handlingen. For siktede som var under 18 år på handlingstidspunktet, kan prøvetiden settes til 6, 12, 18 eller 24 måneder.
+>
+> Påtaleunnlatelse kan også gis på vilkår som nevnt i straffeloven §§ 35, 36 og 37 bokstavene a til j. Gir siktedes forhold grunn til det, kan påtalemyndigheten i prøvetiden oppheve eller endre fastsatte vilkår og sette nye vilkår. Den siktede skal så vidt mulig få uttale seg om vilkårene før de fastsettes.
 >
 
 ### 2021-06-18 — lov/2021-06-18-122
@@ -7572,6 +9535,15 @@ refid: "lov/1981-05-22-25"
 > Anke over kjennelser og beslutninger avgjøres av Høyesteretts ankeutvalg.
 >
 
+## § 70
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 70 første ledd skal lyde:*
+
+> Påtale kan unnlates når reglene for straffutmålingen ved sammenstøt av flere lovbrudd medfører at ingen eller bare en ubetydelig straff ville komme til anvendelse.
+>
+
 ## § 71
 
 ### 2010-12-10 — lov/2010-12-10-76
@@ -7582,6 +9554,23 @@ refid: "lov/1981-05-22-25"
 >
 
 ## § 71 a
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 71 a skal lyde:*
+
+> Når straffeskyld anses bevist, kan påtalemyndigheten beslutte at saken skal overføres til megling i konfliktrådet eller til oppfølging i konfliktrådet med varighet på inntil ett år. Overføring forutsetter at saken egner seg for slik behandling, og at det foreligger samtykke fra både fornærmede og siktede og deres eventuelle verger.
+>
+> For siktede som var mellom 15 og 18 år på handlingstidspunktet, kan påtalemyndigheten, når straffeskyld anses bevist, beslutte at saken skal overføres til ungdomsoppfølging i konfliktrådet med varighet på inntil ett år. Overføring forutsetter at saken egner seg for slik behandling, og at det foreligger samtykke fra siktede og dennes eventuelle verger.
+>
+> Det kan settes som vilkår for overføring til oppfølging i konfliktrådet etter første ledd og ungdomsoppfølging i konfliktrådet etter annet ledd at siktede ikke begår nye straffbare handlinger under oppfølgingen.
+>
+> Overføring til ungdomsoppfølging etter annet ledd kan gjøres betinget av at siktede yter slik erstatning og oppreisning som den fornærmede eller andre skadelidte har rett til og gjør krav på, og som påtalemyndigheten mener den siktede har evne til å betale.
+>
+> I § 100, slik § 100 lyder etter endringer ved lov 20. januar 2012 nr. 6 del IV, skal annet ledd annet punktum lyde:
+>
+> Når offentlig forsvarer oppnevnes etter første punktum for å delta i ungdomsstormøte, jf. straffeloven § 28 c og konfliktrådsloven § 24 tredje ledd, har fornærmede rett til å få oppnevnt bistandsadvokat.
+>
 
 ### 2021-06-18 — lov/2021-06-18-122
 
@@ -7614,6 +9603,13 @@ refid: "lov/1981-05-22-25"
 > Har noen som ikke er fylt 15 år, begått en ellers straffbar handling, kan påtalemyndigheten beslutte at saken skal overføres til barneverntjenesten. Barneverntjenesten skal underrette påtalemyndigheten om hvorvidt den treffer vedtak i saken eller ikke.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 71 b skal lyde:*
+
+> Har noen som ikke er fylt 15 år, begått en ellers straffbar handling, kan påtalemyndigheten beslutte at saken skal overføres til barnevernstjenesten. Barnevernstjenesten skal underrette påtalemyndigheten om hvorvidt den treffer vedtak i saken eller ikke.
+>
+
 ## § 71 c
 
 ### 2016-05-27 — lov/2016-05-27-15
@@ -7624,6 +9620,10 @@ refid: "lov/1981-05-22-25"
 >
 
 ## § 72
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 72 annet ledd annet punktum oppheves.*
 
 ### 2021-06-18 — lov/2021-06-18-122
 
@@ -7682,6 +9682,20 @@ refid: "lov/1981-05-22-25"
 > Når politiet har tatt ut tiltale i en sak, skal saken for tingretten som regel føres av en polititjenestemann som hører til påtalemyndigheten.
 >
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 76 femte ledd skal lyde:*
+
+> Ved rettsmøter i tingretten om fullbyrding av subsidiær fengselsstraff etter straffeloven § 28 b første ledd bokstav a eller av reststraff etter prøveløslatelse etter straffegjennomføringsloven § 44 annet ledd, kan tilsatte i kriminalomsorgen møte.
+>
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 76 femte ledd skal lyde:*
+
+> Ved rettsmøter i tingretten om fullbyrding av subsidiær fengselsstraff etter straffeloven § 52 første ledd bokstav a eller av reststraff etter prøveløslatelse etter straffegjennomføringsloven § 44 annet ledd, kan tilsatte i kriminalomsorgen møte.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *§ 76 femte ledd skal lyde:*
@@ -7708,6 +9722,20 @@ refid: "lov/1981-05-22-25"
 *§ 76 femte ledd skal lyde:*
 
 > Ved rettsmøter i tingretten og lagmannsretten om fullbyrding av subsidiær fengselsstraff etter straffeloven § 28 b første ledd bokstav a eller straffeloven § 28 c fjerde ledd bokstav a, eller av reststraff etter prøveløslatelse etter straffegjennomføringsloven § 44 annet ledd, kan tilsatte i kriminalomsorgen møte. Møteretten gjelder også rettsmøter om fullbyrding av frihetsstraff skal utsettes etter § 459 første ledd, og saker som kriminalomsorgen har brakt inn for retten etter straffeloven § 54 nr. 1 og 2. Bestemmelser om påtalemyndighetens rettigheter og plikter gjelder tilsvarende.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 76 tredje ledd skal lyde:*
+
+> Saker ved lagmannsrett og tingrett som gjelder lovbrudd som etter loven kan medføre fengsel i mer enn 6 år, eller sak hvor påtalemyndigheten vil påstå idømmelse av særreaksjon eller forvaring, skal under hoved- og ankeforhandling føres av en statsadvokat. Når det er grunn til det, kan en advokat, en polititjenestemann som tilhører påtalemyndigheten, eller en fullmektig ved riksadvokatembetet føre en slik sak. Beslutningen om å overdra saken til en fullmektig ved riksadvokatembetet treffes av riksadvokaten. For øvrig treffes avgjørelser etter annet punktum av den påtalemyndighet som har påtalekompetansen. Utenfor hoved- eller ankeforhandling kan statsadvokaten overlate til en advokat eller polititjenestemann som tilhører påtalemyndigheten, å føre saken. Det samme gjelder når siktede i retten har gitt en uforbeholden tilståelse som styrkes av de øvrige opplysninger i saken, og saken ikke kan medføre fengsel i mer enn 10 år.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 76 femte ledd skal lyde:*
+
+> Ved rettsmøter i tingretten og lagmannsretten om fullbyrding av subsidiær fengselsstraff etter straffeloven § 52 første ledd bokstav a eller straffeloven § 52 c første ledd bokstav a, eller av reststraff etter prøveløslatelse etter straffegjennomføringsloven § 44 annet ledd, kan tilsatte i kriminalomsorgen møte. Møteretten gjelder også rettsmøter om fullbyrding av frihetsstraff skal utsettes etter § 459 første ledd, og saker som kriminalomsorgen har brakt inn for retten etter straffeloven § 39 første og annet ledd. Bestemmelser om påtalemyndighetens rettigheter og plikter gjelder tilsvarende.
 >
 
 ### 2023-12-20 — lov/2023-12-20-110
@@ -7801,6 +9829,13 @@ refid: "lov/1981-05-22-25"
 *§ 84 annet ledd fjerde punktum skal lyde:*
 
 > Har han ikke verge, skal det oppnevnes verge.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 84 første ledd skal lyde:*
+
+> Dersom det er grunn til å anta at siktede er i en tilstand som nevnt i straffeloven § 20 første ledd bokstav b til d, og har verge, har også denne partsrettigheter.
 >
 
 ### 2020-12-04 — lov/2020-12-04-135
@@ -7941,6 +9976,13 @@ refid: "lov/1981-05-22-25"
 
 ## § 94
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 94 annet ledd annet punktum skal lyde:*
+
+> Det samme gjelder dersom det er grunn til å anta at siktede er i en tilstand som nevnt i straffeloven § 20 første ledd bokstav b til d, og har verge.
+>
+
 ### 2020-12-04 — lov/2020-12-04-135
 
 *§ 94 annet ledd annet punktum skal lyde:*
@@ -7964,6 +10006,13 @@ refid: "lov/1981-05-22-25"
 > Der siktede var under 18 år på handlingstidspunktet og det er spørsmål om å idømme ubetinget frihetsstraff, samfunnsstraff eller ungdomsstraff, skal siktede alltid ha forsvarer.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 96 syvende ledd skal lyde:*
+
+> Er det grunn til å anta at siktede er i en tilstand som nevnt i straffeloven § 20 første ledd bokstav b til d, skal han ha forsvarer på ethvert trinn av saken.
+>
+
 ### 2020-12-04 — lov/2020-12-04-135
 
 *§ 96 sjuende ledd skal lyde:*
@@ -7981,6 +10030,13 @@ refid: "lov/1981-05-22-25"
 >
 
 ## § 98
+
+### 2005-05-20 — lov/2005-05-20-28
+
+*§ 98 nytt fjerde ledd skal lyde:*
+
+> Bestemmelsene om rett til forsvarer i paragrafen her gjelder tilsvarende i saker om pågripelse eller varetektsfengsling etter § 173 a, jf. § 184 annet ledd.
+>
 
 ### 2008-03-07 — lov/2008-03-07-4
 
@@ -8001,6 +10057,13 @@ refid: "lov/1981-05-22-25"
 *§ 98 første ledd nytt annet punktum skal lyde:*
 
 > Det samme gjelder siktede som var under 18 år på handlingstidspunktet, dersom det er klart at han ikke vil bli løslatt innen 12 timer etter pågripelsen.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 98 nytt femte ledd skal lyde:*
+
+> Bestemmelsene om rett til forsvarer i paragrafen her gjelder tilsvarende i saker om pågripelse eller varetektsfengsling etter § 173 a, jf. § 184 annet ledd.
 >
 
 ## § 99

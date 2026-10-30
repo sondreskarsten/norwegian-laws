@@ -7,6 +7,15 @@ refid: "lov/1974-12-20-68"
 
 ## (annet)
 
+### 2015-09-04 — lov/2015-09-04-91
+
+*1. I lov 20. desember 1974 nr. 68 om vegfraktavtaler skal § 2 første ledd lyde:*
+
+> Loven gjelder ikke befordring av døde, befordring av flyttegods eller befordring som omfattes avpostloven.
+>
+> 2. I følgende bestemmelser skal uttrykkene «postoperatør» og «postoperatøren» erstattes av uttrykkene «tilbyder av posttjenester» og «tilbyderen av posttjenester»:lov 13. august 1915 nr. 5 om domstolene §§ 146 og 163 alov 27. mai 1932 nr. 2 om veksler § 45 femte leddlov 27. mai 1932 nr. 3 om chekker § 42 femte leddlov 18. juni 1965 nr. 6 om sameige § 16lov 16. desember 1966 nr. 9 om anke til Trygderetten § 27 første leddlov 10. februar 1967 om behandlingsmåten i forvaltningssaker § 30lov 15. desember 1967 nr. 9 om patenter § 73 første leddlov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker § 118 første ledd og § 211 første leddlov 11. juni 1993 nr. 101 om luftfart § 10-2 første leddlov 28. februar 1997 nr. 19 om folketrygd § 21-4 første leddlov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister § 22-3 nr. 1.
+>
+
 ### 2020-05-07 — lov/2020-05-07-39
 
 *Overskriften Fraktbrevets innhold foran § 9 oppheves.*
@@ -14,6 +23,13 @@ refid: "lov/1974-12-20-68"
 ### 2020-05-07 — lov/2020-05-07-39
 
 *Overskriften Ansvar for fraktbrevets innhold foran § 11 oppheves.*
+
+### 2020-05-07 — forskrift/2020-05-07-946
+
+*Delt ikraftsetting av loven. Del I gjelder fra det tidspunkt som tilleggsprotokoll 20. februar 2008 om elektroniske fraktbrev (eCMR) til Genève-konvensjonen 19. mai 1956 om fraktavtaler ved internasjonal godsbefordring på veg (CMR) trer i kraft for Norge.*
+
+> Delt ikraftsetting av loven. Del I gjelder fra det tidspunkt som tilleggsprotokoll 20. februar 2008 om elektroniske fraktbrev (eCMR) til Genève-konvensjonen 19. mai 1956 om fraktavtaler ved internasjonal godsbefordring på veg (CMR) trer i kraft for Norge.
+>
 
 ### 2020-09-09 — forskrift/2020-06-24-1358
 

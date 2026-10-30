@@ -18,9 +18,52 @@ refid: "lov/2004-07-02-64"
 > Endringen trer i kraft straks.
 >
 
+### 2009-12-17 — forskrift/2009-06-19-1797
+
+*Ikraftsetting av Lagtingets vedtak 16. juni 2009 til lov om endringer i midlertidig lov 2. juli 2004 nr. 64 om prøveordning med lokaler for injeksjon av narkotika (sprøyteromsloven) m.m. Loven skal gjelde fra 17. desember 2009.*
+
+> Ikraftsetting av Lagtingets vedtak 16. juni 2009 til lov om endringer i midlertidig lov 2. juli 2004 nr. 64 om prøveordning med lokaler for injeksjon av narkotika (sprøyteromsloven) m.m. Loven skal gjelde fra 17. desember 2009.
+>
+
+### 2019-01-01 — forskrift/2018-12-20-2060
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2024-06-01 — forskrift/2024-04-26-746
+
+*Delt ikraftsetting av lov 28. april 2023 nr. 9 om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten). Følgende trer i kraft 1. juni 2024:*
+
+> Delt ikraftsetting av lov 28. april 2023 nr. 9 om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten). Følgende trer i kraft 1. juni 2024:
+>
+> Endringsloven del I
+>
+> Endringsloven del II
+>
+> Endringsloven del III med unntak av § 7-4 andre ledd
+>
+> Endringsloven del V.
+>
+
 ### 2026-06-19 — lov/2026-06-19-43
 
 *Noverande andre punktum blir nytt tredje punktum.*
+
+### 2026-07-01 — forskrift/2026-06-19-1148
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
 
 ## § 1
 

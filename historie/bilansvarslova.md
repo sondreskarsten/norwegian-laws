@@ -18,11 +18,25 @@ refid: "lov/1961-02-03"
 
 *Nåværende § 21 blir ny § 22.*
 
+### 2018-03-01 — forskrift/2018-02-16-235
+
+*Ikraftsetting av lov 18. desember 2015 nr. 124 om endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn). Loven trer i kraft 1. mars 2018.*
+
+> Ikraftsetting av lov 18. desember 2015 nr. 124 om endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn). Loven trer i kraft 1. mars 2018.
+>
+
 ### 2021-01-01 — forskrift/2020-05-26-1054
 
 *Loven trer i kraft 1. januar 2021.*
 
 > Loven trer i kraft 1. januar 2021.
+>
+
+### 2022-07-01 — forskrift/2022-03-04-324
+
+*Ikraftsetting av lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.). Loven trer i kraft 1. juli 2022.
 >
 
 ### 2025-06-20 — lov/2025-06-20-80
@@ -111,14 +125,20 @@ refid: "lov/1961-02-03"
 
 *§ 17 første ledd bokstav f og ny bokstav g og h skal lyde:*
 
-> utreiing av skadebot etter § 10, og om korleis slik skadebot skal bytast på trygdelaga,at motorvogn som ikkje skal trygdast, skal reknast som utrygda etter reglane i bilansvarslova § 10, og om attsøkjingsrett for dei trygdelaga som har reidd ut skadebot for slik skade,trygding for motorvogner som blir ført inn til riket utan å vere registrert her.
+> utreiing av skadebot etter § 10, og om korleis slik skadebot skal bytast på trygdelaga,
+>
+> at motorvogn som ikkje skal trygdast, skal reknast som utrygda etter reglane i bilansvarslova § 10, og om attsøkjingsrett for dei trygdelaga som har reidd ut skadebot for slik skade,
+>
+> trygding for motorvogner som blir ført inn til riket utan å vere registrert her.
 >
 
 ### 2020-05-26 — lov/2020-05-26-46
 
 *§ 17 første ledd bokstav h og ny bokstav i skal lyde:*
 
-> trygding for motorvogner som blir ført inn til riket utan å vere registrert her,at alle eller sume slag uregistrerte motorvogner skal ha med lovleg trygdeprov når dei vert køyrde eller fråsegsette på gate, veg eller annan stad der ålmenta kan ferdast.
+> trygding for motorvogner som blir ført inn til riket utan å vere registrert her,
+>
+> at alle eller sume slag uregistrerte motorvogner skal ha med lovleg trygdeprov når dei vert køyrde eller fråsegsette på gate, veg eller annan stad der ålmenta kan ferdast.
 >
 
 ### 2025-06-20 — lov/2025-06-20-80

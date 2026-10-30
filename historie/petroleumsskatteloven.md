@@ -63,6 +63,27 @@ refid: "lov/1975-06-13-35"
 > Lova tek til å gjelde straks.
 >
 
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2021-06-18 — lov/2021-06-18-89
+
+*2. I lov av 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster mv. skal § 1 femte ledd lyde:*
+
+> Med kontinentalsokkelen forstås i denne lov Norges kontinentalsokkel som fastsatt i lov 18. juni 2021 nr. 89.
+>
+
+### 2021-06-18 — forskrift/2021-06-18-2009
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ## § 11
 
 ### 2020-06-19 — lov/2020-06-19-75
@@ -232,6 +253,27 @@ refid: "lov/1975-06-13-35"
 > Det gis ikke fradrag for kostnader til å dekke et økonomisk ansvar etter petroleumsloven § 5-3 tredje ledd. Mottatt oppgjør etter petroleumsloven § 5-3 tredje ledd tas ikke til inntekt.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3 bokstav c fjerde ledd skal lyde:*
+
+> Når det ved opphør av særskattepliktig virksomhet foreligger et udekket underskudd, kan den skattepliktige kreve utbetalt fra staten skatteverdien av slikt underskudd. Skatteverdien fastsettes ved å multiplisere udekket underskudd i alminnelig inntekt i sokkeldistriktet og i grunnlaget for særskatt med gjeldende satser på opphørstidspunktet. Beløpet fastsettes av skattemyndighetene for det året den særskattepliktige virksomheten opphører.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3 bokstav c femte ledd skal lyde:*
+
+> Den skattepliktige kan kreve utbetalt fra staten skatteverdien av direkte og indirekte utgifter (med unntak av finansutgifter) til undersøkelse etter petroleumsforekomster, for så vidt beløpet ikke overstiger årets underskudd i henholdsvis alminnelig inntekt i sokkeldistriktet og grunnlaget for særskatt. Skatteverdien av undersøkelsesutgiftene fastsettes ved å multiplisere de fradragsberettigede utgiftene i alminnelig inntekt og i særskattegrunnlaget med gjeldende skattesatser for året da undersøkelsesutgiftene er pådratt. Beløpet fastsettes av skattemyndighetene for det aktuelle inntektsår. Når skatteverdien av undersøkelsesutgiftene kreves utbetalt etter dette ledd, skal utgiftene ikke inngå i underskudd som behandles etter andre bestemmelser i § 3 c. ---.---.---.---. Hvis krav på utbetaling fra staten etter dette ledd første punktum er pantsatt eller overdratt, skal underskudd som skriver seg fra kostnader til undersøkelse etter petroleumsforekomster behandles etter reglene i første til fjerde punktum, med mindre panthaver eller den som har fått kravet overdratt samtykker til annen behandling etter denne bokstav.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3 bokstav i skal lyde:*
+
+> Ved avtale om leie av flyttbar produksjonsinnretning kan leietaker som er skattepliktig etter § 5 kreve at det gis fradrag ved fastsettingen av skatt etter særskilte regler. Departementet kan gi nærmere regler til utfylling og gjennomføring av denne bokstav, herunder regler om skattemessig fradrag for avskrivninger, friinntekt og rentekostnader.
+>
+
 ## § 3 b
 
 ### 2020-01-01 — lov/2019-12-20-90
@@ -382,6 +424,15 @@ refid: "lov/1975-06-13-35"
 
 *§ 3 j oppheves.*
 
+## § 4
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4 første ledd skal lyde:*
+
+> Til bruk ved fastsettingen av skatt, herunder fastsettingen av særskatt (jf. § 5), kan departementet – generelt eller for det enkelte tilfelle – med bindende virkning fastsette en normpris for petroleum som utvinnes i de områder som er nevnt i § 1, bokstav a og b.
+>
+
 ## § 5
 
 ### 2001-06-15 — lov/2001-06-15-39
@@ -433,6 +484,24 @@ refid: "lov/1975-06-13-35"
 *§ 5 femte ledd første til syvende punktum og nytt åttende punktum skal lyde:*
 
 > Ved realisasjon av driftsmiddel som nevnt i § 3 b, skal skattyter beregne friinntekt som tas til inntekt eller føres til fradrag ved beregning av særskatt. Grunnlaget for beregning av friinntekt ved realisasjon settes lik realisasjonsvederlaget fratrukket historisk kostpris multiplisert med en justeringsfaktor. Justeringsfaktoren settes til forholdet mellom gjenværende friinntektsperiode og samlet friinntektsperiode, jf. fjerde ledd. Friinntekten settes til 7,5 pst. av beregningsgrunnlaget, og medregnes i 4 år fra og med realisasjonsåret. Hvis beregningsgrunnlaget er negativt, skal friinntekten fradragsføres ved beregning av særskatt. Uttak av driftsmiddel som nevnt fra særskattepliktig virksomhet, jf. § 3 f, likestilles med realisasjon etter bestemmelsene i foregående punktum. Tilsvarende gjelder når driftsmidlet ikke lenger kvalifiserer til avskrivninger etter § 3 b. Ved anvendelsen av bestemmelsen i sjette og syvende punktum, settes realisasjonsvederlaget på uttakstidspunktet til omsetningsverdi.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5 annet ledd skal lyde:*
+
+> Særskatt fastsettes på den inntekt av virksomheten som ligger til grunn for fastsetting av den alminnelige inntektsskatt. Det gis ikke fradrag for tap eller underskudd som fremkommer ved annen virksomhet enn utvinning og rørledningstransport som nevnt i § 1. Det gis ikke fradrag for tilskudd etter skatteloven § 6-42.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5 sjette, syvende og åttende ledd skal lyde:*
+
+> Dersom friinntekt utgjør mer enn nettoinntekten, kan det overskytende føres til fradrag i senere år ved fastsetting av særskatt. Bestemmelsene i § 3 c annet ledd første og tredje punktum samt tredje ledd får tilsvarende anvendelse på overskytende friinntekt etter foregående punktum.
+>
+> Når det ved opphør av særskattepliktig virksomhet foreligger overskytende friinntekt, kan den skattepliktige kreve utbetalt fra staten skatteverdien av slik friinntekt. Skatteverdien fastsettes ved å multiplisere overskytende friinntekt med gjeldende sats for særskatt på opphørstidspunktet. Beløpet fastsettes av skattemyndighetene for det året den særskattepliktige virksomheten opphører.
+>
+> Særskatt etter denne bestemmelse kommer ikke til fradrag ved fastsetting av annen inntektsskatt.
 >
 
 ### 2016-12-20 — lov/2016-12-20-108
@@ -532,7 +601,7 @@ refid: "lov/1975-06-13-35"
 
 *§ 6 ny nr. 5 skal lyde:*
 
-> Oljeskattekontoret kan på anmodning avgi forhåndsuttalelse om hva som skal medregnes som skattepliktig inntekt etter § 5 første ledd ved realisasjon av naturgass. Dette gjelder bare for transaksjoner mellom parter med interessefellesskap, jf. skatteloven § 13-1. Første punktum gjelder tilsvarende når skattepliktig etter § 5 tar naturgass ut av særskattepliktig virksomhet. Avgitt forhåndsuttalelse kan ikke påklages eller bringes inn for domstolene. Oljeskattekontorets avgjørelse om ikke å avgi forhåndsuttalelse kan ikke påklages.Avgitt forhåndsuttalelse skal legges til grunn som bindende ved ligningen hvis den faktiske gjennomføringen er i samsvar med forutsetningene for uttalelsen, og den skattepliktige ikke har gitt uriktige eller ufullstendige opplysninger. Ligning der forhåndsuttalelse er lagt til grunn kan ikke påklages eller prøves for domstol for så vidt gjelder spørsmål som er avgjort ved bindende forhåndsuttalelse.Departementet kan bestemme at første ledd ikke skal gjelde for enkelte typer naturgass.
+> Oljeskattekontoret kan på anmodning avgi forhåndsuttalelse om hva som skal medregnes som skattepliktig inntekt etter § 5 første ledd ved realisasjon av naturgass. Dette gjelder bare for transaksjoner mellom parter med interessefellesskap, jf. skatteloven § 13-1. Første punktum gjelder tilsvarende når skattepliktig etter § 5 tar naturgass ut av særskattepliktig virksomhet. Avgitt forhåndsuttalelse kan ikke påklages eller bringes inn for domstolene. Oljeskattekontorets avgjørelse om ikke å avgi forhåndsuttalelse kan ikke påklages. Avgitt forhåndsuttalelse skal legges til grunn som bindende ved ligningen hvis den faktiske gjennomføringen er i samsvar med forutsetningene for uttalelsen, og den skattepliktige ikke har gitt uriktige eller ufullstendige opplysninger. Ligning der forhåndsuttalelse er lagt til grunn kan ikke påklages eller prøves for domstol for så vidt gjelder spørsmål som er avgjort ved bindende forhåndsuttalelse. Departementet kan bestemme at første ledd ikke skal gjelde for enkelte typer naturgass.
 >
 
 ### 2006-12-15 — lov/2006-12-15-75
@@ -555,7 +624,7 @@ refid: "lov/1975-06-13-35"
 
 *§ 6 nr. 2 skal lyde:*
 
-> Andre skattepliktige enn de som er nevnt i nr. 1:Andre skattepliktige enn de som er nevnt i nr. 1 lignes ved skattekontoret. Skattelovgivningens regler for skattytere som ikke har varig tilknytning til riket og sjømenn bosatt i utlandet, gjelder tilsvarende.
+> Andre skattepliktige enn de som er nevnt i nr. 1: Andre skattepliktige enn de som er nevnt i nr. 1 lignes ved skattekontoret. Skattelovgivningens regler for skattytere som ikke har varig tilknytning til riket og sjømenn bosatt i utlandet, gjelder tilsvarende.
 >
 
 ### 2008-12-12 — lov/2008-12-12-91
@@ -598,6 +667,16 @@ refid: "lov/1975-06-13-35"
 > 4. Oljeskattekontoret kan på anmodning fra skattepliktig som driver virksomhet som nevnt i § 5 første ledd, avgi forhåndsuttalelse om de skattemessige virkninger av en konkret, forestående disposisjon i slik virksomhet før den gjennomføres. Dette gjelder bare når det er av vesentlig betydning å få klarlagt virkningene før gjennomføring. Kontorets avgjørelse om ikke å avgi slik uttalelse kan ikke påklages. Forhåndsuttalelse kan påklages, men ikke prøves for domstol. Avgitt forhåndsuttalelse skal legges til grunn som bindende ved ligningen dersom den skattepliktige krever det og den faktiske gjennomføringen av disposisjonen er i samsvar med forutsetningene for uttalelsen. Ligning hvor forhåndsuttalelse er lagt til grunn for den skattepliktige kan påklages etter de ellers gjeldende bestemmelser. Hvor ikke annet følger av denne lov eller forskrift gitt i medhold av denne lov, gjelder ligningslovens bestemmelser for ligningsvedtak så langt de passer for uttalelser gitt etter denne bestemmelse. For forhåndsuttalelse betales gebyr til statskassen med 25 ganger rettsgebyret. Departementet kan gi nærmere forskrifter til utfylling og gjennomføring av denne bestemmelse.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6 oppheves.*
+
+## § 6 a
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6 a oppheves.*
+
 ## § 7
 
 ### 2008-06-27 — lov/2008-06-27-56
@@ -609,6 +688,27 @@ refid: "lov/1975-06-13-35"
 > 3. Terminskatt kan forhøyes eller nedsettes fram til forfallstid for fjerde termin med virkning for de tre siste terminene.Den skattepliktige skal ha adgang til å uttale seg før forhøyelse eller nedsettelse finner sted.
 >
 > 4. Skattyteren kan ved forfall for andre termin med virkning for de tre første terminene innbetale tillegg til utskrevet terminskatt når denne antas utilstrekkelig til å dekke den skatt som ventes utlignet. Tilsvarende kan skattyteren ved forfall for femte termin med virkning for de tre siste terminene innbetale tillegg til utskrevet terminskatt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 7 nr. 2 skal lyde:*
+
+> Terminskatt etter nr. 1 skal skrives ut til det beløp som fastsatt skatt ventes å utgjøre for vedkommende inntektsår. Ved utskrivningen fordeles terminskatten i seks deler, jf. annet ledd. Den skattepliktige skal ha adgang til å uttale seg før utskrivningen finner sted.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 7 nr. 4 skal lyde:*
+
+> Skattyteren kan ved forfall for andre termin med virkning for de tre første terminene innbetale tillegg til utskrevet terminskatt når denne antas utilstrekkelig til å dekke den skatt som ventes fastsatt. Tilsvarende kan skattyteren ved forfall for femte termin med virkning for de tre siste terminene innbetale tillegg til utskrevet terminskatt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 7 nr. 5 annet ledd skal lyde:*
+
+> Når skatten er fastsatt blir utskrevet terminskatt å avregne i den fastsatte skatt. I tilfeller som nevnt i petroleumsskatteloven § 7-4 avregnes innbetalt terminskatt i fastsatt skatt. Skattebetalingsloven § 7-1 annet og tredje ledd og § 7-2 første ledd gjelder tilsvarende. Departementet kan i forskrift gi regler om gjennomføring og utfylling av denne bestemmelse.
 >
 
 ### 2022-12-20 — lov/2022-12-20-103

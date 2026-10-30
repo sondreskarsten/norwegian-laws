@@ -311,11 +311,34 @@ refid: "lov/1967-02-10"
 > Loven gjelder fra den tid Kongen bestemmer.
 >
 
+### 2010-12-10 — forskrift/2010-12-10-1574
+
+*Delt ikraftsetting av lovendringene.*
+
+> Delt ikraftsetting av lovendringene.
+>
+> Lovendringene, med unntak av endringene i domstolloven § 159a og straffeprosessloven § 42, § 107b, § 109a, § 149a, § 185, § 248, § 271 og § 272, trer i kraft 10. desember 2010.
+>
+
 ### 2014-02-07 — forskrift/2014-02-07-101
 
 *Lov 14. juni 2013 nr. 42 om endringer i forvaltningsloven trer i kraft straks.*
 
 > Lov 14. juni 2013 nr. 42 om endringer i forvaltningsloven trer i kraft straks.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
 >
 
 ### 2016-06-10 — lov/2016-06-10-23
@@ -337,6 +360,68 @@ refid: "lov/1967-02-10"
 > Loven gjelder fra den tid Kongen bestemmer.
 >
 
+### 2016-07-01 — forskrift/2016-06-10-638
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
+### 2017-07-01 — forskrift/2017-06-09-713
+
+*Lov 27. mai 2016 nr. 15 om endringer i forvaltningsloven mv. (administrative sanksjoner mv.) trer i kraft 1. juli 2017.*
+
+> Lov 27. mai 2016 nr. 15 om endringer i forvaltningsloven mv. (administrative sanksjoner mv.) trer i kraft 1. juli 2017.
+>
+> Loven får anvendelse for vedtak som treffes etter ikraftsettingen. Endringene i forvaltningsloven § 44 til § 46, § 50 og § 51 får bare anvendelse på handlinger som begås etter ikraftsettingen.
+>
+> Rammer som nevnt i forvaltningsloven § 44 annet ledd første punktum må fastsettes innen 1. juli 2020.
+>
+> Loven får ikke anvendelse for saker etter konkurranseloven.
+>
+
+### 2018-01-01 — forskrift/2017-06-16-757
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-01-01 — forskrift/2021-09-03-2653
+
+*Ikraftsetting av lov 11. juni 2021 nr. 79 om offentlige organers ansvar for bruk av tolk mv. (tolkeloven). Loven trer i kraft 1. januar 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 79 om offentlige organers ansvar for bruk av tolk mv. (tolkeloven). Loven trer i kraft 1. januar 2022.
+>
+
 ### 2022-07-01 — forskrift/2022-06-17-1070
 
 *Loven trer i kraft 1. juli 2022.*
@@ -351,11 +436,29 @@ refid: "lov/1967-02-10"
 > Som fullmektig kan brukes enhver myndig person eller en organisasjon som vedkommende er medlem av. Tjenestemann tilsatt ved forvaltningsorgan innenfor det forvaltningsområde som saken hører under, kan ikke opptre som fullmektig.
 >
 
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
+
 ### 2025-06-20 — lov/2025-06-20-81
 
 **
 
 > (2) Fra den tiden loven trer i kraft, oppheves lov 10. februar 1967 om behandlingsmåten i forvaltningssaker.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ## § 10

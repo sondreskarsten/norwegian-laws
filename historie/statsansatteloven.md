@@ -7,11 +7,32 @@ refid: "lov/2017-06-16-67"
 
 ## (annet)
 
+### 2019-01-01 — forskrift/2018-06-22-945
+
+*Loven trer i kraft fra 1. januar 2019.*
+
+> Loven trer i kraft fra 1. januar 2019.
+>
+
 ### 2020-06-19 — lov/2020-06-19-69
 
 *I lov 16. juni 2017 nr. 67 om statens ansatte mv. skal § 11 nytt sjuende ledd lyde:*
 
 > (7) Arbeidstilsynet fører tilsyn med at bestemmelsene i første og annet ledd blir overholdt. Arbeidstilsynet gir de pålegg og treffer de enkeltvedtak ellers som er nødvendige for gjennomføringen av bestemmelsene. Arbeidsmiljøloven § 18-5, § 18-6 annet, sjette, syvende og åttende ledd og §§ 18-7, 18-8 og 18-10 får tilsvarende anvendelse.
+>
+
+### 2020-07-01 — forskrift/2020-06-19-1233
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2022-12-20 — lov/2022-12-20-115
@@ -21,11 +42,32 @@ refid: "lov/2017-06-16-67"
 > Reglene i §§ 4 til 7, § 11 tredje ledd og § 24 gjelder ikke for ansatte i Stortinget, andre organer under Stortinget, hos Stortingets ombud eller i Sametinget.
 >
 
+### 2023-01-01 — forskrift/2022-04-08-548
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-04-01 — forskrift/2022-12-20-2300
+
+*Loven trer i kraft 1. april 2023.*
+
+> Loven trer i kraft 1. april 2023.
+>
+
 ### 2023-12-15 — lov/2023-12-15-88
 
 *I lov 16. juni 2017 nr. 67 om statens ansatte mv. skal § 15 første ledd lyde:*
 
 > (1) For statsansatte gjelder en prøvetid på seks måneder, med mindre ansettelsesorganet har bestemt at prøvetiden ikke skal gjelde. Det gjelder ikke prøvetid ved ny ansettelse i samme stilling eller ved ansettelse i en stilling som i det vesentlige er likeartet med stillingen den ansatte har hatt i samme virksomhet. Ved fast ansettelse gjelder likevel prøvetid dersom tidligere ansettelsestid og prøvetid i den nye stillingen samlet ikke overstiger seks måneder. Prøvetiden for midlertidig ansettelse kan ikke overstige halvparten av ansettelsesforholdets varighet.
+>
+
+### 2024-07-01 — forskrift/2023-12-15-2066
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
 >
 
 ### 2026-01-01 — forskrift/2025-05-26-1115

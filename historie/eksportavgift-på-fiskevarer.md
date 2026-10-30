@@ -11,6 +11,13 @@ refid: "lov/2000-07-07-68"
 
 *I lov 7. juli 2000 nr. 68 om avgift til forskning og utvikling i fiskeri- og havbruksnæringen blir § 3 andre ledd oppheva. Noverande tredje ledd blir nytt andre ledd.*
 
+### 2011-12-09 — forskrift/2011-12-09-1221
+
+*Loven trer i kraft fra 1. januar 2012 med unntak av romertall I og IV som trer i kraft straks.*
+
+> Loven trer i kraft fra 1. januar 2012 med unntak av romertall I og IV som trer i kraft straks.
+>
+
 ### 2019-01-01 — forskrift/2018-05-25-756
 
 *Loven trer i kraft 1. januar 2019.*
@@ -23,6 +30,24 @@ refid: "lov/2000-07-07-68"
 *3.I lov 7. juli 2000 nr. 68 om avgift til forskning og utvikling i fiskeri- og havbruksnæringen skal § 3 fjerde ledd lyde:*
 
 > Arkivlova kapittel 1, 2 og 4 gjelder for selskapet.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
 >
 
 ## § 3

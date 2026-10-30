@@ -16,6 +16,20 @@ refid: "lov/2022-03-18-12"
 > Ved tildeling av oppgaver etter tredje ledd første punktum kan departementet i forskrift fastsette statlig klageorgan for enkeltvedtak fattet av fylkeskommuner og kommuner.
 >
 
+### 2025-01-01 — forskrift/2024-05-14-771
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
+>
+
 ## § 32 a
 
 ### 2024-05-14 — lov/2024-05-14-22
