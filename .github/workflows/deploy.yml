@@ -65,11 +65,15 @@ jobs:
         if: steps.plan.outputs.regenerate_previous == 'true'
         run: |
           set -e
+          # The receipt must be in the output directory before the loader
+          # runs: write_snapshot carries it into the artifact inventory, and
+          # the publisher rejects any file that is not inventoried.
+          mkdir -p snapshot-previous
+          cp "$RUNNER_TEMP/previous-sources/source-manifest.json" snapshot-previous/source-manifest.json
           lovdata-load --gjeldende "${{ steps.previous.outputs.gjeldende }}" \
             --forskrifter "${{ steps.previous.outputs.forskrifter }}" \
             --lovtidend ${{ steps.previous.outputs.lovtidend }} \
             --capture-source-bodies --output snapshot-previous
-          cp "$RUNNER_TEMP/previous-sources/source-manifest.json" snapshot-previous/source-manifest.json
           PARENT=$(git rev-parse HEAD)
           lovdata-publish --snapshot snapshot-previous --output . --quarto --source-evidence-links \
             --capture-reader-exits . --capture-expected-head "$PARENT"

@@ -333,7 +333,7 @@ search: false
 <div id="no-results" style="display:none;color:#888;padding:20px 0;">Ingen treff.</div>
 
 ```{=html}
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="../assets/vendor/fuse-7.0.0.min.js"></script>
 <script>
 __CATALOG_LOADER__
 document.addEventListener("DOMContentLoaded", function() {
@@ -579,10 +579,10 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '<div id="diff-output" style="width:100%;max-width:100%;min-width:0;overflow-x:auto;margin-top:20px;"></div>',
         '',
         '```{=html}',
-        '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/css/diff2html.min.css">',
-        '<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>',
-        '<script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>',
-        '<script src="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/js/diff2html-ui.min.js"></script>',
+        '<link rel="stylesheet" href="../assets/vendor/diff2html-3.4.48.min.css">',
+        '<script src="../assets/vendor/fuse-7.0.0.min.js"></script>',
+        '<script src="../assets/vendor/diff-5.2.0.min.js"></script>',
+        '<script src="../assets/vendor/diff2html-ui-3.4.48.min.js"></script>',
         '<script>',
         *_catalog_loader_lines(),
         'document.addEventListener("DOMContentLoaded", function() {',
@@ -779,7 +779,7 @@ Atom-feeder finnes for dokumenter med registrerte endringskunngjøringer i datag
 Denne siden oppretter ikke abonnementer eller sender varsler. Det styres av verktøyet du velger.
 
 ```{=html}
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="../assets/vendor/fuse-7.0.0.min.js"></script>
 <script>
 __CATALOG_LOADER__
 document.addEventListener("DOMContentLoaded", function() {
@@ -1144,6 +1144,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
                 "lang": "nb",
                 "include-in-header":
                     "assets/head-meta.html",
+                "css": "assets/site.css",
             }
         },
     }

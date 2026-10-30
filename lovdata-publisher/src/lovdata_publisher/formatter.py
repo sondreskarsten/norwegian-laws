@@ -88,10 +88,23 @@ def _semantic_list_html(items: list) -> str:
     return "\n".join(lines)
 
 
+_LINK_SYNTAX_RE = re.compile(r"\[([^\[\]\n]*)\]\(")
+
+
+def escape_link_syntax(text: str) -> str:
+    """Keep source text such as '(E)[Vm-1](RMS)' literal.
+
+    Markdown reads '[x](y)' as a link, which produced <a href="RMS"> and
+    hrefs made of chemical names in the rendered pages. Escaping the
+    brackets renders them as written in the source.
+    """
+    return _LINK_SYNTAX_RE.sub(lambda m: "\\[" + m.group(1) + "\\](", text)
+
+
 def _render_paragraph_blocks(blocks: list, depth: int, lines: list, *, compact=False) -> None:
     for block in blocks:
         if block["kind"] == "text":
-            lines.append(("  " * depth if compact else "") + block["text"])
+            lines.append(("  " * depth if compact else "") + escape_link_syntax(block["text"]))
         elif block["kind"] == "list":
             if block.get("_semantic"):
                 lines.append(_semantic_list_html(block["list_items"]))
@@ -114,7 +127,7 @@ def _render_list_items(items: list, depth: int, lines: list) -> None:
         first_blocks = _paragraph_blocks(paras[0]) if paras else []
         has_head = bool(first_blocks and first_blocks[0]["kind"] == "text"
                         and (paras[0].get("ordered_blocks") or paras[0].get("text")))
-        head = first_blocks[0]["text"] if has_head else ""
+        head = escape_link_syntax(first_blocks[0]["text"]) if has_head else ""
         lines.append(f"{indent}{marker} {head}".rstrip())
         if paras:
             _render_paragraph_blocks(first_blocks[1:] if has_head else first_blocks,

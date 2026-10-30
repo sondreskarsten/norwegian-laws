@@ -1,0 +1,25 @@
+/* Site-wide additions to the Quarto theme. */
+
+/* Wide tables (department and topic lists) scroll inside the page instead of
+   forcing the whole page to scroll sideways on phones. */
+@media (max-width: 991px) {
+  main table,
+  main .table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
+/* The previous/next chapter links carry long chapter titles; let them wrap
+   instead of pushing the page wider than the phone screen. */
+@media (max-width: 991px) {
+  .nav-page {
+    max-width: 100%;
+  }
+  .nav-page .pagination-link,
+  .nav-page .nav-page-text {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+}

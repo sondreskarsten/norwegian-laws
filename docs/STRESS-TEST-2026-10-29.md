@@ -79,6 +79,19 @@ The questions the earlier research chats had to settle (regime, clock, era, then
 
 Gaps found and fixed during the battery: repealed acts (`lov/1985-06-21-78`, `lov/1994-06-03-15`, 198 removed documents in all) were unresolvable; no way to read a yearly reconstruction or the text at a past commit date; no statement of corpus scope. All three are now in `laws_get_document` (`at`, `version`, removed-document fallback), `laws_search_documents include_removed`, `laws_diff_document` across `vYYYY` tags, and `laws_repo_status`.
 
+## Reader site audit (30 October)
+
+The deployed `gh-pages` branch (38,111 HTML pages, 858,236 links) was served locally and driven with Chromium at 1280 px and 390 px; every internal link and anchor was checked statically. The site itself is unreachable from this sandbox, so the audit is of the exact deployed artifact, not the live host.
+
+| # | Problem | Evidence | Cause | Status |
+|---|---|---|---|---|
+| S1 | Search, subscription and the comparison tool depend on `cdn.jsdelivr.net` | With the CDN unreachable, `book/sok.html` renders no results, `book/abonner.html` loses its feed finder and `book/diff.html` cannot render (four failed loads). | Four libraries loaded from a third-party CDN. | **fixed**: fuse.js 7.0.0, diff 5.2.0 and diff2html 3.4.48 are vendored under `assets/vendor/` with licences and checksums; the generators and committed pages reference them relatively. |
+| S2 | Horizontal page scroll on phones | At 390 px, department and topic chapters (554–589 px) and `feeds/index.html` (550 px) scroll sideways. | Wide tables and the chapter prev/next links with long titles. | **fixed**: `assets/site.css` (new, wired through `_quarto.yml`) scrolls tables inside the page and wraps the navigation links; the feed catalog gets the same table rule. Verified at 390 px: all four pages back to 390 px. |
+| S3 | Paragraph-history pages link to anchors the law page does not have | 92 links such as `lover/lov-1989-06-16-69.html#24-2-loven-gjelder-fullt-ut-…` while the page's id is `24-2`. | `_build_paragraph_anchor_map` used `\s+` under `re.MULTILINE`, so a bare `#### § 24-2` heading swallowed the next paragraph as its title. | **fixed** (test `test_paragraph_anchor_map_uses_only_the_heading_line`). |
+| S4 | Source text rendered as links | 13 anchors like `<a href="RMS">Vm-1</a>` and hrefs made of chemical names in `forskrift-2011-06-06-668` and `forskrift-2011-12-06-1358`. | The law text contains `[x](y)` sequences, which Markdown reads as links. | **fixed**: the formatter escapes link-like bracket sequences (test `test_source_brackets_are_not_rendered_as_links`); the affected Markdown files change at the next parser regeneration. |
+| S5 | Functionality verified working | Title search ("aml" → arbeidsmiljøloven first; refid search), on-demand full-text search ("underenheter" → 8 documents, 79 hits with text-fragment links), the version comparison tool (law picker, `v2001`…`v2026`, rendered diff), paragraph-history pages, observed-version pages (29 versions, comparison picker), feed catalog, 2,944 valid Atom feeds, valid sitemap with 26,550 URLs all present, 404 page, `publication.json` naming the acknowledged source commit. | — | — |
+| S6 | Search results and department tables link "logg" to the frozen `law-history` branch | Links resolve but show history ending 2026-09-18 until the first nightly rebuild. | H1. | **resolves with H1** on the first `law-history` run. |
+
 ## MCP server (`norwegian-laws-mcp/`)
 
 Found and fixed during the same test; listed for completeness: dates before the first commit errored instead of clamping; no coverage statement in outputs; `grunnloven`/`Grl.` did not resolve; `aml` matched `saml`; refid spellings scored low in catalog search; definition patterns missed "X menes"; deleted documents lacked titles in change listings.

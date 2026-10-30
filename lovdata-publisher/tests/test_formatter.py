@@ -178,3 +178,17 @@ class TestFormatAllLawsPruning:
         format_all_laws(str(snap), str(out))
 
         assert (out / "forskrifter" / "forskrift-1960-06-02-1.md").exists()
+
+
+class TestLinkSyntaxEscape:
+    def test_source_brackets_are_not_rendered_as_links(self):
+        from lovdata_publisher.formatter import escape_link_syntax, format_article
+        text = "Nedre tiltaksverdi for elektrisk feltstyrke (E)[Vm-1](RMS) og [4-(dimetylamino)fenyl](2-hydroksy-3,6-disulfo-1-naftalenyl)"
+        escaped = escape_link_syntax(text)
+        assert escaped == "Nedre tiltaksverdi for elektrisk feltstyrke (E)\\[Vm-1\\](RMS) og \\[4-(dimetylamino)fenyl\\](2-hydroksy-3,6-disulfo-1-naftalenyl)"
+        import markdown
+        html = markdown.markdown(escaped)
+        assert "<a " not in html and "[Vm-1](RMS)" in html
+        assert escape_link_syntax("Se [note 1] og (2) her.") == "Se [note 1] og (2) her."
+        md = format_article({"name": "§1", "header_text": "§ 1. Tabell", "paragraphs": [{"text": text}]}, depth=1)
+        assert "\\[Vm-1\\](RMS)" in md
