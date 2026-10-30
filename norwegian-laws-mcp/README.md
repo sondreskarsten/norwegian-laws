@@ -54,6 +54,8 @@ NORWEGIAN_LAWS_REPO=/path/to/norwegian-laws norwegian-laws-mcp
 norwegian-laws-mcp --repo /path/to/norwegian-laws
 ```
 
+Reading a yearly version (`version="v2010"`) fetches the `v20*` and `history-*` tags from the remote into the checkout, including a user-provided one; nothing else is written there.
+
 Other settings: `NORWEGIAN_LAWS_REMOTE` (clone URL), `NORWEGIAN_LAWS_CACHE` (cache directory), `NORWEGIAN_LAWS_NO_UPDATE=1` or `--no-update` (never fetch on start), `--prepare-only` (clone/update and exit, useful in CI or Docker builds).
 
 ## Tools
