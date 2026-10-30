@@ -322,22 +322,10 @@ def create_yearly_tags(repo_path: str, max_year: int | None = None) -> dict[str,
 # ─── Build History Pipeline ──────────────────────────────────────────────────
 
 
-def setup_lfs(repo_path: str) -> None:
-    """Initialize git-lfs and track law/forskrift markdown files."""
-    subprocess.run(["git", "lfs", "install", "--local"], cwd=repo_path, capture_output=True)
-    for pattern in ["lover/*.md", "forskrifter/*.md"]:
-        subprocess.run(
-            ["git", "lfs", "track", pattern],
-            cwd=repo_path,
-            capture_output=True,
-        )
-
-
 def build_history(
     snapshot_dir: str,
     repo_path: str,
     mode: str = "year",
-    use_lfs: bool = False,
     cutoff_date: str | None = None,
 ) -> str:
     """Build a git repository with backdated commits from a snapshot.
@@ -346,10 +334,8 @@ def build_history(
         snapshot_dir: Path to the snapshot directory.
         repo_path: Path to the git repository to build.
         mode: 'year' (default, one commit per year batch) or 'act'
-            (one commit per amendment act, ~2400 commits).
-        use_lfs: If True, configure git-lfs to track lover/*.md before
-            committing. Required when mode='act' to dodge GitHub's
-            HTTP 500 on dense object graphs.
+            (one commit per amendment act, ~17,000 commits). Texts are
+            ordinary blobs; fast-import bypasses Git LFS clean filters.
         cutoff_date: YYYY-MM-DD (default: today, UTC). Acts whose resolved
             commencement is after this date are not applied; they are not in
             force and the consolidated text does not contain them. The final
@@ -415,13 +401,6 @@ def build_history(
 
     readme_md = generate_tag_readme(law_refids, all_files)
     all_files["lover/README.md"] = readme_md
-
-    if use_lfs:
-        all_files[".gitattributes"] = (
-            "lover/*.md filter=lfs diff=lfs merge=lfs -text\n"
-            "forskrifter/*.md filter=lfs diff=lfs merge=lfs -text\n"
-        )
-        setup_lfs(repo_path)
 
     print(f"  {len(law_refids)} laws formatted")
 

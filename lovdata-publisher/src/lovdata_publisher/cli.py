@@ -44,12 +44,7 @@ def main():
         "--history-mode",
         choices=["year", "act"],
         default="year",
-        help="Commit granularity for law-history: 'year' (one commit per year-end snapshot) or 'act' (one commit per amendment act, tens of thousands; use --use-lfs)",
-    )
-    parser.add_argument(
-        "--use-lfs",
-        action="store_true",
-        help="Configure git-lfs for lover/*.md (recommended for --history-mode=act)",
+        help="Commit granularity for law-history: 'year' (one commit per year-end snapshot) or 'act' (one commit per amendment act, tens of thousands)",
     )
     parser.add_argument(
         "--history-cutoff",
@@ -287,10 +282,9 @@ def main():
             repo_path = tempfile.mkdtemp(prefix="law-repo-")
         print()
         print("=" * 60)
-        print(f"Building git history (mode={args.history_mode}, lfs={args.use_lfs})")
+        print(f"Building git history (mode={args.history_mode})")
         print("=" * 60)
-        build_history(args.snapshot, repo_path, mode=args.history_mode, use_lfs=args.use_lfs,
-                      cutoff_date=args.history_cutoff)
+        build_history(args.snapshot, repo_path, mode=args.history_mode, cutoff_date=args.history_cutoff)
         print(f"  Repository at: {repo_path}")
 
 

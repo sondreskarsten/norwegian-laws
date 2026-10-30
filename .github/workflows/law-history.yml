@@ -2,7 +2,8 @@ name: Build law history branch
 
 # Rebuilds the legacy per-act reconstruction on the law-history branch every
 # night after the current-law publication, and tags each build so it stays
-# citable. The reconstruction starts from the current consolidated text and is
+# citable. Law texts are pushed as ordinary Git blobs: git fast-import does
+# not run clean filters, so Git LFS never applied to this branch. The reconstruction starts from the current consolidated text and is
 # an unverified projection; see README "Observed history and legacy
 # reconstructions".
 
@@ -30,12 +31,6 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install git-lfs
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y git-lfs
-          git lfs version
-
       - name: Install pipeline
         run: pip install -e lovdata-loader/ -e lovdata-publisher/
 
@@ -62,7 +57,7 @@ jobs:
           BUILD_DATE=$(date -u +%Y-%m-%d)
           echo "date=$BUILD_DATE" >> "$GITHUB_OUTPUT"
           lovdata-publish --snapshot snapshot --build-history \
-              --history-mode act --use-lfs \
+              --history-mode act \
               --history-cutoff "$BUILD_DATE" \
               --repo-path /tmp/law-repo
           cd /tmp/law-repo
@@ -92,7 +87,6 @@ jobs:
         run: |
           set -e
           cd /tmp/law-repo
-          git lfs push --all origin || true
           git push --force origin main:refs/heads/law-history
           git push --force origin "+refs/tags/v*:refs/tags/v*"
           git push origin "refs/tags/history-$BUILD_DATE"
