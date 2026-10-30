@@ -18,7 +18,7 @@ refid: "lov/2010-05-28-16"
 
 ### 2013-09-27 — forskrift/2013-09-27-1132
 
-*– – –.*
+*Delt ikraftsetting av lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten (politiregisterloven).*
 
 > – – –.
 >

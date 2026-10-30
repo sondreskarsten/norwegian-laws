@@ -24,7 +24,7 @@ refid: "lov/2012-06-22-58"
 
 ### 2021-07-01 — forskrift/2021-05-28-1685
 
-*---.*
+*Loven, med unntak av endringen i § 56 av åndsverkloven § 118, trer i kraft 1. juli 2021.*
 
 > ---.
 >

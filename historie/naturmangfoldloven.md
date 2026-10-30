@@ -57,7 +57,7 @@ refid: "lov/2009-06-19-100"
 
 ### 2012-07-01 — forskrift/2013-01-25-72
 
-*---*
+*Kongelig resolusjon 22. juni 2012 nr. 588 om delt ikraftsetting av Stortingets vedtak til lov om forvaltning av naturens mangfold kapittel IV oppheves.*
 
 > ---
 >
