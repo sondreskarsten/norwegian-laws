@@ -88,6 +88,7 @@ def generate_historie(db_path: str, output_dir: str, laws_dir: str = "") -> int:
     out.mkdir(parents=True, exist_ok=True)
     count = 0
     used_names = {}
+    written: set[str] = set()
 
     for law_refid, paragraphs in sorted(laws.items()):
         meta = law_titles.get(law_refid, {})
@@ -127,6 +128,17 @@ def generate_historie(db_path: str, output_dir: str, laws_dir: str = "") -> int:
         filename = _law_filename(law_refid, short, used_names)
         filepath = out / filename
         filepath.write_text("\n".join(lines), encoding="utf-8")
+        written.add(filename)
         count += 1
+
+    # The directory must equal this run's output: a file left from an earlier
+    # naming or an earlier corpus would otherwise be committed again forever.
+    pruned = 0
+    for stale in out.glob("*.md"):
+        if stale.name not in written:
+            stale.unlink()
+            pruned += 1
+    if pruned:
+        print(f"  Pruned {pruned} stale historie files from {out}/")
 
     return count
