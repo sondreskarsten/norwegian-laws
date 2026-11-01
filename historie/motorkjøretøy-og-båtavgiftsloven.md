@@ -50,6 +50,13 @@ refid: "lov/1959-06-19-2"
 > Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
 >
 
+### 2027-01-01 — forskrift/2026-10-30-2205
+
+*Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 10
 
 ### 2008-05-09 — lov/2008-05-09-16

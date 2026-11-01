@@ -1944,6 +1944,13 @@ refid: "lov/2016-05-27-14"
 
 *Gjeldende § 8-4 sjette ledd blir nytt syvende ledd.*
 
+### 2027-01-01 — forskrift/2026-10-30-2205
+
+*Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 8
 
 ### 2017-06-21 — lov/2017-06-21-86

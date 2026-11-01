@@ -2679,6 +2679,13 @@ refid: "lov/2009-06-19-58"
 
 *Nåværende § 3-30 tredje ledd blir nytt fjerde ledd.*
 
+### 2027-01-01 — forskrift/2026-10-30-2205
+
+*Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 15
 
 ### 2016-05-27 — lov/2016-05-27-14
