@@ -127,5 +127,17 @@ timestamps are intentionally fresh.
 The separately generated release receipt is allowed at the snapshot root and
 is not part of its own hashed evidence bundle.
 
+## Instruction wording catalogue
+
+`lovdata_loader/instruction_catalog.json` lists every amendment instruction
+wording found in the 2001–2026 Lovtidend archives (13 operation kinds, both
+written languages) with its effect, and `reviewed_non_instructions` for
+prose the parser keeps but that amends nothing.
+`python -m lovdata_loader.instruction_catalog` classifies a snapshot's
+instructions against it and reports wordings that match no operation; the
+deploy workflow runs it on every publication and opens or updates the issue
+"Ukjente endringsinstruksjoner i Lovtidend" for a new wording. The catalogue
+is the vocabulary the corpus index uses to label amendment records.
+
 Part of [norwegian-laws](https://github.com/sondreskarsten/norwegian-laws).
 MIT licensed; the parsed data itself is NLOD 2.0 (Lovdata).

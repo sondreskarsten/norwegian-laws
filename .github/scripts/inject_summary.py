@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Inject AI-generated summary into README, RELEASES.md, and a commit body file.
+"""Inject the publication summary into README, RELEASES.md, and a commit body file.
 
-Reads the summary from the SUMMARY environment variable. Writes:
+Reads the summary from the file named by SUMMARY_FILE, else from the SUMMARY
+environment variable. Writes:
   - README.md  : updates content between <!-- AI_SUMMARY_START/END --> markers
   - RELEASES.md: prepends a dated section under the top-level header
   - /tmp/commit-msg.txt: full commit message with subject + summary body
@@ -12,10 +13,11 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 
-LABEL = "🤖 AI-generated summary (GitHub Models)"
+LABEL = "Oppsummering av endringene, generert fra publiseringens diff"
 AI_START = "<!-- AI_SUMMARY_START -->"
 AI_END = "<!-- AI_SUMMARY_END -->"
 RECENT_MARKER = "<!-- RECENT_AMENDMENTS_START -->"
+ENTRIES_MARKER = "<!-- ENTRIES -->"
 
 
 def update_readme(summary: str, today: str) -> None:
@@ -49,7 +51,10 @@ def update_releases(summary: str, today: str) -> None:
 
     if releases.exists():
         existing = releases.read_text(encoding="utf-8")
-        if existing.startswith("# "):
+        if ENTRIES_MARKER in existing:
+            marker_end = existing.index(ENTRIES_MARKER) + len(ENTRIES_MARKER) + 1
+            new_text = existing[:marker_end] + "\n" + section + existing[marker_end:]
+        elif existing.startswith("# "):
             head_end = existing.index("\n") + 1
             new_text = existing[:head_end] + "\n" + section + "\n" + existing[head_end:]
         else:
@@ -70,7 +75,11 @@ def write_commit_body(summary: str, today: str) -> None:
 
 
 def main() -> None:
-    summary = os.environ.get("SUMMARY", "").strip()
+    summary_file = os.environ.get("SUMMARY_FILE", "")
+    if summary_file and Path(summary_file).exists():
+        summary = Path(summary_file).read_text(encoding="utf-8").strip()
+    else:
+        summary = os.environ.get("SUMMARY", "").strip()
     if not summary:
         return
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")

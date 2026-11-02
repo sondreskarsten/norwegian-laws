@@ -39,7 +39,7 @@ Regenerated `historie/` from the patched parser: `forskrift-2019-10-18-1412.md` 
 | # | Problem | Evidence | Cause | Status |
 |---|---|---|---|---|
 | H1 | The `law-history` branch is frozen | Tip `096496c` dated 2026-09-18; the reader's "rekonstruksjonslogg" links (`laws.json` `log`, department tables, per-law pages) point at it, so every change since September is missing there while `main` has it. | Workflow replaced by an "explain-only" stub on 2026-09-25 (PR #18) when work moved to `norwegian-laws-history`. | **fixed and verified**: `.github/workflows/law-history.yml` rebuilds nightly at 05:30 UTC (see H6 for what changed versus the retired version). First production build 40995597304 (2026-10-30, 24 min): tags `v2001`…`v2026` only, `history-2026-10-30` = `v2026` = `d908aa9`, previous tip preserved as `history-2026-09-18` (`096496c`), `v2000` removed. |
-| H2 | `norwegian-laws-history` does not give users history | Its daily workflow succeeds (55 runs) and the CLI works, but it is a ledger of source-archive digests and qualified HTML bodies since 2026-09-25. `list` takes 17 s and `show` 33 s because every call re-verifies 678 MB of ledger files; any past version requires a 191–240 MB bundle download. Reconstruction of past legal states was never delivered (`docs/WIND-DOWN.md`). | Product scope. | **open** by decision: the repository stays as the evidence product; user-facing history reverts to the in-repo branch (H1). |
+| H2 | `norwegian-laws-history` does not give users history | Its daily workflow succeeds (55 runs) and the CLI works, but it is a ledger of source-archive digests and qualified HTML bodies since 2026-09-25. `list` takes 17 s and `show` 33 s because every call re-verifies 678 MB of ledger files; any past version requires a 191–240 MB bundle download. Reconstruction of past legal states was never delivered (`docs/archive/WIND-DOWN.md`). | Product scope. | **open** by decision: the repository stays as the evidence product; user-facing history reverts to the in-repo branch (H1). |
 | H3 | Issue #3: orphan `v2000` tag | Tag exists on the remote; no build produces a 2000 commit (baseline is dated 2001-01-01). | Never cleaned after an earlier build. | **fixed**: the workflow deletes yearly tags the build did not produce. |
 | H4 | Issue #4: `v2027`/`v2028` tags and date order contradicting graph order | Reproduced locally with the retired code: 30 commits, tags up to `v2028`, reset commit dated 2026-10-01 placed after commits dated 2028-01-01. | Acts with future commencement were applied; the reset commit took the newest commencement date. | **fixed**: `build_history(cutoff_date=…)` skips acts commencing after the build date, dates the reset commit on the build date, and `create_yearly_tags(max_year=…)` never tags future years (tests in `test_git_export.py`). |
 | H5 | Issue #7: nightly force-push leaves no citable SHA | Pinned SHAs in `legacy_versions.py` would become unreachable at the first rebuild. | Branch and tags were replaced wholesale. | **fixed**: each build pushes `history-YYYY-MM-DD`; the previous tip is tagged before replacement; tags older than 35 days are pruned except the first build of each month. |
@@ -106,6 +106,22 @@ The deployed `gh-pages` branch (38,111 HTML pages, 858,236 links) was served loc
 ## MCP server (`norwegian-laws-mcp/`)
 
 Found and fixed during the same test; listed for completeness: dates before the first commit errored instead of clamping; no coverage statement in outputs; `grunnloven`/`Grl.` did not resolve; `aml` matched `saml`; refid spellings scored low in catalog search; definition patterns missed "X menes"; deleted documents lacked titles in change listings.
+
+## Cross-check against the allemannsdata Lovdata MCP (2 November)
+
+An independent MCP server over the same Lovdata public data, `https://allemannsdata.com/lovdata/mcp` (server "Lovdata" 3.4.2: `search_rules`, `get_rule`, `get_section`, `search_case_law`, `list_case_law`, `get_case_law`), was called over streamable HTTP from this session and compared with a fresh `uvx` install of `norwegian-laws-mcp` on the 2 November publication.
+
+| Check | allemannsdata | norwegian-laws-mcp | Result |
+|---|---|---|---|
+| Regnskapsloven § 1-2 (`lov/1998-07-17-56`) | `get_section` 0.4 s | `laws_provision` | Same wording: 13 items in first ledd, ledd 2–4, the same "Endret ved lover …" note. Ours keeps the item numbers and the ledd structure; theirs is flat text. Ours adds the 7 parsed Lovtidend records targeting the §. |
+| Enhetsregisterloven § 1-4 (`lov/2025-06-20-105`) | `get_section` 0.5 s | `laws_provision` | Same wording; ours keeps the item letters a–g. |
+| Regnskapsloven sections | `get_rule`: 154 entries (143 §§ incl. 9 "(Opphevet)", plus 11 annex entries `v22b/a1`…) | 143 § nodes, 9 "(Opphevet)" | Agree on §§; the index does not list annex articles as sections. |
+| Repealed enhetsregisterloven 1994 | `search_rules` returns only the 2025 act | `laws_search_documents include_removed=true` also returns `lov/1994-06-03-15` with its removal date; `version="v2025"` reads its text | Expected: their corpus is the current one only. |
+| "underenhet" full text | `search_rules full_text=true`: 34 documents, 5.1 s, document level | `laws_index_search`: provision level with § address and snippet | Ours answers at ledd level; theirs at document level. |
+| Case law | `search_case_law`, `list_case_law` (202 decisions in 2026), `get_case_law HR-2026-1431-A` all answered in 0.8–1.9 s | not covered | Høyesterett decisions are outside this repository's scope; their server takes them from domstol.no. |
+| Latency | first `search_rules` 24.9 s (cold index); later calls 0.4–5 s | first call 21.8 s (clone + index download); later calls 0.0–4 s | Both pay a cold-start cost once. |
+
+Findings: no textual divergence on the compared provisions; the two servers are complementary (ours: structure, history, index, removed documents; theirs: case law). One correction to our own scope statement came out of the comparison: `forskrift/2025-12-18-2748`, a Stortingsvedtak on folketrygd rates, is in Lovdata's central regulations and therefore in this corpus, so "Stortingsvedtak are not included" was too strong; the scope text in the server and README now says they appear only where Lovdata files them as forskrift.
 
 ## Not reproducible in this environment
 

@@ -24,8 +24,9 @@ DATA_NOTE = (
 LOVTIDEND_DEFAULT_FROM = 2001
 CORPUS_SCOPE = (
     "The corpus is Lovdata's 'gjeldende lover' (acts in force) and 'sentrale forskrifter' (central regulations). "
-    "Not included: Stortingsvedtak such as the yearly avgiftsvedtak, local regulations, circulars, court decisions, "
-    "preparatory works, and repealed acts (which leave the corpus; their last observed text stays readable via Git history)."
+    "Stortingsvedtak appear only where Lovdata files them among the central regulations (e.g. forskrift/2025-12-18-2748). "
+    "Not included: other plenary decisions, local regulations, circulars, court decisions, preparatory works, "
+    "and repealed acts (which leave the corpus; their last observed text stays readable via Git history)."
 )
 MANIFEST_FILE = ".github/state/lovdata-manifest.json"
 
