@@ -729,11 +729,13 @@ class LawsService:
         """OpenAI-connector shaped search: document hits with ids the fetch tool accepts."""
         self.repo.ready()
         results = []
+        by_refid = self.catalog().by_refid
         try:
             for hit in self.index.search(query, None, limit):
+                known = by_refid.get(norm(hit["refid"]))
                 results.append({"id": f"{hit['refid']}#{hit['address']}",
                                 "title": f"{hit.get('short_title') or hit.get('title')} {hit['address']}",
-                                "url": self.catalog().resolve(hit["refid"]).github if hit["refid"] else ""})
+                                "url": known.github if known else ""})
         except IndexUnavailable:
             pass
         for entry in self.search_documents(query, None, limit, True, False):

@@ -123,7 +123,8 @@ def catalog_json():
             "tittel": "Lov om Enhetsregisteret (enhetsregisterloven)", "korttittel": "Enhetsregisterloven",
             "aliases": [], "departement": ["Nærings- og fiskeridepartementet"], "kind": "lov",
             "path": "lover/lov-2025-06-20-105.md", "ikrafttredelse": "2026-01-01", "sist_endret": "",
-            "github": "", "lovdata": "https://lovdata.no/dokument/NL/lov/2025-06-20-105", "log": "",
+            "github": "https://github.com/example/laws/blob/main/lover/lov-2025-06-20-105.md",
+            "lovdata": "https://lovdata.no/dokument/NL/lov/2025-06-20-105", "log": "",
             "tags": [], "amendments": 0, "historie": None,
         },
         {
@@ -193,6 +194,7 @@ def fixture_repo(tmp_path_factory) -> Path:
     git(root, "commit", "-q", "-m", "Oppdater lover og forskrifter fra Lovdata API 2026-03-15 [skip ci]",
         date="2026-03-15T10:00:00+00:00")
     (root / "lover/lov-1985-06-21-78.md").unlink()
+    (root / "historie/åndsverkloven.md").write_text("# Åndsverkloven\n", encoding="utf-8")
     git(root, "add", "-A", date="2026-04-01T10:00:00+00:00")
     git(root, "commit", "-q", "-m", "Oppdater lover og forskrifter fra Lovdata API 2026-04-01 [skip ci]",
         date="2026-04-01T10:00:00+00:00")
