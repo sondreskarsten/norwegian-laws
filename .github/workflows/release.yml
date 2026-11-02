@@ -3,9 +3,18 @@ name: Release
 on:
   push:
     tags: ['v*.*.*']  # package releases only; yearly data tags (vYYYY) must not trigger builds
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to create on the checked-out commit and publish, e.g. v0.5.0"
+        required: true
+        type: string
 
 permissions:
   contents: write
+
+env:
+  TAG: ${{ github.event.inputs.tag || github.ref_name }}
 
 jobs:
   release:
@@ -19,7 +28,6 @@ jobs:
 
       - name: Check that the tag matches the package and citation versions
         run: |
-          TAG=${GITHUB_REF#refs/tags/}
           VERSION=${TAG#v}
           for f in lovdata-loader/pyproject.toml lovdata-publisher/pyproject.toml norwegian-laws-mcp/pyproject.toml; do
             grep -q "^version = \"$VERSION\"" "$f" || { echo "$f does not declare version $VERSION"; exit 1; }
@@ -28,6 +36,20 @@ jobs:
             grep -q "^__version__ = \"$VERSION\"" "$f" || { echo "$f does not declare version $VERSION"; exit 1; }
           done
           grep -q "^version: $VERSION$" CITATION.cff || { echo "CITATION.cff does not declare version $VERSION"; exit 1; }
+
+      # A dispatched run tags the commit it checked out; the tag push then
+      # starts a second run, which finds the release and only re-uploads.
+      - name: Create and push the tag when dispatched
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          case "$TAG" in v[0-9]*.[0-9]*.[0-9]*) ;; *) echo "Tag must look like vX.Y.Z"; exit 1;; esac
+          if git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null; then
+            echo "Tag $TAG already exists on the remote"; exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$TAG" -m "$TAG"
+          git push origin "refs/tags/$TAG"
 
       - name: Build packages
         run: |
@@ -50,7 +72,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          TAG=${GITHUB_REF#refs/tags/}
           ASSETS="lovdata-loader/dist/* lovdata-publisher/dist/* norwegian-laws-mcp/dist/*"
           NOTES=".github/release-notes/$TAG.md"
           if gh release view "$TAG" >/dev/null 2>&1; then
