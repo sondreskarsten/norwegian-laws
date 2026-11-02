@@ -21,6 +21,16 @@ python -m lovdata_publisher.search_index _site laws.json
 lovdata-publish --snapshot snapshot --post-render --output . --site-dir _site
 ```
 
+To install the published v0.5.0 wheels outside a checkout, supply both release assets together. The publisher declares its loader dependency, but the loader is not published to the package registry:
+
+```bash
+uv pip install \
+  https://github.com/sondreskarsten/norwegian-laws/releases/download/v0.5.0/lovdata_loader-0.5.0-py3-none-any.whl \
+  https://github.com/sondreskarsten/norwegian-laws/releases/download/v0.5.0/lovdata_publisher-0.5.0-py3-none-any.whl
+```
+
+The equivalent source installation supplies both release `.tar.gz` assets together. Markdown formatting works without a checkout. Building the complete reader also requires the repository's `assets/` directory and Quarto, as shown above; those site resources are not bundled in the Python distributions.
+
 Post-render builds reader pages, feeds, manifests, the Pagefind index, and
 checks internal links. Default search uses document metadata. The reader's
 **Hele lovteksten** option loads search chunks only when requested; it

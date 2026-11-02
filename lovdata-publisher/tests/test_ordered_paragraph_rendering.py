@@ -47,7 +47,7 @@ def test_single_list_keeps_existing_markdown_bytes():
 
 
 def test_real_ordered_legal_lists_retain_nested_html_hierarchy():
-    fixture = (Path(__file__).parents[2] / 'lovdata-loader/tests/fixtures/'
+    fixture = (Path(__file__).parent / 'fixtures/'
                'fixture_regnskapsloven_lists.xml')
     source = BeautifulSoup(fixture.read_text(encoding='utf-8'), 'html.parser')
     article = source.find('article', class_='legalArticle', attrs={'data-name': '§6-2'})

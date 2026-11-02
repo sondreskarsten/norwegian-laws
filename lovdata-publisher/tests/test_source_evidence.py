@@ -14,7 +14,7 @@ from lovdata_publisher.snapshot import validate_snapshot
 from lovdata_publisher.manifests import generate_amendment_acts_jsonl, generate_amendments_jsonl
 
 
-FIXTURES = Path(__file__).resolve().parents[2] / "lovdata-loader" / "tests" / "fixtures"
+FIXTURES = Path(__file__).resolve().parent / "fixtures"
 
 
 def archive(path, rows):
