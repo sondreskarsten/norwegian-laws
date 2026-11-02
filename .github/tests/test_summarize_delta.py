@@ -30,6 +30,7 @@ def test_summary_lists_new_and_modified_documents_by_source(tmp_path, monkeypatc
     (repo / "lover/lov-2008-06-20-44.md").write_text(doc("lov/2008-06-20-44", "Lov om medisinsk forskning", "Helseforskningsloven", "HOD", "lov/2018-06-22-76"), encoding="utf-8")
     (repo / "lover/lov-2014-06-20-43.md").write_text(doc("lov/2014-06-20-43", "Lov om helseregistre", "Helseregisterloven", "HOD", "lov/2018-06-22-76"), encoding="utf-8")
     (repo / "lover/lov-1998-07-17-56.md").write_text(doc("lov/1998-07-17-56", "Lov om årsregnskap", "Regnskapsloven", "FIN", "lov/2024-06-21-41"), encoding="utf-8")
+    (repo / "forskrifter/forskrift-2020-12-15-2912.md").write_text(doc("forskrift/2020-12-15-2912", "Integreringsforskriften", "", "AID", ""), encoding="utf-8")
     git(repo, "init", "-q", "-b", "main")
     git(repo, "add", "-A")
     git(repo, "commit", "-q", "-m", "base")
