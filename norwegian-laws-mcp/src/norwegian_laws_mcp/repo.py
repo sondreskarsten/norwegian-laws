@@ -172,7 +172,7 @@ class Repo:
         env = dict(os.environ, GIT_TERMINAL_PROMPT="0", LC_ALL="C.UTF-8", LANG="C.UTF-8")
         try:
             proc = subprocess.run(
-                ["git", *args],
+                ["git", "-c", "core.quotepath=off", *args],
                 cwd=str(cwd or self.path),
                 env=env,
                 capture_output=True,

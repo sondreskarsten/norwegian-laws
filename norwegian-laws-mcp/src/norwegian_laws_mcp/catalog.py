@@ -96,6 +96,7 @@ class Entry:
             "last_amended_by": self.sist_endret,
             "amendment_records": self.amendments,
             "lovdata": self.lovdata,
+            "github": self.github,
         }
 
 

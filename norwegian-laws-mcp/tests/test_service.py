@@ -62,6 +62,13 @@ def test_recent_changes_window_and_filters(service):
     assert "modified" in render.recent_changes(res)
 
 
+def test_recent_changes_keeps_non_ascii_paths_unquoted(service):
+    res = service.recent_changes("2026-03-20", None, None, None, None, True, 50)
+    paths = [d["path"] for d in res["amendment_record_files"]]
+    assert "historie/åndsverkloven.md" in paths
+    assert not any("\\" in p or p.startswith('"') for p in paths)
+
+
 def test_document_history_and_diff(service):
     hist = service.document_history("enhetsregisterloven", None, None, 10)
     assert len(hist["commits"]) == 2

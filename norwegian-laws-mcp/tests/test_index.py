@@ -127,6 +127,11 @@ def test_connector_search_and_fetch(indexed_service):
     res = indexed_service.connector_search("underenhet")
     ids = [r["id"] for r in res["results"]]
     assert "lov/2025-06-20-105#§ 1-4 (2)" in ids
+    by_id = {r["id"]: r for r in res["results"]}
+    assert by_id["lov/2025-06-20-105#§ 1-4 (2)"]["url"].endswith("/lover/lov-2025-06-20-105.md")
+    docs = indexed_service.connector_search("enhetsregisterloven")
+    doc_hit = next(r for r in docs["results"] if r["id"] == "lov/2025-06-20-105")
+    assert doc_hit["url"].endswith("/lover/lov-2025-06-20-105.md")
     doc = indexed_service.connector_fetch("lov/2025-06-20-105#§ 1-4 (2)")
     assert doc["metadata"]["section"] == "1-4" and "registreringsenhet" in doc["text"].lower()
 
