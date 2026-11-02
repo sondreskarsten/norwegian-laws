@@ -19,7 +19,6 @@ permissions:
   contents: write
   pages: write
   id-token: write
-  models: read
   issues: write
   actions: write
 
@@ -173,46 +172,16 @@ jobs:
             echo "has_delta=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Generate AI summary via GitHub Models
+      - name: Write the publication summary from the delta
         if: steps.plan.outputs.source_changed == 'true' && steps.delta.outputs.has_delta == 'true'
-        id: ai
-        continue-on-error: true
-        uses: actions/ai-inference@v1
-        with:
-          model: openai/gpt-4o
-          system-prompt: |
-            Du oppsummerer nye norske lover og forskrifter publisert i Norsk Lovtidend.
-            For hver oppføring får du tittel, departement og selve tekstendringen: diff-utdrag
-            (linjer med + er lagt til, - er fjernet, med linjetelling +N/-M) for endringer,
-            eller formålsutdrag for nye dokumenter.
-            Skriv på bokmål. Faktabasert og svært konsist, ingen pynt eller verdiladede adjektiv.
-            Format:
-            - Høyst én innledende setning som sier hvor mange dokumenter som er endret.
-            - Deretter én linje per oppføring i stilen til en git commit-melding:
-              "refid: <type> — <substans>". Klassifiser <type> ut fra diffen:
-              bare +-linjer = tilføyelse; bare −-linjer = oppheving; +/− på samme bestemmelse
-              = endring; gjennomgripende +/− (høy +N/-M) = full revisjon.
-              For en endring, vis overgangen gammel → ny (f.eks. "gebyr 3000 → 5000 kr",
-              "frist 1. mars → 1. juni", "terskel 10 → 15 m"). For tilføyelse: oppgi hva som
-              innføres. For oppheving: oppgi hva som fjernes. Beskriv substansen (krav, satser,
-              beløp, frister, terskler, paragrafer), ikke tittelen.
-            - En endringskilde som treffer mange dokumenter får én linje med kort beskrivelse av
-              endringen og antall berørte dokumenter, ikke én linje per dokument.
-            Hvis tekstendringen ikke gir nok til en konkret beskrivelse, skriv kort hva
-            dokumentet regulerer ut fra tittelen.
-            Ikke spekuler om virkninger, intensjon eller politisk kontekst, og ikke vurder
-            viktighet eksplisitt — oppgi fakta, la leseren vurdere.
-          prompt-file: /tmp/delta.md
-          max-tokens: 1500
+        run: |
+          python3 .github/scripts/summarize_delta.py > /tmp/summary.md
+          cat /tmp/summary.md
 
-      - name: Flag failed or empty AI summary
-        if: steps.delta.outputs.has_delta == 'true' && (steps.ai.outcome != 'success' || steps.ai.outputs.response == '')
-        run: echo "::warning::AI summary produced no response (outcome=${{ steps.ai.outcome }}) despite a non-empty delta"
-
-      - name: Inject AI summary into README, RELEASES.md, commit body
-        if: steps.delta.outputs.has_delta == 'true' && steps.ai.outputs.response != ''
+      - name: Inject the summary into README, RELEASES.md and the commit body
+        if: steps.plan.outputs.source_changed == 'true' && steps.delta.outputs.has_delta == 'true'
         env:
-          SUMMARY: ${{ steps.ai.outputs.response }}
+          SUMMARY_FILE: /tmp/summary.md
         run: python3 .github/scripts/inject_summary.py
 
       - name: Record the manifest actually processed

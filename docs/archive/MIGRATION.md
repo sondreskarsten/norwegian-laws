@@ -1,9 +1,9 @@
 > **Archived design plan; status refreshed 2026-09-25.** The two-package split
 > shipped in July 2026. The examples below preserve the original rationale;
 > their schemas, dependencies, commands, and historical-output claims are not
-> current specifications. Use the [main README](README.md),
-> [loader contract](lovdata-loader/README.md), and
-> [publisher guide](lovdata-publisher/README.md) for the supported runtime.
+> current specifications. Use the [main README](../../README.md),
+> [loader contract](../../lovdata-loader/README.md), and
+> [publisher guide](../../lovdata-publisher/README.md) for the supported runtime.
 > The loader CLI now retains raw-source evidence in snapshot version 4.
 > Legacy `law-history` outputs and yearly tags are unverified reconstructions;
 > automatic regeneration is gated by `ENABLE_LEGACY_HISTORY`, while the

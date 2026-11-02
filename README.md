@@ -66,22 +66,30 @@ Each publication also produces a queryable **corpus index** (`laws-index.sqlite.
 
 ## Source evidence and publication status
 
-[`publication.json`](https://sondreskarsten.github.io/norwegian-laws/publication.json) identifies the source commit and selected Lovdata manifest actually served by the site. Publication is acknowledged only after this receipt is read back from the public site.
+[`publication.json`](https://sondreskarsten.github.io/norwegian-laws/publication.json) identifies the source commit and the Lovdata manifest actually served by the site. A publication is acknowledged only after that receipt is read back from the public site; a failed deploy is not recorded as delivered.
 
-The merged [PR #13](https://github.com/sondreskarsten/norwegian-laws/pull/13) adds a version-4 snapshot retaining raw archives, every archive member's identity, parser/runtime provenance, complete parsed amendment occurrences, and checksums. Its publication workflow creates an `observation-*` GitHub Release containing `snapshot.tar.gz` and `evidence.json`, verifies the downloads, then supplies these reader downloads:
+Every publication also creates an `observation-*` [GitHub Release](https://github.com/sondreskarsten/norwegian-laws/releases) named after the SHA-256 of its source observation. It holds `snapshot.tar.gz` (the raw Lovdata archives, every archive member's identity, the complete parsed amendment occurrences and checksums), `evidence.json` and the gzipped corpus index, each verified by an unauthenticated download before the release is published. The reader links to the release of the publication it serves:
 
 | Download | Purpose |
 | --- | --- |
 | `evidence.json` | Observation identity, source commit, bundle checksum, and permanent release download URL. |
 | `snapshot-manifest.json` | Exact snapshot artifact membership and checksums. |
 
-**Verified 25 September 2026:** the first [public evidence release](https://github.com/sondreskarsten/norwegian-laws/releases/tag/observation-ccdbf3e45098076118bf9362b60d31b7a80dc1aab1dcc2e226a4aee58c92b596), reader evidence links and on-demand full-text search are live through [run 36167592215](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36167592215), source `2d90a466a8ca3954494f82041409b39242c5c1f5`. The site's receipt agrees with the release; the history repository accepted it and a fresh consumer retrieved exact source XML. See [delivery evidence](docs/evidence/live-v4-readback.json). Subsequent daily operation still needs verification.
+Observation releases have been published for every daily publication since 25 September 2026 (the first: [observation-ccdbf3e45098](https://github.com/sondreskarsten/norwegian-laws/releases/tag/observation-ccdbf3e45098076118bf9362b60d31b7a80dc1aab1dcc2e226a4aee58c92b596)). The restore step of a parser regeneration reads the previous publication's archives from its release, so these releases are not pruned. See the [loader contract](lovdata-loader/README.md) for the snapshot fields. Checksums establish consistency with the captured bytes; they do not prove lossless parsing, historical legal validity, or permanent availability.
 
-See the [loader contract](lovdata-loader/README.md) for the snapshot fields. Checksums establish consistency with the captured bytes; they do not prove lossless parsing, historical legal validity, or permanent availability.
+## Releases and versions
+
+Three kinds of tag live in this repository and mean different things:
+
+- **Package releases** `vX.Y.Z` carry the wheels of `lovdata-loader`, `lovdata-publisher` and `norwegian-laws-mcp`, built by the [release workflow](.github/workflows/release.yml) from the tag with the notes in `.github/release-notes/`. The three packages and [`CITATION.cff`](CITATION.cff) share the version number. Releases before v0.5.0 shipped the pre-split `lovdata_pipeline` package and no longer describe the repository.
+- **Observation releases** `observation-<sha256>` are the source evidence of one publication, described above. They are never "latest".
+- **History tags** `v2001`…`v<current year>` and `history-YYYY-MM-DD` point into the `law-history` branch, described below. A yearly tag is not a verified legal snapshot.
+
+[`RELEASES.md`](RELEASES.md) is the publication log: one entry per source update, listing the documents the run added and changed, grouped by the amending act and generated from the run's diff.
 
 ## Observed history and legacy reconstructions
 
-The separate [norwegian-laws-history](https://github.com/sondreskarsten/norwegian-laws-history) product verifies published evidence bundles, records observed document membership without replacing earlier observations, and retrieves exact archived XML. Its first [public intake](https://github.com/sondreskarsten/norwegian-laws-history/actions/runs/36169832648) committed 45,114 source archive members on 25 September 2026. Observation time means when this collector inspected the source, not when the law took effect. Commencement, repeal, and canonical historical text remain unresolved unless separately established.
+The separate [norwegian-laws-history](https://github.com/sondreskarsten/norwegian-laws-history) repository is the evidence ledger: it verifies each published observation release, records observed document membership without replacing earlier observations, and retrieves exact archived XML, daily since 25 September 2026. Observation time means when this collector inspected the source, not when the law took effect. Commencement, repeal, and canonical historical text remain unresolved unless separately established.
 
 The [`law-history` branch](https://github.com/sondreskarsten/norwegian-laws/tree/law-history) is an **unverified reconstruction**: one commit per amendment act since 2001, built from the current consolidated text by applying parsed Lovtidend instructions, with some dates inferred. It cannot answer “what was the law on this date?” reliably, and the [comparison tool](https://sondreskarsten.github.io/norwegian-laws/book/diff.html) labels it as such; a textual difference is not proof of a legal change.
 
@@ -113,9 +121,9 @@ The loader selects archives from the live Lovdata list and verifies cached bytes
 
 Every commit the pipeline makes on `main` is a pure function of two inputs and says which one moved. `Oppdater lover og forskrifter fra Lovdata API …` commits carry new source archives through unchanged parser code; `Regenerer lover og forskrifter med endret parser …` commits carry changed parser code over the archives of the previous publication, restored from its public observation bundle, so a formatting change never appears as a legal change. When both moved, the regeneration is committed first. Each message ends with trailers naming the source manifest digest, every archive with its upstream timestamp, and the Git tree hashes of `lovdata-loader/` and `lovdata-publisher/`; `.github/scripts/provenance.py` produces them and refuses to commit output that a second formatting pass of the same snapshot does not reproduce byte for byte.
 
-The [daily poll](.github/workflows/poll-lovdata.yml) compares the source list with the last acknowledged publication and requests a new build when they differ. Failed publication is not recorded as delivered. Software package releases, `observation-*` evidence releases, and legacy yearly tags serve different purposes; a yearly tag is not a verified legal snapshot.
+The [daily poll](.github/workflows/poll-lovdata.yml) compares the source list with the last acknowledged publication and requests a new build when they differ. Failed publication is not recorded as delivered.
 
-[MIGRATION.md](MIGRATION.md) is an archived design plan, not the current installation or snapshot specification.
+Earlier plans and status records (the package-split design, the September 2026 delivery status and wind-down) are kept under [docs/archive/](docs/archive/) and are not current specifications. [docs/STRESS-TEST-2026-10-29.md](docs/STRESS-TEST-2026-10-29.md) is the running log of defects found and fixed since 29 October 2026; [TODO.md](TODO.md) lists what is open.
 
 ## Data format and limits
 

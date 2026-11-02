@@ -35,11 +35,31 @@ The flag is off by default so local builds and older supported snapshots do
 not require release files. See [publication status](../README.md#source-evidence-and-publication-status)
 and the [deployment workflow](../.github/workflows/deploy.yml).
 
-The `--build-history` exporter is retained for legacy reconstruction work.
-Its synthetic baseline and inferred dates are unverified; it does not create
-authoritative historical legal text. Automatic regeneration is gated by
-`ENABLE_LEGACY_HISTORY`. Existing branches and yearly tags remain available.
-The separate [observed-source history consumer](https://github.com/sondreskarsten/norwegian-laws-history)
-uses retained evidence rather than those legacy outputs.
+`--build-history` builds the `law-history` branch: one commit per amendment
+act since 2001, replayed from the current consolidated text with the parsed
+Lovtidend records, with a baseline commit that is today's text (not the law
+in 2001) and a final reset to the current text for documents whose replay
+diverged. Documents that left the current corpus are kept until a dated
+deletion commit (the legal repeal date where Lovtidend carries a
+whole-document repeal, otherwise the detected exit), and
+`reconstruction-manifest.json` lists replay counts, divergence and removal
+dates per document. The [nightly workflow](../.github/workflows/law-history.yml)
+runs it and pushes yearly tags and a `history-YYYY-MM-DD` build tag. The
+result is an unverified reconstruction with inferred dates, not
+authoritative historical text; the reader and the MCP server label it so.
+
+`python -m lovdata_publisher.index_build` derives `laws-index.sqlite` from
+the committed Markdown and `amendments.db`: documents, nodes (chapter, §,
+ledd, item), ledd text, amendment records classified by the instruction
+catalogue, cross-references and defined terms, stamped with the source
+manifest digest and parser identity. The deploy workflow builds it, the
+reproducibility gate rebuilds it and compares the logical digest, and the
+index is attached to the publication's observation release; see
+[docs/NODE-HISTORY-DESIGN.md](../docs/NODE-HISTORY-DESIGN.md).
+
+`.github/scripts/provenance.py` decides whether a run is a source update or a
+parser regeneration, restores the previous publication's archives for a
+regeneration, writes the commit trailers and refuses output that a second
+formatting pass does not reproduce byte for byte.
 
 MIT licensed; Lovdata data is NLOD 2.0.

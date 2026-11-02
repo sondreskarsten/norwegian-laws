@@ -17,11 +17,24 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Check that the tag matches the package and citation versions
+        run: |
+          TAG=${GITHUB_REF#refs/tags/}
+          VERSION=${TAG#v}
+          for f in lovdata-loader/pyproject.toml lovdata-publisher/pyproject.toml norwegian-laws-mcp/pyproject.toml; do
+            grep -q "^version = \"$VERSION\"" "$f" || { echo "$f does not declare version $VERSION"; exit 1; }
+          done
+          for f in lovdata-loader/src/lovdata_loader/__init__.py lovdata-publisher/src/lovdata_publisher/__init__.py norwegian-laws-mcp/src/norwegian_laws_mcp/__init__.py; do
+            grep -q "^__version__ = \"$VERSION\"" "$f" || { echo "$f does not declare version $VERSION"; exit 1; }
+          done
+          grep -q "^version: $VERSION$" CITATION.cff || { echo "CITATION.cff does not declare version $VERSION"; exit 1; }
+
       - name: Build packages
         run: |
           pip install build
           python -m build lovdata-loader
           python -m build lovdata-publisher
+          python -m build norwegian-laws-mcp
 
       # softprops/action-gh-release@v2 was used previously but it ALWAYS
       # tries to PATCH (finalize) the release after uploading assets, even
@@ -38,10 +51,15 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TAG=${GITHUB_REF#refs/tags/}
+          ASSETS="lovdata-loader/dist/* lovdata-publisher/dist/* norwegian-laws-mcp/dist/*"
+          NOTES=".github/release-notes/$TAG.md"
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo "Release $TAG exists, uploading assets..."
-            gh release upload "$TAG" lovdata-loader/dist/* lovdata-publisher/dist/* --clobber
+            gh release upload "$TAG" $ASSETS --clobber
+          elif [ -f "$NOTES" ]; then
+            echo "Creating release $TAG from $NOTES..."
+            gh release create "$TAG" $ASSETS --title "$TAG" --notes-file "$NOTES" --latest
           else
-            echo "Release $TAG does not exist, creating with auto notes..."
-            gh release create "$TAG" lovdata-loader/dist/* lovdata-publisher/dist/* --generate-notes --title "$TAG"
+            echo "Release $TAG does not exist and has no notes file, creating with auto notes..."
+            gh release create "$TAG" $ASSETS --generate-notes --title "$TAG" --latest
           fi

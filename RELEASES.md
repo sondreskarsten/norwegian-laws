@@ -1,5 +1,10 @@
 # Release notes
 
+Publication log for the data on `main`: one entry per source update, listing the documents the run added and changed, grouped by the amending act. Entries are written by the publishing workflow from the run's diff. Software releases of the three packages (`lovdata-loader`, `lovdata-publisher`, `norwegian-laws-mcp`) are on [GitHub Releases](https://github.com/sondreskarsten/norwegian-laws/releases) under `vX.Y.Z` tags; `observation-*` releases hold the source evidence of each publication.
+
+No entries exist between 28 July and 2 November 2026: the summary step depended on a GitHub Models action that stopped returning responses on 28 July, and the publications in that period are recorded only by their commits and observation releases.
+
+<!-- ENTRIES -->
 ## 2026-07-28
 
 *🤖 AI-generated summary (GitHub Models)*

@@ -44,8 +44,9 @@ Data coverage, which every history tool also states in its output:
   branch: a reconstruction built from the current text by applying parsed amendments, labelled unverified.
 - Repealed or replaced acts leave Lovdata's current corpus. Their refid still resolves; the last observed
   text is returned with the removal date, which is not a repeal date.
-- Corpus scope: gjeldende lover and sentrale forskrifter only. Stortingsvedtak (e.g. avgiftsvedtak),
-  local regulations, circulars and court decisions are not here; say so instead of guessing.
+- Corpus scope: gjeldende lover and sentrale forskrifter only. Stortingsvedtak are here only where Lovdata
+  files them as forskrift (e.g. forskrift/2025-12-18-2748); other plenary decisions, local regulations,
+  circulars and court decisions are not; say so instead of guessing.
 - Era and regime matter: when an act was replaced (e.g. foretaksregisterloven 1985 -> 2025,
   enhetsregisterloven 1994 -> 2025), section numbers differ between the acts; read the old act's last
   text for pre-replacement questions.
