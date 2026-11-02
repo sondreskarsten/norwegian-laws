@@ -58,6 +58,13 @@ refid: "lov/1975-12-12-59"
 > innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
+### 2027-01-01 — forskrift/2026-10-30-2205
+
+*Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 2
 
 ### 2004-12-10 — lov/2004-12-10-77

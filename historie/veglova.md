@@ -264,6 +264,13 @@ refid: "lov/1963-06-21-23"
 > Lova trer i kraft 1. januar 2025.
 >
 
+### 2027-01-01 — forskrift/2026-10-30-2205
+
+*Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 10
 
 ### 2002-06-21 — lov/2002-06-21-39

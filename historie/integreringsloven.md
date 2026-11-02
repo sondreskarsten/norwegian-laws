@@ -310,6 +310,13 @@ refid: "lov/2020-11-06-127"
 > Loven trer i kraft 1. juli 2026.
 >
 
+### 2027-01-01 — forskrift/2026-10-30-2188
+
+*Ikraftsetting av lov 12. juni 2026 nr. 23 om endringer i integreringsloven (integreringserklæring). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 12. juni 2026 nr. 23 om endringer i integreringsloven (integreringserklæring). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 1
 
 ### 2025-06-20 — lov/2025-06-20-35

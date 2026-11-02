@@ -710,6 +710,13 @@ refid: "lov/2007-06-29-73"
 > Ikraftsetting av lov 10. april 2025 nr. 10 om endringer i eiendomsmeglingsloven (budgivning, egnethetskrav og sanksjoner mv.). Loven trer i kraft 1. juli 2025.
 >
 
+### 2027-01-01 — forskrift/2026-10-30-2205
+
+*Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 1
 
 ### 2014-07-01 — forskrift/2014-05-06-608
