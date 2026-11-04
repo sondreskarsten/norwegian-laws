@@ -11,6 +11,21 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-04*
+
+2 nye dokumenter og 9 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-09-21-2199: Forskrift om endring i forskrift om stønad til høreapparat og tinnitusmaskerer (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-23-2200: Forskrift om bakketjenester på lufthavner (Samferdselsdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-10-29-2204 endrer 1 dokument: forskrift/2022-04-06-633 Dyreimportforskriften
+- forskrift/2026-10-29-2203 endrer 1 dokument: forskrift/2016-06-17-710 Forskrift om utdanning og sertifisering av flygeledere
+- forskrift/2026-10-29-2202 endrer 1 dokument: forskrift/2022-04-06-627 Landdyrhelsesertifikatforskriften
+- forskrift/2026-10-27-2201 endrer 1 dokument: forskrift/2025-12-19-2821 Forskrift om regulering av fisket etter makrell i 2026
+- forskrift/2026-10-23-2200 endrer 4 dokumenter: forskrift/2003-06-27-935 Forskrift om bakketjeneste ved flyplasser (BSL E 4-1); forskrift/2013-08-07-956 Forskrift om luftfartsoperasjoner; forskrift/2015-08-25-1000 Forskrift om sertifisering av flyplasser mv.; forskrift/2025-10-24-2093 Forskrift om informasjonssikkerhet i sivil luftfart
+- (endringskilde ikke oppgitt) endrer 1 dokument: forskrift/2025-08-04-1620 Forskrift om opptak, disiplinære sanksjoner, klagebestemmelser og eksamen ved fagskolen Din Kompetanse Fagskole AS
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -28,11 +43,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-10-30 | Forskrift om endring i forskrift om stønad til høreapparat og tinni… | [`forskrift/1997-04-18-337`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1997-04-18-337.html) |
-| 2026-10-30 | Endr. i integreringsforskriften | [`forskrift/2020-12-15-2912`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-12-15-2912.html) |
-| 2026-10-30 | Endr. i landdyrhelsesertifikatforskriften | [`forskrift/2022-04-06-627`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-627.html) |
-| 2026-10-30 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
-| 2026-10-30 | Forskrift om endring i forskrift om utdanning og sertifisering av f… | [`forskrift/2016-06-17-710`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-06-17-710.html) |
+| 2026-11-02 | Forskrift om endring i forskrift om stønad til dekning av utgifter … | [`forskrift/2024-06-26-1322`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-06-26-1322.html) |
+| 2026-11-02 | Forskrift om endring i forskrifter om tilskuddsordninger for å ivar… | [`forskrift/2023-11-15-1832`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-11-15-1832.html) [`forskrift/2023-11-15-1845`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-11-15-1845.html) [`forskrift/2023-11-15-1846`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-11-15-1846.html) … |
+| 2026-11-02 | Endr. i RÅK-importforskriften | [`forskrift/2012-12-20-1424`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-12-20-1424.html) |
+| 2026-11-02 | Forskrift om endring i forskrift om plantevernmidler | [`forskrift/2015-05-06-455`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-05-06-455.html) |
+| 2026-11-02 | Forskrift om endring i forskrift om studier og eksamen ved Nord uni… | [`forskrift/2024-06-19-1643`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-06-19-1643.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe

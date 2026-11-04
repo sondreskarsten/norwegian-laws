@@ -5,6 +5,24 @@ Publication log for the data on `main`: one entry per source update, listing the
 No entries exist between 28 July and 2 November 2026: the summary step depended on a GitHub Models action that stopped returning responses on 28 July, and the publications in that period are recorded only by their commits and observation releases.
 
 <!-- ENTRIES -->
+
+## 2026-11-04
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+2 nye dokumenter og 9 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-09-21-2199: Forskrift om endring i forskrift om stønad til høreapparat og tinnitusmaskerer (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-23-2200: Forskrift om bakketjenester på lufthavner (Samferdselsdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-10-29-2204 endrer 1 dokument: forskrift/2022-04-06-633 Dyreimportforskriften
+- forskrift/2026-10-29-2203 endrer 1 dokument: forskrift/2016-06-17-710 Forskrift om utdanning og sertifisering av flygeledere
+- forskrift/2026-10-29-2202 endrer 1 dokument: forskrift/2022-04-06-627 Landdyrhelsesertifikatforskriften
+- forskrift/2026-10-27-2201 endrer 1 dokument: forskrift/2025-12-19-2821 Forskrift om regulering av fisket etter makrell i 2026
+- forskrift/2026-10-23-2200 endrer 4 dokumenter: forskrift/2003-06-27-935 Forskrift om bakketjeneste ved flyplasser (BSL E 4-1); forskrift/2013-08-07-956 Forskrift om luftfartsoperasjoner; forskrift/2015-08-25-1000 Forskrift om sertifisering av flyplasser mv.; forskrift/2025-10-24-2093 Forskrift om informasjonssikkerhet i sivil luftfart
+- (endringskilde ikke oppgitt) endrer 1 dokument: forskrift/2025-08-04-1620 Forskrift om opptak, disiplinære sanksjoner, klagebestemmelser og eksamen ved fagskolen Din Kompetanse Fagskole AS
 ## 2026-07-28
 
 *🤖 AI-generated summary (GitHub Models)*
