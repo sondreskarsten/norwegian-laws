@@ -6,6 +6,38 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-05
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+17 nye dokumenter og 13 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-09-30-2228: Forskrift om endring i forskrift om tilskudd til veterinærreiser (Landbruks- og matdepartementet)
+- forskrift/2026-10-09-2216: Utvidelse av virkeområdet til lov 14. mars 1981 nr. 6 om vern mot forurensninger og avfall (forurensningsloven) (Klima- og miljødepartementet)
+- forskrift/2026-10-22-2229: Forskrift om delvis allmenngjøring av Industrioverenskomsten/VO-delen for skips- og verftsindustrien (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-22-2230: Forskrift om delvis allmenngjøring av tariffavtaler for persontransport med turbil (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-22-2231: Forskrift om delvis allmenngjøring av tariffavtale for renholdsbedrifter (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-22-2232: Forskrift om delvis allmenngjøring av tariffavtaler for godstransport på vei (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-22-2233: Forskrift om delvis allmenngjøring av Landsoverenskomsten for elektrofagene (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-22-2234: Forskrift om delvis allmenngjøring av Fellesoverenskomsten for byggfag (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-22-2235: Forskrift om delvis allmenngjøring av tariffavtale for overnattings-, serverings- og cateringvirksomheter (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-22-2236: Forskrift om delvis allmenngjøring av tariffavtale for fiskeindustribedrifter (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-22-2237: Forskrift om delvis allmenngjøring av biloverenskomsten (Arbeids- og inkluderingsdepartementet)
+- forskrift/2026-10-26-2238: Forskrift om endring i forskrift om høyere yrkesfaglig utdanning (Kunnskapsdepartementet)
+- forskrift/2026-10-28-2219: Forskrift om endring i forskrift om stønad til dekning av utgifter til undersøkelse og behandling hos lege (Helse- og omsorgsdepartementet)
+- forskrift/2026-10-28-2239: Forskrift om opptak, studier og eksamen ved Høgskolen i Molde – Vitenskapelig høgskole i logistikk (Kunnskapsdepartementet)
+- forskrift/2026-10-30-2220: Forskrift om endring i forskrifter om tilskuddsordninger for å ivareta natur og friluftsformål (Klima- og miljødepartementet)
+- forskrift/2026-11-02-2222: Forskrift om minimumskrav til nullutslippsløsninger, biogass og biodrivstoff ved offentlige anskaffelser av bygge- og anleggskontrakter (Klima- og miljødepartementet)
+- forskrift/2026-11-02-2241: Forskrift om tidsbegrenset fritak fra krav til låssetting i fisket etter makrell og norsk vårgytende sild (Nærings- og fiskeridepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-10-31-2221 endrer 1 dokument: forskrift/2012-12-20-1424 RÅK-importforskriften
+- forskrift/2026-10-28-2239 endrer 1 dokument: forskrift/2015-05-07-540 Forskrift om opptak mv. ved Høgskolen i Molde
+- forskrift/2026-10-26-2218 endrer 1 dokument: forskrift/2015-05-06-455 Forskrift om plantevernmidler
+- forskrift/2026-10-22-2217 endrer 1 dokument: forskrift/2024-06-19-1643 Forskrift om studier og eksamen ved Nord universitet
+- (endringskilde ikke oppgitt) endrer 9 dokumenter: forskrift/2023-11-15-1845 Forskrift om tilskudd til besøkssenter for verdensarv; forskrift/2023-11-15-1846 Forskrift om tilskudd til besøkssenter for natur; forskrift/2023-11-15-1847 Forskrift om tilskudd til Nasjonale turiststier; forskrift/2023-11-15-1848 Forskrift om tilskudd til tiltak i statlig sikrede friluftslivsområder og områder vernet som friluftslivsområder etter markaloven; forskrift/2023-11-15-1887 Forskrift om tilskudd til å styrke kunnskapen om og formidlingen av naturmangfoldet; forskrift/2024-10-04-2408 Forskrift om tilskudd til tiltak for å ivareta natur; … og 3 til
+
 ## 2026-11-04
 
 *Oppsummering av endringene, generert fra publiseringens diff*
