@@ -11,35 +11,18 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-05*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-06*
 
-17 nye dokumenter og 13 endrede dokumenter i denne publiseringen.
+3 nye dokumenter og 2 endrede dokumenter i denne publiseringen.
 
 Nye dokumenter:
-- forskrift/2026-09-30-2228: Forskrift om endring i forskrift om tilskudd til veterinærreiser (Landbruks- og matdepartementet)
-- forskrift/2026-10-09-2216: Utvidelse av virkeområdet til lov 14. mars 1981 nr. 6 om vern mot forurensninger og avfall (forurensningsloven) (Klima- og miljødepartementet)
-- forskrift/2026-10-22-2229: Forskrift om delvis allmenngjøring av Industrioverenskomsten/VO-delen for skips- og verftsindustrien (Arbeids- og inkluderingsdepartementet)
-- forskrift/2026-10-22-2230: Forskrift om delvis allmenngjøring av tariffavtaler for persontransport med turbil (Arbeids- og inkluderingsdepartementet)
-- forskrift/2026-10-22-2231: Forskrift om delvis allmenngjøring av tariffavtale for renholdsbedrifter (Arbeids- og inkluderingsdepartementet)
-- forskrift/2026-10-22-2232: Forskrift om delvis allmenngjøring av tariffavtaler for godstransport på vei (Arbeids- og inkluderingsdepartementet)
-- forskrift/2026-10-22-2233: Forskrift om delvis allmenngjøring av Landsoverenskomsten for elektrofagene (Arbeids- og inkluderingsdepartementet)
-- forskrift/2026-10-22-2234: Forskrift om delvis allmenngjøring av Fellesoverenskomsten for byggfag (Arbeids- og inkluderingsdepartementet)
-- forskrift/2026-10-22-2235: Forskrift om delvis allmenngjøring av tariffavtale for overnattings-, serverings- og cateringvirksomheter (Arbeids- og inkluderingsdepartementet)
-- forskrift/2026-10-22-2236: Forskrift om delvis allmenngjøring av tariffavtale for fiskeindustribedrifter (Arbeids- og inkluderingsdepartementet)
-- forskrift/2026-10-22-2237: Forskrift om delvis allmenngjøring av biloverenskomsten (Arbeids- og inkluderingsdepartementet)
-- forskrift/2026-10-26-2238: Forskrift om endring i forskrift om høyere yrkesfaglig utdanning (Kunnskapsdepartementet)
-- forskrift/2026-10-28-2219: Forskrift om endring i forskrift om stønad til dekning av utgifter til undersøkelse og behandling hos lege (Helse- og omsorgsdepartementet)
-- forskrift/2026-10-28-2239: Forskrift om opptak, studier og eksamen ved Høgskolen i Molde – Vitenskapelig høgskole i logistikk (Kunnskapsdepartementet)
-- forskrift/2026-10-30-2220: Forskrift om endring i forskrifter om tilskuddsordninger for å ivareta natur og friluftsformål (Klima- og miljødepartementet)
-- forskrift/2026-11-02-2222: Forskrift om minimumskrav til nullutslippsløsninger, biogass og biodrivstoff ved offentlige anskaffelser av bygge- og anleggskontrakter (Klima- og miljødepartementet)
-- forskrift/2026-11-02-2241: Forskrift om tidsbegrenset fritak fra krav til låssetting i fisket etter makrell og norsk vårgytende sild (Nærings- og fiskeridepartementet)
+- forskrift/2026-11-03-2258: Forskrift om opprettelse av restriksjonssone for å bekjempe høypatogen aviær influensa (HPAI-soneforskrift) (Landbruks- og matdepartementet)
+- forskrift/2026-11-03-2260: Forskrift om endring i forskrift om bruk av personlig verneutstyr under kjøring med motorvogn (Samferdselsdepartementet)
+- forskrift/2026-11-03-2261: Forskrift om endring i forskrift om nasjonal løsning for tilgjengeliggjøring av helsedata (Helse- og omsorgsdepartementet)
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-10-31-2221 endrer 1 dokument: forskrift/2012-12-20-1424 RÅK-importforskriften
-- forskrift/2026-10-28-2239 endrer 1 dokument: forskrift/2015-05-07-540 Forskrift om opptak mv. ved Høgskolen i Molde
-- forskrift/2026-10-26-2218 endrer 1 dokument: forskrift/2015-05-06-455 Forskrift om plantevernmidler
-- forskrift/2026-10-22-2217 endrer 1 dokument: forskrift/2024-06-19-1643 Forskrift om studier og eksamen ved Nord universitet
-- (endringskilde ikke oppgitt) endrer 9 dokumenter: forskrift/2023-11-15-1845 Forskrift om tilskudd til besøkssenter for verdensarv; forskrift/2023-11-15-1846 Forskrift om tilskudd til besøkssenter for natur; forskrift/2023-11-15-1847 Forskrift om tilskudd til Nasjonale turiststier; forskrift/2023-11-15-1848 Forskrift om tilskudd til tiltak i statlig sikrede friluftslivsområder og områder vernet som friluftslivsområder etter markaloven; forskrift/2023-11-15-1887 Forskrift om tilskudd til å styrke kunnskapen om og formidlingen av naturmangfoldet; forskrift/2024-10-04-2408 Forskrift om tilskudd til tiltak for å ivareta natur; … og 3 til
+- forskrift/2026-10-30-2240 endrer 1 dokument: forskrift/2020-11-04-2293 Forskrift om varsling ved eksport av visse farlige kjemikalier
+- (endringskilde ikke oppgitt) endrer 1 dokument: forskrift/1990-06-08-443 Delegering av myndighet etter vegtrafikkloven
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -57,11 +40,11 @@ Endrede dokumenter etter endringskilde:
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-11-04 | Forskrift om endring i forskrift om bruk av personlig verneutstyr u… | [`forskrift/1979-09-21-7`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1979-09-21-7.html) |
+| 2026-11-04 | Forskrift om endring i forskrift om nasjonal løsning for tilgjengel… | [`forskrift/2023-01-11-48`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-01-11-48.html) |
+| 2026-11-04 | Forskrift om endring i forskrift om infisert sone for høypatogen av… | [`forskrift/2022-06-23-1161`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-23-1161.html) |
+| 2026-11-04 | Forskrift om endring i forskrift om regulering av fisket etter sild… | [`forskrift/2025-12-19-2828`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2828.html) |
 | 2026-11-03 | Forskrift om endring i forskrift om tilskudd til veterinærreiser | [`forskrift/2015-04-30-426`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-04-30-426.html) |
-| 2026-11-03 | Forskrift om endring i forskrift om høyere yrkesfaglig utdanning | [`forskrift/2026-10-26-2162`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-10-26-2162.html) |
-| 2026-11-03 | Forskrift om delvis allmenngjøring av Industrioverenskomsten/VO-del… | [`forskrift/2024-10-21-2535`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-10-21-2535.html) |
-| 2026-11-03 | Forskrift om delvis allmenngjøring av tariffavtaler for persontrans… | [`forskrift/2024-10-21-2534`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-10-21-2534.html) |
-| 2026-11-03 | Forskrift om delvis allmenngjøring av tariffavtale for renholdsbedr… | [`forskrift/2024-10-21-2545`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-10-21-2545.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe

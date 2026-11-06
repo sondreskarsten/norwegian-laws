@@ -6,6 +6,21 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-06
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+3 nye dokumenter og 2 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-03-2258: Forskrift om opprettelse av restriksjonssone for å bekjempe høypatogen aviær influensa (HPAI-soneforskrift) (Landbruks- og matdepartementet)
+- forskrift/2026-11-03-2260: Forskrift om endring i forskrift om bruk av personlig verneutstyr under kjøring med motorvogn (Samferdselsdepartementet)
+- forskrift/2026-11-03-2261: Forskrift om endring i forskrift om nasjonal løsning for tilgjengeliggjøring av helsedata (Helse- og omsorgsdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-10-30-2240 endrer 1 dokument: forskrift/2020-11-04-2293 Forskrift om varsling ved eksport av visse farlige kjemikalier
+- (endringskilde ikke oppgitt) endrer 1 dokument: forskrift/1990-06-08-443 Delegering av myndighet etter vegtrafikkloven
+
 ## 2026-11-05
 
 *Oppsummering av endringene, generert fra publiseringens diff*
