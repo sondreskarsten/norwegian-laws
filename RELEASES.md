@@ -6,6 +6,17 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-07
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+3 endrede dokumenter i denne publiseringen.
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-03-2262 endrer 1 dokument: forskrift/2025-12-19-2828 Forskrift om regulering av fisket etter sild i Nordsjøen og Skagerrak i 2026
+- forskrift/2026-11-03-2259 endrer 1 dokument: forskrift/2022-06-23-1161 Forskrift om infisert sone for høypatogen aviær influensa og Newcastlesyke
+- (endringskilde ikke oppgitt) endrer 1 dokument: forskrift/2026-11-03-2260 Forskrift om endring i forskrift om bruk av personlig verneutstyr under kjøring med motorvogn
+
 ## 2026-11-06
 
 *Oppsummering av endringene, generert fra publiseringens diff*
