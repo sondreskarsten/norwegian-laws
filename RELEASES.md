@@ -6,6 +6,16 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-08
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+2 endrede dokumenter i denne publiseringen.
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-05-2272 endrer 1 dokument: forskrift/2026-11-03-2258 HPAI-soneforskrift
+- forskrift/2026-10-19-2271 endrer 1 dokument: forskrift/2000-12-08-1281 Forskrift om fag underlagt mesterbrevloven
+
 ## 2026-11-07
 
 *Oppsummering av endringene, generert fra publiseringens diff*

@@ -11,14 +11,13 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-07*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-08*
 
-3 endrede dokumenter i denne publiseringen.
+2 endrede dokumenter i denne publiseringen.
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-11-03-2262 endrer 1 dokument: forskrift/2025-12-19-2828 Forskrift om regulering av fisket etter sild i Nordsjøen og Skagerrak i 2026
-- forskrift/2026-11-03-2259 endrer 1 dokument: forskrift/2022-06-23-1161 Forskrift om infisert sone for høypatogen aviær influensa og Newcastlesyke
-- (endringskilde ikke oppgitt) endrer 1 dokument: forskrift/2026-11-03-2260 Forskrift om endring i forskrift om bruk av personlig verneutstyr under kjøring med motorvogn
+- forskrift/2026-11-05-2272 endrer 1 dokument: forskrift/2026-11-03-2258 HPAI-soneforskrift
+- forskrift/2026-10-19-2271 endrer 1 dokument: forskrift/2000-12-08-1281 Forskrift om fag underlagt mesterbrevloven
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -36,11 +35,11 @@ Endrede dokumenter etter endringskilde:
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-11-06 | Endr. i dyresykdomsnødtiltaksforskriften | [`forskrift/2021-05-05-1407`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-05-05-1407.html) |
+| 2026-11-06 | Endr. i REACH-forskriften | [`forskrift/2008-05-30-516`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2008-05-30-516.html) |
+| 2026-11-06 | Forskrift om endring i forskrift om hvilke fag som er lagt under lo… | [`forskrift/2000-12-08-1281`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2000-12-08-1281.html) |
+| 2026-11-06 | Forskrift om endring i forskrift om hvilke fag som er lagt under lo… | [`forskrift/2000-12-08-1281`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2000-12-08-1281.html) |
 | 2026-11-05 | Endr. i HPAI-soneforskrift | [`forskrift/2026-11-03-2258`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-11-03-2258.html) |
-| 2026-11-05 | Forskrift om endring i forskrift om hvilke fag som er lagt under lo… | [`forskrift/2000-12-08-1281`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2000-12-08-1281.html) |
-| 2026-11-04 | Forskrift om endring i forskrift om bruk av personlig verneutstyr u… | [`forskrift/1979-09-21-7`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1979-09-21-7.html) |
-| 2026-11-04 | Forskrift om endring i forskrift om nasjonal løsning for tilgjengel… | [`forskrift/2023-01-11-48`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-01-11-48.html) |
-| 2026-11-04 | Forskrift om endring i forskrift om infisert sone for høypatogen av… | [`forskrift/2022-06-23-1161`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-23-1161.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
