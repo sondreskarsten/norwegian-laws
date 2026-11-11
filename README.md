@@ -11,13 +11,15 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-08*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-11*
 
-2 endrede dokumenter i denne publiseringen.
+4 endrede dokumenter i denne publiseringen.
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-11-05-2272 endrer 1 dokument: forskrift/2026-11-03-2258 HPAI-soneforskrift
-- forskrift/2026-10-19-2271 endrer 1 dokument: forskrift/2000-12-08-1281 Forskrift om fag underlagt mesterbrevloven
+- forskrift/2026-11-05-2276 endrer 1 dokument: forskrift/2021-05-05-1407 Dyresykdomsnødtiltaksforskriften
+- forskrift/2026-11-04-2275 endrer 1 dokument: forskrift/2008-05-30-516 REACH-forskriften
+- forskrift/2026-10-22-2231 endrer 1 dokument: forskrift/2024-10-21-2545 Forskrift om delvis allmenngjøring av tariffavtale for renholdsbedrifter
+- forskrift/2026-10-19-2274 endrer 1 dokument: forskrift/2000-12-08-1281 Forskrift om fag underlagt mesterbrevloven
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->

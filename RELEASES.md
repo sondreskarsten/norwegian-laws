@@ -6,6 +6,18 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-11
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+4 endrede dokumenter i denne publiseringen.
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-05-2276 endrer 1 dokument: forskrift/2021-05-05-1407 Dyresykdomsnødtiltaksforskriften
+- forskrift/2026-11-04-2275 endrer 1 dokument: forskrift/2008-05-30-516 REACH-forskriften
+- forskrift/2026-10-22-2231 endrer 1 dokument: forskrift/2024-10-21-2545 Forskrift om delvis allmenngjøring av tariffavtale for renholdsbedrifter
+- forskrift/2026-10-19-2274 endrer 1 dokument: forskrift/2000-12-08-1281 Forskrift om fag underlagt mesterbrevloven
+
 ## 2026-11-08
 
 *Oppsummering av endringene, generert fra publiseringens diff*
