@@ -37,11 +37,11 @@ Endrede dokumenter etter endringskilde:
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-11-10 | Forskrift om endring i forskrift om satelittbasert overvåking av ut… | [`forskrift/1999-12-16-1342`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1999-12-16-1342.html) |
+| 2026-11-10 | Endr. i forurensningsforskriften | [`forskrift/2004-06-01-931`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-06-01-931.html) |
+| 2026-11-10 | Endr. i klimakvoteforskriften | [`forskrift/2004-12-23-1851`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-12-23-1851.html) |
 | 2026-11-06 | Endr. i dyresykdomsnødtiltaksforskriften | [`forskrift/2021-05-05-1407`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-05-05-1407.html) |
 | 2026-11-06 | Endr. i REACH-forskriften | [`forskrift/2008-05-30-516`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2008-05-30-516.html) |
-| 2026-11-06 | Forskrift om endring i forskrift om hvilke fag som er lagt under lo… | [`forskrift/2000-12-08-1281`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2000-12-08-1281.html) |
-| 2026-11-06 | Forskrift om endring i forskrift om hvilke fag som er lagt under lo… | [`forskrift/2000-12-08-1281`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2000-12-08-1281.html) |
-| 2026-11-05 | Endr. i HPAI-soneforskrift | [`forskrift/2026-11-03-2258`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-11-03-2258.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
