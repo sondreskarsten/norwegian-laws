@@ -6,6 +6,19 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-13
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+2 nye dokumenter og 1 endret dokument i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-09-2305: Forskrift om endring i forskrift om satelittbasert overvåking av utenlandske fiskefartøys aktivitet i Norges indre farvann, sjøterritorium og økonomiske sone, fiskerisonen ved Jan Mayen og fiskevernsonen ved Svalbard (Nærings- og fiskeridepartementet)
+- forskrift/2026-11-09-2306: Forskrift om endring i forurensningsforskriften (endring av normverdier forurenset grunn) (Klima- og miljødepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-05-2304 endrer 1 dokument: forskrift/2004-12-23-1851 Klimakvoteforskriften
+
 ## 2026-11-11
 
 *Oppsummering av endringene, generert fra publiseringens diff*
