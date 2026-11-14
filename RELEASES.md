@@ -6,6 +6,18 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-14
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+1 nytt dokument og 1 endret dokument i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-11-2334: Vedtak om endring i våpeninstruks for politiet (Justis- og beredskapsdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-10-2308 endrer 1 dokument: forskrift/2018-12-19-2145 Forskrift til lov om Bankenes sikringsfond
+
 ## 2026-11-13
 
 *Oppsummering av endringene, generert fra publiseringens diff*

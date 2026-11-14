@@ -11,16 +11,15 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-13*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-14*
 
-2 nye dokumenter og 1 endret dokument i denne publiseringen.
+1 nytt dokument og 1 endret dokument i denne publiseringen.
 
 Nye dokumenter:
-- forskrift/2026-11-09-2305: Forskrift om endring i forskrift om satelittbasert overvåking av utenlandske fiskefartøys aktivitet i Norges indre farvann, sjøterritorium og økonomiske sone, fiskerisonen ved Jan Mayen og fiskevernsonen ved Svalbard (Nærings- og fiskeridepartementet)
-- forskrift/2026-11-09-2306: Forskrift om endring i forurensningsforskriften (endring av normverdier forurenset grunn) (Klima- og miljødepartementet)
+- forskrift/2026-11-11-2334: Vedtak om endring i våpeninstruks for politiet (Justis- og beredskapsdepartementet)
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-11-05-2304 endrer 1 dokument: forskrift/2004-12-23-1851 Klimakvoteforskriften
+- forskrift/2026-11-10-2308 endrer 1 dokument: forskrift/2018-12-19-2145 Forskrift til lov om Bankenes sikringsfond
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -38,11 +37,11 @@ Endrede dokumenter etter endringskilde:
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-11-12 | Vedtak om endring i våpeninstruks for politiet | [`forskrift/2015-07-02-1088`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-07-02-1088.html) |
+| 2026-11-12 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
+| 2026-11-12 | Endr. i CRR/CRD-forskriften | [`forskrift/2014-08-22-1097`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-08-22-1097.html) |
 | 2026-11-11 | Forskrift om endring i forskrift til lov om Bankenes sikringsfond | [`forskrift/2018-12-19-2145`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-19-2145.html) |
 | 2026-11-10 | Forskrift om endring i forskrift om satelittbasert overvåking av ut… | [`forskrift/1999-12-16-1342`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1999-12-16-1342.html) |
-| 2026-11-10 | Endr. i forurensningsforskriften | [`forskrift/2004-06-01-931`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-06-01-931.html) |
-| 2026-11-10 | Endr. i klimakvoteforskriften | [`forskrift/2004-12-23-1851`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-12-23-1851.html) |
-| 2026-11-06 | Endr. i dyresykdomsnødtiltaksforskriften | [`forskrift/2021-05-05-1407`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-05-05-1407.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
