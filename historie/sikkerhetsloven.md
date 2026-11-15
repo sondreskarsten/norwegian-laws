@@ -243,3 +243,10 @@ refid: "lov/2018-06-01-24"
 
 > Ikraftsetting av lov 23. juni 2026 nr. 74 om endringer i sikkerhetsloven (organisering av klareringsmyndigheten). Loven trer i kraft straks.
 >
+
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>

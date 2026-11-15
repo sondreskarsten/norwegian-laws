@@ -74,3 +74,10 @@ refid: "lov/2021-12-22-163"
 >
 > Kravene i første ledd skal dokumenteres gjennom foreleggelse av ordinær politiattest etter politiregisterloven § 40 og bekreftelse fra Brønnøysundregistrene om at personen ikke er under konkursbehandling, konkurskarantene, rekonstruksjonsforhandling eller gjeldsforhandling.
 >
+
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>

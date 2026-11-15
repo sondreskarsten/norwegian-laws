@@ -24,3 +24,10 @@ refid: "lov/1939-02-17-1"
 >
 > Utgjevaren kann likeins gjera gjeldande at gjeldsbrevet er falskt eller forfalska, underskrive på hans vegner utan fullmakt eller ugildt på grunn av grov tvang (§ 28 i avtalelova), manglande rettsleg handleevne eller sinnssjukdom, at gjeldsbrevet er sagt maktlaust, eller at kravet er bortfalle eller brigda etter reglane om deponering, forelding, preklusjon, tvangsakkord eller rekonstruksjonsforhandling.
 >
+
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>

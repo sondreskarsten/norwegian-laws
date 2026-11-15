@@ -632,6 +632,13 @@ refid: "lov/1985-06-21-79"
 > Loven trer i kraft 1. juli 2024.
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 22
 
 ### 2021-06-18 — lov/2021-06-18-122

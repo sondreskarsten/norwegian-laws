@@ -11,15 +11,18 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-14*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-15*
 
-1 nytt dokument og 1 endret dokument i denne publiseringen.
+2 nye dokumenter og 6 endrede dokumenter i denne publiseringen.
 
 Nye dokumenter:
-- forskrift/2026-11-11-2334: Vedtak om endring i våpeninstruks for politiet (Justis- og beredskapsdepartementet)
+- forskrift/2026-11-11-2336: Forskrift om regulering av fisket etter leppefisk i 2027 (Nærings- og fiskeridepartementet)
+- forskrift/2026-11-12-2337: Delegering av myndighet til å fatte vedtak etter særavgiftsloven (Finansdepartementet)
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-11-10-2308 endrer 1 dokument: forskrift/2018-12-19-2145 Forskrift til lov om Bankenes sikringsfond
+- forskrift/2026-11-11-2339 endrer 1 dokument: forskrift/2014-08-22-1097 CRR/CRD-forskriften
+- forskrift/2026-11-11-2333 endrer 1 dokument: forskrift/2022-04-06-633 Dyreimportforskriften
+- (endringskilde ikke oppgitt) endrer 4 dokumenter: lov/2019-12-20-109 Kredittopplysningsloven; lov/2025-04-10-9 Statsføretakslova; lov/2026-06-19-48 Endringslov til konkursloven mv.; lov/2026-06-19-51 Endringslov til politiloven
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -37,11 +40,11 @@ Endrede dokumenter etter endringskilde:
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-11-13 | Forskrift om endringer i forskrift om forsvars- og sikkerhetsanskaf… | [`forskrift/2013-10-04-1185`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-10-04-1185.html) [`forskrift/2022-05-20-883`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-05-20-883.html) [`forskrift/2024-01-26-111`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-01-26-111.html) |
+| 2026-11-13 | Endr. i feltsikkerhetsforskriften | [`forskrift/2025-06-06-940`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-06-06-940.html) |
+| 2026-11-13 | Endr. i verdipapirforskriften | [`forskrift/2007-06-29-876`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-06-29-876.html) |
+| 2026-11-13 | Endr. i CRR/CRD-forskriften | [`forskrift/2014-08-22-1097`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-08-22-1097.html) |
 | 2026-11-12 | Vedtak om endring i våpeninstruks for politiet | [`forskrift/2015-07-02-1088`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-07-02-1088.html) |
-| 2026-11-12 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
-| 2026-11-12 | Endr. i CRR/CRD-forskriften | [`forskrift/2014-08-22-1097`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-08-22-1097.html) |
-| 2026-11-11 | Forskrift om endring i forskrift til lov om Bankenes sikringsfond | [`forskrift/2018-12-19-2145`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-19-2145.html) |
-| 2026-11-10 | Forskrift om endring i forskrift om satelittbasert overvåking av ut… | [`forskrift/1999-12-16-1342`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1999-12-16-1342.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe

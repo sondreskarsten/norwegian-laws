@@ -76,3 +76,10 @@ refid: "lov/1916-06-30-1"
 >
 > lov 10. april 2025 nr. 9 om statsføretak § 5-16 første ledd
 >
+
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>

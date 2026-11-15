@@ -698,6 +698,13 @@ refid: "lov/2014-06-20-28"
 > (5) Foretak kan ilegges overtredelsesgebyr når foretaket eller noen som har handlet på foretakets vegne, forsettlig eller uaktsomt har begått en overtredelse som nevnt i første eller annet ledd.
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 1a-3
 
 ### 2026-02-06 — lov/2026-02-06-4

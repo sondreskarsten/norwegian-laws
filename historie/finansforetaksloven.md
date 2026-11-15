@@ -4085,6 +4085,13 @@ refid: "lov/2015-04-10-17"
 > Ikraftsetting av lov 6. februar 2026 nr. 2 om folkefinansiering av næringsvirksomhet (folkefinansieringsloven). Loven trer i kraft 1. august 2026.
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 20A-1
 
 ### 2018-03-23 — lov/2018-03-23-2

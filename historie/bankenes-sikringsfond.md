@@ -46,6 +46,13 @@ refid: "lov/2018-03-23-3"
 > Endringsloven del VIII (lov om Bankenes sikringsfond).
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 3
 
 ### 2023-03-31 — lov/2023-03-31-4

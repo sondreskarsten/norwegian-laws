@@ -48,6 +48,13 @@ refid: "lov/2020-05-07-38"
 
 *I midlertidig lov 7. mai 2020 nr. 38 om rekonstruksjon for å avhjelpe økonomiske problemer som følge av utbrudd av covid-19 oppheves § 64 annet ledd.*
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 36
 
 ### 2020-12-18 — lov/2020-12-18-149

@@ -34,6 +34,13 @@ refid: "lov/2020-04-24-31"
 > Endringsloven del I (trossamfunnsloven) med unntak av § 5 første, fjerde og syvende ledd.
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 14
 
 ### 2025-03-14 — lov/2025-03-14-3

@@ -110,6 +110,13 @@ refid: "lov/1999-01-29-6"
 > Konkurs og rekonstruksjonsforhandling kan ikke åpnes i selskapet.
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 10
 
 ### 2023-06-02 — lov/2023-06-02-22

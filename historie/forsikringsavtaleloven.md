@@ -1496,3 +1496,10 @@ refid: "lov/1989-06-16-69"
 
 > Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.
 >
+
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>

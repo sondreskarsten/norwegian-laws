@@ -95,6 +95,13 @@ refid: "lov/2001-06-15-93"
 > Ikraftsetting av lov 19. juni 2026 nr. 41 om særavgifter (særavgiftsloven). Loven trer i kraft 1. januar 2027.
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 10
 
 ### 2012-12-14 — lov/2012-12-14-86

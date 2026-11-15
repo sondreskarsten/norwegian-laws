@@ -70,3 +70,10 @@ refid: "lov/2019-03-22-7"
 
 > den sikkerheten som rettighetshaveren plikter å stille etter § 9-2 er vesentlig svekket, selskapet eller sammenslutningen som innehar tillatelsen, oppløses, eller det åpnes rekonstruksjonsforhandling eller konkurs i selskapet eller sammenslutningen.
 >
+
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>

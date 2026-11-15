@@ -6,6 +6,21 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-15
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+2 nye dokumenter og 6 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-11-2336: Forskrift om regulering av fisket etter leppefisk i 2027 (Nærings- og fiskeridepartementet)
+- forskrift/2026-11-12-2337: Delegering av myndighet til å fatte vedtak etter særavgiftsloven (Finansdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-11-2339 endrer 1 dokument: forskrift/2014-08-22-1097 CRR/CRD-forskriften
+- forskrift/2026-11-11-2333 endrer 1 dokument: forskrift/2022-04-06-633 Dyreimportforskriften
+- (endringskilde ikke oppgitt) endrer 4 dokumenter: lov/2019-12-20-109 Kredittopplysningsloven; lov/2025-04-10-9 Statsføretakslova; lov/2026-06-19-48 Endringslov til konkursloven mv.; lov/2026-06-19-51 Endringslov til politiloven
+
 ## 2026-11-14
 
 *Oppsummering av endringene, generert fra publiseringens diff*

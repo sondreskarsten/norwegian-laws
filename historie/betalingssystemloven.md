@@ -365,3 +365,10 @@ refid: "lov/1999-12-17-95"
 
 > Med innledning av insolvensbehandling menes tidspunkt for åpning av rekonstruksjonsforhandling etter lov 8. juni 1984 nr. 58 om rekonstruksjonsforhandling og konkurs § 4 fjerde ledd, tidspunkt for åpning av konkurs etter konkursloven § 74 første ledd, eller tidspunkt for vedtak om offentlig administrasjon etter lov 10. april 2015 nr. 17 om finansforetak og finanskonsern § 21-11.
 >
+
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>

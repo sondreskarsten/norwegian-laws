@@ -87,6 +87,13 @@ refid: "lov/2019-06-14-21"
 > Når kjennelsen om stadfestelse er rettskraftig, skal retten dekke massekravene og de fortrinnsberettigede kravene, eller sette inn i bank nødvendige beløp til dekning av omtvistede krav, jf. konkursloven § 40 første ledd, jf. § 124 c tredje ledd.
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 116
 
 ### 2023-06-16 — lov/2023-06-16-59

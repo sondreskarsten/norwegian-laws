@@ -266,6 +266,13 @@ refid: "lov/1982-12-17-86"
 > Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 1
 
 ### 2003-06-27 — lov/2003-06-27-63

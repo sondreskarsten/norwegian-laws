@@ -346,6 +346,13 @@ refid: "lov/1985-06-21-83"
 > Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del VI (SE-loven), del VII (samvirkelova) med unntak av § 75, del VIII (finansforetaksloven) og del IX trer i kraft 1. juni 2021.
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 2
 
 ### 2007-06-29 — lov/2007-06-29-81

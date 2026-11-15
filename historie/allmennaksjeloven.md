@@ -3743,6 +3743,13 @@ refid: "lov/1997-06-13-45"
 > Endringsloven del II (allmennaksjeloven) § 4-5 andre ledd.
 >
 
+### 2027-01-01 — forskrift/2026-11-13-2341
+
+*Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.*
+
+> Ikraftsetting av lov 19. juni 2026 nr. 48 om endringer i konkursloven mv. (rekonstruksjonsforhandling). Loven trer i kraft 1. januar 2027.
+>
+
 ## § 1
 
 ### 2013-07-01 — forskrift/2013-06-19-662
