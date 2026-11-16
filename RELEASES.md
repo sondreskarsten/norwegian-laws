@@ -6,6 +6,15 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-16
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+8 endrede dokumenter i denne publiseringen.
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-10-30-2220 endrer 8 dokumenter: forskrift/2023-11-15-1832 Forskrift om tilskudd til friluftslivsaktivitet; forskrift/2023-11-15-1845 Forskrift om tilskudd til besøkssenter for verdensarv; forskrift/2023-11-15-1846 Forskrift om tilskudd til besøkssenter for natur; forskrift/2023-11-15-1847 Forskrift om tilskudd til Nasjonale turiststier; forskrift/2023-11-15-1848 Forskrift om tilskudd til tiltak i statlig sikrede friluftslivsområder og områder vernet som friluftslivsområder etter markaloven; forskrift/2023-11-15-1887 Forskrift om tilskudd til å styrke kunnskapen om og formidlingen av naturmangfoldet; … og 2 til
+
 ## 2026-11-15
 
 *Oppsummering av endringene, generert fra publiseringens diff*

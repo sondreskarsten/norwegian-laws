@@ -11,18 +11,12 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-15*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-16*
 
-2 nye dokumenter og 6 endrede dokumenter i denne publiseringen.
-
-Nye dokumenter:
-- forskrift/2026-11-11-2336: Forskrift om regulering av fisket etter leppefisk i 2027 (Nærings- og fiskeridepartementet)
-- forskrift/2026-11-12-2337: Delegering av myndighet til å fatte vedtak etter særavgiftsloven (Finansdepartementet)
+8 endrede dokumenter i denne publiseringen.
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-11-11-2339 endrer 1 dokument: forskrift/2014-08-22-1097 CRR/CRD-forskriften
-- forskrift/2026-11-11-2333 endrer 1 dokument: forskrift/2022-04-06-633 Dyreimportforskriften
-- (endringskilde ikke oppgitt) endrer 4 dokumenter: lov/2019-12-20-109 Kredittopplysningsloven; lov/2025-04-10-9 Statsføretakslova; lov/2026-06-19-48 Endringslov til konkursloven mv.; lov/2026-06-19-51 Endringslov til politiloven
+- forskrift/2026-10-30-2220 endrer 8 dokumenter: forskrift/2023-11-15-1832 Forskrift om tilskudd til friluftslivsaktivitet; forskrift/2023-11-15-1845 Forskrift om tilskudd til besøkssenter for verdensarv; forskrift/2023-11-15-1846 Forskrift om tilskudd til besøkssenter for natur; forskrift/2023-11-15-1847 Forskrift om tilskudd til Nasjonale turiststier; forskrift/2023-11-15-1848 Forskrift om tilskudd til tiltak i statlig sikrede friluftslivsområder og områder vernet som friluftslivsområder etter markaloven; forskrift/2023-11-15-1887 Forskrift om tilskudd til å styrke kunnskapen om og formidlingen av naturmangfoldet; … og 2 til
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
