@@ -86,6 +86,32 @@ def read_document(raw: bytes) -> dict:
     }
 
 
+def source_shape(raw: bytes) -> list:
+    root = etree.fromstring(raw, parser=etree.XMLParser(resolve_entities=False, no_network=True, remove_comments=True))
+    body = root.find(".//main[@class='documentBody']")
+    shape = []
+    for element in body.iter() if body is not None else ():
+        classes = set((element.get("class") or "").split())
+        if element.tag == "section":
+            shape.append(["section", element.get("data-name") or ""])
+        elif element.tag == "article" and classes & {"legalArticle", "futureLegalArticle"}:
+            shape.append(["article", element.get("data-name") or ""])
+        elif element.tag == "article" and classes & {"legalP", "numberedLegalP", "centeredP"}:
+            shape.append(["ledd", ""])
+        elif element.tag == "li":
+            shape.append(["li", element.get("data-name") or ""])
+        elif element.tag in ("table", "tr", "footer"):
+            shape.append([element.tag, ""])
+    return shape
+
+
+def shape_differences(first: list, second: list) -> list:
+    differences = [[index, a, b] for index, (a, b) in enumerate(zip(first, second)) if a != b]
+    if len(first) != len(second):
+        differences.append([min(len(first), len(second)), ["length", len(first)], ["length", len(second)]])
+    return differences
+
+
 def _tokens(text: str) -> Counter:
     return Counter(word.lower() for word in _WORD.findall(text or ""))
 
@@ -148,6 +174,8 @@ def compare_snapshot(snapshot: str = "snapshot") -> dict:
     variants = {item["member_path"]: item for item in language_variants(snapshot)}
     rows = []
     unpublished = []
+    selected_raw = {}
+    variant_raw = {}
     for archive_sha256 in sorted({key[0] for key in members}):
         with tarfile.open(root / "raw" / f"{archive_sha256}.tar.bz2", "r:bz2") as archive:
             for ordinal, member in enumerate(archive.getmembers()):
@@ -160,8 +188,10 @@ def compare_snapshot(snapshot: str = "snapshot") -> dict:
                 raw = archive.extractfile(member).read()
                 if row["selected"]:
                     law = json.loads((root / row["selected_output_path"]).read_text(encoding="utf-8"))
+                    selected_raw[(row["role"], row["refid"])] = raw
                 else:
                     law = variants[member.name]["document"]
+                    variant_raw[(row["role"], row["refid"], member.name)] = raw
                 result = compare_document(raw, law)
                 rows.append({
                     "member_path": member.name,
@@ -173,8 +203,14 @@ def compare_snapshot(snapshot: str = "snapshot") -> dict:
                     "novel": sum(result["novel"].values()),
                     "novel_top": result["novel"].most_common(8),
                 })
+    variant_structure = []
+    for (role, refid, member_path), raw in sorted(variant_raw.items()):
+        first, second = source_shape(selected_raw[(role, refid)]), source_shape(raw)
+        variant_structure.append({"member_path": member_path, "refid": refid, "nodes": [len(first), len(second)],
+                                  "differences": shape_differences(first, second)[:20]})
     total = sum(row["source_words"] for row in rows)
     return {
+        "variant_structure": variant_structure,
         "documents": len(rows),
         "source_words": total,
         "header_mismatches": sum(len(row["header"]) for row in rows),
@@ -197,6 +233,7 @@ def main():
     ap.add_argument("--max-novel-fraction", type=float, default=0.00002)
     ap.add_argument("--max-document-words", type=int, default=150)
     ap.add_argument("--max-unpublished", type=int, default=0)
+    ap.add_argument("--max-variant-structure-differences", type=int, default=0)
     ap.add_argument("--report-only", action="store_true")
     args = ap.parse_args()
 
@@ -231,6 +268,13 @@ def main():
     worst = max((row["lost"] + row["novel"] for row in report["rows"]), default=0)
     if worst > args.max_document_words:
         print(f"  FAIL: a document differs by {worst} words > {args.max_document_words}")
+        ok = False
+    for item in report["variant_structure"]:
+        print(f"    VARIANT {item['member_path']} ({item['refid']}): structure nodes {item['nodes']} "
+              f"differences {len(item['differences'])} {item['differences'][:3]}")
+    misaligned = sum(len(item["differences"]) for item in report["variant_structure"])
+    if misaligned > args.max_variant_structure_differences:
+        print(f"  FAIL: language variants differ in structure at {misaligned} positions > {args.max_variant_structure_differences}")
         ok = False
     if len(report["unpublished"]) > args.max_unpublished:
         print(f"  FAIL: {len(report['unpublished'])} parsed source members are not published > {args.max_unpublished}")

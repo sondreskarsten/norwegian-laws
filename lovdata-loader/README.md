@@ -149,7 +149,9 @@ inventory only. `lovdata_loader.language_variants` reads such a member from the
 snapshot's raw archive, checks its bytes and parsed-model hash against the
 inventory, and returns it as `lov/1814-05-17-nn`, the identifier lovdata.no
 uses. The publisher writes it as `lover/lov-1814-05-17-nn.md` and the second
-stream compares it. The snapshot, its evidence contract and the history
+stream compares it. The second stream also compares the two texts' source
+structure position by position (sections, paragraphs, ledd, list items, tables,
+footnotes): the words differ, the structure must not. The snapshot, its evidence contract and the history
 ledger are unchanged; amendment records remain under `lov/1814-05-17`.
 
 The completeness gate in `coverage.py` reads the source with the parser's own

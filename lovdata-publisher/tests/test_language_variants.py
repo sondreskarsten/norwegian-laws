@@ -46,6 +46,18 @@ def test_variant_is_read_back_and_published_under_its_own_refid(tmp_path):
 
     report = compare_snapshot(str(root))
     assert report["documents"] == 2 and report["unpublished"] == [] and report["header_mismatches"] == 0
+    assert [item["differences"] for item in report["variant_structure"]] == [[]]
+    assert report["variant_structure"][0]["nodes"][0] == report["variant_structure"][0]["nodes"][1] > 0
+
+
+def test_variant_with_a_missing_paragraph_is_reported(tmp_path):
+    from lovdata_loader.second_stream import shape_differences, source_shape
+    bokmal = (FIXTURES / "fixture_grunnloven.xml").read_bytes()
+    start = bokmal.index(b'<article class="legalArticle"')
+    end = bokmal.index(b'<article class="legalArticle"', start + 1)
+    shorter = bokmal[:start] + bokmal[end:]
+    differences = shape_differences(source_shape(bokmal), source_shape(shorter))
+    assert differences and differences[-1][1][0] == "length"
 
 
 def test_unsuffixed_duplicate_stays_unpublished_and_is_reported(tmp_path):
