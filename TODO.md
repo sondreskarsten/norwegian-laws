@@ -16,6 +16,10 @@ Updated **2 November 2026**. The 29–30 October stress test ([log](docs/STRESS-
 - Documents repealed before publication began (2026-02-18) are not reconstructed; legal-date reconstruction of past texts is not delivered and not planned here.
 - The optional GCS mirror's retained object versions and IAM have not been audited separately.
 
+## Open checks
+
+- Reader pages have only been checked as HTML, not viewed in a browser. Look at the bilansvarslova and EØS-loven pages once deploy #269 has run, and compare them directly with lovdata.no from the laptop, which can reach the published `.io` pages. Start after the lovdata.no web comparison is done.
+
 ## Housekeeping
 
 - The remote branch `fix/reliable-laws-delivery` is merged (0 commits ahead of `main`) and can be deleted.
