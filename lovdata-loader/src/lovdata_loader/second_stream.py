@@ -17,6 +17,7 @@ from lxml import etree
 
 from .coverage import model_tokens
 from .language_variants import base_refid, eli_for_refid, language_variants
+from .markers import markers_in
 
 INLINE_TAGS = frozenset({"a", "b", "em", "i", "s", "small", "span", "strong", "sub", "sup", "u"})
 SEPARATED_CLASSES = frozenset({
@@ -35,33 +36,50 @@ def _is_inline(element) -> bool:
     return element.tag in INLINE_TAGS and not SEPARATED_CLASSES.intersection((element.get("class") or "").split())
 
 
-HEADING_MARKERS = (
-    ".//*[contains(concat(' ', normalize-space(@class), ' '), ' legalArticleHeader ')"
-    " or contains(concat(' ', normalize-space(@class), ' '), ' futureLegalArticleHeader ')]"
-    "//sup[@class='footnotereference']"
-    "[not(ancestor::span[@class='legalArticleValue' or @class='legalArticleTitle'])]"
-)
-
-
-def _collect(element, parts: list, skipped=frozenset()) -> None:
-    if element in skipped:
-        return
+def _collect(element, parts: list) -> None:
     separated = not _is_inline(element)
     if separated:
         parts.append(" ")
     parts.append(element.text or "")
     for child in element:
         if isinstance(child.tag, str):
-            _collect(child, parts, skipped)
+            _collect(child, parts)
         parts.append(child.tail or "")
     if separated:
         parts.append(" ")
 
 
-def element_text(element, skipped=frozenset()) -> str:
+def element_text(element) -> str:
     parts = []
-    _collect(element, parts, skipped)
+    _collect(element, parts)
     return _squash("".join(parts))
+
+
+def _source_markers(body) -> list:
+    found = []
+    for element in body.iter("sup", "span"):
+        classes = (element.get("class") or "").split()
+        label = _squash("".join(element.itertext()))
+        if element.tag == "sup" and "footnotereference" in classes:
+            found.append(("reference", element.get("data-unique-footnote-counter") or "", label))
+        elif element.tag == "span" and "footnoteLabel" in classes:
+            owner = next((a for a in element.iterancestors("article") if a.get("class") == "footnote"), None)
+            if owner is not None:
+                found.append(("note", owner.get("data-unique-footnote-counter") or "", label))
+    return found
+
+
+def _model_markers(value, found: list) -> list:
+    if isinstance(value, str):
+        found.extend(markers_in(value))
+    elif isinstance(value, dict):
+        for key, child in value.items():
+            if key != "source_body":
+                _model_markers(child, found)
+    elif isinstance(value, list):
+        for child in value:
+            _model_markers(child, found)
+    return found
 
 
 def read_document(raw: bytes) -> dict:
@@ -93,7 +111,8 @@ def read_document(raw: bytes) -> dict:
         "last_amended": changed_by[0] if changed_by else "",
         "last_amended_in_force": paired.group(1) if paired else text("lastChangeInForce"),
         "legal_area": items("legalArea"),
-        "body_text": element_text(body, frozenset(body.xpath(HEADING_MARKERS))) if body is not None else "",
+        "body_text": element_text(body) if body is not None else "",
+        "markers": _source_markers(body) if body is not None else [],
     }
 
 
@@ -161,6 +180,8 @@ def compare_document(raw: bytes, law: dict) -> dict:
     allowed = _marker_words(law, set())
     novel = Counter({word: count for word, count in model_words.items()
                      if word not in source_words and word not in allowed})
+    source_markers = Counter(source["markers"])
+    model_markers = Counter(_model_markers(law, []))
     return {
         "refid": source["refid"],
         "language": source["language"],
@@ -168,6 +189,9 @@ def compare_document(raw: bytes, law: dict) -> dict:
         "header": header,
         "lost": source_words - model_words,
         "novel": novel,
+        "markers": len(source["markers"]),
+        "markers_missing": source_markers - model_markers,
+        "markers_extra": model_markers - source_markers,
     }
 
 
@@ -215,6 +239,10 @@ def compare_snapshot(snapshot: str = "snapshot") -> dict:
                     "lost_top": result["lost"].most_common(8),
                     "novel": sum(result["novel"].values()),
                     "novel_top": result["novel"].most_common(8),
+                    "markers": result["markers"],
+                    "markers_missing": sum(result["markers_missing"].values()),
+                    "markers_extra": sum(result["markers_extra"].values()),
+                    "markers_top": [list(key) for key, _ in (result["markers_missing"] + result["markers_extra"]).most_common(4)],
                 })
     variant_structure = []
     for (role, refid, member_path), raw in sorted(variant_raw.items()):
@@ -224,6 +252,8 @@ def compare_snapshot(snapshot: str = "snapshot") -> dict:
     total = sum(row["source_words"] for row in rows)
     return {
         "variant_structure": variant_structure,
+        "markers": sum(row["markers"] for row in rows),
+        "marker_differences": sum(row["markers_missing"] + row["markers_extra"] for row in rows),
         "documents": len(rows),
         "source_words": total,
         "header_mismatches": sum(len(row["header"]) for row in rows),
@@ -247,6 +277,7 @@ def main():
     ap.add_argument("--max-document-words", type=int, default=150)
     ap.add_argument("--max-unpublished", type=int, default=0)
     ap.add_argument("--max-variant-structure-differences", type=int, default=0)
+    ap.add_argument("--max-marker-differences", type=int, default=0)
     ap.add_argument("--report-only", action="store_true")
     args = ap.parse_args()
 
@@ -285,6 +316,13 @@ def main():
     for item in report["variant_structure"]:
         print(f"    VARIANT {item['member_path']} ({item['refid']}): structure nodes {item['nodes']} "
               f"differences {len(item['differences'])} {item['differences'][:3]}")
+    print(f"    footnote markers: {report['markers']} in source, {report['marker_differences']} differences")
+    for row in report["rows"]:
+        if row["markers_missing"] or row["markers_extra"]:
+            print(f"    MARKERS {row['refid']}: missing {row['markers_missing']} extra {row['markers_extra']} {row['markers_top']}")
+    if report["marker_differences"] > args.max_marker_differences:
+        print(f"  FAIL: {report['marker_differences']} footnote marker differences > {args.max_marker_differences}")
+        ok = False
     misaligned = sum(len(item["differences"]) for item in report["variant_structure"])
     if misaligned > args.max_variant_structure_differences:
         print(f"  FAIL: language variants differ in structure at {misaligned} positions > {args.max_variant_structure_differences}")

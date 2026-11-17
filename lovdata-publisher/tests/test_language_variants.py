@@ -81,3 +81,16 @@ def test_variant_bytes_must_match_the_member_inventory(tmp_path):
 def test_identifiers_accept_the_variant_suffix():
     assert lovdata_code("lov/1814-05-17-nn") == "LOV-1814-05-17"
     assert _corpus_path("lover/lov-1814-05-17-nn.md") == ("laws", "lov/1814-05-17-nn")
+
+
+def test_reader_page_links_markers_and_keeps_heading_ids():
+    from lovdata_publisher.per_law_pages import build_toc_html, render_markdown_body
+    body = ('#### § 5.<sup data-fn="1">1</sup> (skade)\n\nTekst<sup data-fn="1">1</sup> her.\n\n'
+            '*<sup data-fn-note="1">1</sup> Jf. direktiv.*\n')
+    html = render_markdown_body(body)
+    clean = render_markdown_body("#### § 5. (skade)\n")
+    assert 'id="5-skade"' in html and 'id="5-skade"' in clean
+    assert html.count('<sup class="fotnoteref"><a href="#fotnote_1"') == 2 and html.count('id="fotnoteref_1"') == 1
+    assert '<a class="fotnote-nummer" href="#fotnoteref_1" id="fotnote_1">1</a>' in html
+    assert "" not in html
+    assert ">§ 5. (skade)<" in build_toc_html(html)

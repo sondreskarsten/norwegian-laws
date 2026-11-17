@@ -135,13 +135,29 @@ code with `parser.py`, and compares the result with the snapshot model:
 header fields (title, short title, ministries, dates, last amending act, legal
 area, and the ELI derived from the refid against Lovdata's own `eli` field),
 source words missing from the model, and model words that occur nowhere in the
-source. Footnote markers that sit on a paragraph heading outside its number and
-title are Lovdata's editorial apparatus; the parser does not carry them and the
-comparison does not count them. Block elements separate words; inline markup, including
+source. Every footnote reference and footnote label in the source must also be
+present in the model with the same counter and printed label. Block elements separate words; inline markup, including
 subscripts and superscripts, does not. The deploy workflow fails on any header
 mismatch, on a corpus-wide word difference above the stated fractions, on a
 single document differing by more than 150 words, and on parsed source members
 that are not published. `--output` writes the per-document report.
+
+## Footnote markers
+
+Lovdata prints a footnote reference as a superscript where it occurs, in
+headings as well as in body text, and the note under the paragraph or chapter.
+Each has a counter that is unique within the document; lovdata.no uses it for
+its `fotnote_N` anchors. The parser keeps both in place as tokens in the model
+text (`lovdata_loader/markers.py`):
+
+    <sup data-fn="15">1</sup>        a reference to note 15, printed as 1
+    <sup data-fn-note="15">1</sup>   the label that opens note 15
+
+The Markdown files carry the tokens as written. The reader pages turn them
+into links between reference and note with lovdata.no's ids, and leave them
+out of the table of contents and heading anchors. The corpus index reads
+headings without them and body text with the bare label. `plain_text`,
+`strip_markers` and `markers_in` are the helpers for consumers.
 
 ## Language variants
 

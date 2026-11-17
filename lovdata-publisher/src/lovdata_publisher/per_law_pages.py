@@ -14,6 +14,7 @@ import os
 import re
 from html.parser import HTMLParser
 from pathlib import Path
+from lovdata_loader.markers import MARKER
 from .legacy_versions import LEGACY_VERSION_REFS, supported_version_tags
 
 try:
@@ -195,6 +196,7 @@ def build_toc_html(body_html: str) -> str:
     items = []
     for level, anchor, inner in _HEADING_RE.findall(body_html):
         text = re.sub(r"<a class=\"para-history\".*?</a>", "", inner, flags=re.S)
+        text = re.sub(r"<sup class=\"fotnoteref\">.*?</sup>", "", text, flags=re.S)
         text = re.sub(r"<[^>]+>", "", text).strip()
         if not text:
             continue
@@ -349,7 +351,27 @@ def render_markdown_body(body: str) -> str:
         body_html = re.sub(r"^# (.+)$", r"<h1>\1</h1>", body_html, flags=re.MULTILINE)
         body_html = re.sub(r"\*([^*]+)\*", r"<em>\1</em>", body_html)
         return body_html
-    return md.markdown(body, extensions=["extra", "toc"])
+    found = []
+
+    def hold(match):
+        found.append(match)
+        return chr(0xE000 + len(found) - 1)
+
+    held = MARKER.sub(hold, body)
+    if len(found) > 0x1900:
+        return md.markdown(body, extensions=["extra", "toc"])
+    html_body = md.markdown(held, extensions=["extra", "toc"])
+    anchored = set()
+
+    def release(match):
+        kind, counter, label = found[ord(match.group(0)) - 0xE000].groups()
+        if kind:
+            return f'<a class="fotnote-nummer" href="#fotnoteref_{counter}" id="fotnote_{counter}">{label}</a>'
+        identity = "" if counter in anchored else f' id="fotnoteref_{counter}"'
+        anchored.add(counter)
+        return f'<sup class="fotnoteref"><a href="#fotnote_{counter}"{identity}>{label}</a></sup>'
+
+    return re.sub("[\ue000-\uf8ff]", release, html_body)
 
 
 def inject_paragraph_history_links(body_html: str, law_stem: str, amended_paragraphs: set[str]) -> str:
