@@ -11,7 +11,7 @@ import re
 import sqlite3
 
 from .site_index import SiteIndex
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -276,10 +276,14 @@ def generate_stats_page(
           AND refid IN (SELECT DISTINCT act_refid FROM amendments)
         GROUP BY ministry
         ORDER BY n DESC
-        LIMIT 20
         """
     ).fetchall()
-    ministry_data = [(r["ministry"], r["n"]) for r in ministry_rows]
+    ministry_counts = Counter()
+    for r in ministry_rows:
+        for ministry in r["ministry"].split("\n"):
+            if ministry:
+                ministry_counts[ministry] += r["n"]
+    ministry_data = sorted(ministry_counts.items(), key=lambda item: (-item[1], item[0]))[:20]
 
     # Latest 20 amendments
     latest_rows_db = conn.execute(
@@ -327,7 +331,7 @@ def generate_stats_page(
             f'<td>{html.escape(r["date_published"][:10] if r["date_published"] else "")}</td>'
             f'<td>{html.escape(title[:80])}</td>'
             f'<td>{", ".join(target_links) or "<span class=\"muted\">—</span>"}</td>'
-            f'<td class="muted">{html.escape(r["ministry"] or "—")}</td>'
+            f'<td class="muted">{html.escape((r["ministry"] or "—").replace(chr(10), ", "))}</td>'
             f'</tr>'
         )
 

@@ -11,6 +11,7 @@ from datetime import datetime
 
 from bs4 import BeautifulSoup, CData, NavigableString, Tag
 
+from . import markers
 from .models import (
     Amendment,
     AmendmentActData,
@@ -31,7 +32,18 @@ from .models import (
 
 
 def _is_script(tag) -> bool:
-    return tag.name in ("sub", "sup") and "footnotereference" not in (tag.get("class") or [])
+    return tag.name in ("sub", "sup")
+
+
+def _marker(tag) -> str:
+    classes = tag.get("class") or []
+    if tag.name == "sup" and "footnotereference" in classes:
+        return markers.reference(tag.get("data-unique-footnote-counter", ""), re.sub(r"\s+", " ", tag.get_text()).strip())
+    if tag.name == "span" and "footnoteLabel" in classes:
+        owner = tag.find_parent("article", class_="footnote")
+        if owner is not None:
+            return markers.note(owner.get("data-unique-footnote-counter", ""), re.sub(r"\s+", " ", tag.get_text()).strip())
+    return ""
 
 
 def _script_parent(node, root: Tag):
@@ -61,9 +73,20 @@ def _text(el: Tag) -> str:
 
     Subscripts and superscripts stay attached to their word: CO<sub>2</sub> is CO2.
     """
+    if _marker(el):
+        return _marker(el)
     parts = []
+    inside = set()
     for node in el.descendants:
-        if type(node) not in (NavigableString, CData):
+        if isinstance(node, Tag):
+            token = _marker(node)
+            if token:
+                inside.update(id(child) for child in node.descendants)
+                if parts and not _is_script(node):
+                    parts.append(" ")
+                parts.append(token)
+            continue
+        if type(node) not in (NavigableString, CData) or id(node) in inside:
             continue
         if parts and not _joins_previous(node, el):
             parts.append(" ")
@@ -74,11 +97,15 @@ def _text(el: Tag) -> str:
 def _inline_text(el: Tag) -> str:
     """Text of a heading or header field without joining words across inline tags."""
     parts = []
+    inside = set()
     for node in el.descendants:
         if isinstance(node, Tag):
-            if node.name == "br" or "footnotereference" in (node.get("class") or []):
+            if node.name == "br":
                 parts.append(" ")
-        elif type(node) in (NavigableString, CData):
+            elif _marker(node):
+                inside.update(id(child) for child in node.descendants)
+                parts.append(_marker(node))
+        elif type(node) in (NavigableString, CData) and id(node) not in inside:
             parts.append(str(node))
     return re.sub(r'[ \t\n\r\f\v]+', ' ', "".join(parts)).strip()
 
@@ -397,8 +424,22 @@ def parse_article(article_tag: Tag) -> Article:
         value = article_header.find("span", class_="legalArticleValue")
         title_span = article_header.find("span", class_="legalArticleTitle")
         header_text = _inline_text(value) if value else ""
-        if title_span:
-            header_text += f". {_inline_text(title_span)}"
+        before, after = "", ""
+        seen_title = False
+        for child in article_header.children:
+            if child is title_span:
+                seen_title = True
+            elif isinstance(child, Tag) and child is not value and _marker(child):
+                if title_span is not None and not seen_title:
+                    before += _marker(child)
+                else:
+                    after += _marker(child)
+        if before or (after and not title_span):
+            header_text += "." + before + (after if not title_span else "")
+            if title_span:
+                header_text += f" {_inline_text(title_span)}" + after
+        elif title_span:
+            header_text += f". {_inline_text(title_span)}" + after
 
     paragraphs = []
     trailing_parts = []
@@ -1210,7 +1251,7 @@ def parse_lovtidend_file(content: bytes | str, filename: str) -> AmendmentActDat
         short_title=extract_header_text(header, "titleShort"),
         date_in_force=extract_header_field(header, "dateInForce"),
         date_published=extract_header_field(header, "dateOfPublication"),
-        ministry=extract_header_field(header, "ministry"),
+        ministry="\n".join(extract_header_list(header, "ministry")),
         changes_to=changes_to,
         amendments=amendments,
         misc_info=extract_header_field(header, "miscInformation"),

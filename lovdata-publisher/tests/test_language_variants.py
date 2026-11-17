@@ -38,7 +38,7 @@ def test_variant_is_read_back_and_published_under_its_own_refid(tmp_path):
     nynorsk = (tmp_path / "out" / "lover" / "lov-1814-05-17-nn.md").read_text(encoding="utf-8")
     bokmal = (tmp_path / "out" / "lover" / "lov-1814-05-17.md").read_text(encoding="utf-8")
     assert 'refid: "lov/1814-05-17-nn"' in nynorsk and "Kongeriket Noregs grunnlov" in nynorsk
-    assert 'eli: "/eli/lov/1814/05/17"' in nynorsk and 'eli: "/eli/lov/1814/05/17"' in bokmal
+    assert 'eli: "/eli/lov/1814/05/17/0"' in nynorsk and 'eli: "/eli/lov/1814/05/17/0"' in bokmal
     assert sorted(path.name for path in root.rglob("*") if path.is_file()) == before
 
     format_all_laws(str(root), str(tmp_path / "out"))
@@ -81,3 +81,22 @@ def test_variant_bytes_must_match_the_member_inventory(tmp_path):
 def test_identifiers_accept_the_variant_suffix():
     assert lovdata_code("lov/1814-05-17-nn") == "LOV-1814-05-17"
     assert _corpus_path("lover/lov-1814-05-17-nn.md") == ("laws", "lov/1814-05-17-nn")
+
+
+def test_reader_page_links_markers_and_keeps_heading_ids():
+    from lovdata_publisher.per_law_pages import build_toc_html, render_markdown_body
+    body = ('#### § 5.<sup data-fn="1">1</sup> (skade)\n\nTekst<sup data-fn="1">1</sup> her.\n\n'
+            '*<sup data-fn-note="1">1</sup> Jf. direktiv.*\n')
+    html = render_markdown_body(body)
+    clean = render_markdown_body("#### § 5. (skade)\n")
+    assert 'id="5-skade"' in html and 'id="5-skade"' in clean
+    assert html.count('<sup class="fotnoteref"><a href="#fotnote_1"') == 2 and html.count('id="fotnoteref_1"') == 1
+    assert '<a class="fotnote-nummer" href="#fotnoteref_1" id="fotnote_1">1</a>' in html
+    assert "" not in html
+    assert ">§ 5. (skade)<" in build_toc_html(html)
+
+
+def test_marker_survives_html_escaping_in_literal_lists():
+    from lovdata_publisher.formatter import _escape_keeping_markers
+    text = 'direktiv 91/321/EØF ,<sup data-fn="40">1</sup> & <b>'
+    assert _escape_keeping_markers(text) == 'direktiv 91/321/EØF ,<sup data-fn="40">1</sup> &amp; &lt;b&gt;'

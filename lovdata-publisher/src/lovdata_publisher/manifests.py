@@ -230,7 +230,7 @@ _ACTS_SCHEMA = {
         },
         "title": {"type": "string", "description": "Full official title."},
         "short_title": {"type": ["string", "null"], "description": "Shorter title for display, often Norwegian abbreviation."},
-        "ministry": {"type": ["string", "null"], "description": "Norwegian ministry that proposed the act."},
+        "ministry": {"type": ["string", "null"], "description": "Norwegian ministry that proposed the act; several ministries are separated by a newline."},
         "date_published": {
             "type": "string",
             "format": "date",

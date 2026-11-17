@@ -12,7 +12,8 @@ import json
 import re
 from pathlib import Path
 
-from lovdata_loader.language_variants import base_refid, language_variants
+from lovdata_loader.language_variants import eli_for_refid, language_variants
+from lovdata_loader.markers import MARKER
 from lovdata_loader.models import (
     ROOT_CONTENT_FIELDS, SECTION_CONTENT_FIELDS, validate_content_order,
 )
@@ -60,6 +61,17 @@ def _paragraph_blocks(para: dict) -> list[dict]:
     return blocks
 
 
+def _escape_keeping_markers(text: str) -> str:
+    parts = []
+    position = 0
+    for match in MARKER.finditer(text):
+        parts.append(html.escape(text[position:match.start()]))
+        parts.append(match.group(0))
+        position = match.end()
+    parts.append(html.escape(text[position:]))
+    return "".join(parts)
+
+
 def _semantic_list_html(items: list) -> str:
     """Render legal labels literally; Markdown cannot express A./I./1. nesting.
 
@@ -79,7 +91,7 @@ def _semantic_list_html(items: list) -> str:
         for para in item.get("paragraphs", []):
             for block in _paragraph_blocks(para):
                 if block["kind"] == "text":
-                    lines.append('<p style="margin:0 0 .3em">' + html.escape(block["text"]) + '</p>')
+                    lines.append('<p style="margin:0 0 .3em">' + _escape_keeping_markers(block["text"]) + '</p>')
                 elif block["kind"] == "list":
                     lines.append(_semantic_list_html(block["list_items"]))
                 else:
@@ -218,7 +230,7 @@ def format_law_markdown(law: dict) -> str:
     if law.get("short_title"):
         lines.append(f"korttittel: \"{law['short_title']}\"")
     lines.append(f"refid: \"{law['refid']}\"")
-    eli = "/eli/" + base_refid(law["refid"]).replace("-", "/", 3)
+    eli = eli_for_refid(law["refid"])
     lines.append(f"eli: \"{eli}\"")
     ministry = law.get("ministry", "").replace("\n", "\\n")
     lines.append(f"departement: \"{ministry}\"")

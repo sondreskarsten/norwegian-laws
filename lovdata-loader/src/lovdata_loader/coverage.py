@@ -12,6 +12,7 @@ from dataclasses import asdict
 
 from bs4 import BeautifulSoup
 
+from .markers import plain_text
 from .parser import parse_law, _text
 from .audit import audit_law_lists
 
@@ -19,7 +20,7 @@ _WORD = re.compile(r"\w+", re.UNICODE)
 
 
 def _tokens(s: str) -> Counter:
-    return Counter(w.lower() for w in _WORD.findall(s or ""))
+    return Counter(w.lower() for w in _WORD.findall(plain_text(s)))
 
 
 def model_tokens(law: dict) -> Counter:

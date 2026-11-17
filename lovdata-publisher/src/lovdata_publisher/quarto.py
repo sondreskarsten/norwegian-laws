@@ -11,6 +11,7 @@ import sqlite3
 import yaml
 from pathlib import Path
 from collections import defaultdict
+from lovdata_loader.language_variants import eli_for_refid
 from .legacy_versions import LEGACY_VERSION_REFS, supported_version_tags
 
 GITHUB_BASE = "https://github.com/sondreskarsten/norwegian-laws"
@@ -256,7 +257,7 @@ def generate_laws_json(lover_dir: str, output_path: str, version_tags: list[str]
             laws.append({
                 "file": f.name,
                 "refid": refid,
-                "eli": "/eli/" + refid.removesuffix("-nn").replace("-", "/", 3),
+                "eli": eli_for_refid(refid),
                 "tittel": meta.get("tittel", ""),
                 "korttittel": meta.get("korttittel", ""),
                 "aliases": LAW_ALIASES.get(refid, []),

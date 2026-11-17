@@ -128,7 +128,7 @@ def _atom_entry(act: dict, anchor_refid: str, paragraph_anchors: dict[str, str] 
     if act.get("date_in_force"):
         summary_lines.append(f"Ikrafttredelse: {act['date_in_force']}")
     if act.get("ministry"):
-        summary_lines.append(f"Departement: {act['ministry']}")
+        summary_lines.append("Departement: " + act["ministry"].replace("\n", ", "))
     if act.get("changes_to"):
         summary_lines.append(f"Endrer: {act['changes_to']}")
     if act.get("journal_number"):

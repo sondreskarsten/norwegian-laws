@@ -19,7 +19,7 @@ DOCUMENT = """<?xml version="1.0" encoding="utf-8"?>
 <section class="section" data-name="kapI"><h2>Kapittel 1<br/>Avgift etter <a href="lov/1996-11-29-72">petroleumsloven</a> § 4 annet ledd</h2>
 <article class="legalArticle" data-name="§1"><h3 class="legalArticleHeader"><span class="legalArticleValue">§ 1</span>. <span class="legalArticleTitle">Utslipp av CO<sub>2</sub> og NO<sub>X</sub> for anlegg</span></h3>
 <article class="legalP">Avgiften gjelder CO<sub>2</sub> og CO<sub>2</sub>-ekvivalenter på 10<sup>6</sup> m<sup>3</sup>, jf. <a href="lov/1996-11-29-72/§4">§ 4</a>.</article>
-<article class="legalP">Departementet<sup class="footnotereference">1</sup> gir forskrift.
+<article class="legalP">Departementet<sup class="footnotereference" data-unique-footnote-counter="7">1</sup> gir forskrift.
 <table><tbody><tr><td>SO<sub>2</sub></td><td>Molekylvekt</td></tr></tbody></table></article>
 </article></section></main></body></html>""".encode("utf-8")
 
@@ -46,7 +46,7 @@ def test_headings_do_not_join_words_across_inline_markup():
 def test_subscripts_stay_attached_and_do_not_cross_table_cells():
     paragraphs = parse_law(DOCUMENT).sections[0].articles[0].paragraphs
     assert paragraphs[0].text.startswith("Avgiften gjelder CO2 og CO2-ekvivalenter på 106 m3, jf.")
-    assert "Departementet 1 gir forskrift." in paragraphs[1].text
+    assert 'Departementet<sup data-fn="7">1</sup> gir forskrift.' in paragraphs[1].text
     assert "SO2 Molekylvekt" in paragraphs[1].text
 
 
@@ -72,3 +72,70 @@ def test_read_document_separates_blocks_but_not_inline_markup():
     assert "CO2-ekvivalenter på 106 m3" in source["body_text"]
     assert "SO2 Molekylvekt" in source["body_text"]
     assert "Departementet 1 gir" in source["body_text"]
+
+
+def test_eli_follows_lovdatas_padding_and_placeholder():
+    from lovdata_loader.language_variants import eli_for_refid
+    assert eli_for_refid("lov/1998-07-17-56") == "/eli/lov/1998/07/17/56"
+    assert eli_for_refid("lov/1884-06-14-3") == "/eli/lov/1884/06/14/03"
+    assert eli_for_refid("forskrift/1957-06-07-3391") == "/eli/forskrift/1957/06/07/3391"
+    assert eli_for_refid("lov/1687-04-15") == "/eli/lov/1687/04/15/0"
+    assert eli_for_refid("lov/1814-05-17-nn") == "/eli/lov/1814/05/17/0"
+
+
+def test_second_stream_compares_the_source_eli():
+    with_eli = DOCUMENT.replace(b'<dt class="refid">', b'<dt class="eli">ELI</dt><dd class="eli">/eli/lov/1990/12/21/72</dd><dt class="refid">')
+    assert compare_document(with_eli, asdict(parse_law(with_eli)))["header"] == {}
+    wrong = with_eli.replace(b"/eli/lov/1990/12/21/72", b"/eli/lov/1990/12/21/072")
+    assert set(compare_document(wrong, asdict(parse_law(wrong)))["header"]) == {"eli"}
+
+
+def _with_heading_marker(before: bytes, after: bytes) -> bytes:
+    marker = b'<sup class="footnotereference" data-unique-footnote-counter="9">1</sup>'
+    footer = (b'<footer class="footnotes"><article class="footnote" data-name="1" data-unique-footnote-counter="9">'
+              b'<span class="footnoteLabel">1</span> Jf. direktiv 2009/103.</article></footer></article></section>')
+    marked = DOCUMENT.replace(before, after.replace(b"MARKER", marker)).replace(b"</article></section>", footer)
+    assert marked != DOCUMENT
+    return marked
+
+
+def test_footnote_marker_keeps_its_place_in_a_heading():
+    between = _with_heading_marker(b'<span class="legalArticleValue">\xc2\xa7 1</span>. ',
+                                   b'<span class="legalArticleValue">\xc2\xa7 1</span>.MARKER ')
+    article = parse_law(between).sections[0].articles[0]
+    assert article.header_text == '§ 1.<sup data-fn="9">1</sup> Utslipp av CO2 og NOX for anlegg'
+    assert '<sup data-fn-note="9">1</sup> Jf. direktiv 2009/103.' in article.trailing_text
+    result = compare_document(between, asdict(parse_law(between)))
+    assert not result["lost"] and not result["novel"]
+    assert result["markers"] == 3 and not result["markers_missing"] and not result["markers_extra"]
+
+    after = _with_heading_marker(b'for anlegg</span></h3>', b'for anlegg</span>MARKER</h3>')
+    assert parse_law(after).sections[0].articles[0].header_text == '§ 1. Utslipp av CO2 og NOX for anlegg<sup data-fn="9">1</sup>'
+
+
+def test_second_stream_reports_a_dropped_marker():
+    marked = _with_heading_marker(b'for anlegg</span></h3>', b'for anlegg</span>MARKER</h3>')
+    law = asdict(parse_law(marked))
+    law["sections"][0]["articles"][0]["header_text"] = "§ 1. Utslipp av CO2 og NOX for anlegg"
+    result = compare_document(marked, law)
+    assert dict(result["markers_missing"]) == {("reference", "9", "1"): 1}
+
+
+def test_marker_helpers():
+    from lovdata_loader.markers import markers_in, plain_text, strip_markers
+    text = 'Art 3.<sup data-fn="15">1</sup> og <sup data-fn-note="15">1</sup> Sml. traktaten'
+    assert plain_text(text).split() == ["Art", "3.", "1", "og", "1", "Sml.", "traktaten"]
+    assert strip_markers('Art 3.<sup data-fn="15">1</sup>') == "Art 3."
+    assert markers_in(text) == [("reference", "15", "1"), ("note", "15", "1")]
+
+
+def test_amendment_act_keeps_every_ministry():
+    from lovdata_loader.parser import parse_lovtidend_file
+    act = """<html><head><title>t</title></head><body><header><dl>
+<dt class="refid">RefID</dt><dd class="refid">forskrift/2020-01-01-1</dd>
+<dt class="title">Tittel</dt><dd class="title">Forskrift om endring i forskrift om CO<sub>2</sub> og fisk</dd>
+<dt class="ministry">Departement</dt><dd class="ministry"><ul><li>Fiskeridepartementet</li><li>Landbruksdepartementet</li></ul></dd>
+<dt class="dateOfPublication">Kunngjort</dt><dd class="dateOfPublication">2020-01-02 10:00</dd>
+</dl></header><main class="documentBody"><h1>Forskrift</h1></main></body></html>"""
+    record = parse_lovtidend_file(act, "sf-20200101-0001.xml")
+    assert record.ministry == "Fiskeridepartementet\nLandbruksdepartementet"

@@ -33,6 +33,8 @@ import sqlite3
 import sys
 from pathlib import Path
 
+from lovdata_loader.markers import plain_text, strip_markers
+
 SCHEMA_VERSION = 1
 CONTENT_TABLES = ("documents", "nodes", "node_text", "acts", "amendments", "refs", "definitions")
 
@@ -93,7 +95,7 @@ def parse_front_matter(text: str) -> tuple[dict, int]:
 
 def parse_nodes(refid: str, text: str) -> list[dict]:
     """Chapter, section, ledd and item nodes of one Markdown document."""
-    lines = text.split("\n")
+    lines = [strip_markers(line) if line.startswith("#") else plain_text(line) for line in text.split("\n")]
     nodes: list[dict] = []
     chapter = None
     section = None
