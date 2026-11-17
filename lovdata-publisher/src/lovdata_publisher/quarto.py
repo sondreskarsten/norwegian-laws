@@ -256,7 +256,7 @@ def generate_laws_json(lover_dir: str, output_path: str, version_tags: list[str]
             laws.append({
                 "file": f.name,
                 "refid": refid,
-                "eli": "/eli/" + refid.replace("-", "/", 3),
+                "eli": "/eli/" + refid.removesuffix("-nn").replace("-", "/", 3),
                 "tittel": meta.get("tittel", ""),
                 "korttittel": meta.get("korttittel", ""),
                 "aliases": LAW_ALIASES.get(refid, []),

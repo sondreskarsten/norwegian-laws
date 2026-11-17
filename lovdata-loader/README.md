@@ -138,8 +138,19 @@ in the source. Block elements separate words; inline markup, including
 subscripts and superscripts, does not. The deploy workflow fails on any header
 mismatch, on a corpus-wide word difference above the stated fractions, on a
 single document differing by more than 150 words, and on parsed source members
-that are not published beyond the one known case (the nynorsk Grunnlov shares
-its refid with the bokmål text). `--output` writes the per-document report.
+that are not published. `--output` writes the per-document report.
+
+## Language variants
+
+The consolidated archive holds the Grunnlov twice under refid
+`lov/1814-05-17`: bokmål and nynorsk (`nl-18140517-000-nn.xml`). The snapshot
+selects one document per refid, so the nynorsk text stays in the member
+inventory only. `lovdata_loader.language_variants` reads such a member from the
+snapshot's raw archive, checks its bytes and parsed-model hash against the
+inventory, and returns it as `lov/1814-05-17-nn`, the identifier lovdata.no
+uses. The publisher writes it as `lover/lov-1814-05-17-nn.md` and the second
+stream compares it. The snapshot, its evidence contract and the history
+ledger are unchanged; amendment records remain under `lov/1814-05-17`.
 
 The completeness gate in `coverage.py` reads the source with the parser's own
 text helper, so it cannot see a defect in that helper; this stream can. It

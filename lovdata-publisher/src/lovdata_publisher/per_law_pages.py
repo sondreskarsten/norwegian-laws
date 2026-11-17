@@ -174,7 +174,7 @@ def format_no_date(value: str) -> str:
 
 def lovdata_code(refid: str) -> str:
     """Lovdata's document code: lov/1998-07-17-56 -> LOV-1998-07-17-56, forskrift/... -> FOR-..."""
-    m = re.match(r"^(lov|forskrift)/(\d{4}-\d{2}-\d{2}(?:-\d+)?)$", refid or "")
+    m = re.match(r"^(lov|forskrift)/(\d{4}-\d{2}-\d{2}(?:-\d+)?)(?:-nn)?$", refid or "")
     if not m:
         return refid or ""
     return ("LOV" if m.group(1) == "lov" else "FOR") + "-" + m.group(2)

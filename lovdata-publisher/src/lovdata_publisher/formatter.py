@@ -12,6 +12,7 @@ import json
 import re
 from pathlib import Path
 
+from lovdata_loader.language_variants import base_refid, language_variants
 from lovdata_loader.models import (
     ROOT_CONTENT_FIELDS, SECTION_CONTENT_FIELDS, validate_content_order,
 )
@@ -217,7 +218,7 @@ def format_law_markdown(law: dict) -> str:
     if law.get("short_title"):
         lines.append(f"korttittel: \"{law['short_title']}\"")
     lines.append(f"refid: \"{law['refid']}\"")
-    eli = "/eli/" + law["refid"].replace("-", "/", 3)
+    eli = "/eli/" + base_refid(law["refid"]).replace("-", "/", 3)
     lines.append(f"eli: \"{eli}\"")
     ministry = law.get("ministry", "").replace("\n", "\\n")
     lines.append(f"departement: \"{ministry}\"")
@@ -305,6 +306,9 @@ def format_all_laws(snapshot_dir: str, output_dir: str, *,
                 prepared.append((data["refid"], refid_to_filepath(data["refid"]), format_law_markdown(data)))
             except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
                 raise ValueError(f"Invalid snapshot document {path}: {exc}") from exc
+    for variant in language_variants(snapshot_dir):
+        data = variant["document"]
+        prepared.append((data["refid"], refid_to_filepath(data["refid"]), format_law_markdown(data)))
 
     written = {filepath for _, filepath, _ in prepared}
     written_dirs = {fp.split("/", 1)[0] for fp in written}

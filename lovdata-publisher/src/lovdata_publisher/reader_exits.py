@@ -20,7 +20,7 @@ import tempfile
 SCHEMA = "reader-exit-capture-v1"
 ARCHIVE = "reader-exits"
 SOURCE_REPOSITORY = "sondreskarsten/norwegian-laws"
-_CORPUS = re.compile(r"(lover/lov-|forskrifter/forskrift-)(\d{4}-\d{2}-\d{2}(?:-\d+)?)\.md")
+_CORPUS = re.compile(r"(lover/lov-|forskrifter/forskrift-)(\d{4}-\d{2}-\d{2}(?:-\d+)?(?:-nn)?)\.md")
 _SHA256 = re.compile(r"[0-9a-f]{64}")
 _SHA1 = re.compile(r"[0-9a-f]{40}")
 _UNKNOWN = ("source_observation", "source_knowledge_time", "legal_repeal", "legal_effective_date")

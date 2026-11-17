@@ -16,6 +16,7 @@ from pathlib import Path
 from lxml import etree
 
 from .coverage import model_tokens
+from .language_variants import base_refid, language_variants
 
 INLINE_TAGS = frozenset({"a", "b", "em", "i", "s", "small", "span", "strong", "sub", "sup", "u"})
 SEPARATED_CLASSES = frozenset({
@@ -103,7 +104,7 @@ def _marker_words(value, found: set) -> set:
 def compare_document(raw: bytes, law: dict) -> dict:
     source = read_document(raw)
     expected = {
-        "refid": source["refid"],
+        "refid": law.get("refid") if source["language"] == "nn" and base_refid(law.get("refid") or "") == source["refid"] else source["refid"],
         "title": source["title"],
         "short_title": source["short_title"],
         "ministry": "\n".join(source["ministry"]),
@@ -144,6 +145,7 @@ def _documents(snapshot: Path) -> dict:
 def compare_snapshot(snapshot: str = "snapshot") -> dict:
     root = Path(snapshot)
     members = _documents(root)
+    variants = {item["member_path"]: item for item in language_variants(snapshot)}
     rows = []
     unpublished = []
     for archive_sha256 in sorted({key[0] for key in members}):
@@ -152,11 +154,14 @@ def compare_snapshot(snapshot: str = "snapshot") -> dict:
                 row = members.get((archive_sha256, member.name, ordinal))
                 if row is None:
                     continue
-                if not row["selected"]:
+                if not row["selected"] and member.name not in variants:
                     unpublished.append({"member_path": member.name, "refid": row["refid"]})
                     continue
                 raw = archive.extractfile(member).read()
-                law = json.loads((root / row["selected_output_path"]).read_text(encoding="utf-8"))
+                if row["selected"]:
+                    law = json.loads((root / row["selected_output_path"]).read_text(encoding="utf-8"))
+                else:
+                    law = variants[member.name]["document"]
                 result = compare_document(raw, law)
                 rows.append({
                     "member_path": member.name,
