@@ -219,7 +219,8 @@ def format_law_markdown(law: dict) -> str:
     lines.append(f"refid: \"{law['refid']}\"")
     eli = "/eli/" + law["refid"].replace("-", "/", 3)
     lines.append(f"eli: \"{eli}\"")
-    lines.append(f"departement: \"{law.get('ministry', '')}\"")
+    ministry = law.get("ministry", "").replace("\n", "\\n")
+    lines.append(f"departement: \"{ministry}\"")
     if law.get("legal_area"):
         # YAML double-quoted scalars need literal "\n" escape for embedded newlines
         legal_area = law["legal_area"].replace("\\", "\\\\").replace("\"", "\\\"").replace("\n", "\\n")
