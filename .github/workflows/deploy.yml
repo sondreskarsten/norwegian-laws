@@ -133,16 +133,16 @@ jobs:
             snapshot/gjeldende-sentrale-forskrifter.tar.bz2 \
             --mean 0.999 --min 0.50 --max-structural 5
 
-      # An lxml reading that shares no extraction code with the parser. One
-      # parsed member is allowed to be unpublished: the nynorsk Grunnlov, which
-      # shares its refid with the bokmål text.
+      # An lxml reading that shares no extraction code with the parser. The
+      # nynorsk Grunnlov shares its refid with the bokmål text; the publisher
+      # reads it from the raw archive and this gate compares it the same way.
       - name: Second-stream gate
         run: |
           python -m lovdata_loader.second_stream --snapshot snapshot \
             --output "$RUNNER_TEMP/second-stream.json" \
             --max-header-mismatches 0 --max-lost-fraction 0.0001 \
             --max-novel-fraction 0.00002 --max-document-words 150 \
-            --max-unpublished 1
+            --max-unpublished 0
 
       - name: Format laws and generate Quarto chapters
         id: format

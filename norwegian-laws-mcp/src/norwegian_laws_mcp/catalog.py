@@ -133,7 +133,7 @@ def entry_from_front_matter(path: str, meta: dict, removed: "Commit | None" = No
 def refid_to_path(ref: str) -> str | None:
     """'lov/1985-06-21-78' -> 'lover/lov-1985-06-21-78.md' when ref is a refid in any spelling."""
     key = normalize_refid(ref)
-    m = re.match(r"^(lov|forskrift)/(\d{4}-\d{2}-\d{2}(?:-\d+)?)$", key)
+    m = re.match(r"^(lov|forskrift)/(\d{4}-\d{2}-\d{2}(?:-\d+)?(?:-nn)?)$", key)
     if not m:
         return None
     folder = "lover" if m.group(1) == "lov" else "forskrifter"
@@ -184,7 +184,7 @@ def normalize_refid(ref: str) -> str:
     """'LOV-2005-06-17-62', '/eli/lov/2005/06/17/62' -> 'lov/2005-06-17-62'; other strings unchanged."""
     key = norm(ref)
     key = re.sub(r"^https?://lovdata\.no/dokument/[a-z]+/", "", key)
-    m = re.match(r"^(lov|forskrift)[-/ _](\d{4}-\d{2}-\d{2}(?:-\d+)?)$", key)
+    m = re.match(r"^(lov|forskrift)[-/ _](\d{4}-\d{2}-\d{2}(?:-\d+)?(?:-nn)?)$", key)
     if m:
         return f"{m.group(1)}/{m.group(2)}"
     m = re.match(r"^/?eli/(lov|forskrift)/(\d{4})/(\d{2})/(\d{2})(?:/(\d+))?$", key)
