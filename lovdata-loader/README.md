@@ -127,6 +127,24 @@ timestamps are intentionally fresh.
 The separately generated release receipt is allowed at the snapshot root and
 is not part of its own hashed evidence bundle.
 
+## Second stream
+
+`python -m lovdata_loader.second_stream --snapshot snapshot` reads every
+selected law and regulation a second time with lxml, sharing no extraction
+code with `parser.py`, and compares the result with the snapshot model:
+header fields (title, short title, ministries, dates, last amending act, legal
+area), source words missing from the model, and model words that occur nowhere
+in the source. Block elements separate words; inline markup, including
+subscripts and superscripts, does not. The deploy workflow fails on any header
+mismatch, on a corpus-wide word difference above the stated fractions, on a
+single document differing by more than 150 words, and on parsed source members
+that are not published beyond the one known case (the nynorsk Grunnlov shares
+its refid with the bokmål text). `--output` writes the per-document report.
+
+The completeness gate in `coverage.py` reads the source with the parser's own
+text helper, so it cannot see a defect in that helper; this stream can. It
+compares words, not structure or order.
+
 ## Instruction wording catalogue
 
 `lovdata_loader/instruction_catalog.json` lists every amendment instruction

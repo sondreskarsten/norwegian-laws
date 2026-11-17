@@ -91,6 +91,7 @@ def parse_frontmatter(filepath: str) -> dict:
 
 
 def split_departments(dept_str: str) -> list[str]:
+    dept_str = dept_str.replace("\\n", "|").replace("\n", "|")
     for known in sorted(KNOWN_DEPARTMENTS, key=len, reverse=True):
         dept_str = dept_str.replace(known, f"|{known}|")
     parts = [p.strip() for p in dept_str.split("|") if p.strip()]

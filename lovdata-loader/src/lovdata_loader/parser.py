@@ -9,7 +9,7 @@ import re
 import tarfile
 from datetime import datetime
 
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup, CData, NavigableString, Tag
 
 from .models import (
     Amendment,
@@ -30,9 +30,57 @@ from .models import (
 # ─── Header Field Extraction ────────────────────────────────────────────────
 
 
+def _is_script(tag) -> bool:
+    return tag.name in ("sub", "sup") and "footnotereference" not in (tag.get("class") or [])
+
+
+def _script_parent(node, root: Tag):
+    parent = node.parent
+    while parent is not None:
+        if _is_script(parent):
+            return parent
+        if parent is root:
+            return None
+        parent = parent.parent
+    return None
+
+
+def _joins_previous(node, root: Tag) -> bool:
+    previous = node.previous_sibling
+    if isinstance(previous, Tag) and _is_script(previous):
+        return True
+    script = _script_parent(node, root)
+    if script is None:
+        return False
+    before = previous if previous is not None else script.previous_sibling
+    return before is not None and not (isinstance(before, Tag) and before.name == "br")
+
+
 def _text(el: Tag) -> str:
-    """Extract text preserving spaces around inline elements like <a> tags."""
-    return re.sub(r'\s+', ' ', el.get_text(separator=" ")).strip()
+    """Extract text preserving spaces around inline elements like <a> tags.
+
+    Subscripts and superscripts stay attached to their word: CO<sub>2</sub> is CO2.
+    """
+    parts = []
+    for node in el.descendants:
+        if type(node) not in (NavigableString, CData):
+            continue
+        if parts and not _joins_previous(node, el):
+            parts.append(" ")
+        parts.append(str(node))
+    return re.sub(r'\s+', ' ', "".join(parts)).strip()
+
+
+def _inline_text(el: Tag) -> str:
+    """Text of a heading or header field without joining words across inline tags."""
+    parts = []
+    for node in el.descendants:
+        if isinstance(node, Tag):
+            if node.name == "br" or "footnotereference" in (node.get("class") or []):
+                parts.append(" ")
+        elif type(node) in (NavigableString, CData):
+            parts.append(str(node))
+    return re.sub(r'[ \t\n\r\f\v]+', ' ', "".join(parts)).strip()
 
 
 def extract_header_field(header: Tag, css_class: str) -> str:
@@ -41,6 +89,14 @@ def extract_header_field(header: Tag, css_class: str) -> str:
     if not dd:
         return ""
     return dd.get_text(strip=True)
+
+
+def extract_header_text(header: Tag, css_class: str) -> str:
+    """Extract a <dd> title keeping the spaces around inline markup."""
+    dd = header.find("dd", class_=css_class)
+    if not dd:
+        return ""
+    return _inline_text(dd)
 
 
 def extract_header_list(header: Tag, css_class: str) -> list[str]:
@@ -69,6 +125,8 @@ def extract_last_changed_by(header: Tag) -> tuple[str, str]:
             refid = anchor.get_text(strip=True)
             rest = ""
             for sibling in anchor.next_siblings:
+                if isinstance(sibling, Tag) and sibling.name == "a":
+                    break
                 t = str(sibling).strip()
                 if t:
                     rest += t
@@ -152,9 +210,9 @@ def _parse_law_metadata(soup: BeautifulSoup) -> dict:
         last_amended_in_force = extract_header_field(header, "lastChangeInForce")
     return {
         "refid": extract_header_field(header, "refid"),
-        "title": extract_header_field(header, "title"),
-        "short_title": extract_header_field(header, "titleShort"),
-        "ministry": extract_header_field(header, "ministry"),
+        "title": extract_header_text(header, "title"),
+        "short_title": extract_header_text(header, "titleShort"),
+        "ministry": "\n".join(extract_header_list(header, "ministry")),
         "date_in_force": extract_header_field(header, "dateInForce"),
         "last_amended": last_amended,
         "last_amended_in_force": last_amended_in_force,
@@ -272,6 +330,14 @@ def _parse_ledd(ledd: Tag) -> Paragraph:
             blocks.append(ParagraphBlock(kind="text", text=text))
         text_run.clear()
 
+    def add(parts, text, joined):
+        if joined and parts:
+            parts[-1] += text
+        else:
+            parts.append(text)
+
+    open_end = False
+    after_script = False
     for child in ledd.children:
         if isinstance(child, Tag) and child.name in ("ul", "ol"):
             parsed_items = _parse_list(child)
@@ -285,16 +351,25 @@ def _parse_ledd(ledd: Tag) -> Paragraph:
             if not items:
                 list_style = child.get("type", "") or ""
             items.extend(parsed_items)
+            open_end = False
+            after_script = False
         elif isinstance(child, Tag):
             text = _text(child)
-            (trailing_parts if items else text_parts).append(text)
+            joined = open_end and _is_script(child)
+            add(trailing_parts if items else text_parts, text, joined)
             if text:
-                text_run.append(text)
+                add(text_run, text, joined)
+            open_end = False
+            after_script = _is_script(child)
         else:
-            t = str(child).strip()
+            raw = str(child)
+            t = raw.strip()
             if t:
-                (trailing_parts if items else text_parts).append(t)
-                text_run.append(t)
+                joined = after_script and not raw[:1].isspace()
+                add(trailing_parts if items else text_parts, t, joined)
+                add(text_run, t, joined)
+            open_end = bool(raw) and not raw[-1:].isspace()
+            after_script = False
     if has_interleaving:
         flush_text()
         return Paragraph(ordered_blocks=blocks)
@@ -321,9 +396,9 @@ def parse_article(article_tag: Tag) -> Article:
     if article_header:
         value = article_header.find("span", class_="legalArticleValue")
         title_span = article_header.find("span", class_="legalArticleTitle")
-        header_text = value.get_text(strip=True) if value else ""
+        header_text = _inline_text(value) if value else ""
         if title_span:
-            header_text += f". {title_span.get_text(strip=True)}"
+            header_text += f". {_inline_text(title_span)}"
 
     paragraphs = []
     trailing_parts = []
@@ -359,7 +434,7 @@ def _is_article(tag: Tag) -> bool:
 def parse_section(section_tag: Tag) -> Section:
     """Parse an XML <section> into a Section dataclass."""
     heading = section_tag.find(["h1", "h2", "h3", "h4", "h5", "h6"])
-    heading_text = heading.get_text(strip=True) if heading else ""
+    heading_text = _inline_text(heading) if heading else ""
 
     articles = []
     subsections = []
@@ -1089,7 +1164,7 @@ def parse_lovtidend_file(content: bytes | str, filename: str) -> AmendmentActDat
     if not refid:
         return None
 
-    title_text = extract_header_field(header, "title")
+    title_text = extract_header_text(header, "title")
     if not title_text and soup.find("title"):
         title_text = soup.find("title").get_text(strip=True)
 
@@ -1132,7 +1207,7 @@ def parse_lovtidend_file(content: bytes | str, filename: str) -> AmendmentActDat
         refid=refid,
         filename=filename,
         title=title_text,
-        short_title=extract_header_field(header, "titleShort"),
+        short_title=extract_header_text(header, "titleShort"),
         date_in_force=extract_header_field(header, "dateInForce"),
         date_published=extract_header_field(header, "dateOfPublication"),
         ministry=extract_header_field(header, "ministry"),
