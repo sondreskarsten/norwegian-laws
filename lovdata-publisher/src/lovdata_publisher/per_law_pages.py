@@ -351,27 +351,31 @@ def render_markdown_body(body: str) -> str:
         body_html = re.sub(r"^# (.+)$", r"<h1>\1</h1>", body_html, flags=re.MULTILINE)
         body_html = re.sub(r"\*([^*]+)\*", r"<em>\1</em>", body_html)
         return body_html
-    found = []
+    free = (chr(code) for code in range(0xE000, 0xF900) if chr(code) not in body)
+    found = {}
 
     def hold(match):
-        found.append(match)
-        return chr(0xE000 + len(found) - 1)
+        placeholder = next(free, None)
+        if placeholder is None:
+            return match.group(0)
+        found[placeholder] = match
+        return placeholder
 
     held = MARKER.sub(hold, body)
-    if len(found) > 0x1900:
-        return md.markdown(body, extensions=["extra", "toc"])
     html_body = md.markdown(held, extensions=["extra", "toc"])
+    if not found:
+        return html_body
     anchored = set()
 
     def release(match):
-        kind, counter, label = found[ord(match.group(0)) - 0xE000].groups()
+        kind, counter, label = found[match.group(0)].groups()
         if kind:
             return f'<a class="fotnote-nummer" href="#fotnoteref_{counter}" id="fotnote_{counter}">{label}</a>'
         identity = "" if counter in anchored else f' id="fotnoteref_{counter}"'
         anchored.add(counter)
         return f'<sup class="fotnoteref"><a href="#fotnote_{counter}"{identity}>{label}</a></sup>'
 
-    return re.sub("[\ue000-\uf8ff]", release, html_body)
+    return re.sub("[" + "".join(found) + "]", release, html_body)
 
 
 def inject_paragraph_history_links(body_html: str, law_stem: str, amended_paragraphs: set[str]) -> str:
