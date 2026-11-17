@@ -6,6 +6,20 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-17
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+1 nytt dokument og 4 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-13-2342: Forskrift om endringer i forskrift om forsvars- og sikkerhetsanskaffelser mv. (Justis- og beredskapsdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-13-2343 endrer 1 dokument: forskrift/2025-06-06-940 Feltsikkerhetsforskriften
+- forskrift/2026-11-12-2340 endrer 1 dokument: forskrift/2007-06-29-876 Verdipapirforskriften
+- (endringskilde ikke oppgitt) endrer 2 dokumenter: forskrift/2022-05-20-883 Kredittopplysningsforskriften; forskrift/2026-10-09-2216 Utvidelse av virkeområdet til lov 13. mars 1981 nr. 6 om vern mot forurensninger og avfall (forurensningsloven)
+
 ## 2026-11-16
 
 *Oppsummering av endringene, generert fra publiseringens diff*

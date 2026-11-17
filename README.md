@@ -11,12 +11,17 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-16*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-17*
 
-8 endrede dokumenter i denne publiseringen.
+1 nytt dokument og 4 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-13-2342: Forskrift om endringer i forskrift om forsvars- og sikkerhetsanskaffelser mv. (Justis- og beredskapsdepartementet)
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-10-30-2220 endrer 8 dokumenter: forskrift/2023-11-15-1832 Forskrift om tilskudd til friluftslivsaktivitet; forskrift/2023-11-15-1845 Forskrift om tilskudd til besøkssenter for verdensarv; forskrift/2023-11-15-1846 Forskrift om tilskudd til besøkssenter for natur; forskrift/2023-11-15-1847 Forskrift om tilskudd til Nasjonale turiststier; forskrift/2023-11-15-1848 Forskrift om tilskudd til tiltak i statlig sikrede friluftslivsområder og områder vernet som friluftslivsområder etter markaloven; forskrift/2023-11-15-1887 Forskrift om tilskudd til å styrke kunnskapen om og formidlingen av naturmangfoldet; … og 2 til
+- forskrift/2026-11-13-2343 endrer 1 dokument: forskrift/2025-06-06-940 Feltsikkerhetsforskriften
+- forskrift/2026-11-12-2340 endrer 1 dokument: forskrift/2007-06-29-876 Verdipapirforskriften
+- (endringskilde ikke oppgitt) endrer 2 dokumenter: forskrift/2022-05-20-883 Kredittopplysningsforskriften; forskrift/2026-10-09-2216 Utvidelse av virkeområdet til lov 13. mars 1981 nr. 6 om vern mot forurensninger og avfall (forurensningsloven)
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -34,11 +39,11 @@ Endrede dokumenter etter endringskilde:
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-11-16 | Endr. i merverdiavgiftsforskriften | [`forskrift/2009-12-15-1540`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-12-15-1540.html) |
+| 2026-11-16 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
+| 2026-11-16 | Endr. i Biocidforskriften | [`forskrift/2017-04-18-480`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-04-18-480.html) |
 | 2026-11-13 | Forskrift om endringer i forskrift om forsvars- og sikkerhetsanskaf… | [`forskrift/2013-10-04-1185`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-10-04-1185.html) [`forskrift/2022-05-20-883`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-05-20-883.html) [`forskrift/2024-01-26-111`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-01-26-111.html) |
 | 2026-11-13 | Endr. i feltsikkerhetsforskriften | [`forskrift/2025-06-06-940`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-06-06-940.html) |
-| 2026-11-13 | Endr. i verdipapirforskriften | [`forskrift/2007-06-29-876`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-06-29-876.html) |
-| 2026-11-13 | Endr. i CRR/CRD-forskriften | [`forskrift/2014-08-22-1097`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-08-22-1097.html) |
-| 2026-11-12 | Vedtak om endring i våpeninstruks for politiet | [`forskrift/2015-07-02-1088`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-07-02-1088.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
