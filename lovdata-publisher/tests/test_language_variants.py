@@ -94,3 +94,9 @@ def test_reader_page_links_markers_and_keeps_heading_ids():
     assert '<a class="fotnote-nummer" href="#fotnoteref_1" id="fotnote_1">1</a>' in html
     assert "" not in html
     assert ">§ 5. (skade)<" in build_toc_html(html)
+
+
+def test_marker_survives_html_escaping_in_literal_lists():
+    from lovdata_publisher.formatter import _escape_keeping_markers
+    text = 'direktiv 91/321/EØF ,<sup data-fn="40">1</sup> & <b>'
+    assert _escape_keeping_markers(text) == 'direktiv 91/321/EØF ,<sup data-fn="40">1</sup> &amp; &lt;b&gt;'
