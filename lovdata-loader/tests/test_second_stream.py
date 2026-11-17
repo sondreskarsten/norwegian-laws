@@ -72,3 +72,39 @@ def test_read_document_separates_blocks_but_not_inline_markup():
     assert "CO2-ekvivalenter på 106 m3" in source["body_text"]
     assert "SO2 Molekylvekt" in source["body_text"]
     assert "Departementet 1 gir" in source["body_text"]
+
+
+def test_eli_follows_lovdatas_padding_and_placeholder():
+    from lovdata_loader.language_variants import eli_for_refid
+    assert eli_for_refid("lov/1998-07-17-56") == "/eli/lov/1998/07/17/56"
+    assert eli_for_refid("lov/1884-06-14-3") == "/eli/lov/1884/06/14/03"
+    assert eli_for_refid("forskrift/1957-06-07-3391") == "/eli/forskrift/1957/06/07/3391"
+    assert eli_for_refid("lov/1687-04-15") == "/eli/lov/1687/04/15/0"
+    assert eli_for_refid("lov/1814-05-17-nn") == "/eli/lov/1814/05/17/0"
+
+
+def test_second_stream_compares_the_source_eli():
+    with_eli = DOCUMENT.replace(b'<dt class="refid">', b'<dt class="eli">ELI</dt><dd class="eli">/eli/lov/1990/12/21/72</dd><dt class="refid">')
+    assert compare_document(with_eli, asdict(parse_law(with_eli)))["header"] == {}
+    wrong = with_eli.replace(b"/eli/lov/1990/12/21/72", b"/eli/lov/1990/12/21/072")
+    assert set(compare_document(wrong, asdict(parse_law(wrong)))["header"]) == {"eli"}
+
+
+def test_footnote_marker_on_a_heading_is_not_counted_as_lost():
+    marked = DOCUMENT.replace(b'<span class="legalArticleValue">\xc2\xa7 1</span>.',
+                              b'<span class="legalArticleValue">\xc2\xa7 1</span>.<sup class="footnotereference">9</sup>')
+    assert marked != DOCUMENT
+    result = compare_document(marked, asdict(parse_law(marked)))
+    assert not result["lost"] and not result["novel"]
+
+
+def test_amendment_act_keeps_every_ministry():
+    from lovdata_loader.parser import parse_lovtidend_file
+    act = """<html><head><title>t</title></head><body><header><dl>
+<dt class="refid">RefID</dt><dd class="refid">forskrift/2020-01-01-1</dd>
+<dt class="title">Tittel</dt><dd class="title">Forskrift om endring i forskrift om CO<sub>2</sub> og fisk</dd>
+<dt class="ministry">Departement</dt><dd class="ministry"><ul><li>Fiskeridepartementet</li><li>Landbruksdepartementet</li></ul></dd>
+<dt class="dateOfPublication">Kunngjort</dt><dd class="dateOfPublication">2020-01-02 10:00</dd>
+</dl></header><main class="documentBody"><h1>Forskrift</h1></main></body></html>"""
+    record = parse_lovtidend_file(act, "sf-20200101-0001.xml")
+    assert record.ministry == "Fiskeridepartementet\nLandbruksdepartementet"

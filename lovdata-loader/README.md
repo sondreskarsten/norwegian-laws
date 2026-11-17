@@ -133,8 +133,11 @@ is not part of its own hashed evidence bundle.
 selected law and regulation a second time with lxml, sharing no extraction
 code with `parser.py`, and compares the result with the snapshot model:
 header fields (title, short title, ministries, dates, last amending act, legal
-area), source words missing from the model, and model words that occur nowhere
-in the source. Block elements separate words; inline markup, including
+area, and the ELI derived from the refid against Lovdata's own `eli` field),
+source words missing from the model, and model words that occur nowhere in the
+source. Footnote markers that sit on a paragraph heading outside its number and
+title are Lovdata's editorial apparatus; the parser does not carry them and the
+comparison does not count them. Block elements separate words; inline markup, including
 subscripts and superscripts, does not. The deploy workflow fails on any header
 mismatch, on a corpus-wide word difference above the stated fractions, on a
 single document differing by more than 150 words, and on parsed source members

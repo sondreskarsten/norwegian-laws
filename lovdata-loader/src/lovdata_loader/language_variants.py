@@ -24,6 +24,12 @@ def base_refid(refid: str) -> str:
     return refid.removesuffix(VARIANT_SUFFIX)
 
 
+def eli_for_refid(refid: str) -> str:
+    kind, _, rest = base_refid(refid).partition("/")
+    year, month, day, *number = rest.split("-")
+    return f"/eli/{kind}/{year}/{month}/{day}/" + (number[0].zfill(2) if number else "0")
+
+
 def variant_rows(snapshot_dir: str = "snapshot") -> list[dict]:
     rows = []
     if not (Path(snapshot_dir) / "source-members.jsonl").is_file():

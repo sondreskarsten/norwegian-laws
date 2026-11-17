@@ -189,7 +189,8 @@ def normalize_refid(ref: str) -> str:
         return f"{m.group(1)}/{m.group(2)}"
     m = re.match(r"^/?eli/(lov|forskrift)/(\d{4})/(\d{2})/(\d{2})(?:/(\d+))?$", key)
     if m:
-        return f"{m.group(1)}/{m.group(2)}-{m.group(3)}-{m.group(4)}" + (f"-{m.group(5)}" if m.group(5) else "")
+        number = (m.group(5) or "").lstrip("0")
+        return f"{m.group(1)}/{m.group(2)}-{m.group(3)}-{m.group(4)}" + (f"-{number}" if number else "")
     return key
 
 

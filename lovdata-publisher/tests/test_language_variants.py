@@ -38,7 +38,7 @@ def test_variant_is_read_back_and_published_under_its_own_refid(tmp_path):
     nynorsk = (tmp_path / "out" / "lover" / "lov-1814-05-17-nn.md").read_text(encoding="utf-8")
     bokmal = (tmp_path / "out" / "lover" / "lov-1814-05-17.md").read_text(encoding="utf-8")
     assert 'refid: "lov/1814-05-17-nn"' in nynorsk and "Kongeriket Noregs grunnlov" in nynorsk
-    assert 'eli: "/eli/lov/1814/05/17"' in nynorsk and 'eli: "/eli/lov/1814/05/17"' in bokmal
+    assert 'eli: "/eli/lov/1814/05/17/0"' in nynorsk and 'eli: "/eli/lov/1814/05/17/0"' in bokmal
     assert sorted(path.name for path in root.rglob("*") if path.is_file()) == before
 
     format_all_laws(str(root), str(tmp_path / "out"))

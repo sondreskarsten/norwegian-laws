@@ -49,7 +49,7 @@ def _atom_entry(act: dict, paragraphs: list[str] | None = None) -> str:
     if act.get("date_in_force"):
         summary_lines.append(f"Ikrafttredelse: {act['date_in_force']}")
     if act.get("ministry"):
-        summary_lines.append(f"Departement: {act['ministry']}")
+        summary_lines.append("Departement: " + act["ministry"].replace("\n", ", "))
     if act.get("changes_to"):
         summary_lines.append(f"Endrer: {act['changes_to']}")
     if paragraphs:
@@ -64,11 +64,12 @@ def _atom_entry(act: dict, paragraphs: list[str] | None = None) -> str:
         category_parts.append(
             f'  <category term="{html.escape(p)}" label="{html.escape(p)}"/>'
         )
-    if act.get("ministry"):
-        category_parts.append(
-            f'  <category term="ministry:{html.escape(act["ministry"])}" '
-            f'label="{html.escape(act["ministry"])}"/>'
-        )
+    for ministry in (act.get("ministry") or "").split("\n"):
+        if ministry:
+            category_parts.append(
+                f'  <category term="ministry:{html.escape(ministry)}" '
+                f'label="{html.escape(ministry)}"/>'
+            )
     kind = "forskrift" if refid.startswith("forskrift/") else "lov"
     category_parts.append(f'  <category term="kind:{kind}" label="{kind}"/>')
     category_xml = "\n" + "\n".join(category_parts) if category_parts else ""

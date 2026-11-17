@@ -444,7 +444,7 @@ def generate_paragraph_history_pages(
             amendments_html_parts.append(
                 f'<div class="amendment">\n'
                 f'  <div class="meta">Publisert {html.escape(a["date_published"] or "ukjent dato")} · '
-                f'{html.escape(a["ministry"] or "")}'
+                f'{html.escape((a["ministry"] or "").replace(chr(10), ", "))}'
                 f'{" · " + html.escape(a["journal_number"]) if a["journal_number"] else ""}'
                 f'</div>\n'
                 f'  <div class="source-timing">{source_timing}</div>\n'

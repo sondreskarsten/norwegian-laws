@@ -12,7 +12,7 @@ import json
 import re
 from pathlib import Path
 
-from lovdata_loader.language_variants import base_refid, language_variants
+from lovdata_loader.language_variants import eli_for_refid, language_variants
 from lovdata_loader.models import (
     ROOT_CONTENT_FIELDS, SECTION_CONTENT_FIELDS, validate_content_order,
 )
@@ -218,7 +218,7 @@ def format_law_markdown(law: dict) -> str:
     if law.get("short_title"):
         lines.append(f"korttittel: \"{law['short_title']}\"")
     lines.append(f"refid: \"{law['refid']}\"")
-    eli = "/eli/" + base_refid(law["refid"]).replace("-", "/", 3)
+    eli = eli_for_refid(law["refid"])
     lines.append(f"eli: \"{eli}\"")
     ministry = law.get("ministry", "").replace("\n", "\\n")
     lines.append(f"departement: \"{ministry}\"")

@@ -1210,7 +1210,7 @@ def parse_lovtidend_file(content: bytes | str, filename: str) -> AmendmentActDat
         short_title=extract_header_text(header, "titleShort"),
         date_in_force=extract_header_field(header, "dateInForce"),
         date_published=extract_header_field(header, "dateOfPublication"),
-        ministry=extract_header_field(header, "ministry"),
+        ministry="\n".join(extract_header_list(header, "ministry")),
         changes_to=changes_to,
         amendments=amendments,
         misc_info=extract_header_field(header, "miscInformation"),

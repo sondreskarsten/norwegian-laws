@@ -16,7 +16,7 @@ from pathlib import Path
 from lxml import etree
 
 from .coverage import model_tokens
-from .language_variants import base_refid, language_variants
+from .language_variants import base_refid, eli_for_refid, language_variants
 
 INLINE_TAGS = frozenset({"a", "b", "em", "i", "s", "small", "span", "strong", "sub", "sup", "u"})
 SEPARATED_CLASSES = frozenset({
@@ -35,22 +35,32 @@ def _is_inline(element) -> bool:
     return element.tag in INLINE_TAGS and not SEPARATED_CLASSES.intersection((element.get("class") or "").split())
 
 
-def _collect(element, parts: list) -> None:
+HEADING_MARKERS = (
+    ".//*[contains(concat(' ', normalize-space(@class), ' '), ' legalArticleHeader ')"
+    " or contains(concat(' ', normalize-space(@class), ' '), ' futureLegalArticleHeader ')]"
+    "//sup[@class='footnotereference']"
+    "[not(ancestor::span[@class='legalArticleValue' or @class='legalArticleTitle'])]"
+)
+
+
+def _collect(element, parts: list, skipped=frozenset()) -> None:
+    if element in skipped:
+        return
     separated = not _is_inline(element)
     if separated:
         parts.append(" ")
     parts.append(element.text or "")
     for child in element:
         if isinstance(child.tag, str):
-            _collect(child, parts)
+            _collect(child, parts, skipped)
         parts.append(child.tail or "")
     if separated:
         parts.append(" ")
 
 
-def element_text(element) -> str:
+def element_text(element, skipped=frozenset()) -> str:
     parts = []
-    _collect(element, parts)
+    _collect(element, parts, skipped)
     return _squash("".join(parts))
 
 
@@ -74,6 +84,7 @@ def read_document(raw: bytes) -> dict:
     body = root.find(".//main[@class='documentBody']")
     return {
         "refid": text("refid"),
+        "eli": text("eli"),
         "language": root.get("lang") or "",
         "title": text("title"),
         "short_title": text("titleShort"),
@@ -82,7 +93,7 @@ def read_document(raw: bytes) -> dict:
         "last_amended": changed_by[0] if changed_by else "",
         "last_amended_in_force": paired.group(1) if paired else text("lastChangeInForce"),
         "legal_area": items("legalArea"),
-        "body_text": element_text(body) if body is not None else "",
+        "body_text": element_text(body, frozenset(body.xpath(HEADING_MARKERS))) if body is not None else "",
     }
 
 
@@ -142,6 +153,8 @@ def compare_document(raw: bytes, law: dict) -> dict:
         expected["last_amended_in_force"] = source["last_amended_in_force"]
     header = {name: [value, law.get(name) or ""] for name, value in expected.items()
               if _squash(value) != _squash(law.get(name) or "")}
+    if source["eli"] and source["eli"] != eli_for_refid(law.get("refid") or source["refid"]):
+        header["eli"] = [source["eli"], eli_for_refid(law.get("refid") or source["refid"])]
     source_words = _tokens(source["body_text"])
     body_only = dict(law, short_title="")
     model_words = model_tokens(body_only)
