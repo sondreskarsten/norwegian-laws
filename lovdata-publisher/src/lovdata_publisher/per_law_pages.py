@@ -467,10 +467,10 @@ def generate_per_law_pages(
             tittel = meta.get("tittel", md_file.stem)
             korttittel = meta.get("korttittel", "")
             refid = meta.get("refid", "")
-            dept = meta.get("departement", "").split(",")[0].strip()
+            dept = meta.get("departement", "").split("\\n")[0].split(",")[0].strip()
             ikrafttredelse = meta.get("ikrafttredelse", "")
             sist_endret = meta.get("sist-endret", "")
-            rettsomrade = meta.get("rettsomrade", "").replace(">", " &raquo; ").replace("\n", " · ")
+            rettsomrade = meta.get("rettsomrade", "").replace(">", " &raquo; ").replace("\\n", " · ")
 
             if not dept:
                 dept = "Ukjent"
