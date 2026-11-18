@@ -67,6 +67,8 @@ def _collect_text(node: Tag, parts: list) -> None:
             separated = not _is_inline(child)
             if separated:
                 parts.append(" ")
+            if child.name == "li":
+                parts.append(_resolve_marker(child, child.parent.get("type", "") or "") + " ")
             _collect_text(child, parts)
             if separated:
                 parts.append(" ")
@@ -244,6 +246,7 @@ def _parse_law_metadata(soup: BeautifulSoup) -> dict:
         "last_amended": last_amended,
         "last_amended_in_force": last_amended_in_force,
         "legal_area": "\n".join(extract_header_list(header, "legalArea")),
+        "misc_information": _text(header.find("dd", class_="miscInformation")) if header.find("dd", class_="miscInformation") else "",
     }
 
 
@@ -403,6 +406,62 @@ def _parse_ledd(ledd: Tag) -> Paragraph:
     )
 
 
+_EDITORIAL_CLASSES = frozenset({"changesToParent", "document-change"})
+
+
+def _loose_blocks(child: Tag) -> list[ParagraphBlock]:
+    if child.name in ("ul", "ol"):
+        items = _parse_list(child)
+        return [ParagraphBlock(kind="list", list_items=items, list_style=child.get("type", "") or "")] if items else []
+    if "marginIdArticle" in (child.get("class") or []):
+        label = child.find("span", class_="data-marginOriginalId", recursive=False)
+        paragraphs = []
+        for part in child.children:
+            if not isinstance(part, Tag) or part is label:
+                continue
+            if _is_ledd(part):
+                paragraphs.append(_parse_ledd(part))
+            elif part.name in ("ul", "ol"):
+                paragraphs.append(Paragraph(list_items=_parse_list(part), list_style=part.get("type", "") or ""))
+            elif _text(part):
+                paragraphs.append(Paragraph(text=_text(part)))
+        marker = _inline_text(label) if label else ""
+        return [ParagraphBlock(kind="list", list_items=[ListItem(marker=marker, paragraphs=paragraphs)])]
+    text = _text(child)
+    return [ParagraphBlock(kind="text", text=text)] if text else []
+
+
+def _blocks_of(paragraph: Paragraph) -> list[ParagraphBlock]:
+    if paragraph.ordered_blocks:
+        return list(paragraph.ordered_blocks)
+    blocks = []
+    if paragraph.text:
+        blocks.append(ParagraphBlock(kind="text", text=paragraph.text))
+    if paragraph.list_items:
+        blocks.append(ParagraphBlock(kind="list", list_items=list(paragraph.list_items), list_style=paragraph.list_style))
+    if paragraph.trailing_text:
+        blocks.append(ParagraphBlock(kind="text", text=paragraph.trailing_text))
+    return blocks
+
+
+def _paragraph_from_blocks(blocks: list[ParagraphBlock]) -> Paragraph:
+    merged = []
+    for block in blocks:
+        if block.kind == "list" and merged and merged[-1].kind == "list":
+            merged[-1] = ParagraphBlock(kind="list", list_items=merged[-1].list_items + block.list_items,
+                                        list_style=merged[-1].list_style)
+        else:
+            merged.append(block)
+    kinds = [block.kind for block in merged]
+    if kinds in ([], ["text"], ["list"], ["text", "list"], ["list", "text"], ["text", "list", "text"]):
+        text = merged[0].text if kinds and kinds[0] == "text" else ""
+        lists = [block for block in merged if block.kind == "list"]
+        trailing = merged[-1].text if len(kinds) > 1 and kinds[-1] == "text" else ""
+        return Paragraph(text=text, list_items=lists[0].list_items if lists else [],
+                         list_style=lists[0].list_style if lists else "", trailing_text=trailing)
+    return Paragraph(ordered_blocks=merged)
+
+
 def parse_article(article_tag: Tag) -> Article:
     """Parse an XML <article class='legalArticle'> into an Article dataclass."""
     name = article_tag.get("data-name", "")
@@ -438,21 +497,30 @@ def parse_article(article_tag: Tag) -> Article:
 
     paragraphs = []
     trailing_parts = []
+    leading = []
     for child in article_tag.children:
         if not isinstance(child, Tag):
             continue
-        if _is_ledd(child):
-            paragraphs.append(_parse_ledd(child))
-        elif child.name == "p":
-            paragraphs.append(Paragraph(text=_text(child)))
+        if _is_ledd(child) or child.name == "p":
+            paragraph = _parse_ledd(child) if _is_ledd(child) else Paragraph(text=_text(child))
+            if leading:
+                paragraph = _paragraph_from_blocks(leading + _blocks_of(paragraph))
+                leading = []
+            paragraphs.append(paragraph)
         elif _is_header(child):
             pass
         elif child.name == "footer":
             trailing_parts.extend(_footer_texts(child))
-        else:
+        elif _EDITORIAL_CLASSES.intersection(child.get("class") or []):
             text = _text(child)
             if text:
                 trailing_parts.append(text)
+        elif paragraphs:
+            paragraphs[-1] = _paragraph_from_blocks(_blocks_of(paragraphs[-1]) + _loose_blocks(child))
+        else:
+            leading.extend(_loose_blocks(child))
+    if leading:
+        paragraphs.append(_paragraph_from_blocks(leading))
 
     return Article(
         name=name,
@@ -494,6 +562,12 @@ def parse_section(section_tag: Tag) -> Section:
             for text in _footer_texts(child):
                 order.append(ContentRef("footnote", len(footnotes)))
                 footnotes.append(text)
+        elif child.name in ("ul", "ol"):
+            for li in child.find_all("li", recursive=False):
+                text = (_resolve_marker(li, child.get("type", "") or "") + " " + _text(li)).strip()
+                if text:
+                    order.append(ContentRef("preamble", len(preamble)))
+                    preamble.append(text)
         else:
             text = _text(child)
             if text:

@@ -267,7 +267,7 @@ def generate_laws_json(lover_dir: str, output_path: str, version_tags: list[str]
                 "ikrafttredelse": meta.get("ikrafttredelse", ""),
                 "sist_endret": meta.get("sist-endret", ""),
                 "github": f"{GITHUB_BASE}/blob/main/{gh_dir}/{f.name}",
-                "lovdata": f"https://lovdata.no/dokument/{lovdata_kind}/{refid}",
+                "lovdata": meta.get("lovdata") or f"https://lovdata.no/dokument/{lovdata_kind}/{refid}",
                 "log": f"{GITHUB_BASE}/commits/{HISTORY_BRANCH}/{gh_dir}/{f.name}",
                 "tags": tags,
                 "amendments": amendment_counts.get(refid, 0),
@@ -1000,7 +1000,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
             stem = law["file"].rsplit(".", 1)[0]
             page = f"../lover/{stem}.html"
             history = f"{GITHUB_BASE}/commits/{HISTORY_BRANCH}/lover/{law['file']}"
-            lovdata_url = f"https://lovdata.no/dokument/NL/{law['refid']}"
+            lovdata_url = law["lovdata"]
             title = law["tittel"][:80]
             link = f"[{title}]({page})"
             kort = law["korttittel"] or ""
@@ -1035,7 +1035,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
             stem = forskrift["file"].rsplit(".", 1)[0]
             page = f"../forskrifter/{stem}.html"
             history = f"{GITHUB_BASE}/commits/{HISTORY_BRANCH}/forskrifter/{forskrift['file']}"
-            lovdata_url = f"https://lovdata.no/dokument/SF/{forskrift['refid']}"
+            lovdata_url = forskrift["lovdata"]
             title = forskrift["tittel"][:80]
             link = f"[{title}]({page})"
             lovdata_link = f"[lovdata.no]({lovdata_url})"

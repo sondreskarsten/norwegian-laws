@@ -161,3 +161,51 @@ def test_each_footnote_is_its_own_line_and_adjacent_titles_stay_apart():
         '<sup data-fn-note="1">1</sup> Jf. ODA art. 3.', '<sup data-fn-note="2">2</sup> Nå domstolen.']
     result = compare_document(doc, asdict(law))
     assert not result["lost"] and not result["novel"]
+
+
+def _article_body(inner: bytes) -> bytes:
+    start = DOCUMENT.index(b'<article class="legalP">Avgiften')
+    end = DOCUMENT.index(b"</article></section>")
+    return DOCUMENT[:start] + inner + DOCUMENT[end:]
+
+
+def test_loose_blocks_join_the_ledd_before_them_and_keep_their_markers():
+    doc = _article_body(
+        b'<article class="legalP">I denne lov betyr:</article>'
+        b'<ol class="defaultList" type="a"><li data-name="a)" value="1">skip</li><li value="2">fly</li></ol>'
+        b'<article class="marginIdArticle"><span class="data-marginOriginalId">3.</span><article class="legalP">innretning</article></article>'
+        b'<article class="defaultP">Slutt.</article>'
+        b'<article class="legalP">Annet ledd.</article>'
+        b'<article class="changesToParent">Endret ved lov 1.</article>')
+    article = parse_law(doc).sections[0].articles[0]
+    assert len(article.paragraphs) == 2
+    first = article.paragraphs[0]
+    assert first.text == "I denne lov betyr:" and first.trailing_text == "Slutt."
+    assert [item.marker for item in first.list_items] == ["a)", "b)", "3."]
+    assert article.paragraphs[1].text == "Annet ledd."
+    assert article.trailing_text == "Endret ved lov 1."
+    result = compare_document(doc, asdict(parse_law(doc)))
+    assert not result["lost"] and not result["novel"]
+
+
+def test_blocks_before_the_first_ledd_open_it_and_chapter_lists_split_per_item():
+    doc = _article_body(b'<article class="defaultP">Innledning.</article><article class="legalP">F\xc3\xb8rste ledd.</article>'
+                        ).replace(b"</article></section>", b'</article><ol type="1"><li value="1">en</li><li value="2">to</li></ol></section>')
+    law = parse_law(doc)
+    paragraphs = law.sections[0].articles[0].paragraphs
+    assert len(paragraphs) == 1
+    assert [block.text for block in paragraphs[0].ordered_blocks] == ["Innledning.", "Første ledd."]
+    assert law.sections[0].preamble == ["1. en", "2. to"]
+    result = compare_document(doc, asdict(law))
+    assert not result["lost"] and not result["novel"]
+
+
+def test_misc_information_is_kept_and_compared():
+    doc = DOCUMENT.replace(b'<dt class="refid">', b'<dt class="miscInformation">Annet</dt><dd class="miscInformation">Hjemmel: lov <a href="lov/1">1</a>.</dd><dt class="refid">')
+    law = parse_law(doc)
+    assert law.misc_information == "Hjemmel: lov 1."
+    assert compare_document(doc, asdict(law))["header"] == {}
+    changed = asdict(law)
+    changed["misc_information"] = ""
+    assert set(compare_document(doc, changed)["header"]) == {"misc_information"}
+    assert "misc_information" not in parse_law(DOCUMENT).to_dict()

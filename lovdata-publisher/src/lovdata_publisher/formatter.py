@@ -12,7 +12,7 @@ import json
 import re
 from pathlib import Path
 
-from lovdata_loader.language_variants import eli_for_refid, language_variants
+from lovdata_loader.language_variants import base_refid, eli_for_refid, language_variants
 from lovdata_loader.markers import MARKER
 from lovdata_loader.models import (
     ROOT_CONTENT_FIELDS, SECTION_CONTENT_FIELDS, validate_content_order,
@@ -129,9 +129,14 @@ def _render_paragraph_blocks(blocks: list, depth: int, lines: list, *, compact=F
             lines.append("")
 
 
+def _markdown_list(items: list) -> bool:
+    return all(re.fullmatch(r"\d+\.|-?", item.get("marker") or "") for item in items)
+
+
 def _render_list_items(items: list, depth: int, lines: list) -> None:
     indent = "  " * depth
     escape = _list_group_renumbered(items)
+    start = len(lines)
     for item in items:
         marker = item.get("marker") or "-"
         if escape:
@@ -147,6 +152,10 @@ def _render_list_items(items: list, depth: int, lines: list) -> None:
                                      depth + 1, lines, compact=True)
             for para in paras[1:]:
                 _render_paragraph_blocks(_paragraph_blocks(para), depth + 1, lines, compact=True)
+    if not escape and not _markdown_list(items):
+        for i in range(start, len(lines) - 1):
+            if lines[i]:
+                lines[i] += "  "
 
 
 def format_article(article: dict, depth: int = 0) -> str:
@@ -212,6 +221,18 @@ def format_section(section: dict, depth: int = 0) -> str:
     return "\n".join(lines)
 
 
+def lovdata_bases(snapshot_dir: str) -> dict:
+    path = Path(snapshot_dir) / "source-members.jsonl"
+    if not path.exists():
+        return {}
+    bases = {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        row = json.loads(line)
+        if row.get("selected") and row.get("refid") and row.get("role") != "lovtidend":
+            bases[row["refid"]] = row["member_path"].split("/", 1)[0].upper()
+    return bases
+
+
 def format_law_markdown(law: dict) -> str:
     """Convert a structured law dict (from snapshot JSON) to Markdown.
 
@@ -233,6 +254,8 @@ def format_law_markdown(law: dict) -> str:
     lines.append(f"refid: \"{law['refid']}\"")
     eli = eli_for_refid(law["refid"])
     lines.append(f"eli: \"{eli}\"")
+    if law.get("lovdata_base"):
+        lines.append(f"lovdata: \"https://lovdata.no/dokument/{law['lovdata_base']}/{law['refid']}\"")
     ministry = law.get("ministry", "").replace("\n", "\\n")
     lines.append(f"departement: \"{ministry}\"")
     if law.get("legal_area"):
@@ -248,6 +271,9 @@ def format_law_markdown(law: dict) -> str:
     lines.append("")
     lines.append(f"# {law['title']}")
     lines.append("")
+    if law.get("misc_information"):
+        lines.append(f"*{law['misc_information']}*")
+        lines.append("")
 
     order = validate_content_order(law, ROOT_CONTENT_FIELDS)
     if order:
@@ -310,17 +336,19 @@ def format_all_laws(snapshot_dir: str, output_dir: str, *,
     # Render every document before any writes or pruning. A malformed later
     # document must not leave a partially updated corpus behind.
     prepared = []
+    bases = lovdata_bases(snapshot_dir)
     for subdir in ["laws", "forskrifter"]:
         src = snapshot / subdir
         json_files = sorted(src.glob("*.json"))
         for path in json_files:
             try:
                 data = json.loads(path.read_text(encoding="utf-8"))
+                data["lovdata_base"] = bases.get(data["refid"], "")
                 prepared.append((data["refid"], refid_to_filepath(data["refid"]), format_law_markdown(data)))
             except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
                 raise ValueError(f"Invalid snapshot document {path}: {exc}") from exc
     for variant in language_variants(snapshot_dir):
-        data = variant["document"]
+        data = dict(variant["document"], lovdata_base=bases.get(base_refid(variant["document"]["refid"]), ""))
         prepared.append((data["refid"], refid_to_filepath(data["refid"]), format_law_markdown(data)))
 
     written = {filepath for _, filepath, _ in prepared}
