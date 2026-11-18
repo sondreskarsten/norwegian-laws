@@ -136,11 +136,14 @@ def _markdown_list(items: list) -> bool:
 def _render_list_items(items: list, depth: int, lines: list) -> None:
     indent = "  " * depth
     escape = _list_group_renumbered(items)
+    literal = not escape and not _markdown_list(items)
     start = len(lines)
     for item in items:
         marker = item.get("marker") or "-"
         if escape:
             marker = "- " + marker.replace(".", "\\.")
+        elif literal:
+            marker = re.sub(r"^(\d+)([.)])", r"\1\\\2", marker)
         paras = item.get("paragraphs", [])
         first_blocks = _paragraph_blocks(paras[0]) if paras else []
         has_head = bool(first_blocks and first_blocks[0]["kind"] == "text"
@@ -152,7 +155,7 @@ def _render_list_items(items: list, depth: int, lines: list) -> None:
                                      depth + 1, lines, compact=True)
             for para in paras[1:]:
                 _render_paragraph_blocks(_paragraph_blocks(para), depth + 1, lines, compact=True)
-    if not escape and not _markdown_list(items):
+    if literal:
         for i in range(start, len(lines) - 1):
             if lines[i]:
                 lines[i] += "  "

@@ -123,6 +123,8 @@ def test_lettered_items_break_lines_and_numbered_stay_a_list():
     item = lambda marker, text: {"marker": marker, "paragraphs": [{"text": text}]}
     lettered = format_article({"paragraphs": [{"text": "Skaden", "list_items": [item("a.", "en"), item("b.", "to")]}]})
     assert "a. en  \nb. to\n" in lettered
+    labelled = format_article({"paragraphs": [{"text": "Skaden", "list_items": [item("12.", "en"), item("12.1.", "to")]}]})
+    assert "12\\. en  \n12\\.1. to\n" in labelled
     numbered = format_article({"paragraphs": [{"text": "Skaden", "list_items": [item("1.", "en"), item("2.", "to")]}]})
     assert "1. en\n2. to\n" in numbered
 
