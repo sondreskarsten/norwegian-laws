@@ -100,3 +100,12 @@ def test_marker_survives_html_escaping_in_literal_lists():
     from lovdata_publisher.formatter import _escape_keeping_markers
     text = 'direktiv 91/321/EØF ,<sup data-fn="40">1</sup> & <b>'
     assert _escape_keeping_markers(text) == 'direktiv 91/321/EØF ,<sup data-fn="40">1</sup> &amp; &lt;b&gt;'
+
+
+def test_reader_page_leaves_private_use_characters_in_the_source_alone():
+    from lovdata_publisher.per_law_pages import render_markdown_body
+    body = 'Temperatur 20 C og  her<sup data-fn="3">1</sup>.\n\n*<sup data-fn-note="3">1</sup> Note.*\n'
+    html = render_markdown_body(body)
+    assert "" in html and "" in html
+    assert '<sup class="fotnoteref"><a href="#fotnote_3" id="fotnoteref_3">1</a></sup>' in html
+    assert 'id="fotnote_3">1</a>' in html
