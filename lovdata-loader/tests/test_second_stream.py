@@ -139,3 +139,25 @@ def test_amendment_act_keeps_every_ministry():
 </dl></header><main class="documentBody"><h1>Forskrift</h1></main></body></html>"""
     record = parse_lovtidend_file(act, "sf-20200101-0001.xml")
     assert record.ministry == "Fiskeridepartementet\nLandbruksdepartementet"
+
+
+def test_links_keep_following_punctuation_and_inline_markup_joins_words():
+    doc = DOCUMENT.replace(
+        '<article class="legalP">Avgiften gjelder'.encode(),
+        '<article class="legalP">Se <a href="lov/1/§3">§ 3</a>. Sa<i>m</i>me (<a href="x">pkt</a>) og<br/>neste. Avgiften gjelder'.encode())
+    text = parse_law(doc).sections[0].articles[0].paragraphs[0].text
+    assert text.startswith("Se § 3. Samme (pkt) og neste. Avgiften gjelder")
+    result = compare_document(doc, asdict(parse_law(doc)))
+    assert not result["lost"] and not result["novel"]
+
+
+def test_each_footnote_is_its_own_line_and_adjacent_titles_stay_apart():
+    doc = DOCUMENT.replace(b"</article></section>", (
+        b'<footer class="footnotes"><article class="footnote" data-unique-footnote-counter="1"><span class="footnoteLabel">1</span> Jf. ODA art. 3.</article>'
+        b'<article class="footnote" data-unique-footnote-counter="2"><span class="footnoteLabel">2</span> N\xc3\xa5 domstolen.</article></footer>'
+        b'</article><span class="futuretitle">C46. Samfunnsmedisin</span><span class="futuretitle">C46.1 Rolle</span></section>'))
+    law = parse_law(doc)
+    assert law.sections[0].articles[0].trailing_text.split("\n") == [
+        '<sup data-fn-note="1">1</sup> Jf. ODA art. 3.', '<sup data-fn-note="2">2</sup> Nå domstolen.']
+    result = compare_document(doc, asdict(law))
+    assert not result["lost"] and not result["novel"]

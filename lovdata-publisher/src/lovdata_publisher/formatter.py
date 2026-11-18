@@ -166,9 +166,10 @@ def format_article(article: dict, depth: int = 0) -> str:
     for para in article.get("paragraphs", []):
         _render_paragraph_blocks(_paragraph_blocks(para), 0, lines)
 
-    if article.get("trailing_text"):
-        lines.append(f"*{article['trailing_text']}*")
-        lines.append("")
+    for line in (article.get("trailing_text") or "").split("\n"):
+        if line:
+            lines.append(f"*{line}*")
+            lines.append("")
 
     return "\n".join(lines)
 

@@ -109,3 +109,10 @@ def test_reader_page_leaves_private_use_characters_in_the_source_alone():
     assert "" in html and "" in html
     assert '<sup class="fotnoteref"><a href="#fotnote_3" id="fotnoteref_3">1</a></sup>' in html
     assert 'id="fotnote_3">1</a>' in html
+
+
+def test_each_trailing_note_is_its_own_paragraph():
+    from lovdata_publisher.formatter import format_article
+    text = format_article({"name": "§1", "header_text": "§ 1", "paragraphs": [],
+                           "trailing_text": "Endra med lov 1.\n<sup data-fn-note=\"1\">1</sup> Jf. avtalen."})
+    assert "*Endra med lov 1.*\n\n*<sup data-fn-note=\"1\">1</sup> Jf. avtalen.*" in text

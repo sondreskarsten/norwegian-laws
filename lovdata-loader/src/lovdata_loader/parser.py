@@ -46,52 +46,52 @@ def _marker(tag) -> str:
     return ""
 
 
-def _script_parent(node, root: Tag):
-    parent = node.parent
-    while parent is not None:
-        if _is_script(parent):
-            return parent
-        if parent is root:
-            return None
-        parent = parent.parent
-    return None
+_INLINE_TAGS = frozenset({"a", "abbr", "b", "em", "i", "s", "small", "span", "strong", "sub", "sup", "u"})
+_SEPARATED_CLASSES = frozenset({
+    "legalArticleValue", "legalArticleTitle", "futureLegalArticleHeader", "miscHeadline",
+    "footnoteLabel", "footnotereference", "data-marginOriginalId", "futuretitle",
+})
 
 
-def _joins_previous(node, root: Tag) -> bool:
-    previous = node.previous_sibling
-    if isinstance(previous, Tag) and _is_script(previous):
-        return True
-    script = _script_parent(node, root)
-    if script is None:
-        return False
-    before = previous if previous is not None else script.previous_sibling
-    return before is not None and not (isinstance(before, Tag) and before.name == "br")
+def _is_inline(tag: Tag) -> bool:
+    return tag.name in _INLINE_TAGS and not _SEPARATED_CLASSES.intersection(tag.get("class") or [])
+
+
+def _collect_text(node: Tag, parts: list) -> None:
+    for child in node.children:
+        if isinstance(child, Tag):
+            token = _marker(child)
+            if token:
+                parts.append(token)
+                continue
+            separated = not _is_inline(child)
+            if separated:
+                parts.append(" ")
+            _collect_text(child, parts)
+            if separated:
+                parts.append(" ")
+        elif type(child) in (NavigableString, CData):
+            parts.append(str(child))
 
 
 def _text(el: Tag) -> str:
-    """Extract text preserving spaces around inline elements like <a> tags.
+    """Extract text as written: inline markup joins, block elements separate.
 
-    Subscripts and superscripts stay attached to their word: CO<sub>2</sub> is CO2.
+    Subscripts and superscripts stay attached to their word (CO<sub>2</sub> is
+    CO2), punctuation stays attached to a preceding link, and footnote markers
+    become tokens in place.
     """
     if _marker(el):
         return _marker(el)
     parts = []
-    inside = set()
-    for node in el.descendants:
-        if isinstance(node, Tag):
-            token = _marker(node)
-            if token:
-                inside.update(id(child) for child in node.descendants)
-                if parts and not _is_script(node):
-                    parts.append(" ")
-                parts.append(token)
-            continue
-        if type(node) not in (NavigableString, CData) or id(node) in inside:
-            continue
-        if parts and not _joins_previous(node, el):
-            parts.append(" ")
-        parts.append(str(node))
+    _collect_text(el, parts)
     return re.sub(r'\s+', ' ', "".join(parts)).strip()
+
+
+def _footer_texts(footer: Tag) -> list[str]:
+    notes = footer.find_all("article", class_="footnote", recursive=False)
+    texts = [_text(note) for note in notes] if notes else [_text(footer)]
+    return [text for text in texts if text]
 
 
 def _inline_text(el: Tag) -> str:
@@ -341,6 +341,22 @@ def _parse_list(list_tag: Tag) -> list[ListItem]:
     return items
 
 
+def _piece(child) -> str:
+    if not isinstance(child, Tag):
+        return str(child)
+    if _marker(child):
+        return _marker(child)
+    if _is_inline(child):
+        parts = []
+        _collect_text(child, parts)
+        return "".join(parts)
+    return " " + _text(child) + " "
+
+
+def _joined(parts: list) -> str:
+    return re.sub(r'\s+', ' ', "".join(parts)).strip()
+
+
 def _parse_ledd(ledd: Tag) -> Paragraph:
     text_parts = []
     trailing_parts = []
@@ -352,24 +368,16 @@ def _parse_ledd(ledd: Tag) -> Paragraph:
     seen_list = False
 
     def flush_text():
-        text = " ".join(text_run).strip()
+        text = _joined(text_run)
         if text:
             blocks.append(ParagraphBlock(kind="text", text=text))
         text_run.clear()
 
-    def add(parts, text, joined):
-        if joined and parts:
-            parts[-1] += text
-        else:
-            parts.append(text)
-
-    open_end = False
-    after_script = False
     for child in ledd.children:
         if isinstance(child, Tag) and child.name in ("ul", "ol"):
             parsed_items = _parse_list(child)
             if parsed_items:
-                if seen_list and any(text_run):
+                if seen_list and _joined(text_run):
                     has_interleaving = True
                 flush_text()
                 blocks.append(ParagraphBlock(kind="list", list_items=parsed_items,
@@ -378,33 +386,20 @@ def _parse_ledd(ledd: Tag) -> Paragraph:
             if not items:
                 list_style = child.get("type", "") or ""
             items.extend(parsed_items)
-            open_end = False
-            after_script = False
-        elif isinstance(child, Tag):
-            text = _text(child)
-            joined = open_end and _is_script(child)
-            add(trailing_parts if items else text_parts, text, joined)
-            if text:
-                add(text_run, text, joined)
-            open_end = False
-            after_script = _is_script(child)
+            (trailing_parts if items else text_parts).append(" ")
+            text_run.append(" ")
         else:
-            raw = str(child)
-            t = raw.strip()
-            if t:
-                joined = after_script and not raw[:1].isspace()
-                add(trailing_parts if items else text_parts, t, joined)
-                add(text_run, t, joined)
-            open_end = bool(raw) and not raw[-1:].isspace()
-            after_script = False
+            piece = _piece(child)
+            (trailing_parts if items else text_parts).append(piece)
+            text_run.append(piece)
     if has_interleaving:
         flush_text()
         return Paragraph(ordered_blocks=blocks)
     return Paragraph(
-        text=" ".join(text_parts).strip(),
+        text=_joined(text_parts),
         list_items=items,
         list_style=list_style,
-        trailing_text=" ".join(trailing_parts).strip(),
+        trailing_text=_joined(trailing_parts),
     )
 
 
@@ -452,6 +447,8 @@ def parse_article(article_tag: Tag) -> Article:
             paragraphs.append(Paragraph(text=_text(child)))
         elif _is_header(child):
             pass
+        elif child.name == "footer":
+            trailing_parts.extend(_footer_texts(child))
         else:
             text = _text(child)
             if text:
@@ -494,8 +491,7 @@ def parse_section(section_tag: Tag) -> Section:
         elif child.name in ("h1", "h2", "h3", "h4", "h5", "h6"):
             pass
         elif child.name == "footer":
-            text = _text(child)
-            if text:
+            for text in _footer_texts(child):
                 order.append(ContentRef("footnote", len(footnotes)))
                 footnotes.append(text)
         else:

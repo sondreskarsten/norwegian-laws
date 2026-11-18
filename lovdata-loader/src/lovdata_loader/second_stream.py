@@ -22,7 +22,7 @@ from .markers import markers_in
 INLINE_TAGS = frozenset({"a", "b", "em", "i", "s", "small", "span", "strong", "sub", "sup", "u"})
 SEPARATED_CLASSES = frozenset({
     "legalArticleValue", "legalArticleTitle", "futureLegalArticleHeader", "miscHeadline",
-    "footnoteLabel", "footnotereference", "data-marginOriginalId",
+    "footnoteLabel", "footnotereference", "data-marginOriginalId", "futuretitle",
 })
 _WORD = re.compile(r"\w+", re.UNICODE)
 _SPACE = re.compile(r"\s+")
