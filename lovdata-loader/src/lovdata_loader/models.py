@@ -186,6 +186,7 @@ class LawData:
     last_amended: str
     last_amended_in_force: str
     legal_area: str
+    misc_information: str = ""
     sections: list[Section] = field(default_factory=list)
     top_level_articles: list[Article] = field(default_factory=list)
     top_level_paragraphs: list[Paragraph] = field(default_factory=list)
@@ -199,6 +200,8 @@ class LawData:
         if self.source_body is None:
             # Older receipt/model hashes must not acquire a new null field.
             data.pop("source_body")
+        if not self.misc_information:
+            data.pop("misc_information")
         return data
 
     def to_json(self, indent: int = 1) -> str:
@@ -218,6 +221,7 @@ class LawData:
             last_amended=d.get("last_amended", ""),
             last_amended_in_force=d.get("last_amended_in_force", ""),
             legal_area=d.get("legal_area", ""),
+            misc_information=d.get("misc_information", ""),
             sections=[_section_from_dict(s) for s in d.get("sections", [])],
             top_level_articles=[_article_from_dict(a) for a in d.get("top_level_articles", [])],
             top_level_paragraphs=[_paragraph_from_dict(p) for p in d.get("top_level_paragraphs", [])],

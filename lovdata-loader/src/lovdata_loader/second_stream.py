@@ -17,12 +17,12 @@ from lxml import etree
 
 from .coverage import model_tokens
 from .language_variants import base_refid, eli_for_refid, language_variants
-from .markers import markers_in
+from .markers import markers_in, plain_text
 
 INLINE_TAGS = frozenset({"a", "b", "em", "i", "s", "small", "span", "strong", "sub", "sup", "u"})
 SEPARATED_CLASSES = frozenset({
     "legalArticleValue", "legalArticleTitle", "futureLegalArticleHeader", "miscHeadline",
-    "footnoteLabel", "footnotereference", "data-marginOriginalId",
+    "footnoteLabel", "footnotereference", "data-marginOriginalId", "futuretitle",
 })
 _WORD = re.compile(r"\w+", re.UNICODE)
 _SPACE = re.compile(r"\s+")
@@ -36,10 +36,41 @@ def _is_inline(element) -> bool:
     return element.tag in INLINE_TAGS and not SEPARATED_CLASSES.intersection((element.get("class") or "").split())
 
 
+def _roman(n: int) -> str:
+    out = ""
+    for value, letters in ((1000, "m"), (900, "cm"), (500, "d"), (400, "cd"), (100, "c"), (90, "xc"),
+                           (50, "l"), (40, "xl"), (10, "x"), (9, "ix"), (5, "v"), (4, "iv"), (1, "i")):
+        while n >= value:
+            out, n = out + letters, n - value
+    return out
+
+
+def _letters(n: int) -> str:
+    out = ""
+    while n > 0:
+        n, rest = divmod(n - 1, 26)
+        out = chr(97 + rest) + out
+    return out
+
+
+def list_label(item) -> str:
+    if item.get("data-name"):
+        return item.get("data-name")
+    kind = item.getparent().get("type") if item.getparent() is not None else ""
+    value = (item.get("value") or "").strip()
+    if value.isdigit() and kind in ("1", "a", "A", "i", "I"):
+        n = int(value)
+        return {"1": str(n), "a": _letters(n), "A": _letters(n), "i": _roman(n), "I": _roman(n)}[kind]
+    legacy = item.get("data-li-identifier") or ""
+    return "" if legacy == "-" else legacy
+
+
 def _collect(element, parts: list) -> None:
     separated = not _is_inline(element)
     if separated:
         parts.append(" ")
+    if element.tag == "li":
+        parts.append(list_label(element) + " ")
     parts.append(element.text or "")
     for child in element:
         if isinstance(child.tag, str):
@@ -111,6 +142,7 @@ def read_document(raw: bytes) -> dict:
         "last_amended": changed_by[0] if changed_by else "",
         "last_amended_in_force": paired.group(1) if paired else text("lastChangeInForce"),
         "legal_area": items("legalArea"),
+        "misc_information": text("miscInformation"),
         "body_text": element_text(body) if body is not None else "",
         "markers": _source_markers(body) if body is not None else [],
     }
@@ -170,8 +202,14 @@ def compare_document(raw: bytes, law: dict) -> dict:
     }
     if source["last_amended_in_force"]:
         expected["last_amended_in_force"] = source["last_amended_in_force"]
+    if _squash(source["misc_information"]) != _squash(plain_text(law.get("misc_information") or "")):
+        header_misc = [source["misc_information"], law.get("misc_information") or ""]
+    else:
+        header_misc = None
     header = {name: [value, law.get(name) or ""] for name, value in expected.items()
               if _squash(value) != _squash(law.get(name) or "")}
+    if header_misc:
+        header["misc_information"] = header_misc
     if source["eli"] and source["eli"] != eli_for_refid(law.get("refid") or source["refid"]):
         header["eli"] = [source["eli"], eli_for_refid(law.get("refid") or source["refid"])]
     source_words = _tokens(source["body_text"])

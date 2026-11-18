@@ -139,3 +139,73 @@ def test_amendment_act_keeps_every_ministry():
 </dl></header><main class="documentBody"><h1>Forskrift</h1></main></body></html>"""
     record = parse_lovtidend_file(act, "sf-20200101-0001.xml")
     assert record.ministry == "Fiskeridepartementet\nLandbruksdepartementet"
+
+
+def test_links_keep_following_punctuation_and_inline_markup_joins_words():
+    doc = DOCUMENT.replace(
+        '<article class="legalP">Avgiften gjelder'.encode(),
+        '<article class="legalP">Se <a href="lov/1/§3">§ 3</a>. Sa<i>m</i>me (<a href="x">pkt</a>) og<br/>neste. Avgiften gjelder'.encode())
+    text = parse_law(doc).sections[0].articles[0].paragraphs[0].text
+    assert text.startswith("Se § 3. Samme (pkt) og neste. Avgiften gjelder")
+    result = compare_document(doc, asdict(parse_law(doc)))
+    assert not result["lost"] and not result["novel"]
+
+
+def test_each_footnote_is_its_own_line_and_adjacent_titles_stay_apart():
+    doc = DOCUMENT.replace(b"</article></section>", (
+        b'<footer class="footnotes"><article class="footnote" data-unique-footnote-counter="1"><span class="footnoteLabel">1</span> Jf. ODA art. 3.</article>'
+        b'<article class="footnote" data-unique-footnote-counter="2"><span class="footnoteLabel">2</span> N\xc3\xa5 domstolen.</article></footer>'
+        b'</article><span class="futuretitle">C46. Samfunnsmedisin</span><span class="futuretitle">C46.1 Rolle</span></section>'))
+    law = parse_law(doc)
+    assert law.sections[0].articles[0].trailing_text.split("\n") == [
+        '<sup data-fn-note="1">1</sup> Jf. ODA art. 3.', '<sup data-fn-note="2">2</sup> Nå domstolen.']
+    result = compare_document(doc, asdict(law))
+    assert not result["lost"] and not result["novel"]
+
+
+def _article_body(inner: bytes) -> bytes:
+    start = DOCUMENT.index(b'<article class="legalP">Avgiften')
+    end = DOCUMENT.index(b"</article></section>")
+    return DOCUMENT[:start] + inner + DOCUMENT[end:]
+
+
+def test_loose_blocks_join_the_ledd_before_them_and_keep_their_markers():
+    doc = _article_body(
+        b'<article class="legalP">I denne lov betyr:</article>'
+        b'<ol class="defaultList" type="a"><li data-name="a)" value="1">skip</li><li value="2">fly</li></ol>'
+        b'<article class="marginIdArticle"><span class="data-marginOriginalId">3.</span><article class="legalP">innretning</article></article>'
+        b'<article class="defaultP">Slutt.</article>'
+        b'<article class="legalP">Annet ledd.</article>'
+        b'<article class="changesToParent">Endret ved lov 1.</article>')
+    article = parse_law(doc).sections[0].articles[0]
+    assert len(article.paragraphs) == 2
+    first = article.paragraphs[0]
+    assert first.text == "I denne lov betyr:" and first.trailing_text == "Slutt."
+    assert [item.marker for item in first.list_items] == ["a)", "b)", "3."]
+    assert article.paragraphs[1].text == "Annet ledd."
+    assert article.trailing_text == "Endret ved lov 1."
+    result = compare_document(doc, asdict(parse_law(doc)))
+    assert not result["lost"] and not result["novel"]
+
+
+def test_blocks_before_the_first_ledd_open_it_and_chapter_lists_split_per_item():
+    doc = _article_body(b'<article class="defaultP">Innledning.</article><article class="legalP">F\xc3\xb8rste ledd.</article>'
+                        ).replace(b"</article></section>", b'</article><ol type="1"><li value="1">en</li><li value="2">to</li></ol></section>')
+    law = parse_law(doc)
+    paragraphs = law.sections[0].articles[0].paragraphs
+    assert len(paragraphs) == 1
+    assert [block.text for block in paragraphs[0].ordered_blocks] == ["Innledning.", "Første ledd."]
+    assert law.sections[0].preamble == ["1. en", "2. to"]
+    result = compare_document(doc, asdict(law))
+    assert not result["lost"] and not result["novel"]
+
+
+def test_misc_information_is_kept_and_compared():
+    doc = DOCUMENT.replace(b'<dt class="refid">', b'<dt class="miscInformation">Annet</dt><dd class="miscInformation">Hjemmel: lov <a href="lov/1">1</a>.</dd><dt class="refid">')
+    law = parse_law(doc)
+    assert law.misc_information == "Hjemmel: lov 1."
+    assert compare_document(doc, asdict(law))["header"] == {}
+    changed = asdict(law)
+    changed["misc_information"] = ""
+    assert set(compare_document(doc, changed)["header"]) == {"misc_information"}
+    assert "misc_information" not in parse_law(DOCUMENT).to_dict()

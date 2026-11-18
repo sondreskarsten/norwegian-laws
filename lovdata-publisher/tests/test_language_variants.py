@@ -109,3 +109,33 @@ def test_reader_page_leaves_private_use_characters_in_the_source_alone():
     assert "" in html and "" in html
     assert '<sup class="fotnoteref"><a href="#fotnote_3" id="fotnoteref_3">1</a></sup>' in html
     assert 'id="fotnote_3">1</a>' in html
+
+
+def test_each_trailing_note_is_its_own_paragraph():
+    from lovdata_publisher.formatter import format_article
+    text = format_article({"name": "§1", "header_text": "§ 1", "paragraphs": [],
+                           "trailing_text": "Endra med lov 1.\n<sup data-fn-note=\"1\">1</sup> Jf. avtalen."})
+    assert "*Endra med lov 1.*\n\n*<sup data-fn-note=\"1\">1</sup> Jf. avtalen.*" in text
+
+
+def test_lettered_items_break_lines_and_numbered_stay_a_list():
+    from lovdata_publisher.formatter import format_article
+    item = lambda marker, text: {"marker": marker, "paragraphs": [{"text": text}]}
+    lettered = format_article({"paragraphs": [{"text": "Skaden", "list_items": [item("a.", "en"), item("b.", "to")]}]})
+    assert "a. en  \nb. to\n" in lettered
+    labelled = format_article({"paragraphs": [{"text": "Skaden", "list_items": [item("12.", "en"), item("12.1.", "to")]}]})
+    assert "12\\. en  \n12\\.1. to\n" in labelled
+    numbered = format_article({"paragraphs": [{"text": "Skaden", "list_items": [item("1.", "en"), item("2.", "to")]}]})
+    assert "1. en\n2. to\n" in numbered
+
+
+def test_misc_information_and_archive_link_in_the_document(tmp_path):
+    import json
+    from lovdata_publisher.formatter import format_law_markdown, lovdata_bases
+    (tmp_path / "source-members.jsonl").write_text(json.dumps(
+        {"selected": True, "refid": "forskrift/2007-12-21-1823", "role": "forskrifter", "member_path": "del/sf-20071221-1823.xml"}) + "\n")
+    bases = lovdata_bases(str(tmp_path))
+    text = format_law_markdown({"refid": "forskrift/2007-12-21-1823", "title": "T", "ministry": "", "misc_information": "Hjemmel: lov 1.",
+                                "lovdata_base": bases["forskrift/2007-12-21-1823"], "sections": []})
+    assert 'lovdata: "https://lovdata.no/dokument/DEL/forskrift/2007-12-21-1823"' in text
+    assert "# T\n\n*Hjemmel: lov 1.*\n" in text

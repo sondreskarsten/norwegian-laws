@@ -467,10 +467,10 @@ def generate_per_law_pages(
             tittel = meta.get("tittel", md_file.stem)
             korttittel = meta.get("korttittel", "")
             refid = meta.get("refid", "")
-            dept = meta.get("departement", "").split(",")[0].strip()
+            dept = meta.get("departement", "").split("\\n")[0].split(",")[0].strip()
             ikrafttredelse = meta.get("ikrafttredelse", "")
             sist_endret = meta.get("sist-endret", "")
-            rettsomrade = meta.get("rettsomrade", "").replace(">", " &raquo; ").replace("\n", " · ")
+            rettsomrade = meta.get("rettsomrade", "").replace(">", " &raquo; ").replace("\\n", " · ")
 
             if not dept:
                 dept = "Ukjent"
@@ -490,11 +490,11 @@ def generate_per_law_pages(
             if refid.startswith("forskrift/"):
                 github_blob = f"{GITHUB_BASE}/blob/main/forskrifter/{filename}"
                 github_log = f"{GITHUB_BASE}/commits/{HISTORY_BRANCH}/forskrifter/{filename}"
-                lovdata_doc_url = f"https://lovdata.no/dokument/SF/{refid}"
+                lovdata_doc_url = meta.get("lovdata") or f"https://lovdata.no/dokument/SF/{refid}"
             else:
                 github_blob = f"{GITHUB_BASE}/blob/main/lover/{filename}"
                 github_log = f"{GITHUB_BASE}/commits/{HISTORY_BRANCH}/lover/{filename}"
-                lovdata_doc_url = f"https://lovdata.no/dokument/NL/{refid}"
+                lovdata_doc_url = meta.get("lovdata") or f"https://lovdata.no/dokument/NL/{refid}"
             version_links = compute_version_links_html(refid, version_tags, filename)
             feed_path = site_index.feed(refid) if site_index is not None else f"feeds/{md_file.stem}.xml"
             if feed_path:
