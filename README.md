@@ -11,17 +11,16 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-17*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-18*
 
-1 nytt dokument og 4 endrede dokumenter i denne publiseringen.
+2 nye dokumenter og 1 endret dokument i denne publiseringen.
 
 Nye dokumenter:
-- forskrift/2026-11-13-2342: Forskrift om endringer i forskrift om forsvars- og sikkerhetsanskaffelser mv. (Justis- og beredskapsdepartementet)
+- forskrift/2026-11-15-2361: Forskrift om endring i dyreimportforskriften for å gjennomføre endringer av tredjelandslista, forordning (EU) 2026/2503 (Landbruks- og matdepartementet)
+- forskrift/2026-11-16-2362: Forskrift om endring i merverdiavgiftsforskriften (Finansdepartementet)
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-11-13-2343 endrer 1 dokument: forskrift/2025-06-06-940 Feltsikkerhetsforskriften
-- forskrift/2026-11-12-2340 endrer 1 dokument: forskrift/2007-06-29-876 Verdipapirforskriften
-- (endringskilde ikke oppgitt) endrer 2 dokumenter: forskrift/2022-05-20-883 Kredittopplysningsforskriften; forskrift/2026-10-09-2216 Utvidelse av virkeområdet til lov 13. mars 1981 nr. 6 om vern mot forurensninger og avfall (forurensningsloven)
+- forskrift/2026-11-11-2360 endrer 1 dokument: forskrift/2017-04-18-480 Biocidforskriften
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -39,11 +38,11 @@ Endrede dokumenter etter endringskilde:
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-11-17 | Endr. i utlendingsforskriften | [`forskrift/2009-10-15-1286`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-10-15-1286.html) |
+| 2026-11-17 | Forskrift om endring i forskrift for graden philosophiae doctor (ph… | [`forskrift/2025-02-13-282`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-02-13-282.html) |
+| 2026-11-17 | Forskrift om endring i forskrift for graden philosophiae doctor (ph… | [`forskrift/2025-02-13-283`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-02-13-283.html) |
+| 2026-11-17 | Vedtak om opphevelse av mandat for forvaltningen av Statens obligas… | [`forskrift/2020-03-27-488`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-03-27-488.html) |
 | 2026-11-16 | Endr. i merverdiavgiftsforskriften | [`forskrift/2009-12-15-1540`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-12-15-1540.html) |
-| 2026-11-16 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
-| 2026-11-16 | Endr. i Biocidforskriften | [`forskrift/2017-04-18-480`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-04-18-480.html) |
-| 2026-11-13 | Forskrift om endringer i forskrift om forsvars- og sikkerhetsanskaf… | [`forskrift/2013-10-04-1185`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-10-04-1185.html) [`forskrift/2022-05-20-883`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-05-20-883.html) [`forskrift/2024-01-26-111`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-01-26-111.html) |
-| 2026-11-13 | Endr. i feltsikkerhetsforskriften | [`forskrift/2025-06-06-940`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-06-06-940.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe

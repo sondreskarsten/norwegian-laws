@@ -6,6 +6,19 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-18
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+2 nye dokumenter og 1 endret dokument i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-15-2361: Forskrift om endring i dyreimportforskriften for å gjennomføre endringer av tredjelandslista, forordning (EU) 2026/2503 (Landbruks- og matdepartementet)
+- forskrift/2026-11-16-2362: Forskrift om endring i merverdiavgiftsforskriften (Finansdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-11-2360 endrer 1 dokument: forskrift/2017-04-18-480 Biocidforskriften
+
 ## 2026-11-17
 
 *Oppsummering av endringene, generert fra publiseringens diff*
