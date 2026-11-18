@@ -18,7 +18,7 @@ Updated **2 November 2026**. The 29–30 October stress test ([log](docs/STRESS-
 
 ## Open checks
 
-- Reader pages have only been checked as HTML, not viewed in a browser. Look at the bilansvarslova and EØS-loven pages once deploy #269 has run, and compare them directly with lovdata.no from the laptop, which can reach the published `.io` pages. Start after the lovdata.no web comparison is done.
+- Reader pages for bilansvarslova and EØS-loven viewed in a browser on 18 November 2026 (desktop 1366 px, phone 375 px) next to lovdata.no. The live site was still the build of run #268, since deploy #269 failed. Findings: [reader check](docs/evidence/lovdata-web-comparison-2026-11-17/reader-check-2026-11-18.md). Recheck footnote markers and amendment-note styling once a deploy after #44 has run.
 
 ## Housekeeping
 
