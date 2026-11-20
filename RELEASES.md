@@ -6,6 +6,17 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-20
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+3 endrede dokumenter i denne publiseringen.
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-16-2373 endrer 1 dokument: forskrift/2009-10-15-1286 Utlendingsforskriften
+- forskrift/2026-11-06-2372 endrer 1 dokument: forskrift/2025-02-13-283 Forskrift for graden philosophiae doctor (ph.d.) i kunstnerisk utviklingsarbeid ved Universitetet i Bergen
+- forskrift/2026-11-06-2371 endrer 1 dokument: forskrift/2025-02-13-282 Forskrift for graden philosophiae doctor (ph.d.) ved Universitetet i Bergen
+
 ## 2026-11-18
 
 *Oppsummering av endringene, generert fra publiseringens diff*
