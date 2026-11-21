@@ -11,14 +11,18 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-20*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-21*
 
-3 endrede dokumenter i denne publiseringen.
+3 nye dokumenter og 2 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-10-2387: Forskrift om autorisasjonsprøven ved Norges Handelshøyskole for å bli statsautorisert translatør (Kunnskapsdepartementet)
+- forskrift/2026-11-18-2389: Delegering av myndighet etter viltressursloven § 58 og § 59 fra Landbruks- og matdepartementet til Landbruksdirektoratet (Landbruks- og matdepartementet)
+- forskrift/2026-11-18-2405: Forskrift om satser mv. til bruk for forskudd og skattefastsetting for 2027 (Finansdepartementet)
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-11-16-2373 endrer 1 dokument: forskrift/2009-10-15-1286 Utlendingsforskriften
-- forskrift/2026-11-06-2372 endrer 1 dokument: forskrift/2025-02-13-283 Forskrift for graden philosophiae doctor (ph.d.) i kunstnerisk utviklingsarbeid ved Universitetet i Bergen
-- forskrift/2026-11-06-2371 endrer 1 dokument: forskrift/2025-02-13-282 Forskrift for graden philosophiae doctor (ph.d.) ved Universitetet i Bergen
+- forskrift/2026-11-17-2388 endrer 1 dokument: forskrift/2021-05-11-1456 Forskrift om restriktive tiltak mot spredning og bruk av kjemiske våpen
+- (endringskilde ikke oppgitt) endrer 1 dokument: forskrift/2021-06-17-2044 Forskrift om translatøreksamen, NHH
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -36,11 +40,11 @@ Endrede dokumenter etter endringskilde:
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-11-19 | Endr. i spesialistforskriften | [`forskrift/2016-12-08-1482`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-12-08-1482.html) |
+| 2026-11-19 | Forskrift om endring i forskrift om fôrvarer | [`forskrift/2002-11-07-1290`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2002-11-07-1290.html) |
 | 2026-11-18 | Forskrift om autorisasjonsprøven ved Norges Handelshøyskole for å b… | [`forskrift/2021-06-17-2044`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-06-17-2044.html) |
 | 2026-11-18 | Forskrift om endring i forskrift om restriktive tiltak mot sprednin… | [`forskrift/2021-05-11-1456`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-05-11-1456.html) |
 | 2026-11-17 | Endr. i utlendingsforskriften | [`forskrift/2009-10-15-1286`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-10-15-1286.html) |
-| 2026-11-17 | Forskrift om endring i forskrift for graden philosophiae doctor (ph… | [`forskrift/2025-02-13-282`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-02-13-282.html) |
-| 2026-11-17 | Forskrift om endring i forskrift for graden philosophiae doctor (ph… | [`forskrift/2025-02-13-283`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-02-13-283.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe

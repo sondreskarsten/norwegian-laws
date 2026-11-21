@@ -6,6 +6,21 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-21
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+3 nye dokumenter og 2 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-10-2387: Forskrift om autorisasjonsprøven ved Norges Handelshøyskole for å bli statsautorisert translatør (Kunnskapsdepartementet)
+- forskrift/2026-11-18-2389: Delegering av myndighet etter viltressursloven § 58 og § 59 fra Landbruks- og matdepartementet til Landbruksdirektoratet (Landbruks- og matdepartementet)
+- forskrift/2026-11-18-2405: Forskrift om satser mv. til bruk for forskudd og skattefastsetting for 2027 (Finansdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-17-2388 endrer 1 dokument: forskrift/2021-05-11-1456 Forskrift om restriktive tiltak mot spredning og bruk av kjemiske våpen
+- (endringskilde ikke oppgitt) endrer 1 dokument: forskrift/2021-06-17-2044 Forskrift om translatøreksamen, NHH
+
 ## 2026-11-20
 
 *Oppsummering av endringene, generert fra publiseringens diff*
