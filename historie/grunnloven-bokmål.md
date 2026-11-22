@@ -1844,6 +1844,10 @@ refid: "lov/1814-05-17"
 
 *Nåværende § 116 annet punktum blir første punktum.*
 
+### 2026-11-03 — forskrift/2026-11-20-2434
+
+*Nåværende § 41 annet punktum blir nytt tredje punktum.*
+
 ## § 100
 
 ### 2006-02-02 — forskrift/2006-03-03-271
@@ -2343,6 +2347,72 @@ refid: "lov/1814-05-17"
 > Regjeringa har ikkje rett til å nytte militær makt mot innbyggjarane utan etter lov, med mindre ei forsamling skiplar den offentlege roa og ikkje skilst åt så snart den sivile styresmakta tre gonger har lese lovføresegnene om opprør høgt og tydeleg for henne.
 >
 
+### 2026-11-03 — forskrift/2026-11-20-2435
+
+*§ 25 første ledd skal lyde:*
+
+> Kongen har høyeste befaling over rikets forsvarsmakt. Kongen har rett til å mobilisere forsvarsmakten, begynne krig til forsvar av landet og slutte fred.
+>
+> –
+>
+> Kongen har høgste befalinga over forsvarsmakta til riket. Kongen har rett til å mobilisere forsvarsmakta, byrje krig til forsvar av landet og slutte fred.
+>
+
+### 2026-11-03 — forskrift/2026-11-20-2435
+
+*§ 25 andre ledd skal lyde:*
+
+> Forsvarsmakten må ikke overlates til fremmede makter, men begrenset kommandomyndighet kan tildeles rikets allierte for den tid riket deltar i en operasjon sammen med allierte.
+>
+> –
+>
+> Forsvarsmakta må ikkje overlatast til framande makter, men avgrensa kommandoråderett kan gjevast til allierte av riket for den tid riket er med i ein operasjon saman med allierte.
+>
+
+### 2026-11-03 — forskrift/2026-11-20-2435
+
+*§ 25 tredje ledd skal lyde:*
+
+> Forsvarsmakten må ikke forøkes eller forminskes uten Stortingets samtykke.
+>
+> –
+>
+> Forsvarsmakta må ikkje aukast eller minkast utan samtykke frå Stortinget.
+>
+
+### 2026-11-03 — forskrift/2026-11-20-2435
+
+*§ 25 fjerde ledd skal lyde:*
+
+> Forsvarsmakten må ikke uten Stortingets samtykke sendes ut av riket dersom det medfører en vesentlig svekkelse av rikets forsvar.
+>
+> –
+>
+> Forsvarsmakta må ikkje utan samtykke frå Stortinget sendast ut av riket dersom det fører med seg ei monaleg svekking av forsvaret av riket.
+>
+
+### 2026-11-03 — forskrift/2026-11-20-2435
+
+*§ 25 femte ledd skal lyde:*
+
+> Ingen fremmede stridskrefter, unntatt allierte styrker, må gis adgang til riket uten Stortingets samtykke.
+>
+> –
+>
+> Ingen framande stridskrefter, så nær som allierte styrkar, må dragast inn i riket utan samtykke frå Stortinget.
+>
+
+### 2026-11-03 — forskrift/2026-11-20-2435
+
+*§ 25 sjette ledd skal lyde:*
+
+> Kongen har ikke rett til å bruke militær makt mot innbyggerne uten etter lov.
+>
+> –
+>
+> Kongen har ikkje rett til å nytte militær makt mot innbyggjarane utan etter lov.
+>
+
 ## § 26
 
 ### 2006-02-02 — forskrift/2006-03-03-270
@@ -2350,6 +2420,28 @@ refid: "lov/1814-05-17"
 *§ 26 annet ledd skal lyde:*
 
 > Traktater angaaende Sager af særlig Vigtighed og i alle Tilfælde Traktater hvis Iværksættelse efter Konstitutionen nødvendiggjør en ny Lov eller Storthingsbeslutning, blive først bindende, naar Storthinget har givet sit Samtykke dertil.
+>
+
+### 2026-11-03 — forskrift/2026-11-20-2435
+
+*§ 26 første ledd skal lyde:*
+
+> Kongen har rett til å inngå og oppheve folkerettslige avtaler og til å sende og motta diplomatiske representanter.
+>
+> –
+>
+> Kongen har rett til å inngå og seie opp folkerettslege avtaler og til å sende og motta diplomatiske representantar.
+>
+
+### 2026-11-03 — forskrift/2026-11-20-2435
+
+*§ 26 andre ledd skal lyde:*
+
+> Folkerettslige avtaler om saker som er av særlig stor viktighet, og i alle tilfeller folkerettslige avtaler hvis iverksettelse etter Grunnloven nødvendiggjør en ny lov eller et stortingsvedtak, blir først bindende når Stortinget har gitt sitt samtykke dertil.
+>
+> –
+>
+> Folkerettslege avtaler om særleg viktige saker blir fyrst bindande når Stortinget har gjeve samtykke til det. Det same gjeld alle folkerettslege avtaler som etter konstitusjonen ikkje kan setjast i verk utan ei ny lov eller eit nytt stortingsvedtak.
 >
 
 ## § 27
@@ -2455,6 +2547,17 @@ refid: "lov/1814-05-17"
 *§ 41 første punktum skal lyde:*
 
 > Er kongen utanfor riket utan å vere i felt, eller er han så sjuk at han ikkje kan ta seg av regjeringa, skal den næraste arvingen til trona stå for regjeringa som mellombels utøvar av kongemakta, så framt ho eller han har nådd myndig alder for kongen.
+>
+
+### 2026-11-03 — forskrift/2026-11-20-2434
+
+*§ 41 nytt annet punktum skal lyde:*
+
+> Kan heller ikke den nærmest arveberettigede forestå regjeringen, forestår dennes barn regjeringen som kongemaktens midlertidige utøver, så fremt han eller hun er neste arveberettigede til tronen og har oppnådd den for kongen fastsatte myndighetsalder.
+>
+> –
+>
+> Kan heller ikkje den næraste arvingen stå for regjeringa, står hennar eller hans barn for regjeringa som mellombels utøvar av kongemakta, så framt ho eller han er neste arvingen til trona og har nådd myndig alder for kongen.
 >
 
 ## § 49
@@ -2989,6 +3092,13 @@ refid: "lov/1814-05-17"
 *§ 75 skal lyde:*
 
 > Det høyrer Stortinget tilå gje og oppheve lover; å fastsetje skattar, avgifter, toll og andre offentlege bører, som likevel ikkje gjeld etter 31. desember året etter, om dei ikkje blir uttrykkeleg fornya av eit nytt storting;å opne lån på rikets kreditt;å føre oppsyn med pengestellet i riket;å løyve dei pengesummane som trengst til statsutgiftene;å fastsetje kor mykje kongen skal få utbetalt til hoffstaten sin kvart år, og fastsetje den kongelege familiens apanasje, som ikkje kan vere i fast eigedom;å få seg førelagt protokollane frå statsrådet og alle offentlege meldingar og papir;å få melding om dei folkerettslege avtalene som kongen har gjort med framande makter for staten;å kunne gje kven som helst påbod om å møte for seg i statssaker, så nær som kongen og den kongelege familien; likevel kan dei kongelege prinsessene og prinsane kallast inn dersom dei har embete;å revidere lister over mellombels løner og pensjonar og gjere dei endringane som Stortinget meiner trengst;å utnemne fem revisorar som skal sjå gjennom statsrekneskapane kvart år og kunngjere utdrag av dei på prent; revisorane skal få rekneskapane tilsende innan seks månader etter utgangen av det året som Stortinget har gjeve løyvingar for; og å gje føresegner om ordninga av desisjonsmakta overfor rekneskapstenestemennene til staten;å utnemne ein som ikkje er medlem av Stortinget, som etter nærare føresegner fastsette i lov skal føre kontroll med den offentlege forvaltninga og alle som er i offentleg teneste, for å hindre at det blir gjort urett mot den einskilde borgaren;å gje innføddsrett.
+>
+
+### 2026-11-03 — forskrift/2026-11-20-2435
+
+*§ 75 bokstav g skal lyde:*
+
+> å la seg meddele de folkerettslige avtalene kongen på statens vegne har inngått med fremmede makter;
 >
 
 ## § 76

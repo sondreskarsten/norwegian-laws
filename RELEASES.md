@@ -6,6 +6,18 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-22
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+8 endrede dokumenter i denne publiseringen.
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-20-2435 endrer 2 dokumenter: lov/1814-05-17 Grunnloven (bokmål) – Grl.; lov/1814-05-17-nn Grunnlova (nynorsk) – Grl.
+- forskrift/2026-11-18-2404 endrer 1 dokument: forskrift/2016-12-08-1482 Spesialistforskriften
+- forskrift/2026-11-12-2403 endrer 1 dokument: forskrift/2002-11-07-1290 Forvareforskriften – forforskriften
+- (endringskilde ikke oppgitt) endrer 4 dokumenter: lov/2025-05-27-21 Lov om marint naturmangfold i områder utenfor nasjonal jurisdiksjon; lov/2026-06-12-25 Lov om innsats mot negativ sosial kontroll og æresmotivert vold; lov/2026-06-19-63 Lov om infrastruktur for alternativt drivstoff; lov/2026-06-23-75 Lov om granskingskommisjon, Epstein-dokumentene
+
 ## 2026-11-21
 
 *Oppsummering av endringene, generert fra publiseringens diff*
