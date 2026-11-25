@@ -6,6 +6,19 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-25
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+1 nytt dokument og 2 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-19-2431: Forskrift om endring i merverdiavgiftsforskriften (Finansdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-19-2433 endrer 1 dokument: forskrift/2025-07-01-1396 Innkrevingsforskriften
+- forskrift/2026-11-19-2432 endrer 1 dokument: forskrift/2014-08-22-1097 CRR/CRD-forskriften
+
 ## 2026-11-22
 
 *Oppsummering av endringene, generert fra publiseringens diff*

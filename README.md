@@ -11,15 +11,16 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-22*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-25*
 
-8 endrede dokumenter i denne publiseringen.
+1 nytt dokument og 2 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-19-2431: Forskrift om endring i merverdiavgiftsforskriften (Finansdepartementet)
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-11-20-2435 endrer 2 dokumenter: lov/1814-05-17 Grunnloven (bokmål) – Grl.; lov/1814-05-17-nn Grunnlova (nynorsk) – Grl.
-- forskrift/2026-11-18-2404 endrer 1 dokument: forskrift/2016-12-08-1482 Spesialistforskriften
-- forskrift/2026-11-12-2403 endrer 1 dokument: forskrift/2002-11-07-1290 Forvareforskriften – forforskriften
-- (endringskilde ikke oppgitt) endrer 4 dokumenter: lov/2025-05-27-21 Lov om marint naturmangfold i områder utenfor nasjonal jurisdiksjon; lov/2026-06-12-25 Lov om innsats mot negativ sosial kontroll og æresmotivert vold; lov/2026-06-19-63 Lov om infrastruktur for alternativt drivstoff; lov/2026-06-23-75 Lov om granskingskommisjon, Epstein-dokumentene
+- forskrift/2026-11-19-2433 endrer 1 dokument: forskrift/2025-07-01-1396 Innkrevingsforskriften
+- forskrift/2026-11-19-2432 endrer 1 dokument: forskrift/2014-08-22-1097 CRR/CRD-forskriften
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -37,11 +38,11 @@ Endrede dokumenter etter endringskilde:
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-11-20 | Endr. i merverdiavgiftsforskriften | [`forskrift/2009-12-15-1540`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-12-15-1540.html) |
-| 2026-11-20 | Endr. i CRR/CRD-forskriften | [`forskrift/2014-08-22-1097`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-08-22-1097.html) |
-| 2026-11-20 | Endr. i innkrevingsforskriften | [`forskrift/2025-07-01-1396`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-07-01-1396.html) |
-| 2026-11-19 | Endr. i spesialistforskriften | [`forskrift/2016-12-08-1482`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-12-08-1482.html) |
-| 2026-11-19 | Forskrift om endring i forskrift om fôrvarer | [`forskrift/2002-11-07-1290`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2002-11-07-1290.html) |
+| 2026-11-23 | Forskrift om endring i forskrift om gjenvinning av skip og flyttbar… | [`forskrift/2018-12-06-1813`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-06-1813.html) |
+| 2026-11-23 | Forskrift om endring i forskrift om sanksjoner i lys av situasjonen… | [`forskrift/2023-03-24-404`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-03-24-404.html) |
+| 2026-11-23 | Forskrift om endring i forskrift om regulering av fisket etter tors… | [`forskrift/2025-12-19-2805`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2805.html) |
+| 2026-11-23 | Vedtak om endring i delegering av myndighet fra Helse- og omsorgsde… | [`forskrift/2010-03-18-425`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-03-18-425.html) |
+| 2026-11-23 | Forskrift om endring i forskrift om regulering av fisket etter sild… | [`forskrift/2025-12-19-2828`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2828.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
