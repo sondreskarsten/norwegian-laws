@@ -6,6 +6,19 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-26
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+5 endrede dokumenter i denne publiseringen.
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-23-2440 endrer 1 dokument: forskrift/2023-03-24-404 Forskrift om sanksjoner i lys av situasjonen i Haiti
+- forskrift/2026-11-23-2439 endrer 1 dokument: forskrift/2018-12-06-1813 Forskrift om gjenvinning av skip og flyttbare innretninger
+- forskrift/2026-11-20-2438 endrer 1 dokument: forskrift/2010-03-18-425 Delegering av myndighet fra Helse- og omsorgsdepartementet til Helsedirektoratet
+- forskrift/2026-11-20-2437 endrer 1 dokument: forskrift/2025-12-19-2805 Forskrift om regulering av fisket etter torsk i Nordsjøen og Skagerrak i 2026
+- forskrift/2026-11-19-2436 endrer 1 dokument: forskrift/2025-12-19-2828 Forskrift om regulering av fisket etter sild i Nordsjøen og Skagerrak i 2026
+
 ## 2026-11-25
 
 *Oppsummering av endringene, generert fra publiseringens diff*
