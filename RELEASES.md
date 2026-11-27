@@ -6,6 +6,20 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-27
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+2 nye dokumenter og 2 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-23-2460: Forskrift om endring i skattebetalingsforskriften (Finansdepartementet)
+- forskrift/2026-11-24-2462: Forskrift om endring i forskrift om gradvis anvendelse av nytt regelverk om utlegg mv. (utrullingsforskriften) (Finansdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-23-2461 endrer 1 dokument: forskrift/2015-09-18-1061 Forskrift om sanksjoner og tiltak, Den sentralafrikanske republikk
+- forskrift/2026-11-16-2459 endrer 1 dokument: forskrift/1991-06-20-381 Forskrift om utenlandsregistrert motorvogn
+
 ## 2026-11-26
 
 *Oppsummering av endringene, generert fra publiseringens diff*
