@@ -6,6 +6,21 @@ No entries exist between 28 July and 2 November 2026: the summary step depended 
 
 <!-- ENTRIES -->
 
+## 2026-11-28
+
+*Oppsummering av endringene, generert fra publiseringens diff*
+
+1 nytt dokument og 4 endrede dokumenter i denne publiseringen.
+
+Nye dokumenter:
+- forskrift/2026-11-24-2474: Forskrift om endring i forskrift om konkursregisteret og om kunngjøringer etter konkursloven (Justis- og beredskapsdepartementet)
+
+Endrede dokumenter etter endringskilde:
+- forskrift/2026-11-25-2477 endrer 1 dokument: forskrift/2012-01-20-84 Transportklagenemndforskriften
+- forskrift/2026-11-24-2476 endrer 1 dokument: forskrift/2026-06-22-1211 Forskrift om regulering av fisket etter brisling i 2026–2027
+- forskrift/2026-11-24-2475 endrer 1 dokument: forskrift/2022-04-06-633 Dyreimportforskriften
+- forskrift/2026-11-24-2473 endrer 1 dokument: forskrift/2025-09-11-1850 Opptaksforskrifta
+
 ## 2026-11-27
 
 *Oppsummering av endringene, generert fra publiseringens diff*

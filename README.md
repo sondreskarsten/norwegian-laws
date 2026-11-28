@@ -11,17 +11,18 @@ The current reader reflects the consolidated sources selected for its last succe
 Recent parsed amendment acts, ordered by their source publication date and refreshed by the publishing workflow:
 
 <!-- AI_SUMMARY_START -->
-*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-27*
+*Oppsummering av endringene, generert fra publiseringens diff · 2026-11-28*
 
-2 nye dokumenter og 2 endrede dokumenter i denne publiseringen.
+1 nytt dokument og 4 endrede dokumenter i denne publiseringen.
 
 Nye dokumenter:
-- forskrift/2026-11-23-2460: Forskrift om endring i skattebetalingsforskriften (Finansdepartementet)
-- forskrift/2026-11-24-2462: Forskrift om endring i forskrift om gradvis anvendelse av nytt regelverk om utlegg mv. (utrullingsforskriften) (Finansdepartementet)
+- forskrift/2026-11-24-2474: Forskrift om endring i forskrift om konkursregisteret og om kunngjøringer etter konkursloven (Justis- og beredskapsdepartementet)
 
 Endrede dokumenter etter endringskilde:
-- forskrift/2026-11-23-2461 endrer 1 dokument: forskrift/2015-09-18-1061 Forskrift om sanksjoner og tiltak, Den sentralafrikanske republikk
-- forskrift/2026-11-16-2459 endrer 1 dokument: forskrift/1991-06-20-381 Forskrift om utenlandsregistrert motorvogn
+- forskrift/2026-11-25-2477 endrer 1 dokument: forskrift/2012-01-20-84 Transportklagenemndforskriften
+- forskrift/2026-11-24-2476 endrer 1 dokument: forskrift/2026-06-22-1211 Forskrift om regulering av fisket etter brisling i 2026–2027
+- forskrift/2026-11-24-2475 endrer 1 dokument: forskrift/2022-04-06-633 Dyreimportforskriften
+- forskrift/2026-11-24-2473 endrer 1 dokument: forskrift/2025-09-11-1850 Opptaksforskrifta
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -39,11 +40,11 @@ Endrede dokumenter etter endringskilde:
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-11-26 | Stortingsvedtak om endringer i Stortingets forretningsorden | [`forskrift/2012-06-07-518`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-06-07-518.html) |
 | 2026-11-25 | Forskrift om endring i forskrift om konkursregisteret og om kunngjø… | [`forskrift/1993-08-23-824`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1993-08-23-824.html) |
 | 2026-11-25 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
 | 2026-11-25 | Endr. i transportklagenemndforskriften | [`forskrift/2012-01-20-84`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-01-20-84.html) |
 | 2026-11-25 | Endr. i opptaksforskrifta | [`forskrift/2025-09-11-1850`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-09-11-1850.html) |
-| 2026-11-25 | Forskrift om endring i forskrift om regulering av fisket etter bris… | [`forskrift/2026-06-22-1211`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-06-22-1211.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
